@@ -7,6 +7,11 @@ const News = () =>
     <div className={css.heading}>Latest updates</div>
     <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
+      <div className={css.itemDate}>9/26/2018</div>
+      <span className={css.itemText}>Testing ability to update the career pages.</span>
+    </div>
+    <div className={css.item}>
+      <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
       <div className={css.itemDate}>4/11/2017</div>
       <span className={css.itemText}>Updates careers inline with <a href="https://www.returnofreckoning.com/forum/viewtopic.php?f=42&t=23732" target="blank">latest patch</a>.</span>
     </div>
