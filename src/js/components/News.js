@@ -5,6 +5,11 @@ import css from '../../css/components/News.css';
 const News = () =>
   <div className={css.container}>
     <div className={css.heading}>Latest updates</div>
+      <div className={css.item}>
+      <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
+      <div className={css.itemDate}>9/27/2018</div>
+      <span className={css.itemText}>Updated several careers.</span>
+    </div>
     <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
       <div className={css.itemDate}>9/26/2018</div>
