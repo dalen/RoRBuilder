@@ -18,13 +18,13 @@
       "optionalAbilities": {
         "lvl1": 5005,
         "lvl2": 5006,
-        "lvl3": 4974,
+        "lvl3": 4979,
         "lvl4": 5008,
         "lvl5": 5009,
         "lvl6": 5010,
-        "lvl7": 5011
+        "lvl7": 6106
       },
-      "coreAbilities": [4959,4963,4965,4968,5054]
+      "coreAbilities": [4959,4963,4965,4968,5054,5011]
     },
     "c": {
       "name": "Path of Sacrifice",
@@ -629,7 +629,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
+      "description": "You deal 25% more damage, but all of your healing becomes 20% less effective. Additionally reduces the cooldown of Scent of Blood to 30 seconds.",
       "category": "CareerTactic"
     },
   
@@ -677,7 +677,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Transfer Essence's base heal is increased to 291 health and the healing from damage dealt increased to 75%.",
+      "description": "Transfer Essence's base heal is increased 25% and the healing from damage dealt increased to 75%.",
       "category": "CareerTactic"
     },
   
@@ -926,7 +926,7 @@
       "id": 4974,
       "name": "Khaine's Blessing",
       "type": "Buff",
-      "spec": "Path of Torture",
+      "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
       "range": "No range",
@@ -1045,7 +1045,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Removes all Cripples, Ailments, Curses, and Hexes from your group.",
+      "description": "Removes all Ailments and Hexes from your group.",
       "category": "Morale"
     },
   
@@ -1454,7 +1454,7 @@
       "id": 4979,
       "name": "Terrifying Aura",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Torture",
       "minrank": "15",
       "cost": "Tactic",
       "range": "No range",
@@ -1566,7 +1566,7 @@
       "id": 5011,
       "name": "Vision of Torment",
       "type": "Damaging",
-      "spec": "Path of Torture",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "5ft range",
@@ -1606,6 +1606,22 @@
       "cooldown": "10.0s cooldown",
       "note": "Builds 30 Soul Essence<br>Requires 13 points in Path of Torture",
       "description": "A merciless attack which deals 127 damage to the target. If the target is below 50% hit points, instead inflicts 277 damage and will always critically hit.",
+      "category": "Ability"
+    },
+	
+   {
+      "image": "99999",
+      "id": 6106,
+      "name": "Scent of Blood",
+      "type": "Offensive",
+      "spec": "Path of Torture",
+      "minrank": "1",
+      "cost": "no cost",
+      "range": "self",
+      "incant": "Insta-Cast",
+      "cooldown": "5min cooldown",
+      "note": "Requires 15 points in Path of Torture<br>Requires Dual wield",
+      "description": "Removes snares, roots, disarms and silencing effects, makes you immune to snares for 5s, and increases your movement speed by 50%.",
       "category": "Ability"
     }
   ]

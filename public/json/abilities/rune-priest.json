@@ -373,7 +373,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Attacks in the path of Grimnir have a 25% chance to detaunt your target, reducing their damage towards you to 50% for 15 seconds.",
+      "description": "Attacks in the path of Grimnir have a 25% chance to remove 225 points of Morale from targets struck.",
       "category": "CareerTactic"
     },
   
@@ -517,7 +517,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
+      "description": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt. You will also get a 10% disrupt strikethrough.",
       "category": "CareerTactic"
     },
   
@@ -661,7 +661,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Heals 295 to defensive target.",
+      "description": "Grungni blesses your target, restoring 303 health.",
       "category": "Ability"
     },
   
@@ -1029,7 +1029,7 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Buffs you or a friendly player with a pulsing area of effect that deals 256 Elemental damage every 3 seconds to all enemies within to 30 feet for 15 seconds.",
+      "description": "Buffs you or a friendly player with a pulsing area of effect that deals 290 Elemental damage every 3 seconds to all enemies within to 30 feet for 15 seconds. Not effected by cooldown reduction abilities.",
       "category": "Ability"
     },
   
@@ -1045,7 +1045,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Wounds your target for 245 Elemental damage and Staggers the target for 6 seconds, preventing all actions unless they're damaged.",
+      "description": "Wounds your target for 273 Elemental damage and Staggers the target for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
   
@@ -1077,7 +1077,7 @@
       "incant": "6.0s cast",
       "cooldown": "11.0s cooldown",
       "note": "",
-      "description": "Channeled. Deals 1323 Elemental damage over 6 seconds. 100% chance to be setback while casting.",
+      "description": "You channel a powerful series of runes around your target which project searing flame into them. Dealing 1729 Elemental Damage over 6 seconds for as long as you maintain yout concentration.",
       "category": "Ability"
     },
   
@@ -1109,7 +1109,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Deals 524 Elemental damage over 9 seconds to targets 40 feet in front of you.",
+      "description": "A burst of force errupts from your rune dealing 756 Elemental Damage over 9 seconds to the targets 40 feet in front of you.",
       "category": "Ability"
     },
   
@@ -1141,7 +1141,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Deals 1162 Elemental damage over 24 seconds and heals your defensive target for the amount of damage dealt.",
+      "description": "Deals 1505 Elemental damage over 24 seconds and heals your defensive target for the amount of damage dealt.",
       "category": "Ability"
     },
   
@@ -1157,7 +1157,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Deals 234 Elemental damage",
+      "description": "Deals 320 Elemental damage",
       "category": "Ability"
     },
   
@@ -1173,7 +1173,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals 310 Elemental damage to your target and heals your Defensive target for the damage dealt.",
+      "description": "Deals 425 Elemental damage to your target and heals your Defensive target for the damage dealt.",
       "category": "Ability"
     },
   
@@ -1189,7 +1189,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals 610 Elemental damage over 15 seconds.",
+      "description": "You set your target ablaze. Burning them for 870 Elemental Damage over 15 seconds.",
       "category": "Ability"
     },
   
@@ -1237,7 +1237,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Restores 267 health, then continues to restore 330 health over 5 seconds. This ability will continue to build up even if you move.",
+      "description": "Restores 272 health, then continues to restore 340 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
   
@@ -1253,7 +1253,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Deals 189 Elemental damage to all targets within 30 feet of you.",
+      "description": "Your rune transmits a surge of power through the ground dealing 247 Elemental damage to all targets within 30 feet of you.",
       "category": "Ability"
     },
   
@@ -1317,7 +1317,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Heals for 1755 life over 15 seconds",
+      "description": "You call upon a regenerative rune restoring 1780 heatlth over 15 seconds to your target.",
       "category": "Ability"
     },
   
@@ -1333,7 +1333,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Restores 919 health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
+      "description": "Restores 883 health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
       "category": "Ability"
     },
   

@@ -4,7 +4,7 @@
       "name": "Path of Carnage",
       "optionalAbilities": {
         "lvl1": 5623,
-        "lvl2": 5624,
+        "lvl2": 5631,
         "lvl3": 5625,
         "lvl4": 5626,
         "lvl5": 5627,
@@ -17,7 +17,7 @@
       "name": "Path of Suffering",
       "optionalAbilities": {
         "lvl1": 5630,
-        "lvl2": 5631,
+        "lvl2": 5624,
         "lvl3": 5632,
         "lvl4": 5633,
         "lvl5": 5634,
@@ -373,7 +373,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within 25 feet, but Slice will now do 10% less damage.",
+    "description": "Increases the range of Slice's arc to 30 feet and removes the target limitation.",
     "category": "CareerTactic"
   },
 
@@ -526,7 +526,7 @@
     "id": 5631,
     "name": "Elixir of Blades",
     "type": "Damaging",
-    "spec": "Path of Suffering",
+    "spec": "Path of Carnage",
     "minrank": "1",
     "cost": "Costs 25 AP",
     "range": "No range",
@@ -542,7 +542,7 @@
     "id": 5624,
     "name": "Elixir of Insane Power",
     "type": "Buff",
-    "spec": "Path of Carnage",
+    "spec": "Path of Suffering",
     "minrank": "1",
     "cost": "Costs 25 AP",
     "range": "No range",
@@ -629,7 +629,7 @@
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "You stab your enemy with a poisoned blade, dealing 76 damage. The victim becomes wracked with pains, suffering an additional 216 damage over 9 seconds. This effect will stack with itself up to three times.",
+    "description": "You stab your enemy with a poisoned blade, dealing 110 damage. The victim becomes wracked with pains, suffering an additional 432 damage over 9 seconds. This effect will stack with itself up to three times.",
     "category": "Ability"
   },
 
@@ -981,7 +981,7 @@
     "incant": "Insta-Cast",
     "cooldown": "10.0s cooldown",
     "note": "",
-    "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 50 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.",
+    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 50 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.",
     "category": "Ability"
   },
 
@@ -997,7 +997,7 @@
     "incant": "Insta-Cast",
     "cooldown": "10.0s cooldown",
     "note": "",
-    "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.",
+    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.",
     "category": "Ability"
   },
 
@@ -1013,7 +1013,7 @@
     "incant": "Insta-Cast",
     "cooldown": "10.0s cooldown",
     "note": "",
-    "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.",
+    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.",
     "category": "Ability"
   },
 
@@ -1221,7 +1221,7 @@
     "incant": "3.0s cast",
     "cooldown": "8.0s cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-    "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<br>  1 Blood Lust: 402 damage.<br>  2 Blood Lust:  504 damage.<br>  3 Blood Lust:  606 damage.<br>  4 Blood Lust:  702 damage.<br>  5 Blood Lust:  804 damage.",
+    "description": "A relentless string of attacks which repeatedly strikes your target and all enemies within 20 feet of them up to 6 times over 3 seconds.<br>  1 Blood Lust: 402 damage.<br>  2 Blood Lust:  504 damage.<br>  3 Blood Lust:  606 damage.<br>  4 Blood Lust:  702 damage.<br>  5 Blood Lust:  804 damage.",
     "category": "Ability"
   },
 
@@ -1253,7 +1253,7 @@
     "incant": "Insta-Cast",
     "cooldown": "10.0s cooldown",
     "note": "Target must be facing away from you<br>Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent<br>Requires 13 points in Path of Treachery",
-    "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt.<br>  1 Blood Lust: 88 damage per hit.<br>  2 Blood Lust: 109 damage per hit.<br>  3 Blood Lust: 131 damage per hit.<br>  4 Blood Lust: 151 damage per hit.<br>  5 Blood Lust: 172 damage per hit.",
+    "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<br>  1 Blood Lust: 88 damage per hit.<br>  2 Blood Lust: 109 damage per hit.<br>  3 Blood Lust: 131 damage per hit.<br>  4 Blood Lust: 151 damage per hit.<br>  5 Blood Lust: 172 damage per hit.",
     "category": "Ability"
   },
 
@@ -1269,7 +1269,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Envenomed Blade will now also reduce the victim's chance to critically hit by 25%.",
+    "description": "Envenomed Blade will now also reduce the victim's chance to critically hit by 10% per stack.",
     "category": "CareerTactic"
   },
 
@@ -1331,9 +1331,9 @@
     "cost": "No AP Cost",
     "range": "No range",
     "incant": "2.0s cast",
-    "cooldown": "30.0s cooldown",
+    "cooldown": "35.0s cooldown",
     "note": "",
-    "description": "You prowl through the shadows for the next 30 seconds, making it less likely that hostile monsters will notice you but slowly draining away your action points. This effect will end if you use any abilities or run out of action points.",
+    "description": "You prowl through the shadows for the next 30 seconds, rendering you invisible to your foes unless you or they draw too close. You are less likely to be noticed when stationary, flanking your target or if you have high Initiative.<br> The cooldown of this abillity is reduced by 1 second for every enemy within 100 feet of you when the effect is broken.<br> This effect will slwoly drain your action points and will end if you use any abilities or run out of action points.",
     "category": "Ability"
   },
 
@@ -1409,11 +1409,11 @@
     "spec": "Path of Carnage",
     "minrank": "1",
     "cost": "Costs 40 AP",
-    "range": "5ft range",
+    "range": "no range",
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "A deep stab which deals 227 damage to your target.",
+    "description": "A wide slice which deals 236 damage to up to 3 enemies in front of you, up to 15 feet away.",
     "category": "Ability"
   },
 
@@ -1607,6 +1607,38 @@
     "note": "Builds 1 Blood Lust",
     "description": "A brutal attack that deals 728 Spirit damage to your target over 21 seconds. If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 75 for 21 seconds.",
     "category": "Ability"
+  },
+  
+  {
+    "image": "99999",
+    "id": 6100,
+    "name": "Shadow Runner",
+    "type": "Buff",
+    "spec": "Core Ability",
+    "minrank": "10",
+    "cost": "No AP Cost",
+    "range": "No range",
+    "incant": "1.0s cast",
+    "cooldown": "35.0s cooldown",
+    "note": "",
+    "description": "You blend with the shadows and surge forward. You are rendered invisible to your foes and your movement speed is increased by 50% for 5 seconds.<br> The cooldown of this abillity is reduced by 1 second for every enemy within 100 feet of you when the effect is broken.<br> This effect will end if you use any abilities.",
+    "category": "Ability"
+  },
+  
+   {
+    "image": "22702",
+    "id": 6102,
+    "name": "Close Combat",
+    "type": "Buff",
+    "spec": "Core Ability",
+    "minrank": "40",
+    "cost": "Tactic",
+    "range": "No range",
+    "incant": "Passive",
+    "cooldown": "No cooldown",
+    "note": "",
+    "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+    "category": "CareerTactic"
   }
 ]
 }

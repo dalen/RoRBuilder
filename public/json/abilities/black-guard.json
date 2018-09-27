@@ -9,19 +9,19 @@
         "lvl4": 910,
         "lvl5": 913,
         "lvl6": 914,
-        "lvl7": 915
+        "lvl7": 6101
       },
-      "coreAbilities": [863,870,876,874,865]
+      "coreAbilities": [863,870,876,874,865,915]
     },
     "b": {
       "name": "Path of Loathing",
       "optionalAbilities": {
-        "lvl1": 920,
+        "lvl1": 916,
         "lvl2": 917,
-        "lvl3": 916,
-        "lvl4": 921,
-        "lvl5": 918,
-        "lvl6": 919,
+        "lvl3": 918,
+        "lvl4": 919,
+        "lvl5": 920,
+        "lvl6": 921,
         "lvl7": 922
       },
       "coreAbilities": [877,986,866,881,883]
@@ -282,18 +282,18 @@
     },
   
     {
-      "image": "11031",
+      "image": "99999",
       "id": 910,
-      "name": "Get Down!",
+      "name": "Halt, Fool!",
       "type": "Damaging",
       "spec": "Path of Malice",
       "minrank": "1",
-      "cost": "Costs 20 AP",
+      "cost": "No AP Cost",
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires 9 points in Path of Malice",
-      "description": "Hits your target with a 3 second knockdown. Also damages up to 8 opponents within 30 feet.",
+      "note": "Cost 30 Hatred<br>Requires Great Weapon<br>Requires 9 points in Path of Malice",
+      "description": "A vicious blow dealing 441 damage winds your opponent, stunning them and reducing thier movement speed by 40% for 3 seconds. Your foe's feeble floundering fills you with contempt, increasing your speed by 30% and reducing the cooldown of Exile by 50% for as long as this effect lasts.",
       "category": "Ability"
     },
   
@@ -302,8 +302,8 @@
       "id": 915,
       "name": "Blast of Hatred",
       "type": "Damaging",
-      "spec": "Path of Malice",
-      "minrank": "1",
+      "spec": "Core Ability",
+      "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Insta-Cast",
@@ -533,7 +533,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A maiming strike that allows you to further toy with your opponent by reducing their movement speed by 40% and dealing 645 damage over 10 seconds.",
+      "description": "A maiming strike that allows you to further toy with your opponent by reducing their movement speed by 40% and dealing 265 damage over 10 seconds.",
       "category": "Ability"
     },
   
@@ -805,7 +805,7 @@
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "For up to 10 seconds your superior training allows you and your Dark Protector (if within 50ft) to easily Parry or Disrupt the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <br> With 30 Hate: Restores 5 AP. <br> With 60 Hate: Restores 10 AP.<br> With 90 Hate: Restores 15 AP",
+      "description": "For up to 10 seconds your superior training allows you to easily Parry the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <br> With 30 Hate: Restores 5 AP. <br> With 60 Hate: Restores 10 AP.<br> With 90 Hate: Restores 15 AP",
       "category": "Ability"
     },
   
@@ -853,7 +853,7 @@
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
       "note": "Requires 5 points in Path of Malice",
-      "description": "A flurry of blows that inflicts 283 damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
+      "description": "A flurry of blows that inflicts 110 damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
       "category": "Ability"
     },
   
@@ -868,7 +868,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Cooldown reduced by 50% if using a Great Weapon",
+      "note": "",
       "description": "An overwhelming blow that deals 423 damage and will knockback your target based on your Hate.<br> With 30 Hate: Medium Knockback. <br> With 60 Hate: Long Knockback.<br> With 90 Hate: Very Long Knockback.",
       "category": "Ability"
     },
@@ -1028,8 +1028,8 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "",
-      "description": "Your intense fury allows you and your Dark Protector (if within 50ft) to shrug off the greatest of hits. For 10 seconds your Armor is increased by 618 and you will become less likely to be Critically hit depending on your Hatred. <br> With 30 Hate: 15% less likely to be Critically hit. <br> With 60 Hate: 30% less likely to be Critically hit.<br> With 90 Hate: 45% less likely to be Critically hit.",
+      "note": "Requires 9 points in Path of Fury",
+      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds your Armor is increased by 618 and you will become less likely to be Critically hit depending on your Hatred. <br> With 30 Hate: 15% less likely to be Critically hit. <br> With 60 Hate: 30% less likely to be Critically hit.<br> With 90 Hate: 45% less likely to be Critically hit.",
       "category": "Ability"
     },
   
@@ -1413,7 +1413,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A vile attack that crushes your target's will to live, inflicting 348 damage and lowering their Intelligence and Willpower by 25 for 20 seconds. This effect can be stacked up to 3 times.",
+      "description": "A vile attack that crushes your target's will to live, inflicting 127 damage and lowering their Intelligence and Willpower by 25 for 20 seconds. This effect can be stacked up to 3 times.",
       "category": "Ability"
     },
   
@@ -1461,7 +1461,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Costs 30 Hatred",
-      "description": "A sweeping strike that rakes across targets up to 25 feet in front of you for 351 damage",
+      "description": "A sweeping strike that rakes across targets up to 25 feet in front of you for 183 damage",
       "category": "Ability"
     },
   
@@ -1477,7 +1477,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blade of Ruin and Monstrous Rending both cost 10 less Hate to use.",
+      "description": "Monstrous Rending cost 10 less Hate to use.",
       "category": "CareerTactic"
     },
   
@@ -1621,7 +1621,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Costs 20 Hatred",
-      "description": "A merciless attack that weakens your target, dealing 423 damage and reducing their Toughness by 75 for 20 seconds.",
+      "description": "A merciless attack that weakens your target, dealing 271 damage and reducing their Toughness by 75 for 20 seconds.",
       "category": "Ability"
     },
   
@@ -1717,7 +1717,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must have an Enchantment",
-      "description": "You shatter one Enchantment from your enemy and deal 348 damage.",
+      "description": "You shatter one Enchantment from your enemy and deal 151 damage.",
       "category": "Ability"
     },
   
@@ -1733,7 +1733,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Costs 15 Hatred",
-      "description": "Your overwhelming hate shields you and your Dark Protector from up to 625 damage over 10 seconds.",
+      "description": "Your overwhelming hate shields you from up to 625 damage over 10 seconds.",
       "category": "Ability"
     },
   
@@ -1861,7 +1861,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Block",
-      "description": "A fierce strike that slams your opponent to the ground, dealing 423 damage and knocking them down for 2 seconds or more based on Hate. <br> With 30 Hate: Knocks down for 3 seconds. <br> With 60 Hate: Knocks down for 4 seconds.<br> With 90 Hate: Knocks down for 5 seconds.",
+      "description": "A fierce strike that slams your opponent to the ground, dealing 262 damage and knocking them down for 2 seconds or more based on Hate. <br> With 30 Hate: Knocks down for 3 seconds. <br> With 60 Hate: Knocks down for 4 seconds.<br> With 90 Hate: Knocks down for 5 seconds.",
       "category": "Ability"
     },
   
@@ -2022,6 +2022,22 @@
       "cooldown": "20.0s cooldown",
       "note": "",
       "description": "A great wave spreads 40 feet in front of you, inflicting 284 damage and reducing movement by 40% for 10 seconds.",
+      "category": "Ability"
+    },
+	
+	 {
+      "image": "99999",
+      "id": 6101,
+      "name": "Rebounding Hatred",
+      "type": "Buff",
+      "spec": "Path of Malice",
+      "minrank": "1",
+      "cost": "Costs 20 AP/Sec",
+      "range": "No range",
+      "incant": "20s Cast",
+      "cooldown": "No cooldown",
+      "note": "Requires Great Weapon",
+      "description": "You focus on your Glaive with great vitriol, forming a veil of Hatred between you and your opponent. Your chance to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back 130 damage.",
       "category": "Ability"
     }
   ]

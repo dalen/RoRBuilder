@@ -821,7 +821,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds which would normally have a buildup time will cast instantly instead.<br>This effect will not trigger more than once every 6 seconds.",
+      "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds has 50% reduced build-up time and can be cast on the move.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1237,7 +1237,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all enemies within 30 feet.",
+      "description": "Deals 448 damage to all enemies within 30 feet and reduce their Wounds by 180 for 10 seconds.",
       "category": "Morale"
     },
   
