@@ -3,11 +3,11 @@
     "a": {
       "name": "Path of Isha",
       "optionalAbilities": {
-        "lvl1": 3454,
-        "lvl2": 3455,
-        "lvl3": 3456,
+        "lvl1": 3456,
+        "lvl2": 3462,
+        "lvl3": 3458,
         "lvl4": 3457,
-        "lvl5": 3458,
+        "lvl5": 6103,
         "lvl6": 3459,
         "lvl7": 3460
       },
@@ -17,10 +17,10 @@
       "name": "Path of Asuryan",
       "optionalAbilities": {
         "lvl1": 3461,
-        "lvl2": 3462,
+        "lvl2": 3469,
         "lvl3": 3463,
         "lvl4": 3464,
-        "lvl5": 3465,
+        "lvl5": 6105,
         "lvl6": 3466,
         "lvl7": 3467
       },
@@ -29,11 +29,11 @@
     "c": {
       "name": "Path of Vaul",
       "optionalAbilities": {
-        "lvl1": 3468,
-        "lvl2": 3469,
-        "lvl3": 3470,
+        "lvl1": 3470,
+        "lvl2": 3455,
+        "lvl3": 3472,
         "lvl4": 3471,
-        "lvl5": 3472,
+        "lvl5": 6104,
         "lvl6": 3473,
         "lvl7": 3474
       },
@@ -192,29 +192,13 @@
       "type": "Damaging",
       "spec": "Path of Vaul",
       "minrank": "4",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 45 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
-      "description": "Deals 277 damage to your target, and heals your defensive target for 150% of the damage done.",
+      "description": "Deals 200 spiritdamage to your target, and heals your defensive target for 488 health plus 150% of the damage done.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22706",
-      "id": 3454,
-      "name": "Balanced Mending",
-      "type": "Buff",
-      "spec": "Path of Isha",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Your Healing Energy is 35% more effective on other people, but 15% less effective on you.",
-      "category": "CareerTactic"
     },
   
     {
@@ -430,13 +414,13 @@
       "id": 3462,
       "name": "Cleansing Flare",
       "type": "Damaging",
-      "spec": "Path of Asuryan",
+      "spec": "Path of Isha",
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force<br>Requires 5 points in Path of Asuryan",
+      "note": "Tranquility reduces cast time. <br>Builds Force<br>Requires 5 points in Path of Isha",
       "description": "Deals 205 Spirit damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
       "category": "Ability"
     },
@@ -579,9 +563,9 @@
       "cost": "Costs 50 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "20seconds cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force<br>Requires 13 points in Path of Asuryan",
-      "description": "A groupmate becomes surrounded by dangerous energies for 10 seconds. Every 2 seconds, all enemies within 30 feet of them will suffer 146 Spirit damage.",
+      "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds. Every 1 seconds, all enemies within 30 feet of them will suffer 146 Spirit damage.",
       "category": "Ability"
     },
   
@@ -656,12 +640,12 @@
       "type": "Hex",
       "spec": "Core Ability",
       "minrank": "18",
-      "cost": "Costs 50 AP",
+      "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You siphon magic from your target, draining 180 Action Points over 9 seconds into yourself.",
+      "description": "You Hex your enemy and gain 60 Action Points. You will additionally steal another 120 Action Points from your target over 9 seconds.",
       "category": "Ability"
     },
   
@@ -688,29 +672,13 @@
       "type": "Damaging",
       "spec": "Path of Vaul",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 50 AP",
       "range": "80ft range",
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force<br>Requires 13 points in Path of Vaul",
-      "description": "A wash of power leeches the breath from your target and up to four other enemies within 30 feet of them, dealing 251 Spirit damage to each. Their stolen breath will heal your group for 150% of the inflicted damage.",
+      "description": "A wash of power leeches the breath from your target and up to four other enemies within 25 feet of them, dealing 199 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 0 health, plus 50% of the total inflicted damage.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likley to be Blocked or Disrupted.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22709",
-      "id": 3468,
-      "name": "Expanded Control",
-      "type": "Buff",
-      "spec": "Path of Vaul",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Reduces the build time of Balance Essence by 0.5 seconds but increases the cost by 10 Action Points",
-      "category": "CareerTactic"
     },
   
     {
@@ -812,7 +780,7 @@
     {
       "image": "22703",
       "id": 3461,
-      "name": "Forked Lancing",
+      "name": "Radiant Burst",
       "type": "Buff",
       "spec": "Path of Asuryan",
       "minrank": "1",
@@ -986,22 +954,6 @@
     },
   
     {
-      "image": "22694",
-      "id": 3465,
-      "name": "Increased Conductivity",
-      "type": "Buff",
-      "spec": "Path of Asuryan",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Your Path of Asuryan abilities are now 15% harder to Block or Disrupt.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "22705",
       "id": 3431,
       "name": "Isha's Encouragement",
@@ -1029,7 +981,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You gain a shield that absorbs 3600 damage for 60 seconds.",
+      "description": "You gain a shield that absorbs 3600 damage for 30 seconds.",
       "category": "Morale"
     },
   
@@ -1109,7 +1061,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near fatal wounds.  Increases the value of healing effects on the target by 25% while active. If the allies health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Magical Infusion at a time.",
+      "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. As long as this effect persists, the value of incoming heals on the target is increased by 25%.<br><br>A player may only be affected by a single Magical Infusion at a time.",
       "category": "Ability"
     },
   
@@ -1150,13 +1102,13 @@
       "id": 3455,
       "name": "Mistress of The Marsh",
       "type": "Hex",
-      "spec": "Path of Isha",
+      "spec": "Path of Vaul",
       "minrank": "1",
       "cost": "Costs 20 AP",
       "range": "100ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "",
+      "note": "Requires 5 points in Path of Vaul",
       "description": "For 10 seconds, all enemies within 20 feet of a spot that you select will have their Initiative reduced by 50 and become snared, reducing their run speed by 60%.",
       "category": "Ability"
     },
@@ -1470,13 +1422,13 @@
       "id": 3469,
       "name": "Storm of Cronos",
       "type": "Hex",
-      "spec": "Path of Vaul",
+      "spec": "Path of Asuryan",
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Builds Force<br>Requires 5 points in Path of Vaul",
+      "note": "Builds Force<br>Requires 5 points in Path of Asuryan",
       "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 338 Spirit damage and reducing their Spirit resistance by 236 for 20 seconds.",
       "category": "Ability"
     },
@@ -1557,7 +1509,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically heal someone, your healing abilities will cost 50% less action points for 10 seconds.",
+      "description": "Whenever you critically heal someone, your healing abilities will cost 35% less action points for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1591,6 +1543,54 @@
       "note": "",
       "description": "All group mates within 100 feet regain 800 health over 15 seconds, and become surrounded by a magical barrier which will absorb 2400 damage.",
       "category": "Morale"
-    }
+    },
+	
+	{
+      "image": "22706",
+      "id": 6103,
+      "name": "Apotheosis",
+      "type": "Buff",
+      "spec": "Path of Isha",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time you use Cleansing Light on an ally, you will now remove one Hex or Ailment from all groupmates within 50 feet of them.",
+      "category": "CareerTactic"
+    },
+	
+	{
+      "image": "22705",
+      "id": 6104,
+      "name": "Penetrating Siphon",
+      "type": "Buff",
+      "spec": "Path of Vaul",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Balance Essence and Energy of Vaul will now inflict 0 Spirit damage, but neither will grant a fixed heal, nor will they be castable on the move.",
+      "category": "CareerTactic"
+    },
+	
+	{
+      "image": "22703",
+      "id": 6105,
+      "name": "Penetrating Sip",
+      "type": "Buff",
+      "spec": "Path of Asuryan",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Reduces the duration and tick interval of Searing Touch by 50%.",
+      "category": "CareerTactic"
+    }	
   ]
 }
