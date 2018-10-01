@@ -27,8 +27,8 @@ class SelectLevel extends Component {
   }
 
   generateLevels() {
-    let start = 1;
-    const end = 40;
+    let start = 40;
+    const end = 1;
     const optionList = [];
     for (start; start <= end; start++) {
       optionList.push(<option key={start} value={start}>{start}</option>);
