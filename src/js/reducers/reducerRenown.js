@@ -1,6 +1,6 @@
 import { SET_RENOWN, RESET_RENOWN } from "../actions/actionRenown";
 
-const initialRenown = 10;
+const initialRenown = 40;
 
 export default function(state = initialRenown, action) {
   switch (action.type) {
