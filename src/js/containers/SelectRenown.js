@@ -57,11 +57,11 @@ class SelectRenown extends Component {
           className={css.select} id="renownSelect"
           value={this.props.renown}
         >
-          <option value="10">&lt; 40+</option>
-          <option value="40">50+</option>
-          <option value="50">60+</option>
-          <option value="60">70+</option>
-          <option value="70">39-</option>
+          <option value="40">40+</option>
+          <option value="50">50+</option>
+          <option value="60">60+</option>
+          <option value="70">70+</option>
+          <option value="10">&lt; 40</option>
         </select>
       </div>
     );
