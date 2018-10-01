@@ -1,6 +1,6 @@
 import { SET_LEVEL, RESET_LEVEL } from "../actions/actionLevel";
 
-const initialLevel = 1;
+const initialLevel = 40;
 
 export default function(state = initialLevel, action) {
   switch (action.type) {
