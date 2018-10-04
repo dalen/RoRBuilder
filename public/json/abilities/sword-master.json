@@ -1670,7 +1670,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "An enchantment which calls upon the power of vaul, rendering yourself and any of your groupmates within 30feet of you immune to crowd control effects for 3 seconds and reducing incoming damage by 10%.",
-      "category": "CareerTactic"
+      "category": "Ability"
     },
 
     {
@@ -1702,7 +1702,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you strike a target with a path of hoeth ability, there is a 25% chance that they will lose 225 morale.",
-      "category": "Ability"
+      "category": "CareerTactic"
     }
   ]
 }
