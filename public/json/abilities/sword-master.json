@@ -536,23 +536,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
-    {
-      "image": "22709",
-      "id": 2863,
-      "name": "Dampening Talon",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "21",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Dragon's Talon will now reduce the target's Block and Parry chance by 10% for 5 seconds.",
-      "category": "CareerTactic"
-    },
-  
+
     {
       "image": "13304",
       "id": 2852,
@@ -808,23 +792,7 @@
       "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "22708",
-      "id": 2867,
-      "name": "Forceful Shock",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "35",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Blurring Shock now knocks back players and knocks down monsters.",
-      "category": "CareerTactic"
-    },
-  
+
     {
       "image": "13302",
       "id": 2845,
@@ -1086,7 +1054,7 @@
       "id": 2895,
       "name": "Lingering Intimidation",
       "type": "Buff",
-      "spec": "Path of Vaul",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
