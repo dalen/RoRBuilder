@@ -6,7 +6,7 @@
         "lvl1": 2886,
         "lvl2": 2887,
         "lvl3": 2888,
-        "lvl4": 2889,
+        "lvl4": 2898,
         "lvl5": 2890,
         "lvl6": 2891,
         "lvl7": 2892
@@ -18,10 +18,10 @@
       "optionalAbilities": {
         "lvl1": 2893,
         "lvl2": 2894,
-        "lvl3": 2895,
-        "lvl4": 2898,
-        "lvl5": 2897,
-        "lvl6": 2896,
+        "lvl3": 2897,
+        "lvl4": 2896,
+        "lvl5": 7500,
+        "lvl6": 7501,
         "lvl7": 2899
       },
       "coreAbilities": [2844,2860,2845,2843,2855]
@@ -29,11 +29,11 @@
     "c": {
       "name": "Path of Hoeth",
       "optionalAbilities": {
-        "lvl1": 2900,
-        "lvl2": 2901,
-        "lvl3": 2902,
-        "lvl4": 2903,
-        "lvl5": 2904,
+        "lvl1": 2902,
+        "lvl2": 2903,
+        "lvl3": 7502,
+        "lvl4": 2889,
+        "lvl5": 7503,
         "lvl6": 2905,
         "lvl7": 2906
       },
@@ -309,7 +309,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "A powerful slash that deals 144 Spirit damage. For the next 10 seconds, each time the target is critically hit, they take an additional 75 Spirit damage.",
+      "description": "A powerful slash that deals 194 Spirit damage. For the next 10 seconds, each time the target is critically hit, they take an additional 112 Spirit damage.",
       "category": "Ability"
     },
   
@@ -318,7 +318,7 @@
       "id": 2900,
       "name": "Bolstering Enchantments",
       "type": "Buff",
-      "spec": "Path of Hoeth",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -468,8 +468,8 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires 9 points in Path of Vaul",
-      "description": "You launch two powerful blows dealing a total of 262 Spirit damage and knocking your opponent down for 3 seconds. Your group members within 100 feet become Unstoppable for 4 seconds, granting immunity to all Stun, Knockdown, Disarm, or Silence effects.",
+      "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires 9 points in Path of Khaine",
+      "description": "You launch two powerful blows dealing a total of 350 Spirit damage and knocking your opponent down for 3 seconds.",
       "category": "Ability"
     },
   
@@ -484,8 +484,8 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Shield<br>Requires 13 points in Path of Vaul",
-      "description": "A calculated shield maneuver that inflicts 144 damage and interrupts any spells being cast. Additionally, for the next 20 seconds, your block rate is increased by 5% and your armor will be increased by 618 points.",
+      "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Shield<br>Requires 9 points in Path of Vaul",
+      "description": "A calculated shield maneuver that inflicts 194 damage to all enemies within 15ft in front of you and interrupts any spells they are casting. Additionally, for the next 20 seconds, your block rate is increased by 5% and your armor will be increased by 990 points.",
       "category": "Ability"
     },
   
@@ -565,7 +565,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "When your blade hits your opponent it releases a blinding flash of light that deals 219 Spirit damage, and disorients your target for 5 seconds, increasing their build times by 50%.",
+      "description": "When your blade hits your opponent it releases a blinding flash of light that deals 306 Spirit damage, and disorients your target for 5 seconds, increasing their build times by 50%.",
       "category": "Ability"
     },
   
@@ -581,7 +581,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Quick Incision will now inflict an additional 448 damage over 10 seconds.",
+      "description": "Quick Incision will now inflict an additional 628 damage over 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -661,7 +661,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You release two rending blows that deal 97 Spirit damage each, crippling your target for 4 seconds, reducing the damage they deal with every attack to 80%.",
+      "description": "You release two rending blows that deal 134 Spirit damage each, crippling your target for 4 seconds, reducing the damage they deal with every attack to 80%.",
       "category": "Ability"
     },
   
@@ -677,7 +677,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A guarded strike that deals 144 damage and improves your chance to parry by 25% for 5 seconds.",
+      "description": "A guarded strike that deals 194 damage and improves your chance to parry by 25% for 5 seconds.",
       "category": "Ability"
     },
   
@@ -709,7 +709,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
-      "description": "A quick precision slash that calls out the enchantment in your blade dealing 119 Spirit damage.",
+      "description": "A quick precision slash that calls out the enchantment in your blade dealing 156 Spirit damage.",
       "category": "Ability"
     },
   
@@ -725,7 +725,7 @@
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Great Weapon<br>Requires 13 points in Path of Khaine",
-      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing 190 Spirit damage with each hit.",
+      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing 274 Spirit damage with each hit.",
       "category": "Ability"
     },
   
@@ -837,7 +837,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
-      "description": "A swift attack that deals 72 damage and Cripples for an additional 135 damage over 5 seconds. Monsters struck with this technique will hate you more.",
+      "description": "A swift attack that deals 97 damage and Cripples for an additional 185 damage over 5 seconds. Monsters struck with this technique will hate you more.",
       "category": "Ability"
     },
   
@@ -869,7 +869,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
-      "description": "A fierce attack that deals 144 damage and cannot be Blocked or Parried.",
+      "description": "A fierce attack that deals 194 damage and cannot be Blocked or Parried.",
       "category": "Ability"
     },
   
@@ -917,7 +917,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals 70 Spirit damage to all opponents within 30 feet of you, knocking back enemy players and knocking down monsters.",
+      "description": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals 95 Spirit damage to all opponents within 30 feet of you, knocking back enemy players and knocking down monsters.",
       "category": "Ability"
     },
   
@@ -981,7 +981,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirit of the heavens. All your melee attacks gain a 25% chance to reduce all of your target's resistances by 157 for 10 seconds.<br><br>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirit of the heavens. All your melee attacks gain a 25% chance that you will increase your group's armor or resistances for 10s.<br><br>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability"
     },
   
@@ -1045,7 +1045,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "An overpowering strike that deals 169 damage and decreases your opponent's morale by 100.",
+      "description": "An overpowering strike that deals 231 damage and decreases your opponent's morale by 100.",
       "category": "Ability"
     },
   
@@ -1139,9 +1139,9 @@
       "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Insta-Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "10.0s shared cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirit of nature. All your melee attacks gain a 25% chance to randomly steal 75 stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<br><br>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirit of nature. All your melee attacks gain a 25% chance to randomly steal 120 stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<br><br>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability"
     },
   
@@ -1219,9 +1219,9 @@
       "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Insta-Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "10.0s shared cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to activate a shield that absorbs up to 325 damage over 10 seconds.<br><br>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to increase your group's wounds by 47 for 10 seconds. Anyone affected will be healed for the amount increased.<br><br>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability"
     },
   
@@ -1230,14 +1230,14 @@
       "id": 2889,
       "name": "Phoenix's Wing",
       "type": "Damaging",
-      "spec": "Path of Khaine",
+      "spec": "Path of Hoeth",
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Great Weapon<br>Requires 9 points in Path of Khaine",
-      "description": "A broad slash that hits all opponents in front of you for 125 damage, as well as increasing hate from monsters.",
+      "description": "A broad slash dealing 175 spirit damage that hits all opponents in front of you, up to 25 feet away. Snares them by 20% for 2seconds.",
       "category": "Ability"
     },
   
@@ -1285,7 +1285,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Leads to Improved Balance<br>Requires 9 points in Path of Hoeth",
-      "description": "You call upon the magic in your blade to form a barrier to protect you, absorbing up to 550 damage for up to 5 seconds on groupmates within 50ft.",
+      "description": "You call upon the magic in your blade to form a barrier to protect you and any groupmates within 50 feet of you, absorbing up to 825 damage for up to 5 seconds",
       "category": "Ability"
     },
   
@@ -1301,7 +1301,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A rapid slash to your opponents legs that deals 119 damage and snares them by 40% for 10 seconds.",
+      "description": "A rapid slash to your opponents legs that deals 156 damage and snares them by 40% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1331,9 +1331,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Requires Block, Disrupt, Dodge, or Parry.<br>Requires 5 points in Path of Vaul",
-      "description": "Redirects the force of a blocked blow into a devastating attack dealing 169 damage and generating a large amount of additional hate from monsters.",
+      "cooldown": "20.0s cooldown",
+      "note": "Requires Block<br>Requires 5 points in Path of Vaul",
+      "description": "Redirects the force of a blocked blow into a devastating attack dealing 231 damage and gknocking your target back a medium distance. This attack generates a large amount of additional hatw from monsters.",
       "category": "Ability"
     },
   
@@ -1363,9 +1363,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Leads to Improved Balance<br>Requires 5 points in Path of Khaine",
-      "description": "A targeted strike that saps the energy from your target dealing 119 damage and reducing your opponent's AP by 10 every second for 5 seconds.",
+      "cooldown": "5.0s cooldown",
+      "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires 5 points in Path of Khaine",
+      "description": "A targeted strike that saps the energy from your target dealing 156 damage and reducing your opponent's AP by 10 every second for 5 seconds.",
       "category": "Ability"
     },
   
@@ -1381,7 +1381,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "All enemies within 30 feet suffer 1200 Spiritual damage over 12 seconds, and will steadily lose 28 Morale.",
+      "description": "All enemies within 30 feet suffer 1800 Spiritual damage over 12 seconds, and will steadily lose 28 Morale.",
       "category": "Morale"
     },
   
@@ -1413,7 +1413,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "Requires Shield<br>Requires 15 points in Path of Vaul",
-      "description": "Everyone in your group regains 200 action points and is protected by a magical barrier for 10 seconds which will absorb up to 3000 damage.",
+      "description": "Everyone in your group regains 200 action points and is protected by a magical barrier for 10 seconds which will absorb up to 4500 damage.",
       "category": "Morale"
     },
   
@@ -1557,7 +1557,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "On a successful Block, Parry, Dodge or Disrupt you will absorb up to 400 damage over the next 10 seconds. This effect will not trigger more than once every 3 seconds.",
+      "description": "On a successful Block, Parry, Dodge or Disrupt you will absorb up to 600 damage over the next 10 seconds. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1573,7 +1573,7 @@
       "incant": "20.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon",
-      "description": "You spin your greatsword with astounding speed forming a wall of steel between you and your opponent. Increasing your chance to Dodge, Disrupt and Parry attacks by 50% and whenever you defend against attack you will reflect back 100 Spirit damage.",
+      "description": "You spin your greatsword with astounding speed forming a wall of steel between you and your opponent. Increasing your chance to Dodge, Disrupt and Parry attacks by 50% and whenever you defend against attack you will reflect back 150 Spirit damage.",
       "category": "Ability"
     },
   
@@ -1589,7 +1589,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "Requires Great Weapon<br>Requires 15 points in Path of Khaine",
-      "description": "A spinning attack that inflicts 800 damage to all enemies within 30 feet and then knocks them away.",
+      "description": "A spinning attack that inflicts 1200 damage to all enemies within 30 feet and then knocks them away.",
       "category": "Morale"
     },
   
@@ -1605,7 +1605,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires 13 points in Path of Hoeth",
-      "description": "You release two swift blows that deal 109 Spirit damage each, interrupting any building attack and will Silence your target for 4 seconds. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
+      "description": "You release two swift blows that deal 153 Spirit damage each, interrupting any building attack and will Silence your target for 4 seconds. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
       "category": "Ability"
     },
   
@@ -1637,8 +1637,72 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "The magic from your blade is released in a staggering explosion that deals 120 damage to all opponents within 30 feet. In addition your opponent's Spiritual resistance will be reduced by 236 for 20 seconds.",
+      "description": "The magic from your blade is released in a staggering explosion that deals 170 damage to all opponents within 30 feet. In addition your opponent's Spiritual resistance will be reduced by 378 for 20 seconds.",
       "category": "Ability"
+    },
+
+    {
+      "image": "22709",
+      "id": 7500,
+      "name": "Raking Talon",
+      "type": "Buff",
+      "spec": "Path of Vaul",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Dragon's Talon bow additionally affects all enemies within 20ft of your target.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "22709",
+      "id": 7501,
+      "name": "Vaul's Tempering",
+      "type": "Enchantment",
+      "spec": "Path of Vaul",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "An enchantment which calls upon the power of vaul, rendering yourself and any of your groupmates within 30feet of you immune to crowd control effects for 3 seconds and reducing incoming damage by 10%.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "22709",
+      "id": 7502,
+      "name": "Blinding Strike",
+      "type": "Buff",
+      "spec": "Path of Hoeth",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Dazzling Strike will now reduce the target's chance to defend attacks by 10% for 5 seconds.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "22709",
+      "id": 7503,
+      "name": "Aethyric Dissipation",
+      "type": "Buff",
+      "spec": "Path of Hoeth",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time you strike a target with a path of hoeth ability, there is a 25% chance that they will lose 225 morale.",
+      "category": "CareerTactic"
     }
   ]
 }
