@@ -7,6 +7,11 @@ const News = () =>
     <div className={css.heading}>Latest updates</div>
       <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
+      <div className={css.itemDate}>10/04/2018</div>
+      <span className={css.itemText}>Updated SM and WP</span>
+    </div>
+      <div className={css.item}>
+      <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
       <div className={css.itemDate}>10/01/2018</div>
       <span className={css.itemText}>All careers now start at r40/rr40+.</span>
     </div>
