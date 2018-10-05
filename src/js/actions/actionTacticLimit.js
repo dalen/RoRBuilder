@@ -4,7 +4,7 @@ export const SET_TACTIC_LIMIT = "set_tactic_limit";
 
 export function calculateTacticLimit(level) {
 
-  let limit = 4;
+  let limit = 0;
 
   if (Number(level) === 40) {
     limit = 4;
