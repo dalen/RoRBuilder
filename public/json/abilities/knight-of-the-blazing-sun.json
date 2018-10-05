@@ -101,7 +101,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You become filled with the endless power of Myrmidia, dealing 99 damage every 3 seconds to all enemies within 30 feet.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You become filled with the endless power of Myrmidia, dealing 148 damage every 3 seconds to all enemies within 30 feet.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
   
@@ -165,7 +165,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You sweep your blade out in a wide arc, dealing 80 damage and reducing their Wounds by 75 to all enemies in front of you up to 25 feet away.",
+      "description": "You sweep your blade out in a wide arc, dealing 109 damage and reducing their Wounds by 120 to all enemies in front of you up to 25 feet away.",
       "category": "Ability"
     },
   
@@ -277,7 +277,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The force of the sun fills your blade, dealing 102 damage to the enemy and the victim will also suffer 186 over the next 9 seconds. This effect is stackable up to three times.",
+      "description": "The force of the sun fills your blade, dealing 142 damage to the enemy and the victim will also suffer 258 over the next 9 seconds. This effect is stackable up to three times.",
       "category": "Ability"
     },
   
@@ -405,7 +405,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A cruel slash at your victim's legs which deals 128 damage and snares them, reducing their run speed by 40% for 10 seconds.",
+      "description": "A cruel slash at your victim's legs which deals 171 damage and snares them, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -487,22 +487,6 @@
       "note": "",
       "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22698",
-      "id": 3075,
-      "name": "Destroy Confidence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "39",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Shatter Confidence will now remove up to 3 Enchantments from the victim, dealing damage for each one that was removed.",
-      "category": "CareerTactic"
     },
   
     {
@@ -588,7 +572,7 @@
     {
       "image": "22701",
       "id": 3094,
-      "name": "Encouraged Aim",
+      "name": "Overpowering Swing",
       "type": "Buff",
       "spec": "Path of Conquest",
       "minrank": "1",
@@ -597,7 +581,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While you are wielding a greatsword, Press The Attack! will now make it 10% more likely that enemies in the area will be critically hit.",
+      "description": "Arcing Swing will now additionally make enemies 10% more likely to be critically hit.",
       "category": "CareerTactic"
     },
   
@@ -725,7 +709,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to steady their thoughts, increasing all resistances by 236 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their resistances by 118.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You order your group to steady their thoughts, increasing all resistances by 378 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their resistances by 188.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
   
@@ -837,7 +821,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 77 damage to all enemies in front of you up to 40 feet away. Everyone hit by this attack will be staggered, and unable to move for 3 seconds, preventing all actions unless they are damaged.",
+      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 105 damage to all enemies in front of you up to 40 feet away. Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability"
     },
   
@@ -965,7 +949,7 @@
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
       "note": "",
-      "description": "You slam into your target without remorse, dealing up to 558 damage over 3 seconds. This effect will end if you break your concentration or run out of action points.",
+      "description": "You slam into your target without remorse, dealing up to 792 damage over 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -997,7 +981,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 800 damage to all enemies in a line in front of you, up to 65 feet away, and an additional 804 damage over 9 seconds.",
+      "description": "Deals 1200 damage to all enemies in a line in front of you, up to 65 feet away, and an additional 1206 damage over 9 seconds.",
       "category": "Morale"
     },
   
@@ -1029,7 +1013,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to ready their defenses, causing 150 damageback against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds. (At RR100)",
+      "description": "You order your group to ready their defenses, causing 225 damageback against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds. (At RR100)",
       "category": "Ability"
     },
   
@@ -1093,7 +1077,7 @@
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "The blessings of Myrmidia fill you, increasing your Armor by 618 for 10 seconds. Whenever you're attacked during this time, you will regain 10 Action Points.",
+      "description": "The blessings of Myrmidia fill you, increasing your Armor by 990 for 10 seconds. Whenever you're attacked during this time, you will regain 10 Action Points.",
       "category": "Ability"
     },
   
@@ -1109,7 +1093,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A careful strike that deals 153 damage, and ignores 25% of the victim's armor.",
+      "description": "A careful strike that deals 209 damage, and ignores 25% of the victim's armor.",
       "category": "Ability"
     },
   
@@ -1125,7 +1109,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to strike fiercely, increasing Strength by 75 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Strength by 75.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You order your group to strike fiercely, increasing Strength by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Strength by 120.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
   
@@ -1157,7 +1141,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "The power of the sun blasts your enemy away, dealing 153 damage and knocking them away from you.",
+      "description": "The power of the sun blasts your enemy away, dealing 209 damage and knocking them away from you.",
       "category": "Ability"
     },
   
@@ -1217,11 +1201,11 @@
       "spec": "Path of Glory",
       "minrank": "25",
       "cost": "Costs 25 AP",
-      "range": "65ft range",
+      "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You crush your enemy's will, removing 1 Enchantment from them. If an Enchantment is successfully removed, then the victim will also suffer 178 damage.",
+      "description": "You crush your enemy's will, removing 1 Enchantment from them. If an Enchantment is successfully removed, then the victim will also suffer 246 damage.",
       "category": "Ability"
     },
   
@@ -1237,7 +1221,7 @@
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing 100 Elemental damage back to anyone that attacks you.",
+      "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing 150 Elemental damage back to anyone that attacks you.",
       "category": "Ability"
     },
   
@@ -1253,7 +1237,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Shield",
-      "description": "A powerful forward slam with your shield which deals 178 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
+      "description": "A powerful forward slam with your shield which deals 246 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1285,7 +1269,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Your Shining Blade slices into your opponent for 153 damage. For the next 5 seconds, Shining Blade will cause an additional 100 Elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
+      "description": "Your Shining Blade slices into your opponent for 209 damage. For the next 5 seconds, Shining Blade will cause an additional 150 Elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability"
     },
   
@@ -1381,7 +1365,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "An overwhelming counterattack which deals 153 damage and knocks the victim down for 3 seconds.",
+      "description": "An overwhelming counterattack which deals 209 damage and knocks the victim down for 3 seconds.",
       "category": "Ability"
     },
   
@@ -1413,7 +1397,7 @@
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet. All of the victims will suffer 215 damage over 10 seconds and have their chance to defend attacks reduced by 10%.",
+      "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet. All of the victims will suffer 305 damage over 10 seconds and have their chance to defend attacks reduced by 10%.",
       "category": "Ability"
     },
   
@@ -1429,7 +1413,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to hold their positions, increasing Toughness by 75 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Toughness by 75.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You order your group to hold their positions, increasing Toughness by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Toughness by 120.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
   
@@ -1445,7 +1429,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 24 Action Points and 18 health over 3 seconds any time they defend themselves against an attack.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 24 Action Points and 132 health over 3 seconds any time they defend themselves against an attack.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
   
@@ -1461,7 +1445,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A smashing attack which deals 128 damage. This attack causes monsters to hate you twice as much as normal.",
+      "description": "A smashing attack which deals 171 damage. This attack causes monsters to hate you twice as much as normal.",
       "category": "Ability"
     },
   
@@ -1477,7 +1461,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shield Of The Sun will now deal 150 damage back against enemies, and Vicious Slash's cooldown is reduced by 1 second.",
+      "description": "Shield Of The Sun will now deal 225 damage back against enemies, and Vicious Slash's cooldown is reduced by 1 second.",
       "category": "CareerTactic"
     },
   
@@ -1573,7 +1557,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful strike which knocks your enemy off-balance, dealing 153 damage and causing the victim to lose 40 Action Points.",
+      "description": "A powerful strike which knocks your enemy off-balance, dealing 209 damage and causing the victim to lose 40 Action Points.",
       "category": "Ability"
     },
   
@@ -1621,7 +1605,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You slice deeply into your enemy, dealing 102 damage to the enemy and interrupting any abilities that they are building up. The victim will also suffer an additional 225 damage over 5 seconds.",
+      "description": "You slice deeply into your enemy, dealing 142 damage to the enemy and interrupting any abilities that they are building up. The victim will also suffer an additional 300 damage over 5 seconds.",
       "category": "Ability"
     },
   
