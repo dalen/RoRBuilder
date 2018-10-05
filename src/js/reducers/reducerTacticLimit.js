@@ -1,6 +1,6 @@
 import { CALCULATE_TACTIC_LIMIT, RESET_TACTIC_LIMIT, SET_TACTIC_LIMIT } from "../actions/actionTacticLimit";
 
-const initialLimit = 0;
+const initialLimit = 4;
 
 export default function(state = initialLimit, action) {
   switch (action.type) {
