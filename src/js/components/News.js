@@ -18,7 +18,7 @@ const News = () =>
     <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
       <div className={css.itemDate}>9/27/2018</div>
-      <span className={css.itemText}>Updated AM, BG, BW, Chosen, DoK, IB, RP, SL, and WE careers.</span>
+      <span className={css.itemText}>Updated AM, BG, BW, DoK, IB, RP, SL, and WE careers.</span>
     </div>
     <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
