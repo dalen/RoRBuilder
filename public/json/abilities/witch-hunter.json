@@ -549,7 +549,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent<br>Requires 13 points in Path of Confession",
-      "description": "A pistol shot that deals damage to your target and all other enemies near them. Knocks down primary target for 3 seconds.<br>  1 Accusation: 148 damage, 30 feet radius.<br>  2 Accusations: 189 damage, 35 feet radius.<br>  3 Accusations: 231 damage, 40 feet radius.<br>  4 Accusations: 273 damage, 43.3 feet radius.<br>  5 Accusations: 314 damage, 48.3 feet radius.",
+      "description": "A pistol shot that deals damage to your target and all other enemies near them, reducing their Morale based on Accusations, and knocks down the initial target for 3 seconds.<br>  1 Accusation: 186 damage, 30 feet radius, 50 Morale lost.<br>  2 Accusations: 206 damage, 35 feet radius, 100 Morale lost.<br>  3 Accusations: 226 damage, 40 feet radius, 150 Morale lost.<br>  4 Accusations: 248 damage, 43.3 feet radius, 200 Morale lost.<br>  5 Accusations: 268 damage, 48.3 feet radius, 250 Morale lost.",
       "category": "Ability"
     },
   
@@ -951,8 +951,8 @@
       "note": "",
       "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points. This effect will end if you use any abilities, run out of action points, or after 30 seconds has passed.",
       "category": "Ability"
-    },
-  
+    },    
+    
     {
       "image": "22708",
       "id": 4355,
@@ -976,7 +976,7 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "13",
-      "cost": "Tactic",
+      "cost": "Tactic",      
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
@@ -1153,11 +1153,11 @@
       "spec": "Path of Confession",
       "minrank": "1",
       "cost": "Costs 40 AP",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A quick precision strike that deals 227 damage.",
+      "description": "A quick precision strike that deals 431 damage to up to 3 enemies in front of you, up to 15 feet away.",
       "category": "Ability"
     },
   
@@ -1493,7 +1493,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Razor Strike will now also hit up to 2 additional enemies within 25 feet of your target, but Razor Strike will now do 10% less damage.",
+      "description": "Increase the range of Razor Strike's arc to 30 feet and removes the target limit.",
       "category": "CareerTactic"
     },
   
@@ -1523,9 +1523,9 @@
       "cost": "Costs 15 AP/sec",
       "range": "30ft range",
       "incant": "3.0s cast",
-      "cooldown": "No cooldown",
+      "cooldown": "8s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<br>  1 Accusation: 67 damage per shot<br>  2 Accusations: 84 damage per shot.<br>  3 Accusations: 101 damage per shot<br>  4 Accusations: 117 damage per shot<br>  5 Accusations: 134 damage per shot",
+      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<br>  1 Accusation: 172 damage per shot<br>  2 Accusations: 183 damage per shot.<br>  3 Accusations: 194 damage per shot<br>  4 Accusations: 205 damage per shot<br>  5 Accusations: 216 damage per shot",
       "category": "Ability"
     },
   
@@ -1607,6 +1607,38 @@
       "note": "",
       "description": "Everyone in your group within 100 feet of you has a 50% increased chance to parry attacks for 10 seconds.",
       "category": "Morale"
-    }
+    },
+        
+    {
+      "image": "08079",
+      "id": 6100,
+      "name": "Hastened Expurgation",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "10",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "1.0s cast",
+      "cooldown": "35.0s cooldown",
+      "note": "",
+      "description": "You fade into the background and make haste. You are rendered invisible to your foes and your movement speed is increased by 50% for 5 seconds.<br>The cooldown of this ability is reduced by 1 second for every enemy withing 100 feet of you when the effect is broken.<br>This effect will end if you use any ability.",
+      "category": "Ability"
+    },  
+    
+    {
+      "image": "22702",
+      "id": 6102,
+      "name": "Close Combat",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "40",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "category": "CareerTactic"
+     }    
   ]
 }
