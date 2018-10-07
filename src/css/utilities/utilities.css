@@ -5,7 +5,7 @@
     height: height-title;
   }
   .overflowYHidden {
-    overflow-y: hidden;
+    overflow-y: auto;
   }
   .heightFull {
     height: 100%;
