@@ -8,7 +8,7 @@
         "lvl3": 3662,
         "lvl4": 3663,
         "lvl5": 3664,
-        "lvl6": 3665,
+        "lvl6": 7510,
         "lvl7": 3666
       },
       "coreAbilities": [3633,3622,3623,3716,3635]
@@ -19,7 +19,7 @@
         "lvl1": 3667,
         "lvl2": 3668,
         "lvl3": 3669,
-        "lvl4": 3670,
+        "lvl4": 3665,
         "lvl5": 3671,
         "lvl6": 3672,
         "lvl7": 3673
@@ -37,7 +37,7 @@
         "lvl6": 3679,
         "lvl7": 3680
       },
-      "coreAbilities": [3634,3628,3616,3632,3618]
+      "coreAbilities": [3634,3628,3616,3632,3618,3670]
     }
   },
   "data": [
@@ -53,7 +53,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 236 and suffer 427 Corporeal damage over 21 seconds.",
+      "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 378 and suffer X Corporeal damage over 21 seconds.",
       "category": "Ability"
     },
   
@@ -213,7 +213,7 @@
       "incant": "4.0s cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 400 damage per second to all enemies within 30 feet of that spot.",
+      "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 600 damage per second to all enemies within 30 feet of that spot.",
       "category": "Morale"
     },
   
@@ -325,7 +325,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You fire a blast of short-range pellets which deal 153 damage to all enemies in front of you, up to 40 feet away.",
+      "description": "You fire a blast of short-range pellets which deal X damage to all enemies in front of you, up to 40 feet away.",
       "category": "Ability"
     },
   
@@ -357,7 +357,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You construct a turret with an auto-firing grenade launcher which will attack enemies at a moderate range. The turret gains 100% of your Ballistic Skill, 30% of your Weapon Skill, and 70% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": "You construct a mid-range grenade turret. You will generate 1 stack of Improvised Upgrades every 2s while within 40ft of your turret, max 8 stacks. Each stack gives you +4% damage, +5% turret range, and +4% increased faster grendier/tinkerer DoTs. With one stack, you may cast grenadier abilities while moving. You will begin to lose stacks at 81ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
       "category": "Ability"
     },
   
@@ -421,7 +421,7 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any group members within 65 feet of it, restoring 224 health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
+      "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any group members within 65 feet of it, restoring X health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
       "category": "Ability"
     },
   
@@ -437,7 +437,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 157 for 60 minutes.",
+      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 252 for 60 minutes.",
       "category": "Ability"
     },
   
@@ -501,7 +501,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing 291 Corporeal damage to your target and knocking them back a short distance. Monsters will be knocked down instead.",
+      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing X Corporeal damage to your target and knocking them back a short distance. Monsters will be knocked down instead.",
       "category": "Ability"
     },
   
@@ -549,7 +549,7 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "A well-aimed shot which deals 420 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
+      "description": "A well-aimed shot which deals 586 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
       "category": "Ability"
     },
   
@@ -757,7 +757,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by 138, but reduces your Toughness by 138. (At RR100)",
+      "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by 120, but reduces your Toughness by 120.",
       "category": "CareerTactic"
     },
   
@@ -773,7 +773,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You toss a grenade filled with flaming pitch which deals 266 Corporeal damage to your target.",
+      "description": "You toss a grenade filled with flaming pitch which deals X Corporeal damage to your target.",
       "category": "Ability"
     },
   
@@ -789,7 +789,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You don an experimental suit of protective gear, increasing your Armor by 644 for up to 1 hours.",
+      "description": "You don an experimental suit of protective gear, increasing your Armor by 560 for up to 1 hours.",
       "category": "Ability"
     },
   
@@ -805,7 +805,7 @@
       "incant": "2.0s cast",
       "cooldown": "2.0s cooldown",
       "note": "",
-      "description": "You construct a turret with a self-firing flamethrower which will attack enemies at close range. The turret gains 100% of your Ballistic Skill, 10% of your Weapon Skill, and 90% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": ""You construct a short-range, flamethrower turret. You will generate 1 stack of Improvised Upgrades every 2s while within 30ft of your turret, max 8 stacks. Each stack gives you +4% damage, +8% turret dodge and disrupt, +4% dodge and disrupt for you, +6.25% radius for your AoEs, reduces your range by 5% (cap -30%), and increases your AoE target limit by 2. With one stack, you can use grenadier abilities while moving. You will begin to lose stacks at 31ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
       "category": "Ability"
     },
   
@@ -821,7 +821,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You toss a grenade which explodes with a burst of force, dealing 291 Corporeal damage to the target. The blinding flash interrupts the victim and all enemies within 20 feet of them.",
+      "description": "You toss a grenade which explodes with a burst of force, dealing X Corporeal damage to the target. The blinding flash interrupts the victim and all enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -853,7 +853,7 @@
       "incant": "4.0s cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You fling packets of explosives all around you for up to 4 seconds, dealing 400 damage each second to all enemies within 30 feet.",
+      "description": "You fling packets of explosives all around you for up to 4 seconds, dealing 600 damage each second to all enemies within 30 feet.",
       "category": "Morale"
     },
   
@@ -901,7 +901,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You lob a grenade which shatters when it hits your enemy, dealing 725 damage over 15 seconds to the target and all other enemies within 20 feet of them.",
+      "description": "You lob a grenade which shatters when it hits your enemy, dealing X damage over 15 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -917,7 +917,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing 501 Corporeal damage over 9 seconds.<br>The attack uses the Ranged statistic.",
+      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing X Corporeal damage over 9 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability"
     },
   
@@ -933,7 +933,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A gun attack which deals 387 damage to your enemy.",
+      "description": "A gun attack which deals X damage to your enemy.",
       "category": "Ability"
     },
   
@@ -949,7 +949,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You construct a turret with a self-aiming gun which will fire at distant enemies. The turret gains 75% of your Ballistic Skill and Weapon Skill from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage and range by 5% and your turret's range by 2.5% every 2 seconds to a maximum of 40%.",
+      "description": "You construct a long-range, machine-gun turret. You will generate 1 stack of Improvised Upgrades every 2s while within 30ft of your turret, max 8 stacks. Each stack gives you +4% damage, +5% turret range (Cap 25%), +5% range for you (Cap 25%). You will begin to lose stacks at 31ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
       "category": "Ability"
     },
   
@@ -1061,7 +1061,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A quick shot from the hip which deals 216 damage. This attack may be used at close range.",
+      "description": "A quick shot from the hip which deals X damage. This attack may be used at close range.",
       "category": "Ability"
     },
   
@@ -1077,7 +1077,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Snipe and Gun Blast will now deal an additional 370 damage over 5 seconds.",
+      "description": "Snipe and Gun Blast will now deal an additional 505 damage over 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1093,7 +1093,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You fire bullets that burst into flame when they strike the enemy, dealing 860 Corporeal damage over 15 seconds.",
+      "description": "You fire bullets that burst into flame when they strike the enemy, dealing X Corporeal damage over 15 seconds.",
       "category": "Ability"
     },
   
@@ -1109,7 +1109,7 @@
       "incant": "Insta-Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minute. The mine will detonate when an enemy gets too close, dealing 243 damage to all enemies within 30 feet and staggering them for up to 5 seconds, preventing all actions unless they are damaged.",
+      "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minute. The mine will detonate when an enemy gets too close, dealing X damage to all enemies within 30 feet and staggering them for up to 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability"
     },
   
@@ -1125,7 +1125,7 @@
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "You deploy a shock rod at your feet which will remain for up to 9 seconds and periodically blast out with waves of power, dealing 229 Corporeal damage every 3 seconds to all enemies within 30 feet of it.",
+      "description": "You deploy a shock rod at your feet which will remain for up to 9 seconds and periodically blast out with waves of power, dealing X Corporeal damage every 3 seconds to all enemies within 30 feet of it.",
       "category": "Ability"
     },
   
@@ -1157,7 +1157,7 @@
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing 79 Corporeal damage during the first 10 seconds, 146 Corporeal damage for the next 10 seconds, and 212 Corporeal damage for the final 10 seconds. <br> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
+      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing X Corporeal damage during the first 10 seconds, Y Corporeal damage for the next 10 seconds, and Z Corporeal damage for the final 10 seconds. <br> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
       "category": "Ability"
     },
   
@@ -1220,8 +1220,8 @@
       "range": "80ft range",
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires 13 points in Path of The Rifleman",
-      "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing 83 Corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer 385 Corporeal damage over 10 seconds as the shells burst into flame.",
+      "note": "Requires 9 points in Path of The Grenadier",
+      "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing X Corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer Y Corporeal damage over 10 seconds as the shells burst into flame.",
       "category": "Ability"
     },
   
@@ -1296,7 +1296,7 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "3",
-      "cost": "No AP Cost",
+      "cost": "Costs 60 AP",
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
@@ -1333,7 +1333,7 @@
       "incant": "4.0s cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You release a string of several gun blasts in a row for up to 4 seconds, dealing 400 damage each second to all enemies in front of you, up to 40 feet away.",
+      "description": "You release a string of several gun blasts in a row for up to 4 seconds, dealing 600 damage each second to all enemies in front of you, up to 40 feet away.",
       "category": "Morale"
     },
   
@@ -1349,7 +1349,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "Requires a Turret",
-      "description": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing 370 Corporeal damage to all enemies within 30 feet of it, knocking them down for 2 seconds.",
+      "description": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing X Corporeal damage to all enemies within 30 feet of it, knocking them down for 2 seconds.",
       "category": "Ability"
     },
   
@@ -1381,7 +1381,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "You mark the enemy with a bright signal flare, dealing 1225 damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
+      "description": "You mark the enemy with a bright signal flare, dealing X damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
       "category": "Ability"
     },
   
@@ -1445,7 +1445,7 @@
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires 9 points in Path of The Rifleman",
-      "description": "A slow but powerful gun shot which deals 538 damage to your enemy and can not be defended against.",
+      "description": "A slow but powerful gun shot which deals X damage to your enemy and can not be defended against.",
       "category": "Ability"
     },
   
@@ -1461,7 +1461,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You clobber your enemy with your spanner, dealing 253 damage and reducing their run speed by 40% for 10 seconds.<br>The attack uses the Ranged statistic.",
+      "description": "You clobber your enemy with your spanner, dealing X damage and reducing their run speed by 40% for 10 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability"
     },
   
@@ -1477,7 +1477,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing 158 Corporeal damage to all enemies within 30 feet.",
+      "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing X Corporeal damage to all enemies within 30 feet.",
       "category": "Ability"
     },
   
@@ -1493,7 +1493,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A packet of explosives which sticks to your target and slowly burns, dealing 432 Corporeal damage over 15 seconds. If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing 183 Corporeal damage to the victim and all enemies within 20 feet of them.",
+      "description": "A packet of explosives which sticks to your target and slowly burns, dealing X Corporeal damage over 15 seconds. If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing Y Corporeal damage to the victim and all enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -1534,14 +1534,14 @@
       "id": 3670,
       "name": "Strafing Run",
       "type": "Damaging",
-      "spec": "Path of The Grenadier",
+      "spec": "Path of The Tinkerer",
       "minrank": "1",
       "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You call for air support, signaling for a strafing run which deals 403 damage to all enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
+      "description": "You call for air support, signaling for a strafing run which deals X damage to all enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
       "category": "Ability"
     },
   
@@ -1605,7 +1605,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 15% as long as you are within 20 feet of your turret.",
+      "description": "Increases your chance to critically hit by 15% as long as you have an active turret.",
       "category": "CareerTactic"
     },
   
@@ -1624,23 +1624,7 @@
       "description": "Your damage is increased by 15% when under 45 feet away from your target.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "23166",
-      "id": 3652,
-      "name": "Unshakable Focus",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "12",
-      "cost": "Rank 2 morale",
-      "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
-      "note": "",
-      "description": "A cold unyielding focus causes all your attacks to deal 100% more damage for 7 seconds.",
-      "category": "Morale"
-    },
-  
+    
     {
       "image": "22709",
       "id": 3674,
@@ -1655,6 +1639,23 @@
       "note": "",
       "description": "You can now construct your turrets instantly and the cost of Redeploy is reduced to 0 Action Points.",
       "category": "CareerTactic"
-    }
+    },
+
+    {
+      "image": "04531",
+      "id": 7510,
+      "name": "Armor-Piercing Rounds",
+      "type": "Damaging",
+      "spec": "Path of The Rifleman",
+      "minrank": "1",
+      "cost": "Costs 25 AP",
+      "range": "Self",
+      "incant": "Insta-Cast",
+      "cooldown": "60.0s cooldown",
+      "note": "",
+      "description": "You load your rifle with the finest of rounds. Your attacks will ignore 25% of the victim's armor for 12seconds.",
+      "category": "Ability"
+    },
+
   ]
 }
