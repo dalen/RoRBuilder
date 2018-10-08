@@ -8,7 +8,7 @@ const News = () =>
       <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
       <div className={css.itemDate}>10/08/2018</div>
-      <span className={css.itemText}>Updated WH, and Engi</span>
+      <span className={css.itemText}>Updated WH, and Engi. A few attempts at addressing moblie user issues.</span>
     </div>
       <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
