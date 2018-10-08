@@ -24,7 +24,7 @@
         "lvl6": 5532,
         "lvl7": 5533
       },
-      "coreAbilities": [5576,5479,5495,5472,5490,5491,5477,5492,5489,5480]
+      "coreAbilities": [5576,5479,5495,5472,5490,5491,5477,5492,5489,5480,6201,6202,6203]
     },
     "c": {
       "name": "Path of Quick Shootin'",
@@ -1726,7 +1726,7 @@
       "id": 6200,
       "name": "Wind Up Da Waaagh",
       "type": "Buff",
-      "spec": "Path of Bouncin'",
+      "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "Self",
