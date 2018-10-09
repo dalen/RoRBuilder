@@ -68,11 +68,13 @@
       "description": "You fling a throwing axe at your target, dealing 97 damage.",
       "category": "Ability"
     },
+    
+    ,}breakthecode
   
     {
       "image": "22694",
       "id": 4294,
-      "name": "Spiritual Stikes",
+      "name": "Spirit Stike",
       "type": "Buff",
       "spec": "Path of The Woodsman",
       "minrank": "1",
@@ -129,7 +131,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1600 damage to all enemies within 30 feet of both you and your War Lion.",
+      "description": "Deals 1800 damage to all enemies within 30 feet of both you and your War Lion.",
       "category": "Morale"
     },
   
@@ -193,7 +195,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Deals X damage to all enemies with 25ft knocking them down for 2s.",
+      "description": "Deals X damage to all enemies with 25ft knocking them down for 2 seconds.",
       "category": "Ability"
     },
   
@@ -417,7 +419,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 15 feet of either one of you.",
+      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies 40 feet in front of you.",
       "category": "Ability"
     },
   
@@ -446,7 +448,7 @@
       "minrank": "18",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Your training and Elven grace allows you to remove all roots and snares from yourself and your War Lion. For the next 10 seconds, roots and snares will have no effect on you or your War Lion.",
@@ -542,10 +544,10 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1197 damage over 9 seconds to all enemies in front of you, up to 65 feet away.",
+      "description": "Deals 1200 damage to all enemies in front of you, up to 65 feet away.",
       "category": "Morale"
     },
   
@@ -577,7 +579,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim takes a (40 * rank) ability pentalty to armor for 10s.",
+      "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim takes a (40 * rank) ability penalty to armor for 10s.",
       "category": "Ability"
     },
   
@@ -832,7 +834,7 @@
       "range": "65ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned",
+      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned<br>You cannot perform this action while Trained to Stay is Active",
       "description": "You pounce forwards, leaping towards your target. When you land, you will inflict (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage, and your movement speed will be increased by 35% for 3 seconds.",
       "category": "Ability"
     },
@@ -1064,7 +1066,7 @@
     {
       "image": "22709",
       "id": 4285,
-      "name": "Oak Toppler",
+      "name": "Kurnous's Chosen",
       "type": "Buff",
       "spec": "Path of The Hunter",
       "minrank": "1",
@@ -1169,7 +1171,7 @@
       "incant": "Instant Cost",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cleave your enemies within 30 feet dealing (60 + 9 * rank) + (0.4 * STR) physical damage over 9s. Your targets take a (rank * 2) ability penalty to initiative and weaponskill.",
+      "description": "You cleave your enemies within 30 feet dealing (60 + 9 * rank) + (0.4 * STR) physical damage over 9s. Your targets take a (rank * 2) ability penalty to Initiative and Weaponskill.",
       "category": "Ability"
     }
   ]
