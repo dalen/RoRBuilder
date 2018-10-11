@@ -83,7 +83,7 @@ class Home extends React.Component {
                   <p className={css.copyText}>Warhammer Online: Age of Reckoning has returned.
                   Resurrected by volunteers on a private server, we now have <a className={css.copyLink} href="http://www.returnofreckoning.com" target="blank">Return of Reckoning</a>.
                   Inspired by the work of these developers comes RoR Career Builder.</p>
-                  <p className={css.copyText}>This web app aims to replace and improve upon the great work done by <a className={css.copyLink} href="http://ror.builder" target="blank">Warhammer Online Career Builder</a> back in 2016 refined by Matt Richards.</p>
+                  <p className={css.copyText}>This web app aims to replace and improve upon the great work done by <a className={css.copyLink} href="http://ror.builders.com" target="blank">Warhammer Online Career Builder</a> back in 2016 refined by Matt Richards.</p>
                   <p className={css.copyText}>Details of updates will appear on this page.</p>
                   <p className={css.copyText}>There are three categories of buffs/debuffs. Ability bonuses/penalties do not stack with themselves.<br>Morale bonuses/penalties do not stack with themselves, but will stack with ability bonuses/penalties.<br>Unique bonuses/penalties stack with everything.</p>
                 </div>
