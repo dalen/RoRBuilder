@@ -65,8 +65,6 @@ class Home extends React.Component {
       marginRight: true,
       'marginLeft@mobile': true,
     });
-    const githubUrl = 'https://github.com/mattyrichards/ror-career-builder';
-    const githubUrlIssues = `${githubUrl}/issues`;
     return (
       <div className="heightFull">
         <div className={css.wrapper}>
