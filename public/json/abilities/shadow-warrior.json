@@ -2,12 +2,16 @@
   "mastery": {
     "a": {
       "name": "Path of The Scout",
+      "popover": {
+        "primary": "A mastery path focused on dealing damage to a single, far-away enemy.",
+        "secondary": "Bow counts 100% of its dps to abilities, sword counts 45%."
+      },
       "optionalAbilities": {
         "lvl1": 3971,
         "lvl2": 3972,
-        "lvl3": 3973,
+        "lvl3": 3975,
         "lvl4": 3974,
-        "lvl5": 3975,
+        "lvl5": 3973,
         "lvl6": 3976,
         "lvl7": 3977
       },
@@ -15,6 +19,10 @@
     },
     "b": {
       "name": "Path of Assault",
+      "popover": {
+        "primary": "A mastery path focused on fighting in melee combat.",
+        "secondary": "Sword counts 100% of its dps towards abilities."
+      },
       "optionalAbilities": {
         "lvl1": 3978,
         "lvl2": 3979,
@@ -22,12 +30,16 @@
         "lvl4": 3981,
         "lvl5": 3982,
         "lvl6": 3983,
-        "lvl7": 3984
+        "lvl7": 7530
       },
       "coreAbilities": [3943,4029,3936,3944,3931]
     },
     "c": {
       "name": "Path of The Skirmisher",
+      "popover": {
+        "primary": "A mastery path focused on fighting multiple enemies at medium range.",
+        "secondary": "Bow counts 100% of its dps to abilities, sword counts 45%."
+      },
       "optionalAbilities": {
         "lvl1": 3985,
         "lvl2": 3990,
@@ -53,104 +65,8 @@
       "incant": "1.5s cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Scout or Assault Stance",
-      "description": "An attack which deals 241 damage and reduces your target's armor by 618 and reduces their chance to block by 10% for 10 seconds.",
+      "description": "An attack which deals (25 + 6 * rank) + (0.3 bal) + (1.5 dps) physical damage and causes your target to take a (120 + 21.75 * rank) ability penalty to armor and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22736",
-      "id": 4001,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 3999,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 4000,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4014,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4016,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4015,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
     },
   
     {
@@ -162,10 +78,10 @@
       "minrank": "4",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Grants Assault Stance",
-      "description": "A close-combat stance which increases your Strength and Weapon Skill by 120, and increases your Armor by the same amount that you receive from items.<br><br>While in Assault Stance; your Ballistic Skill from items will also count towards your Strength, your Ranged Power from items will also count towards your Melee Power, and your Ranged Critical chance from items will also count towards your Melee Critical chance.<br><br>Melee attacks have a 25% chance to increase Autoattack speed by 25% for 5s.<br><br>Grants 10% Parry but reduces Dodge by -10%.<br><br>You may only use a single Stance at a time.",
+      "incant": "Instant Cast",
+      "cooldown": "5.0s shared cooldown",
+      "note": "Can only have one active stance.",
+      "description": "A close-combat stance which causes you to gain a 120 unique bonus to Strength and Weaponskill, and a unique bonus to Armor equal to the same amount that you receive from items.<br><br>While in Assault Stance; your Ballistic Skill from items will also count towards your Strength, your Ranged Power from items will also count towards your Melee Power, and your Ranged Critical chance from items will also count towards your Melee Critical chance.",
       "category": "Ability"
     },
   
@@ -178,10 +94,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Skirmish Stance<br>Requires 5 points in Path of The Skirmisher",
-      "description": "Deals 278 damage to all enemies in an arc in front of you, up to 40 feet away.",
+      "note": "Requires Skirmish Stance",
+      "description": "Deals (32 + 7.4 * rank) + (0.25 bal) + (1.5 dps) physical damage to all enemies in an arc in front of you, up to 40 feet away.",
       "category": "Ability"
     },
   
@@ -202,54 +118,6 @@
     },
   
     {
-      "image": "22718",
-      "id": 4023,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 4025,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 4024,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "22696",
       "id": 3954,
       "name": "Blood-Soaked War",
@@ -266,70 +134,6 @@
     },
   
     {
-      "image": "23411",
-      "id": 3992,
-      "name": "Bolster War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22731",
-      "id": 4019,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 4018,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 4017,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "13309",
       "id": 3929,
       "name": "Broadhead Arrow",
@@ -338,10 +142,10 @@
       "minrank": "2",
       "cost": "Costs 25 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An Ailment which deals 760 damage to your target over 15 seconds.",
+      "description": "An Ailment which deals (96.67 + 55/3 * rank) + (0.9 bal) + (3.5 dps) physical damage to your target over 15 seconds.",
       "category": "Ability"
     },
   
@@ -354,10 +158,10 @@
       "minrank": "4",
       "cost": "Costs 40 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be facing away from you<br>Requires Scout or Assault Stance",
-      "description": "Deals 277 damage to your target, and makes monsters hate you less than normal. Only usable when you are behind the target.<br>If you are Vengeful, then this attack may be used from any position.",
+      "description": "Deals (56 + 8 * rank) + (0.3 bal) + (1.4 dps) physical damage to your target, and makes monsters hate you less than normal. Only usable when you are behind the target.<br>If you are Vengeful, then this attack may be used from any position.",
       "category": "Ability"
     },
   
@@ -418,7 +222,7 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
@@ -434,74 +238,10 @@
       "minrank": "30",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Assault Stance",
-      "description": "A quick strike which deals 127 damage to your target and interrupts any ability that they were building up.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22716",
-      "id": 4021,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 4020,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 4022,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "23406",
-      "id": 3994,
-      "name": "Diminish War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
+      "description": "A quick strike which deals (21.67 + 7/3 * rank) + (0.3 bal) + (1.4 dps) damage to your target and interrupts any ability that they were building up.",
       "category": "Ability"
     },
   
@@ -546,7 +286,7 @@
       "minrank": "7",
       "cost": "Costs 20 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
@@ -562,10 +302,10 @@
       "minrank": "9",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Assault or Skirmish Stance",
-      "description": "An Ailment which deals 468 damage over 9 seconds.",
+      "description": "An Ailment which deals (56 + 12 * rank) + (0.6 bal) + (2.4 dps) physical damage over 9 seconds.",
       "category": "Ability"
     },
   
@@ -581,7 +321,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A well aimed arrow that deals 354 damage.",
+      "description": "A well aimed arrow that deals (91 + 8.5 * rank) + (0.4 bal) + (2.0 dps) physical damage.",
       "category": "Ability"
     },
   
@@ -597,7 +337,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flame Arrow and Festering Arrow will now bypass 50% of your victim's resistances.",
+      "description": "All attacks in the Path of the Scout will now inflict corporeal damage, and Acid Arrow will now cause your target to take a (X * rank) ability penalty to corporeal resistance",
       "category": "CareerTactic"
     },
   
@@ -626,10 +366,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Assault Stance<br>Requires 13 points in Path of Assault",
-      "description": "A Crippling attack which deals 252 damage and knocks down your target for 3 seconds.",
+      "note": "Requires Assault Stance",
+      "description": "A Crippling attack which deals (40 + 6.6 * rank) + (0.3 bal) + (1.4 dps) physical damage and knocks down your target for 3 seconds.",
       "category": "Ability"
     },
   
@@ -660,57 +400,9 @@
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Skirmish Stance<br>Requires 13 points in Path of The Skirmisher",
-      "description": "A Crippling shot that deals 216 damage and reduces your target's Initiative by 50 for 20 seconds. This ability will continue to build up even if you move. 3 Second knockdown.",
+      "note": "Requires Skirmish Stance",
+      "description": "A Crippling shot that deals X damage and causes your target to take a (2* rank) ability penalty to Initiative for 20 seconds. This ability will continue to build up even if you move. 3 Second knockdown.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4012,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4013,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4011,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
     },
   
     {
@@ -722,10 +414,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Scout Stance<br>Requires 13 points in Path of The Scout",
-      "description": "Deals 1198 damage if your target is below 30% hit points, or 586 damage otherwise.",
+      "note": "Requires Scout Stance",
+      "description": "Deals (97 + 19 * rank) + (0.3 bal) + (3.5 dps) physical damage if your target is below 30% hit points, or (33.33 + 20/3 * rank) + (0.3 bal) + (1.5 dps) physical damage otherwise.",
       "category": "Ability"
     },
   
@@ -740,8 +432,8 @@
       "range": "100ft range",
       "incant": "3.0s cast",
       "cooldown": "5.0s cooldown",
-      "note": "Requires Scout Stance<br>Requires 9 points in Path of The Scout",
-      "description": "Deals 658 Corporeal damage to your target.",
+      "note": "Requires Scout Stance",
+      "description": "Deals (38 + 19.5 * rank) + (0.7875 bal) corporeal damage to your target.",
       "category": "Ability"
     },
   
@@ -753,11 +445,11 @@
       "spec": "Path of The Scout",
       "minrank": "14",
       "cost": "Costs 40 AP",
-      "range": "80ft range",
-      "incant": "Insta-Cast",
+      "range": "100ft range",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Scout Stance",
-      "description": "An Ailment which deals 169 Elemental damage to your target and then explodes, dealing an additional 267 Elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
+      "note": "Requires Scout Stance or Skirmish Stance",
+      "description": "An Ailment which deals (25 + 4 * rank) + (0.2 bal) elemental damage to your target and then explodes, dealing an additional (309 + 5.5 * rank) + (0.3 bal) elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -770,10 +462,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Skirmish Stance<br>Target must be facing away from you",
-      "description": "Deals 636 damage to your target. This ability will continue to build up even if you move. Only usable from behind the target. The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
+      "description": "Deals (50 + 8 * rank) + (0.3 bal) + (1.5 dps) physical damage to your target. Only usable from behind the target. The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
       "category": "Ability"
     },
   
@@ -786,7 +478,7 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
@@ -802,7 +494,7 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
@@ -818,10 +510,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "100ft range",
-      "incant": "2.0s cast",
+      "incant": "Instant cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Deals 579 damage to your target and reduces range on their abilities to 75% for the next 3 seconds.",
+      "description": "Deals (33 + 4 * rank) + (0.3 bal) + (2.0 dps) physical damage to your target and reduces range on their abilities to 75% for the next 3 seconds.",
       "category": "Ability"
     },
   
@@ -834,10 +526,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals 202 damage to your target.",
+      "description": "Deals (8 + 5 * rank) + (0.3 bal) + (1.8 dps) physical damage to your target.",
       "category": "Ability"
     },
   
@@ -866,75 +558,11 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "5.0s cast",
+      "incant": "5.0s channel",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "23409",
-      "id": 3993,
-      "name": "Hamper War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22730",
-      "id": 4004,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 4003,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 4002,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -946,7 +574,7 @@
       "minrank": "8",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "An inspired ferver fills your group, increasing AP regeneration by 20% for 15 seconds to all groupmates within 100 feet of you.",
@@ -962,7 +590,7 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You deal 1200 damage to all enemies within 30 feet and staggers the target for up to 6 seconds, preventing all actions unless they are damaged.",
@@ -981,7 +609,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by 138, but reduces your Toughness by 138. (At RR100)",
+      "description": "Gives a 120 unique bonus to Strength, Ballistic Skill, and Weaponskill, and a 120 unique penalty to toughness.",
       "category": "CareerTactic"
     },
   
@@ -1029,7 +657,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Skirmish Stance",
-      "description": "A piercing arrow which deals 285 damage to all enemies in front of you, up to 65 feet away. This ability will continue to build up even if you move.",
+      "description": "A piercing arrow which deals (24 + 8 * rank) + (0.2375 bal) + (2.0 dps) physical damage to all enemies in front of you, up to 65 feet away. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
   
@@ -1042,7 +670,7 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Removes all Hexes, Curses, Cripples, and Ailments from you. You regain 250 Action Points.",
@@ -1061,7 +689,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Ballistic Skill by 160",
+      "description": "Gives a 160 unique bonus to Ballistic Skill.",
       "category": "CareerTactic"
     },
   
@@ -1077,7 +705,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Opportunistic Strike, Grim Slash, Exploit weakness, Counterstrike, Brutal assault, Sweeping Slash will do 50% extra critical damage. Draw Blood and Swift Strikes have a 25% increased chance to critically hit.",
+      "description": "Reduces the action point costs of all abilities within the Path of assault by 35%.",
       "category": "CareerTactic"
     },
   
@@ -1122,59 +750,11 @@
       "minrank": "25",
       "cost": "Costs 20 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Requires Assault Stance",
-      "description": "A Crippling attack that deals 202 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
+      "description": "A Crippling attack that deals (8 + 5 * rank) + (0.3 bal) + (1.8 dps) damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22729",
-      "id": 4010,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 4009,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 4008,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1186,7 +766,7 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Arrows strike the ground at a spot you select, dealing 1200 damage to all enemies within 20 feet of that spot.",
@@ -1202,10 +782,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 800 damage to all enemies in front of you, up to 40 feet away, and an additional 800 damage over 10 seconds.",
+      "description": "Deals 1200 damage to all enemies in front of you, up to 40 feet away, and an additional 1200 damage over 10 seconds.",
       "category": "Morale"
     },
   
@@ -1266,10 +846,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "10.0s cast",
+      "incant": "10.0s channel",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You repeatedly shoot arrows at the ground for 10 seconds, dealing 146 damage every second to all enemies within 20 feet of that spot.",
+      "description": "You repeatedly shoot arrows at the ground for 10 seconds, dealing 219 damage every second to all enemies within 20 feet of that spot.",
       "category": "Morale"
     },
   
@@ -1282,10 +862,10 @@
       "minrank": "16",
       "cost": "Costs 25 AP/sec",
       "range": "100ft range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "7.0s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "You move with blinding speed as you quickly fire several shots at your target, dealing 97 damage to the enemy twice per second for up to 3 seconds. This effect will end if you break your concentration, or run out of action points.<br>If you are Vengeful, then the shots will deal 10% more damage.",
+      "description": "You move with blinding speed as you quickly fire several shots at your target, dealing (12.5 + 2.5 * rank) + (0.1 bal) + (0.75 dps) physical damage to the enemy twice per second for up to 3 seconds. This effect will end if you break your concentration, or run out of action points.<br>If you are Vengeful, then the shots will deal 10% more damage.",
       "category": "Ability"
     },
   
@@ -1314,10 +894,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Grants Scout Stance",
-      "description": "A long-distance bow stance that increases your Ballistic Skill and Initiative by 80 and the range of your bow attacks by 10%.<br><br>You may only use a single Stance at a time.",
+      "incant": "Instant Cast",
+      "cooldown": "5.0s shared cooldown",
+      "note": "Can only have one stance active.",
+      "description": "A long-distance bow stance that gives a 80 unique bonus to Ballistic Skill and Initiative and the range of your bow attacks by 10%.",
       "category": "Ability"
     },
   
@@ -1330,10 +910,26 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Target must be Ailing<br>Requires 9 points in Path of The Skirmisher",
-      "description": "An Ailment which deals 498 damage to your target over 9 seconds and causes all healing effects used on them to become 50% weaker. Only usable on a target that is already Ailing.",
+      "note": "Target must be Ailing",
+      "description": "An Ailment which deals (84 + 12 * rank) + (0.6 bal) + (2.0 dps) damage to your target over 9 seconds and causes all healing effects used on them to become 50% weaker. Only usable on a target that is already Ailing.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "13317",
+      "id": 7530,
+      "name": "Shadow Sting",
+      "type": "Buff",
+      "spec": "Path of Assault",
+      "minrank": "1",
+      "cost": "Costs 25 AP",
+      "range": "65ft range",
+      "incant": "2.0s Cast",
+      "cooldown": "No cooldown",
+      "note": "Requires Assault Stance",
+      "description": "You merge with the shadows and appear on your target within the blink of an eye.",
       "category": "Ability"
     },
   
@@ -1362,59 +958,11 @@
       "minrank": "6",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Grants Skirmish Stance",
-      "description": "A close-range bow stance that increases your Toughness by 80 and the chance that your bow attacks will critically hit by 5%. You gain the ability to autoattack while moving while in this stance.<br><br>You may only use a single Stance at a time.",
+      "incant": "Instant Cast",
+      "cooldown": "5.0s shared cooldown",
+      "note": "Can only have one stance active.",
+      "description": "A close-range bow stance that gives a 80 unique bonus to Toughness and the chance that your bow attacks will critically hit by 5%. You gain the ability to autoattack while moving while in this stance.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22721",
-      "id": 4005,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 4006,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 4007,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1429,7 +977,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flame Arrow's damage over time is increased to 471 damage.",
+      "description": "Flame Arrow's damage over time is increased to (75 + 13.2 * rank) + (0.3 bal) elemental damage.",
       "category": "CareerTactic"
     },
   
@@ -1445,7 +993,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Assault or Skirmish Stance",
-      "description": "Deals 216 damage to your target. This ability will continue to build up even if you move.",
+      "description": "Deals (26 + 5 * rank) + (0.3 bal) + (1.5 dps) physical damage to your target. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
   
@@ -1474,7 +1022,7 @@
       "minrank": "20",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "For the next 6 seconds, all of your abilities that do damage will have a 50% higher chance to critically hit, but will take an additional 1.5 seconds to build up.",
@@ -1490,10 +1038,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Assault Stance<br>Requires 9 points in Path of Assault",
-      "description": "Deals 209 damage to all enemies in an arc in front of you, up to 25 feet away.",
+      "note": "Requires Assault Stance",
+      "description": "Deals (30 + 6 * rank) + (0.2 bal) + (1.4 dps) physical damage to all enemies in an arc in front of you, up to 25 feet away.",
       "category": "Ability"
     },
   
@@ -1506,10 +1054,10 @@
       "minrank": "1",
       "cost": "Costs 20 AP/sec",
       "range": "5ft range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "",
-      "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing 79 damage per hit. If the target is building up an ability, then your strikes will deal 142 damage instead. This ability will end if you break your concentration or run out of action points. Grants movement speed boost for duration.",
+      "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing (59 + 2 * rank) + (0.1 bal) + (0.8 dps)physical damage per hit. If the target is building up an ability, then your strikes will deal (22 + 4 * rank) + (0.1 bal) + (0.8 dps) physical damage instead.<br.<br>This ability will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -1525,7 +1073,7 @@
       "incant": "1.0s cast",
       "cooldown": "15.0s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "An Ailment which deals 566 damage and snares your target, reducing their run speed by 40% for 10 seconds.",
+      "description": "An Ailment which deals (25 + 5 * rank) + (0.3 bal) + (1.5 dps) physical damage and snares your target, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1541,24 +1089,8 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "Requires Scout Stance",
-      "description": "A Crippling shot that deals 266 damage and silences your target for 4 seconds, making them unable to use magic.",
+      "description": "A Crippling shot that deals (33.33 + 20/3 * rank) + (0.3 bal) + (1.5 dps) damage and silences your target for 4 seconds, making them unable to use magic.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "23166",
-      "id": 3963,
-      "name": "Unshakable Focus",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "12",
-      "cost": "Rank 2 morale",
-      "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
-      "note": "",
-      "description": "A cold unyielding focus causes all your attacks to deal 100% more damage for 7 seconds.",
-      "category": "Morale"
     },
   
     {
@@ -1570,7 +1102,7 @@
       "minrank": "10",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Grants Vengeful",
       "description": "You are filled with a desire for vengeance, increasing all damage you deal by 25% for 10 seconds.",
@@ -1586,7 +1118,7 @@
       "minrank": "12",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "All enemies within 30 feet become snared, reducing movement speed by 40% for the next 10 seconds. You are knocked back away from your enemies.",
@@ -1598,14 +1130,14 @@
       "id": 3984,
       "name": "Whirling Rage",
       "type": "Damaging",
-      "spec": "Path of Assault",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1600 damage to all enemies within 30 feet.",
+      "description": "Deals (267 + 53.33 * assault rank) damage to all enemies within 30 feet.",
       "category": "Morale"
     },
   
@@ -1621,7 +1153,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grim Slash will now reduce your enemy's Weaponskill by 120 and Initiative by 80 for 20 seconds, and increase your Weaponskill and Initiative by the same amount.",
+      "description": "Grim Slash now has a 25% chance to cause the target to take a 120 unique penalty to Weapon Skill and a 80 unique penalty to Initiative for 20s. You will gain a 120 unique bonus to Weaponskill and a 80 unique bonus to Initiative for 20s.",
       "category": "CareerTactic"
     }
   ]
