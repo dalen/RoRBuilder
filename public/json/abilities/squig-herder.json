@@ -30,14 +30,14 @@
       "name": "Path of Bouncin'",
       "optionalAbilities": {
         "lvl1": 5527,
-        "lvl2": 5528,
+        "lvl2": 5530,
         "lvl3": 5529,
-        "lvl4": 5530,
+        "lvl4": 5528,
         "lvl5": 5531,
         "lvl6": 5532,
-        "lvl7": 5533
+        "lvl7": 5576
       },
-      "coreAbilities": [5576,5479,5495,5472,5490,5491,5477,5492,5489,5480]
+      "coreAbilities": [5472,5477,5479,5480,5489,5490,5491,5492,5495]
     }
   },
   "data": [
@@ -1159,22 +1159,6 @@
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "23166",
-      "id": 5512,
-      "name": "Unshakable Focus",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "12",
-      "cost": "Rank 2 morale",
-      "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
-      "note": "",
-      "description": "A cold unyielding focus causes all your attacks to deal 100% more damage for 7 seconds.",
-      "category": "Morale"
     },
   
     {
