@@ -30,14 +30,14 @@
       "name": "Path of Bouncin'",
       "optionalAbilities": {
         "lvl1": 5527,
-        "lvl2": 5530,
+        "lvl2": 5528,
         "lvl3": 5529,
-        "lvl4": 5528,
+        "lvl4": 5530,
         "lvl5": 5531,
         "lvl6": 5532,
-        "lvl7": 5576
+        "lvl7": 5533
       },
-      "coreAbilities": [5472,5477,5479,5480,5489,5490,5491,5492,5495]
+      "coreAbilities": [5576,5495,5472,5490,5491,5477,5492,5489,5480,7565,7566,7567]
     }
   },
   "data": [
@@ -150,6 +150,22 @@
       "cooldown": "25.0s cooldown",
       "note": "Requires Squig Armor",
       "description": "Your Battle Squig spies a tasty morsel and proceeds to take chunks out of your target for up to 5 seconds, dealing X physical damage with each hit. You share in this treat and will be healed for all damage this ability deals.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "",
+      "id": 7565,
+      "name": "Big Bouncin!",
+      "type": "Damaging",
+      "spec": "Path of Bouncin'",
+      "minrank": "9",
+      "cost": "Costs 20 AP / Sec",
+      "range": "No range",
+      "incant": "3.0s channel",
+      "cooldown": "8.0s cooldown",
+      "note": "Requires Squig Armor",
+      "description": "You force your battle squig to bounce in the air for 3 seconds, repeatedly dealing X physical damage to all enemies within 30 feet.",
       "category": "Ability"
     },
   
@@ -776,6 +792,22 @@
       "description": "Deals 533 Corporeal damage to your target.",
       "category": "Ability"
     },
+
+    {
+      "image": "",
+      "id": 7566,
+      "name": "Really Bad Gas!",
+      "type": "Offensive",
+      "spec": "Path of Bouncin'",
+      "minrank": "9",
+      "cost": "Costs 35 AP",
+      "range": "5ft range",
+      "incant": "1.0s cast",
+      "cooldown": "20.0s cooldown",
+      "note": "Requires Squig Armor",
+      "description": "Your battle squig evacuates a disagreeable meal, producing a toxic cloud that inflicts X corporeal damage every 2 seconds for 6 seconds.",
+      "category": "Ability"
+    },
   
     {
       "image": "02619",
@@ -871,6 +903,22 @@
       "note": "",
       "description": "Explodin Arrer now deals X damage to the initial enemy, and X damage over 9 seconds with its explosion.",
       "category": "CareerTactic"
+    },
+
+    {
+      "image": "",
+      "id": 7567,
+      "name": "Sneaky Strike",
+      "type": "Enchantment",
+      "spec": "Path of Bouncin'",
+      "minrank": "9",
+      "cost": "Costs 35 AP",
+      "range": "5ft range",
+      "incant": "Instant Cast",
+      "cooldown": "10.0s cooldown",
+      "note": "Requires Squig Armor",
+      "description": "A sly attack which deals X physical damage to your enemy, and increases your armor by a large amount for 15 seconds.",
+      "category": "Ability"
     },
   
     {
@@ -1159,6 +1207,22 @@
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic"
+    },
+  
+    {
+      "image": "23166",
+      "id": 5512,
+      "name": "Unshakable Focus",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "12",
+      "cost": "Rank 2 morale",
+      "range": "No range",
+      "incant": "Insta-Cast",
+      "cooldown": "1m cooldown",
+      "note": "",
+      "description": "A cold unyielding focus causes all your attacks to deal 100% more damage for 7 seconds.",
+      "category": "Morale"
     },
   
     {
