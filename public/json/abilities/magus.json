@@ -8,7 +8,7 @@
         "lvl3": 5107,
         "lvl4": 5108,
         "lvl5": 5109,
-        "lvl6": 5110,
+        "lvl6": 5115,
         "lvl7": 5111
       },
       "coreAbilities": [5078,5068,5079,5161,5067]
@@ -19,7 +19,7 @@
         "lvl1": 5112,
         "lvl2": 5113,
         "lvl3": 5114,
-        "lvl4": 5115,
+        "lvl4": 5110,
         "lvl5": 5116,
         "lvl6": 5117,
         "lvl7": 5118
@@ -42,22 +42,6 @@
   },
   "data": [
     {
-      "image": "23400",
-      "id": 5128,
-      "name": "Abate War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
       "image": "05285",
       "id": 5122,
       "name": "Aegis of Orange Fire",
@@ -66,59 +50,11 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You summon and absorb orange flames to increase your Wounds by 150, increasing your total life for 20 seconds. During this time, any enemies striking you has a 25% chance to receive 232 Elemental damage from your flames.",
+      "description": "You summon and absorb orange flames to gain a X ability bonus to wounds for 20 seconds.. During this time, any enemies striking you has a 25% chance to receive X elemental damage from your flames.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22736",
-      "id": 5135,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 5133,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 5134,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
     },
   
     {
@@ -133,56 +69,8 @@
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Your disk emanates an aura of pain that inflicts 188 Spirit damage every 3 seconds for 9 seconds.",
+      "description": "Your disk emanates an aura of pain that inflicts X spirit damage every 3 seconds for 9 seconds.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5148,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5150,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5149,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
     },
   
     {
@@ -197,7 +85,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
+      "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 elemental damage over 5 seconds to anyone who hits you.",
       "category": "CareerTactic"
     },
   
@@ -210,61 +98,13 @@
       "minrank": "9",
       "cost": "Costs 45 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Bends and twists your target from within to deal 835 Elemental damage over 15 seconds.",
+      "description": "Bends and twists your target from within to deal X elemental damage over 15 seconds.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22718",
-      "id": 5157,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5159,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5158,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "05294",
       "id": 5108,
@@ -276,57 +116,9 @@
       "range": "150ft range",
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires 9 points in Path of Havoc",
-      "description": "An un-defendable bolt of far traveling force that inflicts 633 Elemental damage.",
+      "note": "",
+      "description": "An un-defendable bolt of far traveling force that inflicts X elemental damage.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5153,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5152,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5151,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -357,7 +149,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases critical chance for all Path Of Havoc spells by 15%. Reduces cooldown of Tzeentch's Firestorm by 10s.",
+      "description": "Increases critical chance for all Path Of Havoc spells by 15%.",
       "category": "CareerTactic"
     },
   
@@ -418,43 +210,11 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Focusing the great powers of Chaos for 10 seconds, you may tirelessly use all your abilities for no AP cost.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5155,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5154,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
     },
   
     {
@@ -482,10 +242,10 @@
       "minrank": "11",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You surround yourself with daemonic protection, increasing your Armor by 644 for up to 1 hours.",
+      "description": "You surround yourself with daemonic protection, gaining a 560 ability bonus to Armor for up to 1 hours.",
       "category": "Ability"
     },
   
@@ -514,10 +274,10 @@
       "minrank": "18",
       "cost": "Costs 50 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close dealing 243 damage to all enemies within 30 feet and staggering them for 5 seconds, preventing all actions until they take damage.",
+      "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close dealing X spirit damage to all enemies within 30 feet and staggering them for 5 seconds, preventing all actions until they take damage.",
       "category": "Ability"
     },
   
@@ -530,10 +290,10 @@
       "minrank": "6",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ethereal tentacle swipes the target in front of you for 203 Spirit damage.",
+      "description": "An ethereal tentacle swipes the target in front of you for X spirit damage.",
       "category": "Ability"
     },
   
@@ -546,10 +306,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals 328 Spirit damage and reduces movement speed by 40% for 10 seconds.",
+      "description": "Deals X Spirit damage and reduces movement speed by 40% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -565,7 +325,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Forms a pact with newly summoned daemons that increases both you and your daemon's Toughness by 100 while it remains in this realm.",
+      "description": "Forms a pact with newly summoned daemons that gives both you and your daemon a X unique bonus to Toughness while your daemon remains in this realm.",
       "category": "CareerTactic"
     },
   
@@ -594,10 +354,10 @@
       "minrank": "28",
       "cost": "Costs 55 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your groupmember's Corporeal resistance by 157 if they are within 100 feet of you.",
+      "description": "Causes your groupmates to gain a X ability bonus to corporeal resistance for 60 minutes.",
       "category": "Ability"
     },
   
@@ -610,10 +370,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1600 damage to all targets in a line in front of you up to 65 feet away.",
+      "description": "Deals 2400 damage to all targets in a line in front of you up to 65 feet away.",
       "category": "Morale"
     },
   
@@ -658,10 +418,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Summons a cloud of caustic mist that deals 79 Spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds the cloud doubles in strength, dealing 146 Spirit damage and 10 seconds later will double in strength again, dealing 212 Spirit damage.<br> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
+      "description": "Summons a cloud of caustic mist that deals X spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds the cloud doubles in strength, dealing Y spirit damage and 10 seconds later will double in strength again, dealing Z spirit damage.<br> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
       "category": "Ability"
     },
   
@@ -677,7 +437,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Intelligence by 160.",
+      "description": "You gain a 160 unique bonus to Intelligence.",
       "category": "CareerTactic"
     },
   
@@ -695,70 +455,6 @@
       "note": "",
       "description": "Pandemonium will now reapply it's damage effect 50% of the time after it ends or is removed.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "23407",
-      "id": 5126,
-      "name": "Enhance War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5146,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5147,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5145,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
     },
   
     {
@@ -786,7 +482,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Summons a mighty Firewyrm that will rampage around attacking your enemies for 16 seconds.",
@@ -818,7 +514,7 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
@@ -837,7 +533,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict 320 Elemental damage.",
+      "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict X elemental damage.",
       "category": "Ability"
     },
   
@@ -850,7 +546,7 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
@@ -866,10 +562,10 @@
       "minrank": "5",
       "cost": "Costs 25 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You strip away the Spiritual protections of everyone 20 feet from your target, reducing their Spirit resistance by 236 and dealing 420 Spirit damage over 20 seconds.",
+      "description": "You strip away the spiritual protections of everyone 20 feet from your target, dealing x spirit damage over 20 seconds and causing them to take a X ability penalty to spiritual resistance.",
       "category": "Ability"
     },
   
@@ -882,75 +578,11 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 798 damage over 6 seconds and Snares by 60% for 6 seconds",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5138,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5137,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5136,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "23410",
-      "id": 5127,
-      "name": "Hex War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
-      "category": "Ability"
     },
   
     {
@@ -962,7 +594,7 @@
       "minrank": "7",
       "cost": "Costs 20 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
       "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
@@ -974,14 +606,14 @@
       "id": 5115,
       "name": "Indigo Fire of Change",
       "type": "Damaging",
-      "spec": "Path of Changing",
+      "spec": "Path of Havoc",
       "minrank": "1",
       "cost": "Costs 15 AP/sec",
       "range": "100ft range",
       "incant": "6.0s cast",
       "cooldown": "16.0s cooldown",
       "note": "",
-      "description": "A horrible torrent of energy that deals 387 Spirit damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 Action Points over 6 seconds to you.",
+      "description": "A horrible torrent of energy that deals X elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 Action Points over 6 seconds to you.",
       "category": "Ability"
     },
   
@@ -994,10 +626,10 @@
       "minrank": "4",
       "cost": "Costs 40 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A daemonic wave that warps the air in front of you dealing 576 Elemental damage over 9 seconds to all targets 40 feet in front of you.",
+      "description": "A daemonic wave that warps the air in front of you dealing X elemental damage over 9 seconds to all targets 40 feet in front of you.",
       "category": "Ability"
     },
   
@@ -1029,7 +661,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Surge of Insanity will now cause an additional 345 damage over 6 seconds to all targets hit.",
+      "description": "Surge of Insanity will now cause an additional X spirit damage over 6 seconds to all targets hit.",
       "category": "CareerTactic"
     },
   
@@ -1042,10 +674,10 @@
       "minrank": "25",
       "cost": "No AP Cost",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires a summoned minion.",
-      "description": "You force so much power into your daemon that it explodes from within, dealing 370 Spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
+      "description": "You force so much power into your daemon that it explodes from within, dealing X spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
       "category": "Ability"
     },
   
@@ -1074,7 +706,7 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
@@ -1090,7 +722,7 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
@@ -1106,59 +738,11 @@
       "minrank": "35",
       "cost": "Costs 45 AP",
       "range": "100ft range",
-      "incant": "3.0s cast",
+      "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A column of blue flame washes over your target, dealing 516 Elemental damage and then dealing an additional 429 Elemental damage over 9 seconds.",
+      "description": "A column of blue flame washes over your target, dealing X elemental damage and then dealing an additional Y elemental damage over 9 seconds.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5144,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5143,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5142,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1173,7 +757,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Chaotic swirls of power inflict 735 Spirit damage over 15 seconds to your target and those within 20 feet of them.",
+      "description": "Chaotic swirls of power inflict X Spirit damage over 15 seconds to your target and those within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -1189,7 +773,7 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You open a rift dealing 488 Elemental damage and weakens the fabric of reality surrounding your target, disarming them for 3 seconds.",
+      "description": "You open a rift dealing X elemental damage and weakens the fabric of reality surrounding your target, disarming them for 3 seconds.",
       "category": "Ability"
     },
   
@@ -1205,7 +789,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Tears at your foe with fierce winds, hitting them three times for a total of 264 Spirit damage.",
+      "description": "Tears at your foe with fierce winds, hitting them three times for a total of X spirit damage.",
       "category": "Ability"
     },
   
@@ -1218,7 +802,7 @@
       "minrank": "3",
       "cost": "Costs 60 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires a summoned minion.",
       "description": "You shift your active summoning circle to your current location, bringing your minion with it.",
@@ -1234,7 +818,7 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Winds tear out from your target, dealing 300 damage to them and everyone within 20 feet every second for 4 seconds.",
@@ -1250,7 +834,7 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
@@ -1266,10 +850,10 @@
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Grows a seed inside your target dealing 435 Spirit damage over 15 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal 183 Spirit damage to all targets within 20 feet.",
+      "description": "Grows a seed inside your target dealing X spirit damage over 15 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal Y spirit damage to all targets within 20 feet.",
       "category": "Ability"
     },
   
@@ -1282,7 +866,7 @@
       "minrank": "22",
       "cost": "No AP Cost",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires a summoned minion.",
       "description": "You remove stagger effects from an ally and five other allies within 25 feet.",
@@ -1298,59 +882,11 @@
       "minrank": "12",
       "cost": "Rank 2 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Steals up to 200 action points from your target and gives it to you, and reduces your target's Intelligence by 160 for 30 seconds.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5139,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5140,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5141,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1378,10 +914,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1596 damage over 10 seconds and removes 50 Action Points every 2 seconds.",
+      "description": "Deals 2394 damage over 10 seconds and removes 50 Action Points every 2 seconds.",
       "category": "Morale"
     },
   
@@ -1395,9 +931,9 @@
       "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "2.0s cast",
-      "cooldown": "2.0s cooldown",
+      "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in short range Spiritual and Elemental area of effect attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 50% of your Intelligence from item bonuses and 100% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": "Summons a daemonic minion who specializes in short range area of effect attacks. This minion is confined to its summoning circle and cannot move. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your daemon, max 8 stacks. Each stack gives you +5% damage, +8% dodge and disrupt for daemon, +4% dodge and disrupt for you, +6.25% AoE radius, increases AoE cap by 2, and reduces your range by 5% (cap -30%). With one stack you can use path of changing abilities while on the move. You will begin to lose stacks at 31 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned.",
       "category": "Ability"
     },
   
@@ -1413,7 +949,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 75% of your Intelligence from item bonuses and 75% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. You will generate 1 stack of unholy empowerment every 2s as long as you are within 40ft of your daemon, max 8 stacks. Each stack gives you +5% damage, +5% turret range, and +4% faster changing/daemonology DoT ticks.. With one stack you can use path of changing abilities while on the move. You will begin to lose stacks at 81 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned
       "category": "Ability"
     },
   
@@ -1429,7 +965,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in long range Elemental based attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 100% of your Intelligence from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 5% every 2 seconds to a maximum of 40%.",
+      "description": "Summons a daemonic minion who specializes in long range attacks. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your daemon, max 8 stacks. Each stack gives you +5% damage, +5% daemon range and +5% range (cap 25% range). You will begin to lose stacks at 31 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned.",
       "category": "Ability"
     },
   
@@ -1445,7 +981,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A surge of chaotic bliss overcomes your target, dealing 291 Spirit damage. The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
+      "description": "A surge of chaotic bliss overcomes your target, dealing X spirit damage. The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
       "category": "Ability"
     },
   
@@ -1461,7 +997,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases critical damage from Infernal Blast, Surging Violet Fire, and Surge of Insanity by 50%.",
+      "description": "Increases critical damage from Infernal Blast, Surging Violet Fire, Flickering Red Fire, and Surge of Insanity by 50%.",
       "category": "CareerTactic"
     },
   
@@ -1474,10 +1010,10 @@
       "minrank": "10",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Tendrils of writhing violet flame coil around your target, burning them for 241 Elemental damage.",
+      "description": "Tendrils of writhing violet flame coil around your target, burning them for X elemental damage.",
       "category": "Ability"
     },
   
@@ -1502,14 +1038,14 @@
       "id": 5110,
       "name": "Tzeentch's Firestorm",
       "type": "Damaging",
-      "spec": "Path of Havoc",
+      "spec": "Path of Changing",
       "minrank": "1",
       "cost": "Costs 13 AP/sec",
       "range": "80ft range",
       "incant": "6.0s cast",
       "cooldown": "16.0s cooldown",
-      "note": "Requires 13 points in Path of Havoc",
-      "description": "Creates a great column of wind and flame that deals 243 Elemental damage every 2 seconds and medium snare to all targets within 20 feet of the area for 6 seconds. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
+      "note": "",
+      "description": "Creates a great column of wind and flame that deals X spirit damage every 2 seconds and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
       "category": "Ability"
     },
   
@@ -1522,7 +1058,7 @@
       "minrank": "12",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "A summoning wave passes over those within 30 feet of you, calling fourth tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
@@ -1541,7 +1077,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Elemental resistance by 252.",
+      "description": "You gain a 252 unique bonus to elemental resistance.",
       "category": "CareerTactic"
     },
   
@@ -1570,7 +1106,7 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
@@ -1602,10 +1138,10 @@
       "minrank": "40",
       "cost": "Costs 25 AP/sec",
       "range": "No range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "",
-      "description": "You channel warping flame through your disk, dealing 155 Elemental damage to all targets within 30 feet of you every second for 3 seconds.",
+      "description": "You channel warping flame through your disk, dealing X elemental damage to all targets within 30 feet of you every second for 3 seconds.",
       "category": "Ability"
     },
   
@@ -1621,7 +1157,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Energy spirals towards your foe, dealing 291 Spirit damage and knocking them back a short distance. Monsters will be knocked down.",
+      "description": "Energy spirals towards your foe, dealing X spirit damage and knocking them back a short distance. Monsters will be knocked down.",
       "category": "Ability"
     },
   
@@ -1650,10 +1186,10 @@
       "minrank": "30",
       "cost": "Costs 25 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Your malice is forced directly into your target's soul, inflicting 1240 Elemental damage over 20 seconds while reducing their Disrupt chance by 5%.",
+      "description": "Your malice is forced directly into your target's soul, inflicting X elemental damage over 20 seconds while reducing their Disrupt chance by 5%.",
       "category": "Ability"
     }
   ]
