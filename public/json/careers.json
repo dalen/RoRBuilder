@@ -166,5 +166,12 @@
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
-  }
+  },
+    "proposal-class": {
+    "name": "White Lion (Proposal)",
+    "slug": "proposal-class",
+    "faction": "Order",
+    "race": "High Elf",
+    "class": "Melee DPS"
+  },
 }
