@@ -705,7 +705,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
+      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) spirit damage.",
       "category": "CareerTactic"
     },
   
@@ -1144,7 +1144,7 @@
     {
       "image": "13446",
       "id": 7800,
-      "name": "Debilitating Command",
+      "name": "Debilitative Command",
       "type": "Damaging",
       "spec": "Path of The Woodsman",
       "minrank": "1",
