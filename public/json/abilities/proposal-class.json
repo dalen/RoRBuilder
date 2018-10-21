@@ -65,7 +65,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You fling a throwing axe at your target, dealing 97 damage.",
+      "description": "You fling a throwing axe at your target, dealing X physical damage.",
       "category": "Ability"
     },
     
@@ -113,7 +113,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Elemental resistance by 252.",
+      "description": "You gain a 252 unique bonus to Elemental Resistance.",
       "category": "CareerTactic"
     },
   
@@ -129,7 +129,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1800 damage to all enemies within 30 feet of both you and your War Lion.",
+      "description": "Deals 1800 damage to all enemies within 30 feet of you",
       "category": "Morale"
     },
   
@@ -192,7 +192,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Trained to Stay",
+      "note": "Requires Trained Traditionally",
       "description": "Deals X damage to all enemies with 25ft knocking them down for 2 seconds.",
       "category": "Ability"
     },
@@ -209,7 +209,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength by 160.",
+      "description": "You gain a 160 unique bonus to Strength.",
       "category": "CareerTactic"
     },
   
@@ -601,7 +601,7 @@
       "image": "22706",
       "id": 4292,
       "name": "Defeaning Roar",
-      "type": "Healing",
+      "type": "Curse",
       "spec": "Path of The Woodsman",
       "minrank": "1",
       "cost": "Tactic",
@@ -609,7 +609,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Echoing Roar will now deal X spirit damage to all targets over 15s.",
+      "description": "Echoing Roar will now deal X spirit damage to all targets over Ys.",
       "category": "CareerTactic"
     },
   
@@ -800,7 +800,7 @@
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
-      "note": "Requires an active pet or Trained to Stay",
+      "note": "Requires an active pet or Trained Traditionally",
       "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%.",
       "category": "CareerTactic"
     },
@@ -816,7 +816,7 @@
       "range": "65ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned<br>You cannot perform this action while Trained to Stay is Active",
+      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned<br>You refuse to perform this action while Trained Traditionally",
       "description": "You pounce forwards, leaping towards your target. When you land, you will inflict (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage, and your movement speed will be increased by 35% for 3 seconds.",
       "category": "Ability"
     },
@@ -961,7 +961,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your War Lion's movement speed by 50% and its damage by 10%. You War Lion can now be Commanded to Kill.",
+      "description": "Increases your War Lion's movement speed by 50% and its damage by 10%. Debilitative Command and Kill Command cooldowns are reduced to 30s.",
       "category": "CareerTactic"
     },
   
@@ -1120,8 +1120,8 @@
       "range": "No range",
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
-      "note": "Can only have one training active.",
-      "description": "Trained Traditionally. You are trained in the traditional arts of protection for the Pheonix King. You do not have a white lion, your superior training improves your damage by 25%, your connection to the Pheonix King causes all of your Path of Woodsman abilites to deal spirit damage, and you simply refuse to pounce. It is beneath one of your dignity. (This effect does not stack with loner)",
+      "note": "Can only have one training active.<br>Does not stack with loner.",
+      "description": "You are trained in the traditional arts of protection for the Pheonix King. You do not have a white lion, your superior training improves your damage by 25%, your connection to the Pheonix King causes all of your Path of Woodsman abilites to deal spirit damage, and you simply refuse to pounce. It is beneath one of your dignity.",
       "category": "Ability"
     },
   
@@ -1151,7 +1151,7 @@
       "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cost",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "5min cooldown",
       "note": "Requires active pet",
       "description": "You command your War Lion to perform a mauling attack deal X physical damage. If your lion is trained to hunt, it will knock the target down for 3s. If your lion is trained to kill, it will disarm your opponent for 4s.",
       "category": "Ability"
@@ -1167,8 +1167,8 @@
       "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cost",
-      "cooldown": "30.0s cooldown",
-      "note": "Requires Full-Fledged Lion",
+      "cooldown": "5min cooldown",
+      "note": "Requires active pet",
       "description": "You command your War Lion to attack the opponents weakest area. Your War Lion will deal X physical damage to the target. This effect will ignore all armor and always critically strikes.",
       "category": "Ability"
     },
