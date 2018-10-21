@@ -284,16 +284,16 @@
     {
       "image": "99999",
       "id": 910,
-      "name": "Halt, Fool!",
-      "type": "Damaging",
+      "name": "Malignant Strike!",
+      "type": "Hex",
       "spec": "Path of Malice",
       "minrank": "1",
-      "cost": "No AP Cost",
-      "range": "No range",
+      "cost": "Costs 25 AP",
+      "range": "5 ft range",
       "incant": "Insta-Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Cost 30 Hatred<br>Requires Great Weapon<br>Requires 9 points in Path of Malice",
-      "description": "A vicious blow dealing 441 damage winds your opponent, stunning them and reducing thier movement speed by 40% for 3 seconds. Your foe's feeble floundering fills you with contempt, increasing your speed by 30% and reducing the cooldown of Exile by 50% for as long as this effect lasts.",
+      "cooldown": "20s cooldown",
+      "note": "Requires Great Weapon<br>Requires 9 points in Path of Malice",
+      "description": "An overwhelming attack which deals 194 damage and knocks the victim down for 3 seconds.",
       "category": "Ability"
     },
   
