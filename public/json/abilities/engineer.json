@@ -892,7 +892,7 @@
     {
       "image": "04477",
       "id": 3627,
-      "name": "Fragmentation Grenade",
+      "name": "Fulminate Grenade",
       "type": "Hex",
       "spec": "Path of The Grenadier",
       "minrank": "16",
@@ -901,7 +901,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You lob a grenade which shatters when it hits your enemy, dealing X damage over 15 seconds to the target and all other enemies within 20 feet of them.",
+      "description": "You lob a grenade which shatters when it hits your enemy, dealing X corporeal damage over 15 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
   
