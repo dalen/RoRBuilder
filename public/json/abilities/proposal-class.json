@@ -4,7 +4,7 @@
       "name": "Path of The Hunter",
       "popover": {
         "primary": "A mastery path focused on hindering your enemies.",
-        "secondary": "Points in Path of the Hunter grants grants Wounds, Toughness, Weaponskill, Strength and Initiative to you Lion."
+        "secondary": "Points in Path of the Hunter grants 8 initiative, 10 toughness and  17 wounds to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4283,
@@ -21,7 +21,7 @@
       "name": "Path of The Axeman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to one enemy with the help of your lion.",
-        "secondary": "Points in Path of the Axeman grants Strength and Weapon Skill to your lion.."
+        "secondary": "Points in Path of the Axeman grants 12 strength, 18 weapon skill, and 5 toughness to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4276,
@@ -38,7 +38,7 @@
       "name": "Path of The Woodsman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to multiple enemies.",
-        "secondary": "Points in the Woodsman Tree grant lonliness to your Lion."
+        "secondary": "Points in Path of the Axeman grants 20 strength, 8 initiative, 12 toughness, and 20 wounds to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4292,
