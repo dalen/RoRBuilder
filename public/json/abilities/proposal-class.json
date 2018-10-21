@@ -49,7 +49,7 @@
         "lvl6": 4281,
         "lvl7": 4282
       },
-      "coreAbilities": [4249,4238,4247,4291,4234,7800,7801]
+      "coreAbilities": [4249,4238,4247,4291,4234,7800,7801,7802]
     }
   },
   "data": [
@@ -1170,6 +1170,22 @@
       "cooldown": "5min cooldown",
       "note": "Requires active pet",
       "description": "You command your War Lion to attack the opponents weakest area. Your War Lion will deal X physical damage to the target. This effect will ignore all armor and always critically strikes.",
+      "category": "Ability"
+    },
+    
+        {
+      "image": "",
+      "id": 7802,
+      "name": "Slash Command",
+      "type": "Damaging",
+      "spec": "Path of The Woodsman",
+      "minrank": "1",
+      "cost": "Costs 40 AP",
+      "range": "No range",
+      "incant": "Instant Cost",
+      "cooldown": "5.0s cooldown",
+      "note": "Requires active pet",
+      "description": "You command your War Lion to swipe in front of it deal x physical damage to all enemies within 25ft in front of your lion.",
       "category": "Ability"
     },
 
