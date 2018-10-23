@@ -13,7 +13,20 @@
       },
       "coreAbilities": [5471,5577,5486,5485,5493]
     },
-    "b": {
+        "b": {
+      "name": "Path of Bouncin'",
+      "optionalAbilities": {
+        "lvl1": 5527,
+        "lvl2": 5530,
+        "lvl3": 5529,
+        "lvl4": 5528,
+        "lvl5": 5531,
+        "lvl6": 5532,
+        "lvl7": 5576
+      },
+      "coreAbilities": [5576,5495,5472,5490,5491,5477,5492,5489,5480,7565,7566,7567]
+    },
+    "c": {
       "name": "Path of Quick Shootin'",
       "optionalAbilities": {
         "lvl1": 5534,
@@ -25,19 +38,6 @@
         "lvl7": 5540
       },
       "coreAbilities": [5470,5473,5494,5474,5487]
-    },
-    "c": {
-      "name": "Path of Bouncin'",
-      "optionalAbilities": {
-        "lvl1": 5527,
-        "lvl2": 5528,
-        "lvl3": 5529,
-        "lvl4": 5530,
-        "lvl5": 5531,
-        "lvl6": 5532,
-        "lvl7": 5533
-      },
-      "coreAbilities": [5576,5495,5472,5490,5491,5477,5492,5489,5480,7565,7566,7567]
     }
   },
   "data": [
