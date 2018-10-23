@@ -40,103 +40,7 @@
       "coreAbilities": [5182,5171,5264,5179,5170]
     }
   },
-  "data": [
-    {
-      "image": "22736",
-      "id": 5238,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 5236,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 5237,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5251,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5253,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5252,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
+  "data": [  
     {
       "image": "22714",
       "id": 5207,
@@ -154,102 +58,6 @@
     },
   
     {
-      "image": "22718",
-      "id": 5260,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5262,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5261,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5256,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5255,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5254,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "23156",
       "id": 5203,
       "name": "Broad Swings",
@@ -258,7 +66,7 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
@@ -293,7 +101,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength by 160.",
+      "description": "Grants a 160 unique bonu to Strength",
       "category": "CareerTactic"
     },
   
@@ -306,7 +114,7 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
@@ -322,12 +130,29 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You charge into the thick of battle, increasing your run speed by 50% for 7 seconds. If you use any abilities, this effect will immediately end.",
       "category": "Ability"
     },
+
+    {
+      "image": "22701",
+      "id": 5196,
+      "name": "Brute Force",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "19",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 second. This effect will not stack with other damage reductions.",
+      "category": "CareerTactic"
+    },
+
   
     {
       "image": "05204",
@@ -338,10 +163,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 3 seconds, inflicting 113 damage.",
+      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting X physical damage.",
       "category": "Ability"
     },
   
@@ -354,7 +179,7 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
@@ -370,10 +195,10 @@
       "minrank": "6",
       "cost": "Costs 25 AP/sec",
       "range": "5ft range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 6 times and dealing 132 damage per hit. This effect will end if you break your concentration or run out of action points.",
+      "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 6 times and dealing X phyical damage per hit. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -389,7 +214,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Brutality further increases your Strength and Initiative by 160.",
+      "description": "Gift of Brutality causes you to gain a 160 unique bonus to Strength and Initiative.",
       "category": "CareerTactic"
     },
   
@@ -402,10 +227,10 @@
       "minrank": "4",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Corruption spreads to your target, reducing their toughness by 75 for 20 seconds and inflicting 141 damage.",
+      "description": "Corruption spreads to your target, dealing X physical damage and your target takes a (rank * 3) ability penalty to toughness for 20 seconds.",
       "category": "Ability"
     },
   
@@ -424,55 +249,7 @@
       "description": "While you are using the Gift Of Monstrosity, all of your hits have a 25% chance to remove 225 points of Morale from the enemy.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "22716",
-      "id": 5258,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5257,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5259,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
+   
     {
       "image": "05196",
       "id": 5211,
@@ -482,10 +259,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Gift of Savagery<br>Requires 9 points in Path of Savagery",
-      "description": "Undefendable claw attack that deals 216 damage and reduces targets armor by 1000 for 10 seconds.",
+      "note": "Requires Gift of Savagery",
+      "description": "Undefendable claw attack that deals X physical damage and causes the target to take a (rank * 40) ability penalty to armor for 10 seconds.",
       "category": "Ability"
     },
   
@@ -514,7 +291,7 @@
       "minrank": "16",
       "cost": "Costs 20 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Parry",
       "description": "Disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
@@ -530,10 +307,10 @@
       "minrank": "3",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A deliberate attack that inflicts 191 damage and Cripples your target, reducing their movement speed by 40% for 5 seconds.",
+      "description": "A deliberate attack that inflicts X phyical damage and Cripples your target, reducing their movement speed by 40% for 5 seconds.",
       "category": "Ability"
     },
   
@@ -562,10 +339,10 @@
       "minrank": "7",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "A widespread attack that inflicts 138 damage to all targets up to 25 feet in front of you.",
+      "description": "A widespread attack that inflicts X physical damage to all targets up to 25 feet in front of you.",
       "category": "Ability"
     },
   
@@ -578,10 +355,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Gift of Savagery<br>Requires 13 points in Path of Savagery",
-      "description": "You quickly rake your target twice, dealing 108 damage with each hit. The victim will regain action points 50% more slowly for 10 seconds.",
+      "note": "Requires Gift of Savagery",
+      "description": "You quickly rake your target twice, dealing X physical damage with each hit. The victim will regain action points 50% more slowly for 10 seconds.",
       "category": "Ability"
     },
   
@@ -594,10 +371,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A large burst of power courses through you, dealing 1200 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds.",
+      "description": "A large burst of power courses through you, dealing 1800 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds.",
       "category": "Morale"
     },
   
@@ -616,71 +393,7 @@
       "description": "Any time you critically hit an enemy while Mutated, they will lose 40 Action Points over the next 3 seconds.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "23408",
-      "id": 5231,
-      "name": "Faultfinder",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "",
-      "description": "Increases friendly ram damage by 2% for the next 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5249,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5250,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5248,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "22696",
       "id": 5188,
@@ -706,10 +419,10 @@
       "minrank": "20",
       "cost": "Costs 15 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
-      "description": "Chaotic winds and daemonic fury combine to increase your Strength and Toughness by 125 for 20 seconds.",
+      "description": "Chaotic winds and daemonic fury combine granting you a X unique bonus to strength and toughness for 20 seconds.",
       "category": "Ability"
     },
   
@@ -722,10 +435,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Swipes opponent for 133 damage. If Mutated, will hit an additional time for 108 damage.",
+      "description": "Swipes opponent for X physical damage. If Mutated, will hit an additional time for Y phyical damage.",
       "category": "Ability"
     },
   
@@ -738,7 +451,7 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and roots them in place for 5 seconds.",
@@ -770,7 +483,7 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
@@ -786,7 +499,7 @@
       "minrank": "12",
       "cost": "Rank 2 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
@@ -802,7 +515,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For 20 seconds, all damage dealt to you is mirrored back to the attacker with a 50% boost.",
@@ -818,7 +531,7 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
@@ -834,7 +547,7 @@
       "minrank": "3",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Grants Gift of Brutality",
       "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<br><br>While mutated, your attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%.",
@@ -850,7 +563,7 @@
       "minrank": "7",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Grants Gift of Monstrosity",
       "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<br><br>While mutated, your attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health and letting you shrug off your enemy's armor penetration.",
@@ -866,7 +579,7 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires a Mutation",
       "description": "Releases your current mutation.",
@@ -882,10 +595,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Grants Gift of Savagery",
-      "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<br><br>While mutated, your attacks have a 25% chance to deal an additional 840 damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
+      "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<br><br>While mutated, your attacks have a 25% chance to deal an additional X physical damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
       "category": "Ability"
     },
   
@@ -898,10 +611,10 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A mighty swing attack that inflicts 1200 damage to all targets 40 feet in front of you.",
+      "description": "A mighty swing attack that inflicts 450 damage to all targets 40 feet in front of you and causes them to take a 180 morale penalty to wounds for 10s",
       "category": "Morale"
     },
   
@@ -932,8 +645,8 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Gift of Brutality<br>Requires 5 points in Path of Brutality",
-      "description": "Requires target to be below 50% health<br>A powerful blow inflicting 316 damage and will almost always deal critical damage to a weakened target.",
+      "note": "Requires Gift of Brutality<br>Target must be below 50% health.",
+      "description": "A powerful blow inflicting X physical damage and will almost always deal critical damage to a weakened target.",
       "category": "Ability"
     },
   
@@ -946,61 +659,13 @@
       "minrank": "30",
       "cost": "Costs 40 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Parry<br>Requires Gift of Savagery",
-      "description": "A savage attack that guts your opponent for 191 damage, and makes your next damaging ability within 5 seconds automatically critical.",
+      "description": "A savage attack that guts your opponent for X physical damage, and makes your next damaging ability within 5 seconds automatically critical.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22730",
-      "id": 5241,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5240,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5239,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
+    
     {
       "image": "22702",
       "id": 5222,
@@ -1013,7 +678,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Monstrosity further increases your Toughness by 160.",
+      "description": "Gift of Monstrosity grants a 160 unique bonus to Toughness and Initiative.",
       "category": "CareerTactic"
     },
   
@@ -1026,10 +691,10 @@
       "minrank": "5",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "Stabs into your opponents vital areas for 166 damage. If behind your target, ignores 618 armor.",
+      "description": "Stabs into your opponents vital areas for X physical damage. If behind your target, ignores Y armor.",
       "category": "Ability"
     },
   
@@ -1074,7 +739,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For 20 seconds, each time you are hit, there is a 33% chance that the same amount of damage will be done to an enemy within 40 feet, and you will be healed for that amount.",
@@ -1090,10 +755,10 @@
       "minrank": "8",
       "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
-      "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting 133 damage to all in range.",
+      "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting X physical damage to all in range.",
       "category": "Ability"
     },
   
@@ -1106,7 +771,7 @@
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Chaotic energy surges through you, increasing all the damage you inflict by 25% for 10 seconds.",
@@ -1122,10 +787,10 @@
       "minrank": "35",
       "cost": "Costs 25 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Disrupt",
-      "description": "Disrupted Magic is twisted back into the caster, inflicting 241 damage and knocking them down for 3 seconds.",
+      "description": "Disrupted Magic is twisted back into the caster, inflicting X physical damage and knocking them down for 3 seconds.",
       "category": "Ability"
     },
   
@@ -1138,59 +803,11 @@
       "minrank": "18",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Your bones and muscles twist and contort to free you from any root or snaring effects. You will also be immune from all snares and roots for the next 10 seconds",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5247,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5246,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5245,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1218,10 +835,10 @@
       "minrank": "25",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
-      "description": "Inflicts 241 damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.",
+      "description": "Inflicts X physical damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.",
       "category": "Ability"
     },
   
@@ -1234,7 +851,7 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
@@ -1250,10 +867,10 @@
       "minrank": "2",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Savagery or Brutality",
-      "description": "You tear into your target, dealing 108 damage immediately and an additional 198 damage over 9 seconds. The damage over time will stack with itself up to three times.",
+      "description": "You tear into your target, dealing X  physical damage immediately and an additional Y physical damage over 9 seconds. The damage over time will stack with itself up to three times.",
       "category": "Ability"
     },
   
@@ -1285,7 +902,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an enemy's attack, you will strike them back for 253 damage which they can not prevent.",
+      "description": "Each time you parry an enemy's attack, you will strike them back for X physical damage which they can not prevent.",
       "category": "CareerTactic"
     },
   
@@ -1301,7 +918,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Savagery further increases your Weapon Skill and Initiative by 160.",
+      "description": "Gift of Savagery grants a 160 unique bonus to Weapon Skill and Initiative.",
       "category": "CareerTactic"
     },
   
@@ -1314,75 +931,11 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "23416",
-      "id": 5230,
-      "name": "Siege Wrecker",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You sabotage a siege ram, causing the ram to deal 98% of the original damage for the next 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5242,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5243,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5244,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1410,10 +963,10 @@
       "minrank": "12",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "An Ailing attack inflicting 166 damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
+      "description": "An Ailing attack inflicting X physical damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1445,7 +998,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Throwing axe that will deal 104 damage to your prey.",
+      "description": "Throwing axe that will deal X phyical damage to your prey.",
       "category": "Ability"
     },
   
@@ -1458,10 +1011,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A particularly nasty blow that inflicts 241 damage to your target and decreases their Wounds by 100 for the next 20 seconds.",
+      "description": "A particularly nasty blow that inflicts X physical damage to your target and causes the target to take a X ability penalty to wounds for 20 seconds.",
       "category": "Ability"
     },
   
@@ -1474,10 +1027,10 @@
       "minrank": "14",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Savagery or Brutality",
-      "description": "Target loses control over their magic, and for 10 seconds will inflict 232 Corporeal damage to themselves whenever they use magic.",
+      "description": "Target loses control over their magic, and for 10 seconds will inflict X corporeal damage to themselves whenever they use magic.",
       "category": "Ability"
     },
   
@@ -1490,10 +1043,10 @@
       "minrank": "9",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
-      "description": "Spreads an agonizing rot to your opponent for 10 seconds, inflicting 125 Corporeal damage whenever they use a melee ability.",
+      "description": "Spreads an agonizing rot to your opponent for 10 seconds, inflicting X corporeal damage whenever they use a melee ability.",
       "category": "Ability"
     },
   
@@ -1506,7 +1059,7 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Melee attack that deals 1200 damage and returns all of that damage as health.",
@@ -1525,7 +1078,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Elemental resistance by 252.",
+      "description": "Grants a 252 unique bonus to elemental resistance.",
       "category": "CareerTactic"
     },
   
@@ -1557,7 +1110,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them. Each time an Enchantment is successfully removed, they will suffer 152 damage .",
+      "description": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them. Each time an Enchantment is successfully removed, they will suffer X physical damage .",
       "category": "CareerTactic"
     },
   
@@ -1586,7 +1139,7 @@
       "minrank": "10",
       "cost": "Costs 50 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 67% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
@@ -1602,10 +1155,10 @@
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A wave of horror spreads forth from you, dealing 553 damage over 21 seconds to all enemies within 30 feet and reducing their Weapon Skill by 75 and Initiative by 50.",
+      "description": "A wave of horror spreads forth from you, dealing X physical damage over 21 seconds to all enemies within 30 feet and causing them to take a (2 * rank) ability penalty to Weapon Skill and Initiative.",
       "category": "Ability"
     },
   
@@ -1618,10 +1171,10 @@
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Gift of Brutality<br>Requires 13 points in Path of Brutality",
-      "description": "Wildly lashes out at all targets directly in front of you up to 40 feet away, dealing 183 damage and preventing all who are hit from generating Morale for 5 seconds.",
+      "note": "Requires Gift of Brutality",
+      "description": "Wildly lashes out at all targets directly in front of you up to 40 feet away, dealing X physical damage and preventing all who are hit from generating Morale for 5 seconds.",
       "category": "Ability"
     },
   
@@ -1650,10 +1203,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP/sec",
       "range": "No range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
-      "note": "Requires Gift of Monstrosity<br>Requires 13 points in Path of Monstrosity",
-      "description": "Spinning in a circle with club arm extended, aimlessly inflicting 72 damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
+      "note": "Requires Gift of Monstrosity",
+      "description": "Spinning in a circle with club arm extended, aimlessly inflicting X physical damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     }
   ]
