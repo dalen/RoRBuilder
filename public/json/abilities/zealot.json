@@ -42,38 +42,6 @@
   },
   "data": [
     {
-      "image": "22736",
-      "id": 5756,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 5754,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "05236",
       "id": 5731,
       "name": "Aethyric Shock",
@@ -82,29 +50,13 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Overwhelms your opponent with power, inflicting 284 damage and Staggers the target for up to 6 seconds, preventing all actions unless they're damaged.",
+      "description": "Overwhelms your opponent with power, inflicting X corporeal damage and Staggers the target for up to 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22736",
-      "id": 5755,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "23150",
       "id": 5722,
@@ -120,55 +72,7 @@
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale"
     },
-  
-    {
-      "image": "22725",
-      "id": 5769,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5771,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5770,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "22714",
       "id": 5725,
@@ -183,54 +87,6 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5778,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5780,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5779,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
     },
   
     {
@@ -250,54 +106,6 @@
     },
   
     {
-      "image": "22731",
-      "id": 5774,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5773,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5772,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "05242",
       "id": 5729,
       "name": "Boon of Tzeentch",
@@ -309,7 +117,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Drains 310 health from your target, funneling 150% of the amount drained into your defensive target.",
+      "description": "Drains X health from your target, funneling 150% of the amount drained into your defensive target.",
       "category": "Ability"
     },
   
@@ -322,7 +130,7 @@
       "minrank": "25",
       "cost": "Costs 40 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All opponents within 30 feet of you are knocked back, and monsters are knocked down for 2 seconds.",
@@ -370,10 +178,10 @@
       "minrank": "1",
       "cost": "Costs 13 AP/sec",
       "range": "80ft range",
-      "incant": "6.0s cast",
+      "incant": "6.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "",
-      "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing 229 every 2 seconds for up to 6 seconds.",
+      "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing X corporeal damage every 2 seconds for up to 6 seconds.",
       "category": "Ability"
     },
   
@@ -386,7 +194,7 @@
       "minrank": "7",
       "cost": "Costs 20 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
       "description": "Detaunts targets attack power to 50% for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
@@ -410,70 +218,6 @@
     },
   
     {
-      "image": "23404",
-      "id": 5748,
-      "name": "Cleanse War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Only usable on Siege Engines",
-      "description": "Siege Targetted cleanse. Removes two siege specific debuffs from a friendly siege engine.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5776,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5775,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5777,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "05240",
       "id": 5699,
       "name": "Daemonic Fortitude",
@@ -482,10 +226,10 @@
       "minrank": "30",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "3m cooldown",
       "note": "",
-      "description": "Increases target's Wounds by 100 for 60 seconds and then heals the recipient for the amount increased.",
+      "description": "Grants target a X ability bonus to wounds for 60 seconds and then heals the recipient for the amount increased.",
       "category": "Ability"
     },
   
@@ -501,7 +245,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your target regains 258 health immediately, and then restores an additional 315 health over 5 seconds. This ability will continue to build up even if you move.",
+      "description": "Your target regains X health immediately, and then restores an additional Y health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
   
@@ -514,10 +258,10 @@
       "minrank": "18",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Spews a vile mixture over everything 40 feet in front of you, dealing 456 Corporeal damage over 9 seconds to all opponents.",
+      "description": "Spews a vile mixture over everything 40 feet in front of you, dealing X corporeal damage over 9 seconds to all opponents.",
       "category": "Ability"
     },
   
@@ -533,7 +277,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Willpower by 160.",
+      "description": "Gain a 160 unique bonus to willpower.",
       "category": "CareerTactic"
     },
   
@@ -597,7 +341,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Tzeentch's Cordial will now heal an additional 220 health after the effect ends.",
+      "description": "Tzeentch's Cordial will now heal an additional Y health after the effect ends.",
       "category": "CareerTactic"
     },
   
@@ -613,7 +357,7 @@
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All group members within 100 feet of you are healed for 643.",
+      "description": "All group members within 100 feet of you are healed for X.",
       "category": "Ability"
     },
   
@@ -629,7 +373,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Heals your target for 883 health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
+      "description": "Heals your target for X health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
       "category": "Ability"
     },
   
@@ -642,7 +386,7 @@
       "minrank": "21",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "3m cooldown",
       "note": "",
       "description": "You embrace the Warp, surrounding yourself with it's power. You will take only 50% damage and your abilities will cost 25% fewer Action Points for 10 seconds. During this time you generate almost no threat, and can not be set back while casting.",
@@ -698,54 +442,6 @@
     },
   
     {
-      "image": "22725",
-      "id": 5767,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5768,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5766,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "05154",
       "id": 5784,
       "name": "Flash of Chaos",
@@ -754,10 +450,10 @@
       "minrank": "1",
       "cost": "Costs 15 AP",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A burst of chaos that restores 276 health to an ally.",
+      "description": "A burst of chaos that restores X health to an ally.",
       "category": "Ability"
     },
   
@@ -770,7 +466,7 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
@@ -802,7 +498,7 @@
       "minrank": "16",
       "cost": "Costs 25 AP",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be Cursed or Hexed",
       "description": "One Curse or Hex is removed by the chaos.",
@@ -818,59 +514,11 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
       "description": "When this ability is toggled on, you are the Harbinger of Doom, converting your Healing Power, Willpower, and Healing Critical Chance bonuses from items into Magic Power, Intelligence, and Magic Critical Chance.<br><br>When this ability is toggled off, you are the Harbinger of Change, converting your Magic Power, Intelligence, and Magic Critical Chance bonuses from items into Healing Power, Willpower, and Healing Critical Chance.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5759,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5758,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5757,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -901,7 +549,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A bolt of healing energy which instantly leaps to allies within 30 feet of the last affected, restoring 153 health over 9 seconds. This effect will only pass through each target once, and will affect up to 6 allies.",
+      "description": "A bolt of healing energy which instantly leaps to allies within 30 feet of the last affected, restoring X health over 9 seconds. This effect will only pass through each target once, and will affect up to 6 allies.",
       "category": "Ability"
     },
   
@@ -930,10 +578,10 @@
       "minrank": "4",
       "cost": "Costs 25 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "InstantCast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by 50. The bearer of this Mark may also activate it like an ability to inflict 234 Corporeal damage.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Grants a groupmember a X ability bonus to Strength, Ballistic Skill, and Intelligence. The bearer of this Mark may also activate it like an ability to inflict X corporeal damage.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
   
@@ -946,10 +594,10 @@
       "minrank": "40",
       "cost": "Costs 25 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10m cooldown",
       "note": "",
-      "description": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's Toughness is increased by 80 for 1 hour.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's gains a 80 ability bonus to toughness for 1 hour.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
   
@@ -962,10 +610,10 @@
       "minrank": "12",
       "cost": "Costs 25 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases a groupmember's Initiative and Willpower by 50. The bearer of this Mark may activate it like an ability to inflict 552 Corporeal damage over 9 seconds.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Grants a groupmember a X ability bonus to Initiative and Willpower. The bearer of this Mark may activate it like an ability to inflict X corporeal damage over 9 seconds.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
   
@@ -978,10 +626,10 @@
       "minrank": "9",
       "cost": "Costs 25 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all your groupmember's resistances by 157. The bearer of this Mark may activate it to inflict 342 Corporeal damage over 9 seconds to all targets within 30 feet. <br>A player may only bear a single Mark at a time, and all of your Marks will fade if you die.",
+      "description": "Grants a groupmember a X ability bonus to all resistances. The bearer of this Mark may activate it to inflict X corporeal damage over 9 seconds to all targets within 30 feet. <br>A player may only bear a single Mark at a time, and all of your Marks will fade if you die.",
       "category": "Ability"
     },
   
@@ -997,56 +645,8 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Curses your target for 10 seconds so that whenever they cast a direct heal, it inflicts 365 Corporeal damage to them.",
+      "description": "Curses your target for 10 seconds so that whenever they cast a direct heal, it inflicts X corporeal damage to them.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5765,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5764,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5763,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1063,22 +663,6 @@
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "23414",
-      "id": 5747,
-      "name": "Reinforce War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You heal the ram for 750 health over the next 5 seconds.",
-      "category": "Ability"
     },
   
     {
@@ -1106,10 +690,10 @@
       "minrank": "7",
       "cost": "Costs 40 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Pains washes over enemies within 30 feet of you, inflicting 189 Corporeal damage.",
+      "description": "Pains washes over enemies within 30 feet of you, inflicting X corporeal damage.",
       "category": "Ability"
     },
   
@@ -1122,9 +706,9 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "80ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "You may only have 1 Ritual active<br>Requires 5 points in Path of Alchemy",
+      "note": "You may only have 1 Ritual active",
       "description": "A frenzied, 30 seconds long ritual that affects all groupmembers within 100 feet, granting them a 20% chance to regain 50 Action Points every attack.",
       "category": "Ability"
     },
@@ -1138,10 +722,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "80ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "You may only have 1 Ritual active<br>Requires 5 points in Path of Dark Rites",
-      "description": "A dark Ritual lasting 30 seconds that infuses your group with the souls of the fallen, restoring 146 health every 3 seconds to those within 100 feet of the Ritual.",
+      "note": "You may only have 1 Ritual active",
+      "description": "A dark Ritual lasting 30 seconds that infuses your group with the souls of the fallen, restoring X health every 3 seconds to those within 100 feet of the Ritual.",
       "category": "Ability"
     },
   
@@ -1154,9 +738,9 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "80ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "You may only have 1 Ritual active<br>Requires 5 points in Path of Witchcraft",
+      "note": "You may only have 1 Ritual active",
       "description": "A Ritual of dominance that lasts for 30 seconds, granting group members in the radius a 20% chance when taking damage to active a shield that will absorb 325 damage for up to 10 seconds. Will not trigger more than once every 2 seconds.",
       "category": "Ability"
     },
@@ -1173,7 +757,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Power lashes out and inflicts 277 Corporeal damage.",
+      "description": "Power lashes out and inflicts X corporeal damage.",
       "category": "Ability"
     },
   
@@ -1192,71 +776,7 @@
       "description": "Warp Reality will now deals 10% more damage, and every tick of damage has a 20% chance of making the next Scourge cast within 10 seconds instant cast.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "23415",
-      "id": 5749,
-      "name": "Shield the Skies",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "",
-      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 40 feet. Only one effect of this type may be on a player at a time.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5760,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5761,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5762,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "23155",
       "id": 5719,
@@ -1282,10 +802,10 @@
       "minrank": "1",
       "cost": "Costs 20 AP/sec",
       "range": "100ft range",
-      "incant": "6.0s cast",
+      "incant": "6.0s channel",
       "cooldown": "11.0s cooldown",
       "note": "",
-      "description": "Channeled. Deals 1092 Corporeal damage over 6 seconds. 100% chance to be setback while casting.",
+      "description": "Channeled. Deals X corporeal damage over 6 seconds. 100% chance to be setback while casting.",
       "category": "Ability"
     },
   
@@ -1333,7 +853,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Demon Spittle grows ever more corrosive and now also reduces Armor by 618 and Corporeal resistance by 236.",
+      "description": "Demon Spittle grows ever more corrosive and now causes enemies to take a X unique penalty to Armor and a Y unique penalty to corporeal resistance.",
       "category": "CareerTactic"
     },
   
@@ -1394,10 +914,10 @@
       "minrank": "3",
       "cost": "Costs 30 AP",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Heals your target for 1700 over 15 seconds.",
+      "description": "Heals your target for X over 15 seconds.",
       "category": "Ability"
     },
   
@@ -1410,10 +930,10 @@
       "minrank": "5",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A quick bolt of power that deals 234 Corporeal damage.",
+      "description": "A quick bolt of power that deals X corporeal damage.",
       "category": "Ability"
     },
   
@@ -1429,7 +949,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to 475 damage over 10 seconds.",
+      "description": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to X damage over 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1445,7 +965,7 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Inflicts 375 Corporeal damage over 4 seconds and silences the target, preventing them from using any magic.",
+      "description": "Inflicts X corporeal damage over 4 seconds and silences the target, preventing them from using any magic.",
       "category": "Ability"
     },
   
@@ -1474,10 +994,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "All groupmates within 100 feet are healed for 1596 health over 15 seconds and regain 25 Action Points every second for 15 seconds",
+      "description": "All groupmates within 100 feet are healed for 2394 health over 15 seconds and regain 25 Action Points every second for 15 seconds",
       "category": "Morale"
     },
   
@@ -1490,10 +1010,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "All group mates within 100 feet are granted 250 Action Points, and for 20 seconds, everyone will absorb up to 3600 damage.",
+      "description": "All group mates within 100 feet are granted 250 Action Points, and for 20 seconds, everyone will absorb up to 5400 damage.",
       "category": "Morale"
     },
   
@@ -1525,7 +1045,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Elemental resistance by 252.",
+      "description": "Gaina  252 unique bonus to elemental resistance.",
       "category": "CareerTactic"
     },
   
@@ -1538,10 +1058,10 @@
       "minrank": "6",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, your target will absorb up to 550 damage. When the effect fades they will regain 186 health.",
+      "description": "For the next 10 seconds, your target will absorb up to X damage. When the effect fades they will regain Y health.",
       "category": "Ability"
     },
   
@@ -1554,10 +1074,10 @@
       "minrank": "2",
       "cost": "Costs 30 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Inflicts 610 Corporeal damage over 15 seconds.",
+      "description": "Inflicts X Corporeal damage over 15 seconds.",
       "category": "Ability"
     },
   
@@ -1589,7 +1109,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by 1056 for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
+      "description": "Each tick of Tzeentch's Cordial has 25% chance to give the target a 1056 unique bonus to armor for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
       "category": "CareerTactic"
     },
   
@@ -1605,7 +1125,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rituals will now pulse 150 Corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
+      "description": "Rituals will now pulse X corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
       "category": "CareerTactic"
     },
   
@@ -1618,10 +1138,10 @@
       "minrank": "1",
       "cost": "Costs 20 AP/sec",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "26.0s cooldown",
       "note": "",
-      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 172 damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 2 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<br>This spell may be toggled off to regain your movement.",
+      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict X corporeal damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 2 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<br>This spell may be toggled off to regain your movement.",
       "category": "Ability"
     },
   
@@ -1634,10 +1154,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Inflicts 1200 damage to all targets within 30 feet of you, making heals 50% less effective on them for 10 seconds.",
+      "description": "Inflicts 1800 damage to all targets within 30 feet of you, making heals 50% less effective on them for 10 seconds.",
       "category": "Morale"
     }
   ]
