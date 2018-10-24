@@ -24,7 +24,7 @@
         "lvl6": 4702,
         "lvl7": 4703
       },
-      "coreAbilities": [4652,4754,4658,4663,4746]
+      "coreAbilities": [4652,4654,4658,4663,4746]
     },
     "c": {
       "name": "Path of Da Wrecka",
@@ -542,7 +542,7 @@
       "id": 4652,
       "name": "Go For Da Soft Spot",
       "type": "Damaging",
-      "spec": "Path of Da' Savage",
+      "spec": "Path of Da' Hitta",
       "minrank": "7",
       "cost": "Costs 30 AP",
       "range": "5ft range",
@@ -734,7 +734,7 @@
       "id": 4647,
       "name": "Reckless Blow",
       "type": "Damaging",
-      "spec": "Path of Da' Hitta",
+      "spec": "Path of Da' Savage",
       "minrank": "2",
       "cost": "Costs 30 AP",
       "range": "5ft range",
