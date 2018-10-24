@@ -11,7 +11,7 @@
         "lvl6": 4695,
         "lvl7": 4696
       },
-      "coreAbilities": [4664,4650,4652,4648,4653]
+      "coreAbilities": [4647,4648,4650,4653,4664]
     },
     "b": {
       "name": "Path of Da Hitta",
@@ -24,7 +24,7 @@
         "lvl6": 4702,
         "lvl7": 4703
       },
-      "coreAbilities": [4654,4746,4663,4647,4658]
+      "coreAbilities": [4652,4754,4658,4663,4746]
     },
     "c": {
       "name": "Path of Da Wrecka",
@@ -37,154 +37,10 @@
         "lvl6": 4709,
         "lvl7": 4710
       },
-      "coreAbilities": [4662,4651,4649,4661,4665]
+      "coreAbilities": [4649,4651,4661,4662,4665]
     }
   },
   "data": [
-    {
-      "image": "22736",
-      "id": 4720,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 4718,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 4719,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4733,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4735,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4734,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 4742,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 4744,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 4743,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
     {
       "image": "02654",
       "id": 4698,
@@ -194,10 +50,10 @@
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your target suffers 500 damage over the next 10 seconds. The damage will start low, and increase as the effect continues.",
+      "description": "Your target suffers X physical damage over the next 10 seconds. The damage will start low, and increase as the effect continues.",
       "category": "Ability"
     },
   
@@ -218,54 +74,6 @@
     },
   
     {
-      "image": "22731",
-      "id": 4738,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 4737,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 4736,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "02652",
       "id": 4653,
       "name": "Bring Da Pain!",
@@ -274,10 +82,10 @@
       "minrank": "8",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Each time that you attack an enemy within the next 10 seconds, Any group member within 100 feet will have their Weapon Skill increased by 1, but your Initiative will also be reduced by 1 for the next 10 seconds. This effect can be stacked up to three times.",
+      "description": "Each time that you attack an enemy within the next 10 seconds, Any group member within 100 feet will gain a X ability bonus to weaponskill, but take a X ability penalty to initiative for the next 10 seconds. This effect can be stacked up to three times.",
       "category": "Ability"
     },
   
@@ -290,10 +98,10 @@
       "minrank": "40",
       "cost": "Costs 15 AP/sec",
       "range": "5ft range",
-      "incant": "10.0s cast",
-      "cooldown": "1m cooldown",
+      "incant": "5.0s channel",
+      "cooldown": "30.0s cooldown",
       "note": "Requires Dual Wield",
-      "description": "For the next 10 seconds, each time you are hit with an attack you will do 194 damage back to the attacker. This effect can only be triggered once every second.",
+      "description": "You strike out at all enemies with 25 feet in front of you, inflicting X physical damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
       "category": "Ability"
     },
   
@@ -306,7 +114,7 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
@@ -325,7 +133,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength by 160.",
+      "description": "Gain a 160 unique bonus to strength.",
       "category": "CareerTactic"
     },
   
@@ -338,7 +146,7 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
@@ -354,10 +162,10 @@
       "minrank": "1",
       "cost": "Costs 15 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You chop at your enemy, dealing 141 damage and reducing the value of incoming heals on them by 50% for the next 10 seconds.",
+      "description": "You chop at your enemy, dealing X physical damage and reducing the value of incoming heals on them by 50% for the next 10 seconds.",
       "category": "Ability"
     },
   
@@ -370,7 +178,7 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, the effect will immediately end.",
@@ -386,7 +194,7 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "60.0s cooldown",
       "note": "",
       "description": "Group members within 100 feet are inspired by the way you shrug off the blows, for the next 10 seconds any ability used by your groupmates will cool down 5 seconds faster.",
@@ -410,6 +218,22 @@
     },
   
     {
+      "image": "22707",
+      "id": 4672,
+      "name": "Chop Til You Drop",
+      "type": "Defensive",
+      "spec": "Core Ability",
+      "minrank": "37",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect does not stack.",
+      "category": "CareerTactic"
+    },
+
+    {
       "image": "02646",
       "id": 4661,
       "name": "Come and Git It!",
@@ -418,10 +242,10 @@
       "minrank": "20",
       "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Increases your Toughness by 25 for each enemy within 20 feet, up to a maximum of 6 enemies, for 10 seconds.",
+      "description": "Gain a (1 * rank) ability bonus to toughness for each enemy within 20 feet, up to a maximum of 6 enemies, for 10 seconds.",
       "category": "Ability"
     },
   
@@ -434,59 +258,11 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22716",
-      "id": 4740,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 4739,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 4741,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
     },
   
     {
@@ -498,7 +274,7 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Absorbs 3600 damage for up to 20 seconds.",
@@ -517,7 +293,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Spirit resistance by 252.",
+      "description": "Gain a 252 unique bonus to spirit resistance.",
       "category": "CareerTactic"
     },
   
@@ -530,10 +306,10 @@
       "minrank": "3",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A maiming attack which deals 141 damage to the target and snares them, reducing their run speed by 40% for 5 seconds.",
+      "description": "A maiming attack which deals X physical damage to the target and snares them, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability"
     },
   
@@ -565,7 +341,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength and Weapon Skill by 120, but reduces your Toughness by 120.",
+      "description": "Gain a 120 unique bonus to strength and weaponskill and take a 120 unique penalty to toughness.",
       "category": "CareerTactic"
     },
   
@@ -578,7 +354,7 @@
       "minrank": "16",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires Target to have Parried or Blocked",
       "description": "Your attacks become more precise, your target's chance to block or parry is reduced by 50% for 10 seconds.",
@@ -616,71 +392,7 @@
       "description": "Lotsa Choppin' will affect 9 targets within 30 feet and reduces the base damage by 20%.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "23408",
-      "id": 4713,
-      "name": "Faultfinder",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "",
-      "description": "Increases friendly ram damage by 2% for the next 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4731,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4732,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4730,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "22707",
       "id": 4667,
@@ -722,7 +434,7 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
@@ -741,7 +453,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts 104 damage.",
+      "description": "A basic throwing attack that inflicts X physical damage.",
       "category": "Ability"
     },
   
@@ -754,7 +466,7 @@
       "minrank": "12",
       "cost": "Rank 2 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
@@ -770,7 +482,7 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
@@ -786,10 +498,10 @@
       "minrank": "1",
       "cost": "Costs 15 AP/sec",
       "range": "5ft range",
-      "incant": "5.0s cast",
+      "incant": "5.0s channel",
       "cooldown": "25.0s cooldown",
       "note": "",
-      "description": "A merciless strike of attacks that repeatedly hits your target for up to 5 seconds, dealing up to 194 damage. You will be healed for all damage this ability deals.",
+      "description": "A merciless strike of attacks that repeatedly hits your target for up to 5 seconds, dealing up to X physical damage. You will be healed for all damage this ability deals.",
       "category": "Ability"
     },
   
@@ -802,7 +514,7 @@
       "minrank": "12",
       "cost": "Costs 15 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Your groupmates are inspired by your eagerness to fight. Auto attack speed is increased by 35% for 20 seconds for all groupmates within 100 feet.",
@@ -818,10 +530,10 @@
       "minrank": "1",
       "cost": "Costs 10 AP/sec",
       "range": "No range",
-      "incant": "6.0s cast",
+      "incant": "6.0s channel",
       "cooldown": "30.0s cooldown",
-      "note": "Requires Dual Wield<br>Requires 13 points in Path of Da' Wrecka",
-      "description": "You frantically lash out at everything nearby for up to 6 seconds, dealing 138 damage every 2 seconds to all enemies within 30 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you.",
+      "note": "Requires Dual Wield",
+      "description": "You frantically lash out at everything nearby for up to 6 seconds, dealing X physical damage every 2 seconds to all enemies within 30 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 30% for as long as this ability is active.",
       "category": "Ability"
     },
   
@@ -834,59 +546,11 @@
       "minrank": "7",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Target must be facing away from you",
-      "description": "You deal 216 damage to your enemy.",
+      "description": "You deal X physical damage to your enemy.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22730",
-      "id": 4723,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 4722,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 4721,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -898,10 +562,10 @@
       "minrank": "14",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "While this ability is active, your melee attacks will deal an additional 100 damage , but you will also suffer 50 damage each time.",
+      "description": "While this ability is active, your melee attacks will deal an additional X physical damage , but you will also suffer Y physical damage each time.",
       "category": "Ability"
     },
   
@@ -917,7 +581,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Wounds by 160.",
+      "description": "Gain a 160 unique bonus to wounds.",
       "category": "CareerTactic"
     },
   
@@ -965,7 +629,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you die, you have a 25% chance of ressurecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing 250 damage.",
+      "description": "When you die, you have a 25% chance of ressurecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing X physical damage.",
       "category": "CareerTactic"
     },
   
@@ -978,10 +642,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires 5 points in Path of Da' Savage",
-      "description": "You chop deeply into your enemy, dealing 191 damage. Your love of battle fills you with energy, restoring 100 Action Points.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be Furious or Berserk<br>Exhausts your Rage",
+      "description": "You chop deeply into your enemy, dealing X physical damage. Your love of battle fills you with energy, restoring 100 Action Points.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -1013,7 +677,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While you are Furious, you regain 100 health every 4 seconds. While you are Berserk, you regain 175 health every 4 seconds.",
+      "description": "While you are Furious, you regain X health every 4 seconds. While you are Berserk, you regain Y health every 4 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1026,10 +690,10 @@
       "minrank": "4",
       "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You wildly swing at enemies in front of you within 25 feet, dealing anywhere from 61 damage to 69 damage. May only hit up to three targets.",
+      "description": "You wildly swing at enemies in front of you within 25 feet, dealing anywhere from X physical damage to Y physical damage. May only hit up to three targets.",
       "category": "Ability"
     },
   
@@ -1042,59 +706,11 @@
       "minrank": "1",
       "cost": "Costs 15 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon<br>Requires 13 points in Path of Da' Hitta",
-      "description": "A brutal attack which deals 266 damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
+      "description": "A brutal attack which deals X physical damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22729",
-      "id": 4729,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 4728,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 4727,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1106,7 +722,7 @@
       "minrank": "10",
       "cost": "Costs 50 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
@@ -1122,10 +738,10 @@
       "minrank": "2",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "Deals 191 damage and for 10 seconds, your chance to be critically hit will be increased by 5%.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "Deals X physical damage and for 10 seconds, your chance to be critically hit will be increased by 1%. This negative effect stacks up to 5 times.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -1154,7 +770,7 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
@@ -1186,7 +802,7 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
@@ -1202,26 +818,10 @@
       "minrank": "18",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Any roots or snares are removed, as all attempts to impede your movement are futile. For the next 10 seconds, roots and snares will have no effect on you.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "23416",
-      "id": 4712,
-      "name": "Siege Wrecker",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You sabotage a siege ram, causing the ram to deal 98% of the original damage for the next 10 seconds.",
       "category": "Ability"
     },
   
@@ -1234,59 +834,11 @@
       "minrank": "30",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Must be Berserk<br>Exhausts your Rage",
-      "description": "Deals 166 damage and knocks down the target for 2 seconds. The attack is undefendable.",
+      "description": "Deals X physical damage and knocks down the target for 3 seconds. The attack is undefendable.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22721",
-      "id": 4724,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 4725,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 4726,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1298,10 +850,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A furious slash that deals 191 damage and reduces your target's Toughness by 25 for 9 seconds. This effect is stackable up to three times.",
+      "description": "A furious slash that deals X physical damage and causes your target to take a (1 * rank) ability penalty to toughness for 9 seconds. This effect is stackable up to three times.",
       "category": "Ability"
     },
   
@@ -1330,10 +882,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You stomp the ground, knocking down targets within 30 feet for 3 seconds and dealing 1200 damage.",
+      "description": "You stomp the ground, knocking down targets within 30 feet for 3 seconds and dealing 1800 damage.",
       "category": "Morale"
     },
   
@@ -1349,7 +901,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the chance to critically hit with Path of Da' Big Hitta abilities by 15%.",
+      "description": "Increases the chance to critically hit with Path of Da' Big Hitta abilities by 15%. If you are dual wielding, increases your chance to be critically hit by 10%.",
       "category": "CareerTactic"
     },
   
@@ -1362,7 +914,7 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1800 damage and reduces Action Point costs by 50% for 10 seconds.",
@@ -1378,7 +930,7 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You deal an additional 300 damage, whenever you use an ability. This effect will fade after you damage 8 targets.",
@@ -1394,10 +946,10 @@
       "minrank": "5",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You slash at your opponent's throat, immediately inflicting 108 damage. The wound continues to bleed for 132 damage over 3 seconds.",
+      "description": "You slash at your opponent's throat, immediately inflicting X physical damage. The wound continues to bleed for Y physical damage over 3 seconds.",
       "category": "Ability"
     },
   
@@ -1410,10 +962,10 @@
       "minrank": "1",
       "cost": "Costs 15 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage<br>Requires 9 points in Path of Da' Hitta",
-      "description": "You chop your target in a vital organ, dealing 166 damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
+      "description": "You chop your target in a vital organ, dealing X physical damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -1426,10 +978,10 @@
       "minrank": "35",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "An exhaustive blow that deals 141 damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "An exhaustive blow that deals X physical damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -1445,7 +997,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you do critical damage, reduces your target's Weapon Skill by 120 for 10 seconds.",
+      "description": "When you do critical damage, your target takes a 120 unique penalty to weapon skill for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1458,17 +1010,17 @@
       "minrank": "9",
       "cost": "Costs 40 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "You unleash a powerful blow, dealing 291 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You unleash a powerful blow, dealing X physical damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
     {
       "image": "22701",
       "id": 4699,
-      "name": "Wear Em Down",
+      "name": "Pent Up Rage",
       "type": "Defensive",
       "spec": "Path of Da' Hitta",
       "minrank": "1",
@@ -1477,7 +1029,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Exhaustive Blows have a 50% chance of returning 25% of your Rage.",
+      "description": "Every 4 seconds, you will gain one stack of an effect which reduces the Rage cost of your exhaustive blows by 25%. This effect stacks up to 3 times, and using an exhaustive blow will consume one stack.",
       "category": "CareerTactic"
     },
   
@@ -1490,10 +1042,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your rage inspires all around, causing groupmates' attacks to deal an additional 200 damage for 10 seconds while within 100 feet of you.",
+      "description": "Your rage inspires all around, causing groupmates' attacks to deal an additional 300 damage for 10 seconds while within 100 feet of you.",
       "category": "Morale"
     },
   
@@ -1506,10 +1058,10 @@
       "minrank": "6",
       "cost": "Costs 55 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You strike enemies within 30 feet, dealing anywhere from 40 damage to 60 damage. <br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You strike enemies within 30 feet, dealing anywhere from X physical damage to Y physical damage. <br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -1538,10 +1090,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield<br>Requires 5 points in Path of Da' Wrecka",
-      "description": "You lash out at all enemies within 30 feet, inflicting 105 damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
+      "description": "You lash out at all enemies within 30 feet, inflicting X physical damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -1554,10 +1106,10 @@
       "minrank": "25",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You swipe at the enemies in front of you, dealing 112 over 9 seconds to enemies within 40 feet.",
+      "description": "You swipe at the enemies in front of you, dealing X physical damage over 9 seconds to enemies within 40 feet.",
       "category": "Ability"
     },
   
@@ -1586,10 +1138,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You chop all enemies within 30 feet for 800 damage and all heals are reduced by 50% for 10 seconds.",
+      "description": "You chop all enemies within 30 feet for 1200 damage and all heals are reduced by 50% for 10 seconds.",
       "category": "Morale"
     }
   ]
