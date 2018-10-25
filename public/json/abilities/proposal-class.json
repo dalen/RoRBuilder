@@ -15,7 +15,7 @@
         "lvl6": 4288,
         "lvl7": 4289
       },
-      "coreAbilities": [4244,4333,4233,4243,4248,4245]
+      "coreAbilities": [4244,4333,4233,4243,4248,4245,7800]
     },
     "b": {
       "name": "Path of The Axeman",
@@ -32,10 +32,10 @@
         "lvl6": 4295,
         "lvl7": 4296
       },
-      "coreAbilities": [4235,4237,4239,4250,4240]
+      "coreAbilities": [4235,4237,4239,4250,4240,7801]
     },
     "c": {
-      "name": "Path of The Woodsman",
+      "name": "Path of The Guardsman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to multiple enemies.",
         "secondary": "Points in Path of the Axeman grants 20 strength, 8 initiative, 12 toughness, and 20 wounds to your lion."
@@ -49,7 +49,7 @@
         "lvl6": 4281,
         "lvl7": 4282
       },
-      "coreAbilities": [4249,4238,4247,4291,4234,7800,7801,7802]
+      "coreAbilities": [4249,4238,4247,4291,4234,7802]
     }
   },
   "data": [
@@ -74,7 +74,7 @@
       "id": 4294,
       "name": "Spirit Stike",
       "type": "Buff",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -90,7 +90,7 @@
       "id": 4238,
       "name": "Baiting Strike",
       "type": "Blessing",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "7",
       "cost": "Costs 30 AP",
       "range": "5ft range",
@@ -122,7 +122,7 @@
       "id": 4282,
       "name": "Blade And Claw",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
@@ -186,7 +186,7 @@
       "id": 4293,
       "name": "Echoing Challenge",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "No range",
@@ -410,7 +410,7 @@
       "id": 4291,
       "name": "Echoing Roar",
       "type": "Curse",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
@@ -602,7 +602,7 @@
       "id": 4292,
       "name": "Deafening Roar",
       "type": "Curse",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -762,7 +762,7 @@
       "id": 4247,
       "name": "Pack Assault",
       "type": "Blessing",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "20",
       "cost": "Costs 30 AP",
       "range": "5ft range",
@@ -929,7 +929,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 5 seconds. If you attack an enemy from the sides or back, then the target will take a (3 * rank) ability penalty to strength for 5s.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. Your target will take a (3 * rank) ability penalty to strength for 9s.",
       "category": "Ability"
     },
   
@@ -938,7 +938,7 @@
       "id": 4249,
       "name": "Slashing Blade",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "30",
       "cost": "Costs 35 AP",
       "range": "No range",
@@ -970,7 +970,7 @@
       "id": 4290,
       "name": "Hack Them Down",
       "type": "Curse",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -1057,7 +1057,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Fey Illusion will now last 20s and also cause your target to take a (rank * 2.5 rounded down) ability penalty to wounds.",
+      "description": "Fey Illusion will now cause your target to take a (3 * rank) ability penalty to willpower and intelligence.",
       "category": "CareerTactic"
     },
   
@@ -1089,7 +1089,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active",
-      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. Any time either you strike an enemy, there is a 10% chance that you and your War Lion will be healed for the damage dealt. War Lion receives 100% more healing from you, and 75% of the threat you generate goes to your war lion.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy toughness, and the ability to reduce several enemies' autoattack speeds.",
+      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. 50% of the threat you generate goes to your war lion. Any time you strike an enemy, there is a 10% chance that you and your War Lion will be healed for 100% of the damage dealt over 5 seconds. This effect will stack on a new application refreshing to 5 second duration and is capped at 3% of your maximum health per tick.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy toughness, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability"
     },
   
@@ -1114,7 +1114,7 @@
       "id": 4234,
       "name": "Trained Traditionally",
       "type": "Buff",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "3",
       "cost": "No AP Cost",
       "range": "No range",
@@ -1130,7 +1130,7 @@
       "id": 4281,
       "name": "Whirling Axe",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 35 AP/sec",
       "range": "No range",
@@ -1146,7 +1146,7 @@
       "id": 7800,
       "name": "Debilitative Command",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "No range",
@@ -1162,7 +1162,7 @@
       "id": 7801,
       "name": "Kill Command",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Axeman",
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "No range",
@@ -1178,7 +1178,7 @@
       "id": 7802,
       "name": "Slash Command",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "No range",
@@ -1194,7 +1194,7 @@
       "id": 7520,
       "name": "Ethereal Cleave",
       "type": "Curse",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "No range",
