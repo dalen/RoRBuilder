@@ -3,19 +3,19 @@
     "a": {
       "name": "Path of The Hunter",
       "popover": {
-        "primary": "A mastery path focused on hindering your enemies.",
-        "secondary": "Points in Path of the Hunter grants grants Wounds, Toughness, Weaponskill, Strength and Initiative to you Lion."
+        "primary": "blue words",
+        "secondary": "yellow words"
       },
       "optionalAbilities": {
-        "lvl1": 4283,
-        "lvl2": 4277,
-        "lvl3": 4285,
-        "lvl4": 4279,
-        "lvl5": 4280,
-        "lvl6": 4288,
-        "lvl7": 4289
+        "lvl1": 8000,
+        "lvl2": 8000,
+        "lvl3": 8000,
+        "lvl4": 8000,
+        "lvl5": 8000,
+        "lvl6": 8000,
+        "lvl7": 8000
       },
-      "coreAbilities": [4244,4333,4233,4243,4248,4245]
+      "coreAbilities": [8000,8000]
     },
     "b": {
       "name": "Path of The Axeman",
@@ -24,32 +24,32 @@
         "secondary": "Points in Path of the Axeman grants Strength and Weapon Skill to your lion.."
       },
       "optionalAbilities": {
-        "lvl1": 4276,
-        "lvl2": 4286,
-        "lvl3": 4252,
-        "lvl4": 4284,
-        "lvl5": 4278,
-        "lvl6": 4295,
-        "lvl7": 4296
+        "lvl1": 8001,
+        "lvl2": 8001,
+        "lvl3": 8001,
+        "lvl4": 8001,
+        "lvl5": 8001,
+        "lvl6": 8001,
+        "lvl7": 8001
       },
-      "coreAbilities": [4235,4237,4239,4250,4240]
+      "coreAbilities": [8001,8001]
     },
     "c": {
-      "name": "Path of The Woodsman",
+      "name": "Path of The Guardian",
       "popover": {
         "primary": "A mastery path focused on dealing damage to multiple enemies.",
         "secondary": "Points in the Woodsman Tree grant lonliness to your Lion."
       },
       "optionalAbilities": {
-        "lvl1": 4292,
-        "lvl2": 7520,
-        "lvl3": 4294,
-        "lvl4": 4293,
-        "lvl5": 4290,
-        "lvl6": 4281,
-        "lvl7": 4282
+        "lvl1": 8002,
+        "lvl2": 8002,
+        "lvl3": 8002,
+        "lvl4": 8002,
+        "lvl5": 8002,
+        "lvl6": 8002,
+        "lvl7": 8002
       },
-      "coreAbilities": [4249,4238,4247,4291,4234]
+      "coreAbilities": [8002,8002]
     }
   },
   "data": [
@@ -1170,6 +1170,54 @@
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "You cleave your enemies within 30 feet dealing (60 + 9 * rank) + (0.4 * STR) physical damage over 9s. Your targets take a (rank * 2) ability penalty to Initiative and Weaponskill.",
+      "category": "Ability"
+    },
+    
+        {
+      "image": "",
+      "id": 8000,
+      "name": "Class Needs Updated",
+      "type": "Damaging",
+      "spec": "Path of The Hunter",
+      "minrank": "40",
+      "cost": "Costs 250 AP",
+      "range": "No range",
+      "incant": "Instant Cost",
+      "cooldown": "No cooldown",
+      "note": "This class needs updated",
+      "description": "This ability is a placeholder until someone can update this career.",
+      "category": "Ability"
+    },
+    
+            {
+      "image": "",
+      "id": 8001,
+      "name": "Class Needs Updated",
+      "type": "Damaging",
+      "spec": "Path of The Axeman",
+      "minrank": "40",
+      "cost": "Costs 250 AP",
+      "range": "No range",
+      "incant": "Instant Cost",
+      "cooldown": "No cooldown",
+      "note": "This class needs updated",
+      "description": "This ability is a placeholder until someone can update this career.",
+      "category": "Ability"
+    },
+    
+            {
+      "image": "",
+      "id": 8003,
+      "name": "Class Needs Updated",
+      "type": "Damaging",
+      "spec": "Path of The Guardian",
+      "minrank": "40",
+      "cost": "Costs 250 AP",
+      "range": "No range",
+      "incant": "Instant Cost",
+      "cooldown": "No cooldown",
+      "note": "This class needs updated",
+      "description": "This ability is a placeholder until someone can update this career.",
       "category": "Ability"
     }
   ]
