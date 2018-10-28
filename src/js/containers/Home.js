@@ -65,7 +65,7 @@ class Home extends React.Component {
       marginRight: true,
       'marginLeft@mobile': true,
     });
-    const githubUrl = 'https://github.com/mattyrichards/ror-career-builder';
+    const githubUrl = 'https://github.com/Natherul/RoRBuilder';
     const githubUrlIssues = `${githubUrl}/issues`;
     return (
       <div className="heightFull">
@@ -88,6 +88,7 @@ class Home extends React.Component {
                   <p className={css.copyText}>Details of updates will appear on this page.</p>
                   <p className={css.copyText}>All code is available on <a href={githubUrl} className={css.copyLink} target="blank">Github</a>
                   . Feel free to fork, contribute, <a href={githubUrlIssues} className={css.copyLink} target="blank">raise bugs and make suggestions</a>.</p>
+				  <p className={css.copyText}>Many thanks to the original creator Matt Richards and to Ramasee who updated it before handing it to the RoR team.</p>
                 </div>
               </div>
             </div>
