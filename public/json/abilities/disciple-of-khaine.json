@@ -661,7 +661,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If Patch Wounds is used on an ally, it will additionally remove an effect from each of your groupmates. This will neither affect you nor trigger when Patch Wounds is used on yourself. Patch Wounds will remove only one effect per target.",
+      "description": "Any time you use Patch Wounds on an ally, you will additionally remove one Hex or Ailment from all groupmates within 150 feet of them.",
       "category": "CareerTactic"
     },
   

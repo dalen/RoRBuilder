@@ -373,7 +373,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you use Purify on an ally instead of on yourself, it will additionally cleanse all group members within 100 feet of you, but this will not affect you. It will not cleanse more than 1 effect per target.",
+      "description": "Any time you use Purify on an ally, you will additionally remove one curse or hex from all groupmates within 150 feet of them.",
       "category": "CareerTactic"
     },
   
