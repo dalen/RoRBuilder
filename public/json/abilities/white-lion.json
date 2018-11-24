@@ -3,53 +3,53 @@
     "a": {
       "name": "Path of The Hunter",
       "popover": {
-        "primary": "blue words",
-        "secondary": "yellow words"
+        "primary": "A Mastery path focused on both you and your pet equally.",
+        "secondary": "Points in Path of the Axeman grants Strength and Weapon Skill to your lion."
       },
       "optionalAbilities": {
-        "lvl1": 8000,
-        "lvl2": 8000,
-        "lvl3": 8000,
-        "lvl4": 8000,
-        "lvl5": 8000,
-        "lvl6": 8000,
-        "lvl7": 8000
+        "lvl1": 4276,
+        "lvl2": 4277,
+        "lvl3": 4278,
+        "lvl4": 4279,
+        "lvl5": 4280,
+        "lvl6": 4281,
+        "lvl7": 4282
       },
-      "coreAbilities": [8000,8000]
+      "coreAbilities": [4235,4333,4245,4249,4239]
     },
     "b": {
       "name": "Path of The Axeman",
       "popover": {
-        "primary": "A mastery path focused on dealing damage to one enemy with the help of your lion.",
-        "secondary": "Points in Path of the Axeman grants Strength and Weapon Skill to your lion.."
+        "primary": "A Mastery path focused on your pet distracting enemies while you deal damage.",
+        "secondary": "Points in Path of the Axeman grants Toughness and Initiative to your lion."
       },
       "optionalAbilities": {
-        "lvl1": 8001,
-        "lvl2": 8001,
-        "lvl3": 8001,
-        "lvl4": 8001,
-        "lvl5": 8001,
-        "lvl6": 8001,
-        "lvl7": 8001
+        "lvl1": 4283,
+        "lvl2": 4284,
+        "lvl3": 4285,
+        "lvl4": 4286,
+        "lvl5": 4287,
+        "lvl6": 4288,
+        "lvl7": 4289
       },
-      "coreAbilities": [8001,8001]
+      "coreAbilities": [4233,4234,4237,4244,4248]
     },
     "c": {
       "name": "Path of The Guardian",
       "popover": {
-        "primary": "A mastery path focused on dealing damage to multiple enemies.",
-        "secondary": "Points in the Woodsman Tree grant lonliness to your Lion."
+        "primary": "A Mastery path focused on assisting and supporting your pet while he deals damage.",
+        "secondary": "Points in the Guardian Tree grants Wounds, Toughness, Weapon Skill, Strength and Initiative to your lion."
       },
       "optionalAbilities": {
-        "lvl1": 8002,
-        "lvl2": 8002,
-        "lvl3": 8002,
-        "lvl4": 8002,
-        "lvl5": 8002,
-        "lvl6": 8002,
-        "lvl7": 8002
+        "lvl1": 4290,
+        "lvl2": 4291,
+        "lvl3": 4292,
+        "lvl4": 4293,
+        "lvl5": 4294,
+        "lvl6": 4295,
+        "lvl7": 4296
       },
-      "coreAbilities": [8002,8002]
+      "coreAbilities": [4240,4243,4247,4250,4238]
     }
   },
   "data": [
@@ -68,23 +68,7 @@
       "description": "You fling a throwing axe at your target, dealing 97 damage.",
       "category": "Ability"
     },
-    
-    {
-      "image": "22694",
-      "id": 4294,
-      "name": "Spirit Stike",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "All of your path of woodsman abilities bypass 50% spirit resistance.",
-      "category": "CareerTactic"
-    },
-  
+     
     {
       "image": "13425",
       "id": 4238,
@@ -122,14 +106,14 @@
       "id": 4282,
       "name": "Blade And Claw",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1800 damage to all enemies within 30 feet of both you and your War Lion.",
+      "description": "Deals 1040 damage to all enemies within 30 feet of both you and your War Lion.",
       "category": "Morale"
     },
   
@@ -180,23 +164,7 @@
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale"
     },
-  
-    {
-      "image": "13446",
-      "id": 4293,
-      "name": "Echoing Challenge",
-      "type": "Damaging",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Costs 30 AP",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Requires Trained to Stay",
-      "description": "Deals X damage to all enemies with 25ft knocking them down for 2 seconds.",
-      "category": "Ability"
-    },
-  
+   
     {
       "image": "22701",
       "id": 4264,
@@ -244,23 +212,7 @@
       "description": "You call your tamed War Lion to come forth and fight with you.<br>You may only have a single War Lion at a time.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22706",
-      "id": 4257,
-      "name": "Calming Presence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "35",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time you are healed, your War Lion will become healed for 25% of the value as long as it is within 30 feet.",
-      "category": "CareerTactic"
-    },
-  
+   
     {
       "image": "22705",
       "id": 4273,
@@ -353,7 +305,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for (10 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage, and your pet strikes its target for (10 + 5/3 * rank) + (0.3 * STR) physical damage. If you are within 35 feet of your pet's target, you will also strike that enemy, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy as well.",
+      "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for (10 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage, and your pet strikes its target for (10 + 5/3 * rank) + (0.3 * STR) physical damage. If you are within 35 feet of your pet's target, you will also strike that enemy for (10 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for (10 + 5/3 * rank) + (0.3 * STR) physical damage as well.",
       "category": "Ability"
     },
   
@@ -362,13 +314,13 @@
       "id": 4286,
       "name": "Cull The Weak",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of The Axeman",
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Target must be below 50% health<br>",
+      "note": "Target must be below 50% health",
       "description": "A ruthless attack which deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and will almost always deal critical damage to a wounded foe.",
       "category": "Ability"
     },
@@ -410,14 +362,14 @@
       "id": 4291,
       "name": "Echoing Roar",
       "type": "Curse",
-      "spec": "Core Ability",
+      "spec": "Path of The Guardian",
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You each unleash a blasting shout, interrupting any enemies 40 feet in front of you.",
+      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 15 feet of either one of you and inflicting an Ailment which causes (38 + 1337/3 * rank) + (0.3 * STR) + (1.5 * DPS) Spirit damage over 15 seconds to all affected enemies.",
       "category": "Ability"
     },
   
@@ -433,7 +385,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 900 damage to your target, and roots them in place for 10 seconds.",
+      "description": "Deals 300 damage to your target, and roots them in place for 10 seconds.",
       "category": "Morale"
     },
   
@@ -570,14 +522,14 @@
       "id": 4279,
       "name": "Force Opportunity",
       "type": "Curse",
-      "spec": "Core Ability",
+      "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim takes a (40 * rank) ability penalty to armor for 10s.",
+      "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim takes a (34 * rank) ability penalty to armor for 10s.",
       "category": "Ability"
     },
   
@@ -602,7 +554,7 @@
       "id": 4287,
       "name": "Full-Grown",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of The Axeman",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -612,23 +564,7 @@
       "description": "Increases your Strength by 50, and increases your War Lion's Wounds by 100.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "22706",
-      "id": 4292,
-      "name": "Defeaning Roar",
-      "type": "Healing",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Echoing Roar will now deal X spirit damage to all targets over 15s.",
-      "category": "CareerTactic"
-    },
-  
+    
     {
       "image": "13419",
       "id": 4333,
@@ -644,23 +580,7 @@
       "description": "A brutal chop at your enemy which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22708",
-      "id": 4280,
-      "name": "Merciless Blows",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Shattering Blows now increases the target's cast times by 0.5 seconds.",
-      "category": "CareerTactic"
-    },
-  
+   
     {
       "image": "22694",
       "id": 4263,
@@ -682,7 +602,7 @@
       "id": 4289,
       "name": "Joy of the Hunt",
       "type": "Healing",
-      "spec": "Core Ability",
+      "spec": "Path of The Axeman",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
@@ -698,14 +618,14 @@
       "id": 4295,
       "name": "Leonine Frenzy",
       "type": "Blessing",
-      "spec": "Core Ability",
+      "spec": "Path of The Guardian",
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Requires an active pet.",
-      "description": "At your command, your War Lion goes berserk with a killing frenzy! All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds. During this time, your pet will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage every time it strikes an enemy.<br>Damage can only trigger once every second.",
+      "note": "Requires an active pet",
+      "description": "At your command, your War Lion goes berserk with a killing frenzy! All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds. During this time, your pet will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage every time it strikes an enemy.<br>Damage can only trigger once every 2 seconds.",
       "category": "Ability"
     },
   
@@ -714,7 +634,7 @@
       "id": 4276,
       "name": "Lionheart",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -753,7 +673,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage when your War Lion is not called forth.",
+      "description": "You deal 25% more damage and the cooldown of Pounce is removed, but you are unable to call forth your War Lion, and it will depart if it has already been summoned.",
       "category": "CareerTactic"
     },
   
@@ -794,14 +714,14 @@
       "id": 4278,
       "name": "Pack Hunting",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your autoattack speed by 50%.",
+      "description": "Trained To Hunt will now also increase your autoattack speed by 50%",
       "category": "CareerTactic"
     },
   
@@ -816,8 +736,8 @@
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
-      "note": "Requires an active pet or Trained to Stay",
-      "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%.",
+      "note": "",
+      "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active.",
       "category": "CareerTactic"
     },
   
@@ -826,14 +746,14 @@
       "id": 4277,
       "name": "Pounce",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned<br>You cannot perform this action while Trained to Stay is Active",
-      "description": "You pounce forwards, leaping towards your target. When you land, you will inflict (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage, and your movement speed will be increased by 35% for 3 seconds.",
+      "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
+      "description": "You pounce forwards, leaping towards your target and causing (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage wehen you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air.",
       "category": "Ability"
     },
   
@@ -842,14 +762,14 @@
       "id": 4284,
       "name": "Primal Fury",
       "type": "Blessing",
-      "spec": "Core Ability",
+      "spec": "Path of The Axeman",
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will deal 25% more damage.",
+      "description": "For the next 10 seconds, you will deal 25% more damage any time you strike an enemy in the sides or back.",
       "category": "Ability"
     },
   
@@ -858,7 +778,7 @@
       "id": 4296,
       "name": "Rampage",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of The Guardian",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
@@ -913,7 +833,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an enemy's attack, you will strike them back for 246 damage which they can not prevent.",
+      "description": "Each time you parry an enemy's attack, you will strike them back for (38 + 1337/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage which they can not prevent.",
       "category": "CareerTactic"
     },
   
@@ -945,7 +865,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 5 seconds. If you attack an enemy from the sides or back, then the target will take a (3 * rank) ability penalty to strength for 5s.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
       "category": "Ability"
     },
   
@@ -980,23 +900,7 @@
       "description": "Increases your War Lion's movement speed by 50%.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "22709",
-      "id": 4290,
-      "name": "Hack Them Down",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "All of your Path of Woodsman abilities have a 25% chance to reduce the target's morale by 225.",
-      "category": "CareerTactic"
-    },
-  
+   
     {
       "image": "13428",
       "id": 4241,
@@ -1041,7 +945,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Slashing Blade and Sundering Chop will now cause an additional 258 damage over 3 seconds.",
+      "description": "Slashing Blade and Sundering Chop will now cause an additional (20 + 1337/3 * rank) + (0.3 * STR) + (1.5 DPS) damage over 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1050,7 +954,7 @@
       "id": 4288,
       "name": "Thin The Herd",
       "type": "Curse",
-      "spec": "Core Ability",
+      "spec": "Path of The Axeman",
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
@@ -1059,22 +963,6 @@
       "note": "Must be at your target's side or rear",
       "description": "You call forth a small bit of power as you attack your enemy, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and causing all healing that they use within the next 10 seconds to become 50% as effective.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22709",
-      "id": 4285,
-      "name": "Kurnous's Chosen",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Fey Illusion will now also cause your target to take a (rank * 2.5 rounded down) ability penalty to wounds.",
-      "category": "CareerTactic"
     },
   
     {
@@ -1105,7 +993,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active",
-      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional 78 damage over 3 seconds.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy toughness, and the ability to reduce several enemies' autoattack speeds.",
+      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional (20 + 1337/3 * rank) + (0.3 * STR) + (1.5 DPS) damage over 3 seconds.<br><br>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability"
     },
   
@@ -1120,15 +1008,15 @@
       "range": "No range",
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
-      "note": "Can only have one training active.",
-      "description": "You train your pet to fight ferociously, increasing its Strength and  Weapon Skill from your Strength and Weapon Skill gained from items and increasing your Critical Chance by 5%.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
+      "note": "Can only have one training active",
+      "description": "You train your pet to fight ferociously, increasing its Strength and  Weapon Skill from your Strength and Weapon Skill gained from items and increasing your Toughness by 50 by 5%.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability"
     },
   
     {
       "image": "13427",
       "id": 4234,
-      "name": "Trained To Stay",
+      "name": "Trained To Threaten",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "3",
@@ -1136,8 +1024,8 @@
       "range": "No range",
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
-      "note": "Can only have one training active.",
-      "description": "You train your pet to stay and protect Chrace while you do battle. You deal 25% more damage since your War Lion cannot be called forth and all of your Woodsman abilities are converted to Spirit damage. You cannot Pounce with Trained to Stay active and its effects do not stack with Loner.<br><br>Your pet gains the ability to be lonely.",
+      "note": "Can only have one training active",
+      "description": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by 5% as long as you are at your target's side or back.<br><br>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies.",
       "category": "Ability"
     },
   
@@ -1156,22 +1044,134 @@
       "description": "You rapidly spin your axe around for up to 3 seconds, dealing (12 + 5/3 * rank) + (0.04 * STR) + (0.75 * DPS) physical damage twice a second to all enemies within 30 feet. This ability will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
-
-    {
-      "image": "13441",
-      "id": 7520,
-      "name": "Ethereal Cleave",
-      "type": "Curse",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Costs 45 AP",
-      "range": "No range",
-      "incant": "Instant Cost",
+	
+	{
+      "image": "13446",
+      "id": 4293,
+      "name": "Brutal Pounce",
+      "type": "Damaging",
+      "spec": "Path of The Guardian",
+      "minrank": "10",
+      "cost": "Costs 15 AP",
+      "range": "150ft range",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "",
-      "description": "You cleave your enemies within 30 feet dealing (60 + 9 * rank) + (0.4 * STR) physical damage over 9s. Your targets take a (rank * 2) ability penalty to Initiative and Weaponskill.",
+      "note": "Requires an active pet",
+      "description": "You command your pet to attack wihout mercy! Your War Lion's next attack within 20 seconds will deal an additional xxx physical damage and will knock down its victim for 3 seconds.",
       "category": "Ability"
     },
+	
+    {
+      "image": "22706",
+      "id": 4292,
+      "name": "Furious Mending",
+      "type": "Healing",
+      "spec": "Path of The Guardian",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Trained to kill now restores 80 health to you and your War Lion every 5 seconds.",
+      "category": "CareerTactic"
+    },
+	
+	{
+      "image": "22706",
+      "id": 4290,
+      "name": "Stalker",
+      "type": "Buff",
+      "spec": "Path of The Guardian",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your War Lion now causes 75% less hatred in hostile monsters.",
+      "category": "CareerTactic"
+    },
+	
+	{
+      "image": "22708",
+      "id": 4280,
+      "name": "Hack and Slash",
+      "type": "Buff",
+      "spec": "Path of The Hunter",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents armor, additionally reduces the action point cost of Slashing Blade and Hack by 50%.",
+      "category": "CareerTactic"
+    },
+	
+	{
+      "image": "22706",
+      "id": 4285,
+      "name": "Threatening Distraction",
+      "type": "Buff",
+      "spec": "Path of The Axeman",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Trained to Threaten will now reduce all hatred that you cause in hostile monsters by 75%.",
+      "category": "CareerTactic"
+    },
+	
+	{
+      "image": "22694",
+      "id": 4294,
+      "name": "Baited Trap",
+      "type": "Buff",
+      "spec": "Path of The Guardian",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Baiting Strike will now also increase your chance to disrupt spells by 10% for 15 seconds, and increase your armor by (-7 + 25* rank).",
+      "category": "CareerTactic"
+    },
+	
+    {
+      "image": "23408",
+      "id": 4096,
+      "name": "Faultfinder",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "40",
+      "cost": "No AP Cost",
+      "range": "65ft range",
+      "incant": "3.0s cast",
+      "cooldown": "30.0s cooldown",
+      "note": "",
+      "description": "Increases friendly ram damage by 2% for the next 10 seconds.",
+      "category": "Ability"
+	},
+	
+	{
+      "image": "23416",
+      "id": 4095,
+      "name": "Siege Wrecker",
+      "type": "Debuff",
+      "spec": "Core Ability",
+      "minrank": "30",
+      "cost": "No AP Cost",
+      "range": "65ft range",
+      "incant": "Insta-Cast",
+      "cooldown": "30.0s cooldown",
+      "note": "Not usable on Siege Rams or Oil",
+      "description": "You sabotage a siege ram, causing the ram to deal 98% of the original damage for the next 10 seconds.",
+      "category": "Ability"
+	},
     
         {
       "image": "",
