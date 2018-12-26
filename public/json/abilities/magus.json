@@ -53,7 +53,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You summon and absorb orange flames to gain a X ability bonus to wounds for 20 seconds.. During this time, any enemies striking you has a 25% chance to receive X elemental damage from your flames.",
+      "description": "You summon and absorb orange flames to increase your wounds by 150, increasing your total life for 20 seconds. During this time, any enemies striking you have a 25% chance to recieve 234 Elemental damage from your flames.",
       "category": "Ability"
     },
   
@@ -66,10 +66,10 @@
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "1.0s cast",
-      "cooldown": "20.0s cooldown",
+      "incant": "1s cast",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "Your disk emanates an aura of pain that inflicts X spirit damage every 3 seconds for 9 seconds.",
+      "description": "Your disk emanates an aura of pain that inflicts 268 spirit damage every 3 seconds for 9 seconds.",
       "category": "Ability"
     },
   
