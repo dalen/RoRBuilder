@@ -3,41 +3,41 @@
     "a": {
       "name": "Path of Havoc",
       "optionalAbilities": {
-        "lvl1": 5105, /* */
-        "lvl2": 5106, /* */
-        "lvl3": 5107, /* */
-        "lvl4": 5108, /* */
-        "lvl5": 5109, /* Chaos Unleashed */
-        "lvl6": 5115, /* */
-        "lvl7": 5111  /* */
+        "lvl1": 5105,
+        "lvl2": 5106,
+        "lvl3": 5107,
+        "lvl4": 5108,
+        "lvl5": 5109,
+        "lvl6": 5115,
+        "lvl7": 5111
       },
-      "coreAbilities": [5078,5068,5079,5161,5067] /* */
+      "coreAbilities": [5078,5068,5079,5161,5067]
     },
     "b": {
       "name": "Path of Changing",
       "optionalAbilities": {
-        "lvl1": 5112, /* */
-        "lvl2": 5113, /* */
-        "lvl3": 5114, /* Daemonic Reach */
-        "lvl4": 5110, /* Tzeentch's Firestorm */
-        "lvl5": 5116, /* */
-        "lvl6": 5117, /* */
-        "lvl7": 5118  /* */
+        "lvl1": 5112,
+        "lvl2": 5113,
+        "lvl3": 5114, 
+        "lvl4": 5110, 
+        "lvl5": 5116,
+        "lvl6": 5117,
+        "lvl7": 5118  
       },
-      "coreAbilities": [5074,5071,5058,5072,5062] /* */
+      "coreAbilities": [5074,5071,5058,5072,5062]
     },
     "c": {
       "name": "Path of Daemonology",
       "optionalAbilities": {
-        "lvl1": 5084, /* */
-        "lvl2": 5120, /* Agonizing Torrent */
-        "lvl3": 5121, /* */
-        "lvl4": 5122, /* Aegis of Orange Fire */
-        "lvl5": 5123, /* */
-        "lvl6": 5124, /* */
-        "lvl7": 5125  /* Firewyrm of Tzeentch */
+        "lvl1": 5084,
+        "lvl2": 5120,
+        "lvl3": 5121,
+        "lvl4": 5122,
+        "lvl5": 5123,
+        "lvl6": 5124,
+        "lvl7": 5125
       },
-      "coreAbilities": [5080,5061,5077,5063,5073] /* */
+      "coreAbilities": [5080,5061,5077,5063,5073]
     }
   },
   "data": [
