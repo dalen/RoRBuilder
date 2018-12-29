@@ -24,7 +24,7 @@
         "lvl6": 4185,
         "lvl7": 4186
       },
-      "coreAbilities": [4147,4146,4131,4133,4137,4181]
+      "coreAbilities": [4147,4146,4131,4133,4137,4181,7506]
     },
     "c": {
       "name": "Path of Wrath",
@@ -1638,6 +1638,22 @@
       "cooldown": "5min cooldown",
       "note": "Requires Great Weapon",
       "description": "Grants 50% movement speed and immunity to snare and roots for 5s.",
+      "category": "Ability"
+    },
+    
+    {
+      "image": "07945",
+      "id": 7506,
+      "name": "Divine Strike",
+      "type": "Damaging",
+      "spec": "Path of Grace",
+      "minrank": "6",
+      "cost": "Costs 30 AP",
+      "range": "5ft range",
+      "incant": "Insta-Cast",
+      "cooldown": "No cooldown",
+      "note": "Builds 30 Righteous Fury",
+      "description": "You crush your enemy, dealing 102 damage to them. The divine power of Sigmar heals your defensive target and any allies within 10 feet of them for 100% of the damage that was dealt.",
       "category": "Ability"
     }
   ]
