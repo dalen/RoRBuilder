@@ -117,7 +117,7 @@
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "A cruel attack to your target, which deals 177 damage. If you are behind your target, you ignore your target's armor.",
+    "description": "A cruel attack to your target, which deals 225 damage. If you are behind your target, you ignore your target's armor.",
     "category": "Ability"
   },
 
@@ -277,7 +277,7 @@
     "incant": "Insta-Cast",
     "cooldown": "10.0s cooldown",
     "note": "Builds 1 Blood Lust<br>Requires 9 points in Path of Suffering",
-    "description": "A deadly strike which deals 202 damage to your target and infects them with Black Lotus toxin, causing all healing that they receive for the next 10 seconds to become 50% less effective.",
+    "description": "A deadly strike which deals 250 damage to your target and infects them with Black Lotus toxin, causing all healing that they receive for the next 10 seconds to become 50% less effective.",
     "category": "Ability"
   },
 
@@ -597,7 +597,7 @@
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Requires Prowling",
-    "description": "You ambush your target from the shadows and strike with a Crippling attack. Your target will take 75 Corporeal damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
+    "description": "You ambush your target from the shadows and strike with a Crippling attack. Your target will take 76 Corporeal damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
     "category": "Ability"
   },
 
@@ -629,7 +629,7 @@
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "You stab your enemy with a poisoned blade, dealing 110 damage. The victim becomes wracked with pains, suffering an additional 432 damage over 9 seconds. This effect will stack with itself up to three times.",
+    "description": "You stab your enemy with a poisoned blade, dealing 125 damage. The victim becomes wracked with pains, suffering an additional 528 damage over 9 seconds. This effect will stack with itself up to three times.",
     "category": "Ability"
   },
 
@@ -917,7 +917,7 @@
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-    "description": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for 10 seconds which reduces their Wounds.<br>  1 Blood Lust: 88 damage per hit; Wounds reduced by 25.<br>  2 Blood Lust: 109 damage per hit; Wounds reduced by 33.<br>  3 Blood Lust: 131 damage per hit; Wounds reduced by 41.<br>  4 Blood Lust: 151 damage per hit; Wounds reduced by 50.<br>  5 Blood Lust: 172 damage per hit; Wounds reduced by 58.",
+    "description": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for 10 seconds which reduces their Wounds.<br>  1 Blood Lust: 112 damage per hit; Wounds reduced by 25.<br>  2 Blood Lust: 133 damage per hit; Wounds reduced by 33.<br>  3 Blood Lust: 155 damage per hit; Wounds reduced by 41.<br>  4 Blood Lust: 175 damage per hit; Wounds reduced by 50.<br>  5 Blood Lust: 196 damage per hit; Wounds reduced by 58.",
     "category": "Ability"
   },
 
@@ -933,7 +933,7 @@
     "incant": "Insta-Cast",
     "cooldown": "20.0s cooldown",
     "note": "Target must be facing away from you<br>Builds 1 Blood Lust<br>Requires 9 points in Path of Treachery",
-    "description": "A shocking strike which deals 277 damage and knocksdown your target for 3 seconds.",
+    "description": "A shocking strike which deals 325 damage and knocksdown your target for 3 seconds.",
     "category": "Ability"
   },
 
@@ -1061,7 +1061,7 @@
     "incant": "Insta-Cast",
     "cooldown": "10.0s cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent<br>Requires 13 points in Path of Carnage",
-    "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them.<br>  1 Blood Lust: 92 damage per hit, 30 feet radius.<br>  2 Blood Lust: 117 damage per hit, 35 feet radius.<br>  3 Blood Lust: 143 damage per hit, 40 feet radius.<br>  4 Blood Lust: 167 damage per hit, 43.3 feet radius.<br>  5 Blood Lust: 192 damage per hit, 48.3 feet radius.",
+    "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them.<br>  1 Blood Lust: 108 damage per hit, 30 feet radius.<br>  2 Blood Lust: 133 damage per hit, 35 feet radius.<br>  3 Blood Lust: 159 damage per hit, 40 feet radius.<br>  4 Blood Lust: 183 damage per hit, 43.3 feet radius.<br>  5 Blood Lust: 208 damage per hit, 48.3 feet radius.",
     "category": "Ability"
   },
 
@@ -1157,7 +1157,7 @@
     "incant": "Insta-Cast",
     "cooldown": "10.0s cooldown",
     "note": "Builds 1 Blood Lust<br>Requires 9 points in Path of Carnage",
-    "description": "A powerful stab that slices through the target's defenses, dealing 227 damage to your target and ignoring all of their armor. If the target suffers from an Ailment, then your Weapon Skill will be increased by 75 for 20 seconds.",
+    "description": "A powerful stab that slices through the target's defenses, dealing 275 damage to your target and ignoring all of their armor. If the target suffers from an Ailment, then your Weapon Skill will be increased by 75 for 20 seconds.",
     "category": "Ability"
   },
 
@@ -1173,7 +1173,7 @@
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-    "description": "You quickly stab your target twice, dealing damage based on your Blood Lust.<br>  1 Blood Lust: 113 damage per hit<br>  2 Blood Lust: 143 damage per hit<br>  3 Blood Lust: 173 damage per hit<br>  4 Blood Lust: 201 damage per hit<br>  5 Blood Lust: 230 damage per hit",
+    "description": "You quickly stab your target twice, dealing damage based on your Blood Lust.<br>  1 Blood Lust: 137 damage per hit<br>  2 Blood Lust: 167 damage per hit<br>  3 Blood Lust: 197 damage per hit<br>  4 Blood Lust: 225 damage per hit<br>  5 Blood Lust: 254 damage per hit",
     "category": "Ability"
   },
 
@@ -1221,7 +1221,7 @@
     "incant": "3.0s cast",
     "cooldown": "8.0s cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-    "description": "A relentless string of attacks which repeatedly strikes your target and all enemies within 20 feet of them up to 6 times over 3 seconds.<br>  1 Blood Lust: 402 damage.<br>  2 Blood Lust:  504 damage.<br>  3 Blood Lust:  606 damage.<br>  4 Blood Lust:  702 damage.<br>  5 Blood Lust:  804 damage.",
+    "description": "A relentless string of attacks which repeatedly strikes your target and all enemies within 20 feet of them up to 6 times over 3 seconds.<br>  1 Blood Lust: 750 damage.<br>  2 Blood Lust:  900 damage.<br>  3 Blood Lust:  1056 damage.<br>  4 Blood Lust:  1200 damage.<br>  5 Blood Lust:  1350 damage.",
     "category": "Ability"
   },
 
@@ -1253,7 +1253,7 @@
     "incant": "Insta-Cast",
     "cooldown": "10.0s cooldown",
     "note": "Target must be facing away from you<br>Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent<br>Requires 13 points in Path of Treachery",
-    "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<br>  1 Blood Lust: 88 damage per hit.<br>  2 Blood Lust: 109 damage per hit.<br>  3 Blood Lust: 131 damage per hit.<br>  4 Blood Lust: 151 damage per hit.<br>  5 Blood Lust: 172 damage per hit.",
+    "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<br>  1 Blood Lust: 112 damage per hit.<br>  2 Blood Lust: 133 damage per hit.<br>  3 Blood Lust: 155 damage per hit.<br>  4 Blood Lust: 175 damage per hit.<br>  5 Blood Lust: 196 damage per hit.",
     "category": "Ability"
   },
 
@@ -1301,7 +1301,7 @@
     "incant": "Insta-Cast",
     "cooldown": "10.0s cooldown",
     "note": "Requires Parry",
-    "description": "A precise Crippling attack that deals 227 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
+    "description": "A precise Crippling attack that deals 275 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
     "category": "Ability"
   },
 
@@ -1413,7 +1413,7 @@
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "A wide slice which deals 236 damage to up to 3 enemies in front of you, up to 15 feet away.",
+    "description": "A wide slice which deals 275 damage to up to 3 enemies in front of you, up to 15 feet away.",
     "category": "Ability"
   },
 
@@ -1493,7 +1493,7 @@
     "incant": "Insta-Cast",
     "cooldown": "20.0s cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "A swift slice that silences your target, making them unable to use magic for 3 seconds. You will also deal 202 damage to your target if you attack them from behind.",
+    "description": "A swift slice that silences your target, making them unable to use magic for 3 seconds. You will also deal 250 damage to your target if you attack them from behind.",
     "category": "Ability"
   },
 
@@ -1525,7 +1525,7 @@
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Requires Prowling",
-    "description": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. Your target will take 175 Corporeal damage every time they use a magical ability for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds.",
+    "description": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. Your target will take 176 Corporeal damage every time they use a magical ability for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds.",
     "category": "Ability"
   },
 
@@ -1605,7 +1605,7 @@
     "incant": "Insta-Cast",
     "cooldown": "No cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "A brutal attack that deals 728 Spirit damage to your target over 21 seconds. If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 75 for 21 seconds.",
+    "description": "A brutal attack that deals 868 Spirit damage to your target over 21 seconds. If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 75 for 21 seconds.",
     "category": "Ability"
   },
   
