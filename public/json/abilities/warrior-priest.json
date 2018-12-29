@@ -24,7 +24,7 @@
         "lvl6": 4185,
         "lvl7": 4186
       },
-      "coreAbilities": [4147,4146,4131,4133,4137,4181,7506]
+      "coreAbilities": [4147,4146,4131,4133,4137,4181,7506,7507]
     },
     "c": {
       "name": "Path of Wrath",
@@ -1654,6 +1654,22 @@
       "cooldown": "No cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "You crush your enemy, dealing 102 damage to them. The divine power of Sigmar heals your defensive target and any allies within 10 feet of them for 100% of the damage that was dealt.",
+      "category": "Ability"
+    },
+    
+    {
+      "image": "07976",
+      "id": 7507,
+      "name": "Sacrifice",
+      "type": "Defensive",
+      "spec": "Path of Grace",
+      "minrank": "32",
+      "cost": "No Cost",
+      "range": "Self",
+      "incant": "10s cast",
+      "cooldown": "30s cooldown",
+      "note": "Requires Shield<br/>Requires 25 Righteous Fury per second",
+      "description": "You shield your team with your life force, you will suffer 300 damage every second, any groupmates within 100ft will have 525 health restored to them. This effect will end if you break your concentration, or run out of Righteous Fury.",
       "category": "Ability"
     }
   ]
