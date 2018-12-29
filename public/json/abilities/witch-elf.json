@@ -1621,7 +1621,7 @@
     "incant": "1.0s cast",
     "cooldown": "35.0s cooldown",
     "note": "",
-    "description": "You blend with the shadows and surge forward. You are rendered invisible to your foes and your movement speed is increased by 50% for 5 seconds.<br> The cooldown of this abillity is reduced by 1 second for every enemy within 100 feet of you when the effect is broken.<br> This effect will end if you use any abilities.",
+    "description": "You blend with the shadows and surge forward. You are rendered invisible to your foes and your movement speed is increased by 50% for 5 seconds.<br> The cooldown of this ability is reduced by 1 second for every enemy within 100 feet of you when the effect is broken.<br> This effect will end if you use any abilities.",
     "category": "Ability"
   },
   
@@ -1637,7 +1637,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+    "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
     "category": "CareerTactic"
   }
 ]
