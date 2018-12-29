@@ -24,7 +24,7 @@
         "lvl6": 4185,
         "lvl7": 4186
       },
-      "coreAbilities": [4147,4146,4131,4133,4137,4181,7506,7507]
+      "coreAbilities": [4147,4146,4131,4133,4137,4181,7506,7507,7508]
     },
     "c": {
       "name": "Path of Wrath",
@@ -1670,6 +1670,22 @@
       "cooldown": "30s cooldown",
       "note": "Requires Shield<br/>Requires 25 Righteous Fury per second",
       "description": "You shield your team with your life force, you will suffer 300 damage every second, any groupmates within 100ft will have 525 health restored to them. This effect will end if you break your concentration, or run out of Righteous Fury.",
+      "category": "Ability"
+    },
+    
+    {
+      "image": "23419",
+      "id": 7508,
+      "name": "Divine Warden",
+      "type": "Blessing",
+      "spec": "Path of Grace",
+      "minrank": "25",
+      "cost": "Costs 25 AP",
+      "range": "5ft range",
+      "incant": "Insta-Cast",
+      "cooldown": "10s cooldown",
+      "note": "Requires Shield<br/>Builds 25 Righteous Fury",
+      "description": "You attack with your buckler dealing 177 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
       "category": "Ability"
     }
   ]
