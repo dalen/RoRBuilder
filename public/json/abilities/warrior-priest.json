@@ -1379,9 +1379,9 @@
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "2.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "The might of Sigmar infuses everyone in your group within 100 feet, increasing their Wounds by 80 for 1 hour.",
+      "description": "The might of Sigmar infuses everyone in your group within 80 feet, increasing their Wounds by 50 for 1 hour.",
       "category": "Ability"
     },
   
