@@ -1687,6 +1687,22 @@
       "note": "Requires Shield<br/>Builds 25 Righteous Fury",
       "description": "You attack with your buckler dealing 177 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
       "category": "Ability"
+    },
+    
+     {
+      "image": "23420",
+      "id": 7509,
+      "name": "Shielding Grace",
+      "type": "Defensive",
+      "spec": "Path of Grace",
+      "minrank": "1",
+      "cost": "No Cost",
+      "range": "Self",
+      "incant": "10s cast",
+      "cooldown": "60s cooldown",
+      "note": "Requires Shield<br/>Requires 25 Righteous Fury per second",
+      "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. This effect will end if you break your concentration, or run out of Righteous Fury.'",
+      "category": "Ability"
     }
   ]
 }
