@@ -24,7 +24,7 @@
         "lvl6": 4185,
         "lvl7": 4186
       },
-      "coreAbilities": [4147,4146,4131,4133,4137]
+      "coreAbilities": [4147,4146,4131,4133,4137,4181]
     },
     "c": {
       "name": "Path of Wrath",
@@ -1429,7 +1429,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 30 Righteous Fury<br>Requires 5 points in Path of Grace",
-      "description": "Deals 239 damage to your enemy and Blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.",
+      "description": "Deals 177 damage to your enemy and Blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.",
       "category": "Ability"
     },
   
