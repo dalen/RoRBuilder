@@ -373,7 +373,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you use Purify on an ally, you will additionally remove one curse or hex from all groupmates within 150 feet of them.",
+      "description": "Purify will also cleanse your entire group. It will not cleanse more than 1 effect per target.",
       "category": "CareerTactic"
     },
   
