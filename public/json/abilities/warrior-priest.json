@@ -1060,8 +1060,8 @@
       "range": "No range",
       "incant": "3.0s cast",
       "cooldown": "13.0s cooldown",
-      "note": "Requires 20 Righteous Fury per second<br>Requires 13 points in Path of Salvation",
-      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, all allies within 30 feet of you will regain 246 health, and you will consume 20 Righteous Fury.<br>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
+      "note": "Requires 20 Righteous Fury per second",
+      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, all allies within 30 feet of you will regain 179 health, and you will consume 10 Righteous Fury.<br>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
       "category": "Ability"
     },
   
