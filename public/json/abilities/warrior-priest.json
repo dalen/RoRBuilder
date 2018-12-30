@@ -1701,7 +1701,23 @@
       "incant": "10s cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield<br/>Requires 25 Righteous Fury per second",
-      "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. This effect will end if you break your concentration, or run out of Righteous Fury.'",
+      "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. This effect will end if you break your concentration, or run out of Righteous Fury.",
+      "category": "Ability"
+    },
+    
+    {
+      "image": "23421",
+      "id": 7510,
+      "name": "Sigmar's Wrath",
+      "type": "Buff",
+      "spec": "Path of Wrath",
+      "minrank": "1",
+      "cost": "Costs 25 AP",
+      "range": "Self",
+      "incant": "Insta-Cast",
+      "cooldown": "60s cooldown",
+      "note": "Requires Great Weapon",
+      "description": "Sigmar's Wrath rises within you, your attacks will ignore 25% of the victim's armor for the next 20 seconds.",
       "category": "Ability"
     }
   ]
