@@ -51,9 +51,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Builds 25 Righteous Fury<br>Requires 9 points in Path of Wrath",
-      "description": "You call on Sigmar to Cripple your enemy for 10 seconds, causing all healing effects used on them to become 25% less effective.",
+      "cooldown": "10s cooldown",
+      "note": "Builds 25 Righteous Fury",
+      "description": "You deal 127 damage to your enemy and call upon Sigmar to Curse them for 10 seconds, causing all healing effects used on them to become 50% less effective.",
       "category": "Ability"
     },
   
