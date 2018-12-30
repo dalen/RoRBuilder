@@ -35,7 +35,7 @@
         "lvl4": 4190,
         "lvl5": 4191,
         "lvl6": 4192,
-        "lvl7": 7505
+        "lvl7": 4193
       },
       "coreAbilities": [4138,4140,4143,4134,4232]
     }
@@ -181,7 +181,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Increases the Strength, Willpower, Toughness, Initiative, Weapon Skill, Ballistic Skill, and Intelligence of all group mates withing 100 feet by 80 for 30 seconds.",
+      "description": "Increases the Strength, Willpower, Toughness, Initiative, Weapon Skill, Ballistic Skill, and Intelligence of all group mates withing 100 feet by 50 for 30 seconds.",
       "category": "Morale"
     },
   
