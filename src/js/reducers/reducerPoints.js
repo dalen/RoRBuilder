@@ -1,4 +1,4 @@
-import { RESET_POINTS, SET_POINTS } from "../actions/actionPoints";
+import { RESET_POINTS, SET_POINTS } from '../actions/actionPoints';
 
 const initialPoints = 26;
 

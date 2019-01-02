@@ -1,4 +1,4 @@
-import { SET_SLUG } from "../actions/actionSlug";
+import { SET_SLUG } from '../actions/actionSlug';
 
 export default function(state = false, action) {
   switch (action.type) {

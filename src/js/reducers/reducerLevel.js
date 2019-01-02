@@ -1,4 +1,4 @@
-import { SET_LEVEL, RESET_LEVEL } from "../actions/actionLevel";
+import { SET_LEVEL, RESET_LEVEL } from '../actions/actionLevel';
 
 const initialLevel = 40;
 

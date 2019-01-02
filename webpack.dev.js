@@ -14,26 +14,29 @@ module.exports = {
     // only- means to only hot reload for successful updates
     'webpack/hot/only-dev-server',
     // Entry point of application
-    config.pathSource + config.pathJSAbsolute + config.filenameEntry
+    config.pathSource + config.pathJSAbsolute + config.filenameEntry,
   ],
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   output: {
     // Filename requires relative path to JS folder
     filename: config.pathJSRelative + config.filenameOutput,
     // Path used for all output assets
     path: config.pathOutput,
     // Required by dev server/ HMR
-    publicPath: '/'
+    publicPath: '/',
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
         use: [
           {
-            loader: 'babel-loader'
-          }
-        ]
+            loader: 'babel-loader',
+          },
+        ],
       },
       {
         test: /\.css$/,
@@ -44,21 +47,21 @@ module.exports = {
             options: {
               modules: true,
               importLoaders: 1,
-              localIdentName: '[name]__[local]__[hash:base64:5]'
-            }
+              localIdentName: '[name]__[local]__[hash:base64:5]',
+            },
           },
-          { loader: 'postcss-loader' }
-        ]
+          { loader: 'postcss-loader' },
+        ],
       },
       {
         test: /\.hbs$/,
         use: [
           {
-            loader: 'handlebars-loader'
-          }
-        ]
-      }
-    ]
+            loader: 'handlebars-loader',
+          },
+        ],
+      },
+    ],
   },
   devtool: 'cheap-module-source-map',
   devServer: {
@@ -68,7 +71,7 @@ module.exports = {
     // Hot yes please
     hot: true,
     // Required by dev server/ HMR
-    publicPath: '/'
+    publicPath: '/',
   },
   plugins: [
     // Prints more readable module names in the browser console on HMR updates
@@ -80,7 +83,7 @@ module.exports = {
       template:
         config.pathSource + config.pathSourceTemplate + config.filenameTemplate,
       filename: config.filenameHTML,
-      inject: false
-    })
-  ]
+      inject: false,
+    }),
+  ],
 };

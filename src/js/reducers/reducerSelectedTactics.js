@@ -1,4 +1,9 @@
-import { SELECT_TACTIC, DESELECT_TACTIC, RESET_SELECTED_TACTICS, SET_SELECTED_TACTICS } from "../actions/actionSelectedTactics";
+import {
+  SELECT_TACTIC,
+  DESELECT_TACTIC,
+  RESET_SELECTED_TACTICS,
+  SET_SELECTED_TACTICS,
+} from '../actions/actionSelectedTactics';
 
 export default function(state = [], action) {
   switch (action.type) {
@@ -7,7 +12,7 @@ export default function(state = [], action) {
     case DESELECT_TACTIC:
       return [
         ...action.payload.tacticsArray.slice(0, action.payload.tacticIndex),
-        ...action.payload.tacticsArray.slice(action.payload.tacticIndex + 1)
+        ...action.payload.tacticsArray.slice(action.payload.tacticIndex + 1),
       ];
     case RESET_SELECTED_TACTICS:
       return action.payload;

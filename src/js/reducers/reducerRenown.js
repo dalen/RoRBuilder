@@ -1,4 +1,4 @@
-import { SET_RENOWN, RESET_RENOWN } from "../actions/actionRenown";
+import { SET_RENOWN, RESET_RENOWN } from '../actions/actionRenown';
 
 const initialRenown = 40;
 

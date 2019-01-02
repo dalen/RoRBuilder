@@ -1,4 +1,4 @@
-import { FETCH_CAREERS } from "../actions/actionCareers";
+import { FETCH_CAREERS } from '../actions/actionCareers';
 
 export default function(state = {}, action) {
   switch (action.type) {

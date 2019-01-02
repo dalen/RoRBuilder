@@ -1,8 +1,5 @@
 export function arrayContains(array, needle) {
-  for (const i in array) {
-    if (array[i] === needle) return true;
-  }
-  return false;
+  return array.findIndex(needle) !== -1;
 }
 
 export function getAbilityType(category) {
@@ -20,7 +17,7 @@ export function getAbilityType(category) {
     case 'TomeTactic':
       abilityType = 'tomeTactic';
       break;
-    default :
+    default:
       break;
   }
   return abilityType;

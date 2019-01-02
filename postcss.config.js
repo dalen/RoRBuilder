@@ -4,11 +4,7 @@ module.exports = {
     require('postcss-modules-values'),
     require('postcss-nested'),
     require('autoprefixer'),
-    require('postcss-calc')(
-      { mediaQueries: true }
-    ),
-    require('cssnano')(
-      { preset: 'default' }
-    )
-  ]
-}
+    require('postcss-calc')({ mediaQueries: true }),
+    require('cssnano')({ preset: 'default' }),
+  ],
+};
