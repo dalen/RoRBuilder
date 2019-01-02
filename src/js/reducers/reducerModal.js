@@ -1,4 +1,4 @@
-import { OPEN_MODAL, CLOSE_MODAL } from "../actions/actionModal";
+import { OPEN_MODAL, CLOSE_MODAL } from '../actions/actionModal';
 
 export default function(state = false, action) {
   switch (action.type) {

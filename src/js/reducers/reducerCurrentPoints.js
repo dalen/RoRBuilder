@@ -1,4 +1,7 @@
-import { RESET_CURRENT_POINTS, SET_CURRENT_POINTS } from "../actions/actionCurrentPoints";
+import {
+  RESET_CURRENT_POINTS,
+  SET_CURRENT_POINTS,
+} from '../actions/actionCurrentPoints';
 
 const initialPoints = 26;
 

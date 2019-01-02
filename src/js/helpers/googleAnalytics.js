@@ -1,5 +1,11 @@
-export function gaEvent(category = false, action = false, label = false, value = false) {
-  
+/* global ga */
+
+export function gaEvent(
+  category = false,
+  action = false,
+  label = false,
+  value = false,
+) {
   // Sending to Google Analytics
   // console.log('Sending GA Event', { 'category': category, 'action': action, 'label': label, 'value': value });
   ga('send', {

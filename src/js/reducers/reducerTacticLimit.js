@@ -1,8 +1,12 @@
-import { CALCULATE_TACTIC_LIMIT, RESET_TACTIC_LIMIT, SET_TACTIC_LIMIT } from "../actions/actionTacticLimit";
+import {
+  CALCULATE_TACTIC_LIMIT,
+  RESET_TACTIC_LIMIT,
+  SET_TACTIC_LIMIT,
+} from '../actions/actionTacticLimit';
 
 const initialLimit = 4;
 
-export default function(state = initialLimit, action) {
+export default (state = initialLimit, action) => {
   switch (action.type) {
     case CALCULATE_TACTIC_LIMIT:
       return action.payload;
@@ -13,4 +17,4 @@ export default function(state = initialLimit, action) {
     default:
       return state;
   }
-}
+};

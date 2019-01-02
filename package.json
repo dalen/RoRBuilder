@@ -8,6 +8,7 @@
     "npm": "5.5.1"
   },
   "scripts": {
+    "lint": "eslint --fix src/js",
     "prod": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --config webpack.dev.js --progress --colors",
     "postinstall": "./node_modules/.bin/webpack --config webpack.prod.js"
@@ -67,11 +68,41 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.1",
     "mini-css-extract-plugin": "^0.5.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "prettier": "^1.15.3",
     "webpack-cli": "^3.1.2"
   },
   "prettier": {
-    "singleQuote": true
-  }
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error"
+      ]
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "eslintIgnore": [
+    "public"
+  ]
 }

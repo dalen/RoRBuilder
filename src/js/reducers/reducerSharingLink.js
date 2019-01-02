@@ -1,4 +1,4 @@
-import { SET_SHARING_LINK } from "../actions/actionSharingLink";
+import { SET_SHARING_LINK } from '../actions/actionSharingLink';
 
 export default function(state = false, action) {
   switch (action.type) {

@@ -46,7 +46,7 @@ const rootReducer = combineReducers({
   masteryTactics: ReducerMasteryTactics,
   masteryMorales: ReducerMasteryMorales,
   modal: ReducerModal,
-  sharingLink: ReducerSharingLink
+  sharingLink: ReducerSharingLink,
 });
 
 export default rootReducer;

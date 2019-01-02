@@ -1,4 +1,7 @@
-import { RESET_PATH_METER_A, SET_PATH_METER_A } from "../actions/actionPathMeterA";
+import {
+  RESET_PATH_METER_A,
+  SET_PATH_METER_A,
+} from '../actions/actionPathMeterA';
 
 const initialPoints = 0;
 

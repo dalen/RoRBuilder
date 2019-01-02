@@ -1,4 +1,7 @@
-import { SELECT_MORALE_3, RESET_SELECTED_MORALE_3 } from "../actions/actionSelectedMorale3";
+import {
+  SELECT_MORALE_3,
+  RESET_SELECTED_MORALE_3,
+} from '../actions/actionSelectedMorale3';
 
 export default function(state = false, action) {
   switch (action.type) {
