@@ -1,13 +1,15 @@
 const webpack = require('webpack');
 const htmlWebpackPlugin = require('html-webpack-plugin');
-const uglifyJSPlugin = require('uglifyjs-webpack-plugin');
-const extractTextPlugin = require('extract-text-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const config = require('./config');
 
 module.exports = {
+  mode: 'production',
   entry: [
     // Required for using functions such as .findIndex in the client
-    'babel-polyfill',
+    '@babel/polyfill',
     config.pathSource + config.pathJSAbsolute + config.filenameEntry
   ],
   output: {
@@ -27,21 +29,18 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        // We want to extract our CSS into it's own .css file
-        use: extractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            {
-              loader: 'css-loader',
-              options: {
-                modules: true,
-                importLoaders: 1,
-                localIdentName: '[name]__[local]__[hash:base64:5]'
-              }
-            },
-            { loader: 'postcss-loader' }
-          ]
-        })
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              importLoaders: 1,
+              localIdentName: '[name]__[local]__[hash:base64:5]'
+            }
+          },
+          { loader: 'postcss-loader' }
+        ]
       },
       {
         test: /\.hbs$/,
@@ -54,11 +53,17 @@ module.exports = {
     ]
   },
   devtool: 'cheap-module-source-map',
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+        sourceMap: true // set to true if you want JS source maps
+      }),
+      new OptimizeCSSAssetsPlugin({})
+    ]
+  },
   plugins: [
-    // Uglify all the things
-    new uglifyJSPlugin({
-      sourceMap: true
-    }),
     // Really helps to keep file size down
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production')
@@ -68,13 +73,14 @@ module.exports = {
       ga: process.env.GOOGLE_ID || '1234',
       hash: true,
       inject: false,
-      template: config.pathSource + config.pathSourceTemplate + config.filenameTemplate,
+      template:
+        config.pathSource + config.pathSourceTemplate + config.filenameTemplate,
       filename: config.filenameHTML
     }),
     // Create a separate CSS file in the appropriate folder
-    new extractTextPlugin({
+    new MiniCssExtractPlugin({
       filename: config.pathCSSRelative + config.filenameCSS,
-      ignoreOrder: true
+      chunkFilename: '[id].css'
     })
   ]
 };
