@@ -3,9 +3,10 @@ const htmlWebpackPlugin = require('html-webpack-plugin');
 const config = require('./config');
 
 module.exports = {
+  mode: 'development',
   entry: [
     // Required for using functions such as .findIndex in the client
-    'babel-polyfill',
+    '@babel/polyfill',
     // Required for HOT reloading in React
     'react-hot-loader/patch',
     // Configure dev server address/port
@@ -67,7 +68,7 @@ module.exports = {
     // Hot yes please
     hot: true,
     // Required by dev server/ HMR
-    publicPath: '/',
+    publicPath: '/'
   },
   plugins: [
     // Prints more readable module names in the browser console on HMR updates
@@ -76,7 +77,8 @@ module.exports = {
     // We want to write our own index.html file from a Handlebars template
     new htmlWebpackPlugin({
       ga: process.env.GOOGLE_ID || '1234',
-      template: config.pathSource + config.pathSourceTemplate + config.filenameTemplate,
+      template:
+        config.pathSource + config.pathSourceTemplate + config.filenameTemplate,
       filename: config.filenameHTML,
       inject: false
     })
