@@ -11,7 +11,7 @@
         "lvl6": 5416,
         "lvl7": 5417
       },
-      "coreAbilities": [5369,5373,5382,5466,5377]
+      "coreAbilities": [5369, 5373, 5382, 5466, 5377]
     },
     "b": {
       "name": "Path of Calamity",
@@ -24,7 +24,7 @@
         "lvl6": 5423,
         "lvl7": 5424
       },
-      "coreAbilities": [5374,5385,5379,5381,5467]
+      "coreAbilities": [5374, 5385, 5379, 5381, 5467]
     },
     "c": {
       "name": "Path of Destruction",
@@ -37,7 +37,7 @@
         "lvl6": 5430,
         "lvl7": 5431
       },
-      "coreAbilities": [5372,5386,5375,5383,5380]
+      "coreAbilities": [5372, 5386, 5375, 5383, 5380]
     }
   },
   "data": [
@@ -56,7 +56,7 @@
       "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10926",
       "id": 5423,
@@ -72,7 +72,7 @@
       "description": "A Curse which siphons away your enemy's life, dealing 600 Corporeal damage over 15 seconds and healing you for all of the damage dealt.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22736",
       "id": 5441,
@@ -88,7 +88,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 5439,
@@ -104,7 +104,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 5440,
@@ -120,7 +120,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22712",
       "id": 5409,
@@ -136,7 +136,7 @@
       "description": "Spiritual resistance increased by 252.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 5454,
@@ -152,7 +152,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 5456,
@@ -168,7 +168,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 5455,
@@ -184,7 +184,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "10924",
       "id": 5377,
@@ -200,7 +200,7 @@
       "description": "You send a blast of dark energy slamming into your target, dealing 320 Spirit damage. If the victim is Cursed, then they will also become snared for 5 seconds, reducing their movement speed by 40%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22712",
       "id": 5410,
@@ -216,7 +216,7 @@
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 5463,
@@ -232,7 +232,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 5465,
@@ -248,7 +248,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 5464,
@@ -264,7 +264,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "11001",
       "id": 5426,
@@ -280,7 +280,7 @@
       "description": "You create a maelstrom of evil power which deals 316 Corporeal damage to your target and all other enemies within 20 feet of them, and reduces their Initiative by 50 for 20 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22731",
       "id": 5459,
@@ -296,7 +296,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 5458,
@@ -312,7 +312,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 5457,
@@ -328,7 +328,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 5422,
@@ -344,7 +344,7 @@
       "description": "Each time Chillwind or Ice Spikes damages an enemy, there is a 33% chance that the victim will suffer an additional 166 Corporeal damage as well.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10996",
       "id": 5467,
@@ -360,7 +360,7 @@
       "description": "A Curse which deals 432 Corporeal damage to your target over 9 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 5401,
@@ -376,7 +376,7 @@
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10933",
       "id": 5424,
@@ -392,7 +392,7 @@
       "description": "Your target and all other enemies within 20 feet of them are Silenced and Disarmed for 7 seconds, making them unable to use melee, ranged, or magic abilities.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22716",
       "id": 5461,
@@ -408,7 +408,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 5460,
@@ -424,7 +424,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 5462,
@@ -440,7 +440,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "11005",
       "id": 5381,
@@ -451,12 +451,12 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Insta-Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is surrounded by a demonic chill for 1 hour, giving them a 25% chance to deal 125 Corporeal damage back against the attacker when they are struck by a melee attack.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22712",
       "id": 5408,
@@ -472,7 +472,7 @@
       "description": "Direct heals cast on you will recover 10% more health.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10931",
       "id": 5397,
@@ -488,7 +488,7 @@
       "description": "None of your abilities will consume action points for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22704",
       "id": 5398,
@@ -504,7 +504,7 @@
       "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect can not occur more than once every 2 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10962",
       "id": 5469,
@@ -520,7 +520,7 @@
       "description": "You expel all of your build-up Dark Magic in a deadly blast, dealing damage to your target based on the amount of Dark Magic that was consumed.<br>  1 - 10 Dark Magic: 75 damage.<br>  11 - 30 Dark Magic: 150 damage.<br>  31 - 70 Dark Magic: 300 damage.<br>  71 - 90 Dark Magic: 600 damage.<br>  91 - 100 Dark Magic: 750 damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10929",
       "id": 5395,
@@ -536,7 +536,7 @@
       "description": "Deals 600 damage to your target immediately, and another 1206 damage over 9 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "10928",
       "id": 5428,
@@ -552,7 +552,7 @@
       "description": "You allow dark powers for flow freely through your body for up to 3 seconds, dealing 180 Spirit damage every second to all enemies within 30 feet. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10995",
       "id": 5466,
@@ -568,7 +568,7 @@
       "description": "A massive burst of dark power which deals 533 Corporeal damage to your target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10998",
       "id": 5371,
@@ -584,7 +584,7 @@
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10923",
       "id": 5412,
@@ -600,7 +600,7 @@
       "description": "An instant blast of magic that deals 291 Corporeal damage to your target and can not be defended against.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22712",
       "id": 5389,
@@ -616,7 +616,7 @@
       "description": "Dhar Wind will now restore your action points, returning an amount equal to the Dark Magic which was expended.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22695",
       "id": 5399,
@@ -632,7 +632,7 @@
       "description": "Increases your Intelligence by 160.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23407",
       "id": 5432,
@@ -648,7 +648,7 @@
       "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22725",
       "id": 5452,
@@ -664,7 +664,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 5453,
@@ -680,7 +680,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 5451,
@@ -696,7 +696,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "05004",
       "id": 5468,
@@ -712,7 +712,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23153",
       "id": 5405,
@@ -728,7 +728,7 @@
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale"
     },
-  
+
     {
       "image": "10915",
       "id": 5382,
@@ -744,7 +744,7 @@
       "description": "You fill your enemy's mind with fear, dealing 216 Corporeal damage and Disarming them for 3 seconds, making them unable to use melee and ranged abilities.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22709",
       "id": 5394,
@@ -760,7 +760,7 @@
       "description": "Frozen Touch now has a 75% chance to trigger.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10909",
       "id": 5373,
@@ -771,12 +771,12 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Insta-Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional 150 Corporeal damage any time they deal direct damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10925",
       "id": 5419,
@@ -792,7 +792,7 @@
       "description": "A cloud of gloom clings to your target for 15 seconds, dealing 153 Spirit damage every 3 seconds to them and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10907",
       "id": 5369,
@@ -808,7 +808,7 @@
       "description": "A quick-casting spell that deals 291 Spirit damage to your target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22704",
       "id": 5393,
@@ -824,7 +824,7 @@
       "description": "Any time you critically hit an enemy with a direct damage ability, you will gain 200 points of Morale. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 5387,
@@ -840,7 +840,7 @@
       "description": "Doombolt and Chillwind will now also cause the victim to lose 20 Action Points, and will reduce their Strength, Intelligence, and Ballistic Skill by 120 for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10910",
       "id": 5378,
@@ -856,7 +856,7 @@
       "description": "All enemies within 30 feet become Rooted, making them unable to move for 10 seconds.  Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11000",
       "id": 5421,
@@ -872,7 +872,7 @@
       "description": "Tendrils of dark energy burst forth from your hand and slice into your target for up to 6 seconds, dealing 343 Spirit damage every 2 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22730",
       "id": 5444,
@@ -888,7 +888,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 5443,
@@ -904,7 +904,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 5442,
@@ -920,7 +920,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22696",
       "id": 5392,
@@ -936,7 +936,7 @@
       "description": "Reduces the cooldown times of Dread Aspect and Grip Of Fear by 7 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23410",
       "id": 5433,
@@ -952,7 +952,7 @@
       "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
       "category": "Ability"
     },
-  
+
     {
       "image": "10919",
       "id": 5379,
@@ -968,7 +968,7 @@
       "description": "You cause dark energy to burst out of the ground, inflicting a Curse upon all enemies in a line in front of you, up to 65 feet away, which deals 595 Corporeal damage over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10912",
       "id": 5414,
@@ -984,7 +984,7 @@
       "description": "You draw forth a huge amount of Dark Magic and slam your target with a powerful blast of force, dealing 341 Spirit damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 5388,
@@ -1000,7 +1000,7 @@
       "description": "Whenever one of your damaging spells hits an enemy, there is a 25% chance that your other groupmates within 100 feet of you will gain an Infernal Gift, increasing all damage that they deal by 10% for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10921",
       "id": 5380,
@@ -1016,7 +1016,7 @@
       "description": "A cone of dark energy bursts forth in front of you, dealing 228 Spirit damage to enemies up to 65 feet away.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 5427,
@@ -1032,7 +1032,7 @@
       "description": "Increases the radius of Surging Pain and the distance of Infernal Wave by 33%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23167",
       "id": 5402,
@@ -1048,7 +1048,7 @@
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22694",
       "id": 5390,
@@ -1064,7 +1064,7 @@
       "description": "Reduces Obsessive Focus's cooldown time by 40 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23168",
       "id": 5404,
@@ -1080,7 +1080,7 @@
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22704",
       "id": 5429,
@@ -1096,7 +1096,7 @@
       "description": "Reduces Infernal Wave's cooldown time by 5 seconds, and Pit Of Shades's cooldown time by 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10914",
       "id": 5376,
@@ -1112,7 +1112,7 @@
       "description": "You become obsessed with your target for 20 seconds, dealing 10% more damage to them, but 90% damage to everyone else. Even if the target dies, your obsession will persist for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22729",
       "id": 5450,
@@ -1128,7 +1128,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 5449,
@@ -1144,7 +1144,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 5448,
@@ -1160,7 +1160,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "10934",
       "id": 5431,
@@ -1176,7 +1176,7 @@
       "description": "All enemies within 30 feet suffer 1200 damage and become Rooted, making them unable to move for 7 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22696",
       "id": 5425,
@@ -1192,7 +1192,7 @@
       "description": "Any time that your Dark Magic causes an Backlash, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10927",
       "id": 5383,
@@ -1208,7 +1208,7 @@
       "description": "A 20 feet pit of shadow covers the ground at a point that you select for 9 seconds. Your enemies will suffer 183 Spirit damage every 1.5 seconds while they are within the area. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10920",
       "id": 5384,
@@ -1224,7 +1224,7 @@
       "description": "You instantly regain 160 Action Points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 5411,
@@ -1240,7 +1240,7 @@
       "description": "Any time you damage an enemy with a Path Of Agony ability, you have a 25% chance to regain 50 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23169",
       "id": 5406,
@@ -1256,7 +1256,7 @@
       "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
       "category": "Morale"
     },
-  
+
     {
       "image": "10999",
       "id": 5416,
@@ -1272,7 +1272,7 @@
       "description": "Your target is haunted by spectres of death and doom for up to 10 seconds, causing an additional 100 Spirit damage each time that they suffer direct damage. This effect will occur up to 5 times before fading.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10918",
       "id": 5430,
@@ -1288,7 +1288,7 @@
       "description": "You create a cloud of dark energy for up to 6 seconds, dealing 232 Corporeal damage to your target and all enemies within 20 feet of them every 2 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22697",
       "id": 5420,
@@ -1304,7 +1304,7 @@
       "description": "The cost of Chillwind is reduced by 20 and it will reduce the enemy's Spiritual resistance by 236 for 9 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10913",
       "id": 5375,
@@ -1320,7 +1320,7 @@
       "description": "You crush your foes underneath a blast of living shadow, dealing 366 Spirit damage to your target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10917",
       "id": 5370,
@@ -1336,7 +1336,7 @@
       "description": "You draw the shadows close to you, increasing all of your resistances by 378 for 20 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23170",
       "id": 5403,
@@ -1352,7 +1352,7 @@
       "description": "Steals up to 200 action points from your target and gives it to you, and reduces your target's Intelligence by 160 for 30 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22721",
       "id": 5445,
@@ -1368,7 +1368,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 5446,
@@ -1384,7 +1384,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 5447,
@@ -1400,7 +1400,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22708",
       "id": 5400,
@@ -1416,7 +1416,7 @@
       "description": "Enemy monsters will hate you 50% less than normal.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10932",
       "id": 5417,
@@ -1432,7 +1432,7 @@
       "description": "Your target and all other enemies within 20 feet of them suffer 800 damage and lose 125 Action Points. You gain 800 health and 125 Action Points.",
       "category": "Morale"
     },
-  
+
     {
       "image": "10922",
       "id": 5386,
@@ -1448,7 +1448,7 @@
       "description": "Your enemy becomes overwhelmed with panic, suffering 232 Corporeal damage. Fear and uncertainty spread rapidly through the enemy ranks, Silencing the target and all other enemies within 20 feet of them for 3 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10916",
       "id": 5372,
@@ -1464,7 +1464,7 @@
       "description": "Waves of agony roll outwards from you, dealing 169 Corporeal damage to all enemies within 30 feet.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22704",
       "id": 5415,
@@ -1480,7 +1480,7 @@
       "description": "Gloomburst will now deal an additional 291 Spirit damage each time it hits, but will also cause a Backlash every time as well.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 5413,
@@ -1496,7 +1496,7 @@
       "description": "Whenever your Frozen Touch effect triggers for one of your allies, they will become surrounded by a protective barrier for up to 5 seconds which will absorb up to 250 damage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22708",
       "id": 5391,
@@ -1512,7 +1512,7 @@
       "description": "Any time you critically hit with a Path Of Destruction ability, the victim will be knocked backwards a moderate distance and mobs will be knocked down.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23171",
       "id": 5407,
@@ -1528,7 +1528,7 @@
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22706",
       "id": 5418,
@@ -1544,7 +1544,7 @@
       "description": "Word of Pain's Willpower debuff is increased to 225 for 5 seconds and will deal 533 Spirit damage at the end of the debuff duration.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "10911",
       "id": 5385,
@@ -1560,7 +1560,7 @@
       "description": "A Curse which causes the enemy to lose 30 Action Points over 5 seconds. When this effect ends, they will suffer 232 Spirit damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "10930",
       "id": 5396,
@@ -1576,7 +1576,7 @@
       "description": "Each groupmember within 100 feet takes only 80% damage for 20 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "10908",
       "id": 5374,

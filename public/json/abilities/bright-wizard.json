@@ -11,7 +11,7 @@
         "lvl6": 3559,
         "lvl7": 3560
       },
-      "coreAbilities": [3512,3520,3516,3611,3525]
+      "coreAbilities": [3512, 3520, 3516, 3611, 3525]
     },
     "b": {
       "name": "Path of Immolation",
@@ -24,7 +24,7 @@
         "lvl6": 3566,
         "lvl7": 3567
       },
-      "coreAbilities": [3528,3610,3524,3522,3517]
+      "coreAbilities": [3528, 3610, 3524, 3522, 3517]
     },
     "c": {
       "name": "Path of Conflagaration",
@@ -37,7 +37,7 @@
         "lvl6": 3573,
         "lvl7": 3574
       },
-      "coreAbilities": [3515,3526,3523,3518,3529]
+      "coreAbilities": [3515, 3526, 3523, 3518, 3529]
     }
   },
   "data": [
@@ -56,7 +56,7 @@
       "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22736",
       "id": 3584,
@@ -72,7 +72,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 3582,
@@ -88,7 +88,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 3583,
@@ -104,7 +104,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "07958",
       "id": 3569,
@@ -120,7 +120,7 @@
       "description": "You concentrate on your magical powers for up to 3 seconds, opening your body to serve as a vessel for the raw power of the Red Wind. The unleashed power will deal 155 Corporeal damage each second to all enemies within 30 feet. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22725",
       "id": 3597,
@@ -136,7 +136,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3599,
@@ -152,7 +152,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3598,
@@ -168,7 +168,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "07936",
       "id": 3573,
@@ -184,7 +184,7 @@
       "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing 710 Corporeal damage over 15 seconds to all enemies within 30 feet. The force of the blast will send enemy players flying away from you, while monsters will be knocked down.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22718",
       "id": 3606,
@@ -200,7 +200,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3608,
@@ -216,7 +216,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3607,
@@ -232,7 +232,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "08015",
       "id": 3517,
@@ -248,7 +248,7 @@
       "description": "Reduces your target's Willpower by 75 for 10 seconds. When the effect ends, the victim will suffer 365 Corporeal damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22731",
       "id": 3602,
@@ -264,7 +264,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 3601,
@@ -280,7 +280,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 3600,
@@ -296,7 +296,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22703",
       "id": 3558,
@@ -312,7 +312,7 @@
       "description": "Fireball and Pyroclastic Surge are now virtually undefendable.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08019",
       "id": 3525,
@@ -328,7 +328,7 @@
       "description": "Your target's weapons become red hot, dealing 191 Corporeal damage to them and causing them to lose 50 Action Points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07957",
       "id": 3527,
@@ -344,7 +344,7 @@
       "description": "You call upon the Winds Of Magic to grant you power, instantly regaining 160 Action Points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08016",
       "id": 3519,
@@ -360,7 +360,7 @@
       "description": "You cause an open wound to sear itself shut, removing one Hex, Curse, or Ailment from yourself.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08020",
       "id": 3529,
@@ -376,7 +376,7 @@
       "description": "A Hex which turns the air into unbreathable smoke and ash, dealing 232 Corporeal damage to your target. The target and all other enemies within 20 feet become silenced for 3 seconds, making them unable to use magic.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 3544,
@@ -392,7 +392,7 @@
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "07942",
       "id": 3574,
@@ -408,7 +408,7 @@
       "description": "A spot that you select bursts into flames for 8 seconds, dealing 200 damage each second to all enemies within 20 feet.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22713",
       "id": 3537,
@@ -424,7 +424,7 @@
       "description": "Flames of Rhuin now has a 75% chance to trigger.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 3604,
@@ -440,7 +440,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 3603,
@@ -456,7 +456,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 3605,
@@ -472,7 +472,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "07902",
       "id": 3522,
@@ -488,7 +488,7 @@
       "description": "You reach through the power of a Hex on the target to instantly deal 158 Elemental damage to them, and an additional 234 Elemental damage over 9 seconds to them and all other enemies within 20 feet.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22704",
       "id": 3541,
@@ -504,7 +504,7 @@
       "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect can not occur more than once every 2 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 3535,
@@ -520,7 +520,7 @@
       "description": "Reduces the cooldown times of Smoke Screen and Fire Cage by 7 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22708",
       "id": 3556,
@@ -536,7 +536,7 @@
       "description": "Burning Iron will now deal 291 damage, and you will regain 50 action points when it hits.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22703",
       "id": 3536,
@@ -552,7 +552,7 @@
       "description": "Any time you critically hit an enemy with a direct damage ability, you will gain 200 points of Morale. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22710",
       "id": 3551,
@@ -568,7 +568,7 @@
       "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22695",
       "id": 3542,
@@ -584,7 +584,7 @@
       "description": "Increases your Intelligence by 160.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23407",
       "id": 3575,
@@ -600,7 +600,7 @@
       "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22696",
       "id": 3568,
@@ -616,7 +616,7 @@
       "description": "Any time that your Combustion causes an Explosion, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 3534,
@@ -632,7 +632,7 @@
       "description": "Increases the radii of Rain Of Fire and Detonate by 50%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3595,
@@ -648,7 +648,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3596,
@@ -664,7 +664,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3594,
@@ -680,7 +680,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "07934",
       "id": 3518,
@@ -696,7 +696,7 @@
       "description": "You fling a massive ball of fire, dealing 366 Elemental damage to your target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22709",
       "id": 3570,
@@ -712,7 +712,7 @@
       "description": "Reduces the cooldown times of Flame Breath and Rain Of Fire by 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "07924",
       "id": 3521,
@@ -728,7 +728,7 @@
       "description": "All enemies within 30 feet are Rooted as they become trapped within a cage of searing flames, making them unable to move for 5 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07933",
       "id": 3611,
@@ -744,7 +744,7 @@
       "description": "You conjure up a fiery missile which slams into your target, dealing 533 Elemental damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08021",
       "id": 3559,
@@ -760,7 +760,7 @@
       "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals 333 Elemental damage to your target, and 167 Elemental damage to all other enemies within 20 feet of them. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08018",
       "id": 3523,
@@ -776,7 +776,7 @@
       "description": "You momentarily turn your very breath into a rolling burst of flames, dealing 508 Elemental damage over 9 seconds to all enemies in a cone in front of you, up to 40 feet away.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07911",
       "id": 3524,
@@ -787,12 +787,12 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Insta-Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "",
       "description": "All groupmates within 100 feet are Enchanted with a protective shield of flickering flames for 1 hour, giving them a 25% chance to deal 125 Elemental damage back against the attacker when they are struck by a melee attack.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07910",
       "id": 3516,
@@ -803,12 +803,12 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Insta-Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "",
       "description": "An Enchantment which infuses your groupmates within 100 feet of you with the spirit of fire for 1 hour, giving them a 25% chance to deal an additional 150 Elemental damage any time they attack a target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 3533,
@@ -824,7 +824,7 @@
       "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds has 50% reduced build-up time and can be cast on the move.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05004",
       "id": 3609,
@@ -840,7 +840,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23153",
       "id": 3548,
@@ -856,7 +856,7 @@
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22694",
       "id": 3561,
@@ -872,7 +872,7 @@
       "description": "Boiling Blood's Willpower debuff is increased to 225 for 5 seconds and will deal 533 Corporeal damage at the end of the debuff duration.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 3531,
@@ -888,7 +888,7 @@
       "description": "Flames Of Rhuin will now deal 225 damage, and Flame Shield will now deal 200 damage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "07919",
       "id": 3555,
@@ -904,7 +904,7 @@
       "description": "You become a living conduit for the power of the Red Wind of Magic, causing all of your directly damaging magical attacks to deal an additional 100 Corporeal damage to your target, but you will also suffer 50 damage for each one. Use this ability again to turn it off.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22730",
       "id": 3587,
@@ -920,7 +920,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3586,
@@ -936,7 +936,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3585,
@@ -952,7 +952,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "08028",
       "id": 3540,
@@ -968,7 +968,7 @@
       "description": "Removes all Hexes and Curses from you. You regain 485 health over 15 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "23410",
       "id": 3576,
@@ -984,7 +984,7 @@
       "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
       "category": "Ability"
     },
-  
+
     {
       "image": "07913",
       "id": 3610,
@@ -1000,7 +1000,7 @@
       "description": "A Hex which causes your target to burst into flames, dealing 426 Elemental damage to them over 9 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22704",
       "id": 3563,
@@ -1016,7 +1016,7 @@
       "description": "The cost of Ignite is reduced by 20 and it will reduce the enemy's Corporeal resistance by 236 for 9 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22703",
       "id": 3530,
@@ -1032,7 +1032,7 @@
       "description": "Pyroclastic Surge and Scorched Earth gain a 25% chance to cause an additional 350 Elemental damage over 5 seconds to each target hit.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23167",
       "id": 3545,
@@ -1048,7 +1048,7 @@
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale"
     },
-  
+
     {
       "image": "08026",
       "id": 3538,
@@ -1064,7 +1064,7 @@
       "description": "Deals 600 damage to your target immediately, and another 1206 damage over 9 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "04630",
       "id": 3612,
@@ -1080,7 +1080,7 @@
       "description": "You expel all of your build-up Combustion in a fiery blast, dealing damage to your target based on the amount of Combustion that was consumed.<br>  1 - 10 Combustion: 75 damage.<br>  11 - 30 Combustion: 150 damage.<br>  31 - 70 Combustion: 300 damage.<br>  71 - 90 Combustion: 600 damage.<br>  91 - 100 Combustion: 750 damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23168",
       "id": 3547,
@@ -1096,7 +1096,7 @@
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
       "category": "Morale"
     },
-  
+
     {
       "image": "07936",
       "id": 3557,
@@ -1112,7 +1112,7 @@
       "description": "A powerful spell which makes your target spontaneously combust, dealing 341 Elemental damage to them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22729",
       "id": 3593,
@@ -1128,7 +1128,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 3592,
@@ -1144,7 +1144,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 3591,
@@ -1160,7 +1160,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "08022",
       "id": 3562,
@@ -1176,7 +1176,7 @@
       "description": "A Hex which surrounds the target with hungry flames, causing all healing used on them for the next 10 seconds to become 50% less effective. Each time someone attempts to use a direct heal on them, the flames will lash out, and healer will suffer 250 Elemental damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 3532,
@@ -1192,7 +1192,7 @@
       "description": "Meltdown will now restore your action points, returning an amount equal to the Combustion which was expended.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08017",
       "id": 3520,
@@ -1208,7 +1208,7 @@
       "description": "A fountain of molten lava envelops your target, dealing 320 Corporeal damage. If they are Hexed, then they will also be inflicted with a disorienting Hex for 3 seconds, causing all of their actions to take an additional 50% longer to build up.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07939",
       "id": 3526,
@@ -1224,7 +1224,7 @@
       "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 9 seconds, falling upon a spot you select and repeatedly dealing 183 damage to all enemies within 20 feet of that spot.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08027",
       "id": 3539,
@@ -1240,7 +1240,7 @@
       "description": "Deals 1200 damage to all enemies within 30 feet.",
       "category": "Morale"
     },
-  
+
     {
       "image": "23169",
       "id": 3549,
@@ -1256,7 +1256,7 @@
       "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
       "category": "Morale"
     },
-  
+
     {
       "image": "08014",
       "id": 3515,
@@ -1272,7 +1272,7 @@
       "description": "You send a blast of heat into the ground around you, dealing 169 Corporeal damage to all enemies within 30 feet.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07955",
       "id": 3512,
@@ -1288,7 +1288,7 @@
       "description": "Causes a pillar of scalding gas to erupt from the ground, dealing 291 Elemental damage to your target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22706",
       "id": 3554,
@@ -1304,7 +1304,7 @@
       "description": "Sear will now heal you for 67% of the damage that it deals.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08012",
       "id": 3513,
@@ -1320,7 +1320,7 @@
       "description": "An Enchantment which calls upon the power of the Red Wind to increase your armor by 990 for 10 seconds, and makes it 50% less likely that you will be set back while building up abilities.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22710",
       "id": 3553,
@@ -1336,7 +1336,7 @@
       "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional 135 hit points as well.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23170",
       "id": 3546,
@@ -1352,7 +1352,7 @@
       "description": "Steals up to 200 action points from your target and gives it to you, and reduces your target's Intelligence by 160 for 30 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22721",
       "id": 3588,
@@ -1368,7 +1368,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 3589,
@@ -1384,7 +1384,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 3590,
@@ -1400,7 +1400,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22708",
       "id": 3543,
@@ -1416,7 +1416,7 @@
       "description": "Enemy monsters will hate you 50% less than normal.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "07940",
       "id": 3528,
@@ -1432,7 +1432,7 @@
       "description": "For the next 5 seconds, the target is inflicted with a Hex which raises their temperature to a delirious fever, causing them to lose 6 Action Points every 1 seconds. When this effect ends, they will suffer 232 Corporeal damage as the fever peaks.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08013",
       "id": 3514,
@@ -1448,7 +1448,7 @@
       "description": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22704",
       "id": 3565,
@@ -1464,7 +1464,7 @@
       "description": "When Ignite, Boiling Blood, and Slow Boil end or are removed, there is a 25% chance that they will re-kindle, reapplying themselves to the target once again. Be cautious, though, for you will build Combustion and have a chance to cause an Explosion each time that they are reapplied!",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "07956",
       "id": 3571,
@@ -1480,7 +1480,7 @@
       "description": "Deals 435 Elemental damage to your target over 15 seconds. Each time that this effect damages them, the flames will spread, causing 102 Elemental damage over 3 seconds to all other enemies within 20 feet of them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08024",
       "id": 3566,
@@ -1496,7 +1496,7 @@
       "description": "You grasp the power of your Ignite hex and cause it to explode with concussive force, dealing 241 Elemental damage to your target and knocking them down for 3 seconds, but extinguishing your Ignite.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07937",
       "id": 3560,
@@ -1512,7 +1512,7 @@
       "description": "Deals 1600 damage to your target, and 1200 to all other enemies within 20 feet of them. All enemies hit by this effect will lose 600 points of Morale.",
       "category": "Morale"
     },
-  
+
     {
       "image": "23171",
       "id": 3550,
@@ -1528,7 +1528,7 @@
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22710",
       "id": 3552,
@@ -1544,7 +1544,7 @@
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "07941",
       "id": 3567,
@@ -1560,7 +1560,7 @@
       "description": "A wall of fire shoots outwards from you and remains on the ground for 8 seconds, dealing 200 damage each second to all enemies in a line in front of you up to 65 feet away from you.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22703",
       "id": 3572,
@@ -1576,7 +1576,7 @@
       "description": "When an enemy is hit by any Conflagration ability, there is a 25% chance that they will become covered in flames, receiving 300 Elemental damage over 5 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08023",
       "id": 3564,
