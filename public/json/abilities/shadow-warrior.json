@@ -15,7 +15,7 @@
         "lvl6": 3976,
         "lvl7": 3977
       },
-      "coreAbilities": [3945,3940,3939,4027,3930]
+      "coreAbilities": [3945, 3940, 3939, 4027, 3930]
     },
     "b": {
       "name": "Path of Assault",
@@ -32,7 +32,7 @@
         "lvl6": 3983,
         "lvl7": 7530
       },
-      "coreAbilities": [3943,4029,3936,3944,3931]
+      "coreAbilities": [3943, 4029, 3936, 3944, 3931]
     },
     "c": {
       "name": "Path of The Skirmisher",
@@ -49,7 +49,7 @@
         "lvl6": 3941,
         "lvl7": 3991
       },
-      "coreAbilities": [3932,3933,3946,3988,3929]
+      "coreAbilities": [3932, 3933, 3946, 3988, 3929]
     }
   },
   "data": [
@@ -68,7 +68,7 @@
       "description": "An attack which deals (25 + 6 * rank) + (0.3 bal) + (1.5 dps) physical damage and causes your target to take a (120 + 21.75 * rank) ability penalty to armor and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13404",
       "id": 3927,
@@ -84,7 +84,7 @@
       "description": "A close-combat stance which causes you to gain a 120 unique bonus to Strength and Weaponskill, and a unique bonus to Armor equal to the same amount that you receive from items.<br><br>While in Assault Stance; your Ballistic Skill from items will also count towards your Strength, your Ranged Power from items will also count towards your Melee Power, and your Ranged Critical chance from items will also count towards your Melee Critical chance.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13337",
       "id": 3990,
@@ -100,7 +100,7 @@
       "description": "Deals (32 + 7.4 * rank) + (0.25 bal) + (1.5 dps) physical damage to all enemies in an arc in front of you, up to 40 feet away.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22705",
       "id": 3969,
@@ -116,7 +116,7 @@
       "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22696",
       "id": 3954,
@@ -132,7 +132,7 @@
       "description": "Any time you kill an enemy, you will instantly regain 321 health.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13309",
       "id": 3929,
@@ -148,7 +148,7 @@
       "description": "An Ailment which deals (96.67 + 55/3 * rank) + (0.9 bal) + (3.5 dps) physical damage to your target over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13402",
       "id": 3931,
@@ -164,7 +164,7 @@
       "description": "Deals (56 + 8 * rank) + (0.3 bal) + (1.4 dps) physical damage to your target, and makes monsters hate you less than normal. Only usable when you are behind the target.<br>If you are Vengeful, then this attack may be used from any position.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22709",
       "id": 3951,
@@ -180,7 +180,7 @@
       "description": "Whenever you critically hit an enemy, your chance to critically hit is increased by 20% for 5 seconds, but you also become 10% more vulnerable to being critically hit.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22705",
       "id": 3968,
@@ -196,7 +196,7 @@
       "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22698",
       "id": 3960,
@@ -212,7 +212,7 @@
       "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23162",
       "id": 3964,
@@ -228,7 +228,7 @@
       "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13323",
       "id": 3944,
@@ -244,7 +244,7 @@
       "description": "A quick strike which deals (21.67 + 7/3 * rank) + (0.3 bal) + (1.4 dps) damage to your target and interrupts any ability that they were building up.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22705",
       "id": 3970,
@@ -260,7 +260,7 @@
       "description": "Your attacks have a 10% reduced chance to be defended against.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22697",
       "id": 3950,
@@ -276,7 +276,7 @@
       "description": "Distracting Shot will now also affect any other enemies within 20 feet of your initial target.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13403",
       "id": 3934,
@@ -292,7 +292,7 @@
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13405",
       "id": 3936,
@@ -308,7 +308,7 @@
       "description": "An Ailment which deals (56 + 12 * rank) + (0.6 bal) + (2.4 dps) physical damage over 9 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13322",
       "id": 4027,
@@ -324,7 +324,7 @@
       "description": "A well aimed arrow that deals (91 + 8.5 * rank) + (0.4 bal) + (2.0 dps) physical damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22698",
       "id": 3973,
@@ -340,7 +340,7 @@
       "description": "All attacks in the Path of the Scout will now inflict corporeal damage, and Acid Arrow will now cause your target to take a (X * rank) ability penalty to corporeal resistance",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22694",
       "id": 3958,
@@ -356,7 +356,7 @@
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13409",
       "id": 3983,
@@ -372,7 +372,7 @@
       "description": "A Crippling attack which deals (40 + 6.6 * rank) + (0.3 bal) + (1.4 dps) physical damage and knocks down your target for 3 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23163",
       "id": 3966,
@@ -388,7 +388,7 @@
       "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<br>This effect will not trigger more than once every second.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13325",
       "id": 3941,
@@ -404,7 +404,7 @@
       "description": "A Crippling shot that deals X damage and causes your target to take a (2* rank) ability penalty to Initiative for 20 seconds. This ability will continue to build up even if you move. 3 Second knockdown.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13313",
       "id": 3976,
@@ -420,7 +420,7 @@
       "description": "Deals (97 + 19 * rank) + (0.3 bal) + (3.5 dps) physical damage if your target is below 30% hit points, or (33.33 + 20/3 * rank) + (0.3 bal) + (1.5 dps) physical damage otherwise.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13401",
       "id": 3974,
@@ -436,7 +436,7 @@
       "description": "Deals (38 + 19.5 * rank) + (0.7875 bal) corporeal damage to your target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13326",
       "id": 3939,
@@ -452,7 +452,7 @@
       "description": "An Ailment which deals (25 + 4 * rank) + (0.2 bal) elemental damage to your target and then explodes, dealing an additional (309 + 5.5 * rank) + (0.3 bal) elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13329",
       "id": 3988,
@@ -468,7 +468,7 @@
       "description": "Deals (50 + 8 * rank) + (0.3 bal) + (1.5 dps) physical damage to your target. Only usable from behind the target. The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05004",
       "id": 4028,
@@ -484,7 +484,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23153",
       "id": 3965,
@@ -500,7 +500,7 @@
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13311",
       "id": 3972,
@@ -516,7 +516,7 @@
       "description": "Deals (33 + 4 * rank) + (0.3 bal) + (2.0 dps) physical damage to your target and reduces range on their abilities to 75% for the next 3 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13400",
       "id": 4029,
@@ -532,7 +532,7 @@
       "description": "Deals (8 + 5 * rank) + (0.3 bal) + (1.8 dps) physical damage to your target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22697",
       "id": 3975,
@@ -548,7 +548,7 @@
       "description": "Reduces the action point costs of all abilities within the Path Of The Scout by 35%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23164",
       "id": 3967,
@@ -564,7 +564,7 @@
       "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13302",
       "id": 3935,
@@ -580,7 +580,7 @@
       "description": "An inspired ferver fills your group, increasing AP regeneration by 20% for 15 seconds to all groupmates within 100 feet of you.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13336",
       "id": 3957,
@@ -596,7 +596,7 @@
       "description": "You deal 1200 damage to all enemies within 30 feet and staggers the target for up to 6 seconds, preventing all actions unless they are damaged.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22694",
       "id": 3952,
@@ -612,7 +612,7 @@
       "description": "Gives a 120 unique bonus to Strength, Ballistic Skill, and Weaponskill, and a 120 unique penalty to toughness.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 3987,
@@ -628,7 +628,7 @@
       "description": "Increases the durations of Broadhead Arrows to 21 seconds, Takedown to 15 seconds, and Eye Shot to 25 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22697",
       "id": 3953,
@@ -644,7 +644,7 @@
       "description": "Any time you critically hit with a ranged attack, the chance to critically hit will be increased by 8% for 10 seconds for group members within 100 feet, but this will not affect you.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13307",
       "id": 3946,
@@ -660,7 +660,7 @@
       "description": "A piercing arrow which deals (24 + 8 * rank) + (0.2375 bal) + (2.0 dps) physical damage to all enemies in front of you, up to 65 feet away. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13334",
       "id": 3955,
@@ -676,7 +676,7 @@
       "description": "Removes all Hexes, Curses, Cripples, and Ailments from you. You regain 250 Action Points.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22697",
       "id": 3959,
@@ -692,7 +692,7 @@
       "description": "Gives a 160 unique bonus to Ballistic Skill.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22708",
       "id": 3982,
@@ -708,7 +708,7 @@
       "description": "Reduces the action point costs of all abilities within the Path of assault by 35%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 3971,
@@ -724,7 +724,7 @@
       "description": "Eagle's Eye now builds up 1 seconds faster, but the cost is increased by 13 Action Points.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 3980,
@@ -740,7 +740,7 @@
       "description": "Your damage is increased by 15% when under 45 feet away from your target.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13319",
       "id": 3943,
@@ -756,7 +756,7 @@
       "description": "A Crippling attack that deals (8 + 5 * rank) + (0.3 bal) + (1.8 dps) damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13335",
       "id": 3956,
@@ -772,7 +772,7 @@
       "description": "Arrows strike the ground at a spot you select, dealing 1200 damage to all enemies within 20 feet of that spot.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13339",
       "id": 3991,
@@ -788,7 +788,7 @@
       "description": "Deals 1200 damage to all enemies in front of you, up to 40 feet away, and an additional 1200 damage over 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22709",
       "id": 3961,
@@ -804,7 +804,7 @@
       "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23165",
       "id": 3962,
@@ -820,7 +820,7 @@
       "description": "A mid-range attack that deals 600 damage and knocks targeted player away. Monsters will be knocked down.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22697",
       "id": 3989,
@@ -836,7 +836,7 @@
       "description": "Increases the maximum range of all Path Of The Skirmisher attacks by 50%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13337",
       "id": 3977,
@@ -852,7 +852,7 @@
       "description": "You repeatedly shoot arrows at the ground for 10 seconds, dealing 219 damage every second to all enemies within 20 feet of that spot.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13314",
       "id": 3940,
@@ -868,7 +868,7 @@
       "description": "You move with blinding speed as you quickly fire several shots at your target, dealing (12.5 + 2.5 * rank) + (0.1 bal) + (0.75 dps) physical damage to the enemy twice per second for up to 3 seconds. This effect will end if you break your concentration, or run out of action points.<br>If you are Vengeful, then the shots will deal 10% more damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 3947,
@@ -884,7 +884,7 @@
       "description": "Any time you critically hit an enemy, you will regain 40 Action Points. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13398",
       "id": 4026,
@@ -900,7 +900,7 @@
       "description": "A long-distance bow stance that gives a 80 unique bonus to Ballistic Skill and Initiative and the range of your bow attacks by 10%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13317",
       "id": 3986,
@@ -918,7 +918,7 @@
     },
 
     {
-      "image": "13317",
+      "image": "13335",
       "id": 7530,
       "name": "Shadow Step",
       "type": "Buff",
@@ -926,13 +926,13 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "65ft range",
-      "incant": "2.0s Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Assault Stance",
       "description": "You merge with the shadows and appear on your target within the blink of an eye.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22698",
       "id": 3978,
@@ -948,7 +948,7 @@
       "description": "Brutal Assault will now bypass all of the target's armor.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13407",
       "id": 3928,
@@ -964,7 +964,7 @@
       "description": "A close-range bow stance that gives a 80 unique bonus to Toughness and the chance that your bow attacks will critically hit by 5%. You gain the ability to autoattack while moving while in this stance.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22697",
       "id": 3949,
@@ -980,7 +980,7 @@
       "description": "Flame Arrow's damage over time is increased to (75 + 13.2 * rank) + (0.3 bal) elemental damage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13406",
       "id": 3933,
@@ -996,7 +996,7 @@
       "description": "Deals (26 + 5 * rank) + (0.3 bal) + (1.5 dps) physical damage to your target. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 3985,
@@ -1012,7 +1012,7 @@
       "description": "Spiral-Fletched Arrow now hits all enemies within 20 feet of your initial target, but does 30% less damage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13308",
       "id": 3942,
@@ -1028,7 +1028,7 @@
       "description": "For the next 6 seconds, all of your abilities that do damage will have a 50% higher chance to critically hit, but will take an additional 1.5 seconds to build up.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13331",
       "id": 3981,
@@ -1044,7 +1044,7 @@
       "description": "Deals (30 + 6 * rank) + (0.2 bal) + (1.4 dps) physical damage to all enemies in an arc in front of you, up to 25 feet away.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13330",
       "id": 3979,
@@ -1060,7 +1060,7 @@
       "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing (59 + 2 * rank) + (0.1 bal) + (0.8 dps)physical damage per hit. If the target is building up an ability, then your strikes will deal (22 + 4 * rank) + (0.1 bal) + (0.8 dps) physical damage instead.<br.<br>This ability will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13310",
       "id": 3932,
@@ -1076,7 +1076,7 @@
       "description": "An Ailment which deals (25 + 5 * rank) + (0.3 bal) + (1.5 dps) physical damage and snares your target, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13408",
       "id": 3945,
@@ -1092,7 +1092,7 @@
       "description": "A Crippling shot that deals (33.33 + 20/3 * rank) + (0.3 bal) + (1.5 dps) damage and silences your target for 4 seconds, making them unable to use magic.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13399",
       "id": 3937,
@@ -1108,7 +1108,7 @@
       "description": "You are filled with a desire for vengeance, increasing all damage you deal by 25% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13321",
       "id": 3938,
@@ -1124,7 +1124,7 @@
       "description": "All enemies within 30 feet become snared, reducing movement speed by 40% for the next 10 seconds. You are knocked back away from your enemies.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13338",
       "id": 3984,
@@ -1140,7 +1140,7 @@
       "description": "Deals (267 + 53.33 * assault rank) damage to all enemies within 30 feet.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22704",
       "id": 3948,
