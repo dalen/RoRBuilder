@@ -15,7 +15,7 @@
         "lvl6": 4281,
         "lvl7": 4282
       },
-      "coreAbilities": [4235,4333,4245,4249,4239]
+      "coreAbilities": [4235, 4333, 4245, 4249, 4239]
     },
     "b": {
       "name": "Path of The Axeman",
@@ -32,7 +32,7 @@
         "lvl6": 4288,
         "lvl7": 4289
       },
-      "coreAbilities": [4233,4234,4237,4244,4248]
+      "coreAbilities": [4233, 4234, 4237, 4244, 4248]
     },
     "c": {
       "name": "Path of The Guardian",
@@ -49,11 +49,11 @@
         "lvl6": 4295,
         "lvl7": 4296
       },
-      "coreAbilities": [4240,4243,4247,4250,4238]
+      "coreAbilities": [4240, 4243, 4247, 4250, 4238]
     }
   },
   "data": [
-      {
+    {
       "image": "13417",
       "id": 4331,
       "name": "Axe Toss",
@@ -68,7 +68,7 @@
       "description": "You fling a throwing axe at your target, dealing 97 damage.",
       "category": "Ability"
     },
-     
+
     {
       "image": "13425",
       "id": 4238,
@@ -84,7 +84,7 @@
       "description": "An attack which momentarily distracts your enemy, dealing (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage to them. Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22705",
       "id": 4274,
@@ -100,7 +100,7 @@
       "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13460",
       "id": 4282,
@@ -116,7 +116,7 @@
       "description": "Deals 1040 damage to all enemies within 30 feet of both you and your War Lion.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13420",
       "id": 4233,
@@ -132,7 +132,7 @@
       "description": "You attack your enemy at a vulnerable spot, dealing (38 + 5/3 * rank) + (0.15 * STR) + (1.5 * DPS) physical damage immediately and inflicting them with an Ailment which deals an additional (40 + 5 * rank) + (0.3 * STR) physical damage over 9 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22703",
       "id": 4283,
@@ -148,7 +148,7 @@
       "description": "Blindside will now also disorient your victim for 10 seconds, causing all of their abilities to take an additional 50% to build up.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23156",
       "id": 4271,
@@ -164,7 +164,7 @@
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale"
     },
-   
+
     {
       "image": "22701",
       "id": 4264,
@@ -180,7 +180,7 @@
       "description": "Increases your Strength by 160.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23403",
       "id": 4297,
@@ -196,7 +196,7 @@
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13418",
       "id": 4332,
@@ -212,7 +212,7 @@
       "description": "You call your tamed War Lion to come forth and fight with you.<br>You may only have a single War Lion at a time.",
       "category": "Ability"
     },
-   
+
     {
       "image": "22705",
       "id": 4273,
@@ -228,7 +228,7 @@
       "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13429",
       "id": 4242,
@@ -244,7 +244,7 @@
       "description": "You and your War Lion charge into the thick of battle, increasing your movement speed by 50 for 7 seconds. If you or your War Lion use any abilities, this effect will immediately end.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13430",
       "id": 4243,
@@ -260,7 +260,7 @@
       "description": "A sundering blow which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22705",
       "id": 4259,
@@ -276,7 +276,7 @@
       "description": "You gain an additional 50 Morale every 5 seconds as long as you have an active War Lion. If your War Lion ever dies, however, you will lose 600 Morale.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23157",
       "id": 4269,
@@ -292,7 +292,7 @@
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13422",
       "id": 4235,
@@ -308,7 +308,7 @@
       "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for (10 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage, and your pet strikes its target for (10 + 5/3 * rank) + (0.3 * STR) physical damage. If you are within 35 feet of your pet's target, you will also strike that enemy for (10 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for (10 + 5/3 * rank) + (0.3 * STR) physical damage as well.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13443",
       "id": 4286,
@@ -324,7 +324,7 @@
       "description": "A ruthless attack which deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and will almost always deal critical damage to a wounded foe.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22705",
       "id": 4275,
@@ -340,7 +340,7 @@
       "description": "Your attacks have a 10% reduced chance to be defended against.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13459",
       "id": 4262,
@@ -356,7 +356,7 @@
       "description": "Deals 1800 damage to your target, and heals you for 50% of the damage done.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13440",
       "id": 4291,
@@ -372,7 +372,7 @@
       "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 15 feet of either one of you and inflicting an Ailment which causes (38 + 1337/3 * rank) + (0.3 * STR) + (1.5 * DPS) Spirit damage over 15 seconds to all affected enemies.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13457",
       "id": 4260,
@@ -388,7 +388,7 @@
       "description": "Deals 300 damage to your target, and roots them in place for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13433",
       "id": 4246,
@@ -404,7 +404,7 @@
       "description": "Your training and Elven grace allows you to remove all roots and snares from yourself and your War Lion. For the next 10 seconds, roots and snares will have no effect on you or your War Lion.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13438",
       "id": 4251,
@@ -420,7 +420,7 @@
       "description": "You command your War Lion to toss its target through the air, knocking them closer to you.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13435",
       "id": 4248,
@@ -436,7 +436,7 @@
       "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing (30 + 5 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage. The enemies attack speed is reduced by 20% for the next 10 seconds. Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22704",
       "id": 4265,
@@ -452,7 +452,7 @@
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 4254,
@@ -468,7 +468,7 @@
       "description": "Increases the chance to parry attacks by 10% for both you and your pet, as long as you have a pet active.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05004",
       "id": 4334,
@@ -484,7 +484,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13458",
       "id": 4261,
@@ -500,7 +500,7 @@
       "description": "Deals 1200 damage over 9s to all enemies in front of you, up to 65 feet away.",
       "category": "Morale"
     },
-  
+
     {
       "image": "23158",
       "id": 4268,
@@ -516,7 +516,7 @@
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13445",
       "id": 4279,
@@ -532,7 +532,7 @@
       "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim takes a (34 * rank) ability penalty to armor for 10s.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23159",
       "id": 4272,
@@ -548,7 +548,7 @@
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22702",
       "id": 4287,
@@ -564,7 +564,7 @@
       "description": "Increases your Strength by 50, and increases your War Lion's Wounds by 100.",
       "category": "CareerTactic"
     },
-    
+
     {
       "image": "13419",
       "id": 4333,
@@ -580,7 +580,7 @@
       "description": "A brutal chop at your enemy which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage.",
       "category": "Ability"
     },
-   
+
     {
       "image": "22694",
       "id": 4263,
@@ -596,7 +596,7 @@
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13461",
       "id": 4289,
@@ -612,7 +612,7 @@
       "description": "Your War Lion is fully healed, and all group members within 100 feet instantly gain 250 Action Points.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13447",
       "id": 4295,
@@ -628,7 +628,7 @@
       "description": "At your command, your War Lion goes berserk with a killing frenzy! All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds. During this time, your pet will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage every time it strikes an enemy.<br>Damage can only trigger once every 2 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 4276,
@@ -644,7 +644,7 @@
       "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13426",
       "id": 4239,
@@ -660,7 +660,7 @@
       "description": "You draw upon your mystical Elven heritage and furiously attack your target, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22709",
       "id": 4256,
@@ -676,7 +676,7 @@
       "description": "You deal 25% more damage and the cooldown of Pounce is removed, but you are unable to call forth your War Lion, and it will depart if it has already been summoned.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13423",
       "id": 4236,
@@ -692,7 +692,7 @@
       "description": "Your War Lion regains 785 health over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13434",
       "id": 4247,
@@ -708,7 +708,7 @@
       "description": "A feral attack which deals (20 + 10/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and inspires your groupmates to hunt as a pack. Within the next 5 seconds, each group member within 100 feet will deal an additional (17 + 10/3 * rank) physical damage with their next attack.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22701",
       "id": 4278,
@@ -724,7 +724,7 @@
       "description": "Trained To Hunt will now also increase your autoattack speed by 50%",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22701",
       "id": 4252,
@@ -740,7 +740,7 @@
       "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13439",
       "id": 4277,
@@ -756,7 +756,7 @@
       "description": "You pounce forwards, leaping towards your target and causing (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage wehen you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13442",
       "id": 4284,
@@ -772,7 +772,7 @@
       "description": "For the next 10 seconds, you will deal 25% more damage any time you strike an enemy in the sides or back.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13462",
       "id": 4296,
@@ -788,7 +788,7 @@
       "description": "For the next 10 seconds, all of your abilities will cool down immediately and not cost any action points. This will also affect your War Lion as well.",
       "category": "Morale"
     },
-  
+
     {
       "image": "23160",
       "id": 4270,
@@ -804,7 +804,7 @@
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22696",
       "id": 4255,
@@ -820,7 +820,7 @@
       "description": "If your War Lion is killed, you will go into a rage and deal 50% more damage for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 4266,
@@ -836,7 +836,7 @@
       "description": "Each time you parry an enemy's attack, you will strike them back for (38 + 1337/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage which they can not prevent.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23161",
       "id": 4267,
@@ -852,7 +852,7 @@
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13431",
       "id": 4244,
@@ -868,7 +868,7 @@
       "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13436",
       "id": 4249,
@@ -884,7 +884,7 @@
       "description": "A broad sweep of your axe which deals (20 + 10/3 * rank) + (0.17 * STR) + (1.5 DPS) physical damage to all enemies in front of you, up to 25 feet away.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22703",
       "id": 4253,
@@ -900,7 +900,7 @@
       "description": "Increases your War Lion's movement speed by 50%.",
       "category": "CareerTactic"
     },
-   
+
     {
       "image": "13428",
       "id": 4241,
@@ -916,7 +916,7 @@
       "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters.<br>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13424",
       "id": 4237,
@@ -932,7 +932,7 @@
       "description": "A powerful axe chop which deals (20 + 10/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage. If you are behind the enemy, then this attack will ignore (-7 + 25* rank) armor.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22701",
       "id": 4258,
@@ -948,7 +948,7 @@
       "description": "Slashing Blade and Sundering Chop will now cause an additional (20 + 1337/3 * rank) + (0.3 * STR) + (1.5 DPS) damage over 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13444",
       "id": 4288,
@@ -964,7 +964,7 @@
       "description": "You call forth a small bit of power as you attack your enemy, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and causing all healing that they use within the next 10 seconds to become 50% as effective.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13437",
       "id": 4250,
@@ -980,7 +980,7 @@
       "description": "You command your pet to go for the throat! Your War Lion's next attack within 20 seconds will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage and will Silence its victim, making them unable to use magic for 4 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13432",
       "id": 4245,
@@ -996,7 +996,7 @@
       "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional (20 + 1337/3 * rank) + (0.3 * STR) + (1.5 DPS) damage over 3 seconds.<br><br>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13421",
       "id": 4240,
@@ -1012,7 +1012,7 @@
       "description": "You train your pet to fight ferociously, increasing its Strength and  Weapon Skill from your Strength and Weapon Skill gained from items and increasing your Toughness by 50 by 5%.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13427",
       "id": 4234,
@@ -1028,7 +1028,7 @@
       "description": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by 5% as long as you are at your target's side or back.<br><br>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13441",
       "id": 4281,
@@ -1044,8 +1044,8 @@
       "description": "You rapidly spin your axe around for up to 3 seconds, dealing (12 + 5/3 * rank) + (0.04 * STR) + (0.75 * DPS) physical damage twice a second to all enemies within 30 feet. This ability will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
-	
-	{
+
+    {
       "image": "13446",
       "id": 4293,
       "name": "Brutal Pounce",
@@ -1060,7 +1060,7 @@
       "description": "You command your pet to attack wihout mercy! Your War Lion's next attack within 20 seconds will deal an additional xxx physical damage and will knock down its victim for 3 seconds.",
       "category": "Ability"
     },
-	
+
     {
       "image": "22706",
       "id": 4292,
@@ -1076,8 +1076,8 @@
       "description": "Trained to kill now restores 80 health to you and your War Lion every 5 seconds.",
       "category": "CareerTactic"
     },
-	
-	{
+
+    {
       "image": "22706",
       "id": 4290,
       "name": "Stalker",
@@ -1092,8 +1092,8 @@
       "description": "Your War Lion now causes 75% less hatred in hostile monsters.",
       "category": "CareerTactic"
     },
-	
-	{
+
+    {
       "image": "22708",
       "id": 4280,
       "name": "Hack and Slash",
@@ -1108,8 +1108,8 @@
       "description": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents armor, additionally reduces the action point cost of Slashing Blade and Hack by 50%.",
       "category": "CareerTactic"
     },
-	
-	{
+
+    {
       "image": "22706",
       "id": 4285,
       "name": "Threatening Distraction",
@@ -1124,8 +1124,8 @@
       "description": "Trained to Threaten will now reduce all hatred that you cause in hostile monsters by 75%.",
       "category": "CareerTactic"
     },
-	
-	{
+
+    {
       "image": "22694",
       "id": 4294,
       "name": "Baited Trap",
@@ -1140,7 +1140,7 @@
       "description": "Baiting Strike will now also increase your chance to disrupt spells by 10% for 15 seconds, and increase your armor by (-7 + 25* rank).",
       "category": "CareerTactic"
     },
-	
+
     {
       "image": "23408",
       "id": 4096,
@@ -1155,9 +1155,9 @@
       "note": "",
       "description": "Increases friendly ram damage by 2% for the next 10 seconds.",
       "category": "Ability"
-	},
-	
-	{
+    },
+
+    {
       "image": "23416",
       "id": 4095,
       "name": "Siege Wrecker",
@@ -1171,9 +1171,9 @@
       "note": "Not usable on Siege Rams or Oil",
       "description": "You sabotage a siege ram, causing the ram to deal 98% of the original damage for the next 10 seconds.",
       "category": "Ability"
-	},
-    
-        {
+    },
+
+    {
       "image": "",
       "id": 8000,
       "name": "Class Needs Updated",
@@ -1188,8 +1188,8 @@
       "description": "This ability is a placeholder until someone can update this career.",
       "category": "Ability"
     },
-    
-            {
+
+    {
       "image": "",
       "id": 8001,
       "name": "Class Needs Updated",
@@ -1204,8 +1204,8 @@
       "description": "This ability is a placeholder until someone can update this career.",
       "category": "Ability"
     },
-    
-            {
+
+    {
       "image": "",
       "id": 8002,
       "name": "Class Needs Updated",

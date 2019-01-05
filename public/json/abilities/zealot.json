@@ -11,7 +11,7 @@
         "lvl6": 5731,
         "lvl7": 5732
       },
-      "coreAbilities": [5684,5782,5683,5784,5688,5699]
+      "coreAbilities": [5684, 5782, 5683, 5784, 5688, 5699]
     },
     "b": {
       "name": "Path of Witchcraft",
@@ -24,7 +24,7 @@
         "lvl6": 5738,
         "lvl7": 5739
       },
-      "coreAbilities": [5681,5685,5700,5692,5690]
+      "coreAbilities": [5681, 5685, 5700, 5692, 5690]
     },
     "c": {
       "name": "Path of Dark Rites",
@@ -37,7 +37,7 @@
         "lvl6": 5745,
         "lvl7": 5746
       },
-      "coreAbilities": [5687,5689,5693,5696,5695]
+      "coreAbilities": [5687, 5689, 5693, 5696, 5695]
     }
   },
   "data": [
@@ -88,7 +88,7 @@
       "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 5705,
@@ -104,7 +104,7 @@
       "description": "Critical heals will Bless your target for 10 seconds, increasing the power of any heals used on them by 25%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05242",
       "id": 5729,
@@ -120,7 +120,7 @@
       "description": "Drains X health from your target, funneling 150% of the amount drained into your defensive target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05237",
       "id": 5698,
@@ -136,7 +136,7 @@
       "description": "All opponents within 30 feet of you are knocked back, and monsters are knocked down for 2 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22714",
       "id": 5707,
@@ -152,7 +152,7 @@
       "description": "Critical direct heals will increase your morale by 200. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 5730,
@@ -168,7 +168,7 @@
       "description": "Critical attacks place a debuff on your target that reduces all incoming healing by 50% for 5 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05110",
       "id": 5743,
@@ -184,7 +184,7 @@
       "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing X corporeal damage every 2 seconds for up to 6 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05116",
       "id": 5686,
@@ -200,7 +200,7 @@
       "description": "Detaunts targets attack power to 50% for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 5726,
@@ -216,7 +216,7 @@
       "description": "The Critical chance on Tzeentch's Cry, Scourge and Flash of Chaos is raised by 15%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05240",
       "id": 5699,
@@ -232,7 +232,7 @@
       "description": "Grants target a X ability bonus to wounds for 60 seconds and then heals the recipient for the amount increased.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05113",
       "id": 5690,
@@ -248,7 +248,7 @@
       "description": "Your target regains X health immediately, and then restores an additional Y health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05158",
       "id": 5695,
@@ -264,7 +264,7 @@
       "description": "Spews a vile mixture over everything 40 feet in front of you, dealing X corporeal damage over 9 seconds to all opponents.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22706",
       "id": 5714,
@@ -280,7 +280,7 @@
       "description": "Gain a 160 unique bonus to willpower.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23151",
       "id": 5717,
@@ -296,7 +296,7 @@
       "description": "A strong heal that will restore 1800 health to your target.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22703",
       "id": 5713,
@@ -312,7 +312,7 @@
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23152",
       "id": 5721,
@@ -328,7 +328,7 @@
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22706",
       "id": 5708,
@@ -344,7 +344,7 @@
       "description": "Tzeentch's Cordial will now heal an additional Y health after the effect ends.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05232",
       "id": 5696,
@@ -360,7 +360,7 @@
       "description": "All group members within 100 feet of you are healed for X.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05103",
       "id": 5688,
@@ -376,7 +376,7 @@
       "description": "Heals your target for X health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05260",
       "id": 5697,
@@ -392,7 +392,7 @@
       "description": "You embrace the Warp, surrounding yourself with it's power. You will take only 50% damage and your abilities will cost 25% fewer Action Points for 10 seconds. During this time you generate almost no threat, and can not be set back while casting.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 5706,
@@ -408,7 +408,7 @@
       "description": "Leaping Alteration will also restore 48 Action Points over 9 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22694",
       "id": 5702,
@@ -424,7 +424,7 @@
       "description": "Cooldown on Glimpse of Chaos is reduced by 5s and the cost increased by 15 Action Points.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05134",
       "id": 5711,
@@ -440,7 +440,7 @@
       "description": "Increase the armor of all group mates within 100 feet by 1518 and resists by 579 for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "05154",
       "id": 5784,
@@ -456,7 +456,7 @@
       "description": "A burst of chaos that restores X health to an ally.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05004",
       "id": 5781,
@@ -472,7 +472,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23153",
       "id": 5720,
@@ -488,7 +488,7 @@
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale"
     },
-  
+
     {
       "image": "05235",
       "id": 5694,
@@ -504,7 +504,7 @@
       "description": "One Curse or Hex is removed by the chaos.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05108",
       "id": 5783,
@@ -520,7 +520,7 @@
       "description": "When this ability is toggled on, you are the Harbinger of Doom, converting your Healing Power, Willpower, and Healing Critical Chance bonuses from items into Magic Power, Intelligence, and Magic Critical Chance.<br><br>When this ability is toggled off, you are the Harbinger of Change, converting your Magic Power, Intelligence, and Magic Critical Chance bonuses from items into Healing Power, Willpower, and Healing Critical Chance.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 5733,
@@ -536,7 +536,7 @@
       "description": "Tzeentch's Lash will now strike all opponents within 20 feet of your initial target.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05250",
       "id": 5693,
@@ -552,7 +552,7 @@
       "description": "A bolt of healing energy which instantly leaps to allies within 30 feet of the last affected, restoring X health over 9 seconds. This effect will only pass through each target once, and will affect up to 6 allies.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22703",
       "id": 5728,
@@ -568,7 +568,7 @@
       "description": "Any time you directly heal someone, there is a 25% chance your offensive target will take damage equal to 25% of the healed value.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05140",
       "id": 5683,
@@ -584,7 +584,7 @@
       "description": "Grants a groupmember a X ability bonus to Strength, Ballistic Skill, and Intelligence. The bearer of this Mark may also activate it like an ability to inflict X corporeal damage.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05239",
       "id": 5701,
@@ -600,7 +600,7 @@
       "description": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's gains a 80 ability bonus to toughness for 1 hour.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05136",
       "id": 5692,
@@ -616,7 +616,7 @@
       "description": "Grants a groupmember a X ability bonus to Initiative and Willpower. The bearer of this Mark may activate it like an ability to inflict X corporeal damage over 9 seconds.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05137",
       "id": 5689,
@@ -632,7 +632,7 @@
       "description": "Grants a groupmember a X ability bonus to all resistances. The bearer of this Mark may activate it to inflict X corporeal damage over 9 seconds to all targets within 30 feet. <br>A player may only bear a single Mark at a time, and all of your Marks will fade if you die.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05137",
       "id": 5738,
@@ -648,7 +648,7 @@
       "description": "Curses your target for 10 seconds so that whenever they cast a direct heal, it inflicts X corporeal damage to them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23154",
       "id": 5718,
@@ -664,7 +664,7 @@
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22694",
       "id": 5716,
@@ -680,7 +680,7 @@
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05231",
       "id": 5687,
@@ -696,7 +696,7 @@
       "description": "Pains washes over enemies within 30 feet of you, inflicting X corporeal damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05241",
       "id": 5727,
@@ -712,7 +712,7 @@
       "description": "A frenzied, 30 seconds long ritual that affects all groupmembers within 100 feet, granting them a 20% chance to regain 50 Action Points every attack.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05162",
       "id": 5741,
@@ -728,7 +728,7 @@
       "description": "A dark Ritual lasting 30 seconds that infuses your group with the souls of the fallen, restoring X health every 3 seconds to those within 100 feet of the Ritual.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05119",
       "id": 5734,
@@ -744,7 +744,7 @@
       "description": "A Ritual of dominance that lasts for 30 seconds, granting group members in the radius a 20% chance when taking damage to active a shield that will absorb 325 damage for up to 10 seconds. Will not trigger more than once every 2 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05144",
       "id": 5782,
@@ -760,7 +760,7 @@
       "description": "Power lashes out and inflicts X corporeal damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22709",
       "id": 5703,
@@ -792,7 +792,7 @@
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale"
     },
-  
+
     {
       "image": "05243",
       "id": 5736,
@@ -808,7 +808,7 @@
       "description": "Channeled. Deals X corporeal damage over 6 seconds. 100% chance to be setback while casting.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22709",
       "id": 5715,
@@ -824,7 +824,7 @@
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05135",
       "id": 5712,
@@ -840,7 +840,7 @@
       "description": "You silence disbelievers and inflict 1218 damage over 7 seconds within 30 feet around you.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22704",
       "id": 5740,
@@ -856,7 +856,7 @@
       "description": "Demon Spittle grows ever more corrosive and now causes enemies to take a X unique penalty to Armor and a Y unique penalty to corporeal resistance.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22708",
       "id": 5742,
@@ -872,7 +872,7 @@
       "description": "Mark of the Vortex's granted ability will now hit all enemies within 30 feet of the caster, and will last for 15 seconds",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22697",
       "id": 5737,
@@ -888,7 +888,7 @@
       "description": "While under the effects of your Harbinger of Doom; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05233",
       "id": 5691,
@@ -904,7 +904,7 @@
       "description": "Tzeentch dislikes losing a pawn so soon. Your target is resurrected with 20% health so that Tzeentch may continue his game.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05142",
       "id": 5682,
@@ -920,7 +920,7 @@
       "description": "Heals your target for X over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05160",
       "id": 5684,
@@ -936,7 +936,7 @@
       "description": "A quick bolt of power that deals X corporeal damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22706",
       "id": 5744,
@@ -952,7 +952,7 @@
       "description": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to X damage over 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05238",
       "id": 5700,
@@ -968,7 +968,7 @@
       "description": "Inflicts X corporeal damage over 4 seconds and silences the target, preventing them from using any magic.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 5735,
@@ -984,7 +984,7 @@
       "description": "Direct heals have a 25% chance to grant your target 50 AP, but will not restore AP to yourself.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05246",
       "id": 5739,
@@ -1000,7 +1000,7 @@
       "description": "All groupmates within 100 feet are healed for 2394 health over 15 seconds and regain 25 Action Points every second for 15 seconds",
       "category": "Morale"
     },
-  
+
     {
       "image": "05245",
       "id": 5732,
@@ -1016,7 +1016,7 @@
       "description": "All group mates within 100 feet are granted 250 Action Points, and for 20 seconds, everyone will absorb up to 5400 damage.",
       "category": "Morale"
     },
-  
+
     {
       "image": "05118",
       "id": 5710,
@@ -1032,7 +1032,7 @@
       "description": "Reduces your target's armor by 1320 and all resistances by 504 for 15 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22714",
       "id": 5724,
@@ -1048,7 +1048,7 @@
       "description": "Gaina  252 unique bonus to elemental resistance.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05244",
       "id": 5685,
@@ -1064,7 +1064,7 @@
       "description": "For the next 10 seconds, your target will absorb up to X damage. When the effect fades they will regain Y health.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05268",
       "id": 5681,
@@ -1080,7 +1080,7 @@
       "description": "Inflicts X Corporeal damage over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22714",
       "id": 5723,
@@ -1096,7 +1096,7 @@
       "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22706",
       "id": 5704,
@@ -1112,7 +1112,7 @@
       "description": "Each tick of Tzeentch's Cordial has 25% chance to give the target a 1056 unique bonus to armor for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 5709,
@@ -1128,7 +1128,7 @@
       "description": "Rituals will now pulse X corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05149",
       "id": 5745,
@@ -1144,7 +1144,7 @@
       "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict X corporeal damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 2 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<br>This spell may be toggled off to regain your movement.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05247",
       "id": 5746,

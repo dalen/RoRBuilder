@@ -11,7 +11,7 @@
         "lvl6": 914,
         "lvl7": 6101
       },
-      "coreAbilities": [863,870,876,874,865,915]
+      "coreAbilities": [863, 870, 876, 874, 865, 915]
     },
     "b": {
       "name": "Path of Loathing",
@@ -24,7 +24,7 @@
         "lvl6": 921,
         "lvl7": 922
       },
-      "coreAbilities": [877,986,866,881,883]
+      "coreAbilities": [877, 986, 866, 881, 883]
     },
     "c": {
       "name": "Path of Anguish",
@@ -37,7 +37,7 @@
         "lvl6": 928,
         "lvl7": 929
       },
-      "coreAbilities": [868,864,884,878,871]
+      "coreAbilities": [868, 864, 884, 878, 871]
     }
   },
   "data": [
@@ -56,7 +56,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 957,
@@ -72,7 +72,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 958,
@@ -88,7 +88,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22712",
       "id": 907,
@@ -104,7 +104,7 @@
       "description": "Spiritual resistance increased by 252.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 920,
@@ -120,7 +120,7 @@
       "description": "Your chance to Parry is increased by 3% per 10 Hatred.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 972,
@@ -136,7 +136,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 974,
@@ -152,7 +152,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 973,
@@ -168,7 +168,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "11042",
       "id": 895,
@@ -184,7 +184,7 @@
       "description": "The magic infusing your armor springs to life, further increasing your armor by 990 and restoring 2400 health over 20 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "11041",
       "id": 894,
@@ -200,7 +200,7 @@
       "description": "No longer able to bear looking upon your opponents, you knockback everyone within 30 feet of you for 600 damage. Monsters will be knocked down.",
       "category": "Morale"
     },
-  
+
     {
       "image": "11040",
       "id": 893,
@@ -216,7 +216,7 @@
       "description": "A cry of rage removes all Hexes, Curses, and Ailments from you. You will regain 50 AP and 300 health for each effect removed.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22712",
       "id": 908,
@@ -232,7 +232,7 @@
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 981,
@@ -248,7 +248,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 983,
@@ -264,7 +264,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 982,
@@ -280,7 +280,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "99999",
       "id": 910,
@@ -296,7 +296,7 @@
       "description": "An overwhelming attack which deals 194 damage and knocks the victim down for 3 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11044",
       "id": 915,
@@ -312,7 +312,7 @@
       "description": "You spread a wave of malicious loathing towards all the peons 40 feet in front of you. So searing is this hate that those in your path move 40% slower and suffer 1600 damage over 15 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "11039",
       "id": 928,
@@ -328,7 +328,7 @@
       "description": "You focus your Hatred inward, cursing yourself for your weakness, and force yourself to march on by recovering 290 health every 3 seconds for up to 30 seconds. This effect will end if you run out of Hate.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22731",
       "id": 977,
@@ -344,7 +344,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 976,
@@ -360,7 +360,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 975,
@@ -376,7 +376,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "11017",
       "id": 871,
@@ -392,7 +392,7 @@
       "description": "A vicious blow to the head that deals 373 damage and increases the Strength by 75 and also increasing Willpower based on Hatred for the next 20 seconds.<br>Your Dark Protector will receive increased Strength and Willpower if they are within 50 feet. <br> With 25 Hate: Willpower increased by 75. <br> With 50 Hate: Willpower increased by 150.<br> With 75 Hate: Willpower increased by 225.<br> With 100 Hate: Willpower increased by 300.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23402",
       "id": 932,
@@ -408,7 +408,7 @@
       "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11027",
       "id": 882,
@@ -424,7 +424,7 @@
       "description": "Taken aback by your seething contempt, up to 4 enemies within 30 feet are rooted in place, making them unable to move for 10 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11025",
       "id": 879,
@@ -440,7 +440,7 @@
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23174",
       "id": 902,
@@ -456,7 +456,7 @@
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22670",
       "id": 946,
@@ -472,7 +472,7 @@
       "description": "You receive an additional 5% morale gain for every Chaos in your group.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "11038",
       "id": 924,
@@ -488,7 +488,7 @@
       "description": "A particularly insulting strike that deals 423 damage and causes your target to spend an additional 20 Action Points whenever they activate an ability for the next 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22657",
       "id": 952,
@@ -504,7 +504,7 @@
       "description": "5% Increased EXP in Realm vs. Realm combat",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "11033",
       "id": 914,
@@ -520,7 +520,7 @@
       "description": "A great cleave that strikes all targets 40 feet in front of you for 523 damage and making them 10% more likely to be critically hit by others for 5 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11011",
       "id": 865,
@@ -536,7 +536,7 @@
       "description": "A maiming strike that allows you to further toy with your opponent by reducing their movement speed by 40% and dealing 265 damage over 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11026",
       "id": 883,
@@ -552,7 +552,7 @@
       "description": "A heartless attack that inflicts 348 damage and target's Critical hit chance will be reduced based on your Hate.<br> With 25 Hate: Critical chance reduced 5%. <br> With 50 Hate: Critical chance reduced 10%.<br> With 75 Hate: Critical chance reduced 15%.<br> With 100 Hate: Critical chance reduced 20%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22702",
       "id": 886,
@@ -568,7 +568,7 @@
       "description": "Anytime you strike an opponent, you have a 25% chance to lower that opponent' autoattack speed by 20% for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11020",
       "id": 878,
@@ -584,7 +584,7 @@
       "description": "A surge of malevolence slams into your foe dealing 398 damage and interrupting them. Will also reduce your opponent's Action Points based on your Hate.<br> With 30 Hate: Reduce AP by 10. <br> With 60 Hate: Reduce AP by 20.<br> With 90 Hate: Reduce AP by 30.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22716",
       "id": 979,
@@ -600,7 +600,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 978,
@@ -616,7 +616,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 980,
@@ -632,7 +632,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22712",
       "id": 906,
@@ -648,7 +648,7 @@
       "description": "Direct heals cast on you will recover 10% more health.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22668",
       "id": 947,
@@ -664,7 +664,7 @@
       "description": "You receive an additional 5% morale gain for every Dark Elf in your group.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "11501",
       "id": 987,
@@ -680,7 +680,7 @@
       "description": "The Witch King has tasked you with watching over one of your pitiful allies. You gain 5 Hatred whenever an enemy dares to attack your protected ally. <br>This effect can not occur more than once per second.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23405",
       "id": 930,
@@ -696,7 +696,7 @@
       "description": "10% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23172",
       "id": 900,
@@ -712,7 +712,7 @@
       "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale"
     },
-  
+
     {
       "image": "23173",
       "id": 904,
@@ -728,7 +728,7 @@
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "11012",
       "id": 867,
@@ -744,7 +744,7 @@
       "description": "Fueled by your hatred, you push yourself ever onward and regain 160 Action Points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22667",
       "id": 933,
@@ -760,7 +760,7 @@
       "description": "You inflict 2% more damage against Dwarfs in PvP",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22667",
       "id": 939,
@@ -776,7 +776,7 @@
       "description": "Killing Dwarfs will reduce the morale of any opponents nearby at death.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 888,
@@ -792,7 +792,7 @@
       "description": "Hate spending abilities cost 5 less Hate to use.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11036",
       "id": 926,
@@ -808,7 +808,7 @@
       "description": "For up to 10 seconds your superior training allows you to easily Parry the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <br> With 30 Hate: Restores 5 AP. <br> With 60 Hate: Restores 10 AP.<br> With 90 Hate: Restores 15 AP",
       "category": "Ability"
     },
-  
+
     {
       "image": "22666",
       "id": 934,
@@ -824,7 +824,7 @@
       "description": "You inflict 2% more damage against Empire in PvP",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 890,
@@ -840,7 +840,7 @@
       "description": "When disrupting an enemy spell you gain a 30% speed boost for 5 seconds and gain 40 Action Points.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11032",
       "id": 912,
@@ -856,7 +856,7 @@
       "description": "A flurry of blows that inflicts 110 damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11021",
       "id": 881,
@@ -872,7 +872,7 @@
       "description": "An overwhelming blow that deals 423 damage and will knockback your target based on your Hate.<br> With 30 Hate: Medium Knockback. <br> With 60 Hate: Long Knockback.<br> With 90 Hate: Very Long Knockback.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22725",
       "id": 970,
@@ -888,7 +888,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 971,
@@ -904,7 +904,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 969,
@@ -920,7 +920,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22701",
       "id": 918,
@@ -936,7 +936,7 @@
       "description": "Reduce AP cost of Loathing abilities based on your current Health level.<br> With 75-51% Health: Reduce cost by 25%. <br> With 50-26% Health: Reduce cost by 50%.<br> With 25-0% Health: Reduce cost by 75%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11009",
       "id": 866,
@@ -952,7 +952,7 @@
       "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for 348 damage and increase your Toughness by 75 for 20 seconds and will recover health based on your Hate and damage inflicted.<br>Your Dark Protector will regain health and receive increased Toughness if they are within 50 feet. <br> With 30 Hate: Recovers 25% of damage inflicted.<br> With 60 Hate: Recovers 50% of damage inflicted. <br> With 90 Hate: Recovers 75% of damage inflicted.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22702",
       "id": 911,
@@ -968,7 +968,7 @@
       "description": "Increase chance to critically hit by 15% for 5 seconds whenever you expend Hate to attack.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05004",
       "id": 984,
@@ -984,7 +984,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22701",
       "id": 896,
@@ -1000,7 +1000,7 @@
       "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22671",
       "id": 948,
@@ -1016,7 +1016,7 @@
       "description": "5% Increased Renown earned when fighting players in Scenarios",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "11035",
       "id": 919,
@@ -1032,7 +1032,7 @@
       "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds your Armor is increased by 618 and you will become less likely to be Critically hit depending on your Hatred. <br> With 30 Hate: 15% less likely to be Critically hit. <br> With 60 Hate: 30% less likely to be Critically hit.<br> With 90 Hate: 45% less likely to be Critically hit.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11024",
       "id": 884,
@@ -1048,7 +1048,7 @@
       "description": "A bone chilling howl that strikes fear in all opponents 30 feet from you. Those affected suffer 150 damage and their chance to Block and Parry is reduced by 10% for 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11018",
       "id": 872,
@@ -1064,7 +1064,7 @@
       "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22730",
       "id": 962,
@@ -1080,7 +1080,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 961,
@@ -1096,7 +1096,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 960,
@@ -1112,7 +1112,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 913,
@@ -1128,7 +1128,7 @@
       "description": "Whenever you critically hit a target their Wounds are reduced by 120 for 10 seconds. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by 50% for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11008",
       "id": 986,
@@ -1144,7 +1144,7 @@
       "description": "A vindictive blow that deals 348 damage and builds double threat.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22661",
       "id": 935,
@@ -1160,7 +1160,7 @@
       "description": "You inflict 2% more damage against High Elves in PvP",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22661",
       "id": 941,
@@ -1176,7 +1176,7 @@
       "description": "Killing High Elves will reduce the morale of any opponents nearby at death.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "11019",
       "id": 873,
@@ -1192,7 +1192,7 @@
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11022",
       "id": 874,
@@ -1208,7 +1208,7 @@
       "description": "Cuts open a vicious wound, dealing 373 damage and weakens the victim's armor based on Hatred.<br> With 25 Hate: Armor reduced by 200. <br> With 50 Hate: Armor reduced by 400.<br> With 75 Hate: Armor reduced by 600.<br> With 100 Hate: Armor reduced by 800.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23175",
       "id": 905,
@@ -1224,7 +1224,7 @@
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "11045",
       "id": 929,
@@ -1240,7 +1240,7 @@
       "description": "A fierce curse in the Witch Kings name brings overwhelming pain to those who hear it. Opponents within 30 feet of you receive 1200 damage and are Silenced for 5 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22667",
       "id": 942,
@@ -1256,7 +1256,7 @@
       "description": "Killing Dwarfs will double your AP regen rate 10% of the time.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22666",
       "id": 943,
@@ -1272,7 +1272,7 @@
       "description": "Killing Empire will double your AP regen rate 10% of the time.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22661",
       "id": 944,
@@ -1288,7 +1288,7 @@
       "description": "Killing High Elves will double your AP regen rate 10% of the time.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "11023",
       "id": 875,
@@ -1304,7 +1304,7 @@
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11043",
       "id": 922,
@@ -1320,7 +1320,7 @@
       "description": "Khaine's favor shines on those with strength and skill, so for the next 10 seconds anytime anyone in your group blocks an attack, each group member within 100 feet regains 800 health.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22665",
       "id": 949,
@@ -1336,7 +1336,7 @@
       "description": "5% Increased Renown earned when fighting players in Skirmish",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22669",
       "id": 954,
@@ -1352,7 +1352,7 @@
       "description": "5% Increased Damage vs. Kings",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22656",
       "id": 953,
@@ -1368,7 +1368,7 @@
       "description": "5% Increased Gold in Realm vs. Realm combat",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 889,
@@ -1384,7 +1384,7 @@
       "description": "Reduces all magical damage that you take to 75%, but also reduces all healing used on you by 15%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 898,
@@ -1400,7 +1400,7 @@
       "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11010",
       "id": 864,
@@ -1416,7 +1416,7 @@
       "description": "A vile attack that crushes your target's will to live, inflicting 127 damage and lowering their Intelligence and Willpower by 25 for 20 seconds. This effect can be stacked up to 3 times.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22651",
       "id": 950,
@@ -1432,7 +1432,7 @@
       "description": "5% Increased Renown earned when fighting players in Objectives",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "23413",
       "id": 931,
@@ -1448,7 +1448,7 @@
       "description": "You shield the Ram absorbing 1500 damage over the next 30 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11016",
       "id": 876,
@@ -1464,7 +1464,7 @@
       "description": "A sweeping strike that rakes across targets up to 25 feet in front of you for 183 damage",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 909,
@@ -1480,7 +1480,7 @@
       "description": "Monstrous Rending cost 10 less Hate to use.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11013",
       "id": 870,
@@ -1496,7 +1496,7 @@
       "description": "A piercing blow that deals 373 damage and ignores 25% of your target's armor.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22658",
       "id": 955,
@@ -1512,7 +1512,7 @@
       "description": "Receive 5% less damage from Kings",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "11034",
       "id": 917,
@@ -1528,7 +1528,7 @@
       "description": "You ready your blade and defiantly raise your shield to increase your Block rate by 50% for up to 10 seconds. Any time you block during this time you will lash out at your attacker for 126 damage and gain 5 Hatred.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22663",
       "id": 945,
@@ -1544,7 +1544,7 @@
       "description": "You receive an additional 5% morale gain for every Greenskin in your group.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 968,
@@ -1560,7 +1560,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 967,
@@ -1576,7 +1576,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 966,
@@ -1592,7 +1592,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22701",
       "id": 887,
@@ -1608,7 +1608,7 @@
       "description": "Increases durations of Pitiless Strike, Mind Killer, and Terrifying Foe by 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11028",
       "id": 863,
@@ -1624,7 +1624,7 @@
       "description": "A merciless attack that weakens your target, dealing 271 damage and reducing their Toughness by 75 for 20 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23176",
       "id": 903,
@@ -1640,7 +1640,7 @@
       "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22667",
       "id": 936,
@@ -1656,7 +1656,7 @@
       "description": "Killing Dwarfs will restore a small amount of health.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22666",
       "id": 937,
@@ -1672,7 +1672,7 @@
       "description": "Killing Empire will restore a small amount of health.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22661",
       "id": 938,
@@ -1688,7 +1688,7 @@
       "description": "Killing High Elves will restore a small amount of health.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22702",
       "id": 897,
@@ -1704,7 +1704,7 @@
       "description": "Increases Toughness by 160.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11030",
       "id": 880,
@@ -1720,7 +1720,7 @@
       "description": "You shatter one Enchantment from your enemy and deal 151 damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "11037",
       "id": 868,
@@ -1736,7 +1736,7 @@
       "description": "Your overwhelming hate shields you from up to 625 damage over 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23177",
       "id": 901,
@@ -1752,7 +1752,7 @@
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22694",
       "id": 927,
@@ -1768,7 +1768,7 @@
       "description": "Your chance to Disrupt is increased by 3% per 10 Hatred.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 892,
@@ -1784,7 +1784,7 @@
       "description": "Gain 10 Hate each time an enemy critically hits you.<br> This effect can only trigger once every second.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 963,
@@ -1800,7 +1800,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 964,
@@ -1816,7 +1816,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 965,
@@ -1832,7 +1832,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22701",
       "id": 925,
@@ -1848,7 +1848,7 @@
       "description": "Mind Killer will now reduce all healing cast by the target to 50%",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11014",
       "id": 877,
@@ -1864,7 +1864,7 @@
       "description": "A fierce strike that slams your opponent to the ground, dealing 262 damage and knocking them down for 2 seconds or more based on Hate. <br> With 30 Hate: Knocks down for 3 seconds. <br> With 60 Hate: Knocks down for 4 seconds.<br> With 90 Hate: Knocks down for 5 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 891,
@@ -1880,7 +1880,7 @@
       "description": "Attacks that spend Hatred have a 25% chance to increase Acton Point regen by 100% for 5 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11015",
       "id": 869,
@@ -1896,7 +1896,7 @@
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 916,
@@ -1912,7 +1912,7 @@
       "description": "Hateful Strike will now increase your Toughness for 20 seconds based on your Hate.<br> With 30 Hate: Increase Toughness by 15%. <br> With 60 Hate: Increase Toughness by 30%. <br> With 90 Hate: Increase Toughness by 45%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22666",
       "id": 940,
@@ -1928,7 +1928,7 @@
       "description": "Killing Empire will reduce the morale of any opponents nearby at death.",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 885,
@@ -1944,7 +1944,7 @@
       "description": "Whenever you critically hit you gain 10 Hatred. This will not occur more than once per second.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11007",
       "id": 985,
@@ -1960,7 +1960,7 @@
       "description": "A basic throwing attack that inflicts 104 damage. Has a chance to deal 703 damage to a severely wounded target if you are behind them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22654",
       "id": 951,
@@ -1976,7 +1976,7 @@
       "description": "5% Increased Renown earned when fighting players in Cities",
       "category": "RvRTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 923,
@@ -1992,7 +1992,7 @@
       "description": "Detaunts are dispelled automatically when applied to you.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22694",
       "id": 899,
@@ -2008,7 +2008,7 @@
       "description": "Juggernaut's cooldown is reduced to 20 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "11029",
       "id": 921,
@@ -2024,8 +2024,8 @@
       "description": "A great wave spreads 40 feet in front of you, inflicting 284 damage and reducing movement by 40% for 10 seconds.",
       "category": "Ability"
     },
-	
-	 {
+
+    {
       "image": "99999",
       "id": 6101,
       "name": "Rebounding Hatred",

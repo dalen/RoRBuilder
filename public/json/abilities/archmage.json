@@ -11,7 +11,7 @@
         "lvl6": 3459,
         "lvl7": 3460
       },
-      "coreAbilities": [3416,3509,3423,3418,3425]
+      "coreAbilities": [3416, 3509, 3423, 3418, 3425]
     },
     "b": {
       "name": "Path of Asuryan",
@@ -24,7 +24,7 @@
         "lvl6": 3466,
         "lvl7": 3467
       },
-      "coreAbilities": [3415,3510,3421,3411,3428]
+      "coreAbilities": [3415, 3510, 3421, 3411, 3428]
     },
     "c": {
       "name": "Path of Vaul",
@@ -37,7 +37,7 @@
         "lvl6": 3473,
         "lvl7": 3474
       },
-      "coreAbilities": [3419,3414,3427,3429,3413]
+      "coreAbilities": [3419, 3414, 3427, 3429, 3413]
     }
   },
   "data": [
@@ -56,7 +56,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 3482,
@@ -72,7 +72,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 3483,
@@ -88,7 +88,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "23150",
       "id": 3450,
@@ -104,7 +104,7 @@
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22725",
       "id": 3497,
@@ -120,7 +120,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3499,
@@ -136,7 +136,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3498,
@@ -152,7 +152,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "13368",
       "id": 3440,
@@ -168,7 +168,7 @@
       "description": "Knocks back all enemies within 20 feet and Silences them, making them unable to use magic for 3 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22706",
       "id": 3470,
@@ -184,7 +184,7 @@
       "description": "Whenever one of your damaging spells hits an enemy, your defensive target will become healed for 25% of the damage that you dealt.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13463",
       "id": 3413,
@@ -200,7 +200,7 @@
       "description": "Deals 200 spiritdamage to your target, and heals your defensive target for 488 health plus 150% of the damage done.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22705",
       "id": 3452,
@@ -216,7 +216,7 @@
       "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3506,
@@ -232,7 +232,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3508,
@@ -248,7 +248,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3507,
@@ -264,7 +264,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "13349",
       "id": 3425,
@@ -280,7 +280,7 @@
       "description": "Heals your entire group for 643 health.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13367",
       "id": 3439,
@@ -296,7 +296,7 @@
       "description": "For 5 seconds, your target and all other enemies within 20 feet of them will take an additional 1 second to build up all abilities.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22708",
       "id": 3456,
@@ -312,7 +312,7 @@
       "description": "Boon Of Hysh will now also grant the target 250 points of Morale.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13346",
       "id": 3418,
@@ -328,7 +328,7 @@
       "description": "Heals your target for 883 health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22731",
       "id": 3502,
@@ -344,7 +344,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 3501,
@@ -360,7 +360,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 3500,
@@ -376,7 +376,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22705",
       "id": 3451,
@@ -392,7 +392,7 @@
       "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23404",
       "id": 3476,
@@ -408,7 +408,7 @@
       "description": "Siege Targetted cleanse. Removes two siege specific debuffs from a friendly siege engine.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13362",
       "id": 3462,
@@ -424,7 +424,7 @@
       "description": "Deals 205 Spirit damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13348",
       "id": 3423,
@@ -440,7 +440,7 @@
       "description": "You cleanse an ally's wound and remove one Ailment or Hex. If an effect is removed, your ally will absorb up to 175 damage over 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22716",
       "id": 3504,
@@ -456,7 +456,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 3503,
@@ -472,7 +472,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 3505,
@@ -488,7 +488,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22706",
       "id": 3437,
@@ -504,7 +504,7 @@
       "description": "Your healing abilities become 40% more effective when the target is below 25% hit points.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22705",
       "id": 3453,
@@ -520,7 +520,7 @@
       "description": "Your attacks have a 10% reduced chance to be defended against.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22706",
       "id": 3442,
@@ -536,7 +536,7 @@
       "description": "Increases your Willpower by 160.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 3463,
@@ -552,7 +552,7 @@
       "description": "All of your damaging spells gain a 25% chance to remove 1 Blessing from the victim. Whenever this happens, they will also suffer an additional 150 Spirit damage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13336",
       "id": 3466,
@@ -568,7 +568,7 @@
       "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds. Every 1 seconds, all enemies within 30 feet of them will suffer 146 Spirit damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13358",
       "id": 3417,
@@ -584,7 +584,7 @@
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23151",
       "id": 3445,
@@ -600,7 +600,7 @@
       "description": "A strong heal that will restore 1800 health to your target.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22703",
       "id": 3441,
@@ -616,7 +616,7 @@
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23152",
       "id": 3449,
@@ -632,7 +632,7 @@
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13353",
       "id": 3424,
@@ -648,7 +648,7 @@
       "description": "You Hex your enemy and gain 60 Action Points. You will additionally steal another 120 Action Points from your target over 9 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22703",
       "id": 3430,
@@ -664,7 +664,7 @@
       "description": "Whenever you critically hit with an ability that builds either Force or Tranquility, you will gain one additional point. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23418",
       "id": 3473,
@@ -680,7 +680,7 @@
       "description": "A wash of power leeches the breath from your target and up to four other enemies within 25 feet of them, dealing 199 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 0 health, plus 50% of the total inflicted damage.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likley to be Blocked or Disrupted.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22725",
       "id": 3495,
@@ -696,7 +696,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3496,
@@ -712,7 +712,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3494,
@@ -728,7 +728,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "13415",
       "id": 3467,
@@ -744,7 +744,7 @@
       "description": "Flames burst from a spot that you select, damaging all enemies within 20 feet of that spot for up to 4 seconds, as long as you maintain your concentration.",
       "category": "Morale"
     },
-  
+
     {
       "image": "05004",
       "id": 3511,
@@ -760,7 +760,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23153",
       "id": 3448,
@@ -776,7 +776,7 @@
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22703",
       "id": 3461,
@@ -792,7 +792,7 @@
       "description": "Radiant Lance will now affect two enemies within 15 feet of your target.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13459",
       "id": 3474,
@@ -808,7 +808,7 @@
       "description": "All enemies within 30 feet have their action point costs increased by 50% for 15 seconds, and all allies in the area have their action point costs reduced by 50% for 15 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13347",
       "id": 3459,
@@ -824,7 +824,7 @@
       "description": "You focus your powers on your defensive target, restoring up to 1256 health to them over 3 seconds. This effect will end if you break your concentration, or if you run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13363",
       "id": 3428,
@@ -840,7 +840,7 @@
       "description": "Deals 309 Spirit damage to a nearby target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13350",
       "id": 3420,
@@ -856,7 +856,7 @@
       "description": "Resurrects your target with 20% health.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22713",
       "id": 3472,
@@ -872,7 +872,7 @@
       "description": "Shield of Saphery will now grant immunity to Stun and Knockdown effects while active.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3487,
@@ -888,7 +888,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3486,
@@ -904,7 +904,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3485,
@@ -920,7 +920,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "13340",
       "id": 3509,
@@ -936,7 +936,7 @@
       "description": "Your target regains 258 health immediately, then continues to gain another 315 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22703",
       "id": 3433,
@@ -952,7 +952,7 @@
       "description": "Gift Of Life now resurrects allies instantly, but stuns you for 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22705",
       "id": 3431,
@@ -968,7 +968,7 @@
       "description": "If Cleansing Light successfully removes an effect from an ally, then they will also regain 534 health over 9 seconds. (at RR100)",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13366",
       "id": 3438,
@@ -984,7 +984,7 @@
       "description": "You gain a shield that absorbs 3600 damage for 30 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13342",
       "id": 3412,
@@ -1000,7 +1000,7 @@
       "description": "Heals your target for 1700 health over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13356",
       "id": 3429,
@@ -1016,7 +1016,7 @@
       "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 75 for 20 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13343",
       "id": 3411,
@@ -1032,7 +1032,7 @@
       "description": "Deals 710 Spirit damage to your target over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13357",
       "id": 3471,
@@ -1048,7 +1048,7 @@
       "description": "Deals 284 Spirit damage and silences your target, making them unable to use magic for 5 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13413",
       "id": 3457,
@@ -1064,7 +1064,7 @@
       "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. As long as this effect persists, the value of incoming heals on the target is increased by 25%.<br><br>A player may only be affected by a single Magical Infusion at a time.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22704",
       "id": 3434,
@@ -1080,7 +1080,7 @@
       "description": "Increases your chance to critically hit enemies by 10%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22706",
       "id": 3432,
@@ -1096,7 +1096,7 @@
       "description": "Increases your chance to critically heal by 10%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13355",
       "id": 3455,
@@ -1112,7 +1112,7 @@
       "description": "For 10 seconds, all enemies within 20 feet of a spot that you select will have their Initiative reduced by 50 and become snared, reducing their run speed by 60%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22729",
       "id": 3493,
@@ -1128,7 +1128,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 3492,
@@ -1144,7 +1144,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 3491,
@@ -1160,7 +1160,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "13352",
       "id": 3416,
@@ -1176,7 +1176,7 @@
       "description": "Increases all resistances of everyone in your group within 100 feet by 157 for 1 hour.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13360",
       "id": 3421,
@@ -1192,7 +1192,7 @@
       "description": "Deals 204 Spirit damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13341",
       "id": 3510,
@@ -1208,7 +1208,7 @@
       "description": "Deals 344 Spirit damage to your target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13344",
       "id": 3427,
@@ -1224,7 +1224,7 @@
       "description": "Your target and all other enemies within 20 feet of them have their Intelligence, Strength and Ballistic Skill reduced by 75 for 20 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23154",
       "id": 3446,
@@ -1240,7 +1240,7 @@
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
-  
+
     {
       "image": "23414",
       "id": 3475,
@@ -1256,7 +1256,7 @@
       "description": "You heal the ram for 750 health over the next 5 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 3444,
@@ -1272,7 +1272,7 @@
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22694",
       "id": 3436,
@@ -1288,7 +1288,7 @@
       "description": "Reduces the cooldown time for Walk Between Worlds by 50%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13351",
       "id": 3464,
@@ -1304,7 +1304,7 @@
       "description": "Deals 552 Spirit damage to your target over 9 seconds, and causes all heals that they receive to become 50% less effective.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13354",
       "id": 3415,
@@ -1320,7 +1320,7 @@
       "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing 344 Spirit damage to them as long as you maintain your concentration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13364",
       "id": 3414,
@@ -1336,7 +1336,7 @@
       "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to 925 damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23415",
       "id": 3477,
@@ -1352,7 +1352,7 @@
       "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 40 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22721",
       "id": 3488,
@@ -1368,7 +1368,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 3489,
@@ -1384,7 +1384,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 3490,
@@ -1400,7 +1400,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "23155",
       "id": 3447,
@@ -1416,7 +1416,7 @@
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale"
     },
-  
+
     {
       "image": "13365",
       "id": 3469,
@@ -1432,7 +1432,7 @@
       "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 338 Spirit damage and reducing their Spirit resistance by 236 for 20 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22709",
       "id": 3443,
@@ -1448,7 +1448,7 @@
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13345",
       "id": 3419,
@@ -1464,7 +1464,7 @@
       "description": "Deals 1072 Spirit damage to your target over 24 seconds and heals your defensive target for 150% of the damage done on each tick.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 3435,
@@ -1480,7 +1480,7 @@
       "description": "Drain Magic will now siphon energy from an area 20 feet around your initial target, but will only drain 92 Action Points over 9 seconds from each target.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13361",
       "id": 3422,
@@ -1496,7 +1496,7 @@
       "description": "You can not be set back for 5 seconds and detaunts all enemies around you, making them hate you less and reducing the damage they deal to you to 50%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22706",
       "id": 3458,
@@ -1512,7 +1512,7 @@
       "description": "Whenever you critically heal someone, your healing abilities will cost 35% less action points for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "13359",
       "id": 3426,
@@ -1528,7 +1528,7 @@
       "description": "You call forth a powerful gust of wind which slams into enemies within 30 feet of you, knocking players away a medium distance and knocking monsters down. Anyone hit by the wind becomes snared, reducing their run speed by 20% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "13414",
       "id": 3460,
@@ -1544,8 +1544,8 @@
       "description": "All group mates within 100 feet regain 800 health over 15 seconds, and become surrounded by a magical barrier which will absorb 2400 damage.",
       "category": "Morale"
     },
-	
-	{
+
+    {
       "image": "22706",
       "id": 6103,
       "name": "Apotheosis",
@@ -1560,8 +1560,8 @@
       "description": "Any time you use Cleansing Light on an ally, you will now remove one Hex or Ailment from all groupmates within 50 feet of them.",
       "category": "CareerTactic"
     },
-	
-	{
+
+    {
       "image": "22705",
       "id": 6104,
       "name": "Penetrating Siphon",
@@ -1576,8 +1576,8 @@
       "description": "Balance Essence and Energy of Vaul will now inflict 0 Spirit damage, but neither will grant a fixed heal, nor will they be castable on the move.",
       "category": "CareerTactic"
     },
-	
-	{
+
+    {
       "image": "22703",
       "id": 6105,
       "name": "Penetrating Sip",
@@ -1591,6 +1591,6 @@
       "note": "",
       "description": "Reduces the duration and tick interval of Searing Touch by 50%.",
       "category": "CareerTactic"
-    }	
+    }
   ]
 }

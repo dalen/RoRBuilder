@@ -11,7 +11,7 @@
         "lvl6": 3097,
         "lvl7": 3098
       },
-      "coreAbilities": [3060,3045,3046,3053,3067,3064]
+      "coreAbilities": [3060, 3045, 3046, 3053, 3067, 3064]
     },
     "b": {
       "name": "Path of Vigilance",
@@ -24,7 +24,7 @@
         "lvl6": 3104,
         "lvl7": 3105
       },
-      "coreAbilities": [3148,3047,3052,3059,3058,3056]
+      "coreAbilities": [3148, 3047, 3052, 3059, 3058, 3056]
     },
     "c": {
       "name": "Path of Glory",
@@ -37,7 +37,7 @@
         "lvl6": 3111,
         "lvl7": 3112
       },
-      "coreAbilities": [3050,3062,3066,3063,3049,3048]
+      "coreAbilities": [3050, 3062, 3066, 3063, 3049, 3048]
     }
   },
   "data": [
@@ -56,7 +56,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 3120,
@@ -72,7 +72,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 3121,
@@ -88,7 +88,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "07996",
       "id": 3064,
@@ -104,7 +104,7 @@
       "description": "You become filled with the endless power of Myrmidia, dealing 148 damage every 3 seconds to all enemies within 30 feet.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22725",
       "id": 3135,
@@ -120,7 +120,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3137,
@@ -136,7 +136,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3136,
@@ -152,7 +152,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "08057",
       "id": 3067,
@@ -168,7 +168,7 @@
       "description": "You sweep your blade out in a wide arc, dealing 109 damage and reducing their Wounds by 120 to all enemies in front of you up to 25 feet away.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22703",
       "id": 3073,
@@ -184,7 +184,7 @@
       "description": "Repel Darkness will now cool down 50% faster, and will send the victim flying even further away from you.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22715",
       "id": 3074,
@@ -200,7 +200,7 @@
       "description": "Increases your Action Point regeneration by 15",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3144,
@@ -216,7 +216,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3146,
@@ -232,7 +232,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3145,
@@ -248,7 +248,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22701",
       "id": 3070,
@@ -264,7 +264,7 @@
       "description": "Any time you critically hit an enemy, they will suffer an additional 350 damage over 10 seconds and their parry chance will be reduced by 5%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08006",
       "id": 3048,
@@ -280,7 +280,7 @@
       "description": "The force of the sun fills your blade, dealing 142 damage to the enemy and the victim will also suffer 258 over the next 9 seconds. This effect is stackable up to three times.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22731",
       "id": 3140,
@@ -296,7 +296,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 3139,
@@ -312,7 +312,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 3138,
@@ -328,7 +328,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "23402",
       "id": 3115,
@@ -344,7 +344,7 @@
       "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08058",
       "id": 3061,
@@ -360,7 +360,7 @@
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23174",
       "id": 3085,
@@ -376,7 +376,7 @@
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22706",
       "id": 3099,
@@ -392,7 +392,7 @@
       "description": "Shield Rush will now also increase your chance to parry by 15%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "07945",
       "id": 3053,
@@ -408,7 +408,7 @@
       "description": "A cruel slash at your victim's legs which deals 171 damage and snares them, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22716",
       "id": 3142,
@@ -424,7 +424,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 3141,
@@ -440,7 +440,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 3143,
@@ -456,7 +456,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "23405",
       "id": 3113,
@@ -472,7 +472,7 @@
       "description": "10% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23172",
       "id": 3083,
@@ -488,7 +488,7 @@
       "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale"
     },
-  
+
     {
       "image": "22704",
       "id": 3101,
@@ -504,7 +504,7 @@
       "description": "When you block, all members of your group within 100 feet except you will gain a 5% chance to critically hit for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23173",
       "id": 3087,
@@ -520,7 +520,7 @@
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22694",
       "id": 3096,
@@ -536,7 +536,7 @@
       "description": "All Path of Conquest abilities now cost 35% fewer action points.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08011",
       "id": 3077,
@@ -552,7 +552,7 @@
       "description": "Increases your Strength, Toughness, and Wounds by 240 for 30 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22710",
       "id": 3089,
@@ -568,7 +568,7 @@
       "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22701",
       "id": 3094,
@@ -584,7 +584,7 @@
       "description": "Arcing Swing will now additionally make enemies 10% more likely to be critically hit.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3133,
@@ -600,7 +600,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3134,
@@ -616,7 +616,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3132,
@@ -632,7 +632,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "08059",
       "id": 3105,
@@ -648,7 +648,7 @@
       "description": "Increase the chances to block, dodge, parry, and disrupt attacks by 50% for 10 seconds for all group members within 100 feet of you.",
       "category": "Morale"
     },
-  
+
     {
       "image": "05004",
       "id": 3147,
@@ -664,7 +664,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22706",
       "id": 3108,
@@ -680,7 +680,7 @@
       "description": "Stay Focused! will now also cause groupmates in the area to receive 15% more from all healing effects used on them.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22701",
       "id": 3079,
@@ -696,7 +696,7 @@
       "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08002",
       "id": 3049,
@@ -712,7 +712,7 @@
       "description": "You order your group to steady their thoughts, increasing all resistances by 378 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their resistances by 188.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22702",
       "id": 3069,
@@ -728,7 +728,7 @@
       "description": "Increases your chance to disrupt attacks by 15% as long as you're holding a shield.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08078",
       "id": 3055,
@@ -744,7 +744,7 @@
       "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08060",
       "id": 3076,
@@ -760,7 +760,7 @@
       "description": "You become surrounded by a protective barrier for up to 30 seconds which will absorb up to 3600 damage.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22730",
       "id": 3125,
@@ -776,7 +776,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3124,
@@ -792,7 +792,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3123,
@@ -808,7 +808,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "08061",
       "id": 3109,
@@ -824,7 +824,7 @@
       "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 105 damage to all enemies in front of you up to 40 feet away. Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07997",
       "id": 3054,
@@ -840,7 +840,7 @@
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23175",
       "id": 3088,
@@ -856,7 +856,7 @@
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "08062",
       "id": 3057,
@@ -872,7 +872,7 @@
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22713",
       "id": 3103,
@@ -888,7 +888,7 @@
       "description": "Vigilance will no longer reduce the damage you deal.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 3081,
@@ -904,7 +904,7 @@
       "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22715",
       "id": 3110,
@@ -920,7 +920,7 @@
       "description": "All of your attacks within the Path of Glory will now deal Elemental damage instead of physical damage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23413",
       "id": 3114,
@@ -936,7 +936,7 @@
       "description": "You shield the Ram absorbing 1500 damage over the next 30 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08063",
       "id": 3095,
@@ -952,7 +952,7 @@
       "description": "You slam into your target without remorse, dealing up to 792 damage over 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08064",
       "id": 3078,
@@ -968,7 +968,7 @@
       "description": "Deals 1200 damage to all enemies within 30 feet and roots them, making them unable to move for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "08065",
       "id": 3098,
@@ -984,7 +984,7 @@
       "description": "Deals 1200 damage to all enemies in a line in front of you, up to 65 feet away, and an additional 1206 damage over 9 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "08066",
       "id": 3107,
@@ -1000,7 +1000,7 @@
       "description": "You fill your enemies with fear and doubt, causing all healing abilities to become 75% as effective when used by any enemies within 30 feet of you.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07991",
       "id": 3056,
@@ -1016,7 +1016,7 @@
       "description": "You order your group to ready their defenses, causing 225 damageback against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds. (At RR100)",
       "category": "Ability"
     },
-  
+
     {
       "image": "22729",
       "id": 3131,
@@ -1032,7 +1032,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 3130,
@@ -1048,7 +1048,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 3129,
@@ -1064,7 +1064,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "08067",
       "id": 3058,
@@ -1080,7 +1080,7 @@
       "description": "The blessings of Myrmidia fill you, increasing your Armor by 990 for 10 seconds. Whenever you're attacked during this time, you will regain 10 Action Points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08068",
       "id": 3046,
@@ -1096,7 +1096,7 @@
       "description": "A careful strike that deals 209 damage, and ignores 25% of the victim's armor.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07995",
       "id": 3045,
@@ -1112,7 +1112,7 @@
       "description": "You order your group to strike fiercely, increasing Strength by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Strength by 120.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23176",
       "id": 3086,
@@ -1128,7 +1128,7 @@
       "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
       "category": "Morale"
     },
-  
+
     {
       "image": "07961",
       "id": 3059,
@@ -1144,7 +1144,7 @@
       "description": "The power of the sun blasts your enemy away, dealing 209 damage and knocking them away from you.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22702",
       "id": 3080,
@@ -1160,7 +1160,7 @@
       "description": "Increases Toughness by 160.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22708",
       "id": 3068,
@@ -1176,7 +1176,7 @@
       "description": "Whenever you parry an attack, your Strength, Weapon Skill, and Initiative will be increased by 240 for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08005",
       "id": 3065,
@@ -1192,7 +1192,7 @@
       "description": "Your cowardly enemies are forced to face your wrath. Up to 4 enemies within 30 feet are rooted in place, making them unable to move for 5 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08010",
       "id": 3063,
@@ -1208,7 +1208,7 @@
       "description": "You crush your enemy's will, removing 1 Enchantment from them. If an Enchantment is successfully removed, then the victim will also suffer 246 damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08070",
       "id": 3066,
@@ -1224,7 +1224,7 @@
       "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing 150 Elemental damage back to anyone that attacks you.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08009",
       "id": 3052,
@@ -1240,7 +1240,7 @@
       "description": "A powerful forward slam with your shield which deals 246 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23177",
       "id": 3084,
@@ -1256,7 +1256,7 @@
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
       "category": "Morale"
     },
-  
+
     {
       "image": "08071",
       "id": 3060,
@@ -1272,7 +1272,7 @@
       "description": "Your Shining Blade slices into your opponent for 209 damage. For the next 5 seconds, Shining Blade will cause an additional 150 Elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22710",
       "id": 3091,
@@ -1288,7 +1288,7 @@
       "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional 135 hit points as well.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 3126,
@@ -1304,7 +1304,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 3127,
@@ -1320,7 +1320,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 3128,
@@ -1336,7 +1336,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 3092,
@@ -1352,7 +1352,7 @@
       "description": "Crippling Blow will now hit 3 enemies within 25 feet of you, but your base damage is reduced by 10%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "08072",
       "id": 3102,
@@ -1368,7 +1368,7 @@
       "description": "An overwhelming counterattack which deals 209 damage and knocks the victim down for 3 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08073",
       "id": 3112,
@@ -1384,7 +1384,7 @@
       "description": "Deals 800 damage to all enemies within 30 feet. Enemy players hit by this effect will lose all of their Morale.",
       "category": "Morale"
     },
-  
+
     {
       "image": "08074",
       "id": 3097,
@@ -1400,7 +1400,7 @@
       "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet. All of the victims will suffer 305 damage over 10 seconds and have their chance to defend attacks reduced by 10%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08075",
       "id": 3047,
@@ -1416,7 +1416,7 @@
       "description": "You order your group to hold their positions, increasing Toughness by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Toughness by 120.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08003",
       "id": 3062,
@@ -1432,7 +1432,7 @@
       "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 24 Action Points and 132 health over 3 seconds any time they defend themselves against an attack.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07990",
       "id": 3148,
@@ -1448,7 +1448,7 @@
       "description": "A smashing attack which deals 171 damage. This attack causes monsters to hate you twice as much as normal.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22702",
       "id": 3106,
@@ -1464,7 +1464,7 @@
       "description": "Shield Of The Sun will now deal 225 damage back against enemies, and Vicious Slash's cooldown is reduced by 1 second.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 3071,
@@ -1480,7 +1480,7 @@
       "description": "Shield Of The Sun and Perseverance will now cool down 50% faster.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "07994",
       "id": 3051,
@@ -1496,7 +1496,7 @@
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
-  
+
     {
       "image": "07992",
       "id": 3149,
@@ -1512,7 +1512,7 @@
       "description": "A basic throwing attack that inflicts 103 damage. Has a chance to deal 702 damage to a severely wounded target if you are behind them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08076",
       "id": 3093,
@@ -1528,7 +1528,7 @@
       "description": "You fill your group with purpose, causing all of your groupmates within 100 feet to regain 20 Action Points every 5 seconds. All enemies within 30 feet will lose 20 Action Points every 5 seconds.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08007",
       "id": 3100,
@@ -1544,7 +1544,7 @@
       "description": "You order your group to steady themselves, making it 25% less likely that your groupmates within 100 feet will become set back if they're hit while using an ability. All enemies within 30 feet will be frightened, making it 25% more likely that they'll be set back when hit.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08077",
       "id": 3111,
@@ -1560,7 +1560,7 @@
       "description": "A powerful strike which knocks your enemy off-balance, dealing 209 damage and causing the victim to lose 40 Action Points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 3082,
@@ -1576,7 +1576,7 @@
       "description": "Juggernaut's cooldown is reduced to 20 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22710",
       "id": 3090,
@@ -1592,7 +1592,7 @@
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "07999",
       "id": 3050,
@@ -1608,7 +1608,7 @@
       "description": "You slice deeply into your enemy, dealing 142 damage to the enemy and interrupting any abilities that they are building up. The victim will also suffer an additional 300 damage over 5 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "08078",
       "id": 3104,
@@ -1624,7 +1624,7 @@
       "description": "The glory of the sun fills you with power, reducing all damage that you take by 50% for 10 seconds but reducing all damage that you deal by 25%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22704",
       "id": 3072,

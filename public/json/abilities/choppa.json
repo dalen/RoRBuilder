@@ -11,7 +11,7 @@
         "lvl6": 4695,
         "lvl7": 4696
       },
-      "coreAbilities": [4647,4648,4650,4653,4664]
+      "coreAbilities": [4647, 4648, 4650, 4653, 4664]
     },
     "b": {
       "name": "Path of Da Hitta",
@@ -24,7 +24,7 @@
         "lvl6": 4702,
         "lvl7": 4703
       },
-      "coreAbilities": [4652,4654,4658,4663,4746]
+      "coreAbilities": [4652, 4654, 4658, 4663, 4746]
     },
     "c": {
       "name": "Path of Da Wrecka",
@@ -37,7 +37,7 @@
         "lvl6": 4709,
         "lvl7": 4710
       },
-      "coreAbilities": [4649,4651,4661,4662,4665]
+      "coreAbilities": [4649, 4651, 4661, 4662, 4665]
     }
   },
   "data": [
@@ -56,7 +56,7 @@
       "description": "Your target suffers X physical damage over the next 10 seconds. The damage will start low, and increase as the effect continues.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22706",
       "id": 4668,
@@ -72,7 +72,7 @@
       "description": "All your Exhaustive Blows have a 25% chance to restore 225 hit points.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02652",
       "id": 4653,
@@ -88,7 +88,7 @@
       "description": "Each time that you attack an enemy within the next 10 seconds, Any group member within 100 feet will gain a X ability bonus to weaponskill, but take a X ability penalty to initiative for the next 10 seconds. This effect can be stacked up to three times.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02650",
       "id": 4665,
@@ -104,7 +104,7 @@
       "description": "You strike out at all enemies with 25 feet in front of you, inflicting X physical damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23156",
       "id": 4685,
@@ -120,7 +120,7 @@
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22701",
       "id": 4678,
@@ -136,7 +136,7 @@
       "description": "Gain a 160 unique bonus to strength.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23403",
       "id": 4711,
@@ -152,7 +152,7 @@
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02634",
       "id": 4693,
@@ -168,7 +168,7 @@
       "description": "You chop at your enemy, dealing X physical damage and reducing the value of incoming heals on them by 50% for the next 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02640",
       "id": 4655,
@@ -184,7 +184,7 @@
       "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, the effect will immediately end.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02658",
       "id": 4707,
@@ -200,7 +200,7 @@
       "description": "Group members within 100 feet are inspired by the way you shrug off the blows, for the next 10 seconds any ability used by your groupmates will cool down 5 seconds faster.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22707",
       "id": 4672,
@@ -216,7 +216,7 @@
       "description": "Get Stuck In's cooldown timer is lowered by 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22707",
       "id": 4672,
@@ -248,7 +248,7 @@
       "description": "Gain a (1 * rank) ability bonus to toughness for each enemy within 20 feet, up to a maximum of 6 enemies, for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23157",
       "id": 4683,
@@ -264,7 +264,7 @@
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "02660",
       "id": 4674,
@@ -280,7 +280,7 @@
       "description": "Absorbs 3600 damage for up to 20 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22707",
       "id": 4688,
@@ -296,7 +296,7 @@
       "description": "Gain a 252 unique bonus to spirit resistance.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02632",
       "id": 4648,
@@ -312,7 +312,7 @@
       "description": "A maiming attack which deals X physical damage to the target and snares them, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 4666,
@@ -328,7 +328,7 @@
       "description": "All attacks will generate 25% less hate.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22703",
       "id": 4670,
@@ -344,7 +344,7 @@
       "description": "Gain a 120 unique bonus to strength and weaponskill and take a 120 unique penalty to toughness.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02644",
       "id": 4659,
@@ -360,7 +360,7 @@
       "description": "Your attacks become more precise, your target's chance to block or parry is reduced by 50% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22709",
       "id": 4671,
@@ -376,7 +376,7 @@
       "description": "Reduces the Action Point costs by 5 points in Furious state and 10 points in Berserk state.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22701",
       "id": 4706,
@@ -408,7 +408,7 @@
       "description": "Cooldowns on your Exhaustive Blows are reduced by 25%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 4679,
@@ -424,7 +424,7 @@
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "05004",
       "id": 4745,
@@ -440,7 +440,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02631",
       "id": 4747,
@@ -456,7 +456,7 @@
       "description": "A basic throwing attack that inflicts X physical damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23158",
       "id": 4682,
@@ -472,7 +472,7 @@
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "23159",
       "id": 4686,
@@ -488,7 +488,7 @@
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "02651",
       "id": 4695,
@@ -504,7 +504,7 @@
       "description": "A merciless strike of attacks that repeatedly hits your target for up to 5 seconds, dealing up to X physical damage. You will be healed for all damage this ability deals.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02642",
       "id": 4657,
@@ -520,7 +520,7 @@
       "description": "Your groupmates are inspired by your eagerness to fight. Auto attack speed is increased by 35% for 20 seconds for all groupmates within 100 feet.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02659",
       "id": 4709,
@@ -536,7 +536,7 @@
       "description": "You frantically lash out at everything nearby for up to 6 seconds, dealing X physical damage every 2 seconds to all enemies within 40 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02637",
       "id": 4652,
@@ -552,7 +552,7 @@
       "description": "You deal X physical damage to your enemy.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02648",
       "id": 4658,
@@ -568,7 +568,7 @@
       "description": "While this ability is active, your melee attacks will deal an additional X physical damage , but you will also suffer Y physical damage each time.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22707",
       "id": 4687,
@@ -584,7 +584,7 @@
       "description": "Gain a 160 unique bonus to wounds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22707",
       "id": 4669,
@@ -600,7 +600,7 @@
       "description": "Increases the duration of Come An' Git It and Try An' Hurt Me by 5 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22694",
       "id": 4677,
@@ -616,7 +616,7 @@
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22707",
       "id": 4708,
@@ -632,7 +632,7 @@
       "description": "When you die, you have a 25% chance of ressurecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing X physical damage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02653",
       "id": 4691,
@@ -648,7 +648,7 @@
       "description": "You chop deeply into your enemy, dealing X physical damage. Your love of battle fills you with energy, restoring 100 Action Points.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22707",
       "id": 4697,
@@ -664,7 +664,7 @@
       "description": "Any time your Exhaustive Blow gets defended, for the next 6 seconds all attacks will cost 0 action points.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 4704,
@@ -680,7 +680,7 @@
       "description": "While you are Furious, you regain X health every 4 seconds. While you are Berserk, you regain Y health every 4 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02635",
       "id": 4649,
@@ -696,7 +696,7 @@
       "description": "You wildly swing at enemies in front of you within 25 feet, dealing anywhere from X physical damage to Y physical damage. May only hit up to three targets.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02656",
       "id": 4702,
@@ -712,7 +712,7 @@
       "description": "A brutal attack which deals X physical damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02641",
       "id": 4656,
@@ -728,7 +728,7 @@
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02649",
       "id": 4647,
@@ -744,7 +744,7 @@
       "description": "Deals X physical damage and for 10 seconds, your chance to be critically hit will be increased by 1%. This negative effect stacks up to 5 times.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 4694,
@@ -760,7 +760,7 @@
       "description": "While Berserk, all cooldowns are reduced by 5 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23160",
       "id": 4684,
@@ -776,7 +776,7 @@
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22702",
       "id": 4680,
@@ -792,7 +792,7 @@
       "description": "Each time you parry an enemy's attack, you will strike them back for 253 damage which they can not prevent.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23161",
       "id": 4681,
@@ -808,7 +808,7 @@
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale"
     },
-  
+
     {
       "image": "02645",
       "id": 4660,
@@ -824,7 +824,7 @@
       "description": "Any roots or snares are removed, as all attempts to impede your movement are futile. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02643",
       "id": 4663,
@@ -840,7 +840,7 @@
       "description": "Deals X physical damage and knocks down the target for 3 seconds. The attack is undefendable.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02633",
       "id": 4746,
@@ -856,7 +856,7 @@
       "description": "A furious slash that deals X physical damage and causes your target to take a (1 * rank) ability penalty to toughness for 9 seconds. This effect is stackable up to three times.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22707",
       "id": 4689,
@@ -872,7 +872,7 @@
       "description": "All of your critical hits will deal 25% more bonus critical damage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02665",
       "id": 4710,
@@ -888,7 +888,7 @@
       "description": "You stomp the ground, knocking down targets within 30 feet for 3 seconds and dealing 1800 damage.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22702",
       "id": 4701,
@@ -904,7 +904,7 @@
       "description": "Increases the chance to critically hit with Path of Da' Big Hitta abilities by 15%. If you are dual wielding, increases your chance to be critically hit by 10%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02662",
       "id": 4676,
@@ -920,7 +920,7 @@
       "description": "Deals 1800 damage and reduces Action Point costs by 50% for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "02661",
       "id": 4675,
@@ -936,7 +936,7 @@
       "description": "You deal an additional 300 damage, whenever you use an ability. This effect will fade after you damage 8 targets.",
       "category": "Morale"
     },
-  
+
     {
       "image": "02630",
       "id": 4650,
@@ -952,7 +952,7 @@
       "description": "You slash at your opponent's throat, immediately inflicting X physical damage. The wound continues to bleed for Y physical damage over 3 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02655",
       "id": 4700,
@@ -968,7 +968,7 @@
       "description": "You chop your target in a vital organ, dealing X physical damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02638",
       "id": 4664,
@@ -984,7 +984,7 @@
       "description": "An exhaustive blow that deals X physical damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22701",
       "id": 4673,
@@ -1000,7 +1000,7 @@
       "description": "When you do critical damage, your target takes a 120 unique penalty to weapon skill for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02639",
       "id": 4654,
@@ -1016,7 +1016,7 @@
       "description": "You unleash a powerful blow, dealing X physical damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22701",
       "id": 4699,
@@ -1032,7 +1032,7 @@
       "description": "Every 4 seconds, you will gain one stack of an effect which reduces the Rage cost of your exhaustive blows by 25%. This effect stacks up to 3 times, and using an exhaustive blow will consume one stack.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02663",
       "id": 4696,
@@ -1048,7 +1048,7 @@
       "description": "Your rage inspires all around, causing groupmates' attacks to deal an additional 300 damage for 10 seconds while within 100 feet of you.",
       "category": "Morale"
     },
-  
+
     {
       "image": "02647",
       "id": 4651,
@@ -1064,7 +1064,7 @@
       "description": "You strike enemies within 30 feet, dealing anywhere from X physical damage to Y physical damage. <br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22702",
       "id": 4690,
@@ -1080,7 +1080,7 @@
       "description": "Exhaustive Blows will no longer remove your Rage.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02657",
       "id": 4705,
@@ -1096,7 +1096,7 @@
       "description": "You lash out at all enemies within 30 feet, inflicting X physical damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
-  
+
     {
       "image": "02636",
       "id": 4662,
@@ -1112,7 +1112,7 @@
       "description": "You swipe at the enemies in front of you, dealing X physical damage over 9 seconds to enemies within 40 feet.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22701",
       "id": 4692,
@@ -1128,7 +1128,7 @@
       "description": "When your attacks get defended, increases your chance to critically hit with Path of Da' Savage abilities by 100% for the next 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "02664",
       "id": 4703,
