@@ -8,7 +8,8 @@
     "npm": "5.5.1"
   },
   "scripts": {
-    "lint": "eslint --fix src/js",
+    "test": "eslint src/js && jsonlint -q public/json/*.json public/json/abilities/*.json",
+    "lint": "eslint src/js && jsonlint -q public/json/*.json public/json/abilities/*.json",
     "prod": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --config webpack.dev.js --progress --colors",
     "postinstall": "./node_modules/.bin/webpack --config webpack.prod.js"
@@ -75,6 +76,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.1",
+    "jsonlint": "^1.6.3",
     "mini-css-extract-plugin": "^0.5.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "prettier": "^1.15.3",
