@@ -11,7 +11,7 @@
         "lvl6": 7510,
         "lvl7": 3666
       },
-      "coreAbilities": [3633,3622,3623,3716,3635]
+      "coreAbilities": [3633, 3622, 3623, 3716, 3635]
     },
     "b": {
       "name": "Path of The Grenadier",
@@ -24,7 +24,7 @@
         "lvl6": 3672,
         "lvl7": 3673
       },
-      "coreAbilities": [3627,3626,3613,3629,3617]
+      "coreAbilities": [3627, 3626, 3613, 3629, 3617]
     },
     "c": {
       "name": "Path of The Tinkerer",
@@ -37,7 +37,7 @@
         "lvl6": 3679,
         "lvl7": 3680
       },
-      "coreAbilities": [3634,3628,3616,3632,3618,3670]
+      "coreAbilities": [3634, 3628, 3616, 3632, 3618, 3670]
     }
   },
   "data": [
@@ -56,7 +56,7 @@
       "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 378 and suffer X Corporeal damage over 21 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04605",
       "id": 3620,
@@ -72,7 +72,7 @@
       "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22736",
       "id": 3690,
@@ -88,7 +88,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 3688,
@@ -104,7 +104,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22736",
       "id": 3689,
@@ -120,7 +120,7 @@
       "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22711",
       "id": 3659,
@@ -136,7 +136,7 @@
       "description": "Increases your Armor by 660.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3703,
@@ -152,7 +152,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3705,
@@ -168,7 +168,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3704,
@@ -184,7 +184,7 @@
       "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "04620",
       "id": 3645,
@@ -200,7 +200,7 @@
       "description": "Everyone in your group within 100 feet takes only 80% damage for 20 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "04456",
       "id": 3673,
@@ -216,7 +216,7 @@
       "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 600 damage per second to all enemies within 30 feet of that spot.",
       "category": "Morale"
     },
-  
+
     {
       "image": "04619",
       "id": 3644,
@@ -232,7 +232,7 @@
       "description": "You regain action points 30% faster for 10 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22706",
       "id": 3671,
@@ -248,7 +248,7 @@
       "description": "All of your Path of the Grenadier abilities cost 35% fewer action points.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "04566",
       "id": 3625,
@@ -264,7 +264,7 @@
       "description": "You fling coils of barbed wire all around you, rooting all enemies within 30 feet in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22718",
       "id": 3712,
@@ -280,7 +280,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3714,
@@ -296,7 +296,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22718",
       "id": 3713,
@@ -312,7 +312,7 @@
       "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "04606",
       "id": 3618,
@@ -328,7 +328,7 @@
       "description": "You fire a blast of short-range pellets which deal X damage to all enemies in front of you, up to 40 feet away.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23411",
       "id": 3681,
@@ -344,7 +344,7 @@
       "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04607",
       "id": 3621,
@@ -360,7 +360,7 @@
       "description": "You construct a mid-range grenade turret. You will generate 1 stack of Improvised Upgrades every 2s while within 40ft of your turret, max 8 stacks. Each stack gives you +4% damage, +5% turret range, and +4% increased faster grendier/tinkerer DoTs. With one stack, you may cast grenadier abilities while moving. You will begin to lose stacks at 81ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22731",
       "id": 3708,
@@ -376,7 +376,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 3707,
@@ -392,7 +392,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22731",
       "id": 3706,
@@ -408,7 +408,7 @@
       "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "04568",
       "id": 3677,
@@ -424,7 +424,7 @@
       "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any group members within 65 feet of it, restoring X health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04649",
       "id": 3632,
@@ -440,7 +440,7 @@
       "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 252 for 60 minutes.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04621",
       "id": 3646,
@@ -456,7 +456,7 @@
       "description": "A massive cannonball smashes into your target, dealing 2400 damage and reducing their armor by 1400 for 30 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22698",
       "id": 3649,
@@ -472,7 +472,7 @@
       "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23162",
       "id": 3653,
@@ -488,7 +488,7 @@
       "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
       "category": "Morale"
     },
-  
+
     {
       "image": "04616",
       "id": 3629,
@@ -504,7 +504,7 @@
       "description": "You lob a grenade that releases a powerful shockwave on impact, dealing X Corporeal damage to your target and knocking them back a short distance. Monsters will be knocked down instead.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 3638,
@@ -520,7 +520,7 @@
       "description": "When your Land Mine detonates, any enemy hit by the blast will become disoriented for 10 seconds, increasing the build times of their abilities by 50%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22709",
       "id": 3643,
@@ -536,7 +536,7 @@
       "description": "Signal Flare will now also cause the victim to suffer 15% more damage from all sources.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "04614",
       "id": 3661,
@@ -546,13 +546,13 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "2.0s cast",
+      "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "A well-aimed shot which deals 586 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22716",
       "id": 3710,
@@ -568,7 +568,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 3709,
@@ -584,7 +584,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22716",
       "id": 3711,
@@ -600,7 +600,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "23406",
       "id": 3683,
@@ -616,7 +616,7 @@
       "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04654",
       "id": 3679,
@@ -632,7 +632,7 @@
       "description": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within 75 feet inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within 30 feet, reducing their movement speed by 40% for 4 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 3647,
@@ -648,7 +648,7 @@
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23163",
       "id": 3655,
@@ -664,7 +664,7 @@
       "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<br>This effect will not trigger more than once every second.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22698",
       "id": 3639,
@@ -680,7 +680,7 @@
       "description": "When you construct a turret, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22694",
       "id": 3667,
@@ -696,7 +696,7 @@
       "description": "Acid Bomb, Phosphorous Shells and Fragmentation Grenade gain a 50% increase to the size of their areas of effect.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3701,
@@ -712,7 +712,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3702,
@@ -728,7 +728,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22725",
       "id": 3700,
@@ -744,7 +744,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 3640,
@@ -760,7 +760,7 @@
       "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by 120, but reduces your Toughness by 120.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "04468",
       "id": 3613,
@@ -776,7 +776,7 @@
       "description": "You toss a grenade filled with flaming pitch which deals X Corporeal damage to your target.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04620",
       "id": 3624,
@@ -792,7 +792,7 @@
       "description": "You don an experimental suit of protective gear, increasing your Armor by 560 for up to 1 hours.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04613",
       "id": 3619,
@@ -808,7 +808,7 @@
       "description": "You construct a short-range, flamethrower turret. You will generate 1 stack of Improvised Upgrades every 2s while within 30ft of your turret, max 8 stacks. Each stack gives you +4% damage, +8% turret dodge and disrupt, +4% dodge and disrupt for you, +6.25% radius for your AoEs, reduces your range by 5% (cap -30%), and increases your AoE target limit by 2. With one stack, you can use grenadier abilities while moving. You will begin to lose stacks at 31ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04610",
       "id": 3626,
@@ -824,7 +824,7 @@
       "description": "You toss a grenade which explodes with a burst of force, dealing X Corporeal damage to the target. The blinding flash interrupts the victim and all enemies within 20 feet of them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "05004",
       "id": 3715,
@@ -840,7 +840,7 @@
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04623",
       "id": 3680,
@@ -856,7 +856,7 @@
       "description": "You fling packets of explosives all around you for up to 4 seconds, dealing 600 damage each second to all enemies within 30 feet.",
       "category": "Morale"
     },
-  
+
     {
       "image": "04527",
       "id": 3635,
@@ -872,7 +872,7 @@
       "description": "You focus all of your shots on your enemy for up to 3 seconds, dealing 219 damage to them every second. This effect will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23153",
       "id": 3654,
@@ -888,7 +888,7 @@
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale"
     },
-  
+
     {
       "image": "04477",
       "id": 3627,
@@ -904,7 +904,7 @@
       "description": "You lob a grenade which shatters when it hits your enemy, dealing X corporeal damage over 15 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04656",
       "id": 3616,
@@ -920,7 +920,7 @@
       "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing X Corporeal damage over 9 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04460",
       "id": 3716,
@@ -936,7 +936,7 @@
       "description": "A gun attack which deals X damage to your enemy.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04602",
       "id": 3614,
@@ -952,7 +952,7 @@
       "description": "You construct a long-range, machine-gun turret. You will generate 1 stack of Improvised Upgrades every 2s while within 30ft of your turret, max 8 stacks. Each stack gives you +4% damage, +5% turret range (Cap 25%), +5% range for you (Cap 25%). You will begin to lose stacks at 31ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
       "category": "Ability"
     },
-  
+
     {
       "image": "23164",
       "id": 3656,
@@ -968,7 +968,7 @@
       "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
       "category": "Morale"
     },
-  
+
     {
       "image": "23409",
       "id": 3682,
@@ -984,7 +984,7 @@
       "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
       "category": "Ability"
     },
-  
+
     {
       "image": "22697",
       "id": 3637,
@@ -1000,7 +1000,7 @@
       "description": "Increases your autoattack speed by 50% when using a gun.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3693,
@@ -1016,7 +1016,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3692,
@@ -1032,7 +1032,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22730",
       "id": 3691,
@@ -1048,7 +1048,7 @@
       "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "04608",
       "id": 3623,
@@ -1064,7 +1064,7 @@
       "description": "A quick shot from the hip which deals X damage. This attack may be used at close range.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22697",
       "id": 3662,
@@ -1080,7 +1080,7 @@
       "description": "Snipe and Gun Blast will now deal an additional 505 damage over 5 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "04457",
       "id": 3622,
@@ -1096,7 +1096,7 @@
       "description": "You fire bullets that burst into flame when they strike the enemy, dealing X Corporeal damage over 15 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04611",
       "id": 3628,
@@ -1112,7 +1112,7 @@
       "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minute. The mine will detonate when an enemy gets too close, dealing X damage to all enemies within 30 feet and staggering them for up to 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04655",
       "id": 3675,
@@ -1128,7 +1128,7 @@
       "description": "You deploy a shock rod at your feet which will remain for up to 9 seconds and periodically blast out with waves of power, dealing X Corporeal damage every 3 seconds to all enemies within 30 feet of it.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22697",
       "id": 3648,
@@ -1144,7 +1144,7 @@
       "description": "Increases your Ballistic Skill by 160",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "04653",
       "id": 3672,
@@ -1160,7 +1160,7 @@
       "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing X Corporeal damage during the first 10 seconds, Y Corporeal damage for the next 10 seconds, and Z Corporeal damage for the final 10 seconds. <br> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22729",
       "id": 3699,
@@ -1176,7 +1176,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 3698,
@@ -1192,7 +1192,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22729",
       "id": 3697,
@@ -1208,7 +1208,7 @@
       "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "04657",
       "id": 3665,
@@ -1224,7 +1224,7 @@
       "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing X Corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer Y Corporeal damage over 10 seconds as the shells burst into flame.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22709",
       "id": 3650,
@@ -1240,7 +1240,7 @@
       "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "23165",
       "id": 3651,
@@ -1256,7 +1256,7 @@
       "description": "A mid-range attack that deals 600 damage and knocks targeted player away. Monsters will be knocked down.",
       "category": "Morale"
     },
-  
+
     {
       "image": "22694",
       "id": 3641,
@@ -1272,7 +1272,7 @@
       "description": "Increases the chance for you and your groupmates to detect hidden enemies by 50% while you or your group are within 20 feet feet of your turret.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22704",
       "id": 3664,
@@ -1288,7 +1288,7 @@
       "description": "All of your Path of the Rifleman abilities cost 35% fewer action points.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "04652",
       "id": 3630,
@@ -1304,7 +1304,7 @@
       "description": "You activate your Turret's automatic redeployment mechanism, instantly moving it to your current location.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22694",
       "id": 3636,
@@ -1320,7 +1320,7 @@
       "description": "Adds 160 Wounds to your turrets.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "04622",
       "id": 3666,
@@ -1336,7 +1336,7 @@
       "description": "You release a string of several gun blasts in a row for up to 4 seconds, dealing 600 damage each second to all enemies in front of you, up to 40 feet away.",
       "category": "Morale"
     },
-  
+
     {
       "image": "04612",
       "id": 3631,
@@ -1352,7 +1352,7 @@
       "description": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing X Corporeal damage to all enemies within 30 feet of it, knocking them down for 2 seconds.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04603",
       "id": 3615,
@@ -1368,7 +1368,7 @@
       "description": "You toss a grenade at an ally which removes stagger effects from them and five others within 25 feet.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04609",
       "id": 3633,
@@ -1384,7 +1384,7 @@
       "description": "You mark the enemy with a bright signal flare, dealing X damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22721",
       "id": 3694,
@@ -1400,7 +1400,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 3695,
@@ -1416,7 +1416,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "22721",
       "id": 3696,
@@ -1432,7 +1432,7 @@
       "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
       "category": "TomeTactic"
     },
-  
+
     {
       "image": "04615",
       "id": 3663,
@@ -1448,7 +1448,7 @@
       "description": "A slow but powerful gun shot which deals X damage to your enemy and can not be defended against.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04466",
       "id": 3717,
@@ -1464,7 +1464,7 @@
       "description": "You clobber your enemy with your spanner, dealing X damage and reducing their run speed by 40% for 10 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04651",
       "id": 3634,
@@ -1480,7 +1480,7 @@
       "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing X Corporeal damage to all enemies within 30 feet.",
       "category": "Ability"
     },
-  
+
     {
       "image": "04476",
       "id": 3668,
@@ -1496,7 +1496,7 @@
       "description": "A packet of explosives which sticks to your target and slowly burns, dealing X Corporeal damage over 15 seconds. If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing Y Corporeal damage to the victim and all enemies within 20 feet of them.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22708",
       "id": 3660,
@@ -1512,7 +1512,7 @@
       "description": "Hip Shot now will knock the victim back a short distance.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22711",
       "id": 3657,
@@ -1528,7 +1528,7 @@
       "description": "You recover from Stuns and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "04531",
       "id": 3670,
@@ -1544,7 +1544,7 @@
       "description": "You call for air support, signaling for a strafing run which deals X damage to all enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
       "category": "Ability"
     },
-  
+
     {
       "image": "22711",
       "id": 3658,
@@ -1560,7 +1560,7 @@
       "description": "Increases your Corporeal resistance by 252.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22697",
       "id": 3642,
@@ -1576,7 +1576,7 @@
       "description": "After ending or being removed, Barbed Wire will now Snare targets by 40% and deal 246 damage over 5 seconds.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22697",
       "id": 3669,
@@ -1592,7 +1592,7 @@
       "description": "Increases the ranges of all Path of the Grenadier abilities by 25%.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22697",
       "id": 3678,
@@ -1608,7 +1608,7 @@
       "description": "Increases your chance to critically hit by 15% as long as you are within 100 feet of your turret.",
       "category": "CareerTactic"
     },
-  
+
     {
       "image": "22698",
       "id": 3676,
@@ -1624,7 +1624,7 @@
       "description": "Your damage is increased by 15% when under 45 feet away from your target.",
       "category": "CareerTactic"
     },
-    
+
     {
       "image": "22709",
       "id": 3674,
