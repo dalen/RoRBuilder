@@ -1610,22 +1610,6 @@
     },
 
     {
-      "image": "08079",
-      "id": 6100,
-      "name": "Hastened Expurgation",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "1.0s cast",
-      "cooldown": "35.0s cooldown",
-      "note": "",
-      "description": "You fade into the background and make haste. You are rendered invisible to your foes and your movement speed is increased by 50% for 5 seconds.<br>The cooldown of this ability is reduced by 1 second for every enemy withing 100 feet of you when the effect is broken.<br>This effect will end if you use any ability.",
-      "category": "Ability"
-    },
-
-    {
       "image": "22702",
       "id": 6102,
       "name": "Close Combat",
