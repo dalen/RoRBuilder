@@ -81,7 +81,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one active stance.",
-      "description": "A close-combat stance which causes you to gain a 120 unique bonus to Strength and Weaponskill, and a unique bonus to Armor equal to the same amount that you receive from items.<br><br>While in Assault Stance; your Ballistic Skill from items will also count towards your Strength, your Ranged Power from items will also count towards your Melee Power, and your Ranged Critical chance from items will also count towards your Melee Critical chance.",
+      "description": "A close-combat stance which causes you to gain a 120 unique bonus to Strength and Weaponskill, and a unique bonus to Armor equal to the same amount that you receive from items.<br><br>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Autoattack damage is increased by 65%. Additionally you have a 25% chance on melee attacks to increase your Autoattack speed by 33%.",
       "category": "Ability"
     },
 
