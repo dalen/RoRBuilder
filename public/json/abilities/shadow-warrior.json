@@ -27,12 +27,12 @@
         "lvl1": 3978,
         "lvl2": 3979,
         "lvl3": 3980,
-        "lvl4": 3981,
+        "lvl4": 2972,
         "lvl5": 3982,
         "lvl6": 3983,
         "lvl7": 7530
       },
-      "coreAbilities": [3943, 4029, 3936, 3944, 3931]
+      "coreAbilities": [3943, 4029, 3936, 3981, 3944, 3931]
     },
     "c": {
       "name": "Path of The Skirmisher",
@@ -1039,7 +1039,7 @@
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "Requires Assault Stance",
       "description": "Deals (30 + 6 * rank) + (0.2 bal) + (1.4 dps) physical damage to all enemies in an arc in front of you, up to 25 feet away.",
       "category": "Ability"
@@ -1153,8 +1153,24 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grim Slash now has a 25% chance to cause the target to take a 120 unique penalty to Weapon Skill and a 80 unique penalty to Initiative for 20s. You will gain a 120 unique bonus to Weaponskill and a 80 unique bonus to Initiative for 20s.",
+      "description": "Grim Slash will now reduce your enemy's Weapon Skill by 120 and Initiative by 80 for 20 seconds, and increase your Weapon Skill and Initiative by the same amount.",
       "category": "CareerTactic"
+    },
+
+    {
+      "image": "13301",
+      "id": 2972,
+      "name": "Crosscut",
+      "type": "Damaging",
+      "spec": "Path of Assault",
+      "minrank": "25",
+      "cost": "Costs 35 AP",
+      "range": "5ft range",
+      "incant": "Instant Cast",
+      "cooldown": "10.0s cooldown",
+      "note": "Requires Assault Stance",
+      "description": "You unleash two swift blows upon your enemy that deal X Spirit damage each, causing them to be 10% more likely to be critically hit by others for 10 seconds.",
+      "category": "Ability"
     }
   ]
 }
