@@ -5,9 +5,9 @@
       "optionalAbilities": {
         "lvl1": 4796,
         "lvl2": 4797,
-        "lvl3": 4798,
+        "lvl3": 4800,
         "lvl4": 4799,
-        "lvl5": 4800,
+        "lvl5": 2832,
         "lvl6": 4801,
         "lvl7": 4802
       },
@@ -422,22 +422,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Path of Corruption abilities will now cost 35% less action points.",
-      "category": "CareerTactic"
-    },
-
-    {
-      "image": "22701",
-      "id": 4798,
-      "name": "Crippling Strikes",
-      "type": "Buff",
-      "spec": "Path of Dread",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time you critically hit an enemy, they will deal only 90% damage for 10 seconds.",
       "category": "CareerTactic"
     },
 
@@ -1078,6 +1062,22 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit by 15% when you are wielding a Greatweapon.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "22701",
+      "id": 2832,
+      "name": "Daemonclaw",
+      "type": "Buff",
+      "spec": "Path of Dread",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Whenever you critically hit an Enemy with a Great Weapon, your Strength, Weapon Skill, and Initiative will be increased by X (160 at max level) for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic"
     },
 

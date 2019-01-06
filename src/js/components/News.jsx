@@ -15,7 +15,7 @@ const News = () => (
       </span>
       <div className={css.itemDate}>06/01/2019</div>
       <span className={css.itemText}>
-        Engineer, Magus and Shadow Warrior updated.
+        Engineer, Magus, Chosen and Shadow Warrior updated.
       </span>
     </div>
     <div className={css.item}>
