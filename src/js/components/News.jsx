@@ -13,6 +13,19 @@ const News = () => (
           nameSlug="right-chevron-icon"
         />
       </span>
+      <div className={css.itemDate}>06/01/2019</div>
+      <span className={css.itemText}>
+        Engineer, Magus and Shadow Warrior updated.
+      </span>
+    </div>
+    <div className={css.item}>
+      <span className={css.itemIcon}>
+        <IconChevronRight
+          classes="icon--small"
+          name="right chevron icon"
+          nameSlug="right-chevron-icon"
+        />
+      </span>
       <div className={css.itemDate}>24/11/2018</div>
       <span className={css.itemText}>
         WL updated thanks to Gunma. If anyone want to help and make sure the
