@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Confession",
+      "popover": {
+        "primary": "A mastery path focused on toe-to-toe combat"
+      },
       "optionalAbilities": {
         "lvl1": 4379,
         "lvl2": 4380,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Inquisition",
+      "popover": {
+        "primary": "A mastery path focused on longer-duration weakening effects"
+      },
       "optionalAbilities": {
         "lvl1": 4386,
         "lvl2": 4387,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Judgment",
+      "popover": {
+        "primary": "A mastery path focused on surprise attacks and positional combat"
+      },
       "optionalAbilities": {
         "lvl1": 4393,
         "lvl2": 4394,
@@ -1624,8 +1633,8 @@
       "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
       "category": "CareerTactic"
     },
-    
-      {
+
+    {
       "image": "22708",
       "id": 6103,
       "name": "Blessed Blade",

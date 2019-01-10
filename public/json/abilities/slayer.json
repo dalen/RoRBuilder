@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of The Trollslayer",
+      "popover": {
+        "primary": "A mastery path focused on longer-duration battles"
+      },
       "optionalAbilities": {
         "lvl1": 4073,
         "lvl2": 4074,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of The Giantslayer",
+      "popover": {
+        "primary": "A mastery path focused on dealing quick exhaustive blows"
+      },
       "optionalAbilities": {
         "lvl1": 4080,
         "lvl2": 4081,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of The Skavenslayer",
+      "popover": {
+        "primary": "A mastery path focused on area of effect offensive abilities"
+      },
       "optionalAbilities": {
         "lvl1": 4087,
         "lvl2": 4088,

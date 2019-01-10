@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Big Shootin'",
+      "popover": {
+        "primary": "A mastery path focused on long range bow combat"
+      },
       "optionalAbilities": {
         "lvl1": 5520,
         "lvl2": 5521,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Bouncin'",
+      "popover": {
+        "primary": "A mastery path focused on toe-to-toe combat"
+      },
       "optionalAbilities": {
         "lvl1": 5527,
         "lvl2": 5530,
@@ -41,6 +47,9 @@
     },
     "c": {
       "name": "Path of Quick Shootin'",
+      "popover": {
+        "primary": "A mastery path focused on short range and moving bow combat"
+      },
       "optionalAbilities": {
         "lvl1": 5534,
         "lvl2": 5535,

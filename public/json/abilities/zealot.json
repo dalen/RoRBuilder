@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Alchemy",
+      "popover": {
+        "primary": "A mastery path focused on immediate, direct effects"
+      },
       "optionalAbilities": {
         "lvl1": 5726,
         "lvl2": 5727,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Witchcraft",
+      "popover": {
+        "primary": "A mastery path focused on longer-duration effects"
+      },
       "optionalAbilities": {
         "lvl1": 5733,
         "lvl2": 5734,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Dark Rites",
+      "popover": {
+        "primary": "A mastery path focused on wide-area effects"
+      },
       "optionalAbilities": {
         "lvl1": 5740,
         "lvl2": 5741,

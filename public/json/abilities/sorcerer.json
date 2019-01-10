@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Agony",
+      "popover": {
+        "primary": "A mastery path focused on immediate damage"
+      },
       "optionalAbilities": {
         "lvl1": 5411,
         "lvl2": 5412,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Calamity",
+      "popover": {
+        "primary": "A mastery path focused on longer-duration effects"
+      },
       "optionalAbilities": {
         "lvl1": 5418,
         "lvl2": 5419,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Destruction",
+      "popover": {
+        "primary": "A mastery path focused on wide-area effects"
+      },
       "optionalAbilities": {
         "lvl1": 5425,
         "lvl2": 5426,

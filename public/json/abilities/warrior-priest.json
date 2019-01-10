@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Salvation",
+      "popover": {
+        "primary": "A mastery path focused on healing and restorative powers"
+      },
       "optionalAbilities": {
         "lvl1": 4177,
         "lvl2": 4174,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Grace",
+      "popover": {
+        "primary": "A mastery path focused on melee attacks and protective effects"
+      },
       "optionalAbilities": {
         "lvl1": 4180,
         "lvl2": 4183,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Wrath",
+      "popover": {
+        "primary": "A mastery path focused on melee attacks and weakening effects"
+      },
       "optionalAbilities": {
         "lvl1": 5890,
         "lvl2": 4190,
