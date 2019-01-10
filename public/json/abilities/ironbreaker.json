@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Vengeance",
+      "popover": {
+        "primary": "A mastery path focused on offence"
+      },
       "optionalAbilities": {
         "lvl1": 3764,
         "lvl2": 3765,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Stone",
+      "popover": {
+        "primary": "A mastery path focused on defense and protection"
+      },
       "optionalAbilities": {
         "lvl1": 3771,
         "lvl2": 3772,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Brotherhood",
+      "popover": {
+        "primary": "A mastery path focused on supporting and bolstering you and your allies"
+      },
       "optionalAbilities": {
         "lvl1": 3778,
         "lvl2": 3779,

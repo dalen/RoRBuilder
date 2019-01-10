@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of The Rifleman",
+      "popover": {
+        "primary": "A mastery path focused on long range attacks with your gun"
+      },
       "optionalAbilities": {
         "lvl1": 3660,
         "lvl2": 3661,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of The Grenadier",
+      "popover": {
+        "primary": "A mastery path focused on short-range combat with grenades and bombs"
+      },
       "optionalAbilities": {
         "lvl1": 3667,
         "lvl2": 3668,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of The Tinkerer",
+      "popover": {
+        "primary": "A mastery path focused on close combat using your deployables and gadgets"
+      },
       "optionalAbilities": {
         "lvl1": 3639,
         "lvl2": 3675,

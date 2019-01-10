@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Mork",
+      "popover": {
+        "primary": "A mastery path focused on healing and restorative powers"
+      },
       "optionalAbilities": {
         "lvl1": 5315,
         "lvl2": 5319,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Gork",
+      "popover": {
+        "primary": "A mastery path focused on offensive and damaging powers"
+      },
       "optionalAbilities": {
         "lvl1": 5318,
         "lvl2": 5326,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Da Green",
+      "popover": {
+        "primary": "A mastery path focused on hindering and weakening foes"
+      },
       "optionalAbilities": {
         "lvl1": 5327,
         "lvl2": 5312,

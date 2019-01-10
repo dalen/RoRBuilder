@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Savagery",
+      "popover": {
+        "primary": "A mastery path focused on lingering effects and weakening foes"
+      },
       "optionalAbilities": {
         "lvl1": 5208,
         "lvl2": 5213,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Brutality",
+      "popover": {
+        "primary": "A mastery path focused on inflicting heavy damage to a single opponent"
+      },
       "optionalAbilities": {
         "lvl1": 5215,
         "lvl2": 5216,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Monstrosity",
+      "popover": {
+        "primary": "A mastery path focused on fightihg multiple opponents at once"
+      },
       "optionalAbilities": {
         "lvl1": 5222,
         "lvl2": 5223,

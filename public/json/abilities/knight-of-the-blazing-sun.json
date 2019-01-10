@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Conquest",
+      "popover": {
+        "primary": "A mastery path focused on destroying your enemies"
+      },
       "optionalAbilities": {
         "lvl1": 3092,
         "lvl2": 3093,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Vigilance",
+      "popover": {
+        "primary": "A mastery path focused on hindering and crippling your foes"
+      },
       "optionalAbilities": {
         "lvl1": 3099,
         "lvl2": 3100,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Glory",
+      "popover": {
+        "primary": "A mastery path focused on supporting and bolstering you and your allies"
+      },
       "optionalAbilities": {
         "lvl1": 3106,
         "lvl2": 3107,

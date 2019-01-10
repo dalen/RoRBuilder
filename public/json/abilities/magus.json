@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Havoc",
+      "popover": {
+        "primary": "A mastery path focused on damage from afar"
+      },
       "optionalAbilities": {
         "lvl1": 5105,
         "lvl2": 5106,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Changing",
+      "popover": {
+        "primary": "A mastery path focused on faster casting shorter range damage"
+      },
       "optionalAbilities": {
         "lvl1": 5112,
         "lvl2": 5113,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Daemonology",
+      "popover": {
+        "primary": "A mastery path focused on daemons and close combat"
+      },
       "optionalAbilities": {
         "lvl1": 5084,
         "lvl2": 5120,

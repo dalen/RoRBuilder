@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Grungni",
+      "popover": {
+        "primary": "A mastery path focused on immediate, direct effects"
+      },
       "optionalAbilities": {
         "lvl1": 3868,
         "lvl2": 3869,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Valaya",
+      "popover": {
+        "primary": "A mastery path focused on longer-duration effects"
+      },
       "optionalAbilities": {
         "lvl1": 3875,
         "lvl2": 3876,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Grimnir",
+      "popover": {
+        "primary": "A mastery path focused on wide-area effects"
+      },
       "optionalAbilities": {
         "lvl1": 3882,
         "lvl2": 3883,

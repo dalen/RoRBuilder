@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Dread",
+      "popover": {
+        "primary": "A mastery path focused on offense"
+      },
       "optionalAbilities": {
         "lvl1": 4796,
         "lvl2": 4797,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Corruption",
+      "popover": {
+        "primary": "A mastery path focused on counters and defense"
+      },
       "optionalAbilities": {
         "lvl1": 4803,
         "lvl2": 4804,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Discord",
+      "popover": {
+        "primary": "A mastery path focused on magical attacks and disruption"
+      },
       "optionalAbilities": {
         "lvl1": 4810,
         "lvl2": 4811,
