@@ -1,7 +1,10 @@
 {
   "mastery": {
     "a": {
-      "name": "Path of Da Savage",
+      "name": "Path of Da' Savage",
+      "popover": {
+        "primary": "A mastery path focused on longer-duration battles"
+      },
       "optionalAbilities": {
         "lvl1": 4690,
         "lvl2": 4691,
@@ -14,7 +17,10 @@
       "coreAbilities": [4647, 4648, 4650, 4653, 4664]
     },
     "b": {
-      "name": "Path of Da Hitta",
+      "name": "Path of Da' Hitta",
+      "popover": {
+        "primary": "A mastery path focused on dealing quick exhaustive blows"
+      },
       "optionalAbilities": {
         "lvl1": 4697,
         "lvl2": 4698,
@@ -27,7 +33,10 @@
       "coreAbilities": [4652, 4654, 4658, 4663, 4746]
     },
     "c": {
-      "name": "Path of Da Wrecka",
+      "name": "Path of Da' Wrecka",
+      "popover": {
+        "primary": "A mastery path focused on area of effect offensive abilities"
+      },
       "optionalAbilities": {
         "lvl1": 4704,
         "lvl2": 4705,

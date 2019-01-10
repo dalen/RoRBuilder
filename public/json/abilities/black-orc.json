@@ -1,7 +1,10 @@
 {
   "mastery": {
     "a": {
-      "name": "Path of Da Brawler",
+      "name": "Path of Da' Brawler",
+      "popover": {
+        "primary": "A mastery path focused on stabbin' things"
+      },
       "optionalAbilities": {
         "lvl1": 4484,
         "lvl2": 4485,
@@ -14,7 +17,10 @@
       "coreAbilities": [4449, 4437, 4438, 4451, 4444]
     },
     "b": {
-      "name": "Path of Da Toughest",
+      "name": "Path of Da' Toughest",
+      "popover": {
+        "primary": "A mastery path focused on survivability which means mor' killin' later"
+      },
       "optionalAbilities": {
         "lvl1": 4491,
         "lvl2": 4494,
@@ -27,7 +33,10 @@
       "coreAbilities": [4440, 4442, 4445, 4458, 4492, 4540]
     },
     "c": {
-      "name": "Path of Da Boss",
+      "name": "Path of Da' Boss",
+      "popover": {
+        "primary": "A mastery path focused on buffs and group support, cause everyone has some killin' ta do"
+      },
       "optionalAbilities": {
         "lvl1": 4498,
         "lvl2": 4501,

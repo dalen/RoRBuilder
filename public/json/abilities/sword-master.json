@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Khaine",
+      "popover": {
+        "primary": "A mastery path focused on offence and greatswords."
+      },
       "optionalAbilities": {
         "lvl1": 2886,
         "lvl2": 2887,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Vaul",
+      "popover": {
+        "primary": "A mastery path focused on defence and protection."
+      },
       "optionalAbilities": {
         "lvl1": 2893,
         "lvl2": 2894,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Hoeth",
+      "popover": {
+        "primary": "A mastery path focused on magical attacks and effects."
+      },
       "optionalAbilities": {
         "lvl1": 2902,
         "lvl2": 2903,

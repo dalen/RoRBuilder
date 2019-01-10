@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Isha",
+      "popover": {
+        "primary": "A mastery path focused on healing and restorative powers"
+      },
       "optionalAbilities": {
         "lvl1": 3456,
         "lvl2": 3462,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Asuryan",
+      "popover": {
+        "primary": "A mastery path focused on offensive and damaging powers"
+      },
       "optionalAbilities": {
         "lvl1": 3461,
         "lvl2": 3469,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Vaul",
+      "popover": {
+        "primary": "A mastery path focused on hindering and weakening foes"
+      },
       "optionalAbilities": {
         "lvl1": 3470,
         "lvl2": 3455,

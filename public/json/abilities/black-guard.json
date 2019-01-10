@@ -2,6 +2,9 @@
   "mastery": {
     "a": {
       "name": "Path of Malice",
+      "popover": {
+        "primary": "A mastery path focused on offence"
+      },
       "optionalAbilities": {
         "lvl1": 909,
         "lvl2": 912,
@@ -15,6 +18,9 @@
     },
     "b": {
       "name": "Path of Loathing",
+      "popover": {
+        "primary": "A mastery path focused on defence and protection"
+      },
       "optionalAbilities": {
         "lvl1": 916,
         "lvl2": 917,
@@ -28,6 +34,9 @@
     },
     "c": {
       "name": "Path of Anguish",
+      "popover": {
+        "primary": "A mastery path focused on Anti-Magic"
+      },
       "optionalAbilities": {
         "lvl1": 923,
         "lvl2": 924,
