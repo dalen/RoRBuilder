@@ -110,7 +110,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "Deals X physical damage to targets 25 feet from you, and knocks them back.",
+      "description": "Deals 80 physical damage to targets 25 feet from you, and knocks them back.",
       "category": "Ability"
     },
 
@@ -126,7 +126,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "Deals X physical damage to targets within 30 feet. Enemies take a Y ability penalty to Strength for 20 seconds.",
+      "description": "Deals 73 physical damage to targets within 30 feet. Enemies take a 75 ability penalty to Strength for 20 seconds.",
       "category": "Ability"
     },
 
@@ -174,7 +174,7 @@
       "incant": "20.0s channel",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
-      "description": "Increase Block Chance by 50%. While you are channeling, you can move at 60% movement speed. After you block, the attacker takes X physical damage.",
+      "description": "Increase Block Chance by 50%. While you are channeling, you can move at 60% movement speed. After you block, the attacker takes 175 physical damage.",
       "category": "Ability"
     },
 
@@ -190,7 +190,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires Shield",
-      "description": "Group members within 100 feet will gain 200 Action Points and will absorb up to 4500 damage over 15 seconds.",
+      "description": "Group members within 100 feet will gain 200 Action Points and will absorb up to 3000 damage over 15 seconds.",
       "category": "Morale"
     },
 
@@ -254,7 +254,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "Slashes for X physical damage, and generates extra hate against monsters.",
+      "description": "Slashes for 152 physical damage, and generates extra hate against monsters.",
       "category": "Ability"
     },
 
@@ -270,7 +270,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals X physical damage to all targets 25 feet in front of you.",
+      "description": "Deals 176 physical damage to all targets 25 feet in front of you.",
       "category": "Ability"
     },
 
@@ -302,7 +302,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s shared cooldown",
       "note": "Can only have 1 war bellow active.",
-      "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to give a X ability bonus to that type of damage for 10 seconds on all group members within 100 feet. Physical damage will give a Y ability bonus to Armor instead.",
+      "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to give a 236 ability bonus to that type of damage for 10 seconds on all group members within 100 feet. Physical damage will give a 618 ability bonus to Armor instead.",
       "category": "Ability"
     },
 
@@ -318,7 +318,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s shared cooldown",
       "note": "Can only have 1 war bellow active.",
-      "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to give your group a X ability bonus to wounds for 10 seconds. Anyone affected will be healed by the amount increased.",
+      "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to give your group a 32 ability bonus to wounds for 10 seconds. Anyone affected will be healed by the amount increased.",
       "category": "Ability"
     },
 
@@ -414,7 +414,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals X physical damage and knocks target down for 3 seconds.",
+      "description": "Deals 352 physical damage and knocks target down for 3 seconds.",
       "category": "Ability"
     },
 
@@ -462,7 +462,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "Deals X physical damage. Defensive target gains a X ability bonus to weapon skill for 20 seconds.",
+      "description": "Deals 127 physical damage. Your own and defensive target gains a 75 ability bonus to weapon skill for 20 seconds.",
       "category": "Ability"
     },
 
@@ -638,7 +638,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts X physical damage. Has a chance to deal X physical damage to a severely wounded target if you are behind them.",
+      "description": "A basic throwing attack that inflicts 104 physical damage. Has a chance to deal 703 physical damage to a severely wounded target if you are behind them.",
       "category": "Ability"
     },
 
@@ -670,7 +670,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "War Bellows (Da Biggest, Da Toughest, Da Greenest) now also deal X physical damage to your offensive target.",
+      "description": "War Bellows (Da Biggest, Da Toughest, Da Greenest) now also deal 225 physical damage to your offensive target.",
       "category": "CareerTactic"
     },
 
@@ -750,7 +750,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals X physical damage. Increases cooldowns on target by 5 seconds for 10 seconds.",
+      "description": "Deals 202 physical damage. Increases cooldowns on target by 5 seconds for 10 seconds.",
       "category": "Ability"
     },
 
@@ -766,7 +766,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1800 damage over 15 seconds to all targets 40 feet in front of you. Affected targets are snared by 40% for 15 seconds.",
+      "description": "Deals 1200 damage over 15 seconds to all targets 40 feet in front of you. Affected targets are snared by 40% for 15 seconds.",
       "category": "Morale"
     },
 
@@ -814,7 +814,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "Deals X physical damage. Causes target to take a Y ability penalty to Weapon Skill for 20 seconds.",
+      "description": "Deals 177 physical damage. Causes target to take a 75 ability penalty to Weapon Skill for 20 seconds.",
       "category": "Ability"
     },
 
@@ -830,7 +830,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "Deals X physical damage. Activates protective shield that absorbs up to Y over 5 seconds for group mates within 80ft.",
+      "description": "Deals 127 physical damage. Activates protective shield that absorbs up to 400 over 5 seconds for group mates within 80ft.",
       "category": "Ability"
     },
 
@@ -878,7 +878,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals X physical damage. You gain a Y ability bonus to toughness for 20 seconds. Group members within 100 feet will take only 80% incoming magic damage for the next 4 seconds.",
+      "description": "Deals 202 physical damage. You gain a 75 ability bonus to toughness for 20 seconds. Group members within 100 feet will take only 80% incoming magic damage for the next 4 seconds.",
       "category": "Ability"
     },
 
@@ -894,7 +894,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must have an Enchantment",
-      "description": "A shattering attack that removes one Enchantment from your enemy and do X physical damage.",
+      "description": "A shattering attack that removes one Enchantment from your enemy and do 122 physical damage.",
       "category": "Ability"
     },
 
@@ -926,7 +926,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals X physical damage. Silences target for 4 seconds.",
+      "description": "Deals 302 physical damage. Silences target for 4 seconds.",
       "category": "Ability"
     },
 
@@ -942,7 +942,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "A pounding blow to your opponent's skull that deals X physical damage and for the next 10 seconds their head will ring for Y corporeal damage whenever they are Critically hit.",
+      "description": "A pounding blow to your opponent's skull that deals 177 physical damage and for the next 10 seconds their head will ring for 75 corporeal damage whenever they are Critically hit.",
       "category": "Ability"
     },
 
@@ -1022,7 +1022,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You \"trip\" your opponent by hacking at their legs for X physical damage, reducing their movement speed by 40% for 10 seconds.",
+      "description": "You \"trip\" your opponent by hacking at their legs for 127 physical damage, reducing their movement speed by 40% for 10 seconds.",
       "category": "Ability"
     },
 
@@ -1038,7 +1038,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "Deals X physical damage. Gain a Y ability bonus to armor for 20 seconds..",
+      "description": "Deals 152 physical damage. Gain a 618 ability bonus to armor for 20 seconds..",
       "category": "Ability"
     },
 
@@ -1070,7 +1070,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!<br>Requires 13 points in Path of Da Boss",
-      "description": "Deals X Corporeal damage to all targets within 30 feet. Causes enemies to take a X ability penalty to Corporeal Resistance for 20 seconds. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds.",
+      "description": "Deals 173 Corporeal damage to all targets within 30 feet. Causes enemies to take a 236 ability penalty to Corporeal Resistance for 20 seconds. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds.",
       "category": "Ability"
     },
 
@@ -1134,7 +1134,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "Deals X physical damage. Causes the target to take a Y ability penalty to Armor for 20 seconds.",
+      "description": "Deals 102 physical damage. Causes the target to take a Y ability penalty to Armor for 20 seconds.",
       "category": "Ability"
     },
 
@@ -1150,7 +1150,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Block<br>Leads to da' Gud Plan!",
-      "description": "Deals X undefendable physical damage. Target's physical damage done is reduced to 80% for 10 seconds.",
+      "description": "Deals 127 undefendable physical damage. Target's physical damage done is reduced to 80% for 10 seconds.",
       "category": "Ability"
     },
 
@@ -1166,7 +1166,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1800 damage over 12 seconds to all targets within 30 feet in of you. Affected targets lose 30 seconds of Morale over 12 seconds.",
+      "description": "Deals 1200 damage over 12 seconds to all targets within 30 feet in of you. Affected targets lose 30 seconds of Morale over 12 seconds.",
       "category": "Morale"
     },
 
