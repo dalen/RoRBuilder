@@ -10,7 +10,7 @@
         "lvl2": 5631,
         "lvl3": 5625,
         "lvl4": 5626,
-        "lvl5": 5627,
+        "lvl5": 2991,
         "lvl6": 5628,
         "lvl7": 5629
       },
@@ -375,14 +375,14 @@
       "id": 5627,
       "name": "Broad Severing",
       "type": "Buff",
-      "spec": "Path of Carnage",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the range of Slice's arc to 30 feet and removes the target limitation.",
+      "description": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within 25 feet, but Slice will do 10% less damage.",
       "category": "CareerTactic"
     },
 
@@ -1631,6 +1631,22 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "22708",
+      "id": 2991,
+      "name": "Bleeding Edge",
+      "type": "Buff",
+      "spec": "Path of Carnage",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Armour Penetration is increased by 50% for 3 serconds after successful use of your Frenzies.",
       "category": "CareerTactic"
     }
   ]
