@@ -549,7 +549,7 @@
     {
       "image": "10901",
       "id": 5624,
-      "name": "Elixir of Insane Power",
+      "name": "Elixir of Shadows",
       "type": "Buff",
       "spec": "Path of Suffering",
       "minrank": "1",
@@ -558,7 +558,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A vile brew which drives you into a rage for the next 7 seconds. All of your attacks will ignore 50% of the victim's armor.<br>You may only use a single Elixir at a time.",
+      "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 seconds.<br />You may only use a single Elixir at a time.",
       "category": "Ability"
     },
 
