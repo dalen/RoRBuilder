@@ -1,7 +1,7 @@
-@value spacing from "../values/spacing.css";
+@import '../values/spacing.css';
+@import '../values/widths.css';
 @value color-transparent-white, color-text-primary from "../values/colours.css";
 @value font-size-4 from "../values/fontSizes.css";
-@import '../values/widths.css';
 
 .container {
   display: flex;
@@ -12,7 +12,7 @@
   margin-right: var(--width-sidebar);
 }
 .title {
-  margin-left: spacing;
+  margin-left: var(--spacing);
   color: color-text-primary;
   font-size: font-size-4;
 }

@@ -1,5 +1,5 @@
+@import '../values/spacing.css';
 @value color-base-4, color-base-5 from "../values/colours.css";
-@value spacing from "../values/spacing.css";
 @value mq-mobile, mq-md-min from "../values/mediaQueries.css";
 
 .modal {
@@ -30,12 +30,12 @@
   }
 }
 .content {
-  margin-bottom: spacing;
+  margin-bottom: var(--spacing);
 }
 .footer {
   display: flex;
   justify-content: flex-end;
 }
 .close {
-  composes: buttonSecondary from "../shared/button.css";
+  composes: buttonSecondary from '../shared/button.css';
 }

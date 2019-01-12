@@ -1,5 +1,5 @@
+@import '../values/spacing.css';
 @value color-base-1, color-text-primary, color-text-secondary from "../values/colours.css";
-@value spacing, spacing-medium, spacing-small from "../values/spacing.css";
 @value mq-mobile, mq-sm-min from "../values/mediaQueries.css";
 @value font-size-1, font-size-4 from "../values/fontSizes.css";
 
@@ -33,7 +33,7 @@
 }
 .mastheadOverlay {
   height: 100%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .mastheadTitle {
   font-size: 4.8rem;
@@ -46,8 +46,8 @@
 @media mq-mobile {
   .mastheadTitle {
     font-size: 4rem;
-    margin-right: spacing;
-    margin-left: spacing;
+    margin-right: var(--spacing);
+    margin-left: var(--spacing);
   }
 }
 .mastheadTitleActive {
@@ -69,7 +69,7 @@
   opacity: 1;
   transition: all 500ms ease;
   text-align: center;
-  margin-top: spacing-medium;
+  margin-top: var(--spacing-medium);
 }
 .mastheadCtaActive {
   composes: mastheadCta;
@@ -77,14 +77,14 @@
   margin-top: -10rem;
 }
 .mastheadCtaButton {
-  composes: buttonSecondaryInverseLarge from "../shared/button.css";
+  composes: buttonSecondaryInverseLarge from '../shared/button.css';
 }
 .mastheadFooter {
   opacity: 0;
   transition: all 500ms ease;
   position: absolute;
-  bottom: spacing;
-  right: spacing;
+  bottom: var(--spacing);
+  right: var(--spacing);
   color: color-text-secondary;
   font-size: font-size-1;
   text-decoration: none;
@@ -102,9 +102,9 @@
   flex-grow: 0;
   flex-basis: 40%;
   opacity: 0;
-  padding: spacing-medium;
+  padding: var(--spacing-medium);
   transition: all 500ms ease;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   font-weight: 200;
 }
 .careersContainerActive {
@@ -132,11 +132,11 @@
 .careersTitle {
   font-size: font-size-4;
   font-weight: 400;
-  margin-bottom: spacing;
+  margin-bottom: var(--spacing);
   color: color-text-secondary;
 }
 .careersItem {
-  margin-bottom: spacing-small;
+  margin-bottom: var(--spacing-small);
 }
 .careersFaction {
   display: flex;
@@ -150,7 +150,7 @@
 }
 .careersRace {
   flex-basis: auto;
-  margin-bottom: spacing-medium;
+  margin-bottom: var(--spacing-medium);
   flex-grow: 1;
 }
 @media mq-sm-min {
@@ -159,9 +159,9 @@
   }
 }
 .careersRaceTitle {
-  composes: heading2Light from "../shared/heading.css";
+  composes: heading2Light from '../shared/heading.css';
   margin-bottom: 0;
 }
 .careersRaceIcon {
-  composes: careerIconSmaller from "../shared/careerIcon.css";
+  composes: careerIconSmaller from '../shared/careerIcon.css';
 }

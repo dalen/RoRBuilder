@@ -1,27 +1,27 @@
-@value spacing, spacing-extra-small, spacing-small, spacing-medium, spacing-large, spacing-extra-large from "./values/spacing.css";
+@import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "./values/mediaQueries.css";
 
 :global {
   .paddingBottom {
-    padding-bottom: spacing;
+    padding-bottom: var(--spacing);
     &--extra-small {
-      padding-bottom: spacing-extra-small;
+      padding-bottom: var(--spacing-extra-small);
     }
     &--small {
-      padding-bottom: spacing-small;
+      padding-bottom: var(--spacing-small);
     }
     &--medium {
-      padding-bottom: spacing-medium;
+      padding-bottom: var(--spacing-medium);
     }
     &--large {
-      padding-bottom: spacing-large;
+      padding-bottom: var(--spacing-large);
     }
     &--extra-large {
-      padding-bottom: spacing-extra-large;
+      padding-bottom: var(--spacing-extra-large);
     }
     &\@mobile {
       @media mq-mobile {
-        padding-bottom: spacing;
+        padding-bottom: var(--spacing);
       }
     }
     &--none {

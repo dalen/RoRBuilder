@@ -1,18 +1,18 @@
-@value spacing, spacing-small from "../values/spacing.css";
+@import '../values/spacing.css';
 @value color-text-secondary from "../values/colours.css";
 @value font-size-1 from "../values/fontSizes.css";
 @value mq-md-min from "../values/mediaQueries.css";
 
 .container {
-  composes: box from "../shared/box.css";
+  composes: box from '../shared/box.css';
 }
 .heading {
-  composes: heading1Light from "../shared/heading.css";
+  composes: heading1Light from '../shared/heading.css';
 }
 .item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: spacing;
+  margin-bottom: var(--spacing);
   color: color-text-secondary;
   font-size: font-size-1;
   font-weight: 300;
@@ -24,7 +24,7 @@
   }
 }
 .itemIcon {
-  padding-right: spacing-small;
+  padding-right: var(--spacing-small);
 }
 .itemDate {
   width: 7rem;
@@ -33,7 +33,7 @@
 }
 .itemText {
   width: 100%;
-  margin-top: spacing-small;
+  margin-top: var(--spacing-small);
   padding-left: 1.3rem;
   a {
     color: color-text-secondary;

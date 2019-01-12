@@ -1,6 +1,6 @@
+@import '../values/spacing.css';
 @value font-size-3, font-size-4, font-size-5 from "../values/fontSizes.css";
 @value color-text-secondary, color-text-primary from "../values/colours.css";
-@value spacing, spacing-medium from "../values/spacing.css";
 @value mq-mobile from "../values/mediaQueries.css";
 
 .heading {
@@ -11,7 +11,7 @@
 .heading1 {
   composes: heading;
   font-size: font-size-4;
-  margin-bottom: spacing-medium;
+  margin-bottom: var(--spacing-medium);
 }
 .heading1Light {
   composes: heading1;
@@ -20,7 +20,7 @@
 .heading2 {
   composes: heading;
   font-size: font-size-3;
-  margin-bottom: spacing;
+  margin-bottom: var(--spacing);
 }
 .heading2Light {
   composes: heading2;

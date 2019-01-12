@@ -1,4 +1,4 @@
-@value spacing-medium from "../values/spacing.css";
+@import '../values/spacing.css';
 @value font-size-1, font-size-2 from "../values/fontSizes.css";
 @value color-base-0, color-base-3, color-base-6, color-text-primary from "../values/colours.css";
 
@@ -6,16 +6,16 @@
 @value modalSelectablePadding: 1rem;
 
 .modalTitle {
-  composes: headingCareerSmall from "../shared/heading.css";
+  composes: headingCareerSmall from '../shared/heading.css';
 }
 .modalTitleIcon {
-  composes: careerIconSmall from "../shared/careerIcon.css";
+  composes: careerIconSmall from '../shared/careerIcon.css';
 }
 .modalCopy {
   color: color-text-primary;
   font-size: font-size-2;
-  margin-bottom: spacing-medium;
-  margin-top: spacing-medium;
+  margin-bottom: var(--spacing-medium);
+  margin-top: var(--spacing-medium);
 }
 .modalSelectable {
   display: block;

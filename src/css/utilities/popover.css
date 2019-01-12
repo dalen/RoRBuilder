@@ -19,7 +19,7 @@
     color: color-text-primary;
     border-radius: 0.4rem;
     opacity: 0;
-    transition: opacity .2s linear;
+    transition: opacity 0.2s linear;
     @media mq-mobile {
       position: fixed;
       width: calc(100% - 2rem);

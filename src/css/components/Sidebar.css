@@ -1,7 +1,6 @@
-@value color-base-0, color-base-1, color-base-2, color-base-5, color-text-secondary from "../values/colours.css";
-@value spacing-small from "../values/spacing.css";
-@value font-size-1 from "../values/fontSizes.css";
 @import '../values/widths.css';
+@value color-base-0, color-base-1, color-base-2, color-base-5, color-text-secondary from "../values/colours.css";
+@value font-size-1 from "../values/fontSizes.css";
 
 :root {
   --width-sidebar-border: 0.2rem;

@@ -1,5 +1,5 @@
+@import '../values/spacing.css';
 @value font-size-1, font-size-2, font-size-3 from "../values/fontSizes.css";
-@value spacing, spacing-small from "../values/spacing.css";
 @value color-text-secondary, color-base-0 from "../values/colours.css";
 @value mq-mobile from "../values/mediaQueries.css";
 @value height-select from "../values/heights.css";
@@ -12,7 +12,7 @@
 .selectLabel {
   color: color-text-secondary;
   font-size: font-size-3;
-  margin-right: spacing;
+  margin-right: var(--spacing);
 }
 @media mq-mobile {
   .selectLabel {
@@ -24,8 +24,8 @@
   font-size: font-size-1;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: spacing-small;
-  padding-right: spacing-small;
+  padding-left: var(--spacing-small);
+  padding-right: var(--spacing-small);
   border: 1px solid color-base-0;
   border-radius: 0;
 }

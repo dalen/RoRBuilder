@@ -1,4 +1,4 @@
-@value spacing-small, spacing from "../values/spacing.css";
+@import '../values/spacing.css';
 @value font-size-1 from "../values/fontSizes.css";
 @value color-text-secondary from "../values/colours.css";
 
@@ -16,5 +16,5 @@
   }
 }
 .icon {
-  composes: careerIconSmallest from "../shared/careerIcon.css";
+  composes: careerIconSmallest from '../shared/careerIcon.css';
 }

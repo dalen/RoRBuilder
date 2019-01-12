@@ -1,16 +1,16 @@
+@import '../values/spacing.css';
 @value color-base-0, color-base-6, color-points, color-text-primary from "../values/colours.css";
 @value font-size-3, font-size-2 from "../values/fontSizes.css";
 @value mq-mobile from "../values/mediaQueries.css";
-@value spacing, spacing-small from "../values/spacing.css";
 
 @value label-padding: 0.3rem;
 
 .container {
-  composes: box from "../shared/box.css";
+  composes: box from '../shared/box.css';
   padding-right: 0;
 }
 .heading {
-  composes: heading1 from "../shared/heading.css";
+  composes: heading1 from '../shared/heading.css';
 }
 .label {
   position: relative;
@@ -31,13 +31,13 @@
   color: color-text-primary;
 }
 .subHeading {
-  composes: heading2 from "../shared/heading.css";
+  composes: heading2 from '../shared/heading.css';
   display: flex;
   align-items: center;
 }
 .subHeadingSmall {
-  composes: heading2Light from "../shared/heading.css";
+  composes: heading2Light from '../shared/heading.css';
   font-size: font-size-2;
-  margin-top: spacing;
-  margin-bottom: spacing-small;
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing-small);
 }

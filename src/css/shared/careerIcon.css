@@ -1,11 +1,11 @@
+@import '../values/spacing.css';
 @value color-base-5 from "../values/colours.css";
-@value spacing-small from "../values/spacing.css";
 @value mq-mobile from "../values/mediaQueries.css";
 
 .careerIcon {
   width: 2.8rem;
   height: 2.8rem;
-  margin-right: spacing-small;
+  margin-right: var(--spacing-small);
 }
 @media mq-mobile {
   .careerIcon {

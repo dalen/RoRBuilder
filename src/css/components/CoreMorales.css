@@ -1,12 +1,12 @@
+@import '../values/spacing.css';
 @value color-base-6 from "../values/colours.css";
-@value spacing-small, spacing from "../values/spacing.css";
 @value mq-mobile from "../values/mediaQueries.css";
 
 .container {
-  composes: box from "../shared/box.css"
+  composes: box from '../shared/box.css';
 }
 .heading {
-  composes: heading1 from "../shared/heading.css";
+  composes: heading1 from '../shared/heading.css';
 }
 .moraleContainer {
   display: flex;
@@ -18,15 +18,15 @@
 }
 .morale {
   display: flex;
-	flex-grow: 1;
-	flex-direction: column;
-	border-right: 1px solid color-base-6;
-	padding-left: spacing-small;
+  flex-grow: 1;
+  flex-direction: column;
+  border-right: 1px solid color-base-6;
+  padding-left: var(--spacing-small);
 }
 @media mq-mobile {
   .morale {
     padding-left: 0;
-    padding-bottom: spacing;
+    padding-bottom: var(--spacing);
     border-right: 0;
   }
 }
@@ -39,5 +39,5 @@
   border-right: none;
 }
 .moraleHeading {
-  composes: heading2 from "../shared/heading.css";
+  composes: heading2 from '../shared/heading.css';
 }

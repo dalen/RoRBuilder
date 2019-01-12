@@ -70,8 +70,8 @@
 
   .grid-col-1-8,
   .grid-col-3-24 {
-    width: 12.5000%;
-    *width: 12.4690%;
+    width: 12.5%;
+    *width: 12.469%;
   }
 
   .grid-col-1-6,
@@ -88,7 +88,7 @@
   .grid-col-1-4,
   .grid-col-6-24 {
     width: 25%;
-    *width: 24.9690%;
+    *width: 24.969%;
   }
 
   .grid-col-7-24 {
@@ -104,8 +104,8 @@
 
   .grid-col-3-8,
   .grid-col-9-24 {
-    width: 37.5000%;
-    *width: 37.4690%;
+    width: 37.5%;
+    *width: 37.469%;
   }
 
   .grid-col-5-12,
@@ -122,7 +122,7 @@
   .grid-col-1-2,
   .grid-col-12-24 {
     width: 50%;
-    *width: 49.9690%;
+    *width: 49.969%;
   }
 
   .grid-col-13-24 {
@@ -138,8 +138,8 @@
 
   .grid-col-5-8,
   .grid-col-15-24 {
-    width: 62.5000%;
-    *width: 62.4690%;
+    width: 62.5%;
+    *width: 62.469%;
   }
 
   .grid-col-2-3,
@@ -156,7 +156,7 @@
   .grid-col-3-4,
   .grid-col-18-24 {
     width: 75%;
-    *width: 74.9690%;
+    *width: 74.969%;
   }
 
   .grid-col-19-24 {
@@ -172,8 +172,8 @@
 
   .grid-col-7-8,
   .grid-col-21-24 {
-    width: 87.5000%;
-    *width: 87.4690%;
+    width: 87.5%;
+    *width: 87.469%;
   }
 
   .grid-col-11-12,
@@ -253,12 +253,12 @@
     .grid-col-2-24\@mobile {
       width: 8.3333%;
       *width: 8.3023%;
-  }
+    }
 
     .grid-col-1-8\@mobile,
     .grid-col-3-24\@mobile {
-      width: 12.5000%;
-      *width: 12.4690%;
+      width: 12.5%;
+      *width: 12.469%;
     }
 
     .grid-col-1-6\@mobile,
@@ -275,7 +275,7 @@
     .grid-col-1-4\@mobile,
     .grid-col-6-24\@mobile {
       width: 25%;
-      *width: 24.9690%;
+      *width: 24.969%;
     }
 
     .grid-col-mobile-7-24\@mobile {
@@ -291,8 +291,8 @@
 
     .grid-col-3-8\@mobile,
     .grid-col-9-24\@mobile {
-      width: 37.5000%;
-      *width: 37.4690%;
+      width: 37.5%;
+      *width: 37.469%;
     }
 
     .grid-col-5-12\@mobile,
@@ -309,7 +309,7 @@
     .grid-col-1-2\@mobile,
     .grid-col-12-24\@mobile {
       width: 50%;
-      *width: 49.9690%;
+      *width: 49.969%;
     }
 
     .grid-col-13-24\@mobile {
@@ -325,8 +325,8 @@
 
     .grid-col-5-8\@mobile,
     .grid-col-15-24\@mobile {
-      width: 62.5000%;
-      *width: 62.4690%;
+      width: 62.5%;
+      *width: 62.469%;
     }
 
     .grid-col-2-3\@mobile,
@@ -343,7 +343,7 @@
     .grid-col-3-4\@mobile,
     .grid-col-18-24\@mobile {
       width: 75%;
-      *width: 74.9690%;
+      *width: 74.969%;
     }
 
     .grid-col-19-24\@mobile {
@@ -359,8 +359,8 @@
 
     .grid-col-7-8\@mobile,
     .grid-col-21-24\@mobile {
-      width: 87.5000%;
-      *width: 87.4690%;
+      width: 87.5%;
+      *width: 87.469%;
     }
 
     .grid-col-11-12\@mobile,
@@ -445,8 +445,8 @@
 
     .grid-col-1-8\@xs,
     .grid-col-3-24\@xs {
-      width: 12.5000%;
-      *width: 12.4690%;
+      width: 12.5%;
+      *width: 12.469%;
     }
 
     .grid-col-1-6\@xs,
@@ -463,7 +463,7 @@
     .grid-col-1-4\@xs,
     .grid-col-6-24\@xs {
       width: 25%;
-      *width: 24.9690%;
+      *width: 24.969%;
     }
 
     .grid-col-7-24\@xs {
@@ -479,8 +479,8 @@
 
     .grid-col-3-8\@xs,
     .grid-col-9-24\@xs {
-      width: 37.5000%;
-      *width: 37.4690%;
+      width: 37.5%;
+      *width: 37.469%;
     }
 
     .grid-col-5-12\@xs,
@@ -497,7 +497,7 @@
     .grid-col-1-2\@xs,
     .grid-col-12-24\@xs {
       width: 50%;
-      *width: 49.9690%;
+      *width: 49.969%;
     }
 
     .grid-col-13-24\@xs {
@@ -513,8 +513,8 @@
 
     .grid-col-5-8\@xs,
     .grid-col-15-24\@xs {
-      width: 62.5000%;
-      *width: 62.4690%;
+      width: 62.5%;
+      *width: 62.469%;
     }
 
     .grid-col-2-3\@xs,
@@ -531,7 +531,7 @@
     .grid-col-3-4\@xs,
     .grid-col-18-24\@xs {
       width: 75%;
-      *width: 74.9690%;
+      *width: 74.969%;
     }
 
     .grid-col-19-24\@xs {
@@ -547,8 +547,8 @@
 
     .grid-col-7-8\@xs,
     .grid-col-21-24\@xs {
-      width: 87.5000%;
-      *width: 87.4690%;
+      width: 87.5%;
+      *width: 87.469%;
     }
 
     .grid-col-11-12\@xs,
@@ -633,8 +633,8 @@
 
     .grid-col-1-8\@sm,
     .grid-col-3-24\@sm {
-      width: 12.5000%;
-      *width: 12.4690%;
+      width: 12.5%;
+      *width: 12.469%;
     }
 
     .grid-col-1-6\@sm,
@@ -651,7 +651,7 @@
     .grid-col-1-4\@sm,
     .grid-col-6-24\@sm {
       width: 25%;
-      *width: 24.9690%;
+      *width: 24.969%;
     }
 
     .grid-col-7-24\@sm {
@@ -667,8 +667,8 @@
 
     .grid-col-3-8\@sm,
     .grid-col-9-24\@sm {
-      width: 37.5000%;
-      *width: 37.4690%;
+      width: 37.5%;
+      *width: 37.469%;
     }
 
     .grid-col-5-12\@sm,
@@ -685,7 +685,7 @@
     .grid-col-1-2\@sm,
     .grid-col-12-24\@sm {
       width: 50%;
-      *width: 49.9690%;
+      *width: 49.969%;
     }
 
     .grid-col-13-24\@sm {
@@ -701,8 +701,8 @@
 
     .grid-col-5-8\@sm,
     .grid-col-15-24\@sm {
-      width: 62.5000%;
-      *width: 62.4690%;
+      width: 62.5%;
+      *width: 62.469%;
     }
 
     .grid-col-2-3\@sm,
@@ -719,7 +719,7 @@
     .grid-col-3-4\@sm,
     .grid-col-18-24\@sm {
       width: 75%;
-      *width: 74.9690%;
+      *width: 74.969%;
     }
 
     .grid-col-19-24\@sm {
@@ -735,8 +735,8 @@
 
     .grid-col-7-8\@sm,
     .grid-col-21-24\@sm {
-      width: 87.5000%;
-      *width: 87.4690%;
+      width: 87.5%;
+      *width: 87.469%;
     }
 
     .grid-col-11-12\@sm,
@@ -821,8 +821,8 @@
 
     .grid-col-1-8\@sm-min,
     .grid-col-3-24\@sm-min {
-      width: 12.5000%;
-      *width: 12.4690%;
+      width: 12.5%;
+      *width: 12.469%;
     }
 
     .grid-col-1-6\@sm-min,
@@ -839,7 +839,7 @@
     .grid-col-1-4\@sm-min,
     .grid-col-6-24\@sm-min {
       width: 25%;
-      *width: 24.9690%;
+      *width: 24.969%;
     }
 
     .grid-col-7-24\@sm-min {
@@ -855,8 +855,8 @@
 
     .grid-col-3-8\@sm-min,
     .grid-col-9-24\@sm-min {
-      width: 37.5000%;
-      *width: 37.4690%;
+      width: 37.5%;
+      *width: 37.469%;
     }
 
     .grid-col-5-12\@sm-min,
@@ -873,7 +873,7 @@
     .grid-col-1-2\@sm-min,
     .grid-col-12-24\@sm-min {
       width: 50%;
-      *width: 49.9690%;
+      *width: 49.969%;
     }
 
     .grid-col-13-24\@sm-min {
@@ -889,8 +889,8 @@
 
     .grid-col-5-8\@sm-min,
     .grid-col-15-24\@sm-min {
-      width: 62.5000%;
-      *width: 62.4690%;
+      width: 62.5%;
+      *width: 62.469%;
     }
 
     .grid-col-2-3\@sm-min,
@@ -907,7 +907,7 @@
     .grid-col-3-4\@sm-min,
     .grid-col-18-24\@sm-min {
       width: 75%;
-      *width: 74.9690%;
+      *width: 74.969%;
     }
 
     .grid-col-19-24\@sm-min {
@@ -923,8 +923,8 @@
 
     .grid-col-7-8\@sm-min,
     .grid-col-21-24\@sm-min {
-      width: 87.5000%;
-      *width: 87.4690%;
+      width: 87.5%;
+      *width: 87.469%;
     }
 
     .grid-col-11-12\@sm-min,
@@ -1009,8 +1009,8 @@
 
     .grid-col-1-8\@md,
     .grid-col-3-24\@md {
-      width: 12.5000%;
-      *width: 12.4690%;
+      width: 12.5%;
+      *width: 12.469%;
     }
 
     .grid-col-1-6\@md,
@@ -1027,7 +1027,7 @@
     .grid-col-1-4\@md,
     .grid-col-6-24\@md {
       width: 25%;
-      *width: 24.9690%;
+      *width: 24.969%;
     }
 
     .grid-col-7-24\@md {
@@ -1043,8 +1043,8 @@
 
     .grid-col-3-8\@md,
     .grid-col-9-24\@md {
-      width: 37.5000%;
-      *width: 37.4690%;
+      width: 37.5%;
+      *width: 37.469%;
     }
 
     .grid-col-5-12\@md,
@@ -1061,7 +1061,7 @@
     .grid-col-1-2\@md,
     .grid-col-12-24\@md {
       width: 50%;
-      *width: 49.9690%;
+      *width: 49.969%;
     }
 
     .grid-col-13-24\@md {
@@ -1077,8 +1077,8 @@
 
     .grid-col-5-8\@md,
     .grid-col-15-24\@md {
-      width: 62.5000%;
-      *width: 62.4690%;
+      width: 62.5%;
+      *width: 62.469%;
     }
 
     .grid-col-2-3\@md,
@@ -1095,7 +1095,7 @@
     .grid-col-3-4\@md,
     .grid-col-18-24\@md {
       width: 75%;
-      *width: 74.9690%;
+      *width: 74.969%;
     }
 
     .grid-col-19-24\@md {
@@ -1111,8 +1111,8 @@
 
     .grid-col-7-8\@md,
     .grid-col-21-24\@md {
-      width: 87.5000%;
-      *width: 87.4690%;
+      width: 87.5%;
+      *width: 87.469%;
     }
 
     .grid-col-11-12\@md,
@@ -1197,8 +1197,8 @@
 
     .grid-col-1-8\@md-min,
     .grid-col-3-24\@md-min {
-      width: 12.5000%;
-      *width: 12.4690%;
+      width: 12.5%;
+      *width: 12.469%;
     }
 
     .grid-col-1-6\@md-min,
@@ -1215,7 +1215,7 @@
     .grid-col-1-4\@md-min,
     .grid-col-6-24\@md-min {
       width: 25%;
-      *width: 24.9690%;
+      *width: 24.969%;
     }
 
     .grid-col-7-24\@md-min {
@@ -1231,8 +1231,8 @@
 
     .grid-col-3-8\@md-min,
     .grid-col-9-24\@md-min {
-      width: 37.5000%;
-      *width: 37.4690%;
+      width: 37.5%;
+      *width: 37.469%;
     }
 
     .grid-col-5-12\@md-min,
@@ -1249,7 +1249,7 @@
     .grid-col-1-2\@md-min,
     .grid-col-12-24\@md-min {
       width: 50%;
-      *width: 49.9690%;
+      *width: 49.969%;
     }
 
     .grid-col-13-24\@md-min {
@@ -1265,8 +1265,8 @@
 
     .grid-col-5-8\@md-min,
     .grid-col-15-24\@md-min {
-      width: 62.5000%;
-      *width: 62.4690%;
+      width: 62.5%;
+      *width: 62.469%;
     }
 
     .grid-col-2-3\@md-min,
@@ -1283,7 +1283,7 @@
     .grid-col-3-4\@md-min,
     .grid-col-18-24\@md-min {
       width: 75%;
-      *width: 74.9690%;
+      *width: 74.969%;
     }
 
     .grid-col-19-24\@md-min {
@@ -1299,8 +1299,8 @@
 
     .grid-col-7-8\@md-min,
     .grid-col-21-24\@md-min {
-      width: 87.5000%;
-      *width: 87.4690%;
+      width: 87.5%;
+      *width: 87.469%;
     }
 
     .grid-col-11-12\@md-min,
@@ -1385,8 +1385,8 @@
 
     .grid-col-1-8\@lg,
     .grid-col-3-24\@lg {
-      width: 12.5000%;
-      *width: 12.4690%;
+      width: 12.5%;
+      *width: 12.469%;
     }
 
     .grid-col-1-6\@lg,
@@ -1403,7 +1403,7 @@
     .grid-col-1-4\@lg,
     .grid-col-6-24\@lg {
       width: 25%;
-      *width: 24.9690%;
+      *width: 24.969%;
     }
 
     .grid-col-7-24\@lg {
@@ -1419,8 +1419,8 @@
 
     .grid-col-3-8\@lg,
     .grid-col-9-24\@lg {
-      width: 37.5000%;
-      *width: 37.4690%;
+      width: 37.5%;
+      *width: 37.469%;
     }
 
     .grid-col-5-12\@lg,
@@ -1437,7 +1437,7 @@
     .grid-col-1-2\@lg,
     .grid-col-12-24\@lg {
       width: 50%;
-      *width: 49.9690%;
+      *width: 49.969%;
     }
 
     .grid-col-13-24\@lg {
@@ -1453,8 +1453,8 @@
 
     .grid-col-5-8\@lg,
     .grid-col-15-24\@lg {
-      width: 62.5000%;
-      *width: 62.4690%;
+      width: 62.5%;
+      *width: 62.469%;
     }
 
     .grid-col-2-3\@lg,
@@ -1471,7 +1471,7 @@
     .grid-col-3-4\@lg,
     .grid-col-18-24\@lg {
       width: 75%;
-      *width: 74.9690%;
+      *width: 74.969%;
     }
 
     .grid-col-19-24\@lg {
@@ -1487,8 +1487,8 @@
 
     .grid-col-7-8\@lg,
     .grid-col-21-24\@lg {
-      width: 87.5000%;
-      *width: 87.4690%;
+      width: 87.5%;
+      *width: 87.469%;
     }
 
     .grid-col-11-12\@lg,

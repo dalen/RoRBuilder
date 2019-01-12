@@ -1,23 +1,23 @@
-@value spacing from "../values/spacing.css";
+@import '../values/spacing.css';
 
 .container {
-  composes: box from "../shared/box.css";
+  composes: box from '../shared/box.css';
 }
 .home {
-  composes: buttonSecondary from "../shared/button.css";
+  composes: buttonSecondary from '../shared/button.css';
 }
 .reset {
-  composes: buttonNegative from "../shared/button.css";
+  composes: buttonNegative from '../shared/button.css';
   float: right;
-  margin-left: spacing;
+  margin-left: var(--spacing);
 }
 .change {
-  composes: buttonSecondary from "../shared/button.css";
+  composes: buttonSecondary from '../shared/button.css';
   float: right;
-  margin-left: spacing;
+  margin-left: var(--spacing);
 }
 .share {
-  composes: buttonPrimary from "../shared/button.css";
+  composes: buttonPrimary from '../shared/button.css';
   float: right;
-  margin-left: spacing;
+  margin-left: var(--spacing);
 }

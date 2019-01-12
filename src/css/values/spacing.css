@@ -1,6 +1,8 @@
-@value spacing: 1rem;
-@value spacing-extra-small: 0.2rem;
-@value spacing-small: 0.5rem;
-@value spacing-medium: 2rem;
-@value spacing-large: 4rem;
-@value spacing-extra-large: 5rem;
+:root {
+  --spacing: 1rem;
+  --spacing-extra-small: 0.2rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 2rem;
+  --spacing-large: 4rem;
+  --spacing-extra-large: 5rem;
+}

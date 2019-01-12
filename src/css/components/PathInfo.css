@@ -1,4 +1,4 @@
-@value spacing, spacing-small from "../values/spacing.css";
+@import '../values/spacing.css';
 @value color-text-primary, color-primary, color-secondary, color-secondary-1, color-popover-ability-primary from "../values/colours.css";
 @value font-size-0, font-size-1, font-size-2 from "../values/fontSizes.css";
 
@@ -6,10 +6,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: spacing-small;
+  margin-left: var(--spacing-small);
   background-color: color-secondary;
   border: 1px solid color-secondary-1;
-  padding: spacing-small;
+  padding: var(--spacing-small);
   border-radius: 50%;
   width: 0.5rem;
   height: 0.5rem;
@@ -27,7 +27,7 @@
   color: color-popover-ability-primary;
   font-weight: normal;
   font-size: font-size-2;
-  margin-bottom: spacing;
+  margin-bottom: var(--spacing);
 }
 
 .popoverSecondary {

@@ -1,4 +1,4 @@
-@value spacing, spacing-small from "../values/spacing.css";
+@import '../values/spacing.css';
 @value mq-sm-min, mq-mobile from "../values/mediaQueries.css";
 @value color-text-primary, color-primary, color-primary-1, color-primary-2, color-secondary, color-secondary-1, color-secondary-2, color-negative, color-negative-1, color-negative-2 from "../values/colours.css";
 @value font-size-2 from "../values/fontSizes.css";
@@ -16,22 +16,24 @@
   color: color-text-primary;
   font-weight: 300;
   font-size: font-size-2;
-  padding-top: spacing-small;
-  padding-right: spacing-small;
-  padding-bottom: spacing-small;
-  padding-left: spacing-small;
+  padding-top: var(--spacing-small);
+  padding-right: var(--spacing-small);
+  padding-bottom: var(--spacing-small);
+  padding-left: var(--spacing-small);
 }
 @media mq-sm-min {
   .button {
-    padding-right: spacing;
-    padding-left: spacing;
+    padding-right: var(--spacing);
+    padding-left: var(--spacing);
   }
 }
 .buttonPrimary {
   composes: button;
   background-color: color-primary;
   border: 1px solid color-primary-1;
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     background-color: color-primary-2;
   }
 }
@@ -39,7 +41,9 @@
   composes: button;
   background-color: color-secondary;
   border: 1px solid color-secondary-1;
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     background-color: color-secondary-2;
   }
 }
@@ -47,27 +51,31 @@
   composes: button;
   background-color: color-secondary-1;
   border: 1px solid color-secondary;
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     background-color: color-secondary-2;
   }
 }
 .buttonSecondaryInverseLarge {
   composes: buttonSecondaryInverse;
   font-size: 2rem;
-  padding-top: spacing;
-  padding-bottom: spacing;
+  padding-top: var(--spacing);
+  padding-bottom: var(--spacing);
 }
 @media mq-mobile {
   .buttonSecondaryInverseLarge {
-    padding-left: spacing;
-    padding-right: spacing;
+    padding-left: var(--spacing);
+    padding-right: var(--spacing);
   }
 }
 .buttonNegative {
   composes: button;
   background-color: color-negative;
   border: 1px solid color-negative-1;
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     background-color: color-negative-2;
   }
 }
