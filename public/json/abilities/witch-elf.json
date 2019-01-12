@@ -1070,7 +1070,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent<br>Requires 13 points in Path of Carnage",
-      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them.<br>  1 Blood Lust: 108 damage per hit, 30 feet radius.<br>  2 Blood Lust: 133 damage per hit, 35 feet radius.<br>  3 Blood Lust: 159 damage per hit, 40 feet radius.<br>  4 Blood Lust: 183 damage per hit, 43.3 feet radius.<br>  5 Blood Lust: 208 damage per hit, 48.3 feet radius.",
+      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them reducing their Morale by 300, inspired, your group gains 300 Morale.<br>  1 Blood Lust: 108 damage per hit, 30 feet radius.<br>  2 Blood Lust: 133 damage per hit, 35 feet radius.<br>  3 Blood Lust: 159 damage per hit, 40 feet radius.<br>  4 Blood Lust: 183 damage per hit, 43.3 feet radius.<br>  5 Blood Lust: 208 damage per hit, 48.3 feet radius.",
       "category": "Ability"
     },
 
