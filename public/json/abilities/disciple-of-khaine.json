@@ -24,13 +24,13 @@
       "optionalAbilities": {
         "lvl1": 5005,
         "lvl2": 5006,
-        "lvl3": 4979,
+        "lvl3": 4977,
         "lvl4": 5008,
         "lvl5": 5009,
         "lvl6": 5010,
-        "lvl7": 6106
+        "lvl7": 5011
       },
-      "coreAbilities": [4959, 4963, 4965, 4968, 5054, 5011]
+      "coreAbilities": [4959, 4963, 4965, 4968, 5054]
     },
     "c": {
       "name": "Path of Sacrifice",
@@ -39,11 +39,11 @@
       },
       "optionalAbilities": {
         "lvl1": 5012,
-        "lvl2": 5013,
+        "lvl2": 5017,
         "lvl3": 5014,
         "lvl4": 5015,
         "lvl5": 5016,
-        "lvl6": 5017,
+        "lvl6": 5013,
         "lvl7": 5018
       },
       "coreAbilities": [4971, 4962, 4958, 4972, 4956]
@@ -366,7 +366,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You call upon the Word of Pain, dealing 300 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Word of Pain.",
+      "description": "You call upon the Word of Pain, dealing 200 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Word of Pain.",
       "category": "Morale"
     },
 
@@ -686,7 +686,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Transfer Essence's base heal is increased 25% and the healing from damage dealt increased to 75%.",
+      "description": "Transfer Essence's base heal is increased to 282 health and the healing from lifetaps are increased by 25%.",
       "category": "CareerTactic"
     },
 
@@ -702,7 +702,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 45 Soul Essence",
-      "description": "You lash out at all opponents in front of you up to 50 feet away, dealing 103 damage and regaining 15 Soul Essence for each enemy hit.",
+      "description": "You lash out at all opponents in front of you up to 50 feet away, dealing 101 damage and regaining 15 Soul Essence for each enemy hit.",
       "category": "Ability"
     },
 
@@ -974,7 +974,7 @@
       "incant": "1.0s cast",
       "cooldown": "1.5s cooldown",
       "note": "Requires 60 Soul Essence",
-      "description": "All of your groupmates within 100 feet of you regain 643 health.",
+      "description": "All of your groupmates within 100 feet of you regain 350 health.",
       "category": "Ability"
     },
 
@@ -1006,7 +1006,7 @@
       "incant": "0.5s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A quick heal that restores 468 health.Not affected by cooldown modification abilities.",
+      "description": "A quick heal that restores 461 health.Not affected by cooldown modification abilities.",
       "category": "Ability"
     },
 
@@ -1038,7 +1038,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires 40 Soul Essence<br>Requires 9 points in Path of Dark Rites",
-      "description": "All group mates within 100 feet of you gradually regains 465 health over 15 seconds.",
+      "description": "All group mates within 100 feet of you gradually regains 567 health over 9 seconds.",
       "category": "Ability"
     },
 
@@ -1159,7 +1159,7 @@
       "id": 4967,
       "name": "Patch Wounds",
       "type": "Healing",
-      "spec": "Core Ability",
+      "spec": "Path of Dark Rites",
       "minrank": "16",
       "cost": "No AP Cost",
       "range": "150ft range",
