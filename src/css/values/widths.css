@@ -1,1 +1,3 @@
-@value width-sidebar: 25rem;
+:root {
+  --width-sidebar: 25rem;
+}

@@ -1,4 +1,4 @@
-@value width-sidebar from "../values/widths.css";
+@import '../values/widths.css';
 
 .loadingContainer {
   display: flex;
@@ -12,5 +12,5 @@
 }
 .wrapperSidebar {
   composes: wrapper;
-  transform: translateX(width-sidebar);
+  transform: translateX(--width-sidebar);
 }

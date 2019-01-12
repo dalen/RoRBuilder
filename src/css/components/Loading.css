@@ -1,7 +1,7 @@
 @value spacing from "../values/spacing.css";
 @value color-transparent-white, color-text-primary from "../values/colours.css";
 @value font-size-4 from "../values/fontSizes.css";
-@value width-sidebar from "../values/widths.css";
+@import '../values/widths.css';
 
 .container {
   display: flex;
@@ -9,7 +9,7 @@
 }
 .containerSidebar {
   composes: container;
-  margin-right: width-sidebar;
+  margin-right: var(--width-sidebar);
 }
 .title {
   margin-left: spacing;

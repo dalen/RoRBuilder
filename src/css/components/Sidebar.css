@@ -1,9 +1,11 @@
 @value color-base-0, color-base-1, color-base-2, color-base-5, color-text-secondary from "../values/colours.css";
 @value spacing-small from "../values/spacing.css";
 @value font-size-1 from "../values/fontSizes.css";
-@value width-sidebar from "../values/widths.css";
+@import '../values/widths.css';
 
-@value width-sidebar-border: 0.2rem;
+:root {
+  --width-sidebar-border: 0.2rem;
+}
 
 .container {
   z-index: 10;
@@ -16,23 +18,23 @@
   overflow-x: hidden;
   height: 100%;
   background-color: color-base-1;
-  border-right: width-sidebar-border solid color-base-5;
+  border-right: var(--width-sidebar-border) solid color-base-5;
 }
 .containerActive {
   composes: container;
-  transform: translateX(width-sidebar);
+  transform: translateX(var(--width-sidebar));
 }
 .content {
-  width: calc(width-sidebar - width-sidebar-border);
+  width: calc(var(--width-sidebar) - var(--width-sidebar-border));
 }
 .item {
   display: flex;
   height: 3rem;
   padding-left: 0.3rem;
   align-items: center;
-  transition: background .1s ease;
+  transition: background 0.1s ease;
   color: color-text-secondary;
-  
+
   text-decoration: none;
   font-size: font-size-1;
   border-bottom: 1px solid color-base-0;
@@ -43,7 +45,7 @@
   color: color-text-secondary;
 }
 .icon {
-  composes: careerIconSmallest from "../shared/careerIcon.css";
+  composes: careerIconSmallest from '../shared/careerIcon.css';
   position: relative;
   top: 0.5rem;
 }
