@@ -27,7 +27,7 @@
         "lvl3": 4977,
         "lvl4": 5008,
         "lvl5": 5009,
-        "lvl6": 5010,
+        "lvl6": 2934,
         "lvl7": 5011
       },
       "coreAbilities": [4959, 4963, 4965, 4968, 5054]
@@ -1607,7 +1607,7 @@
       "id": 5010,
       "name": "Wracking Agony",
       "type": "Damaging",
-      "spec": "Path of Torture",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
@@ -1632,6 +1632,22 @@
       "note": "Requires 15 points in Path of Torture<br>Requires Dual wield",
       "description": "Removes snares, roots, disarms and silencing effects, makes you immune to snares for 5s, and increases your movement speed by 50%.",
       "category": "Ability"
+    },
+    {
+      "image": "99999",
+      "id": 2934,
+      "name": "Execute",
+      "type": "Damaging",
+      "spec": "Path of Torture",
+      "minrank": "1",
+      "cost": "Costs 30 AP",
+      "range": "5ft range",
+      "incant": "Insta-Cast",
+      "cooldown": "10s cooldown",
+      "note": "Target must be below 50% health<br>Builds 30 soul essence<br>Requires dual wield",
+      "description": "Deals 352 damage and will almost always deal critical damage to a wounded foe.",
+      "category": "Ability"
     }
+
   ]
 }
