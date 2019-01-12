@@ -25,7 +25,7 @@
         "lvl1": 5005,
         "lvl2": 5006,
         "lvl3": 4977,
-        "lvl4": 5008,
+        "lvl4": 2938,
         "lvl5": 5009,
         "lvl6": 2934,
         "lvl7": 5011
@@ -1607,7 +1607,7 @@
       "id": 5010,
       "name": "Wracking Agony",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of Sacrifice",
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
@@ -1634,7 +1634,7 @@
       "category": "Ability"
     },
     {
-      "image": "99999",
+      "image": "10959",
       "id": 2934,
       "name": "Execute",
       "type": "Damaging",
@@ -1644,10 +1644,27 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10s cooldown",
-      "note": "Target must be below 50% health<br>Builds 30 soul essence<br>Requires dual wield",
+      "note": "Target must be below 50% health<br>Builds 30 soul essence<br>Requires Dual Wield",
       "description": "Deals 352 damage and will almost always deal critical damage to a wounded foe.",
       "category": "Ability"
+    },
+
+    {
+      "image": "10959",
+      "id": 2938,
+      "name": "DRowning in Blood",
+      "type": "Damaging",
+      "spec": "Path of Torture",
+      "minrank": "1",
+      "cost": "Costs 25 AP",
+      "range": "Self",
+      "incant": "Insta-Cast",
+      "cooldown": "60s cooldown",
+      "note": "Requires Dual Wield",
+      "description": "Blood lust drives you on. Your attacks will ignore 25% of the victims armour for 20 the next 20 secons .",
+      "category": "Ability"
     }
+
 
   ]
 }
