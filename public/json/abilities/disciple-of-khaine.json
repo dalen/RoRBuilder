@@ -46,7 +46,7 @@
         "lvl6": 2952,
         "lvl7": 5018
       },
-      "coreAbilities": [4971, 4962, 4958, 4972, 4956, 5013, 2941, 2953]
+      "coreAbilities": [4971, 4962, 4958, 4972, 4956, 5013, 2941, 2953, 2051]
     }
   },
   "data": [
@@ -1707,7 +1707,21 @@
       "note": "Requires Shield <br> Builds 25 Soul Essence",
       "description": "You attack with your buckler dealing 181 damage,and increase your chance to block by 10% for 10s .",
       "category": "Ability"
+    },
+    {
+      "image": "10936",
+      "id": 2051,
+      "name": "Consume Essence",
+      "type": "Damaging",
+      "spec": "Path of Sacrifice",
+      "minrank": "1",
+      "cost": "30 AP",
+      "range": "5ft range",
+      "incant": "Insta-Cast",
+      "cooldown": "no cooldown",
+      "note": "Builds 30 Soul Essence",
+      "description": "A quick strike that deals 106 damage. Khaine's approval of your actions causes your defensive target and all allies within 10ft to be healed for 100% of the damage you dealt",
+      "category": "Ability"
     }
-
   ]
 }
