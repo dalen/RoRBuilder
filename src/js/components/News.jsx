@@ -13,6 +13,19 @@ const News = () => (
           nameSlug="right-chevron-icon"
         />
       </span>
+      <div className={css.itemDate}>13/01/2019</div>
+      <span className={css.itemText}>
+        Shadow Warrior and tank morales updated.
+      </span>
+    </div>
+    <div className={css.item}>
+      <span className={css.itemIcon}>
+        <IconChevronRight
+          classes="icon--small"
+          name="right chevron icon"
+          nameSlug="right-chevron-icon"
+        />
+      </span>
       <div className={css.itemDate}>12/01/2019</div>
       <span className={css.itemText}>
         Disciple of Khaine and Witch Elf updated.
