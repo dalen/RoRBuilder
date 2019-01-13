@@ -760,7 +760,7 @@
     {
       "image": "13335",
       "id": 3956,
-      "name": "Outrider Patrol",
+      "name": "Ambush",
       "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "32",
@@ -769,7 +769,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Arrows strike the ground at a spot you select, dealing 1200 damage to all enemies within 20 feet of that spot.",
+      "description": "Hidden Allies come to your aid and launch an attack that deals 900 damage over 9 seconds to all enemies within 30 feet, and snares the targets by 60%.",
       "category": "Morale"
     },
 
