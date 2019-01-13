@@ -43,10 +43,10 @@
         "lvl3": 5014,
         "lvl4": 5015,
         "lvl5": 5016,
-        "lvl6": 5013,
+        "lvl6": 2952,
         "lvl7": 5018
       },
-      "coreAbilities": [4971, 4962, 4958, 4972, 4956]
+      "coreAbilities": [4971, 4962, 4958, 4972, 4956, 5013, 2941, 2953]
     }
   },
   "data": [
@@ -1648,7 +1648,6 @@
       "description": "Deals 352 damage and will almost always deal critical damage to a wounded foe.",
       "category": "Ability"
     },
-
     {
       "image": "10936",
       "id": 2938,
@@ -1663,8 +1662,52 @@
       "note": "Requires Dual Wield",
       "description": "Blood lust drives you on. Your attacks will ignore 25% of the victims armour for 20 the next 20 secons .",
       "category": "Ability"
+    },
+    {
+      "image": "10936",
+      "id": 2952,
+      "name": "Soul Ward",
+      "type": "Defensive",
+      "spec": "Path of Sacrifice",
+      "minrank": "1",
+      "cost": "No cost",
+      "range": "Self",
+      "incant": "10s Cast",
+      "cooldown": "60s cooldown",
+      "note": "Requires Shield <br> Requires 25 Soul Essence per secoond",
+      "description": "You channel a Soul Ward making you immune from any root or snare effect and increasing parry, dodge and disrupt of you and your group by 10%.<br> This effect will end if you break concentration or run out of Soul Essence.",
+      "category": "Ability"
+    },
+    {
+      "image": "10936",
+      "id": 2941,
+      "name": "Blood of my blood",
+      "type": "Defensive",
+      "spec": "Path of Sacrifice",
+      "minrank": "1",
+      "cost": "No cost",
+      "range": "Self",
+      "incant": "10s Cast",
+      "cooldown": "30s cooldown",
+      "note": "Requires Shield <br> Requires 25 Soul Essence per secoond",
+      "description": "To defeat your enemies you need to empower your team. You suffer 300 damage every second any groupmates within 100ft will recive 525 health restored to them.<br> This effect will end if you break concentration or run out of Soul Essence.",
+      "category": "Ability"
+    },
+    {
+      "image": "10936",
+      "id": 2953,
+      "name": "Blood Gaurd",
+      "type": "Defensive",
+      "spec": "Path of Sacrifice",
+      "minrank": "1",
+      "cost": "25 AP",
+      "range": "5ft range",
+      "incant": "Insta-Cast",
+      "cooldown": "10s cooldown",
+      "note": "Requires Shield <br> Builds 25 Soul Essence",
+      "description": "You attack with your buckler dealing 181 damage,and increase your chance to block by 10% for 10s .",
+      "category": "Ability"
     }
-
 
   ]
 }
