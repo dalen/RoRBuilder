@@ -10,7 +10,7 @@
         "lvl2": 5631,
         "lvl3": 5625,
         "lvl4": 5626,
-        "lvl5": 5627,
+        "lvl5": 2991,
         "lvl6": 5628,
         "lvl7": 5629
       },
@@ -375,14 +375,14 @@
       "id": 5627,
       "name": "Broad Severing",
       "type": "Buff",
-      "spec": "Path of Carnage",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the range of Slice's arc to 30 feet and removes the target limitation.",
+      "description": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within 25 feet, but Slice will do 10% less damage.",
       "category": "CareerTactic"
     },
 
@@ -547,9 +547,9 @@
     },
 
     {
-      "image": "10901",
+      "image": "abi_de_blackhorror",
       "id": 5624,
-      "name": "Elixir of Insane Power",
+      "name": "Elixir of Shadows",
       "type": "Buff",
       "spec": "Path of Suffering",
       "minrank": "1",
@@ -558,7 +558,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A vile brew which drives you into a rage for the next 7 seconds. All of your attacks will ignore 50% of the victim's armor.<br>You may only use a single Elixir at a time.",
+      "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 seconds.<br />You may only use a single Elixir at a time.",
       "category": "Ability"
     },
 
@@ -1070,7 +1070,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent<br>Requires 13 points in Path of Carnage",
-      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them.<br>  1 Blood Lust: 108 damage per hit, 30 feet radius.<br>  2 Blood Lust: 133 damage per hit, 35 feet radius.<br>  3 Blood Lust: 159 damage per hit, 40 feet radius.<br>  4 Blood Lust: 183 damage per hit, 43.3 feet radius.<br>  5 Blood Lust: 208 damage per hit, 48.3 feet radius.",
+      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them reducing their Morale by 300, inspired, your group gains 300 Morale.<br>  1 Blood Lust: 108 damage per hit, 30 feet radius.<br>  2 Blood Lust: 133 damage per hit, 35 feet radius.<br>  3 Blood Lust: 159 damage per hit, 40 feet radius.<br>  4 Blood Lust: 183 damage per hit, 43.3 feet radius.<br>  5 Blood Lust: 208 damage per hit, 48.3 feet radius.",
       "category": "Ability"
     },
 
@@ -1278,7 +1278,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Envenomed Blade will now also reduce the victim's chance to critically hit by 10% per stack.",
+      "description": "Envenomed Blade will now also reduce the victim's chance to critically hit by 25%.",
       "category": "CareerTactic"
     },
 
@@ -1631,6 +1631,22 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "22708",
+      "id": 2991,
+      "name": "Bleeding Edge",
+      "type": "Buff",
+      "spec": "Path of Carnage",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Armour Penetration is increased by 50% for 3 serconds after successful use of your Frenzies.",
       "category": "CareerTactic"
     }
   ]
