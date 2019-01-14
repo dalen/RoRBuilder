@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
+import queryString from 'query-string';
 import css from '../../css/components/Career.css';
-import { getAbilityType } from '../helpers/abilities';
 import { calculateMasteryPoints } from '../helpers/points';
-const queryString = require('query-string');
 
 import { resetAbilities, fetchAbilities } from '../actions/actionAbilities';
 import { fetchCareers } from '../actions/actionCareers';
@@ -70,10 +69,6 @@ import Mastery from './Mastery';
 import ActionButtons from './ActionButtons';
 
 class Career extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   // Set state from query params if first path part is /s
   setSavedCareer({ l, r, tl, mp, pA, pB, pC, ma, mm, mt, m1, m2, m3, m4, t }) {
     this.props.setLevel(l);
