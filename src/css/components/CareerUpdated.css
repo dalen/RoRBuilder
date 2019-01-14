@@ -1,0 +1,7 @@
+@value color-popover-ability-primary from "../values/colours.css";
+@value font-size-1 from "../values/fontSizes.css";
+
+.note {
+  color: color-popover-ability-primary;
+  font-size: font-size-1;
+}

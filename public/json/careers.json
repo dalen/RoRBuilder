@@ -4,167 +4,191 @@
     "slug": "bright-wizard",
     "faction": "Order",
     "race": "Empire",
-    "class": "Ranged DPS"
+    "class": "Ranged DPS",
+    "updated": "2019-01-05"
   },
   "knight-of-the-blazing-sun": {
     "name": "Knight of the Blazing Sun",
     "slug": "knight-of-the-blazing-sun",
     "faction": "Order",
     "race": "Empire",
-    "class": "Tank"
+    "class": "Tank",
+    "updated": "2019-01-05"
   },
   "warrior-priest": {
     "name": "Warrior Priest",
     "slug": "warrior-priest",
     "faction": "Order",
     "race": "Empire",
-    "class": "Healer"
+    "class": "Healer",
+    "updated": "2019-01-05"
   },
   "witch-hunter": {
     "name": "Witch Hunter",
     "slug": "witch-hunter",
     "faction": "Order",
     "race": "Empire",
-    "class": "Melee DPS"
+    "class": "Melee DPS",
+    "updated": "2019-01-05"
   },
   "engineer": {
     "name": "Engineer",
     "slug": "engineer",
     "faction": "Order",
     "race": "Dwarf",
-    "class": "Ranged DPS"
+    "class": "Ranged DPS",
+    "updated": "2019-01-05"
   },
   "ironbreaker": {
     "name": "Ironbreaker",
     "slug": "ironbreaker",
     "faction": "Order",
     "race": "Dwarf",
-    "class": "Tank"
+    "class": "Tank",
+    "updated": "2019-01-05"
   },
   "rune-priest": {
     "name": "Runepriest",
     "slug": "rune-priest",
     "faction": "Order",
     "race": "Dwarf",
-    "class": "Healer"
+    "class": "Healer",
+    "updated": "2019-01-05"
   },
   "slayer": {
     "name": "Slayer",
     "slug": "slayer",
     "faction": "Order",
     "race": "Dwarf",
-    "class": "Melee DPS"
+    "class": "Melee DPS",
+    "updated": "2019-01-05"
   },
   "archmage": {
     "name": "Archmage",
     "slug": "archmage",
     "faction": "Order",
     "race": "High Elf",
-    "class": "Healer"
+    "class": "Healer",
+    "updated": "2019-01-05"
   },
   "shadow-warrior": {
     "name": "Shadow Warrior",
     "slug": "shadow-warrior",
     "faction": "Order",
     "race": "High Elf",
-    "class": "Ranged DPS"
+    "class": "Ranged DPS",
+    "updated": "2019-01-12"
   },
   "sword-master": {
     "name": "Sword Master",
     "slug": "sword-master",
     "faction": "Order",
     "race": "High Elf",
-    "class": "Tank"
+    "class": "Tank",
+    "updated": "2019-01-12"
   },
   "white-lion": {
     "name": "White Lion",
     "slug": "white-lion",
     "faction": "Order",
     "race": "High Elf",
-    "class": "Melee DPS"
+    "class": "Melee DPS",
+    "updated": "2019-01-05"
   },
   "chosen": {
     "name": "Chosen",
     "slug": "chosen",
     "faction": "Destruction",
     "race": "Chaos",
-    "class": "Tank"
+    "class": "Tank",
+    "updated": "2019-01-12"
   },
   "magus": {
     "name": "Magus",
     "slug": "magus",
     "faction": "Destruction",
     "race": "Chaos",
-    "class": "Ranged DPS"
+    "class": "Ranged DPS",
+    "updated": "2019-01-05"
   },
   "marauder": {
     "name": "Marauder",
     "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
-    "class": "Melee DPS"
+    "class": "Melee DPS",
+    "updated": "2019-01-05"
   },
   "zealot": {
     "name": "Zealot",
     "slug": "zealot",
     "faction": "Destruction",
     "race": "Chaos",
-    "class": "Healer"
+    "class": "Healer",
+    "updated": "2019-01-05"
   },
   "black-orc": {
     "name": "Black Orc",
     "slug": "black-orc",
     "faction": "Destruction",
     "race": "Greenskin",
-    "class": "Tank"
+    "class": "Tank",
+    "updated": "2019-01-05"
   },
   "choppa": {
     "name": "Choppa",
     "slug": "choppa",
     "faction": "Destruction",
     "race": "Greenskin",
-    "class": "Melee DPS"
+    "class": "Melee DPS",
+    "updated": "2019-01-05"
   },
   "shaman": {
     "name": "Shaman",
     "slug": "shaman",
     "faction": "Destruction",
     "race": "Greenskin",
-    "class": "Healer"
+    "class": "Healer",
+    "updated": "2019-01-05"
   },
   "squig-herder": {
     "name": "Squig Herder",
     "slug": "squig-herder",
     "faction": "Destruction",
     "race": "Greenskin",
-    "class": "Ranged DPS"
+    "class": "Ranged DPS",
+    "updated": "2019-01-05"
   },
   "black-guard": {
     "name": "Black Guard",
     "slug": "black-guard",
     "faction": "Destruction",
     "race": "Dark Elf",
-    "class": "Tank"
+    "class": "Tank",
+    "updated": "2019-01-05"
   },
   "disciple-of-khaine": {
     "name": "Disciple of Khaine",
     "slug": "disciple-of-khaine",
     "faction": "Destruction",
     "race": "Dark Elf",
-    "class": "Healer"
+    "class": "Healer",
+    "updated": "2019-01-05"
   },
   "sorcerer": {
     "name": "Sorcerer",
     "slug": "sorcerer",
     "faction": "Destruction",
     "race": "Dark Elf",
-    "class": "Ranged DPS"
+    "class": "Ranged DPS",
+    "updated": "2019-01-05"
   },
   "witch-elf": {
     "name": "Witch Elf",
     "slug": "witch-elf",
     "faction": "Destruction",
     "race": "Dark Elf",
-    "class": "Melee DPS"
+    "class": "Melee DPS",
+    "updated": "2019-01-05"
   }
 }

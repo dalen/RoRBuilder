@@ -60,6 +60,7 @@ import ModalContainer from './ModalContainer';
 import BarXp from './BarXp';
 import BarRenown from './BarRenown';
 import CareerTitle from './CareerTitle';
+import CareerUpdated from './CareerUpdated';
 import SelectLevel from './SelectLevel';
 import SelectRenown from './SelectRenown';
 import CoreAbilities from './CoreAbilities';
@@ -237,6 +238,10 @@ class Career extends Component {
 
             <div className="marginLeft@md-min">
               <ActionButtons history={this.props.history} />
+            </div>
+
+            <div className="marginLeft@md-min">
+              <CareerUpdated />
             </div>
           </div>
         </div>
