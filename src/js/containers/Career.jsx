@@ -69,6 +69,32 @@ import Mastery from './Mastery';
 import ActionButtons from './ActionButtons';
 
 class Career extends Component {
+  componentDidMount() {
+    // Load career data on initial load
+    this.loadCareerData(this.props.match);
+  }
+
+  componentWillReceiveProps(nextProps) {
+    // This will be run when a new career is selected from the Sidebar
+    // Manually force the loading of new data
+    if (
+      this.props.match.params &&
+      this.props.match.params.slug != nextProps.match.params.slug
+    ) {
+      // Check if it's a valid career name
+      if (this.props.careers.hasOwnProperty(nextProps.match.params.slug)) {
+        // Reset Career data
+        this.resetCareer();
+
+        // Load new career/ability data from new career class
+        this.loadCareerData(nextProps.match);
+      } else {
+        // TODO redirect to not found page on else here
+        console.warn('CAREER DOES NOT EXIST!');
+      }
+    }
+  }
+
   // Set state from query params if first path part is /s
   setSavedCareer({ l, r, tl, mp, pA, pB, pC, ma, mm, mt, m1, m2, m3, m4, t }) {
     this.props.setLevel(l);
@@ -146,33 +172,6 @@ class Career extends Component {
     // Set career slug in app state
     this.props.setSlug(slug);
   }
-
-  componentWillReceiveProps(nextProps) {
-    // This will be run when a new career is selected from the Sidebar
-    // Manually force the loading of new data
-    if (
-      this.props.match.params &&
-      this.props.match.params.slug != nextProps.match.params.slug
-    ) {
-      // Check if it's a valid career name
-      if (this.props.careers.hasOwnProperty(nextProps.match.params.slug)) {
-        // Reset Career data
-        this.resetCareer();
-
-        // Load new career/ability data from new career class
-        this.loadCareerData(nextProps.match);
-      } else {
-        // TODO redirect to not found page on else here
-        console.warn('CAREER DOES NOT EXIST!');
-      }
-    }
-  }
-
-  componentDidMount() {
-    // Load career data on initial load
-    this.loadCareerData(this.props.match);
-  }
-
   renderContent() {
     // Check that all the relative state properties are populated before rendering the Career UI
     let hasCareerLoaded =
