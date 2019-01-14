@@ -1,19 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import css from '../../css/components/CareerTitle.css';
 
-class CareerTitle extends Component {
-  render() {
-    const career = this.props.careers[this.props.slug];
-    const url = `/images/icons/${career.slug}.png`;
-    return (
-      <div className="row row--v-center">
-        <img src={url} className={css.icon} />
-        <h1 className={css.title}>{career.name}</h1>
-      </div>
-    );
-  }
-}
+const CareerTitle = ({ careers, slug }) => {
+  const career = careers[slug];
+  const url = `/images/icons/${career.slug}.png`;
+  return (
+    <div className="row row--v-center">
+      <img alt={`Career icon ${career.name}`} src={url} className={css.icon} />
+      <h1 className={css.title}>{career.name}</h1>
+    </div>
+  );
+};
 
 function mapStateToProps({ slug, careers }) {
   return {
