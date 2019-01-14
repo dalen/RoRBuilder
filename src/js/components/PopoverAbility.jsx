@@ -20,7 +20,10 @@ const PopoverAbility = props => (
     <div className={css.divider} />
     <div className={css.row}>
       <p className={css.item}>{props.data.spec}</p>
-      <p className={css.itemRight}>Level {props.data.minrank}</p>
+      <p className={css.itemRight}>
+        Level
+        {props.data.minrank}
+      </p>
     </div>
     <div className={css.row}>
       <p className={css.item}>{props.data.cost}</p>

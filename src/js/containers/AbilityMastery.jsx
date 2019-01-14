@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import classNames from 'classnames';
 import css from '../../css/components/AbilityMastery.css';
 import cssTactic from '../../css/components/AbilityTactic.css';
 import cssMorale from '../../css/components/AbilityMorale.css';
-import classNames from 'classnames';
 
 import Popover from '../components/Popover';
 import PopoverAbility from '../components/PopoverAbility';
@@ -72,7 +72,7 @@ class AbilityMastery extends Component {
       });
     }
 
-    let pathRequirement = Number(props.meterRequirement) + 1;
+    const pathRequirement = Number(props.meterRequirement) + 1;
     let pointsRequirement = 0;
 
     if (Number(pathRequirement) > Number(props.pathMeter)) {

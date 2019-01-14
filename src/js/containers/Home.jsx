@@ -138,7 +138,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <Overlay overlayVisible={true} />
+        <Overlay overlayVisible />
         <Sidebar />
       </div>
     );

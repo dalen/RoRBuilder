@@ -10,13 +10,11 @@ class Sidebar extends Component {
   }
 
   renderCareers() {
-    return Object.keys(this.props.careers).map(key => {
-      return (
-        <div className={css.item} key={key}>
-          <CareerItem career={this.props.careers[key]} />
-        </div>
-      );
-    });
+    return Object.keys(this.props.careers).map(key => (
+      <div className={css.item} key={key}>
+        <CareerItem career={this.props.careers[key]} />
+      </div>
+    ));
   }
 
   render() {

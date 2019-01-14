@@ -45,11 +45,10 @@ class Mastery extends Component {
           {coreAbilities2.map(this.renderAbility)}
         </div>,
       ];
-    } else {
-      return (
-        <div className="column">{coreAbilities.map(this.renderAbility)}</div>
-      );
     }
+    return (
+      <div className="column">{coreAbilities.map(this.renderAbility)}</div>
+    );
   }
 
   render() {
@@ -67,7 +66,10 @@ class Mastery extends Component {
       <div className={css.container}>
         <h2 className={css.heading}>
           Mastery abilities{' '}
-          <span className={labelClass}>{this.props.currentPoints} points</span>
+          <span className={labelClass}>{this.props.currentPoints}
+{' '}
+points
+</span>
         </h2>
         <div className="grid">
           <div className="grid-col-1-2 grid-col-1@mobile grid-col-1-3@sm-min">

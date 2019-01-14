@@ -188,14 +188,16 @@ class ActionButtons extends Component {
           Home
         </button>
         <button className={css.share} type="button" onClick={this.clickShare}>
-          Share<span className="hidden@mobile"> career</span>
+          Share
+          <span className="hidden@mobile"> career</span>
         </button>
         <button
           className={css.change}
           type="button"
           onClick={this.clickChangeCareer}
         >
-          Change<span className="hidden@mobile"> career</span>
+          Change
+          <span className="hidden@mobile"> career</span>
         </button>
         <button className={css.reset} type="button" onClick={this.clickReset}>
           Reset

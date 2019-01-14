@@ -3,10 +3,6 @@ import { connect } from 'react-redux';
 import css from '../../css/components/CareerTitle.css';
 
 class CareerTitle extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const career = this.props.careers[this.props.slug];
     const url = `/images/icons/${career.slug}.png`;

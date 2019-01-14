@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import classNames from 'classnames';
 import css from '../../css/components/Masthead.css';
 
-import CareerItem from '../containers/CareerItem';
+import CareerItem from './CareerItem';
 
 import { toggleSidebar } from '../actions/actionSidebar';
 import { toggleOverlay } from '../actions/actionOverlay';

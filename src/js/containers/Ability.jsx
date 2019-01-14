@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import css from '../../css/components/Ability.css';
 import classNames from 'classnames';
+import css from '../../css/components/Ability.css';
 
 import Popover from '../components/Popover';
 import PopoverAbility from '../components/PopoverAbility';

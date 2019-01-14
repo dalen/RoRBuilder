@@ -172,9 +172,10 @@ class Career extends Component {
     // Set career slug in app state
     this.props.setSlug(slug);
   }
+
   renderContent() {
     // Check that all the relative state properties are populated before rendering the Career UI
-    let hasCareerLoaded =
+    const hasCareerLoaded =
       Object.keys(this.props.careers).length > 0 &&
       this.props.slug &&
       Object.keys(this.props.abilities).length > 0;
@@ -252,7 +253,7 @@ class Career extends Component {
     return (
       <div className="heightFull">
         <div className={containerClass}>{this.renderContent()}</div>
-        <Overlay overlayVisible={true} />
+        <Overlay overlayVisible />
         <Sidebar />
         <ModalContainer />
       </div>

@@ -48,7 +48,7 @@ class SelectLevel extends Component {
     );
 
     // TODO address the functions below
-    //this.props.updateMasteryPoints();
+    // this.props.updateMasteryPoints();
   }
 
   render() {
