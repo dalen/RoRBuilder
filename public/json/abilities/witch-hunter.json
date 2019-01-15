@@ -557,8 +557,7 @@
       "range": "30ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent<br>Requires 13 points in Path of Confession",
-      "description": "A pistol shot that deals damage to your target and all other enemies near them, reducing their Morale based on Accusations, and knocks down the initial target for 3 seconds.<br>  1 Accusation: 186 damage, 30 feet radius, 50 Morale lost.<br>  2 Accusations: 206 damage, 35 feet radius, 100 Morale lost.<br>  3 Accusations: 226 damage, 40 feet radius, 150 Morale lost.<br>  4 Accusations: 248 damage, 43.3 feet radius, 200 Morale lost.<br>  5 Accusations: 268 damage, 48.3 feet radius, 250 Morale lost.",
+      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 300, inspired, your group gains 300 Morale.<br>  1 Accusation: 186 damage, 30 feet radius.<br>  2 Accusations: 206 damage, 35 feet radius.<br>  3 Accusations: 226 damage, 40 feet radius.<br>  4 Accusations: 248 damage, 43.3 feet radius.<br>  5 Accusations: 268 damage, 48.3 feet radius.",
       "category": "Ability"
     },
 
@@ -1633,7 +1632,23 @@
       "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
       "category": "CareerTactic"
     },
-
+    
+    {
+      "image": "WH_M2_WitchfindersJudgement",
+      "id": 6104,
+      "name": "Witchfinders Judgement",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "32",
+      "cost": "Rank 2 morale",
+      "range": "Self",
+      "incant": "Insta-Cast",
+      "cooldown": "1m cooldown",
+      "note": "",
+      "description": "You judge your group and find them worthy. Morale gain is doubled for 15 seconds.",
+      "category": "Morale"
+    },
+    
     {
       "image": "22708",
       "id": 6103,
