@@ -17,7 +17,7 @@
   background-color: var(--color-points-dark);
   margin-bottom: 0.2rem;
   color: rgba(0, 0, 0, 0.4);
-  font-size: font-size-small;
+  font-size: var(--font-size-small);
 }
 .levelActive {
   composes: level;

@@ -1,6 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
-@value font-size-3, font-size-4, font-size-5 from "../values/fontSizes.css";
+@import '../values/fontSizes.css';
 @value mq-mobile from "../values/mediaQueries.css";
 
 .heading {
@@ -10,7 +10,7 @@
 }
 .heading1 {
   composes: heading;
-  font-size: font-size-4;
+  font-size: var(--font-size-4);
   margin-bottom: var(--spacing-medium);
 }
 .heading1Light {
@@ -19,7 +19,7 @@
 }
 .heading2 {
   composes: heading;
-  font-size: font-size-3;
+  font-size: var(--font-size-3);
   margin-bottom: var(--spacing);
 }
 .heading2Light {
@@ -30,15 +30,15 @@
   line-height: 1;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: font-size-5;
+  font-size: var(--font-size-5);
   color: var(--color-text-primary);
 }
 @media mq-mobile {
   .headingCareer {
-    font-size: font-size-4;
+    font-size: var(--font-size-4);
   }
 }
 .headingCareerSmall {
   composes: headingCareer;
-  font-size: font-size-4;
+  font-size: var(--font-size-4);
 }

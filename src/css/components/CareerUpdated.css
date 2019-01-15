@@ -1,7 +1,7 @@
 @import '../values/colours.css';
-@value font-size-1 from "../values/fontSizes.css";
+@import '../values/fontSizes.css';
 
 .note {
   color: var(--color-popover-ability-primary);
-  font-size: font-size-1;
+  font-size: var(--font-size-1);
 }

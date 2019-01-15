@@ -1,7 +1,9 @@
-@value font-size-small: 0.8rem;
-@value font-size-0: 1rem;
-@value font-size-1: 1.2rem;
-@value font-size-2: 1.4rem;
-@value font-size-3: 1.6rem;
-@value font-size-4: 2.2rem;
-@value font-size-5: 2.8rem;
+:root {
+  --font-size-small: 0.8rem;
+  --font-size-0: 1rem;
+  --font-size-1: 1.2rem;
+  --font-size-2: 1.4rem;
+  --font-size-3: 1.6rem;
+  --font-size-4: 2.2rem;
+  --font-size-5: 2.8rem;
+}

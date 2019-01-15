@@ -1,6 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
-@value font-size-0, font-size-1, font-size-2 from "../values/fontSizes.css";
+@import '../values/fontSizes.css';
 
 .container {
   display: flex;
@@ -18,7 +18,7 @@
 
 .icon {
   line-height: 1;
-  font-size: font-size-0;
+  font-size: var(--font-size-0);
   font-weight: normal;
   color: var(--color-text-primary);
 }
@@ -26,11 +26,11 @@
 .popoverPrimary {
   color: var(--color-popover-ability-primary);
   font-weight: normal;
-  font-size: font-size-2;
+  font-size: var(--font-size-2);
   margin-bottom: var(--spacing);
 }
 
 .popoverSecondary {
   font-weight: normal;
-  font-size: font-size-1;
+  font-size: var(--font-size-1);
 }

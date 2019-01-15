@@ -1,6 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
-@value font-size-3, font-size-2 from "../values/fontSizes.css";
+@import '../values/fontSizes.css';
 @value mq-mobile from "../values/mediaQueries.css";
 
 @value label-padding: 0.3rem;
@@ -17,7 +17,7 @@
   top: calc(- label-padding);
   display: inline-block;
   color: var(--color-base-0);
-  font-size: font-size-3;
+  font-size: var(--font-size-3);
   padding: label-padding calc(label-padding * 2);
   background-color: var(--color-base-6);
   &--points {
@@ -37,7 +37,7 @@
 }
 .subHeadingSmall {
   composes: heading2Light from '../shared/heading.css';
-  font-size: font-size-2;
+  font-size: var(--font-size-2);
   margin-top: var(--spacing);
   margin-bottom: var(--spacing-small);
 }

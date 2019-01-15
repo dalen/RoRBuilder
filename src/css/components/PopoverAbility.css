@@ -1,6 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
-@value font-size-1, font-size-2 from "../values/fontSizes.css";
+@import '../values/fontSizes.css';
 @value mq-mobile from "../values/mediaQueries.css";
 
 .row {
@@ -15,12 +15,12 @@
 .item {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: font-size-1;
+  font-size: var(--font-size-1);
   color: var(--color-text-primary);
 }
 .itemLarge {
   composes: item;
-  font-size: font-size-2;
+  font-size: var(--font-size-2);
 }
 .itemRight {
   composes: item;

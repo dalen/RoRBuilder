@@ -1,10 +1,10 @@
 @import '../values/colours.css';
-@value font-size-1 from "../values/fontSizes.css";
+@import '../values/fontSizes.css';
 
 .Breadcrumb {
   display: inline-block;
   margin-bottom: 0;
-  font-size: font-size-1;
+  font-size: var(--font-size-1);
   color: var(--color-text-primary);
 }
 .BreadcrumbDivider {

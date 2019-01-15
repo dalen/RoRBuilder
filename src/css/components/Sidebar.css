@@ -1,6 +1,6 @@
 @import '../values/widths.css';
 @import '../values/colours.css';
-@value font-size-1 from "../values/fontSizes.css";
+@import '../values/fontSizes.css';
 
 :root {
   --width-sidebar-border: 0.2rem;
@@ -35,7 +35,7 @@
   color: var(--color-text-secondary);
 
   text-decoration: none;
-  font-size: font-size-1;
+  font-size: var(--font-size-1);
   border-bottom: 1px solid var(--color-base-0);
   font-weight: 300;
 }

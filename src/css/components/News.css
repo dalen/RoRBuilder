@@ -1,6 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
-@value font-size-1 from "../values/fontSizes.css";
+@import '../values/fontSizes.css';
 @value mq-md-min from "../values/mediaQueries.css";
 
 .container {
@@ -14,7 +14,7 @@
   align-items: flex-start;
   margin-bottom: var(--spacing);
   color: var(--color-text-secondary);
-  font-size: font-size-1;
+  font-size: var(--font-size-1);
   font-weight: 300;
   flex-wrap: wrap;
 }
