@@ -1,4 +1,4 @@
-@value color-base-0 from "./values/colours.css";
+@import './values/colours.css';
 
 :global {
   html,
@@ -15,7 +15,7 @@
   body {
     overflow-x: auto;
     height: 100%;
-    background-color: color-base-0;
+    background-color: var(--color-base-0);
     margin: 0;
   }
   #app {

@@ -1,10 +1,10 @@
 @import '../values/spacing.css';
-@value color-base-3 from "../values/colours.css";
+@import '../values/colours.css';
 
 .box {
   padding-top: var(--spacing);
   padding-right: var(--spacing);
   padding-bottom: var(--spacing);
   padding-left: var(--spacing);
-  background-color: color-base-3;
+  background-color: var(--color-base-3);
 }

@@ -1,5 +1,5 @@
 @import '../values/spacing.css';
-@value color-text-secondary from "../values/colours.css";
+@import '../values/colours.css';
 @value font-size-1 from "../values/fontSizes.css";
 @value mq-md-min from "../values/mediaQueries.css";
 
@@ -13,7 +13,7 @@
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--spacing);
-  color: color-text-secondary;
+  color: var(--color-text-secondary);
   font-size: font-size-1;
   font-weight: 300;
   flex-wrap: wrap;
@@ -36,7 +36,7 @@
   margin-top: var(--spacing-small);
   padding-left: 1.3rem;
   a {
-    color: color-text-secondary;
+    color: var(--color-text-secondary);
     &:hover {
       text-decoration: none;
     }

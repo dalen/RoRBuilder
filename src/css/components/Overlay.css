@@ -1,4 +1,4 @@
-@value color-transparent-black, color-transparent from "../values/colours.css";
+@import '../values/colours.css';
 
 .overlay {
   display: none;
@@ -8,7 +8,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: color-transparent-black;
+  background: var(--color-transparent-black);
 }
 .overlayActive {
   composes: overlay;
@@ -16,5 +16,5 @@
 }
 .overlayActiveInvisible {
   composes: overlayActive;
-  background: color-transparent;
+  background: var(--color-transparent);
 }

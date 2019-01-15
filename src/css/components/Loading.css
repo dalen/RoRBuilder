@@ -1,6 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/widths.css';
-@value color-transparent-white, color-text-primary from "../values/colours.css";
+@import '../values/colours.css';
 @value font-size-4 from "../values/fontSizes.css";
 
 .container {
@@ -13,7 +13,7 @@
 }
 .title {
   margin-left: var(--spacing);
-  color: color-text-primary;
+  color: var(--color-text-primary);
   font-size: font-size-4;
 }
 .icon {
@@ -21,8 +21,8 @@
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  border: 0.4rem solid color-transparent-white;
-  border-top-color: color-text-primary;
+  border: 0.4rem solid var(--color-transparent-white);
+  border-top-color: var(--color-text-primary);
   animation: spin 1s infinite linear;
 }
 @keyframes spin {

@@ -1,10 +1,10 @@
 @import '../values/spacing.css';
+@import '../values/colours.css';
 @value font-size-3, font-size-4, font-size-5 from "../values/fontSizes.css";
-@value color-text-secondary, color-text-primary from "../values/colours.css";
 @value mq-mobile from "../values/mediaQueries.css";
 
 .heading {
-  color: color-text-secondary;
+  color: var(--color-text-secondary);
   font-weight: bold;
   margin-top: 0;
 }
@@ -31,7 +31,7 @@
   margin-top: 0;
   margin-bottom: 0;
   font-size: font-size-5;
-  color: color-text-primary;
+  color: var(--color-text-primary);
 }
 @media mq-mobile {
   .headingCareer {

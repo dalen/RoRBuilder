@@ -1,4 +1,4 @@
-@value color-renown-dark, color-renown from "../values/colours.css";
+@import '../values/colours.css';
 
 .bar {
   position: relative;
@@ -7,5 +7,5 @@
   position: relative;
   height: 1rem;
   width: 1%;
-  transition: width .3s ease;
+  transition: width 0.3s ease;
 }

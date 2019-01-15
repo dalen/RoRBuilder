@@ -1,44 +1,46 @@
-@value color-base-0: #242728;
-@value color-base-1: #2e3233;
-@value color-base-2: #393e3f;
-@value color-base-3: #444444;
-@value color-base-4: #535a5e;
-@value color-base-5: #666666;
-@value color-base-6: #989898;
+:root {
+  --color-base-0: #242728;
+  --color-base-1: #2e3233;
+  --color-base-2: #393e3f;
+  --color-base-3: #444444;
+  --color-base-4: #535a5e;
+  --color-base-5: #666666;
+  --color-base-6: #989898;
 
-@value color-border: color-base-5;
+  --color-border: var(--color-base-5);
 
-@value color-text-primary: #f3f4f5;
-@value color-text-secondary: #dedede;
+  --color-text-primary: #f3f4f5;
+  --color-text-secondary: #dedede;
 
-@value color-primary: #57805e;
-@value color-primary-1: #5cb85c;
-@value color-primary-2: #599c5c;
-@value color-secondary: #304f68;
-@value color-secondary-1: #337ab7;
-@value color-secondary-2: #31648f;
-@value color-negative: #a03537;
-@value color-negative-1: #d9534f;
-@value color-negative-2: #b15553;
+  --color-primary: #57805e;
+  --color-primary-1: #5cb85c;
+  --color-primary-2: #599c5c;
+  --color-secondary: #304f68;
+  --color-secondary-1: #337ab7;
+  --color-secondary-2: #31648f;
+  --color-negative: #a03537;
+  --color-negative-1: #d9534f;
+  --color-negative-2: #b15553;
 
-@value color-xp: #fbbd08;
-@value color-xp-dark: #715607;
-@value color-renown: #a333c8;
-@value color-renown-dark: #5D3769;
+  --color-xp: #fbbd08;
+  --color-xp-dark: #715607;
+  --color-renown: #a333c8;
+  --color-renown-dark: #5d3769;
 
-@value color-points: #db2828;
-@value color-points-light: #ff5c69;
-@value color-points-dark: #5A3B3B;
+  --color-points: #db2828;
+  --color-points-light: #ff5c69;
+  --color-points-dark: #5a3b3b;
 
-@value color-ability-border-selected: #5cda36;
-@value color-ability-inactive: #ecb3b3;
-@value color-ability-active: #90d28b;
+  --color-ability-border-selected: #5cda36;
+  --color-ability-inactive: #ecb3b3;
+  --color-ability-active: #90d28b;
 
-@value color-transparent-white: rgba(255, 255, 255, 0.2);
-@value color-transparent-black: rgba(0, 0, 0, 0.6);
-@value color-transparent: rgba(0, 0, 0, 0);
+  --color-transparent-white: rgba(255, 255, 255, 0.2);
+  --color-transparent-black: rgba(0, 0, 0, 0.6);
+  --color-transparent: rgba(0, 0, 0, 0);
 
-@value color-popover-background: #161616;
+  --color-popover-background: #161616;
 
-@value color-popover-ability-primary: color-xp;
-@value color-popover-ability-secondary: #0078e7;
+  --color-popover-ability-primary: var(--color-xp);
+  --color-popover-ability-secondary: #0078e7;
+}

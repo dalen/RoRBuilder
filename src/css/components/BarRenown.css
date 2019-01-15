@@ -1,10 +1,10 @@
-@value color-renown-dark, color-renown from "../values/colours.css";
+@import '../values/colours.css';
 
 .bar {
-  composes: bar from "../shared/bar.css";
-  background-color: color-renown-dark;
+  composes: bar from '../shared/bar.css';
+  background-color: var(--color-renown-dark);
 }
 .progress {
-  composes: barProgress from "../shared/bar.css";
-  background-color: color-renown;
+  composes: barProgress from '../shared/bar.css';
+  background-color: var(--color-renown);
 }

@@ -1,5 +1,5 @@
 @import '../values/widths.css';
-@value color-base-0, color-base-1, color-base-2, color-base-5, color-text-secondary from "../values/colours.css";
+@import '../values/colours.css';
 @value font-size-1 from "../values/fontSizes.css";
 
 :root {
@@ -16,8 +16,8 @@
   overflow-y: auto;
   overflow-x: hidden;
   height: 100%;
-  background-color: color-base-1;
-  border-right: var(--width-sidebar-border) solid color-base-5;
+  background-color: var(--color-base-1);
+  border-right: var(--width-sidebar-border) solid var(--color-base-5);
 }
 .containerActive {
   composes: container;
@@ -32,16 +32,16 @@
   padding-left: 0.3rem;
   align-items: center;
   transition: background 0.1s ease;
-  color: color-text-secondary;
+  color: var(--color-text-secondary);
 
   text-decoration: none;
   font-size: font-size-1;
-  border-bottom: 1px solid color-base-0;
+  border-bottom: 1px solid var(--color-base-0);
   font-weight: 300;
 }
 .item:hover {
-  background: color-base-2;
-  color: color-text-secondary;
+  background: var(--color-base-2);
+  color: var(--color-text-secondary);
 }
 .icon {
   composes: careerIconSmallest from '../shared/careerIcon.css';

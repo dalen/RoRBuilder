@@ -1,16 +1,16 @@
-@value color-border from "./values/colours.css";
+@import '../values/colours.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "./values/mediaQueries.css";
 
 :global {
   .borderRight {
     border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: color-border;
+    border-right-color: var(--color-border);
     &\@sm-min {
       @media mq-sm-min {
         border-right-style: solid;
         border-right-width: 1px;
-        border-right-color: color-border;
+        border-right-color: var(--color-border);
       }
     }
     &--none {

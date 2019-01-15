@@ -1,4 +1,4 @@
-@value color-base-5 from "../values/colours.css";
+@import '../values/colours.css';
 
 @value ability-width: 36px;
 @value ability-height: 36px;
@@ -8,7 +8,7 @@
   margin: 0.1rem;
   width: ability-width;
   height: ability-height;
-  background-color: color-base-5;
+  background-color: var(--color-base-5);
 }
 .image {
   display: block;

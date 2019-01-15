@@ -1,5 +1,5 @@
 @import '../values/spacing.css';
-@value color-base-1, color-text-primary, color-text-secondary from "../values/colours.css";
+@import '../values/colours.css';
 @value mq-mobile, mq-sm-min from "../values/mediaQueries.css";
 @value font-size-1, font-size-4 from "../values/fontSizes.css";
 
@@ -14,7 +14,7 @@
   background-position: 50% 50%;
   background-size: cover;
   transition: all 500ms ease;
-  border-bottom: 1px solid color-base-1;
+  border-bottom: 1px solid var(--color-base-1);
 }
 @media mq-mobile {
   .masthead {
@@ -41,7 +41,7 @@
   padding-top: 4rem;
   text-shadow: shadow;
   transition: all 500ms ease;
-  color: color-text-primary;
+  color: var(--color-text-primary);
 }
 @media mq-mobile {
   .mastheadTitle {
@@ -55,7 +55,7 @@
   padding-top: 3rem;
 }
 .mastheadSubtitle {
-  color: color-text-primary;
+  color: var(--color-text-primary);
   font-size: 2rem;
   text-align: center;
   text-shadow: shadow;
@@ -85,7 +85,7 @@
   position: absolute;
   bottom: var(--spacing);
   right: var(--spacing);
-  color: color-text-secondary;
+  color: var(--color-text-secondary);
   font-size: font-size-1;
   text-decoration: none;
 }
@@ -133,7 +133,7 @@
   font-size: font-size-4;
   font-weight: 400;
   margin-bottom: var(--spacing);
-  color: color-text-secondary;
+  color: var(--color-text-secondary);
 }
 .careersItem {
   margin-bottom: var(--spacing-small);

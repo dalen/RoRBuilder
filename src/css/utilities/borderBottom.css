@@ -1,23 +1,23 @@
-@value color-border from "./values/colours.css";
+@import '../values/colours.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "./values/mediaQueries.css";
 
 :global {
   .borderBottom {
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: color-border;
+    border-bottom-color: var(--color-border);
     &\@mobile {
       @media mq-mobile {
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom-color: color-border;
+        border-bottom-color: var(--color-border);
       }
     }
     &\@sm-min {
       @media mq-sm-min {
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom-color: color-border;
+        border-bottom-color: var(--color-border);
       }
     }
     &--none {

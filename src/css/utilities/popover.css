@@ -1,5 +1,5 @@
+@import '../values/colours.css';
 @value mq-mobile from "./values/mediaQueries.css";
-@value color-text-primary, color-popover-background from "./values/colours.css";
 
 @value width-popover: 35rem;
 /* Following two rules must match corresponding values in Popover.js
@@ -15,8 +15,8 @@
     z-index: 100;
     width: width-popover;
     padding: 1rem;
-    background-color: color-popover-background;
-    color: color-text-primary;
+    background-color: var(--color-popover-background);
+    color: var(--color-text-primary);
     border-radius: 0.4rem;
     opacity: 0;
     transition: opacity 0.2s linear;
@@ -63,28 +63,28 @@
   .popover--top:before {
     border-left: arrow-size solid transparent;
     border-right: arrow-size solid transparent;
-    border-top: arrow-size solid color-popover-background;
+    border-top: arrow-size solid var(--color-popover-background);
     bottom: calc(- arrow-size);
     left: calc(50% - arrow-size);
   }
   .popover--bottom:before {
     border-left: arrow-size solid transparent;
     border-right: arrow-size solid transparent;
-    border-bottom: arrow-size solid color-popover-background;
+    border-bottom: arrow-size solid var(--color-popover-background);
     top: calc(- arrow-size);
     left: calc(50% - arrow-size);
   }
   .popover--left:before {
     border-top: arrow-size solid transparent;
     border-bottom: arrow-size solid transparent;
-    border-left: arrow-size solid color-popover-background;
+    border-left: arrow-size solid var(--color-popover-background);
     top: calc(50% - arrow-size);
     right: calc(- arrow-size);
   }
   .popover--right:before {
     border-top: arrow-size solid transparent;
     border-bottom: arrow-size solid transparent;
-    border-right: arrow-size solid color-popover-background;
+    border-right: arrow-size solid var(--color-popover-background);
     top: calc(50% - arrow-size);
     left: calc(- arrow-size);
   }

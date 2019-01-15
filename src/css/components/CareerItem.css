@@ -1,6 +1,6 @@
 @import '../values/spacing.css';
+@import '../values/colours.css';
 @value font-size-1 from "../values/fontSizes.css";
-@value color-text-secondary from "../values/colours.css";
 
 .item {
   display: flex;
@@ -8,7 +8,7 @@
 }
 .link {
   font-size: font-size-1;
-  color: color-text-secondary;
+  color: var(--color-text-secondary);
   text-decoration: none;
   line-height: 1;
   &:hover {

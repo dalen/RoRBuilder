@@ -1,5 +1,5 @@
 @import '../values/spacing.css';
-@value color-base-6 from "../values/colours.css";
+@import '../values/colours.css';
 @value mq-mobile from "../values/mediaQueries.css";
 
 .container {
@@ -20,7 +20,7 @@
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  border-right: 1px solid color-base-6;
+  border-right: 1px solid var(--color-base-6);
   padding-left: var(--spacing-small);
 }
 @media mq-mobile {

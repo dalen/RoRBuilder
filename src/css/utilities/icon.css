@@ -1,10 +1,10 @@
-@value color-text-primary from "./values/colours.css";
+@import '../values/colours.css';
 
 :global {
   .icon {
     width: 16px;
     height: 16px;
-    fill: color-text-primary;
+    fill: var(--color-text-primary);
     &--small {
       width: 8px;
       height: 8px;

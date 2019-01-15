@@ -1,11 +1,11 @@
-@value color-ability-active from "../values/colours.css";
+@import '../values/colours.css';
 
 @value border-spacing: 0.2rem;
 
 .ability {
-  composes: ability from "../shared/ability.css";
+  composes: ability from '../shared/ability.css';
   background: url('/images/tactic-background.svg') no-repeat 0 0;
-	background-size: cover;
+  background-size: cover;
   cursor: pointer;
   padding: 0;
   margin: border-spacing;
@@ -13,7 +13,7 @@
 .abilityMasteryActive {
   composes: ability;
   background: url('/images/optional-tactic-active.svg') no-repeat 0 0;
-	background-size: cover;
+  background-size: cover;
 }
 .abilityMasterySelected {
   composes: ability;
@@ -28,8 +28,8 @@
   background-size: cover;
 }
 .image {
-  composes: image from "../shared/ability.css";
+  composes: image from '../shared/ability.css';
 }
 .imageInactive {
-  composes: imageInactive from "../shared/ability.css";
+  composes: imageInactive from '../shared/ability.css';
 }

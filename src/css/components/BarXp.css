@@ -1,10 +1,10 @@
-@value color-xp-dark, color-xp from "../values/colours.css";
+@import '../values/colours.css';
 
 .bar {
-  composes: bar from "../shared/bar.css";
-  background-color: color-xp-dark;
+  composes: bar from '../shared/bar.css';
+  background-color: var(--color-xp-dark);
 }
 .progress {
-  composes: barProgress from "../shared/bar.css";
-  background-color: color-xp;
+  composes: barProgress from '../shared/bar.css';
+  background-color: var(--color-xp);
 }

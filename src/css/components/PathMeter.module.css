@@ -1,11 +1,14 @@
 @import '../values/colours.css';
-@value points-available: #8a4141;
+
+:root {
+  --points-available: #8a4141;
+}
 
 .meter {
   display: flex;
   flex-direction: column-reverse;
   width: 5rem;
-  background-color: var(--color-base-1);
+  background-color: var(--var(--color-base-1));
   padding: 0.4rem;
   margin-bottom: 0.4rem;
 }
@@ -17,7 +20,7 @@
   background-color: var(--color-points-dark);
   margin-bottom: 0.2rem;
   color: rgba(0, 0, 0, 0.4);
-  font-size: font-size-small;
+  font-size: var(--font-size-small);
 }
 .levelActive {
   composes: level;
@@ -28,8 +31,8 @@
 }
 .levelAvailable {
   composes: level;
-  border: 1px solid points-available;
-  background-color: points-available;
+  border: 1px solid var(--points-available);
+  background-color: var(--points-available);
   color: rgba(255, 255, 255, 0.4);
   cursor: pointer;
 }

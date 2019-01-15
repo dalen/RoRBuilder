@@ -1,5 +1,5 @@
 @import '../values/spacing.css';
-@value color-base-5 from "../values/colours.css";
+@import '../values/colours.css';
 @value mq-mobile from "../values/mediaQueries.css";
 
 .careerIcon {
@@ -30,6 +30,6 @@
 }
 .careerIconBordered {
   composes: careerIcon;
-  border: 2px solid color-base-5;
+  border: 2px solid var(--color-base-5);
   border-radius: 50%;
 }
