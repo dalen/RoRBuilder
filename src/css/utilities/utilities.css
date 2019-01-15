@@ -1,8 +1,8 @@
-@value height-title from "./values/heights.css";
+@import '../values/heights.css';
 
 :global {
   .heightTitle {
-    height: height-title;
+    height: var(--height-title);
   }
   .overflowYHidden {
     overflow-y: auto;

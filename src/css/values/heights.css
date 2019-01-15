@@ -1,2 +1,4 @@
-@value height-title: 3.2rem;
-@value height-select: 2.8rem;
+:root {
+  --height-title: 3.2rem;
+  --height-select: 2.8rem;
+}

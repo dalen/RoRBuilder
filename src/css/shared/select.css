@@ -1,8 +1,8 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
 @import '../values/fontSizes.css';
+@import '../values/heights.css';
 @value mq-mobile from "../values/mediaQueries.css";
-@value height-select from "../values/heights.css";
 
 .select {
   display: flex;
@@ -20,7 +20,7 @@
   }
 }
 .selectElement {
-  height: height-select;
+  height: var(--height-select);
   font-size: var(--font-size-1);
   padding-top: 0;
   padding-bottom: 0;
