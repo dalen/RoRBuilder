@@ -531,9 +531,9 @@
     },
 
     {
-      "image": "10985",
+      "image": "10901",
       "id": 5631,
-      "name": "Elixir of Blades",
+      "name": "Elixir of Insane Power",
       "type": "Damaging",
       "spec": "Path of Carnage",
       "minrank": "1",
@@ -542,7 +542,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A powerful witch's brew which hastens your reactions for the next 7 seconds. Any time an enemy strikes you, you will deal 100 damage back to them.<br>You may only use a single Elixir at a time.",
+      "description": "A vile brew which drives you into a rage for the next 7 seconds. All of your attacks will ignore 50% of the victim's armor.<br>You may only use a single Elixir at a time.",
       "category": "Ability"
     },
 
