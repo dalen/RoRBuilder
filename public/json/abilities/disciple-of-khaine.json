@@ -1737,6 +1737,22 @@
       "note": "Requires Dual Wield",
       "description": "You free yourself from all roots and snares. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability"
+    },
+
+    {
+      "image": "22706",
+      "id": 9591,
+      "name": "Terrifying Aura",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "31",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Terrifying Vision will also affect all enemies within 30 feet of you.",
+      "category": "CareerTactic"
     }
   ]
 }
