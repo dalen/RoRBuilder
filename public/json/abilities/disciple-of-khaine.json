@@ -1717,10 +1717,25 @@
       "minrank": "1",
       "cost": "30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "no cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "No cooldown",
       "note": "Builds 30 Soul Essence",
       "description": "A quick strike that deals 106 damage. Khaine's approval of your actions causes your defensive target and all allies within 10ft to be healed for 100% of the damage you dealt",
+      "category": "Ability"
+    },
+    {
+      "image": "11040",
+      "id": 2961,
+      "name": "Unyeilding Tormentor",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "18",
+      "cost": "Costs 45 AP",
+      "range": "Self",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "Requires Dual Wield",
+      "description": "You free yourself from all roots and snares. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability"
     }
   ]
