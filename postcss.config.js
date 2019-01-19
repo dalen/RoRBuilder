@@ -3,7 +3,12 @@ module.exports = {
     require('postcss-import'),
     require('postcss-modules-values'),
     require('postcss-nested'),
-    require('autoprefixer'),
+    require('postcss-preset-env')({
+      autoprefixer: {
+        flexbox: 'no-2009',
+      },
+      stage: 3,
+    }),
     require('postcss-calc')({ mediaQueries: true }),
     require('cssnano')({ preset: 'default' }),
   ],

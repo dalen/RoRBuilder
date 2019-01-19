@@ -54,6 +54,7 @@
     "postcss-merge-rules": "^4.0.2",
     "postcss-modules-values": "^2.0.0",
     "postcss-nested": "^4.1.1",
+    "postcss-preset-env": "^6.5.0",
     "query-string": "^5.1.0",
     "react": "16.1.1",
     "react-dom": "16.1.1",
@@ -108,5 +109,11 @@
   },
   "eslintIgnore": [
     "public"
+  ],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
   ]
 }
