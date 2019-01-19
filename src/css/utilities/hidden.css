@@ -1,4 +1,4 @@
-@value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "./values/mediaQueries.css";
+@value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
 :global {
   .hidden {

@@ -1,5 +1,5 @@
 @import '../values/colours.css';
-@value mq-mobile from "./values/mediaQueries.css";
+@value mq-mobile from "../values/mediaQueries.css";
 
 @value width-popover: 35rem;
 /* Following two rules must match corresponding values in Popover.js
