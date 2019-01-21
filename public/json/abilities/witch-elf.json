@@ -1648,6 +1648,22 @@
       "note": "",
       "description": "Your Armour Penetration is increased by 50% for 3 serconds after successful use of your Frenzies.",
       "category": "CareerTactic"
+    },
+    {
+      "image": "10990",
+      "id": 5609,
+      "name": "Bloody Inspiration",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "40",
+      "cost": "Rank 2 morale",
+      "range": "No range",
+      "incant": "Insta-Cast",
+      "cooldown": "1m cooldown",
+      "note": "Your bloody fury inspires your group",
+      "description": "Moral gain is doubled for 15s.",
+      "category": "Morale"
     }
+
   ]
 }
