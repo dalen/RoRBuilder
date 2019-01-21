@@ -1600,6 +1600,21 @@
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "Reduces your target's Willpower by 75 for 10 seconds. When the effect ends, the victim will suffer 365 Spirit damage.",
       "category": "Ability"
-    }
+    },
+    {
+      "image": "10993",
+      "id": 2710,
+      "name": "Shatter",
+      "type": "Damaging",
+      "spec": "Core Ability",
+      "minrank": "40",
+      "cost": "Rank 2 morale",
+      "range": "No range",
+      "incant": "Insta-Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "Deals 1200 damage to all enemieswithin 30 feet.",
+      "category": "Morale"
+    }    
   ]
 }
