@@ -1,0 +1,31 @@
+.abilityStandardMastery {
+  cursor: pointer;
+}
+.abilityStandard {
+  composes: ability from './Ability.module.css';
+  composes: abilityStandardMastery;
+}
+.abilityStandardActive {
+  composes: abilityMasteryActive from './Ability.module.css';
+  composes: abilityStandardMastery;
+}
+.abilityStandardSelected {
+  composes: abilityMasterySelected from './Ability.module.css';
+  composes: abilityStandardMastery;
+}
+.imageSelected {
+  opacity: 1;
+}
+.imageStandard {
+  composes: imageInactive from './Ability.module.css';
+}
+.imageStandardSelected {
+  composes: image from './Ability.module.css';
+  composes: imageSelected;
+}
+.imageMoraleSelected {
+  composes: imageSelected;
+}
+.imageTacticSelected {
+  composes: imageSelected;
+}
