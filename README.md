@@ -18,15 +18,21 @@ You can see the the RoR Career Builder in action at: [http://ror.builders](http:
 
 - Clone the repository to a destination of your choice.
 - At the destination folder, install the assets using npm:
+
 ```
 npm install
 ```
-- To run a local dev server, with Hot Module Reloading (HMR), at **http://localhost:8080** run:
+
+- To run a local dev server, with Hot Module Reloading (HMR), at **http://localhost:3000** run:
+
 ```
-npm run dev
+npm start
 ```
+
 - To create a production ready version of the app (in **/build** directory) run:
+
 ```
 npm run build
 ```
+
 **Note:** When creating production ready version, remember to populate `analytics.js` with real Google Analytics configuration.

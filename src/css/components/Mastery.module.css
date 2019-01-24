@@ -1,0 +1,44 @@
+@import '../values/spacing.css';
+@import '../values/colours.css';
+@import '../values/fontSizes.css';
+
+:root {
+  --label-padding: 0.3rem;
+}
+
+.container {
+  composes: box from '../shared/box.css';
+  padding-right: 0;
+}
+.heading {
+  composes: heading1 from '../shared/heading.css';
+}
+.label {
+  position: relative;
+  top: calc(var(--label-padding) * -1);
+  display: inline-block;
+  color: var(--color-base-0);
+  font-size: var(--font-size-3);
+  padding: var(--label-padding) calc(var(--label-padding) * 2);
+  background-color: var(--color-base-6);
+}
+.label--points {
+  background-color: var(--color-points);
+  color: var(--color-text-primary);
+}
+.labelActive {
+  composes: label;
+  background-color: var(--color-points);
+  color: var(--color-text-primary);
+}
+.subHeading {
+  composes: heading2 from '../shared/heading.css';
+  display: flex;
+  align-items: center;
+}
+.subHeadingSmall {
+  composes: heading2Light from '../shared/heading.css';
+  font-size: var(--font-size-2);
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing-small);
+}

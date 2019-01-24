@@ -1,0 +1,18 @@
+@import '../values/spacing.css';
+
+.popverButton {
+  float: right;
+  margin-left: var(--spacing);
+}
+.actionRemove {
+  composes: buttonNegative from '../shared/button.module.css';
+  composes: popverButton;
+}
+.actionAdd {
+  composes: buttonPrimary from '../shared/button.module.css';
+  composes: popverButton;
+}
+.close {
+  composes: buttonSecondary from '../shared/button.module.css';
+  float: right;
+}

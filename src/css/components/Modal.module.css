@@ -1,0 +1,41 @@
+@import '../values/spacing.css';
+@import '../values/colours.css';
+@value mq-mobile, mq-md-min from "../values/mediaQueries.css";
+
+.modal {
+  display: none;
+}
+.modalVisible {
+  display: block;
+}
+.container {
+  position: fixed;
+  z-index: 10;
+  width: 50%;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-base-4);
+  border: 1px solid var(--color-base-5);
+}
+@media mq-mobile {
+  .container {
+    width: 80%;
+  }
+}
+@media mq-md-min {
+  .container {
+    width: 40%;
+  }
+}
+.content {
+  margin-bottom: var(--spacing);
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.close {
+  composes: buttonSecondary from '../shared/button.module.css';
+}

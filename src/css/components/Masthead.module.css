@@ -1,0 +1,169 @@
+@import '../values/spacing.css';
+@import '../values/colours.css';
+@import '../values/fontSizes.css';
+@value mq-mobile, mq-sm-min from "../values/mediaQueries.css";
+
+:root {
+  --shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.masthead {
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  height: 30rem;
+  background: url('/images/home-background.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  transition: all 500ms ease;
+  border-bottom: 1px solid var(--color-base-1);
+}
+@media mq-mobile {
+  .masthead {
+    z-index: auto;
+    height: 25rem;
+  }
+}
+.mastheadActive {
+  composes: masthead;
+  height: 70rem;
+}
+@media mq-sm-min {
+  .mastheadActive {
+    height: 55rem;
+  }
+}
+.mastheadOverlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.mastheadTitle {
+  font-size: 4.8rem;
+  text-align: center;
+  padding-top: 4rem;
+  text-shadow: var(--shadow);
+  transition: all 500ms ease;
+  color: var(--color-text-primary);
+}
+@media mq-mobile {
+  .mastheadTitle {
+    font-size: 4rem;
+    margin-right: var(--spacing);
+    margin-left: var(--spacing);
+  }
+}
+.mastheadTitleActive {
+  composes: mastheadTitle;
+  padding-top: 3rem;
+}
+.mastheadSubtitle {
+  color: var(--color-text-primary);
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: var(--shadow);
+}
+@media mq-mobile {
+  .mastheadSubtitle {
+    font-size: 1.6rem;
+  }
+}
+.mastheadCta {
+  opacity: 1;
+  transition: all 500ms ease;
+  text-align: center;
+  margin-top: var(--spacing-medium);
+}
+.mastheadCtaActive {
+  composes: mastheadCta;
+  opacity: 0;
+  margin-top: -10rem;
+}
+.mastheadCtaButton {
+  composes: buttonSecondaryInverseLarge from '../shared/button.module.css';
+}
+.mastheadFooter {
+  opacity: 0;
+  transition: all 500ms ease;
+  position: absolute;
+  bottom: var(--spacing);
+  right: var(--spacing);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-1);
+  text-decoration: none;
+}
+.mastheadFooterActive {
+  composes: mastheadFooter;
+  opacity: 1;
+}
+.careers {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-around;
+}
+.careersContainer {
+  flex-grow: 0;
+  flex-basis: 40%;
+  opacity: 0;
+  padding: var(--spacing-medium);
+  transition: all 500ms ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: 200;
+}
+.careersContainerActive {
+  composes: careersContainer;
+  opacity: 1;
+}
+.careersContainerRight {
+  composes: careersContainer;
+  margin-right: -90rem;
+}
+.careersContainerRightActive {
+  composes: careersContainerActive;
+  composes: careersContainerRight;
+  margin-right: 0;
+}
+.careersContainerLeft {
+  composes: careersContainer;
+  margin-left: -90rem;
+}
+.careersContainerLeftActive {
+  composes: careersContainerActive;
+  composes: careersContainerLeft;
+  margin-left: 0;
+}
+.careersTitle {
+  font-size: var(--font-size-4);
+  font-weight: 400;
+  margin-bottom: var(--spacing);
+  color: var(--color-text-secondary);
+}
+.careersItem {
+  margin-bottom: var(--spacing-small);
+}
+.careersFaction {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media mq-sm-min {
+  .careersFaction {
+    flex-direction: row;
+  }
+}
+.careersRace {
+  flex-basis: auto;
+  margin-bottom: var(--spacing-medium);
+  flex-grow: 1;
+}
+@media mq-sm-min {
+  .careersRace {
+    flex-basis: 50%;
+  }
+}
+.careersRaceTitle {
+  composes: heading2Light from '../shared/heading.css';
+  margin-bottom: 0;
+}
+.careersRaceIcon {
+  composes: careerIconSmaller from '../shared/careerIcon.css';
+}

@@ -1,8 +1,0 @@
-{
-  "presets": [
-    // webpack understands the native import syntax, and uses it for tree shaking
-    ["@babel/env", { "modules": false }],
-    // Transpile React components to JavaScript
-    "@babel/react"
-  ]
-}
