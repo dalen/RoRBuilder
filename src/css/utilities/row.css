@@ -1,23 +1,21 @@
-:global {
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    &--justify {
-      justify-content: space-between;
-    }
-    &--right {
-      justify-content: flex-end;
-    }
-    &--centered {
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-    &--v-center {
-      align-items: center;
-    }
-    &--v-top {
-      align-items: flex-start;
-    }
-  }
+:global .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+:global .row--justify {
+  justify-content: space-between;
+}
+:global .row--right {
+  justify-content: flex-end;
+}
+:global .row--centered {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+:global .row--v-center {
+  align-items: center;
+}
+:global .row--v-top {
+  align-items: flex-start;
 }

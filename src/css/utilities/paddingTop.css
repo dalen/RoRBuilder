@@ -1,66 +1,78 @@
 @import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .paddingTop {
+:global .paddingTop {
+  padding-top: var(--spacing);
+}
+
+:global .paddingTop--extra-small {
+  padding-top: var(--spacing-extra-small);
+}
+
+:global .paddingTop--small {
+  padding-top: var(--spacing-small);
+}
+
+:global .paddingTop--medium {
+  padding-top: var(--spacing-medium);
+}
+
+:global .paddingTop--large {
+  padding-top: var(--spacing-large);
+}
+
+:global .paddingTop--extra-large {
+  padding-top: var(--spacing-extra-large);
+}
+
+@media mq-mobile {
+  :global .paddingTop\@mobile {
     padding-top: var(--spacing);
-    &--extra-small {
-      padding-top: var(--spacing-extra-small);
-    }
-    &--small {
-      padding-top: var(--spacing-small);
-    }
-    &--medium {
-      padding-top: var(--spacing-medium);
-    }
-    &--large {
-      padding-top: var(--spacing-large);
-    }
-    &--extra-large {
-      padding-top: var(--spacing-extra-large);
-    }
-    &\@mobile {
-      @media mq-mobile {
-        padding-top: var(--spacing);
-      }
-    }
-    &--none {
-      padding-top: 0;
-      &\@mobile {
-        @media mq-mobile {
-          padding-top: 0;
-        }
-      }
-      &\@xs {
-        @media mq-xs {
-          padding-top: 0;
-        }
-      }
-      &\@sm {
-        @media mq-sm {
-          padding-top: 0;
-        }
-      }
-      &\@sm-min {
-        @media mq-sm-min {
-          padding-top: 0;
-        }
-      }
-      &\@md {
-        @media mq-md {
-          padding-top: 0;
-        }
-      }
-      &\@md-min {
-        @media mq-md-min {
-          padding-top: 0;
-        }
-      }
-      &\@lg {
-        @media mq-lg {
-          padding-top: 0;
-        }
-      }
-    }
+  }
+}
+
+:global .paddingTop--none {
+  padding-top: 0;
+}
+
+@media mq-mobile {
+  :global .paddingTop--none\@mobile {
+    padding-top: 0;
+  }
+}
+
+@media mq-xs {
+  :global .paddingTop--none\@xs {
+    padding-top: 0;
+  }
+}
+
+@media mq-sm {
+  :global .paddingTop--none\@sm {
+    padding-top: 0;
+  }
+}
+
+@media mq-sm-min {
+  :global .paddingTop--none\@sm-min {
+    padding-top: 0;
+  }
+}
+
+@media mq-md {
+  :global .paddingTop--none\@md {
+    padding-top: 0;
+  }
+}
+
+@media mq-md-min {
+  :global .paddingTop--none\@md-min {
+    padding-top: 0;
+  }
+}
+
+@media mq-lg {
+  :global .paddingTop--none\@lg {
+    padding-top: 0;
   }
 }

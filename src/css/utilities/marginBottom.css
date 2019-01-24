@@ -1,61 +1,72 @@
 @import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .marginBottom {
-    margin-bottom: var(--spacing);
-    &--extra-small {
-      margin-bottom: var(--spacing-extra-small);
-    }
-    &--small {
-      margin-bottom: var(--spacing-small);
-    }
-    &--medium {
-      margin-bottom: var(--spacing-medium);
-    }
-    &--large {
-      margin-bottom: var(--spacing-large);
-    }
-    &--extra-large {
-      margin-bottom: var(--spacing-extra-large);
-    }
-    &--none {
-      margin-bottom: 0;
-      &\@mobile {
-        @media mq-mobile {
-          margin-bottom: 0;
-        }
-      }
-      &\@xs {
-        @media mq-xs {
-          margin-bottom: 0;
-        }
-      }
-      &\@sm {
-        @media mq-sm {
-          margin-bottom: 0;
-        }
-      }
-      &\@sm-min {
-        @media mq-sm-min {
-          margin-bottom: 0;
-        }
-      }
-      &\@md {
-        @media mq-md {
-          margin-bottom: 0;
-        }
-      }
-      &\@md-min {
-        @media mq-md-min {
-          margin-bottom: 0;
-        }
-      }
-      &\@lg {
-        @media mq-lg {
-          margin-bottom: 0;
-        }
-      }
-    }
+:global .marginBottom {
+  margin-bottom: var(--spacing);
+}
+
+:global .marginBottom--extra-small {
+  margin-bottom: var(--spacing-extra-small);
+}
+
+:global .marginBottom--small {
+  margin-bottom: var(--spacing-small);
+}
+
+:global .marginBottom--medium {
+  margin-bottom: var(--spacing-medium);
+}
+
+:global .marginBottom--large {
+  margin-bottom: var(--spacing-large);
+}
+
+:global .marginBottom--extra-large {
+  margin-bottom: var(--spacing-extra-large);
+}
+
+:global .marginBottom--none {
+  margin-bottom: 0;
+}
+
+@media mq-mobile {
+  :global .marginBottom--none\@mobile {
+    margin-bottom: 0;
+  }
+}
+
+@media mq-xs {
+  :global .marginBottom--none\@xs {
+    margin-bottom: 0;
+  }
+}
+
+@media mq-sm {
+  :global .marginBottom--none\@sm {
+    margin-bottom: 0;
+  }
+}
+
+@media mq-sm-min {
+  :global .marginBottom--none\@sm-min {
+    margin-bottom: 0;
+  }
+}
+
+@media mq-md {
+  :global .marginBottom--none\@md {
+    margin-bottom: 0;
+  }
+}
+
+@media mq-md-min {
+  :global .marginBottom--none\@md-min {
+    margin-bottom: 0;
+  }
+}
+
+@media mq-lg {
+  :global .marginBottom--none\@lg {
+    margin-bottom: 0;
   }
 }

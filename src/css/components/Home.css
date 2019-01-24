@@ -41,15 +41,13 @@
   margin-top: 0;
   margin-bottom: var(--spacing);
 }
-.copyLink {
-  &:link,
-  &:visited,
-  &:hover,
-  &:active {
-    color: var(--color-text-secondary);
-    text-decoration: underline;
-  }
-  &:hover {
-    text-decoration: none;
-  }
+.copyLink:link,
+.copyLink:visited,
+.copyLink:hover,
+.copyLink:active {
+  color: var(--color-text-secondary);
+  text-decoration: underline;
+}
+.copyLink:hover {
+  text-decoration: none;
 }

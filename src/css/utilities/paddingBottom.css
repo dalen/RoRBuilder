@@ -1,66 +1,78 @@
 @import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .paddingBottom {
+:global .paddingBottom {
+  padding-bottom: var(--spacing);
+}
+
+:global .paddingBottom--extra-small {
+  padding-bottom: var(--spacing-extra-small);
+}
+
+:global .paddingBottom--small {
+  padding-bottom: var(--spacing-small);
+}
+
+:global .paddingBottom--medium {
+  padding-bottom: var(--spacing-medium);
+}
+
+:global .paddingBottom--large {
+  padding-bottom: var(--spacing-large);
+}
+
+:global .paddingBottom--extra-large {
+  padding-bottom: var(--spacing-extra-large);
+}
+
+@media mq-mobile {
+  :global .paddingBottom\@mobile {
     padding-bottom: var(--spacing);
-    &--extra-small {
-      padding-bottom: var(--spacing-extra-small);
-    }
-    &--small {
-      padding-bottom: var(--spacing-small);
-    }
-    &--medium {
-      padding-bottom: var(--spacing-medium);
-    }
-    &--large {
-      padding-bottom: var(--spacing-large);
-    }
-    &--extra-large {
-      padding-bottom: var(--spacing-extra-large);
-    }
-    &\@mobile {
-      @media mq-mobile {
-        padding-bottom: var(--spacing);
-      }
-    }
-    &--none {
-      padding-bottom: 0;
-      &\@mobile {
-        @media mq-mobile {
-          padding-bottom: 0;
-        }
-      }
-      &\@xs {
-        @media mq-xs {
-          padding-bottom: 0;
-        }
-      }
-      &\@sm {
-        @media mq-sm {
-          padding-bottom: 0;
-        }
-      }
-      &\@sm-min {
-        @media mq-sm-min {
-          padding-bottom: 0;
-        }
-      }
-      &\@md {
-        @media mq-md {
-          padding-bottom: 0;
-        }
-      }
-      &\@md-min {
-        @media mq-md-min {
-          padding-bottom: 0;
-        }
-      }
-      &\@lg {
-        @media mq-lg {
-          padding-bottom: 0;
-        }
-      }
-    }
+  }
+}
+
+:global .paddingBottom--none {
+  padding-bottom: 0;
+}
+
+@media mq-mobile {
+  :global .paddingBottom--none\@mobile {
+    padding-bottom: 0;
+  }
+}
+
+@media mq-xs {
+  :global .paddingBottom--none\@xs {
+    padding-bottom: 0;
+  }
+}
+
+@media mq-sm {
+  :global .paddingBottom--none\@sm {
+    padding-bottom: 0;
+  }
+}
+
+@media mq-sm-min {
+  :global .paddingBottom--none\@sm-min {
+    padding-bottom: 0;
+  }
+}
+
+@media mq-md {
+  :global .paddingBottom--none\@md {
+    padding-bottom: 0;
+  }
+}
+
+@media mq-md-min {
+  :global .paddingBottom--none\@md-min {
+    padding-bottom: 0;
+  }
+}
+
+@media mq-lg {
+  :global .paddingBottom--none\@lg {
+    padding-bottom: 0;
   }
 }

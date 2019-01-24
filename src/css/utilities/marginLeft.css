@@ -1,76 +1,90 @@
 @import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .marginLeft {
+:global .marginLeft {
+  margin-left: var(--spacing);
+}
+
+:global .marginLeft--extra-small {
+  margin-left: var(--spacing-extra-small);
+}
+
+:global .marginLeft--small {
+  margin-left: var(--spacing-small);
+}
+
+:global .marginLeft--medium {
+  margin-left: var(--spacing-medium);
+}
+
+:global .marginLeft--large {
+  margin-left: var(--spacing-large);
+}
+
+:global .marginLeft--extra-large {
+  margin-left: var(--spacing-extra-large);
+}
+
+@media mq-mobile {
+  :global .marginLeft\@mobile {
     margin-left: var(--spacing);
-    &--extra-small {
-      margin-left: var(--spacing-extra-small);
-    }
-    &--small {
-      margin-left: var(--spacing-small);
-    }
-    &--medium {
-      margin-left: var(--spacing-medium);
-    }
-    &--large {
-      margin-left: var(--spacing-large);
-    }
-    &--extra-large {
-      margin-left: var(--spacing-extra-large);
-    }
-    &\@mobile {
-      @media mq-mobile {
-        margin-left: var(--spacing);
-      }
-    }
-    &\@sm-min {
-      @media mq-sm-min {
-        margin-left: var(--spacing);
-      }
-    }
-    &\@md-min {
-      @media mq-md-min {
-        margin-left: var(--spacing);
-      }
-    }
-    &--none {
-      margin-left: 0;
-      &\@mobile {
-        @media mq-mobile {
-          margin-left: 0;
-        }
-      }
-      &\@xs {
-        @media mq-xs {
-          margin-left: 0;
-        }
-      }
-      &\@sm {
-        @media mq-sm {
-          margin-left: 0;
-        }
-      }
-      &\@sm-min {
-        @media mq-sm-min {
-          margin-left: 0;
-        }
-      }
-      &\@md {
-        @media mq-md {
-          margin-left: 0;
-        }
-      }
-      &\@md-min {
-        @media mq-md-min {
-          margin-left: 0;
-        }
-      }
-      &\@lg {
-        @media mq-lg {
-          margin-left: 0;
-        }
-      }
-    }
+  }
+}
+
+@media mq-sm-min {
+  :global .marginLeft\@sm-min {
+    margin-left: var(--spacing);
+  }
+}
+
+@media mq-md-min {
+  :global .marginLeft\@md-min {
+    margin-left: var(--spacing);
+  }
+}
+
+:global .marginLeft--none {
+  margin-left: 0;
+}
+
+@media mq-mobile {
+  :global .marginLeft--none\@mobile {
+    margin-left: 0;
+  }
+}
+
+@media mq-xs {
+  :global .marginLeft--none\@xs {
+    margin-left: 0;
+  }
+}
+
+@media mq-sm {
+  :global .marginLeft--none\@sm {
+    margin-left: 0;
+  }
+}
+
+@media mq-sm-min {
+  :global .marginLeft--none\@sm-min {
+    margin-left: 0;
+  }
+}
+
+@media mq-md {
+  :global .marginLeft--none\@md {
+    margin-left: 0;
+  }
+}
+
+@media mq-md-min {
+  :global .marginLeft--none\@md-min {
+    margin-left: 0;
+  }
+}
+
+@media mq-lg {
+  :global .marginLeft--none\@lg {
+    margin-left: 0;
   }
 }

@@ -1,53 +1,239 @@
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .grid {
-    display: flex;
-    align-content: flex-start;
-    flex-wrap: wrap;
-  }
+:global .grid {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
 
-  .grid-col-1,
-  .grid-col-1-1,
-  .grid-col-1-2,
-  .grid-col-1-3,
-  .grid-col-2-3,
-  .grid-col-1-4,
-  .grid-col-3-4,
-  .grid-col-1-6,
-  .grid-col-5-6,
-  .grid-col-1-8,
-  .grid-col-3-8,
-  .grid-col-5-8,
-  .grid-col-7-8,
-  .grid-col-1-12,
-  .grid-col-5-12,
-  .grid-col-7-12,
-  .grid-col-11-12,
-  .grid-col-1-24,
-  .grid-col-2-24,
-  .grid-col-3-24,
-  .grid-col-4-24,
-  .grid-col-5-24,
-  .grid-col-6-24,
-  .grid-col-7-24,
-  .grid-col-8-24,
-  .grid-col-9-24,
-  .grid-col-10-24,
-  .grid-col-11-24,
-  .grid-col-12-24,
-  .grid-col-13-24,
-  .grid-col-14-24,
-  .grid-col-15-24,
-  .grid-col-16-24,
-  .grid-col-17-24,
-  .grid-col-18-24,
-  .grid-col-19-24,
-  .grid-col-20-24,
-  .grid-col-21-24,
-  .grid-col-22-24,
-  .grid-col-23-24,
-  .grid-col-24-24 {
+:global .grid-col-1,
+:global .grid-col-1-1,
+:global .grid-col-1-2,
+:global .grid-col-1-3,
+:global .grid-col-2-3,
+:global .grid-col-1-4,
+:global .grid-col-3-4,
+:global .grid-col-1-6,
+:global .grid-col-5-6,
+:global .grid-col-1-8,
+:global .grid-col-3-8,
+:global .grid-col-5-8,
+:global .grid-col-7-8,
+:global .grid-col-1-12,
+:global .grid-col-5-12,
+:global .grid-col-7-12,
+:global .grid-col-11-12,
+:global .grid-col-1-24,
+:global .grid-col-2-24,
+:global .grid-col-3-24,
+:global .grid-col-4-24,
+:global .grid-col-5-24,
+:global .grid-col-6-24,
+:global .grid-col-7-24,
+:global .grid-col-8-24,
+:global .grid-col-9-24,
+:global .grid-col-10-24,
+:global .grid-col-11-24,
+:global .grid-col-12-24,
+:global .grid-col-13-24,
+:global .grid-col-14-24,
+:global .grid-col-15-24,
+:global .grid-col-16-24,
+:global .grid-col-17-24,
+:global .grid-col-18-24,
+:global .grid-col-19-24,
+:global .grid-col-20-24,
+:global .grid-col-21-24,
+:global .grid-col-22-24,
+:global .grid-col-23-24,
+:global .grid-col-24-24 {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+}
+
+:global .grid-col-1-24 {
+  width: 4.1667%;
+  *width: 4.1357%;
+}
+
+:global .grid-col-1-12,
+:global .grid-col-2-24 {
+  width: 8.3333%;
+  *width: 8.3023%;
+}
+
+:global .grid-col-1-8,
+:global .grid-col-3-24 {
+  width: 12.5%;
+  *width: 12.469%;
+}
+
+:global .grid-col-1-6,
+:global .grid-col-4-24 {
+  width: 16.6667%;
+  *width: 16.6357%;
+}
+
+:global .grid-col-5-24 {
+  width: 20.8333%;
+  *width: 20.8023%;
+}
+
+:global .grid-col-1-4,
+:global .grid-col-6-24 {
+  width: 25%;
+  *width: 24.969%;
+}
+
+:global .grid-col-7-24 {
+  width: 29.1667%;
+  *width: 29.1357%;
+}
+
+:global .grid-col-1-3,
+:global .grid-col-8-24 {
+  width: 33.3333%;
+  *width: 33.3023%;
+}
+
+:global .grid-col-3-8,
+:global .grid-col-9-24 {
+  width: 37.5%;
+  *width: 37.469%;
+}
+
+:global .grid-col-5-12,
+:global .grid-col-10-24 {
+  width: 41.6667%;
+  *width: 41.6357%;
+}
+
+:global .grid-col-11-24 {
+  width: 45.8333%;
+  *width: 45.8023%;
+}
+
+:global .grid-col-1-2,
+:global .grid-col-12-24 {
+  width: 50%;
+  *width: 49.969%;
+}
+
+:global .grid-col-13-24 {
+  width: 54.1667%;
+  *width: 54.1357%;
+}
+
+:global .grid-col-7-12,
+:global .grid-col-14-24 {
+  width: 58.3333%;
+  *width: 58.3023%;
+}
+
+:global .grid-col-5-8,
+:global .grid-col-15-24 {
+  width: 62.5%;
+  *width: 62.469%;
+}
+
+:global .grid-col-2-3,
+:global .grid-col-16-24 {
+  width: 66.6667%;
+  *width: 66.6357%;
+}
+
+:global .grid-col-17-24 {
+  width: 70.8333%;
+  *width: 70.8023%;
+}
+
+:global .grid-col-3-4,
+:global .grid-col-18-24 {
+  width: 75%;
+  *width: 74.969%;
+}
+
+:global .grid-col-19-24 {
+  width: 79.1667%;
+  *width: 79.1357%;
+}
+
+:global .grid-col-5-6,
+:global .grid-col-20-24 {
+  width: 83.3333%;
+  *width: 83.3023%;
+}
+
+:global .grid-col-7-8,
+:global .grid-col-21-24 {
+  width: 87.5%;
+  *width: 87.469%;
+}
+
+:global .grid-col-11-12,
+:global .grid-col-22-24 {
+  width: 91.6667%;
+  *width: 91.6357%;
+}
+
+:global .grid-col-23-24 {
+  width: 95.8333%;
+  *width: 95.8023%;
+}
+
+:global .grid-col-1,
+:global .grid-col-1-1,
+:global .grid-col-24-24 {
+  width: 100%;
+}
+
+@media mq-mobile {
+  :global .grid-col-1\@mobile,
+  :global .grid-col-1-1\@mobile,
+  :global .grid-col-1-2\@mobile,
+  :global .grid-col-1-3\@mobile,
+  :global .grid-col-2-3\@mobile,
+  :global .grid-col-1-4\@mobile,
+  :global .grid-col-3-4\@mobile,
+  :global .grid-col-1-6\@mobile,
+  :global .grid-col-5-6\@mobile,
+  :global .grid-col-1-8\@mobile,
+  :global .grid-col-3-8\@mobile,
+  :global .grid-col-5-8\@mobile,
+  :global .grid-col-7-8\@mobile,
+  :global .grid-col-1-12\@mobile,
+  :global .grid-col-5-12\@mobile,
+  :global .grid-col-7-12\@mobile,
+  :global .grid-col-11-12\@mobile,
+  :global .grid-col-1-24\@mobile,
+  :global .grid-col-2-24\@mobile,
+  :global .grid-col-3-24\@mobile,
+  :global .grid-col-4-24\@mobile,
+  :global .grid-col-5-24\@mobile,
+  :global .grid-col-6-24\@mobile,
+  :global .grid-col-7-24\@mobile,
+  :global .grid-col-8-24\@mobile,
+  :global .grid-col-9-24\@mobile,
+  :global .grid-col-10-24\@mobile,
+  :global .grid-col-11-24\@mobile,
+  :global .grid-col-12-24\@mobile,
+  :global .grid-col-13-24\@mobile,
+  :global .grid-col-14-24\@mobile,
+  :global .grid-col-15-24\@mobile,
+  :global .grid-col-16-24\@mobile,
+  :global .grid-col-17-24\@mobile,
+  :global .grid-col-18-24\@mobile,
+  :global .grid-col-19-24\@mobile,
+  :global .grid-col-20-24\@mobile,
+  :global .grid-col-21-24\@mobile,
+  :global .grid-col-22-24\@mobile,
+  :global .grid-col-23-24\@mobile,
+  :global .grid-col-24-24\@mobile {
     display: inline-block;
     *display: inline;
     zoom: 1;
@@ -57,1455 +243,1267 @@
     text-rendering: auto;
   }
 
-  .grid-col-1-24 {
+  :global .grid-col-1-24\@mobile {
     width: 4.1667%;
     *width: 4.1357%;
   }
 
-  .grid-col-1-12,
-  .grid-col-2-24 {
+  :global .grid-col-1-12\@mobile,
+  :global .grid-col-2-24\@mobile {
     width: 8.3333%;
     *width: 8.3023%;
   }
 
-  .grid-col-1-8,
-  .grid-col-3-24 {
+  :global .grid-col-1-8\@mobile,
+  :global .grid-col-3-24\@mobile {
     width: 12.5%;
     *width: 12.469%;
   }
 
-  .grid-col-1-6,
-  .grid-col-4-24 {
+  :global .grid-col-1-6\@mobile,
+  :global .grid-col-4-24\@mobile {
     width: 16.6667%;
     *width: 16.6357%;
   }
 
-  .grid-col-5-24 {
+  :global .grid-col-5-24\@mobile {
     width: 20.8333%;
     *width: 20.8023%;
   }
 
-  .grid-col-1-4,
-  .grid-col-6-24 {
+  :global .grid-col-1-4\@mobile,
+  :global .grid-col-6-24\@mobile {
     width: 25%;
     *width: 24.969%;
   }
 
-  .grid-col-7-24 {
+  :global .grid-col-mobile-7-24\@mobile {
     width: 29.1667%;
     *width: 29.1357%;
   }
 
-  .grid-col-1-3,
-  .grid-col-8-24 {
+  :global .grid-col-1-3\@mobile,
+  :global .grid-col-8-24\@mobile {
     width: 33.3333%;
     *width: 33.3023%;
   }
 
-  .grid-col-3-8,
-  .grid-col-9-24 {
+  :global .grid-col-3-8\@mobile,
+  :global .grid-col-9-24\@mobile {
     width: 37.5%;
     *width: 37.469%;
   }
 
-  .grid-col-5-12,
-  .grid-col-10-24 {
+  :global .grid-col-5-12\@mobile,
+  :global .grid-col-10-24\@mobile {
     width: 41.6667%;
     *width: 41.6357%;
   }
 
-  .grid-col-11-24 {
+  :global .grid-col-11-24\@mobile {
     width: 45.8333%;
     *width: 45.8023%;
   }
 
-  .grid-col-1-2,
-  .grid-col-12-24 {
+  :global .grid-col-1-2\@mobile,
+  :global .grid-col-12-24\@mobile {
     width: 50%;
     *width: 49.969%;
   }
 
-  .grid-col-13-24 {
+  :global .grid-col-13-24\@mobile {
     width: 54.1667%;
     *width: 54.1357%;
   }
 
-  .grid-col-7-12,
-  .grid-col-14-24 {
+  :global .grid-col-7-12\@mobile,
+  :global .grid-col-14-24\@mobile {
     width: 58.3333%;
     *width: 58.3023%;
   }
 
-  .grid-col-5-8,
-  .grid-col-15-24 {
+  :global .grid-col-5-8\@mobile,
+  :global .grid-col-15-24\@mobile {
     width: 62.5%;
     *width: 62.469%;
   }
 
-  .grid-col-2-3,
-  .grid-col-16-24 {
+  :global .grid-col-2-3\@mobile,
+  :global .grid-col-16-24\@mobile {
     width: 66.6667%;
     *width: 66.6357%;
   }
 
-  .grid-col-17-24 {
+  :global .grid-col-17-24\@mobile {
     width: 70.8333%;
     *width: 70.8023%;
   }
 
-  .grid-col-3-4,
-  .grid-col-18-24 {
+  :global .grid-col-3-4\@mobile,
+  :global .grid-col-18-24\@mobile {
     width: 75%;
     *width: 74.969%;
   }
 
-  .grid-col-19-24 {
+  :global .grid-col-19-24\@mobile {
     width: 79.1667%;
     *width: 79.1357%;
   }
 
-  .grid-col-5-6,
-  .grid-col-20-24 {
+  :global .grid-col-5-6\@mobile,
+  :global .grid-col-20-24\@mobile {
     width: 83.3333%;
     *width: 83.3023%;
   }
 
-  .grid-col-7-8,
-  .grid-col-21-24 {
+  :global .grid-col-7-8\@mobile,
+  :global .grid-col-21-24\@mobile {
     width: 87.5%;
     *width: 87.469%;
   }
 
-  .grid-col-11-12,
-  .grid-col-22-24 {
+  :global .grid-col-11-12\@mobile,
+  :global .grid-col-22-24\@mobile {
     width: 91.6667%;
     *width: 91.6357%;
   }
 
-  .grid-col-23-24 {
+  :global .grid-col-23-24\@mobile {
     width: 95.8333%;
     *width: 95.8023%;
   }
 
-  .grid-col-1,
-  .grid-col-1-1,
-  .grid-col-24-24 {
+  :global .grid-col-1\@mobile,
+  :global .grid-col-1-1\@mobile,
+  :global .grid-col-24-24\@mobile {
     width: 100%;
   }
+}
 
-  @media mq-mobile {
-    .grid-col-1\@mobile,
-    .grid-col-1-1\@mobile,
-    .grid-col-1-2\@mobile,
-    .grid-col-1-3\@mobile,
-    .grid-col-2-3\@mobile,
-    .grid-col-1-4\@mobile,
-    .grid-col-3-4\@mobile,
-    .grid-col-1-6\@mobile,
-    .grid-col-5-6\@mobile,
-    .grid-col-1-8\@mobile,
-    .grid-col-3-8\@mobile,
-    .grid-col-5-8\@mobile,
-    .grid-col-7-8\@mobile,
-    .grid-col-1-12\@mobile,
-    .grid-col-5-12\@mobile,
-    .grid-col-7-12\@mobile,
-    .grid-col-11-12\@mobile,
-    .grid-col-1-24\@mobile,
-    .grid-col-2-24\@mobile,
-    .grid-col-3-24\@mobile,
-    .grid-col-4-24\@mobile,
-    .grid-col-5-24\@mobile,
-    .grid-col-6-24\@mobile,
-    .grid-col-7-24\@mobile,
-    .grid-col-8-24\@mobile,
-    .grid-col-9-24\@mobile,
-    .grid-col-10-24\@mobile,
-    .grid-col-11-24\@mobile,
-    .grid-col-12-24\@mobile,
-    .grid-col-13-24\@mobile,
-    .grid-col-14-24\@mobile,
-    .grid-col-15-24\@mobile,
-    .grid-col-16-24\@mobile,
-    .grid-col-17-24\@mobile,
-    .grid-col-18-24\@mobile,
-    .grid-col-19-24\@mobile,
-    .grid-col-20-24\@mobile,
-    .grid-col-21-24\@mobile,
-    .grid-col-22-24\@mobile,
-    .grid-col-23-24\@mobile,
-    .grid-col-24-24\@mobile {
-      display: inline-block;
-      *display: inline;
-      zoom: 1;
-      letter-spacing: normal;
-      word-spacing: normal;
-      vertical-align: top;
-      text-rendering: auto;
-    }
-
-    .grid-col-1-24\@mobile {
-      width: 4.1667%;
-      *width: 4.1357%;
-    }
-
-    .grid-col-1-12\@mobile,
-    .grid-col-2-24\@mobile {
-      width: 8.3333%;
-      *width: 8.3023%;
-    }
-
-    .grid-col-1-8\@mobile,
-    .grid-col-3-24\@mobile {
-      width: 12.5%;
-      *width: 12.469%;
-    }
-
-    .grid-col-1-6\@mobile,
-    .grid-col-4-24\@mobile {
-      width: 16.6667%;
-      *width: 16.6357%;
-    }
-
-    .grid-col-5-24\@mobile {
-      width: 20.8333%;
-      *width: 20.8023%;
-    }
-
-    .grid-col-1-4\@mobile,
-    .grid-col-6-24\@mobile {
-      width: 25%;
-      *width: 24.969%;
-    }
-
-    .grid-col-mobile-7-24\@mobile {
-      width: 29.1667%;
-      *width: 29.1357%;
-    }
-
-    .grid-col-1-3\@mobile,
-    .grid-col-8-24\@mobile {
-      width: 33.3333%;
-      *width: 33.3023%;
-    }
-
-    .grid-col-3-8\@mobile,
-    .grid-col-9-24\@mobile {
-      width: 37.5%;
-      *width: 37.469%;
-    }
-
-    .grid-col-5-12\@mobile,
-    .grid-col-10-24\@mobile {
-      width: 41.6667%;
-      *width: 41.6357%;
-    }
-
-    .grid-col-11-24\@mobile {
-      width: 45.8333%;
-      *width: 45.8023%;
-    }
-
-    .grid-col-1-2\@mobile,
-    .grid-col-12-24\@mobile {
-      width: 50%;
-      *width: 49.969%;
-    }
-
-    .grid-col-13-24\@mobile {
-      width: 54.1667%;
-      *width: 54.1357%;
-    }
-
-    .grid-col-7-12\@mobile,
-    .grid-col-14-24\@mobile {
-      width: 58.3333%;
-      *width: 58.3023%;
-    }
-
-    .grid-col-5-8\@mobile,
-    .grid-col-15-24\@mobile {
-      width: 62.5%;
-      *width: 62.469%;
-    }
-
-    .grid-col-2-3\@mobile,
-    .grid-col-16-24\@mobile {
-      width: 66.6667%;
-      *width: 66.6357%;
-    }
-
-    .grid-col-17-24\@mobile {
-      width: 70.8333%;
-      *width: 70.8023%;
-    }
-
-    .grid-col-3-4\@mobile,
-    .grid-col-18-24\@mobile {
-      width: 75%;
-      *width: 74.969%;
-    }
-
-    .grid-col-19-24\@mobile {
-      width: 79.1667%;
-      *width: 79.1357%;
-    }
-
-    .grid-col-5-6\@mobile,
-    .grid-col-20-24\@mobile {
-      width: 83.3333%;
-      *width: 83.3023%;
-    }
-
-    .grid-col-7-8\@mobile,
-    .grid-col-21-24\@mobile {
-      width: 87.5%;
-      *width: 87.469%;
-    }
-
-    .grid-col-11-12\@mobile,
-    .grid-col-22-24\@mobile {
-      width: 91.6667%;
-      *width: 91.6357%;
-    }
-
-    .grid-col-23-24\@mobile {
-      width: 95.8333%;
-      *width: 95.8023%;
-    }
-
-    .grid-col-1\@mobile,
-    .grid-col-1-1\@mobile,
-    .grid-col-24-24\@mobile {
-      width: 100%;
-    }
+@media mq-xs {
+  :global .grid-col-1\@xs,
+  :global .grid-col-1-1\@xs,
+  :global .grid-col-1-2\@xs,
+  :global .grid-col-1-3\@xs,
+  :global .grid-col-2-3\@xs,
+  :global .grid-col-1-4\@xs,
+  :global .grid-col-3-4\@xs,
+  :global .grid-col-1-6\@xs,
+  :global .grid-col-5-6\@xs,
+  :global .grid-col-1-8\@xs,
+  :global .grid-col-3-8\@xs,
+  :global .grid-col-5-8\@xs,
+  :global .grid-col-7-8\@xs,
+  :global .grid-col-1-12\@xs,
+  :global .grid-col-5-12\@xs,
+  :global .grid-col-7-12\@xs,
+  :global .grid-col-11-12\@xs,
+  :global .grid-col-1-24\@xs,
+  :global .grid-col-2-24\@xs,
+  :global .grid-col-3-24\@xs,
+  :global .grid-col-4-24\@xs,
+  :global .grid-col-5-24\@xs,
+  :global .grid-col-6-24\@xs,
+  :global .grid-col-7-24\@xs,
+  :global .grid-col-8-24\@xs,
+  :global .grid-col-9-24\@xs,
+  :global .grid-col-10-24\@xs,
+  :global .grid-col-11-24\@xs,
+  :global .grid-col-12-24\@xs,
+  :global .grid-col-13-24\@xs,
+  :global .grid-col-14-24\@xs,
+  :global .grid-col-15-24\@xs,
+  :global .grid-col-16-24\@xs,
+  :global .grid-col-17-24\@xs,
+  :global .grid-col-18-24\@xs,
+  :global .grid-col-19-24\@xs,
+  :global .grid-col-20-24\@xs,
+  :global .grid-col-21-24\@xs,
+  :global .grid-col-22-24\@xs,
+  :global .grid-col-23-24\@xs,
+  :global .grid-col-24-24\@xs {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
   }
 
-  @media mq-xs {
-    .grid-col-1\@xs,
-    .grid-col-1-1\@xs,
-    .grid-col-1-2\@xs,
-    .grid-col-1-3\@xs,
-    .grid-col-2-3\@xs,
-    .grid-col-1-4\@xs,
-    .grid-col-3-4\@xs,
-    .grid-col-1-6\@xs,
-    .grid-col-5-6\@xs,
-    .grid-col-1-8\@xs,
-    .grid-col-3-8\@xs,
-    .grid-col-5-8\@xs,
-    .grid-col-7-8\@xs,
-    .grid-col-1-12\@xs,
-    .grid-col-5-12\@xs,
-    .grid-col-7-12\@xs,
-    .grid-col-11-12\@xs,
-    .grid-col-1-24\@xs,
-    .grid-col-2-24\@xs,
-    .grid-col-3-24\@xs,
-    .grid-col-4-24\@xs,
-    .grid-col-5-24\@xs,
-    .grid-col-6-24\@xs,
-    .grid-col-7-24\@xs,
-    .grid-col-8-24\@xs,
-    .grid-col-9-24\@xs,
-    .grid-col-10-24\@xs,
-    .grid-col-11-24\@xs,
-    .grid-col-12-24\@xs,
-    .grid-col-13-24\@xs,
-    .grid-col-14-24\@xs,
-    .grid-col-15-24\@xs,
-    .grid-col-16-24\@xs,
-    .grid-col-17-24\@xs,
-    .grid-col-18-24\@xs,
-    .grid-col-19-24\@xs,
-    .grid-col-20-24\@xs,
-    .grid-col-21-24\@xs,
-    .grid-col-22-24\@xs,
-    .grid-col-23-24\@xs,
-    .grid-col-24-24\@xs {
-      display: inline-block;
-      *display: inline;
-      zoom: 1;
-      letter-spacing: normal;
-      word-spacing: normal;
-      vertical-align: top;
-      text-rendering: auto;
-    }
-
-    .grid-col-1-24\@xs {
-      width: 4.1667%;
-      *width: 4.1357%;
-    }
-
-    .grid-col-1-12\@xs,
-    .grid-col-2-24\@xs {
-      width: 8.3333%;
-      *width: 8.3023%;
-    }
-
-    .grid-col-1-8\@xs,
-    .grid-col-3-24\@xs {
-      width: 12.5%;
-      *width: 12.469%;
-    }
-
-    .grid-col-1-6\@xs,
-    .grid-col-4-24\@xs {
-      width: 16.6667%;
-      *width: 16.6357%;
-    }
-
-    .grid-col-5-24\@xs {
-      width: 20.8333%;
-      *width: 20.8023%;
-    }
-
-    .grid-col-1-4\@xs,
-    .grid-col-6-24\@xs {
-      width: 25%;
-      *width: 24.969%;
-    }
-
-    .grid-col-7-24\@xs {
-      width: 29.1667%;
-      *width: 29.1357%;
-    }
-
-    .grid-col-1-3\@xs,
-    .grid-col-8-24\@xs {
-      width: 33.3333%;
-      *width: 33.3023%;
-    }
-
-    .grid-col-3-8\@xs,
-    .grid-col-9-24\@xs {
-      width: 37.5%;
-      *width: 37.469%;
-    }
-
-    .grid-col-5-12\@xs,
-    .grid-col-10-24\@xs {
-      width: 41.6667%;
-      *width: 41.6357%;
-    }
-
-    .grid-col-11-24\@xs {
-      width: 45.8333%;
-      *width: 45.8023%;
-    }
-
-    .grid-col-1-2\@xs,
-    .grid-col-12-24\@xs {
-      width: 50%;
-      *width: 49.969%;
-    }
-
-    .grid-col-13-24\@xs {
-      width: 54.1667%;
-      *width: 54.1357%;
-    }
-
-    .grid-col-7-12\@xs,
-    .grid-col-14-24\@xs {
-      width: 58.3333%;
-      *width: 58.3023%;
-    }
-
-    .grid-col-5-8\@xs,
-    .grid-col-15-24\@xs {
-      width: 62.5%;
-      *width: 62.469%;
-    }
-
-    .grid-col-2-3\@xs,
-    .grid-col-16-24\@xs {
-      width: 66.6667%;
-      *width: 66.6357%;
-    }
-
-    .grid-col-17-24\@xs {
-      width: 70.8333%;
-      *width: 70.8023%;
-    }
-
-    .grid-col-3-4\@xs,
-    .grid-col-18-24\@xs {
-      width: 75%;
-      *width: 74.969%;
-    }
-
-    .grid-col-19-24\@xs {
-      width: 79.1667%;
-      *width: 79.1357%;
-    }
-
-    .grid-col-5-6\@xs,
-    .grid-col-20-24\@xs {
-      width: 83.3333%;
-      *width: 83.3023%;
-    }
-
-    .grid-col-7-8\@xs,
-    .grid-col-21-24\@xs {
-      width: 87.5%;
-      *width: 87.469%;
-    }
-
-    .grid-col-11-12\@xs,
-    .grid-col-22-24\@xs {
-      width: 91.6667%;
-      *width: 91.6357%;
-    }
-
-    .grid-col-23-24\@xs {
-      width: 95.8333%;
-      *width: 95.8023%;
-    }
-
-    .grid-col-1\@xs,
-    .grid-col-1-1\@xs,
-    .grid-col-24-24\@xs {
-      width: 100%;
-    }
+  :global .grid-col-1-24\@xs {
+    width: 4.1667%;
+    *width: 4.1357%;
   }
 
-  @media mq-sm {
-    .grid-col-1\@sm,
-    .grid-col-1-1\@sm,
-    .grid-col-1-2\@sm,
-    .grid-col-1-3\@sm,
-    .grid-col-2-3\@sm,
-    .grid-col-1-4\@sm,
-    .grid-col-3-4\@sm,
-    .grid-col-1-6\@sm,
-    .grid-col-5-6\@sm,
-    .grid-col-1-8\@sm,
-    .grid-col-3-8\@sm,
-    .grid-col-5-8\@sm,
-    .grid-col-7-8\@sm,
-    .grid-col-1-12\@sm,
-    .grid-col-5-12\@sm,
-    .grid-col-7-12\@sm,
-    .grid-col-11-12\@sm,
-    .grid-col-1-24\@sm,
-    .grid-col-2-24\@sm,
-    .grid-col-3-24\@sm,
-    .grid-col-4-24\@sm,
-    .grid-col-5-24\@sm,
-    .grid-col-6-24\@sm,
-    .grid-col-7-24\@sm,
-    .grid-col-8-24\@sm,
-    .grid-col-9-24\@sm,
-    .grid-col-10-24\@sm,
-    .grid-col-11-24\@sm,
-    .grid-col-12-24\@sm,
-    .grid-col-13-24\@sm,
-    .grid-col-14-24\@sm,
-    .grid-col-15-24\@sm,
-    .grid-col-16-24\@sm,
-    .grid-col-17-24\@sm,
-    .grid-col-18-24\@sm,
-    .grid-col-19-24\@sm,
-    .grid-col-20-24\@sm,
-    .grid-col-21-24\@sm,
-    .grid-col-22-24\@sm,
-    .grid-col-23-24\@sm,
-    .grid-col-24-24\@sm {
-      display: inline-block;
-      *display: inline;
-      zoom: 1;
-      letter-spacing: normal;
-      word-spacing: normal;
-      vertical-align: top;
-      text-rendering: auto;
-    }
-
-    .grid-col-1-24\@sm {
-      width: 4.1667%;
-      *width: 4.1357%;
-    }
-
-    .grid-col-1-12\@sm,
-    .grid-col-2-24\@sm {
-      width: 8.3333%;
-      *width: 8.3023%;
-    }
-
-    .grid-col-1-8\@sm,
-    .grid-col-3-24\@sm {
-      width: 12.5%;
-      *width: 12.469%;
-    }
-
-    .grid-col-1-6\@sm,
-    .grid-col-4-24\@sm {
-      width: 16.6667%;
-      *width: 16.6357%;
-    }
-
-    .grid-col-5-24\@sm {
-      width: 20.8333%;
-      *width: 20.8023%;
-    }
-
-    .grid-col-1-4\@sm,
-    .grid-col-6-24\@sm {
-      width: 25%;
-      *width: 24.969%;
-    }
-
-    .grid-col-7-24\@sm {
-      width: 29.1667%;
-      *width: 29.1357%;
-    }
-
-    .grid-col-1-3\@sm,
-    .grid-col-8-24\@sm {
-      width: 33.3333%;
-      *width: 33.3023%;
-    }
-
-    .grid-col-3-8\@sm,
-    .grid-col-9-24\@sm {
-      width: 37.5%;
-      *width: 37.469%;
-    }
-
-    .grid-col-5-12\@sm,
-    .grid-col-10-24\@sm {
-      width: 41.6667%;
-      *width: 41.6357%;
-    }
-
-    .grid-col-11-24\@sm {
-      width: 45.8333%;
-      *width: 45.8023%;
-    }
-
-    .grid-col-1-2\@sm,
-    .grid-col-12-24\@sm {
-      width: 50%;
-      *width: 49.969%;
-    }
-
-    .grid-col-13-24\@sm {
-      width: 54.1667%;
-      *width: 54.1357%;
-    }
-
-    .grid-col-7-12\@sm,
-    .grid-col-14-24\@sm {
-      width: 58.3333%;
-      *width: 58.3023%;
-    }
-
-    .grid-col-5-8\@sm,
-    .grid-col-15-24\@sm {
-      width: 62.5%;
-      *width: 62.469%;
-    }
-
-    .grid-col-2-3\@sm,
-    .grid-col-16-24\@sm {
-      width: 66.6667%;
-      *width: 66.6357%;
-    }
-
-    .grid-col-17-24\@sm {
-      width: 70.8333%;
-      *width: 70.8023%;
-    }
-
-    .grid-col-3-4\@sm,
-    .grid-col-18-24\@sm {
-      width: 75%;
-      *width: 74.969%;
-    }
-
-    .grid-col-19-24\@sm {
-      width: 79.1667%;
-      *width: 79.1357%;
-    }
-
-    .grid-col-5-6\@sm,
-    .grid-col-20-24\@sm {
-      width: 83.3333%;
-      *width: 83.3023%;
-    }
-
-    .grid-col-7-8\@sm,
-    .grid-col-21-24\@sm {
-      width: 87.5%;
-      *width: 87.469%;
-    }
-
-    .grid-col-11-12\@sm,
-    .grid-col-22-24\@sm {
-      width: 91.6667%;
-      *width: 91.6357%;
-    }
-
-    .grid-col-23-24\@sm {
-      width: 95.8333%;
-      *width: 95.8023%;
-    }
-
-    .grid-col-1\@sm,
-    .grid-col-1-1\@sm,
-    .grid-col-24-24\@sm {
-      width: 100%;
-    }
+  :global .grid-col-1-12\@xs,
+  :global .grid-col-2-24\@xs {
+    width: 8.3333%;
+    *width: 8.3023%;
   }
 
-  @media mq-sm-min {
-    .grid-col-1\@sm-min,
-    .grid-col-1-1\@sm-min,
-    .grid-col-1-2\@sm-min,
-    .grid-col-1-3\@sm-min,
-    .grid-col-2-3\@sm-min,
-    .grid-col-1-4\@sm-min,
-    .grid-col-3-4\@sm-min,
-    .grid-col-1-6\@sm-min,
-    .grid-col-5-6\@sm-min,
-    .grid-col-1-8\@sm-min,
-    .grid-col-3-8\@sm-min,
-    .grid-col-5-8\@sm-min,
-    .grid-col-7-8\@sm-min,
-    .grid-col-1-12\@sm-min,
-    .grid-col-5-12\@sm-min,
-    .grid-col-7-12\@sm-min,
-    .grid-col-11-12\@sm-min,
-    .grid-col-1-24\@sm-min,
-    .grid-col-2-24\@sm-min,
-    .grid-col-3-24\@sm-min,
-    .grid-col-4-24\@sm-min,
-    .grid-col-5-24\@sm-min,
-    .grid-col-6-24\@sm-min,
-    .grid-col-7-24\@sm-min,
-    .grid-col-8-24\@sm-min,
-    .grid-col-9-24\@sm-min,
-    .grid-col-10-24\@sm-min,
-    .grid-col-11-24\@sm-min,
-    .grid-col-12-24\@sm-min,
-    .grid-col-13-24\@sm-min,
-    .grid-col-14-24\@sm-min,
-    .grid-col-15-24\@sm-min,
-    .grid-col-16-24\@sm-min,
-    .grid-col-17-24\@sm-min,
-    .grid-col-18-24\@sm-min,
-    .grid-col-19-24\@sm-min,
-    .grid-col-20-24\@sm-min,
-    .grid-col-21-24\@sm-min,
-    .grid-col-22-24\@sm-min,
-    .grid-col-23-24\@sm-min,
-    .grid-col-24-24\@sm-min {
-      display: inline-block;
-      *display: inline;
-      zoom: 1;
-      letter-spacing: normal;
-      word-spacing: normal;
-      vertical-align: top;
-      text-rendering: auto;
-    }
-
-    .grid-col-1-24\@sm-min {
-      width: 4.1667%;
-      *width: 4.1357%;
-    }
-
-    .grid-col-1-12\@sm-min,
-    .grid-col-2-24\@sm-min {
-      width: 8.3333%;
-      *width: 8.3023%;
-    }
-
-    .grid-col-1-8\@sm-min,
-    .grid-col-3-24\@sm-min {
-      width: 12.5%;
-      *width: 12.469%;
-    }
-
-    .grid-col-1-6\@sm-min,
-    .grid-col-4-24\@sm-min {
-      width: 16.6667%;
-      *width: 16.6357%;
-    }
-
-    .grid-col-5-24\@sm-min {
-      width: 20.8333%;
-      *width: 20.8023%;
-    }
-
-    .grid-col-1-4\@sm-min,
-    .grid-col-6-24\@sm-min {
-      width: 25%;
-      *width: 24.969%;
-    }
-
-    .grid-col-7-24\@sm-min {
-      width: 29.1667%;
-      *width: 29.1357%;
-    }
-
-    .grid-col-1-3\@sm-min,
-    .grid-col-8-24\@sm-min {
-      width: 33.3333%;
-      *width: 33.3023%;
-    }
-
-    .grid-col-3-8\@sm-min,
-    .grid-col-9-24\@sm-min {
-      width: 37.5%;
-      *width: 37.469%;
-    }
-
-    .grid-col-5-12\@sm-min,
-    .grid-col-10-24\@sm-min {
-      width: 41.6667%;
-      *width: 41.6357%;
-    }
-
-    .grid-col-11-24\@sm-min {
-      width: 45.8333%;
-      *width: 45.8023%;
-    }
-
-    .grid-col-1-2\@sm-min,
-    .grid-col-12-24\@sm-min {
-      width: 50%;
-      *width: 49.969%;
-    }
-
-    .grid-col-13-24\@sm-min {
-      width: 54.1667%;
-      *width: 54.1357%;
-    }
-
-    .grid-col-7-12\@sm-min,
-    .grid-col-14-24\@sm-min {
-      width: 58.3333%;
-      *width: 58.3023%;
-    }
-
-    .grid-col-5-8\@sm-min,
-    .grid-col-15-24\@sm-min {
-      width: 62.5%;
-      *width: 62.469%;
-    }
-
-    .grid-col-2-3\@sm-min,
-    .grid-col-16-24\@sm-min {
-      width: 66.6667%;
-      *width: 66.6357%;
-    }
-
-    .grid-col-17-24\@sm-min {
-      width: 70.8333%;
-      *width: 70.8023%;
-    }
-
-    .grid-col-3-4\@sm-min,
-    .grid-col-18-24\@sm-min {
-      width: 75%;
-      *width: 74.969%;
-    }
-
-    .grid-col-19-24\@sm-min {
-      width: 79.1667%;
-      *width: 79.1357%;
-    }
-
-    .grid-col-5-6\@sm-min,
-    .grid-col-20-24\@sm-min {
-      width: 83.3333%;
-      *width: 83.3023%;
-    }
-
-    .grid-col-7-8\@sm-min,
-    .grid-col-21-24\@sm-min {
-      width: 87.5%;
-      *width: 87.469%;
-    }
-
-    .grid-col-11-12\@sm-min,
-    .grid-col-22-24\@sm-min {
-      width: 91.6667%;
-      *width: 91.6357%;
-    }
-
-    .grid-col-23-24\@sm-min {
-      width: 95.8333%;
-      *width: 95.8023%;
-    }
-
-    .grid-col-1\@sm-min,
-    .grid-col-1-1\@sm-min,
-    .grid-col-24-24\@sm-min {
-      width: 100%;
-    }
+  :global .grid-col-1-8\@xs,
+  :global .grid-col-3-24\@xs {
+    width: 12.5%;
+    *width: 12.469%;
   }
 
-  @media mq-md {
-    .grid-col-1\@md,
-    .grid-col-1-1\@md,
-    .grid-col-1-2\@md,
-    .grid-col-1-3\@md,
-    .grid-col-2-3\@md,
-    .grid-col-1-4\@md,
-    .grid-col-3-4\@md,
-    .grid-col-1-6\@md,
-    .grid-col-5-6\@md,
-    .grid-col-1-8\@md,
-    .grid-col-3-8\@md,
-    .grid-col-5-8\@md,
-    .grid-col-7-8\@md,
-    .grid-col-1-12\@md,
-    .grid-col-5-12\@md,
-    .grid-col-7-12\@md,
-    .grid-col-11-12\@md,
-    .grid-col-1-24\@md,
-    .grid-col-2-24\@md,
-    .grid-col-3-24\@md,
-    .grid-col-4-24\@md,
-    .grid-col-5-24\@md,
-    .grid-col-6-24\@md,
-    .grid-col-7-24\@md,
-    .grid-col-8-24\@md,
-    .grid-col-9-24\@md,
-    .grid-col-10-24\@md,
-    .grid-col-11-24\@md,
-    .grid-col-12-24\@md,
-    .grid-col-13-24\@md,
-    .grid-col-14-24\@md,
-    .grid-col-15-24\@md,
-    .grid-col-16-24\@md,
-    .grid-col-17-24\@md,
-    .grid-col-18-24\@md,
-    .grid-col-19-24\@md,
-    .grid-col-20-24\@md,
-    .grid-col-21-24\@md,
-    .grid-col-22-24\@md,
-    .grid-col-23-24\@md,
-    .grid-col-24-24\@md {
-      display: inline-block;
-      *display: inline;
-      zoom: 1;
-      letter-spacing: normal;
-      word-spacing: normal;
-      vertical-align: top;
-      text-rendering: auto;
-    }
-
-    .grid-col-1-24\@md {
-      width: 4.1667%;
-      *width: 4.1357%;
-    }
-
-    .grid-col-1-12\@md,
-    .grid-col-2-24\@md {
-      width: 8.3333%;
-      *width: 8.3023%;
-    }
-
-    .grid-col-1-8\@md,
-    .grid-col-3-24\@md {
-      width: 12.5%;
-      *width: 12.469%;
-    }
-
-    .grid-col-1-6\@md,
-    .grid-col-4-24\@md {
-      width: 16.6667%;
-      *width: 16.6357%;
-    }
-
-    .grid-col-5-24\@md {
-      width: 20.8333%;
-      *width: 20.8023%;
-    }
-
-    .grid-col-1-4\@md,
-    .grid-col-6-24\@md {
-      width: 25%;
-      *width: 24.969%;
-    }
-
-    .grid-col-7-24\@md {
-      width: 29.1667%;
-      *width: 29.1357%;
-    }
-
-    .grid-col-1-3\@md,
-    .grid-col-8-24\@md {
-      width: 33.3333%;
-      *width: 33.3023%;
-    }
-
-    .grid-col-3-8\@md,
-    .grid-col-9-24\@md {
-      width: 37.5%;
-      *width: 37.469%;
-    }
-
-    .grid-col-5-12\@md,
-    .grid-col-10-24\@md {
-      width: 41.6667%;
-      *width: 41.6357%;
-    }
-
-    .grid-col-11-24\@md {
-      width: 45.8333%;
-      *width: 45.8023%;
-    }
-
-    .grid-col-1-2\@md,
-    .grid-col-12-24\@md {
-      width: 50%;
-      *width: 49.969%;
-    }
-
-    .grid-col-13-24\@md {
-      width: 54.1667%;
-      *width: 54.1357%;
-    }
-
-    .grid-col-7-12\@md,
-    .grid-col-14-24\@md {
-      width: 58.3333%;
-      *width: 58.3023%;
-    }
-
-    .grid-col-5-8\@md,
-    .grid-col-15-24\@md {
-      width: 62.5%;
-      *width: 62.469%;
-    }
-
-    .grid-col-2-3\@md,
-    .grid-col-16-24\@md {
-      width: 66.6667%;
-      *width: 66.6357%;
-    }
-
-    .grid-col-17-24\@md {
-      width: 70.8333%;
-      *width: 70.8023%;
-    }
-
-    .grid-col-3-4\@md,
-    .grid-col-18-24\@md {
-      width: 75%;
-      *width: 74.969%;
-    }
-
-    .grid-col-19-24\@md {
-      width: 79.1667%;
-      *width: 79.1357%;
-    }
-
-    .grid-col-5-6\@md,
-    .grid-col-20-24\@md {
-      width: 83.3333%;
-      *width: 83.3023%;
-    }
-
-    .grid-col-7-8\@md,
-    .grid-col-21-24\@md {
-      width: 87.5%;
-      *width: 87.469%;
-    }
-
-    .grid-col-11-12\@md,
-    .grid-col-22-24\@md {
-      width: 91.6667%;
-      *width: 91.6357%;
-    }
-
-    .grid-col-23-24\@md {
-      width: 95.8333%;
-      *width: 95.8023%;
-    }
-
-    .grid-col-1\@md,
-    .grid-col-1-1\@md,
-    .grid-col-24-24\@md {
-      width: 100%;
-    }
+  :global .grid-col-1-6\@xs,
+  :global .grid-col-4-24\@xs {
+    width: 16.6667%;
+    *width: 16.6357%;
   }
 
-  @media mq-md-min {
-    .grid-col-1\@md-min,
-    .grid-col-1-1\@md-min,
-    .grid-col-1-2\@md-min,
-    .grid-col-1-3\@md-min,
-    .grid-col-2-3\@md-min,
-    .grid-col-1-4\@md-min,
-    .grid-col-3-4\@md-min,
-    .grid-col-1-6\@md-min,
-    .grid-col-5-6\@md-min,
-    .grid-col-1-8\@md-min,
-    .grid-col-3-8\@md-min,
-    .grid-col-5-8\@md-min,
-    .grid-col-7-8\@md-min,
-    .grid-col-1-12\@md-min,
-    .grid-col-5-12\@md-min,
-    .grid-col-7-12\@md-min,
-    .grid-col-11-12\@md-min,
-    .grid-col-1-24\@md-min,
-    .grid-col-2-24\@md-min,
-    .grid-col-3-24\@md-min,
-    .grid-col-4-24\@md-min,
-    .grid-col-5-24\@md-min,
-    .grid-col-6-24\@md-min,
-    .grid-col-7-24\@md-min,
-    .grid-col-8-24\@md-min,
-    .grid-col-9-24\@md-min,
-    .grid-col-10-24\@md-min,
-    .grid-col-11-24\@md-min,
-    .grid-col-12-24\@md-min,
-    .grid-col-13-24\@md-min,
-    .grid-col-14-24\@md-min,
-    .grid-col-15-24\@md-min,
-    .grid-col-16-24\@md-min,
-    .grid-col-17-24\@md-min,
-    .grid-col-18-24\@md-min,
-    .grid-col-19-24\@md-min,
-    .grid-col-20-24\@md-min,
-    .grid-col-21-24\@md-min,
-    .grid-col-22-24\@md-min,
-    .grid-col-23-24\@md-min,
-    .grid-col-24-24\@md-min {
-      display: inline-block;
-      *display: inline;
-      zoom: 1;
-      letter-spacing: normal;
-      word-spacing: normal;
-      vertical-align: top;
-      text-rendering: auto;
-    }
-
-    .grid-col-1-24\@md-min {
-      width: 4.1667%;
-      *width: 4.1357%;
-    }
-
-    .grid-col-1-12\@md-min,
-    .grid-col-2-24\@md-min {
-      width: 8.3333%;
-      *width: 8.3023%;
-    }
-
-    .grid-col-1-8\@md-min,
-    .grid-col-3-24\@md-min {
-      width: 12.5%;
-      *width: 12.469%;
-    }
-
-    .grid-col-1-6\@md-min,
-    .grid-col-4-24\@md-min {
-      width: 16.6667%;
-      *width: 16.6357%;
-    }
-
-    .grid-col-5-24\@md-min {
-      width: 20.8333%;
-      *width: 20.8023%;
-    }
-
-    .grid-col-1-4\@md-min,
-    .grid-col-6-24\@md-min {
-      width: 25%;
-      *width: 24.969%;
-    }
-
-    .grid-col-7-24\@md-min {
-      width: 29.1667%;
-      *width: 29.1357%;
-    }
-
-    .grid-col-1-3\@md-min,
-    .grid-col-8-24\@md-min {
-      width: 33.3333%;
-      *width: 33.3023%;
-    }
-
-    .grid-col-3-8\@md-min,
-    .grid-col-9-24\@md-min {
-      width: 37.5%;
-      *width: 37.469%;
-    }
-
-    .grid-col-5-12\@md-min,
-    .grid-col-10-24\@md-min {
-      width: 41.6667%;
-      *width: 41.6357%;
-    }
-
-    .grid-col-11-24\@md-min {
-      width: 45.8333%;
-      *width: 45.8023%;
-    }
-
-    .grid-col-1-2\@md-min,
-    .grid-col-12-24\@md-min {
-      width: 50%;
-      *width: 49.969%;
-    }
-
-    .grid-col-13-24\@md-min {
-      width: 54.1667%;
-      *width: 54.1357%;
-    }
-
-    .grid-col-7-12\@md-min,
-    .grid-col-14-24\@md-min {
-      width: 58.3333%;
-      *width: 58.3023%;
-    }
-
-    .grid-col-5-8\@md-min,
-    .grid-col-15-24\@md-min {
-      width: 62.5%;
-      *width: 62.469%;
-    }
-
-    .grid-col-2-3\@md-min,
-    .grid-col-16-24\@md-min {
-      width: 66.6667%;
-      *width: 66.6357%;
-    }
-
-    .grid-col-17-24\@md-min {
-      width: 70.8333%;
-      *width: 70.8023%;
-    }
-
-    .grid-col-3-4\@md-min,
-    .grid-col-18-24\@md-min {
-      width: 75%;
-      *width: 74.969%;
-    }
-
-    .grid-col-19-24\@md-min {
-      width: 79.1667%;
-      *width: 79.1357%;
-    }
-
-    .grid-col-5-6\@md-min,
-    .grid-col-20-24\@md-min {
-      width: 83.3333%;
-      *width: 83.3023%;
-    }
-
-    .grid-col-7-8\@md-min,
-    .grid-col-21-24\@md-min {
-      width: 87.5%;
-      *width: 87.469%;
-    }
-
-    .grid-col-11-12\@md-min,
-    .grid-col-22-24\@md-min {
-      width: 91.6667%;
-      *width: 91.6357%;
-    }
-
-    .grid-col-23-24\@md-min {
-      width: 95.8333%;
-      *width: 95.8023%;
-    }
-
-    .grid-col-1\@md-min,
-    .grid-col-1-1\@md-min,
-    .grid-col-24-24\@md-min {
-      width: 100%;
-    }
+  :global .grid-col-5-24\@xs {
+    width: 20.8333%;
+    *width: 20.8023%;
   }
 
-  @media mq-lg {
-    .grid-col-1\@lg,
-    .grid-col-1-1\@lg,
-    .grid-col-1-2\@lg,
-    .grid-col-1-3\@lg,
-    .grid-col-2-3\@lg,
-    .grid-col-1-4\@lg,
-    .grid-col-3-4\@lg,
-    .grid-col-1-6\@lg,
-    .grid-col-5-6\@lg,
-    .grid-col-1-8\@lg,
-    .grid-col-3-8\@lg,
-    .grid-col-5-8\@lg,
-    .grid-col-7-8\@lg,
-    .grid-col-1-12\@lg,
-    .grid-col-5-12\@lg,
-    .grid-col-7-12\@lg,
-    .grid-col-11-12\@lg,
-    .grid-col-1-24\@lg,
-    .grid-col-2-24\@lg,
-    .grid-col-3-24\@lg,
-    .grid-col-4-24\@lg,
-    .grid-col-5-24\@lg,
-    .grid-col-6-24\@lg,
-    .grid-col-7-24\@lg,
-    .grid-col-8-24\@lg,
-    .grid-col-9-24\@lg,
-    .grid-col-10-24\@lg,
-    .grid-col-11-24\@lg,
-    .grid-col-12-24\@lg,
-    .grid-col-13-24\@lg,
-    .grid-col-14-24\@lg,
-    .grid-col-15-24\@lg,
-    .grid-col-16-24\@lg,
-    .grid-col-17-24\@lg,
-    .grid-col-18-24\@lg,
-    .grid-col-19-24\@lg,
-    .grid-col-20-24\@lg,
-    .grid-col-21-24\@lg,
-    .grid-col-22-24\@lg,
-    .grid-col-23-24\@lg,
-    .grid-col-24-24\@lg {
-      display: inline-block;
-      *display: inline;
-      zoom: 1;
-      letter-spacing: normal;
-      word-spacing: normal;
-      vertical-align: top;
-      text-rendering: auto;
-    }
+  :global .grid-col-1-4\@xs,
+  :global .grid-col-6-24\@xs {
+    width: 25%;
+    *width: 24.969%;
+  }
 
-    .grid-col-1-24\@lg {
-      width: 4.1667%;
-      *width: 4.1357%;
-    }
+  :global .grid-col-7-24\@xs {
+    width: 29.1667%;
+    *width: 29.1357%;
+  }
 
-    .grid-col-1-12\@lg,
-    .grid-col-2-24\@lg {
-      width: 8.3333%;
-      *width: 8.3023%;
-    }
+  :global .grid-col-1-3\@xs,
+  :global .grid-col-8-24\@xs {
+    width: 33.3333%;
+    *width: 33.3023%;
+  }
 
-    .grid-col-1-8\@lg,
-    .grid-col-3-24\@lg {
-      width: 12.5%;
-      *width: 12.469%;
-    }
+  :global .grid-col-3-8\@xs,
+  :global .grid-col-9-24\@xs {
+    width: 37.5%;
+    *width: 37.469%;
+  }
 
-    .grid-col-1-6\@lg,
-    .grid-col-4-24\@lg {
-      width: 16.6667%;
-      *width: 16.6357%;
-    }
+  :global .grid-col-5-12\@xs,
+  :global .grid-col-10-24\@xs {
+    width: 41.6667%;
+    *width: 41.6357%;
+  }
 
-    .grid-col-5-24\@lg {
-      width: 20.8333%;
-      *width: 20.8023%;
-    }
+  :global .grid-col-11-24\@xs {
+    width: 45.8333%;
+    *width: 45.8023%;
+  }
 
-    .grid-col-1-4\@lg,
-    .grid-col-6-24\@lg {
-      width: 25%;
-      *width: 24.969%;
-    }
+  :global .grid-col-1-2\@xs,
+  :global .grid-col-12-24\@xs {
+    width: 50%;
+    *width: 49.969%;
+  }
 
-    .grid-col-7-24\@lg {
-      width: 29.1667%;
-      *width: 29.1357%;
-    }
+  :global .grid-col-13-24\@xs {
+    width: 54.1667%;
+    *width: 54.1357%;
+  }
 
-    .grid-col-1-3\@lg,
-    .grid-col-8-24\@lg {
-      width: 33.3333%;
-      *width: 33.3023%;
-    }
+  :global .grid-col-7-12\@xs,
+  :global .grid-col-14-24\@xs {
+    width: 58.3333%;
+    *width: 58.3023%;
+  }
 
-    .grid-col-3-8\@lg,
-    .grid-col-9-24\@lg {
-      width: 37.5%;
-      *width: 37.469%;
-    }
+  :global .grid-col-5-8\@xs,
+  :global .grid-col-15-24\@xs {
+    width: 62.5%;
+    *width: 62.469%;
+  }
 
-    .grid-col-5-12\@lg,
-    .grid-col-10-24\@lg {
-      width: 41.6667%;
-      *width: 41.6357%;
-    }
+  :global .grid-col-2-3\@xs,
+  :global .grid-col-16-24\@xs {
+    width: 66.6667%;
+    *width: 66.6357%;
+  }
 
-    .grid-col-11-24\@lg {
-      width: 45.8333%;
-      *width: 45.8023%;
-    }
+  :global .grid-col-17-24\@xs {
+    width: 70.8333%;
+    *width: 70.8023%;
+  }
 
-    .grid-col-1-2\@lg,
-    .grid-col-12-24\@lg {
-      width: 50%;
-      *width: 49.969%;
-    }
+  :global .grid-col-3-4\@xs,
+  :global .grid-col-18-24\@xs {
+    width: 75%;
+    *width: 74.969%;
+  }
 
-    .grid-col-13-24\@lg {
-      width: 54.1667%;
-      *width: 54.1357%;
-    }
+  :global .grid-col-19-24\@xs {
+    width: 79.1667%;
+    *width: 79.1357%;
+  }
 
-    .grid-col-7-12\@lg,
-    .grid-col-14-24\@lg {
-      width: 58.3333%;
-      *width: 58.3023%;
-    }
+  :global .grid-col-5-6\@xs,
+  :global .grid-col-20-24\@xs {
+    width: 83.3333%;
+    *width: 83.3023%;
+  }
 
-    .grid-col-5-8\@lg,
-    .grid-col-15-24\@lg {
-      width: 62.5%;
-      *width: 62.469%;
-    }
+  :global .grid-col-7-8\@xs,
+  :global .grid-col-21-24\@xs {
+    width: 87.5%;
+    *width: 87.469%;
+  }
 
-    .grid-col-2-3\@lg,
-    .grid-col-16-24\@lg {
-      width: 66.6667%;
-      *width: 66.6357%;
-    }
+  :global .grid-col-11-12\@xs,
+  :global .grid-col-22-24\@xs {
+    width: 91.6667%;
+    *width: 91.6357%;
+  }
 
-    .grid-col-17-24\@lg {
-      width: 70.8333%;
-      *width: 70.8023%;
-    }
+  :global .grid-col-23-24\@xs {
+    width: 95.8333%;
+    *width: 95.8023%;
+  }
 
-    .grid-col-3-4\@lg,
-    .grid-col-18-24\@lg {
-      width: 75%;
-      *width: 74.969%;
-    }
+  :global .grid-col-1\@xs,
+  :global .grid-col-1-1\@xs,
+  :global .grid-col-24-24\@xs {
+    width: 100%;
+  }
+}
 
-    .grid-col-19-24\@lg {
-      width: 79.1667%;
-      *width: 79.1357%;
-    }
+@media mq-sm {
+  :global .grid-col-1\@sm,
+  :global .grid-col-1-1\@sm,
+  :global .grid-col-1-2\@sm,
+  :global .grid-col-1-3\@sm,
+  :global .grid-col-2-3\@sm,
+  :global .grid-col-1-4\@sm,
+  :global .grid-col-3-4\@sm,
+  :global .grid-col-1-6\@sm,
+  :global .grid-col-5-6\@sm,
+  :global .grid-col-1-8\@sm,
+  :global .grid-col-3-8\@sm,
+  :global .grid-col-5-8\@sm,
+  :global .grid-col-7-8\@sm,
+  :global .grid-col-1-12\@sm,
+  :global .grid-col-5-12\@sm,
+  :global .grid-col-7-12\@sm,
+  :global .grid-col-11-12\@sm,
+  :global .grid-col-1-24\@sm,
+  :global .grid-col-2-24\@sm,
+  :global .grid-col-3-24\@sm,
+  :global .grid-col-4-24\@sm,
+  :global .grid-col-5-24\@sm,
+  :global .grid-col-6-24\@sm,
+  :global .grid-col-7-24\@sm,
+  :global .grid-col-8-24\@sm,
+  :global .grid-col-9-24\@sm,
+  :global .grid-col-10-24\@sm,
+  :global .grid-col-11-24\@sm,
+  :global .grid-col-12-24\@sm,
+  :global .grid-col-13-24\@sm,
+  :global .grid-col-14-24\@sm,
+  :global .grid-col-15-24\@sm,
+  :global .grid-col-16-24\@sm,
+  :global .grid-col-17-24\@sm,
+  :global .grid-col-18-24\@sm,
+  :global .grid-col-19-24\@sm,
+  :global .grid-col-20-24\@sm,
+  :global .grid-col-21-24\@sm,
+  :global .grid-col-22-24\@sm,
+  :global .grid-col-23-24\@sm,
+  :global .grid-col-24-24\@sm {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+  }
 
-    .grid-col-5-6\@lg,
-    .grid-col-20-24\@lg {
-      width: 83.3333%;
-      *width: 83.3023%;
-    }
+  :global .grid-col-1-24\@sm {
+    width: 4.1667%;
+    *width: 4.1357%;
+  }
 
-    .grid-col-7-8\@lg,
-    .grid-col-21-24\@lg {
-      width: 87.5%;
-      *width: 87.469%;
-    }
+  :global .grid-col-1-12\@sm,
+  :global .grid-col-2-24\@sm {
+    width: 8.3333%;
+    *width: 8.3023%;
+  }
 
-    .grid-col-11-12\@lg,
-    .grid-col-22-24\@lg {
-      width: 91.6667%;
-      *width: 91.6357%;
-    }
+  :global .grid-col-1-8\@sm,
+  :global .grid-col-3-24\@sm {
+    width: 12.5%;
+    *width: 12.469%;
+  }
 
-    .grid-col-23-24\@lg {
-      width: 95.8333%;
-      *width: 95.8023%;
-    }
+  :global .grid-col-1-6\@sm,
+  :global .grid-col-4-24\@sm {
+    width: 16.6667%;
+    *width: 16.6357%;
+  }
 
-    .grid-col-1\@lg,
-    .grid-col-1-1\@lg,
-    .grid-col-24-24\@lg {
-      width: 100%;
-    }
+  :global .grid-col-5-24\@sm {
+    width: 20.8333%;
+    *width: 20.8023%;
+  }
+
+  :global .grid-col-1-4\@sm,
+  :global .grid-col-6-24\@sm {
+    width: 25%;
+    *width: 24.969%;
+  }
+
+  :global .grid-col-7-24\@sm {
+    width: 29.1667%;
+    *width: 29.1357%;
+  }
+
+  :global .grid-col-1-3\@sm,
+  :global .grid-col-8-24\@sm {
+    width: 33.3333%;
+    *width: 33.3023%;
+  }
+
+  :global .grid-col-3-8\@sm,
+  :global .grid-col-9-24\@sm {
+    width: 37.5%;
+    *width: 37.469%;
+  }
+
+  :global .grid-col-5-12\@sm,
+  :global .grid-col-10-24\@sm {
+    width: 41.6667%;
+    *width: 41.6357%;
+  }
+
+  :global .grid-col-11-24\@sm {
+    width: 45.8333%;
+    *width: 45.8023%;
+  }
+
+  :global .grid-col-1-2\@sm,
+  :global .grid-col-12-24\@sm {
+    width: 50%;
+    *width: 49.969%;
+  }
+
+  :global .grid-col-13-24\@sm {
+    width: 54.1667%;
+    *width: 54.1357%;
+  }
+
+  :global .grid-col-7-12\@sm,
+  :global .grid-col-14-24\@sm {
+    width: 58.3333%;
+    *width: 58.3023%;
+  }
+
+  :global .grid-col-5-8\@sm,
+  :global .grid-col-15-24\@sm {
+    width: 62.5%;
+    *width: 62.469%;
+  }
+
+  :global .grid-col-2-3\@sm,
+  :global .grid-col-16-24\@sm {
+    width: 66.6667%;
+    *width: 66.6357%;
+  }
+
+  :global .grid-col-17-24\@sm {
+    width: 70.8333%;
+    *width: 70.8023%;
+  }
+
+  :global .grid-col-3-4\@sm,
+  :global .grid-col-18-24\@sm {
+    width: 75%;
+    *width: 74.969%;
+  }
+
+  :global .grid-col-19-24\@sm {
+    width: 79.1667%;
+    *width: 79.1357%;
+  }
+
+  :global .grid-col-5-6\@sm,
+  :global .grid-col-20-24\@sm {
+    width: 83.3333%;
+    *width: 83.3023%;
+  }
+
+  :global .grid-col-7-8\@sm,
+  :global .grid-col-21-24\@sm {
+    width: 87.5%;
+    *width: 87.469%;
+  }
+
+  :global .grid-col-11-12\@sm,
+  :global .grid-col-22-24\@sm {
+    width: 91.6667%;
+    *width: 91.6357%;
+  }
+
+  :global .grid-col-23-24\@sm {
+    width: 95.8333%;
+    *width: 95.8023%;
+  }
+
+  :global .grid-col-1\@sm,
+  :global .grid-col-1-1\@sm,
+  :global .grid-col-24-24\@sm {
+    width: 100%;
+  }
+}
+
+@media mq-sm-min {
+  :global .grid-col-1\@sm-min,
+  :global .grid-col-1-1\@sm-min,
+  :global .grid-col-1-2\@sm-min,
+  :global .grid-col-1-3\@sm-min,
+  :global .grid-col-2-3\@sm-min,
+  :global .grid-col-1-4\@sm-min,
+  :global .grid-col-3-4\@sm-min,
+  :global .grid-col-1-6\@sm-min,
+  :global .grid-col-5-6\@sm-min,
+  :global .grid-col-1-8\@sm-min,
+  :global .grid-col-3-8\@sm-min,
+  :global .grid-col-5-8\@sm-min,
+  :global .grid-col-7-8\@sm-min,
+  :global .grid-col-1-12\@sm-min,
+  :global .grid-col-5-12\@sm-min,
+  :global .grid-col-7-12\@sm-min,
+  :global .grid-col-11-12\@sm-min,
+  :global .grid-col-1-24\@sm-min,
+  :global .grid-col-2-24\@sm-min,
+  :global .grid-col-3-24\@sm-min,
+  :global .grid-col-4-24\@sm-min,
+  :global .grid-col-5-24\@sm-min,
+  :global .grid-col-6-24\@sm-min,
+  :global .grid-col-7-24\@sm-min,
+  :global .grid-col-8-24\@sm-min,
+  :global .grid-col-9-24\@sm-min,
+  :global .grid-col-10-24\@sm-min,
+  :global .grid-col-11-24\@sm-min,
+  :global .grid-col-12-24\@sm-min,
+  :global .grid-col-13-24\@sm-min,
+  :global .grid-col-14-24\@sm-min,
+  :global .grid-col-15-24\@sm-min,
+  :global .grid-col-16-24\@sm-min,
+  :global .grid-col-17-24\@sm-min,
+  :global .grid-col-18-24\@sm-min,
+  :global .grid-col-19-24\@sm-min,
+  :global .grid-col-20-24\@sm-min,
+  :global .grid-col-21-24\@sm-min,
+  :global .grid-col-22-24\@sm-min,
+  :global .grid-col-23-24\@sm-min,
+  :global .grid-col-24-24\@sm-min {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+  }
+
+  :global .grid-col-1-24\@sm-min {
+    width: 4.1667%;
+    *width: 4.1357%;
+  }
+
+  :global .grid-col-1-12\@sm-min,
+  :global .grid-col-2-24\@sm-min {
+    width: 8.3333%;
+    *width: 8.3023%;
+  }
+
+  :global .grid-col-1-8\@sm-min,
+  :global .grid-col-3-24\@sm-min {
+    width: 12.5%;
+    *width: 12.469%;
+  }
+
+  :global .grid-col-1-6\@sm-min,
+  :global .grid-col-4-24\@sm-min {
+    width: 16.6667%;
+    *width: 16.6357%;
+  }
+
+  :global .grid-col-5-24\@sm-min {
+    width: 20.8333%;
+    *width: 20.8023%;
+  }
+
+  :global .grid-col-1-4\@sm-min,
+  :global .grid-col-6-24\@sm-min {
+    width: 25%;
+    *width: 24.969%;
+  }
+
+  :global .grid-col-7-24\@sm-min {
+    width: 29.1667%;
+    *width: 29.1357%;
+  }
+
+  :global .grid-col-1-3\@sm-min,
+  :global .grid-col-8-24\@sm-min {
+    width: 33.3333%;
+    *width: 33.3023%;
+  }
+
+  :global .grid-col-3-8\@sm-min,
+  :global .grid-col-9-24\@sm-min {
+    width: 37.5%;
+    *width: 37.469%;
+  }
+
+  :global .grid-col-5-12\@sm-min,
+  :global .grid-col-10-24\@sm-min {
+    width: 41.6667%;
+    *width: 41.6357%;
+  }
+
+  :global .grid-col-11-24\@sm-min {
+    width: 45.8333%;
+    *width: 45.8023%;
+  }
+
+  :global .grid-col-1-2\@sm-min,
+  :global .grid-col-12-24\@sm-min {
+    width: 50%;
+    *width: 49.969%;
+  }
+
+  :global .grid-col-13-24\@sm-min {
+    width: 54.1667%;
+    *width: 54.1357%;
+  }
+
+  :global .grid-col-7-12\@sm-min,
+  :global .grid-col-14-24\@sm-min {
+    width: 58.3333%;
+    *width: 58.3023%;
+  }
+
+  :global .grid-col-5-8\@sm-min,
+  :global .grid-col-15-24\@sm-min {
+    width: 62.5%;
+    *width: 62.469%;
+  }
+
+  :global .grid-col-2-3\@sm-min,
+  :global .grid-col-16-24\@sm-min {
+    width: 66.6667%;
+    *width: 66.6357%;
+  }
+
+  :global .grid-col-17-24\@sm-min {
+    width: 70.8333%;
+    *width: 70.8023%;
+  }
+
+  :global .grid-col-3-4\@sm-min,
+  :global .grid-col-18-24\@sm-min {
+    width: 75%;
+    *width: 74.969%;
+  }
+
+  :global .grid-col-19-24\@sm-min {
+    width: 79.1667%;
+    *width: 79.1357%;
+  }
+
+  :global .grid-col-5-6\@sm-min,
+  :global .grid-col-20-24\@sm-min {
+    width: 83.3333%;
+    *width: 83.3023%;
+  }
+
+  :global .grid-col-7-8\@sm-min,
+  :global .grid-col-21-24\@sm-min {
+    width: 87.5%;
+    *width: 87.469%;
+  }
+
+  :global .grid-col-11-12\@sm-min,
+  :global .grid-col-22-24\@sm-min {
+    width: 91.6667%;
+    *width: 91.6357%;
+  }
+
+  :global .grid-col-23-24\@sm-min {
+    width: 95.8333%;
+    *width: 95.8023%;
+  }
+
+  :global .grid-col-1\@sm-min,
+  :global .grid-col-1-1\@sm-min,
+  :global .grid-col-24-24\@sm-min {
+    width: 100%;
+  }
+}
+
+@media mq-md {
+  :global .grid-col-1\@md,
+  :global .grid-col-1-1\@md,
+  :global .grid-col-1-2\@md,
+  :global .grid-col-1-3\@md,
+  :global .grid-col-2-3\@md,
+  :global .grid-col-1-4\@md,
+  :global .grid-col-3-4\@md,
+  :global .grid-col-1-6\@md,
+  :global .grid-col-5-6\@md,
+  :global .grid-col-1-8\@md,
+  :global .grid-col-3-8\@md,
+  :global .grid-col-5-8\@md,
+  :global .grid-col-7-8\@md,
+  :global .grid-col-1-12\@md,
+  :global .grid-col-5-12\@md,
+  :global .grid-col-7-12\@md,
+  :global .grid-col-11-12\@md,
+  :global .grid-col-1-24\@md,
+  :global .grid-col-2-24\@md,
+  :global .grid-col-3-24\@md,
+  :global .grid-col-4-24\@md,
+  :global .grid-col-5-24\@md,
+  :global .grid-col-6-24\@md,
+  :global .grid-col-7-24\@md,
+  :global .grid-col-8-24\@md,
+  :global .grid-col-9-24\@md,
+  :global .grid-col-10-24\@md,
+  :global .grid-col-11-24\@md,
+  :global .grid-col-12-24\@md,
+  :global .grid-col-13-24\@md,
+  :global .grid-col-14-24\@md,
+  :global .grid-col-15-24\@md,
+  :global .grid-col-16-24\@md,
+  :global .grid-col-17-24\@md,
+  :global .grid-col-18-24\@md,
+  :global .grid-col-19-24\@md,
+  :global .grid-col-20-24\@md,
+  :global .grid-col-21-24\@md,
+  :global .grid-col-22-24\@md,
+  :global .grid-col-23-24\@md,
+  :global .grid-col-24-24\@md {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+  }
+
+  :global .grid-col-1-24\@md {
+    width: 4.1667%;
+    *width: 4.1357%;
+  }
+
+  :global .grid-col-1-12\@md,
+  :global .grid-col-2-24\@md {
+    width: 8.3333%;
+    *width: 8.3023%;
+  }
+
+  :global .grid-col-1-8\@md,
+  :global .grid-col-3-24\@md {
+    width: 12.5%;
+    *width: 12.469%;
+  }
+
+  :global .grid-col-1-6\@md,
+  :global .grid-col-4-24\@md {
+    width: 16.6667%;
+    *width: 16.6357%;
+  }
+
+  :global .grid-col-5-24\@md {
+    width: 20.8333%;
+    *width: 20.8023%;
+  }
+
+  :global .grid-col-1-4\@md,
+  :global .grid-col-6-24\@md {
+    width: 25%;
+    *width: 24.969%;
+  }
+
+  :global .grid-col-7-24\@md {
+    width: 29.1667%;
+    *width: 29.1357%;
+  }
+
+  :global .grid-col-1-3\@md,
+  :global .grid-col-8-24\@md {
+    width: 33.3333%;
+    *width: 33.3023%;
+  }
+
+  :global .grid-col-3-8\@md,
+  :global .grid-col-9-24\@md {
+    width: 37.5%;
+    *width: 37.469%;
+  }
+
+  :global .grid-col-5-12\@md,
+  :global .grid-col-10-24\@md {
+    width: 41.6667%;
+    *width: 41.6357%;
+  }
+
+  :global .grid-col-11-24\@md {
+    width: 45.8333%;
+    *width: 45.8023%;
+  }
+
+  :global .grid-col-1-2\@md,
+  :global .grid-col-12-24\@md {
+    width: 50%;
+    *width: 49.969%;
+  }
+
+  :global .grid-col-13-24\@md {
+    width: 54.1667%;
+    *width: 54.1357%;
+  }
+
+  :global .grid-col-7-12\@md,
+  :global .grid-col-14-24\@md {
+    width: 58.3333%;
+    *width: 58.3023%;
+  }
+
+  :global .grid-col-5-8\@md,
+  :global .grid-col-15-24\@md {
+    width: 62.5%;
+    *width: 62.469%;
+  }
+
+  :global .grid-col-2-3\@md,
+  :global .grid-col-16-24\@md {
+    width: 66.6667%;
+    *width: 66.6357%;
+  }
+
+  :global .grid-col-17-24\@md {
+    width: 70.8333%;
+    *width: 70.8023%;
+  }
+
+  :global .grid-col-3-4\@md,
+  :global .grid-col-18-24\@md {
+    width: 75%;
+    *width: 74.969%;
+  }
+
+  :global .grid-col-19-24\@md {
+    width: 79.1667%;
+    *width: 79.1357%;
+  }
+
+  :global .grid-col-5-6\@md,
+  :global .grid-col-20-24\@md {
+    width: 83.3333%;
+    *width: 83.3023%;
+  }
+
+  :global .grid-col-7-8\@md,
+  :global .grid-col-21-24\@md {
+    width: 87.5%;
+    *width: 87.469%;
+  }
+
+  :global .grid-col-11-12\@md,
+  :global .grid-col-22-24\@md {
+    width: 91.6667%;
+    *width: 91.6357%;
+  }
+
+  :global .grid-col-23-24\@md {
+    width: 95.8333%;
+    *width: 95.8023%;
+  }
+
+  :global .grid-col-1\@md,
+  :global .grid-col-1-1\@md,
+  :global .grid-col-24-24\@md {
+    width: 100%;
+  }
+}
+
+@media mq-md-min {
+  :global .grid-col-1\@md-min,
+  :global .grid-col-1-1\@md-min,
+  :global .grid-col-1-2\@md-min,
+  :global .grid-col-1-3\@md-min,
+  :global .grid-col-2-3\@md-min,
+  :global .grid-col-1-4\@md-min,
+  :global .grid-col-3-4\@md-min,
+  :global .grid-col-1-6\@md-min,
+  :global .grid-col-5-6\@md-min,
+  :global .grid-col-1-8\@md-min,
+  :global .grid-col-3-8\@md-min,
+  :global .grid-col-5-8\@md-min,
+  :global .grid-col-7-8\@md-min,
+  :global .grid-col-1-12\@md-min,
+  :global .grid-col-5-12\@md-min,
+  :global .grid-col-7-12\@md-min,
+  :global .grid-col-11-12\@md-min,
+  :global .grid-col-1-24\@md-min,
+  :global .grid-col-2-24\@md-min,
+  :global .grid-col-3-24\@md-min,
+  :global .grid-col-4-24\@md-min,
+  :global .grid-col-5-24\@md-min,
+  :global .grid-col-6-24\@md-min,
+  :global .grid-col-7-24\@md-min,
+  :global .grid-col-8-24\@md-min,
+  :global .grid-col-9-24\@md-min,
+  :global .grid-col-10-24\@md-min,
+  :global .grid-col-11-24\@md-min,
+  :global .grid-col-12-24\@md-min,
+  :global .grid-col-13-24\@md-min,
+  :global .grid-col-14-24\@md-min,
+  :global .grid-col-15-24\@md-min,
+  :global .grid-col-16-24\@md-min,
+  :global .grid-col-17-24\@md-min,
+  :global .grid-col-18-24\@md-min,
+  :global .grid-col-19-24\@md-min,
+  :global .grid-col-20-24\@md-min,
+  :global .grid-col-21-24\@md-min,
+  :global .grid-col-22-24\@md-min,
+  :global .grid-col-23-24\@md-min,
+  :global .grid-col-24-24\@md-min {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+  }
+
+  :global .grid-col-1-24\@md-min {
+    width: 4.1667%;
+    *width: 4.1357%;
+  }
+
+  :global .grid-col-1-12\@md-min,
+  :global .grid-col-2-24\@md-min {
+    width: 8.3333%;
+    *width: 8.3023%;
+  }
+
+  :global .grid-col-1-8\@md-min,
+  :global .grid-col-3-24\@md-min {
+    width: 12.5%;
+    *width: 12.469%;
+  }
+
+  :global .grid-col-1-6\@md-min,
+  :global .grid-col-4-24\@md-min {
+    width: 16.6667%;
+    *width: 16.6357%;
+  }
+
+  :global .grid-col-5-24\@md-min {
+    width: 20.8333%;
+    *width: 20.8023%;
+  }
+
+  :global .grid-col-1-4\@md-min,
+  :global .grid-col-6-24\@md-min {
+    width: 25%;
+    *width: 24.969%;
+  }
+
+  :global .grid-col-7-24\@md-min {
+    width: 29.1667%;
+    *width: 29.1357%;
+  }
+
+  :global .grid-col-1-3\@md-min,
+  :global .grid-col-8-24\@md-min {
+    width: 33.3333%;
+    *width: 33.3023%;
+  }
+
+  :global .grid-col-3-8\@md-min,
+  :global .grid-col-9-24\@md-min {
+    width: 37.5%;
+    *width: 37.469%;
+  }
+
+  :global .grid-col-5-12\@md-min,
+  :global .grid-col-10-24\@md-min {
+    width: 41.6667%;
+    *width: 41.6357%;
+  }
+
+  :global .grid-col-11-24\@md-min {
+    width: 45.8333%;
+    *width: 45.8023%;
+  }
+
+  :global .grid-col-1-2\@md-min,
+  :global .grid-col-12-24\@md-min {
+    width: 50%;
+    *width: 49.969%;
+  }
+
+  :global .grid-col-13-24\@md-min {
+    width: 54.1667%;
+    *width: 54.1357%;
+  }
+
+  :global .grid-col-7-12\@md-min,
+  :global .grid-col-14-24\@md-min {
+    width: 58.3333%;
+    *width: 58.3023%;
+  }
+
+  :global .grid-col-5-8\@md-min,
+  :global .grid-col-15-24\@md-min {
+    width: 62.5%;
+    *width: 62.469%;
+  }
+
+  :global .grid-col-2-3\@md-min,
+  :global .grid-col-16-24\@md-min {
+    width: 66.6667%;
+    *width: 66.6357%;
+  }
+
+  :global .grid-col-17-24\@md-min {
+    width: 70.8333%;
+    *width: 70.8023%;
+  }
+
+  :global .grid-col-3-4\@md-min,
+  :global .grid-col-18-24\@md-min {
+    width: 75%;
+    *width: 74.969%;
+  }
+
+  :global .grid-col-19-24\@md-min {
+    width: 79.1667%;
+    *width: 79.1357%;
+  }
+
+  :global .grid-col-5-6\@md-min,
+  :global .grid-col-20-24\@md-min {
+    width: 83.3333%;
+    *width: 83.3023%;
+  }
+
+  :global .grid-col-7-8\@md-min,
+  :global .grid-col-21-24\@md-min {
+    width: 87.5%;
+    *width: 87.469%;
+  }
+
+  :global .grid-col-11-12\@md-min,
+  :global .grid-col-22-24\@md-min {
+    width: 91.6667%;
+    *width: 91.6357%;
+  }
+
+  :global .grid-col-23-24\@md-min {
+    width: 95.8333%;
+    *width: 95.8023%;
+  }
+
+  :global .grid-col-1\@md-min,
+  :global .grid-col-1-1\@md-min,
+  :global .grid-col-24-24\@md-min {
+    width: 100%;
+  }
+}
+
+@media mq-lg {
+  :global .grid-col-1\@lg,
+  :global .grid-col-1-1\@lg,
+  :global .grid-col-1-2\@lg,
+  :global .grid-col-1-3\@lg,
+  :global .grid-col-2-3\@lg,
+  :global .grid-col-1-4\@lg,
+  :global .grid-col-3-4\@lg,
+  :global .grid-col-1-6\@lg,
+  :global .grid-col-5-6\@lg,
+  :global .grid-col-1-8\@lg,
+  :global .grid-col-3-8\@lg,
+  :global .grid-col-5-8\@lg,
+  :global .grid-col-7-8\@lg,
+  :global .grid-col-1-12\@lg,
+  :global .grid-col-5-12\@lg,
+  :global .grid-col-7-12\@lg,
+  :global .grid-col-11-12\@lg,
+  :global .grid-col-1-24\@lg,
+  :global .grid-col-2-24\@lg,
+  :global .grid-col-3-24\@lg,
+  :global .grid-col-4-24\@lg,
+  :global .grid-col-5-24\@lg,
+  :global .grid-col-6-24\@lg,
+  :global .grid-col-7-24\@lg,
+  :global .grid-col-8-24\@lg,
+  :global .grid-col-9-24\@lg,
+  :global .grid-col-10-24\@lg,
+  :global .grid-col-11-24\@lg,
+  :global .grid-col-12-24\@lg,
+  :global .grid-col-13-24\@lg,
+  :global .grid-col-14-24\@lg,
+  :global .grid-col-15-24\@lg,
+  :global .grid-col-16-24\@lg,
+  :global .grid-col-17-24\@lg,
+  :global .grid-col-18-24\@lg,
+  :global .grid-col-19-24\@lg,
+  :global .grid-col-20-24\@lg,
+  :global .grid-col-21-24\@lg,
+  :global .grid-col-22-24\@lg,
+  :global .grid-col-23-24\@lg,
+  :global .grid-col-24-24\@lg {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+  }
+
+  :global .grid-col-1-24\@lg {
+    width: 4.1667%;
+    *width: 4.1357%;
+  }
+
+  :global .grid-col-1-12\@lg,
+  :global .grid-col-2-24\@lg {
+    width: 8.3333%;
+    *width: 8.3023%;
+  }
+
+  :global .grid-col-1-8\@lg,
+  :global .grid-col-3-24\@lg {
+    width: 12.5%;
+    *width: 12.469%;
+  }
+
+  :global .grid-col-1-6\@lg,
+  :global .grid-col-4-24\@lg {
+    width: 16.6667%;
+    *width: 16.6357%;
+  }
+
+  :global .grid-col-5-24\@lg {
+    width: 20.8333%;
+    *width: 20.8023%;
+  }
+
+  :global .grid-col-1-4\@lg,
+  :global .grid-col-6-24\@lg {
+    width: 25%;
+    *width: 24.969%;
+  }
+
+  :global .grid-col-7-24\@lg {
+    width: 29.1667%;
+    *width: 29.1357%;
+  }
+
+  :global .grid-col-1-3\@lg,
+  :global .grid-col-8-24\@lg {
+    width: 33.3333%;
+    *width: 33.3023%;
+  }
+
+  :global .grid-col-3-8\@lg,
+  :global .grid-col-9-24\@lg {
+    width: 37.5%;
+    *width: 37.469%;
+  }
+
+  :global .grid-col-5-12\@lg,
+  :global .grid-col-10-24\@lg {
+    width: 41.6667%;
+    *width: 41.6357%;
+  }
+
+  :global .grid-col-11-24\@lg {
+    width: 45.8333%;
+    *width: 45.8023%;
+  }
+
+  :global .grid-col-1-2\@lg,
+  :global .grid-col-12-24\@lg {
+    width: 50%;
+    *width: 49.969%;
+  }
+
+  :global .grid-col-13-24\@lg {
+    width: 54.1667%;
+    *width: 54.1357%;
+  }
+
+  :global .grid-col-7-12\@lg,
+  :global .grid-col-14-24\@lg {
+    width: 58.3333%;
+    *width: 58.3023%;
+  }
+
+  :global .grid-col-5-8\@lg,
+  :global .grid-col-15-24\@lg {
+    width: 62.5%;
+    *width: 62.469%;
+  }
+
+  :global .grid-col-2-3\@lg,
+  :global .grid-col-16-24\@lg {
+    width: 66.6667%;
+    *width: 66.6357%;
+  }
+
+  :global .grid-col-17-24\@lg {
+    width: 70.8333%;
+    *width: 70.8023%;
+  }
+
+  :global .grid-col-3-4\@lg,
+  :global .grid-col-18-24\@lg {
+    width: 75%;
+    *width: 74.969%;
+  }
+
+  :global .grid-col-19-24\@lg {
+    width: 79.1667%;
+    *width: 79.1357%;
+  }
+
+  :global .grid-col-5-6\@lg,
+  :global .grid-col-20-24\@lg {
+    width: 83.3333%;
+    *width: 83.3023%;
+  }
+
+  :global .grid-col-7-8\@lg,
+  :global .grid-col-21-24\@lg {
+    width: 87.5%;
+    *width: 87.469%;
+  }
+
+  :global .grid-col-11-12\@lg,
+  :global .grid-col-22-24\@lg {
+    width: 91.6667%;
+    *width: 91.6357%;
+  }
+
+  :global .grid-col-23-24\@lg {
+    width: 95.8333%;
+    *width: 95.8023%;
+  }
+
+  :global .grid-col-1\@lg,
+  :global .grid-col-1-1\@lg,
+  :global .grid-col-24-24\@lg {
+    width: 100%;
   }
 }

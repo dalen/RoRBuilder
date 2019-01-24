@@ -1,51 +1,53 @@
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .visible\@mobile,
-  .visible\@xs,
-  .visible\@sm,
-  .visible\@sm-min,
-  .visible\@md,
-  .visible\@md-min,
-  .visible\@lg {
-    display: none !important;
-  }
+:global .visible\@mobile,
+:global .visible\@xs,
+:global .visible\@sm,
+:global .visible\@sm-min,
+:global .visible\@md,
+:global .visible\@md-min,
+:global .visible\@lg {
+  display: none !important;
+}
 
-  .visible {
-    &\@mobile {
-      @media mq-mobile {
-        display: block !important;
-      }
-    }
-    &\@xs {
-      @media mq-xs {
-        display: block !important;
-      }
-    }
-    &\@sm {
-      @media mq-sm {
-        display: block !important;
-      }
-    }
-    &\@sm-min {
-      @media mq-sm-min {
-        display: block !important;
-      }
-    }
-    &\@md {
-      @media mq-md {
-        display: block !important;
-      }
-    }
-    &\@md-min {
-      @media mq-md-min {
-        display: block !important;
-      }
-    }
-    &\@lg {
-      @media mq-lg {
-        display: block !important;
-      }
-    }
+@media mq-mobile {
+  :global .visible\@mobile {
+    display: block !important;
+  }
+}
+
+@media mq-xs {
+  :global .visible\@xs {
+    display: block !important;
+  }
+}
+
+@media mq-sm {
+  :global .visible\@sm {
+    display: block !important;
+  }
+}
+
+@media mq-sm-min {
+  :global .visible\@sm-min {
+    display: block !important;
+  }
+}
+
+@media mq-md {
+  :global .visible\@md {
+    display: block !important;
+  }
+}
+
+@media mq-md-min {
+  :global .visible\@md-min {
+    display: block !important;
+  }
+}
+
+@media mq-lg {
+  :global .visible\@lg {
+    display: block !important;
   }
 }

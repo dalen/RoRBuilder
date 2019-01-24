@@ -1,66 +1,78 @@
 @import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .paddingLeft {
+:global .paddingLeft {
+  padding-left: var(--spacing);
+}
+
+:global .paddingLeft--extra-small {
+  padding-left: var(--spacing-extra-small);
+}
+
+:global .paddingLeft--small {
+  padding-left: var(--spacing-small);
+}
+
+:global .paddingLeft--medium {
+  padding-left: var(--spacing-medium);
+}
+
+:global .paddingLeft--large {
+  padding-left: var(--spacing-large);
+}
+
+:global .paddingLeft--extra-large {
+  padding-left: var(--spacing-extra-large);
+}
+
+@media mq-mobile {
+  :global .paddingLeft\@mobile {
     padding-left: var(--spacing);
-    &--extra-small {
-      padding-left: var(--spacing-extra-small);
-    }
-    &--small {
-      padding-left: var(--spacing-small);
-    }
-    &--medium {
-      padding-left: var(--spacing-medium);
-    }
-    &--large {
-      padding-left: var(--spacing-large);
-    }
-    &--extra-large {
-      padding-left: var(--spacing-extra-large);
-    }
-    &\@mobile {
-      @media mq-mobile {
-        padding-left: var(--spacing);
-      }
-    }
-    &--none {
-      padding-left: 0;
-      &\@mobile {
-        @media mq-mobile {
-          padding-left: 0;
-        }
-      }
-      &\@xs {
-        @media mq-xs {
-          padding-left: 0;
-        }
-      }
-      &\@sm {
-        @media mq-sm {
-          padding-left: 0;
-        }
-      }
-      &\@sm-min {
-        @media mq-sm-min {
-          padding-left: 0;
-        }
-      }
-      &\@md {
-        @media mq-md {
-          padding-left: 0;
-        }
-      }
-      &\@md-min {
-        @media mq-md-min {
-          padding-left: 0;
-        }
-      }
-      &\@lg {
-        @media mq-lg {
-          padding-left: 0;
-        }
-      }
-    }
+  }
+}
+
+:global .paddingLeft--none {
+  padding-left: 0;
+}
+
+@media mq-mobile {
+  :global .paddingLeft--none\@mobile {
+    padding-left: 0;
+  }
+}
+
+@media mq-xs {
+  :global .paddingLeft--none\@xs {
+    padding-left: 0;
+  }
+}
+
+@media mq-sm {
+  :global .paddingLeft--none\@sm {
+    padding-left: 0;
+  }
+}
+
+@media mq-sm-min {
+  :global .paddingLeft--none\@sm-min {
+    padding-left: 0;
+  }
+}
+
+@media mq-md {
+  :global .paddingLeft--none\@md {
+    padding-left: 0;
+  }
+}
+
+@media mq-md-min {
+  :global .paddingLeft--none\@md-min {
+    padding-left: 0;
+  }
+}
+
+@media mq-lg {
+  :global .paddingLeft--none\@lg {
+    padding-left: 0;
   }
 }

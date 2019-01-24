@@ -1,66 +1,78 @@
 @import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .marginTop {
+:global .marginTop {
+  margin-top: var(--spacing);
+}
+
+:global .marginTop--extra-small {
+  margin-top: var(--spacing-extra-small);
+}
+
+:global .marginTop--small {
+  margin-top: var(--spacing-small);
+}
+
+:global .marginTop--medium {
+  margin-top: var(--spacing-medium);
+}
+
+:global .marginTop--large {
+  margin-top: var(--spacing-large);
+}
+
+:global .marginTop--extra-large {
+  margin-top: var(--spacing-extra-large);
+}
+
+@media mq-mobile {
+  :global .marginTop\@mobile {
     margin-top: var(--spacing);
-    &--extra-small {
-      margin-top: var(--spacing-extra-small);
-    }
-    &--small {
-      margin-top: var(--spacing-small);
-    }
-    &--medium {
-      margin-top: var(--spacing-medium);
-    }
-    &--large {
-      margin-top: var(--spacing-large);
-    }
-    &--extra-large {
-      margin-top: var(--spacing-extra-large);
-    }
-    &\@mobile {
-      @media mq-mobile {
-        margin-top: var(--spacing);
-      }
-    }
-    &--none {
-      margin-top: 0;
-      &\@mobile {
-        @media mq-mobile {
-          margin-top: 0;
-        }
-      }
-      &\@xs {
-        @media mq-xs {
-          margin-top: 0;
-        }
-      }
-      &\@sm {
-        @media mq-sm {
-          margin-top: 0;
-        }
-      }
-      &\@sm-min {
-        @media mq-sm-min {
-          margin-top: 0;
-        }
-      }
-      &\@md {
-        @media mq-md {
-          margin-top: 0;
-        }
-      }
-      &\@md-min {
-        @media mq-md-min {
-          margin-top: 0;
-        }
-      }
-      &\@lg {
-        @media mq-lg {
-          margin-top: 0;
-        }
-      }
-    }
+  }
+}
+
+:global .marginTop--none {
+  margin-top: 0;
+}
+
+@media mq-mobile {
+  :global .marginTop--none\@mobile {
+    margin-top: 0;
+  }
+}
+
+@media mq-xs {
+  :global .marginTop--none\@xs {
+    margin-top: 0;
+  }
+}
+
+@media mq-sm {
+  :global .marginTop--none\@sm {
+    margin-top: 0;
+  }
+}
+
+@media mq-sm-min {
+  :global .marginTop--none\@sm-min {
+    margin-top: 0;
+  }
+}
+
+@media mq-md {
+  :global .marginTop--none\@md {
+    margin-top: 0;
+  }
+}
+
+@media mq-md-min {
+  :global .marginTop--none\@md-min {
+    margin-top: 0;
+  }
+}
+
+@media mq-lg {
+  :global .marginTop--none\@lg {
+    margin-top: 0;
   }
 }

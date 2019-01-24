@@ -1,13 +1,12 @@
 @import '../values/colours.css';
 
-:global {
-  .icon {
-    width: 16px;
-    height: 16px;
-    fill: var(--color-text-primary);
-    &--small {
-      width: 8px;
-      height: 8px;
-    }
-  }
+:global .icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--color-text-primary);
+}
+
+:global .icon--small {
+  width: 8px;
+  height: 8px;
 }

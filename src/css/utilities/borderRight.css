@@ -1,55 +1,62 @@
 @import '../values/colours.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .borderRight {
+:global .borderRight {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--color-border);
+}
+
+@media mq-sm-min {
+  :global .borderRight\@sm-min {
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: var(--color-border);
-    &\@sm-min {
-      @media mq-sm-min {
-        border-right-style: solid;
-        border-right-width: 1px;
-        border-right-color: var(--color-border);
-      }
-    }
-    &--none {
-      border-right-width: 0;
-      &\@mobile {
-        @media mq-mobile {
-          border-right-width: 0;
-        }
-      }
-      &\@xs {
-        @media mq-xs {
-          border-right-width: 0;
-        }
-      }
-      &\@sm {
-        @media mq-sm {
-          border-right-width: 0;
-        }
-      }
-      &\@sm-min {
-        @media mq-sm-min {
-          border-right-width: 0;
-        }
-      }
-      &\@md {
-        @media mq-md {
-          border-right-width: 0;
-        }
-      }
-      &\@md-min {
-        @media mq-md-min {
-          border-right-width: 0;
-        }
-      }
-      &\@lg {
-        @media mq-lg {
-          border-right-width: 0;
-        }
-      }
-    }
+  }
+}
+
+:global .borderRight--none {
+  border-right-width: 0;
+}
+
+@media mq-mobile {
+  :global .borderRight--none\@mobile {
+    border-right-width: 0;
+  }
+}
+
+@media mq-xs {
+  :global .borderRight--none\@xs {
+    border-right-width: 0;
+  }
+}
+
+@media mq-sm {
+  :global .borderRight--none\@sm {
+    border-right-width: 0;
+  }
+}
+
+@media mq-sm-min {
+  :global .borderRight--none\@sm-min {
+    border-right-width: 0;
+  }
+}
+
+@media mq-md {
+  :global .borderRight--none\@md {
+    border-right-width: 0;
+  }
+}
+
+@media mq-md-min {
+  :global .borderRight--none\@md-min {
+    border-right-width: 0;
+  }
+}
+
+@media mq-lg {
+  :global .borderRight--none\@lg {
+    border-right-width: 0;
   }
 }

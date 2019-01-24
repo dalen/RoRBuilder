@@ -1,62 +1,70 @@
 @import '../values/colours.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global {
-  .borderBottom {
+:global .borderBottom {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--color-border);
+}
+
+@media mq-mobile {
+  :global .borderBottom\@mobile {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: var(--color-border);
-    &\@mobile {
-      @media mq-mobile {
-        border-bottom-style: solid;
-        border-bottom-width: 1px;
-        border-bottom-color: var(--color-border);
-      }
-    }
-    &\@sm-min {
-      @media mq-sm-min {
-        border-bottom-style: solid;
-        border-bottom-width: 1px;
-        border-bottom-color: var(--color-border);
-      }
-    }
-    &--none {
-      border-bottom-width: 0;
-      &\@mobile {
-        @media mq-mobile {
-          border-bottom-width: 0;
-        }
-      }
-      &\@xs {
-        @media mq-xs {
-          border-bottom-width: 0;
-        }
-      }
-      &\@sm {
-        @media mq-sm {
-          border-bottom-width: 0;
-        }
-      }
-      &\@sm-min {
-        @media mq-sm-min {
-          border-bottom-width: 0;
-        }
-      }
-      &\@md {
-        @media mq-md {
-          border-bottom-width: 0;
-        }
-      }
-      &\@md-min {
-        @media mq-md-min {
-          border-bottom-width: 0;
-        }
-      }
-      &\@lg {
-        @media mq-lg {
-          border-bottom-width: 0;
-        }
-      }
-    }
+  }
+}
+
+@media mq-sm-min {
+  :global .borderBottom\@sm-min {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--color-border);
+  }
+}
+
+:global .borderBottom--none {
+  border-bottom-width: 0;
+}
+
+@media mq-mobile {
+  :global .borderBottom--none\@mobile {
+    border-bottom-width: 0;
+  }
+}
+
+@media mq-xs {
+  :global .borderBottom--none\@xs {
+    border-bottom-width: 0;
+  }
+}
+
+@media mq-sm {
+  :global .borderBottom--none\@sm {
+    border-bottom-width: 0;
+  }
+}
+
+@media mq-sm-min {
+  :global .borderBottom--none\@sm-min {
+    border-bottom-width: 0;
+  }
+}
+
+@media mq-md {
+  :global .borderBottom--none\@md {
+    border-bottom-width: 0;
+  }
+}
+
+@media mq-md-min {
+  :global .borderBottom--none\@md-min {
+    border-bottom-width: 0;
+  }
+}
+
+@media mq-lg {
+  :global .borderBottom--none\@lg {
+    border-bottom-width: 0;
   }
 }
