@@ -1,6 +1,4 @@
-:global {
-  .column {
-    display: flex;
-    flex-direction: column;
-  }
+:global .column {
+  display: flex;
+  flex-direction: column;
 }

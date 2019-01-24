@@ -1,21 +1,23 @@
 @import '../values/colours.css';
 
-@value ability-width: 36px;
-@value ability-height: 36px;
-@value opacity-inactive: 0.2;
+:root {
+  --ability-width: 36px;
+  --ability-height: 36px;
+  --opacity-inactive: 0.2;
+}
 
 .ability {
   margin: 0.1rem;
-  width: ability-width;
-  height: ability-height;
+  width: var(--ability-width);
+  height: var(--ability-height);
   background-color: var(--color-base-5);
 }
 .image {
   display: block;
-  width: ability-width;
-  height: ability-height;
+  width: var(--ability-width);
+  height: var(--ability-height);
 }
 .imageInactive {
   composes: image;
-  opacity: opacity-inactive;
+  opacity: var(--opacity-inactive);
 }

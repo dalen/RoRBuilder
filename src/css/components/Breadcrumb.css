@@ -17,9 +17,9 @@
 }
 .BreadcrumbLink {
   color: var(--color-text-secondary);
-  &:hover {
-    text-decoration: none;
-  }
+}
+.BreadcrumbLink:hover {
+  text-decoration: none;
 }
 .matt {
   font-size: 2px;

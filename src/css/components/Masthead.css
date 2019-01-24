@@ -3,7 +3,9 @@
 @import '../values/fontSizes.css';
 @value mq-mobile, mq-sm-min from "../values/mediaQueries.css";
 
-@value shadow: 2px 2px 8px rgba(0,0,0,0.7);
+:root {
+  --shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
 
 .masthead {
   position: relative;
@@ -39,7 +41,7 @@
   font-size: 4.8rem;
   text-align: center;
   padding-top: 4rem;
-  text-shadow: shadow;
+  text-shadow: var(--shadow);
   transition: all 500ms ease;
   color: var(--color-text-primary);
 }
@@ -58,7 +60,7 @@
   color: var(--color-text-primary);
   font-size: 2rem;
   text-align: center;
-  text-shadow: shadow;
+  text-shadow: var(--shadow);
 }
 @media mq-mobile {
   .mastheadSubtitle {

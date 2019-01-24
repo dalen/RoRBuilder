@@ -1,6 +1,8 @@
 @import '../values/colours.css';
 
-@value border-spacing: 0.2rem;
+:root {
+  --border-spacing: 0.2rem;
+}
 
 .ability {
   composes: ability from '../shared/ability.css';
@@ -8,7 +10,7 @@
   background-size: cover;
   cursor: pointer;
   padding: 0;
-  margin: border-spacing;
+  margin: var(--border-spacing);
 }
 .abilityMasteryActive {
   composes: ability;
@@ -23,7 +25,7 @@
 .abilitySelected {
   composes: ability;
   margin: 0;
-  padding: border-spacing;
+  padding: var(--border-spacing);
   background: url('/images/tactic-background-selected.svg') no-repeat 0 0;
   background-size: cover;
 }

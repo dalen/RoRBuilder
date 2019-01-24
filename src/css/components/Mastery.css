@@ -20,10 +20,10 @@
   font-size: var(--font-size-3);
   padding: label-padding calc(label-padding * 2);
   background-color: var(--color-base-6);
-  &--points {
-    background-color: var(--color-points);
-    color: var(--color-text-primary);
-  }
+}
+.label--points {
+  background-color: var(--color-points);
+  color: var(--color-text-primary);
 }
 .labelActive {
   composes: label;

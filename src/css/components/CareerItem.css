@@ -11,9 +11,9 @@
   color: var(--color-text-secondary);
   text-decoration: none;
   line-height: 1;
-  &:hover {
-    text-decoration: underline;
-  }
+}
+.link:hover {
+  text-decoration: underline;
 }
 .icon {
   composes: careerIconSmallest from '../shared/careerIcon.css';

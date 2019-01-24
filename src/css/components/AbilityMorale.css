@@ -1,10 +1,12 @@
 @import '../values/colours.css';
 
-@value border-radius: 50%;
+:root {
+  --border-radius: 50%;
+}
 
 .ability {
   composes: ability from '../shared/ability.css';
-  border-radius: border-radius;
+  border-radius: var(--label-padding);
   border: 0.1rem solid var(--color-base-1);
   cursor: pointer;
 }
@@ -24,9 +26,9 @@
 }
 .image {
   composes: image from '../shared/ability.css';
-  border-radius: border-radius;
+  border-radius: var(--label-padding);
 }
 .imageInactive {
   composes: imageInactive from '../shared/ability.css';
-  border-radius: border-radius;
+  border-radius: var(--label-padding);
 }

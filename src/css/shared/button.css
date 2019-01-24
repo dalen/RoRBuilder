@@ -31,31 +31,31 @@
   composes: button;
   background-color: var(--color-primary);
   border: 1px solid var(--color-primary-1);
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: var(--color-primary-2);
-  }
+}
+.buttonPrimary:hover,
+.buttonPrimary:active,
+.buttonPrimary:focus {
+  background-color: var(--color-primary-2);
 }
 .buttonSecondary {
   composes: button;
   background-color: var(--color-secondary);
   border: 1px solid var(--color-secondary-1);
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: var(--color-secondary-2);
-  }
+}
+.buttonSecondary:hover,
+.buttonSecondary:active,
+.buttonSecondary:focus {
+  background-color: var(--color-secondary-2);
 }
 .buttonSecondaryInverse {
   composes: button;
   background-color: var(--color-secondary-1);
   border: 1px solid var(--color-secondary);
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: var(--color-secondary-2);
-  }
+}
+.buttonSecondaryInverse:hover,
+.buttonSecondaryInverse:active,
+.buttonSecondaryInverse:focus {
+  background-color: var(--color-secondary-2);
 }
 .buttonSecondaryInverseLarge {
   composes: buttonSecondaryInverse;
@@ -73,12 +73,13 @@
   composes: button;
   background-color: var(--color-negative);
   border: 1px solid var(--color-negative-1);
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: var(--color-negative-2);
-  }
 }
+.buttonNegative:hover,
+.buttonNegative:active,
+.buttonNegative:focus {
+  background-color: var(--color-negative-2);
+}
+
 .buttonDisabled {
   opacity: 0.2;
   cursor: not-allowed;
