@@ -1,18 +1,20 @@
 @import '../values/colours.css';
 @value mq-mobile from "../values/mediaQueries.css";
 
-@value width-popover: 35rem;
-/* Following two rules must match corresponding values in Popover.js
+:root {
+  --width-popover: 35rem;
+  /* Following two rules must match corresponding values in Popover.js
 * Distance of popover from parent */
-@value spacing-popover: 0.5rem;
-@value arrow-size: 1rem;
+  --spacing-popover: 0.5rem;
+  --arrow-size: 1rem;
+}
 
 :global .popover {
   box-sizing: border-box;
   display: none;
   position: absolute;
   z-index: 100;
-  width: width-popover;
+  width: var(--width-popover);
   padding: 1rem;
   background-color: var(--color-popover-background);
   color: var(--color-text-primary);
@@ -65,47 +67,51 @@
 
 :global .popover--top,
 :global .popover--bottom {
-  left: calc(50% - (width-popover / 2));
+  left: calc(50% - (var(--width-popover) / 2));
 }
 
 :global .popover--right {
-  right: calc(- width-popover - spacing-popover - arrow-size);
+  right: calc(
+    - var(--width-popover) - var(--spacing-popover) - var(--arrow-size)
+  );
 }
 
 :global .popover--left {
-  left: calc(- width-popover - spacing-popover - arrow-size);
+  left: calc(
+    - var(--width-popover) - var(--spacing-popover) - var(--arrow-size)
+  );
 }
 
 :global .popover--top:before {
-  border-left: arrow-size solid transparent;
-  border-right: arrow-size solid transparent;
-  border-top: arrow-size solid var(--color-popover-background);
-  bottom: calc(- arrow-size);
-  left: calc(50% - arrow-size);
+  border-left: var(--arrow-size) solid transparent;
+  border-right: var(--arrow-size) solid transparent;
+  border-top: var(--arrow-size) solid var(--color-popover-background);
+  bottom: calc(- var(--arrow-size));
+  left: calc(50% - var(--arrow-size));
 }
 
 :global .popover--bottom:before {
-  border-left: arrow-size solid transparent;
-  border-right: arrow-size solid transparent;
-  border-bottom: arrow-size solid var(--color-popover-background);
-  top: calc(- arrow-size);
-  left: calc(50% - arrow-size);
+  border-left: var(--arrow-size) solid transparent;
+  border-right: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid var(--color-popover-background);
+  top: calc(- var(--arrow-size));
+  left: calc(50% - var(--arrow-size));
 }
 
 :global .popover--left:before {
-  border-top: arrow-size solid transparent;
-  border-bottom: arrow-size solid transparent;
-  border-left: arrow-size solid var(--color-popover-background);
-  top: calc(50% - arrow-size);
-  right: calc(- arrow-size);
+  border-top: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid transparent;
+  border-left: var(--arrow-size) solid var(--color-popover-background);
+  top: calc(50% - var(--arrow-size));
+  right: calc(- var(--arrow-size));
 }
 
 :global .popover--right:before {
-  border-top: arrow-size solid transparent;
-  border-bottom: arrow-size solid transparent;
-  border-right: arrow-size solid var(--color-popover-background);
-  top: calc(50% - arrow-size);
-  left: calc(- arrow-size);
+  border-top: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid transparent;
+  border-right: var(--arrow-size) solid var(--color-popover-background);
+  top: calc(50% - var(--arrow-size));
+  left: calc(- var(--arrow-size));
 }
 
 /* "arrow" (i.e. .popover__arrow) coordinates */
