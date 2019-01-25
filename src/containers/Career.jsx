@@ -80,7 +80,7 @@ class Career extends Component {
     // Manually force the loading of new data
     if (
       this.props.match.params &&
-      this.props.match.params.slug != nextProps.match.params.slug
+      this.props.match.params.slug !== nextProps.match.params.slug
     ) {
       // Check if it's a valid career name
       if (this.props.careers.hasOwnProperty(nextProps.match.params.slug)) {

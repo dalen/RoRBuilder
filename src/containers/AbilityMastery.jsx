@@ -181,7 +181,7 @@ class AbilityMastery extends Component {
             this.props.data.id,
           );
           // remove from selected morale 4
-          if (this.props.selectedMorale4 == this.props.data.id) {
+          if (this.props.selectedMorale4 === this.props.data.id) {
             this.props.resetSelectedMorale4();
           }
           break;

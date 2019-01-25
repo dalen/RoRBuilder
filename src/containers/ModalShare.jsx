@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import classNames from 'classnames';
 import css from '../css/components/ModalShare.module.css';
 
 import Modal from './Modal';
 
 class ModalShare extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const url = `/images/icons/${this.props.slug}.png`;
     const careerName = this.props.careers[this.props.slug].name;

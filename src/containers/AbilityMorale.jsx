@@ -51,28 +51,28 @@ class AbilityMorale extends Component {
     }
     switch (this.props.rank) {
       case '1':
-        if (selectedMorale1 == this.props.data.id) {
+        if (selectedMorale1 === this.props.data.id) {
           this.setState({ selected: true });
         } else {
           this.setState({ selected: false });
         }
         break;
       case '2':
-        if (selectedMorale2 == this.props.data.id) {
+        if (selectedMorale2 === this.props.data.id) {
           this.setState({ selected: true });
         } else {
           this.setState({ selected: false });
         }
         break;
       case '3':
-        if (selectedMorale3 == this.props.data.id) {
+        if (selectedMorale3 === this.props.data.id) {
           this.setState({ selected: true });
         } else {
           this.setState({ selected: false });
         }
         break;
       case '4':
-        if (selectedMorale4 == this.props.data.id) {
+        if (selectedMorale4 === this.props.data.id) {
           this.setState({ selected: true });
         } else {
           this.setState({ selected: false });
