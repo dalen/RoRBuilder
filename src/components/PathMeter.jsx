@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
 import css from '../css/components/PathMeter.module.css';
 
 const PathMeter = props => {

@@ -10,10 +10,6 @@ const MODAL_COMPONENTS = {};
 MODAL_COMPONENTS[MODAL_SHARE] = ModalShare;
 
 class ModalContainer extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     if (!this.props.modal) {
       return null;

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import classNames from 'classnames';
 import css from '../css/components/PathMeter.module.css';
 
 import PathMeter from '../components/PathMeter';

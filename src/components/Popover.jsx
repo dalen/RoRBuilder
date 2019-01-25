@@ -28,13 +28,14 @@ class Popover extends React.Component {
   // Controlling hide/show of Popover in local state now. This is so button can also control it as well as ability hover.
   componentWillReceiveProps(nextProps) {
     if (nextProps.activate) {
-      this.state.popoverActive = true;
+      this.setState({
+        popoverActive: true,
+      });
     } else {
-      this.state.popoverActive = false;
+      this.setState({
+        popoverActive: false,
+      });
     }
-    this.setState({
-      popoverActive: this.state.popoverActive,
-    });
   }
 
   componentDidUpdate() {
@@ -168,9 +169,8 @@ class Popover extends React.Component {
   }
 
   clickClose() {
-    this.state.popoverActive = false;
     this.setState({
-      popoverActive: this.state.popoverActive,
+      popoverActive: false,
     });
   }
 

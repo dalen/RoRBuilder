@@ -28,10 +28,6 @@ import Overlay from './Overlay';
 import News from '../components/News';
 
 class Home extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     this.props.fetchCareers();
 
