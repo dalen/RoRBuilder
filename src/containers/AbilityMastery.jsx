@@ -211,7 +211,7 @@ class AbilityMastery extends Component {
 
   // About to update because parent changed
   componentWillReceiveProps(nextProps, nextState) {
-    if (this.props != nextProps) {
+    if (this.props !== nextProps) {
       this.processAbility(nextProps);
 
       // Meter level goes below optional Ability requirement
@@ -241,7 +241,7 @@ class AbilityMastery extends Component {
               nextProps.data.id,
             );
             // remove from selected morales if it's there
-            if (nextProps.selectedMorale4 == nextProps.data.id) {
+            if (nextProps.selectedMorale4 === nextProps.data.id) {
               nextProps.resetSelectedMorale4(
                 nextProps.selectedMorales,
                 nextProps.data.id,

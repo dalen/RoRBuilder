@@ -5,10 +5,6 @@ import css from '../css/components/Sidebar.module.css';
 import CareerItem from './CareerItem';
 
 class Sidebar extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   renderCareers() {
     return Object.keys(this.props.careers).map(key => (
       <div className={css.item} key={key}>

@@ -4,10 +4,6 @@ import classNames from 'classnames';
 import css from '../css/components/Loading.module.css';
 
 class Loading extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const containerClass = classNames({
       [css.container]: !this.props.sidebar,

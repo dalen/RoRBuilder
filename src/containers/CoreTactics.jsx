@@ -34,7 +34,7 @@ class CoreTactics extends Component {
   }
 
   render() {
-    if (this.props.abilities.length == 0) {
+    if (this.props.abilities.length === 0) {
       return null;
     }
     return (
