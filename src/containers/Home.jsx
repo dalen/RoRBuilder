@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
-import css from '../css/components/Home.css';
+import css from '../css/components/Home.module.css';
 
 import { fetchCareers } from '../actions/actionCareers';
 import { resetLevel } from '../actions/actionLevel';

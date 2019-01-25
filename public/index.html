@@ -1,58 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <title>RoR Career Builder</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      name="viewport"
+    />
+    <title>RoR Career Builder</title>
 
-  <base href="/">
+    <base href="/" />
 
-  <link rel="stylesheet" href="css/style.css?0f2b191319aaddf83d5c">
+    <script>
+      window.ga =
+        window.ga ||
+        function() {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga('create', '1234', 'auto');
+      ga('require', 'autotrack', {
+        mediaQueryDefinitions: [
+          {
+            name: 'Breakpoint',
+            dimensionIndex: 1,
+            items: [
+              { name: 'xs', media: 'all' },
+              { name: 'mobile', media: '(max-width: 480px)' },
+              { name: 'sm', media: '(min-width: 768px)' },
+              { name: 'md', media: '(min-width: 992px)' },
+              { name: 'lg', media: '(min-width: 1200px)' },
+            ],
+          },
+          {
+            name: 'Resolution',
+            dimensionIndex: 2,
+            items: [
+              { name: '1x', media: 'all' },
+              { name: '1.5x', media: '(min-resolution: 144dpi)' },
+              { name: '2x', media: '(min-resolution: 192dpi)' },
+            ],
+          },
+          {
+            name: 'Orientation',
+            dimensionIndex: 3,
+            items: [
+              { name: 'landscape', media: '(orientation: landscape)' },
+              { name: 'portrait', media: '(orientation: portrait)' },
+            ],
+          },
+        ],
+      });
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-  <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', '1234', 'auto');
-    ga('require', 'autotrack', {
-      mediaQueryDefinitions: [
-        {
-          name: 'Breakpoint',
-          dimensionIndex: 1,
-          items: [
-            {name: 'xs', media: 'all'},
-            {name: 'mobile', media: '(max-width: 480px)'},
-            {name: 'sm', media: '(min-width: 768px)'},
-            {name: 'md', media: '(min-width: 992px)'},
-            {name: 'lg', media: '(min-width: 1200px)'}
-          ]
-        },
-        {
-          name: 'Resolution',
-          dimensionIndex: 2,
-          items: [
-            {name: '1x',   media: 'all'},
-            {name: '1.5x', media: '(min-resolution: 144dpi)'},
-            {name: '2x',   media: '(min-resolution: 192dpi)'}
-          ]
-        },
-        {
-          name: 'Orientation',
-          dimensionIndex: 3,
-          items: [
-            {name: 'landscape', media: '(orientation: landscape)'},
-            {name: 'portrait',  media: '(orientation: portrait)'}
-          ]
-        }
-      ]
-    });
-    ga('send', 'pageview');
-  </script>
-  <script async src="https://www.google-analytics.com/analytics.js"></script>
-</head>
-<body>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-  <div id="app"></div>
-
-  <script src="js/app.js?0f2b191319aaddf83d5c"></script>
-
-</body>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+  </body>
 </html>

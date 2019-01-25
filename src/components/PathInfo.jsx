@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import Popover from './Popover';
-import css from '../css/components/PathInfo.css';
+import css from '../css/components/PathInfo.module.css';
 
 class PathInfo extends React.Component {
   /*

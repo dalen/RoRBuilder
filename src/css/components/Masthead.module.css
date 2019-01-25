@@ -79,7 +79,7 @@
   margin-top: -10rem;
 }
 .mastheadCtaButton {
-  composes: buttonSecondaryInverseLarge from '../shared/button.css';
+  composes: buttonSecondaryInverseLarge from '../shared/button.module.css';
 }
 .mastheadFooter {
   opacity: 0;

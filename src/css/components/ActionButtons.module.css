@@ -4,20 +4,20 @@
   composes: box from '../shared/box.css';
 }
 .home {
-  composes: buttonSecondary from '../shared/button.css';
+  composes: buttonSecondary from '../shared/button.module.css';
 }
 .reset {
-  composes: buttonNegative from '../shared/button.css';
+  composes: buttonNegative from '../shared/button.module.css';
   float: right;
   margin-left: var(--spacing);
 }
 .change {
-  composes: buttonSecondary from '../shared/button.css';
+  composes: buttonSecondary from '../shared/button.module.css';
   float: right;
   margin-left: var(--spacing);
 }
 .share {
-  composes: buttonPrimary from '../shared/button.css';
+  composes: buttonPrimary from '../shared/button.module.css';
   float: right;
   margin-left: var(--spacing);
 }

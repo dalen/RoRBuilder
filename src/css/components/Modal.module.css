@@ -37,5 +37,5 @@
   justify-content: flex-end;
 }
 .close {
-  composes: buttonSecondary from '../shared/button.css';
+  composes: buttonSecondary from '../shared/button.module.css';
 }
