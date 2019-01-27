@@ -7,9 +7,9 @@
       },
       "optionalAbilities": {
         "lvl1": 5315,
-        "lvl2": 5319,
+        "lvl2": 5314,
         "lvl3": 5313,
-        "lvl4": 5314,
+        "lvl4": 5312,
         "lvl5": 5311,
         "lvl6": 5316,
         "lvl7": 5317
@@ -23,7 +23,7 @@
       },
       "optionalAbilities": {
         "lvl1": 5318,
-        "lvl2": 5326,
+        "lvl2": 5319,
         "lvl3": 5320,
         "lvl4": 5321,
         "lvl5": 5322,
@@ -39,7 +39,7 @@
       },
       "optionalAbilities": {
         "lvl1": 5327,
-        "lvl2": 5312,
+        "lvl2": 5326,
         "lvl3": 5329,
         "lvl4": 5328,
         "lvl5": 5325,
@@ -1119,6 +1119,22 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them have thake a (rank * 3) ability penalty to Toughness for 20 seconds.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "02585",
+      "id": 1934,
+      "name": "Yer A Weaklin'",
+      "type": "Ailment",
+      "spec": "Path of Da Green",
+      "minrank": "30",
+      "cost": "Costs 30 AP",
+      "range": "100ft range",
+      "incant": "Instant Cast",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "Everyone within 20 feet of your target will have their Strength, Intelligence and Ballistic Skill reduced by 75 for 20 seconds.",
       "category": "Ability"
     }
   ]
