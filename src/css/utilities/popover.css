@@ -72,13 +72,13 @@
 
 :global .popover--right {
   right: calc(
-    - var(--width-popover) - var(--spacing-popover) - var(--arrow-size)
+    (var(--width-popover) * -1) - var(--spacing-popover) - var(--arrow-size)
   );
 }
 
 :global .popover--left {
   left: calc(
-    - var(--width-popover) - var(--spacing-popover) - var(--arrow-size)
+    (var(--width-popover) * -1) - var(--spacing-popover) - var(--arrow-size)
   );
 }
 
@@ -86,7 +86,7 @@
   border-left: var(--arrow-size) solid transparent;
   border-right: var(--arrow-size) solid transparent;
   border-top: var(--arrow-size) solid var(--color-popover-background);
-  bottom: calc(- var(--arrow-size));
+  bottom: calc(var(--arrow-size) * -1);
   left: calc(50% - var(--arrow-size));
 }
 
@@ -94,7 +94,7 @@
   border-left: var(--arrow-size) solid transparent;
   border-right: var(--arrow-size) solid transparent;
   border-bottom: var(--arrow-size) solid var(--color-popover-background);
-  top: calc(- var(--arrow-size));
+  top: calc(var(--arrow-size) * -1);
   left: calc(50% - var(--arrow-size));
 }
 
@@ -103,7 +103,7 @@
   border-bottom: var(--arrow-size) solid transparent;
   border-left: var(--arrow-size) solid var(--color-popover-background);
   top: calc(50% - var(--arrow-size));
-  right: calc(- var(--arrow-size));
+  right: calc(var(--arrow-size) * -1);
 }
 
 :global .popover--right:before {
@@ -111,7 +111,7 @@
   border-bottom: var(--arrow-size) solid transparent;
   border-right: var(--arrow-size) solid var(--color-popover-background);
   top: calc(50% - var(--arrow-size));
-  left: calc(- var(--arrow-size));
+  left: calc(var(--arrow-size) * -1);
 }
 
 /* "arrow" (i.e. .popover__arrow) coordinates */
