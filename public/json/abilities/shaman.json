@@ -94,7 +94,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
-      "description": "Deals x elemental damage.",
+      "description": "Deals 309 elemental damage.",
       "category": "Ability"
     },
 
@@ -110,7 +110,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
-      "description": "Heals your target for X health.This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
+      "description": "Heals your target for 883 health.This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
       "category": "Ability"
     },
 
@@ -126,7 +126,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "You deal X elemental damage to your target over 24 seconds and your defensive target is healed for 150% of the damage done.",
+      "description": "You deal 1072 elemental damage to your target over 24 seconds and your defensive target is healed for 150% of the damage done.",
       "category": "Ability"
     },
 
@@ -142,7 +142,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
-      "description": "Deals X elemental damage to your target.",
+      "description": "Deals 344 elemental damage to your target.",
       "category": "Ability"
     },
 
@@ -174,7 +174,7 @@
       "incant": "6.0s channel",
       "cooldown": "11.0s cooldown",
       "note": "Gork's Waaagh! increases effectiveness. ",
-      "description": "You concentrate on your target for up to 6 seconds, dealing X elemental damage every 2 seconds to them as long as you maintain your concentration.",
+      "description": "You concentrate on your target for up to 6 seconds, dealing 344 elemental damage every 2 seconds to them as long as you maintain your concentration.",
       "category": "Ability"
     },
 
@@ -206,7 +206,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "Deals X elemental damage to your target, and will then damage another target within 20 feet of the last, damaging up to 9 different targets total. Targets can not be hit more than once by the ability.",
+      "description": "Deals 338 elemental damage to your target, and will then damage another target within 20 feet of the last, damaging up to 9 different targets total. Targets can not be hit more than once by the ability.",
       "category": "Ability"
     },
 
@@ -302,7 +302,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your target gains a X unique bonus to Toughness and restore X health over 10 seconds.",
+      "description": "Your target gains a 150 bonus to Toughness and restore 952 health over 10 seconds.",
       "category": "Ability"
     },
 
@@ -318,7 +318,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Mork's Waaagh! increases effectiveness.",
-      "description": "Surrounds an ally with a magical barrier that absorbs up to X damage for up to 9 seconds.",
+      "description": "Surrounds an ally with a magical barrier that absorbs up to 925 damage for up to 9 seconds.",
       "category": "Ability"
     },
 
@@ -350,7 +350,7 @@
       "incant": "InstantCast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Everyone in your group within 100 feet will do an additional X elemental damage on their next attack within 10 seconds.",
+      "description": "Everyone in your group within 100 feet will do an additional 125 elemental damage on their next attack within 10 seconds.",
       "category": "Ability"
     },
 
@@ -478,7 +478,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "A surge of Waaaagh explodes from your target and damages up to 4 enemies within 30 feet of them, dealing X elemental damage. Healing your defensive target and allies within 20 feet of them for Y health plus 50% of the total inflicted damage. This ability has innate 20% strikethrough.",
+      "description": "A surge of Waaaagh explodes from your target and damages up to 4 enemies within 30 feet of them, dealing 199 elemental damage. Healing your defensive target and allies within 20 feet of them for Y health plus 50% of the total inflicted damage. This ability has innate 20% strikethrough.",
       "category": "Ability"
     },
 
@@ -494,7 +494,7 @@
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
-      "description": "Heals group members within 100 feet for X health.",
+      "description": "Heals group members within 100 feet for 643 health.",
       "category": "Ability"
     },
 
@@ -510,7 +510,7 @@
       "incant": "2.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "Deals X elemental damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
+      "description": "Deals 205 elemental damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
       "category": "Ability"
     },
 
@@ -606,7 +606,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
-      "description": "Your target regains X health immediately then continues to gain another Y health over 5 seconds. This ability will continue to build up even if you move.",
+      "description": "Your target regains 258 health immediately then continues to gain another 315 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
 
@@ -622,7 +622,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "Gork takes interest in your target, reducing all incoming heals by 50% for 10 seconds, and will deal X elemental damage to anyone healing his new toy.",
+      "description": "Gork takes interest in your target, reducing all incoming heals by 50% for 10 seconds, and will deal 332 elemental damage to anyone healing his new toy.",
       "category": "Ability"
     },
 
@@ -654,7 +654,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be Cursed or Ailing",
-      "description": "You cleanse an ally, removing one Curse or Ailment. If an effect is removed, your ally will absorb up to X damage over 10 seconds.",
+      "description": "You cleanse an ally, removing one Curse or Ailment. If an effect is removed, your ally will absorb up to 175 damage over 10 seconds.",
       "category": "Ability"
     },
 
@@ -670,7 +670,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Brain Bursta will cause the target to take a X unique penalty to toughness for 20 seconds. Duration and tick interval of Bunch o Waagh is reduced by 50%.",
+      "description": "Brain Bursta will cause the target to take a 240 penalty to toughness for 20 seconds. Duration and tick interval of Bunch o Waagh is reduced by 50%.",
       "category": "CareerTactic"
     },
 
@@ -686,7 +686,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
-      "description": "Deals X elemental damage to your target, and heals your defensive target for Y plus 150% of the damage done. This ability has innate 20% strikethrough.",
+      "description": "Deals 277 elemental damage to your target, and heals your defensive target for Y plus 150% of the damage done. This ability has innate 20% strikethrough.",
       "category": "Ability"
     },
 
@@ -702,7 +702,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Gork's Waaagh! increases effectiveness. ",
-      "description": "You deal X elemental damage to your target over 15 seconds.",
+      "description": "You deal 710 elemental damage to your target over 15 seconds.",
       "category": "Ability"
     },
 
@@ -766,7 +766,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All groupmates within 100 feet gain a X ability bonus to all resiatnces for 1 hour.",
+      "description": "All groupmates within 100 feet gain a 157 ability bonus to all resiatnces for 1 hour.",
       "category": "Ability"
     },
 
@@ -782,7 +782,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional X elemental damage as well.",
+      "description": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional 150 elemental damage as well.",
       "category": "CareerTactic"
     },
 
@@ -814,7 +814,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you heal an ally with a Path of Mork ability, there is a 25% chance that another ally within 30 feet of them will also gain X health as well.",
+      "description": "Any time you heal an ally with a Path of Mork ability, there is a 25% chance that another ally within 30 feet of them will also gain 171 health as well.",
       "category": "CareerTactic"
     },
 
@@ -878,7 +878,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "A cone of energy strikes enemies in front of you, up to 40 feet away, dealing X elemental damage and causing them to take a Y ability penalty to Elemental Resistance for 20 seconds.",
+      "description": "A cone of energy strikes enemies in front of you, up to 40 feet away, dealing 338 elemental damage and causing them to take a 216 ability penalty to Elemental Resistance for 20 seconds.",
       "category": "Ability"
     },
 
@@ -894,7 +894,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. Increases the value of healing effects on the target by 25% while active. If the allies health is reduced below 20%, this effect will immediately dispel itself to restore X health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
+      "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. Increases the value of healing effects on the target by 25% while active. If the allies health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
       "category": "Ability"
     },
 
@@ -942,7 +942,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "For 10 seconds, all enemies within 20 feet of a spot that you select take a X ability penalty for elemental resistance, and reducing their run speed by 60%.",
+      "description": "For 10 seconds, all enemies within 20 feet of a spot that you select take a 236 ability penalty for elemental resistance, and reducing their run speed by 60%.",
       "category": "Ability"
     },
 
@@ -1038,7 +1038,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Steals X ability bonus to Intelligence from your target while dealing Y elemental damage over 15 seconds.",
+      "description": "Steals 75 Intelligence from your target while dealing 730 elemental damage over 15 seconds.",
       "category": "Ability"
     },
 
@@ -1070,7 +1070,7 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "Deals X elemental damage and silences your target, making them unable to use magic for 5 seconds.",
+      "description": "Deals 284 elemental damage and silences your target, making them unable to use magic for 5 seconds.",
       "category": "Ability"
     },
 
@@ -1118,7 +1118,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your target and all other enemies within 20 feet of them have thake a (rank * 3) ability penalty to Toughness for 20 seconds.",
+      "description": "Your target and all other enemies within 20 feet of them have thake a 75 penalty to Toughness for 20 seconds.",
       "category": "Ability"
     },
 
