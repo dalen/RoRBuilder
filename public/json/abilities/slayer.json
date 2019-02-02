@@ -476,7 +476,7 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "You unleash a powerful blow, dealing 291 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
@@ -1420,7 +1420,7 @@
       "cost": "Costs 20 AP",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon<br>Requires 13 points in Path of The Giantslayer",
       "description": "A shattering strike which deals 261 damage to the target. If the target has any Blessings or Enchantments, this attack will then dispel up to 3 of them, dealing 64 damage for each one.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
