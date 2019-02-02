@@ -1589,7 +1589,7 @@
     {
       "image": "22703",
       "id": 6105,
-      "name": "Penetrating Sip",
+      "name": "Increased Conductivity",
       "type": "Buff",
       "spec": "Path of Asuryan",
       "minrank": "1",
@@ -1598,7 +1598,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces the duration and tick interval of Searing Touch by 50%.",
+      "description": "Your Path of Asuryan attacks have a 15% reduced chance to be defended against.",
       "category": "CareerTactic"
     }
   ]
