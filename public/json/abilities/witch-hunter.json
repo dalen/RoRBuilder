@@ -781,7 +781,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A precise incision that deals 76 damage, and an additional 216 damage over 9 seconds. This effect can be stacked up to 3 times.",
+      "description": "A precise incision that deals X damage, and an additional Y Spiritual damage over 9 seconds. This effect can be stacked up to 3 times.",
       "category": "Ability"
     },
 
@@ -1632,7 +1632,7 @@
       "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
       "category": "CareerTactic"
     },
-    
+
     {
       "image": "WH_M2_WitchfindersJudgement",
       "id": 6104,
@@ -1648,7 +1648,7 @@
       "description": "You judge your group and find them worthy. Morale gain is doubled for 15 seconds.",
       "category": "Morale"
     },
-    
+
     {
       "image": "22708",
       "id": 6103,

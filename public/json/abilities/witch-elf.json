@@ -638,7 +638,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "You stab your enemy with a poisoned blade, dealing 125 damage. The victim becomes wracked with pains, suffering an additional 528 damage over 9 seconds. This effect will stack with itself up to three times.",
+      "description": "You stab your enemy with a poisoned blade, dealing X damage. The victim becomes wracked with pains, suffering an additional Y Corporeal damage over 9 seconds. This effect will stack with itself up to three times.",
       "category": "Ability"
     },
 
