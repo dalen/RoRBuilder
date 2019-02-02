@@ -6,11 +6,11 @@
         "primary": "A mastery path focused on long range bow combat"
       },
       "optionalAbilities": {
-        "lvl1": 5520,
+        "lvl1": 5524,
         "lvl2": 5521,
-        "lvl3": 5522,
+        "lvl3": 95520,
         "lvl4": 5523,
-        "lvl5": 5524,
+        "lvl5": 5520,
         "lvl6": 5525,
         "lvl7": 5526
       },
@@ -75,7 +75,23 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Plink now builds up 1 seconds faster, but the cost is increased by 13 Action Points.",
+      "description": "Plink and Poison Arrer now builds up 1 seconds faster.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "22704",
+      "id": 95520,
+      "name": "Extra Toxic Coating",
+      "type": "Buff",
+      "spec": "Path of Big Shootin'",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Explodin' Arrer and Poison Arrer will now bypass all of your victim's resistances.",
       "category": "CareerTactic"
     },
 
@@ -612,8 +628,8 @@
       "id": 5522,
       "name": "I Feelz Yer Pain",
       "type": "Buff",
-      "spec": "Path of Big Shootin'",
-      "minrank": "1",
+      "spec": "Core Ability",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
