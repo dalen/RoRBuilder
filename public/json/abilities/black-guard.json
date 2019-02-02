@@ -12,7 +12,7 @@
         "lvl4": 910,
         "lvl5": 913,
         "lvl6": 914,
-        "lvl7": 6101
+        "lvl7": 915
       },
       "coreAbilities": [863, 870, 876, 874, 865, 915]
     },
@@ -24,10 +24,10 @@
       "optionalAbilities": {
         "lvl1": 916,
         "lvl2": 917,
-        "lvl3": 918,
-        "lvl4": 919,
-        "lvl5": 920,
-        "lvl6": 921,
+        "lvl3": 920,
+        "lvl4": 921,
+        "lvl5": 9920,
+        "lvl6": 919,
         "lvl7": 922
       },
       "coreAbilities": [877, 986, 866, 881, 883]
@@ -311,7 +311,7 @@
       "id": 915,
       "name": "Blast of Hatred",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of Malice",
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
@@ -935,8 +935,8 @@
       "id": 918,
       "name": "Feeding On Pain",
       "type": "Defensive",
-      "spec": "Path of Loathing",
-      "minrank": "1",
+      "spec": "Core Ability",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
@@ -1038,7 +1038,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires 9 points in Path of Fury",
-      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds your Armor is increased by 618 and you will become less likely to be Critically hit depending on your Hatred. <br> With 30 Hate: 15% less likely to be Critically hit. <br> With 60 Hate: 30% less likely to be Critically hit.<br> With 90 Hate: 45% less likely to be Critically hit.",
+      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds your Armor is increased by 618 and you will become less likely to be Critically hit and reduce incoming damage depending on your Hatred. <br> With 30 Hate: 15% less likely to be Critically hit and 2% reduced incoming damage. <br> With 60 Hate: 30% less likely to be Critically hit and 4% reduced incoming damage.<br> With 90 Hate: 45% less likely to be Critically hit and 6% reduced incoming damage.",
       "category": "Ability"
     },
 
@@ -2035,19 +2035,19 @@
     },
 
     {
-      "image": "11019",
-      "id": 6101,
-      "name": "Rebounding Hatred",
-      "type": "Buff",
-      "spec": "Path of Malice",
+      "image": "22704",
+      "id": 9920,
+      "name": "Shielded by Hate",
+      "type": "Defensive",
+      "spec": "Path of Loathing",
       "minrank": "1",
-      "cost": "Costs 20 AP/Sec",
+      "cost": "Tactic",
       "range": "No range",
-      "incant": "20s Cast",
+      "incant": "Passive",
       "cooldown": "No cooldown",
-      "note": "Requires Great Weapon",
-      "description": "You focus on your Glaive with great vitriol, forming a veil of Hatred between you and your opponent. Your chance to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back 130 damage.",
-      "category": "Ability"
+      "note": "",
+      "description": "Your chance to Block is increased by 1% per 10 Hatred.",
+      "category": "CareerTactic"
     }
   ]
 }
