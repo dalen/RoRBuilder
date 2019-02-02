@@ -7,11 +7,11 @@
         "secondary": "Bow counts 100% of its dps to abilities, sword counts 45%."
       },
       "optionalAbilities": {
-        "lvl1": 3971,
+        "lvl1": 3975,
         "lvl2": 3972,
-        "lvl3": 3975,
+        "lvl3": 3973,
         "lvl4": 3974,
-        "lvl5": 3973,
+        "lvl5": 3971,
         "lvl6": 3976,
         "lvl7": 3977
       },
@@ -337,7 +337,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All attacks in the Path of the Scout will now inflict corporeal damage, and Acid Arrow will now cause your target to take a (X * rank) ability penalty to corporeal resistance",
+      "description": "Flame Arrow and Festering Arrow will now bypass all of your victim's resistances.",
       "category": "CareerTactic"
     },
 
