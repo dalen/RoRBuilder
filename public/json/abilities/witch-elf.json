@@ -1614,7 +1614,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "A brutal attack that deals 868 Spirit damage to your target over 21 seconds. If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 75 for 21 seconds.",
+      "description": "A brutal attack that deals 868 Corporeal damage to your target over 21 seconds. If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 75 for 21 seconds.",
       "category": "Ability"
     },
 
@@ -1664,6 +1664,5 @@
       "description": "Moral gain is doubled for 15s.",
       "category": "Morale"
     }
-
   ]
 }
