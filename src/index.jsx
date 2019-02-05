@@ -6,6 +6,9 @@ import promise from 'redux-promise';
 import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 import './css/entry.css';
 
+// For IE11
+import 'react-app-polyfill/ie11';
+
 // For Google Analytics
 import 'autotrack';
 
