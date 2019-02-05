@@ -34,7 +34,7 @@
   "license": "MIT",
   "dependencies": {
     "autotrack": "0.6.5",
-    "axios": "0.17.1",
+    "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "lodash": "^4.17.11",
     "query-string": "^5.1.0",
