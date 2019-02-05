@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import css from '../css/components/PathMeter.module.css';
+import '../css/components/PathMeter.module.css';
 
 import PathMeter from '../components/PathMeter';
 import PathButtons from '../components/PathButtons';
