@@ -26,15 +26,16 @@ class CareerItem extends Component {
   }
 
   render() {
-    const url = `/career/${this.props.career.slug}`;
-    const imgUrl = `/images/icons/${this.props.career.slug}.png`;
+    const { career } = this.props;
+    const url = `/career/${career.slug}`;
+    const imgUrl = `/images/icons/${career.slug}.png`;
     return (
       <div className={css.item}>
         <Link to={url} onClick={this.clickItem}>
-          <img src={imgUrl} className={css.icon} />
+          <img alt={career.name} src={imgUrl} className={css.icon} />
         </Link>
         <Link className={css.link} to={url} onClick={this.clickItem}>
-          {this.props.career.name}
+          {career.name}
         </Link>
       </div>
     );

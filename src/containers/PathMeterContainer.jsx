@@ -20,6 +20,7 @@ class PathButtonsContainer extends Component {
 
   setPoints(pathPoints) {
     // Set path and current points depending on which path
+    // eslint-disable-next-line
     switch (this.props.path) {
       case 'a':
         this.props.setPathMeterA(pathPoints);
@@ -62,6 +63,7 @@ class PathButtonsContainer extends Component {
 
   addPoint() {
     // Set path points depending on which path
+    // eslint-disable-next-line
     switch (this.props.path) {
       case 'a':
         this.props.setPathMeterA(this.props.pathMeterA + 1);
@@ -79,6 +81,7 @@ class PathButtonsContainer extends Component {
 
   removePoint() {
     // Set path points depending on which path
+    // eslint-disable-next-line
     switch (this.props.path) {
       case 'a':
         this.props.setPathMeterA(this.props.pathMeterA - 1);
@@ -97,6 +100,7 @@ class PathButtonsContainer extends Component {
   render() {
     let pathPoints = 0;
     // Set path points depending on which path
+    // eslint-disable-next-line
     switch (this.props.path) {
       case 'a':
         pathPoints = this.props.pathMeterA;

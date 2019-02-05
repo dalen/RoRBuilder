@@ -14,7 +14,7 @@ class ModalShare extends Component {
     return (
       <Modal>
         <div className="row row--v-center">
-          <img src={url} className={css.modalTitleIcon} />
+          <img alt={careerName} src={url} className={css.modalTitleIcon} />
           <h2 className={css.modalTitle}>Share this{careerName} build</h2>
         </div>
         <div>

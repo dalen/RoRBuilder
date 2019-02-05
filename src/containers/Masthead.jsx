@@ -102,7 +102,7 @@ class Masthead extends Component {
           </div>
           <a
             className={mastheadFooterClass}
-            href="#"
+            href="/"
             onClick={this.clickMasthead}
           >
             Hide careers
@@ -114,6 +114,7 @@ class Masthead extends Component {
                 <div className={css.careersRace}>
                   <div className="row row--v-center marginBottom">
                     <img
+                      alt="Dwarf"
                       src="/images/icons/dwarf.png"
                       className={css.careersRaceIcon}
                     />
@@ -126,6 +127,7 @@ class Masthead extends Component {
                 <div className={css.careersRace}>
                   <div className="row row--v-center marginBottom">
                     <img
+                      alt="High Elf"
                       src="/images/icons/high-elf.png"
                       className={css.careersRaceIcon}
                     />
@@ -138,6 +140,7 @@ class Masthead extends Component {
                 <div className={css.careersRace}>
                   <div className="row row--v-center marginBottom">
                     <img
+                      alt="Empire"
                       src="/images/icons/empire.png"
                       className={css.careersRaceIcon}
                     />
@@ -155,6 +158,7 @@ class Masthead extends Component {
                 <div className={css.careersRace}>
                   <div className="row row--v-center marginBottom">
                     <img
+                      alt="Greenskin"
                       src="/images/icons/greenskin.png"
                       className={css.careersRaceIcon}
                     />
@@ -167,6 +171,7 @@ class Masthead extends Component {
                 <div className={css.careersRace}>
                   <div className="row row--v-center marginBottom">
                     <img
+                      alt="Dark Elf"
                       src="/images/icons/dark-elf.png"
                       className={css.careersRaceIcon}
                     />
@@ -179,6 +184,7 @@ class Masthead extends Component {
                 <div className={css.careersRace}>
                   <div className="row row--v-center marginBottom">
                     <img
+                      alt="Chaos"
                       src="/images/icons/chaos.png"
                       className={css.careersRaceIcon}
                     />

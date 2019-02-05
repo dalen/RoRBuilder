@@ -49,6 +49,7 @@ class AbilityMastery extends Component {
   processAbility(props) {
     // Create single variable for current ability's group
     let abilities = [];
+    // eslint-disable-next-line
     switch (props.data.abilityType) {
       case 'standard':
         abilities = props.masteryAbilities;
@@ -111,6 +112,7 @@ class AbilityMastery extends Component {
       if (this.state.status) {
         if (Number(this.props.currentPoints) > 0) {
           // Add this ability to relevant mastery array
+          // eslint-disable-next-line
           switch (this.props.data.abilityType) {
             case 'standard':
               this.props.addMasteryAbility(
@@ -147,6 +149,7 @@ class AbilityMastery extends Component {
             // Set current points
             this.props.setCurrentPoints(masteryDifference);
             // Set path points depending on which path
+            // eslint-disable-next-line
             switch (this.props.path) {
               case 'a':
                 this.props.setPathMeterA(this.props.meterRequirement);
@@ -168,6 +171,7 @@ class AbilityMastery extends Component {
       // Unselect ability
     } else {
       // Remove this ability from relevant mastery array
+      // eslint-disable-next-line
       switch (this.props.data.abilityType) {
         case 'standard':
           this.props.removeMasteryAbility(
@@ -228,6 +232,7 @@ class AbilityMastery extends Component {
           selected: false,
         });
         // Remove this ability from relevant mastery array
+        // eslint-disable-next-line
         switch (nextProps.data.abilityType) {
           case 'standard':
             nextProps.removeMasteryAbility(

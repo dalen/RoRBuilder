@@ -12,7 +12,7 @@ const renderNote = note => {
 
 const PopoverAbility = props => (
   <div>
-    <img src={props.imgSrc} className={css.image} />
+    <img alt={props.data.name} src={props.imgSrc} className={css.image} />
     <div className={css.rowLarge}>
       <p className={css.itemTitle}>{props.data.name}</p>
       <p className={css.itemTitleRight}>{props.data.type}</p>
