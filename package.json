@@ -33,7 +33,7 @@
   "author": "Matt Richards",
   "license": "MIT",
   "dependencies": {
-    "autotrack": "0.6.5",
+    "autotrack": "^2.4.1",
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "lodash": "^4.17.11",
