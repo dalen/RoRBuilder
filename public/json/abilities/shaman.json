@@ -26,7 +26,7 @@
         "lvl2": 5319,
         "lvl3": 5320,
         "lvl4": 5321,
-        "lvl5": 5322,
+        "lvl5": 2749,
         "lvl6": 5323,
         "lvl7": 5324
       },
@@ -62,7 +62,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 40% more effective when the target is below 25% hit points.",
+      "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Shrug it Off will make its target 25% more receptive to incoming heals.",
       "category": "CareerTactic"
     },
 
@@ -90,7 +90,7 @@
       "spec": "Path of Gork",
       "minrank": "35",
       "cost": "Costs 35 AP",
-      "range": "65ft range",
+      "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
@@ -659,9 +659,9 @@
     },
 
     {
-      "image": "22704",
-      "id": 5322,
-      "name": "Hurts, Don't It?",
+      "image": "22696",
+      "id": 2749,
+      "name": "Touch of Gork",
       "type": "Damaging",
       "spec": "Path of Gork",
       "minrank": "1",
@@ -670,7 +670,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Brain Bursta will cause the target to take a 240 penalty to toughness for 20 seconds.",
+      "description": "Brain Bursta will cause the target to take a 240 penalty to toughness for 20 seconds and reduces the duration and tick interval of Bunch o' Waaagh by 50%. Gorks power however will reduce the effectiveness of your healing abilities by 20% and increases the cooldown of Bunch o' Waaagh by 50%.",
       "category": "CareerTactic"
     },
 
@@ -894,7 +894,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. Increases the value of healing effects on the target by 25% while active. If the allies health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
+      "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. If the allies health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
       "category": "Ability"
     },
 
