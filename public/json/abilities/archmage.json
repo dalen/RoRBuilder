@@ -26,7 +26,7 @@
         "lvl2": 3462,
         "lvl3": 3463,
         "lvl4": 3464,
-        "lvl5": 6105,
+        "lvl5": 2748,
         "lvl6": 3466,
         "lvl7": 3467
       },
@@ -510,7 +510,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 40% more effective when the target is below 25% hit points.",
+      "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Magical Infusion will make its target 35% more receptive to incoming heals.",
       "category": "CareerTactic"
     },
 
@@ -842,7 +842,7 @@
       "spec": "Path of Asuryan",
       "minrank": "35",
       "cost": "Costs 35 AP",
-      "range": "65ft range",
+      "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
@@ -1070,7 +1070,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. As long as this effect persists, the value of incoming heals on the target is increased by 25%.<br><br>A player may only be affected by a single Magical Infusion at a time.",
+      "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Magical Infusion at a time.",
       "category": "Ability"
     },
 
@@ -1587,9 +1587,9 @@
     },
 
     {
-      "image": "22703",
-      "id": 6105,
-      "name": "Increased Conductivity",
+      "image": "22696",
+      "id": 2748,
+      "name": "Khaine's Touch",
       "type": "Buff",
       "spec": "Path of Asuryan",
       "minrank": "1",
@@ -1598,7 +1598,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Path of Asuryan attacks have a 15% reduced chance to be defended against.",
+      "description": "Reduces the duration and tick interval of Searing Touch by 50%. Khaine's price however will reduce the effectiveness of your healing abilities by 20% and increase the cooldown of Searing Touch by 50%.",
       "category": "CareerTactic"
     }
   ]
