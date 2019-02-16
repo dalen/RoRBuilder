@@ -12,48 +12,13 @@
     <base href="/" />
 
     <script>
-      window.ga =
-        window.ga ||
-        function() {
-          (ga.q = ga.q || []).push(arguments);
-        };
-      ga.l = +new Date();
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', '%REACT_APP_GOOGLE_ID%', 'auto');
-      ga('require', 'autotrack', {
-        mediaQueryDefinitions: [
-          {
-            name: 'Breakpoint',
-            dimensionIndex: 1,
-            items: [
-              { name: 'xs', media: 'all' },
-              { name: 'mobile', media: '(max-width: 480px)' },
-              { name: 'sm', media: '(min-width: 768px)' },
-              { name: 'md', media: '(min-width: 992px)' },
-              { name: 'lg', media: '(min-width: 1200px)' },
-            ],
-          },
-          {
-            name: 'Resolution',
-            dimensionIndex: 2,
-            items: [
-              { name: '1x', media: 'all' },
-              { name: '1.5x', media: '(min-resolution: 144dpi)' },
-              { name: '2x', media: '(min-resolution: 192dpi)' },
-            ],
-          },
-          {
-            name: 'Orientation',
-            dimensionIndex: 3,
-            items: [
-              { name: 'landscape', media: '(orientation: landscape)' },
-              { name: 'portrait', media: '(orientation: portrait)' },
-            ],
-          },
-        ],
-      });
+      ga('require', 'urlChangeTracker');
       ga('send', 'pageview');
     </script>
     <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script async src="../node_modules/autotrack/autotrack.js"></script>
   </head>
   <body>
     <noscript>
