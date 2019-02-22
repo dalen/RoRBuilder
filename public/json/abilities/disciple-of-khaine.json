@@ -371,22 +371,6 @@
     },
 
     {
-      "image": "23404",
-      "id": 5020,
-      "name": "Cleanse War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Only usable on Siege Engines",
-      "description": "Siege Targetted cleanse. Removes two siege specific debuffs from a friendly siege engine.",
-      "category": "Ability"
-    },
-
-    {
       "image": "10939",
       "id": 5054,
       "name": "Cleave Soul",
@@ -1219,22 +1203,6 @@
     },
 
     {
-      "image": "23414",
-      "id": 5019,
-      "name": "Reinforce War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You heal the ram for 750 health over the next 5 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "10941",
       "id": 4962,
       "name": "Rend Soul",
@@ -1311,22 +1279,6 @@
       "cooldown": "5.0s cooldown",
       "note": "Builds 30 Soul Essence<br>Requires 5 points in Path of Torture",
       "description": "A slice aimed at fresh wounds which deals 177 damage. If the enemy was Crippled, then they are further Crippled and take an additional 185 damage over 15 seconds.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "23415",
-      "id": 5021,
-      "name": "Shield the Skies",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "",
-      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 40 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
 

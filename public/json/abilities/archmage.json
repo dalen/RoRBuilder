@@ -403,22 +403,6 @@
     },
 
     {
-      "image": "23404",
-      "id": 3476,
-      "name": "Cleanse War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "3.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "Only usable on Siege Engines",
-      "description": "Siege Targetted cleanse. Removes two siege specific debuffs from a friendly siege engine.",
-      "category": "Ability"
-    },
-
-    {
       "image": "13362",
       "id": 3462,
       "name": "Cleansing Flare",
@@ -1251,22 +1235,6 @@
     },
 
     {
-      "image": "23414",
-      "id": 3475,
-      "name": "Reinforce War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "10ft range",
-      "incant": "3.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You heal the ram for 750 health over the next 5 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "22694",
       "id": 3444,
       "name": "Restorative Burst",
@@ -1343,22 +1311,6 @@
       "cooldown": "20.0s cooldown",
       "note": "Force increases effectiveness. <br>Builds Tranquility",
       "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to 925 damage.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "23415",
-      "id": 3477,
-      "name": "Shield the Skies",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "15.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "",
-      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 40 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
 
