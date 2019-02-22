@@ -1728,6 +1728,22 @@
       "note": "Requires Great Weapon",
       "description": "Sigmar's Wrath rises within you, your attacks will ignore 25% of the victim's armor for the next 20 seconds.",
       "category": "Ability"
+    },
+
+    {
+      "image": "08066",
+      "id": 2960,
+      "name": "Unstoppable Wrath",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "18",
+      "cost": "Costs 45 AP",
+      "range": "Self",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "Requires Great Weapon",
+      "description": "You wrath removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
+      "category": "Ability"
     }
   ]
 }
