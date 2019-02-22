@@ -110,7 +110,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a 160 unique bonu to Strength",
+      "description": "Grants a 160 unique bonus to Strength",
       "category": "CareerTactic"
     },
 
@@ -147,12 +147,12 @@
     },
 
     {
-      "image": "22701",
-      "id": 5196,
-      "name": "Brute Force",
+      "image": "22702",
+      "id": 522,
+      "name": "Close Combat",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "32",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
