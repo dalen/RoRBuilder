@@ -167,6 +167,22 @@
 
     {
       "image": "22701",
+      "id": 9198,
+      "name": "Pack Synergy",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "15",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "22701",
       "id": 4264,
       "name": "Brute Force",
       "type": "Buff",
