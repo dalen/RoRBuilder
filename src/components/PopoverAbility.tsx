@@ -5,9 +5,7 @@ import { Ability } from '../helpers/abilities';
 
 const renderNote = (note: string) => {
   if (note) {
-    return (
-      <p className={css.note} dangerouslySetInnerHTML={{ __html: note }} />
-    );
+    return <p className={css.note}>{note}</p>;
   }
   return false;
 };
@@ -28,7 +26,10 @@ const PopoverAbility = ({
     <div className={css.divider} />
     <div className={css.row}>
       <p className={css.item}>{data.spec}</p>
-      <p className={css.itemRight}>Level {data.minrank}</p>
+      <p className={css.itemRight}>
+        Level&nbsp;
+        {data.minrank}
+      </p>
     </div>
     <div className={css.row}>
       <p className={css.item}>{data.cost}</p>

@@ -1,6 +1,6 @@
 // Calculate mastery points available based on char level and renown level
 // eslint-disable-next-line import/prefer-default-export
-export function calculateMasteryPoints(level, renown) {
+export function calculateMasteryPoints(level: number, renown: number) {
   let points = 0;
   if (level > 10) {
     if (level > 20) {

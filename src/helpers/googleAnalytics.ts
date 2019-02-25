@@ -1,10 +1,8 @@
-/* global ga */
-
 export function gaEvent(
-  category = false,
-  action = false,
-  label = false,
-  value = false,
+  category: string | false = false,
+  action: string | false = false,
+  label: string | false = false,
+  value: string | false = false,
 ) {
   // Sending to Google Analytics
   // console.log('Sending GA Event', { 'category': category, 'action': action, 'label': label, 'value': value });
@@ -17,12 +15,16 @@ export function gaEvent(
   });
 }
 
-export function gaChangeCareer(changeType) {
+export const gaChangeCareer = (changeType: string) => {
   gaEvent('Career changed', changeType);
-}
+};
 
-export function gaCareerSelected(name, careerClass, race) {
+export const gaCareerSelected = (
+  name: string,
+  careerClass: string,
+  race: string,
+) => {
   gaEvent('Career selected', name);
   gaEvent('Class selected', careerClass);
   gaEvent('Race selected', race);
-}
+};
