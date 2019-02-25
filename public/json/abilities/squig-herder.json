@@ -111,6 +111,22 @@
     },
 
     {
+      "image": "22707",
+      "id": 2996,
+      "name": "Territorial Aggression",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "31",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Battle Squig will not tolerate you having any other Squigs around. Your armor is increased by the amount of armor you have from itemr. Your ranged abilities will do less damage but your melee attacks will do 25% more damage and Squig Leap will have no cooldown.",
+      "category": "CareerTactic"
+    },
+
+    {
       "image": "02626",
       "id": 5480,
       "name": "Ard Noggin",
