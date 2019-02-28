@@ -611,22 +611,6 @@
     },
 
     {
-      "image": "23408",
-      "id": 4096,
-      "name": "Faultfinder",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "3.0s cast",
-      "cooldown": "30.0s cooldown",
-      "note": "",
-      "description": "Increases friendly ram damage by 2% for the next 10 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "22725",
       "id": 4114,
       "name": "Favour of the Gods",
@@ -1312,22 +1296,6 @@
       "note": "",
       "description": "While you are in the Berserk state, all of your cooldowns are reduced by 5 seconds.",
       "category": "CareerTactic"
-    },
-
-    {
-      "image": "23416",
-      "id": 4095,
-      "name": "Siege Wrecker",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You sabotage a siege ram, causing the ram to deal 98% of the original damage for the next 10 seconds.",
-      "category": "Ability"
     },
 
     {
