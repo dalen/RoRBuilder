@@ -5,7 +5,9 @@ import { Ability } from '../helpers/abilities';
 
 const renderNote = (note: string) => {
   if (note) {
-    return <p className={css.note}>{note}</p>;
+    return (
+      <p className={css.note} dangerouslySetInnerHTML={{ __html: note }} />
+    );
   }
   return false;
 };
