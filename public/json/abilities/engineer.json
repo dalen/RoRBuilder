@@ -1229,7 +1229,7 @@
       "range": "80ft range",
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires 9 points in Path of The Grenadier",
+      "note": "",
       "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing X Corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer Y Corporeal damage over 10 seconds as the shells burst into flame.",
       "category": "Ability"
     },
@@ -1453,7 +1453,7 @@
       "range": "150ft range",
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires 9 points in Path of The Rifleman",
+      "note": "",
       "description": "A slow but powerful gun shot which deals X damage to your enemy and can not be defended against.",
       "category": "Ability"
     },

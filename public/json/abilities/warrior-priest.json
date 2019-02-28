@@ -1373,7 +1373,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Builds 25 Righteous Fury<br>Requires 9 points in Path of Grace",
+      "note": "Builds 25 Righteous Fury",
       "description": "You smash your weapon into your enemy, dealing 239 damage to them. Your defensive target becomes Blessed for up to 20 seconds, and will regain 150 health each time they're attacked. You will lose 15 Righteous Fury every second, and the effect will end if you run out of Righteous Fury to power it with.",
       "category": "Ability"
     },
@@ -1389,7 +1389,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 30 Righteous Fury<br>Requires 5 points in Path of Grace",
+      "note": "Builds 30 Righteous Fury",
       "description": "Deals 177 damage to your enemy and Blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.",
       "category": "Ability"
     },
@@ -1469,7 +1469,7 @@
       "range": "No range",
       "incant": "1.0s cast",
       "cooldown": "4.0s cooldown",
-      "note": "Builds 35 Righteous Fury<br>Requires 5 points in Path of Wrath",
+      "note": "Builds 35 Righteous Fury",
       "description": "Deals 555 Spirit damage over 9 seconds to all enemies within 30 feet.",
       "category": "Ability"
     },

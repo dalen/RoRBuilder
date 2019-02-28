@@ -573,7 +573,7 @@
       "range": "150ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires 25 Soul Essence per second<br>Requires 9 points in Path of Sacrifice",
+      "note": "Requires 25 Soul Essence per second",
       "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds. Each second, your ally will deal 101 damage to up to 4 enemies within 30 feet of them, and become healed for 50% of all the damage done. You will lose 25 Soul Essence each second, and this effect will end if you run out of Soul Essence to power it with.",
       "category": "Ability"
     },
@@ -749,7 +749,7 @@
       "range": "No range",
       "incant": "1.0s cast",
       "cooldown": "2.0s cooldown",
-      "note": "Builds 30 Soul Essence<br>Requires 9 points in Path of Torture",
+      "note": "Builds 30 Soul Essence",
       "description": "Cripples all targets within 30 feet of you for 584 damage over 24 seconds.",
       "category": "Ability"
     },
@@ -1005,7 +1005,7 @@
       "range": "No range",
       "incant": "3.0s cast",
       "cooldown": "13.0s cooldown",
-      "note": "Requires 20 Soul Essence per second<br>Requires 13 points in Path of Dark Rites",
+      "note": "Requires 20 Soul Essence per second",
       "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, all allies within 30 feet of you will regain 179 health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.",
       "category": "Ability"
     },
@@ -1021,7 +1021,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires 40 Soul Essence<br>Requires 9 points in Path of Dark Rites",
+      "note": "Requires 40 Soul Essence",
       "description": "All group mates within 100 feet of you gradually regains 567 health over 9 seconds.",
       "category": "Ability"
     },
@@ -1165,7 +1165,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 45 Soul Essence<br>Requires 13 points in Path of Sacrifice",
+      "note": "Builds 45 Soul Essence",
       "description": "A strike into your target's soul which deals 202 damage and causes them to lose 50 Action Points. You will gain additional Soul Essence for most of the action points that the enemy lost.",
       "category": "Ability"
     },
@@ -1277,7 +1277,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 30 Soul Essence<br>Requires 5 points in Path of Torture",
+      "note": "Builds 30 Soul Essence",
       "description": "A slice aimed at fresh wounds which deals 177 damage. If the enemy was Crippled, then they are further Crippled and take an additional 185 damage over 15 seconds.",
       "category": "Ability"
     },
@@ -1357,7 +1357,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
-      "note": "Requires 40 Soul Essence<br>Requires 5 points in Path of Dark Rites",
+      "note": "Requires 40 Soul Essence",
       "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to 775 damage for each person.",
       "category": "Ability"
     },
@@ -1549,7 +1549,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 30 Soul Essence<br>Requires 5 points in Path of Sacrifice",
+      "note": "Builds 30 Soul Essence",
       "description": "A cunning strike which deals 152 damage to your enemy and reduces their chance to parry by 10% for 15 seconds.",
       "category": "Ability"
     },
@@ -1565,7 +1565,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 30 Soul Essence<br>Requires 13 points in Path of Torture",
+      "note": "Builds 30 Soul Essence",
       "description": "A merciless attack which deals 127 damage to the target. If the target is below 50% hit points, instead inflicts 277 damage and will always critically hit.",
       "category": "Ability"
     },

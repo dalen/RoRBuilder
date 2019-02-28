@@ -109,7 +109,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
-      "note": "Costs 15 Grudge<br>Requires 5 points in Path of Vengeance",
+      "note": "Costs 15 Grudge",
       "description": "The memory of your ancestors bolsters your resolve, increasing Strength by 75 and chance to critically hit by 10% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
@@ -205,7 +205,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
-      "note": "Costs 20 Grudge<br>Requires 9 points in Path of Stone",
+      "note": "Costs 20 Grudge",
       "description": "A decisive final strike that deals 194 damage to your enemy. If the target dies immediately after being hit by this attack, then you will regain 285 health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
@@ -397,7 +397,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Improves with Grudge<br>Requires Great Weapon<br>Requires 9 points in Path of Vengeance",
+      "note": "Improves with Grudge<br>Requires Great Weapon",
       "description": "You smash into your enemy, knocking them down for 3seconds.<br><br> At 25 Grudges: Deals 170 damage over 5 seconds.<br> At 50 Grudges: Deals 295 damage over 5 seconds.<br> At 75 Grudges: Deals 420 damage over 5 seconds.<br> At 100 Grudges: Deals 545 damage over 5 seconds.",
       "category": "Ability"
     },
@@ -573,7 +573,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Improves with Grudge<br>Requires 9 points in Path of Brotherhood",
+      "note": "Improves with Grudge",
       "description": "The ground around you cracks and shatters and snares all enemies within 30 feet, reducing their run speed by 40% for 10 seconds.<br><br> At 25 Grudge: Deals 145 damage to each enemy hit by the effect.<br> At 50 Grudge: Deals 245 damage to each enemy hit by the effect.<br> At 75 Grudge: Deals 345 damage to each enemy hit by the effect.<br> At 100 Grudge: Deals 445 damage to each enemy hit by the effect.",
       "category": "Ability"
     },
@@ -749,7 +749,7 @@
       "range": "5ft range",
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
-      "note": "Improves with Grudge<br>Requires Great Weapon<br>Requires 13 points in Path of Vengeance",
+      "note": "Improves with Grudge<br>Requires Great Weapon",
       "description": "You constantly pummel your target with brutal attacks, dealing up to 520 damage over 3 seconds. Your attacks will end if you lose your concentration.<br><br> At 25 Grudge: Chance to Critically hit is increased by 5%.<br> At 50 Grudge: Chance to Critically hit is increased by 10%.<br> At 75 Grudge: Chance to Critically hit is increased by 15%.<br> At 100 Grudge: Chance to Critically hit is increased by 20%.",
       "category": "Ability"
     },
@@ -1069,7 +1069,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
-      "note": "Costs 15 Grudge<br>Requires 5 points in Path of Stone",
+      "note": "Costs 15 Grudge",
       "description": "Strengthens the ties between you and your Oath Friend, increasing Initiative by 50 and chance to parry by 25% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
@@ -1085,7 +1085,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Improves with Grudge<br>Requires Shield<br>Requires 13 points in Path of Stone",
+      "note": "Improves with Grudge<br>Requires Shield",
       "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal 100 damage back to the attacker each time you block.<br><br> With 25 Grudges: Deals 200 damage back to the attacker.<br> With 50 Grudges: Deals 300 damage back to the attacker.<br> With 75 Grudges: Deals 400 damage back to the attacker.<br> With 100 Grudges: Deals 500 damage back to the attacker.",
       "category": "Ability"
     },
@@ -1309,7 +1309,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Costs 30 Grudge<br>Requires 5 points in Path of Brotherhood",
+      "note": "Costs 30 Grudge",
       "description": "You invoke a powerful rune that you've learned, and become surrounded by a protective barrier for 10 seconds which will absorb up to 625 magical damage. Your Oath Friend will be affected as well if they're within 50 feet of you. During this time, you will gain 15 Grudges each time you're hit by an enemy spell.",
       "category": "Ability"
     },

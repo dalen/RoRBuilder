@@ -413,7 +413,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force<br>Requires 5 points in Path of Isha",
+      "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "Deals 205 Spirit damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
       "category": "Ability"
     },
@@ -557,7 +557,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20seconds cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force<br>Requires 13 points in Path of Asuryan",
+      "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds. Every 1 seconds, all enemies within 30 feet of them will suffer 146 Spirit damage.",
       "category": "Ability"
     },
@@ -669,7 +669,7 @@
       "range": "80ft range",
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force<br>Requires 13 points in Path of Vaul",
+      "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "A wash of power leeches the breath from your target and up to four other enemies within 25 feet of them, dealing 199 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 0 health, plus 50% of the total inflicted damage.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likley to be Blocked or Disrupted.",
       "category": "Ability"
     },
@@ -813,7 +813,7 @@
       "range": "150ft range",
       "incant": "3.0s cast",
       "cooldown": "13.0s cooldown",
-      "note": "Force increases effectiveness. <br>Builds Tranquility<br>Requires 13 points in Path of Isha",
+      "note": "Force increases effectiveness. <br>Builds Tranquility",
       "description": "You focus your powers on your defensive target, restoring up to 1256 health to them over 3 seconds. This effect will end if you break your concentration, or if you run out of action points.",
       "category": "Ability"
     },
@@ -1037,7 +1037,7 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force<br>Requires 9 points in Path of Vaul",
+      "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "Deals 284 Spirit damage and silences your target, making them unable to use magic for 5 seconds.",
       "category": "Ability"
     },
@@ -1101,7 +1101,7 @@
       "range": "100ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires 5 points in Path of Vaul",
+      "note": "",
       "description": "For 10 seconds, all enemies within 20 feet of a spot that you select will have their Initiative reduced by 50 and become snared, reducing their run speed by 60%.",
       "category": "Ability"
     },
@@ -1277,7 +1277,7 @@
       "range": "100ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Tranquility increases effectiveness. <br>Builds Force<br>Requires 9 points in Path of Asuryan",
+      "note": "Tranquility increases effectiveness. <br>Builds Force",
       "description": "Deals 552 Spirit damage to your target over 9 seconds, and causes all heals that they receive to become 50% less effective.",
       "category": "Ability"
     },
@@ -1389,7 +1389,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Builds Force<br>Requires 5 points in Path of Asuryan",
+      "note": "Builds Force",
       "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 338 Spirit damage and reducing their Spirit resistance by 236 for 20 seconds.",
       "category": "Ability"
     },

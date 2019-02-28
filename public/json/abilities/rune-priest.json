@@ -749,7 +749,7 @@
       "range": "80ft range",
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
-      "note": "You may only have 1 Master Rune active<br>Requires 5 points in Path of Grimnir",
+      "note": "You may only have 1 Master Rune active",
       "description": "Inscribes a Master rune into the ground for 30 seconds. Heals Groupmates within 100 feet of the Rune of Adamant for 146 health every 3 seconds while the Master rune is active.",
       "category": "Ability"
     },
@@ -765,7 +765,7 @@
       "range": "80ft range",
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
-      "note": "You may only have 1 Master Rune active<br>Requires 5 points in Path of Grungni",
+      "note": "You may only have 1 Master Rune active",
       "description": "Inscribes a Master rune into the ground for 30 seconds. Groupmates within the 100 feet of the Rune of Fury have a 20% chance to gain 50 AP whenever they activate an ability.",
       "category": "Ability"
     },
@@ -781,7 +781,7 @@
       "range": "80ft range",
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
-      "note": "You may only have 1 Master Rune active<br>Requires 5 points in Path of Valaya",
+      "note": "You may only have 1 Master Rune active",
       "description": "Inscribes a Master rune into the ground for 30 seconds. Groupmates within 100 feet of the Rune of Speed have their buildup times reduced by 0.25 seconds.",
       "category": "Ability"
     },

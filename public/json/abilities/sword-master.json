@@ -477,7 +477,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires 9 points in Path of Khaine",
+      "note": "Requires Perfect Balance<br>Leads to Normal Balance",
       "description": "You launch two powerful blows dealing a total of 350 Spirit damage and knocking your opponent down for 3 seconds.",
       "category": "Ability"
     },
@@ -493,7 +493,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Shield<br>Requires 9 points in Path of Vaul",
+      "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Shield",
       "description": "A calculated shield maneuver that inflicts 194 damage to all enemies within 15ft in front of you and interrupts any spells they are casting. Additionally, for the next 20 seconds, your block rate is increased by 5% and your armor will be increased by 990 points.",
       "category": "Ability"
     },
@@ -717,7 +717,7 @@
       "range": "5ft range",
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
-      "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Great Weapon<br>Requires 13 points in Path of Khaine",
+      "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Great Weapon",
       "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing 274 Spirit damage with each hit.",
       "category": "Ability"
     },
@@ -1261,7 +1261,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Leads to Improved Balance<br>Requires 9 points in Path of Hoeth",
+      "note": "Leads to Improved Balance",
       "description": "You call upon the magic in your blade to form a barrier to protect you and any groupmates within 50 feet of you, absorbing up to 825 damage for up to 5 seconds",
       "category": "Ability"
     },
@@ -1309,7 +1309,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Block<br>Requires 5 points in Path of Vaul",
+      "note": "Requires Block",
       "description": "Redirects the force of a blocked blow into a devastating attack dealing 231 damage and gknocking your target back a medium distance. This attack generates a large amount of additional hatw from monsters.",
       "category": "Ability"
     },
@@ -1341,7 +1341,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires 5 points in Path of Khaine",
+      "note": "Requires Improved Balance<br>Leads to Perfect Balance",
       "description": "A targeted strike that saps the energy from your target dealing 156 damage and reducing your opponent's AP by 10 every second for 5 seconds.",
       "category": "Ability"
     },
@@ -1581,7 +1581,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires 13 points in Path of Hoeth",
+      "note": "Requires Perfect Balance<br>Leads to Normal Balance",
       "description": "You release two swift blows that deal 153 Spirit damage each, interrupting any building attack and will Silence your target for 4 seconds. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
       "category": "Ability"
     },

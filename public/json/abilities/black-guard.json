@@ -301,7 +301,7 @@
       "range": "5 ft range",
       "incant": "Insta-Cast",
       "cooldown": "20s cooldown",
-      "note": "Requires Great Weapon<br>Requires 9 points in Path of Malice",
+      "note": "Requires Great Weapon",
       "description": "An overwhelming attack which deals 194 damage and knocks the victim down for 3 seconds.",
       "category": "Ability"
     },
@@ -333,7 +333,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
-      "note": "Costs 10 Hatred every 3 seconds.<br>Requires 13 points in Path of Anguish",
+      "note": "Costs 10 Hatred every 3 seconds.",
       "description": "You focus your Hatred inward, cursing yourself for your weakness, and force yourself to march on by recovering 290 health every 3 seconds for up to 30 seconds. This effect will end if you run out of Hate.",
       "category": "Ability"
     },
@@ -493,7 +493,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Costs 20 Hatred<br>Requires 5 points in Path of Anguish",
+      "note": "Costs 20 Hatred",
       "description": "A particularly insulting strike that deals 423 damage and causes your target to spend an additional 20 Action Points whenever they activate an ability for the next 10 seconds.",
       "category": "Ability"
     },
@@ -525,7 +525,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Costs 30 Hatred<br>Requires Great Weapon<br>Requires 13 points in Path of Malice",
+      "note": "Costs 30 Hatred<br>Requires Great Weapon",
       "description": "A great cleave that strikes all targets 40 feet in front of you for 523 damage and making them 10% more likely to be critically hit by others for 5 seconds.",
       "category": "Ability"
     },
@@ -861,7 +861,7 @@
       "range": "5ft range",
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
-      "note": "Requires 5 points in Path of Malice",
+      "note": "",
       "description": "A flurry of blows that inflicts 110 damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
       "category": "Ability"
     },
@@ -1037,7 +1037,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires 9 points in Path of Fury",
+      "note": "",
       "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds your Armor is increased by 618 and you will become less likely to be Critically hit and reduce incoming damage depending on your Hatred. <br> With 30 Hate: 15% less likely to be Critically hit and 2% reduced incoming damage. <br> With 60 Hate: 30% less likely to be Critically hit and 4% reduced incoming damage.<br> With 90 Hate: 45% less likely to be Critically hit and 6% reduced incoming damage.",
       "category": "Ability"
     },
@@ -1533,7 +1533,7 @@
       "range": "No range",
       "incant": "10.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Shield<br>Requires 5 points in Path of Loathing",
+      "note": "Requires Shield",
       "description": "You ready your blade and defiantly raise your shield to increase your Block rate by 50% for up to 10 seconds. Any time you block during this time you will lash out at your attacker for 126 damage and gain 5 Hatred.",
       "category": "Ability"
     },

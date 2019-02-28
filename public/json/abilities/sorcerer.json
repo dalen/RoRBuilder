@@ -77,7 +77,7 @@
       "range": "100ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!<br>Requires 13 points in Path of Calamity",
+      "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A Curse which siphons away your enemy's life, dealing 600 Corporeal damage over 15 seconds and healing you for all of the damage dealt.",
       "category": "Ability"
     },
@@ -285,7 +285,7 @@
       "range": "80ft range",
       "incant": "3.0s cast",
       "cooldown": "No cooldown",
-      "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!<br>Requires 5 points in Path of Destruction",
+      "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You create a maelstrom of evil power which deals 316 Corporeal damage to your target and all other enemies within 20 feet of them, and reduces their Initiative by 50 for 20 seconds.",
       "category": "Ability"
     },
@@ -557,7 +557,7 @@
       "range": "No range",
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
-      "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!<br>Requires 9 points in Path of Destruction",
+      "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You allow dark powers for flow freely through your body for up to 3 seconds, dealing 180 Spirit damage every second to all enemies within 30 feet. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
@@ -605,7 +605,7 @@
       "range": "100ft range",
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Only usable after an enemy Disrupts one of your spells<br>Builds 10 Dark Magic<br>Has a chance to cause a Backlash!<br>Requires 5 points in Path of Agony",
+      "note": "Only usable after an enemy Disrupts one of your spells<br>Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "An instant blast of magic that deals 291 Corporeal damage to your target and can not be defended against.",
       "category": "Ability"
     },
@@ -797,7 +797,7 @@
       "range": "80ft range",
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!<br>Requires 5 points in Path of Calamity",
+      "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A cloud of gloom clings to your target for 15 seconds, dealing 153 Spirit damage every 3 seconds to them and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
@@ -877,7 +877,7 @@
       "range": "100ft range",
       "incant": "6.0s cast",
       "cooldown": "11.0s cooldown",
-      "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!<br>Requires 9 points in Path of Calamity",
+      "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "Tendrils of dark energy burst forth from your hand and slice into your target for up to 6 seconds, dealing 343 Spirit damage every 2 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
@@ -989,7 +989,7 @@
       "range": "100ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 40 Dark Magic<br>Has a chance to cause a Backlash!<br>Requires 9 points in Path of Agony",
+      "note": "Builds 40 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You draw forth a huge amount of Dark Magic and slam your target with a powerful blast of force, dealing 341 Spirit damage.",
       "category": "Ability"
     },
@@ -1293,7 +1293,7 @@
       "range": "80ft range",
       "incant": "6.0s cast",
       "cooldown": "16.0s cooldown",
-      "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!<br>Requires 13 points in Path of Destruction",
+      "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You create a cloud of dark energy for up to 6 seconds, dealing 232 Corporeal damage to your target and all enemies within 20 feet of them every 2 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
@@ -1615,6 +1615,6 @@
       "note": "",
       "description": "Deals 1200 damage to all enemieswithin 30 feet.",
       "category": "Morale"
-    }    
+    }
   ]
 }

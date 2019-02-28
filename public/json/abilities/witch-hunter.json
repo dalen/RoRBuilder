@@ -413,7 +413,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent<br>Requires 13 points in Path of Judgment",
+      "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent",
       "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<br>  1 Accusation: 672 damage over time; 333 ending damage.<br>  2 Accusations: 858 damage over time; 432 ending damage.<br>  3 Accusations: 1047 damage over time; 524 ending damage.<br>  4 Accusations: 1233 damage over time; 619 ending damage.<br>  5 Accusations: 1422 damage over time; 715 ending damage.",
       "category": "Ability"
     },
@@ -620,7 +620,7 @@
       "range": "30ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent<br>Requires 13 points in Path of Inquisition",
+      "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<br>  1 Accusation: 252 damage; stats reduced by 50.<br>  2 Accusations: 318 damage; stats reduced by 75.<br>  3 Accusations: 386 damage; stats reduced by 100.<br>  4 Accusations: 452 damage; stats reduced by 125.<br>  5 Accusations: 518 damage; stats reduced by 150.",
       "category": "Ability"
     },
@@ -1100,7 +1100,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Pistol<br>Builds 1 Accusation<br>Target must be facing away from you<br>Requires 9 points in Path of Judgment",
+      "note": "Requires Pistol<br>Builds 1 Accusation<br>Target must be facing away from you",
       "description": "A quick backhand blow with the butt of your pistol that deals 277 damage and knocks your target down for 3 seconds.",
       "category": "Ability"
     },
@@ -1148,7 +1148,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 1 Accusation<br>Requires 9 points in Path of Inquisition",
+      "note": "Builds 1 Accusation",
       "description": "A precision blow that deals 202 damage, and causes a lingering wound which reduces the effectiveness of all healing by 50% for 10 seconds.",
       "category": "Ability"
     },
@@ -1196,7 +1196,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Builds 1 Accusation<br>Requires 9 points in Path of Confession",
+      "note": "Builds 1 Accusation",
       "description": "A melee attack that deals 277 damage. Your chance to parry attacks is increased by 100% for the next 5 seconds.",
       "category": "Ability"
     },

@@ -381,7 +381,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
-      "note": "May only use one Chaotic Aura at a time.<br>Requires 5 points in Path of Corruption",
+      "note": "May only use one Chaotic Aura at a time.",
       "description": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within 30 feet, causing their spells to build up 25% slower. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
       "category": "Ability"
     },
@@ -605,7 +605,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
-      "note": "May only use one Chaotic Aura at a time.<br>Requires 5 points in Path of Discord",
+      "note": "May only use one Chaotic Aura at a time.",
       "description": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within 30 feet to be 25% less effective. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
       "category": "Ability"
     },
@@ -701,7 +701,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
-      "note": "May only use one Chaotic Aura at a time.<br>Requires 5 points in Path of Dread",
+      "note": "May only use one Chaotic Aura at a time.",
       "description": "The power of the Warp encases you in a terrifying visage. All enemies within 30 feet will lose 20 Action Points every 5 seconds. All groupmates within 100 feet will regain 20 Action Points every 5 seconds. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
       "category": "Ability"
     },
@@ -1101,7 +1101,7 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Block or Parry<br>Requires 13 points in Path of Corruption",
+      "note": "Requires Block or Parry",
       "description": "A thunderous shield slam that inflicts 184 damage, increases your armor by 618 for 20 seconds and reduces your damage taken by 15% for 10 seconds.",
       "category": "Ability"
     },
@@ -1293,7 +1293,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Requires Great Weapon<br>Requires 13 points in Path of Dread",
+      "note": "Requires Great Weapon",
       "description": "Your Demonic blade overpowers your enemy's defense causing 134 Spirit damage to all enemies within 25 feet in front of you. This attack is undefendable.",
       "category": "Ability"
     },

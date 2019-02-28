@@ -125,7 +125,7 @@
       "range": "No range",
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
-      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!<br>Requires 5 points in Path of Conflagration",
+      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You concentrate on your magical powers for up to 3 seconds, opening your body to serve as a vessel for the raw power of the Red Wind. The unleashed power will deal 155 Corporeal damage each second to all enemies within 30 feet. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
@@ -189,7 +189,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!<br>Requires 13 points in Path of Conflagration",
+      "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing 710 Corporeal damage over 15 seconds to all enemies within 30 feet. The force of the blast will send enemy players flying away from you, while monsters will be knocked down.",
       "category": "Ability"
     },
@@ -765,7 +765,7 @@
       "range": "80ft range",
       "incant": "3.0s cast",
       "cooldown": "13.0s cooldown",
-      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!<br>Requires 13 points in Path of Incineration",
+      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals 333 Elemental damage to your target, and 167 Elemental damage to all other enemies within 20 feet of them. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
@@ -1117,7 +1117,7 @@
       "range": "100ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 40 Combustion<br>Has a chance to cause an Explosion!<br>Requires 9 points in Path of Incineration",
+      "note": "Builds 40 Combustion<br>Has a chance to cause an Explosion!",
       "description": "A powerful spell which makes your target spontaneously combust, dealing 341 Elemental damage to them.",
       "category": "Ability"
     },
@@ -1485,7 +1485,7 @@
       "range": "80ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Target must be Hexed<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!<br>Requires 9 points in Path of Conflagration",
+      "note": "Target must be Hexed<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "Deals 435 Elemental damage to your target over 15 seconds. Each time that this effect damages them, the flames will spread, causing 102 Elemental damage over 3 seconds to all other enemies within 20 feet of them.",
       "category": "Ability"
     },
@@ -1501,7 +1501,7 @@
       "range": "100ft range",
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Target must be Ignited<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!<br>Requires 13 points in Path of Immolation",
+      "note": "Target must be Ignited<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You grasp the power of your Ignite hex and cause it to explode with concussive force, dealing 241 Elemental damage to your target and knocking them down for 3 seconds, but extinguishing your Ignite.",
       "category": "Ability"
     },
@@ -1597,7 +1597,7 @@
       "range": "100ft range",
       "incant": "6.0s cast",
       "cooldown": "11.0s cooldown",
-      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!<br>Requires 9 points in Path of Immolation",
+      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You turn the air around your enemy into a grasping storm of burning flames for up to 6 seconds, dealing up to 1240 Corporeal damage and snaring them, reducing their run speed by 40%. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     }
