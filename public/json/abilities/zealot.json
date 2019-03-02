@@ -62,7 +62,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Overwhelms your opponent with power, inflicting X corporeal damage and Staggers the target for up to 6 seconds, preventing all actions unless they're damaged.",
+      "description": "Overwhelms your opponent with power, inflicting 284 corporeal damage and Staggers the target for up to 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
 
@@ -126,7 +126,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Drains X health from your target, funneling 150% of the amount drained into your defensive target.",
+      "description": "Drains 310 health from your target, funneling 150% of the amount drained into your defensive target.",
       "category": "Ability"
     },
 
@@ -190,7 +190,7 @@
       "incant": "6.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "",
-      "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing X corporeal damage every 2 seconds for up to 6 seconds.",
+      "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing 225 corporeal damage every 2 seconds for up to 6 seconds.",
       "category": "Ability"
     },
 
@@ -238,7 +238,7 @@
       "incant": "Instant Cast",
       "cooldown": "3m cooldown",
       "note": "",
-      "description": "Grants target a X ability bonus to wounds for 60 seconds and then heals the recipient for the amount increased.",
+      "description": "Increases the target's Wounds by 100 for 60 seconds and then heals the recipient for the amount increased.",
       "category": "Ability"
     },
 
@@ -254,7 +254,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your target regains X health immediately, and then restores an additional Y health over 5 seconds. This ability will continue to build up even if you move.",
+      "description": "Restores 258 health to an ally, and then restores an additional 315 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
 
@@ -270,7 +270,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Spews a vile mixture over everything 40 feet in front of you, dealing X corporeal damage over 9 seconds to all opponents.",
+      "description": "Spews a vile mixture over everything 40 feet in front of you, dealing 456 corporeal damage over 9 seconds to all opponents.",
       "category": "Ability"
     },
 
@@ -366,7 +366,7 @@
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All group members within 100 feet of you are healed for X.",
+      "description": "All group members within 100 feet of you are healed for 643.",
       "category": "Ability"
     },
 
@@ -382,7 +382,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Heals your target for X health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
+      "description": "Heals your target for 883 health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
       "category": "Ability"
     },
 
@@ -462,7 +462,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A burst of chaos that restores X health to an ally.",
+      "description": "A burst of chaos that restores 276 health to an ally.",
       "category": "Ability"
     },
 
@@ -558,7 +558,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A bolt of healing energy which instantly leaps to allies within 30 feet of the last affected, restoring X health over 9 seconds. This effect will only pass through each target once, and will affect up to 6 allies.",
+      "description": "A bolt of healing energy which instantly leaps to allies within 30 feet of the last affected, restoring 507 health over 9 seconds. This effect will only pass through each target once, and will affect up to 6 allies.",
       "category": "Ability"
     },
 
@@ -590,7 +590,7 @@
       "incant": "InstantCast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a groupmember a X ability bonus to Strength, Ballistic Skill, and Intelligence. The bearer of this Mark may also activate it like an ability to inflict X corporeal damage.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases a groupmember's Stregth, Ballistic Skill and Intelligence by 50. The bearer of this Mark may also activate it like an ability to inflict 234 corporeal damage.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
 
@@ -622,7 +622,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a groupmember a X ability bonus to Initiative and Willpower. The bearer of this Mark may activate it like an ability to inflict X corporeal damage over 9 seconds.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Grants a groupmember a 50 ability bonus to Initiative and Willpower. The bearer of this Mark may activate it like an ability to inflict 552 corporeal damage over 9 seconds.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
 
@@ -638,7 +638,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a groupmember a X ability bonus to all resistances. The bearer of this Mark may activate it to inflict X corporeal damage over 9 seconds to all targets within 30 feet. <br>A player may only bear a single Mark at a time, and all of your Marks will fade if you die.",
+      "description": "Increases all you groupmember's resistances by 157. The bearer of this Mark may activate it to inflict 342 corporeal damage over 9 seconds to all targets within 30 feet. <br>A player may only bear a single Mark at a time, and all of your Marks will fade if you die.",
       "category": "Ability"
     },
 
@@ -654,7 +654,7 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Curses your target for 10 seconds so that whenever they cast a direct heal, it inflicts X corporeal damage to them.",
+      "description": "Curses your target for 10 seconds so that whenever they cast a direct heal, it inflicts 365 corporeal damage to them.",
       "category": "Ability"
     },
 
@@ -702,7 +702,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Pains washes over enemies within 30 feet of you, inflicting X corporeal damage.",
+      "description": "Pains washes over enemies within 30 feet of you, inflicting 189 corporeal damage.",
       "category": "Ability"
     },
 
@@ -734,7 +734,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "You may only have 1 Ritual active",
-      "description": "A dark Ritual lasting 30 seconds that infuses your group with the souls of the fallen, restoring X health every 3 seconds to those within 100 feet of the Ritual.",
+      "description": "A dark Ritual lasting 30 seconds that infuses your group with the souls of the fallen, restoring 146 health every 3 seconds to those within 100 feet of the Ritual.",
       "category": "Ability"
     },
 
@@ -766,7 +766,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Power lashes out and inflicts X corporeal damage.",
+      "description": "Power lashes out and inflicts 277 corporeal damage.",
       "category": "Ability"
     },
 
@@ -814,7 +814,7 @@
       "incant": "6.0s channel",
       "cooldown": "11.0s cooldown",
       "note": "",
-      "description": "You call forth a storm of ravens which claw and peck at your target, dealing X corporeal damage over 6 seconds and snaring them by 40%, as long as you maintain your concentration.",
+      "description": "You call forth a storm of ravens which claw and peck at your target, dealing 1323 corporeal damage over 6 seconds and snaring them by 40%, as long as you maintain your concentration.",
       "category": "Ability"
     },
 
@@ -862,7 +862,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Demon Spittle grows ever more corrosive and now causes enemies to take a X unique penalty to Armor and a Y unique penalty to corporeal resistance.",
+      "description": "Demon Spittle grows ever more corrosive and now causes enemies to take a 618 unique penalty to Armor and a 236 unique penalty to corporeal resistance.",
       "category": "CareerTactic"
     },
 
@@ -926,7 +926,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Heals your target for X over 15 seconds.",
+      "description": "Heals your target for 1700 over 15 seconds.",
       "category": "Ability"
     },
 
@@ -942,7 +942,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A quick bolt of power that deals X corporeal damage.",
+      "description": "A quick bolt of power that deals 234 corporeal damage.",
       "category": "Ability"
     },
 
@@ -958,7 +958,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to X damage over 10 seconds.",
+      "description": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to 475 damage over 10 seconds.",
       "category": "CareerTactic"
     },
 
@@ -974,7 +974,7 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Inflicts X corporeal damage over 4 seconds and silences the target, preventing them from using any magic.",
+      "description": "Inflicts 375 corporeal damage over 4 seconds and silences the target, preventing them from using any magic.",
       "category": "Ability"
     },
 
@@ -1070,7 +1070,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, your target will absorb up to X damage. When the effect fades they will regain Y health.",
+      "description": "For the next 10 seconds, your target will absorb up to 550 damage. When the effect fades they will regain 186 health.",
       "category": "Ability"
     },
 
@@ -1086,7 +1086,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Inflicts X Corporeal damage over 15 seconds.",
+      "description": "Inflicts 610 Corporeal damage over 15 seconds.",
       "category": "Ability"
     },
 
@@ -1134,7 +1134,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rituals will now pulse X corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
+      "description": "Rituals will now pulse 150 corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
       "category": "CareerTactic"
     },
 
@@ -1150,7 +1150,7 @@
       "incant": "Instant Cast",
       "cooldown": "26.0s cooldown",
       "note": "",
-      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict X corporeal damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 2 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<br>This spell may be toggled off to regain your movement.",
+      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 172 corporeal damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 2 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<br>This spell may be toggled off to regain your movement.",
       "category": "Ability"
     },
 
