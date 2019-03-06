@@ -6,7 +6,7 @@
 
 .ability {
   composes: ability from '../shared/ability.css';
-  border-radius: var(--label-padding);
+  border-radius: var(--border-radius);
   border: 0.1rem solid var(--color-base-1);
   cursor: pointer;
 }
@@ -26,9 +26,9 @@
 }
 .image {
   composes: image from '../shared/ability.css';
-  border-radius: var(--label-padding);
+  border-radius: var(--border-radius);
 }
 .imageInactive {
   composes: imageInactive from '../shared/ability.css';
-  border-radius: var(--label-padding);
+  border-radius: var(--border-radius);
 }
