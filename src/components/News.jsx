@@ -13,6 +13,19 @@ const News = () => (
           nameSlug="right-chevron-icon"
         />
       </span>
+      <div className={css.itemDate}>05/03/2019</div>
+      <span className={css.itemText}>
+        Abilites are now sorted by minimum level required.
+      </span>
+    </div>
+    <div className={css.item}>
+      <span className={css.itemIcon}>
+        <IconChevronRight
+          classes="icon--small"
+          name="right chevron icon"
+          nameSlug="right-chevron-icon"
+        />
+      </span>
       <div className={css.itemDate}>14/01/2019</div>
       <span className={css.itemText}>
         Now each career page displays the last patch date that career page was

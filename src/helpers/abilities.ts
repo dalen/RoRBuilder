@@ -1,8 +1,34 @@
+export type Mastery = {
+  name: string;
+  popover: {
+    primary?: string;
+    secondary?: string;
+  };
+  optionalAbilities: number[];
+  coreAbilities: number[];
+};
+
+export type Career = {
+  mastery: {
+    a: Mastery;
+    b: Mastery;
+    c: Mastery;
+  };
+  data: Ability[];
+};
+
 export type AbilityCategory =
   | 'Ability'
   | 'Morale'
   | 'CareerTactic'
   | 'TomeTactic';
+
+export type AbilityType =
+  | 'standard'
+  | 'morale'
+  | 'tactic'
+  | 'tomeTactic'
+  | undefined;
 
 export type Ability = {
   image: string;
@@ -18,6 +44,7 @@ export type Ability = {
   note: string;
   description: string;
   category: AbilityCategory;
+  abilityType: AbilityType;
 };
 
 export const arrayContains = <T>(
@@ -27,23 +54,17 @@ export const arrayContains = <T>(
   return array.findIndex(needle) !== -1;
 };
 
-export function getAbilityType(category: AbilityCategory): string | undefined {
-  let abilityType = '';
+export function getAbilityType(category: AbilityCategory): AbilityType {
   switch (category) {
     case 'Ability':
-      abilityType = 'standard';
-      break;
+      return 'standard';
     case 'Morale':
-      abilityType = 'morale';
-      break;
+      return 'morale';
     case 'CareerTactic':
-      abilityType = 'tactic';
-      break;
+      return 'tactic';
     case 'TomeTactic':
-      abilityType = 'tomeTactic';
-      break;
+      return 'tomeTactic';
     default:
-      break;
+      return undefined;
   }
-  return abilityType;
 }
