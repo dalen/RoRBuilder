@@ -3,7 +3,7 @@ export const REMOVE_MASTERY_ABILITY = 'remove_mastery_ability';
 export const RESET_MASTERY_ABILITIES = 'reset_mastery_abilities';
 export const SET_MASTERY_ABILITIES = 'set_mastery_abilities';
 
-export function addMasteryAbility(abilitiesArray, abilityId) {
+export function addMasteryAbility(abilitiesArray: number[], abilityId: number) {
   return {
     type: ADD_MASTERY_ABILITY,
     payload: {
@@ -13,7 +13,10 @@ export function addMasteryAbility(abilitiesArray, abilityId) {
   };
 }
 
-export function removeMasteryAbility(abilitiesArray, abilityId) {
+export function removeMasteryAbility(
+  abilitiesArray: number[],
+  abilityId: number,
+) {
   return {
     type: REMOVE_MASTERY_ABILITY,
     payload: {
@@ -30,12 +33,9 @@ export function resetMasteryAbilities() {
   };
 }
 
-export function setMasteryAbilities(abilities) {
+export function setMasteryAbilities(abilities: (number | string)[]) {
   // Ensure that values are integers not string (as can happen coming from query string)
-  const newArray = [];
-  abilities.forEach(abilityId => {
-    newArray.push(Number(abilityId));
-  });
+  const newArray = abilities.map(abilityId => Number(abilityId));
 
   return {
     type: SET_MASTERY_ABILITIES,

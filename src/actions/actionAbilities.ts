@@ -5,7 +5,7 @@ export const RESET_ABILITIES = 'reset_abilities';
 
 const JSON_ROOT = '/json/';
 
-export function fetchAbilities(slug) {
+export function fetchAbilities(slug: string) {
   const request = axios.get(`${JSON_ROOT}/abilities/${slug}.json`);
 
   return {

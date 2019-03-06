@@ -1,7 +1,7 @@
 export const SET_CURRENT_POINTS = 'set_current_points';
 export const RESET_CURRENT_POINTS = 'reset_current_points';
 
-export function setCurrentPoints(points) {
+export function setCurrentPoints(points: number) {
   return {
     type: SET_CURRENT_POINTS,
     payload: Number(points),
