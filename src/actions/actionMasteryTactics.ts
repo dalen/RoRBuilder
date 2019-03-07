@@ -3,7 +3,7 @@ export const REMOVE_MASTERY_TACTIC = 'remove_mastery_tactic';
 export const RESET_MASTERY_TACTICS = 'reset_mastery_tactics';
 export const SET_MASTERY_TACTICS = 'set_mastery_tactics';
 
-export function addMasteryTactic(abilitiesArray, abilityId) {
+export function addMasteryTactic(abilitiesArray: number[], abilityId: number) {
   return {
     type: ADD_MASTERY_TACTIC,
     payload: {
@@ -13,7 +13,10 @@ export function addMasteryTactic(abilitiesArray, abilityId) {
   };
 }
 
-export function removeMasteryTactic(abilitiesArray, abilityId) {
+export function removeMasteryTactic(
+  abilitiesArray: number[],
+  abilityId: number,
+) {
   return {
     type: REMOVE_MASTERY_TACTIC,
     payload: {
@@ -30,12 +33,9 @@ export function resetMasteryTactics() {
   };
 }
 
-export function setMasteryTactics(tactics) {
+export function setMasteryTactics(tactics: (string | number)[]) {
   // Ensure that values are integers not string (as can happen coming from query string)
-  const newArray = [];
-  tactics.forEach(abilityId => {
-    newArray.push(Number(abilityId));
-  });
+  const newArray = tactics.map(abilityId => Number(abilityId));
 
   return {
     type: SET_MASTERY_TACTICS,
