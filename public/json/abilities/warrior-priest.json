@@ -254,7 +254,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Righteous Fury",
-      "description": "A powerful attack which deals 202 damage to your enemy.",
+      "description": "A powerful attack which deals 152 damage to your enemy.",
       "category": "Ability"
     },
 
@@ -334,7 +334,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 20 Righteous Fury",
-      "description": "A strike that deals 101 damage to your enemy, and an additional 115 damage over 10 seconds, and reduces their Initiative by 80.",
+      "description": "A strike that deals 76 damage to your enemy, and an additional 115 damage over 10 seconds, and reduces their Initiative by 80.",
       "category": "Ability"
     },
 
@@ -488,13 +488,13 @@
       "name": "Divine Assault",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "8",
+      "minrank": "6",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
       "note": "Requires 25 Righteous Fury per second",
-      "description": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will. You strike the target up to four times over 3 seconds, dealing 109 Spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Righteous Fury.",
+      "description": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will. You strike the target up to four times over 3 seconds, dealing 84 Spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Righteous Fury.",
       "category": "Ability"
     },
 
@@ -574,7 +574,7 @@
       "incant": "0.5s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A quick heal that restores 461 health.Not affected by cooldown modification abilities.",
+      "description": "A quick heal that restores 461 health.<br>Not affected by cooldown modification abilities.",
       "category": "Ability"
     },
 
@@ -878,7 +878,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Sigmar's Fist will now also increase your ally's Toughness as well, and will reduce your enemy's Strength and Toughness by 120.",
+      "description": "Sigmar's Fist will now also increase your ally's Toughness as well, and will reduce your enemy's Strength and Toughness by 75.",
       "category": "CareerTactic"
     },
 
@@ -1052,7 +1052,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "3.0s cast",
-      "cooldown": "13.0s cooldown",
+      "cooldown": "13s cooldown",
       "note": "Requires 20 Righteous Fury per second",
       "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, all allies within 30 feet of you will regain 179 health, and you will consume 10 Righteous Fury.<br>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
       "category": "Ability"
@@ -1166,7 +1166,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Only one Prayer may be active at a time.",
-      "description": "Any time a groupmate within 100 feet of you attacks an enemy, there is a 20% chance that they will regain 300 health.",
+      "description": "Any time a groupmate within 100 feet of you attacks an enemy, there is a 20% chance that they will regain 200 health.",
       "category": "Ability"
     },
 
@@ -1326,7 +1326,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "A blessed attack which deals 164 damage to your target, and increases your defensive target's Strength by 120 for 20 seconds.",
+      "description": "A blessed attack which deals 127 damage to your target, and increases your defensive target's Strength by 75 for 20 seconds.",
       "category": "Ability"
     },
 
@@ -1358,7 +1358,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Builds 40 Righteous Fury",
-      "description": "You smash into your enemy, dealing 202 damage to them. The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for 337 health plus 50% of the damage that you dealt.",
+      "description": "You smash into your enemy, dealing 152 damage to them. The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for 225 health plus 50% of the damage that you dealt.",
       "category": "Ability"
     },
 
@@ -1374,7 +1374,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "You smash your weapon into your enemy, dealing 239 damage to them. Your defensive target becomes Blessed for up to 10 seconds, and will regain 150 health each time they're attacked. You will lose 10 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
+      "description": "You smash your weapon into your enemy, dealing 177 damage to them. Your defensive target becomes Blessed for up to 10 seconds, and will regain 100 health each time they're attacked. You will lose 10 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
       "category": "Ability"
     },
 
@@ -1453,8 +1453,8 @@
       "range": "No range",
       "incant": "Insta-cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 15 Righteous Fury per enemy hit",
-      "description": "A sweeping blow which deals 138 damage to all enemies in front of you, up to 50 feet away.",
+      "note": "Builds 15 Righteous Fury for each enemy that you strike",
+      "description": "A sweeping blow which deals 101 damage to all enemies in front of you, up to 50 feet away.",
       "category": "Ability"
     },
 
@@ -1470,7 +1470,7 @@
       "incant": "1.0s cast",
       "cooldown": "4.0s cooldown",
       "note": "Builds 35 Righteous Fury<br>Requires Great Weapon",
-      "description": "Deals 555 Spirit damage over 9 seconds to all enemies within 30 feet.",
+      "description": "Deals 390 Spirit damage over 9 seconds to all enemies within 30 feet.",
       "category": "Ability"
     },
 
@@ -1566,7 +1566,7 @@
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "A powerful strike which deals 239 damage to your enemy and knocks the wind out of them for 4 seconds, Silencing them and making them unable to use magic.",
+      "description": "A powerful strike which deals 177 damage to your enemy and knocks the wind out of them for 4 seconds, Silencing them and making them unable to use magic.",
       "category": "Ability"
     },
 
@@ -1580,9 +1580,9 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 30 Righteous Fury",
-      "description": "Deals 239 damage to your target. If they are Cursed, then they will also become snared, reducing their run speed by 40% for 6 seconds.",
+      "description": "Deals 177 damage to your target. If they are Cursed, then they will also become snared, reducing their run speed by 40% for 6 seconds.",
       "category": "Ability"
     },
 
