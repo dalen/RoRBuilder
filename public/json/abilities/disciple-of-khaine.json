@@ -749,7 +749,7 @@
       "range": "No range",
       "incant": "1.0s cast",
       "cooldown": "2.0s cooldown",
-      "note": "Builds 30 Soul Essence",
+      "note": "Builds 30 Soul Essence<br>Requires Dual Wield",
       "description": "Cripples all targets within 30 feet of you for 584 damage over 24 seconds.",
       "category": "Ability"
     },
@@ -1626,7 +1626,7 @@
       "range": "Self",
       "incant": "10s Cast",
       "cooldown": "60s cooldown",
-      "note": "Requires Shield <br> Requires 25 Soul Essence per secoond",
+      "note": "Requires Shield<br>Requires 25 Soul Essence per secoond",
       "description": "You channel a Soul Ward making you immune from any root or snare effect and increasing parry, dodge and disrupt of you and your group by 10%.<br> This effect will end if you break concentration or run out of Soul Essence.",
       "category": "Ability"
     },
