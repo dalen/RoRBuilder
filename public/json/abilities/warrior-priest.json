@@ -1374,7 +1374,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "You smash your weapon into your enemy, dealing 239 damage to them. Your defensive target becomes Blessed for up to 10 seconds, and will regain 150 health each time they're attacked. You will lose 10 Righteous Fury every second, and the effect will end if you run out of Righteous Fury to power it with.",
+      "description": "You smash your weapon into your enemy, dealing 239 damage to them. Your defensive target becomes Blessed for up to 10 seconds, and will regain 150 health each time they're attacked. You will lose 10 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
       "category": "Ability"
     },
 
