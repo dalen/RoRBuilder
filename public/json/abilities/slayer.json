@@ -990,7 +990,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "Requires Target to have Parried or Blocked",
-      "description": "You land a numbing blow, your target's chance to block or parry is reduced by 50% for 10 seconds.",
+      "description": "You land a numbing blow, your target's chance to block or parry is reduced by 50% for 10 seconds. This attack cannot be defended against.",
       "category": "Ability"
     },
 
