@@ -685,7 +685,7 @@
       "range": "No range",
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 45 Soul Essence",
+      "note": "Builds 15 Righteous Fury for each enemy that you strike",
       "description": "You lash out at all opponents in front of you up to 50 feet away, dealing 101 damage and regaining 15 Soul Essence for each enemy hit.",
       "category": "Ability"
     },
@@ -1470,7 +1470,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Builds 35 Soul Essence",
-      "description": "An unholy attack which deals 155 damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for 232 health plus 50% of the damage that you dealt.",
+      "description": "An unholy attack which deals 152 damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for 225 health plus 50% of the damage that you dealt.",
       "category": "Ability"
     },
 
@@ -1641,14 +1641,14 @@
       "range": "Self",
       "incant": "10s Cast",
       "cooldown": "30s cooldown",
-      "note": "Requires Shield <br> Requires 25 Soul Essence per secoond",
+      "note": "Requires Shield<br>Requires 25 Soul Essence per secoond",
       "description": "To defeat your enemies you need to empower your team. You suffer 300 damage every second any groupmates within 100ft will recive 525 health restored to them.<br> This effect will end if you break concentration or run out of Soul Essence.",
       "category": "Ability"
     },
     {
       "image": "11018",
       "id": 2953,
-      "name": "Blood Gaurd",
+      "name": "Blood Guard",
       "type": "Defensive",
       "spec": "Path of Sacrifice",
       "minrank": "1",
@@ -1657,7 +1657,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10s cooldown",
       "note": "Requires Shield <br> Builds 25 Soul Essence",
-      "description": "You attack with your buckler dealing 181 damage,and increase your chance to block by 10% for 10s .",
+      "description": "You attack with your buckler dealing 177 damage,and increase your chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
     {
@@ -1672,7 +1672,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A quick strike that deals 106 damage. Khaine's approval of your actions causes your defensive target and all allies within 10ft to be healed for 100% of the damage you dealt",
+      "description": "A quick strike that deals 102 damage. Khaine's approval of your actions causes your defensive target and all allies within 10ft to be healed for 100% of the damage you dealt",
       "category": "Ability"
     },
     {
