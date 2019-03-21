@@ -62,7 +62,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your target suffers X physical damage over the next 10 seconds. The damage will start low, and increase as the effect continues.",
+      "description": "Your target suffers 500 physical damage over the next 10 seconds. The damage will start low, and increase as the effect continues.",
       "category": "Ability"
     },
 
@@ -94,7 +94,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Each time that you attack an enemy within the next 10 seconds, Any group member within 100 feet will gain a X ability bonus to weaponskill, but take a X ability penalty to initiative for the next 10 seconds. This effect can be stacked up to three times.",
+      "description": "Each time that you attack an enemy within the next 10 seconds, Any group member within 100 feet will have their Weapon Skill increased by 25, but your Initiative will also be reduced by 25 for the next 10 seconds. This effect can be stacked up to three times.",
       "category": "Ability"
     },
 
@@ -110,7 +110,7 @@
       "incant": "5.0s channel",
       "cooldown": "30.0s cooldown",
       "note": "Requires Dual Wield",
-      "description": "You strike out at all enemies with 25 feet in front of you, inflicting X physical damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
+      "description": "You strike out at all enemies with 25 feet in front of you, inflicting 180 physical damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
       "category": "Ability"
     },
 
@@ -174,7 +174,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You chop at your enemy, dealing X physical damage and reducing the value of incoming heals on them by 50% for the next 10 seconds.",
+      "description": "You chop at your enemy, dealing 152 physical damage and reducing the value of incoming heals on them by 50% for the next 10 seconds.",
       "category": "Ability"
     },
 
@@ -318,7 +318,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A maiming attack which deals X physical damage to the target and snares them, reducing their run speed by 40% for 5 seconds.",
+      "description": "A maiming attack which deals 152 physical damage to the target and snares them, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability"
     },
 
@@ -462,7 +462,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts X physical damage.",
+      "description": "A basic throwing attack that inflicts 104 damage.",
       "category": "Ability"
     },
 
@@ -510,7 +510,7 @@
       "incant": "5.0s channel",
       "cooldown": "25.0s cooldown",
       "note": "",
-      "description": "A merciless strike of attacks that repeatedly hits your target for up to 5 seconds, dealing up to X physical damage. You will be healed for all damage this ability deals.",
+      "description": "A merciless strike of attacks that repeatedly hits your target for up to 5 seconds, dealing up to 205 damage. You will be healed for all damage this ability deals.",
       "category": "Ability"
     },
 
@@ -542,7 +542,7 @@
       "incant": "6.0s channel",
       "cooldown": "30.0s cooldown",
       "note": "Requires Dual Wield",
-      "description": "You frantically lash out at everything nearby for up to 6 seconds, dealing X physical damage every 2 seconds to all enemies within 40 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active.",
+      "description": "You frantically lash out at everything nearby for up to 6 seconds, dealing 153 damage every 2 seconds to all enemies within 40 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active.",
       "category": "Ability"
     },
 
@@ -558,7 +558,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Target must be facing away from you",
-      "description": "You deal X physical damage to your enemy.",
+      "description": "You deal 227 physical damage to your enemy.",
       "category": "Ability"
     },
 
@@ -574,7 +574,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "While this ability is active, your melee attacks will deal an additional X physical damage , but you will also suffer Y physical damage each time.",
+      "description": "While this ability is active, your melee attacks will deal an additional 100 damage whenever you strike a target with a melee attack, but you will also suffer 50 damage each time this effect occurs.",
       "category": "Ability"
     },
 
@@ -638,7 +638,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you die, you have a 25% chance of ressurecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing X physical damage.",
+      "description": "When you die, you have a 25% chance of ressurecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing 250 damage.",
       "category": "CareerTactic"
     },
 
@@ -654,7 +654,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You chop deeply into your enemy, dealing X physical damage. Your love of battle fills you with energy, restoring 100 Action Points.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You chop deeply into your enemy, dealing 202 damage. Your love of battle fills you with energy, restoring 100 Action Points.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -686,7 +686,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While you are Furious, you regain X health every 4 seconds. While you are Berserk, you regain Y health every 4 seconds.",
+      "description": "While you are Furious, you regain 100 health every 4 seconds. While you are Berserk, you regain 175 health every 4 seconds.",
       "category": "CareerTactic"
     },
 
@@ -702,7 +702,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You wildly swing at enemies in front of you within 25 feet, dealing anywhere from X physical damage to Y physical damage. May only hit up to three targets.",
+      "description": "You wildly swing at enemies in front of you within 25 feet, dealing anywhere from 102 damage to 142 damage. May only hit up to three targets.",
       "category": "Ability"
     },
 
@@ -718,7 +718,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "A brutal attack which deals X physical damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "A brutal attack which deals 327 physical damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -743,14 +743,14 @@
       "id": 4647,
       "name": "Reckless Blow",
       "type": "Damaging",
-      "spec": "Path of Da' Savage",
+      "spec": "Path of Da' Hitta",
       "minrank": "2",
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "Deals X physical damage and for 10 seconds, your chance to be critically hit will be increased by 1%. This negative effect stacks up to 5 times.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "A wild swing which deals 227 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -846,7 +846,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Must be Berserk<br>Exhausts your Rage",
-      "description": "Deals X physical damage and knocks down the target for 3 seconds. The attack is undefendable.",
+      "description": "Deals 177 damage and knocks down the target for 3 seconds. The attack is undefendable.",
       "category": "Ability"
     },
 
@@ -862,7 +862,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A furious slash that deals X physical damage and causes your target to take a (1 * rank) ability penalty to toughness for 9 seconds. This effect is stackable up to three times.",
+      "description": "A furious slash that deals 202 damage and reduces your targets Toughness by 25 for 9 seconds. This effect is stackable up to three times.",
       "category": "Ability"
     },
 
@@ -958,7 +958,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You slash at your opponent's throat, immediately inflicting X physical damage. The wound continues to bleed for Y physical damage over 3 seconds.",
+      "description": "You slash at your opponent's throat, immediately inflicting 119 damage. The wound continues to bleed for 132 damage over 3 seconds.",
       "category": "Ability"
     },
 
@@ -974,7 +974,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You chop your target in a vital organ, dealing X physical damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You chop your target in a vital organ, dealing 177 damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -990,7 +990,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "An exhaustive blow that deals X physical damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "An exhaustive blow that deals 152 damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -1022,7 +1022,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "You unleash a powerful blow, dealing X physical damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You unleash a powerful blow, dealing 302 physical damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -1070,7 +1070,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You strike enemies within 30 feet, dealing anywhere from X physical damage to Y physical damage. <br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You strike enemies within 30 feet, dealing anywhere from 91 damage to 191 damage. <br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -1102,7 +1102,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
-      "description": "You lash out at all enemies within 30 feet, inflicting X physical damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You lash out at all enemies within 30 feet, inflicting 116 physical damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -1118,7 +1118,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You swipe at the enemies in front of you, dealing X physical damage over 9 seconds to enemies within 40 feet.",
+      "description": "You swipe at the enemies in front of you, dealing 316 damage over 9 seconds to enemies within 40 feet.",
       "category": "Ability"
     },
 
