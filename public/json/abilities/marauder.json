@@ -174,7 +174,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting X physical damage.",
+      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, dealing 113 damage.",
       "category": "Ability"
     },
 
@@ -206,7 +206,7 @@
       "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 6 times and dealing X phyical damage per hit. This effect will end if you break your concentration or run out of action points.",
+      "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 6 times and dealing 132 damage per hit. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
 
@@ -238,7 +238,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Corruption spreads to your target, dealing X physical damage and your target takes a (rank * 3) ability penalty to toughness for 20 seconds.",
+      "description": "Corruption spreads to your target, reducing their toughness by 75 for 20 seconds and inflicting 141 damage.",
       "category": "Ability"
     },
 
