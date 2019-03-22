@@ -478,7 +478,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "A surge of Waaaagh explodes from your target and damages up to 4 enemies within 30 feet of them, dealing 199 elemental damage. Healing your defensive target and allies within 20 feet of them for 1200 health plus 50% of the total inflicted damage. This ability has innate 20% strikethrough.",
+      "description": "A surge of Waaaagh explodes from your target and damages up to 4 enemies within 30 feet of them, dealing 199 elemental damage. Healing your defensive target and allies within 20 feet of them for 883 health plus 50% of the total inflicted damage.<br /><br />When casting this ability, you will focus your power into ensuring a hit rather than maximum damage, causing it to be 20% less likely to be blocked or disrupted.",
       "category": "Ability"
     },
 
@@ -686,7 +686,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
-      "description": "Deals 277 elemental damage to your target, and heals your defensive target for Y plus 150% of the damage done. This ability has innate 20% strikethrough.",
+      "description": "Deals 277 elemental damage to your target, and heals your defensive target for 150% of the damage done. This ability has innate 20% strikethrough.",
       "category": "Ability"
     },
 
