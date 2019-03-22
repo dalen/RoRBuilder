@@ -401,7 +401,7 @@
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Skirmish Stance",
-      "description": "A Crippling shot that deals X damage and causes your target to take a (2* rank) ability penalty to Initiative for 20 seconds. This ability will continue to build up even if you move. 3 Second knockdown.",
+      "description": "A Crippling shot that deals 116 damage and reduces your target's initiative by 50 for 20 seconds, and knocks down the target for 3 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
 
@@ -1169,7 +1169,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Assault Stance",
-      "description": "You unleash two swift blows upon your enemy that deal X Spirit damage each, causing them to be 10% more likely to be critically hit by others for 10 seconds.",
+      "description": "You unleash two swift blows upon your enemy that deal 127 Spirit damage each, causing them to be 10% more likely to be critically hit by others for 10 seconds.",
       "category": "Ability"
     }
   ]
