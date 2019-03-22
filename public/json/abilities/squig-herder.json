@@ -218,7 +218,7 @@
       "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
       "note": "Requires Squig Armor",
-      "description": "You force your battle squig to bounce in the air for 3 seconds, repeatedly dealing X physical damage to all enemies within 30 feet.",
+      "description": "You force your battle squig to bounce in the air for 3 seconds, repeatedly dealing 119 physical damage to all enemies within 30 feet.",
       "category": "Ability"
     },
 
@@ -682,7 +682,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Squig Armor",
-      "description": "You prod the inside of your Battle Squig, causing it to deal X corporeal damage to all targets 40 feet in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 5 seconds. This effect lasts for 10 seconds.",
+      "description": "You prod the inside of your Battle Squig, causing it to deal 85 corporeal damage to all targets 40 feet in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 5 seconds. This effect lasts for 10 seconds.",
       "category": "Ability"
     },
 
@@ -858,7 +858,7 @@
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Squig Armor",
-      "description": "Your battle squig evacuates a disagreeable meal, producing a toxic cloud that inflicts X corporeal damage every 2 seconds for 6 seconds.",
+      "description": "Your battle squig evacuates a disagreeable meal, producing a toxic cloud that inflicts 210 corporeal damage every 2 seconds for 6 seconds.",
       "category": "Ability"
     },
 
@@ -970,7 +970,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Squig Armor",
-      "description": "A sly attack which deals X physical damage to your enemy, and increases your armor by a large amount for 15 seconds.",
+      "description": "A sly attack which deals 294 damage to your enemy, and increases your armor by a large amount for 15 seconds.",
       "category": "Ability"
     },
 
@@ -1290,7 +1290,7 @@
       "incant": "1.5s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "An attack which deals 216 physical damage and causes your target to take a Y ability penalty to Armor and reduces their chance to block by 10% for 10 seconds.",
+      "description": "An attack which deals 216 physical damage and reduces your target's Armor by 618 and their chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
 
