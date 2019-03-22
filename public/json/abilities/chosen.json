@@ -1075,7 +1075,7 @@
     },
 
     {
-      "image": "22701",
+      "image": "22696",
       "id": 2832,
       "name": "Daemonclaw",
       "type": "Buff",
@@ -1086,7 +1086,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically hit an Enemy with a Great Weapon, your Strength, Weapon Skill, and Initiative will be increased by X (160 at max level) for 10 seconds. This effect will not refresh itself.",
+      "description": "Whenever you critically hit an Enemy with a Great Weapon, your Strength, Weapon Skill, and Initiative will be increased by 100 for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic"
     },
 
