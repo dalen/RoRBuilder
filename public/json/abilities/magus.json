@@ -110,7 +110,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Bends and twists your target from within to deal X elemental damage over 15 seconds.",
+      "description": "Bends and twists your target from within to deal 835 elemental damage over 15 seconds.",
       "category": "Ability"
     },
 
@@ -126,7 +126,7 @@
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "An un-defendable bolt of far traveling force that inflicts X elemental damage.",
+      "description": "An un-defendable bolt of far traveling force that inflicts 633 elemental damage.",
       "category": "Ability"
     },
 
@@ -286,7 +286,7 @@
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close dealing X spirit damage to all enemies within 30 feet and staggering them for 5 seconds, preventing all actions until they take damage.",
+      "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close dealing 243 spirit damage to all enemies within 30 feet and staggering them for 5 seconds, preventing all actions until they take damage.",
       "category": "Ability"
     },
 
@@ -302,7 +302,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ethereal tentacle swipes the target in front of you for X spirit damage.",
+      "description": "An ethereal tentacle swipes the target in front of you for 203 spirit damage.",
       "category": "Ability"
     },
 
@@ -318,7 +318,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals X Spirit damage and reduces movement speed by 40% for 10 seconds.",
+      "description": "Deals 328 Spirit damage and reduces movement speed by 40% for 10 seconds.",
       "category": "Ability"
     },
 
@@ -334,7 +334,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Forms a pact with newly summoned daemons that gives both you and your daemon a X unique bonus to Toughness while your daemon remains in this realm.",
+      "description": "Forms a pact with newly summoned daemons that gives both you and your daemon a 100 unique bonus to Toughness while your daemon remains in this realm.",
       "category": "CareerTactic"
     },
 
@@ -366,7 +366,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Causes your groupmates to gain a X ability bonus to corporeal resistance for 60 minutes.",
+      "description": "Causes your groupmates to gain a 157 ability bonus to corporeal resistance for 60 minutes.",
       "category": "Ability"
     },
 
@@ -430,7 +430,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Summons a cloud of caustic mist that deals X spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds the cloud doubles in strength, dealing Y spirit damage and 10 seconds later will double in strength again, dealing Z spirit damage.<br> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
+      "description": "Summons a cloud of caustic mist that deals 79 spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds the cloud doubles in strength, dealing 146 spirit damage and 10 seconds later will double in strength again, dealing 212 spirit damage.<br> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
       "category": "Ability"
     },
 
@@ -542,7 +542,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict X elemental damage.",
+      "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict 320 elemental damage.",
       "category": "Ability"
     },
 
@@ -574,7 +574,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You strip away the spiritual protections of everyone 20 feet from your target, dealing x spirit damage over 20 seconds and causing them to take a X ability penalty to spiritual resistance.",
+      "description": "You strip away the spiritual protections of everyone 20 feet from your target, dealing 420 spirit damage over 20 seconds and causing them to take a 236 ability penalty to spiritual resistance.",
       "category": "Ability"
     },
 
@@ -622,7 +622,7 @@
       "incant": "6.0s cast",
       "cooldown": "16.0s cooldown",
       "note": "",
-      "description": "A horrible torrent of energy that deals X elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 Action Points over 6 seconds to you.",
+      "description": "A horrible torrent of energy that deals 387 elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 Action Points over 6 seconds to you.",
       "category": "Ability"
     },
 
@@ -638,7 +638,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A daemonic wave that warps the air in front of you dealing X elemental damage over 9 seconds to all targets 40 feet in front of you.",
+      "description": "A daemonic wave that warps the air in front of you dealing 576 elemental damage over 9 seconds to all targets 40 feet in front of you.",
       "category": "Ability"
     },
 
@@ -670,7 +670,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Surge of Insanity will now cause an additional X spirit damage over 6 seconds to all targets hit.",
+      "description": "Surge of Insanity will now cause an additional 345 spirit damage over 6 seconds to all targets hit.",
       "category": "CareerTactic"
     },
 
@@ -686,7 +686,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires a summoned minion.",
-      "description": "You force so much power into your daemon that it explodes from within, dealing X spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
+      "description": "You force so much power into your daemon that it explodes from within, dealing 320 spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
       "category": "Ability"
     },
 
@@ -750,7 +750,7 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A column of blue flame washes over your target, dealing X elemental damage and then dealing an additional Y elemental damage over 9 seconds.",
+      "description": "A column of blue flame washes over your target, dealing 516 elemental damage and then dealing an additional 429 elemental damage over 9 seconds.",
       "category": "Ability"
     },
 
@@ -766,7 +766,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Chaotic swirls of power inflict X Spirit damage over 15 seconds to your target and those within 20 feet of them.",
+      "description": "Chaotic swirls of power inflict 735 Spirit damage over 15 seconds to your target and those within 20 feet of them.",
       "category": "Ability"
     },
 
@@ -782,7 +782,7 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You open a rift dealing X elemental damage and weakens the fabric of reality surrounding your target, disarming them for 3 seconds.",
+      "description": "You open a rift dealing 288 elemental damage and weakens the fabric of reality surrounding your target, disarming them for 3 seconds.",
       "category": "Ability"
     },
 
@@ -798,7 +798,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Tears at your foe with fierce winds, hitting them three times for a total of X spirit damage.",
+      "description": "Tears at your foe with fierce winds, hitting them three times for a total of 264 spirit damage.",
       "category": "Ability"
     },
 
@@ -862,7 +862,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Grows a seed inside your target dealing X spirit damage over 15 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal Y spirit damage to all targets within 20 feet.",
+      "description": "Grows a seed inside your target dealing 435 spirit damage over 15 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal 183 spirit damage to all targets within 20 feet.",
       "category": "Ability"
     },
 
@@ -990,7 +990,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A surge of chaotic bliss overcomes your target, dealing X spirit damage. The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
+      "description": "A surge of chaotic bliss overcomes your target, dealing 291 spirit damage. The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
       "category": "Ability"
     },
 
@@ -1022,7 +1022,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Tendrils of writhing violet flame coil around your target, burning them for X elemental damage.",
+      "description": "Tendrils of writhing violet flame coil around your target, burning them for 241 elemental damage.",
       "category": "Ability"
     },
 
@@ -1150,7 +1150,7 @@
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "",
-      "description": "You channel warping flame through your disk, dealing X elemental damage to all targets within 30 feet of you every second for 3 seconds.",
+      "description": "You channel warping flame through your disk, dealing 155 elemental damage to all targets within 30 feet of you every second for 3 seconds.",
       "category": "Ability"
     },
 
@@ -1166,7 +1166,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Energy spirals towards your foe, dealing X spirit damage and knocking them back a short distance. Monsters will be knocked down.",
+      "description": "Energy spirals towards your foe, dealing 291 spirit damage and knocking them back a short distance. Monsters will be knocked down.",
       "category": "Ability"
     },
 
@@ -1198,7 +1198,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Your malice is forced directly into your target's soul, inflicting X elemental damage over 20 seconds while reducing their Disrupt chance by 5%.",
+      "description": "Your malice is forced directly into your target's soul, inflicting 1240 elemental damage over 20 seconds while reducing their Disrupt chance by 5%.",
       "category": "Ability"
     }
   ]
