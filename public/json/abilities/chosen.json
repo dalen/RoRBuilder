@@ -382,7 +382,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within 30 feet, causing their spells to build up 25% slower. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
+      "description": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within 30 feet, causing their spells to build up 25% slower. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability"
     },
 
@@ -398,7 +398,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for 24 health over 3 seconds every time they defend an attack. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
+      "description": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for 24 health over 3 seconds every time they defend an attack. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability"
     },
 
@@ -414,7 +414,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within 30 feet by 75. During this time, group members within 100 feet are emboldened, increasing their toughness by 75. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
+      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within 30 feet by 75. During this time, group members within 100 feet are emboldened, increasing their toughness by 75. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability"
     },
 
@@ -574,7 +574,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 46 Spirit damage. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
+      "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 46 Spirit damage. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability"
     },
 
@@ -590,7 +590,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 30 feet will have all their resistances reduced by 118. During this time, groupmates within 100 feet have all their resistances increased by 236. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
+      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 30 feet will have all their resistances reduced by 118. During this time, groupmates within 100 feet have all their resistances increased by 236. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability"
     },
 
@@ -606,7 +606,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within 30 feet to be 25% less effective. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
+      "description": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within 30 feet to be 25% less effective. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability"
     },
 
@@ -670,7 +670,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take 99 Spirit damage every 3 seconds. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
+      "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take 99 Spirit damage every 3 seconds. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability"
     },
 
@@ -686,7 +686,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 30 feet of you, reducing their Strength by 75. During this time, the Strength of any groupmates within 100 feet is increased by 75. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
+      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 30 feet of you, reducing their Strength by 75. During this time, the Strength of any groupmates within 100 feet is increased by 75. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability"
     },
 
@@ -702,7 +702,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "The power of the Warp encases you in a terrifying visage. All enemies within 30 feet will lose 20 Action Points every 5 seconds. All groupmates within 100 feet will regain 20 Action Points every 5 seconds. <br>This curse will last until another curse is activated, or this curse is toggled off. After this, the curse will linger for another 12 seconds",
+      "description": "The power of the Warp encases you in a terrifying visage. All enemies within 30 feet will lose 20 Action Points every 5 seconds. All groupmates within 100 feet will regain 20 Action Points every 5 seconds. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability"
     },
 

@@ -110,7 +110,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You become filled with the endless power of Myrmidia, dealing 148 damage every 3 seconds to all enemies within 30 feet.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You become filled with the endless power of Myrmidia, dealing 148 damage every 3 seconds to all enemies within 30 feet.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability"
     },
 
@@ -718,7 +718,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to steady their thoughts, increasing all resistances by 378 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their resistances by 188.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You order your group to steady their thoughts, increasing all resistances by 378 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their resistances by 188.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability"
     },
 
@@ -1006,7 +1006,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You fill your enemies with fear and doubt, causing all healing abilities to become 75% as effective when used by any enemies within 30 feet of you.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You fill your enemies with fear and doubt, causing all healing abilities to become 75% as effective when used by any enemies within 30 feet of you.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability"
     },
 
@@ -1118,7 +1118,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to strike fiercely, increasing Strength by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Strength by 120.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You order your group to strike fiercely, increasing Strength by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Strength by 120.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability"
     },
 
@@ -1422,7 +1422,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to hold their positions, increasing Toughness by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Toughness by 120.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You order your group to hold their positions, increasing Toughness by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Toughness by 120.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability"
     },
 
@@ -1438,7 +1438,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 24 Action Points and 132 health over 3 seconds any time they defend themselves against an attack.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 24 Action Points and 132 health over 3 seconds any time they defend themselves against an attack.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability"
     },
 
@@ -1534,7 +1534,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You fill your group with purpose, causing all of your groupmates within 100 feet to regain 20 Action Points every 5 seconds. All enemies within 30 feet will lose 20 Action Points every 5 seconds.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You fill your group with purpose, causing all of your groupmates within 100 feet to regain 20 Action Points every 5 seconds. All enemies within 30 feet will lose 20 Action Points every 5 seconds.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability"
     },
 
@@ -1550,7 +1550,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to steady themselves, making it 25% less likely that your groupmates within 100 feet will become set back if they're hit while using an ability. All enemies within 30 feet will be frightened, making it 25% more likely that they'll be set back when hit.<br>The effect will linger for 12 seconds after you stop using this Battle Command.",
+      "description": "You order your group to steady themselves, making it 25% less likely that your groupmates within 100 feet will become set back if they're hit while using an ability. All enemies within 30 feet will be frightened, making it 25% more likely that they'll be set back when hit.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability"
     },
 
