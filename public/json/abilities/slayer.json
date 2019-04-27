@@ -1079,14 +1079,14 @@
       "id": 4030,
       "name": "Precarious Assault",
       "type": "Damaging",
-      "spec": "Path of The Trollslayer",
+      "spec": "Path of The Giantslayer",
       "minrank": "2",
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "A reckless attack which deals 216 damage to your target, but leaves you off-balance. For the next 10 seconds, your chance to be critically hit is increased by 1%. This negative effect stacks up to 5 times.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "A reckless attack which deals 216 damage to your target.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
