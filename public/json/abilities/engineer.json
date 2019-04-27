@@ -1225,12 +1225,12 @@
       "type": "Hex",
       "spec": "Path of The Rifleman",
       "minrank": "1",
-      "cost": "Costs 40 AP",
+      "cost": "13 AP / Sec",
       "range": "80ft range",
-      "incant": "1.0s cast",
-      "cooldown": "10.0s cooldown",
-      "note": "",
-      "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing X Corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer Y Corporeal damage over 10 seconds as the shells burst into flame.",
+      "incant": "Instant cast",
+      "cooldown": "16.0s cooldown",
+      "note": "A barrage of mortar attacks which continously fire at a spot on the ground that you select for up to 6 seconds, dealing 243 Corporeal damage each second to all enemies within 20 feet of that spot. This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
+      "description": "",
       "category": "Ability"
     },
 
