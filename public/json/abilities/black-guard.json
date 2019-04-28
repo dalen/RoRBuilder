@@ -403,22 +403,6 @@
     },
 
     {
-      "image": "23402",
-      "id": 932,
-      "name": "Bulwark",
-      "type": "Healing",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "5ft range",
-      "incant": "15.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "Only usable on Doors",
-      "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "11027",
       "id": 882,
       "name": "Chains of Hatred",
@@ -687,22 +671,6 @@
       "cooldown": "1.5s cooldown",
       "note": "",
       "description": "The Witch King has tasked you with watching over one of your pitiful allies. You gain 5 Hatred whenever an enemy dares to attack your protected ally. <br>This effect can not occur more than once per second.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "23405",
-      "id": 930,
-      "name": "Deflect Oil",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "15.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "",
-      "description": "10% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
 
@@ -1440,22 +1408,6 @@
       "note": "",
       "description": "5% Increased Renown earned when fighting players in Objectives",
       "category": "RvRTactic"
-    },
-
-    {
-      "image": "23413",
-      "id": 931,
-      "name": "Modify War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "5ft range",
-      "incant": "3.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You shield the Ram absorbing 1500 damage over the next 30 seconds.",
-      "category": "Ability"
     },
 
     {

@@ -371,22 +371,6 @@
     },
 
     {
-      "image": "23402",
-      "id": 3787,
-      "name": "Bulwark",
-      "type": "Healing",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "5ft range",
-      "incant": "15.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "Only usable on Doors",
-      "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "04593",
       "id": 3767,
       "name": "Cave-In",
@@ -480,22 +464,6 @@
       "note": "",
       "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
       "category": "TomeTactic"
-    },
-
-    {
-      "image": "23405",
-      "id": 3785,
-      "name": "Deflect Oil",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "",
-      "description": "10% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
-      "category": "Ability"
     },
 
     {
@@ -1008,22 +976,6 @@
       "note": "",
       "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
       "category": "CareerTactic"
-    },
-
-    {
-      "image": "23413",
-      "id": 3786,
-      "name": "Modify War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You shield the Ram absorbing 1500 damage over the next 30 seconds.",
-      "category": "Ability"
     },
 
     {
