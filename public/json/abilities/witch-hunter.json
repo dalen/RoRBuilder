@@ -291,22 +291,6 @@
     },
 
     {
-      "image": "23401",
-      "id": 4401,
-      "name": "Booby Trap",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You booby trap a siege ram, causing the ram to deal 98% of the original damage for the next 10 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "22731",
       "id": 4427,
       "name": "Boon of Persistence",
