@@ -81,7 +81,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An attack which momentarily distracts your enemy, dealing (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage to them. Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
+      "description": "An attack which momentarily distracts your enemy, dealing 134 damage to them. Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
       "category": "Ability"
     },
 
@@ -113,7 +113,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1040 damage to all enemies within 30 feet of both you and your War Lion.",
+      "description": "Deals 800 damage to all enemies within 30 feet of both you and your War Lion.",
       "category": "Morale"
     },
 
@@ -129,7 +129,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Must be at your target's side or rear",
-      "description": "You attack your enemy at a vulnerable spot, dealing (38 + 5/3 * rank) + (0.15 * STR) + (1.5 * DPS) physical damage immediately and inflicting them with an Ailment which deals an additional (40 + 5 * rank) + (0.3 * STR) physical damage over 9 seconds.",
+      "description": "You attack your enemy at a vulnerable spot, dealing 104 damage immediately and inflicting them with an Ailment which deals an additional 225 damage over 9 seconds.",
       "category": "Ability"
     },
 
@@ -273,7 +273,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A sundering blow which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
+      "description": "A sundering blow which deals 134 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
       "category": "Ability"
     },
 
@@ -321,7 +321,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for (10 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage, and your pet strikes its target for (10 + 5/3 * rank) + (0.3 * STR) physical damage. If you are within 35 feet of your pet's target, you will also strike that enemy for (10 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for (10 + 5/3 * rank) + (0.3 * STR) physical damage as well.",
+      "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for 109 damage, and your pet strikes its target for 109 damage. If you are within 35 feet of your pet's target, you will also strike that enemy for 109 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 109 damage as well.",
       "category": "Ability"
     },
 
@@ -337,7 +337,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Target must be below 50% health",
-      "description": "A ruthless attack which deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and will almost always deal critical damage to a wounded foe.",
+      "description": "A ruthless attack which deals 309 damage and will almost always deal critical damage to a wounded foe.",
       "category": "Ability"
     },
 
@@ -385,7 +385,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 15 feet of either one of you and inflicting an Ailment which causes (38 + 1337/3 * rank) + (0.3 * STR) + (1.5 * DPS) Spirit damage over 15 seconds to all affected enemies.",
+      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 15 feet of either one of you and inflicting an Ailment which causes 390 Spirit damage over 15 seconds to all affected enemies.",
       "category": "Ability"
     },
 
@@ -401,7 +401,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 300 damage to your target, and roots them in place for 10 seconds.",
+      "description": "Deals 900 damage to your target, and roots them in place for 10 seconds.",
       "category": "Morale"
     },
 
@@ -449,7 +449,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing (30 + 5 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage. The enemies attack speed is reduced by 20% for the next 10 seconds. Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow.",
+      "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing 209 damage. The enemies attack speed is reduced by 20% for the next 10 seconds. Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow.",
       "category": "Ability"
     },
 
@@ -545,7 +545,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim takes a (34 * rank) ability penalty to armor for 10s.",
+      "description": "You strike at your enemy with a brutal attack which causes 184 damage and can not be defended against. The victim's armor is reduced by 1000 for the next 10 seconds.",
       "category": "Ability"
     },
 
@@ -593,7 +593,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A brutal chop at your enemy which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage.",
+      "description": "A brutal chop at your enemy which deals 134 damage.",
       "category": "Ability"
     },
 
@@ -657,7 +657,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
+      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals 309 Spirit damage.",
       "category": "CareerTactic"
     },
 
@@ -673,7 +673,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be Cursed",
-      "description": "You draw upon your mystical Elven heritage and furiously attack your target, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
+      "description": "You draw upon your mystical Elven heritage and furiously attack your target, dealing 184 Spirit damage.",
       "category": "Ability"
     },
 
@@ -721,7 +721,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A feral attack which deals (20 + 10/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and inspires your groupmates to hunt as a pack. Within the next 5 seconds, each group member within 100 feet will deal an additional (17 + 10/3 * rank) physical damage with their next attack.",
+      "description": "A feral attack which deals 159 damage and inspires your groupmates to hunt as a pack. Within the next 5 seconds, each group member within 100 feet will deal an additional 100 damage with their next attack.",
       "category": "Ability"
     },
 
@@ -769,7 +769,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target and causing (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage wehen you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air.",
+      "description": "You pounce forwards, leaping towards your target and causing 159 damage wehen you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air.",
       "category": "Ability"
     },
 
@@ -849,7 +849,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an enemy's attack, you will strike them back for (38 + 1337/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage which they can not prevent.",
+      "description": "Each time you parry an enemy's attack, you will strike them back for 246 damage which they can not prevent.",
       "category": "CareerTactic"
     },
 
@@ -881,7 +881,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 285 damage over 9 seconds. If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
       "category": "Ability"
     },
 
@@ -897,7 +897,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A broad sweep of your axe which deals (20 + 10/3 * rank) + (0.17 * STR) + (1.5 DPS) physical damage to all enemies in front of you, up to 25 feet away.",
+      "description": "A broad sweep of your axe which deals 134 damage to all enemies in front of you, up to 25 feet away.",
       "category": "Ability"
     },
 
@@ -945,7 +945,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful axe chop which deals (20 + 10/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage. If you are behind the enemy, then this attack will ignore (-7 + 25* rank) armor.",
+      "description": "A powerful axe chop which deals 159 damage. If you are behind the enemy, then this attack will ignore 618 armor.",
       "category": "Ability"
     },
 
@@ -961,7 +961,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Slashing Blade and Sundering Chop will now cause an additional (20 + 1337/3 * rank) + (0.3 * STR) + (1.5 DPS) damage over 3 seconds.",
+      "description": "Slashing Blade and Sundering Chop will now cause an additional 258 damage over 3 seconds.",
       "category": "CareerTactic"
     },
 
@@ -977,7 +977,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Must be at your target's side or rear",
-      "description": "You call forth a small bit of power as you attack your enemy, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and causing all healing that they use within the next 10 seconds to become 50% as effective.",
+      "description": "You call forth a small bit of power as you attack your enemy, dealing 184 damage and causing all healing that they use within the next 10 seconds to become 50% as effective.",
       "category": "Ability"
     },
 
@@ -993,7 +993,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires an active pet",
-      "description": "You command your pet to go for the throat! Your War Lion's next attack within 20 seconds will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage and will Silence its victim, making them unable to use magic for 4 seconds.",
+      "description": "You command your pet to go for the throat! Your War Lion's next attack within 20 seconds will deal an additional 159 damage and will Silence its victim, making them unable to use magic for 4 seconds.",
       "category": "Ability"
     },
 
@@ -1009,7 +1009,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active",
-      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional (20 + 1337/3 * rank) + (0.3 * STR) + (1.5 DPS) damage over 3 seconds.<br><br>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds.",
+      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional 159 damage over 3 seconds.<br><br>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability"
     },
 
@@ -1025,7 +1025,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active",
-      "description": "You train your pet to fight ferociously, increasing its Strength and  Weapon Skill from your Strength and Weapon Skill gained from items and increasing your Toughness by 50 by 5%.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
+      "description": "You train your pet to fight ferociously, increasing its Strength and  Weapon Skill from your Strength and Weapon Skill gained from items and increasing your Toughness by 50.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability"
     },
 
@@ -1057,7 +1057,7 @@
       "incant": "3.0s cast",
       "cooldown": "13.0s cooldown",
       "note": "",
-      "description": "You rapidly spin your axe around for up to 3 seconds, dealing (12 + 5/3 * rank) + (0.04 * STR) + (0.75 * DPS) physical damage twice a second to all enemies within 30 feet. This ability will end if you lose your concentration or run out of action points.",
+      "description": "You rapidly spin your axe around for up to 3 seconds, dealing 131 damage twice a second to all enemies within 30 feet. This ability will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
 
@@ -1073,7 +1073,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires an active pet",
-      "description": "You command your pet to attack wihout mercy! Your War Lion's next attack within 20 seconds will deal an additional xxx physical damage and will knock down its victim for 3 seconds.",
+      "description": "You command your pet to attack wihout mercy! Your War Lion's next attack within 20 seconds will deal an additional 209 physical damage and will knock down its victim for 3 seconds.",
       "category": "Ability"
     },
 
@@ -1153,56 +1153,8 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Baiting Strike will now also increase your chance to disrupt spells by 10% for 15 seconds, and increase your armor by (-7 + 25* rank).",
+      "description": "Baiting Strike will now also increase your chance to disrupt spells by 10% for 15 seconds, and increase your armor by 618.",
       "category": "CareerTactic"
-    },
-
-    {
-      "image": "",
-      "id": 8000,
-      "name": "Class Needs Updated",
-      "type": "Damaging",
-      "spec": "Path of The Hunter",
-      "minrank": "40",
-      "cost": "250 Action Points",
-      "range": "No range",
-      "incant": "Instant Cost",
-      "cooldown": "No cooldown",
-      "note": "This class needs updated",
-      "description": "This ability is a placeholder until someone can update this career.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "",
-      "id": 8001,
-      "name": "Class Needs Updated",
-      "type": "Damaging",
-      "spec": "Path of The Axeman",
-      "minrank": "40",
-      "cost": "250 Action Points",
-      "range": "No range",
-      "incant": "Instant Cost",
-      "cooldown": "No cooldown",
-      "note": "This class needs updated",
-      "description": "This ability is a placeholder until someone can update this career.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "",
-      "id": 8002,
-      "name": "Class Needs Updated",
-      "type": "Damaging",
-      "spec": "Path of The Guardian",
-      "minrank": "40",
-      "cost": "250 Action Points",
-      "range": "No range",
-      "incant": "Instant Cost",
-      "cooldown": "No cooldown",
-      "note": "This class needs updated",
-      "description": "This ability is a placeholder until someone can update this career.",
-      "category": "Ability"
     }
   ]
 }
