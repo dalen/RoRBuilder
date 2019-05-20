@@ -1664,6 +1664,22 @@
       "note": "",
       "description": "You load your rifle with the finest of rounds. Your attacks will ignore 25% of the victim's armor for 12seconds.",
       "category": "Ability"
+    },
+
+    {
+      "image": "abi_dw_explosion01",
+      "id": 2712,
+      "name": "Mortar Round",
+      "type": "Damaging",
+      "spec": "Core Ability",
+      "minrank": "32",
+      "cost": "Rank 2 morale",
+      "range": "100 ft range",
+      "incant": "Instant cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "You fire a mortar at your target, dealing 300 damage to them and everyone within 20 feet every second for 4 seconds.",
+      "category": "Morale"
     }
   ]
 }
