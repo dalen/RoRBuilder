@@ -147,6 +147,22 @@
     },
 
     {
+      "image": "22696",
+      "id": 6050,
+      "name": "Mark of Morathi",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "23",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "You have been blessed by Morathi. Your Autoattack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies.",
+      "category": "CareerTactic"
+    },
+
+    {
       "image": "22725",
       "id": 5666,
       "name": "Apotheosis of Flesh",
