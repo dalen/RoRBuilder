@@ -1245,8 +1245,8 @@
       "range": "30ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Target must be facing away from you<br>Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<br>  1 Blood Lust: 112 damage per hit.<br>  2 Blood Lust: 133 damage per hit.<br>  3 Blood Lust: 155 damage per hit.<br>  4 Blood Lust: 175 damage per hit.<br>  5 Blood Lust: 196 damage per hit.",
+      "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
+      "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack damage will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<br>  1 Blood Lust: 112 damage per hit.<br>  2 Blood Lust: 133 damage per hit.<br>  3 Blood Lust: 155 damage per hit.<br>  4 Blood Lust: 175 damage per hit.<br>  5 Blood Lust: 196 damage per hit.",
       "category": "Ability"
     },
 
