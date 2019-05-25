@@ -1,3 +1,5 @@
+/* global ga */
+
 export function gaEvent(
   category: string | false = false,
   action: string | false = false,
