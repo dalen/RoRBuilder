@@ -1,0 +1,5 @@
+# Always serve index page
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
