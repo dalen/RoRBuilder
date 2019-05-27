@@ -1,62 +1,62 @@
 @import '../values/colours.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .borderRight {
+.borderRight {
   border-right-style: solid;
   border-right-width: 1px;
   border-right-color: var(--color-border);
 }
 
-@media mq-sm-min {
-  :global .borderRight\@sm-min {
+@media screen and (min-width: 768px) {
+  .borderRight\@sm-min {
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: var(--color-border);
   }
 }
 
-:global .borderRight--none {
+.borderRight--none {
   border-right-width: 0;
 }
 
-@media mq-mobile {
-  :global .borderRight--none\@mobile {
+@media screen and (max-width: 480px) {
+  .borderRight--none\@mobile {
     border-right-width: 0;
   }
 }
 
-@media mq-xs {
-  :global .borderRight--none\@xs {
+@media screen and (max-width: 767px) {
+  .borderRight--none\@xs {
     border-right-width: 0;
   }
 }
 
-@media mq-sm {
-  :global .borderRight--none\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .borderRight--none\@sm {
     border-right-width: 0;
   }
 }
 
-@media mq-sm-min {
-  :global .borderRight--none\@sm-min {
+@media screen and (min-width: 768px) {
+  .borderRight--none\@sm-min {
     border-right-width: 0;
   }
 }
 
-@media mq-md {
-  :global .borderRight--none\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .borderRight--none\@md {
     border-right-width: 0;
   }
 }
 
-@media mq-md-min {
-  :global .borderRight--none\@md-min {
+@media screen and (min-width: 992px) {
+  .borderRight--none\@md-min {
     border-right-width: 0;
   }
 }
 
-@media mq-lg {
-  :global .borderRight--none\@lg {
+@media screen and (min-width: 1200px) {
+  .borderRight--none\@lg {
     border-right-width: 0;
   }
 }

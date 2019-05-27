@@ -1,78 +1,78 @@
 @import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .marginTop {
+.marginTop {
   margin-top: var(--spacing);
 }
 
-:global .marginTop--extra-small {
+.marginTop--extra-small {
   margin-top: var(--spacing-extra-small);
 }
 
-:global .marginTop--small {
+.marginTop--small {
   margin-top: var(--spacing-small);
 }
 
-:global .marginTop--medium {
+.marginTop--medium {
   margin-top: var(--spacing-medium);
 }
 
-:global .marginTop--large {
+.marginTop--large {
   margin-top: var(--spacing-large);
 }
 
-:global .marginTop--extra-large {
+.marginTop--extra-large {
   margin-top: var(--spacing-extra-large);
 }
 
-@media mq-mobile {
-  :global .marginTop\@mobile {
+@media screen and (max-width: 480px) {
+  .marginTop\@mobile {
     margin-top: var(--spacing);
   }
 }
 
-:global .marginTop--none {
+.marginTop--none {
   margin-top: 0;
 }
 
-@media mq-mobile {
-  :global .marginTop--none\@mobile {
+@media screen and (max-width: 480px) {
+  .marginTop--none\@mobile {
     margin-top: 0;
   }
 }
 
-@media mq-xs {
-  :global .marginTop--none\@xs {
+@media screen and (max-width: 767px) {
+  .marginTop--none\@xs {
     margin-top: 0;
   }
 }
 
-@media mq-sm {
-  :global .marginTop--none\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .marginTop--none\@sm {
     margin-top: 0;
   }
 }
 
-@media mq-sm-min {
-  :global .marginTop--none\@sm-min {
+@media screen and (min-width: 768px) {
+  .marginTop--none\@sm-min {
     margin-top: 0;
   }
 }
 
-@media mq-md {
-  :global .marginTop--none\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .marginTop--none\@md {
     margin-top: 0;
   }
 }
 
-@media mq-md-min {
-  :global .marginTop--none\@md-min {
+@media screen and (min-width: 992px) {
+  .marginTop--none\@md-min {
     margin-top: 0;
   }
 }
 
-@media mq-lg {
-  :global .marginTop--none\@lg {
+@media screen and (min-width: 1200px) {
+  .marginTop--none\@lg {
     margin-top: 0;
   }
 }

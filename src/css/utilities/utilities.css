@@ -1,13 +1,13 @@
 @import '../values/heights.css';
 
-:global .heightTitle {
+.heightTitle {
   height: var(--height-title);
 }
 
-:global .overflowYHidden {
+.overflowYHidden {
   overflow-y: auto;
 }
 
-:global .heightFull {
+.heightFull {
   height: 100%;
 }

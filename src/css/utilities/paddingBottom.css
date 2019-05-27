@@ -1,78 +1,77 @@
 @import '../values/spacing.css';
-@value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .paddingBottom {
+.paddingBottom {
   padding-bottom: var(--spacing);
 }
 
-:global .paddingBottom--extra-small {
+.paddingBottom--extra-small {
   padding-bottom: var(--spacing-extra-small);
 }
 
-:global .paddingBottom--small {
+.paddingBottom--small {
   padding-bottom: var(--spacing-small);
 }
 
-:global .paddingBottom--medium {
+.paddingBottom--medium {
   padding-bottom: var(--spacing-medium);
 }
 
-:global .paddingBottom--large {
+.paddingBottom--large {
   padding-bottom: var(--spacing-large);
 }
 
-:global .paddingBottom--extra-large {
+.paddingBottom--extra-large {
   padding-bottom: var(--spacing-extra-large);
 }
 
-@media mq-mobile {
-  :global .paddingBottom\@mobile {
+@media creen and (max-width: 480px) {
+  .paddingBottom\@mobile {
     padding-bottom: var(--spacing);
   }
 }
 
-:global .paddingBottom--none {
+.paddingBottom--none {
   padding-bottom: 0;
 }
 
-@media mq-mobile {
-  :global .paddingBottom--none\@mobile {
+@media creen and (max-width: 480px) {
+  .paddingBottom--none\@mobile {
     padding-bottom: 0;
   }
 }
 
-@media mq-xs {
-  :global .paddingBottom--none\@xs {
+@media screen and (max-width: 767px) {
+  .paddingBottom--none\@xs {
     padding-bottom: 0;
   }
 }
 
-@media mq-sm {
-  :global .paddingBottom--none\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .paddingBottom--none\@sm {
     padding-bottom: 0;
   }
 }
 
-@media mq-sm-min {
-  :global .paddingBottom--none\@sm-min {
+@media screen and (min-width: 768px) {
+  .paddingBottom--none\@sm-min {
     padding-bottom: 0;
   }
 }
 
-@media mq-md {
-  :global .paddingBottom--none\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .paddingBottom--none\@md {
     padding-bottom: 0;
   }
 }
 
-@media mq-md-min {
-  :global .paddingBottom--none\@md-min {
+@media screen and (min-width: 992px) {
+  .paddingBottom--none\@md-min {
     padding-bottom: 0;
   }
 }
 
-@media mq-lg {
-  :global .paddingBottom--none\@lg {
+@media screen and (min-width: 1200px) {
+  .paddingBottom--none\@lg {
     padding-bottom: 0;
   }
 }

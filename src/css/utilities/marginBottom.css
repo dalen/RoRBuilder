@@ -1,0 +1,72 @@
+@import '../values/spacing.css';
+@value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
+
+.marginBottom {
+  margin-bottom: var(--spacing);
+}
+
+.marginBottom--extra-small {
+  margin-bottom: var(--spacing-extra-small);
+}
+
+.marginBottom--small {
+  margin-bottom: var(--spacing-small);
+}
+
+.marginBottom--medium {
+  margin-bottom: var(--spacing-medium);
+}
+
+.marginBottom--large {
+  margin-bottom: var(--spacing-large);
+}
+
+.marginBottom--extra-large {
+  margin-bottom: var(--spacing-extra-large);
+}
+
+.marginBottom--none {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .marginBottom--none\@mobile {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .marginBottom--none\@xs {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .marginBottom--none\@sm {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .marginBottom--none\@sm-min {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .marginBottom--none\@md {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .marginBottom--none\@md-min {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .marginBottom--none\@lg {
+    margin-bottom: 0;
+  }
+}

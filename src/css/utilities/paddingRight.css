@@ -1,78 +1,77 @@
 @import '../values/spacing.css';
-@value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .paddingRight {
+.paddingRight {
   padding-right: var(--spacing);
 }
 
-:global .paddingRight--extra-small {
+.paddingRight--extra-small {
   padding-right: var(--spacing-extra-small);
 }
 
-:global .paddingRight--small {
+.paddingRight--small {
   padding-right: var(--spacing-small);
 }
 
-:global .paddingRight--medium {
+.paddingRight--medium {
   padding-right: var(--spacing-medium);
 }
 
-:global .paddingRight--large {
+.paddingRight--large {
   padding-right: var(--spacing-large);
 }
 
-:global .paddingRight--extra-large {
+.paddingRight--extra-large {
   padding-right: var(--spacing-extra-large);
 }
 
-@media mq-mobile {
-  :global .paddingRight\@mobile {
+@media screen and (max-width: 480px) {
+  .paddingRight\@mobile {
     padding-right: var(--spacing);
   }
 }
 
-:global .paddingRight--none {
+.paddingRight--none {
   padding-right: 0;
 }
 
-@media mq-mobile {
-  :global .paddingRight--none\@mobile {
+@media screen and (max-width: 480px) {
+  .paddingRight--none\@mobile {
     padding-right: 0;
   }
 }
 
-@media mq-xs {
-  :global .paddingRight--none\@xs {
+@media screen and (max-width: 767px) {
+  .paddingRight--none\@xs {
     padding-right: 0;
   }
 }
 
-@media mq-sm {
-  :global .paddingRight--none\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .paddingRight--none\@sm {
     padding-right: 0;
   }
 }
 
-@media mq-sm-min {
-  :global .paddingRight--none\@sm-min {
+@media screen and (min-width: 768px) {
+  .paddingRight--none\@sm-min {
     padding-right: 0;
   }
 }
 
-@media mq-md {
-  :global .paddingRight--none\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .paddingRight--none\@md {
     padding-right: 0;
   }
 }
 
-@media mq-md-min {
-  :global .paddingRight--none\@md-min {
+@media screen and (min-width: 992px) {
+  .paddingRight--none\@md-min {
     padding-right: 0;
   }
 }
 
-@media mq-lg {
-  :global .paddingRight--none\@lg {
+@media screen and (min-width: 1200px) {
+  .paddingRight--none\@lg {
     padding-right: 0;
   }
 }

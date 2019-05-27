@@ -1,78 +1,78 @@
 @import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .paddingTop {
+.paddingTop {
   padding-top: var(--spacing);
 }
 
-:global .paddingTop--extra-small {
+.paddingTop--extra-small {
   padding-top: var(--spacing-extra-small);
 }
 
-:global .paddingTop--small {
+.paddingTop--small {
   padding-top: var(--spacing-small);
 }
 
-:global .paddingTop--medium {
+.paddingTop--medium {
   padding-top: var(--spacing-medium);
 }
 
-:global .paddingTop--large {
+.paddingTop--large {
   padding-top: var(--spacing-large);
 }
 
-:global .paddingTop--extra-large {
+.paddingTop--extra-large {
   padding-top: var(--spacing-extra-large);
 }
 
-@media mq-mobile {
-  :global .paddingTop\@mobile {
+@media screen and (max-width: 480px) {
+  .paddingTop\@mobile {
     padding-top: var(--spacing);
   }
 }
 
-:global .paddingTop--none {
+.paddingTop--none {
   padding-top: 0;
 }
 
-@media mq-mobile {
-  :global .paddingTop--none\@mobile {
+@media screen and (max-width: 480px) {
+  .paddingTop--none\@mobile {
     padding-top: 0;
   }
 }
 
-@media mq-xs {
-  :global .paddingTop--none\@xs {
+@media screen and (max-width: 767px) {
+  .paddingTop--none\@xs {
     padding-top: 0;
   }
 }
 
-@media mq-sm {
-  :global .paddingTop--none\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .paddingTop--none\@sm {
     padding-top: 0;
   }
 }
 
-@media mq-sm-min {
-  :global .paddingTop--none\@sm-min {
+@media screen and (min-width: 768px) {
+  .paddingTop--none\@sm-min {
     padding-top: 0;
   }
 }
 
-@media mq-md {
-  :global .paddingTop--none\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .paddingTop--none\@md {
     padding-top: 0;
   }
 }
 
-@media mq-md-min {
-  :global .paddingTop--none\@md-min {
+@media screen and (min-width: 992px) {
+  .paddingTop--none\@md-min {
     padding-top: 0;
   }
 }
 
-@media mq-lg {
-  :global .paddingTop--none\@lg {
+@media screen and (min-width: 1200px) {
+  .paddingTop--none\@lg {
     padding-top: 0;
   }
 }
