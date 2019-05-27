@@ -1,70 +1,70 @@
 @import '../values/colours.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .borderBottom {
+.borderBottom {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: var(--color-border);
 }
 
-@media mq-mobile {
-  :global .borderBottom\@mobile {
+@media screen and (max-width: 480px) {
+  .borderBottom\@mobile {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: var(--color-border);
   }
 }
 
-@media mq-sm-min {
-  :global .borderBottom\@sm-min {
+@media screen and (min-width: 768px) {
+  .borderBottom\@sm-min {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: var(--color-border);
   }
 }
 
-:global .borderBottom--none {
+.borderBottom--none {
   border-bottom-width: 0;
 }
 
-@media mq-mobile {
-  :global .borderBottom--none\@mobile {
+@media screen and (max-width: 480px) {
+  .borderBottom--none\@mobile {
     border-bottom-width: 0;
   }
 }
 
-@media mq-xs {
-  :global .borderBottom--none\@xs {
+@media screen and (max-width: 767px) {
+  .borderBottom--none\@xs {
     border-bottom-width: 0;
   }
 }
 
-@media mq-sm {
-  :global .borderBottom--none\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .borderBottom--none\@sm {
     border-bottom-width: 0;
   }
 }
 
-@media mq-sm-min {
-  :global .borderBottom--none\@sm-min {
+@media screen and (min-width: 768px) {
+  .borderBottom--none\@sm-min {
     border-bottom-width: 0;
   }
 }
 
-@media mq-md {
-  :global .borderBottom--none\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .borderBottom--none\@md {
     border-bottom-width: 0;
   }
 }
 
-@media mq-md-min {
-  :global .borderBottom--none\@md-min {
+@media screen and (min-width: 992px) {
+  .borderBottom--none\@md-min {
     border-bottom-width: 0;
   }
 }
 
-@media mq-lg {
-  :global .borderBottom--none\@lg {
+@media screen and (min-width: 1200px) {
+  .borderBottom--none\@lg {
     border-bottom-width: 0;
   }
 }

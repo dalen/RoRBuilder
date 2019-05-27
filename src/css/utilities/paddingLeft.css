@@ -1,78 +1,77 @@
 @import '../values/spacing.css';
-@value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .paddingLeft {
+.paddingLeft {
   padding-left: var(--spacing);
 }
 
-:global .paddingLeft--extra-small {
+.paddingLeft--extra-small {
   padding-left: var(--spacing-extra-small);
 }
 
-:global .paddingLeft--small {
+.paddingLeft--small {
   padding-left: var(--spacing-small);
 }
 
-:global .paddingLeft--medium {
+.paddingLeft--medium {
   padding-left: var(--spacing-medium);
 }
 
-:global .paddingLeft--large {
+.paddingLeft--large {
   padding-left: var(--spacing-large);
 }
 
-:global .paddingLeft--extra-large {
+.paddingLeft--extra-large {
   padding-left: var(--spacing-extra-large);
 }
 
-@media mq-mobile {
-  :global .paddingLeft\@mobile {
+@media screen and (max-width: 480px) {
+  .paddingLeft\@mobile {
     padding-left: var(--spacing);
   }
 }
 
-:global .paddingLeft--none {
+.paddingLeft--none {
   padding-left: 0;
 }
 
-@media mq-mobile {
-  :global .paddingLeft--none\@mobile {
+@media screen and (max-width: 480px) {
+  .paddingLeft--none\@mobile {
     padding-left: 0;
   }
 }
 
-@media mq-xs {
-  :global .paddingLeft--none\@xs {
+@media screen and (max-width: 767px) {
+  .paddingLeft--none\@xs {
     padding-left: 0;
   }
 }
 
-@media mq-sm {
-  :global .paddingLeft--none\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .paddingLeft--none\@sm {
     padding-left: 0;
   }
 }
 
-@media mq-sm-min {
-  :global .paddingLeft--none\@sm-min {
+@media screen and (min-width: 768px) {
+  .paddingLeft--none\@sm-min {
     padding-left: 0;
   }
 }
 
-@media mq-md {
-  :global .paddingLeft--none\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .paddingLeft--none\@md {
     padding-left: 0;
   }
 }
 
-@media mq-md-min {
-  :global .paddingLeft--none\@md-min {
+@media screen and (min-width: 992px) {
+  .paddingLeft--none\@md-min {
     padding-left: 0;
   }
 }
 
-@media mq-lg {
-  :global .paddingLeft--none\@lg {
+@media screen and (min-width: 1200px) {
+  .paddingLeft--none\@lg {
     padding-left: 0;
   }
 }

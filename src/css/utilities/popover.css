@@ -9,7 +9,7 @@
   --arrow-size: 1rem;
 }
 
-:global .popover {
+.popover {
   box-sizing: border-box;
   display: none;
   position: absolute;
@@ -23,8 +23,8 @@
   transition: opacity 0.2s linear;
 }
 
-@media mq-mobile {
-  :global .popover {
+@media screen and (max-width: 480px) {
+  .popover {
     position: fixed;
     width: calc(100% - 2rem);
     top: 1rem !important;
@@ -34,30 +34,30 @@
   }
 }
 
-:global .popover--active {
+.popover--active {
   display: block;
 }
 
-:global .popover--active.popover--fade {
+.popover--active.popover--fade {
   opacity: 1;
 }
 
-:global .popover__parent {
+.popover__parent {
   position: relative;
 }
 
-@media mq-mobile {
-  :global .popover__parent {
+@media screen and (max-width: 480px) {
+  .popover__parent {
     position: static;
   }
 }
 
-:global .popover__footer {
+.popover__footer {
   display: none;
 }
 
-@media mq-mobile {
-  :global .popover__footer {
+@media screen and (max-width: 480px) {
+  .popover__footer {
     display: block;
   }
 }
@@ -65,24 +65,24 @@
 /* popover position coordinates
   * top and bottom alignment requires JS help for 'top'/'bottom' property */
 
-:global .popover--top,
-:global .popover--bottom {
+.popover--top,
+.popover--bottom {
   left: calc(50% - (var(--width-popover) / 2));
 }
 
-:global .popover--right {
+.popover--right {
   right: calc(
     (var(--width-popover) * -1) - var(--spacing-popover) - var(--arrow-size)
   );
 }
 
-:global .popover--left {
+.popover--left {
   left: calc(
     (var(--width-popover) * -1) - var(--spacing-popover) - var(--arrow-size)
   );
 }
 
-:global .popover--top:before {
+.popover--top:before {
   border-left: var(--arrow-size) solid transparent;
   border-right: var(--arrow-size) solid transparent;
   border-top: var(--arrow-size) solid var(--color-popover-background);
@@ -90,7 +90,7 @@
   left: calc(50% - var(--arrow-size));
 }
 
-:global .popover--bottom:before {
+.popover--bottom:before {
   border-left: var(--arrow-size) solid transparent;
   border-right: var(--arrow-size) solid transparent;
   border-bottom: var(--arrow-size) solid var(--color-popover-background);
@@ -98,7 +98,7 @@
   left: calc(50% - var(--arrow-size));
 }
 
-:global .popover--left:before {
+.popover--left:before {
   border-top: var(--arrow-size) solid transparent;
   border-bottom: var(--arrow-size) solid transparent;
   border-left: var(--arrow-size) solid var(--color-popover-background);
@@ -106,7 +106,7 @@
   right: calc(var(--arrow-size) * -1);
 }
 
-:global .popover--right:before {
+.popover--right:before {
   border-top: var(--arrow-size) solid transparent;
   border-bottom: var(--arrow-size) solid transparent;
   border-right: var(--arrow-size) solid var(--color-popover-background);
@@ -116,7 +116,7 @@
 
 /* "arrow" (i.e. .popover__arrow) coordinates */
 
-:global .popover:before {
+.popover:before {
   content: ' ';
   position: absolute;
   width: 0;
@@ -125,8 +125,8 @@
   line-height: 0;
 }
 
-@media mq-mobile {
-  :global .popover:before {
+@media screen and (max-width: 480px) {
+  .popover:before {
     border-top: 0;
     border-right: 0;
     border-bottom: 0;

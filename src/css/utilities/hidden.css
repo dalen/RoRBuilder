@@ -1,47 +1,47 @@
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .hidden {
+.hidden {
   display: none !important;
 }
 
-@media mq-mobile {
-  :global .hidden\@mobile {
+@media screen and (max-width: 480px) {
+  .hidden\@mobile {
     display: none !important;
   }
 }
 
-@media mq-xs {
-  :global .hidden\@xs {
+@media screen and (max-width: 767px) {
+  .hidden\@xs {
     display: none !important;
   }
 }
 
-@media mq-sm {
-  :global .hidden\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .hidden\@sm {
     display: none !important;
   }
 }
 
-@media mq-sm-min {
-  :global .hidden\@sm-min {
+@media screen and (min-width: 768px) {
+  .hidden\@sm-min {
     display: none !important;
   }
 }
 
-@media mq-md {
-  :global .hidden\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .hidden\@md {
     display: none !important;
   }
 }
 
-@media mq-md-min {
-  :global .hidden\@md-min {
+@media screen and (min-width: 992px) {
+  .hidden\@md-min {
     display: none !important;
   }
 }
 
-@media mq-lg {
-  :global .hidden\@lg {
+@media screen and (min-width: 1200px) {
+  .hidden\@lg {
     display: none !important;
   }
 }

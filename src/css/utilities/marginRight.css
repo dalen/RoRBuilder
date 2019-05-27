@@ -1,102 +1,102 @@
 @import '../values/spacing.css';
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .marginRight {
+.marginRight {
   margin-right: var(--spacing);
 }
 
-:global .marginRight--extra-small {
+.marginRight--extra-small {
   margin-right: var(--spacing-extra-small);
 }
 
-:global .marginRight--small {
+.marginRight--small {
   margin-right: var(--spacing-small);
 }
 
-@media mq-mobile {
-  :global .marginRight--small\@mobile {
+@media screen and (max-width: 480px) {
+  .marginRight--small\@mobile {
     margin-right: var(--spacing-small);
   }
 }
 
-:global .marginRight--medium {
+.marginRight--medium {
   margin-right: var(--spacing-medium);
 }
 
-:global .marginRight--large {
+.marginRight--large {
   margin-right: var(--spacing-large);
 }
 
-@media mq-mobile {
-  :global .marginRight--large\@mobile {
+@media screen and (max-width: 480px) {
+  .marginRight--large\@mobile {
     margin-right: var(--spacing-large);
   }
 }
 
-:global .marginRight--extra-large {
+.marginRight--extra-large {
   margin-right: var(--spacing-extra-large);
 }
 
-@media mq-mobile {
-  :global .marginRight\@mobile {
+@media screen and (max-width: 480px) {
+  .marginRight\@mobile {
     margin-right: var(--spacing);
   }
 }
 
-@media mq-sm-min {
-  :global .marginRight\@sm-min {
+@media screen and (min-width: 768px) {
+  .marginRight\@sm-min {
     margin-right: var(--spacing);
   }
 }
 
-@media mq-md-min {
-  :global .marginRight\@md-min {
+@media screen and (min-width: 992px) {
+  .marginRight\@md-min {
     margin-right: var(--spacing);
   }
 }
 
-:global .marginRight--none {
+.marginRight--none {
   margin-right: 0;
 }
 
-@media mq-mobile {
-  :global .marginRight--none\@mobile {
+@media screen and (max-width: 480px) {
+  .marginRight--none\@mobile {
     margin-right: 0;
   }
 }
 
-@media mq-xs {
-  :global .marginRight--none\@xs {
+@media screen and (max-width: 767px) {
+  .marginRight--none\@xs {
     margin-right: 0;
   }
 }
 
-@media mq-sm {
-  :global .marginRight--none\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .marginRight--none\@sm {
     margin-right: 0;
   }
 }
 
-@media mq-sm-min {
-  :global .marginRight--none\@sm-min {
+@media screen and (min-width: 768px) {
+  .marginRight--none\@sm-min {
     margin-right: 0;
   }
 }
 
-@media mq-md {
-  :global .marginRight--none\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .marginRight--none\@md {
     margin-right: 0;
   }
 }
 
-@media mq-md-min {
-  :global .marginRight--none\@md-min {
+@media screen and (min-width: 992px) {
+  .marginRight--none\@md-min {
     margin-right: 0;
   }
 }
 
-@media mq-lg {
-  :global .marginRight--none\@lg {
+@media screen and (min-width: 1200px) {
+  .marginRight--none\@lg {
     margin-right: 0;
   }
 }

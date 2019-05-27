@@ -1,53 +1,53 @@
 @value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
 
-:global .visible\@mobile,
-:global .visible\@xs,
-:global .visible\@sm,
-:global .visible\@sm-min,
-:global .visible\@md,
-:global .visible\@md-min,
-:global .visible\@lg {
+.visible\@mobile,
+.visible\@xs,
+.visible\@sm,
+.visible\@sm-min,
+.visible\@md,
+.visible\@md-min,
+.visible\@lg {
   display: none !important;
 }
 
-@media mq-mobile {
-  :global .visible\@mobile {
+@media screen and (max-width: 480px) {
+  .visible\@mobile {
     display: block !important;
   }
 }
 
-@media mq-xs {
-  :global .visible\@xs {
+@media screen and (max-width: 767px) {
+  .visible\@xs {
     display: block !important;
   }
 }
 
-@media mq-sm {
-  :global .visible\@sm {
+@media screen and (min-width: 768px) and (max-width: 767px) {
+  .visible\@sm {
     display: block !important;
   }
 }
 
-@media mq-sm-min {
-  :global .visible\@sm-min {
+@media screen and (min-width: 768px) {
+  .visible\@sm-min {
     display: block !important;
   }
 }
 
-@media mq-md {
-  :global .visible\@md {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .visible\@md {
     display: block !important;
   }
 }
 
-@media mq-md-min {
-  :global .visible\@md-min {
+@media screen and (min-width: 992px) {
+  .visible\@md-min {
     display: block !important;
   }
 }
 
-@media mq-lg {
-  :global .visible\@lg {
+@media screen and (min-width: 1200px) {
+  .visible\@lg {
     display: block !important;
   }
 }

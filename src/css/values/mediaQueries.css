@@ -1,5 +1,3 @@
-
-
 @value breakpoint-xs: 480px;
 @value breakpoint-sm: 768px;
 @value breakpoint-md: 992px;
@@ -15,3 +13,13 @@
 @value mq-md: screen and (min-width: breakpoint-md) and (max-width: breakpoint-md-max);
 @value mq-md-min: screen and (min-width: breakpoint-md);
 @value mq-lg: screen and (min-width: breakpoint-lg);
+
+/*
+@value mq-mobile: screen and (max-width: 480px);
+@value mq-xs: screen and (max-width: 767px);
+@value mq-sm: screen and (min-width: 768px) and (max-width: 767px);
+@value mq-sm-min: screen and (min-width: 768px);
+@value mq-md: screen and (min-width: 992px) and (max-width: 1199px);
+@value mq-md-min: screen and (min-width: 992px);
+@value mq-lg: screen and (min-width: 1200px);
+*/
