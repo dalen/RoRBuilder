@@ -24,7 +24,7 @@
   padding-right: var(--spacing-extra-large);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .paddingRight\@mobile {
     padding-right: var(--spacing);
   }
@@ -34,43 +34,43 @@
   padding-right: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .paddingRight--none\@mobile {
     padding-right: 0;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (width < 768px) {
   .paddingRight--none\@xs {
     padding-right: 0;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 767px) {
+@media screen and (768px <= width < 992px) {
   .paddingRight--none\@sm {
     padding-right: 0;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
   .paddingRight--none\@sm-min {
     padding-right: 0;
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (992px <= width < 1200px) {
   .paddingRight--none\@md {
     padding-right: 0;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (width >= 992px) {
   .paddingRight--none\@md-min {
     padding-right: 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (width >= 1200px) {
   .paddingRight--none\@lg {
     padding-right: 0;
   }

@@ -190,7 +190,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .grid-col-1\@mobile,
   .grid-col-1-1\@mobile,
   .grid-col-1-2\@mobile,
@@ -378,7 +378,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (width < 768px) {
   .grid-col-1\@xs,
   .grid-col-1-1\@xs,
   .grid-col-1-2\@xs,
@@ -566,7 +566,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 767px) {
+@media screen and (768px <= width < 992px) {
   .grid-col-1\@sm,
   .grid-col-1-1\@sm,
   .grid-col-1-2\@sm,
@@ -754,7 +754,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
   .grid-col-1\@sm-min,
   .grid-col-1-1\@sm-min,
   .grid-col-1-2\@sm-min,
@@ -942,7 +942,7 @@
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (992px <= width < 1200px) {
   .grid-col-1\@md,
   .grid-col-1-1\@md,
   .grid-col-1-2\@md,
@@ -1130,7 +1130,7 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (width >= 992px) {
   .grid-col-1\@md-min,
   .grid-col-1-1\@md-min,
   .grid-col-1-2\@md-min,
@@ -1318,7 +1318,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (width >= 1200px) {
   .grid-col-1\@lg,
   .grid-col-1-1\@lg,
   .grid-col-1-2\@lg,

@@ -23,7 +23,7 @@
   transition: opacity 0.2s linear;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .popover {
     position: fixed;
     width: calc(100% - 2rem);
@@ -46,7 +46,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .popover__parent {
     position: static;
   }
@@ -56,7 +56,7 @@
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .popover__footer {
     display: block;
   }
@@ -125,7 +125,7 @@
   line-height: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .popover:before {
     border-top: 0;
     border-right: 0;

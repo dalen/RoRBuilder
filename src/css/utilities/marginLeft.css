@@ -25,19 +25,19 @@
   margin-left: var(--spacing-extra-large);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .marginLeft\@mobile {
     margin-left: var(--spacing);
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
   .marginLeft\@sm-min {
     margin-left: var(--spacing);
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (width >= 992px) {
   .marginLeft\@md-min {
     margin-left: var(--spacing);
   }
@@ -47,43 +47,43 @@
   margin-left: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .marginLeft--none\@mobile {
     margin-left: 0;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (width < 768px) {
   .marginLeft--none\@xs {
     margin-left: 0;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 767px) {
+@media screen and (768px <= width < 992px) {
   .marginLeft--none\@sm {
     margin-left: 0;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
   .marginLeft--none\@sm-min {
     margin-left: 0;
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (992px <= width < 1200px) {
   .marginLeft--none\@md {
     margin-left: 0;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (width >= 992px) {
   .marginLeft--none\@md-min {
     margin-left: 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (width >= 1200px) {
   .marginLeft--none\@lg {
     margin-left: 0;
   }

@@ -2,24 +2,21 @@
 @value breakpoint-sm: 768px;
 @value breakpoint-md: 992px;
 @value breakpoint-lg: 1200px;
-@value breakpoint-xs-max: 767px;
-@value breakpoint-sm-max: 991px;
-@value breakpoint-md-max: 1199px;
 
-@value mq-mobile: screen and (max-width: breakpoint-xs);
-@value mq-xs: screen and (max-width: breakpoint-xs-max);
-@value mq-sm: screen and (min-width: breakpoint-sm) and (max-width: breakpoint-sm-max);
-@value mq-sm-min: screen and (min-width: breakpoint-sm);
-@value mq-md: screen and (min-width: breakpoint-md) and (max-width: breakpoint-md-max);
-@value mq-md-min: screen and (min-width: breakpoint-md);
-@value mq-lg: screen and (min-width: breakpoint-lg);
+@value mq-mobile: screen and (width < breakpoint-xs);
+@value mq-xs: screen and (width < breakpoint-sm);
+@value mq-sm: screen and (breakpoint-sm <= width < breakpoint-md);
+@value mq-sm-min: screen and (width >= breakpoint-sm);
+@value mq-md: screen and (breakpoint-md <= width < breakpoint-lg);
+@value mq-md-min: screen and (width >= breakpoint-md);
+@value mq-lg: screen and (width => breakpoint-lg);
 
 /*
-@value mq-mobile: screen and (max-width: 480px);
-@value mq-xs: screen and (max-width: 767px);
-@value mq-sm: screen and (min-width: 768px) and (max-width: 767px);
-@value mq-sm-min: screen and (min-width: 768px);
-@value mq-md: screen and (min-width: 992px) and (max-width: 1199px);
-@value mq-md-min: screen and (min-width: 992px);
-@value mq-lg: screen and (min-width: 1200px);
+@value mq-mobile: screen and (width < 480px);
+@value mq-xs: screen and (width < 768px);
+@value mq-sm: screen and (768px <= width < 992px);
+@value mq-sm-min: screen and (width >= 768px);
+@value mq-md: screen and (992px <= width < 1200px);
+@value mq-md-min: screen and (width >= 992px);
+@value mq-lg: screen and (width => 1200px);
 */

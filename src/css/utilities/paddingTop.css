@@ -25,7 +25,7 @@
   padding-top: var(--spacing-extra-large);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .paddingTop\@mobile {
     padding-top: var(--spacing);
   }
@@ -35,43 +35,43 @@
   padding-top: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .paddingTop--none\@mobile {
     padding-top: 0;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (width < 768px) {
   .paddingTop--none\@xs {
     padding-top: 0;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 767px) {
+@media screen and (768px <= width < 992px) {
   .paddingTop--none\@sm {
     padding-top: 0;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
   .paddingTop--none\@sm-min {
     padding-top: 0;
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (992px <= width < 1200px) {
   .paddingTop--none\@md {
     padding-top: 0;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (width >= 992px) {
   .paddingTop--none\@md-min {
     padding-top: 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (width >= 1200px) {
   .paddingTop--none\@lg {
     padding-top: 0;
   }

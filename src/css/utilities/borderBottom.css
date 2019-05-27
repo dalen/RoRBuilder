@@ -7,7 +7,7 @@
   border-bottom-color: var(--color-border);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .borderBottom\@mobile {
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
   .borderBottom\@sm-min {
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -27,43 +27,43 @@
   border-bottom-width: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width < 480px) {
   .borderBottom--none\@mobile {
     border-bottom-width: 0;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (width < 768px) {
   .borderBottom--none\@xs {
     border-bottom-width: 0;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 767px) {
+@media screen and (768px <= width < 992px) {
   .borderBottom--none\@sm {
     border-bottom-width: 0;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
   .borderBottom--none\@sm-min {
     border-bottom-width: 0;
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (992px <= width < 1200px) {
   .borderBottom--none\@md {
     border-bottom-width: 0;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (width >= 992px) {
   .borderBottom--none\@md-min {
     border-bottom-width: 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (width >= 1200px) {
   .borderBottom--none\@lg {
     border-bottom-width: 0;
   }
