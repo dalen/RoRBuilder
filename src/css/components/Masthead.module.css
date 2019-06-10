@@ -1,7 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
 @import '../values/fontSizes.css';
-@value mq-mobile, mq-sm-min from "../values/mediaQueries.css";
 
 :root {
   --shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);

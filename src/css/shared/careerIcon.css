@@ -1,6 +1,5 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
-@value mq-mobile from "../values/mediaQueries.css";
 
 .careerIcon {
   width: 2.8rem;

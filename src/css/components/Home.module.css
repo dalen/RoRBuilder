@@ -1,7 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
 @import '../values/fontSizes.css';
-@value mq-mobile, mq-sm-min, mq-md-min from "../values/mediaQueries.css";
 
 .wrapper {
   height: 100vh;

@@ -1,6 +1,5 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
-@value mq-mobile, mq-md-min from "../values/mediaQueries.css";
 
 .modal {
   display: none;

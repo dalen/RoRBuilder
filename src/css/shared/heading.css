@@ -1,7 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
 @import '../values/fontSizes.css';
-@value mq-mobile from "../values/mediaQueries.css";
 
 .heading {
   color: var(--color-text-secondary);
