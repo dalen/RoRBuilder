@@ -1,7 +1,6 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
 @import '../values/fontSizes.css';
-@value mq-md-min from "../values/mediaQueries.css";
 
 .container {
   composes: box from '../shared/box.css';
