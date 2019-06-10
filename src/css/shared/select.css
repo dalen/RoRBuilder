@@ -2,7 +2,6 @@
 @import '../values/colours.css';
 @import '../values/fontSizes.css';
 @import '../values/heights.css';
-@value mq-mobile from "../values/mediaQueries.css";
 
 .select {
   display: flex;
@@ -14,7 +13,7 @@
   font-size: var(--font-size-3);
   margin-right: var(--spacing);
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .selectLabel {
     font-size: var(--font-size-2);
   }

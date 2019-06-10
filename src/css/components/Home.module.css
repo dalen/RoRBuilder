@@ -15,12 +15,12 @@
   background-color: var(--color-base-1);
   box-shadow: 0px 0px 0.5rem 0.2rem rgba(0, 0, 0, 0.3);
 }
-@media mq-sm-min {
+@media screen and (width >= 768px) {
   .container {
     width: 75rem;
   }
 }
-@media mq-md-min {
+@media screen and (width >= 992px) {
   .container {
     width: 95rem;
   }
@@ -29,7 +29,7 @@
   position: relative;
   z-index: 20;
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .copy {
     z-index: auto;
   }

@@ -7,7 +7,7 @@
   height: 2.8rem;
   margin-right: var(--spacing-small);
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .careerIcon {
     width: 2.4rem;
     height: 2.4rem;

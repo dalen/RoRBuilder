@@ -1,6 +1,5 @@
 @import '../values/spacing.css';
 @import '../values/colours.css';
-@value mq-mobile from "../values/mediaQueries.css";
 
 .container {
   composes: box from '../shared/box.css';
@@ -11,7 +10,7 @@
 .moraleContainer {
   display: flex;
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .moraleContainer {
     display: block;
   }
@@ -23,7 +22,7 @@
   border-right: 1px solid var(--color-base-6);
   padding-left: var(--spacing-small);
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .morale {
     padding-left: 0;
     padding-bottom: var(--spacing);

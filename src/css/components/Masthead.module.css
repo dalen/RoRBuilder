@@ -18,7 +18,7 @@
   transition: all 500ms ease;
   border-bottom: 1px solid var(--color-base-1);
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .masthead {
     z-index: auto;
     height: 25rem;
@@ -28,7 +28,7 @@
   composes: masthead;
   height: 70rem;
 }
-@media mq-sm-min {
+@media screen and (width >= 768px) {
   .mastheadActive {
     height: 55rem;
   }
@@ -45,7 +45,7 @@
   transition: all 500ms ease;
   color: var(--color-text-primary);
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .mastheadTitle {
     font-size: 4rem;
     margin-right: var(--spacing);
@@ -62,7 +62,7 @@
   text-align: center;
   text-shadow: var(--shadow);
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .mastheadSubtitle {
     font-size: 1.6rem;
   }
@@ -145,7 +145,7 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
-@media mq-sm-min {
+@media screen and (width >= 768px) {
   .careersFaction {
     flex-direction: row;
   }
@@ -155,7 +155,7 @@
   margin-bottom: var(--spacing-medium);
   flex-grow: 1;
 }
-@media mq-sm-min {
+@media screen and (width >= 768px) {
   .careersRace {
     flex-basis: 50%;
   }

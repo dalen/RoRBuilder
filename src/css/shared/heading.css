@@ -33,7 +33,7 @@
   font-size: var(--font-size-5);
   color: var(--color-text-primary);
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .headingCareer {
     font-size: var(--font-size-4);
   }

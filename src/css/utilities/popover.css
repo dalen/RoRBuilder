@@ -1,5 +1,4 @@
 @import '../values/colours.css';
-@value mq-mobile from "../values/mediaQueries.css";
 
 :root {
   --width-popover: 35rem;

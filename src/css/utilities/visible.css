@@ -1,5 +1,3 @@
-@value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "../values/mediaQueries.css";
-
 .visible\@mobile,
 .visible\@xs,
 .visible\@sm,

@@ -1,3 +1,4 @@
+/*
 @value breakpoint-xs: 480px;
 @value breakpoint-sm: 768px;
 @value breakpoint-md: 992px;
@@ -11,7 +12,6 @@
 @value mq-md-min: screen and (width >= breakpoint-md);
 @value mq-lg: screen and (width => breakpoint-lg);
 
-/*
 @value mq-mobile: screen and (width < 480px);
 @value mq-xs: screen and (width < 768px);
 @value mq-sm: screen and (768px <= width < 992px);

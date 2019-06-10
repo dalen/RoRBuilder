@@ -18,7 +18,7 @@
   font-weight: 300;
   flex-wrap: wrap;
 }
-@media mq-md-min {
+@media screen and (width >= 992px) {
   .item {
     flex-wrap: nowrap;
   }
@@ -42,7 +42,7 @@
 .itemText a:hover {
   text-decoration: none;
 }
-@media mq-md-min {
+@media screen and (width >= 992px) {
   .itemText {
     width: auto;
     margin-top: 0;

@@ -21,7 +21,7 @@
   padding-bottom: var(--spacing-small);
   padding-left: var(--spacing-small);
 }
-@media mq-sm-min {
+@media screen and (width >= 768px) {
   .button {
     padding-right: var(--spacing);
     padding-left: var(--spacing);
@@ -63,7 +63,7 @@
   padding-top: var(--spacing);
   padding-bottom: var(--spacing);
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .buttonSecondaryInverseLarge {
     padding-left: var(--spacing);
     padding-right: var(--spacing);

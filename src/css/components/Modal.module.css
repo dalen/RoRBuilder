@@ -19,12 +19,12 @@
   background-color: var(--color-base-4);
   border: 1px solid var(--color-base-5);
 }
-@media mq-mobile {
+@media screen and (width < 480px) {
   .container {
     width: 80%;
   }
 }
-@media mq-md-min {
+@media screen and (width >= 992px) {
   .container {
     width: 40%;
   }
