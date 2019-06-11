@@ -19,50 +19,146 @@ import { resetMasteryAbilities } from '../actions/actionMasteryAbilities';
 import { resetMasteryMorales } from '../actions/actionMasteryMorales';
 import { resetMasteryTactics } from '../actions/actionMasteryTactics';
 
-class SelectLevel extends Component {
-  constructor(props) {
+type Props = {
+  renown: number;
+  level: number;
+  pathMeterA: number;
+  pathMeterB: number;
+  pathMeterC: number;
+  masteryAbilities: number[];
+  masteryMorales: number[];
+  masteryTactics: number[];
+  setLevel: (
+    level: number,
+  ) => {
+    type: string;
+    payload: number;
+  };
+  calculateTacticLimit: (
+    level: number,
+  ) => {
+    type: string;
+    payload: number;
+  };
+  setPoints: (
+    points: number,
+  ) => {
+    type: string;
+    payload: number;
+  };
+  setCurrentPoints: (
+    points: number,
+  ) => {
+    type: string;
+    payload: number;
+  };
+  resetSelectedMorale1: () => {
+    type: string;
+    payload: boolean;
+  };
+  resetSelectedMorale2: () => {
+    type: string;
+    payload: boolean;
+  };
+  resetSelectedMorale3: () => {
+    type: string;
+    payload: boolean;
+  };
+  resetSelectedMorale4: () => {
+    type: string;
+    payload: boolean;
+  };
+  resetSelectedTactics: () => {
+    type: string;
+    payload: never[];
+  };
+  resetPathMeterA: () => {
+    type: string;
+  };
+  resetPathMeterB: () => {
+    type: string;
+  };
+  resetPathMeterC: () => {
+    type: string;
+  };
+  resetMasteryAbilities: () => {
+    type: string;
+    payload: never[];
+  };
+  resetMasteryMorales: () => {
+    type: string;
+    payload: never[];
+  };
+  resetMasteryTactics: () => {
+    type: string;
+    payload: never[];
+  };
+};
+
+class SelectLevel extends Component<Props> {
+  constructor(props: Props) {
     super(props);
     this.changeLevel = this.changeLevel.bind(this);
   }
 
-  changeLevel() {
-    // Reset selections
-    this.props.resetSelectedMorale1();
-    this.props.resetSelectedMorale2();
-    this.props.resetSelectedMorale3();
-    this.props.resetSelectedMorale4();
-    this.props.resetSelectedTactics();
-    this.props.resetPathMeterA();
-    this.props.resetPathMeterB();
-    this.props.resetPathMeterC();
-    this.props.resetMasteryAbilities();
-    this.props.resetMasteryMorales();
-    this.props.resetMasteryTactics();
-    this.props.setLevel(this.refs.level.value);
-    this.props.calculateTacticLimit(this.refs.level.value);
-    this.props.setPoints(
-      calculateMasteryPoints(this.refs.level.value, this.props.renown),
-    );
-    this.props.setCurrentPoints(
-      calculateMasteryPoints(this.refs.level.value, this.props.renown),
-    );
+  changeLevel(event: React.ChangeEvent<HTMLSelectElement>) {
+    const {
+      level,
+      renown,
+      pathMeterA,
+      pathMeterB,
+      pathMeterC,
+      masteryAbilities,
+      masteryMorales,
+      masteryTactics,
+    } = this.props;
+    const newLevel = Number(event.target.value);
 
+    this.props.setLevel(newLevel);
+    this.props.calculateTacticLimit(newLevel);
+    this.props.setPoints(calculateMasteryPoints(newLevel, renown));
+
+    // Reset selections
+    if (newLevel < level) {
+      this.props.resetSelectedMorale1();
+      this.props.resetSelectedMorale2();
+      this.props.resetSelectedMorale3();
+      this.props.resetSelectedMorale4();
+      this.props.resetSelectedTactics();
+      this.props.resetPathMeterA();
+      this.props.resetPathMeterB();
+      this.props.resetPathMeterC();
+      this.props.resetMasteryAbilities();
+      this.props.resetMasteryMorales();
+      this.props.resetMasteryTactics();
+      this.props.setCurrentPoints(calculateMasteryPoints(newLevel, renown));
+    } else {
+      this.props.setCurrentPoints(
+        calculateMasteryPoints(newLevel, renown) -
+          (pathMeterA +
+            pathMeterB +
+            pathMeterC +
+            masteryAbilities.length +
+            masteryMorales.length +
+            masteryTactics.length),
+      );
+    }
     // TODO address the functions below
     // this.props.updateMasteryPoints();
   }
 
   render() {
+    const { level } = this.props;
     return (
       <div className={css.container}>
         <label className={css.label} htmlFor="levelSelect">
           Level
         </label>
         <select
-          ref="level"
           onChange={this.changeLevel}
           className={css.select}
           id="levelSelect"
-          value={this.props.level}
+          value={level}
         >
           <option value="40">40</option>
           <option value="39">39</option>
@@ -110,10 +206,34 @@ class SelectLevel extends Component {
   }
 }
 
-function mapStateToProps({ level, renown }) {
+function mapStateToProps({
+  level,
+  renown,
+  pathMeterA,
+  pathMeterB,
+  pathMeterC,
+  masteryAbilities,
+  masteryMorales,
+  masteryTactics,
+}: {
+  level: number;
+  renown: number;
+  pathMeterA: number;
+  pathMeterB: number;
+  pathMeterC: number;
+  masteryAbilities: number[];
+  masteryMorales: number[];
+  masteryTactics: number[];
+}) {
   return {
     level,
     renown,
+    pathMeterA,
+    pathMeterB,
+    pathMeterC,
+    masteryAbilities,
+    masteryMorales,
+    masteryTactics,
   };
 }
 
