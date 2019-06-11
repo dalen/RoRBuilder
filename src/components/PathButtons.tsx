@@ -1,20 +1,32 @@
-import React from 'react';
+import React, { MouseEvent } from 'react';
 import classNames from 'classnames';
 import IconPlus from '../icons/IconPlus';
 import IconMinus from '../icons/IconMinus';
 import css from '../css/components/PathButtons.module.css';
 
-const PathButtons = props => {
-  const addHandler = e => {
-    if (props.points > 0 && props.pathPoints < props.meterMax) {
-      props.addPoint();
+const PathButtons = ({
+  points,
+  pathPoints,
+  meterMax,
+  addPoint,
+  removePoint,
+}: {
+  meterMax: number;
+  points: number;
+  pathPoints: number;
+  addPoint: () => void;
+  removePoint: () => void;
+}) => {
+  const addHandler = (e: MouseEvent) => {
+    if (points > 0 && pathPoints < meterMax) {
+      addPoint();
     } else {
       e.preventDefault();
     }
   };
-  const removeHandler = e => {
-    if (props.pathPoints > 0) {
-      props.removePoint();
+  const removeHandler = (e: MouseEvent) => {
+    if (pathPoints > 0) {
+      removePoint();
     } else {
       e.preventDefault();
     }
@@ -22,11 +34,11 @@ const PathButtons = props => {
   const plusClass = classNames({
     [css.button]: true,
     'marginRight--extra-small': true,
-    [css.buttonDisabled]: Number(props.points) === 0,
+    [css.buttonDisabled]: Number(points) === 0,
   });
   const minusClass = classNames({
     [css.button]: true,
-    [css.buttonDisabled]: Number(props.pathPoints < 1),
+    [css.buttonDisabled]: Number(pathPoints < 1),
   });
   return [
     <button
