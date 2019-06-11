@@ -3,11 +3,19 @@ import classNames from 'classnames';
 import Popover from './Popover';
 import css from '../css/components/PathInfo.module.css';
 
-class PathInfo extends React.Component {
+type Props = {
+  pathPopover: {
+    primary: string;
+    secondary: string;
+  };
+};
+type State = { hovered: boolean };
+
+class PathInfo extends React.Component<Props, State> {
   /*
   infoHovered = info is currently in hover state
   */
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.hoverOver = this.hoverOver.bind(this);
     this.hoverOut = this.hoverOut.bind(this);
@@ -30,22 +38,18 @@ class PathInfo extends React.Component {
   }
 
   renderPopoverPrimary() {
-    if (this.props.pathPopover.primary) {
-      return (
-        <div className={css.popoverPrimary}>
-          {this.props.pathPopover.primary}
-        </div>
-      );
+    const { pathPopover } = this.props;
+    if (pathPopover.primary) {
+      return <div className={css.popoverPrimary}>{pathPopover.primary}</div>;
     }
     return false;
   }
 
   renderPopoverSecondary() {
-    if (this.props.pathPopover.secondary) {
+    const { pathPopover } = this.props;
+    if (pathPopover.secondary) {
       return (
-        <div className={css.popoverSecondary}>
-          {this.props.pathPopover.secondary}
-        </div>
+        <div className={css.popoverSecondary}>{pathPopover.secondary}</div>
       );
     }
     return false;
@@ -61,14 +65,18 @@ class PathInfo extends React.Component {
   }
 
   render() {
+    const { hovered } = this.state;
+
     const infoClass = classNames({
-      'is-hovered': this.state.hovered,
+      'is-hovered': hovered,
       popover__parent: true,
     });
     return (
-      <div className={infoClass} ref="popoverParent">
+      <div className={infoClass}>
         <div
           className={css.container}
+          onFocus={this.hoverOver}
+          onBlur={this.hoverOut}
           onMouseOver={this.hoverOver}
           onMouseOut={this.hoverOut}
         >
@@ -77,7 +85,7 @@ class PathInfo extends React.Component {
         <Popover
           content={this.renderPopoverContent()}
           alignment="top"
-          activate={this.state.hovered}
+          activate={hovered}
         />
       </div>
     );

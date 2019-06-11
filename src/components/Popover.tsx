@@ -8,7 +8,7 @@ interface Props {
   abilityOptional: boolean;
   status: boolean;
   content: JSX.Element;
-  abilityOperational?: boolean;
+  abilityOperational: boolean;
   abilitySelected?: boolean;
   abilityClicked?: () => void;
 }
@@ -62,7 +62,11 @@ const offScreenCheck = (element: HTMLDivElement) => {
 class Popover extends React.Component<Props, State> {
   popover: HTMLDivElement | null = null;
 
-  static defaultProps = { abilityOperational: false };
+  static defaultProps = {
+    abilityOperational: false,
+    status: false,
+    abilityOptional: false,
+  };
 
   constructor(props: Props) {
     super(props);

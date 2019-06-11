@@ -62,7 +62,7 @@ class Ability extends Component {
       <PopoverAbility data={this.props.data} imgSrc={imgSrc} />
     );
     return (
-      <div className={abilityClass} ref="popoverParent">
+      <div className={abilityClass}>
         <img
           className={abilityImageClass}
           src={imgSrc}
