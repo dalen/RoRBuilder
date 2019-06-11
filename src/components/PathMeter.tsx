@@ -1,34 +1,44 @@
-import React from 'react';
+import React, { MouseEvent } from 'react';
 import css from '../css/components/PathMeter.module.css';
 
-const PathMeter = props => {
+const PathMeter = ({
+  meterMax,
+  pathPoints,
+  points,
+  setPoints,
+}: {
+  meterMax: number;
+  pathPoints: number;
+  points: number;
+  setPoints: (points: number) => void;
+}) => {
   const renderMeterLevel = () => {
     const meterLevels = [];
-    for (let i = 1; i <= props.meterMax; i++) {
+    for (let i = 1; i <= meterMax; i += 1) {
       let thisClass = css.level;
-      let thisClickHandler = false;
-      thisClickHandler = e => {
-        e.preventDefault();
+      let thisClickHandler = (event: MouseEvent) => {
+        event.preventDefault();
       };
-      if (i <= props.pathPoints) {
+      if (i <= pathPoints) {
         thisClass = css.levelActive;
         thisClickHandler = () => {
-          props.setPoints(i);
+          setPoints(i);
         };
-      } else if (i <= Number(props.points) + Number(props.pathPoints)) {
+      } else if (i <= Number(points) + Number(pathPoints)) {
         thisClass = css.levelAvailable;
         thisClickHandler = () => {
-          props.setPoints(i);
+          setPoints(i);
         };
       }
       meterLevels.push(
-        <div
-          key={props.pathPoints + i}
+        <button
+          type="button"
+          key={pathPoints + i}
           className={thisClass}
           onClick={thisClickHandler}
         >
           {i}
-        </div>,
+        </button>,
       );
     }
     return meterLevels;
