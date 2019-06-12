@@ -40,28 +40,31 @@ const PathButtons = ({
     [css.button]: true,
     [css.buttonDisabled]: Number(pathPoints < 1),
   });
-  return [
-    <button
-      key="pathButtonAdd"
-      className={plusClass}
-      onClick={addHandler}
-      type="button"
-    >
-      <IconPlus classes="icon--small" name="plus icon" nameSlug="plus-icon" />
-    </button>,
-    <button
-      key="pathButtonRemove"
-      className={minusClass}
-      onClick={removeHandler}
-      type="button"
-    >
-      <IconMinus
-        classes="icon--small"
-        name="minus icon"
-        nameSlug="minus-icon"
-      />
-    </button>,
-  ];
+  return (
+    <React.Fragment>
+      <button
+        key="pathButtonAdd"
+        className={plusClass}
+        onClick={addHandler}
+        type="button"
+      >
+        <IconPlus classes="icon--small" name="plus icon" nameSlug="plus-icon" />
+      </button>
+      ,
+      <button
+        key="pathButtonRemove"
+        className={minusClass}
+        onClick={removeHandler}
+        type="button"
+      >
+        <IconMinus
+          classes="icon--small"
+          name="minus icon"
+          nameSlug="minus-icon"
+        />
+      </button>
+    </React.Fragment>
+  );
 };
 
 export default PathButtons;
