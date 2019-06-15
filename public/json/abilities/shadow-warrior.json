@@ -448,7 +448,7 @@
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Scout Stance or Skirmish Stance",
+      "note": "Requires Scout Stance",
       "description": "An Ailment which deals (25 + 4 * rank) + (0.2 bal) elemental damage to your target and then explodes, dealing an additional (309 + 5.5 * rank) + (0.3 bal) elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
