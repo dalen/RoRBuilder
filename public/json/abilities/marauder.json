@@ -222,7 +222,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Brutality causes you to gain a 160 unique bonus to Strength and Initiative.",
+      "description": "Gift of Brutalityfurther increases your Strength and Initiative by 160.",
       "category": "CareerTactic"
     },
 
@@ -270,7 +270,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "Undefendable claw attack that deals X physical damage and causes the target to take a (rank * 40) ability penalty to armor for 10 seconds.",
+      "description": "Undefendable claw attack that deals 216 damage and reduces the targets armor by 1000 for 10 seconds.",
       "category": "Ability"
     },
 
@@ -318,7 +318,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A deliberate attack that inflicts X phyical damage and Cripples your target, reducing their movement speed by 40% for 5 seconds.",
+      "description": "A deliberate attack that inflicts 191 damage and Cripples your target, reducing their movement speed by 40% for 5 seconds.",
       "category": "Ability"
     },
 
@@ -350,7 +350,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "A widespread attack that inflicts X physical damage to all targets up to 25 feet in front of you.",
+      "description": "A widespread attack that inflicts 138 damage to all targets up to 25 feet in front of you.",
       "category": "Ability"
     },
 
@@ -366,7 +366,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "You quickly rake your target twice, dealing X physical damage with each hit. The victim will regain action points 50% more slowly for 10 seconds.",
+      "description": "You quickly rake your target twice, dealing 108 damage with each hit. The victim will regain action points 50% more slowly for 10 seconds.",
       "category": "Ability"
     },
 
@@ -430,7 +430,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
-      "description": "Chaotic winds and daemonic fury combine granting you a X unique bonus to strength and toughness for 20 seconds.",
+      "description": "Chaotic winds and daemonic fury combine to increase your Strength and Toughness by 125 for 20 seconds.",
       "category": "Ability"
     },
 
@@ -446,7 +446,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Swipes opponent for X physical damage. If Mutated, will hit an additional time for Y phyical damage.",
+      "description": "You swipe at your opponent for 133 damage. If Mutated, will hit an additional time for 108 damage.",
       "category": "Ability"
     },
 
@@ -606,7 +606,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Grants Gift of Savagery",
-      "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<br><br>While mutated, your attacks have a 25% chance to deal an additional X physical damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
+      "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<br><br>While mutated, your attacks have a 25% chance to deal an additional 840 damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
       "category": "Ability"
     },
 
@@ -654,7 +654,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Gift of Brutality<br>Target must be below 50% health.",
-      "description": "A powerful blow inflicting X physical damage and will almost always deal critical damage to a weakened target.",
+      "description": "A powerful blow inflicting 316 damage and will almost always deal critical damage to a weakened target.",
       "category": "Ability"
     },
 
@@ -670,7 +670,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Parry<br>Requires Gift of Savagery",
-      "description": "A savage attack that guts your opponent for X physical damage, and makes your next damaging ability within 5 seconds automatically critical.",
+      "description": "A savage attack that guts your opponent for 191 damage, and makes your next damaging ability within 5 seconds automatically critical.",
       "category": "Ability"
     },
 
@@ -686,7 +686,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Monstrosity grants a 160 unique bonus to Toughness and Initiative.",
+      "description": "Gift of Monstrosity further increases your Toughness and Initiative by 160.",
       "category": "CareerTactic"
     },
 
@@ -702,7 +702,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "Stabs into your opponents vital areas for X physical damage. If behind your target, ignores Y armor.",
+      "description": "Stabs into your opponents vital areas for 166 damage. If behind your target, ignores 618 armor.",
       "category": "Ability"
     },
 
@@ -766,7 +766,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
-      "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting X physical damage to all in range.",
+      "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting 133 damage to all in range.",
       "category": "Ability"
     },
 
@@ -798,7 +798,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Disrupt",
-      "description": "Disrupted Magic is twisted back into the caster, inflicting X physical damage and knocking them down for 3 seconds.",
+      "description": "Disrupted Magic is twisted back into the caster, inflicting 241 damage and knocking them down for 3 seconds.",
       "category": "Ability"
     },
 
@@ -846,7 +846,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
-      "description": "Inflicts X physical damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.",
+      "description": "Inflicts 214 damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.",
       "category": "Ability"
     },
 
@@ -878,7 +878,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Savagery or Brutality",
-      "description": "You tear into your target, dealing X  physical damage immediately and an additional Y physical damage over 9 seconds. The damage over time will stack with itself up to three times.",
+      "description": "You tear into your target, dealing 108 damage immediately and an additional 198 damage over 9 seconds. The damage over time will stack with itself up to three times.",
       "category": "Ability"
     },
 
@@ -910,7 +910,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an enemy's attack, you will strike them back for X physical damage which they can not prevent.",
+      "description": "Each time you parry an enemy's attack, you will strike them back for 253 damage which they can not prevent.",
       "category": "CareerTactic"
     },
 
@@ -926,7 +926,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Savagery grants a 160 unique bonus to Weapon Skill and Initiative.",
+      "description": "Gift of Savagery further increases your Weapon Skill and Initiative by 160.",
       "category": "CareerTactic"
     },
 
@@ -974,7 +974,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "An Ailing attack inflicting X physical damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
+      "description": "An Ailing attack inflicting 166 damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
       "category": "Ability"
     },
 
@@ -1006,7 +1006,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Throwing axe that will deal X phyical damage to your prey.",
+      "description": "Throwing axe that will deal 105 damage to your prey.",
       "category": "Ability"
     },
 
@@ -1022,7 +1022,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A particularly nasty blow that inflicts X physical damage to your target and causes the target to take a X ability penalty to wounds for 20 seconds.",
+      "description": "A particularly nasty blow that inflicts 241 damage to your target and decreases their Wounds by 100 for the next 20 seconds.",
       "category": "Ability"
     },
 
@@ -1038,7 +1038,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Savagery or Brutality",
-      "description": "Target loses control over their magic, and for 10 seconds will inflict X corporeal damage to themselves whenever they use magic.",
+      "description": "Target loses control over their magic, and for 10 seconds will inflict 232 corporeal damage to themselves whenever they use magic.",
       "category": "Ability"
     },
 
@@ -1054,7 +1054,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
-      "description": "Spreads an agonizing rot to your opponent for 10 seconds, inflicting X corporeal damage whenever they use a melee ability.",
+      "description": "Spreads an agonizing rot to your opponent for 10 seconds, inflicting 125 corporeal damage whenever they use a melee ability.",
       "category": "Ability"
     },
 
@@ -1118,7 +1118,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them. Each time an Enchantment is successfully removed, they will suffer X physical damage .",
+      "description": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them. Each time an Enchantment is successfully removed, they will suffer 152 damage .",
       "category": "CareerTactic"
     },
 
@@ -1166,7 +1166,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A wave of horror spreads forth from you, dealing X physical damage over 21 seconds to all enemies within 30 feet and causing them to take a (2 * rank) ability penalty to Weapon Skill and Initiative.",
+      "description": "A wave of horror spreads forth from you, dealing 553 damage over 21 seconds to all enemies within 30 feet and reducing their Weapon Skill by 75 and Initiative by 50.",
       "category": "Ability"
     },
 
@@ -1182,7 +1182,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "Wildly lashes out at all targets directly in front of you up to 40 feet away, dealing X physical damage and preventing all who are hit from generating Morale for 5 seconds.",
+      "description": "You wildly lash out at all targets directly in front of you up to 40 feet away, dealing 183 damage and preventing all who are hit from generating Morale for 5 seconds.",
       "category": "Ability"
     },
 
@@ -1214,7 +1214,7 @@
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "Spinning in a circle with club arm extended, aimlessly inflicting X physical damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
+      "description": "Spinning in a circle with club arm extended, aimlessly inflicting 132 damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     }
   ]
