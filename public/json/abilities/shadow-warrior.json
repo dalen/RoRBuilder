@@ -65,7 +65,7 @@
       "incant": "1.5s cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Scout or Assault Stance",
-      "description": "An attack which deals (25 + 6 * rank) + (0.3 bal) + (1.5 dps) physical damage and causes your target to take a (120 + 21.75 * rank) ability penalty to armor and reduces their chance to block by 10% for 10 seconds.",
+      "description": "An attack which deals 241 physical damage and causes your target to take a 618 ability penalty to armor and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
 
@@ -97,7 +97,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Skirmish Stance",
-      "description": "Deals (32 + 7.4 * rank) + (0.25 bal) + (1.5 dps) physical damage to all enemies in an arc in front of you, up to 40 feet away.",
+      "description": "Deals 278 physical damage to all enemies in an arc in front of you, up to 40 feet away.",
       "category": "Ability"
     },
 
@@ -145,7 +145,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An Ailment which deals (96.67 + 55/3 * rank) + (0.9 bal) + (3.5 dps) physical damage to your target over 15 seconds.",
+      "description": "An Ailment which deals 760 physical damage to your target over 15 seconds.",
       "category": "Ability"
     },
 
@@ -161,7 +161,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be facing away from you<br>Requires Scout or Assault Stance",
-      "description": "Deals (56 + 8 * rank) + (0.3 bal) + (1.4 dps) physical damage to your target, and makes monsters hate you less than normal. Only usable when you are behind the target.<br>If you are Vengeful, then this attack may be used from any position.",
+      "description": "Deals 302 physical damage to your target, and makes monsters hate you less than normal. Only usable when you are behind the target.<br>If you are Vengeful, then this attack may be used from any position.",
       "category": "Ability"
     },
 
@@ -241,7 +241,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Assault Stance",
-      "description": "A quick strike which deals (21.67 + 7/3 * rank) + (0.3 bal) + (1.4 dps) damage to your target and interrupts any ability that they were building up.",
+      "description": "A quick strike which deals 127 damage to your target and interrupts any ability that they were building up.",
       "category": "Ability"
     },
 
@@ -305,7 +305,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Assault or Skirmish Stance",
-      "description": "An Ailment which deals (56 + 12 * rank) + (0.6 bal) + (2.4 dps) physical damage over 9 seconds.",
+      "description": "An Ailment which deals 468 physical damage over 9 seconds.",
       "category": "Ability"
     },
 
@@ -321,7 +321,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A well aimed arrow that deals (91 + 8.5 * rank) + (0.4 bal) + (2.0 dps) physical damage.",
+      "description": "A well aimed arrow that deals 354 physical damage.",
       "category": "Ability"
     },
 
@@ -369,7 +369,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Assault Stance",
-      "description": "A Crippling attack which deals (40 + 6.6 * rank) + (0.3 bal) + (1.4 dps) physical damage and knocks down your target for 3 seconds.",
+      "description": "A Crippling attack which deals 252 physical damage and knocks down your target for 3 seconds.",
       "category": "Ability"
     },
 
@@ -417,7 +417,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Scout Stance",
-      "description": "Deals (97 + 19 * rank) + (0.3 bal) + (3.5 dps) physical damage if your target is below 30% hit points, or (33.33 + 20/3 * rank) + (0.3 bal) + (1.5 dps) physical damage otherwise.",
+      "description": "Deals 641 physical damage if your target is below 30% hit points, or 266 physical damage otherwise.",
       "category": "Ability"
     },
 
@@ -433,7 +433,7 @@
       "incant": "3.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Scout Stance",
-      "description": "Deals (38 + 19.5 * rank) + (0.7875 bal) corporeal damage to your target.",
+      "description": "Deals 733 corporeal damage to your target.",
       "category": "Ability"
     },
 
@@ -449,7 +449,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Scout Stance",
-      "description": "An Ailment which deals (25 + 4 * rank) + (0.2 bal) elemental damage to your target and then explodes, dealing an additional (309 + 5.5 * rank) + (0.3 bal) elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
+      "description": "An Ailment which deals 169 elemental damage to your target and then explodes, dealing an additional 267 elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
 
@@ -465,7 +465,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Skirmish Stance<br>Target must be facing away from you",
-      "description": "Deals (50 + 8 * rank) + (0.3 bal) + (1.5 dps) physical damage to your target. Only usable from behind the target. The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
+      "description": "Deals 316 physical damage to your target. Only usable from behind the target. The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
       "category": "Ability"
     },
 
@@ -513,7 +513,7 @@
       "incant": "Instant cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Deals (33 + 4 * rank) + (0.3 bal) + (2.0 dps) physical damage to your target and reduces range on their abilities to 75% for the next 3 seconds.",
+      "description": "Deals 199 physical damage to your target and reduces range on their abilities to 75% for the next 3 seconds.",
       "category": "Ability"
     },
 
@@ -529,7 +529,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals (8 + 5 * rank) + (0.3 bal) + (1.8 dps) physical damage to your target.",
+      "description": "Deals 202 physical damage to your target.",
       "category": "Ability"
     },
 
@@ -657,7 +657,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Skirmish Stance",
-      "description": "A piercing arrow which deals (24 + 8 * rank) + (0.2375 bal) + (2.0 dps) physical damage to all enemies in front of you, up to 65 feet away. This ability will continue to build up even if you move.",
+      "description": "A piercing arrow which deals 285 physical damage to all enemies in front of you, up to 65 feet away. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
 
@@ -753,7 +753,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Requires Assault Stance",
-      "description": "A Crippling attack that deals (8 + 5 * rank) + (0.3 bal) + (1.8 dps) damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
+      "description": "A Crippling attack that deals 202 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability"
     },
 
@@ -865,7 +865,7 @@
       "incant": "3.0s channel",
       "cooldown": "7.0s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "You move with blinding speed as you quickly fire several shots at your target, dealing (12.5 + 2.5 * rank) + (0.1 bal) + (0.75 dps) physical damage to the enemy twice per second for up to 3 seconds. This effect will end if you break your concentration, or run out of action points.<br>If you are Vengeful, then the shots will deal 10% more damage.",
+      "description": "You move with blinding speed as you quickly fire several shots at your target, dealing 97 physical damage to the enemy twice per second for up to 3 seconds. This effect will end if you break your concentration, or run out of action points.<br>If you are Vengeful, then the shots will deal 10% more damage.",
       "category": "Ability"
     },
 
@@ -913,7 +913,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Target must be Ailing",
-      "description": "An Ailment which deals (84 + 12 * rank) + (0.6 bal) + (2.0 dps) damage to your target over 9 seconds and causes all healing effects used on them to become 50% weaker. Only usable on a target that is already Ailing.",
+      "description": "An Ailment which deals 498 damage to your target over 9 seconds and causes all healing effects used on them to become 50% weaker. Only usable on a target that is already Ailing.",
       "category": "Ability"
     },
 
@@ -993,7 +993,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Assault or Skirmish Stance",
-      "description": "Deals (26 + 5 * rank) + (0.3 bal) + (1.5 dps) physical damage to your target. This ability will continue to build up even if you move.",
+      "description": "Deals 216 physical damage to your target. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
 
@@ -1041,7 +1041,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Assault Stance",
-      "description": "Deals (30 + 6 * rank) + (0.2 bal) + (1.4 dps) physical damage to all enemies in an arc in front of you, up to 25 feet away.",
+      "description": "Deals 209 physical damage to all enemies in an arc in front of you, up to 25 feet away.",
       "category": "Ability"
     },
 
@@ -1057,7 +1057,7 @@
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "",
-      "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing (59 + 2 * rank) + (0.1 bal) + (0.8 dps)physical damage per hit. If the target is building up an ability, then your strikes will deal (22 + 4 * rank) + (0.1 bal) + (0.8 dps) physical damage instead.<br.<br>This ability will end if you break your concentration or run out of action points.",
+      "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing 79 physical damage per hit. If the target is building up an ability, then your strikes will deal 142 physical damage instead.<br.<br>This ability will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
 
@@ -1073,7 +1073,7 @@
       "incant": "1.0s cast",
       "cooldown": "15.0s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "An Ailment which deals (25 + 5 * rank) + (0.3 bal) + (1.5 dps) physical damage and snares your target, reducing their run speed by 40% for 10 seconds.",
+      "description": "An Ailment which deals 216 physical damage and snares your target, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability"
     },
 
@@ -1089,7 +1089,7 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "Requires Scout Stance",
-      "description": "A Crippling shot that deals (33.33 + 20/3 * rank) + (0.3 bal) + (1.5 dps) damage and silences your target for 4 seconds, making them unable to use magic.",
+      "description": "A Crippling shot that deals 266 damage and silences your target for 4 seconds, making them unable to use magic.",
       "category": "Ability"
     },
 
@@ -1137,7 +1137,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals (267 + 53.33 * assault rank) damage to all enemies within 30 feet.",
+      "description": "Deals 1600 damage to all enemies within 30 feet.",
       "category": "Morale"
     },
 
