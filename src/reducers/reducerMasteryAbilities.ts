@@ -3,9 +3,10 @@ import {
   REMOVE_MASTERY_ABILITY,
   RESET_MASTERY_ABILITIES,
   SET_MASTERY_ABILITIES,
+  ActionMasteryAbility,
 } from '../actions/actionMasteryAbilities';
 
-export default function(state = [], action) {
+export default function(state = [], action: ActionMasteryAbility) {
   switch (action.type) {
     case ADD_MASTERY_ABILITY:
       return [...action.payload.abilitiesArray, action.payload.abilityId];
