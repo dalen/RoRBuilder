@@ -30,7 +30,7 @@ export type State =
       abilities: AxiosResponse<any>;
       sidebar: boolean;
       overlay: boolean;
-      slug: string | undefined;
+      slug: string | null;
       level: number;
       renown: number;
       tacticLimit: number;

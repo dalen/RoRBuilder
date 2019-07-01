@@ -1,8 +1,8 @@
 import { Reducer, AnyAction } from 'redux';
 import { SET_SLUG, ActionSlug } from '../actions/actionSlug';
 
-const reducer: Reducer<string | undefined> = (
-  state = undefined,
+const reducer: Reducer<string | null> = (
+  state = null,
   action: ActionSlug | AnyAction,
 ) => {
   switch (action.type) {
