@@ -1,14 +1,15 @@
+import { Action } from 'redux';
 import axios, { AxiosPromise } from 'axios';
 
 export const FETCH_ABILITIES = 'fetch_abilities';
 export const RESET_ABILITIES = 'reset_abilities';
 
-export interface FetchAbilitiesAction {
+export interface FetchAbilitiesAction extends Action<typeof FETCH_ABILITIES> {
   type: typeof FETCH_ABILITIES;
   payload: AxiosPromise<any>;
 }
 
-export interface ResetAbilitiesAction {
+export interface ResetAbilitiesAction extends Action<typeof RESET_ABILITIES> {
   type: typeof RESET_ABILITIES;
   payload: never[];
 }

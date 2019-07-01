@@ -1,11 +1,16 @@
+import { Reducer } from 'redux';
 import {
   RESET_PATH_METER_B,
   SET_PATH_METER_B,
+  ActionPathMeterB,
 } from '../actions/actionPathMeterB';
 
 const initialPoints = 0;
 
-export default function(state = initialPoints, action) {
+const reducer: Reducer<number> = (
+  state: number = initialPoints,
+  action: ActionPathMeterB,
+) => {
   switch (action.type) {
     case SET_PATH_METER_B:
       return action.payload;
@@ -14,4 +19,6 @@ export default function(state = initialPoints, action) {
     default:
       return state;
   }
-}
+};
+
+export default reducer;

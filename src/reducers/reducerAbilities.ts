@@ -1,5 +1,10 @@
+import { Reducer, AnyAction } from 'redux';
 import _ from 'lodash';
-import { FETCH_ABILITIES, RESET_ABILITIES } from '../actions/actionAbilities';
+import {
+  FETCH_ABILITIES,
+  RESET_ABILITIES,
+  AbilitiesAction,
+} from '../actions/actionAbilities';
 import { getAbilityType, Ability, Career } from '../helpers/abilities';
 
 // This is an indexed object of all abilities
@@ -113,7 +118,7 @@ function formatData(originalObject: Career) {
   };
 }
 
-export default function(state = {}, action: any) {
+const reducer: Reducer = (state = {}, action: AbilitiesAction | AnyAction) => {
   switch (action.type) {
     case FETCH_ABILITIES:
       return formatData(action.payload.data);
@@ -122,4 +127,6 @@ export default function(state = {}, action: any) {
     default:
       return state;
   }
-}
+};
+
+export default reducer;

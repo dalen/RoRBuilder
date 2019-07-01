@@ -1,11 +1,13 @@
+import { AnyAction } from 'redux';
 import {
   SELECT_TACTIC,
   DESELECT_TACTIC,
   RESET_SELECTED_TACTICS,
   SET_SELECTED_TACTICS,
+  ActionSelectedTactics,
 } from '../actions/actionSelectedTactics';
 
-export default function(state = [], action) {
+export default function(state = [], action: ActionSelectedTactics | AnyAction) {
   switch (action.type) {
     case SELECT_TACTIC:
       return [...action.payload.tacticsArray, action.payload.tacticId];

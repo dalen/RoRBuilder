@@ -1,8 +1,12 @@
-import { RESET_POINTS, SET_POINTS } from '../actions/actionPoints';
+import {
+  RESET_POINTS,
+  SET_POINTS,
+  ActionPoints,
+} from '../actions/actionPoints';
 
 const initialPoints = 26;
 
-export default function(state = initialPoints, action) {
+export default function(state = initialPoints, action: ActionPoints) {
   switch (action.type) {
     case SET_POINTS:
       return action.payload;

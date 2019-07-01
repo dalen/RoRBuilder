@@ -1,8 +1,12 @@
-import { SET_RENOWN, RESET_RENOWN } from '../actions/actionRenown';
+import {
+  SET_RENOWN,
+  RESET_RENOWN,
+  ActionRenown,
+} from '../actions/actionRenown';
 
 const initialRenown = 40;
 
-export default function(state = initialRenown, action) {
+export default function(state = initialRenown, action: ActionRenown) {
   switch (action.type) {
     case SET_RENOWN:
       return action.payload;

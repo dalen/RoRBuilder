@@ -2,11 +2,11 @@ export const SET_CURRENT_POINTS = 'set_current_points';
 export const RESET_CURRENT_POINTS = 'reset_current_points';
 
 export type ActionSetCurrentPoints = {
-  type: 'set_current_points';
+  type: typeof SET_CURRENT_POINTS;
   payload: number;
 };
 export type ActionResetCurrentPoints = {
-  type: 'reset_current_points';
+  type: typeof RESET_CURRENT_POINTS;
 };
 
 export type ActionCurrentPoints =
