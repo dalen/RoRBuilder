@@ -42,7 +42,7 @@
         "lvl2": 2903,
         "lvl3": 7502,
         "lvl4": 2898,
-        "lvl5": 7503,
+        "lvl5": 2904,
         "lvl6": 2905,
         "lvl7": 2906
       },
@@ -1615,22 +1615,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Dazzling Strike will now reduce the target's chance to defend attacks by 10% for 5 seconds.",
-      "category": "CareerTactic"
-    },
-
-    {
-      "image": "22706",
-      "id": 7503,
-      "name": "Aethyric Dissipation",
-      "type": "Buff",
-      "spec": "Path of Hoeth",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time you strike a target with a path of hoeth ability, there is a 25% chance that they will lose 225 morale.",
       "category": "CareerTactic"
     }
   ]
