@@ -638,7 +638,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You Hex your enemy and gain 60 Action Points. You will additionally steal another 120 Action Points from your target over 9 seconds.",
+      "description": "You siphon magic from your target, draining 180 Action Points over 9 seconds into yourself.",
       "category": "Ability"
     },
 
@@ -766,7 +766,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale"
     },
 
@@ -782,7 +782,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Radiant Lance will now affect two enemies within 15 feet of your target.",
+      "description": "Radiant Lance will now affect all enemies within 15 feet of your target.",
       "category": "CareerTactic"
     },
 
@@ -830,7 +830,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
-      "description": "Deals 309 Spirit damage to a nearby target.",
+      "description": "Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing  309 Spirit to your target.",
       "category": "Ability"
     },
 
@@ -926,7 +926,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Force reduces cast time.<br>Builds Tranquility",
-      "description": "Your target regains 258 health immediately, then continues to gain another 315 health over 5 seconds. This ability will continue to build up even if you move.",
+      "description": "Your target regains 258 health immediately, then continues to gain another 315 health over 5 seconds. If you have Force this ability will continue to build up even if you move.",
       "category": "Ability"
     },
 
@@ -1054,7 +1054,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Magical Infusion at a time.",
+      "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 25%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Magical Infusion at a time.",
       "category": "Ability"
     },
 
@@ -1198,7 +1198,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
-      "description": "Deals 344 Spirit damage to your target.",
+      "description": "A lance of brilliant energy erupts from your staff, dealing 344 Spirit damage to your target.",
       "category": "Ability"
     },
 
