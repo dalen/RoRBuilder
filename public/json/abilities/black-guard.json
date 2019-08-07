@@ -1438,7 +1438,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Monstrous Rending cost 10 less Hate to use.",
+      "description": "Blade of Ruin and  Monstrous Rending cost 10 less Hate to use.",
       "category": "CareerTactic"
     },
 
@@ -1598,7 +1598,7 @@
       "incant": "3.0s cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
+      "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale"
     },
 
@@ -1678,7 +1678,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must have an Enchantment",
-      "description": "You shatter one Enchantment from your enemy and deal 151 damage.",
+      "description": "A shattering attack that removes one Enchantment from your enemy and deals 151 damage.",
       "category": "Ability"
     },
 
