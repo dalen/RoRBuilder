@@ -126,7 +126,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "Deals 73 physical damage to targets within 30 feet. Enemies take a 75 ability penalty to Strength for 20 seconds.",
+      "description": "You furiously swing your weapon in a wide circle, dealing 73 physical damage to targets within 30 feet and reducing their Strength by 75 for 20 seconds.",
       "category": "Ability"
     },
 
@@ -270,7 +270,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals 176 physical damage to all targets 25 feet in front of you.",
+      "description": "A mighty leaping strike with your axe which deals 176 physical damage to all targets 25 feet in front of you.",
       "category": "Ability"
     },
 
@@ -302,7 +302,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s shared cooldown",
       "note": "Can only have 1 war bellow active.",
-      "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to give a 236 ability bonus to that type of damage for 10 seconds on all group members within 100 feet. Physical damage will give a 618 ability bonus to Armor instead.",
+      "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by 236 for 10 seconds on all group members within 100 feet. Physical damage will increase armour by 618.",
       "category": "Ability"
     },
 
@@ -318,7 +318,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s shared cooldown",
       "note": "Can only have 1 war bellow active.",
-      "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to give your group a 32 ability bonus to wounds for 10 seconds. Anyone affected will be healed by the amount increased.",
+      "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to increase your group's wounds by 32 for 10 seconds. Anyone affected will be healed by the amount increased.",
       "category": "Ability"
     },
 
@@ -334,7 +334,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the duration of \"Wot Armor?\" by 10 seconds, and target will take a 75 morale penalty to toughness.",
+      "description": "Increases the duration of \"Wot Armor?\" by 10 seconds, and will now reduces target's toughness by 75.",
       "category": "CareerTactic"
     },
 
@@ -366,7 +366,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A powerful melee attack deals 900 damage over 15 seconds and cause the target to take a 1056 morale penalty to Armor.",
+      "description": "A powerful melee attack reduces your target's armor by 1056 and deals 900 damage over 15 seconds.",
       "category": "Morale"
     },
 
@@ -398,7 +398,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to spirit resistance.",
+      "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic"
     },
 
@@ -462,7 +462,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "Deals 127 physical damage. Your own and defensive target gains a 75 ability bonus to weapon skill for 20 seconds.",
+      "description": "You batter your target to show the runts how it's done. You deals 127 physical damage and increase your own and your defensive target's Weapon Skill by for 20 seconds.",
       "category": "Ability"
     },
 
@@ -558,7 +558,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 160 unique bonus to Wounds.",
+      "description": "Increases your Wounds by 160.",
       "category": "CareerTactic"
     },
 
@@ -702,7 +702,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "WAAAAAAAGH! will decrease the cooldown by 5s for all your groupmates for 10 seconds. Cooldown of ability is increased to 20 seconds.",
+      "description": "You put more WAAA into your WAAAAAAAGH! urging your group on. For the next 20 seconds WAAAAAAAGH! will decrease the cooldown of abilities used by your group by 5 seconds. Increases the cooldown of WAAAAAAAGH! to 20 seconds.",
       "category": "CareerTactic"
     },
 
@@ -1198,7 +1198,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Leads to da' Gud plan",
-      "description": "You fly into a rage and pick on one target with a vengeance for 20 seconds, deal 10% more damage to them. Your armor and resistances increase by 30%, defences by 15%, but when your rage subsides you will only move at 80% movement speed for 10 seconds.",
+      "description": "You think you heard someone say something about the size of your weapon. You fly into a rage for 20 seconds dealing 10% more damage. Your armor and resistances increase by 30%, defences by 15%, but when your rage subsides you will move at only 80% movement speed for 10 seconds.",
       "category": "Ability"
     },
 
