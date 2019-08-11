@@ -78,7 +78,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All your Exhaustive Blows have a 25% chance to restore 225 hit points.",
+      "description": "All your Exhaustive Blows have a 50% chance to restore 225 hit points.",
       "category": "CareerTactic"
     },
 
@@ -142,7 +142,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 160 unique bonus to strength.",
+      "description": "Increases your Strength by.",
       "category": "CareerTactic"
     },
 
@@ -227,22 +227,6 @@
     },
 
     {
-      "image": "22707",
-      "id": 4672,
-      "name": "Chop Til You Drop",
-      "type": "Defensive",
-      "spec": "Core Ability",
-      "minrank": "37",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect does not stack.",
-      "category": "CareerTactic"
-    },
-
-    {
       "image": "02646",
       "id": 4661,
       "name": "Come and Git It!",
@@ -254,7 +238,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your Toughness is increased by 25 for each enemy within 30 feet, up to a maximum of 9 enemies. This effect will fade after 10 seconds.",
+      "description": "Increases your Toughness by 25 for each enemy within 30 feet, up to a maximum of 9 enemies. for 10 seconds.",
       "category": "Ability"
     },
 
@@ -302,7 +286,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to spirit resistance.",
+      "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic"
     },
 
@@ -350,7 +334,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 120 unique bonus to strength and weaponskill and take a 120 unique penalty to toughness.",
+      "description": "Increases your Strength and Weapon Skill by 120 but reduces your Toughness by 120.",
       "category": "CareerTactic"
     },
 
@@ -542,7 +526,7 @@
       "incant": "6.0s channel",
       "cooldown": "20.0s cooldown",
       "note": "Requires Dual Wield",
-      "description": "You frantically lash out at everything nearby for up to 6 seconds, dealing 153 damage every 2 seconds to all enemies within 40 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active.",
+      "description": "You charge and frantically lash out at everything nearby for up to 6 seconds, dealing 153 damage every 2 seconds to all enemies within 40 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active.",
       "category": "Ability"
     },
 
@@ -574,7 +558,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "While this ability is active, your melee attacks will deal an additional 100 damage whenever you strike a target with a melee attack, but you will also suffer 50 damage each time this effect occurs.",
+      "description": "While this ability is active, your will deal an additional 100 damage whenever you strike a target with a melee attack, but you will also suffer 50 damage each time this effect occurs.",
       "category": "Ability"
     },
 
@@ -590,7 +574,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 160 unique bonus to wounds.",
+      "description": "Increases your Wounds by 160.",
       "category": "CareerTactic"
     },
 
@@ -910,7 +894,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the chance to critically hit with Path of Da' Big Hitta abilities by 15%. If you are dual wielding, increases your chance to be critically hit by 10%.",
+      "description": "Increases the chance to critically hit with Path of Da' Big Hitta abilities by 15%, but if you are dual wielding, decreases your ability to defend critical hits by 10%.",
       "category": "CareerTactic"
     },
 
@@ -942,7 +926,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You deal an additional 300 damage, whenever you use an ability. This effect will fade after you damage 8 targets.",
+      "description": "For the next 30 seconds you deal an additional 300 damage, whenever you use an ability. This effect will fade after you damage 8 targets.",
       "category": "Morale"
     },
 
@@ -1006,7 +990,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you do critical damage, your target takes a 120 unique penalty to weapon skill for 10 seconds.",
+      "description": "When you do critical damage, reduces your target's Weapon Skill by 120 for 10 seconds.",
       "category": "CareerTactic"
     },
 
