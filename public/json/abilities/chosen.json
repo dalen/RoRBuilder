@@ -510,7 +510,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you block an attack, you gain 200 points of Morale. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Whenever you Block an attack you gain 4 seconds of Morale. This effect will not trigger more than once every 10 seconds.",
       "category": "CareerTactic"
     },
 
@@ -894,7 +894,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces Repel's cooldown time by 50% (when you are wielding a Greatweapon) and increases the length of the knockback.",
+      "description": "Reduces Repel's cooldown time by 50% and increases the length of the knockback.",
       "category": "CareerTactic"
     },
 
@@ -1022,7 +1022,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 15% when you are wielding a Greatweapon.",
+      "description": "Increases your chance to critically hit by 15% when you are wielding a great weapon and causes Relentless to inflict Spirit damage.",
       "category": "CareerTactic"
     },
 
@@ -1150,7 +1150,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Action Point regeneration by 15.",
+      "description": "The power of Tzeentch increases your Action Point regeneration by 15.",
       "category": "CareerTactic"
     },
 
@@ -1214,7 +1214,7 @@
       "incant": "3.0s cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
+      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale"
     },
 
@@ -1310,7 +1310,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must have a Blessing",
-      "description": "You sever one Blessing from your enemy and do 134 damage",
+      "description": "You sever one Blessing from your enemy and inflict 134 damage",
       "category": "Ability"
     },
 
@@ -1502,7 +1502,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Stabs into opponent for 159 damage. For the next 5 seconds, Tooth Of Tzeentch will cause an additional 100 Spirit damage on the next damaging attack made by everyone in your group within 100 feet of you.",
+      "description": "You Stab into your opponent for 159 damage. For the next 5 seconds, Tooth Of Tzeentch will cause an additional 100 Spirit damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability"
     },
 
