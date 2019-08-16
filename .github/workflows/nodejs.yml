@@ -7,12 +7,16 @@ jobs:
 
     runs-on: ubuntu-latest
     
+    strategy:
+      matrix:
+        node_version: [12]
+    
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
-        node-version: 12
+        node-version: ${{ matrix.node_version }}
     - name: npm install, build, and test
       run: |
         npm install
