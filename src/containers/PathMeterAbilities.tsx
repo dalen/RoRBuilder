@@ -3,20 +3,47 @@ import { connect } from 'react-redux';
 import css from '../css/components/PathMeterAbilities.module.css';
 
 import AbilityMastery from './AbilityMastery';
+import { State } from '../reducers';
 
-class PathMeterAbilities extends Component {
-  constructor(props) {
+type Props = {
+  path: 'a' | 'b' | 'c';
+  abilities: State['abilities'];
+  pathMeterA: number;
+  pathMeterB: number;
+  pathMeterC: number;
+};
+
+class PathMeterAbilities extends Component<Props> {
+  constructor(props: Props) {
     super(props);
     this.renderAbility = this.renderAbility.bind(this);
   }
 
-  renderAbility(obj) {
+  renderAbility(obj: { level: number; requirement: number }) {
+    if (Array.isArray(this.props.abilities)) {
+      return null;
+    }
+
     const meterRequirement = obj.requirement;
-    const levelProp = `lvl${obj.level}`;
-    const pathMeter = this.props[`pathMeter${this.props.path.toUpperCase()}`];
-    const abilityKey = `oa${
-      this.props.abilities.mastery[this.props.path].optionalAbilities[levelProp]
-    }`;
+    const levelProp = `lvl${obj.level}` as
+      | 'lvl1'
+      | 'lvl2'
+      | 'lvl3'
+      | 'lvl4'
+      | 'lvl5'
+      | 'lvl6'
+      | 'lvl7';
+    const pathMeter = (() => {
+      switch (this.props.path) {
+        case 'a':
+          return this.props.pathMeterA;
+        case 'b':
+          return this.props.pathMeterB;
+        case 'c':
+          return this.props.pathMeterC;
+      }
+    })();
+    const abilityKey = `oa${this.props.abilities.mastery[this.props.path].optionalAbilities[levelProp]}`;
     const abilityData = this.props.abilities.indexed[
       this.props.abilities.mastery[this.props.path].optionalAbilities[levelProp]
     ];
@@ -64,7 +91,10 @@ class PathMeterAbilities extends Component {
         requirement: 3,
       },
     ];
-    if (this.props.abilities.length === 0) {
+    if (
+      Array.isArray(this.props.abilities) &&
+      this.props.abilities.length === 0
+    ) {
       return null;
     }
     return (
@@ -77,7 +107,17 @@ class PathMeterAbilities extends Component {
   }
 }
 
-function mapStateToProps({ abilities, pathMeterA, pathMeterB, pathMeterC }) {
+function mapStateToProps({
+  abilities,
+  pathMeterA,
+  pathMeterB,
+  pathMeterC,
+}: {
+  abilities: State['abilities'];
+  pathMeterA: number;
+  pathMeterB: number;
+  pathMeterC: number;
+}) {
   return {
     abilities,
     pathMeterA,

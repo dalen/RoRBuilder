@@ -118,7 +118,10 @@ function formatData(originalObject: Career) {
   };
 }
 
-const reducer: Reducer = (state = {}, action: AbilitiesAction | AnyAction) => {
+const reducer: Reducer<
+  ReturnType<typeof formatData> | never[],
+  AbilitiesAction | AnyAction
+> = (state = [], action) => {
   switch (action.type) {
     case FETCH_ABILITIES:
       return formatData(action.payload.data);

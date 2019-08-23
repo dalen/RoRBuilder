@@ -4,7 +4,15 @@ export type Mastery = {
     primary?: string;
     secondary?: string;
   };
-  optionalAbilities: number[];
+  optionalAbilities: {
+    lvl1: number;
+    lvl2: number;
+    lvl3: number;
+    lvl4: number;
+    lvl5: number;
+    lvl6: number;
+    lvl7: number;
+  };
   coreAbilities: number[];
 };
 

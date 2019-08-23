@@ -1,5 +1,4 @@
-import { AxiosResponse } from 'axios';
-import { combineReducers, Reducer } from 'redux';
+import { combineReducers } from 'redux';
 import ReducerCareers from './reducerCareers';
 import ReducerSidebar from './reducerSidebar';
 import ReducerOverlay from './reducerOverlay';
@@ -24,35 +23,33 @@ import ReducerMasteryMorales from './reducerMasteryMorales';
 import ReducerModal from './reducerModal';
 import ReducerSharingLink from './reducerSharingLink';
 
-export type State =
-  | {
-      careers: AxiosResponse<any>;
-      abilities: AxiosResponse<any>;
-      sidebar: boolean;
-      overlay: boolean;
-      slug: string | null;
-      level: number;
-      renown: number;
-      tacticLimit: number;
-      points: number;
-      currentPoints: number;
-      selectedMorale1: number;
-      selectedMorale2: number;
-      selectedMorale3: number;
-      selectedMorale4: number;
-      selectedTactics: number[];
-      pathMeterA: number;
-      pathMeterB: number;
-      pathMeterC: number;
-      masteryAbilities: number[];
-      masteryTactics: number[];
-      masteryMorales: number[];
-      modal: boolean;
-      sharingLink: boolean;
-    }
-  | undefined;
+export type State = {
+  careers: ReturnType<typeof ReducerCareers>;
+  abilities: ReturnType<typeof ReducerAbilities>;
+  sidebar: boolean;
+  overlay: boolean;
+  slug: string | null;
+  level: number;
+  renown: number;
+  tacticLimit: number;
+  points: number;
+  currentPoints: number;
+  selectedMorale1: number;
+  selectedMorale2: number;
+  selectedMorale3: number;
+  selectedMorale4: number;
+  selectedTactics: number[];
+  pathMeterA: number;
+  pathMeterB: number;
+  pathMeterC: number;
+  masteryAbilities: number[];
+  masteryTactics: number[];
+  masteryMorales: number[];
+  modal: boolean;
+  sharingLink: boolean;
+};
 
-const rootReducer: Reducer = combineReducers({
+const rootReducer = combineReducers({
   careers: ReducerCareers,
   abilities: ReducerAbilities,
   sidebar: ReducerSidebar,
