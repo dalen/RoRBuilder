@@ -654,7 +654,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you use Patch Wounds on an ally, you will additionally remove one Hex or Ailment from all groupmates within 150 feet of them.",
+      "description": "Patch Wounds will now remove one Ailment or Hex for the entire group.",
       "category": "CareerTactic"
     },
 
@@ -670,7 +670,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Transfer Essence's base heal is increased to 282 health and the healing from lifetaps are increased by 25%.",
+      "description": "Transfer Essence's base heal is increased to 282 health and the healing from lifetaps are increased by 75%.",
       "category": "CareerTactic"
     },
 
@@ -1422,7 +1422,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Terrifying Vision will now also affect all enemies within 30 feet.",
+      "description": "Terrifying Vision will also affect all enemies within 30 feet.",
       "category": "CareerTactic"
     },
 
@@ -1566,7 +1566,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A merciless attack which deals 127 damage to the target. If the target is below 50% hit points, instead inflicts 277 damage and will always critically hit.",
+      "description": "A merciless attack which deals 127 damage to the your enemy, or if they are below 50% hit points, instead inflicts 277 damage and will almost always critically hit.",
       "category": "Ability"
     },
 
