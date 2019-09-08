@@ -112,12 +112,7 @@ function mapStateToProps({
   pathMeterA,
   pathMeterB,
   pathMeterC,
-}: {
-  abilities: State['abilities'];
-  pathMeterA: number;
-  pathMeterB: number;
-  pathMeterC: number;
-}) {
+}: State) {
   return {
     abilities,
     pathMeterA,

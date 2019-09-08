@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import css from '../css/components/SelectRenown.module.css';
 import { calculateMasteryPoints } from '../helpers/points';
 
+import { State } from '../reducers';
 import { setRenown } from '../actions/actionRenown';
 import { setPoints } from '../actions/actionPoints';
 import { setCurrentPoints } from '../actions/actionCurrentPoints';
@@ -174,16 +175,7 @@ function mapStateToProps({
   masteryAbilities,
   masteryMorales,
   masteryTactics,
-}: {
-  level: number;
-  renown: number;
-  pathMeterA: number;
-  pathMeterB: number;
-  pathMeterC: number;
-  masteryAbilities: number[];
-  masteryMorales: number[];
-  masteryTactics: number[];
-}) {
+}: State) {
   return {
     level,
     renown,

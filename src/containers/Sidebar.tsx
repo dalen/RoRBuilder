@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import classNames from 'classnames';
 import css from '../css/components/Sidebar.module.css';
 import CareerItem from './CareerItem';
+import { State } from '../reducers';
 
 const renderCareers = (careers: { [key: string]: any }) => {
   return Object.keys(careers).map(key => (
@@ -25,7 +26,7 @@ const Sidebar = ({ sidebar, careers }: { sidebar: boolean; careers: any }) => {
   );
 };
 
-function mapStateToProps({ careers, sidebar }: { careers: any; sidebar: any }) {
+function mapStateToProps({ careers, sidebar }: State) {
   return {
     careers,
     sidebar,

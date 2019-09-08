@@ -9,6 +9,7 @@ import { setPathMeterA } from '../actions/actionPathMeterA';
 import { setPathMeterB } from '../actions/actionPathMeterB';
 import { setPathMeterC } from '../actions/actionPathMeterC';
 import { setCurrentPoints } from '../actions/actionCurrentPoints';
+import { State } from '../reducers';
 
 type Props = {
   points: number;
@@ -230,16 +231,7 @@ function mapStateToProps({
   masteryAbilities,
   masteryMorales,
   masteryTactics,
-}: {
-  points: number;
-  currentPoints: number;
-  pathMeterA: number;
-  pathMeterB: number;
-  pathMeterC: number;
-  masteryAbilities: number[];
-  masteryMorales: number[];
-  masteryTactics: number[];
-}) {
+}: State) {
   return {
     points,
     currentPoints,
