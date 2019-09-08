@@ -215,7 +215,7 @@ class PathButtonsContainer extends Component<Props> {
             meterMax={meterMax}
           />
         </div>
-        <PathMeterAbilities path={this.props.path} />
+        <PathMeterAbilities path={path} />
       </div>
     );
   }
