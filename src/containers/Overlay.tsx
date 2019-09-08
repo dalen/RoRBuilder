@@ -6,23 +6,37 @@ import css from '../css/components/Overlay.module.css';
 import { toggleOverlay } from '../actions/actionOverlay';
 import { toggleSidebar } from '../actions/actionSidebar';
 import { closeModal } from '../actions/actionModal';
+import { State } from '../reducers';
 
 // Overlay is used in a few places. Mainly as background when Sidebar is present, behind modal and behind PopoverAbility.
 // props.show = is the Overlay rendered at all
 // props.visible = is the Overlay rendered as visible or invisible (invisible is used for Popover background)
 
-class Overlay extends Component {
-  constructor(props) {
+type Props = {
+  overlay: boolean;
+  sidebar: boolean;
+  modal: boolean;
+  overlayVisible: boolean;
+  toggleOverlay: typeof toggleOverlay;
+  toggleSidebar: typeof toggleSidebar;
+  closeModal: typeof closeModal;
+};
+
+class Overlay extends Component<Props> {
+  constructor(props: Props) {
     super(props);
 
     this.clickOverlay = this.clickOverlay.bind(this);
   }
 
   componentDidUpdate() {
+    const body = document.querySelector('body');
+    if (!body) return;
+
     if (this.props.overlay) {
-      document.querySelector('body').classList.add('overflowYHidden');
+      body.classList.add('overflowYHidden');
     } else {
-      document.querySelector('body').classList.remove('overflowYHidden');
+      body.classList.remove('overflowYHidden');
     }
   }
 
@@ -49,7 +63,7 @@ class Overlay extends Component {
   }
 }
 
-function mapStateToProps({ overlay, sidebar, modal }) {
+function mapStateToProps({ overlay, sidebar, modal }: State) {
   return {
     modal,
     sidebar,
