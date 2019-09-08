@@ -126,7 +126,4 @@ function mapStateToProps({
   };
 }
 
-export default connect(
-  mapStateToProps,
-  null,
-)(PathMeterAbilities);
+export default connect(mapStateToProps)(PathMeterAbilities);
