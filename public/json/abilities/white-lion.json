@@ -271,9 +271,9 @@
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A sundering blow which deals 134 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
+      "description": "A sundering blow which deals 134 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 10 seconds.",
       "category": "Ability"
     },
 
