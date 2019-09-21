@@ -382,7 +382,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "Improves with Grudge<br>Requires Great Weapon",
-      "description": "You smash into your enemy, knocking them down for 3seconds.<br><br> At 25 Grudges: Deals 170 damage over 5 seconds.<br> At 50 Grudges: Deals 295 damage over 5 seconds.<br> At 75 Grudges: Deals 420 damage over 5 seconds.<br> At 100 Grudges: Deals 545 damage over 5 seconds.",
+      "description": "You smash into your enemy, knocking them down for 3 seconds.<br><br> At 25 Grudges: Deals 170 damage over 5 seconds.<br> At 50 Grudges: Deals 295 damage over 5 seconds.<br> At 75 Grudges: Deals 420 damage over 5 seconds.<br> At 100 Grudges: Deals 545 damage over 5 seconds.",
       "category": "Ability"
     },
 
@@ -1150,7 +1150,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Inspiring Attack will also curse your target and outgoing heals will be reduced to 50% effectiveness for 20 seconds.",
+      "description": "Inspiring Attack will also curse your target, reducing the value of their outgoing healing by 50% for 20 seconds.",
       "category": "CareerTactic"
     },
 
@@ -1310,7 +1310,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must have a Blessing",
-      "description": "You sever one Blessing from your enemy and do 119 damage.",
+      "description": "You sever one Blessing from your enemy and inflict 119 damage.",
       "category": "Ability"
     },
 
