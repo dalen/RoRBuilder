@@ -9,7 +9,7 @@ import { State } from '../reducers';
 
 type Props = {
   modal: boolean;
-  closeModal: () => void;
+  closeModal: typeof closeModal;
   toggleOverlay: typeof toggleOverlay;
 };
 
@@ -20,20 +20,22 @@ class Modal extends Component<Props> {
   }
 
   clickClose(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
+    const { closeModal, toggleOverlay } = this.props;
     e.preventDefault();
-    this.props.closeModal();
-    this.props.toggleOverlay(false);
+    closeModal();
+    toggleOverlay(false);
   }
 
   render() {
+    const { children, modal } = this.props;
     const modalClass = classNames({
-      [css.modal]: !this.props.modal,
-      [css.modalVisible]: this.props.modal,
+      [css.modal]: !modal,
+      [css.modalVisible]: modal,
     });
     return (
       <div className={modalClass}>
         <div className={css.container}>
-          <div className={css.content}>{this.props.children}</div>
+          <div className={css.content}>{children}</div>
           <div className={css.footer}>
             <button
               className={css.close}

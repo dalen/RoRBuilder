@@ -5,11 +5,20 @@ import css from '../css/components/Masthead.module.css';
 
 import CareerItem from './CareerItem';
 
-import { toggleSidebar } from '../actions/actionSidebar';
-import { toggleOverlay } from '../actions/actionOverlay';
+import * as actionSidebar from '../actions/actionSidebar';
+import * as actionOverlay from '../actions/actionOverlay';
+import { State } from '../reducers';
 
-class Masthead extends Component {
-  constructor(props) {
+type Props = {
+  overlay: boolean;
+  sidebar: boolean;
+  toggleOverlay: typeof actionOverlay.toggleOverlay;
+  toggleSidebar: typeof actionSidebar.toggleSidebar;
+  careers: State['careers'];
+};
+
+class Masthead extends Component<Props, { mastheadActive: boolean }> {
+  constructor(props: Props) {
     super(props);
 
     this.clickMasthead = this.clickMasthead.bind(this);
@@ -20,60 +29,67 @@ class Masthead extends Component {
     };
   }
 
-  renderCareers(key, faction) {
-    if (this.props.careers[key].race === faction) {
+  clickMasthead(
+    e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement, MouseEvent>,
+  ) {
+    e.preventDefault();
+    this.setState(prevState => ({
+      mastheadActive: !prevState.mastheadActive,
+    }));
+  }
+
+  clickMastheadMobile(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
+    const { toggleOverlay, toggleSidebar, overlay, sidebar } = this.props;
+    e.preventDefault();
+    toggleOverlay(!overlay);
+    toggleSidebar(!sidebar);
+  }
+
+  renderCareers(key: string, faction: string) {
+    const { careers } = this.props;
+    if (careers[key].race === faction) {
       return (
         <div className={css.careersItem} key={key}>
-          <CareerItem career={this.props.careers[key]} />
+          <CareerItem career={careers[key]} />
         </div>
       );
     }
     return false;
   }
 
-  clickMasthead(e) {
-    e.preventDefault();
-    this.setState({
-      mastheadActive: !this.state.mastheadActive,
-    });
-  }
-
-  clickMastheadMobile(e) {
-    e.preventDefault();
-    this.props.toggleOverlay(!this.props.overlay);
-    this.props.toggleSidebar(!this.props.sidebar);
-  }
-
   render() {
+    const { mastheadActive } = this.state;
+    const { careers } = this.props;
+
     const mastheadClass = classNames({
-      [css.masthead]: !this.state.mastheadActive,
-      [css.mastheadActive]: this.state.mastheadActive,
+      [css.masthead]: !mastheadActive,
+      [css.mastheadActive]: mastheadActive,
     });
     const mastheadTitleClass = classNames({
-      [css.mastheadTitle]: !this.state.mastheadActive,
-      [css.mastheadTitleActive]: this.state.mastheadActive,
+      [css.mastheadTitle]: !mastheadActive,
+      [css.mastheadTitleActive]: mastheadActive,
     });
     const mastheadCtaClass = classNames({
-      [css.mastheadCta]: !this.state.mastheadActive,
-      [css.mastheadCtaActive]: this.state.mastheadActive,
+      [css.mastheadCta]: !mastheadActive,
+      [css.mastheadCtaActive]: mastheadActive,
       'hidden@mobile': true,
     });
     const mastheadCtaClassMobile = classNames({
-      [css.mastheadCta]: !this.state.mastheadActive,
-      [css.mastheadCtaActive]: this.state.mastheadActive,
+      [css.mastheadCta]: !mastheadActive,
+      [css.mastheadCtaActive]: mastheadActive,
       'visible@mobile': true,
     });
     const mastheadFooterClass = classNames({
-      [css.mastheadFooter]: !this.state.mastheadActive,
-      [css.mastheadFooterActive]: this.state.mastheadActive,
+      [css.mastheadFooter]: !mastheadActive,
+      [css.mastheadFooterActive]: mastheadActive,
     });
     const careersContainerLeftClass = classNames({
-      [css.careersContainerLeft]: !this.state.mastheadActive,
-      [css.careersContainerLeftActive]: this.state.mastheadActive,
+      [css.careersContainerLeft]: !mastheadActive,
+      [css.careersContainerLeftActive]: mastheadActive,
     });
     const careersContainerRightClass = classNames({
-      [css.careersContainerRight]: !this.state.mastheadActive,
-      [css.careersContainerRightActive]: this.state.mastheadActive,
+      [css.careersContainerRight]: !mastheadActive,
+      [css.careersContainerRightActive]: mastheadActive,
     });
     return (
       <div className={mastheadClass}>
@@ -120,7 +136,7 @@ class Masthead extends Component {
                     />
                     <div className={css.careersRaceTitle}>Dwarves</div>
                   </div>
-                  {Object.keys(this.props.careers).map(key =>
+                  {Object.keys(careers).map(key =>
                     this.renderCareers(key, 'Dwarf'),
                   )}
                 </div>
@@ -133,7 +149,7 @@ class Masthead extends Component {
                     />
                     <div className={css.careersRaceTitle}>High Elves</div>
                   </div>
-                  {Object.keys(this.props.careers).map(key =>
+                  {Object.keys(careers).map(key =>
                     this.renderCareers(key, 'High Elf'),
                   )}
                 </div>
@@ -146,7 +162,7 @@ class Masthead extends Component {
                     />
                     <div className={css.careersRaceTitle}>Empire</div>
                   </div>
-                  {Object.keys(this.props.careers).map(key =>
+                  {Object.keys(careers).map(key =>
                     this.renderCareers(key, 'Empire'),
                   )}
                 </div>
@@ -164,7 +180,7 @@ class Masthead extends Component {
                     />
                     <div className={css.careersRaceTitle}>Greenskins</div>
                   </div>
-                  {Object.keys(this.props.careers).map(key =>
+                  {Object.keys(careers).map(key =>
                     this.renderCareers(key, 'Greenskin'),
                   )}
                 </div>
@@ -177,7 +193,7 @@ class Masthead extends Component {
                     />
                     <div className={css.careersRaceTitle}>Dark Elves</div>
                   </div>
-                  {Object.keys(this.props.careers).map(key =>
+                  {Object.keys(careers).map(key =>
                     this.renderCareers(key, 'Dark Elf'),
                   )}
                 </div>
@@ -190,7 +206,7 @@ class Masthead extends Component {
                     />
                     <div className={css.careersRaceTitle}>Chaos</div>
                   </div>
-                  {Object.keys(this.props.careers).map(key =>
+                  {Object.keys(careers).map(key =>
                     this.renderCareers(key, 'Chaos'),
                   )}
                 </div>
@@ -203,7 +219,7 @@ class Masthead extends Component {
   }
 }
 
-function mapStateToProps({ careers, sidebar, overlay }) {
+function mapStateToProps({ careers, sidebar, overlay }: State) {
   return {
     careers,
     sidebar,
@@ -213,5 +229,8 @@ function mapStateToProps({ careers, sidebar, overlay }) {
 
 export default connect(
   mapStateToProps,
-  { toggleSidebar, toggleOverlay },
+  {
+    toggleSidebar: actionSidebar.toggleSidebar,
+    toggleOverlay: actionOverlay.toggleOverlay,
+  },
 )(Masthead);
