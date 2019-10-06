@@ -5,14 +5,21 @@ import css from '../css/components/Modal.module.css';
 
 import { closeModal } from '../actions/actionModal';
 import { toggleOverlay } from '../actions/actionOverlay';
+import { State } from '../reducers';
 
-class Modal extends Component {
-  constructor(props) {
+type Props = {
+  modal: boolean;
+  closeModal: () => void;
+  toggleOverlay: typeof toggleOverlay;
+};
+
+class Modal extends Component<Props> {
+  constructor(props: Props) {
     super(props);
     this.clickClose = this.clickClose.bind(this);
   }
 
-  clickClose(e) {
+  clickClose(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
     e.preventDefault();
     this.props.closeModal();
     this.props.toggleOverlay(false);
@@ -42,7 +49,7 @@ class Modal extends Component {
   }
 }
 
-function mapStateToProps({ modal }) {
+function mapStateToProps({ modal }: State) {
   return {
     modal,
   };
