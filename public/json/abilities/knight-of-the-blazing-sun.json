@@ -174,7 +174,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You sweep your blade out in a wide arc, dealing 109 damage and reducing their Wounds by 120 to all enemies in front of you up to 25 feet away.",
+      "description": "You sweep your blade out in a wide arc, dealing 109 damage to all enemies 25 feet in front of you, and reducing their Wounds by 120.",
       "category": "Ability"
     },
 
@@ -206,7 +206,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Action Point regeneration by 15",
+      "description": "Battle Commands will restore 5 action points every second for each of your active Battle Commands.",
       "category": "CareerTactic"
     },
 
@@ -974,7 +974,7 @@
       "incant": "Insta-Cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to ready their defenses, causing 225 damageback against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds. (At RR100)",
+      "description": "You order your group to ready their defenses, causing 225 damage back against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds. <BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability"
     },
 
