@@ -126,7 +126,7 @@
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "An un-defendable bolt of far traveling force that inflicts 633 elemental damage.",
+      "description": "An un-defendable bolt of far-traveling force that inflicts 633 elemental damage.",
       "category": "Ability"
     },
 
@@ -254,7 +254,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You surround yourself with daemonic protection, gaining a 560 ability bonus to Armor for up to 1 hours.",
+      "description": "You surround yourself with daemonic protection, increasing your Armor by 560 for up to 1 hours.",
       "category": "Ability"
     },
 
@@ -334,7 +334,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Forms a pact with newly summoned daemons that gives both you and your daemon a 100 unique bonus to Toughness while your daemon remains in this realm.",
+      "description": "Forms a pact with newly summoned daemons that increases both you and your daemon's Toughness by 100 while your daemon remains in this realm.",
       "category": "CareerTactic"
     },
 
@@ -366,7 +366,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Causes your groupmates to gain a 157 ability bonus to corporeal resistance for 60 minutes.",
+      "description": "Increases your group members' Corporeal resistance by 157 if they are within 100 feet of you.",
       "category": "Ability"
     },
 
@@ -446,7 +446,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You gain a 160 unique bonus to Intelligence.",
+      "description": "Increases your Intelligence by 160.",
       "category": "CareerTactic"
     },
 
@@ -510,7 +510,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rend Winds and Flickering Red Fire are now un-defendable.",
+      "description": "Rend Winds and Flickering Red Fire are now undefendable.",
       "category": "CareerTactic"
     },
 
@@ -558,7 +558,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale"
     },
 
@@ -574,7 +574,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You strip away the spiritual protections of everyone 20 feet from your target, dealing 420 spirit damage over 20 seconds and causing them to take a 236 ability penalty to spiritual resistance.",
+      "description": "You strip away the spiritual protections of everyone 20 feet from your target, reducing their Spirit resistance by  236 and dealing 420 spirit damage over 20.",
       "category": "Ability"
     },
 
@@ -702,7 +702,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you construct a Daemon, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
+      "description": "When you summon a daemon, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
       "category": "CareerTactic"
     },
 
@@ -782,7 +782,7 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You open a rift dealing 288 elemental damage and weakens the fabric of reality surrounding your target, disarming them for 3 seconds.",
+      "description": "You open a rift surrounding your target, dealing 288 elemental damage and weakening the fabric of reality around them, disarming them for  3 seconds.",
       "category": "Ability"
     },
 
@@ -894,7 +894,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Steals up to 200 action points from your target and gives it to you, and reduces your target's Intelligence by 160 for 30 seconds.",
+      "description": "You drain power from your target, Steals up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
       "category": "Morale"
     },
 
@@ -942,7 +942,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in short range area of effect attacks. This minion is confined to its summoning circle and cannot move. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your daemon, max 8 stacks. Each stack gives you +5% damage, +8% dodge and disrupt for daemon, +4% dodge and disrupt for you, +6.25% AoE radius, increases AoE cap by 2, and reduces your range by 5% (cap -30%). With one stack you can use path of changing abilities while on the move. You will begin to lose stacks at 31 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned.",
+      "description": "Summons a daemonic minion who specializes in short range Spiritual and Elemental area of effect attacks. This minion is confined to its summoning circle and cannot move. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your The daemonic minion gains 50% of your Intelligence from item bonuses and 100% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when your daemon is slain for any reason.",
       "category": "Ability"
     },
 
@@ -958,7 +958,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. You will generate 1 stack of unholy empowerment every 2s as long as you are within 40ft of your daemon, max 8 stacks. Each stack gives you +5% damage, +5% turret range, and +4% faster changing/daemonology DoT ticks. With one stack you can use path of changing abilities while on the move. You will begin to lose stacks at 81 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned.",
+      "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 75% of your Intelligence from item bonuses and 75% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when your daemon is slain for any reason.",
       "category": "Ability"
     },
 
@@ -974,7 +974,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in long range attacks. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your daemon, max 8 stacks. Each stack gives you +5% damage, +5% daemon range and +5% range (cap 25% range). You will begin to lose stacks at 31 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned.",
+      "description": "Summons a daemonic minion who specializes in long range Elemental based attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 100% of your Intelligence from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when your daemon is slain for any reason.",
       "category": "Ability"
     },
 
@@ -1086,7 +1086,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You gain a 252 unique bonus to elemental resistance.",
+      "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic"
     },
 
