@@ -526,7 +526,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt. You will also get a 10% disrupt strikethrough.",
+      "description": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
       "category": "CareerTactic"
     },
 
@@ -542,7 +542,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases area of effect of Rune Of Cleaving and Rune Of Battle by 50%.",
+      "description": "Increases the area of effect of Rune of Cleaving and Rune of Battle by 50%.",
       "category": "CareerTactic"
     },
 
@@ -622,7 +622,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale"
     },
 
@@ -1086,7 +1086,7 @@
       "incant": "6.0s cast",
       "cooldown": "11.0s cooldown",
       "note": "",
-      "description": "You channel a powerful series of runes around your target which project searing flame into them. Dealing 1729 Elemental Damage over 6 seconds for as long as you maintain yout concentration.",
+      "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1729 Elemental Damage over 6 seconds for as long as you maintain yout concentration.",
       "category": "Ability"
     },
 
@@ -1118,7 +1118,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A burst of force errupts from your rune dealing 756 Elemental Damage over 9 seconds to the targets 40 feet in front of you.",
+      "description": "A burst of force errupts from your rune dealing 756 Elemental Damage over 9 seconds to targets 40 feet in front of you.",
       "category": "Ability"
     },
 
@@ -1166,7 +1166,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Deals 320 Elemental damage",
+      "description": "Your rune releases a scorching blast, inflicting 320 Elemental damage to your target.",
       "category": "Ability"
     },
 
@@ -1214,7 +1214,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deal 600 damage to target. Lower target's AP by 200.",
+      "description": "Inflicts 600 damage to the target and reduces their Action Points by 200.",
       "category": "Morale"
     },
 
@@ -1230,7 +1230,7 @@
       "incant": "3.0s cast",
       "cooldown": "6.0s cooldown",
       "note": "Only usable on Dead Players",
-      "description": "Resurrect target friendly dead player and restore 20% of their health.",
+      "description": "Restores life to a slain ally, reviving them with 20% of their health.",
       "category": "Ability"
     },
 
@@ -1262,7 +1262,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Your rune transmits a surge of power through the ground dealing 247 Elemental damage to all targets within 30 feet of you.",
+      "description": "Your rune transmits a surge of power through the ground, dealing 247 Elemental damage to all targets within 30 feet of you.",
       "category": "Ability"
     },
 
@@ -1326,7 +1326,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You call upon a regenerative rune restoring 1780 heatlth over 15 seconds to your target.",
+      "description": "You call upon a regenerative rune, restoring 1780 health over 15 seconds to your target.",
       "category": "Ability"
     },
 
@@ -1342,7 +1342,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Restores 883 health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
+      "description": "Your rune infuses the target with vitality, restoring 883 health.<br>This is a fragile spell, and will always be set back by a small amount if you are damaged while casting it.",
       "category": "Ability"
     },
 
@@ -1358,7 +1358,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Heals target for 525 life over 9 seconds, and will then bounce to and heal other allies within 30 feet of the previous target. Effect will not hit the same target more than once, and will heal up to 6 people.",
+      "description": "Heals your target for 525 health over 9 seconds, and will then bounce to and heal other allies within 30 feet of the previous target. This effect will not apply itself to the same target more than once, and will heal up to 6 people.",
       "category": "Ability"
     },
 
@@ -1374,7 +1374,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Target absorbs up to 550 damage over 10 seconds. When the effect fades, the target recovers 205 health.",
+      "description": "A shielding rune which absorbs up to 550 damage over 10 seconds. When the effect fades, the target recovers 205 health.",
       "category": "Ability"
     },
 
@@ -1406,7 +1406,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals 277 Elemental damage.",
+      "description": "Your rune calls down a bolt of electricity, dealing 277 Elemental damage to your target.",
       "category": "Ability"
     },
 
@@ -1422,7 +1422,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Knockbacks targets within 30 feet of you. Monsters will be knocked down.",
+      "description": "A rune which ruptures the ground underfoot, knocking back targets within 30 feet of you. Monsters will be knocked down.",
       "category": "Ability"
     },
 
@@ -1438,7 +1438,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases crit chance of Rune of Fire, Grungni's Gift, and Rune of Striking by 15%.",
+      "description": "Increases critical chance of Rune of Fire, Grungni's Gift, and Rune of Striking by 15%.",
       "category": "CareerTactic"
     },
 
@@ -1518,7 +1518,7 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Silences and wounds target for 375 Elemental damage over 4 seconds.",
+      "description": "A potent rune which suppresses magic, silencing and wounding your target for 375 Elemental damage over 4 seconds.",
       "category": "Ability"
     },
 
@@ -1614,7 +1614,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Cooldown on Rune of Cleansing is removed and the cost increased to 40 Action Points.",
+      "description": "Removes the cooldown of Rune of Cleansing, but increases the cost to 40 Action Points.",
       "category": "CareerTactic"
     },
 
@@ -1630,7 +1630,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Removes chance to be setback while casting Grungni's Gift, Rune of Mending and Rune of Serenity.",
+      "description": "Rune of Mending and Rune of Serenity can no longer be set back when casting.",
       "category": "CareerTactic"
     },
 
