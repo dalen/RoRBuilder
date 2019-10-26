@@ -8,8 +8,22 @@ import PopoverAbility from '../components/PopoverAbility';
 
 import { selectTactic, deselectTactic } from '../actions/actionSelectedTactics';
 
-class AbilityTactic extends Component {
-  constructor(props) {
+import { State } from '../reducers';
+
+type Props = {
+  data: any;
+  level: State['level'];
+  selectedTactics: State['selectedTactics'];
+  tacticLimit: State['tacticLimit'];
+  selectTactic: typeof selectTactic;
+  deselectTactic: typeof deselectTactic;
+};
+
+class AbilityTactic extends Component<
+  Props,
+  { status: boolean; hovered: boolean; selected: boolean }
+> {
+  constructor(props: Props) {
     super(props);
     this.state = {
       status: false,
@@ -21,7 +35,11 @@ class AbilityTactic extends Component {
     this.selectTactic = this.selectTactic.bind(this);
   }
 
-  setInitialStatus(currentLevel, minrank, selectedTactics) {
+  setInitialStatus(
+    currentLevel: number,
+    minrank: number,
+    selectedTactics: number[],
+  ) {
     if (Number(currentLevel) >= Number(minrank)) {
       this.setState({ status: true });
     } else {
@@ -75,7 +93,7 @@ class AbilityTactic extends Component {
   }
 
   // About to update because parent changed
-  componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps(nextProps: Props) {
     this.setInitialStatus(
       nextProps.level,
       nextProps.data.minrank,
@@ -121,7 +139,7 @@ class AbilityTactic extends Component {
   }
 }
 
-function mapStateToProps({ level, selectedTactics, tacticLimit }) {
+function mapStateToProps({ level, selectedTactics, tacticLimit }: State) {
   return {
     level,
     selectedTactics,

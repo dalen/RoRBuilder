@@ -6,6 +6,8 @@ import css from '../css/components/AbilityMorale.module.css';
 import Popover from '../components/Popover';
 import PopoverAbility from '../components/PopoverAbility';
 
+import { State } from '../reducers';
+
 import {
   selectMorale1,
   resetSelectedMorale1,
@@ -23,8 +25,29 @@ import {
   resetSelectedMorale4,
 } from '../actions/actionSelectedMorale4';
 
-class AbilityMorale extends Component {
-  constructor(props) {
+type Props = {
+  rank: '1' | '2' | '3' | '4';
+  data: any;
+  level: State['level'];
+  selectedMorale1: State['selectedMorale1'];
+  selectedMorale2: State['selectedMorale2'];
+  selectedMorale3: State['selectedMorale3'];
+  selectedMorale4: State['selectedMorale4'];
+  selectMorale1: typeof selectMorale1;
+  resetSelectedMorale1: typeof resetSelectedMorale1;
+  selectMorale2: typeof selectMorale2;
+  resetSelectedMorale2: typeof resetSelectedMorale2;
+  selectMorale3: typeof selectMorale3;
+  resetSelectedMorale3: typeof resetSelectedMorale3;
+  selectMorale4: typeof selectMorale4;
+  resetSelectedMorale4: typeof resetSelectedMorale4;
+};
+
+class AbilityMorale extends Component<
+  Props,
+  { status: boolean; hovered: boolean; selected: boolean }
+> {
+  constructor(props: Props) {
     super(props);
     this.state = {
       status: false,
@@ -37,12 +60,12 @@ class AbilityMorale extends Component {
   }
 
   setInitialStatus(
-    currentLevel,
-    minrank,
-    selectedMorale1,
-    selectedMorale2,
-    selectedMorale3,
-    selectedMorale4,
+    currentLevel: number,
+    minrank: number,
+    selectedMorale1: number,
+    selectedMorale2: number,
+    selectedMorale3: number,
+    selectedMorale4: number,
   ) {
     if (Number(currentLevel) >= Number(minrank)) {
       this.setState({ status: true });
@@ -145,7 +168,7 @@ class AbilityMorale extends Component {
   }
 
   // About to update because parent changed
-  componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps(nextProps: Props) {
     this.setInitialStatus(
       nextProps.level,
       nextProps.data.minrank,
@@ -200,7 +223,7 @@ function mapStateToProps({
   selectedMorale2,
   selectedMorale3,
   selectedMorale4,
-}) {
+}: State) {
   return {
     level,
     selectedMorale1,

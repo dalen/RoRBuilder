@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { RouteComponentProps } from 'react-router-dom';
 import { connect } from 'react-redux';
 import css from '../css/components/ActionButtons.module.css';
 import { gaEvent, gaChangeCareer } from '../helpers/googleAnalytics';
@@ -25,8 +26,14 @@ import { resetPathMeterC } from '../actions/actionPathMeterC';
 import { openModal } from '../actions/actionModal';
 import { setSharingLink } from '../actions/actionSharingLink';
 
-class ActionButtons extends Component {
-  constructor(props) {
+import { State } from '../reducers';
+
+type Props = {} & ReturnType<typeof mapStateToProps> &
+  typeof mapDispatchToProps &
+  RouteComponentProps;
+
+class ActionButtons extends Component<Props> {
+  constructor(props: Props) {
     super(props);
     this.clickHome = this.clickHome.bind(this);
     this.clickShare = this.clickShare.bind(this);
@@ -40,7 +47,7 @@ class ActionButtons extends Component {
 
   combineMasteries() {
     // Combine all selected masteries into single array
-    let combinedMasteries = [];
+    let combinedMasteries: number[] = [];
     if (this.props.masteryAbilities.length > 0) {
       combinedMasteries = this.props.masteryAbilities;
     }
@@ -93,6 +100,9 @@ class ActionButtons extends Component {
     this.props.setSharingLink(this.createShareLink());
     // Open share modal
     this.props.openModal(MODAL_SHARE);
+    if (this.props.slug == null || Array.isArray(this.props.abilities)) {
+      return;
+    }
     const careerName = this.props.careers[this.props.slug].name;
     // Send GA events
     if (this.props.selectedMorale1) {
@@ -100,7 +110,7 @@ class ActionButtons extends Component {
         careerName,
         'Selected Morale 1',
         this.props.abilities.indexed[this.props.selectedMorale1].name,
-        this.props.selectedMorale1,
+        this.props.selectedMorale1.toString(),
       );
     }
     if (this.props.selectedMorale2) {
@@ -108,7 +118,7 @@ class ActionButtons extends Component {
         careerName,
         'Selected Morale 2',
         this.props.abilities.indexed[this.props.selectedMorale2].name,
-        this.props.selectedMorale2,
+        this.props.selectedMorale2.toString(),
       );
     }
     if (this.props.selectedMorale3) {
@@ -116,7 +126,7 @@ class ActionButtons extends Component {
         careerName,
         'Selected Morale 3',
         this.props.abilities.indexed[this.props.selectedMorale3].name,
-        this.props.selectedMorale3,
+        this.props.selectedMorale3.toString(),
       );
     }
     if (this.props.selectedMorale4) {
@@ -124,7 +134,7 @@ class ActionButtons extends Component {
         careerName,
         'Selected Morale 4',
         this.props.abilities.indexed[this.props.selectedMorale4].name,
-        this.props.selectedMorale4,
+        this.props.selectedMorale4.toString(),
       );
     }
     if (Number(this.props.selectedTactics.length) > 0) {
@@ -133,7 +143,7 @@ class ActionButtons extends Component {
           careerName,
           'Selected Tactic',
           this.props.abilities.indexed[abilityId].name,
-          abilityId,
+          abilityId.toString(),
         );
       }
     }
@@ -144,20 +154,20 @@ class ActionButtons extends Component {
           careerName,
           'Mastery ability',
           this.props.abilities.indexed[abilityId].name,
-          abilityId,
+          abilityId.toString(),
         );
       }
     }
   }
 
-  clickChangeCareer(e) {
+  clickChangeCareer(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
     e.preventDefault();
     this.props.toggleOverlay(!this.props.overlay);
     this.props.toggleSidebar(!this.props.sidebar);
     gaChangeCareer('ActionButton');
   }
 
-  clickReset(e) {
+  clickReset(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
     e.preventDefault();
     // Reset career selections/attributes/abilities
     this.props.resetLevel();
@@ -179,7 +189,7 @@ class ActionButtons extends Component {
   }
 
   render() {
-    if (this.props.abilities.length === 0) {
+    if (Array.isArray(this.props.abilities)) {
       return null;
     }
     return (
@@ -228,7 +238,7 @@ function mapStateToProps({
   tacticLimit,
   renown,
   level,
-}) {
+}: State) {
   return {
     overlay,
     sidebar,
@@ -253,28 +263,30 @@ function mapStateToProps({
   };
 }
 
+const mapDispatchToProps = {
+  toggleOverlay,
+  toggleSidebar,
+  resetRenown,
+  resetLevel,
+  resetTacticLimit,
+  resetPoints,
+  resetCurrentPoints,
+  resetSelectedMorale1,
+  resetSelectedMorale2,
+  resetSelectedMorale3,
+  resetSelectedMorale4,
+  resetSelectedTactics,
+  resetMasteryAbilities,
+  resetMasteryMorales,
+  resetMasteryTactics,
+  resetPathMeterA,
+  resetPathMeterB,
+  resetPathMeterC,
+  openModal,
+  setSharingLink,
+};
+
 export default connect(
   mapStateToProps,
-  {
-    toggleOverlay,
-    toggleSidebar,
-    resetRenown,
-    resetLevel,
-    resetTacticLimit,
-    resetPoints,
-    resetCurrentPoints,
-    resetSelectedMorale1,
-    resetSelectedMorale2,
-    resetSelectedMorale3,
-    resetSelectedMorale4,
-    resetSelectedTactics,
-    resetMasteryAbilities,
-    resetMasteryMorales,
-    resetMasteryTactics,
-    resetPathMeterA,
-    resetPathMeterB,
-    resetPathMeterC,
-    openModal,
-    setSharingLink,
-  },
+  mapDispatchToProps,
 )(ActionButtons);
