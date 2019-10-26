@@ -26,14 +26,46 @@ import { setPathMeterC } from '../actions/actionPathMeterC';
 import { setCurrentPoints } from '../actions/actionCurrentPoints';
 import { deselectTactic } from '../actions/actionSelectedTactics';
 import { resetSelectedMorale4 } from '../actions/actionSelectedMorale4';
+import { State } from '../reducers';
 
-class AbilityMastery extends Component {
+type Props = {
+  masteryAbilities: State['masteryAbilities'];
+  masteryTactics: State['masteryTactics'];
+  masteryMorales: State['masteryMorales'];
+  currentPoints: State['currentPoints'];
+  pathMeterA: State['pathMeterA'];
+  pathMeterB: State['pathMeterB'];
+  pathMeterC: State['pathMeterC'];
+  selectedTactics: State['selectedTactics'];
+  selectedMorale4: State['selectedMorale4'];
+  data: any;
+  path: string;
+  meterRequirement: number;
+  pathMeter: number;
+  addMasteryAbility: typeof addMasteryAbility;
+  removeMasteryAbility: typeof removeMasteryAbility;
+  addMasteryMorale: typeof addMasteryMorale;
+  removeMasteryMorale: typeof removeMasteryMorale;
+  addMasteryTactic: typeof addMasteryTactic;
+  removeMasteryTactic: typeof removeMasteryTactic;
+  setPathMeterA: typeof setPathMeterA;
+  setPathMeterB: typeof setPathMeterB;
+  setPathMeterC: typeof setPathMeterC;
+  setCurrentPoints: typeof setCurrentPoints;
+  deselectTactic: typeof deselectTactic;
+  resetSelectedMorale4: typeof resetSelectedMorale4;
+};
+
+class AbilityMastery extends Component<
+  Props,
+  { status: boolean; hovered: boolean; selected: boolean }
+> {
   /*
   status = enabled/disabled
   hovered = selected i.e. clicked
   selected = ability is currently in hover state
   */
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.state = {
       status: false,
@@ -46,21 +78,22 @@ class AbilityMastery extends Component {
     this.processAbility = this.processAbility.bind(this);
   }
 
-  processAbility(props) {
+  processAbility(props: Props) {
     // Create single variable for current ability's group
-    let abilities = [];
-    // eslint-disable-next-line
-    switch (props.data.abilityType) {
-      case 'standard':
-        abilities = props.masteryAbilities;
-        break;
-      case 'morale':
-        abilities = props.masteryMorales;
-        break;
-      case 'tactic':
-        abilities = props.masteryTactics;
-        break;
-    }
+    const abilities = (() => {
+      switch (props.data.abilityType) {
+        case 'standard':
+          return props.masteryAbilities;
+        case 'morale':
+          return props.masteryMorales;
+        case 'tactic':
+          return props.masteryTactics;
+        default:
+          throw new Error(
+            `invalid props.data.abilityType: ${props.data.abilityType}`,
+          );
+      }
+    })();
 
     // Determine if ability is selected (i.e. highlighted)
     if (abilities.indexOf(props.data.id) !== -1) {
@@ -214,7 +247,7 @@ class AbilityMastery extends Component {
   }
 
   // About to update because parent changed
-  componentWillReceiveProps(nextProps, nextState) {
+  componentWillReceiveProps(nextProps: Props) {
     if (this.props !== nextProps) {
       this.processAbility(nextProps);
 
@@ -247,10 +280,7 @@ class AbilityMastery extends Component {
             );
             // remove from selected morales if it's there
             if (nextProps.selectedMorale4 === nextProps.data.id) {
-              nextProps.resetSelectedMorale4(
-                nextProps.selectedMorales,
-                nextProps.data.id,
-              );
+              nextProps.resetSelectedMorale4();
             }
             break;
           case 'tactic':
@@ -359,7 +389,7 @@ function mapStateToProps({
   pathMeterC,
   selectedTactics,
   selectedMorale4,
-}) {
+}: State) {
   return {
     masteryAbilities,
     masteryTactics,

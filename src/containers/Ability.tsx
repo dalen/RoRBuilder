@@ -5,9 +5,21 @@ import css from '../css/components/Ability.module.css';
 
 import Popover from '../components/Popover';
 import PopoverAbility from '../components/PopoverAbility';
+import { State } from '../reducers';
 
-class Ability extends Component {
-  constructor(props) {
+type Props = {
+  level: State['level'];
+  data: any;
+};
+
+class Ability extends Component<
+  Props,
+  {
+    status: boolean;
+    hovered: boolean;
+  }
+> {
+  constructor(props: Props) {
     super(props);
     this.state = {
       status: false,
@@ -17,7 +29,7 @@ class Ability extends Component {
     this.hoverOver = this.hoverOver.bind(this);
   }
 
-  setInitialStatus(currentLevel, minrank) {
+  setInitialStatus(currentLevel: number, minrank: number) {
     if (Number(currentLevel) >= Number(minrank)) {
       this.setState({ status: true });
     } else {
@@ -39,23 +51,25 @@ class Ability extends Component {
 
   // Initial render
   componentDidMount() {
-    this.setInitialStatus(this.props.level, this.props.data.minrank);
+    const { level, data } = this.props;
+    this.setInitialStatus(level, data.minrank);
   }
 
   // About to update because parent changed
-  componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps(nextProps: Props) {
     this.setInitialStatus(nextProps.level, nextProps.data.minrank);
   }
 
   render() {
+    const { status, hovered } = this.state;
     const abilityClass = classNames({
       [css.ability]: true,
-      'is-hovered': this.state.hovered,
+      'is-hovered': hovered,
       popover__parent: true,
     });
     const abilityImageClass = classNames({
-      [css.image]: this.state.status,
-      [css.imageInactive]: !this.state.status,
+      [css.image]: status,
+      [css.imageInactive]: !status,
     });
     const imgSrc = `../../images/abilities/${this.props.data.image}.png`;
     const popoverContent = (
@@ -73,16 +87,16 @@ class Ability extends Component {
         <Popover
           content={popoverContent}
           alignment="top"
-          activate={this.state.hovered}
+          activate={hovered}
           abilityOptional={false}
-          status={this.state.status}
+          status={status}
         />
       </div>
     );
   }
 }
 
-function mapStateToProps({ level }) {
+function mapStateToProps({ level }: State) {
   return {
     level,
   };
