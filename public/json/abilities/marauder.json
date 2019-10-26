@@ -110,7 +110,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a 160 unique bonus to Strength",
+      "description": "Increases your Strength by 160",
       "category": "CareerTactic"
     },
 
@@ -142,7 +142,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You charge into the thick of battle, increasing your run speed by 50% for 7 seconds. If you use any abilities, this effect will immediately end.",
+      "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, this effect will immediately end.",
       "category": "Ability"
     },
 
@@ -174,7 +174,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, dealing 113 damage.",
+      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting 113 damage.",
       "category": "Ability"
     },
 
@@ -446,7 +446,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You swipe at your opponent for 133 damage. If Mutated, will hit an additional time for 108 damage.",
+      "description": "You swipe at your opponent for 133 damage. If you have an active Mutation, this attack will hit an additional time for 108 damage.",
       "category": "Ability"
     },
 
@@ -462,7 +462,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and roots them in place for 5 seconds.",
+      "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and rooting them in place for 5 seconds.",
       "category": "Morale"
     },
 
@@ -653,8 +653,8 @@
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Gift of Brutality<br>Target must be below 50% health.",
-      "description": "A powerful blow inflicting 316 damage and will almost always deal critical damage to a weakened target.",
+      "note": "Requires Gift of Brutality",
+      "description": "Target must be below 50% health<BR> A powerful blow inflicting 316 damage and will almost always deal critical damage to a weakened target.",
       "category": "Ability"
     },
 
@@ -1006,7 +1006,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Throwing axe that will deal 105 damage to your prey.",
+      "description": "You throw an axe that deals 105 damage to your prey.",
       "category": "Ability"
     },
 
@@ -1086,7 +1086,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a 252 unique bonus to elemental resistance.",
+      "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic"
     },
 
@@ -1214,7 +1214,7 @@
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "Spinning in a circle with club arm extended, aimlessly inflicting 132 damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
+      "description": "You spin in a circle with your club arm extended, aimlessly inflicting 132 damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     }
   ]
