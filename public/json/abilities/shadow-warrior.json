@@ -65,7 +65,7 @@
       "incant": "1.5s cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Scout or Assault Stance",
-      "description": "An attack which deals 241 physical damage and causes your target to take a 618 ability penalty to armor and reduces their chance to block by 10% for 10 seconds.",
+      "description": "An attack which deals 241 physical damage and reduces your target's armor by 618 and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
 
@@ -81,7 +81,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one active stance.",
-      "description": "A close-combat stance which causes you to gain a 120 unique bonus to Strength and Weaponskill, and a unique bonus to Armor equal to the same amount that you receive from items.<br><br>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Autoattack damage is increased by 65%. Additionally you have a 25% chance on melee attacks to increase your Autoattack speed by 33%.",
+      "description": "A close-combat stance which increases your Strength and Weapon Skill by 120, unique bonus to Strength and Weaponskilland increases your Armor by the same amount that you receive from items.<br><br>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Autoattack damage is increased by 65%. Additionally you have a 25% chance on melee attacks to increase your Autoattack speed by 33%.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability"
     },
 
@@ -401,7 +401,7 @@
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Skirmish Stance",
-      "description": "A Crippling shot that deals 116 damage and reduces your target's initiative by 50 for 20 seconds, and knocks down the target for 3 seconds. This ability will continue to build up even if you move.",
+      "description": "A Crippling shot that deals 116 damage, reduces your target's initiative by 50 for 20 seconds, and knocks down the target for 3 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
 
@@ -465,7 +465,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Skirmish Stance<br>Target must be facing away from you",
-      "description": "Deals 316 physical damage to your target. Only usable from behind the target. The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
+      "description": "Deals 316 physical damage to your target. This ability will continue to build up even if you move.  Only usable from behind the target.<BR>The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
       "category": "Ability"
     },
 
@@ -497,7 +497,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale"
     },
 
@@ -609,7 +609,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gives a 120 unique bonus to Strength, Ballistic Skill, and Weaponskill, and a 120 unique penalty to toughness.",
+      "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by , but reduces your Toughness by 120.",
       "category": "CareerTactic"
     },
 
@@ -689,7 +689,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gives a 160 unique bonus to Ballistic Skill.",
+      "description": "Increases your Ballistic Skill by 160.",
       "category": "CareerTactic"
     },
 
@@ -897,7 +897,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one stance active.",
-      "description": "A long-distance bow stance that gives a 80 unique bonus to Ballistic Skill and Initiative and the range of your bow attacks by 10%.",
+      "description": "A long-distance bow stance that increases your Ballistic Skill and Initiative by 80 and the range of your bow attacks by 10%.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability"
     },
 
@@ -920,7 +920,7 @@
     {
       "image": "13335",
       "id": 7530,
-      "name": "Shadow Step",
+      "name": "ShadowStep",
       "type": "Buff",
       "spec": "Path of Assault",
       "minrank": "1",
@@ -961,7 +961,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one stance active.",
-      "description": "A close-range bow stance that gives a 80 unique bonus to Toughness and the chance that your bow attacks will critically hit by 5%. You gain the ability to autoattack while moving while in this stance.",
+      "description": "A close-range bow stance that increases your Toughness by 80 and the chance that your bow attacks will critically hit by  5%. You gain the ability to autoattack while moving while in this stance.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability"
     },
 
@@ -977,7 +977,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flame Arrow's damage over time is increased to (75 + 13.2 * rank) + (0.3 bal) elemental damage.",
+      "description": "Flame Arrow's damage over time is increased to 471 damage.",
       "category": "CareerTactic"
     },
 
