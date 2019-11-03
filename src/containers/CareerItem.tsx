@@ -7,8 +7,13 @@ import { gaCareerSelected } from '../helpers/googleAnalytics';
 import { toggleOverlay } from '../actions/actionOverlay';
 import { toggleSidebar } from '../actions/actionSidebar';
 
-class CareerItem extends Component {
-  constructor(props) {
+import { State } from '../reducers';
+
+type Props = ReturnType<typeof mapStateToProps> &
+  typeof mapDispatchToProps & { career: any };
+
+class CareerItem extends Component<Props> {
+  constructor(props: Props) {
     super(props);
     this.clickItem = this.clickItem.bind(this);
   }
@@ -42,17 +47,19 @@ class CareerItem extends Component {
   }
 }
 
-function mapStateToProps({ sidebar, overlayShow }) {
+function mapStateToProps({ sidebar, overlay }: State) {
   return {
     sidebar,
-    overlayShow,
+    overlay,
   };
 }
 
+const mapDispatchToProps = {
+  toggleOverlay,
+  toggleSidebar,
+};
+
 export default connect(
   mapStateToProps,
-  {
-    toggleOverlay,
-    toggleSidebar,
-  },
+  mapDispatchToProps,
 )(CareerItem);

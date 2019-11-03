@@ -2,7 +2,12 @@ import React from 'react';
 import { connect } from 'react-redux';
 import css from '../css/components/CareerTitle.module.css';
 
-const CareerTitle = ({ careers, slug }) => {
+import { State } from '../reducers';
+
+const CareerTitle = ({ careers, slug }: ReturnType<typeof mapStateToProps>) => {
+  if (slug == null)
+    return <div className="row row--v-center">No career selected</div>;
+
   const career = careers[slug];
   const url = `/images/icons/${career.slug}.png`;
   return (
@@ -13,7 +18,7 @@ const CareerTitle = ({ careers, slug }) => {
   );
 };
 
-function mapStateToProps({ slug, careers }) {
+function mapStateToProps({ slug, careers }: State) {
   return {
     slug,
     careers,

@@ -117,6 +117,7 @@ function formatData(originalObject: Career) {
     indexed,
   };
 }
+export type Abilities = ReturnType<typeof formatData>;
 
 const reducer: Reducer<
   ReturnType<typeof formatData> | never[],
