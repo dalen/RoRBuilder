@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import css from '../css/components/BarXp.module.css';
 
-class BarXp extends Component {
-  constructor(props) {
+import { State } from '../reducers';
+
+type Props = ReturnType<typeof mapStateToProps>;
+
+class BarXp extends Component<Props> {
+  constructor(props: Props) {
     super(props);
 
     this.calculateBarWidth = this.calculateBarWidth.bind(this);
@@ -27,13 +31,10 @@ class BarXp extends Component {
   }
 }
 
-function mapStateToProps({ level }) {
+function mapStateToProps({ level }: State) {
   return {
     level,
   };
 }
 
-export default connect(
-  mapStateToProps,
-  null,
-)(BarXp);
+export default connect(mapStateToProps)(BarXp);

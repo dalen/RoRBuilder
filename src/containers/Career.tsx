@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { RouteComponentProps } from 'react-router-dom';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
 import queryString from 'query-string';
@@ -69,13 +70,19 @@ import CoreTactics from './CoreTactics';
 import Mastery from './Mastery';
 import ActionButtons from './ActionButtons';
 
-class Career extends Component {
+import { State } from '../reducers';
+
+type Props = ReturnType<typeof mapStateToProps> &
+  typeof mapDispatchToProps &
+  RouteComponentProps<{ slug?: string; careerSaved?: string }>;
+
+class Career extends Component<Props> {
   componentDidMount() {
     // Load career data on initial load
     this.loadCareerData(this.props.match);
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps(nextProps: Props) {
     // This will be run when a new career is selected from the Sidebar
     // Manually force the loading of new data
     if (
@@ -97,12 +104,44 @@ class Career extends Component {
   }
 
   // Set state from query params if first path part is /s
-  setSavedCareer({ l, r, tl, mp, pA, pB, pC, ma, mm, mt, m1, m2, m3, m4, t }) {
-    this.props.setLevel(l);
-    this.props.setRenown(r);
-    this.props.setPoints(calculateMasteryPoints(l, r));
-    this.props.setTacticLimit(tl);
-    this.props.setCurrentPoints(mp);
+  setSavedCareer({
+    l,
+    r,
+    tl,
+    mp,
+    pA,
+    pB,
+    pC,
+    ma,
+    mm,
+    mt,
+    m1,
+    m2,
+    m3,
+    m4,
+    t,
+  }: {
+    l?: number;
+    r?: number;
+    tl?: number;
+    mp?: number;
+    pA?: number;
+    pB?: number;
+    pC?: number;
+    ma?: string;
+    mm?: string;
+    mt?: string;
+    m1?: number;
+    m2?: number;
+    m3?: number;
+    m4?: number;
+    t?: string;
+  }) {
+    if (l) this.props.setLevel(l);
+    if (r) this.props.setRenown(r);
+    if (l && r) this.props.setPoints(calculateMasteryPoints(l, r));
+    if (tl) this.props.setTacticLimit(tl);
+    if (mp) this.props.setCurrentPoints(mp);
     if (pA) {
       this.props.setPathMeterA(pA);
     }
@@ -158,12 +197,12 @@ class Career extends Component {
     this.props.resetPathMeterC();
   }
 
-  loadCareerData(match) {
+  loadCareerData(match: Props['match']) {
     const slug = match.params.slug;
 
     // Fetch careers and abilities
     this.props.fetchCareers();
-    this.props.fetchAbilities(slug);
+    if (slug) this.props.fetchAbilities(slug);
 
     // Populate app state with saved details if they exist
     if (match.params.careerSaved) {
@@ -171,7 +210,7 @@ class Career extends Component {
     }
 
     // Set career slug in app state
-    this.props.setSlug(slug);
+    if (slug) this.props.setSlug(slug);
   }
 
   renderContent() {
@@ -237,7 +276,12 @@ class Career extends Component {
             </div>
 
             <div className="marginLeft@md-min">
-              <ActionButtons history={this.props.history} />
+              <ActionButtons
+                history={this.props.history}
+                location={this.props.location}
+                match={this.props.match}
+                staticContext={this.props.staticContext}
+              />
             </div>
 
             <div className="marginLeft@md-min">
@@ -272,7 +316,7 @@ function mapStateToProps({
   careers,
   slug,
   masteryAbilities,
-}) {
+}: State) {
   return {
     sidebar,
     abilities,
@@ -282,44 +326,46 @@ function mapStateToProps({
   };
 }
 
+const mapDispatchToProps = {
+  fetchAbilities,
+  fetchCareers,
+  setSlug,
+  setLevel,
+  setRenown,
+  setTacticLimit,
+  setCurrentPoints,
+  setPathMeterA,
+  setPathMeterB,
+  setPathMeterC,
+  setMasteryAbilities,
+  setMasteryMorales,
+  setMasteryTactics,
+  selectMorale1,
+  selectMorale2,
+  selectMorale3,
+  selectMorale4,
+  setSelectedTactics,
+  setPoints,
+  resetRenown,
+  resetLevel,
+  resetTacticLimit,
+  resetPoints,
+  resetCurrentPoints,
+  resetAbilities,
+  resetSelectedMorale1,
+  resetSelectedMorale2,
+  resetSelectedMorale3,
+  resetSelectedMorale4,
+  resetSelectedTactics,
+  resetMasteryAbilities,
+  resetMasteryMorales,
+  resetMasteryTactics,
+  resetPathMeterA,
+  resetPathMeterB,
+  resetPathMeterC,
+};
+
 export default connect(
   mapStateToProps,
-  {
-    fetchAbilities,
-    fetchCareers,
-    setSlug,
-    setLevel,
-    setRenown,
-    setTacticLimit,
-    setCurrentPoints,
-    setPathMeterA,
-    setPathMeterB,
-    setPathMeterC,
-    setMasteryAbilities,
-    setMasteryMorales,
-    setMasteryTactics,
-    selectMorale1,
-    selectMorale2,
-    selectMorale3,
-    selectMorale4,
-    setSelectedTactics,
-    setPoints,
-    resetRenown,
-    resetLevel,
-    resetTacticLimit,
-    resetPoints,
-    resetCurrentPoints,
-    resetAbilities,
-    resetSelectedMorale1,
-    resetSelectedMorale2,
-    resetSelectedMorale3,
-    resetSelectedMorale4,
-    resetSelectedTactics,
-    resetMasteryAbilities,
-    resetMasteryMorales,
-    resetMasteryTactics,
-    resetPathMeterA,
-    resetPathMeterB,
-    resetPathMeterC,
-  },
+  mapDispatchToProps,
 )(Career);
