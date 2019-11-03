@@ -1,95 +1,69 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classNames from 'classnames';
 import Popover from './Popover';
 import css from '../css/components/PathInfo.module.css';
 
-type Props = {
-  pathPopover: {
-    primary: string;
-    secondary: string;
-  };
+type PathPopover = {
+  primary: string;
+  secondary: string;
 };
-type State = { hovered: boolean };
 
-class PathInfo extends React.Component<Props, State> {
-  /*
-  infoHovered = info is currently in hover state
-  */
-  constructor(props: Props) {
-    super(props);
-    this.hoverOver = this.hoverOver.bind(this);
-    this.hoverOut = this.hoverOut.bind(this);
-
-    this.state = {
-      hovered: false,
-    };
+const renderPopoverPrimary = (pathPopover: PathPopover) => {
+  if (pathPopover.primary) {
+    return <div className={css.popoverPrimary}>{pathPopover.primary}</div>;
   }
+  return null;
+};
 
-  hoverOver() {
-    this.setState({
-      hovered: true,
-    });
+const renderPopoverSecondary = (pathPopover: PathPopover) => {
+  if (pathPopover.secondary) {
+    return <div className={css.popoverSecondary}>{pathPopover.secondary}</div>;
   }
+  return null;
+};
 
-  hoverOut() {
-    this.setState({
-      hovered: false,
-    });
-  }
+const renderPopoverContent = (pathPopover: PathPopover) => {
+  return (
+    <div>
+      {renderPopoverPrimary(pathPopover)}
+      {renderPopoverSecondary(pathPopover)}
+    </div>
+  );
+};
 
-  renderPopoverPrimary() {
-    const { pathPopover } = this.props;
-    if (pathPopover.primary) {
-      return <div className={css.popoverPrimary}>{pathPopover.primary}</div>;
-    }
-    return false;
-  }
+const PathInfo = ({ pathPopover }: { pathPopover: PathPopover }) => {
+  const [hovered, setHovered] = useState(false);
 
-  renderPopoverSecondary() {
-    const { pathPopover } = this.props;
-    if (pathPopover.secondary) {
-      return (
-        <div className={css.popoverSecondary}>{pathPopover.secondary}</div>
-      );
-    }
-    return false;
-  }
+  const hoverOver = () => {
+    setHovered(true);
+  };
 
-  renderPopoverContent() {
-    return (
-      <div>
-        {this.renderPopoverPrimary()}
-        {this.renderPopoverSecondary()}
+  const hoverOut = () => {
+    setHovered(false);
+  };
+
+  const infoClass = classNames({
+    'is-hovered': hovered,
+    popover__parent: true,
+  });
+  return (
+    <div className={infoClass}>
+      <div
+        className={css.container}
+        onFocus={hoverOver}
+        onBlur={hoverOut}
+        onMouseOver={hoverOver}
+        onMouseOut={hoverOut}
+      >
+        <div className={css.icon}>?</div>
       </div>
-    );
-  }
-
-  render() {
-    const { hovered } = this.state;
-
-    const infoClass = classNames({
-      'is-hovered': hovered,
-      popover__parent: true,
-    });
-    return (
-      <div className={infoClass}>
-        <div
-          className={css.container}
-          onFocus={this.hoverOver}
-          onBlur={this.hoverOut}
-          onMouseOver={this.hoverOver}
-          onMouseOut={this.hoverOut}
-        >
-          <div className={css.icon}>?</div>
-        </div>
-        <Popover
-          content={this.renderPopoverContent()}
-          alignment="top"
-          activate={hovered}
-        />
-      </div>
-    );
-  }
-}
+      <Popover
+        content={renderPopoverContent(pathPopover)}
+        alignment="top"
+        activate={hovered}
+      />
+    </div>
+  );
+};
 
 export default PathInfo;
