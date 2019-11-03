@@ -62,7 +62,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flurry will now hit up to 9 targets within 30 feet in front of you and the base damage is reduced by 20%.",
+      "description": "Flurry will now hit up to 9 targets within 30 feet in front of you, but the base damage is reduced by 20%.",
       "category": "CareerTactic"
     },
 
@@ -686,7 +686,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For the next 10 seconds, group member's within 100 feet will have their Weaponskill increased by 1 each time that you hit an enemy, and your Initiative will be reduced by 1. This effect can be stacked up to three times.",
+      "description": "For the next 10 seconds, group member's within 100 feet will have their Weaponskill increased by 25 each time that you hit an enemy, and your Initiative will be reduced by 25. This effect can be stacked up to three times.",
       "category": "Ability"
     },
 
@@ -894,7 +894,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All your Exhaustive Attacks have a 25% chance to heal you for 225 health.",
+      "description": "All your Exhaustive Attacks have a 50% chance to heal you for 225 health.",
       "category": "CareerTactic"
     },
 
@@ -990,7 +990,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "Requires Target to have Parried or Blocked",
-      "description": "You land a numbing blow, your target's chance to block or parry is reduced by 50% for 10 seconds. This attack cannot be defended against.",
+      "description": "You land a numbing blow, reducing your target's chance to block or parry by  50% for 10 seconds.",
       "category": "Ability"
     },
 
@@ -1150,7 +1150,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "While this ability is active, your melee attacks will deal an additional 100 damage , but you will also suffer 50 damage each time.",
+      "description": "While this ability is active, each time you strike a target with a melee attack, you will deal an additional 100 damage , but you will also suffer 50 damage each time this happens.",
       "category": "Ability"
     },
 
@@ -1198,7 +1198,7 @@
       "incant": "10.0s cast",
       "cooldown": "1m cooldown",
       "note": "Requires Dual Wield",
-      "description": "For the next 10 seconds, each time you are hit with an attack you will do 169 (231) damage back to the attacker. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
+      "description": "You strike out at all enemies 25 feet in front of you, inflicting 169 damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
       "category": "Ability"
     },
 
@@ -1566,7 +1566,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You wildly attack everything around you, each enemy that you hit within 30 feet suffers anywhere from 46 damage to 54 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You wildly attack everything around you, each enemy that you hit within 30 feet for anywhere between 146 damage to 186 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     }
   ]
