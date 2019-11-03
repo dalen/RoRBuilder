@@ -12,15 +12,10 @@ import { State } from '../reducers';
 // props.show = is the Overlay rendered at all
 // props.visible = is the Overlay rendered as visible or invisible (invisible is used for Popover background)
 
-type Props = {
-  overlay: boolean;
-  sidebar: boolean;
-  modal: boolean;
-  overlayVisible: boolean;
-  toggleOverlay: typeof toggleOverlay;
-  toggleSidebar: typeof toggleSidebar;
-  closeModal: typeof closeModal;
-};
+type Props = ReturnType<typeof mapStateToProps> &
+  typeof mapDispatchToProps & {
+    overlayVisible: boolean;
+  };
 
 class Overlay extends Component<Props> {
   constructor(props: Props) {
@@ -71,7 +66,9 @@ function mapStateToProps({ overlay, sidebar, modal }: State) {
   };
 }
 
+const mapDispatchToProps = { toggleOverlay, toggleSidebar, closeModal };
+
 export default connect(
   mapStateToProps,
-  { toggleOverlay, toggleSidebar, closeModal },
+  mapDispatchToProps,
 )(Overlay);

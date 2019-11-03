@@ -1,8 +1,8 @@
 export type Mastery = {
   name: string;
   popover: {
-    primary?: string;
-    secondary?: string;
+    primary: string;
+    secondary: string;
   };
   optionalAbilities: {
     lvl1: number;

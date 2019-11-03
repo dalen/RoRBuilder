@@ -7,50 +7,42 @@ import Ability from './Ability';
 import PathMeterContainer from './PathMeterContainer';
 import PathInfo from '../components/PathInfo';
 
-class Mastery extends Component {
-  constructor(props) {
-    super(props);
-    this.renderPathPopover = this.renderPathPopover.bind(this);
-    this.renderAbility = this.renderAbility.bind(this);
-    this.renderCoreAbilities = this.renderCoreAbilities.bind(this);
-  }
+import { State, Abilities } from '../reducers';
 
-  renderPathPopover(pathName) {
-    if (this.props.abilities.mastery[pathName].popover) {
-      return (
-        <PathInfo
-          pathPopover={this.props.abilities.mastery[pathName].popover}
-        />
-      );
-    }
+const renderPathPopover = (abilities: Abilities, pathName: 'a' | 'b' | 'c') => {
+  if (abilities.mastery[pathName].popover) {
+    return <PathInfo pathPopover={abilities.mastery[pathName].popover} />;
   }
+  return null;
+};
 
-  renderAbility(abilityId) {
-    return (
-      <Ability key={abilityId} data={this.props.abilities.indexed[abilityId]} />
-    );
+const renderAbility = (abilities: Abilities, abilityId: number) => {
+  return <Ability key={abilityId} data={abilities.indexed[abilityId]} />;
+};
+
+const renderCoreAbilities = (abilities: Abilities, path: 'a' | 'b' | 'c') => {
+  const coreAbilities = abilities.mastery[path].coreAbilities;
+  // Split core abilities into two columns if there are 6 or more abilities (currently only Squig Herder)
+  if (coreAbilities.length > 6) {
+    const coreAbilities1 = [...coreAbilities.slice(0, 6)];
+    const coreAbilities2 = [...coreAbilities.slice(6)];
+    return [
+      <div key="core1" className="column">
+        {coreAbilities1.map(ability => renderAbility(abilities, ability))}
+      </div>,
+      <div key="core2" className="l-col">
+        {coreAbilities2.map(ability => renderAbility(abilities, ability))}
+      </div>,
+    ];
   }
+  return (
+    <div className="column">
+      {coreAbilities.map(ability => renderAbility(abilities, ability))}
+    </div>
+  );
+};
 
-  renderCoreAbilities(path) {
-    const coreAbilities = this.props.abilities.mastery[path].coreAbilities;
-    // Split core abilities into two columns if there are 6 or more abilities (currently only Squig Herder)
-    if (coreAbilities.length > 6) {
-      const coreAbilities1 = [...coreAbilities.slice(0, 6)];
-      const coreAbilities2 = [...coreAbilities.slice(6)];
-      return [
-        <div key="core1" className="column">
-          {coreAbilities1.map(this.renderAbility)}
-        </div>,
-        <div key="core2" className="l-col">
-          {coreAbilities2.map(this.renderAbility)}
-        </div>,
-      ];
-    }
-    return (
-      <div className="column">{coreAbilities.map(this.renderAbility)}</div>
-    );
-  }
-
+class Mastery extends Component<ReturnType<typeof mapStateToProps>> {
   render() {
     const labelClass = classNames({
       [css.label]: true,
@@ -58,7 +50,7 @@ class Mastery extends Component {
       [css.labelActive]: this.props.currentPoints > 0,
     });
 
-    if (this.props.abilities.length === 0) {
+    if (Array.isArray(this.props.abilities)) {
       return null;
     }
 
@@ -73,7 +65,7 @@ class Mastery extends Component {
             <div className="borderRight borderRight--none@mobile borderRight@sm-min marginRight borderBottom@mobile paddingBottom@mobile">
               <h3 className={css.subHeading}>
                 {this.props.abilities.mastery.a.name}
-                {this.renderPathPopover('a')}
+                {renderPathPopover(this.props.abilities, 'a')}
               </h3>
               <div className="row row--justify">
                 <div className="row row--justify">
@@ -85,7 +77,9 @@ class Mastery extends Component {
                     <br />
                     abilities
                   </div>
-                  <div className="row">{this.renderCoreAbilities('a')}</div>
+                  <div className="row">
+                    {renderCoreAbilities(this.props.abilities, 'a')}
+                  </div>
                 </div>
               </div>
             </div>
@@ -94,7 +88,7 @@ class Mastery extends Component {
             <div className="borderRight@sm-min marginRight marginTop@mobile borderBottom@mobile paddingBottom@mobile">
               <h3 className={css.subHeading}>
                 {this.props.abilities.mastery.b.name}
-                {this.renderPathPopover('b')}
+                {renderPathPopover(this.props.abilities, 'b')}
               </h3>
               <div className="row row--justify">
                 <div className="row row--justify">
@@ -106,7 +100,9 @@ class Mastery extends Component {
                     <br />
                     abilities
                   </div>
-                  <div className="row">{this.renderCoreAbilities('b')}</div>
+                  <div className="row">
+                    {renderCoreAbilities(this.props.abilities, 'b')}
+                  </div>
                 </div>
               </div>
             </div>
@@ -115,7 +111,7 @@ class Mastery extends Component {
             <div className="borderRight borderRight--none@mobile borderRight--none@sm-min marginRight marginTop marginTop--none@sm-min">
               <h3 className={css.subHeading}>
                 {this.props.abilities.mastery.c.name}
-                {this.renderPathPopover('c')}
+                {renderPathPopover(this.props.abilities, 'c')}
               </h3>
               <div className="row row--justify">
                 <div className="row row--justify">
@@ -127,7 +123,9 @@ class Mastery extends Component {
                     <br />
                     abilities
                   </div>
-                  <div className="row">{this.renderCoreAbilities('c')}</div>
+                  <div className="row">
+                    {renderCoreAbilities(this.props.abilities, 'c')}
+                  </div>
                 </div>
               </div>
             </div>
@@ -138,7 +136,7 @@ class Mastery extends Component {
   }
 }
 
-function mapStateToProps({ points, currentPoints, abilities }) {
+function mapStateToProps({ points, currentPoints, abilities }: State) {
   return {
     points,
     currentPoints,
@@ -146,7 +144,4 @@ function mapStateToProps({ points, currentPoints, abilities }) {
   };
 }
 
-export default connect(
-  mapStateToProps,
-  null,
-)(Mastery);
+export default connect(mapStateToProps)(Mastery);

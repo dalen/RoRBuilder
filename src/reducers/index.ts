@@ -22,6 +22,7 @@ import ReducerMasteryTactics from './reducerMasteryTactics';
 import ReducerMasteryMorales from './reducerMasteryMorales';
 import ReducerModal from './reducerModal';
 import ReducerSharingLink from './reducerSharingLink';
+import { ModalType } from '../helpers/modalTypes';
 
 export type Abilities = Abilities;
 
@@ -47,7 +48,7 @@ export type State = {
   masteryAbilities: number[];
   masteryTactics: number[];
   masteryMorales: number[];
-  modal: boolean;
+  modal: ModalType;
   sharingLink: boolean;
 };
 

@@ -7,8 +7,7 @@ import { closeModal } from '../actions/actionModal';
 import { toggleOverlay } from '../actions/actionOverlay';
 import { State } from '../reducers';
 
-type Props = {
-  modal: boolean;
+type Props = ReturnType<typeof mapStateToProps> & {
   closeModal: typeof closeModal;
   toggleOverlay: typeof toggleOverlay;
 };
