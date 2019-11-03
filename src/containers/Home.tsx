@@ -27,7 +27,9 @@ import Sidebar from './Sidebar';
 import Overlay from './Overlay';
 import News from '../components/News';
 
-class Home extends React.Component {
+type Props = typeof mapDispatchToProps;
+
+class Home extends React.Component<Props> {
   componentDidMount() {
     this.props.fetchCareers();
 
@@ -141,26 +143,28 @@ class Home extends React.Component {
   }
 }
 
+const mapDispatchToProps = {
+  fetchCareers,
+  resetRenown,
+  resetLevel,
+  resetTacticLimit,
+  resetPoints,
+  resetCurrentPoints,
+  resetAbilities,
+  resetSelectedMorale1,
+  resetSelectedMorale2,
+  resetSelectedMorale3,
+  resetSelectedMorale4,
+  resetSelectedTactics,
+  resetMasteryAbilities,
+  resetMasteryMorales,
+  resetMasteryTactics,
+  resetPathMeterA,
+  resetPathMeterB,
+  resetPathMeterC,
+};
+
 export default connect(
-  null,
-  {
-    fetchCareers,
-    resetRenown,
-    resetLevel,
-    resetTacticLimit,
-    resetPoints,
-    resetCurrentPoints,
-    resetAbilities,
-    resetSelectedMorale1,
-    resetSelectedMorale2,
-    resetSelectedMorale3,
-    resetSelectedMorale4,
-    resetSelectedTactics,
-    resetMasteryAbilities,
-    resetMasteryMorales,
-    resetMasteryTactics,
-    resetPathMeterA,
-    resetPathMeterB,
-    resetPathMeterC,
-  },
+  undefined,
+  mapDispatchToProps,
 )(Home);
