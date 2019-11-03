@@ -102,7 +102,4 @@ function mapStateToProps({ level }: State) {
   };
 }
 
-export default connect(
-  mapStateToProps,
-  null,
-)(Ability);
+export default connect(mapStateToProps)(Ability);

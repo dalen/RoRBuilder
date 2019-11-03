@@ -2,7 +2,14 @@ import React from 'react';
 import { connect } from 'react-redux';
 import css from '../css/components/CareerUpdated.module.css';
 
-const CareerUpdated = ({ careers, slug }) => {
+import { State } from '../reducers';
+
+const CareerUpdated = ({
+  careers,
+  slug,
+}: ReturnType<typeof mapStateToProps>) => {
+  if (slug == null) return <div></div>;
+
   const career = careers[slug];
   return (
     <div className="row row--v-center">
@@ -13,7 +20,7 @@ const CareerUpdated = ({ careers, slug }) => {
   );
 };
 
-function mapStateToProps({ slug, careers }) {
+function mapStateToProps({ slug, careers }: State) {
   return {
     slug,
     careers,
