@@ -734,7 +734,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale"
     },
 
@@ -1262,7 +1262,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
+      "description": "Deals 1200 damage to your target and staggers them for 9 seconds, preventing all actions until they take damage.",
       "category": "Morale"
     },
 
@@ -1358,7 +1358,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Steals up to 200 action points from your target and gives it to you, and reduces your target's Intelligence by 160 for 30 seconds.",
+      "description": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
       "category": "Morale"
     },
 
@@ -1613,7 +1613,7 @@
       "incant": "Insta-Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all enemieswithin 30 feet.",
+      "description": "Deals 1200 damage to all enemies within 30 feet.",
       "category": "Morale"
     }
   ]
