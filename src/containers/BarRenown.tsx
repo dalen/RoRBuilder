@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import css from '../css/components/BarRenown.module.css';
 
-class BarRenown extends Component {
-  constructor(props) {
+import { State } from '../reducers';
+
+type Props = ReturnType<typeof mapStateToProps>;
+
+class BarRenown extends Component<Props> {
+  constructor(props: Props) {
     super(props);
 
     this.calculateBarWidth = this.calculateBarWidth.bind(this);
@@ -48,14 +52,11 @@ class BarRenown extends Component {
   }
 }
 
-function mapStateToProps({ level, renown }) {
+function mapStateToProps({ level, renown }: State) {
   return {
     level,
     renown,
   };
 }
 
-export default connect(
-  mapStateToProps,
-  null,
-)(BarRenown);
+export default connect(mapStateToProps)(BarRenown);

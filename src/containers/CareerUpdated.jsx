@@ -20,7 +20,4 @@ function mapStateToProps({ slug, careers }) {
   };
 }
 
-export default connect(
-  mapStateToProps,
-  null,
-)(CareerUpdated);
+export default connect(mapStateToProps)(CareerUpdated);

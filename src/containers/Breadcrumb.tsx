@@ -9,13 +9,17 @@ import IconChevronRight from '../icons/IconChevronRight';
 import { toggleOverlay } from '../actions/actionOverlay';
 import { toggleSidebar } from '../actions/actionSidebar';
 
-class Breadcrumb extends Component {
-  constructor(props) {
+import { State } from '../reducers';
+
+type Props = ReturnType<typeof mapStateToProps> & typeof mapDispatchToProps;
+
+class Breadcrumb extends Component<Props> {
+  constructor(props: Props) {
     super(props);
     this.clickBreadcrumb = this.clickBreadcrumb.bind(this);
   }
 
-  clickBreadcrumb(e) {
+  clickBreadcrumb(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
     e.preventDefault();
     this.props.toggleOverlay(!this.props.overlay);
     this.props.toggleSidebar(!this.props.sidebar);
@@ -23,6 +27,10 @@ class Breadcrumb extends Component {
   }
 
   render() {
+    if (!this.props.slug) {
+      return <div>No class selected</div>;
+    }
+
     const career = this.props.careers[this.props.slug];
 
     return (
@@ -79,7 +87,7 @@ class Breadcrumb extends Component {
   }
 }
 
-function mapStateToProps({ careers, sidebar, overlay, slug }) {
+function mapStateToProps({ careers, sidebar, overlay, slug }: State) {
   return {
     careers,
     sidebar,
@@ -88,7 +96,9 @@ function mapStateToProps({ careers, sidebar, overlay, slug }) {
   };
 }
 
+const mapDispatchToProps = { toggleOverlay, toggleSidebar };
+
 export default connect(
   mapStateToProps,
-  { toggleOverlay, toggleSidebar },
+  mapDispatchToProps,
 )(Breadcrumb);
