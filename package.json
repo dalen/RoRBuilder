@@ -78,6 +78,7 @@
   "eslintConfig": {
     "extends": [
       "airbnb",
+      "plugin:@typescript-eslint/recommended",
       "prettier"
     ],
     "plugins": [
@@ -100,13 +101,21 @@
       ],
       "@typescript-eslint/array-type": [
         "error",
-        "array"
+        {
+          "default": "array",
+          "readonly": "array"
+        }
       ],
       "import/no-unresolved": "off",
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": [
         "error"
       ],
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/restrict-plus-operands": "error",
+      "@typescript-eslint/promise-function-async": "error",
+      "@typescript-eslint/prefer-readonly": "error",
+      "@typescript-eslint/no-explicit-any": "error",
       "react/prop-types": "off",
       "default-case": "off"
     },

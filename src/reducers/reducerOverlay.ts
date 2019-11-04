@@ -1,9 +1,9 @@
-import { AnyAction, Reducer } from 'redux';
+import { Reducer } from 'redux';
 import { TOGGLE_OVERLAY, ActionOverlay } from '../actions/actionOverlay';
 
-const reducer: Reducer<boolean> = (
-  state: boolean = false,
-  action: ActionOverlay | AnyAction,
+const reducer: Reducer<boolean, ActionOverlay> = (
+  state = false,
+  action: ActionOverlay,
 ) => {
   switch (action.type) {
     case TOGGLE_OVERLAY:

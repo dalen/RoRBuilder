@@ -1,4 +1,3 @@
-import { AnyAction } from 'redux';
 import {
   ADD_MASTERY_ABILITY,
   REMOVE_MASTERY_ABILITY,
@@ -7,7 +6,10 @@ import {
   ActionMasteryAbility,
 } from '../actions/actionMasteryAbilities';
 
-export default function(state = [], action: ActionMasteryAbility | AnyAction) {
+export default function(
+  state: readonly number[] = [],
+  action: ActionMasteryAbility,
+) {
   switch (action.type) {
     case ADD_MASTERY_ABILITY:
       return [...action.payload.abilitiesArray, action.payload.abilityId];

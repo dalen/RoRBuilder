@@ -1,7 +1,7 @@
-import { AnyAction } from 'redux';
 import { OPEN_MODAL, CLOSE_MODAL, ActionModal } from '../actions/actionModal';
+import { ModalType } from '../helpers/modalTypes';
 
-export default function(state = false, action: ActionModal | AnyAction) {
+export default function(state: ModalType | false = false, action: ActionModal) {
   switch (action.type) {
     case OPEN_MODAL:
       return action.payload;

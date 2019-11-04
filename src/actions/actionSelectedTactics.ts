@@ -3,42 +3,24 @@ export const DESELECT_TACTIC = 'deselect_tactic';
 export const RESET_SELECTED_TACTICS = 'reset_selected_tactics';
 export const SET_SELECTED_TACTICS = 'set_selected_tactics';
 
-export function selectTactic(
-  tacticsArray: number[],
-  tacticId: number,
-): {
-  type: 'select_tactic';
-  payload: {
-    tacticsArray: number[];
-    tacticId: number;
-  };
-} {
+export function selectTactic(tacticsArray: number[], tacticId: number) {
   return {
     type: SELECT_TACTIC,
     payload: {
       tacticsArray,
       tacticId,
     },
-  };
+  } as const;
 }
 
-export function deselectTactic(
-  tacticsArray: number[],
-  tacticId: number,
-): {
-  type: 'deselect_tactic';
-  payload: {
-    tacticsArray: number[];
-    tacticIndex: number;
-  };
-} {
+export function deselectTactic(tacticsArray: number[], tacticId: number) {
   return {
     type: DESELECT_TACTIC,
     payload: {
       tacticsArray,
       tacticIndex: tacticsArray.indexOf(tacticId),
     },
-  };
+  } as const;
 }
 
 export function resetSelectedTactics() {

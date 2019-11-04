@@ -1,10 +1,12 @@
-import { AnyAction } from 'redux';
 import {
   SET_SHARING_LINK,
   ActionSharingLink,
 } from '../actions/actionSharingLink';
 
-export default function(state = false, action: ActionSharingLink | AnyAction) {
+export default function(
+  state: string | false = false,
+  action: ActionSharingLink,
+) {
   switch (action.type) {
     case SET_SHARING_LINK:
       return action.payload;

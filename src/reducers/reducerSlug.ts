@@ -1,9 +1,9 @@
-import { Reducer, AnyAction } from 'redux';
+import { Reducer } from 'redux';
 import { SET_SLUG, ActionSlug } from '../actions/actionSlug';
 
-const reducer: Reducer<string | null> = (
+const reducer: Reducer<string | null, ActionSlug> = (
   state = null,
-  action: ActionSlug | AnyAction,
+  action: ActionSlug,
 ) => {
   switch (action.type) {
     case SET_SLUG:

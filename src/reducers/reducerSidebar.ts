@@ -1,7 +1,6 @@
-import { AnyAction } from 'redux';
 import { TOGGLE_SIDEBAR, ActionSidebar } from '../actions/actionSidebar';
 
-export default (state = false, action: ActionSidebar | AnyAction): boolean => {
+export default (state = false, action: ActionSidebar): boolean => {
   switch (action.type) {
     case TOGGLE_SIDEBAR:
       return action.payload;

@@ -19,6 +19,45 @@ import { resetMasteryAbilities } from '../actions/actionMasteryAbilities';
 import { resetMasteryMorales } from '../actions/actionMasteryMorales';
 import { resetMasteryTactics } from '../actions/actionMasteryTactics';
 
+function mapStateToProps({
+  level,
+  renown,
+  pathMeterA,
+  pathMeterB,
+  pathMeterC,
+  masteryAbilities,
+  masteryMorales,
+  masteryTactics,
+}: State) {
+  return {
+    level,
+    renown,
+    pathMeterA,
+    pathMeterB,
+    pathMeterC,
+    masteryAbilities,
+    masteryMorales,
+    masteryTactics,
+  };
+}
+
+const mapDispatchToProps = {
+  setRenown,
+  setPoints,
+  setCurrentPoints,
+  resetSelectedMorale1,
+  resetSelectedMorale2,
+  resetSelectedMorale3,
+  resetSelectedMorale4,
+  resetSelectedTactics,
+  resetPathMeterA,
+  resetPathMeterB,
+  resetPathMeterC,
+  resetMasteryAbilities,
+  resetMasteryMorales,
+  resetMasteryTactics,
+};
+
 type Props = ReturnType<typeof mapStateToProps> & typeof mapDispatchToProps;
 
 class SelectRenown extends Component<Props> {
@@ -97,46 +136,6 @@ class SelectRenown extends Component<Props> {
     );
   }
 }
-
-function mapStateToProps({
-  level,
-  renown,
-  pathMeterA,
-  pathMeterB,
-  pathMeterC,
-  masteryAbilities,
-  masteryMorales,
-  masteryTactics,
-}: State) {
-  return {
-    level,
-    renown,
-    pathMeterA,
-    pathMeterB,
-    pathMeterC,
-    masteryAbilities,
-    masteryMorales,
-    masteryTactics,
-  };
-}
-
-const mapDispatchToProps = {
-  setRenown,
-  setPoints,
-  setCurrentPoints,
-  resetSelectedMorale1,
-  resetSelectedMorale2,
-  resetSelectedMorale3,
-  resetSelectedMorale4,
-  resetSelectedTactics,
-  resetPathMeterA,
-  resetPathMeterB,
-  resetPathMeterC,
-  resetMasteryAbilities,
-  resetMasteryMorales,
-  resetMasteryTactics,
-};
-
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
