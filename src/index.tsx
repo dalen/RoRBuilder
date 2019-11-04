@@ -24,21 +24,28 @@ const store = createStore(
 );
 
 // Create a function which will render a component to our DOM
-const render = Component => {
+const render = () => {
   ReactDOM.render(
     <Provider store={store}>
-      <Component />
+      <App />
     </Provider>,
     document.querySelector('#root'),
   );
 };
 
 // Render the application
-render(App);
+render();
 
 // React HOT/HMR
+/*
 if (module.hot) {
   module.hot.accept('./components/App', () => {
-    render(App);
+    ReactDOM.render(
+      <Provider store={store}>
+        <App />
+      </Provider>,
+      document.querySelector('#root'),
+    );;
   });
 }
+*/
