@@ -1,4 +1,3 @@
-import { AnyAction } from 'redux';
 import { FETCH_CAREERS, ActionCareers } from '../actions/actionCareers';
 
 export type CareerSummary = {
@@ -12,11 +11,11 @@ export type CareerSummary = {
 
 export default (
   state = {},
-  action: ActionCareers | AnyAction,
+  action: ActionCareers,
 ): { [key: string]: CareerSummary } => {
   switch (action.type) {
     case FETCH_CAREERS:
-      return action.payload.data;
+      return action.payload;
     default:
       return state;
   }

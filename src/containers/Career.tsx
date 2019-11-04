@@ -72,6 +72,61 @@ import ActionButtons from './ActionButtons';
 
 import { State } from '../reducers';
 
+function mapStateToProps({
+  sidebar,
+  abilities,
+  careers,
+  slug,
+  masteryAbilities,
+}: State) {
+  return {
+    sidebar,
+    abilities,
+    careers,
+    slug,
+    masteryAbilities,
+  };
+}
+
+const mapDispatchToProps = {
+  fetchAbilities,
+  fetchCareers,
+  setSlug,
+  setLevel,
+  setRenown,
+  setTacticLimit,
+  setCurrentPoints,
+  setPathMeterA,
+  setPathMeterB,
+  setPathMeterC,
+  setMasteryAbilities,
+  setMasteryMorales,
+  setMasteryTactics,
+  selectMorale1,
+  selectMorale2,
+  selectMorale3,
+  selectMorale4,
+  setSelectedTactics,
+  setPoints,
+  resetRenown,
+  resetLevel,
+  resetTacticLimit,
+  resetPoints,
+  resetCurrentPoints,
+  resetAbilities,
+  resetSelectedMorale1,
+  resetSelectedMorale2,
+  resetSelectedMorale3,
+  resetSelectedMorale4,
+  resetSelectedTactics,
+  resetMasteryAbilities,
+  resetMasteryMorales,
+  resetMasteryTactics,
+  resetPathMeterA,
+  resetPathMeterB,
+  resetPathMeterC,
+};
+
 type Props = ReturnType<typeof mapStateToProps> &
   typeof mapDispatchToProps &
   RouteComponentProps<{ slug?: string; careerSaved?: string }>;
@@ -308,61 +363,6 @@ class Career extends Component<Props> {
     );
   }
 }
-
-function mapStateToProps({
-  sidebar,
-  abilities,
-  careers,
-  slug,
-  masteryAbilities,
-}: State) {
-  return {
-    sidebar,
-    abilities,
-    careers,
-    slug,
-    masteryAbilities,
-  };
-}
-
-const mapDispatchToProps = {
-  fetchAbilities,
-  fetchCareers,
-  setSlug,
-  setLevel,
-  setRenown,
-  setTacticLimit,
-  setCurrentPoints,
-  setPathMeterA,
-  setPathMeterB,
-  setPathMeterC,
-  setMasteryAbilities,
-  setMasteryMorales,
-  setMasteryTactics,
-  selectMorale1,
-  selectMorale2,
-  selectMorale3,
-  selectMorale4,
-  setSelectedTactics,
-  setPoints,
-  resetRenown,
-  resetLevel,
-  resetTacticLimit,
-  resetPoints,
-  resetCurrentPoints,
-  resetAbilities,
-  resetSelectedMorale1,
-  resetSelectedMorale2,
-  resetSelectedMorale3,
-  resetSelectedMorale4,
-  resetSelectedTactics,
-  resetMasteryAbilities,
-  resetMasteryMorales,
-  resetMasteryTactics,
-  resetPathMeterA,
-  resetPathMeterB,
-  resetPathMeterC,
-};
 
 export default connect(
   mapStateToProps,

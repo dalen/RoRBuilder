@@ -5,7 +5,7 @@ import css from '../css/components/PathInfo.module.css';
 
 type PathPopover = {
   primary: string;
-  secondary: string;
+  secondary?: string;
 };
 
 const renderPopoverPrimary = (pathPopover: PathPopover) => {

@@ -1,4 +1,4 @@
-import { Reducer, AnyAction } from 'redux';
+import { Reducer } from 'redux';
 import _ from 'lodash';
 import {
   FETCH_ABILITIES,
@@ -121,11 +121,11 @@ export type Abilities = ReturnType<typeof formatData>;
 
 const reducer: Reducer<
   ReturnType<typeof formatData> | never[],
-  AbilitiesAction | AnyAction
+  AbilitiesAction
 > = (state = [], action) => {
   switch (action.type) {
     case FETCH_ABILITIES:
-      return formatData(action.payload.data);
+      return formatData(action.payload);
     case RESET_ABILITIES:
       return action.payload;
     default:

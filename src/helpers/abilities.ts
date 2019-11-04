@@ -2,7 +2,7 @@ export type Mastery = {
   name: string;
   popover: {
     primary: string;
-    secondary: string;
+    secondary?: string;
   };
   optionalAbilities: {
     lvl1: number;
@@ -51,8 +51,8 @@ export type Ability = {
   cooldown: string;
   note: string;
   description: string;
-  category: AbilityCategory;
-  abilityType: AbilityType;
+  category: string;
+  abilityType?: AbilityType;
 };
 
 export const arrayContains = <T>(
@@ -62,7 +62,7 @@ export const arrayContains = <T>(
   return array.findIndex(needle) !== -1;
 };
 
-export function getAbilityType(category: AbilityCategory): AbilityType {
+export function getAbilityType(category: string): AbilityType {
   switch (category) {
     case 'Ability':
       return 'standard';
