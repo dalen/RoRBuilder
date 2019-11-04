@@ -50,7 +50,7 @@ class Mastery extends Component<ReturnType<typeof mapStateToProps>> {
       [css.labelActive]: this.props.currentPoints > 0,
     });
 
-    if (Array.isArray(this.props.abilities)) {
+    if (this.props.abilities == null) {
       return null;
     }
 

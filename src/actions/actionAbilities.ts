@@ -1,5 +1,3 @@
-import { Action } from 'redux';
-
 import archmage from '../data/abilities/archmage.json';
 import blackOrc from '../data/abilities/black-orc.json';
 import blackGuard from '../data/abilities/black-guard.json';
@@ -84,31 +82,25 @@ type CareerKeys = keyof typeof careerData;
 export const FETCH_ABILITIES = 'fetch_abilities';
 export const RESET_ABILITIES = 'reset_abilities';
 
-export interface FetchAbilitiesAction extends Action<typeof FETCH_ABILITIES> {
-  type: typeof FETCH_ABILITIES;
-  payload: Career;
-}
-
-export interface ResetAbilitiesAction extends Action<typeof RESET_ABILITIES> {
-  type: typeof RESET_ABILITIES;
-  payload: never[];
-}
-
-export type AbilitiesAction = FetchAbilitiesAction | ResetAbilitiesAction;
-
-export function fetchAbilities(slug: string): FetchAbilitiesAction {
+export function fetchAbilities(slug: string) {
   if (Object.keys(careerData).includes(slug)) {
     return {
       type: FETCH_ABILITIES,
       payload: careerData[slug as CareerKeys],
-    };
+    } as const;
   }
   throw new Error(`Invalid career ${slug}`);
 }
 
-export function resetAbilities(): ResetAbilitiesAction {
+export function resetAbilities() {
   return {
     type: RESET_ABILITIES,
-    payload: [],
-  };
+    payload: null,
+  } as const;
 }
+
+export type FetchAbilitiesAction = ReturnType<typeof fetchAbilities>;
+
+export type ResetAbilitiesAction = ReturnType<typeof resetAbilities>;
+
+export type AbilitiesAction = FetchAbilitiesAction | ResetAbilitiesAction;

@@ -52,17 +52,14 @@ export function resetMasteryTactics(): {
 }
 
 export function setMasteryTactics(
-  tactics: (string | number)[],
+  tactics: number[],
 ): {
   type: 'set_mastery_tactics';
   payload: number[];
 } {
-  // Ensure that values are integers not string (as can happen coming from query string)
-  const newArray = tactics.map(abilityId => Number(abilityId));
-
   return {
     type: SET_MASTERY_TACTICS,
-    payload: newArray,
+    payload: tactics,
   };
 }
 

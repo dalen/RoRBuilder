@@ -66,7 +66,7 @@ const CoreMorales = ({
   abilities,
   masteryMorales,
 }: ReturnType<typeof mapStateToProps>) => {
-  if (Array.isArray(abilities)) {
+  if (abilities == null) {
     return null;
   }
   return (

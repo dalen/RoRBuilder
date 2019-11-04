@@ -20,7 +20,7 @@ class PathMeterAbilities extends Component<Props> {
   }
 
   renderAbility(obj: { level: number; requirement: number }) {
-    if (Array.isArray(this.props.abilities)) {
+    if (this.props.abilities == null) {
       return null;
     }
 
@@ -90,10 +90,7 @@ class PathMeterAbilities extends Component<Props> {
         requirement: 3,
       },
     ];
-    if (
-      Array.isArray(this.props.abilities) &&
-      this.props.abilities.length === 0
-    ) {
+    if (this.props.abilities == null) {
       return null;
     }
     return (

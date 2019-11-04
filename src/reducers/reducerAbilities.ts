@@ -120,14 +120,14 @@ function formatData(originalObject: Career) {
 export type Abilities = ReturnType<typeof formatData>;
 
 const reducer: Reducer<
-  ReturnType<typeof formatData> | never[],
+  ReturnType<typeof formatData> | null,
   AbilitiesAction
-> = (state = [], action) => {
+> = (state = null, action) => {
   switch (action.type) {
     case FETCH_ABILITIES:
       return formatData(action.payload);
     case RESET_ABILITIES:
-      return action.payload;
+      return null;
     default:
       return state;
   }

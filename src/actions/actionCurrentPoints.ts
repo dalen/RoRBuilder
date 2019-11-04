@@ -1,27 +1,22 @@
 export const SET_CURRENT_POINTS = 'set_current_points';
 export const RESET_CURRENT_POINTS = 'reset_current_points';
 
-export type ActionSetCurrentPoints = {
-  type: typeof SET_CURRENT_POINTS;
-  payload: number;
-};
-export type ActionResetCurrentPoints = {
-  type: typeof RESET_CURRENT_POINTS;
-};
+export function setCurrentPoints(points: number) {
+  return {
+    type: SET_CURRENT_POINTS,
+    payload: points,
+  } as const;
+}
+
+export function resetCurrentPoints() {
+  return {
+    type: RESET_CURRENT_POINTS,
+  } as const;
+}
+
+export type ActionSetCurrentPoints = ReturnType<typeof setCurrentPoints>;
+export type ActionResetCurrentPoints = ReturnType<typeof resetCurrentPoints>;
 
 export type ActionCurrentPoints =
   | ActionSetCurrentPoints
   | ActionResetCurrentPoints;
-
-export function setCurrentPoints(points: number): ActionSetCurrentPoints {
-  return {
-    type: SET_CURRENT_POINTS,
-    payload: Number(points),
-  };
-}
-
-export function resetCurrentPoints(): ActionResetCurrentPoints {
-  return {
-    type: RESET_CURRENT_POINTS,
-  };
-}

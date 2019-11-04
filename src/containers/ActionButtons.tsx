@@ -100,9 +100,10 @@ class ActionButtons extends Component<Props> {
     this.props.setSharingLink(this.createShareLink());
     // Open share modal
     this.props.openModal(MODAL_SHARE);
-    if (this.props.slug == null || Array.isArray(this.props.abilities)) {
+    if (this.props.slug == null || this.props.abilities == null) {
       return;
     }
+
     const careerName = this.props.careers[this.props.slug].name;
     // Send GA events
     if (this.props.selectedMorale1) {
@@ -189,7 +190,7 @@ class ActionButtons extends Component<Props> {
   }
 
   render() {
-    if (Array.isArray(this.props.abilities)) {
+    if (this.props.abilities == null) {
       return null;
     }
     return (

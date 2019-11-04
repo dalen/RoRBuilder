@@ -206,13 +206,13 @@ class Career extends Component<Props> {
       this.props.setPathMeterC(pC);
     }
     if (ma) {
-      this.props.setMasteryAbilities(ma.split(','));
+      this.props.setMasteryAbilities(ma.split(',').map(Number.parseInt));
     }
     if (mm) {
-      this.props.setMasteryMorales(mm.split(','));
+      this.props.setMasteryMorales(mm.split(',').map(Number.parseInt));
     }
     if (mt) {
-      this.props.setMasteryTactics(mt.split(','));
+      this.props.setMasteryTactics(mt.split(',').map(Number.parseInt));
     }
     if (m1) {
       this.props.selectMorale1(m1);
@@ -268,6 +268,7 @@ class Career extends Component<Props> {
   }
 
   renderContent() {
+    if (this.props.abilities == null) return null;
     // Check that all the relative state properties are populated before rendering the Career UI
     const hasCareerLoaded =
       Object.keys(this.props.careers).length > 0 &&

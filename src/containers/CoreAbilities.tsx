@@ -11,7 +11,7 @@ const renderAbility = (abilities: Abilities, abilityId: number) => {
 };
 
 const CoreAbilities = ({ abilities }: ReturnType<typeof mapStateToProps>) => {
-  if (Array.isArray(abilities)) {
+  if (abilities == null) {
     return null;
   }
   return (
