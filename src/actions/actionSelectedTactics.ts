@@ -41,29 +41,21 @@ export function deselectTactic(
   };
 }
 
-export function resetSelectedTactics(): {
-  type: 'reset_selected_tactics';
-  payload: never[];
-} {
+export function resetSelectedTactics() {
   return {
     type: RESET_SELECTED_TACTICS,
     payload: [],
-  };
+  } as const;
 }
 
-export function setSelectedTactics(
-  tactics: (string | number)[],
-): {
-  type: 'set_selected_tactics';
-  payload: number[];
-} {
+export function setSelectedTactics(tactics: (string | number)[]) {
   // Ensure that values are integers not string (as can happen coming from query string)
   const newArray = tactics.map(abilityId => Number(abilityId));
 
   return {
     type: SET_SELECTED_TACTICS,
     payload: newArray,
-  };
+  } as const;
 }
 
 export type ActionSelectedTactics =

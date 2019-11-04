@@ -27,6 +27,7 @@ import { setCurrentPoints } from '../actions/actionCurrentPoints';
 import { deselectTactic } from '../actions/actionSelectedTactics';
 import { resetSelectedMorale4 } from '../actions/actionSelectedMorale4';
 import { State } from '../reducers';
+import { Ability } from '../helpers/abilities';
 
 type Props = {
   masteryAbilities: State['masteryAbilities'];
@@ -38,7 +39,7 @@ type Props = {
   pathMeterC: State['pathMeterC'];
   selectedTactics: State['selectedTactics'];
   selectedMorale4: State['selectedMorale4'];
-  data: any;
+  data: Ability;
   path: string;
   meterRequirement: number;
   pathMeter: number;
@@ -403,20 +404,22 @@ function mapStateToProps({
   };
 }
 
+const mapDispatchToProps = {
+  addMasteryAbility,
+  removeMasteryAbility,
+  addMasteryMorale,
+  removeMasteryMorale,
+  addMasteryTactic,
+  removeMasteryTactic,
+  setPathMeterA,
+  setPathMeterB,
+  setPathMeterC,
+  setCurrentPoints,
+  deselectTactic,
+  resetSelectedMorale4,
+};
+
 export default connect(
   mapStateToProps,
-  {
-    addMasteryAbility,
-    removeMasteryAbility,
-    addMasteryMorale,
-    removeMasteryMorale,
-    addMasteryTactic,
-    removeMasteryTactic,
-    setPathMeterA,
-    setPathMeterB,
-    setPathMeterC,
-    setCurrentPoints,
-    deselectTactic,
-    resetSelectedMorale4,
-  },
+  mapDispatchToProps,
 )(AbilityMastery);

@@ -7,6 +7,7 @@ import Popover from '../components/Popover';
 import PopoverAbility from '../components/PopoverAbility';
 
 import { State } from '../reducers';
+import { Ability } from '../helpers/abilities';
 
 import {
   selectMorale1,
@@ -27,7 +28,7 @@ import {
 
 type Props = {
   rank: '1' | '2' | '3' | '4';
-  data: any;
+  data: Ability;
   level: State['level'];
   selectedMorale1: State['selectedMorale1'];
   selectedMorale2: State['selectedMorale2'];
@@ -159,7 +160,7 @@ class AbilityMorale extends Component<
   componentDidMount() {
     this.setInitialStatus(
       this.props.level,
-      this.props.data.minrank,
+      Number(this.props.data.minrank),
       this.props.selectedMorale1,
       this.props.selectedMorale2,
       this.props.selectedMorale3,
@@ -171,7 +172,7 @@ class AbilityMorale extends Component<
   componentWillReceiveProps(nextProps: Props) {
     this.setInitialStatus(
       nextProps.level,
-      nextProps.data.minrank,
+      Number(nextProps.data.minrank),
       nextProps.selectedMorale1,
       nextProps.selectedMorale2,
       nextProps.selectedMorale3,

@@ -1,26 +1,18 @@
 export const SELECT_MORALE_4 = 'select_morale_4';
 export const RESET_SELECTED_MORALE_4 = 'reset_selected_morale_4';
 
-export function selectMorale4(
-  abilityId: number | string,
-): {
-  type: 'select_morale_4';
-  payload: number;
-} {
+export function selectMorale4(abilityId: number | string) {
   return {
     type: SELECT_MORALE_4,
     payload: Number(abilityId),
-  };
+  } as const;
 }
 
-export function resetSelectedMorale4(): {
-  type: 'reset_selected_morale_4';
-  payload: false;
-} {
+export function resetSelectedMorale4() {
   return {
     type: RESET_SELECTED_MORALE_4,
     payload: false,
-  };
+  } as const;
 }
 
 export type ActionMorale4 =

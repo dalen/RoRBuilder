@@ -20,81 +20,7 @@ import { resetMasteryAbilities } from '../actions/actionMasteryAbilities';
 import { resetMasteryMorales } from '../actions/actionMasteryMorales';
 import { resetMasteryTactics } from '../actions/actionMasteryTactics';
 
-type Props = {
-  renown: number;
-  level: number;
-  pathMeterA: number;
-  pathMeterB: number;
-  pathMeterC: number;
-  masteryAbilities: number[];
-  masteryMorales: number[];
-  masteryTactics: number[];
-  setLevel: (
-    level: number,
-  ) => {
-    type: string;
-    payload: number;
-  };
-  calculateTacticLimit: (
-    level: number,
-  ) => {
-    type: string;
-    payload: number;
-  };
-  setPoints: (
-    points: number,
-  ) => {
-    type: string;
-    payload: number;
-  };
-  setCurrentPoints: (
-    points: number,
-  ) => {
-    type: string;
-    payload: number;
-  };
-  resetSelectedMorale1: () => {
-    type: string;
-    payload: boolean;
-  };
-  resetSelectedMorale2: () => {
-    type: string;
-    payload: boolean;
-  };
-  resetSelectedMorale3: () => {
-    type: string;
-    payload: boolean;
-  };
-  resetSelectedMorale4: () => {
-    type: string;
-    payload: boolean;
-  };
-  resetSelectedTactics: () => {
-    type: string;
-    payload: never[];
-  };
-  resetPathMeterA: () => {
-    type: string;
-  };
-  resetPathMeterB: () => {
-    type: string;
-  };
-  resetPathMeterC: () => {
-    type: string;
-  };
-  resetMasteryAbilities: () => {
-    type: string;
-    payload: never[];
-  };
-  resetMasteryMorales: () => {
-    type: string;
-    payload: never[];
-  };
-  resetMasteryTactics: () => {
-    type: string;
-    payload: never[];
-  };
-};
+type Props = ReturnType<typeof mapStateToProps> & typeof mapDispatchToProps;
 
 class SelectLevel extends Component<Props> {
   constructor(props: Props) {
@@ -229,23 +155,25 @@ function mapStateToProps({
   };
 }
 
+const mapDispatchToProps = {
+  setLevel,
+  calculateTacticLimit,
+  setPoints,
+  setCurrentPoints,
+  resetSelectedMorale1,
+  resetSelectedMorale2,
+  resetSelectedMorale3,
+  resetSelectedMorale4,
+  resetSelectedTactics,
+  resetPathMeterA,
+  resetPathMeterB,
+  resetPathMeterC,
+  resetMasteryAbilities,
+  resetMasteryMorales,
+  resetMasteryTactics,
+};
+
 export default connect(
   mapStateToProps,
-  {
-    setLevel,
-    calculateTacticLimit,
-    setPoints,
-    setCurrentPoints,
-    resetSelectedMorale1,
-    resetSelectedMorale2,
-    resetSelectedMorale3,
-    resetSelectedMorale4,
-    resetSelectedTactics,
-    resetPathMeterA,
-    resetPathMeterB,
-    resetPathMeterC,
-    resetMasteryAbilities,
-    resetMasteryMorales,
-    resetMasteryTactics,
-  },
+  mapDispatchToProps,
 )(SelectLevel);

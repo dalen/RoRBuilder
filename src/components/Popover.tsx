@@ -59,6 +59,7 @@ const offScreenCheck = (element: HTMLDivElement) => {
 
   return alignmentCheck;
 };
+
 class Popover extends React.Component<Props, State> {
   popover: HTMLDivElement | null = null;
 
@@ -73,6 +74,7 @@ class Popover extends React.Component<Props, State> {
 
     // 'popoverSpacing' is the distance of the Popover from the parent element.
     // Matches 'popoverSpacing' in CSS. Likewise for 'popoverArrowSize'
+
     this.state = {
       popoverSpacing: 5,
       popoverArrowSize: 10,

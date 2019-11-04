@@ -6,15 +6,21 @@ import css from '../css/components/Ability.module.css';
 import Popover from '../components/Popover';
 import PopoverAbility from '../components/PopoverAbility';
 import { State } from '../reducers';
+import { Ability as AbilityType } from '../helpers/abilities';
 
 const initialStatus = (currentLevel: number, minrank: number) => {
   return currentLevel >= minrank;
 };
 
-const Ability = ({ level, data }: { level: State['level']; data: any }) => {
+const Ability = ({
+  level,
+  data,
+}: {
+  data: AbilityType;
+} & ReturnType<typeof mapStateToProps>) => {
   const [hovered, setHovered] = useState(false);
 
-  const status = initialStatus(level, data.minrank);
+  const status = initialStatus(level, Number(data.minrank));
 
   const hoverOver = () => {
     setHovered(true);

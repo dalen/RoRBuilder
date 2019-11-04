@@ -8,9 +8,10 @@ import { toggleOverlay } from '../actions/actionOverlay';
 import { toggleSidebar } from '../actions/actionSidebar';
 
 import { State } from '../reducers';
+import { CareerSummary } from '../reducers/reducerCareers';
 
 type Props = ReturnType<typeof mapStateToProps> &
-  typeof mapDispatchToProps & { career: any };
+  typeof mapDispatchToProps & { career: CareerSummary };
 
 class CareerItem extends Component<Props> {
   constructor(props: Props) {

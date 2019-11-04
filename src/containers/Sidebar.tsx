@@ -4,8 +4,9 @@ import classNames from 'classnames';
 import css from '../css/components/Sidebar.module.css';
 import CareerItem from './CareerItem';
 import { State } from '../reducers';
+import { CareerSummary } from '../reducers/reducerCareers';
 
-const renderCareers = (careers: { [key: string]: any }) => {
+const renderCareers = (careers: { [key: string]: CareerSummary }) => {
   return Object.keys(careers).map(key => (
     <div className={css.item} key={key}>
       <CareerItem career={careers[key]} />
@@ -13,7 +14,7 @@ const renderCareers = (careers: { [key: string]: any }) => {
   ));
 };
 
-const Sidebar = ({ sidebar, careers }: { sidebar: boolean; careers: any }) => {
+const Sidebar = ({ sidebar, careers }: ReturnType<typeof mapStateToProps>) => {
   const sidebarClass = classNames({
     [css.container]: !sidebar,
     [css.containerActive]: sidebar,

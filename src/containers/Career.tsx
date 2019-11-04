@@ -83,12 +83,11 @@ class Career extends Component<Props> {
   }
 
   componentWillReceiveProps(nextProps: Props) {
+    if (!this.props.match.params.slug || !nextProps.match.params.slug) return;
+
     // This will be run when a new career is selected from the Sidebar
     // Manually force the loading of new data
-    if (
-      this.props.match.params &&
-      this.props.match.params.slug !== nextProps.match.params.slug
-    ) {
+    if (this.props.match.params.slug !== nextProps.match.params.slug) {
       // Check if it's a valid career name
       if (this.props.careers.hasOwnProperty(nextProps.match.params.slug)) {
         // Reset Career data
