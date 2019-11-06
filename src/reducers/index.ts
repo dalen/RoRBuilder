@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 import ReducerCareers from './reducerCareers';
 import ReducerSidebar from './reducerSidebar';
 import ReducerOverlay from './reducerOverlay';
-import ReducerAbilities, { Abilities } from './reducerAbilities';
+import ReducerAbilities from './reducerAbilities';
 import ReducerSlug from './reducerSlug';
 import ReducerLevel from './reducerLevel';
 import ReducerRenown from './reducerRenown';
@@ -24,7 +24,7 @@ import ReducerModal from './reducerModal';
 import ReducerSharingLink from './reducerSharingLink';
 import { ModalType } from '../helpers/modalTypes';
 
-export type Abilities = Abilities;
+export { Abilities } from './reducerAbilities';
 
 export type State = {
   careers: ReturnType<typeof ReducerCareers>;
