@@ -9,9 +9,10 @@ import PopoverAbility from '../components/PopoverAbility';
 import { selectTactic, deselectTactic } from '../actions/actionSelectedTactics';
 
 import { State } from '../reducers';
+import { Ability } from '../helpers/abilities';
 
 type Props = {
-  data: any;
+  data: Ability;
   level: State['level'];
   selectedTactics: State['selectedTactics'];
   tacticLimit: State['tacticLimit'];
