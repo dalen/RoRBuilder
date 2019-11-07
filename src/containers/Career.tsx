@@ -206,13 +206,13 @@ class Career extends Component<Props> {
       this.props.setPathMeterC(pC);
     }
     if (ma) {
-      this.props.setMasteryAbilities(ma.split(',').map(Number.parseInt));
+      this.props.setMasteryAbilities(ma.split(',').map(a => Number(a)));
     }
     if (mm) {
-      this.props.setMasteryMorales(mm.split(',').map(Number.parseInt));
+      this.props.setMasteryMorales(mm.split(',').map(a => Number(a)));
     }
     if (mt) {
-      this.props.setMasteryTactics(mt.split(',').map(Number.parseInt));
+      this.props.setMasteryTactics(mt.split(',').map(a => Number(a)));
     }
     if (m1) {
       this.props.selectMorale1(m1);
@@ -227,7 +227,7 @@ class Career extends Component<Props> {
       this.props.selectMorale4(m4);
     }
     if (t) {
-      this.props.setSelectedTactics(t.split(','));
+      this.props.setSelectedTactics(t.split(',').map(a => Number(a)));
     }
   }
 

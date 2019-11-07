@@ -30,13 +30,10 @@ export function resetSelectedTactics() {
   } as const;
 }
 
-export function setSelectedTactics(tactics: (string | number)[]) {
-  // Ensure that values are integers not string (as can happen coming from query string)
-  const newArray = tactics.map(abilityId => Number(abilityId));
-
+export function setSelectedTactics(tactics: number[]) {
   return {
     type: SET_SELECTED_TACTICS,
-    payload: newArray,
+    payload: tactics,
   } as const;
 }
 
