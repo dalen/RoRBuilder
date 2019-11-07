@@ -51,22 +51,6 @@
   },
   "data": [
     {
-      "image": "23400",
-      "id": 5434,
-      "name": "Abate War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "10926",
       "id": 5423,
       "name": "Absorb Vitality",
@@ -643,22 +627,6 @@
     },
 
     {
-      "image": "23407",
-      "id": 5432,
-      "name": "Enhance War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "22725",
       "id": 5452,
       "name": "Favour of the Gods",
@@ -944,22 +912,6 @@
       "note": "",
       "description": "Reduces the cooldown times of Dread Aspect and Grip Of Fear by 7 seconds.",
       "category": "CareerTactic"
-    },
-
-    {
-      "image": "23410",
-      "id": 5433,
-      "name": "Hex War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
-      "category": "Ability"
     },
 
     {

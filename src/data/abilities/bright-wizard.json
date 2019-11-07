@@ -51,22 +51,6 @@
   },
   "data": [
     {
-      "image": "23400",
-      "id": 3577,
-      "name": "Abate War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "22736",
       "id": 3584,
       "name": "Aethyric Insight",
@@ -595,22 +579,6 @@
     },
 
     {
-      "image": "23407",
-      "id": 3575,
-      "name": "Enhance War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
-      "category": "Ability"
-    },
-
-    {
       "image": "22696",
       "id": 3568,
       "name": "Explosive Force",
@@ -976,22 +944,6 @@
       "note": "",
       "description": "Removes all Hexes and Curses from you. You regain 485 health over 15 seconds.",
       "category": "Morale"
-    },
-
-    {
-      "image": "23410",
-      "id": 3576,
-      "name": "Hex War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
-      "category": "Ability"
     },
 
     {
