@@ -115,6 +115,12 @@
       "@typescript-eslint/promise-function-async": "error",
       "@typescript-eslint/prefer-readonly": "error",
       "@typescript-eslint/no-explicit-any": "error",
+      "@typescript-eslint/camelcase": [
+        "error",
+        {
+          "properties": "never"
+        }
+      ],
       "react/prop-types": "off",
       "default-case": "off"
     },
