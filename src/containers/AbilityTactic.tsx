@@ -36,6 +36,17 @@ class AbilityTactic extends Component<
     this.selectTactic = this.selectTactic.bind(this);
   }
 
+  // Initial render
+  componentDidMount() {
+    const { level, data, selectedTactics } = this.props;
+    this.setInitialStatus(level, Number(data.minrank), selectedTactics);
+  }
+
+  // About to update because parent changed
+  componentWillReceiveProps({ level, data, selectedTactics }: Props) {
+    this.setInitialStatus(level, Number(data.minrank), selectedTactics);
+  }
+
   setInitialStatus(
     currentLevel: number,
     minrank: number,
@@ -82,24 +93,6 @@ class AbilityTactic extends Component<
         }
       }
     }
-  }
-
-  // Initial render
-  componentDidMount() {
-    this.setInitialStatus(
-      this.props.level,
-      this.props.data.minrank,
-      this.props.selectedTactics,
-    );
-  }
-
-  // About to update because parent changed
-  componentWillReceiveProps(nextProps: Props) {
-    this.setInitialStatus(
-      nextProps.level,
-      nextProps.data.minrank,
-      nextProps.selectedTactics,
-    );
   }
 
   render() {
