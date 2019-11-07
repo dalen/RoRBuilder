@@ -12,6 +12,12 @@ const initialStatus = (currentLevel: number, minrank: number) => {
   return currentLevel >= minrank;
 };
 
+function mapStateToProps({ level }: State) {
+  return {
+    level,
+  };
+}
+
 const Ability = ({
   level,
   data,
@@ -48,6 +54,8 @@ const Ability = ({
         alt={data.name}
         onMouseOver={hoverOver}
         onMouseOut={hoverOut}
+        onFocus={hoverOver}
+        onBlur={hoverOut}
       />
       <Popover
         content={popoverContent}
@@ -59,11 +67,5 @@ const Ability = ({
     </div>
   );
 };
-
-function mapStateToProps({ level }: State) {
-  return {
-    level,
-  };
-}
 
 export default connect(mapStateToProps)(Ability);
