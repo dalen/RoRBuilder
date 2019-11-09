@@ -574,7 +574,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale"
     },
 
@@ -782,7 +782,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
-      "description": "A swift attack that deals 97 damage and Cripples for an additional 185 damage over 5 seconds. Monsters struck with this technique will hate you more.",
+      "description": "A swift attack that deals 97 damage and an additional 185 damage over 5 seconds. Monsters struck with this technique will hate you more.",
       "category": "Ability"
     },
 
@@ -926,7 +926,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirit of the heavens. All your melee attacks gain a 25% chance that you will increase your group's armor or resistances for 10s.<br><br>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirit of the heavens. Whenever you strike a target with a melee attack, there is a 25% chance that you will increase your group's defenses against one of the damage types that your target uses. For physical damage, your group's armor is increased by 618 and for resistance damage, that resistance is increased by 236. This effect persists for 10s.<br><br>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability"
     },
 
@@ -1070,7 +1070,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s shared cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirit of nature. All your melee attacks gain a 25% chance to randomly steal 120 stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<br><br>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirit of nature. All your melee attacks gain a 25% chance to randomly steal 75 stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<br><br>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability"
     },
 
@@ -1150,7 +1150,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s shared cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to increase your group's wounds by 47 for 10 seconds. Anyone affected will be healed for the amount increased.<br><br>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to increase your group's wounds by 32 for 10 seconds. Anyone affected will be healed for the amount increased.<br><br>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability"
     },
 
@@ -1262,7 +1262,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Block",
-      "description": "Redirects the force of a blocked blow into a devastating attack dealing 231 damage and gknocking your target back a medium distance. This attack generates a large amount of additional hatw from monsters.",
+      "description": "Redirects the force of a blocked blow into an undefendable attack dealing 231 and knocking your target back a medium distance. This attack generates a large amount of additional hate from monsters.",
       "category": "Ability"
     },
 
@@ -1573,7 +1573,7 @@
     {
       "image": "22708",
       "id": 7500,
-      "name": "Raking Talon",
+      "name": "Raking Talons",
       "type": "Buff",
       "spec": "Path of Vaul",
       "minrank": "1",
@@ -1598,7 +1598,7 @@
       "incant": "Passive",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "An enchantment which calls upon the power of Vaul, rendering yourself and any of your groupmates within 30feet of you immune to crowd control effects for 3 seconds and reducing incoming damage by 10%.",
+      "description": "An enchantment which calls upon the power of Vaul, rendering yourself and any of your groupmates within 30 feet of you immune to crowd control effects for 3 seconds and reducing incoming damage by 10%.",
       "category": "Ability"
     },
 
