@@ -641,7 +641,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Requires an active pet",
-      "description": "At your command, your War Lion goes berserk with a killing frenzy! All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds. During this time, your pet will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage every time it strikes an enemy.<br>Damage can only trigger once every 2 seconds.",
+      "description": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds.  During this time, your pet will deal an additional 159 damage every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds.",
       "category": "Ability"
     },
 
@@ -1025,7 +1025,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active",
-      "description": "You train your pet to fight ferociously, increasing its Strength and  Weapon Skill from your Strength and Weapon Skill gained from items and increasing your Toughness by 50.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
+      "description": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by 50.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability"
     },
 
