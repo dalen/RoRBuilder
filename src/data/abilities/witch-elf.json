@@ -590,7 +590,7 @@
       "incant": "Insta-Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Your unearthly Elven beauty Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "Your unearthly Elven beauty Detaunts all enemies within 30 feet, making them hate you less and causing them to deal 50% less damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
 
@@ -974,7 +974,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 50 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.",
+      "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 50 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.",
       "category": "Ability"
     },
 
@@ -990,7 +990,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.",
+      "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.",
       "category": "Ability"
     },
 
@@ -1006,7 +1006,7 @@
       "incant": "Insta-Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.",
+      "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.",
       "category": "Ability"
     },
 
@@ -1214,7 +1214,7 @@
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "A relentless string of attacks which repeatedly strikes your target and all enemies within 20 feet of them up to 6 times over 3 seconds.<br>  1 Blood Lust: 750 damage.<br>  2 Blood Lust:  900 damage.<br>  3 Blood Lust:  1056 damage.<br>  4 Blood Lust:  1200 damage.<br>  5 Blood Lust:  1350 damage.",
+      "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<br>  1 Blood Lust: 750 damage.<br>  2 Blood Lust:  900 damage.<br>  3 Blood Lust:  1056 damage.<br>  4 Blood Lust:  1200 damage.<br>  5 Blood Lust:  1350 damage.",
       "category": "Ability"
     },
 
@@ -1326,7 +1326,7 @@
       "incant": "2.0s cast",
       "cooldown": "35.0s cooldown",
       "note": "",
-      "description": "You prowl through the shadows for the next 30 seconds, rendering you invisible to your foes unless you or they draw too close. You are less likely to be noticed when stationary, flanking your target or if you have high Initiative.<br> The cooldown of this abillity is reduced by 1 second for every enemy within 100 feet of you when the effect is broken.<br> This effect will slwoly drain your action points and will end if you use any abilities or run out of action points.",
+      "description": "You prowl through the shadows for the next 30 seconds, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points.",
       "category": "Ability"
     },
 
@@ -1406,7 +1406,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "A slice which deals 275 damage.",
+      "description": "A deep stab which deals 275 damage to your target.",
       "category": "Ability"
     },
 
