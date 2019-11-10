@@ -814,7 +814,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale"
     },
 
