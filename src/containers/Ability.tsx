@@ -58,12 +58,13 @@ const Ability = ({
         onBlur={hoverOut}
       />
       <Popover
-        content={popoverContent}
         alignment="top"
         activate={hovered}
         abilityOptional={false}
         status={status}
-      />
+      >
+        {popoverContent}
+      </Popover>
     </div>
   );
 };

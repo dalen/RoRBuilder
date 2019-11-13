@@ -1,0 +1,76 @@
+@import '../values/colours.css';
+@import '../values/fontSizes.css';
+
+:root {
+  --points-available: #8a4141;
+}
+
+.level {
+  width: 100%;
+  height: 1.86rem;
+  line-height: 1.6rem;
+  border: 1px solid var(--color-points-dark);
+  text-align: center;
+  background-color: var(--color-points-dark);
+  margin-bottom: 0.2rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: var(--font-size-small);
+}
+
+.arrow {
+  vertical-align: middle;
+}
+
+.disabled {
+  composes: level;
+  cursor: not-allowed;
+}
+
+.selected {
+  composes: level;
+  background-color: var(--color-points);
+  border: 1px solid var(--color-points);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+.available {
+  composes: level;
+  border: 1px solid var(--points-available);
+  background-color: var(--points-available);
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+.popoverRow {
+  composes: row from '../shared/popover.css';
+}
+.popoverRowLarge {
+  composes: rowLarge from '../shared/popover.css';
+}
+.popoverItem {
+  composes: item from '../shared/popover.css';
+}
+.popoverItemLarge {
+  composes: itemLarge from '../shared/popover.css';
+}
+.popoverItemRight {
+  composes: itemTitle from '../shared/popover.css';
+}
+.popoverItemTitle {
+  composes: itemTitle from '../shared/popover.css';
+}
+.popoverItemTitleRight {
+  composes: itemTitleRight from '../shared/popover.css';
+}
+.popoverNote {
+  composes: note from '../shared/popover.css';
+}
+.popoverDescription {
+  composes: description from '../shared/popover.css';
+}
+.popoverDivider {
+  composes: divider from '../shared/popover.css';
+}
+.popoverImage {
+  composes: image from '../shared/popover.css';
+}

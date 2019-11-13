@@ -369,12 +369,13 @@ class AbilityMastery extends Component<
           onClick={this.clicked}
         />
         <Popover
-          content={popoverContent}
           alignment="top"
           activate={this.state.hovered}
           abilityOptional={false}
           status={this.state.status}
-        />
+        >
+          {popoverContent}
+        </Popover>
       </div>
     );
   }
@@ -419,7 +420,4 @@ const mapDispatchToProps = {
   resetSelectedMorale4,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(AbilityMastery);
+export default connect(mapStateToProps, mapDispatchToProps)(AbilityMastery);

@@ -57,11 +57,9 @@ const PathInfo = ({ pathPopover }: { pathPopover: PathPopover }) => {
       >
         <div className={css.icon}>?</div>
       </div>
-      <Popover
-        content={renderPopoverContent(pathPopover)}
-        alignment="top"
-        activate={hovered}
-      />
+      <Popover alignment="top" activate={hovered}>
+        {renderPopoverContent(pathPopover)}
+      </Popover>
     </div>
   );
 };

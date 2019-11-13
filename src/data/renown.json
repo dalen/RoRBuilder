@@ -1,0 +1,381 @@
+{
+  "categories": {
+    "Might": {
+      "name": "Might",
+      "description": "Increases Strength",
+      "short_name": "S",
+      "icon": "statbuff_might",
+      "levels": [
+        {
+          "name": "Might I",
+          "note": "Increases Strength by 4",
+          "cost": 1
+        },
+        {
+          "name": "Might II",
+          "note": "Increases Strength by 12 (Total increase of 16)",
+          "cost": 3
+        },
+        {
+          "name": "Might III",
+          "note": "Increases Strength by 22 (Total increase of 38)",
+          "cost": 6
+        },
+        {
+          "name": "Might IV",
+          "note": "Increases Strength by 34 (Total increase of 72)",
+          "cost": 10
+        },
+        {
+          "name": "Might V",
+          "note": "Increases Strength by 48 (Total increase of 120)",
+          "cost": 14
+        }
+      ]
+    },
+    "Blade Master": {
+      "name": "Blade Master",
+      "description": "Increases Weapon Skill",
+      "short_name": "WS",
+      "icon": "statbuff_blademaster",
+      "levels": [
+        {
+          "name": "Blade master I",
+          "note": "Increases Weapon Skill by 4",
+          "cost": 1
+        },
+        {
+          "name": "Blade master II",
+          "note": "Increases Weapon Skill by 12 (Total increase of 16)",
+          "cost": 3
+        },
+        {
+          "name": "Blade master III",
+          "note": "Increases Weapon Skill by 22 (Total increase of 38)",
+          "cost": 6
+        },
+        {
+          "name": "Blade master IV",
+          "note": "Increases Weapon Skill by 34 (Total increase of 72)",
+          "cost": 10
+        },
+        {
+          "name": "Blade master V",
+          "note": "Increases Weapon Skill by 48 (Total increase of 120)",
+          "cost": 14
+        }
+      ]
+    },
+    "Marksmen": {
+      "name": "Marksmen",
+      "description": "Increases Ballistic Skill",
+      "short_name": "BS",
+      "icon": "statbuff_marksmen",
+      "levels": [
+        {
+          "name": "Marksmen I",
+          "note": "Increases Ballistic Skill by 4",
+          "cost": 1
+        },
+        {
+          "name": "Marksmen II",
+          "note": "Increases Ballistic Skill by 12 (Total increase of 16)",
+          "cost": 3
+        },
+        {
+          "name": "Marksmen III",
+          "note": "Increases Ballistic Skill by 22 (Total increase of 38)",
+          "cost": 6
+        },
+        {
+          "name": "Marksmen IV",
+          "note": "Increases Ballistic Skill by 34 (Total increase of 72)",
+          "cost": 10
+        },
+        {
+          "name": "Marksmen V",
+          "note": "Increases Ballistic Skill by 48 (Total increase of 120)",
+          "cost": 14
+        }
+      ]
+    },
+    "Impetus": {
+      "name": "Impetus",
+      "description": "Increases Initiative",
+      "short_name": "Ini",
+      "icon": "statbuff_impetus",
+      "levels": [
+        {
+          "name": "Impetus I",
+          "note": "Increases Initiative by 4",
+          "cost": 1
+        },
+        {
+          "name": "Impetus II",
+          "note": "Increases Initiative by 12 (Total increase of 16)",
+          "cost": 3
+        },
+        {
+          "name": "Impetus III",
+          "note": "Increases Initiative by 22 (Total increase of 38)",
+          "cost": 6
+        },
+        {
+          "name": "Impetus IV",
+          "note": "Increases Initiative by 34 (Total increase of 72)",
+          "cost": 10
+        },
+        {
+          "name": "Impetus V",
+          "note": "Increases Initiative by 48 (Total increase of 120)",
+          "cost": 14
+        }
+      ]
+    },
+    "Acumen": {
+      "name": "Acumen",
+      "description": "Increases Intelligence",
+      "short_name": "Int",
+      "icon": "statbuff_acumen",
+      "levels": [
+        {
+          "name": "Acumen I",
+          "note": "Increases Intelligence by 4",
+          "cost": 1
+        },
+        {
+          "name": "Acumen II",
+          "note": "Increases Intelligence by 12 (Total increase of 16)",
+          "cost": 3
+        },
+        {
+          "name": "Acumen III",
+          "note": "Increases Intelligence by 22 (Total increase of 38)",
+          "cost": 6
+        },
+        {
+          "name": "Acumen IV",
+          "note": "Increases Intelligence by 34 (Total increase of 72)",
+          "cost": 10
+        },
+        {
+          "name": "Acumen V",
+          "note": "Increases Intelligence by 48 (Total increase of 120)",
+          "cost": 14
+        }
+      ]
+    },
+    "Resolve": {
+      "name": "Resolve",
+      "description": "Increases Willpower",
+      "short_name": "Will",
+      "icon": "statbuff_resolve",
+      "levels": [
+        {
+          "name": "Resolve I",
+          "note": "Increases Willpower by 4",
+          "cost": 1
+        },
+        {
+          "name": "Resolve II",
+          "note": "Increases Willpower by 12 (Total increase of 16)",
+          "cost": 3
+        },
+        {
+          "name": "Resolve III",
+          "note": "Increases Willpower by 22 (Total increase of 38)",
+          "cost": 6
+        },
+        {
+          "name": "Resolve IV",
+          "note": "Increases Willpower by 34 (Total increase of 72)",
+          "cost": 10
+        },
+        {
+          "name": "Resolve V",
+          "note": "Increases Willpower by 48 (Total increase of 120)",
+          "cost": 14
+        }
+      ]
+    },
+    "Fortitude": {
+      "name": "Fortitude",
+      "description": "Increases Toughness",
+      "short_name": "T",
+      "icon": "tac_green_dwarf01",
+      "levels": [
+        {
+          "name": "Fortitude I",
+          "note": "Increases Toughness by 4",
+          "cost": 1
+        },
+        {
+          "name": "Fortitude II",
+          "note": "Increases Toughness by 12 (Total increase of 16)",
+          "cost": 3
+        },
+        {
+          "name": "Fortitude III",
+          "note": "Increases Toughness by 22 (Total increase of 38)",
+          "cost": 6
+        },
+        {
+          "name": "Fortitude IV",
+          "note": "Increases Toughness by 34 (Total increase of 72)",
+          "cost": 10
+        },
+        {
+          "name": "Fortitude V",
+          "note": "Increases Toughness by 48 (Total increase of 120)",
+          "cost": 14
+        }
+      ]
+    },
+    "Vigor": {
+      "name": "Vigor",
+      "description": "Increases Wounds",
+      "short_name": "W",
+      "icon": "statbuff_vigor",
+      "levels": [
+        {
+          "name": "Vigor I",
+          "note": "Increases Wounds by 4",
+          "cost": 1
+        },
+        {
+          "name": "Vigor II",
+          "note": "Increases Wounds by 12 (Total increase of 16)",
+          "cost": 3
+        },
+        {
+          "name": "Vigor III",
+          "note": "Increases Wounds by 22 (Total increase of 38)",
+          "cost": 6
+        },
+        {
+          "name": "Vigor IV",
+          "note": "Increases Wounds by 34 (Total increase of 72)",
+          "cost": 10
+        },
+        {
+          "name": "Vigor V",
+          "note": "Increases Wounds by 48 (Total increase of 120)",
+          "cost": 14
+        }
+      ]
+    },
+
+    "Opportunist": {
+      "name": "Opportunist",
+      "description": "Increases Melee critical chance",
+      "short_name": "Melee Crit",
+      "icon": "statbuff_opportunist",
+      "levels": [
+        {
+          "name": "Opportunist I",
+          "note": "Increases Melee critical chance by 2%",
+          "cost": 5
+        },
+        {
+          "name": "Opportunist II",
+          "note": "Increases Melee critical chance by 3% (Total increase of 5%)",
+          "cost": 10
+        },
+        {
+          "name": "Opportunist III",
+          "note": "Increases Melee critical chance by 4% (Total increase of 9%)",
+          "cost": 15
+        },
+        {
+          "name": "Opportunist IV",
+          "note": "Increases Melee critical chance by 5% (Total increase of 14%)",
+          "cost": 15
+        }
+      ]
+    },
+    "Sure Shot": {
+      "name": "Sure Shot",
+      "description": "Increases Ranged critical chance",
+      "short_name": "Ranged Crit",
+      "icon": "statbuff_sureshot",
+      "levels": [
+        {
+          "name": "Sure Shot I",
+          "note": "Increases Ranged critical chance by 2%",
+          "cost": 5
+        },
+        {
+          "name": "Sure Shot II",
+          "note": "Increases Ranged critical chance by 3% (Total increase of 5%)",
+          "cost": 10
+        },
+        {
+          "name": "Sure Shot III",
+          "note": "Increases Ranged critical chance by 4% (Total increase of 9%)",
+          "cost": 15
+        },
+        {
+          "name": "Sure Shot IV",
+          "note": "Increases Ranged critical chance by 5% (Total increase of 14%)",
+          "cost": 15
+        }
+      ]
+    },
+    "Focused Power": {
+      "name": "Focused Power",
+      "description": "Increases Magic critical chance",
+      "short_name": "Magic Crit",
+      "icon": "statbuff_focusedpower",
+      "levels": [
+        {
+          "name": "Focused Power I",
+          "note": "Increases Magic critical chance by 2%",
+          "cost": 5
+        },
+        {
+          "name": "Focused Power II",
+          "note": "Increases Magic critical chance by 3% (Total increase of 5%)",
+          "cost": 10
+        },
+        {
+          "name": "Focused Power III",
+          "note": "Increases Magic critical chance by 4% (Total increase of 9%)",
+          "cost": 15
+        },
+        {
+          "name": "Focused Power IV",
+          "note": "Increases Magic critical chance by 5% (Total increase of 14%)",
+          "cost": 15
+        }
+      ]
+    },
+    "Spiritual Refinement": {
+      "name": "Spiritual Refinement",
+      "description": "Increases Healing critical chance",
+      "short_name": "Healing Crit",
+      "icon": "statbuff_spiritualrefinement",
+      "levels": [
+        {
+          "name": "Spiritual Refinement I",
+          "note": "Increases Healing critical chance by 2%",
+          "cost": 5
+        },
+        {
+          "name": "Spiritual Refinement II",
+          "note": "Increases Healing critical chance by 3% (Total increase of 5%)",
+          "cost": 10
+        },
+        {
+          "name": "Spiritual Refinement III",
+          "note": "Increases Healing critical chance by 4% (Total increase of 9%)",
+          "cost": 15
+        },
+        {
+          "name": "Spiritual Refinement IV",
+          "note": "Increases Healing critical chance by 5% (Total increase of 14%)",
+          "cost": 15
+        }
+      ]
+    }
+  }
+}

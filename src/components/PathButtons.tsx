@@ -41,7 +41,7 @@ const PathButtons = ({
     [css.buttonDisabled]: Number(pathPoints < 1),
   });
   return (
-    <React.Fragment>
+    <>
       <button
         key="pathButtonAdd"
         className={plusClass}
@@ -63,7 +63,7 @@ const PathButtons = ({
           nameSlug="minus-icon"
         />
       </button>
-    </React.Fragment>
+    </>
   );
 };
 

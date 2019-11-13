@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // Import components/containers
 import Home from '../containers/Home';
 import Career from '../containers/Career';
+import Renown from './Renown';
 import NotFound from './NotFound';
 
 export default () => {
@@ -12,6 +13,7 @@ export default () => {
       <Switch>
         <Route path="/career/:slug/:careerSaved" component={Career} />
         <Route path="/career/:slug" exact component={Career} />
+        <Route path="/renown" exact component={Renown} />
         <Route path="/" component={Home} />
         <Route component={NotFound} />
       </Switch>

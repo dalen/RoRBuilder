@@ -111,7 +111,6 @@
         "error"
       ],
       "@typescript-eslint/explicit-function-return-type": "off",
-      "@typescript-eslint/restrict-plus-operands": "error",
       "@typescript-eslint/promise-function-async": "error",
       "@typescript-eslint/prefer-readonly": "error",
       "@typescript-eslint/no-explicit-any": "error",
@@ -122,7 +121,8 @@
         }
       ],
       "react/prop-types": "off",
-      "default-case": "off"
+      "default-case": "off",
+      "no-nested-ternary": "off"
     },
     "env": {
       "browser": true,

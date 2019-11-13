@@ -1,0 +1,15 @@
+@import '../values/colours.css';
+
+:root {
+  --points-available: #8a4141;
+}
+
+.meter {
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  background-color: var(--color-base-1);
+  padding: 0.4rem;
+  margin-bottom: 0.4rem;
+  margin-top: 0.5rem;
+}

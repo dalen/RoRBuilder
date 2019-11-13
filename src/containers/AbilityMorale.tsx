@@ -207,12 +207,13 @@ class AbilityMorale extends Component<
           onClick={this.selectMorale}
         />
         <Popover
-          content={popoverContent}
           alignment="top"
           activate={this.state.hovered}
           abilityOptional={false}
           status={this.state.status}
-        />
+        >
+          {popoverContent}
+        </Popover>
       </div>
     );
   }
@@ -234,16 +235,13 @@ function mapStateToProps({
   };
 }
 
-export default connect(
-  mapStateToProps,
-  {
-    selectMorale1,
-    resetSelectedMorale1,
-    selectMorale2,
-    resetSelectedMorale2,
-    selectMorale3,
-    resetSelectedMorale3,
-    selectMorale4,
-    resetSelectedMorale4,
-  },
-)(AbilityMorale);
+export default connect(mapStateToProps, {
+  selectMorale1,
+  resetSelectedMorale1,
+  selectMorale2,
+  resetSelectedMorale2,
+  selectMorale3,
+  resetSelectedMorale3,
+  selectMorale4,
+  resetSelectedMorale4,
+})(AbilityMorale);

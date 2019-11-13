@@ -122,12 +122,13 @@ class AbilityTactic extends Component<
           onClick={this.selectTactic}
         />
         <Popover
-          content={popoverContent}
           alignment="top"
           activate={this.state.hovered}
           abilityOptional={false}
           status={this.state.status}
-        />
+        >
+          {popoverContent}
+        </Popover>
       </div>
     );
   }
@@ -141,10 +142,7 @@ function mapStateToProps({ level, selectedTactics, tacticLimit }: State) {
   };
 }
 
-export default connect(
-  mapStateToProps,
-  {
-    selectTactic,
-    deselectTactic,
-  },
-)(AbilityTactic);
+export default connect(mapStateToProps, {
+  selectTactic,
+  deselectTactic,
+})(AbilityTactic);

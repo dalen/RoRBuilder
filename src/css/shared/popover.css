@@ -1,0 +1,61 @@
+@import '../values/spacing.css';
+@import '../values/colours.css';
+@import '../values/fontSizes.css';
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-small);
+}
+.rowLarge {
+  composes: row;
+  margin-bottom: var(--spacing);
+}
+.item {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: var(--font-size-1);
+  color: var(--color-text-primary);
+}
+.itemLarge {
+  composes: item;
+  font-size: var(--font-size-2);
+}
+.itemRight {
+  composes: item;
+  text-align: right;
+}
+.itemTitle {
+  composes: itemLarge;
+  color: var(--color-popover-ability-primary);
+}
+.itemTitleRight {
+  composes: itemTitle;
+  text-align: right;
+}
+.note {
+  composes: item;
+  color: var(--color-popover-ability-secondary);
+  margin-bottom: var(--spacing);
+}
+.description {
+  composes: item;
+  color: var(--color-popover-ability-primary);
+}
+.divider {
+  border-bottom: 1px solid var(--color-base-1);
+  margin-bottom: var(--spacing);
+}
+.image {
+  display: none;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--color-base-1);
+  margin-bottom: var(--spacing);
+}
+@media screen and (width > 480px) {
+  .image {
+    display: block;
+  }
+}

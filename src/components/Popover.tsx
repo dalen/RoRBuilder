@@ -7,7 +7,7 @@ interface Props {
   alignment: string;
   abilityOptional: boolean;
   status: boolean;
-  content: JSX.Element;
+  children: JSX.Element;
   abilityOperational: boolean;
   abilitySelected?: boolean;
   abilityClicked?: () => void;
@@ -229,7 +229,7 @@ class Popover extends React.Component<Props, State> {
       status,
       abilityOperational,
       abilitySelected,
-      content,
+      children,
     } = this.props;
 
     const popoverClass = classNames({
@@ -252,7 +252,7 @@ class Popover extends React.Component<Props, State> {
         }}
       >
         <div className="popover__arrow" />
-        {content}
+        {children}
         <div className="marginTop--medium popover__footer">
           <button
             className={selectionClass}

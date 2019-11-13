@@ -1,33 +1,50 @@
-.row {
+.image {
+  composes: image from '../shared/ability.css';
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ability {
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-secondary-1);
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.2rem;
+  padding: 0.3rem;
+  text-align: center;
+  cursor: pointer;
+  font-size: var(--font-size-2);
+}
+
+.popoverRow {
   composes: row from '../shared/popover.css';
 }
-.rowLarge {
+.popoverRowLarge {
   composes: rowLarge from '../shared/popover.css';
 }
-.item {
+.popoverItem {
   composes: item from '../shared/popover.css';
 }
-.itemLarge {
+.popoverItemLarge {
   composes: itemLarge from '../shared/popover.css';
 }
-.itemRight {
+.popoverItemRight {
   composes: itemTitle from '../shared/popover.css';
 }
-.itemTitle {
+.popoverItemTitle {
   composes: itemTitle from '../shared/popover.css';
 }
-.itemTitleRight {
+.popoverItemTitleRight {
   composes: itemTitleRight from '../shared/popover.css';
 }
-.note {
+.popoverNote {
   composes: note from '../shared/popover.css';
 }
-.description {
+.popoverDescription {
   composes: description from '../shared/popover.css';
 }
-.divider {
+.popoverDivider {
   composes: divider from '../shared/popover.css';
 }
-.image {
+.popoverImage {
   composes: image from '../shared/popover.css';
 }
