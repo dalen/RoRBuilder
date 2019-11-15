@@ -140,17 +140,20 @@ const Renown = () => {
               'Sure Shot',
               'Focused Power',
               'Spiritual Refinement',
-              'Futile Strikes',
-              'Hardy Concession',
-            ] as const).map(name => renderCategory(name, 5))}
-          </div>
-          <div className="row">
-            {([
               'Quick Escape',
               'Improved Flee',
               'Expanded Capacity',
+            ] as const).map(name => renderCategory(name, 4))}
+          </div>
+          <div className="row">
+            {([
+              'Reflexes',
+              'Defender',
+              'Deft Defender',
+              'Futile Strikes',
+              'Hardy Concession',
               'Regeneration',
-            ] as const).map(name => renderCategory(name, 3))}
+            ] as const).map(name => renderCategory(name, 5))}
           </div>
         </div>
       </div>
