@@ -62,7 +62,7 @@ class Home extends React.Component<Props> {
       marginRight: true,
       'marginLeft@mobile': true,
     });
-    const githubUrl = 'https://github.com/Natherul/RoRBuilder';
+    const githubUrl = 'https://github.com/dalen/RoRBuilder';
     const githubUrlIssues = `${githubUrl}/issues`;
     return (
       <div className="heightFull">
@@ -164,7 +164,4 @@ const mapDispatchToProps = {
   resetPathMeterC,
 };
 
-export default connect(
-  undefined,
-  mapDispatchToProps,
-)(Home);
+export default connect(undefined, mapDispatchToProps)(Home);
