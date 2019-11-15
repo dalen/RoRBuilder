@@ -42,99 +42,97 @@ const renderCoreAbilities = (abilities: Abilities, path: 'a' | 'b' | 'c') => {
   );
 };
 
-class Mastery extends Component<ReturnType<typeof mapStateToProps>> {
-  render() {
-    const labelClass = classNames({
-      [css.label]: true,
-      'marginLeft--small': true,
-      [css.labelActive]: this.props.currentPoints > 0,
-    });
+const Mastery = (props: ReturnType<typeof mapStateToProps>) => {
+  const labelClass = classNames({
+    [css.label]: true,
+    'marginLeft--small': true,
+    [css.labelActive]: props.currentPoints > 0,
+  });
 
-    if (this.props.abilities == null) {
-      return null;
-    }
+  if (props.abilities == null) {
+    return null;
+  }
 
-    return (
-      <div className={css.container}>
-        <h2 className={css.heading}>
-          Mastery abilities{' '}
-          <span className={labelClass}>{this.props.currentPoints} points</span>
-        </h2>
-        <div className="grid">
-          <div className="grid-col-1-2 grid-col-1@mobile grid-col-1-3@sm-min">
-            <div className="borderRight borderRight--none@mobile borderRight@sm-min marginRight borderBottom@mobile paddingBottom@mobile">
-              <h3 className={css.subHeading}>
-                {this.props.abilities.mastery.a.name}
-                {renderPathPopover(this.props.abilities, 'a')}
-              </h3>
+  return (
+    <div className={css.container}>
+      <h2 className={css.heading}>
+        Mastery abilities{' '}
+        <span className={labelClass}>{props.currentPoints} points</span>
+      </h2>
+      <div className="grid">
+        <div className="grid-col-1-2 grid-col-1@mobile grid-col-1-3@sm-min">
+          <div className="borderRight borderRight--none@mobile borderRight@sm-min marginRight borderBottom@mobile paddingBottom@mobile">
+            <h3 className={css.subHeading}>
+              {props.abilities.mastery.a.name}
+              {renderPathPopover(props.abilities, 'a')}
+            </h3>
+            <div className="row row--justify">
               <div className="row row--justify">
-                <div className="row row--justify">
-                  <PathMeterContainer path="a" />
+                <PathMeterContainer path="a" />
+              </div>
+              <div className="marginRight marginRight--large@mobile">
+                <div className={css.subHeadingSmall}>
+                  Core
+                  <br />
+                  abilities
                 </div>
-                <div className="marginRight marginRight--large@mobile">
-                  <div className={css.subHeadingSmall}>
-                    Core
-                    <br />
-                    abilities
-                  </div>
-                  <div className="row">
-                    {renderCoreAbilities(this.props.abilities, 'a')}
-                  </div>
+                <div className="row">
+                  {renderCoreAbilities(props.abilities, 'a')}
                 </div>
               </div>
             </div>
           </div>
-          <div className="grid-col-1-2 grid-col-1@mobile grid-col-1-3@sm-min">
-            <div className="borderRight@sm-min marginRight marginTop@mobile borderBottom@mobile paddingBottom@mobile">
-              <h3 className={css.subHeading}>
-                {this.props.abilities.mastery.b.name}
-                {renderPathPopover(this.props.abilities, 'b')}
-              </h3>
+        </div>
+        <div className="grid-col-1-2 grid-col-1@mobile grid-col-1-3@sm-min">
+          <div className="borderRight@sm-min marginRight marginTop@mobile borderBottom@mobile paddingBottom@mobile">
+            <h3 className={css.subHeading}>
+              {props.abilities.mastery.b.name}
+              {renderPathPopover(props.abilities, 'b')}
+            </h3>
+            <div className="row row--justify">
               <div className="row row--justify">
-                <div className="row row--justify">
-                  <PathMeterContainer path="b" />
+                <PathMeterContainer path="b" />
+              </div>
+              <div className="marginRight marginRight--large@mobile">
+                <div className={css.subHeadingSmall}>
+                  Core
+                  <br />
+                  abilities
                 </div>
-                <div className="marginRight marginRight--large@mobile">
-                  <div className={css.subHeadingSmall}>
-                    Core
-                    <br />
-                    abilities
-                  </div>
-                  <div className="row">
-                    {renderCoreAbilities(this.props.abilities, 'b')}
-                  </div>
+                <div className="row">
+                  {renderCoreAbilities(props.abilities, 'b')}
                 </div>
               </div>
             </div>
           </div>
-          <div className="grid-col-1-2 grid-col-1@mobile grid-col-1-3@sm-min">
-            <div className="borderRight borderRight--none@mobile borderRight--none@sm-min marginRight marginTop marginTop--none@sm-min">
-              <h3 className={css.subHeading}>
-                {this.props.abilities.mastery.c.name}
-                {renderPathPopover(this.props.abilities, 'c')}
-              </h3>
+        </div>
+        <div className="grid-col-1-2 grid-col-1@mobile grid-col-1-3@sm-min">
+          <div className="borderRight borderRight--none@mobile borderRight--none@sm-min marginRight marginTop marginTop--none@sm-min">
+            <h3 className={css.subHeading}>
+              {props.abilities.mastery.c.name}
+              {renderPathPopover(props.abilities, 'c')}
+            </h3>
+            <div className="row row--justify">
               <div className="row row--justify">
-                <div className="row row--justify">
-                  <PathMeterContainer path="c" />
+                <PathMeterContainer path="c" />
+              </div>
+              <div className="marginRight marginRight--large@mobile">
+                <div className={css.subHeadingSmall}>
+                  Core
+                  <br />
+                  abilities
                 </div>
-                <div className="marginRight marginRight--large@mobile">
-                  <div className={css.subHeadingSmall}>
-                    Core
-                    <br />
-                    abilities
-                  </div>
-                  <div className="row">
-                    {renderCoreAbilities(this.props.abilities, 'c')}
-                  </div>
+                <div className="row">
+                  {renderCoreAbilities(props.abilities, 'c')}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 function mapStateToProps({ points, currentPoints, abilities }: State) {
   return {
