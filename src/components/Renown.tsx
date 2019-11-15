@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
+import { RouteComponentProps } from 'react-router-dom';
+
 import BarRenown from './BarRenown';
 import Breadcrumb from '../containers/Breadcrumb';
 import RenownCategory from './RenownCategory';
@@ -18,27 +20,48 @@ const initialState = {
   Resolve: 0,
   Fortitude: 0,
   Vigor: 0,
+
   Opportunist: 0,
   'Sure Shot': 0,
   'Focused Power': 0,
   'Spiritual Refinement': 0,
-  'Futile Strikes': 0,
+  'Quick Escape': 0,
+  'Improved Flee': 0,
+  'Expanded Capacity': 0,
+
   Reflexes: 0,
   Defender: 0,
   'Deft Defender': 0,
-  'Expanded Capacity': 0,
-  Regeneration: 0,
-  'Quick Escape': 0,
-  'Improved Flee': 0,
+  'Futile Strikes': 0,
   'Hardy Concession': 0,
+  Regeneration: 0,
 };
 
 const MAX_RENOWN = 80;
 
 type CategoryName = keyof typeof initialState;
 
-const Renown = () => {
-  const [meters, setMeters] = useState(initialState);
+type State = typeof initialState;
+
+const slugFromState = (state: State): string =>
+  Object.values(state)
+    .map(meter => meter.toString())
+    .join(';');
+
+const stateFromSlug = (slug: string | undefined): State => {
+  if (slug == undefined) return initialState;
+  const slugValues = slug.split(';').map(v => Number(v));
+  const entries = Object.entries(initialState).map((entry, index): [
+    string,
+    number,
+  ] => {
+    return [entry[0], slugValues[index] || entry[1]];
+  });
+  return Object.fromEntries(entries) as State;
+};
+
+const Renown = ({ history, match }: RouteComponentProps<{ slug?: string }>) => {
+  const [meters, setMeters] = useState(stateFromSlug(match.params.slug));
 
   /*
   useState(
@@ -48,10 +71,12 @@ const Renown = () => {
   ); */
 
   const setMeter = (meter: CategoryName, value: number) => {
-    setMeters({
+    const newState = {
       ...meters,
       [meter]: value,
-    });
+    };
+    setMeters(newState);
+    history.replace(`/renown/${slugFromState(newState)}`);
   };
 
   const increaseMeter = (meter: CategoryName, max: number) => {

@@ -13,6 +13,7 @@ export default () => {
       <Switch>
         <Route path="/career/:slug/:careerSaved" component={Career} />
         <Route path="/career/:slug" exact component={Career} />
+        <Route path="/renown/:slug" exact component={Renown} />
         <Route path="/renown" exact component={Renown} />
         <Route path="/" component={Home} />
         <Route component={NotFound} />
