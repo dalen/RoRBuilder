@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
+import classNames from 'classnames';
 import BarRenown from './BarRenown';
 import Breadcrumb from '../containers/Breadcrumb';
 import RenownCategory from './RenownCategory';
 
+import css from '../css/components/Renown.module.css';
 import renownData from '../data/renown.json';
 
+// Order here is important, it it same as is used in the URL
+// Changing it will break existing URLs
 const initialState = {
   Might: 0,
   'Blade Master': 0,
@@ -18,6 +22,15 @@ const initialState = {
   'Sure Shot': 0,
   'Focused Power': 0,
   'Spiritual Refinement': 0,
+  'Futile Strikes': 0,
+  Reflexes: 0,
+  Defender: 0,
+  'Deft Defender': 0,
+  'Expanded Capacity': 0,
+  Regeneration: 0,
+  'Quick Escape': 0,
+  'Improved Flee': 0,
+  'Hardy Concession': 0,
 };
 
 const MAX_RENOWN = 80;
@@ -66,10 +79,14 @@ const Renown = () => {
 
   const pointsLeft = MAX_RENOWN - pointsUsed;
 
-  const renderCategory = (category: CategoryName): JSX.Element => (
+  const renderCategory = (
+    category: CategoryName,
+    height: number,
+  ): JSX.Element => (
     <RenownCategory
       key={category}
       points={meters[category]}
+      height={height}
       pointsLeft={pointsLeft}
       data={renownData.categories[category]}
       addLevel={() => {
@@ -84,6 +101,12 @@ const Renown = () => {
     />
   );
 
+  const labelClass = classNames({
+    [css.label]: true,
+    'marginLeft--small': true,
+    [css.labelActive]: pointsLeft > 0,
+  });
+
   return (
     <div className="paddingTop paddingRight paddingLeft paddingBottom">
       <div className="marginBottom--medium">
@@ -92,8 +115,13 @@ const Renown = () => {
       <div className="marginBottom--medium">
         <BarRenown renown={pointsUsed} />
       </div>
+      <div className="marginBottom--medium">
+        <h2 className={css.heading}>
+          Renown rank required <span className={labelClass}>{pointsUsed}</span>
+        </h2>
+      </div>
       <div className="grid">
-        <div className="grid-col-1 grid-col-10-24@md-min">
+        <div className="grid-col-1 grid-col-24-24@md-min">
           <div className="row">
             {([
               'Might',
@@ -104,7 +132,7 @@ const Renown = () => {
               'Resolve',
               'Fortitude',
               'Vigor',
-            ] as const).map(renderCategory)}
+            ] as const).map(name => renderCategory(name, 5))}
           </div>
           <div className="row">
             {([
@@ -112,7 +140,17 @@ const Renown = () => {
               'Sure Shot',
               'Focused Power',
               'Spiritual Refinement',
-            ] as const).map(renderCategory)}
+              'Futile Strikes',
+              'Hardy Concession',
+            ] as const).map(name => renderCategory(name, 5))}
+          </div>
+          <div className="row">
+            {([
+              'Quick Escape',
+              'Improved Flee',
+              'Expanded Capacity',
+              'Regeneration',
+            ] as const).map(name => renderCategory(name, 3))}
           </div>
         </div>
       </div>

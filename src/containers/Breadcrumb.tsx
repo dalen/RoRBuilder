@@ -11,6 +11,17 @@ import { toggleSidebar } from '../actions/actionSidebar';
 
 import { State } from '../reducers';
 
+function mapStateToProps({ careers, sidebar, overlay, slug }: State) {
+  return {
+    careers,
+    sidebar,
+    overlay,
+    slug,
+  };
+}
+
+const mapDispatchToProps = { toggleOverlay, toggleSidebar };
+
 type Props = ReturnType<typeof mapStateToProps> & typeof mapDispatchToProps;
 
 class Breadcrumb extends Component<Props> {
@@ -87,18 +98,4 @@ class Breadcrumb extends Component<Props> {
   }
 }
 
-function mapStateToProps({ careers, sidebar, overlay, slug }: State) {
-  return {
-    careers,
-    sidebar,
-    overlay,
-    slug,
-  };
-}
-
-const mapDispatchToProps = { toggleOverlay, toggleSidebar };
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Breadcrumb);
+export default connect(mapStateToProps, mapDispatchToProps)(Breadcrumb);

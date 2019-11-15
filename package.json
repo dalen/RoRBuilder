@@ -122,7 +122,8 @@
       ],
       "react/prop-types": "off",
       "default-case": "off",
-      "no-nested-ternary": "off"
+      "no-nested-ternary": "off",
+      "react/jsx-one-expression-per-line": "off"
     },
     "env": {
       "browser": true,

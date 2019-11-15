@@ -7,9 +7,14 @@
 .meter {
   display: flex;
   flex-direction: column;
-  width: 5rem;
+  width: 12rem;
   background-color: var(--color-base-1);
   padding: 0.4rem;
   margin-bottom: 0.4rem;
   margin-top: 0.5rem;
+}
+
+.empty {
+  height: 1.86rem;
+  margin-bottom: 0.2rem;
 }

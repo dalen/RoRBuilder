@@ -32,8 +32,7 @@ const RenownCategoryHeading = ({ category }: { category: RenownCategory }) => {
         onMouseOut={hoverOut}
       >
         <img className={css.image} src={imgSrc} alt={category.name} />
-        <br />
-        {category.short_name}
+        {category.name}
       </div>
       <Popover alignment="top" activate={hovered}>
         <div>

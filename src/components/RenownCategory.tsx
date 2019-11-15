@@ -28,6 +28,7 @@ const levelsAvailable = (
 
 export default ({
   points,
+  height, // Set to same as levels, or hight to show empty squares
   pointsLeft,
   data,
   addLevel,
@@ -35,6 +36,7 @@ export default ({
   setLevel,
 }: {
   points: number;
+  height: number;
   pointsLeft: number;
   data: RenownCategory;
   addLevel: () => void;
@@ -49,6 +51,11 @@ export default ({
     <div>
       <div className={css.meter}>
         <RenownCategoryHeading category={data} />
+        {Array(height - levels.length)
+          .fill(0)
+          .map(() => {
+            return <div className={css.empty} />;
+          })}
         {[...levels].reverse().map((level, index) => {
           const abilityLevel = levels.length - index;
           const state =

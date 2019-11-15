@@ -376,6 +376,240 @@
           "cost": 15
         }
       ]
+    },
+
+    "Futile Strikes": {
+      "name": "Futile Strikes",
+      "description": "Reduces the chance to receive critical damage",
+      "short_name": "Reduced Crit",
+      "icon": "statbuff_arcaneprotection",
+      "levels": [
+        {
+          "name": "Futile Strikes I",
+          "note": "Reduces the chance to receive critical damage by 3%",
+          "cost": 5
+        },
+        {
+          "name": "Futile Strikes II",
+          "note": "Reduces the chance to receive critical damage by 5% (Total increase of 8%)",
+          "cost": 10
+        },
+        {
+          "name": "Futile Strikes III",
+          "note": "Reduces the chance to receive critical damage by 7% (Total increase of 15%)",
+          "cost": 15
+        },
+        {
+          "name": "Futile Strikes IV",
+          "note": "Reduces the chance to receive critical damage by 9% (Total increase of 24%)",
+          "cost": 15
+        }
+      ]
+    },
+
+    "Regeneration": {
+      "name": "Regeneration",
+      "description": "Increases your natural health regeneration",
+      "short_name": "Regeneration",
+      "icon": "placeholder_ge_buff",
+      "levels": [
+        {
+          "name": "Regeneration I",
+          "note": "Increases your natural health regeneration by 28 health",
+          "cost": 10
+        },
+        {
+          "name": "Regeneration II",
+          "note": "Increases your natural health regeneration by 40 health (Total increase of 68)",
+          "cost": 15
+        },
+        {
+          "name": "Regeneration III",
+          "note": "Increases your natural health regeneration by 72 health (Total increase of 140)",
+          "cost": 20
+        }
+      ]
+    },
+    "Quick Escape": {
+      "name": "Quick Escape",
+      "description": "Increases your natural health regeneration",
+      "short_name": "Quick Escape",
+      "icon": "abi_quickescape",
+      "levels": [
+        {
+          "name": "Quick Escape I",
+          "note": "On Being Hit: 5% chance to gain 25% movement speed for the next 5 seconds. Quick Escape will dispel if the caster uses an ability.",
+          "cost": 10
+        },
+        {
+          "name": "Quick Escape II",
+          "note": "Your Quick Escape will last an additional 5 seconds.",
+          "cost": 15
+        },
+        {
+          "name": "Quick Escape III",
+          "note": "Your movement speed is increased to 35% for your Quick Escape.",
+          "cost": 20
+        }
+      ]
+    },
+    "Improved Flee": {
+      "name": "Improved Flee",
+      "description": "Your flee lasts longer",
+      "short_name": "Improved Flee",
+      "icon": "abi_ge_sprint",
+      "levels": [
+        {
+          "name": "Improved Flee I",
+          "note": "Your Flee will last an additional 5 seconds.",
+          "cost": 10
+        },
+        {
+          "name": "Improved Flee II",
+          "note": "Flee will no longer prevent your Action Points from regenerating.",
+          "cost": 15
+        }
+      ]
+    },
+    "Reflexes": {
+      "name": "Reflexes",
+      "description": "Increases chance to parry",
+      "short_name": "Parry",
+      "icon": "statbuff_reflexes",
+      "levels": [
+        {
+          "name": "Reflexes I",
+          "note": "Increases chance to parry by 3%",
+          "cost": 1
+        },
+        {
+          "name": "Reflexes II",
+          "note": "Increases chance to parry by 4% (Total increase of 7%)",
+          "cost": 3
+        },
+        {
+          "name": "Reflexes III",
+          "note": "Increases chance to parry by 5% (Total increase of 12%)",
+          "cost": 6
+        },
+        {
+          "name": "Reflexes IV",
+          "note": "Increases chance to parry by 6% (Total increase of 18%)",
+          "cost": 10
+        }
+      ]
+    },
+    "Defender": {
+      "name": "Defender",
+      "description": "Increases chance to block",
+      "short_name": "Block",
+      "icon": "statbuff_defender",
+      "levels": [
+        {
+          "name": "Reflexes I",
+          "note": "Increases chance to parry by 1%",
+          "cost": 1
+        },
+        {
+          "name": "Reflexes II",
+          "note": "Increases chance to parry by 2% (Total increase of 3%)",
+          "cost": 3
+        },
+        {
+          "name": "Reflexes III",
+          "note": "Increases chance to parry by 3% (Total increase of 6%)",
+          "cost": 6
+        },
+        {
+          "name": "Reflexes IV",
+          "note": "Increases chance to parry by 4% (Total increase of 10%)",
+          "cost": 10
+        }
+      ]
+    },
+    "Deft Defender": {
+      "name": "Deft Defender",
+      "description": "Increases chance to Dodge and Disrupt",
+      "short_name": "Dodge & Disrupt",
+      "icon": "statbuff_deftdefender",
+      "levels": [
+        {
+          "name": "Deft Defender I",
+          "note": "Increases chance to Dodge and Disrupt by 3%",
+          "cost": 1
+        },
+        {
+          "name": "Deft Defender II",
+          "note": "Increases chance to Dodge and Disrupt by 4% (Total increase of 7%)",
+          "cost": 3
+        },
+        {
+          "name": "Deft Defender III",
+          "note": "Increases chance to Dodge and Disrupt by 5% (Total increase of 12%)",
+          "cost": 6
+        },
+        {
+          "name": "Deft Defender IV",
+          "note": "Increases chance to Dodge and Disrupt by 6% (Total increase of 18%)",
+          "cost": 10
+        }
+      ]
+    },
+    "Hardy Concession": {
+      "name": "Hardy Concession",
+      "description": "Damage that you recieve is reduced, but the damage and healing that you deal is reduced by the same amount.",
+      "short_name": "Hardy Concession",
+      "icon": "statbuff_reinforcement",
+      "levels": [
+        {
+          "name": "Hardy Concession I",
+          "note": "Damage that you recieve is reduced by 1%, but the damage and healing that you deal is reduced by the same amount.",
+          "cost": 1
+        },
+        {
+          "name": "Hardy Concession II",
+          "note": "Damage that you recieve is reduced by 3%, but the damage and healing that you deal is reduced by the same amount.",
+          "cost": 3
+        },
+        {
+          "name": "Hardy Concession III",
+          "note": "Damage that you recieve is reduced by 6%, but the damage and healing that you deal is reduced by the same amount.",
+          "cost": 6
+        },
+        {
+          "name": "Hardy Concession IV",
+          "note": "Damage that you recieve is reduced by 10%, but the damage and healing that you deal is reduced by the same amount.",
+          "cost": 10
+        },
+        {
+          "name": "Hardy Concession V",
+          "note": "Damage that you recieve is reduced by 15%, but the damage and healing that you deal is reduced by the same amount.",
+          "cost": 14
+        }
+      ]
+    },
+    "Expanded Capacity": {
+      "name": "Expanded Capacity",
+      "description": "Increases your total Action Point pool",
+      "short_name": "Action Points",
+      "icon": "statbuff_sage",
+      "levels": [
+        {
+          "name": "Expanded Capacity I",
+          "note": "Increases your total Action Point pool by 10",
+          "cost": 10
+        },
+        {
+          "name": "Expanded Capacity II",
+          "note": "Increases your total Action Point pool by 15 (Total increase of 25)",
+          "cost": 15
+        },
+        {
+          "name": "Expanded Capacity III",
+          "note": "Increases your total Action Point pool by 25 (Total increase of 50)",
+          "cost": 20
+        }
+      ]
     }
   }
 }

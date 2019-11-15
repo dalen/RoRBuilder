@@ -1,0 +1,21 @@
+.heading {
+  composes: heading1 from '../shared/heading.css';
+}
+.label {
+  position: relative;
+  top: calc(var(--label-padding) * -1);
+  display: inline-block;
+  color: var(--color-base-0);
+  font-size: var(--font-size-3);
+  padding: var(--label-padding) calc(var(--label-padding) * 2);
+  background-color: var(--color-base-6);
+}
+.label--points {
+  background-color: var(--color-points);
+  color: var(--color-text-primary);
+}
+.labelActive {
+  composes: label;
+  background-color: var(--color-points);
+  color: var(--color-text-primary);
+}
