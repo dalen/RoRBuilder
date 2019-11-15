@@ -6,6 +6,7 @@ import CareerItem from './CareerItem';
 import { State } from '../reducers';
 import { CareerSummary } from '../reducers/reducerCareers';
 import SidebarItem from './SideBarItem';
+import careerData from '../data/careers.json';
 
 const renderCareers = (careers: { [key: string]: CareerSummary }) => {
   return Object.keys(careers).map(key => (
@@ -15,14 +16,13 @@ const renderCareers = (careers: { [key: string]: CareerSummary }) => {
   ));
 };
 
-function mapStateToProps({ careers, sidebar }: State) {
+function mapStateToProps({ sidebar }: State) {
   return {
-    careers,
     sidebar,
   };
 }
 
-const Sidebar = ({ sidebar, careers }: ReturnType<typeof mapStateToProps>) => {
+const Sidebar = ({ sidebar }: ReturnType<typeof mapStateToProps>) => {
   const sidebarClass = classNames({
     [css.container]: !sidebar,
     [css.containerActive]: sidebar,
@@ -38,7 +38,7 @@ const Sidebar = ({ sidebar, careers }: ReturnType<typeof mapStateToProps>) => {
             img="/images/renown/specpoint_renown.png"
           />
         </div>
-        {renderCareers(careers)}
+        {renderCareers(careerData)}
       </div>
     </div>
   );

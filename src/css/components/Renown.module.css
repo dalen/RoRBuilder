@@ -13,6 +13,11 @@
   float: right;
   margin-left: var(--spacing);
 }
+.change {
+  composes: buttonSecondary from '../shared/button.module.css';
+  float: right;
+  margin-left: var(--spacing);
+}
 
 .heading {
   composes: heading1 from '../shared/heading.css';

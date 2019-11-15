@@ -365,7 +365,4 @@ class Career extends Component<Props> {
   }
 }
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Career);
+export default connect(mapStateToProps, mapDispatchToProps)(Career);
