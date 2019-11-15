@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   composes: buttonSecondary from '../shared/button.module.css';
-  width: 2.8rem;
+  width: 48%;
   height: 2rem;
 }
 .buttonDisabled {

@@ -50,7 +50,6 @@ const PathButtons = ({
       >
         <IconPlus classes="icon--small" name="plus icon" nameSlug="plus-icon" />
       </button>
-      ,
       <button
         key="pathButtonRemove"
         className={minusClass}
