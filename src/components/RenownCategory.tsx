@@ -48,7 +48,7 @@ export default ({
   const numAvailable = levelsAvailable(data, points, pointsLeft);
 
   return (
-    <div>
+    <div className="marginRight@md-min">
       <div className={css.meter}>
         <RenownCategoryHeading category={data} />
         {Array(height - levels.length)

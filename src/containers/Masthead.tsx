@@ -8,6 +8,7 @@ import CareerItem from './CareerItem';
 import * as actionSidebar from '../actions/actionSidebar';
 import * as actionOverlay from '../actions/actionOverlay';
 import { State } from '../reducers';
+import { Link } from 'react-router-dom';
 
 type Props = {
   overlay: boolean;
@@ -106,6 +107,9 @@ class Masthead extends Component<Props, { mastheadActive: boolean }> {
             >
               Select career
             </button>
+            <Link className={css.mastheadRenownButton} to="/renown">
+              Renown Builder
+            </Link>
           </div>
           <div className={mastheadCtaClassMobile}>
             <button
@@ -115,6 +119,10 @@ class Masthead extends Component<Props, { mastheadActive: boolean }> {
             >
               Select career
             </button>
+
+            <Link className={css.mastheadRenownButton} to="/renown">
+              Renown Builder
+            </Link>
           </div>
           <a
             className={mastheadFooterClass}
@@ -227,10 +235,7 @@ function mapStateToProps({ careers, sidebar, overlay }: State) {
   };
 }
 
-export default connect(
-  mapStateToProps,
-  {
-    toggleSidebar: actionSidebar.toggleSidebar,
-    toggleOverlay: actionOverlay.toggleOverlay,
-  },
-)(Masthead);
+export default connect(mapStateToProps, {
+  toggleSidebar: actionSidebar.toggleSidebar,
+  toggleOverlay: actionOverlay.toggleOverlay,
+})(Masthead);

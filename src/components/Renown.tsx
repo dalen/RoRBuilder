@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
-import { RouteComponentProps } from 'react-router-dom';
+import { RouteComponentProps, Link } from 'react-router-dom';
 
 import BarRenown from './BarRenown';
-import Breadcrumb from '../containers/Breadcrumb';
 import RenownCategory from './RenownCategory';
 
 import css from '../css/components/Renown.module.css';
@@ -49,7 +48,7 @@ const slugFromState = (state: State): string =>
     .join(';');
 
 const stateFromSlug = (slug: string | undefined): State => {
-  if (slug == undefined) return initialState;
+  if (slug === undefined) return initialState;
   const slugValues = slug.split(';').map(v => Number(v));
   const entries = Object.entries(initialState).map((entry, index): [
     string,
@@ -63,12 +62,10 @@ const stateFromSlug = (slug: string | undefined): State => {
 const Renown = ({ history, match }: RouteComponentProps<{ slug?: string }>) => {
   const [meters, setMeters] = useState(stateFromSlug(match.params.slug));
 
-  /*
-  useState(
-    Object.fromEntries(
-      Object.keys(renownData.categories).map(key => [key, 0] as const),
-    ),
-  ); */
+  const reset = () => {
+    setMeters(initialState);
+    history.replace(`/renown/${slugFromState(initialState)}`);
+  };
 
   const setMeter = (meter: CategoryName, value: number) => {
     const newState = {
@@ -134,51 +131,58 @@ const Renown = ({ history, match }: RouteComponentProps<{ slug?: string }>) => {
 
   return (
     <div className="paddingTop paddingRight paddingLeft paddingBottom">
-      <div className="marginBottom--medium">
-        <Breadcrumb />
-      </div>
+      <h2 className={css.heading}>
+        Renown rank required <span className={labelClass}>{pointsUsed}</span>
+      </h2>
       <div className="marginBottom--medium">
         <BarRenown renown={pointsUsed} />
       </div>
-      <div className="marginBottom--medium">
-        <h2 className={css.heading}>
-          Renown rank required <span className={labelClass}>{pointsUsed}</span>
-        </h2>
-      </div>
       <div className="grid">
         <div className="grid-col-1 grid-col-24-24@md-min">
-          <div className="row">
-            {([
-              'Might',
-              'Blade Master',
-              'Marksmen',
-              'Impetus',
-              'Acumen',
-              'Resolve',
-              'Fortitude',
-              'Vigor',
-            ] as const).map(name => renderCategory(name, 5))}
+          <div className={css.container}>
+            <div className="row">
+              {([
+                'Might',
+                'Blade Master',
+                'Marksmen',
+                'Impetus',
+                'Acumen',
+                'Resolve',
+                'Fortitude',
+                'Vigor',
+              ] as const).map(name => renderCategory(name, 5))}
+            </div>
+            <div className="row">
+              {([
+                'Opportunist',
+                'Sure Shot',
+                'Focused Power',
+                'Spiritual Refinement',
+                'Quick Escape',
+                'Improved Flee',
+                'Expanded Capacity',
+              ] as const).map(name => renderCategory(name, 4))}
+            </div>
+            <div className="row">
+              {([
+                'Reflexes',
+                'Defender',
+                'Deft Defender',
+                'Futile Strikes',
+                'Hardy Concession',
+                'Regeneration',
+              ] as const).map(name => renderCategory(name, 5))}
+            </div>
           </div>
-          <div className="row">
-            {([
-              'Opportunist',
-              'Sure Shot',
-              'Focused Power',
-              'Spiritual Refinement',
-              'Quick Escape',
-              'Improved Flee',
-              'Expanded Capacity',
-            ] as const).map(name => renderCategory(name, 4))}
-          </div>
-          <div className="row">
-            {([
-              'Reflexes',
-              'Defender',
-              'Deft Defender',
-              'Futile Strikes',
-              'Hardy Concession',
-              'Regeneration',
-            ] as const).map(name => renderCategory(name, 5))}
+          <div className="marginTop">
+            <div className={css.container}>
+              <Link to="/" className={css.home}>
+                Home
+              </Link>
+              <button className={css.reset} type="button" onClick={reset}>
+                Reset
+              </button>
+            </div>
           </div>
         </div>
       </div>
