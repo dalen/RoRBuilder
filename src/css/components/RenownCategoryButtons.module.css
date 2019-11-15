@@ -1,0 +1,24 @@
+:root {
+  --button-width: 32%;
+  --button-height: 2rem;
+}
+
+.button {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  composes: buttonSecondary from '../shared/button.module.css';
+  width: var(--button-width);
+  height: var(--button-height);
+}
+.buttonDisabled {
+  composes: buttonDisabled from '../shared/button.module.css';
+}
+
+.buttonReset {
+  composes: buttonNegative from '../shared/button.module.css';
+  width: var(--button-width);
+  height: var(--button-height);
+  padding-top: 0;
+}

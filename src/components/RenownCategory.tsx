@@ -1,10 +1,10 @@
 import React from 'react';
 import css from '../css/components/RenownCategory.module.css';
 
-import PathButtons from './PathButtons';
 import RenownCategoryHeading from './RenownCategoryHeading';
 import RenownCategoryAbility from './RenownCategoryAbility';
 import { RenownCategory } from '../helpers/renown';
+import RenownCategoryButtons from './RenownCategoryButtons';
 
 // Calculate how many more levels we can afford
 const levelsAvailable = (
@@ -76,12 +76,13 @@ export default ({
           );
         })}
       </div>
-      <PathButtons
+      <RenownCategoryButtons
         meterMax={levels.length}
         points={numAvailable}
         pathPoints={points}
         addPoint={addLevel}
         removePoint={removeLevel}
+        reset={() => setLevel(0)}
       />
     </div>
   );
