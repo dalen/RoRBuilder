@@ -286,7 +286,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 160 unique bonus to willpower.",
+      "description": "Increases your Willpower by 160.",
       "category": "CareerTactic"
     },
 
@@ -382,7 +382,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Heals your target for 883 health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
+      "description": "Heals your target for 883 health.<br>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
       "category": "Ability"
     },
 
@@ -494,7 +494,7 @@
       "incant": "Insta-Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale"
     },
 
@@ -510,7 +510,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be Cursed or Hexed",
-      "description": "One Curse or Hex is removed by the chaos.",
+      "description": "You call upon the power of chaos, removing one Curse or Hex from your defensive target.",
       "category": "Ability"
     },
 
@@ -606,7 +606,7 @@
       "incant": "Instant Cast",
       "cooldown": "10m cooldown",
       "note": "",
-      "description": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's gains a 80 ability bonus to toughness for 1 hour.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's Toughness is increased by 80 for 1 hour.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
 
@@ -622,7 +622,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a groupmember a 50 ability bonus to Initiative and Willpower. The bearer of this Mark may activate it like an ability to inflict 552 corporeal damage over 9 seconds.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases a groupmember's Initiative and Willpower by 50. The bearer of this Mark may activate it like an ability to inflict 552 corporeal damage over 9 seconds.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
 
@@ -654,7 +654,7 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Curses your target for 10 seconds so that whenever they cast a direct heal, it inflicts 365 corporeal damage to them.",
+      "description": "Curses your target for 10 seconds so that whenever they receive a direct heal, it inflicts 365 corporeal damage to them.",
       "category": "Ability"
     },
 
@@ -862,7 +862,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Demon Spittle grows ever more corrosive and now causes enemies to take a 618 unique penalty to Armor and a 236 unique penalty to corporeal resistance.",
+      "description": "Demon Spittle grows ever more corrosive and now now also reduces Armor by 618 and Corporeal resistance by 236.",
       "category": "CareerTactic"
     },
 
@@ -1054,7 +1054,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gaina  252 unique bonus to elemental resistance.",
+      "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic"
     },
 
@@ -1118,7 +1118,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each tick of Tzeentch's Cordial has 25% chance to give the target a 1056 unique bonus to armor for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
+      "description": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
       "category": "CareerTactic"
     },
 
