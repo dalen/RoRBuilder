@@ -270,7 +270,7 @@
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 45 Spirit damage.  The victim's Initiative will be reduced by 2 for 10 seconds, and your Initiative will be increased by 2.<br/><br/>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 225 Spirit damage.  The victim's Initiative will be reduced by 50  for 10 seconds, and your Initiative will be increased by 50.<br/><br/>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability"
     },
 
@@ -1294,7 +1294,7 @@
       "incant": "Insta-Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must have a Blessing",
-      "description": "You sever one Blessing from your enemy and do 127 damage",
+      "description": "You sever one Blessing from your enemy and inflict 127 damage",
       "category": "Ability"
     },
 
