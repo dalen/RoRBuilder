@@ -129,7 +129,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Must be at your target's side or rear",
-      "description": "You attack your enemy at a vulnerable spot, dealing 104 damage immediately and inflicting them with an Ailment which deals an additional 225 damage over 9 seconds.",
+      "description": "You attack your enemy at a vulnerable spot, dealing 114 damage immediately and inflicting them with an Ailment which deals an additional 225 damage over 9 seconds.",
       "category": "Ability"
     },
 
@@ -321,7 +321,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for 109 damage, and your pet strikes its target for 109 damage. If you are within 35 feet of your pet's target, you will also strike that enemy for 109 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 109 damage as well.",
+      "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for 89 damage, and your pet strikes its target for 109 damage. If you are within 35 feet of your pet's target, you will also strike that enemy for 109 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 89 damage as well.",
       "category": "Ability"
     },
 
@@ -881,7 +881,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 285 damage over 9 seconds. If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 345 damage over 9 seconds. If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
       "category": "Ability"
     },
 
