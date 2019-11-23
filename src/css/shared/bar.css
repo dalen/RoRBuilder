@@ -5,7 +5,7 @@
 }
 .barProgress {
   position: relative;
-  height: 1rem;
+  height: 10px;
   width: 1%;
   transition: width 0.3s ease;
 }

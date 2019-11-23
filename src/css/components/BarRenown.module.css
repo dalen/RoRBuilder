@@ -2,9 +2,11 @@
 
 .bar {
   composes: bar from '../shared/bar.css';
-  background-color: var(--color-renown-dark);
+  background-image: url('/images/bar/empty.png');
+  background-repeat: repeat-x;
 }
 .progress {
   composes: barProgress from '../shared/bar.css';
-  background-color: var(--color-renown);
+  background-image: url('/images/bar/renown.png');
+  background-repeat: repeat-x;
 }
