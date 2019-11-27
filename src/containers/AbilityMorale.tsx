@@ -142,7 +142,7 @@ const AbilityMorale = ({
       <img
         className={abilityImageClass}
         src={imgSrc}
-        alt={props.data.name}
+        alt={data.name}
         onMouseOver={hoverOver}
         onMouseOut={hoverOut}
         onFocus={hoverOver}
