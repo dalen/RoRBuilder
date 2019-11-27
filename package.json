@@ -9,6 +9,7 @@
     "npm": "5.5.1"
   },
   "scripts": {
+    "lint": "eslint --ext ts,js .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -135,7 +136,10 @@
     }
   },
   "eslintIgnore": [
-    "public"
+    "public",
+    "coverage",
+    "build",
+    "react-app-env.d.ts"
   ],
   "browserslist": {
     "production": [
