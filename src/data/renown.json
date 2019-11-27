@@ -506,23 +506,23 @@
       "icon": "statbuff_defender",
       "levels": [
         {
-          "name": "Reflexes I",
-          "note": "Increases chance to parry by 1%",
+          "name": "Defender I",
+          "note": "Increases chance to block by 1%",
           "cost": 1
         },
         {
-          "name": "Reflexes II",
-          "note": "Increases chance to parry by 2% (Total increase of 3%)",
+          "name": "Defender II",
+          "note": "Increases chance to block by 2% (Total increase of 3%)",
           "cost": 3
         },
         {
-          "name": "Reflexes III",
-          "note": "Increases chance to parry by 3% (Total increase of 6%)",
+          "name": "Defender III",
+          "note": "Increases chance to block by 3% (Total increase of 6%)",
           "cost": 6
         },
         {
-          "name": "Reflexes IV",
-          "note": "Increases chance to parry by 4% (Total increase of 10%)",
+          "name": "Defender IV",
+          "note": "Increases chance to block by 4% (Total increase of 10%)",
           "cost": 10
         }
       ]
