@@ -3,14 +3,22 @@ import { connect } from 'react-redux';
 import classNames from 'classnames';
 import css from '../css/components/Modal.module.css';
 
-import { closeModal } from '../actions/actionModal';
-import { toggleOverlay } from '../actions/actionOverlay';
+import * as actionModal from '../actions/actionModal';
+import * as actionOverlay from '../actions/actionOverlay';
 import { State } from '../reducers';
 
-type Props = ReturnType<typeof mapStateToProps> & {
-  closeModal: typeof closeModal;
-  toggleOverlay: typeof toggleOverlay;
+function mapStateToProps({ modal }: State) {
+  return {
+    modal,
+  };
+}
+
+const mapDispatchToProps = {
+  closeModal: actionModal.closeModal,
+  toggleOverlay: actionOverlay.toggleOverlay,
 };
+
+type Props = ReturnType<typeof mapStateToProps> & typeof mapDispatchToProps;
 
 class Modal extends Component<Props> {
   constructor(props: Props) {
@@ -50,13 +58,4 @@ class Modal extends Component<Props> {
   }
 }
 
-function mapStateToProps({ modal }: State) {
-  return {
-    modal,
-  };
-}
-
-export default connect(
-  mapStateToProps,
-  { closeModal, toggleOverlay },
-)(Modal);
+export default connect(mapStateToProps, mapDispatchToProps)(Modal);

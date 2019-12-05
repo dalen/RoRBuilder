@@ -51,7 +51,7 @@ export type State = {
   masteryTactics: number[];
   masteryMorales: number[];
   modal: ModalType;
-  sharingLink: boolean;
+  sharingLink: string | null;
 };
 
 const rootReducer = combineReducers({

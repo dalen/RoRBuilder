@@ -28,6 +28,75 @@ import { setSharingLink } from '../actions/actionSharingLink';
 
 import { State } from '../reducers';
 
+function mapStateToProps({
+  overlay,
+  sidebar,
+  careers,
+  slug,
+  selectedMorale1,
+  selectedMorale2,
+  selectedMorale3,
+  selectedMorale4,
+  selectedTactics,
+  abilities,
+  masteryAbilities,
+  masteryTactics,
+  masteryMorales,
+  pathMeterA,
+  pathMeterB,
+  pathMeterC,
+  currentPoints,
+  tacticLimit,
+  renown,
+  level,
+}: State) {
+  return {
+    overlay,
+    sidebar,
+    careers,
+    slug,
+    selectedMorale1,
+    selectedMorale2,
+    selectedMorale3,
+    selectedMorale4,
+    selectedTactics,
+    abilities,
+    masteryAbilities,
+    masteryTactics,
+    masteryMorales,
+    pathMeterA,
+    pathMeterB,
+    pathMeterC,
+    currentPoints,
+    tacticLimit,
+    renown,
+    level,
+  };
+}
+
+const mapDispatchToProps = {
+  toggleOverlay,
+  toggleSidebar,
+  resetRenown,
+  resetLevel,
+  resetTacticLimit,
+  resetPoints,
+  resetCurrentPoints,
+  resetSelectedMorale1,
+  resetSelectedMorale2,
+  resetSelectedMorale3,
+  resetSelectedMorale4,
+  resetSelectedTactics,
+  resetMasteryAbilities,
+  resetMasteryMorales,
+  resetMasteryTactics,
+  resetPathMeterA,
+  resetPathMeterB,
+  resetPathMeterC,
+  openModal,
+  setSharingLink,
+};
+
 type Props = {} & ReturnType<typeof mapStateToProps> &
   typeof mapDispatchToProps &
   RouteComponentProps;
@@ -218,76 +287,4 @@ class ActionButtons extends Component<Props> {
   }
 }
 
-function mapStateToProps({
-  overlay,
-  sidebar,
-  careers,
-  slug,
-  selectedMorale1,
-  selectedMorale2,
-  selectedMorale3,
-  selectedMorale4,
-  selectedTactics,
-  abilities,
-  masteryAbilities,
-  masteryTactics,
-  masteryMorales,
-  pathMeterA,
-  pathMeterB,
-  pathMeterC,
-  currentPoints,
-  tacticLimit,
-  renown,
-  level,
-}: State) {
-  return {
-    overlay,
-    sidebar,
-    careers,
-    slug,
-    selectedMorale1,
-    selectedMorale2,
-    selectedMorale3,
-    selectedMorale4,
-    selectedTactics,
-    abilities,
-    masteryAbilities,
-    masteryTactics,
-    masteryMorales,
-    pathMeterA,
-    pathMeterB,
-    pathMeterC,
-    currentPoints,
-    tacticLimit,
-    renown,
-    level,
-  };
-}
-
-const mapDispatchToProps = {
-  toggleOverlay,
-  toggleSidebar,
-  resetRenown,
-  resetLevel,
-  resetTacticLimit,
-  resetPoints,
-  resetCurrentPoints,
-  resetSelectedMorale1,
-  resetSelectedMorale2,
-  resetSelectedMorale3,
-  resetSelectedMorale4,
-  resetSelectedTactics,
-  resetMasteryAbilities,
-  resetMasteryMorales,
-  resetMasteryTactics,
-  resetPathMeterA,
-  resetPathMeterB,
-  resetPathMeterC,
-  openModal,
-  setSharingLink,
-};
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(ActionButtons);
+export default connect(mapStateToProps, mapDispatchToProps)(ActionButtons);

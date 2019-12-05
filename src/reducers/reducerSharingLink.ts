@@ -4,7 +4,7 @@ import {
 } from '../actions/actionSharingLink';
 
 export default function(
-  state: string | false = false,
+  state: string | null = null,
   action: ActionSharingLink,
 ) {
   switch (action.type) {

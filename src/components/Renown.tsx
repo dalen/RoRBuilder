@@ -6,6 +6,7 @@ import { connect } from 'react-redux';
 import Sidebar from '../containers/Sidebar';
 import BarRenown from './BarRenown';
 import RenownCategory from './RenownCategory';
+import ModalContainer from '../containers/ModalContainer';
 
 import css from '../css/components/Renown.module.css';
 import renownData from '../data/renown.json';
@@ -227,6 +228,7 @@ const Renown = ({
         </div>
       </div>
       <Sidebar />
+      <ModalContainer />
     </div>
   );
 };

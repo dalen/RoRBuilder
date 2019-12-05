@@ -68,7 +68,4 @@ function mapStateToProps({ overlay, sidebar, modal }: State) {
 
 const mapDispatchToProps = { toggleOverlay, toggleSidebar, closeModal };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Overlay);
+export default connect(mapStateToProps, mapDispatchToProps)(Overlay);
