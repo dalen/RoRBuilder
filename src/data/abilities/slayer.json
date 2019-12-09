@@ -14,7 +14,13 @@
         "lvl6": 4078,
         "lvl7": 4079
       },
-      "coreAbilities": [4035, 4031, 4033, 4036, 4047]
+      "coreAbilities": [
+        4035,
+        4031,
+        4033,
+        4036,
+        4047
+      ]
     },
     "b": {
       "name": "Path of The Giantslayer",
@@ -30,7 +36,13 @@
         "lvl6": 4085,
         "lvl7": 4086
       },
-      "coreAbilities": [4030, 4041, 4130, 4046, 4037]
+      "coreAbilities": [
+        4030,
+        4041,
+        4130,
+        4046,
+        4037
+      ]
     },
     "c": {
       "name": "Path of The Skavenslayer",
@@ -46,7 +58,13 @@
         "lvl6": 4092,
         "lvl7": 4093
       },
-      "coreAbilities": [4034, 4048, 4045, 4032, 4044]
+      "coreAbilities": [
+        4034,
+        4048,
+        4045,
+        4032,
+        4044
+      ]
     }
   },
   "data": [
@@ -56,64 +74,16 @@
       "name": "Accuracy",
       "type": "Defensive",
       "spec": "Path of The Skavenslayer",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Flurry will now hit up to 9 targets within 30 feet in front of you, but the base damage is reduced by 20%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1490
     },
-
-    {
-      "image": "22736",
-      "id": 4103,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 4101,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 4102,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22711",
       "id": 4072,
@@ -122,158 +92,14 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Armor by 660.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 716
     },
-
-    {
-      "image": "22725",
-      "id": 4116,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 4118,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 4117,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 4125,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 4127,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 4126,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 4121,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 4120,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 4119,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "04673",
       "id": 4043,
@@ -282,30 +108,30 @@
       "spec": "Core Ability",
       "minrank": "18",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your mounting rage allows you to firm your Dwarven resolve and remove all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1445
     },
-
     {
       "image": "22702",
       "id": 4084,
       "name": "Breaking Point",
       "type": "Defensive",
       "spec": "Path of The Giantslayer",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit with Path Of the Giantslayer abilities by 15%, but if you are dual wielding, increases the chance that you'll be critically hit by 10%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1487
     },
-
     {
       "image": "23156",
       "id": 4068,
@@ -314,46 +140,46 @@
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 629
     },
-
     {
       "image": "22701",
       "id": 4061,
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 521
     },
-
     {
       "image": "23403",
       "id": 4094,
       "name": "Bypass Defenses",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "10",
+      "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 14423
     },
-
     {
       "image": "04668",
       "id": 4038,
@@ -362,30 +188,30 @@
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1440
     },
-
     {
       "image": "04682",
       "id": 4081,
       "name": "Cleft In Twain",
       "type": "Ailment",
       "spec": "Path of The Giantslayer",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You attack your target with a devastating blow, dealing 396 damage over 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1460
     },
-
     {
       "image": "23157",
       "id": 4066,
@@ -394,62 +220,14 @@
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 631
     },
-
-    {
-      "image": "22716",
-      "id": 4123,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 4122,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 4124,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "04692",
       "id": 4058,
@@ -458,14 +236,14 @@
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You deal an additional 300 damage, whenever you use an ability. This effect will fade after you damage 8 targets.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1500
     },
-
     {
       "image": "04667",
       "id": 4037,
@@ -479,57 +257,57 @@
       "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "You unleash a powerful blow, dealing 291 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1439
     },
-
     {
       "image": "04662",
       "id": 4076,
       "name": "Deep Wound",
       "type": "Ailment",
       "spec": "Path of The Trollslayer",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "15 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You slash at your enemy, dealing 163 damage and reducing the value of incoming healing on them by 50% for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1434
     },
-
     {
       "image": "22709",
       "id": 4080,
       "name": "Determination",
       "type": "Defensive",
       "spec": "Path of The Giantslayer",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "If an Exhaustive Blow is defended, your abilities cost 0 Action Points for the next 6 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1485
     },
-
     {
       "image": "04683",
       "id": 4083,
       "name": "Devastate",
       "type": "Ailment",
       "spec": "Path of The Giantslayer",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You devastate your target, dealing 211 damage and reducing your target's Wounds by 120 for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1461
     },
-
     {
       "image": "04669",
       "id": 4039,
@@ -538,30 +316,30 @@
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "50 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1441
     },
-
     {
       "image": "04689",
       "id": 4093,
       "name": "Doom Seeker",
       "type": "Defensive",
       "spec": "Path of The Skavenslayer",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You deal 1800 damage and knock down targets within 30 feet for 3 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1494
     },
-
     {
       "image": "22711",
       "id": 4056,
@@ -570,14 +348,14 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you take critical damage, your Strength is increased by 120 for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1479
     },
-
     {
       "image": "04666",
       "id": 4047,
@@ -588,12 +366,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You deal an exhaustive blow that does 141 damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1438
     },
-
     {
       "image": "04674",
       "id": 4044,
@@ -602,78 +380,30 @@
       "spec": "Path of The Skavenslayer",
       "minrank": "20",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your Toughness is increased by 25 for each enemy within 30 feet, up to a maximum of 9 enemies. This effect will fade after 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1446
     },
-
-    {
-      "image": "22725",
-      "id": 4114,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 4115,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 4113,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22694",
       "id": 4075,
       "name": "Fierce Might",
       "type": "Defensive",
       "spec": "Path of The Trollslayer",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "As you get closer to death and redemption, your rage fills you with power. Your critical bonus damage is increased by 10% for every 10% of hit points that you have lost.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1483
     },
-
     {
       "image": "04680",
       "id": 4036,
@@ -682,14 +412,14 @@
       "spec": "Path of The Trollslayer",
       "minrank": "8",
       "cost": "25 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, group member's within 100 feet will have their Weaponskill increased by 25 each time that you hit an enemy, and your Initiative will be reduced by 25. This effect can be stacked up to three times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1458
     },
-
     {
       "image": "22704",
       "id": 4062,
@@ -698,14 +428,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 523
     },
-
     {
       "image": "05004",
       "id": 4128,
@@ -714,14 +444,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "04663",
       "id": 4032,
@@ -730,14 +460,14 @@
       "spec": "Path of The Skavenslayer",
       "minrank": "4",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You wildly swing in front of you, dealing between 103 damage and 153 damage to up to three enemies within 25 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1435
     },
-
     {
       "image": "23158",
       "id": 4065,
@@ -748,12 +478,12 @@
       "cost": "Rank 2 morale",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 628
     },
-
     {
       "image": "23159",
       "id": 4069,
@@ -762,14 +492,14 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 630
     },
-
     {
       "image": "22709",
       "id": 4053,
@@ -778,14 +508,14 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All attacks will generate 25% less hate.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1476
     },
-
     {
       "image": "04690",
       "id": 4059,
@@ -794,14 +524,14 @@
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You deal 1800 damage and debuff the target's outgoing damage to 75% for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1495
     },
-
     {
       "image": "04670",
       "id": 4040,
@@ -810,62 +540,14 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "15 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your groupmates are inspired by your eagerness to fight. Your group's abilities cost 25% fewer Action Points for 20 seconds while within 100 feet of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1442
     },
-
-    {
-      "image": "22730",
-      "id": 4106,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 4105,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 4104,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22702",
       "id": 4050,
@@ -874,14 +556,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Cooldowns on your Exhaustive Attacks are reduced by 25%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1473
     },
-
     {
       "image": "22706",
       "id": 4051,
@@ -890,14 +572,14 @@
       "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All your Exhaustive Attacks have a 50% chance to heal you for 225 health.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1474
     },
-
     {
       "image": "04671",
       "id": 4046,
@@ -908,28 +590,28 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Must be Berserk<br>Exhausts your Rage",
       "description": "You render an incapacitating blow to your target, dealing 166 damage and knocking them down for 3 seconds. This attack is undefendable.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1443
     },
-
     {
       "image": "04687",
       "id": 4092,
       "name": "Inevitable Doom",
       "type": "Ailment",
       "spec": "Path of The Skavenslayer",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "45 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires Dual Wield",
       "description": "You deal 135 damage to your target and force them to share your doomed fate, inflicting a dark rune on them. The rune will explode every 2 seconds and will keep exploding for anywhere between 4 seconds to 8 seconds, dealing 112 damage to all enemies within 30 feet of them.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1465
     },
-
     {
       "image": "22694",
       "id": 4060,
@@ -938,46 +620,46 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 526
     },
-
     {
       "image": "04693",
       "id": 4086,
       "name": "Looks Like a Challenge",
       "type": "Defensive",
       "spec": "Path of The Giantslayer",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You deal 1200 damage to targets within 30 feet and debuff incoming healing by 50% for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1501
     },
-
     {
       "image": "04685",
       "id": 4088,
       "name": "No Escape",
       "type": "Ailment",
       "spec": "Path of The Skavenslayer",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "35 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
       "description": "A crippling blow, dealing 117 damage to all enemies within 30 feet. The victims will all become snared, reducing their run speed anywhere from 10% and 40% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1463
     },
-
     {
       "image": "04672",
       "id": 4042,
@@ -988,12 +670,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Target to have Parried or Blocked",
       "description": "You land a numbing blow, reducing your target's chance to block or parry by  50% for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1444
     },
-
     {
       "image": "04664",
       "id": 4045,
@@ -1002,78 +684,30 @@
       "spec": "Path of The Skavenslayer",
       "minrank": "25",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You swipe at the enemies in front of you, dealing 111 damage over 9 seconds to enemies within 40 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1436
     },
-
-    {
-      "image": "22729",
-      "id": 4112,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 4111,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 4110,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22711",
       "id": 4073,
       "name": "Power Through",
       "type": "Defensive",
       "spec": "Path of The Trollslayer",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Exhaustive Blows will no longer remove your Rage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1482
     },
-
     {
       "image": "04677",
       "id": 4030,
@@ -1087,9 +721,9 @@
       "cooldown": "No cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "A reckless attack which deals 216 damage to your target.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1449
     },
-
     {
       "image": "04661",
       "id": 4130,
@@ -1103,9 +737,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A furious slash that deals 191 damage and reduces your target's Toughness by 25 for 9 seconds. This effect is stackable up to three times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1433
     },
-
     {
       "image": "22696",
       "id": 4054,
@@ -1114,30 +748,30 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your autoattack speed is increased by 25% while you are Furious and 50% while you are Berserk.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1477
     },
-
     {
       "image": "04681",
       "id": 4074,
       "name": "Rampage",
       "type": "Enchantment",
       "spec": "Path of The Trollslayer",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "For the next 10 seconds, your attacks can't be Blocked or Parried. If you are Furious, increase duration to 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1459
     },
-
     {
       "image": "04676",
       "id": 4041,
@@ -1146,14 +780,14 @@
       "spec": "Path of The Giantslayer",
       "minrank": "14",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "While this ability is active, each time you strike a target with a melee attack, you will deal an additional 100 damage , but you will also suffer 50 damage each time this happens.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1448
     },
-
     {
       "image": "23160",
       "id": 4067,
@@ -1162,14 +796,14 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 633
     },
-
     {
       "image": "04659",
       "id": 4033,
@@ -1183,9 +817,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You strike at your opponent, immediately inflicting 108 damage. The wound continues to bleed for 132 damage for the next 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1431
     },
-
     {
       "image": "04678",
       "id": 4048,
@@ -1193,15 +827,15 @@
       "type": "Damaging",
       "spec": "Path of The Skavenslayer",
       "minrank": "40",
-      "cost": "15 Action Points / Sec",
-      "range": "5ft range",
+      "cost": "25 Action Points / Sec",
+      "range": "Self",
       "incant": "10.0s cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "30s cooldown",
       "note": "Requires Dual Wield",
       "description": "You strike out at all enemies 25 feet in front of you, inflicting 169 damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1450
     },
-
     {
       "image": "22702",
       "id": 4063,
@@ -1210,46 +844,46 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 253 damage which they can not prevent.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 528
     },
-
     {
       "image": "04679",
       "id": 4078,
       "name": "Rune of Absorption",
       "type": "Damaging",
       "spec": "Path of The Trollslayer",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "15 Action Points / Sec",
       "range": "5ft range",
       "incant": "5.0s cast",
-      "cooldown": "25.0s cooldown",
+      "cooldown": "25s cooldown",
       "note": "",
       "description": "A merciless string of attacks that repeatedly hit your target for 259 damage up to 6 times over the next 5 seconds. You will be healed for all the damage that this ability deals.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1457
     },
-
     {
       "image": "22694",
       "id": 4091,
       "name": "Runic Blessings",
       "type": "Defensive",
       "spec": "Path of The Skavenslayer",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Upon falling in battle, you have a 25% chance of immediately getting back in the fight at 25% health and unleashing a blow to all enemies within 40 feet and dealing 325 damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1489
     },
-
     {
       "image": "23161",
       "id": 4064,
@@ -1260,92 +894,44 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 627
     },
-
     {
       "image": "04686",
       "id": 4090,
       "name": "Shatter Limbs",
       "type": "Ailment",
       "spec": "Path of The Skavenslayer",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "You brutally crush all enemies within 30 feet, dealing 88 damage. Your merciless display of savagery intimidates your enemy, increasing their cooldown timers by 1 second for every enemy you struck, to a maximum of 5 seconds. This effect lasts for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1464
     },
-
     {
       "image": "22708",
       "id": 4077,
       "name": "Short Temper",
       "type": "Defensive",
       "spec": "Path of The Trollslayer",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "While you are in the Berserk state, all of your cooldowns are reduced by 5 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1484
     },
-
-    {
-      "image": "22721",
-      "id": 4107,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 4108,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 4109,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22704",
       "id": 4052,
@@ -1354,14 +940,14 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your Action Point costs are reduced by 5 points while Furious and 10 points while Berserk.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1475
     },
-
     {
       "image": "04660",
       "id": 4031,
@@ -1372,28 +958,28 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You deal 141 damage and reduce the movement speed of your enemy by 40% for 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1432
     },
-
     {
       "image": "04684",
       "id": 4085,
       "name": "Spellbreaker",
       "type": "Damaging",
       "spec": "Path of The Giantslayer",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Insta-Cast",
       "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "A shattering strike which deals 261 damage and will remove one damage absorbing effect, one Enchantment and one Blessing from the target. Any effects removed from the target will inflict an additional 64 damage for each one.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2747
     },
-
     {
       "image": "04665",
       "id": 4035,
@@ -1407,25 +993,25 @@
       "cooldown": "No cooldown",
       "note": "Target must be facing away from you",
       "description": "You deal 216 damage to your enemy.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1437
     },
-
     {
       "image": "22711",
       "id": 4070,
       "name": "Stoutness of Stone",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You recover from Stuns and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 713
     },
-
     {
       "image": "22711",
       "id": 4071,
@@ -1434,30 +1020,30 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Corporeal resistance by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 714
     },
-
     {
       "image": "22704",
       "id": 4087,
       "name": "Takin' Chances",
       "type": "Defensive",
       "spec": "Path of The Skavenslayer",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "While you are Furious, you regain 100 health every 4 seconds. While you are Berserk, you regain 175 health every 4 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1488
     },
-
     {
       "image": "22694",
       "id": 4055,
@@ -1466,14 +1052,14 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces the cost of Spine Crusher and Deathblow by 25%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1478
     },
-
     {
       "image": "04658",
       "id": 4129,
@@ -1482,30 +1068,30 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "20 Action Points",
-      "range": "5-65ft range",
+      "range": "5 - 65ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A basic throwing attack that inflicts 104 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1430
     },
-
     {
       "image": "04691",
       "id": 4079,
       "name": "Unleashed Power",
       "type": "Defensive",
       "spec": "Path of The Trollslayer",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You unleash a wave of power, causing groupmates' attacks to deal an additional 300 damage for 10 seconds while within 100 feet of you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1499
     },
-
     {
       "image": "04688",
       "id": 4057,
@@ -1514,30 +1100,30 @@
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your chance to defend attacks is increased by 100% for 5 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1493
     },
-
     {
       "image": "22711",
       "id": 4082,
       "name": "Holding Grudges",
       "type": "Passive",
       "spec": "Path of The Giantslayer",
-      "minrank": "25",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Every 4 seconds, you will gain one stack of an effect which reduces the Rage cost of your Exhaustive Blows by 25%. This effect stacks up to 3 times, and using an Exhaustive Blow will consume on stack.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1486
     },
-
     {
       "image": "22702",
       "id": 4049,
@@ -1546,14 +1132,14 @@
       "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength and Weapon Skill by 120, but reduces your Toughness by 120.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1472
     },
-
     {
       "image": "04675",
       "id": 4034,
@@ -1561,13 +1147,14 @@
       "type": "Damaging",
       "spec": "Path of The Skavenslayer",
       "minrank": "6",
-      "cost": "55 Action Points",
-      "range": "No range",
+      "cost": "45 Action Points",
+      "range": "Self",
       "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You wildly attack everything around you, each enemy that you hit within 30 feet for anywhere between 146 damage to 186 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1447
     }
   ]
 }

@@ -14,7 +14,13 @@
         "lvl6": 4178,
         "lvl7": 4179
       },
-      "coreAbilities": [4144, 4141, 4229, 4135, 4231]
+      "coreAbilities": [
+        4144,
+        4141,
+        4229,
+        4135,
+        4231
+      ]
     },
     "b": {
       "name": "Path of Grace",
@@ -30,7 +36,17 @@
         "lvl6": 7509,
         "lvl7": 4186
       },
-      "coreAbilities": [4147, 4146, 4131, 4133, 4137, 4181, 7506, 7507, 7508]
+      "coreAbilities": [
+        4147,
+        4146,
+        4131,
+        4133,
+        4137,
+        4181,
+        7506,
+        7507,
+        7508
+      ]
     },
     "c": {
       "name": "Path of Wrath",
@@ -46,7 +62,14 @@
         "lvl6": 4192,
         "lvl7": 4193
       },
-      "coreAbilities": [4138, 4140, 4143, 4134, 4232, 4188]
+      "coreAbilities": [
+        4138,
+        4140,
+        4143,
+        4134,
+        4232,
+        4188
+      ]
     }
   },
   "data": [
@@ -56,64 +79,16 @@
       "name": "Absence of Faith",
       "type": "Curse",
       "spec": "Path of Wrath",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Builds 25 Righteous Fury",
       "description": "You deal 127 damage to your enemy and call upon Sigmar to Curse them for 10 seconds, causing all healing effects used on them to become 50% less effective.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8270
     },
-
-    {
-      "image": "22736",
-      "id": 4203,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 4201,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 4202,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "23150",
       "id": 4169,
@@ -123,125 +98,29 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 697
     },
-
-    {
-      "image": "22725",
-      "id": 4216,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 4218,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 4217,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "08043",
       "id": 4193,
       "name": "Avatar of Sigmar",
       "type": "Buff",
       "spec": "Path of Wrath",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Increases the Strength, Willpower, Toughness, Initiative, Weapon Skill, Ballistic Skill, and Intelligence of all group mates withing 100 feet by 50 for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8309
     },
-
-    {
-      "image": "22718",
-      "id": 4225,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 4227,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 4226,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "07959",
       "id": 4232,
@@ -251,61 +130,13 @@
       "minrank": "1",
       "cost": "30 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "A powerful attack which deals 152 damage to your enemy.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8240
     },
-
-    {
-      "image": "22731",
-      "id": 4221,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 4220,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 4219,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "07901",
       "id": 4139,
@@ -316,12 +147,12 @@
       "cost": "No AP Cost",
       "range": "100ft range",
       "incant": "3.0s cast",
-      "cooldown": "6.0s cooldown",
+      "cooldown": "6s cooldown",
       "note": "Requires 20 Righteous Fury",
       "description": "Resurrects a fallen ally with 20% health.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8248
     },
-
     {
       "image": "08001",
       "id": 4134,
@@ -331,13 +162,13 @@
       "minrank": "5",
       "cost": "30 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "5s cooldown",
       "note": "Builds 20 Righteous Fury",
       "description": "A strike that deals 76 damage to your enemy, and an additional 115 damage over 10 seconds, and reduces their Initiative by 80.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8257
     },
-
     {
       "image": "22710",
       "id": 4150,
@@ -351,89 +182,41 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Attacks which generate Righteous Fury will now generate 10 additional points.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8277
     },
-
     {
       "image": "22704",
       "id": 4173,
       "name": "Cleansing Power",
       "type": "Buff",
       "spec": "Path of Salvation",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Purify will also cleanse your entire group. It will not cleanse more than 1 effect per target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8289
     },
-
-    {
-      "image": "22716",
-      "id": 4223,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 4222,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 4224,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22706",
       "id": 4161,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Willpower by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 592
     },
-
     {
       "image": "07949",
       "id": 4157,
@@ -443,13 +226,13 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Restores 240 health over 7 seconds, and increases your armor by 1320.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8302
     },
-
     {
       "image": "07903",
       "id": 4231,
@@ -463,41 +246,41 @@
       "cooldown": "No cooldown",
       "note": "Requires 55 Righteous Fury",
       "description": "Heals an ally for 258 points, and an additional 315 over 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8238
     },
-
     {
       "image": "08044",
       "id": 4186,
       "name": "Divine Amazement",
       "type": "Debuff",
       "spec": "Path of Grace",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You call upon the power of Sigmar, dealing 300 damage every second to all enemies in a 10 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to you as health.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8310
     },
-
     {
       "image": "08031",
       "id": 4137,
       "name": "Divine Assault",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "6",
+      "minrank": "8",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "3.0s cast",
-      "cooldown": "8.0s cooldown",
+      "cooldown": "8s cooldown",
       "note": "Requires 25 Righteous Fury per second",
       "description": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will. You strike the target up to four times over 3 seconds, dealing 84 Spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Righteous Fury.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8244
     },
-
     {
       "image": "23151",
       "id": 4164,
@@ -507,13 +290,13 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "150ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 694
     },
-
     {
       "image": "22703",
       "id": 4160,
@@ -527,41 +310,41 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 585
     },
-
     {
       "image": "22706",
       "id": 5890,
       "name": "Divine Justice",
       "type": "Buff",
       "spec": "Path of Wrath",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Prayer of Righteousness will now deal 250 Spirit damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8279
     },
-
     {
       "image": "07904",
       "id": 4174,
       "name": "Divine Light",
       "type": "Blessing",
       "spec": "Path of Salvation",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "Requires 40 Righteous Fury",
       "description": "Your group mates within 100 feet become surrounded by a magical barrier for 10 seconds, which will absorb up to 775 damage for each person.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8264
     },
-
     {
       "image": "07978",
       "id": 4135,
@@ -572,12 +355,12 @@
       "cost": "35 Action Points",
       "range": "150ft range",
       "incant": "0.5s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "A quick heal that restores 461 health.<br>Not affected by cooldown modification abilities.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8239
     },
-
     {
       "image": "22704",
       "id": 4156,
@@ -591,9 +374,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Supplication's cost by 15 Action Points.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8283
     },
-
     {
       "image": "23152",
       "id": 4168,
@@ -603,13 +386,13 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 696
     },
-
     {
       "image": "07905",
       "id": 4158,
@@ -619,29 +402,13 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your group mates within 100 feet become more driven. For the next 10 seconds, anytime they hit an enemy with a melee attack, they will regain 50 Action Points.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8303
     },
-
-    {
-      "image": "22706",
-      "id": 4152,
-      "name": "Divine Reward",
-      "type": "Buff",
-      "spec": "Inactive",
-      "minrank": "31",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "After healing an ally with Divine Aid or Healing Hand, there is a 25% chance that your next attack will not cost any action points.",
-      "category": "CareerTactic"
-    },
-
     {
       "image": "08033",
       "id": 4148,
@@ -651,45 +418,45 @@
       "minrank": "40",
       "cost": "40 Action Points",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "Builds 40 Righteous Fury",
       "description": "The force of Sigmar's displeasure slams into all enemies in front of you, up to 30 feet away, and sends them flying backwards.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8254
     },
-
     {
       "image": "22694",
       "id": 4177,
       "name": "Divine Warding",
       "type": "Buff",
       "spec": "Path of Salvation",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to 475 damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8288
     },
-
     {
       "image": "22710",
       "id": 4170,
       "name": "Emperor's Ward",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 779
     },
-
     {
       "image": "22696",
       "id": 4187,
@@ -703,9 +470,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "The snare from Weight Of Guilt will now last for 10 seconds, and affects all enemies within 20 feet of your target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8294
     },
-
     {
       "image": "22702",
       "id": 4153,
@@ -719,73 +486,25 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you defend against an attack, your healing abilities will become 20% more effective for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8280
     },
-
     {
       "image": "22701",
       "id": 4189,
       "name": "Fanaticism",
       "type": "Buff",
       "spec": "Path of Wrath",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but reduces the effectiveness of your healing abilities by 20%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8293
     },
-
-    {
-      "image": "22725",
-      "id": 4214,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 4215,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 4213,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "05004",
       "id": 4228,
@@ -795,13 +514,13 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "23153",
       "id": 4167,
@@ -811,13 +530,13 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 695
     },
-
     {
       "image": "22710",
       "id": 4155,
@@ -831,137 +550,89 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 Righteous Fury. Tactic can not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8282
     },
-
     {
       "image": "08042",
       "id": 4179,
       "name": "Gift of Life",
       "type": "Healing",
       "spec": "Path of Salvation",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your group mates within 100 feet have their armor increased by 825, Block, Parry, Dodge and Disrupt by 25, and all Resists by 315 for the next 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8308
     },
-
     {
       "image": "22703",
       "id": 4184,
       "name": "Grace of Sigmar",
       "type": "Buff",
       "spec": "Path of Grace",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "The base heal on Sigmar's Radiance is increased to 282 health and the healing from lifetaps are increased by 25%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8292
     },
-
     {
       "image": "22703",
       "id": 4180,
       "name": "Greave of Sigmar",
       "type": "Buff",
       "spec": "Path of Grace",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Sigmar's Fist will now also increase your ally's Toughness as well, and will reduce your enemy's Strength and Toughness by 75.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8291
     },
-
     {
       "image": "22709",
       "id": 4191,
       "name": "Guilty Soul",
       "type": "Buff",
       "spec": "Path of Wrath",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional 405 Spirit Damage over 9 seconds and you gain a blessing which increases your Path of Wrath abilities by 5%. This blessing stacks up to 4 times.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8295
     },
-
     {
       "image": "07962",
       "id": 4192,
       "name": "Hammer of Sigmar",
       "type": "Damaging",
       "spec": "Path of Wrath",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "30 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Requires Great Weapon<br/>Target must be below 50% health<br/>Builds 30 Righteous Fury",
       "description": "Deals 352 damage and will almost always deal critical damage to a wounded foe.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8272
     },
-
-    {
-      "image": "22730",
-      "id": 4206,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 4205,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 4204,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22708",
       "id": 4149,
@@ -975,9 +646,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy, your autoattack speed will be increased by 50% for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8276
     },
-
     {
       "image": "07960",
       "id": 4132,
@@ -987,29 +658,29 @@
       "minrank": "3",
       "cost": "No AP Cost",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires 30 Righteous Fury",
       "description": "Heals your target for 1200 points over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8241
     },
-
     {
       "image": "22694",
       "id": 4154,
       "name": "Intimidating Repent",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "31",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Repent will now affect all enemies within 30 feet of your target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8281
     },
-
     {
       "image": "08029",
       "id": 4229,
@@ -1023,89 +694,41 @@
       "cooldown": "No cooldown",
       "note": "Builds 15 Righteous Fury",
       "description": "You call down the holy judgement of Sigmar, dealing 102 Spirit damage to the enemy.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8236
     },
-
     {
       "image": "22706",
       "id": 4182,
       "name": "Leading the Prayer",
       "type": "Buff",
       "spec": "Path of Grace",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever Prayer Of Devotion heals one of your groupmates, you will also become healed for the same amount.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8290
     },
-
     {
       "image": "08036",
       "id": 4178,
       "name": "Martyr's Blessing",
       "type": "Healing",
       "spec": "Path of Salvation",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "Requires 20 Righteous Fury per second",
       "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, all allies within 30 feet of you will regain 179 health, and you will consume 20 Righteous Fury.<br>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8266
     },
-
-    {
-      "image": "22729",
-      "id": 4212,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 4211,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 4210,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "07916",
       "id": 4159,
@@ -1115,45 +738,45 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You attack all targets within 30 feet for 1200 damage and Stagger them for 6 seconds,preventing all actions unless they're damaged.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8304
     },
-
     {
       "image": "08035",
       "id": 4176,
       "name": "Pious Restoration",
       "type": "Blessing",
       "spec": "Path of Salvation",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "10s cooldown",
       "note": "Requires 40 Righteous Fury",
       "description": "You call upon Sigmar to Bless everyone in your group within 100 feet, restoring 567 health over 9 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8265
     },
-
     {
       "image": "07917",
       "id": 4141,
+      "gameId": 8242,
       "name": "Prayer of Absolution",
       "type": "Buff",
       "spec": "Path of Salvation",
       "minrank": "14",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "10s cooldown",
       "note": "Only one Prayer may be active at a time.",
       "description": "You chant a bolstering prayer, increasing the armor of group mates who stay within 100 feet of you by 412.",
       "category": "Ability"
     },
-
     {
       "image": "07943",
       "id": 4133,
@@ -1163,29 +786,29 @@
       "minrank": "4",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "10s cooldown",
       "note": "Only one Prayer may be active at a time.",
       "description": "Any time a groupmate within 100 feet of you attacks an enemy, there is a 20% chance that they will regain 200 health.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8249
     },
-
     {
       "image": "07950",
       "id": 4143,
+      "gameId": 8243,
       "name": "Prayer of Righteousness",
       "type": "Buff",
       "spec": "Path of Wrath",
       "minrank": "18",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "10s cooldown",
       "note": "Only one Prayer may be active at a time.",
       "description": "Any time one of your groupmates within 100 feet hits an enemy, there is a 20% chance they will deal an additional 225 Spirit damage.",
       "category": "Ability"
     },
-
     {
       "image": "08041",
       "id": 4145,
@@ -1195,52 +818,53 @@
       "minrank": "25",
       "cost": "25 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury<br>Target must have an Enchantment",
       "description": "A shattering attack that removes one Enchantment from your enemy and does 127 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8251
     },
-
     {
       "image": "08032",
       "id": 4142,
+      "gameId": 8246,
       "name": "Purify",
       "type": "Healing",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "No AP Cost",
       "range": "150ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "5s cooldown",
       "note": "Requires 25 Righteous Fury <br>Target must be Cursed or Hexed",
       "description": "You purify an ally, removing one Curse or Hex.",
       "category": "Ability"
     },
-
     {
       "image": "23154",
       "id": 4165,
+      "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
-
     {
       "image": "22708",
       "id": 4175,
+      "gameId": 8287,
       "name": "Refreshing Radiance",
       "type": "Buff",
       "spec": "Path of Salvation",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
@@ -1249,26 +873,26 @@
       "description": "Whenever you heal an ally, there is a 25% chance that they will regain 50 Action Points, but this effect will not work on you.",
       "category": "CareerTactic"
     },
-
     {
       "image": "08054",
       "id": 4136,
+      "gameId": 8245,
       "name": "Repent",
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "7",
       "cost": "20 Action Points",
       "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "15.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
-
     {
       "image": "22694",
       "id": 4163,
+      "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1281,10 +905,10 @@
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
       "category": "CareerTactic"
     },
-
     {
       "image": "22702",
       "id": 4151,
+      "gameId": 8278,
       "name": "Shield of Faith",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1297,10 +921,10 @@
       "description": "Increases your chance to Disrupt enemy spells by 10%.",
       "category": "CareerTactic"
     },
-
     {
       "image": "22710",
       "id": 4172,
+      "gameId": 776,
       "name": "Sigmar's Favor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1313,30 +937,30 @@
       "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional 135 hit points as well.",
       "category": "CareerTactic"
     },
-
     {
       "image": "07944",
       "id": 4131,
+      "gameId": 8253,
       "name": "Sigmar's Fist",
       "type": "Damaging",
       "spec": "Path of Grace",
       "minrank": "2",
       "cost": "25 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury",
       "description": "A blessed attack which deals 127 damage to your target, and increases your defensive target's Strength by 75 for 20 seconds.",
       "category": "Ability"
     },
-
     {
       "image": "08039",
       "id": 4185,
+      "gameId": 8269,
       "name": "Sigmar's Grace",
       "type": "Blessing",
       "spec": "Path of Grace",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "35 Action Points",
       "range": "No range",
       "incant": "2.0s cast",
@@ -1345,122 +969,74 @@
       "description": "The might of Sigmar infuses everyone in your group within 80 feet, increasing their Wounds by 50 for 1 hour.",
       "category": "Ability"
     },
-
     {
       "image": "07953",
       "id": 4146,
+      "gameId": 8252,
       "name": "Sigmar's Radiance",
       "type": "Damaging",
       "spec": "Path of Grace",
       "minrank": "30",
       "cost": "35 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Builds 40 Righteous Fury",
       "description": "You smash into your enemy, dealing 152 damage to them. The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for 225 health plus 50% of the damage that you dealt.",
       "category": "Ability"
     },
-
     {
       "image": "08034",
       "id": 4183,
+      "gameId": 8267,
       "name": "Sigmar's Shield",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "20.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "20s cooldown",
       "note": "Builds 25 Righteous Fury",
       "description": "You smash your weapon into your enemy, dealing 177 damage to them. Your defensive target becomes Blessed for up to 10 seconds, and will regain 100 health each time they're attacked. You will lose 10 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
       "category": "Ability"
     },
-
     {
       "image": "08038",
       "id": 4181,
+      "gameId": 8268,
       "name": "Sigmar's Vision",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "22",
+      "minrank": "21",
       "cost": "30 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "5.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "5s cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "Deals 177 damage to your enemy and Blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.",
       "category": "Ability"
     },
-
-    {
-      "image": "22721",
-      "id": 4207,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 4208,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 4209,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "07923",
       "id": 4140,
+      "gameId": 8250,
       "name": "Smite",
       "type": "Damaging",
       "spec": "Path of Wrath",
       "minrank": "12",
       "cost": "45 Action Points",
       "range": "No range",
-      "incant": "Insta-cast",
-      "cooldown": "5.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "5s cooldown",
       "note": "Builds 15 Righteous Fury for each enemy that you strike",
       "description": "A sweeping blow which deals 101 damage to all enemies in front of you, up to 50 feet away.",
       "category": "Ability"
     },
-
     {
       "image": "07947",
       "id": 4188,
+      "gameId": 8271,
       "name": "Soulfire",
       "type": "Curse",
       "spec": "Path of Wrath",
@@ -1468,31 +1044,31 @@
       "cost": "35 Action Points",
       "range": "No range",
       "incant": "1.0s cast",
-      "cooldown": "4.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "Builds 35 Righteous Fury<br>Requires Great Weapon",
       "description": "Deals 390 Spirit damage over 9 seconds to all enemies within 30 feet.",
       "category": "Ability"
     },
-
     {
       "image": "23155",
       "id": 4166,
+      "gameId": 690,
       "name": "Steal Life",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "1m cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale"
     },
-
     {
       "image": "22709",
       "id": 4162,
+      "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1505,10 +1081,10 @@
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
       "category": "CareerTactic"
     },
-
     {
       "image": "08030",
       "id": 4230,
+      "gameId": 8237,
       "name": "Supplication",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1516,15 +1092,15 @@
       "cost": "30 Action Points / Sec",
       "range": "No range",
       "incant": "5.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "For the next 5 seconds, you will convert 30 action points into 30 Righteous Fury every second. If you run out of action points or break your concentration, this effect will end.",
       "category": "Ability"
     },
-
     {
       "image": "07946",
       "id": 4144,
+      "gameId": 8247,
       "name": "Touch of the Divine",
       "type": "Healing",
       "spec": "Path of Salvation",
@@ -1537,10 +1113,10 @@
       "description": "Restores 350 health to all group mates within 100 feet of you.",
       "category": "Ability"
     },
-
     {
       "image": "22710",
       "id": 4171,
+      "gameId": 777,
       "name": "Unwavering Faith",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1553,55 +1129,38 @@
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic"
     },
-
     {
       "image": "08037",
       "id": 4147,
+      "gameId": 8256,
       "name": "Vow of Silence",
       "type": "Curse",
       "spec": "Path of Grace",
       "minrank": "35",
       "cost": "25 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "30s cooldown",
       "note": "Builds 25 Righteous Fury",
       "description": "A powerful strike which deals 177 damage to your enemy and knocks the wind out of them for 4 seconds, Silencing them and making them unable to use magic.",
       "category": "Ability"
     },
-
     {
       "image": "07927",
       "id": 4138,
+      "gameId": 8255,
       "name": "Weight of Guilt",
       "type": "Curse",
       "spec": "Path of Wrath",
       "minrank": "9",
       "cost": "30 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "Deals 177 damage to your target. If they are Cursed, then they will also become snared, reducing their run speed by 40% for 6 seconds.",
       "category": "Ability"
     },
-
-    {
-      "image": "07927",
-      "id": 7505,
-      "name": "In Pursuit",
-      "type": "Buff",
-      "spec": "Path of Wrath",
-      "minrank": "1",
-      "cost": "No Cost",
-      "range": "Self",
-      "incant": "Insta-Cast",
-      "cooldown": "5min cooldown",
-      "note": "Requires Great Weapon",
-      "description": "Grants 50% movement speed and immunity to snare and roots for 5s.",
-      "category": "Ability"
-    },
-
     {
       "image": "07945",
       "id": 7506,
@@ -1611,45 +1170,45 @@
       "minrank": "6",
       "cost": "30 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "You crush your enemy, dealing 102 damage to them. The divine power of Sigmar heals your defensive target and any allies within 10 feet of them for 100% of the damage that was dealt.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2931
     },
-
     {
       "image": "07976",
       "id": 7507,
       "name": "Sacrifice",
       "type": "Defensive",
       "spec": "Path of Grace",
-      "minrank": "32",
-      "cost": "No Cost",
+      "minrank": "1",
+      "cost": "No AP Cost",
       "range": "Self",
       "incant": "10s cast",
       "cooldown": "30s cooldown",
       "note": "Requires Shield<br/>Requires 25 Righteous Fury per second",
       "description": "You shield your team with your life force, you will suffer 300 damage every second, any groupmates within 100ft will have 525 health restored to them. This effect will end if you break your concentration, or run out of Righteous Fury.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2940
     },
-
     {
       "image": "23419",
       "id": 7508,
       "name": "Divine Warden",
       "type": "Blessing",
       "spec": "Path of Grace",
-      "minrank": "25",
+      "minrank": "8",
       "cost": "25 Action Points",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Requires Shield<br/>Builds 25 Righteous Fury",
       "description": "You attack with your buckler dealing 177 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2948
     },
-
     {
       "image": "23420",
       "id": 7509,
@@ -1657,31 +1216,31 @@
       "type": "Defensive",
       "spec": "Path of Grace",
       "minrank": "1",
-      "cost": "No Cost",
+      "cost": "No AP Cost",
       "range": "Self",
       "incant": "10s cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield<br/>Requires 25 Righteous Fury per second",
       "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. This effect will end if you break your concentration, or run out of Righteous Fury.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2947
     },
-
     {
       "image": "23421",
       "id": 7510,
       "name": "Sigmar's Wrath",
       "type": "Buff",
       "spec": "Path of Wrath",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "Self",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "Requires Great Weapon",
       "description": "Sigmar's Wrath rises within you, your attacks will ignore 25% of the victim's armor for the next 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2937
     },
-
     {
       "image": "08066",
       "id": 2960,
@@ -1695,7 +1254,8 @@
       "cooldown": "60s cooldown",
       "note": "Requires Great Weapon",
       "description": "You wrath removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2960
     }
   ]
 }

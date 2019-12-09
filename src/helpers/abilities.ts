@@ -53,6 +53,7 @@ export type Ability = {
   description: string;
   category: string;
   abilityType?: AbilityType;
+  gameId?: number;
 };
 
 export const arrayContains = <T>(
