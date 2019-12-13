@@ -14,7 +14,13 @@
         "lvl6": 7575,
         "lvl7": 4490
       },
-      "coreAbilities": [4449, 4437, 4438, 4451, 4444]
+      "coreAbilities": [
+        4449,
+        4437,
+        4438,
+        4451,
+        4444
+      ]
     },
     "b": {
       "name": "Path of Da' Toughest",
@@ -30,7 +36,14 @@
         "lvl6": 4499,
         "lvl7": 4497
       },
-      "coreAbilities": [4440, 4442, 4445, 4458, 4492, 4540]
+      "coreAbilities": [
+        4440,
+        4442,
+        4445,
+        4458,
+        4492,
+        4540
+      ]
     },
     "c": {
       "name": "Path of Da' Boss",
@@ -46,7 +59,13 @@
         "lvl6": 4503,
         "lvl7": 4504
       },
-      "coreAbilities": [4441, 4452, 4456, 4459, 4458]
+      "coreAbilities": [
+        4441,
+        4452,
+        4456,
+        4459,
+        4458
+      ]
     }
   },
   "data": [
@@ -55,17 +74,17 @@
       "id": 4485,
       "name": "Arm Breaka",
       "type": "Ailment",
-      "spec": "Path of Da Brawler",
-      "minrank": "1",
+      "spec": "Path of Da' Brawler",
+      "minrank": "21",
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Leads to da' Gud Plan!",
       "description": "Deals 127 physical damage. Removes 50 Action Points over 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1687
     },
-
     {
       "image": "22704",
       "id": 4460,
@@ -74,62 +93,62 @@
       "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Follow 'me Lead will deal an additional 375 physical damage over 5 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1700
     },
-
     {
       "image": "22701",
       "id": 4500,
       "name": "Big Brawlin'",
       "type": "Buff",
-      "spec": "Path of Da Boss",
-      "minrank": "1",
+      "spec": "Path of Da' Boss",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Big Swing now Snares for 20% for 5 seconds and Disorients, increasing build times by 20%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1718
     },
-
     {
       "image": "02562",
       "id": 4453,
       "name": "Big Slash",
       "type": "Damaging",
-      "spec": "Path of Da Brawler",
+      "spec": "Path of Da' Toughest",
       "minrank": "18",
       "cost": "40 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
       "description": "Deals 80 physical damage to targets 25 feet from you, and knocks them back.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1680
     },
-
     {
       "image": "02557",
       "id": 4458,
       "name": "Big Swing",
       "type": "Ailment",
-      "spec": "Path of Da Boss",
+      "spec": "Path of Da' Boss",
       "minrank": "35",
       "cost": "50 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
       "description": "You furiously swing your weapon in a wide circle, dealing 73 physical damage to targets within 30 feet and reducing their Strength by 75 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1672
     },
-
     {
       "image": "22708",
       "id": 4465,
@@ -138,14 +157,14 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you Parry, you immediately put your \"Best Plan\" in motion.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1702
     },
-
     {
       "image": "22702",
       "id": 4467,
@@ -154,46 +173,46 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Cooldown on Shut Yer Face is reduced by 5 seconds and damage is increased to 438 physical damage",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1704
     },
-
     {
       "image": "02567",
       "id": 4494,
       "name": "Can't Hit Me!",
       "type": "Blessing",
-      "spec": "Path of Da Toughest",
-      "minrank": "1",
-      "cost": "15 Action Points / Sec",
-      "range": "No range",
+      "spec": "Path of Da' Toughest",
+      "minrank": "25",
+      "cost": "20 Action Points / Sec",
+      "range": "Self",
       "incant": "20.0s channel",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
       "description": "Increase Block Chance by 50%. While you are channeling, you can move at 60% movement speed. After you block, the attacker takes 175 physical damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1692
     },
-
     {
       "image": "02573",
       "id": 4497,
-      "name": "Can't Touch Us",
+      "name": "Cant' Touch Us",
       "type": "Buff",
-      "spec": "Path of Da Toughest",
-      "minrank": "1",
+      "spec": "Path of Da' Toughest",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Shield",
       "description": "Group members within 100 feet will gain 200 Action Points and will absorb up to 3000 damage over 15 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1728
     },
-
     {
       "image": "02422",
       "id": 4454,
@@ -202,14 +221,14 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1679
     },
-
     {
       "image": "23174",
       "id": 4477,
@@ -220,12 +239,12 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 608
     },
-
     {
       "image": "02445",
       "id": 4439,
@@ -236,18 +255,18 @@
       "cost": "No AP Cost",
       "range": "250ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "This ability does not trigger the GCD",
       "description": "You suddenly realize that you could smash things better with a different plan.<br><br>  No Plan: You gain Da Good Plan.<br>  Da Good Plan: You gain Da Best Plan.<br>  Da Best Plan: You gain Da Good Plan.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1734
     },
-
     {
       "image": "02497",
       "id": 4540,
       "name": "Clobber",
       "type": "Damaging",
-      "spec": "Path of Da Toughest",
+      "spec": "Path of Da' Toughest",
       "minrank": "1",
       "cost": "35 Action Points",
       "range": "5ft range",
@@ -255,73 +274,73 @@
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
       "description": "Slashes for 152 physical damage, and generates extra hate against monsters.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1664
     },
-
     {
       "image": "02561",
       "id": 4444,
       "name": "Da Big Un'",
       "type": "Damaging",
-      "spec": "Path of Da Brawler",
+      "spec": "Path of Da' Brawler",
       "minrank": "8",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "A mighty leaping strike with your axe which deals 176 physical damage to all targets 25 feet in front of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1678
     },
-
     {
       "image": "02554",
       "id": 4451,
       "name": "Da Biggest!",
       "type": "Defensive",
-      "spec": "Path of Da Brawler",
+      "spec": "Path of Da' Brawler",
       "minrank": "14",
       "cost": "55 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s shared cooldown",
+      "cooldown": "No cooldown",
       "note": "Can only have 1 war bellow active.",
       "description": "A mighty war cry that weakens your foes and gives you their strengths. All your melee attacks gain a 25% chance to randomly steal a 75 ability bonus to stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1668
     },
-
     {
       "image": "02559",
       "id": 4456,
       "name": "Da Greenest",
       "type": "Defensive",
-      "spec": "Path of Da Boss",
+      "spec": "Path of Da' Boss",
       "minrank": "25",
       "cost": "55 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s shared cooldown",
+      "cooldown": "No cooldown",
       "note": "Can only have 1 war bellow active.",
       "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by 236 for 10 seconds on all group members within 100 feet. Physical damage will increase armour by 618.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1675
     },
-
     {
       "image": "02400",
       "id": 4440,
       "name": "Da Toughest!",
       "type": "Defensive",
-      "spec": "Path of Da Toughest",
+      "spec": "Path of Da' Toughest",
       "minrank": "4",
       "cost": "55 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s shared cooldown",
+      "cooldown": "No cooldown",
       "note": "Can only have 1 war bellow active.",
       "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to increase your group's wounds by 32 for 10 seconds. Anyone affected will be healed by the amount increased.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1673
     },
-
     {
       "image": "22694",
       "id": 4463,
@@ -330,14 +349,14 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the duration of \"Wot Armor?\" by 10 seconds, and will now reduces target's toughness by 75.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1703
     },
-
     {
       "image": "02453",
       "id": 4470,
@@ -346,14 +365,14 @@
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All targets within 30 feet of you take 1200 damage and are Silenced, unable to use Magic for 5 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1722
     },
-
     {
       "image": "23172",
       "id": 4475,
@@ -364,12 +383,12 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A powerful melee attack reduces your target's armor by 1056 and deals 900 damage over 15 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 606
     },
-
     {
       "image": "23173",
       "id": 4479,
@@ -380,12 +399,12 @@
       "cost": "Rank 2 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 610
     },
-
     {
       "image": "22707",
       "id": 4482,
@@ -394,30 +413,30 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 735
     },
-
     {
       "image": "02528",
       "id": 4496,
       "name": "Down Ya Go",
       "type": "Damaging",
-      "spec": "Path of Da Boss",
-      "minrank": "1",
+      "spec": "Path of Da' Boss",
+      "minrank": "29",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "Deals 352 physical damage and knocks target down for 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1688
     },
-
     {
       "image": "05004",
       "id": 4539,
@@ -426,14 +445,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "22701",
       "id": 4471,
@@ -442,20 +461,20 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 500
     },
-
     {
       "image": "02553",
       "id": 4441,
       "name": "Follow 'me Lead",
       "type": "Blessing",
-      "spec": "Path of Da Boss",
+      "spec": "Path of Da' Boss",
       "minrank": "5",
       "cost": "35 Action Points",
       "range": "5ft range",
@@ -463,9 +482,9 @@
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
       "description": "You batter your target to show the runts how it's done. You deals 127 physical damage and increase your own and your defensive target's Weapon Skill by for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1667
     },
-
     {
       "image": "02529",
       "id": 4446,
@@ -474,14 +493,14 @@
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "25 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "An encouraging bellow that causes group members within 100 feet to regenerate Action Points 20% faster for 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1684
     },
-
     {
       "image": "22702",
       "id": 4462,
@@ -490,46 +509,46 @@
       "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Block Chance by 10% when using a shield.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1705
     },
-
     {
       "image": "22707",
       "id": 4486,
       "name": "Gork Smash!",
       "type": "Buff",
-      "spec": "Path of Da Brawler",
-      "minrank": "1",
+      "spec": "Path of Da' Brawler",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Critical Hit Chance by 10% when you have a Gud' Plan, and 20% while you have Da' Best Plan.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1712
     },
-
     {
       "image": "22702",
       "id": 4488,
       "name": "Guud at Big Choppin!",
       "type": "Buff",
-      "spec": "Path of Da Brawler",
-      "minrank": "1",
+      "spec": "Path of Da' Brawler",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "When you are wielding a Greatweapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1713
     },
-
     {
       "image": "02428",
       "id": 4447,
@@ -538,30 +557,30 @@
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "20 Action Points / Sec",
-      "range": "No range",
+      "range": "Self",
       "incant": "12.0s channel",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1685
     },
-
     {
       "image": "22707",
       "id": 4481,
       "name": "I'm Da Biggest!",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Wounds by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 734
     },
-
     {
       "image": "23175",
       "id": 4480,
@@ -570,14 +589,14 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 613
     },
-
     {
       "image": "02441",
       "id": 4450,
@@ -586,46 +605,46 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1740
     },
-
     {
       "image": "22702",
       "id": 4484,
       "name": "Keep It Goin'!",
       "type": "Buff",
-      "spec": "Path of Da Brawler",
-      "minrank": "1",
+      "spec": "Path of Da' Brawler",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases damage on Da Big Un' to 276 physical damage",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1711
     },
-
     {
       "image": "22702",
       "id": 4491,
       "name": "Less Stabbin' Me",
       "type": "Buff",
-      "spec": "Path of Da Toughest",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
+      "spec": "Path of Da' Toughest",
+      "minrank": "17",
+      "cost": "1 Action Points",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Block and Parry by 5% when you have a Gud' Plan, and 10% while you have Da' Best Plan.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1714
     },
-
     {
       "image": "02551",
       "id": 4541,
@@ -634,14 +653,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "20 Action Points",
-      "range": "5-65ft range",
+      "range": "5 - 65ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A basic throwing attack that inflicts 104 physical damage. Has a chance to deal 703 physical damage to a severely wounded target if you are behind them.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1665
     },
-
     {
       "image": "22696",
       "id": 4461,
@@ -650,14 +669,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Clobber now removes 6 percentage points from your opponents Morale.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1701
     },
-
     {
       "image": "22701",
       "id": 4466,
@@ -666,14 +685,14 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "War Bellows (Da Biggest, Da Toughest, Da Greenest) now also deal 225 physical damage to your offensive target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1706
     },
-
     {
       "image": "22709",
       "id": 4473,
@@ -682,94 +701,94 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 504
     },
-
     {
       "image": "22702",
       "id": 7576,
       "name": "Mor' Choppin' Dem!",
       "type": "Buff",
-      "spec": "Path of Da Boss",
-      "minrank": "1",
+      "spec": "Path of Da' Boss",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You put more WAAA into your WAAAAAAAGH! urging your group on. For the next 20 seconds WAAAAAAAGH! will decrease the cooldown of abilities used by your group by 5 seconds. Increases the cooldown of WAAAAAAAGH! to 20 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 2866
     },
-
     {
       "image": "22708",
       "id": 4495,
       "name": "Mor' Hardcore",
       "type": "Buff",
-      "spec": "Path of Da Toughest",
-      "minrank": "1",
+      "spec": "Path of Da' Toughest",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Right in Da Jibblies and Ya Missed Me will now knock targets back a medium distance.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1716
     },
-
     {
       "image": "22702",
       "id": 4502,
       "name": "No Choppin' Me",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Follow 'me Lead will also buff all groupmates within 30 feet of the defensive target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1719
     },
-
     {
       "image": "02566",
       "id": 4487,
       "name": "Not in da face!",
       "type": "Ailment",
-      "spec": "Path of Da Toughest",
-      "minrank": "1",
+      "spec": "Path of Da' Toughest",
+      "minrank": "25",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "Deals 202 physical damage. Increases cooldowns on target by 5 seconds for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1691
     },
-
     {
       "image": "02572",
       "id": 4490,
       "name": "Puddle o Muck",
       "type": "Damaging",
-      "spec": "Path of Da Brawler",
-      "minrank": "1",
+      "spec": "Path of Da' Brawler",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage over 15 seconds to all targets 40 feet in front of you. Affected targets are snared by 40% for 15 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1727
     },
-
     {
       "image": "02570",
       "id": 4468,
@@ -778,14 +797,14 @@
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Every member of your group within 100 feet gains an additional 10% chance to Parry and Dodge for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1721
     },
-
     {
       "image": "23176",
       "id": 4478,
@@ -794,62 +813,62 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "3.0s channel",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 607
     },
-
     {
       "image": "02419",
       "id": 4445,
       "name": "Right in Da Jibblies",
       "type": "Ailment",
-      "spec": "Path of Da Toughest",
+      "spec": "Path of Da' Toughest",
       "minrank": "9",
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
       "description": "Deals 177 physical damage. Causes target to take a 75 ability penalty to Weapon Skill for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1682
     },
-
     {
       "image": "02401",
       "id": 4501,
       "name": "Rock 'Ard",
       "type": "Blessing",
-      "spec": "Path of Da Boss",
-      "minrank": "1",
+      "spec": "Path of Da' Boss",
+      "minrank": "25",
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Leads to da' Gud Plan!",
       "description": "Deals 127 physical damage. Activates protective shield that absorbs up to 400 over 5 seconds for group mates within 80ft.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1694
     },
-
     {
       "image": "22702",
       "id": 4472,
       "name": "Rugged",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Toughness by 160",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 503
     },
-
     {
       "image": "02558",
       "id": 4448,
@@ -863,15 +882,15 @@
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
       "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer and all hate that they cause will be split evenly between the two of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1674
     },
-
     {
       "image": "02499",
       "id": 4452,
       "name": "Savin' Me Hide",
       "type": "Blessing",
-      "spec": "Path of Da Boss",
+      "spec": "Path of Da' Boss",
       "minrank": "16",
       "cost": "No AP Cost",
       "range": "5ft range",
@@ -879,9 +898,9 @@
       "cooldown": "No cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "Deals 202 physical damage. You gain a 75 ability bonus to toughness for 20 seconds. Group members within 100 feet will take only 80% incoming magic damage for the next 4 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1677
     },
-
     {
       "image": "02497",
       "id": 4455,
@@ -892,12 +911,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Target must have an Enchantment",
       "description": "A shattering attack that removes one Enchantment from your enemy and do 122 physical damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1733
     },
-
     {
       "image": "23177",
       "id": 4476,
@@ -906,36 +925,36 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 611
     },
-
     {
       "image": "02457",
       "id": 4459,
       "name": "Shut Yer Face",
       "type": "Ailment",
-      "spec": "Path of Da Boss",
+      "spec": "Path of Da' Boss",
       "minrank": "40",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "Deals 302 physical damage. Silences target for 4 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1683
     },
-
     {
       "image": "02560",
       "id": 4438,
       "name": "Skull Thumper",
       "type": "Damaging",
-      "spec": "Path of Da Brawler",
+      "spec": "Path of Da' Brawler",
       "minrank": "3",
       "cost": "No AP Cost",
       "range": "5ft range",
@@ -943,9 +962,9 @@
       "cooldown": "No cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "A pounding blow to your opponent's skull that deals 177 physical damage and for the next 10 seconds their head will ring for 75 corporeal damage whenever they are Critically hit.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1676
     },
-
     {
       "image": "22707",
       "id": 4483,
@@ -954,30 +973,30 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your critical hits will deal 25% more bonus critical damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 739
     },
-
     {
       "image": "22704",
       "id": 4493,
       "name": "Stop Hittin' Da Runts",
       "type": "Buff",
-      "spec": "Path of Da Toughest",
-      "minrank": "1",
+      "spec": "Path of Da' Toughest",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You gain 40 Action Points whenever one of your War Bellows trigger.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1715
     },
-
     {
       "image": "02556",
       "id": 4443,
@@ -988,34 +1007,34 @@
       "cost": "20 Action Points",
       "range": "65ft range",
       "incant": "Instant cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1671
     },
-
     {
       "image": "02564",
       "id": 4489,
       "name": "T'ree Hit Combo",
       "type": "Damaging",
-      "spec": "Path of Da Brawler",
-      "minrank": "1",
+      "spec": "Path of Da' Brawler",
+      "minrank": "29",
       "cost": "No AP Cost",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "3.0s cast",
-      "cooldown": "8.0s cooldown",
+      "cooldown": "8s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!<br>Requires Great Weapon",
       "description": "You swing your weapon lots, dealing 213 physical damage every 0.8 seconds for 3 seconds. As Da' Big Boss would say, \"Countin' is for Stuntiez.\"",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2810
     },
-
     {
       "image": "02526",
       "id": 4437,
       "name": "Trip 'Em Up",
       "type": "Ailment",
-      "spec": "Path of Da Brawler",
+      "spec": "Path of Da' Brawler",
       "minrank": "2",
       "cost": "35 Action Points",
       "range": "5ft range",
@@ -1023,15 +1042,15 @@
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
       "description": "You \"trip\" your opponent by hacking at their legs for 127 physical damage, reducing their movement speed by 40% for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1670
     },
-
     {
       "image": "02555",
       "id": 4442,
       "name": "Tuffer 'n Nails",
       "type": "Blessing",
-      "spec": "Path of Da Toughest",
+      "spec": "Path of Da' Toughest",
       "minrank": "6",
       "cost": "30 Action Points",
       "range": "5ft range",
@@ -1039,9 +1058,9 @@
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
       "description": "Deals 152 physical damage. Gain a 618 ability bonus to armor for 20 seconds..",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1669
     },
-
     {
       "image": "22694",
       "id": 4474,
@@ -1050,30 +1069,30 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Juggernaut's cooldown is reduced to 20 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 505
     },
-
     {
       "image": "02569",
       "id": 4503,
       "name": "WAAAAAAAGH!",
       "type": "Damaging",
-      "spec": "Path of Da Boss",
-      "minrank": "1",
+      "spec": "Path of Da' Boss",
+      "minrank": "29",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "Deals 173 Corporeal damage to all targets within 30 feet. Causes enemies to take a 236 ability penalty to Corporeal Resistance for 20 seconds. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1695
     },
-
     {
       "image": "02571",
       "id": 4469,
@@ -1082,30 +1101,30 @@
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Each group member within 100 feet gains 160 Toughness for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1723
     },
-
     {
       "image": "02568",
       "id": 4499,
       "name": "We'z Bigger",
       "type": "Blessing",
-      "spec": "Path of Da Toughest",
-      "minrank": "1",
-      "cost": "No AP cost",
-      "range": "5ft range",
+      "spec": "Path of Da' Toughest",
+      "minrank": "29",
+      "cost": "No AP Cost",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
       "description": "You proclaim your size to Mok, rendering yourself and any of your groupmates within 30ft of you immune to crowd control effects for 3 seconds and reducing damage your group receives by 10%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2856
     },
-
     {
       "image": "02563",
       "id": 4457,
@@ -1114,20 +1133,20 @@
       "spec": "Core Ability",
       "minrank": "30",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You root four enemies within 30 feet of you, preventing them fom moving for 10 seconds. There is a 50% chance of the root breaking with every hit.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1681
     },
-
     {
       "image": "02552",
       "id": 4449,
       "name": "Wot armor?",
       "type": "Ailment",
-      "spec": "Path of Da Brawler",
+      "spec": "Path of Da' Brawler",
       "minrank": "12",
       "cost": "30 Action Points",
       "range": "5ft range",
@@ -1135,73 +1154,73 @@
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
       "description": "You smash your weapon into your target, dealing 109 damage and reducing their armor by 618 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1666
     },
-
     {
       "image": "02565",
       "id": 4492,
       "name": "Ya Missed Me",
       "type": "Ailment",
-      "spec": "Path of Da Toughest",
+      "spec": "Path of Da' Toughest",
       "minrank": "21",
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Block<br>Leads to da' Gud Plan!",
       "description": "Deals 127 undefendable physical damage. Target's physical damage done is reduced to 80% for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1690
     },
-
     {
       "image": "02574",
       "id": 4504,
       "name": "Yer Nothin",
       "type": "Damaging",
-      "spec": "Path of Da Boss",
-      "minrank": "1",
+      "spec": "Path of Da' Boss",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage over 12 seconds to all targets within 30 feet in of you. Affected targets lose 30 seconds of Morale over 12 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1729
     },
-
     {
       "image": "22706",
       "id": 4498,
       "name": "You Got Nuffin'",
       "type": "Buff",
-      "spec": "Path of Da Boss",
-      "minrank": "1",
+      "spec": "Path of Da' Boss",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "When War Bellows trigger they will now restore 270 health over 10 seconds to your group members within 100 feet of you.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1717
     },
-
     {
       "image": "abi_or_figure01",
       "id": 7575,
-      "name": "You Wot?",
+      "name": "You Wot!?!!!",
       "type": "Damaging",
-      "spec": "Path of Da Brawler",
-      "minrank": "3",
+      "spec": "Path of Da' Brawler",
+      "minrank": "9",
       "cost": "20 Action Points",
       "range": "30ft range",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Leads to da' Gud plan",
       "description": "You think you heard someone say something about the size of your weapon. You fly into a rage for 20 seconds dealing 10% more damage. Your armor and resistances increase by 30%, defences by 15%, but when your rage subsides you will move at only 80% movement speed for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2851
     },
-
     {
       "image": "22702",
       "id": 4464,
@@ -1210,12 +1229,13 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you Block an attack you gain 4 percentage points worth of Morale. This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1707
     }
   ]
 }

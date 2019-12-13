@@ -203,14 +203,15 @@
       "name": "Concussive Runes",
       "type": "Buff",
       "spec": "Path of Grimnir",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Rune of cleaving grows ever more potent and now also reduces armor by 618.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1638
     },
     {
       "image": "22706",
@@ -748,12 +749,13 @@
       "spec": "Path of Grimnir",
       "minrank": "18",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "A burst of force errupts from your rune dealing 756 Elemental Damage over 9 seconds to targets 40 feet in front of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1597
     },
     {
       "image": "04643",

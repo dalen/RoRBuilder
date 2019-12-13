@@ -294,7 +294,8 @@ const validateAbility = async (
     const matchingName = Object.values(abilityData).filter(
       gameAbility =>
         gameAbility.Name === ability.name &&
-        (gameAbility.CareerID === 0 || gameAbility.CareerID === careerId),
+        (gameAbility.CareerID === 0 || gameAbility.CareerID === careerId) &&
+        gameAbility.Description !== undefined,
     );
 
     // How many characters of description match for each skill
@@ -333,6 +334,14 @@ const validateAbility = async (
     console.log(JSON.stringify(gameAbility, undefined, 2));
   }
 
+  /*
+  console.log(
+    colors.cyan(
+      `Type: ${ability.type} ${gameAbility.Components[0]?.Operation}`,
+    ),
+  );
+  */
+
   return {
     ...ability,
     ...validateCooldown(ability, gameAbility),
@@ -341,6 +350,7 @@ const validateAbility = async (
     ...validateCastTime(ability, gameAbility),
     ...validateRange(ability, gameAbility),
     ...validateAPCost(ability, gameAbility),
+    ...validateName(ability, gameAbility),
   };
 };
 
@@ -391,7 +401,9 @@ const main = async () => {
 
   await validateCareer('ironbreaker', CareerLine.IRON_BREAKER, abilityData);
   await validateCareer('slayer', CareerLine.SLAYER, abilityData);
-  // await validateCareer('rune-priest', CareerLine.RUNE_PRIEST, abilityData);
+  await validateCareer('rune-priest', CareerLine.RUNE_PRIEST, abilityData);
+  await validateCareer('engineer', CareerLine.ENGINEER, abilityData);
+  await validateCareer('black-orc', CareerLine.BLACK_ORC, abilityData);
   await validateCareer(
     'warrior-priest',
     CareerLine.WARRIOR_PRIEST,
