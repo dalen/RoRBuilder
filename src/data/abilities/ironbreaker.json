@@ -14,7 +14,13 @@
         "lvl6": 3769,
         "lvl7": 3770
       },
-      "coreAbilities": [3729, 3732, 3738, 3721, 3720]
+      "coreAbilities": [
+        3729,
+        3732,
+        3738,
+        3721,
+        3720
+      ]
     },
     "b": {
       "name": "Path of Stone",
@@ -30,7 +36,13 @@
         "lvl6": 3776,
         "lvl7": 3777
       },
-      "coreAbilities": [3718, 3725, 3723, 3822, 3731]
+      "coreAbilities": [
+        3718,
+        3725,
+        3723,
+        3822,
+        3731
+      ]
     },
     "c": {
       "name": "Path of Brotherhood",
@@ -46,74 +58,32 @@
         "lvl6": 3783,
         "lvl7": 3784
       },
-      "coreAbilities": [3736, 3733, 3739, 3726, 3719]
+      "coreAbilities": [
+        3736,
+        3733,
+        3739,
+        3726,
+        3719
+      ]
     }
   },
   "data": [
-    {
-      "image": "22736",
-      "id": 3794,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 3792,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 3793,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "04516",
       "id": 3765,
       "name": "Ancestor's Fury",
       "type": "Blessing",
       "spec": "Path of Vengeance",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 15 Grudge",
       "description": "The memory of your ancestors bolsters your resolve, increasing Strength by 75 and chance to critically hit by 10% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1383
     },
-
     {
       "image": "22711",
       "id": 3763,
@@ -122,94 +92,46 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Armor by 660.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 716
     },
-
-    {
-      "image": "22725",
-      "id": 3807,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 3809,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 3808,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22704",
       "id": 3778,
       "name": "Avalanche",
       "type": "Buff",
       "spec": "Path of Brotherhood",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "When you disrupt an enemy's spell, your run speed will be increased by 30% for 5 seconds and you will recover 90 health.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1409
     },
-
     {
       "image": "04591",
       "id": 3774,
       "name": "Avenging the Debt",
       "type": "Damaging",
       "spec": "Path of Stone",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 20 Grudge",
       "description": "A decisive final strike that deals 194 damage to your enemy. If the target dies immediately after being hit by this attack, then you will regain 285 health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1381
     },
-
     {
       "image": "04584",
       "id": 3731,
@@ -220,28 +142,28 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Costs 25 Grudge",
       "description": "A dismissive strike that deals 244 damage and knocks the enemy away.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1365
     },
-
     {
       "image": "04553",
       "id": 3770,
       "name": "Axe Slam",
       "type": "Damaging",
       "spec": "Path of Vengeance",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1600 damage to all enemies in front of you, up to 65 feet away.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1425
     },
-
     {
       "image": "04575",
       "id": 3820,
@@ -250,62 +172,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "20 Action Points",
-      "range": "5-65ft range",
+      "range": "5 - 65ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A basic throwing attack that inflicts 104 damage. Has a chance to deal 703 damage to a severely wounded target if you are behind them.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1352
     },
-
-    {
-      "image": "22718",
-      "id": 3816,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 3818,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 3817,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "04409",
       "id": 3720,
@@ -316,76 +190,28 @@
       "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
       "description": "You chop at your enemy's legs, causing them to take 255 damage over 10 seconds and snaring them, reducing their run speed by 40%.<br><br> With 25 Grudges: Damages for 360 damage over 10 seconds.<br> With 50 Grudges: Damages for 450 damage over 10 seconds.<br> With 75 Grudges: Damages for 550 damage over 10 seconds.<br> With 100 Grudges: Damages for 650 damage over 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1358
     },
-
-    {
-      "image": "22731",
-      "id": 3812,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 3811,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 3810,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "04593",
       "id": 3767,
       "name": "Cave-In",
       "type": "Curse",
       "spec": "Path of Vengeance",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Improves with Grudge<br>Requires Great Weapon",
       "description": "You smash into your enemy, knocking them down for 3 seconds.<br><br> At 25 Grudges: Deals 170 damage over 5 seconds.<br> At 50 Grudges: Deals 295 damage over 5 seconds.<br> At 75 Grudges: Deals 420 damage over 5 seconds.<br> At 100 Grudges: Deals 545 damage over 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1384
     },
-
     {
       "image": "04586",
       "id": 3734,
@@ -394,14 +220,14 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1368
     },
-
     {
       "image": "23174",
       "id": 3757,
@@ -412,60 +238,12 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 608
     },
-
-    {
-      "image": "22716",
-      "id": 3814,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 3813,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 3815,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "23172",
       "id": 3755,
@@ -476,12 +254,12 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 606
     },
-
     {
       "image": "23173",
       "id": 3759,
@@ -492,12 +270,12 @@
       "cost": "Rank 2 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 610
     },
-
     {
       "image": "22702",
       "id": 3745,
@@ -506,94 +284,46 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you Parry you also build 30 Grudge. This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1397
     },
-
     {
       "image": "04601",
       "id": 3784,
       "name": "Earthen Renewal",
       "type": "Healing",
       "spec": "Path of Brotherhood",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Group members within 100 feet regain 798 health and 240 Action Points over 9 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1426
     },
-
     {
       "image": "04596",
       "id": 3781,
       "name": "Earthshatter",
       "type": "Curse",
       "spec": "Path of Brotherhood",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Improves with Grudge",
       "description": "The ground around you cracks and shatters and snares all enemies within 30 feet, reducing their run speed by 40% for 10 seconds.<br><br> At 25 Grudge: Deals 145 damage to each enemy hit by the effect.<br> At 50 Grudge: Deals 245 damage to each enemy hit by the effect.<br> At 75 Grudge: Deals 345 damage to each enemy hit by the effect.<br> At 100 Grudge: Deals 445 damage to each enemy hit by the effect.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1387
     },
-
-    {
-      "image": "22725",
-      "id": 3805,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 3806,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 3804,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "05004",
       "id": 3819,
@@ -602,14 +332,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "22701",
       "id": 3751,
@@ -618,46 +348,46 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 500
     },
-
     {
       "image": "22694",
       "id": 3771,
       "name": "Furious Reprisal",
       "type": "Debuff",
       "spec": "Path of Stone",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Shield Of Reprisal will also increase the cooldown times of the enemy's abilities by an additional 5 seconds for the next 5 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1403
     },
-
     {
       "image": "22702",
       "id": 3768,
       "name": "Greataxe Mastery",
       "type": "Buff",
       "spec": "Path of Vengeance",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "When you are wielding a Greatweapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1408
     },
-
     {
       "image": "04588",
       "id": 3737,
@@ -666,14 +396,14 @@
       "spec": "Core Ability",
       "minrank": "30",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You shatter the ground for 30 feet around you, rooting up to four enemies in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1370
     },
-
     {
       "image": "04599",
       "id": 3750,
@@ -682,14 +412,14 @@
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You become protected by a barrier which will absorb up to 7200 damage for 20 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1420
     },
-
     {
       "image": "04462",
       "id": 3722,
@@ -698,30 +428,30 @@
       "spec": "Core Ability",
       "minrank": "5",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Costs 40 Grudge",
       "description": "You focus on your Grudges to ready yourself for action, restoring 160 AP.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1373
     },
-
     {
       "image": "04594",
       "id": 3769,
       "name": "Grudge-Born Fury",
       "type": "Damaging",
       "spec": "Path of Vengeance",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "20 Action Points / Sec",
       "range": "5ft range",
       "incant": "3.0s cast",
-      "cooldown": "8.0s cooldown",
+      "cooldown": "8s cooldown",
       "note": "Improves with Grudge<br>Requires Great Weapon",
       "description": "You constantly pummel your target with brutal attacks, dealing up to 520 damage over 3 seconds. Your attacks will end if you lose your concentration.<br><br> At 25 Grudge: Chance to Critically hit is increased by 5%.<br> At 50 Grudge: Chance to Critically hit is increased by 10%.<br> At 75 Grudge: Chance to Critically hit is increased by 15%.<br> At 100 Grudge: Chance to Critically hit is increased by 20%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1385
     },
-
     {
       "image": "02414",
       "id": 3822,
@@ -735,25 +465,25 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A vicious attack that deals 119 damage, and causes monsters to hate you much more than normal.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1355
     },
-
     {
       "image": "04432",
       "id": 3783,
       "name": "Grumble An' Mutter",
       "type": "Healing",
       "spec": "Path of Brotherhood",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You begin to constantly complain about everything that's wrong today, telling everyone how much better things were back in the old days. You feel much better for the chance to grumble, and regain 302 health every 3 seconds for up to 30 seconds. You lose 10 Grudge each time this happens, and the effect will end if you run out of Grudges.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1388
     },
-
     {
       "image": "04515",
       "id": 3727,
@@ -767,9 +497,9 @@
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
       "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1363
     },
-
     {
       "image": "04578",
       "id": 3719,
@@ -783,57 +513,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 119 damage to your target and prepare yourself for their attacks, increasing your armor by 618 for 20 seconds.<br>Your Oath Friend's armor will also be increased if they are within 50 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1356
     },
-
-    {
-      "image": "22730",
-      "id": 3797,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 3796,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 3795,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "04577",
       "id": 3721,
@@ -847,9 +529,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You strike a crushing blow for 144 damage.<br><br> With 25 Grudges: Deals 198 damage over 3 seconds.<br> With 50 Grudges: Deals 231 damage over 3 seconds.<br> With 75 Grudges: Deals 264 damage over 3 seconds.<br> With 100 Grudges: Deals 297 damage over 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1354
     },
-
     {
       "image": "04421",
       "id": 3728,
@@ -858,14 +540,14 @@
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "20 Action Points / Sec",
-      "range": "No range",
+      "range": "Self",
       "incant": "12.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1378
     },
-
     {
       "image": "23175",
       "id": 3760,
@@ -874,14 +556,14 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 613
     },
-
     {
       "image": "04583",
       "id": 3726,
@@ -892,12 +574,12 @@
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
       "description": "A brutal attack that deals 144 damage to your target and inspires you to push the attack, increasing your Strength by 75 for 20 seconds. Will also affect your Oath Friend if they are within 50 feet. <br><br>  At 25 Grudges: Also increases Willpower by 75.<br>  At 50 Grudges: Also increases Willpower by 150.<br>  At 75 Grudges: Also increases Willpower by 225.<br>  At 100 Grudges: Also increases Willpower by 300.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1364
     },
-
     {
       "image": "04101",
       "id": 3730,
@@ -906,14 +588,14 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1377
     },
-
     {
       "image": "04582",
       "id": 3738,
@@ -924,12 +606,12 @@
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
       "description": "A painful strike to the enemy's leg that deals 119 damage.<br><br>  At 25 Grudges: Also reduces the target's chance to critically hit by 5%.<br>  At 50 Grudges: Also reduces the target's chance to critically hit by 10%.<br>  At 75 Grudges: Also reduces the target's chance to critically hit by 15%.<br>  At 100 Grudges: Also reduces the target's chance to critically hit by 20%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1362
     },
-
     {
       "image": "22704",
       "id": 3747,
@@ -938,14 +620,14 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Extends the reach of Shield Sweep and Rune-Etched Axe by an additional 5 feet.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1399
     },
-
     {
       "image": "22709",
       "id": 3741,
@@ -954,14 +636,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your damaging attacks will cause additional hate based on Grudge.<br> At 25 Grudges: Adds an additional 15 threat.<br> At 50 Grudges: Adds an additional 20 threat.<br> At 75 Grudges: Adds an additional 25 threat.<br> At 100 Grudges: Adds an additional 30 threat.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1393
     },
-
     {
       "image": "22709",
       "id": 3753,
@@ -970,14 +652,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 504
     },
-
     {
       "image": "04576",
       "id": 3821,
@@ -991,137 +673,89 @@
       "cooldown": "1.5s cooldown",
       "note": "",
       "description": "You select a single ally to be your sworn Oath Friend. Each time they are attacked, you will gain Grudges based on your current Grudge level, and some of your abilities will affect them as well.<br>You are at 0-29 Grudge: You will gain 10 Grudges.<br>You are at 30-59 Grudge: You will gain 5 Grudges.<br>You are at 60-100 Grudge: You will gain 3 Grudge.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1353
     },
-
     {
       "image": "22702",
       "id": 3773,
       "name": "Oath of Vengeance",
       "type": "Buff",
       "spec": "Path of Stone",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Vengeful Strike will now also affect all other allies within 20 feet of your Oath Friend.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1404
     },
-
     {
       "image": "04590",
       "id": 3772,
       "name": "Oathbound",
       "type": "Blessing",
       "spec": "Path of Stone",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 15 Grudge",
       "description": "Strengthens the ties between you and your Oath Friend, increasing Initiative by 50 and chance to parry by 25% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1380
     },
-
     {
       "image": "04592",
       "id": 3776,
       "name": "Oathstone",
       "type": "Damaging",
       "spec": "Path of Stone",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Improves with Grudge<br>Requires Shield",
       "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal 100 damage back to the attacker each time you block.<br><br> With 25 Grudges: Deals 200 damage back to the attacker.<br> With 50 Grudges: Deals 300 damage back to the attacker.<br> With 75 Grudges: Deals 400 damage back to the attacker.<br> With 100 Grudges: Deals 500 damage back to the attacker.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1382
     },
-
-    {
-      "image": "22729",
-      "id": 3803,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 3802,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 3801,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22701",
       "id": 3764,
       "name": "Overprotective",
       "type": "Damaging",
       "spec": "Path of Vengeance",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever your Oath Friend is attacked there is a 25% chance that you toss the assailant a glare so fierce they take 150 damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1406
     },
-
     {
       "image": "22704",
       "id": 3766,
       "name": "Powered Etchings",
       "type": "Buff",
       "spec": "Path of Vengeance",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Rune Etched Axe will now Knockback other players and Knockdown monsters and decrease their movement speed by 40% for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1407
     },
-
     {
       "image": "04479",
       "id": 3739,
@@ -1132,28 +766,28 @@
       "cost": "40 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "You maim your target's legs, dealing 94 damage causing them to suffer 75 damage for every half second they are moving.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1359
     },
-
     {
       "image": "22694",
       "id": 3780,
       "name": "Punishing Knock",
       "type": "Buff",
       "spec": "Path of Brotherhood",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Inspiring Attack will also curse your target, reducing the value of their outgoing healing by 50% for 20 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1410
     },
-
     {
       "image": "23176",
       "id": 3758,
@@ -1162,14 +796,14 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "3.0s cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 607
     },
-
     {
       "image": "22694",
       "id": 3746,
@@ -1178,14 +812,14 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Grudging Blow and Heavy Blow will cost 15 fewer action points.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1398
     },
-
     {
       "image": "22694",
       "id": 3740,
@@ -1194,14 +828,14 @@
       "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you hit an enemy, you gain 5 Grudge. This effect will not trigger more than once per second.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1392
     },
-
     {
       "image": "04597",
       "id": 3748,
@@ -1212,28 +846,28 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to your target and roots them in place for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1418
     },
-
     {
       "image": "22702",
       "id": 3752,
       "name": "Rugged",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Toughness by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 503
     },
-
     {
       "image": "04585",
       "id": 3732,
@@ -1242,30 +876,30 @@
       "spec": "Path of Vengeance",
       "minrank": "16",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Improves with Grudge",
       "description": "You whirl your axe around, dealing 100 damage to enemies 25 feet in front of you.<br><br> At 25 Grudges: Ignores 25% of the victim's armor.<br> At 50 Grudges: Ignores 50% of the victim's armor.<br> At 75 Grudges: Ignores 75% of the victim's armor.<br> At 100 Grudges: Ignores 100% of the victim's armor.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1366
     },
-
     {
       "image": "04595",
       "id": 3779,
       "name": "Runic Shield",
       "type": "Blessing",
       "spec": "Path of Brotherhood",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Costs 30 Grudge",
       "description": "You invoke a powerful rune that you've learned, and become surrounded by a protective barrier for 10 seconds which will absorb up to 625 magical damage. Your Oath Friend will be affected as well if they're within 50 feet of you. During this time, you will gain 15 Grudges each time you're hit by an enemy spell.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1386
     },
-
     {
       "image": "22702",
       "id": 3743,
@@ -1274,14 +908,14 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you block an attack you will take only 85% damage for 5 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1395
     },
-
     {
       "image": "22702",
       "id": 3744,
@@ -1290,14 +924,14 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Snares last half duration against you and when you are critically hit by an enemy, the bonus damage that you suffer is reduced by 15%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1396
     },
-
     {
       "image": "02497",
       "id": 3735,
@@ -1308,28 +942,28 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Target must have a Blessing",
       "description": "You sever one Blessing from your enemy and inflict 119 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1374
     },
-
     {
       "image": "22702",
       "id": 3775,
       "name": "Shield Mastery",
       "type": "Buff",
       "spec": "Path of Stone",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to block attacks by 10%, and you take only 95% damage from all attacks while you are holding a shield.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1405
     },
-
     {
       "image": "04587",
       "id": 3723,
@@ -1340,12 +974,12 @@
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Shield<br>Requires Block or Parry",
       "description": "A furious counterattack that deals 194 damage and will knock your target down for 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1369
     },
-
     {
       "image": "04581",
       "id": 3725,
@@ -1356,12 +990,12 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Costs 25 Grudge<br>Requires Shield",
       "description": "You bring your shield around in a smashing hit, dealing 135 damage to up to three enemies within 25 feet of them.<br>When hitting targets you regain 10 Grudges for each target that you hit.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1361
     },
-
     {
       "image": "23177",
       "id": 3756,
@@ -1370,14 +1004,14 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 611
     },
-
     {
       "image": "04598",
       "id": 3749,
@@ -1386,62 +1020,14 @@
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All damage you take is reduced to 1 for 5 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1419
     },
-
-    {
-      "image": "22721",
-      "id": 3798,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 3799,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 3800,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "04589",
       "id": 3729,
@@ -1452,44 +1038,44 @@
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
       "description": "A powerful attack that smashes through your enemy's protections, dealing 144 damage and reducing their armor based on Grudges for 20 seconds.<br><br> At 25 Grudges: Reduces armor by 200.<br> At 50 Grudges: Reduces armor by 400.<br> At 75 Grudges: Reduces armor by 600.<br> At 100 Grudges: Reduces armor by 800.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1371
     },
-
     {
       "image": "22711",
       "id": 3761,
       "name": "Stoutness of Stone",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You recover from Stuns and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 713
     },
-
     {
       "image": "04600",
       "id": 3777,
       "name": "Strength In Numbers",
       "type": "Buff",
       "spec": "Path of Stone",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Increases your chance to block attacks by 100% for 10 seconds, and increases chances to dodge, parry, and disrupt attacks by 25% to all group members within 100 feet.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1424
     },
-
     {
       "image": "04405",
       "id": 3733,
@@ -1498,14 +1084,14 @@
       "spec": "Path of Brotherhood",
       "minrank": "18",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 5 Grudge",
       "description": "You set your mind to the task at hand and focus on what must be done, increasing your Corporeal resistance by 236 for 20 seconds. Each time you're hit by magical damage while this effect is active, your autoattack speed will be increased by 50% for 20 seconds.<br>Also increases your Oath Friend's resistance if they are within 50 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1367
     },
-
     {
       "image": "22711",
       "id": 3762,
@@ -1514,14 +1100,14 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Corporeal resistance by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 714
     },
-
     {
       "image": "22701",
       "id": 3742,
@@ -1530,14 +1116,14 @@
       "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit by 15% if you are above 50 Grudge.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1394
     },
-
     {
       "image": "04580",
       "id": 3724,
@@ -1548,28 +1134,28 @@
       "cost": "20 Action Points",
       "range": "65ft range",
       "incant": "Instant cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1360
     },
-
     {
       "image": "22701",
       "id": 3782,
       "name": "Told Ya So!",
       "type": "Buff",
       "spec": "Path of Brotherhood",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy, each group member within 100 feet will gain 25 Action Points. This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1411
     },
-
     {
       "image": "22694",
       "id": 3754,
@@ -1578,14 +1164,14 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Juggernaut's cooldown is reduced to 20 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 505
     },
-
     {
       "image": "04579",
       "id": 3718,
@@ -1599,9 +1185,9 @@
       "cooldown": "No cooldown",
       "note": "Costs 10 Grudge",
       "description": "You strike your enemy for 119 damage and stubbornly push yourself to keep fighting, increasing your Toughness by 75 for 20 seconds.<br>Your Oath Friend's Toughness will also be increased if they are within 50 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1357
     },
-
     {
       "image": "04517",
       "id": 3736,
@@ -1610,12 +1196,13 @@
       "spec": "Path of Brotherhood",
       "minrank": "25",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Costs 15 Grudge",
       "description": "Increases your Weapon Skill by 75 for 10 seconds. Each time you hit an enemy, your Oath Friend will gain 25 Action Points as long as they're within 50 feet of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1372
     }
   ]
 }

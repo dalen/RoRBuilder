@@ -328,9 +328,10 @@ const validateAbility = async (
   const gameAbility = abilityData[ability.gameId];
 
   // Debug
-  //if (gameAbility.AbilityID === 1430) {
-  //  console.log(JSON.stringify(gameAbility, undefined, 2));
-  //}
+  const printDebugAbilities: number[] = [];
+  if (printDebugAbilities.includes(gameAbility.AbilityID)) {
+    console.log(JSON.stringify(gameAbility, undefined, 2));
+  }
 
   return {
     ...ability,
@@ -349,7 +350,7 @@ const validateCareer = async (
   careerId: number,
   abilityData: { [key: number]: AbilityData },
 ): Promise<void> => {
-  console.log(`Validating ${careerSlug}`);
+  console.log(colors.green(`\nValidating ${careerSlug}`));
   const career = careerData[careerSlug];
 
   let fixedAbilities = [];
@@ -388,6 +389,9 @@ const main = async () => {
     abilityComponents,
   );
 
+  await validateCareer('ironbreaker', CareerLine.IRON_BREAKER, abilityData);
+  await validateCareer('slayer', CareerLine.SLAYER, abilityData);
+  // await validateCareer('rune-priest', CareerLine.RUNE_PRIEST, abilityData);
   await validateCareer(
     'warrior-priest',
     CareerLine.WARRIOR_PRIEST,
@@ -398,7 +402,11 @@ const main = async () => {
     CareerLine.DISCIPLE_OF_KHAINE,
     abilityData,
   );
-  await validateCareer('slayer', CareerLine.SLAYER, abilityData);
+  await validateCareer(
+    'knight-of-the-blazing-sun',
+    CareerLine.KNIGHT_OF_THE_BLAZING_SUN,
+    abilityData,
+  );
 };
 
 main()
