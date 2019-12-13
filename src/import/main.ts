@@ -222,7 +222,7 @@ const validateCastTime = (
         : gameAbility.Castime;
 
     if (msCastTime === 0) {
-      return 'Instant Cast';
+      return 'Instant cast';
     }
     if (msCastTime >= 60000) {
       return `${msCastTime / 60000}m cast`;
@@ -288,10 +288,13 @@ const validateAbility = async (
   ability: Ability,
   abilityData: { [key: number]: AbilityData },
   career: Career,
+  careerId: number, // Used to filter out selection of abilities to only ones from current career
 ): Promise<Ability> => {
   if (ability.gameId === undefined) {
     const matchingName = Object.values(abilityData).filter(
-      gameAbility => gameAbility.Name === ability.name,
+      gameAbility =>
+        gameAbility.Name === ability.name &&
+        (gameAbility.CareerID === 0 || gameAbility.CareerID === careerId),
     );
 
     // How many characters of description match for each skill
@@ -343,6 +346,7 @@ const validateAbility = async (
 // Validate one career
 const validateCareer = async (
   careerSlug: keyof typeof careerData,
+  careerId: number,
   abilityData: { [key: number]: AbilityData },
 ): Promise<void> => {
   console.log(`Validating ${careerSlug}`);
@@ -352,7 +356,9 @@ const validateCareer = async (
   for (const ability of career.data.filter(
     ability => ability.category !== 'TomeTactic',
   )) {
-    fixedAbilities.push(await validateAbility(ability, abilityData, career));
+    fixedAbilities.push(
+      await validateAbility(ability, abilityData, career, careerId),
+    );
   }
 
   await fs.writeFile(
@@ -382,9 +388,17 @@ const main = async () => {
     abilityComponents,
   );
 
-  //await validateCareer('warrior-priest', abilityData);
-  //await validateCareer('disciple-of-khaine', abilityData);
-  await validateCareer('slayer', abilityData);
+  await validateCareer(
+    'warrior-priest',
+    CareerLine.WARRIOR_PRIEST,
+    abilityData,
+  );
+  await validateCareer(
+    'disciple-of-khaine',
+    CareerLine.DISCIPLE_OF_KHAINE,
+    abilityData,
+  );
+  await validateCareer('slayer', CareerLine.SLAYER, abilityData);
 };
 
 main()
