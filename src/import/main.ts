@@ -146,7 +146,9 @@ const validateAPCost = (
 ): Partial<Ability> => {
   const cost = ((): string => {
     if (gameAbility.AP > 0 && gameAbility.ChannelInterval > 0) {
-      return `${gameAbility.AP} Action Points / Sec`;
+      return `${Math.round(
+        gameAbility.AP / (gameAbility.ChannelInterval / 1000),
+      )} Action Points / Sec`;
     }
 
     if (gameAbility.AP > 0) {
@@ -329,7 +331,7 @@ const validateAbility = async (
   const gameAbility = abilityData[ability.gameId];
 
   // Debug
-  const printDebugAbilities: number[] = [1903];
+  const printDebugAbilities: number[] = [];
   if (printDebugAbilities.includes(gameAbility.AbilityID)) {
     console.log(JSON.stringify(gameAbility, undefined, 2));
   }
