@@ -408,6 +408,8 @@ const main = async () => {
   await validateCareer('black-orc', CareerLine.BLACK_ORC, abilityData);
   await validateCareer('choppa', CareerLine.CHOPPA, abilityData);
   await validateCareer('shaman', CareerLine.SHAMAN, abilityData);
+  await validateCareer('squig-herder', CareerLine.SQUIG_HERDER, abilityData);
+  await validateCareer('witch-hunter', CareerLine.WITCH_HUNTER, abilityData);
   await validateCareer(
     'warrior-priest',
     CareerLine.WARRIOR_PRIEST,
