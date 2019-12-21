@@ -423,6 +423,7 @@ const main = async () => {
   );
   await validateCareer('chosen', CareerLine.CHOSEN, abilityData);
   await validateCareer('marauder', CareerLine.MARAUDER, abilityData);
+  await validateCareer('zealot', CareerLine.ZEALOT, abilityData);
   await validateCareer(
     'disciple-of-khaine',
     CareerLine.DISCIPLE_OF_KHAINE,

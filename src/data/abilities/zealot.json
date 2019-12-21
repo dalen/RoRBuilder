@@ -14,7 +14,14 @@
         "lvl6": 5731,
         "lvl7": 5732
       },
-      "coreAbilities": [5684, 5782, 5683, 5784, 5688, 5699]
+      "coreAbilities": [
+        5684,
+        5782,
+        5683,
+        5784,
+        5688,
+        5699
+      ]
     },
     "b": {
       "name": "Path of Witchcraft",
@@ -30,7 +37,13 @@
         "lvl6": 5738,
         "lvl7": 5739
       },
-      "coreAbilities": [5681, 5685, 5700, 5692, 5690]
+      "coreAbilities": [
+        5681,
+        5685,
+        5700,
+        5692,
+        5690
+      ]
     },
     "c": {
       "name": "Path of Dark Rites",
@@ -46,7 +59,13 @@
         "lvl6": 5745,
         "lvl7": 5746
       },
-      "coreAbilities": [5687, 5689, 5693, 5696, 5695]
+      "coreAbilities": [
+        5687,
+        5689,
+        5693,
+        5696,
+        5695
+      ]
     }
   },
   "data": [
@@ -56,16 +75,16 @@
       "name": "Aethyric Shock",
       "type": "Damaging",
       "spec": "Path of Alchemy",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "25 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "Overwhelms your opponent with power, inflicting 284 corporeal damage and Staggers the target for up to 6 seconds, preventing all actions unless they're damaged.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8571
     },
-
     {
       "image": "23150",
       "id": 5722,
@@ -74,14 +93,14 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 697
     },
-
     {
       "image": "22714",
       "id": 5725,
@@ -90,14 +109,14 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 800
     },
-
     {
       "image": "22704",
       "id": 5705,
@@ -106,30 +125,30 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Critical heals will Bless your target for 10 seconds, increasing the power of any heals used on them by 25%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8590
     },
-
     {
       "image": "05242",
       "id": 5729,
       "name": "Boon of Tzeentch",
       "type": "Damaging",
       "spec": "Path of Alchemy",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "Drains 310 health from your target, funneling 150% of the amount drained into your defensive target.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8573
     },
-
     {
       "image": "05237",
       "id": 5698,
@@ -138,14 +157,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "40 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All opponents within 30 feet of you are knocked back, and monsters are knocked down for 2 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8559
     },
-
     {
       "image": "22714",
       "id": 5707,
@@ -154,46 +173,46 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Critical direct heals will increase your morale by 200. This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8588
     },
-
     {
       "image": "22709",
       "id": 5730,
       "name": "Changer's Touch",
       "type": "Healing",
       "spec": "Path of Alchemy",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Critical attacks place a debuff on your target that reduces all incoming healing by 50% for 5 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8596
     },
-
     {
       "image": "05110",
       "id": 5743,
       "name": "Chaotic Agitation",
       "type": "Damaging",
       "spec": "Path of Dark Rites",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "13 Action Points / Sec",
       "range": "80ft range",
       "incant": "6.0s channel",
-      "cooldown": "13.0s cooldown",
+      "cooldown": "13s cooldown",
       "note": "",
       "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing 225 corporeal damage every 2 seconds for up to 6 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8578
     },
-
     {
       "image": "05116",
       "id": 5686,
@@ -204,28 +223,28 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "Detaunts targets attack power to 50% for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8621
     },
-
     {
       "image": "22708",
       "id": 5726,
       "name": "Chaotic Force",
       "type": "Buff",
       "spec": "Path of Alchemy",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "The Critical chance on Tzeentch's Cry, Scourge and Flash of Chaos is raised by 15%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8595
     },
-
     {
       "image": "05240",
       "id": 5699,
@@ -239,9 +258,9 @@
       "cooldown": "3m cooldown",
       "note": "",
       "description": "Increases the target's Wounds by 100 for 60 seconds and then heals the recipient for the amount increased.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8561
     },
-
     {
       "image": "05113",
       "id": 5690,
@@ -255,9 +274,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Restores 258 health to an ally, and then restores an additional 315 health over 5 seconds. This ability will continue to build up even if you move.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8549
     },
-
     {
       "image": "05158",
       "id": 5695,
@@ -266,30 +285,30 @@
       "spec": "Path of Dark Rites",
       "minrank": "18",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "Spews a vile mixture over everything 40 feet in front of you, dealing 456 corporeal damage over 9 seconds to all opponents.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8563
     },
-
     {
       "image": "22706",
       "id": 5714,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Willpower by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 592
     },
-
     {
       "image": "23151",
       "id": 5717,
@@ -300,12 +319,12 @@
       "cost": "Rank 1 morale",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 694
     },
-
     {
       "image": "22703",
       "id": 5713,
@@ -314,14 +333,14 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 585
     },
-
     {
       "image": "23152",
       "id": 5721,
@@ -330,14 +349,14 @@
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 696
     },
-
     {
       "image": "22706",
       "id": 5708,
@@ -346,14 +365,14 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Tzeentch's Cordial will now heal an additional 220 health after the effect ends.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8589
     },
-
     {
       "image": "05232",
       "id": 5696,
@@ -362,14 +381,14 @@
       "spec": "Path of Dark Rites",
       "minrank": "20",
       "cost": "65 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All group members within 100 feet of you are healed for 643.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8562
     },
-
     {
       "image": "05103",
       "id": 5688,
@@ -383,9 +402,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Heals your target for 883 health.<br>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8566
     },
-
     {
       "image": "05260",
       "id": 5697,
@@ -394,14 +413,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "35 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "3m cooldown",
       "note": "",
       "description": "You embrace the Warp, surrounding yourself with it's power. You will take only 50% damage and your abilities will cost 25% fewer Action Points for 10 seconds. During this time you generate almost no threat, and can not be set back while casting.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8622
     },
-
     {
       "image": "22708",
       "id": 5706,
@@ -410,30 +429,30 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Leaping Alteration will also restore 48 Action Points over 9 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8587
     },
-
     {
       "image": "22694",
       "id": 5702,
       "name": "Endless Gifts",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "15",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Cooldown on Glimpse of Chaos is reduced by 5s and the cost increased by 15 Action Points.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8591
     },
-
     {
       "image": "05134",
       "id": 5711,
@@ -442,14 +461,14 @@
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Increase the armor of all group mates within 100 feet by 1518 and resists by 579 for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8606
     },
-
     {
       "image": "05154",
       "id": 5784,
@@ -463,9 +482,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A burst of chaos that restores 276 health to an ally.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8569
     },
-
     {
       "image": "05004",
       "id": 5781,
@@ -474,14 +493,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "23153",
       "id": 5720,
@@ -490,14 +509,14 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 695
     },
-
     {
       "image": "05235",
       "id": 5694,
@@ -508,12 +527,12 @@
       "cost": "25 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Target must be Cursed or Hexed",
       "description": "You call upon the power of chaos, removing one Curse or Hex from your defensive target.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8554
     },
-
     {
       "image": "05108",
       "id": 5783,
@@ -524,28 +543,28 @@
       "cost": "No AP Cost",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "When this ability is toggled on, you are the Harbinger of Doom, converting your Healing Power, Willpower, and Healing Critical Chance bonuses from items into Magic Power, Intelligence, and Magic Critical Chance.<br><br>When this ability is toggled off, you are the Harbinger of Change, converting your Magic Power, Intelligence, and Magic Critical Chance bonuses from items into Healing Power, Willpower, and Healing Critical Chance.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8550
     },
-
     {
       "image": "22694",
       "id": 5733,
       "name": "Lashing Waves",
       "type": "Buff",
       "spec": "Path of Witchcraft",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Tzeentch's Lash will now strike all opponents within 20 feet of your initial target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8599
     },
-
     {
       "image": "05250",
       "id": 5693,
@@ -556,28 +575,28 @@
       "cost": "40 Action Points",
       "range": "150ft range",
       "incant": "1.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "A bolt of healing energy which instantly leaps to allies within 30 feet of the last affected, restoring 507 health over 9 seconds. This effect will only pass through each target once, and will affect up to 6 allies.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8557
     },
-
     {
       "image": "22703",
       "id": 5728,
       "name": "Manipulation",
       "type": "Damaging",
       "spec": "Path of Alchemy",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you directly heal someone, there is a 25% chance your offensive target will take damage equal to 25% of the healed value.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8594
     },
-
     {
       "image": "05140",
       "id": 5683,
@@ -591,9 +610,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases a groupmember's Stregth, Ballistic Skill and Intelligence by 50. The bearer of this Mark may also activate it like an ability to inflict 234 corporeal damage.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8551
     },
-
     {
       "image": "05239",
       "id": 5701,
@@ -607,9 +626,9 @@
       "cooldown": "10m cooldown",
       "note": "",
       "description": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's Toughness is increased by 80 for 1 hour.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8567
     },
-
     {
       "image": "05136",
       "id": 5692,
@@ -623,9 +642,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases a groupmember's Initiative and Willpower by 50. The bearer of this Mark may activate it like an ability to inflict 552 corporeal damage over 9 seconds.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8556
     },
-
     {
       "image": "05137",
       "id": 5689,
@@ -639,25 +658,25 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases all you groupmember's resistances by 157. The bearer of this Mark may activate it to inflict 342 corporeal damage over 9 seconds to all targets within 30 feet. <br>A player may only bear a single Mark at a time, and all of your Marks will fade if you die.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8560
     },
-
     {
       "image": "05137",
       "id": 5738,
       "name": "Mirror of Madness",
       "type": "Hex",
       "spec": "Path of Witchcraft",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "40 Action Points",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "Curses your target for 10 seconds so that whenever they receive a direct heal, it inflicts 365 corporeal damage to them.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8575
     },
-
     {
       "image": "23154",
       "id": 5718,
@@ -666,14 +685,14 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 692
     },
-
     {
       "image": "22694",
       "id": 5716,
@@ -682,14 +701,14 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 589
     },
-
     {
       "image": "05231",
       "id": 5687,
@@ -698,62 +717,62 @@
       "spec": "Path of Dark Rites",
       "minrank": "7",
       "cost": "40 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "Pains washes over enemies within 30 feet of you, inflicting 189 corporeal damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8552
     },
-
     {
       "image": "05241",
       "id": 5727,
       "name": "Ritual of Innervation",
       "type": "Buff",
       "spec": "Path of Alchemy",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "35 Action Points",
       "range": "80ft range",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "You may only have 1 Ritual active",
       "description": "A frenzied, 30 seconds long ritual that affects all groupmembers within 100 feet, granting them a 20% chance to regain 50 Action Points every attack.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8572
     },
-
     {
       "image": "05162",
       "id": 5741,
       "name": "Ritual of Lunacy",
       "type": "Buff",
       "spec": "Path of Dark Rites",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "35 Action Points",
       "range": "80ft range",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "You may only have 1 Ritual active",
       "description": "A dark Ritual lasting 30 seconds that infuses your group with the souls of the fallen, restoring 146 health every 3 seconds to those within 100 feet of the Ritual.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8577
     },
-
     {
       "image": "05119",
       "id": 5734,
       "name": "Ritual of Superiority",
       "type": "Buff",
       "spec": "Path of Witchcraft",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "35 Action Points",
       "range": "80ft range",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "You may only have 1 Ritual active",
       "description": "A Ritual of dominance that lasts for 30 seconds, granting group members in the radius a 20% chance when taking damage to active a shield that will absorb 325 damage for up to 10 seconds. Will not trigger more than once every 2 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8574
     },
-
     {
       "image": "05144",
       "id": 5782,
@@ -767,9 +786,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Power lashes out and inflicts 277 corporeal damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8548
     },
-
     {
       "image": "22709",
       "id": 5703,
@@ -778,14 +797,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Warp Reality will now deals 10% more damage, and every tick of damage has a 20% chance of making the next Scourge cast within 10 seconds instant cast.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8586
     },
-
     {
       "image": "23155",
       "id": 5719,
@@ -796,28 +815,28 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 690
     },
-
     {
       "image": "05243",
       "id": 5736,
       "name": "Storm of Ravens",
       "type": "Damaging",
       "spec": "Path of Witchcraft",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "20 Action Points / Sec",
       "range": "100ft range",
       "incant": "6.0s channel",
-      "cooldown": "11.0s cooldown",
+      "cooldown": "11s cooldown",
       "note": "",
       "description": "You call forth a storm of ravens which claw and peck at your target, dealing 1323 corporeal damage over 6 seconds and snaring them by 40%, as long as you maintain your concentration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8576
     },
-
     {
       "image": "22709",
       "id": 5715,
@@ -826,14 +845,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 588
     },
-
     {
       "image": "05135",
       "id": 5712,
@@ -842,62 +861,62 @@
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You silence disbelievers and inflict 1218 damage over 7 seconds within 30 feet around you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8607
     },
-
     {
       "image": "22704",
       "id": 5740,
       "name": "Sweeping Disgorgement",
       "type": "Buff",
       "spec": "Path of Dark Rites",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Demon Spittle grows ever more corrosive and now now also reduces Armor by 618 and Corporeal resistance by 236.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8600
     },
-
     {
       "image": "22708",
       "id": 5742,
       "name": "Swirling Vortex",
       "type": "Buff",
       "spec": "Path of Dark Rites",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Mark of the Vortex's granted ability will now hit all enemies within 30 feet of the caster, and will last for 15 seconds",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8601
     },
-
     {
       "image": "22697",
       "id": 5737,
       "name": "Transference",
       "type": "Damaging",
       "spec": "Path of Witchcraft",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "While under the effects of your Harbinger of Doom; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8597
     },
-
     {
       "image": "05233",
       "id": 5691,
@@ -908,12 +927,12 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "3.0s cast",
-      "cooldown": "6.0s cooldown",
+      "cooldown": "6s cooldown",
       "note": "Only usable on Dead Players",
       "description": "Tzeentch dislikes losing a pawn so soon. Your target is resurrected with 20% health so that Tzeentch may continue his game.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8555
     },
-
     {
       "image": "05142",
       "id": 5682,
@@ -927,9 +946,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Heals your target for 1700 over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8558
     },
-
     {
       "image": "05160",
       "id": 5684,
@@ -940,28 +959,28 @@
       "cost": "35 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "A quick bolt of power that deals 234 corporeal damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8568
     },
-
     {
       "image": "22706",
       "id": 5744,
       "name": "Tzeentch's Grip",
       "type": "Healing",
       "spec": "Path of Dark Rites",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to 475 damage over 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8602
     },
-
     {
       "image": "05238",
       "id": 5700,
@@ -972,60 +991,60 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "1.0s cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "Inflicts 375 corporeal damage over 4 seconds and silences the target, preventing them from using any magic.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8565
     },
-
     {
       "image": "22708",
       "id": 5735,
       "name": "Tzeentch's Refreshment",
       "type": "Buff",
       "spec": "Path of Witchcraft",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Direct heals have a 25% chance to grant your target 50 AP, but will not restore AP to yourself.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8598
     },
-
     {
       "image": "05246",
       "id": 5739,
       "name": "Tzeentch's Scream",
       "type": "Damaging",
       "spec": "Path of Witchcraft",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All groupmates within 100 feet are healed for 2394 health over 15 seconds and regain 25 Action Points every second for 15 seconds",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8612
     },
-
     {
       "image": "05245",
       "id": 5732,
-      "name": "Tzeentch's Shielding",
+      "name": "Tzeentch’s Shielding",
       "type": "Buff",
       "spec": "Path of Alchemy",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All group mates within 100 feet are granted 250 Action Points, and for 20 seconds, everyone will absorb up to 5400 damage.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8611
     },
-
     {
       "image": "05118",
       "id": 5710,
@@ -1036,12 +1055,12 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Reduces your target's armor by 1320 and all resistances by 504 for 15 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8605
     },
-
     {
       "image": "22714",
       "id": 5724,
@@ -1050,14 +1069,14 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 798
     },
-
     {
       "image": "05244",
       "id": 5685,
@@ -1068,12 +1087,12 @@
       "cost": "35 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "For the next 10 seconds, your target will absorb up to 550 damage. When the effect fades they will regain 186 health.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8564
     },
-
     {
       "image": "05268",
       "id": 5681,
@@ -1087,25 +1106,25 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Inflicts 610 Corporeal damage over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8553
     },
-
     {
       "image": "22714",
       "id": 5723,
       "name": "Warped Flesh",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 797
     },
-
     {
       "image": "22706",
       "id": 5704,
@@ -1114,14 +1133,14 @@
       "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8584
     },
-
     {
       "image": "22704",
       "id": 5709,
@@ -1130,44 +1149,45 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Rituals will now pulse 150 corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8585
     },
-
     {
       "image": "05149",
       "id": 5745,
       "name": "Wind of Insanity",
       "type": "Blessing",
       "spec": "Path of Dark Rites",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "20 Action Points / Sec",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "26.0s cooldown",
+      "cooldown": "26s cooldown",
       "note": "",
       "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 172 corporeal damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 2 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<br>This spell may be toggled off to regain your movement.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8579
     },
-
     {
       "image": "05247",
       "id": 5746,
       "name": "Windblock",
       "type": "Damaging",
       "spec": "Path of Dark Rites",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Inflicts 1800 damage to all targets within 30 feet of you, making heals 50% less effective on them for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8613
     }
   ]
 }
