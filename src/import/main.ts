@@ -329,7 +329,7 @@ const validateAbility = async (
   const gameAbility = abilityData[ability.gameId];
 
   // Debug
-  const printDebugAbilities: number[] = [];
+  const printDebugAbilities: number[] = [1903];
   if (printDebugAbilities.includes(gameAbility.AbilityID)) {
     console.log(JSON.stringify(gameAbility, undefined, 2));
   }
@@ -405,6 +405,7 @@ const main = async () => {
   await validateCareer('engineer', CareerLine.ENGINEER, abilityData);
   await validateCareer('black-orc', CareerLine.BLACK_ORC, abilityData);
   await validateCareer('choppa', CareerLine.CHOPPA, abilityData);
+  await validateCareer('shaman', CareerLine.SHAMAN, abilityData);
   await validateCareer(
     'warrior-priest',
     CareerLine.WARRIOR_PRIEST,

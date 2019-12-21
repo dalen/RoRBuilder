@@ -14,7 +14,13 @@
         "lvl6": 5316,
         "lvl7": 5317
       },
-      "coreAbilities": [5273, 5280, 5367, 5282, 5275]
+      "coreAbilities": [
+        5273,
+        5280,
+        5367,
+        5282,
+        5275
+      ]
     },
     "b": {
       "name": "Path of Gork",
@@ -30,7 +36,13 @@
         "lvl6": 5323,
         "lvl7": 5324
       },
-      "coreAbilities": [5268, 5278, 5272, 5368, 5285]
+      "coreAbilities": [
+        5268,
+        5278,
+        5272,
+        5368,
+        5285
+      ]
     },
     "c": {
       "name": "Path of Da Green",
@@ -46,7 +58,14 @@
         "lvl6": 5330,
         "lvl7": 5331
       },
-      "coreAbilities": [5286, 5284, 5270, 5271, 5276, 1934]
+      "coreAbilities": [
+        5286,
+        5284,
+        5270,
+        5271,
+        5276,
+        1934
+      ]
     }
   },
   "data": [
@@ -58,14 +77,14 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Shrug it Off will make its target 25% more receptive to incoming heals.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 2751
     },
-
     {
       "image": "23150",
       "id": 5307,
@@ -74,14 +93,14 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 697
     },
-
     {
       "image": "02498",
       "id": 5285,
@@ -92,12 +111,12 @@
       "cost": "35 Action Points",
       "range": "100ft range",
       "incant": "1.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
       "description": "Deals 309 elemental damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1913
     },
-
     {
       "image": "02466",
       "id": 5275,
@@ -111,9 +130,9 @@
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
       "description": "Heals your target for 883 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1904
     },
-
     {
       "image": "02582",
       "id": 5276,
@@ -124,12 +143,12 @@
       "cost": "35 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Gork's Waaagh! increases effectiveness.",
       "description": "You deal 1072 elemental damage to your target over 24 seconds and your defensive target is healed for 150% of the damage done.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1912
     },
-
     {
       "image": "02459",
       "id": 5368,
@@ -143,9 +162,9 @@
       "cooldown": "No cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
       "description": "Deals 344 elemental damage to your target.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1899
     },
-
     {
       "image": "02462",
       "id": 5296,
@@ -156,12 +175,12 @@
       "cost": "Rank 2 morale",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Heals your target for 501 health every 3 seconds over 9 seconds. Each pulse also heals those around the target within 30 feet.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1965
     },
-
     {
       "image": "02577",
       "id": 5272,
@@ -169,15 +188,15 @@
       "type": "Damaging",
       "spec": "Path of Gork",
       "minrank": "6",
-      "cost": "13 Action Points / Sec",
+      "cost": "25 Action Points / Sec",
       "range": "100ft range",
       "incant": "6.0s channel",
-      "cooldown": "11.0s cooldown",
+      "cooldown": "11s cooldown",
       "note": "Gork's Waaagh! increases effectiveness. ",
       "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing 344 elemental damage to them as long as you maintain your concentration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1903
     },
-
     {
       "image": "22707",
       "id": 5287,
@@ -186,30 +205,30 @@
       "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit with a spell that grants Waaagh!, an additional Waaagh! will be granted as well. Tactic can not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1938
     },
-
     {
       "image": "02403",
       "id": 5323,
       "name": "Da Waaagh! Is Coming",
       "type": "Damaging",
       "spec": "Path of Gork",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "55 Action Points",
       "range": "80ft range",
       "incant": "2.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 338 elemental damage to your target, and will then damage another target within 20 feet of the last, damaging up to 9 different targets total. Targets can not be hit more than once by the ability.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1931
     },
-
     {
       "image": "22703",
       "id": 5290,
@@ -218,30 +237,30 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your can now resurrect allies instantly, but you are stunned for 3 seconds after casting.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1941
     },
-
     {
       "image": "22706",
       "id": 5299,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Willpower by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 592
     },
-
     {
       "image": "23151",
       "id": 5302,
@@ -252,12 +271,12 @@
       "cost": "Rank 1 morale",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 694
     },
-
     {
       "image": "22703",
       "id": 5298,
@@ -266,14 +285,14 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 585
     },
-
     {
       "image": "23152",
       "id": 5306,
@@ -282,30 +301,30 @@
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 696
     },
-
     {
       "image": "02501",
       "id": 5316,
       "name": "Do Sumfin Useful",
       "type": "Enchantment",
       "spec": "Path of Mork",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "40 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your target's Toughness is increased by 150 and they regain 952 health over 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1926
     },
-
     {
       "image": "02534",
       "id": 5271,
@@ -316,12 +335,12 @@
       "cost": "35 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Mork's Waaagh! increases effectiveness.",
       "description": "Surrounds an ally with a magical barrier that absorbs up to 925 damage for up to 9 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1932
     },
-
     {
       "image": "02583",
       "id": 5283,
@@ -330,14 +349,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "40 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You blast back all enemies within 30 feet of you, knocking them back a medium distance and snaring them by 20% for 10 seconds. Monsters will be knocked down by the blast.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1914
     },
-
     {
       "image": "02425",
       "id": 5278,
@@ -346,30 +365,30 @@
       "spec": "Path of Gork",
       "minrank": "12",
       "cost": "25 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "InstantCast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "Everyone in your group within 100 feet will do an additional 125 elemental damage on their next attack within 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1902
     },
-
     {
       "image": "22703",
       "id": 5318,
       "name": "Ere We Goes Again",
       "type": "Damaging",
       "spec": "Path of Gork",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Ere We Go will now deal 150 damage, and it will now affect your allies' next 2 attacks.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1957
     },
-
     {
       "image": "22708",
       "id": 5289,
@@ -378,14 +397,14 @@
       "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically heal by 10%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1940
     },
-
     {
       "image": "02576",
       "id": 5269,
@@ -399,41 +418,41 @@
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! increases effectiveness. ",
       "description": "Heals your target for 1700 health over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1901
     },
-
     {
       "image": "02586",
       "id": 5317,
       "name": "Feelz No Pain",
       "type": "Healing",
       "spec": "Path of Mork",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Heals all of your group mates within 100 feet for 1130 health over 10 seconds and decreases damage against them to 75% for 10 seconds",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1970
     },
-
     {
       "image": "02545",
       "id": 5324,
       "name": "Fists of Gork",
       "type": "Damaging",
       "spec": "Path of Gork",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1800 damage and knocks back all enemy targets within 20 feet of your target.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1971
     },
-
     {
       "image": "05004",
       "id": 5366,
@@ -442,14 +461,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "23153",
       "id": 5305,
@@ -458,30 +477,30 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 695
     },
-
     {
       "image": "07996",
       "id": 5330,
       "name": "Fury of Da Green",
       "type": "Damaging",
       "spec": "Path of Da Green",
-      "minrank": "1",
-      "cost": "35 Action Points",
+      "minrank": "29",
+      "cost": "50 Action Points",
       "range": "80ft range",
       "incant": "2.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "A surge of Waaagh! explodes from your target, inflicting 199 elemental damage upon them and up to 4 other enemies within 20 feet of them, and healing your defensive target and allies within 20 feet of them for 883 health plus 50% of the total inflicted damage.<br /><br />When casting this ability, you will focus your power into ensuring a hit rather than maximum damage, causing it to be 20% less likely to be blocked or disrupted.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2102
     },
-
     {
       "image": "02467",
       "id": 5282,
@@ -490,30 +509,30 @@
       "spec": "Path of Mork",
       "minrank": "20",
       "cost": "65 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
       "description": "Heals group members within 100 feet for 643 health.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1907
     },
-
     {
       "image": "02456",
       "id": 5319,
       "name": "Geddoff!",
       "type": "Damaging",
-      "spec": "Path of Mork",
-      "minrank": "1",
+      "spec": "Path of Gork",
+      "minrank": "21",
       "cost": "25 Action Points",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 205 elemental damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1929
     },
-
     {
       "image": "02433",
       "id": 5277,
@@ -524,12 +543,12 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "3.0s cast",
-      "cooldown": "6.0s cooldown",
+      "cooldown": "6s cooldown",
       "note": "Only usable on Dead Players",
       "description": "Resurrects your target with 20% health.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1908
     },
-
     {
       "image": "22704",
       "id": 5293,
@@ -538,14 +557,14 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time one of your groupmates damages an enemy with 'Ere We Go, they will gain 150 points of Morale.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1944
     },
-
     {
       "image": "22694",
       "id": 5294,
@@ -554,30 +573,30 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Eeeek!'s cooldown time by 40 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1943
     },
-
     {
       "image": "22695",
       "id": 5311,
       "name": "Scrub Ya Gud!",
       "type": "Damaging",
       "spec": "Path of Mork",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you use Greener 'N Cleaner on an ally, you will additionally remove one curse or Ailment from all groupmates within 50 feet of them.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1958
     },
-
     {
       "image": "02505",
       "id": 5295,
@@ -588,12 +607,12 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target suffers 600 damage over 2s. If the target moves, the duration is restarted.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1964
     },
-
     {
       "image": "02444",
       "id": 5367,
@@ -607,25 +626,25 @@
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
       "description": "Your target regains 258 health immediately, then continues to gain another 315 health over 5 seconds. This ability will continue to build up even if you move.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1898
     },
-
     {
       "image": "02578",
       "id": 5321,
       "name": "Gork's Barbs'",
       "type": "Ailment",
       "spec": "Path of Gork",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Gork takes interest in your target, reducing all incoming heals by 50% for 10 seconds, and will deal 332 elemental damage to anyone healing his new toy.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1905
     },
-
     {
       "image": "22706",
       "id": 5288,
@@ -634,14 +653,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "If Greener 'N Cleaner successfully removes an effect from an ally, then they will also regain 534 health over 9 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1945
     },
-
     {
       "image": "02579",
       "id": 5280,
@@ -652,28 +671,28 @@
       "cost": "35 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Target must be Cursed or Ailing",
       "description": "You cleanse an ally, removing one Curse or Ailment. If an effect is removed, your ally will absorb up to 175 damage over 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1906
     },
-
     {
       "image": "22696",
       "id": 2749,
       "name": "Touch of Gork",
       "type": "Damaging",
       "spec": "Path of Gork",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Brain Bursta will now also reduce the victim's Toughness by 240 for 20 seconds  and reduces the duration and tick interval of Bunch o' Waaagh by 50%. Gorks power however will reduce the effectiveness of your healing abilities by 20% and increases the cooldown of Bunch o' Waaagh by 50%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 2749
     },
-
     {
       "image": "02464",
       "id": 5270,
@@ -687,9 +706,9 @@
       "cooldown": "No cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
       "description": "Deals 277 elemental damage to your target, and heals your defensive target for 150% of the damage done. <BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2100
     },
-
     {
       "image": "02575",
       "id": 5268,
@@ -703,9 +722,9 @@
       "cooldown": "No cooldown",
       "note": "Gork's Waaagh! increases effectiveness. ",
       "description": "You deal 710 elemental damage to your target over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1900
     },
-
     {
       "image": "02477",
       "id": 5274,
@@ -716,28 +735,28 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1918
     },
-
     {
       "image": "22708",
       "id": 5313,
       "name": "Lookit What I Did!",
       "type": "Healing",
       "spec": "Path of Mork",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Gork'll Fix It will now also restore 40 Action Points to the target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1950
     },
-
     {
       "image": "22704",
       "id": 5291,
@@ -746,14 +765,14 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit enemies by 10%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1942
     },
-
     {
       "image": "02472",
       "id": 5273,
@@ -762,62 +781,62 @@
       "spec": "Path of Mork",
       "minrank": "7",
       "cost": "55 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases all resistances of your group mates within 100 feet by 157 for 1 hour.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1910
     },
-
     {
       "image": "22696",
       "id": 5320,
       "name": "Mork's Touch",
       "type": "Damaging",
       "spec": "Path of Gork",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional 150 elemental damage as well.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1954
     },
-
     {
       "image": "22703",
       "id": 5329,
       "name": "Nuthin' But Da WAAAGH!",
       "type": "Healing",
-      "spec": "Path of Da Green",
-      "minrank": "1",
+      "spec": "Path of Mork",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Don' Feel Nuthin will also cause your target to deal 15% more damage as long as the barrier is protecting them.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1949
     },
-
     {
       "image": "22706",
       "id": 5315,
       "name": "Pass It On",
       "type": "Healing",
       "spec": "Path of Mork",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you heal an ally with a Path of Mork ability, there is a 25% chance that another ally within 30 feet of them will also gain 171 health as well.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1951
     },
-
     {
       "image": "23154",
       "id": 5303,
@@ -826,14 +845,14 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 692
     },
-
     {
       "image": "22694",
       "id": 5301,
@@ -842,14 +861,14 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 589
     },
-
     {
       "image": "22707",
       "id": 5310,
@@ -858,46 +877,46 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are hit, there is a 25% chance that your movement speed will be increased by 30% for 5 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 758
     },
-
     {
       "image": "02500",
       "id": 5326,
       "name": "Scuse Me!",
       "type": "Ailment",
-      "spec": "Path of Gork",
-      "minrank": "1",
+      "spec": "Path of Da Green",
+      "minrank": "21",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Gork's Waaagh! increases effectiveness.",
       "description": "A cone of energy strikes enemies in front of you, up to 40 feet away, dealing 338 elemental damage and reducing their Elemental resistance by 216 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1933
     },
-
     {
       "image": "02463",
       "id": 5314,
       "name": "Shrug It Off",
       "type": "Healing",
       "spec": "Path of Mork",
-      "minrank": "1",
+      "minrank": "18",
       "cost": "55 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. If the allies health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1928
     },
-
     {
       "image": "23155",
       "id": 5304,
@@ -908,44 +927,44 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 690
     },
-
     {
       "image": "02588",
       "id": 5331,
       "name": "Steal Yer Thunder",
       "type": "Debuff",
       "spec": "Path of Da Green",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Reduces the stats of all enemies within 30 feet of your target by 40 (except wounds), and increases all your groupmember's stats by 40 (except wounds) for 15 seconds",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1972
     },
-
     {
       "image": "04543",
       "id": 5312,
       "name": "Sticky Feetz",
       "type": "Ailment",
-      "spec": "Path of Da Green",
-      "minrank": "1",
+      "spec": "Path of Mork",
+      "minrank": "21",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "For 10 seconds, all enemies within 20 feet of a spot that you select will have their Elemental resistance reduced by 236 and become snared, reducing their run speed by 60%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1927
     },
-
     {
       "image": "02584",
       "id": 5279,
@@ -954,14 +973,14 @@
       "spec": "Core Ability",
       "minrank": "14",
       "cost": "40 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "Your chance to disrupt attacks is increased by 5%, and you Detaunt all enemies within 30 feet for 10 seconds, making them hate you less and causing them to deal 50% damage to you. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1915
     },
-
     {
       "image": "22709",
       "id": 5300,
@@ -970,14 +989,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 588
     },
-
     {
       "image": "22707",
       "id": 5309,
@@ -986,62 +1005,62 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 756
     },
-
     {
       "image": "22694",
       "id": 5325,
       "name": "Waaagh! Frenzy",
       "type": "Healing",
       "spec": "Path of Da Green",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "I'll Take That and Fury of Da Green will now inflict 325 Elemental damage but no longer recieve a base healing value, instead healing for 50% of damage dealt.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1955
     },
-
     {
       "image": "22707",
       "id": 5308,
       "name": "Whazat Behind You?!",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds.<br>If you hit anyone that you have Detaunted, the effect will end.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 760
     },
-
     {
       "image": "abi_gs_getsmarter",
       "id": 5284,
       "name": "Get'n Smarter",
       "type": "Ailment",
       "spec": "Path of Da Green",
-      "minrank": "30",
+      "minrank": "1",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "Steals 75 Intelligence from your target while dealing 730 elemental damage over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1909
     },
-
     {
       "image": "02581",
       "id": 5281,
@@ -1052,44 +1071,44 @@
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "Steals 180 Action points from your target over 9 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1911
     },
-
     {
       "image": "02460",
       "id": 5328,
       "name": "You Got Nuthin!",
       "type": "Ailment",
       "spec": "Path of Da Green",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "100ft range",
       "incant": "1.0s cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 284 elemental damage and silences your target, making them unable to use magic for 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1917
     },
-
     {
       "image": "22708",
       "id": 5327,
       "name": "You Really Got Nuthin",
       "type": "Debuff",
       "spec": "Path of Da Green",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces You Got Nuthin's cooldown time by 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1956
     },
-
     {
       "image": "02506",
       "id": 5297,
@@ -1098,14 +1117,14 @@
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Removes 100 AP from each enemy within 30 feet, and gives 50% of the stolen AP to you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1966
     },
-
     {
       "image": "02585",
       "id": 5286,
@@ -1119,9 +1138,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them have thier Toughness reduced by 75 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1916
     },
-
     {
       "image": "02504",
       "id": 1934,
@@ -1135,7 +1154,8 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "Everyone within 20 feet of your target will have their Strength, Intelligence and Ballistic Skill reduced by 75 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1934
     }
   ]
 }
