@@ -14,7 +14,13 @@
         "lvl6": 3459,
         "lvl7": 3460
       },
-      "coreAbilities": [3416, 3509, 3423, 3418, 3425]
+      "coreAbilities": [
+        3416,
+        3509,
+        3423,
+        3418,
+        3425
+      ]
     },
     "b": {
       "name": "Path of Asuryan",
@@ -30,7 +36,13 @@
         "lvl6": 3466,
         "lvl7": 3467
       },
-      "coreAbilities": [3415, 3510, 3421, 3411, 3428]
+      "coreAbilities": [
+        3415,
+        3510,
+        3421,
+        3411,
+        3428
+      ]
     },
     "c": {
       "name": "Path of Vaul",
@@ -46,58 +58,16 @@
         "lvl6": 3473,
         "lvl7": 3474
       },
-      "coreAbilities": [3419, 3414, 3427, 3429, 3413]
+      "coreAbilities": [
+        3419,
+        3414,
+        3427,
+        3429,
+        3413
+      ]
     }
   },
   "data": [
-    {
-      "image": "22736",
-      "id": 3484,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 3482,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 3483,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "23150",
       "id": 3450,
@@ -106,62 +76,14 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 697
     },
-
-    {
-      "image": "22725",
-      "id": 3497,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 3499,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 3498,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "13368",
       "id": 3440,
@@ -170,30 +92,30 @@
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Knocks back all enemies within 20 feet and Silences them, making them unable to use magic for 3 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9304
     },
-
     {
       "image": "22706",
       "id": 3470,
       "name": "Arcing Power",
       "type": "Buff",
       "spec": "Path of Vaul",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever one of your damaging spells hits an enemy, your defensive target will become healed for 25% of the damage that you dealt.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9295
     },
-
     {
       "image": "13463",
       "id": 3413,
@@ -207,9 +129,9 @@
       "cooldown": "No cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "Deals 200 spiritdamage to your target, and heals your defensive target for 488 health plus 150% of the damage done.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2300
     },
-
     {
       "image": "22705",
       "id": 3452,
@@ -218,62 +140,14 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 819
     },
-
-    {
-      "image": "22718",
-      "id": 3506,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 3508,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 3507,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "13349",
       "id": 3425,
@@ -282,14 +156,14 @@
       "spec": "Path of Isha",
       "minrank": "20",
       "cost": "65 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
       "note": "Force reduces cast time.<br>Builds Tranquility",
       "description": "Heals your entire group for 643 health.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9245
     },
-
     {
       "image": "13367",
       "id": 3439,
@@ -300,28 +174,28 @@
       "cost": "Rank 2 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For 5 seconds, your target and all other enemies within 20 feet of them will take an additional 1 second to build up all abilities.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9303
     },
-
     {
       "image": "22708",
       "id": 3456,
       "name": "Bolstering Boon",
       "type": "Buff",
       "spec": "Path of Isha",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Boon Of Hysh will now also grant the target 250 points of Morale.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9288
     },
-
     {
       "image": "13346",
       "id": 3418,
@@ -335,89 +209,41 @@
       "cooldown": "No cooldown",
       "note": "Force reduces cast time.<br>Builds Tranquility",
       "description": "Heals your target for 883 health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9242
     },
-
-    {
-      "image": "22731",
-      "id": 3502,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 3501,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 3500,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22705",
       "id": 3451,
       "name": "Centuries of Training",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 818
     },
-
     {
       "image": "13362",
       "id": 3462,
       "name": "Cleansing Flare",
       "type": "Damaging",
-      "spec": "Path of Isha",
-      "minrank": "1",
+      "spec": "Path of Asuryan",
+      "minrank": "21",
       "cost": "25 Action Points",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "Deals 205 Spirit damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9266
     },
-
     {
       "image": "13348",
       "id": 3423,
@@ -428,60 +254,12 @@
       "cost": "35 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Target must be Hexed or Ailing",
       "description": "You cleanse an ally's wound and remove one Ailment or Hex. If an effect is removed, your ally will absorb up to 175 damage over 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9244
     },
-
-    {
-      "image": "22716",
-      "id": 3504,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 3503,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 3505,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22706",
       "id": 3437,
@@ -490,14 +268,14 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Magical Infusion will make its target 25% more receptive to incoming heals.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 2750
     },
-
     {
       "image": "22705",
       "id": 3453,
@@ -506,62 +284,62 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your attacks have a 10% reduced chance to be defended against.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 823
     },
-
     {
       "image": "22706",
       "id": 3442,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Willpower by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 592
     },
-
     {
       "image": "22704",
       "id": 3463,
       "name": "Dispel Magic",
       "type": "Damaging",
       "spec": "Path of Asuryan",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your damaging spells gain a 25% chance to remove 1 Blessing from the victim. Whenever this happens, they will also suffer an additional 150 Spirit damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9290
     },
-
     {
       "image": "13336",
       "id": 3466,
       "name": "Dissipating Energies",
       "type": "Enchantment",
       "spec": "Path of Asuryan",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "50 Action Points",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "20seconds cooldown",
+      "cooldown": "20s cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds. Every 1 seconds, all enemies within 30 feet of them will suffer 146 Spirit damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9271
     },
-
     {
       "image": "13358",
       "id": 3417,
@@ -572,12 +350,12 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9256
     },
-
     {
       "image": "23151",
       "id": 3445,
@@ -588,12 +366,12 @@
       "cost": "Rank 1 morale",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 694
     },
-
     {
       "image": "22703",
       "id": 3441,
@@ -602,14 +380,14 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 585
     },
-
     {
       "image": "23152",
       "id": 3449,
@@ -618,14 +396,14 @@
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 696
     },
-
     {
       "image": "13353",
       "id": 3424,
@@ -636,12 +414,12 @@
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You siphon magic from your target, draining 180 Action Points over 9 seconds into yourself.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9249
     },
-
     {
       "image": "22703",
       "id": 3430,
@@ -650,94 +428,46 @@
       "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you critically hit with an ability that builds either Force or Tranquility, you will gain one additional point. Tactic can not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9276
     },
-
     {
       "image": "23418",
       "id": 3473,
       "name": "Energy of Vaul",
       "type": "Damaging",
       "spec": "Path of Vaul",
-      "minrank": "1",
-      "cost": "50 Action Points",
+      "minrank": "29",
+      "cost": "35 Action Points",
       "range": "80ft range",
       "incant": "2.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "A wash of power leeches the breath from your target and up to four other enemies within 25 feet of them, dealing 199 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 0 health, plus 50% of the total inflicted damage.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likley to be Blocked or Disrupted.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9274
     },
-
-    {
-      "image": "22725",
-      "id": 3495,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 3496,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 3494,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "13415",
       "id": 3467,
       "name": "Flames of the Phoenix",
       "type": "Damaging",
       "spec": "Path of Asuryan",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
       "range": "100ft range",
       "incant": "4.0s cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Flames burst from a spot that you select, damaging all enemies within 20 feet of that spot for up to 4 seconds, as long as you maintain your concentration.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9309
     },
-
     {
       "image": "05004",
       "id": 3511,
@@ -746,14 +476,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "23153",
       "id": 3448,
@@ -762,62 +492,62 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 695
     },
-
     {
       "image": "22703",
       "id": 3461,
       "name": "Radiant Burst",
       "type": "Buff",
       "spec": "Path of Asuryan",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Radiant Lance will now affect all enemies within 15 feet of your target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9289
     },
-
     {
       "image": "13459",
       "id": 3474,
       "name": "Funnel Energy",
       "type": "Buff",
       "spec": "Path of Vaul",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All enemies within 30 feet have their action point costs increased by 50% for 15 seconds, and all allies in the area have their action point costs reduced by 50% for 15 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9310
     },
-
     {
       "image": "13347",
       "id": 3459,
       "name": "Funnel Essence",
       "type": "Healing",
       "spec": "Path of Isha",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "20 Action Points / Sec",
       "range": "150ft range",
       "incant": "3.0s cast",
-      "cooldown": "13.0s cooldown",
+      "cooldown": "13s cooldown",
       "note": "Force increases effectiveness. <br>Builds Tranquility",
       "description": "You focus your powers on your defensive target, restoring up to 1256 health to them over 3 seconds. This effect will end if you break your concentration, or if you run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9258
     },
-
     {
       "image": "13363",
       "id": 3428,
@@ -828,12 +558,12 @@
       "cost": "35 Action Points",
       "range": "100ft range",
       "incant": "1.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing  309 Spirit to your target.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9267
     },
-
     {
       "image": "13350",
       "id": 3420,
@@ -844,76 +574,28 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "3.0s cast",
-      "cooldown": "6.0s cooldown",
+      "cooldown": "6s cooldown",
       "note": "Force reduces cast time.<br>Only usable on Dead Players",
       "description": "Resurrects your target with 20% health.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9246
     },
-
     {
       "image": "22713",
       "id": 3472,
       "name": "Golden Aura",
       "type": "Buff",
       "spec": "Path of Vaul",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Shield of Saphery will now grant immunity to Stun and Knockdown effects while active.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9292
     },
-
-    {
-      "image": "22730",
-      "id": 3487,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 3486,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 3485,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "13340",
       "id": 3509,
@@ -927,9 +609,9 @@
       "cooldown": "No cooldown",
       "note": "Force reduces cast time.<br>Builds Tranquility",
       "description": "Your target regains 258 health immediately, then continues to gain another 315 health over 5 seconds. If you have Force this ability will continue to build up even if you move.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9236
     },
-
     {
       "image": "22703",
       "id": 3433,
@@ -938,14 +620,14 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Gift Of Life now resurrects allies instantly, but stuns you for 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9279
     },
-
     {
       "image": "22705",
       "id": 3431,
@@ -954,14 +636,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "If Cleansing Light successfully removes an effect from an ally, then they will also regain 534 health over 9 seconds. (at RR100)",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9277
     },
-
     {
       "image": "13366",
       "id": 3438,
@@ -970,14 +652,14 @@
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You gain a shield that absorbs 3600 damage for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 2858
     },
-
     {
       "image": "13342",
       "id": 3412,
@@ -991,9 +673,9 @@
       "cooldown": "No cooldown",
       "note": "Force increases effectiveness. <br>Builds Tranquility",
       "description": "Heals your target for 1700 health over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9238
     },
-
     {
       "image": "13356",
       "id": 3429,
@@ -1007,9 +689,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 75 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9252
     },
-
     {
       "image": "13343",
       "id": 3411,
@@ -1023,41 +705,41 @@
       "cooldown": "No cooldown",
       "note": "Tranquility increases effectiveness. <br>Builds Force",
       "description": "Deals 710 Spirit damage to your target over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9239
     },
-
     {
       "image": "13357",
       "id": 3471,
       "name": "Law of Gold",
       "type": "Hex",
       "spec": "Path of Vaul",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "100ft range",
       "incant": "1.0s cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "Deals 284 Spirit damage and silences your target, making them unable to use magic for 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9253
     },
-
     {
       "image": "13413",
       "id": 3457,
       "name": "Magical Infusion",
       "type": "Healing",
       "spec": "Path of Isha",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "55 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 25%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Magical Infusion at a time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9272
     },
-
     {
       "image": "22704",
       "id": 3434,
@@ -1066,14 +748,14 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit enemies by 10%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9280
     },
-
     {
       "image": "22706",
       "id": 3432,
@@ -1082,78 +764,30 @@
       "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically heal by 10%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9278
     },
-
     {
       "image": "13355",
       "id": 3455,
       "name": "Mistress of The Marsh",
       "type": "Hex",
-      "spec": "Path of Vaul",
-      "minrank": "1",
+      "spec": "Path of Isha",
+      "minrank": "21",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "For 10 seconds, all enemies within 20 feet of a spot that you select will have their Initiative reduced by 50 and become snared, reducing their run speed by 60%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9251
     },
-
-    {
-      "image": "22729",
-      "id": 3493,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 3492,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 3491,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "13352",
       "id": 3416,
@@ -1162,14 +796,14 @@
       "spec": "Path of Isha",
       "minrank": "7",
       "cost": "55 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases all resistances of everyone in your group within 100 feet by 157 for 1 hour.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9248
     },
-
     {
       "image": "13360",
       "id": 3421,
@@ -1180,12 +814,12 @@
       "cost": "40 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Tranquility increases effectiveness. <br>Builds Force",
       "description": "Deals 204 Spirit damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9264
     },
-
     {
       "image": "13341",
       "id": 3510,
@@ -1199,9 +833,9 @@
       "cooldown": "No cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
       "description": "A lance of brilliant energy erupts from your staff, dealing 344 Spirit damage to your target.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9237
     },
-
     {
       "image": "13344",
       "id": 3427,
@@ -1212,12 +846,12 @@
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them have their Intelligence, Strength and Ballistic Skill reduced by 75 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9240
     },
-
     {
       "image": "23154",
       "id": 3446,
@@ -1226,14 +860,14 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 692
     },
-
     {
       "image": "22694",
       "id": 3444,
@@ -1242,14 +876,14 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 589
     },
-
     {
       "image": "22694",
       "id": 3436,
@@ -1258,30 +892,30 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces the cooldown time for Walk Between Worlds by 50%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9282
     },
-
     {
       "image": "13351",
       "id": 3464,
       "name": "Scatter The Winds",
       "type": "Hex",
       "spec": "Path of Asuryan",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Tranquility increases effectiveness. <br>Builds Force",
       "description": "Deals 552 Spirit damage to your target over 9 seconds, and causes all heals that they receive to become 50% less effective.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9247
     },
-
     {
       "image": "13354",
       "id": 3415,
@@ -1292,12 +926,12 @@
       "cost": "13 Action Points / Sec",
       "range": "100ft range",
       "incant": "6.0s cast",
-      "cooldown": "11.0s cooldown",
+      "cooldown": "11s cooldown",
       "note": "Tranquility increases effectiveness. <br>Builds Force",
       "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing 344 Spirit damage to them as long as you maintain your concentration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9250
     },
-
     {
       "image": "13364",
       "id": 3414,
@@ -1308,60 +942,12 @@
       "cost": "35 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Force increases effectiveness. <br>Builds Tranquility",
       "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to 925 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9268
     },
-
-    {
-      "image": "22721",
-      "id": 3488,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 3489,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 3490,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "23155",
       "id": 3447,
@@ -1372,28 +958,28 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 690
     },
-
     {
       "image": "13365",
       "id": 3469,
       "name": "Storm of Cronos",
       "type": "Hex",
-      "spec": "Path of Asuryan",
-      "minrank": "1",
+      "spec": "Path of Vaul",
+      "minrank": "21",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Builds Force",
       "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 338 Spirit damage and reducing their Spirit resistance by 236 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9269
     },
-
     {
       "image": "22709",
       "id": 3443,
@@ -1402,14 +988,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 588
     },
-
     {
       "image": "13345",
       "id": 3419,
@@ -1420,12 +1006,12 @@
       "cost": "40 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Tranquility increases effectiveness. <br>Builds Force",
       "description": "Deals 1072 Spirit damage to your target over 24 seconds and heals your defensive target for 150% of the damage done on each tick.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9241
     },
-
     {
       "image": "22708",
       "id": 3435,
@@ -1434,14 +1020,14 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Drain Magic will now siphon energy from an area 20 feet around your initial target, but will only drain 92 Action Points over 9 seconds from each target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9281
     },
-
     {
       "image": "13361",
       "id": 3422,
@@ -1450,30 +1036,30 @@
       "spec": "Core Ability",
       "minrank": "14",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You can not be set back for 5 seconds and detaunts all enemies around you, making them hate you less and reducing the damage they deal to you to 50%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9265
     },
-
     {
       "image": "22706",
       "id": 3458,
       "name": "Wild Healing",
       "type": "Buff",
       "spec": "Path of Isha",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you critically heal someone, your healing abilities will cost 35% less action points for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9293
     },
-
     {
       "image": "13359",
       "id": 3426,
@@ -1482,76 +1068,77 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "40 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You call forth a powerful gust of wind which slams into enemies within 30 feet of you, knocking players away a medium distance and knocking monsters down. Anyone hit by the wind becomes snared, reducing their run speed by 20% for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9255
     },
-
     {
       "image": "13414",
       "id": 3460,
       "name": "Winds' Protection",
       "type": "Healing",
       "spec": "Path of Isha",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All group mates within 100 feet regain 800 health over 15 seconds, and become surrounded by a magical barrier which will absorb 2400 damage.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9308
     },
-
     {
       "image": "22706",
       "id": 6103,
       "name": "Apotheosis",
       "type": "Buff",
       "spec": "Path of Isha",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you use Cleansing Light on an ally, you will now remove one Hex or Ailment from all groupmates within 50 feet of them.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9297
     },
-
     {
       "image": "22705",
       "id": 6104,
       "name": "Penetrating Siphon",
       "type": "Buff",
-      "spec": "Path of Vaul",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Balance Essence and Energy of Vaul will now inflict 0 Spirit damage, but neither will grant a fixed heal, nor will they be castable on the move.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 2305
     },
-
     {
       "image": "22696",
       "id": 2748,
       "name": "Khaine's Touch",
       "type": "Buff",
       "spec": "Path of Asuryan",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces the duration and tick interval of Searing Touch by 50%. Khaine's price however will reduce the effectiveness of your healing abilities by 20% and increase the cooldown of Searing Touch by 50%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 2748
     }
   ]
 }
