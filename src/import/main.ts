@@ -421,6 +421,7 @@ const main = async () => {
     CareerLine.WARRIOR_PRIEST,
     abilityData,
   );
+  await validateCareer('chosen', CareerLine.CHOSEN, abilityData);
   await validateCareer(
     'disciple-of-khaine',
     CareerLine.DISCIPLE_OF_KHAINE,
