@@ -433,6 +433,8 @@ const main = async () => {
   await validateCareer('sword-master', CareerLine.SWORD_MASTER, abilityData);
   await validateCareer('white-lion', CareerLine.WHITE_LION, abilityData);
   await validateCareer('archmage', CareerLine.ARCHMAGE, abilityData);
+  await validateCareer('black-guard', CareerLine.BLACK_GUARD, abilityData);
+  await validateCareer('witch-elf', CareerLine.WITCH_ELF, abilityData);
   await validateCareer(
     'disciple-of-khaine',
     CareerLine.DISCIPLE_OF_KHAINE,
