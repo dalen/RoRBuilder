@@ -306,6 +306,11 @@ const validateAbility = async (
       ...matchingName.map(gameAbility => gameAbility.Description || ''),
     ].map(description => stringMatch(ability.description, description));
 
+    // Only one ability matches, and description seems to match as well
+    if (matchingName.length === 1 && descriptionMatch[1] > 0) {
+      return { ...ability, gameId: matchingName[0].AbilityID };
+    }
+
     const gameId = await inquirer.prompt({
       type: 'list',
       name: 'gameId',
@@ -424,6 +429,7 @@ const main = async () => {
   await validateCareer('chosen', CareerLine.CHOSEN, abilityData);
   await validateCareer('marauder', CareerLine.MARAUDER, abilityData);
   await validateCareer('zealot', CareerLine.ZEALOT, abilityData);
+  await validateCareer('magus', CareerLine.MAGUS, abilityData);
   await validateCareer(
     'disciple-of-khaine',
     CareerLine.DISCIPLE_OF_KHAINE,

@@ -14,7 +14,13 @@
         "lvl6": 5115,
         "lvl7": 5111
       },
-      "coreAbilities": [5078, 5068, 5079, 5161, 5067]
+      "coreAbilities": [
+        5078,
+        5068,
+        5079,
+        5161,
+        5067
+      ]
     },
     "b": {
       "name": "Path of Changing",
@@ -30,7 +36,13 @@
         "lvl6": 5117,
         "lvl7": 5118
       },
-      "coreAbilities": [5074, 5071, 5058, 5072, 5062]
+      "coreAbilities": [
+        5074,
+        5071,
+        5058,
+        5072,
+        5062
+      ]
     },
     "c": {
       "name": "Path of Daemonology",
@@ -46,7 +58,13 @@
         "lvl6": 5124,
         "lvl7": 5125
       },
-      "coreAbilities": [5080, 5061, 5077, 5063, 5073]
+      "coreAbilities": [
+        5080,
+        5061,
+        5077,
+        5063,
+        5073
+      ]
     }
   },
   "data": [
@@ -63,9 +81,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You summon and absorb orange flames to increase your wounds by 150, increasing your total life for 20 seconds. During this time, any enemies striking you have a 25% chance to recieve 234 Elemental damage from your flames.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8501
     },
-
     {
       "image": "05289",
       "id": 5120,
@@ -79,9 +97,9 @@
       "cooldown": "20s cooldown",
       "note": "",
       "description": "Your disk emanates an aura of pain that inflicts 268 spirit damage every 3 seconds for 9 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8500
     },
-
     {
       "image": "22714",
       "id": 5104,
@@ -95,9 +113,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 elemental damage over 5 seconds to anyone who hits you.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 800
     },
-
     {
       "image": "05307",
       "id": 5067,
@@ -111,9 +129,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Bends and twists your target from within to deal 835 elemental damage over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8488
     },
-
     {
       "image": "05294",
       "id": 5108,
@@ -127,9 +145,9 @@
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "An un-defendable bolt of far-traveling force that inflicts 633 elemental damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8496
     },
-
     {
       "image": "22706",
       "id": 5107,
@@ -143,9 +161,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Surging Violet Fire will now heal you for 50% of damage dealt.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8516
     },
-
     {
       "image": "22704",
       "id": 5109,
@@ -159,9 +177,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the critical chance for all Path of Havoc spells by 15%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8518
     },
-
     {
       "image": "22713",
       "id": 5119,
@@ -175,9 +193,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Daemons can now be summoned instantly and the cost of Resummon is reduced to 0 Action Points.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8522
     },
-
     {
       "image": "05297",
       "id": 5124,
@@ -191,9 +209,9 @@
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 75 feet of the vortex towards it's center and then snaring everyone within 30 feet a second later by 40% for 4 seconds. Monsters will be knocked down by the initial pull.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8499
     },
-
     {
       "image": "22694",
       "id": 5095,
@@ -207,9 +225,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 569
     },
-
     {
       "image": "05102",
       "id": 5091,
@@ -223,25 +241,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Focusing the great powers of Chaos for 10 seconds, you may tirelessly use all your abilities for no AP cost.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8529
     },
-
-    {
-      "image": "22716",
-      "id": 5156,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "05309",
       "id": 5069,
@@ -255,9 +257,9 @@
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "You surround yourself with daemonic protection, increasing your Armor by 560 for up to 1 hours.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8492
     },
-
     {
       "image": "22709",
       "id": 5121,
@@ -271,9 +273,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your damage is increased by 15% when under 45 feet away from your target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8524
     },
-
     {
       "image": "05310",
       "id": 5073,
@@ -287,9 +289,9 @@
       "cooldown": "15.0s cooldown",
       "note": "",
       "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close dealing 243 spirit damage to all enemies within 30 feet and staggering them for 5 seconds, preventing all actions until they take damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8541
     },
-
     {
       "image": "05270",
       "id": 5063,
@@ -303,9 +305,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "An ethereal tentacle swipes the target in front of you for 203 spirit damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8472
     },
-
     {
       "image": "05304",
       "id": 5162,
@@ -319,9 +321,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Deals 328 Spirit damage and reduces movement speed by 40% for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8484
     },
-
     {
       "image": "22702",
       "id": 5123,
@@ -335,9 +337,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Forms a pact with newly summoned daemons that increases both you and your daemon's Toughness by 100 while your daemon remains in this realm.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8523
     },
-
     {
       "image": "22697",
       "id": 5114,
@@ -351,9 +353,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the ranges of all Path of Changing abilities by 25%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8520
     },
-
     {
       "image": "05306",
       "id": 5077,
@@ -367,9 +369,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your group members' Corporeal resistance by 157 if they are within 100 feet of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8490
     },
-
     {
       "image": "05302",
       "id": 5118,
@@ -383,9 +385,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 2400 damage to all targets in a line in front of you up to 65 feet away.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8534
     },
-
     {
       "image": "22706",
       "id": 5088,
@@ -399,9 +401,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Withered Soul will now also cause the victim to suffer 15% more damage from all sources.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8513
     },
-
     {
       "image": "22704",
       "id": 5092,
@@ -415,9 +417,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect can not occur more than once every 2 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 568
     },
-
     {
       "image": "05287",
       "id": 5117,
@@ -431,9 +433,9 @@
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "Summons a cloud of caustic mist that deals 79 spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds the cloud doubles in strength, dealing 146 spirit damage and 10 seconds later will double in strength again, dealing 212 spirit damage.<br> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8494
     },
-
     {
       "image": "22695",
       "id": 5093,
@@ -447,9 +449,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Intelligence by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 563
     },
-
     {
       "image": "22694",
       "id": 5112,
@@ -463,9 +465,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Pandemonium will now reapply it's damage effect 50% of the time after it ends or is removed.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8519
     },
-
     {
       "image": "22704",
       "id": 5105,
@@ -479,9 +481,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Flickering Red Fire and Surging Violet Fire will hit one additional enemy up to 15 feet away from the target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8517
     },
-
     {
       "image": "05303",
       "id": 5125,
@@ -495,9 +497,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Summons a mighty Firewyrm that will rampage around attacking your enemies for 16 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8535
     },
-
     {
       "image": "22704",
       "id": 5083,
@@ -511,9 +513,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Rend Winds and Flickering Red Fire are now undefendable.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8507
     },
-
     {
       "image": "05004",
       "id": 5160,
@@ -527,9 +529,9 @@
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "05106",
       "id": 5161,
@@ -543,9 +545,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict 320 elemental damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8470
     },
-
     {
       "image": "23153",
       "id": 5099,
@@ -559,9 +561,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 674
     },
-
     {
       "image": "05286",
       "id": 5062,
@@ -575,9 +577,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You strip away the spiritual protections of everyone 20 feet from your target, reducing their Spirit resistance by  236 and dealing 420 spirit damage over 20.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8482
     },
-
     {
       "image": "05301",
       "id": 5089,
@@ -591,9 +593,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 798 damage over 6 seconds and Snares by 60% for 6 seconds",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8527
     },
-
     {
       "image": "05279",
       "id": 5065,
@@ -607,9 +609,9 @@
       "cooldown": "15.0s cooldown",
       "note": "",
       "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8477
     },
-
     {
       "image": "05300",
       "id": 5115,
@@ -623,9 +625,9 @@
       "cooldown": "16.0s cooldown",
       "note": "",
       "description": "A horrible torrent of energy that deals 387 elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 Action Points over 6 seconds to you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8502
     },
-
     {
       "image": "05290",
       "id": 5061,
@@ -639,9 +641,9 @@
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "A daemonic wave that warps the air in front of you dealing 576 elemental damage over 9 seconds to all targets 40 feet in front of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8487
     },
-
     {
       "image": "22702",
       "id": 5081,
@@ -655,9 +657,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Daemons will be summoned with 160 more Wounds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8512
     },
-
     {
       "image": "22708",
       "id": 5085,
@@ -671,9 +673,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Surge of Insanity will now cause an additional 345 spirit damage over 6 seconds to all targets hit.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8510
     },
-
     {
       "image": "05299",
       "id": 5076,
@@ -687,9 +689,9 @@
       "cooldown": "1m cooldown",
       "note": "Requires a summoned minion.",
       "description": "You force so much power into your daemon that it explodes from within, dealing 320 spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8481
     },
-
     {
       "image": "22694",
       "id": 5084,
@@ -703,9 +705,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "When you summon a daemon, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8509
     },
-
     {
       "image": "23167",
       "id": 5096,
@@ -719,9 +721,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 670
     },
-
     {
       "image": "23168",
       "id": 5098,
@@ -735,9 +737,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 673
     },
-
     {
       "image": "05149",
       "id": 5079,
@@ -751,9 +753,9 @@
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "A column of blue flame washes over your target, dealing 516 elemental damage and then dealing an additional 429 elemental damage over 9 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8486
     },
-
     {
       "image": "05312",
       "id": 5072,
@@ -767,9 +769,9 @@
       "cooldown": "5.0s cooldown",
       "note": "",
       "description": "Chaotic swirls of power inflict 735 Spirit damage over 15 seconds to your target and those within 20 feet of them.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8489
     },
-
     {
       "image": "05293",
       "id": 5106,
@@ -783,9 +785,9 @@
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You open a rift surrounding your target, dealing 288 elemental damage and weakening the fabric of reality around them, disarming them for  3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8495
     },
-
     {
       "image": "05112",
       "id": 5058,
@@ -799,9 +801,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Tears at your foe with fierce winds, hitting them three times for a total of 264 spirit damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8471
     },
-
     {
       "image": "05311",
       "id": 5075,
@@ -815,9 +817,9 @@
       "cooldown": "20.0s cooldown",
       "note": "Requires a summoned minion.",
       "description": "You shift your active summoning circle to your current location, bringing your minion with it.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8542
     },
-
     {
       "image": "05114",
       "id": 5090,
@@ -831,9 +833,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Winds tear out from your target, dealing 300 damage to them and everyone within 20 feet every second for 4 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8528
     },
-
     {
       "image": "23169",
       "id": 5100,
@@ -847,9 +849,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 671
     },
-
     {
       "image": "05295",
       "id": 5113,
@@ -863,9 +865,9 @@
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "Grows a seed inside your target dealing 435 spirit damage over 15 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal 183 spirit damage to all targets within 20 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8497
     },
-
     {
       "image": "05271",
       "id": 5059,
@@ -879,9 +881,9 @@
       "cooldown": "20.0s cooldown",
       "note": "Requires a summoned minion.",
       "description": "You remove stagger effects from an ally and five other allies within 25 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8473
     },
-
     {
       "image": "23170",
       "id": 5097,
@@ -895,9 +897,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You drain power from your target, Steals up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 669
     },
-
     {
       "image": "22708",
       "id": 5094,
@@ -911,9 +913,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Enemy monsters will hate you 50% less than normal.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 567
     },
-
     {
       "image": "05151",
       "id": 5111,
@@ -927,9 +929,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 2394 damage over 10 seconds and removes 50 Action Points every 2 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8533
     },
-
     {
       "image": "05276",
       "id": 5064,
@@ -943,9 +945,9 @@
       "cooldown": "5.0s cooldown",
       "note": "",
       "description": "Summons a daemonic minion who specializes in short range Spiritual and Elemental area of effect attacks. This minion is confined to its summoning circle and cannot move. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your The daemonic minion gains 50% of your Intelligence from item bonuses and 100% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when your daemon is slain for any reason.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8476
     },
-
     {
       "image": "05280",
       "id": 5066,
@@ -959,9 +961,9 @@
       "cooldown": "5.0s cooldown",
       "note": "",
       "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 75% of your Intelligence from item bonuses and 75% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when your daemon is slain for any reason.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8478
     },
-
     {
       "image": "05272",
       "id": 5060,
@@ -975,9 +977,9 @@
       "cooldown": "5.0s cooldown",
       "note": "",
       "description": "Summons a daemonic minion who specializes in long range Elemental based attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 100% of your Intelligence from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when your daemon is slain for any reason.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8474
     },
-
     {
       "image": "05275",
       "id": 5071,
@@ -991,9 +993,9 @@
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "A surge of chaotic bliss overcomes your target, dealing 291 spirit damage. The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8475
     },
-
     {
       "image": "22709",
       "id": 5086,
@@ -1007,9 +1009,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases critical damage from Infernal Blast, Surging Violet Fire, Flickering Red Fire, and Surge of Insanity by 50%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8511
     },
-
     {
       "image": "05283",
       "id": 5068,
@@ -1023,9 +1025,9 @@
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "Tendrils of writhing violet flame coil around your target, burning them for 241 elemental damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8479
     },
-
     {
       "image": "22703",
       "id": 5087,
@@ -1039,9 +1041,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Surging Violet Fire's cooldown by 7 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8508
     },
-
     {
       "image": "05296",
       "id": 5110,
@@ -1055,9 +1057,9 @@
       "cooldown": "16.0s cooldown",
       "note": "",
       "description": "Creates a great column of wind and flame that deals 243 spirit damage every 2 seconds to all targets within 20 feet of the area, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8498
     },
-
     {
       "image": "05284",
       "id": 5070,
@@ -1071,9 +1073,9 @@
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "A summoning wave passes over those within 30 feet of you, calling fourth tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8480
     },
-
     {
       "image": "22714",
       "id": 5103,
@@ -1087,9 +1089,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 798
     },
-
     {
       "image": "22709",
       "id": 5082,
@@ -1103,9 +1105,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Pink Horrors, Blue horrors and Flamers of Tzeentch now have a 15% chance to taunt their targets with every attack. This enrages the target, interrupting any building actions and forces monsters to target your pet for 5 seconds. Taunted targets receive 20% more damage from your daemon. If your daemon is struck 3 times by their taunted target, taunt will be broken.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8506
     },
-
     {
       "image": "23171",
       "id": 5101,
@@ -1119,9 +1121,9 @@
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 672
     },
-
     {
       "image": "22714",
       "id": 5102,
@@ -1135,9 +1137,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 797
     },
-
     {
       "image": "05305",
       "id": 5080,
@@ -1151,9 +1153,9 @@
       "cooldown": "13.0s cooldown",
       "note": "",
       "description": "You channel warping flame through your disk, dealing 155 elemental damage to all targets within 30 feet of you every second for 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8485
     },
-
     {
       "image": "05153",
       "id": 5074,
@@ -1167,9 +1169,9 @@
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "Energy spirals towards your foe, dealing 291 spirit damage and knocking them back a short distance. Monsters will be knocked down.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8483
     },
-
     {
       "image": "22708",
       "id": 5116,
@@ -1183,9 +1185,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases critical chance for all Path Of Changing spells by 15%",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8521
     },
-
     {
       "image": "05308",
       "id": 5078,
@@ -1199,7 +1201,8 @@
       "cooldown": "20.0s cooldown",
       "note": "",
       "description": "Your malice is forced directly into your target's soul, inflicting 1240 elemental damage over 20 seconds while reducing their Disrupt chance by 5%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8491
     }
   ]
 }
