@@ -14,7 +14,13 @@
         "lvl6": 5209,
         "lvl7": 5214
       },
-      "coreAbilities": [5172, 5175, 5163, 5181, 5166]
+      "coreAbilities": [
+        5172,
+        5175,
+        5163,
+        5181,
+        5166
+      ]
     },
     "b": {
       "name": "Path of Brutality",
@@ -30,7 +36,13 @@
         "lvl6": 5220,
         "lvl7": 5221
       },
-      "coreAbilities": [5176, 5180, 5167, 5164, 5168]
+      "coreAbilities": [
+        5176,
+        5180,
+        5167,
+        5164,
+        5168
+      ]
     },
     "c": {
       "name": "Path of Monstrosity",
@@ -46,7 +58,13 @@
         "lvl6": 5227,
         "lvl7": 5228
       },
-      "coreAbilities": [5182, 5171, 5264, 5179, 5170]
+      "coreAbilities": [
+        5182,
+        5171,
+        5264,
+        5179,
+        5170
+      ]
     }
   },
   "data": [
@@ -58,14 +76,14 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 800
     },
-
     {
       "image": "23156",
       "id": 5203,
@@ -74,14 +92,14 @@
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 629
     },
-
     {
       "image": "22702",
       "id": 5185,
@@ -90,94 +108,94 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to Disrupt enemy magic by 10%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8429
     },
-
     {
       "image": "22701",
       "id": 5196,
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength by 160",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 521
     },
-
     {
       "image": "23403",
       "id": 5229,
       "name": "Bypass Defenses",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "10",
+      "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 14423
     },
-
     {
       "image": "05313",
       "id": 5173,
       "name": "Charge!",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "10",
+      "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, this effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 240
     },
-
     {
       "image": "22702",
       "id": 522,
       "name": "Close Combat",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "32",
+      "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 second. This effect will not stack with other damage reductions.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 522
     },
-
     {
       "image": "05204",
       "id": 5225,
       "name": "Concussive Jolt",
       "type": "Damaging",
       "spec": "Path of Monstrosity",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting 113 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8423
     },
-
     {
       "image": "23157",
       "id": 5201,
@@ -186,14 +204,14 @@
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 631
     },
-
     {
       "image": "05201",
       "id": 5168,
@@ -204,28 +222,28 @@
       "cost": "25 Action Points / Sec",
       "range": "5ft range",
       "incant": "3.0s channel",
-      "cooldown": "8.0s cooldown",
+      "cooldown": "8s cooldown",
       "note": "Requires Gift of Brutality",
       "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 6 times and dealing 132 damage per hit. This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8406
     },
-
     {
       "image": "22701",
       "id": 5215,
       "name": "Corrupted Edge",
       "type": "Buff",
       "spec": "Path of Brutality",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Gift of Brutality further increases your Strength and Initiative by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8441
     },
-
     {
       "image": "05209",
       "id": 5166,
@@ -239,57 +257,57 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Corruption spreads to your target, reducing their toughness by 75 for 20 seconds and inflicting 141 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8400
     },
-
     {
       "image": "22696",
       "id": 5226,
       "name": "Crushing Blows",
       "type": "Buff",
       "spec": "Path of Monstrosity",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "While you are using the Gift Of Monstrosity, all of your hits have a 25% chance to remove 225 points of Morale from the enemy.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8446
     },
-
     {
       "image": "05196",
       "id": 5211,
       "name": "Cutting Claw",
       "type": "Ailment",
       "spec": "Path of Savagery",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Savagery",
       "description": "Undefendable claw attack that deals 216 damage and reduces the targets armor by 1000 for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8418
     },
-
     {
       "image": "22706",
       "id": 5212,
       "name": "Deadly Clutch",
       "type": "Buff",
       "spec": "Path of Savagery",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Tainted Claw will now reduce all healing used on the victim by 50%. Additionally, you will be healed for 50% of the heals actually received by the target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8440
     },
-
     {
       "image": "05200",
       "id": 5177,
@@ -300,12 +318,12 @@
       "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires Parry",
       "description": "Disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8405
     },
-
     {
       "image": "05191",
       "id": 5164,
@@ -316,12 +334,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "A deliberate attack that inflicts 191 damage and Cripples your target, reducing their movement speed by 40% for 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8396
     },
-
     {
       "image": "22701",
       "id": 5187,
@@ -330,14 +348,14 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you Impale an enemy, they will become 10% more susceptible to being critically hit for 15 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8431
     },
-
     {
       "image": "05199",
       "id": 5170,
@@ -346,62 +364,62 @@
       "spec": "Path of Monstrosity",
       "minrank": "7",
       "cost": "35 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Monstrosity",
       "description": "A widespread attack that inflicts 138 damage to all targets up to 25 feet in front of you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8409
     },
-
     {
       "image": "05222",
       "id": 5213,
       "name": "Draining Swipe",
       "type": "Ailment",
       "spec": "Path of Savagery",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Gift of Savagery",
       "description": "You quickly rake your target twice, dealing 108 damage with each hit. The victim will regain action points 50% more slowly for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8419
     },
-
     {
       "image": "05208",
       "id": 5228,
       "name": "Energy Ripple",
       "type": "Damaging",
       "spec": "Path of Monstrosity",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A large burst of power courses through you, dealing 1800 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8456
     },
-
     {
       "image": "22708",
       "id": 5210,
       "name": "Exhaustive Strikes",
       "type": "Buff",
       "spec": "Path of Savagery",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy while Mutated, they will lose 40 Action Points over the next 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8439
     },
-
     {
       "image": "22696",
       "id": 5188,
@@ -410,14 +428,14 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy, your chance to critically hit will be increased by 20% for 5 seconds, but you will also become 10% more susceptible to being critically hit.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8432
     },
-
     {
       "image": "05171",
       "id": 5179,
@@ -426,14 +444,14 @@
       "spec": "Path of Monstrosity",
       "minrank": "20",
       "cost": "15 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
       "description": "Chaotic winds and daemonic fury combine to increase your Strength and Toughness by 125 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8411
     },
-
     {
       "image": "05187",
       "id": 5264,
@@ -447,9 +465,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You swipe at your opponent for 133 damage. If you have an active Mutation, this attack will hit an additional time for 108 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8392
     },
-
     {
       "image": "05206",
       "id": 5192,
@@ -460,12 +478,12 @@
       "cost": "Rank 1 morale",
       "range": "65ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and rooting them in place for 5 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8449
     },
-
     {
       "image": "22704",
       "id": 5197,
@@ -474,14 +492,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 523
     },
-
     {
       "image": "05004",
       "id": 5263,
@@ -490,14 +508,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "23158",
       "id": 5200,
@@ -508,28 +526,28 @@
       "cost": "Rank 2 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 628
     },
-
     {
       "image": "05230",
       "id": 5221,
       "name": "Forked Aggression",
       "type": "Buff",
       "spec": "Path of Brutality",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For 20 seconds, all damage dealt to you is mirrored back to the attacker with a 50% boost.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8455
     },
-
     {
       "image": "23159",
       "id": 5204,
@@ -538,14 +556,14 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 630
     },
-
     {
       "image": "05193",
       "id": 5165,
@@ -554,14 +572,14 @@
       "spec": "Core Ability",
       "minrank": "3",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Grants Gift of Brutality",
       "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<br><br>While mutated, your attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8398
     },
-
     {
       "image": "05198",
       "id": 5169,
@@ -570,14 +588,14 @@
       "spec": "Core Ability",
       "minrank": "7",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Grants Gift of Monstrosity",
       "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<br><br>While mutated, your attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health and letting you shrug off your enemy's armor penetration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8403
     },
-
     {
       "image": "05215",
       "id": 5267,
@@ -586,14 +604,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires a Mutation",
       "description": "Releases your current mutation.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8415
     },
-
     {
       "image": "05189",
       "id": 5266,
@@ -602,14 +620,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Grants Gift of Savagery",
       "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<br><br>While mutated, your attacks have a 25% chance to deal an additional 840 damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8394
     },
-
     {
       "image": "05207",
       "id": 5193,
@@ -618,46 +636,46 @@
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A mighty swing attack that inflicts 1200 damage to all targets 40 feet in front of you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8450
     },
-
     {
       "image": "22709",
       "id": 5217,
       "name": "Growing Instability",
       "type": "Buff",
       "spec": "Path of Brutality",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "The power of Chaos begins to take control of your body, causing all of your critical hits to deal additional 50% bonus damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8442
     },
-
     {
       "image": "05223",
       "id": 5216,
       "name": "Guillotine",
       "type": "Damaging",
       "spec": "Path of Brutality",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Brutality",
       "description": "Target must be below 50% health<BR> A powerful blow inflicting 316 damage and will almost always deal critical damage to a weakened target.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8420
     },
-
     {
       "image": "05219",
       "id": 5181,
@@ -668,28 +686,28 @@
       "cost": "40 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Parry<br>Requires Gift of Savagery",
       "description": "A savage attack that guts your opponent for 191 damage, and makes your next damaging ability within 5 seconds automatically critical.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8414
     },
-
     {
       "image": "22702",
       "id": 5222,
       "name": "Hulking Brute",
       "type": "Buff",
       "spec": "Path of Monstrosity",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Gift of Monstrosity further increases your Toughness and Initiative by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8444
     },
-
     {
       "image": "05194",
       "id": 5167,
@@ -703,25 +721,25 @@
       "cooldown": "No cooldown",
       "note": "Requires Gift of Brutality",
       "description": "Stabs into your opponents vital areas for 166 damage. If behind your target, ignores 618 armor.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8399
     },
-
     {
       "image": "22704",
       "id": 5224,
       "name": "Insane Whispers",
       "type": "Buff",
       "spec": "Path of Monstrosity",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Mouth of Tzeentch will now disorient your enemies for 5 seconds, causing all of their abilities to take 50% longer to build up.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8445
     },
-
     {
       "image": "22694",
       "id": 5195,
@@ -730,30 +748,30 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 526
     },
-
     {
       "image": "05229",
       "id": 5214,
       "name": "Lashing Power",
       "type": "Buff",
       "spec": "Path of Savagery",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For 20 seconds, each time you are hit, there is a 33% chance that the same amount of damage will be done to an enemy within 40 feet, and you will be healed for that amount.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8454
     },
-
     {
       "image": "05192",
       "id": 5171,
@@ -762,30 +780,30 @@
       "spec": "Path of Monstrosity",
       "minrank": "8",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
       "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting 133 damage to all in range.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8397
     },
-
     {
       "image": "05224",
       "id": 5218,
       "name": "Mutated Aggressor",
       "type": "Blessing",
       "spec": "Path of Brutality",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "40 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Chaotic energy surges through you, increasing all the damage you inflict by 25% for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8421
     },
-
     {
       "image": "05220",
       "id": 5182,
@@ -796,12 +814,12 @@
       "cost": "25 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Disrupt",
       "description": "Disrupted Magic is twisted back into the caster, inflicting 241 damage and knocking them down for 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8412
     },
-
     {
       "image": "05267",
       "id": 5178,
@@ -810,14 +828,14 @@
       "spec": "Core Ability",
       "minrank": "18",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your bones and muscles twist and contort to free you from any root or snaring effects. You will also be immune from all snares and roots for the next 10 seconds",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8408
     },
-
     {
       "image": "22698",
       "id": 5191,
@@ -826,14 +844,14 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your abilities which require a Mutation will now bypass 50% of your enemy's armor.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8435
     },
-
     {
       "image": "05218",
       "id": 5180,
@@ -844,12 +862,12 @@
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
       "description": "Inflicts 214 damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8413
     },
-
     {
       "image": "23160",
       "id": 5202,
@@ -858,14 +876,14 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 633
     },
-
     {
       "image": "05190",
       "id": 5163,
@@ -879,9 +897,9 @@
       "cooldown": "No cooldown",
       "note": "Requires Gift of Savagery or Brutality",
       "description": "You tear into your target, dealing 108 damage immediately and an additional 198 damage over 9 seconds. The damage over time will stack with itself up to three times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8395
     },
-
     {
       "image": "22694",
       "id": 5186,
@@ -890,14 +908,14 @@
       "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Rend's duration by an additional 6 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8430
     },
-
     {
       "image": "22702",
       "id": 5198,
@@ -906,30 +924,30 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 253 damage which they can not prevent.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 528
     },
-
     {
       "image": "22701",
       "id": 5208,
       "name": "Scything Talons",
       "type": "Buff",
       "spec": "Path of Savagery",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Gift of Savagery further increases your Weapon Skill and Initiative by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8438
     },
-
     {
       "image": "23161",
       "id": 5199,
@@ -940,12 +958,12 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 627
     },
-
     {
       "image": "22708",
       "id": 5184,
@@ -954,14 +972,14 @@
       "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy, you will regain 40 Action Points. Tactic can not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8428
     },
-
     {
       "image": "05216",
       "id": 5175,
@@ -972,12 +990,12 @@
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires Gift of Savagery",
       "description": "An Ailing attack inflicting 166 damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8401
     },
-
     {
       "image": "05205",
       "id": 5183,
@@ -986,14 +1004,14 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "35 Action Points",
-      "range": "65ft range",
+      "range": "20 - 65ft range",
       "incant": "2.0s cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "Extends a tendril of energy to pull an opposing player towards you. Monster targets will be dragged to the ground.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8410
     },
-
     {
       "image": "05214",
       "id": 5265,
@@ -1002,30 +1020,30 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "20 Action Points",
-      "range": "5-65ft range",
+      "range": "5 - 65ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You throw an axe that deals 105 damage to your prey.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8393
     },
-
     {
       "image": "05226",
       "id": 5209,
       "name": "Thunderous Blow",
       "type": "Ailment",
       "spec": "Path of Savagery",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "A particularly nasty blow that inflicts 241 damage to your target and decreases their Wounds by 100 for the next 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8424
     },
-
     {
       "image": "05202",
       "id": 5176,
@@ -1036,12 +1054,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Gift of Savagery or Brutality",
       "description": "Target loses control over their magic, and for 10 seconds will inflict 232 corporeal damage to themselves whenever they use magic.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8407
     },
-
     {
       "image": "05195",
       "id": 5172,
@@ -1052,12 +1070,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
       "description": "Spreads an agonizing rot to your opponent for 10 seconds, inflicting 125 corporeal damage whenever they use a melee ability.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8404
     },
-
     {
       "image": "05228",
       "id": 5194,
@@ -1068,12 +1086,12 @@
       "cost": "Rank 3 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Melee attack that deals 1200 damage and returns all of that damage as health.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 8451
     },
-
     {
       "image": "22714",
       "id": 5206,
@@ -1082,14 +1100,14 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 798
     },
-
     {
       "image": "22694",
       "id": 5189,
@@ -1098,46 +1116,46 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Wave Of Horror's duration to 15 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8433
     },
-
     {
       "image": "22704",
       "id": 5219,
       "name": "Unstable Convulsions",
       "type": "Buff",
       "spec": "Path of Brutality",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them. Each time an Enchantment is successfully removed, they will suffer 152 damage .",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8443
     },
-
     {
       "image": "22714",
       "id": 5205,
       "name": "Warped Flesh",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 797
     },
-
     {
       "image": "05197",
       "id": 5174,
@@ -1146,46 +1164,46 @@
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "50 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 67% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8402
     },
-
     {
       "image": "05221",
       "id": 5223,
       "name": "Wave of Mutilation",
       "type": "Ailment",
       "spec": "Path of Monstrosity",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "A wave of horror spreads forth from you, dealing 553 damage over 21 seconds to all enemies within 30 feet and reducing their Weapon Skill by 75 and Initiative by 50.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8417
     },
-
     {
       "image": "05225",
       "id": 5220,
       "name": "Wave of Terror",
       "type": "Damaging",
       "spec": "Path of Brutality",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Brutality",
       "description": "You wildly lash out at all targets directly in front of you up to 40 feet away, dealing 183 damage and preventing all who are hit from generating Morale for 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8422
     },
-
     {
       "image": "22704",
       "id": 5190,
@@ -1194,28 +1212,29 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increased Demolition's radius to 30 feet.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 8434
     },
-
     {
       "image": "05227",
       "id": 5227,
       "name": "Wrecking Ball",
       "type": "Damaging",
       "spec": "Path of Monstrosity",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "30 Action Points / Sec",
-      "range": "No range",
+      "range": "Self",
       "incant": "3.0s channel",
-      "cooldown": "13.0s cooldown",
+      "cooldown": "13s cooldown",
       "note": "Requires Gift of Monstrosity",
       "description": "You spin in a circle with your club arm extended, aimlessly inflicting 132 damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 8425
     }
   ]
 }
