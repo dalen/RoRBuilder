@@ -829,7 +829,7 @@
       "minrank": "40",
       "cost": "25 Action Points / Sec",
       "range": "Self",
-      "incant": "10.0s cast",
+      "incant": "5.0s cast",
       "cooldown": "30s cooldown",
       "note": "Requires Dual Wield",
       "description": "You strike out at all enemies 25 feet in front of you, inflicting 169 damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",

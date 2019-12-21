@@ -218,10 +218,22 @@ const validateCastTime = (
       return 'Passive';
     }
 
-    const msCastTime =
-      gameAbility.Castime === 0 && gameAbility.ChannelInterval > 0
-        ? gameAbility.Components[0].Duration
-        : gameAbility.Castime;
+    const msCastTime = ((): number => {
+      if (gameAbility.Castime > 0) {
+        return gameAbility.Castime;
+      }
+
+      // 4194304 flag seems to indicate channeled ability
+      // Firball Barrage seems to have a 60m duration component though !?!
+      // So filtes that out
+      if (gameAbility.Flags & 4194304) {
+        return Math.max(
+          ...gameAbility.Components.map(c => c.Duration).filter(d => d < 30000),
+        );
+      }
+
+      return gameAbility.Castime;
+    })();
 
     if (msCastTime === 0) {
       return 'Instant cast';
@@ -238,12 +250,9 @@ const validateCastTime = (
   })();
 
   if (ability.incant !== castTime) {
-    logAbilityError(
-      ability,
-      `incant ${ability.incant} != ${castTime}, type=${gameAbility.AbilityType}`,
-    );
+    logAbilityError(ability, `incant ${ability.incant} != ${castTime}`);
 
-    // Not sure about channeled abilities, so not correcting them.
+    return { ...ability, incant: castTime };
   }
 
   return {};
