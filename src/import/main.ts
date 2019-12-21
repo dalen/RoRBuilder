@@ -404,6 +404,7 @@ const main = async () => {
   await validateCareer('rune-priest', CareerLine.RUNE_PRIEST, abilityData);
   await validateCareer('engineer', CareerLine.ENGINEER, abilityData);
   await validateCareer('black-orc', CareerLine.BLACK_ORC, abilityData);
+  await validateCareer('choppa', CareerLine.CHOPPA, abilityData);
   await validateCareer(
     'warrior-priest',
     CareerLine.WARRIOR_PRIEST,

@@ -14,7 +14,13 @@
         "lvl6": 4695,
         "lvl7": 4696
       },
-      "coreAbilities": [4647, 4648, 4650, 4653, 4664]
+      "coreAbilities": [
+        4647,
+        4648,
+        4650,
+        4653,
+        4664
+      ]
     },
     "b": {
       "name": "Path of Da' Hitta",
@@ -30,7 +36,13 @@
         "lvl6": 4702,
         "lvl7": 4703
       },
-      "coreAbilities": [4652, 4654, 4658, 4663, 4746]
+      "coreAbilities": [
+        4652,
+        4654,
+        4658,
+        4663,
+        4746
+      ]
     },
     "c": {
       "name": "Path of Da' Wrecka",
@@ -46,7 +58,13 @@
         "lvl6": 4709,
         "lvl7": 4710
       },
-      "coreAbilities": [4649, 4651, 4661, 4662, 4665]
+      "coreAbilities": [
+        4649,
+        4651,
+        4661,
+        4662,
+        4665
+      ]
     }
   },
   "data": [
@@ -56,16 +74,16 @@
       "name": "Bleed Em Out",
       "type": "Curse",
       "spec": "Path of Da' Hitta",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "45 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your target suffers 500 physical damage over the next 10 seconds. The damage will start low, and increase as the effect continues.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1771
     },
-
     {
       "image": "22706",
       "id": 4668,
@@ -74,14 +92,14 @@
       "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All your Exhaustive Blows have a 50% chance to restore 225 hit points.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1780
     },
-
     {
       "image": "02652",
       "id": 4653,
@@ -92,12 +110,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Each time that you attack an enemy within the next 10 seconds, Any group member within 100 feet will have their Weapon Skill increased by 25, but your Initiative will also be reduced by 25 for the next 10 seconds. This effect can be stacked up to three times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1769
     },
-
     {
       "image": "02650",
       "id": 4665,
@@ -105,15 +123,15 @@
       "type": "Damaging",
       "spec": "Path of Da' Wrecka",
       "minrank": "40",
-      "cost": "15 Action Points / Sec",
-      "range": "5ft range",
-      "incant": "5.0s channel",
-      "cooldown": "30.0s cooldown",
+      "cost": "25 Action Points / Sec",
+      "range": "Self",
+      "incant": "5.0s cast",
+      "cooldown": "30s cooldown",
       "note": "Requires Dual Wield",
       "description": "You strike out at all enemies with 25 feet in front of you, inflicting 180 physical damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1762
     },
-
     {
       "image": "23156",
       "id": 4685,
@@ -122,62 +140,62 @@
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 629
     },
-
     {
       "image": "22701",
       "id": 4678,
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength by.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 521
     },
-
     {
       "image": "23403",
       "id": 4711,
       "name": "Bypass Defenses",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "10",
+      "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 14423
     },
-
     {
       "image": "02634",
       "id": 4693,
       "name": "Can't Stop Da Chop",
       "type": "Curse",
       "spec": "Path of Da' Savage",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "15 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You chop at your enemy, dealing 141 physical damage and reducing the value of incoming heals on them by 50% for the next 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1746
     },
-
     {
       "image": "02640",
       "id": 4655,
@@ -186,30 +204,30 @@
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1752
     },
-
     {
       "image": "02658",
       "id": 4707,
       "name": "Chop Fasta!",
       "type": "Enchantment",
       "spec": "Path of Da' Wrecka",
-      "minrank": "1",
-      "cost": "25 Action Points",
-      "range": "No range",
+      "minrank": "25",
+      "cost": "45 Action Points",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "40.0s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
       "description": "Group members within 100 feet are inspired by the way you shrug off the blows, for the next 10 seconds any ability used by your groupmates will cool down 5 seconds faster.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1775
     },
-
     {
       "image": "22707",
       "id": 4672,
@@ -218,14 +236,14 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Get Stuck In's cooldown timer is lowered by 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1784
     },
-
     {
       "image": "02646",
       "id": 4661,
@@ -234,14 +252,14 @@
       "spec": "Path of Da' Wrecka",
       "minrank": "20",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Increases your Toughness by 25 for each enemy within 30 feet, up to a maximum of 9 enemies. for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1758
     },
-
     {
       "image": "23157",
       "id": 4683,
@@ -250,14 +268,14 @@
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 631
     },
-
     {
       "image": "02660",
       "id": 4674,
@@ -266,14 +284,14 @@
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Absorbs 3600 damage for up to 20 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1799
     },
-
     {
       "image": "22707",
       "id": 4688,
@@ -282,14 +300,14 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 735
     },
-
     {
       "image": "02632",
       "id": 4648,
@@ -300,12 +318,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "A maiming attack which deals 152 physical damage to the target and snares them, reducing their run speed by 40% for 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1744
     },
-
     {
       "image": "22708",
       "id": 4666,
@@ -314,14 +332,14 @@
       "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All attacks will generate 25% less hate.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1782
     },
-
     {
       "image": "22703",
       "id": 4670,
@@ -330,14 +348,14 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength and Weapon Skill by 120 but reduces your Toughness by 120.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1778
     },
-
     {
       "image": "02644",
       "id": 4659,
@@ -348,12 +366,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Target to have Parried or Blocked",
       "description": "Your attacks become more precise, your target's chance to block or parry is reduced by 50% for 10 seconds. This attack cannot be defended against.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1756
     },
-
     {
       "image": "22709",
       "id": 4671,
@@ -362,30 +380,30 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces the Action Point costs by 5 points in Furious state and 10 points in Berserk state.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1783
     },
-
     {
       "image": "22701",
       "id": 4706,
       "name": "Extra Choppin'",
       "type": "Defensive",
       "spec": "Path of Da' Wrecka",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Lotsa Choppin' will affect 9 targets within 30 feet and reduces the base damage by 20%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1796
     },
-
     {
       "image": "22707",
       "id": 4667,
@@ -394,14 +412,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Cooldowns on your Exhaustive Blows are reduced by 25%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1779
     },
-
     {
       "image": "22704",
       "id": 4679,
@@ -410,14 +428,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 523
     },
-
     {
       "image": "05004",
       "id": 4745,
@@ -426,14 +444,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "02631",
       "id": 4747,
@@ -442,14 +460,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "20 Action Points",
-      "range": "5-65ft range",
+      "range": "5 - 65ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A basic throwing attack that inflicts 104 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1743
     },
-
     {
       "image": "23158",
       "id": 4682,
@@ -460,12 +478,12 @@
       "cost": "Rank 2 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 628
     },
-
     {
       "image": "23159",
       "id": 4686,
@@ -474,30 +492,30 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 630
     },
-
     {
       "image": "02651",
       "id": 4695,
       "name": "Furious Choppin'",
       "type": "Damaging",
       "spec": "Path of Da' Savage",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "15 Action Points / Sec",
       "range": "5ft range",
-      "incant": "5.0s channel",
-      "cooldown": "25.0s cooldown",
+      "incant": "5.0s cast",
+      "cooldown": "25s cooldown",
       "note": "",
       "description": "A merciless strike of attacks that repeatedly hits your target for up to 5 seconds, dealing up to 194 damage. You will be healed for all damage this ability deals.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1768
     },
-
     {
       "image": "02642",
       "id": 4657,
@@ -506,36 +524,36 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "15 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your groupmates are inspired by your eagerness to fight. Auto attack speed is increased by 35% for 20 seconds for all groupmates within 100 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1754
     },
-
     {
       "image": "02659",
       "id": 4709,
       "name": "Git To Da Choppa",
       "type": "Damaging",
       "spec": "Path of Da' Wrecka",
-      "minrank": "1",
-      "cost": "10 Action Points / Sec",
-      "range": "No range",
-      "incant": "6.0s channel",
-      "cooldown": "20.0s cooldown",
+      "minrank": "29",
+      "cost": "20 Action Points / Sec",
+      "range": "Self",
+      "incant": "6.0s cast",
+      "cooldown": "20s cooldown",
       "note": "Requires Dual Wield",
       "description": "You charge and frantically lash out at everything nearby for up to 6 seconds, dealing 153 damage every 2 seconds to all enemies within 40 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1776
     },
-
     {
       "image": "02637",
       "id": 4652,
       "name": "Go For Da Soft Spot",
       "type": "Damaging",
-      "spec": "Path of Da' Hitta",
+      "spec": "Path of Da' Savage",
       "minrank": "7",
       "cost": "30 Action Points",
       "range": "5ft range",
@@ -543,9 +561,9 @@
       "cooldown": "No cooldown",
       "note": "Target must be facing away from you",
       "description": "You deal 227 physical damage to your enemy.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1749
     },
-
     {
       "image": "02648",
       "id": 4658,
@@ -554,30 +572,30 @@
       "spec": "Path of Da' Hitta",
       "minrank": "14",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "While this ability is active, your will deal an additional 100 damage whenever you strike a target with a melee attack, but you will also suffer 50 damage each time this effect occurs.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1760
     },
-
     {
       "image": "22707",
       "id": 4687,
       "name": "I'm Da Biggest!",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Wounds by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 734
     },
-
     {
       "image": "22707",
       "id": 4669,
@@ -586,14 +604,14 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the duration of Come An' Git It and Try An' Hurt Me by 5 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1781
     },
-
     {
       "image": "22694",
       "id": 4677,
@@ -602,78 +620,78 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 526
     },
-
     {
       "image": "22707",
       "id": 4708,
       "name": "Keep It Comin'",
       "type": "Healing",
       "spec": "Path of Da' Wrecka",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "When you die, you have a 25% chance of ressurecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing 250 damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1795
     },
-
     {
       "image": "02653",
       "id": 4691,
       "name": "Keep On Choppin'",
       "type": "Enchantment",
       "spec": "Path of Da' Savage",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You chop deeply into your enemy, dealing 191 damage. Your love of battle fills you with energy, restoring 100 Action Points.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1770
     },
-
     {
       "image": "22707",
       "id": 4697,
       "name": "Long Lasta",
       "type": "Defensive",
       "spec": "Path of Da' Hitta",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time your Exhaustive Blow gets defended, for the next 6 seconds all attacks will cost 0 action points.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1791
     },
-
     {
       "image": "22709",
       "id": 4704,
       "name": "Longer and Stronger",
       "type": "Defensive",
       "spec": "Path of Da' Wrecka",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "While you are Furious, you regain 100 health every 4 seconds. While you are Berserk, you regain 175 health every 4 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1794
     },
-
     {
       "image": "02635",
       "id": 4649,
@@ -682,30 +700,30 @@
       "spec": "Path of Da' Wrecka",
       "minrank": "4",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You wildly swing at enemies in front of you within 25 feet, dealing anywhere from 93 damage to 133 damage. May only hit up to three targets.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1747
     },
-
     {
       "image": "02656",
       "id": 4702,
       "name": "No More Helpin'",
       "type": "Curse",
       "spec": "Path of Da' Hitta",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "15 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "A brutal attack which deals 327 physical damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1773
     },
-
     {
       "image": "02641",
       "id": 4656,
@@ -714,14 +732,14 @@
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "50 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1753
     },
-
     {
       "image": "02649",
       "id": 4647,
@@ -735,25 +753,25 @@
       "cooldown": "No cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "A wild swing which deals 227 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1761
     },
-
     {
       "image": "22708",
       "id": 4694,
       "name": "Red goes faster!",
       "type": "Defensive",
       "spec": "Path of Da' Savage",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "While Berserk, all cooldowns are reduced by 5 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1790
     },
-
     {
       "image": "23160",
       "id": 4684,
@@ -762,14 +780,14 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 633
     },
-
     {
       "image": "22702",
       "id": 4680,
@@ -778,14 +796,14 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 253 damage which they can not prevent.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 528
     },
-
     {
       "image": "23161",
       "id": 4681,
@@ -796,12 +814,12 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 627
     },
-
     {
       "image": "02645",
       "id": 4660,
@@ -810,14 +828,14 @@
       "spec": "Core Ability",
       "minrank": "18",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Any roots or snares are removed, as all attempts to impede your movement are futile. For the next 10 seconds, roots and snares will have no effect on you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1757
     },
-
     {
       "image": "02643",
       "id": 4663,
@@ -828,12 +846,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Must be Berserk<br>Exhausts your Rage",
       "description": "Deals 177 damage and knocks down the target for 3 seconds. The attack is undefendable.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1755
     },
-
     {
       "image": "02633",
       "id": 4746,
@@ -847,9 +865,9 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A furious slash that deals 191 damage and reduces your targets Toughness by 25 for 9 seconds. This effect is stackable up to three times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1745
     },
-
     {
       "image": "22707",
       "id": 4689,
@@ -858,46 +876,46 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your critical hits will deal 25% more bonus critical damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 739
     },
-
     {
       "image": "02665",
       "id": 4710,
       "name": "Stomp Da Yard",
       "type": "Buff",
       "spec": "Path of Da' Wrecka",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You stomp the ground, knocking down targets within 30 feet for 3 seconds and dealing 1800 damage.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1804
     },
-
     {
       "image": "22702",
       "id": 4701,
       "name": "Strong Finish",
       "type": "Defensive",
       "spec": "Path of Da' Hitta",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the chance to critically hit with Path of Da' Big Hitta abilities by 15%, but if you are dual wielding, decreases your ability to defend critical hits by 10%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1793
     },
-
     {
       "image": "02662",
       "id": 4676,
@@ -908,12 +926,12 @@
       "cost": "Rank 3 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1800 damage and reduces Action Point costs by 50% for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1801
     },
-
     {
       "image": "02661",
       "id": 4675,
@@ -922,14 +940,14 @@
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 30 seconds you deal an additional 300 damage, whenever you use an ability. This effect will fade after you damage 8 targets.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 2860
     },
-
     {
       "image": "02630",
       "id": 4650,
@@ -943,25 +961,25 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You slash at your opponent's throat, immediately inflicting 119 damage. The wound continues to bleed for 132 damage over 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1742
     },
-
     {
       "image": "02655",
       "id": 4700,
       "name": "Tired Already?",
       "type": "Curse",
       "spec": "Path of Da' Hitta",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "15 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You chop your target in a vital organ, dealing 177 damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1772
     },
-
     {
       "image": "02638",
       "id": 4664,
@@ -972,12 +990,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "An exhaustive blow that deals 152 damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1750
     },
-
     {
       "image": "22701",
       "id": 4673,
@@ -986,14 +1004,14 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "When you do critical damage, reduces your target's Weapon Skill by 120 for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1785
     },
-
     {
       "image": "02639",
       "id": 4654,
@@ -1004,44 +1022,44 @@
       "cost": "40 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "You unleash a powerful blow, dealing 302 physical damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1751
     },
-
     {
       "image": "22701",
       "id": 4699,
       "name": "Pent Up Rage",
       "type": "Defensive",
       "spec": "Path of Da' Hitta",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Every 4 seconds, you will gain one stack of an effect which reduces the Rage cost of your exhaustive blows by 25%. This effect stacks up to 3 times, and using an exhaustive blow will consume one stack.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1792
     },
-
     {
       "image": "02663",
       "id": 4696,
       "name": "We'z Fightin' Betta",
       "type": "Buff",
       "spec": "Path of Da' Savage",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your rage inspires all around, causing groupmates' attacks to deal an additional 300 damage for 10 seconds while within 100 feet of you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1802
     },
-
     {
       "image": "02647",
       "id": 4651,
@@ -1049,47 +1067,47 @@
       "type": "Damaging",
       "spec": "Path of Da' Wrecka",
       "minrank": "6",
-      "cost": "55 Action Points",
-      "range": "No range",
+      "cost": "45 Action Points",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You strike enemies within 30 feet, dealing anywhere from 91 damage to 191 damage. <br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1759
     },
-
     {
       "image": "22702",
       "id": 4690,
       "name": "Wot Rules?",
       "type": "Defensive",
       "spec": "Path of Da' Savage",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Exhaustive Blows will no longer remove your Rage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1788
     },
-
     {
       "image": "02657",
       "id": 4705,
       "name": "Wot's Da Rush?",
       "type": "Curse",
       "spec": "Path of Da' Wrecka",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "35 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
       "description": "You lash out at all enemies within 30 feet, inflicting 116 physical damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1774
     },
-
     {
       "image": "02636",
       "id": 4662,
@@ -1098,44 +1116,45 @@
       "spec": "Path of Da' Wrecka",
       "minrank": "25",
       "cost": "35 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You swipe at the enemies in front of you, dealing 316 damage over 9 seconds to enemies within 40 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 1748
     },
-
     {
       "image": "22701",
       "id": 4692,
       "name": "Yer Gettin' Soft",
       "type": "Defensive",
       "spec": "Path of Da' Savage",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "When your attacks get defended, increases your chance to critically hit with Path of Da' Savage abilities by 100% for the next 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 1789
     },
-
     {
       "image": "02664",
       "id": 4703,
       "name": "Yer Goin Down!",
       "type": "Buff",
       "spec": "Path of Da' Hitta",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You chop all enemies within 30 feet for 1200 damage and all heals are reduced by 50% for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 1803
     }
   ]
 }
