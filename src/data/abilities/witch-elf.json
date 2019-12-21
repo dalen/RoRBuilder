@@ -14,7 +14,13 @@
         "lvl6": 5628,
         "lvl7": 5629
       },
-      "coreAbilities": [5588, 5679, 5590, 5589, 5581]
+      "coreAbilities": [
+        5588,
+        5679,
+        5590,
+        5589,
+        5581
+      ]
     },
     "b": {
       "name": "Path of Suffering",
@@ -30,7 +36,13 @@
         "lvl6": 5635,
         "lvl7": 5636
       },
-      "coreAbilities": [5595, 5586, 5583, 5580, 5593]
+      "coreAbilities": [
+        5595,
+        5586,
+        5583,
+        5580,
+        5593
+      ]
     },
     "c": {
       "name": "Path of Treachery",
@@ -46,58 +58,16 @@
         "lvl6": 5642,
         "lvl7": 5643
       },
-      "coreAbilities": [5596, 5591, 5579, 5597, 5582]
+      "coreAbilities": [
+        5596,
+        5591,
+        5579,
+        5597,
+        5582
+      ]
     }
   },
   "data": [
-    {
-      "image": "22736",
-      "id": 5653,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 5651,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 5652,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "10905",
       "id": 5598,
@@ -108,12 +78,12 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "You cannot perform this action while rooted",
       "description": "You leap backwards from your target, causing your target to be Staggered for up to 6 seconds, preventing all actions unless they're damaged.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9396
     },
-
     {
       "image": "10979",
       "id": 5582,
@@ -127,9 +97,9 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A cruel attack to your target, which deals 225 damage. If you are behind your target, you ignore your target's armor.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9408
     },
-
     {
       "image": "22712",
       "id": 5621,
@@ -138,14 +108,14 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Spiritual resistance increased by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 839
     },
-
     {
       "image": "22696",
       "id": 6050,
@@ -154,62 +124,14 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "You have been blessed by Morathi. Your Autoattack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 6050
     },
-
-    {
-      "image": "22725",
-      "id": 5666,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 5668,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 5667,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22708",
       "id": 5600,
@@ -218,14 +140,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you attack an enemy from the sides or rear with an action, you will gain 15 Action Points.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9433
     },
-
     {
       "image": "22712",
       "id": 5622,
@@ -234,142 +156,46 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 840
     },
-
-    {
-      "image": "22718",
-      "id": 5675,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 5677,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 5676,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "10986",
       "id": 5633,
       "name": "Black Lotus Blade",
       "type": "Ailment",
       "spec": "Path of Suffering",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A deadly strike which deals 250 damage to your target and infects them with Black Lotus toxin, causing all healing that they receive for the next 10 seconds to become 50% less effective.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9424
     },
-
     {
       "image": "10991",
       "id": 5629,
       "name": "Blade Spin",
       "type": "Damaging",
       "spec": "Path of Carnage",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1600 damage over 5 seconds to all enemies within 30 feet.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9464
     },
-
-    {
-      "image": "22731",
-      "id": 5671,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 5670,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 5669,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22694",
       "id": 5627,
@@ -378,14 +204,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within 25 feet, but Slice will do 10% less damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9444
     },
-
     {
       "image": "23156",
       "id": 5618,
@@ -394,30 +220,30 @@
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 629
     },
-
     {
       "image": "22701",
       "id": 5611,
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 521
     },
-
     {
       "image": "23157",
       "id": 5616,
@@ -426,62 +252,14 @@
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 631
     },
-
-    {
-      "image": "22716",
-      "id": 5673,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 5672,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 5674,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "10988",
       "id": 5607,
@@ -492,28 +270,28 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "3.0s cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You concentrate on your target, repeatedly dealing 300 damage to them for up to 3 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9458
     },
-
     {
       "image": "22712",
       "id": 5620,
       "name": "Dark Blessings",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Direct heals cast on you will recover 10% more health.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 841
     },
-
     {
       "image": "10963",
       "id": 5608,
@@ -522,62 +300,62 @@
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Increases critical hit chance by 50% for 10 seconds for all group members within 100 feet.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9459
     },
-
     {
       "image": "10901",
       "id": 5631,
       "name": "Elixir of Insane Power",
       "type": "Damaging",
       "spec": "Path of Carnage",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "25 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A vile brew which drives you into a rage for the next 7 seconds. All of your attacks will ignore 50% of the victim's armor.<br>You may only use a single Elixir at a time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9420
     },
-
     {
       "image": "abi_de_blackhorror",
       "id": 5624,
       "name": "Elixir of Shadows",
       "type": "Buff",
       "spec": "Path of Suffering",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "25 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 seconds.<br />You may only use a single Elixir at a time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 2999
     },
-
     {
       "image": "10987",
       "id": 5638,
       "name": "Elixir of the Cauldron",
       "type": "Buff",
       "spec": "Path of Treachery",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "25 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% for 7 seconds.<br>You may only use a single Elixir at a time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9426
     },
-
     {
       "image": "10968",
       "id": 5585,
@@ -586,14 +364,14 @@
       "spec": "Core Ability",
       "minrank": "8",
       "cost": "20 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "Your unearthly Elven beauty Detaunts all enemies within 30 feet, making them hate you less and causing them to deal 50% less damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9392
     },
-
     {
       "image": "10973",
       "id": 5593,
@@ -607,25 +385,25 @@
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
       "description": "You ambush your target from the shadows and strike with a Crippling attack. Your target will take 76 Corporeal damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9401
     },
-
     {
       "image": "22706",
       "id": 5634,
       "name": "Enveloping Shadows",
       "type": "Buff",
       "spec": "Path of Suffering",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "When leaving Shadow Prowler, you will become protected by a barrier that will absorb up to 475 damage",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9448
     },
-
     {
       "image": "10975",
       "id": 5580,
@@ -639,9 +417,9 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "You stab your enemy with a poisoned blade, dealing 103 damage. The victim becomes wracked with pains, suffering an additional 222 Corporeal damage over 9 seconds. This effect will stack with itself up to three times.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9403
     },
-
     {
       "image": "22709",
       "id": 5602,
@@ -650,62 +428,14 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the durations of Vehement Blades, Enfeebling Strike, and Treacherous Assault by an additional 5 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9436
     },
-
-    {
-      "image": "22725",
-      "id": 5664,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 5665,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 5663,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "05170",
       "id": 5584,
@@ -716,12 +446,12 @@
       "cost": "25 Action Points",
       "range": "65ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your positional attacks can be used without the positional requirement for 10 seconds. Does not affect morale abilities.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9397
     },
-
     {
       "image": "22704",
       "id": 5612,
@@ -730,14 +460,14 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 523
     },
-
     {
       "image": "05004",
       "id": 5678,
@@ -746,14 +476,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "10970",
       "id": 5592,
@@ -762,30 +492,30 @@
       "spec": "Core Ability",
       "minrank": "18",
       "cost": "45 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your swift footwork and quick thinking removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9395
     },
-
     {
       "image": "10992",
       "id": 5636,
       "name": "Fling Poison",
       "type": "Damaging",
       "spec": "Path of Suffering",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1600 damage over 5 seconds to all enemies in front of you, up to 65 feet away.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9465
     },
-
     {
       "image": "22708",
       "id": 5603,
@@ -794,14 +524,14 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your Frenzies will now have a 10% chance per point spent to knock the enemy down for 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9435
     },
-
     {
       "image": "23158",
       "id": 5615,
@@ -812,28 +542,28 @@
       "cost": "Rank 2 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 628
     },
-
     {
       "image": "22704",
       "id": 5601,
       "name": "Frenzied Mayhem",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "27",
+      "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the damage of your Frenzies by 5% for each Blood Lust point you have.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 6033
     },
-
     {
       "image": "23159",
       "id": 5619,
@@ -842,62 +572,14 @@
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 630
     },
-
-    {
-      "image": "22730",
-      "id": 5656,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 5655,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 5654,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "10976",
       "id": 5583,
@@ -911,41 +593,41 @@
       "cooldown": "No cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for 10 seconds which reduces their Wounds.<br>  1 Blood Lust: 112 damage per hit; Wounds reduced by 25.<br>  2 Blood Lust: 133 damage per hit; Wounds reduced by 33.<br>  3 Blood Lust: 155 damage per hit; Wounds reduced by 41.<br>  4 Blood Lust: 175 damage per hit; Wounds reduced by 50.<br>  5 Blood Lust: 196 damage per hit; Wounds reduced by 58.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9404
     },
-
     {
       "image": "05203",
       "id": 5640,
       "name": "Heart Seeker",
       "type": "Damaging",
       "spec": "Path of Treachery",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Target must be facing away from you<br>Builds 1 Blood Lust",
       "description": "A shocking strike which deals 325 damage and knocks down your target for 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9427
     },
-
     {
       "image": "22701",
       "id": 5639,
       "name": "Increased Pain",
       "type": "Buff",
       "spec": "Path of Treachery",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your critical hits will inflict 50% more damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9450
     },
-
     {
       "image": "22694",
       "id": 5610,
@@ -954,14 +636,14 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 526
     },
-
     {
       "image": "10974",
       "id": 5581,
@@ -972,12 +654,12 @@
       "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 50 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9402
     },
-
     {
       "image": "10982",
       "id": 5597,
@@ -988,12 +670,12 @@
       "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9412
     },
-
     {
       "image": "11006",
       "id": 5586,
@@ -1004,156 +686,108 @@
       "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9407
     },
-
     {
       "image": "22694",
       "id": 5632,
       "name": "Kiss of Doom",
       "type": "Buff",
       "spec": "Path of Suffering",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Kiss of Death will now heal you for the damage it deals.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9446
     },
-
     {
       "image": "22701",
       "id": 5641,
       "name": "Masterful Treachery",
       "type": "Buff",
       "spec": "Path of Treachery",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, or Enfeebling Strike, you will deal 15% more damage for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9451
     },
-
     {
       "image": "10984",
       "id": 5628,
       "name": "On Your Knees!",
       "type": "Ailment",
       "spec": "Path of Carnage",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "35 Action Points",
       "range": "30ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them reducing their Morale by 300, inspired, your group gains 300 Morale.<br>  1 Blood Lust: 108 damage per hit, 30 feet radius.<br>  2 Blood Lust: 133 damage per hit, 35 feet radius.<br>  3 Blood Lust: 159 damage per hit, 40 feet radius.<br>  4 Blood Lust: 183 damage per hit, 43.3 feet radius.<br>  5 Blood Lust: 208 damage per hit, 48.3 feet radius.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9422
     },
-
-    {
-      "image": "22729",
-      "id": 5662,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 5661,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 5660,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "10993",
       "id": 5643,
       "name": "Overwhelming Dread",
       "type": "Debuff",
       "spec": "Path of Treachery",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All enemies within 30 feet instantly lose 125 Action Points, and will regain action points 50% more slowly for the next 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9466
     },
-
     {
       "image": "23412",
       "id": 5644,
       "name": "Pick Lock",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "10",
+      "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 14427
     },
-
     {
       "image": "10983",
       "id": 5626,
       "name": "Pierce Armor",
       "type": "Enchantment",
       "spec": "Path of Carnage",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A powerful stab that slices through the target's defenses, dealing 275 damage to your target and ignoring all of their armor. If the target suffers from an Ailment, then your Weapon Skill will be increased by 75 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9421
     },
-
     {
       "image": "10980",
       "id": 5579,
@@ -1167,9 +801,9 @@
       "cooldown": "No cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You quickly stab your target twice, dealing damage based on your Blood Lust.<br>  1 Blood Lust: 137 damage per hit<br>  2 Blood Lust: 167 damage per hit<br>  3 Blood Lust: 197 damage per hit<br>  4 Blood Lust: 225 damage per hit<br>  5 Blood Lust: 254 damage per hit",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9410
     },
-
     {
       "image": "23160",
       "id": 5617,
@@ -1178,14 +812,14 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 633
     },
-
     {
       "image": "22702",
       "id": 5613,
@@ -1194,14 +828,14 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 239 damage which they can not prevent.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 528
     },
-
     {
       "image": "10904",
       "id": 5589,
@@ -1212,12 +846,12 @@
       "cost": "15 Action Points / Sec",
       "range": "30ft range",
       "incant": "3.0s cast",
-      "cooldown": "8.0s cooldown",
+      "cooldown": "8s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<br>  1 Blood Lust: 750 damage.<br>  2 Blood Lust:  900 damage.<br>  3 Blood Lust:  1056 damage.<br>  4 Blood Lust:  1200 damage.<br>  5 Blood Lust:  1350 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9399
     },
-
     {
       "image": "22702",
       "id": 5606,
@@ -1226,46 +860,46 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are critically hit by a direct damage ability, you will become protected by a barrier which will absorb up to 600 damage.<br>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9439
     },
-
     {
       "image": "10994",
       "id": 5642,
       "name": "Sacrificial Stab",
       "type": "Damaging",
       "spec": "Path of Treachery",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "35 Action Points",
       "range": "30ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack damage will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<br>  1 Blood Lust: 112 damage per hit.<br>  2 Blood Lust: 133 damage per hit.<br>  3 Blood Lust: 155 damage per hit.<br>  4 Blood Lust: 175 damage per hit.<br>  5 Blood Lust: 196 damage per hit.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9428
     },
-
     {
       "image": "22701",
       "id": 5630,
       "name": "Septic Blade",
       "type": "Buff",
       "spec": "Path of Suffering",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Envenomed Blade will now also reduce the victim's chance to critically hit by 25%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9447
     },
-
     {
       "image": "02497",
       "id": 5594,
@@ -1276,12 +910,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Target must have a Blessing",
       "description": "You sever one Blessing from your enemy and do 127 damage",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9413
     },
-
     {
       "image": "10972",
       "id": 5590,
@@ -1292,12 +926,12 @@
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Parry",
       "description": "A precise Crippling attack that deals 275 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9400
     },
-
     {
       "image": "23161",
       "id": 5614,
@@ -1308,12 +942,12 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 627
     },
-
     {
       "image": "10969",
       "id": 5587,
@@ -1322,78 +956,30 @@
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "2.0s cast",
-      "cooldown": "35.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You prowl through the shadows for the next 30 seconds, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9393
     },
-
     {
       "image": "22698",
       "id": 5623,
       "name": "Sharpened Edge",
       "type": "Buff",
       "spec": "Path of Carnage",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Anytime an attack you make is blocked or parried, you will automatically do 150 damage to your target.<br>Cannot occur more than once every 2 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9443
     },
-
-    {
-      "image": "22721",
-      "id": 5657,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 5658,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 5659,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "10902",
       "id": 5679,
@@ -1402,46 +988,46 @@
       "spec": "Path of Carnage",
       "minrank": "1",
       "cost": "40 Action Points",
-      "range": "no range",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A deep stab which deals 275 damage to your target.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9398
     },
-
     {
       "image": "22702",
       "id": 5625,
       "name": "Swift Blades",
       "type": "Buff",
       "spec": "Path of Carnage",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to parry attacks by 10%. Each time you parry an attack, you will regain 20 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9445
     },
-
     {
       "image": "22709",
       "id": 5637,
       "name": "Swift Movements",
       "type": "Buff",
       "spec": "Path of Treachery",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Feinted Positioning's cooldown time by 40 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9449
     },
-
     {
       "image": "22708",
       "id": 5605,
@@ -1450,14 +1036,14 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Fleet-Footed will now also increase your run speed by 25%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9438
     },
-
     {
       "image": "22701",
       "id": 5604,
@@ -1466,14 +1052,14 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you take damage, there is a 25% chance that you will cause 15% more damage for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9437
     },
-
     {
       "image": "05166",
       "id": 5591,
@@ -1484,12 +1070,12 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A swift slice that silences your target, making them unable to use magic for 3 seconds. You will also deal 250 damage to your target if you attack them from behind.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9409
     },
-
     {
       "image": "10903",
       "id": 5680,
@@ -1498,14 +1084,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "20 Action Points",
-      "range": "5-65ft range",
+      "range": "5 - 65ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A quick dagger throw which deals 97 damage.<br>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9394
     },
-
     {
       "image": "10981",
       "id": 5596,
@@ -1514,14 +1100,14 @@
       "spec": "Path of Treachery",
       "minrank": "30",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
       "description": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. Your target will take 176 Corporeal damage every time they use a magical ability for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9411
     },
-
     {
       "image": "10978",
       "id": 5588,
@@ -1530,14 +1116,14 @@
       "spec": "Path of Carnage",
       "minrank": "10",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
       "description": "You leap out of the shadows in an insane rage. Each time your target uses a melee ability, your target will take 125 Corporeal damage for each melee ability used over the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9406
     },
-
     {
       "image": "10990",
       "id": 5609,
@@ -1546,14 +1132,14 @@
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage to all enemies in front of you, up to 65 feet away.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9460
     },
-
     {
       "image": "22712",
       "id": 5599,
@@ -1562,30 +1148,30 @@
       "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your attacks which build Blood Lust will now have a 33% chance to build one additional Blood Lust.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9432
     },
-
     {
       "image": "10900",
       "id": 5635,
       "name": "Witchbrew",
       "type": "Debuff",
       "spec": "Path of Suffering",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "35 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You consume a noxious liquid distilled from blood which fills you with power, causing your next several attacks to each deal an additional 300 Corporeal damage to your target.<br>  1 Blood Lust: Lasts for 2 attacks.<br>  2 Blood Lust: Lasts for 3 attacks.<br>  3 Blood Lust: Lasts for 4 attacks.<br>  4 Blood Lust: Lasts for 5 attacks.<br>  5 Blood Lust: Lasts for 6 attacks.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9425
     },
-
     {
       "image": "10977",
       "id": 5595,
@@ -1599,39 +1185,40 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A brutal attack that deals 868 Corporeal damage to your target over 21 seconds. If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 75 for 21 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9405
     },
-
     {
       "image": "22702",
       "id": 6102,
       "name": "Close Combat",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "40",
+      "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 522
     },
-
     {
       "image": "22708",
       "id": 2991,
       "name": "Bleeding Edge",
       "type": "Buff",
       "spec": "Path of Carnage",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your Armour Penetration is increased by 50% for 3 serconds after successful use of your Frenzies.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 2991
     },
     {
       "image": "10936",
@@ -1639,14 +1226,15 @@
       "name": "Bloody Inspiration",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "40",
+      "minrank": "20",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Your bloody fury inspires your group",
       "description": "Moral gain is doubled for 15s.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 2715
     }
   ]
 }
