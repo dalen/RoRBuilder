@@ -411,6 +411,12 @@ const main = async () => {
   await validateCareer('squig-herder', CareerLine.SQUIG_HERDER, abilityData);
   await validateCareer('witch-hunter', CareerLine.WITCH_HUNTER, abilityData);
   await validateCareer(
+    'knight-of-the-blazing-sun',
+    CareerLine.KNIGHT_OF_THE_BLAZING_SUN,
+    abilityData,
+  );
+  await validateCareer('bright-wizard', CareerLine.BRIGHT_WIZARD, abilityData);
+  await validateCareer(
     'warrior-priest',
     CareerLine.WARRIOR_PRIEST,
     abilityData,
@@ -418,11 +424,6 @@ const main = async () => {
   await validateCareer(
     'disciple-of-khaine',
     CareerLine.DISCIPLE_OF_KHAINE,
-    abilityData,
-  );
-  await validateCareer(
-    'knight-of-the-blazing-sun',
-    CareerLine.KNIGHT_OF_THE_BLAZING_SUN,
     abilityData,
   );
 };
