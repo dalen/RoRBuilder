@@ -440,6 +440,7 @@ const main = async () => {
     CareerLine.DISCIPLE_OF_KHAINE,
     abilityData,
   );
+  await validateCareer('sorcerer', CareerLine.SORCERESS, abilityData);
 };
 
 main()

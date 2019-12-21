@@ -14,7 +14,13 @@
         "lvl6": 5416,
         "lvl7": 5417
       },
-      "coreAbilities": [5369, 5373, 5382, 5466, 5377]
+      "coreAbilities": [
+        5369,
+        5373,
+        5382,
+        5466,
+        5377
+      ]
     },
     "b": {
       "name": "Path of Calamity",
@@ -30,7 +36,13 @@
         "lvl6": 5423,
         "lvl7": 5424
       },
-      "coreAbilities": [5374, 5385, 5379, 5381, 5467]
+      "coreAbilities": [
+        5374,
+        5385,
+        5379,
+        5381,
+        5467
+      ]
     },
     "c": {
       "name": "Path of Destruction",
@@ -46,7 +58,13 @@
         "lvl6": 5430,
         "lvl7": 5431
       },
-      "coreAbilities": [5372, 5386, 5375, 5383, 5380]
+      "coreAbilities": [
+        5372,
+        5386,
+        5375,
+        5383,
+        5380
+      ]
     }
   },
   "data": [
@@ -56,64 +74,16 @@
       "name": "Absorb Vitality",
       "type": "Curse",
       "spec": "Path of Calamity",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A Curse which siphons away your enemy's life, dealing 600 Corporeal damage over 15 seconds and healing you for all of the damage dealt.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9501
     },
-
-    {
-      "image": "22736",
-      "id": 5441,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 5439,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22736",
-      "id": 5440,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22712",
       "id": 5409,
@@ -122,62 +92,14 @@
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Spiritual resistance increased by 252.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 839
     },
-
-    {
-      "image": "22725",
-      "id": 5454,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 5456,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 5455,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "10924",
       "id": 5377,
@@ -188,12 +110,12 @@
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You send a blast of dark energy slamming into your target, dealing 320 Spirit damage. If the victim is Cursed, then they will also become snared for 5 seconds, reducing their movement speed by 40%.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9479
     },
-
     {
       "image": "22712",
       "id": 5410,
@@ -202,142 +124,46 @@
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 840
     },
-
-    {
-      "image": "22718",
-      "id": 5463,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 5465,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22718",
-      "id": 5464,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "11001",
       "id": 5426,
       "name": "Black Horror",
       "type": "Curse",
       "spec": "Path of Destruction",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "40 Action Points",
       "range": "80ft range",
       "incant": "3.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You create a maelstrom of evil power which deals 316 Corporeal damage to your target and all other enemies within 20 feet of them, and reduces their Initiative by 50 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9506
     },
-
-    {
-      "image": "22731",
-      "id": 5459,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 5458,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22731",
-      "id": 5457,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22704",
       "id": 5422,
       "name": "Chilling Gusts",
       "type": "Buff",
       "spec": "Path of Calamity",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time Chillwind or Ice Spikes damages an enemy, there is a 33% chance that the victim will suffer an additional 166 Corporeal damage as well.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9528
     },
-
     {
       "image": "10996",
       "id": 5467,
@@ -351,9 +177,9 @@
       "cooldown": "No cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A Curse which deals 432 Corporeal damage to your target over 9 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9471
     },
-
     {
       "image": "22694",
       "id": 5401,
@@ -362,78 +188,30 @@
       "spec": "Core Ability",
       "minrank": "29",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 569
     },
-
     {
       "image": "10933",
       "id": 5424,
       "name": "Crippling Terror",
       "type": "Debuff",
       "spec": "Path of Calamity",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them are Silenced and Disarmed for 7 seconds, making them unable to use melee, ranged, or magic abilities.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9543
     },
-
-    {
-      "image": "22716",
-      "id": 5461,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 5460,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22716",
-      "id": 5462,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "11005",
       "id": 5381,
@@ -442,30 +220,30 @@
       "spec": "Path of Calamity",
       "minrank": "18",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is surrounded by a demonic chill for 1 hour, giving them a 25% chance to deal 125 Corporeal damage back against the attacker when they are struck by a melee attack.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9473
     },
-
     {
       "image": "22712",
       "id": 5408,
       "name": "Dark Blessings",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "11",
+      "minrank": "8",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Direct heals cast on you will recover 10% more health.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 841
     },
-
     {
       "image": "10931",
       "id": 5397,
@@ -474,14 +252,14 @@
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "None of your abilities will consume action points for 10 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9538
     },
-
     {
       "image": "22704",
       "id": 5398,
@@ -490,14 +268,14 @@
       "spec": "Core Ability",
       "minrank": "13",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect can not occur more than once every 2 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 568
     },
-
     {
       "image": "10962",
       "id": 5469,
@@ -508,12 +286,12 @@
       "cost": "No AP Cost",
       "range": "100ft range",
       "incant": "1.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Consumes all Dark Magic",
       "description": "You expel all of your build-up Dark Magic in a deadly blast, dealing damage to your target based on the amount of Dark Magic that was consumed.<br>  1 - 10 Dark Magic: 75 damage.<br>  11 - 30 Dark Magic: 150 damage.<br>  31 - 70 Dark Magic: 300 damage.<br>  71 - 90 Dark Magic: 600 damage.<br>  91 - 100 Dark Magic: 750 damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9490
     },
-
     {
       "image": "10929",
       "id": 5395,
@@ -524,28 +302,28 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to your target immediately, and another 1206 damage over 9 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9536
     },
-
     {
       "image": "10928",
       "id": 5428,
       "name": "Disastrous Cascade",
       "type": "Damaging",
       "spec": "Path of Destruction",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "15 Action Points / Sec",
-      "range": "No range",
+      "range": "Self",
       "incant": "3.0s cast",
-      "cooldown": "8.0s cooldown",
+      "cooldown": "8s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You allow dark powers for flow freely through your body for up to 3 seconds, dealing 180 Spirit damage every second to all enemies within 30 feet. This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9503
     },
-
     {
       "image": "10995",
       "id": 5466,
@@ -559,9 +337,9 @@
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A massive burst of dark power which deals 533 Corporeal damage to your target.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9470
     },
-
     {
       "image": "10998",
       "id": 5371,
@@ -572,28 +350,28 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9474
     },
-
     {
       "image": "10923",
       "id": 5412,
       "name": "Echo of Power",
       "type": "Damaging",
       "spec": "Path of Agony",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "35 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Only usable after an enemy Disrupts one of your spells<br>Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "An instant blast of magic that deals 291 Corporeal damage to your target and can not be defended against.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9498
     },
-
     {
       "image": "22712",
       "id": 5389,
@@ -602,78 +380,30 @@
       "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Dhar Wind will now restore your action points, returning an amount equal to the Dark Magic which was expended.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9510
     },
-
     {
       "image": "22695",
       "id": 5399,
       "name": "Endless Knowledge",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "19",
+      "minrank": "16",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Intelligence by 160.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 563
     },
-
-    {
-      "image": "22725",
-      "id": 5452,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 5453,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22725",
-      "id": 5451,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "05004",
       "id": 5468,
@@ -682,14 +412,14 @@
       "spec": "Core Ability",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 245
     },
-
     {
       "image": "23153",
       "id": 5405,
@@ -698,14 +428,14 @@
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 674
     },
-
     {
       "image": "10915",
       "id": 5382,
@@ -716,12 +446,12 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "1.0s cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You fill your enemy's mind with fear, dealing 216 Corporeal damage and Disarming them for 3 seconds, making them unable to use melee and ranged abilities.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9482
     },
-
     {
       "image": "22709",
       "id": 5394,
@@ -730,14 +460,14 @@
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Frozen Touch now has a 75% chance to trigger.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9517
     },
-
     {
       "image": "10909",
       "id": 5373,
@@ -746,30 +476,30 @@
       "spec": "Path of Agony",
       "minrank": "6",
       "cost": "30 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional 150 Corporeal damage any time they deal direct damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9476
     },
-
     {
       "image": "10925",
       "id": 5419,
       "name": "Gloom of Night",
       "type": "Curse",
       "spec": "Path of Calamity",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "30 Action Points",
       "range": "80ft range",
       "incant": "2.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A cloud of gloom clings to your target for 15 seconds, dealing 153 Spirit damage every 3 seconds to them and all other enemies within 20 feet of them.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9500
     },
-
     {
       "image": "10907",
       "id": 5369,
@@ -780,12 +510,12 @@
       "cost": "40 Action Points",
       "range": "100ft range",
       "incant": "1.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Builds 25 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A quick-casting spell that deals 291 Spirit damage to your target.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9472
     },
-
     {
       "image": "22704",
       "id": 5393,
@@ -794,14 +524,14 @@
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy with a direct damage ability, you will gain 200 points of Morale. This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9516
     },
-
     {
       "image": "22704",
       "id": 5387,
@@ -810,14 +540,14 @@
       "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Doombolt and Chillwind will now also cause the victim to lose 20 Action Points, and will reduce their Strength, Intelligence, and Ballistic Skill by 120 for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9512
     },
-
     {
       "image": "10910",
       "id": 5378,
@@ -826,78 +556,30 @@
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "25 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "All enemies within 30 feet become Rooted, making them unable to move for 10 seconds.  Rooted targets have a 50% chance to break free when they suffer damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9477
     },
-
     {
       "image": "11000",
       "id": 5421,
       "name": "Hand of Ruin",
       "type": "Damaging",
       "spec": "Path of Calamity",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "13 Action Points / Sec",
       "range": "100ft range",
       "incant": "6.0s cast",
-      "cooldown": "11.0s cooldown",
+      "cooldown": "11s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "Tendrils of dark energy burst forth from your hand and slice into your target for up to 6 seconds, dealing 343 Spirit damage every 2 seconds. This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9505
     },
-
-    {
-      "image": "22730",
-      "id": 5444,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 5443,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22730",
-      "id": 5442,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22696",
       "id": 5392,
@@ -906,14 +588,14 @@
       "spec": "Core Ability",
       "minrank": "35",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces the cooldown times of Dread Aspect and Grip Of Fear by 7 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9515
     },
-
     {
       "image": "10919",
       "id": 5379,
@@ -922,30 +604,30 @@
       "spec": "Path of Calamity",
       "minrank": "14",
       "cost": "35 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You cause dark energy to burst out of the ground, inflicting a Curse upon all enemies in a line in front of you, up to 65 feet away, which deals 595 Corporeal damage over 15 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9486
     },
-
     {
       "image": "10912",
       "id": 5414,
       "name": "Impending Doom",
       "type": "Damaging",
       "spec": "Path of Agony",
-      "minrank": "1",
+      "minrank": "25",
       "cost": "40 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 40 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You draw forth a huge amount of Dark Magic and slam your target with a powerful blast of force, dealing 341 Spirit damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9499
     },
-
     {
       "image": "22708",
       "id": 5388,
@@ -954,14 +636,14 @@
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever one of your damaging spells hits an enemy, there is a 25% chance that your other groupmates within 100 feet of you will gain an Infernal Gift, increasing all damage that they deal by 10% for 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9511
     },
-
     {
       "image": "10921",
       "id": 5380,
@@ -970,30 +652,30 @@
       "spec": "Path of Destruction",
       "minrank": "16",
       "cost": "40 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A cone of dark energy bursts forth in front of you, dealing 228 Spirit damage to enemies up to 65 feet away.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9488
     },
-
     {
       "image": "22694",
       "id": 5427,
       "name": "Lengthening Shadows",
       "type": "Buff",
       "spec": "Path of Destruction",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the radius of Surging Pain and the distance of Infernal Wave by 33%.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9526
     },
-
     {
       "image": "23167",
       "id": 5402,
@@ -1004,12 +686,12 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 670
     },
-
     {
       "image": "22694",
       "id": 5390,
@@ -1018,14 +700,14 @@
       "spec": "Core Ability",
       "minrank": "31",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Obsessive Focus's cooldown time by 40 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9513
     },
-
     {
       "image": "23168",
       "id": 5404,
@@ -1034,30 +716,30 @@
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 673
     },
-
     {
       "image": "22704",
       "id": 5429,
       "name": "Neverending Agony",
       "type": "Buff",
       "spec": "Path of Destruction",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Infernal Wave's cooldown time by 5 seconds, and Pit Of Shades's cooldown time by 10 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9529
     },
-
     {
       "image": "10914",
       "id": 5376,
@@ -1068,92 +750,44 @@
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You become obsessed with your target for 20 seconds, dealing 10% more damage to them, but 90% damage to everyone else. Even if the target dies, your obsession will persist for the full duration.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9481
     },
-
-    {
-      "image": "22729",
-      "id": 5450,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 5449,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22729",
-      "id": 5448,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "10934",
       "id": 5431,
       "name": "Paralyzing Nightmares",
       "type": "Damaging",
       "spec": "Path of Destruction",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All enemies within 30 feet suffer 1200 damage and become Rooted, making them unable to move for 7 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9544
     },
-
     {
       "image": "22696",
       "id": 5425,
       "name": "Piercing Shadows",
       "type": "Buff",
       "spec": "Path of Destruction",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time that your Dark Magic causes an Backlash, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9525
     },
-
     {
       "image": "10927",
       "id": 5383,
@@ -1164,12 +798,12 @@
       "cost": "10 Action Points / Sec",
       "range": "80ft range",
       "incant": "10.0s cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A 20 feet pit of shadow covers the ground at a point that you select for 9 seconds. Your enemies will suffer 183 Spirit damage every 1.5 seconds while they are within the area. This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9485
     },
-
     {
       "image": "10920",
       "id": 5384,
@@ -1178,30 +812,30 @@
       "spec": "Core Ability",
       "minrank": "30",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Costs 40 Dark Magic",
       "description": "You instantly regain 160 Action Points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9487
     },
-
     {
       "image": "22708",
       "id": 5411,
       "name": "Recover Energy",
       "type": "Buff",
       "spec": "Path of Agony",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you damage an enemy with a Path Of Agony ability, you have a 25% chance to regain 50 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9521
     },
-
     {
       "image": "23169",
       "id": 5406,
@@ -1212,60 +846,60 @@
       "cost": "Rank 3 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage to your target and staggers them for 9 seconds, preventing all actions until they take damage.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 671
     },
-
     {
       "image": "10999",
       "id": 5416,
       "name": "Shades of Death",
       "type": "Curse",
       "spec": "Path of Agony",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "Your target is haunted by spectres of death and doom for up to 10 seconds, causing an additional 100 Spirit damage each time that they suffer direct damage. This effect will occur up to 5 times before fading.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9504
     },
-
     {
       "image": "10918",
       "id": 5430,
       "name": "Shadow Knives",
       "type": "Damaging",
       "spec": "Path of Destruction",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "20 Action Points / Sec",
       "range": "80ft range",
       "incant": "6.0s cast",
-      "cooldown": "16.0s cooldown",
+      "cooldown": "16s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You create a cloud of dark energy for up to 6 seconds, dealing 232 Corporeal damage to your target and all enemies within 20 feet of them every 2 seconds. This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9502
     },
-
     {
       "image": "22697",
       "id": 5420,
       "name": "Shadow of Disaster",
       "type": "Buff",
       "spec": "Path of Calamity",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "The cost of Chillwind is reduced by 20 and it will reduce the enemy's Spiritual resistance by 236 for 9 seconds.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9524
     },
-
     {
       "image": "10913",
       "id": 5375,
@@ -1279,9 +913,9 @@
       "cooldown": "No cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You crush your foes underneath a blast of living shadow, dealing 366 Spirit damage to your target and all other enemies within 20 feet of them.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9480
     },
-
     {
       "image": "10917",
       "id": 5370,
@@ -1290,14 +924,14 @@
       "spec": "Core Ability",
       "minrank": "3",
       "cost": "20 Action Points",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You draw the shadows close to you, increasing all of your resistances by 378 for 20 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9484
     },
-
     {
       "image": "23170",
       "id": 5403,
@@ -1308,60 +942,12 @@
       "cost": "Rank 2 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 669
     },
-
-    {
-      "image": "22721",
-      "id": 5445,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 5446,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-
-    {
-      "image": "22721",
-      "id": 5447,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-
     {
       "image": "22708",
       "id": 5400,
@@ -1370,30 +956,30 @@
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Enemy monsters will hate you 50% less than normal.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 567
     },
-
     {
       "image": "10932",
       "id": 5417,
       "name": "Soul Stealer",
       "type": "Damaging",
       "spec": "Path of Agony",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "Rank 4 morale",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them suffer 800 damage and lose 125 Action Points. You gain 800 health and 125 Action Points.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9542
     },
-
     {
       "image": "10922",
       "id": 5386,
@@ -1404,12 +990,12 @@
       "cost": "25 Action Points",
       "range": "80ft range",
       "incant": "Instant cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "Your enemy becomes overwhelmed with panic, suffering 232 Corporeal damage. Fear and uncertainty spread rapidly through the enemy ranks, Silencing the target and all other enemies within 20 feet of them for 3 seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9489
     },
-
     {
       "image": "10916",
       "id": 5372,
@@ -1418,46 +1004,46 @@
       "spec": "Path of Destruction",
       "minrank": "5",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "Waves of agony roll outwards from you, dealing 169 Corporeal damage to all enemies within 30 feet.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9483
     },
-
     {
       "image": "22704",
       "id": 5415,
       "name": "Swell of Gloom",
       "type": "Buff",
       "spec": "Path of Agony",
-      "minrank": "1",
+      "minrank": "27",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Gloomburst will now deal an additional 291 Spirit damage each time it hits, but will also cause a Backlash every time as well.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9527
     },
-
     {
       "image": "22702",
       "id": 5413,
       "name": "Tapping The Dark",
       "type": "Buff",
       "spec": "Path of Agony",
-      "minrank": "1",
+      "minrank": "23",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever your Frozen Touch effect triggers for one of your allies, they will become surrounded by a protective barrier for up to 5 seconds which will absorb up to 250 damage.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9522
     },
-
     {
       "image": "22708",
       "id": 5391,
@@ -1466,14 +1052,14 @@
       "spec": "Core Ability",
       "minrank": "33",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit with a Path Of Destruction ability, the victim will be knocked backwards a moderate distance and mobs will be knocked down.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9514
     },
-
     {
       "image": "23171",
       "id": 5407,
@@ -1484,28 +1070,28 @@
       "cost": "Rank 4 morale",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 672
     },
-
     {
       "image": "22706",
       "id": 5418,
       "name": "Vision of Domination",
       "type": "Buff",
       "spec": "Path of Calamity",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
-      "range": "No range",
+      "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Word of Pain's Willpower debuff is increased to 225 for 5 seconds and will deal 533 Spirit damage at the end of the debuff duration.",
-      "category": "CareerTactic"
+      "category": "CareerTactic",
+      "gameId": 9523
     },
-
     {
       "image": "10911",
       "id": 5385,
@@ -1519,9 +1105,9 @@
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A Curse which causes the enemy to lose 30 Action Points over 5 seconds. When this effect ends, they will suffer 232 Spirit damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9478
     },
-
     {
       "image": "10930",
       "id": 5396,
@@ -1530,14 +1116,14 @@
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Each groupmember within 100 feet takes only 80% damage for 20 seconds.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 9537
     },
-
     {
       "image": "10908",
       "id": 5374,
@@ -1548,10 +1134,11 @@
       "cost": "25 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "Reduces your target's Willpower by 75 for 10 seconds. When the effect ends, the victim will suffer 365 Spirit damage.",
-      "category": "Ability"
+      "category": "Ability",
+      "gameId": 9475
     },
     {
       "image": "10993",
@@ -1559,14 +1146,15 @@
       "name": "Shatter",
       "type": "Damaging",
       "spec": "Core Ability",
-      "minrank": "40",
+      "minrank": "32",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage to all enemies within 30 feet.",
-      "category": "Morale"
+      "category": "Morale",
+      "gameId": 2710
     }
   ]
 }
