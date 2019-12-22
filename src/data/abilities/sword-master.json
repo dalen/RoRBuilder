@@ -959,7 +959,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
-      "note": "Requires Shield<br>Requires 15 points in Path of Vaul",
+      "note": "Requires Shield",
       "description": "Everyone in your group regains 200 action points and is protected by a magical barrier for 10 seconds which will absorb up to 4500 damage.",
       "category": "Morale",
       "gameId": 9075
@@ -1087,7 +1087,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
-      "note": "Requires Great Weapon<br>Requires 15 points in Path of Khaine",
+      "note": "Requires Great Weapon",
       "description": "A spinning attack that inflicts 1200 damage to all enemies within 30 feet and then knocks them away.",
       "category": "Morale",
       "gameId": 9074

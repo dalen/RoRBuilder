@@ -628,10 +628,10 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Requires Great Weapon<br/>Target must be below 50% health<br/>Builds 30 Righteous Fury",
+      "note": "Requires Great Weapon<br>Target must be below 50% health<br>Builds 30 Righteous Fury",
       "description": "Deals 352 damage and will almost always deal critical damage to a wounded foe.",
       "category": "Ability",
-      "gameId": 8272
+      "gameId": 2930
     },
     {
       "image": "22708",
@@ -972,7 +972,7 @@
     {
       "image": "07953",
       "id": 4146,
-      "gameId": 8252,
+      "gameId": 2504,
       "name": "Sigmar's Radiance",
       "type": "Damaging",
       "spec": "Path of Grace",
@@ -1036,7 +1036,7 @@
     {
       "image": "07947",
       "id": 4188,
-      "gameId": 8271,
+      "gameId": 2936,
       "name": "Soulfire",
       "type": "Curse",
       "spec": "Path of Wrath",
@@ -1188,7 +1188,7 @@
       "range": "Self",
       "incant": "10s cast",
       "cooldown": "30s cooldown",
-      "note": "Requires Shield<br/>Requires 25 Righteous Fury per second",
+      "note": "Requires Shield<br>Requires 25 Righteous Fury per second",
       "description": "You shield your team with your life force, you will suffer 300 damage every second, any groupmates within 100ft will have 525 health restored to them. This effect will end if you break your concentration, or run out of Righteous Fury.",
       "category": "Ability",
       "gameId": 2940
@@ -1204,7 +1204,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Requires Shield<br/>Builds 25 Righteous Fury",
+      "note": "Requires Shield<br>Builds 25 Righteous Fury",
       "description": "You attack with your buckler dealing 177 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
       "category": "Ability",
       "gameId": 2948
@@ -1220,7 +1220,7 @@
       "range": "Self",
       "incant": "10s cast",
       "cooldown": "60s cooldown",
-      "note": "Requires Shield<br/>Requires 25 Righteous Fury per second",
+      "note": "Requires Shield<br>Requires 25 Righteous Fury per second",
       "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. This effect will end if you break your concentration, or run out of Righteous Fury.",
       "category": "Ability",
       "gameId": 2947
