@@ -2,14 +2,13 @@ import colors from 'colors';
 import inquirer from 'inquirer';
 import { promises as fs } from 'fs';
 
-import { readAbilityNames } from './abilityNames';
-import { readAbilityDescriptions } from './abilityDesc';
+import { readTextFile } from './readTextFile';
 import { readAbilities } from './abilityDecoder';
 import { readComponents, structureComponents } from './abilityComponents';
 import { structureAbilities, AbilityData } from './structureAbilities';
 import { stringMatch } from './utilities';
 
-import { CareerLine, AbilityType, TargetType } from './types';
+import { CareerLine, AbilityType, TargetType, AbilityFlags } from './types';
 
 import archmage from '../data/abilities/archmage.json';
 import blackOrc from '../data/abilities/black-orc.json';
@@ -37,6 +36,7 @@ import witchHunter from '../data/abilities/witch-hunter.json';
 import zealot from '../data/abilities/zealot.json';
 
 import { Career, Ability } from '../helpers/abilities';
+import { validateNote } from './validateNote';
 
 const careerData: {
   archmage: Career;
@@ -223,10 +223,9 @@ const validateCastTime = (
         return gameAbility.Castime;
       }
 
-      // 4194304 flag seems to indicate channeled ability
       // Firball Barrage seems to have a 60m duration component though !?!
-      // So filtes that out
-      if (gameAbility.Flags & 4194304) {
+      // So filter that out
+      if (gameAbility.Flags & AbilityFlags.CHANNEL) {
         return Math.max(
           ...gameAbility.Components.map(c => c.Duration).filter(d => d < 30000),
         );
@@ -252,7 +251,7 @@ const validateCastTime = (
   if (ability.incant !== castTime) {
     logAbilityError(ability, `incant ${ability.incant} != ${castTime}`);
 
-    return { ...ability, incant: castTime };
+    return { incant: castTime };
   }
 
   return {};
@@ -291,6 +290,37 @@ const validateName = (
     logAbilityError(ability, `name ${ability.name} != ${name}`);
     return { name };
   }
+  return {};
+};
+
+const validateType = (
+  ability: Ability,
+  gameAbility: AbilityData,
+): Partial<Ability> => {
+  /* console.log(
+    `Type:`,
+    !!(gameAbility.Flags & AbilityFlags.FLAG3),
+    'AttackType',
+    gameAbility.AttackType,
+    'type',
+    ability.type,
+  ); */
+
+  if (ability.note.includes('Requires')) {
+    console.log(ability.name, colors.blue(ability.note));
+    console.log(gameAbility.Data);
+  }
+  /*if (
+      !!(gameAbility.Flags & AbilityFlags.FLAG14) &&
+      !(gameAbility.Flags & AbilityFlags.FLAG13)
+    ) {
+      console.log(
+        'Flags:',
+        ability.name,
+        `(${colors.blue(ability.type)} ${colors.red(ability.category)})`,
+      );
+    } */
+
   return {};
 };
 
@@ -345,18 +375,10 @@ const validateAbility = async (
   const gameAbility = abilityData[ability.gameId];
 
   // Debug
-  const printDebugAbilities: number[] = [];
+  const printDebugAbilities: number[] = [8252];
   if (printDebugAbilities.includes(gameAbility.AbilityID)) {
     console.log(JSON.stringify(gameAbility, undefined, 2));
   }
-
-  /*
-  console.log(
-    colors.cyan(
-      `Type: ${ability.type} ${gameAbility.Components[0]?.Operation}`,
-    ),
-  );
-  */
 
   return {
     ...ability,
@@ -367,6 +389,7 @@ const validateAbility = async (
     ...validateRange(ability, gameAbility),
     ...validateAPCost(ability, gameAbility),
     ...validateName(ability, gameAbility),
+    ...validateNote(ability, gameAbility),
   };
 };
 
@@ -404,8 +427,15 @@ const validateCareer = async (
 
 // Read data and validate
 const main = async () => {
-  const abilityNames = await readAbilityNames();
-  const abilityDescriptions = await readAbilityDescriptions();
+  const abilityNames = await readTextFile('data/abilitynames.txt', 'utf16be');
+  const abilityDescriptions = await readTextFile(
+    'data/abilitydesc.txt',
+    'utf16be',
+  );
+  const abilityResults = await readTextFile(
+    'data/abilityresults.txt',
+    'utf16le',
+  );
   const abilityComponents = structureComponents(await readComponents());
   // TODO: Promise.all refactor this
   const abilityData = structureAbilities(
@@ -413,6 +443,7 @@ const main = async () => {
     abilityNames,
     abilityDescriptions,
     abilityComponents,
+    abilityResults,
   );
 
   await validateCareer('ironbreaker', CareerLine.IRON_BREAKER, abilityData);

@@ -1026,7 +1026,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Can only have one training active",
+      "note": "",
       "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional 159 damage over 3 seconds.<br><br>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability",
       "gameId": 9172
@@ -1042,7 +1042,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Can only have one training active",
+      "note": "",
       "description": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by 50.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability",
       "gameId": 9162
@@ -1058,7 +1058,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Can only have one training active",
+      "note": "",
       "description": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by 5% as long as you are at your target's side or back.<br><br>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies.",
       "category": "Ability",
       "gameId": 9168

@@ -112,7 +112,7 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time. ",
+      "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 309 elemental damage.",
       "category": "Ability",
       "gameId": 1913
@@ -128,7 +128,7 @@
       "range": "150ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time. ",
+      "note": "Mork's Waaagh! reduces cast time.",
       "description": "Heals your target for 883 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
       "category": "Ability",
       "gameId": 1904
@@ -160,7 +160,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Gork's Waaagh! reduces cast time. ",
+      "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 344 elemental damage to your target.",
       "category": "Ability",
       "gameId": 1899
@@ -192,7 +192,7 @@
       "range": "100ft range",
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
-      "note": "Gork's Waaagh! increases effectiveness. ",
+      "note": "Gork's Waaagh! increases effectiveness.",
       "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing 344 elemental damage to them as long as you maintain your concentration.",
       "category": "Ability",
       "gameId": 1903
@@ -336,7 +336,7 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Mork's Waaagh! increases effectiveness.",
+      "note": "Mork's Waaagh! increases effectiveness.<br>Target must be in your group or warband.",
       "description": "Surrounds an ally with a magical barrier that absorbs up to 925 damage for up to 9 seconds.",
       "category": "Ability",
       "gameId": 1932
@@ -416,7 +416,7 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! increases effectiveness. ",
+      "note": "Mork's Waaagh! increases effectiveness.",
       "description": "Heals your target for 1700 health over 15 seconds.",
       "category": "Ability",
       "gameId": 1901
@@ -512,7 +512,7 @@
       "range": "Self",
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time. ",
+      "note": "Mork's Waaagh! reduces cast time.",
       "description": "Heals group members within 100 feet for 643 health.",
       "category": "Ability",
       "gameId": 1907
@@ -624,7 +624,7 @@
       "range": "150ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time. ",
+      "note": "Mork's Waaagh! reduces cast time.",
       "description": "Your target regains 258 health immediately, then continues to gain another 315 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 1898
@@ -672,7 +672,7 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Target must be Cursed or Ailing",
+      "note": "Target must be Cursed or Ailing<br>Mork's Waaagh! reduces cooldown.<br>Builds Gork's Waaagh!",
       "description": "You cleanse an ally, removing one Curse or Ailment. If an effect is removed, your ally will absorb up to 175 damage over 10 seconds.",
       "category": "Ability",
       "gameId": 1906
@@ -704,7 +704,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Gork's Waaagh! reduces cast time. ",
+      "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 277 elemental damage to your target, and heals your defensive target for 150% of the damage done. <BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability",
       "gameId": 2100
@@ -720,7 +720,7 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Gork's Waaagh! increases effectiveness. ",
+      "note": "Gork's Waaagh! increases effectiveness.",
       "description": "You deal 710 elemental damage to your target over 15 seconds.",
       "category": "Ability",
       "gameId": 1900

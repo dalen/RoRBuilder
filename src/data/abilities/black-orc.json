@@ -256,7 +256,7 @@
       "range": "250ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "This ability does not trigger the GCD",
+      "note": "",
       "description": "You suddenly realize that you could smash things better with a different plan.<br><br>  No Plan: You gain Da Good Plan.<br>  Da Good Plan: You gain Da Best Plan.<br>  Da Best Plan: You gain Da Good Plan.",
       "category": "Ability",
       "gameId": 1734
@@ -304,7 +304,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Can only have 1 war bellow active.",
+      "note": "War Bellow",
       "description": "A mighty war cry that weakens your foes and gives you their strengths. All your melee attacks gain a 25% chance to randomly steal a 75 ability bonus to stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.",
       "category": "Ability",
       "gameId": 1668
@@ -320,7 +320,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Can only have 1 war bellow active.",
+      "note": "War Bellow",
       "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by 236 for 10 seconds on all group members within 100 feet. Physical damage will increase armour by 618.",
       "category": "Ability",
       "gameId": 1675
@@ -336,7 +336,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Can only have 1 war bellow active.",
+      "note": "War Bellow",
       "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to increase your group's wounds by 32 for 10 seconds. Anyone affected will be healed by the amount increased.",
       "category": "Ability",
       "gameId": 1673
@@ -1120,7 +1120,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "You proclaim your size to Mok, rendering yourself and any of your groupmates within 30ft of you immune to crowd control effects for 3 seconds and reducing damage your group receives by 10%.",
       "category": "Ability",
       "gameId": 2856
@@ -1216,7 +1216,7 @@
       "range": "30ft range",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "Leads to da' Gud plan",
+      "note": "Leads to da' Gud Plan!",
       "description": "You think you heard someone say something about the size of your weapon. You fly into a rage for 20 seconds dealing 10% more damage. Your armor and resistances increase by 30%, defences by 15%, but when your rage subsides you will move at only 80% movement speed for 10 seconds.",
       "category": "Ability",
       "gameId": 2851

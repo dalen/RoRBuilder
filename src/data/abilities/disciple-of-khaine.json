@@ -469,7 +469,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Builds 15 Soul Essence for each enemy that you strike",
+      "note": "",
       "description": "You lash out at all opponents in front of you up to 50 feet away, dealing 101 damage and regaining 15 Soul Essence for each enemy hit.",
       "category": "Ability",
       "gameId": 9566
@@ -1173,7 +1173,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Target must be below 50% health<br>Builds 30 soul essence<br>Requires Dual Wield",
+      "note": "Target must be below 50% health<br>Builds 30 Soul Essence<br>Requires Dual Wield",
       "description": "Deals 352 damage and will almost always deal critical damage to a wounded foe.",
       "category": "Ability",
       "gameId": 2934

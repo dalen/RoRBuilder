@@ -837,7 +837,7 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Requires 25 Righteous Fury <br>Target must be Cursed or Hexed",
+      "note": "Requires 25 Righteous Fury<br>Target must be Cursed or Hexed",
       "description": "You purify an ally, removing one Curse or Hex.",
       "category": "Ability"
     },
@@ -1029,7 +1029,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Builds 15 Righteous Fury for each enemy that you strike",
+      "note": "",
       "description": "A sweeping blow which deals 101 damage to all enemies in front of you, up to 50 feet away.",
       "category": "Ability"
     },
@@ -1045,7 +1045,7 @@
       "range": "Self",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
-      "note": "Builds 35 Righteous Fury<br>Requires Great Weapon",
+      "note": "Requires Great Weapon<br>Builds 35 Righteous Fury",
       "description": "Deals 390 Spirit damage over 9 seconds to all enemies within 30 feet.",
       "category": "Ability"
     },

@@ -82,3 +82,38 @@ export enum ComponentOP {
   IMMUNITY = 38, // 0x00000026
   CATAPULT = 46, // 0x0000002E
 }
+
+export enum AbilityFlags {
+  FLAG0 = Math.pow(2, 0),
+  FLAG1 = Math.pow(2, 1), // Buff tactic?
+  FLAG2 = Math.pow(2, 2), // Buff general
+  FLAG3 = Math.pow(2, 3), // Curse?
+  FLAG4 = Math.pow(2, 4), // Damaging?
+  FLAG5 = Math.pow(2, 5), // Healing
+  FLAG6 = Math.pow(2, 6), // ??
+  FLAG7 = Math.pow(2, 7), // ??
+  FLAG8 = Math.pow(2, 8), // None
+  FLAG9 = Math.pow(2, 9), // None
+  FLAG10 = Math.pow(2, 10), // None
+  FLAG11 = Math.pow(2, 11), // Requires Mechanic? Stealth, Mutation, Squig armor or exhaustive abilities
+  FLAG12 = Math.pow(2, 12), // None
+  FLAG13 = Math.pow(2, 13), // Toggle abilities?
+  FLAG14 = Math.pow(2, 14), // Similar to flag13, but without flee
+  FLAG15 = Math.pow(2, 15), // Gives passive buff?
+  FLAG16 = Math.pow(2, 16), // CareerTactic
+  FLAG17 = Math.pow(2, 17), // Requires parry/disrupt? (Also force opportunity & malignant strike)
+  FLAG18 = Math.pow(2, 18), // None
+  FLAG19 = Math.pow(2, 19), // ??
+  FLAG20 = Math.pow(2, 20), // Seems all have this flag?
+  FLAG21 = Math.pow(2, 21), // ??
+  CHANNEL = Math.pow(2, 22),
+  FLAG23 = Math.pow(2, 23), // Cleanseable/Shatterable?
+  FLAG24 = Math.pow(2, 24), // None
+  FLAG25 = Math.pow(2, 25), // ??
+  FLAG26 = Math.pow(2, 26), // ??
+  FLAG27 = Math.pow(2, 27), // Guard & ress and some pet abilities?
+  FLAG28 = Math.pow(2, 28), // ??
+  FLAG29 = Math.pow(2, 29), // None
+  FLAG30 = Math.pow(2, 30), // None
+  FLAG31 = Math.pow(2, 31), // None
+}

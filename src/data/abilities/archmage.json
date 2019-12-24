@@ -127,7 +127,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "Deals 200 spiritdamage to your target, and heals your defensive target for 488 health plus 150% of the damage done.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability",
       "gameId": 2300
@@ -239,7 +239,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "Deals 205 Spirit damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
       "category": "Ability",
       "gameId": 9266
@@ -255,7 +255,7 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Target must be Hexed or Ailing",
+      "note": "Target must be Hexed or Ailing<br>Force reduces cooldown.<br>Builds Tranquility",
       "description": "You cleanse an ally's wound and remove one Ailment or Hex. If an effect is removed, your ally will absorb up to 175 damage over 10 seconds.",
       "category": "Ability",
       "gameId": 9244
@@ -335,7 +335,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds. Every 1 seconds, all enemies within 30 feet of them will suffer 146 Spirit damage.",
       "category": "Ability",
       "gameId": 9271
@@ -447,7 +447,7 @@
       "range": "80ft range",
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "A wash of power leeches the breath from your target and up to four other enemies within 25 feet of them, dealing 199 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 0 health, plus 50% of the total inflicted damage.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likley to be Blocked or Disrupted.",
       "category": "Ability",
       "gameId": 9274
@@ -543,7 +543,7 @@
       "range": "150ft range",
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
-      "note": "Force increases effectiveness. <br>Builds Tranquility",
+      "note": "Force increases effectiveness.<br>Builds Tranquility",
       "description": "You focus your powers on your defensive target, restoring up to 1256 health to them over 3 seconds. This effect will end if you break your concentration, or if you run out of action points.",
       "category": "Ability",
       "gameId": 9258
@@ -559,7 +559,7 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "5s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing  309 Spirit to your target.",
       "category": "Ability",
       "gameId": 9267
@@ -671,7 +671,7 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Force increases effectiveness. <br>Builds Tranquility",
+      "note": "Force increases effectiveness.<br>Builds Tranquility",
       "description": "Heals your target for 1700 health over 15 seconds.",
       "category": "Ability",
       "gameId": 9238
@@ -703,7 +703,7 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Tranquility increases effectiveness. <br>Builds Force",
+      "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "Deals 710 Spirit damage to your target over 15 seconds.",
       "category": "Ability",
       "gameId": 9239
@@ -719,7 +719,7 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "Deals 284 Spirit damage and silences your target, making them unable to use magic for 5 seconds.",
       "category": "Ability",
       "gameId": 9253
@@ -815,7 +815,7 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Tranquility increases effectiveness. <br>Builds Force",
+      "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "Deals 204 Spirit damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.",
       "category": "Ability",
       "gameId": 9264
@@ -831,7 +831,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "A lance of brilliant energy erupts from your staff, dealing 344 Spirit damage to your target.",
       "category": "Ability",
       "gameId": 9237
@@ -911,7 +911,7 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Tranquility increases effectiveness. <br>Builds Force",
+      "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "Deals 552 Spirit damage to your target over 9 seconds, and causes all heals that they receive to become 50% less effective.",
       "category": "Ability",
       "gameId": 9247
@@ -927,7 +927,7 @@
       "range": "100ft range",
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
-      "note": "Tranquility increases effectiveness. <br>Builds Force",
+      "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing 344 Spirit damage to them as long as you maintain your concentration.",
       "category": "Ability",
       "gameId": 9250
@@ -943,7 +943,7 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Force increases effectiveness. <br>Builds Tranquility",
+      "note": "Force increases effectiveness.<br>Builds Tranquility<br>Target must be in your group or warband.",
       "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to 925 damage.",
       "category": "Ability",
       "gameId": 9268
@@ -1007,7 +1007,7 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Tranquility increases effectiveness. <br>Builds Force",
+      "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "Deals 1072 Spirit damage to your target over 24 seconds and heals your defensive target for 150% of the damage done on each tick.",
       "category": "Ability",
       "gameId": 9241

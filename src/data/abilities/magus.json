@@ -687,7 +687,7 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
-      "note": "Requires a summoned minion",
+      "note": "Requires a summoned minion.",
       "description": "You force so much power into your daemon that it explodes from within, dealing 320 spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
       "category": "Ability",
       "gameId": 8481
@@ -815,7 +815,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Requires a summoned minion",
+      "note": "Requires a summoned minion.",
       "description": "You shift your active summoning circle to your current location, bringing your minion with it.",
       "category": "Ability",
       "gameId": 8542
