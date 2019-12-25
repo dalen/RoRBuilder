@@ -145,7 +145,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 20 Grudge",
-      "description": "A decisive final strike that deals 194 damage to your enemy. If the target dies immediately after being hit by this attack, then you will regain 285 health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
+      "description": "A decisive final strike that deals 194 damage to your enemy.  If the target dies immediately after being hit by this attack, then you will regain 285 health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
       "category": "Ability",
       "gameId": 1381,
       "componentValues": {
@@ -229,7 +229,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "You chop at your enemy's legs, causing them to take 255 damage over 10 seconds and snaring them, reducing their run speed by 40%.<br><br> With 25 Grudges: Damages for 360 damage over 10 seconds.<br> With 50 Grudges: Damages for 450 damage over 10 seconds.<br> With 75 Grudges: Damages for 550 damage over 10 seconds.<br> With 100 Grudges: Damages for 650 damage over 10 seconds.",
+      "description": "You chop at your enemy's legs, causing them to take 255 damage over 10 seconds and snaring them, reducing their run speed by 40%.<BR><BR> With 25 Grudges: Damages for 360 damage over 10 seconds.<BR> With 50 Grudges: Damages for 450 damage over 10 seconds.<BR> With 75 Grudges: Damages for 550 damage over 10 seconds.<BR> With 100 Grudges: Damages for 650 damage over 10 seconds.",
       "category": "Ability",
       "gameId": 1358,
       "componentValues": {
@@ -259,7 +259,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Improves with Grudge<br>Requires Great Weapon",
-      "description": "You smash into your enemy, knocking them down for 3 seconds.<br><br> At 25 Grudges: Deals 170 damage over 5 seconds.<br> At 50 Grudges: Deals 295 damage over 5 seconds.<br> At 75 Grudges: Deals 420 damage over 5 seconds.<br> At 100 Grudges: Deals 545 damage over 5 seconds.",
+      "description": "You smash into your enemy, knocking them down for 3 seconds.<BR><BR> At 25 Grudges: Deals 170 damage over 5 seconds.<BR> At 50 Grudges: Deals 295 damage over 5 seconds.<BR> At 75 Grudges: Deals 420 damage over 5 seconds.<BR> At 100 Grudges: Deals 545 damage over 5 seconds.",
       "category": "Ability",
       "gameId": 1384,
       "componentValues": {
@@ -292,7 +292,7 @@
       "gameId": 1368,
       "componentValues": {
         "COM_5_VAL0": 0,
-        "COM_5_DURA_SECONDS": 0
+        "COM_5_DURA_SECONDS": 15
       },
       "rawDescription": "You challenge all opponents in front of you, making monsters hate you more.While challenged, your opponents will deal only {COM_5_VAL0}% damage to everyone other than you. This effect will fade after {COM_5_DURA_SECONDS} or after your opponent has hit you 3 times."
     },
@@ -308,11 +308,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
+      "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<BR>This effect cannot be dispelled or broken.",
       "category": "Morale",
       "gameId": 608,
       "componentValues": {
-        "COM_1_DURA_SECONDS": 0
+        "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "Both you and your target are held tightly in place for {COM_1_DURA_SECONDS}, and neither one of you can move.<BR>This effect cannot be dispelled or broken."
     },
@@ -334,7 +334,7 @@
       "componentValues": {
         "COM_1_VAL0": 0,
         "COM_0_VAL0_TOD_DAMAGE": 0,
-        "COM_0_DURA_SECONDS": 0
+        "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
     },
@@ -412,7 +412,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Improves with Grudge",
-      "description": "The ground around you cracks and shatters and snares all enemies within 30 feet, reducing their run speed by 40% for 10 seconds.<br><br> At 25 Grudge: Deals 145 damage to each enemy hit by the effect.<br> At 50 Grudge: Deals 245 damage to each enemy hit by the effect.<br> At 75 Grudge: Deals 345 damage to each enemy hit by the effect.<br> At 100 Grudge: Deals 445 damage to each enemy hit by the effect.",
+      "description": "The ground around you cracks and shatters and snares all enemies within 30 feet, reducing their run speed by 40% for 10 seconds.<BR><BR> At 25 Grudge: Deals 145 damage to each enemy hit by the effect.<BR> At 50 Grudge: Deals 245 damage to each enemy hit by the effect.<BR> At 75 Grudge: Deals 345 damage to each enemy hit by the effect.<BR> At 100 Grudge: Deals 445 damage to each enemy hit by the effect.",
       "category": "Ability",
       "gameId": 1387,
       "componentValues": {
@@ -438,7 +438,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
       "gameId": 245,
       "componentValues": {
@@ -585,7 +585,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Improves with Grudge<br>Requires Great Weapon",
-      "description": "You constantly pummel your target with brutal attacks, dealing up to 520 damage over 3 seconds. Your attacks will end if you lose your concentration.<br><br> At 25 Grudge: Chance to Critically hit is increased by 5%.<br> At 50 Grudge: Chance to Critically hit is increased by 10%.<br> At 75 Grudge: Chance to Critically hit is increased by 15%.<br> At 100 Grudge: Chance to Critically hit is increased by 20%.",
+      "description": "You constantly pummel your target with brutal attacks, dealing up to 520 damage over 3 seconds. Your attacks will end if you lose your concentration.<BR><BR> At 25 Grudge: Chance to Critically hit is increased by 5%.<BR> At 50 Grudge: Chance to Critically hit is increased by 10%.<BR> At 75 Grudge: Chance to Critically hit is increased by 15%.<BR> At 100 Grudge: Chance to Critically hit is increased by 20%.",
       "category": "Ability",
       "gameId": 1385,
       "componentValues": {
@@ -672,7 +672,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 119 damage to your target and prepare yourself for their attacks, increasing your armor by 618 for 20 seconds.<br>Your Oath Friend's armor will also be increased if they are within 50 feet.",
+      "description": "You deal 119 damage to your target and prepare yourself for their attacks, increasing your armor by 618 for 20 seconds.<BR>Your Oath Friend's armor will also be increased if they are within 50 feet.",
       "category": "Ability",
       "gameId": 1356,
       "componentValues": {
@@ -695,7 +695,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You strike a crushing blow for 144 damage.<br><br> With 25 Grudges: Deals 198 damage over 3 seconds.<br> With 50 Grudges: Deals 231 damage over 3 seconds.<br> With 75 Grudges: Deals 264 damage over 3 seconds.<br> With 100 Grudges: Deals 297 damage over 3 seconds.",
+      "description": "You strike a crushing blow for 144 damage.<BR><BR> With 25 Grudges: Deals 198 damage over 3 seconds.<BR> With 50 Grudges: Deals 231 damage over 3 seconds.<BR> With 75 Grudges: Deals 264 damage over 3 seconds.<BR> With 100 Grudges: Deals 297 damage over 3 seconds.",
       "category": "Ability",
       "gameId": 1354,
       "componentValues": {
@@ -723,7 +723,7 @@
       "incant": "12s cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
-      "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
+      "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<BR>This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability",
       "gameId": 1378,
       "componentValues": {
@@ -897,7 +897,7 @@
       "incant": "Instant cast",
       "cooldown": "1.5s cooldown",
       "note": "",
-      "description": "You select a single ally to be your sworn Oath Friend. Each time they are attacked, you will gain Grudges based on your current Grudge level, and some of your abilities will affect them as well.<br>You are at 0-29 Grudge: You will gain 10 Grudges.<br>You are at 30-59 Grudge: You will gain 5 Grudges.<br>You are at 60-100 Grudge: You will gain 3 Grudge.",
+      "description": "You select a single ally to be your sworn Oath Friend. Each time they are attacked, you will gain Grudges based on your current Grudge level, and some of your abilities will affect them as well.<BR>You are at 0-29 Grudge: You will gain 10 Grudges.<BR>You are at 30-59 Grudge: You will gain 5 Grudges.<BR>You are at 60-100 Grudge: You will gain 3 Grudge.",
       "category": "Ability",
       "gameId": 1353,
       "componentValues": {
@@ -962,7 +962,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Improves with Grudge<br>Requires Shield",
-      "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal 100 damage back to the attacker each time you block.<br><br> With 25 Grudges: Deals 200 damage back to the attacker.<br> With 50 Grudges: Deals 300 damage back to the attacker.<br> With 75 Grudges: Deals 400 damage back to the attacker.<br> With 100 Grudges: Deals 500 damage back to the attacker.",
+      "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal 100 damage back to the attacker each time you block.<BR><BR> With 25 Grudges: Deals 200 damage back to the attacker.<BR> With 50 Grudges: Deals 300 damage back to the attacker.<BR> With 75 Grudges: Deals 400 damage back to the attacker.<BR> With 100 Grudges: Deals 500 damage back to the attacker.",
       "category": "Ability",
       "gameId": 1382,
       "componentValues": {
@@ -1075,8 +1075,8 @@
       "gameId": 607,
       "componentValues": {
         "COM_1_VAL0_DAMAGE": 0,
-        "COM_0_DURA_SECONDS": 0,
-        "COM_1_RADI_FEET": 0
+        "COM_0_DURA_SECONDS": 3,
+        "COM_1_RADI_FEET": 65
       },
       "rawDescription": "You repeatedly attack all enemies in a line in front of you, inflicting {COM_1_VAL0_DAMAGE} every second for {COM_0_DURA_SECONDS}, up to {COM_1_RADI_FEET} away, for as long as you maintain your concentration."
     },
@@ -1178,7 +1178,7 @@
       "gameId": 1366,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_0_RADI_FEET": 0
+        "COM_0_RADI_FEET": 25
       },
       "rawDescription": "You whirl your axe around, dealing {COM_0_VAL0_DAMAGE} to enemies {COM_0_RADI_FEET} in front of you.<BR><BR> At 25 Grudges: Ignores 25% of the victim's armor.<BR> At 50 Grudges: Ignores 50% of the victim's armor.<BR> At 75 Grudges: Ignores 75% of the victim's armor.<BR> At 100 Grudges: Ignores 100% of the victim's armor."
     },
@@ -1319,7 +1319,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 25 Grudge<br>Requires Shield",
-      "description": "You bring your shield around in a smashing hit, dealing 135 damage to up to three enemies within 25 feet of them.<br>When hitting targets you regain 10 Grudges for each target that you hit.",
+      "description": "You bring your shield around in a smashing hit, dealing 135 damage to up to three enemies within 25 feet of them.<BR>When hitting targets you regain 10 Grudges for each target that you hit.",
       "category": "Ability",
       "gameId": 1361,
       "componentValues": {
@@ -1381,7 +1381,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "A powerful attack that smashes through your enemy's protections, dealing 144 damage and reducing their armor based on Grudges for 20 seconds.<br><br> At 25 Grudges: Reduces armor by 200.<br> At 50 Grudges: Reduces armor by 400.<br> At 75 Grudges: Reduces armor by 600.<br> At 100 Grudges: Reduces armor by 800.",
+      "description": "A powerful attack that smashes through your enemy's protections, dealing 144 damage and reducing their armor based on Grudges for 20 seconds.<BR><BR> At 25 Grudges: Reduces armor by 200.<BR>  At 50 Grudges: Reduces armor by 400.<BR> At 75 Grudges: Reduces armor by 600.<BR> At 100 Grudges: Reduces armor by 800.",
       "category": "Ability",
       "gameId": 1371,
       "componentValues": {
@@ -1448,7 +1448,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 5 Grudge",
-      "description": "You set your mind to the task at hand and focus on what must be done, increasing your Corporeal resistance by 236 for 20 seconds. Each time you're hit by magical damage while this effect is active, your autoattack speed will be increased by 50% for 20 seconds.<br>Also increases your Oath Friend's resistance if they are within 50 feet.",
+      "description": "You set your mind to the task at hand and focus on what must be done, increasing your Corporeal resistance by 236 for 20 seconds. Each time you're hit by magical damage while this effect is active, your autoattack speed will be increased by 50% for 20 seconds.<BR>Also increases your Oath Friend's resistance if they are within 50 feet.",
       "category": "Ability",
       "gameId": 1367,
       "componentValues": {
@@ -1517,7 +1517,7 @@
       "gameId": 1360,
       "componentValues": {
         "COM_3_VAL0": 0,
-        "COM_2_DURA_SECONDS": 0
+        "COM_2_DURA_SECONDS": 15
       },
       "rawDescription": "You enrage your opponent, interrupting any currently building abilities and making monsters hate you more. While taunted your opponent will take {COM_3_VAL0}% more damage from your attacks. This effect will fade after {COM_2_DURA_SECONDS} or after your opponent has hit you 3 times."
     },
@@ -1571,7 +1571,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 10 Grudge",
-      "description": "You strike your enemy for 119 damage and stubbornly push yourself to keep fighting, increasing your Toughness by 75 for 20 seconds.<br>Your Oath Friend's Toughness will also be increased if they are within 50 feet.",
+      "description": "You strike your enemy for 119 damage and stubbornly push yourself to keep fighting, increasing your Toughness by 75 for 20 seconds.<BR>Your Oath Friend's Toughness will also be increased if they are within 50 feet.",
       "category": "Ability",
       "gameId": 1357,
       "componentValues": {

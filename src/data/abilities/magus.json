@@ -85,7 +85,7 @@
       "gameId": 8501,
       "componentValues": {
         "COM_0_VAL0": 0,
-        "COM_0_DURA_SECONDS": 0,
+        "COM_0_DURA_SECONDS": 20,
         "COM_3_VAL0_ELEMENTALDAMAGE": 0
       },
       "rawDescription": "You summon and absorb orange flames to increase your Wounds by {COM_0_VAL0}, increasing your total life for {COM_0_DURA_SECONDS}. During this time, any enemies striking you has a 25% chance to receive {COM_3_VAL0_ELEMENTALDAMAGE} from your flames."
@@ -102,7 +102,7 @@
       "incant": "1.0s cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Your disk emanates an aura of pain that inflicts 268 spirit damage every 3 seconds for 9 seconds.",
+      "description": "Your disk emanates an aura of pain that inflicts 268 Spirit damage every 3 seconds for 9 seconds.",
       "category": "Ability",
       "gameId": 8500,
       "componentValues": {
@@ -129,7 +129,7 @@
       "gameId": 800,
       "componentValues": {
         "ABIL_3595_COM_0_VAL0_TOD": 0,
-        "ABIL_3595_COM_0_DURA_SECONDS": 0
+        "ABIL_3595_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "Any time you are attacked, there is a 25% chance that you will lash out for {ABIL_3595_COM_0_VAL0_TOD} Elemental damage over {ABIL_3595_COM_0_DURA_SECONDS} to anyone who hits you."
     },
@@ -145,7 +145,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Bends and twists your target from within to deal 835 elemental damage over 15 seconds.",
+      "description": "Bends and twists your target from within to deal 835 Elemental damage over 15 seconds.",
       "category": "Ability",
       "gameId": 8488,
       "componentValues": {
@@ -204,7 +204,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the critical chance for all Path of Havoc spells by 15%.",
+      "description": "Increases the critical hit rate of all Path of Havoc spells by 15%.",
       "category": "CareerTactic",
       "gameId": 8518,
       "componentValues": {},
@@ -244,10 +244,10 @@
       "category": "Ability",
       "gameId": 8499,
       "componentValues": {
-        "COM_1_RADI_FEET": 0,
-        "COM_4_RADI_FEET": 0,
+        "COM_1_RADI_FEET": 75,
+        "COM_4_RADI_FEET": 30,
         "COM_4_VAL0": 0,
-        "COM_4_DURA_SECONDS": 0
+        "COM_4_DURA_SECONDS": 4
       },
       "rawDescription": "A rift in the warp is opened briefly, pulling up to six enemy players within {COM_1_RADI_FEET} of the vortex towards its center and then snaring everyone within {COM_4_RADI_FEET} a second later by {COM_4_VAL0}% for {COM_4_DURA_SECONDS}. Monsters will be knocked down by the initial pull."
     },
@@ -303,7 +303,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You surround yourself with daemonic protection, increasing your Armor by 560 for up to 1 hours.",
+      "description": "You surround yourself with daemonic protection, increasing your Armor by 560 for up to 1.",
       "category": "Ability",
       "gameId": 8492,
       "componentValues": {
@@ -349,8 +349,8 @@
       "gameId": 8541,
       "componentValues": {
         "ABIL_383_COM_0_VAL0_DAMAGE": 0,
-        "COM_2_RADI_FEET": 0,
-        "ABIL_3167_COM_0_DURA_SECONDS": 0
+        "COM_2_RADI_FEET": 30,
+        "ABIL_3167_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close, dealing {ABIL_383_COM_0_VAL0_DAMAGE} to all enemies within {COM_2_RADI_FEET} and staggering them for {ABIL_3167_COM_0_DURA_SECONDS}, preventing all actions until they take damage."
     },
@@ -366,7 +366,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ethereal tentacle swipes the target in front of you for 203 spirit damage.",
+      "description": "An ethereal tentacle swipes the target in front of you for 203 Spirit damage.",
       "category": "Ability",
       "gameId": 8472,
       "componentValues": {
@@ -530,7 +530,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Summons a cloud of caustic mist that deals 79 spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds the cloud doubles in strength, dealing 146 spirit damage and 10 seconds later will double in strength again, dealing 212 spirit damage.<br> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
+      "description": "Summons a cloud of caustic mist that deals 79 Spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds  the cloud doubles in strength, dealing 146 Spirit damage and 10 seconds later will double in strength again, dealing 212 Spirit damage.<BR> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
       "category": "Ability",
       "gameId": 8494,
       "componentValues": {
@@ -574,7 +574,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Pandemonium will now reapply it's damage effect 50% of the time after it ends or is removed.",
+      "description": "Pandemonium will now reapply its damage effect 50% of the time after it ends or is removed.",
       "category": "CareerTactic",
       "gameId": 8519,
       "componentValues": {},
@@ -650,7 +650,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
       "gameId": 245,
       "componentValues": {
@@ -672,7 +672,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict 320 elemental damage.",
+      "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict 320 Elemental damage.",
       "category": "Ability",
       "gameId": 8470,
       "componentValues": {
@@ -714,10 +714,10 @@
       "category": "Ability",
       "gameId": 8482,
       "componentValues": {
-        "COM_0_RADI_FEET": 0,
+        "COM_0_RADI_FEET": 20,
         "COM_1_VAL0": 0,
         "COM_0_VAL0_TOD_SPIRITDAMAGE": 0,
-        "COM_0_DURA_SECONDS": 0
+        "COM_0_DURA_SECONDS": 20
       },
       "rawDescription": "You strip away the Spiritual protections of everyone {COM_0_RADI_FEET} from your target, reducing their Spirit resistance by {COM_1_VAL0} and dealing {COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_0_DURA_SECONDS}."
     },
@@ -755,7 +755,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
+      "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds.  You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability",
       "gameId": 8477,
       "componentValues": {
@@ -776,7 +776,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "A horrible torrent of energy that deals 387 elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 Action Points over 6 seconds to you.",
+      "description": "A horrible torrent of energy that deals 387 Elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 Action Points over 6 seconds to you.",
       "category": "Ability",
       "gameId": 8502,
       "componentValues": {
@@ -799,7 +799,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A daemonic wave that warps the air in front of you dealing 576 elemental damage over 9 seconds to all targets 40 feet in front of you.",
+      "description": "A daemonic wave that warps the air in front of you dealing 576 Elemental damage over 9 seconds to all targets 40 feet in front of you.",
       "category": "Ability",
       "gameId": 8487,
       "componentValues": {
@@ -841,7 +841,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Surge of Insanity will now cause an additional 345 spirit damage over 6 seconds to all targets hit.",
+      "description": "Surge of Insanity will now cause an additional 345 damage over 6 seconds to all targets hit.",
       "category": "CareerTactic",
       "gameId": 8510,
       "componentValues": {
@@ -862,7 +862,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires a summoned minion.",
-      "description": "You force so much power into your daemon that it explodes from within, dealing 320 spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
+      "description": "You force so much power into your daemon that it explodes from within, dealing 320 Spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
       "category": "Ability",
       "gameId": 8481,
       "componentValues": {
@@ -946,7 +946,7 @@
       "incant": "2.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A column of blue flame washes over your target, dealing 516 elemental damage and then dealing an additional 429 elemental damage over 9 seconds.",
+      "description": "A column of blue flame washes over your target, dealing 516 Elemental damage and then dealing an additional 429 Elemental damage over 9 seconds.",
       "category": "Ability",
       "gameId": 8486,
       "componentValues": {
@@ -990,7 +990,7 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You open a rift surrounding your target, dealing 288 elemental damage and weakening the fabric of reality around them, disarming them for  3 seconds.",
+      "description": "You open a rift surrounding your target, dealing 288 Elemental damage and weakening the fabric of reality around them, disarming them for 3 seconds.",
       "category": "Ability",
       "gameId": 8495,
       "componentValues": {
@@ -1011,7 +1011,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Tears at your foe with fierce winds, hitting them three times for a total of 264 spirit damage.",
+      "description": "Tears at your foe with fierce winds, hitting them three times for a total of 264 Spirit damage.",
       "category": "Ability",
       "gameId": 8471,
       "componentValues": {
@@ -1075,7 +1075,7 @@
       "gameId": 671,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "ABIL_3168_COM_0_DURA_SECONDS": 0
+        "ABIL_3168_COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target and staggers them for {ABIL_3168_COM_0_DURA_SECONDS}, preventing all actions until they take damage."
     },
@@ -1091,7 +1091,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Grows a seed inside your target dealing 435 spirit damage over 15 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal 183 spirit damage to all targets within 20 feet.",
+      "description": "Grows a seed inside your target dealing 435 Spirit damage over 15 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal 183 Spirit damage to all targets within 20 feet.",
       "category": "Ability",
       "gameId": 8497,
       "componentValues": {
@@ -1201,8 +1201,8 @@
       "category": "Ability",
       "gameId": 8476,
       "componentValues": {
-        "ABIL_1071_COM_1_RADI_FEET": 0,
-        "ABIL_1071_COM_0_FREQ_SECONDS": 0,
+        "ABIL_1071_COM_1_RADI_FEET": 25,
+        "ABIL_1071_COM_0_FREQ_SECONDS": 2,
         "ABIL_1072_COM_0_VAL0": 0,
         "ABIL_1072_COM_0_VAL1": 0
       },
@@ -1224,8 +1224,8 @@
       "category": "Ability",
       "gameId": 8478,
       "componentValues": {
-        "ABIL_1071_COM_1_RADI_FEET": 0,
-        "ABIL_1071_COM_0_FREQ_SECONDS": 0,
+        "ABIL_1071_COM_1_RADI_FEET": 25,
+        "ABIL_1071_COM_0_FREQ_SECONDS": 2,
         "ABIL_1072_COM_0_VAL0": 0,
         "ABIL_1072_COM_0_VAL1": 0
       },
@@ -1247,8 +1247,8 @@
       "category": "Ability",
       "gameId": 8474,
       "componentValues": {
-        "ABIL_1071_COM_1_RADI_FEET": 0,
-        "ABIL_1071_COM_0_FREQ_SECONDS": 0,
+        "ABIL_1071_COM_1_RADI_FEET": 25,
+        "ABIL_1071_COM_0_FREQ_SECONDS": 2,
         "ABIL_1072_COM_0_VAL0": 0,
         "ABIL_1072_COM_0_VAL1": 0
       },
@@ -1266,7 +1266,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A surge of chaotic bliss overcomes your target, dealing 291 spirit damage. The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
+      "description": "A surge of chaotic bliss overcomes your target, dealing 291 Spirit damage.  The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
       "category": "Ability",
       "gameId": 8475,
       "componentValues": {
@@ -1305,7 +1305,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Tendrils of writhing violet flame coil around your target, burning them for 241 elemental damage.",
+      "description": "Tendrils of writhing violet flame coil around your target, burning them for 241 Elemental damage.",
       "category": "Ability",
       "gameId": 8479,
       "componentValues": {
@@ -1343,7 +1343,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "Creates a great column of wind and flame that deals 243 spirit damage every 2 seconds to all targets within 20 feet of the area, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
+      "description": "Creates a great column of wind and flame that deals 243 Spirit damage every 2 seconds to all targets within 20 feet of the area, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
       "category": "Ability",
       "gameId": 8498,
       "componentValues": {
@@ -1409,7 +1409,7 @@
       "category": "CareerTactic",
       "gameId": 8506,
       "componentValues": {
-        "ABIL_3980_COM_1_DURA_SECONDS": 0,
+        "ABIL_3980_COM_1_DURA_SECONDS": 5,
         "ABIL_3947_COM_2_VAL0": 0
       },
       "rawDescription": "Pink Horrors, Blue Horrors and Flamers of Tzeentch now have a 15% chance to taunt their targets with every attack. This enrages the target, interrupting any building actions and forces monsters to target your pet for {ABIL_3980_COM_1_DURA_SECONDS}. Taunted targets receive  {ABIL_3947_COM_2_VAL0}% more damage from your daemon. If your daemon is struck 3 times by their taunted target, taunt will be broken."
@@ -1447,7 +1447,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 797,
       "componentValues": {
@@ -1467,7 +1467,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You channel warping flame through your disk, dealing 155 elemental damage to all targets within 30 feet of you every second for 3 seconds.",
+      "description": "You channel warping flame through your disk, dealing 155 Elemental damage to all targets within 30 feet of you every second for 3 seconds.",
       "category": "Ability",
       "gameId": 8485,
       "componentValues": {
@@ -1489,7 +1489,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Energy spirals towards your foe, dealing 291 spirit damage and knocking them back a short distance. Monsters will be knocked down.",
+      "description": "Energy spirals towards your foe, dealing 291 Spirit damage and knocking them back a short distance. Monsters will be knocked down.",
       "category": "Ability",
       "gameId": 8483,
       "componentValues": {
@@ -1509,7 +1509,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases critical chance for all Path Of Changing spells by 15%",
+      "description": "Increases the critical hit rate of all Path of Changing spells by 15%.",
       "category": "CareerTactic",
       "gameId": 8521,
       "componentValues": {},
@@ -1527,7 +1527,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Your malice is forced directly into your target's soul, inflicting 1240 elemental damage over 20 seconds while reducing their Disrupt chance by 5%.",
+      "description": "Your malice is forced directly into your target's soul, inflicting 1240 Elemental damage over 20 seconds while reducing their Disrupt chance by 5%.",
       "category": "Ability",
       "gameId": 8491,
       "componentValues": {

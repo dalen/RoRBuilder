@@ -81,7 +81,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A precision shot to the enemy's vital organs which deals damage based on combo points.<br>  1 Accusation: 227 damage. <br>  2 Accusations: 284 damage.<br>  3 Accusations: 344 damage.<br>  4 Accusations: 402 damage.<br>  5 Accusations: 459 damage.",
+      "description": "A precision shot to the enemy's vital organs which deals damage based on combo points.<BR>   1 Accusation:  227 damage. <BR>   2 Accusations:  284 damage.<BR>   3 Accusations:  344 damage.<BR>   4 Accusations:  402 damage.<BR>   5 Accusations:  459 damage.",
       "category": "Ability",
       "gameId": 8082,
       "componentValues": {
@@ -279,7 +279,7 @@
       "category": "Ability",
       "gameId": 8116,
       "componentValues": {
-        "ABIL_3921_COM_0_DURA_SECONDS": 0,
+        "ABIL_3921_COM_0_DURA_SECONDS": 9,
         "ABIL_3921_COM_0_VAL0_TOD_DAMAGE": 0,
         "ABIL_3921_COM_1_VAL0": 0,
         "ABIL_3922_COM_0_VAL0_TOD_DAMAGE": 0,
@@ -305,7 +305,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<br>  1 Accusation: 534 damage<br>  2 Accusations: 672 damage<br>  3 Accusations: 822 damage<br>  4 Accusations: 954 damage<br>  5 Accusations: 1104 damage",
+      "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<BR>   1 Accusation:  534 damage<BR>   2 Accusations:  672 damage<BR>   3 Accusations:  822 damage<BR>   4 Accusations:  954 damage<BR>   5 Accusations:  1104 damage",
       "category": "Ability",
       "gameId": 8093,
       "componentValues": {
@@ -371,11 +371,11 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "You cannot perform this action while rooted",
-      "description": "You leap backwards from your target, causing your target to be Staggered for up to 3 seconds, preventing all actions unless they're damaged.",
+      "description": "You leap backwards from your target, causing your target to be Staggered for up to 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability",
       "gameId": 8094,
       "componentValues": {
-        "ABIL_3033_COM_0_DURA_SECONDS": 3
+        "ABIL_3033_COM_0_DURA_SECONDS": 6
       },
       "rawDescription": "You leap backwards from your target, causing your target to be Staggered for up to {ABIL_3033_COM_0_DURA_SECONDS}, preventing all actions unless they're damaged."
     },
@@ -412,7 +412,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 300, inspired, your group gains 300 Morale.<br>  1 Accusation: 186 damage, 30 feet radius.<br>  2 Accusations: 206 damage, 35 feet radius.<br>  3 Accusations: 226 damage, 40 feet radius.<br>  4 Accusations: 248 damage, 43.3 feet radius.<br>  5 Accusations: 268 damage, 48.3 feet radius.",
+      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 300, inspired, your group gains 300 Morale.<BR>   1 Accusation:  186 damage, 30 feet radius.<BR>   2 Accusations:  206 damage, 35 feet radius.<BR>   3 Accusations:  226 damage, 40 feet radius.<BR>   4 Accusations:  248 damage, 43 feet radius.<BR>   5 Accusations:  268 damage, 48 feet radius.",
       "category": "Ability",
       "gameId": 8110,
       "componentValues": {
@@ -441,7 +441,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 779,
       "componentValues": {
@@ -482,7 +482,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 15 seconds, heals will have no effects on your target. The target and all other enemies within 20 feet of them will suffer 1200 damage over 15 seconds.",
+      "description": "For the next 15 seconds, heals will have no effects on your target.  The target and all other enemies within 20 feet of them will suffer 1200 damage over 15 seconds.",
       "category": "Morale",
       "gameId": 8153,
       "componentValues": {
@@ -505,7 +505,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<br>  1 Accusation: 252 damage; stats reduced by 50.<br>  2 Accusations: 318 damage; stats reduced by 75.<br>  3 Accusations: 386 damage; stats reduced by 100.<br>  4 Accusations: 452 damage; stats reduced by 125.<br>  5 Accusations: 518 damage; stats reduced by 150.",
+      "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<BR>   1 Accusation:  252 damage; stats reduced by 50.<BR>    2 Accusations:  318 damage; stats reduced by 75.<BR>    3 Accusations:  386 damage; stats reduced by 100.<BR>    4 Accusations:  452 damage; stats reduced by 125.<BR>    5 Accusations:  518 damage; stats reduced by 150.",
       "category": "Ability",
       "gameId": 8113,
       "componentValues": {
@@ -641,7 +641,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A precise incision that deals 103 damage, and an additional 222 Spiritual damage over 9 seconds. This effect can be stacked up to 3 times.",
+      "description": "A precise incision that deals 103 damage, and an additional 222 Spirit damage over 9 seconds.  This effect can be stacked up to 3 times.",
       "category": "Ability",
       "gameId": 8083,
       "componentValues": {
@@ -683,7 +683,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
       "gameId": 245,
       "componentValues": {
@@ -781,7 +781,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.<br>If you hit anyone that you have Detaunted, the effect will end.",
+      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.<BR>If you hit anyone that you have Detaunted, the effect will end.",
       "category": "Ability",
       "gameId": 8088,
       "componentValues": {
@@ -803,7 +803,7 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points. This effect will end if you use any abilities, run out of action points, or after 30 seconds has passed.",
+      "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, run out of action points, or after 30 seconds has passed.",
       "category": "Ability",
       "gameId": 8090,
       "componentValues": {},
@@ -1043,7 +1043,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A melee attack that deals 277 damage. Your chance to parry attacks is increased by 100% for the next 5 seconds.",
+      "description": "A melee attack that deals 277 damage.  Your chance to parry attacks is increased by 100% for the next 5 seconds.",
       "category": "Ability",
       "gameId": 8109,
       "componentValues": {
@@ -1164,7 +1164,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A melee attack that can not be defended against, and deals 227 damage. If the target is Ailing, then they will also become Cursed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
+      "description": "A melee attack that can not be defended against, and deals 227 damage.  If the target is Ailing, then they will also become Cursed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
       "category": "Ability",
       "gameId": 8097,
       "componentValues": {
@@ -1244,7 +1244,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to Disrupt enemy magic by 100% for 7 seconds.<br>You may only use a single relic at a time.",
+      "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to Disrupt enemy magic by 100% for 7 seconds.<BR>You may only use a single relic at a time.",
       "category": "Ability",
       "gameId": 8108,
       "componentValues": {
@@ -1265,7 +1265,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "An artifact of the Temple of Sigmar which removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
+      "description": "An artifact of the Temple of Sigmar which removes all roots and snares from you.  For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability",
       "gameId": 8095,
       "componentValues": {
@@ -1305,7 +1305,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds. If you are behind your target, then you will also deal 202 damage.",
+      "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds.  If you are behind your target, then you will also deal 202 damage.",
       "category": "Ability",
       "gameId": 8100,
       "componentValues": {
@@ -1326,7 +1326,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Pistol",
-      "description": "A quick pistol shot that deals 112 damage, and can be used on the run.<br>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
+      "description": "A quick pistol shot that deals 112 damage, and can be used on the run.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability",
       "gameId": 8080,
       "componentValues": {
@@ -1412,7 +1412,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<br>  1 Accusation: 172 damage per shot<br>  2 Accusations: 183 damage per shot.<br>  3 Accusations: 194 damage per shot<br>  4 Accusations: 205 damage per shot<br>  5 Accusations: 216 damage per shot",
+      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<BR>   1 Accusation:  172 damage per shot<BR>   2 Accusations:  183 damage per shot.<BR>   3 Accusations:  194 damage per shot<BR>   4 Accusations:  205 damage per shot<BR>   5 Accusations:  216 damage per shot",
       "category": "Ability",
       "gameId": 8087,
       "componentValues": {
@@ -1462,7 +1462,7 @@
       "gameId": 2997,
       "componentValues": {
         "COM_1_VAL0": 0,
-        "COM_1_DURA_SECONDS": 0
+        "COM_1_DURA_SECONDS": 7
       },
       "rawDescription": "You light and drop a flask of sanctified oil at your feet. You will become invisible to enemies for 2 seconds and increase your speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR>You may only use a single relic at a time."
     },

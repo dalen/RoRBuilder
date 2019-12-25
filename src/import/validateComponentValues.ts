@@ -44,6 +44,19 @@ const validateComponentValue = (
 
   const valueIndex = getValueIndices(name)[0];
 
+  if (component === undefined) {
+    console.log(
+      `Can't find component for ${colors.cyan(
+        name,
+      )} Component ID: ${colors.yellow(
+        componentIndices[0].toString(),
+      )} for ${colors.cyan(ability.Name)} (${colors.red(
+        ability.AbilityID.toString(),
+      )})`,
+    );
+    return number;
+  }
+
   const num = (() => {
     if (name.endsWith('_DAMAGE')) {
       return number;
@@ -66,24 +79,28 @@ const validateComponentValue = (
     } else if (name.endsWith('_SECONDS')) {
       return number;
     } else if (name.endsWith('_RADI_FEET')) {
-      return number;
+      // The 10 extra feet seems consistent
+      return Math.round(component.Radius / 12 + 10);
     } else if (name.endsWith('_ACTIONPOINTS')) {
       return number;
     } else if (name.endsWith('_HEALTH')) {
       return number;
     }
+
     return number;
   })();
 
   if (num !== number) {
     console.log(
-      `Component value for ${colors.red(name)}: was ${colors.yellow(
+      `${colors.cyan(gameAbility.Name)} (${colors.red(
+        gameAbility.AbilityID.toString(),
+      )}): Component value for ${colors.red(name)}: was ${colors.yellow(
         number.toString(),
       )} now ${colors.yellow(num.toString())}`,
     );
     // console.log(component);
   }
-  return number;
+  return num;
 };
 
 export const validateComponentValues = (

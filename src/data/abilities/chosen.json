@@ -152,7 +152,7 @@
       "gameId": 8333,
       "componentValues": {
         "COM_5_VAL0": 0,
-        "COM_5_DURA_SECONDS": 0
+        "COM_5_DURA_SECONDS": 15
       },
       "rawDescription": "You challenge all opponents in front of you, making monsters hate you more. While challenged, your opponents will deal only {COM_5_VAL0}% damage to everyone other than you. This effect will fade after {COM_5_DURA_SECONDS} or after your opponent has hit you 3 times."
     },
@@ -168,11 +168,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
+      "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<BR>This effect cannot be dispelled or broken.",
       "category": "Morale",
       "gameId": 608,
       "componentValues": {
-        "COM_1_DURA_SECONDS": 0
+        "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "Both you and your target are held tightly in place for {COM_1_DURA_SECONDS}, and neither one of you can move.<BR>This effect cannot be dispelled or broken."
     },
@@ -228,7 +228,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within 30 feet, causing their spells to build up 25% slower. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within 30 feet, causing their spells to build up 25% slower. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8345,
       "componentValues": {
@@ -248,7 +248,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for 24 health over 3 seconds every time they defend an attack. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for 24 health over 3 seconds every time they defend an attack. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8332,
       "componentValues": {
@@ -269,7 +269,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within 30 feet by 75. During this time, group members within 100 feet are emboldened, increasing their toughness by 75. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within 30 feet by 75. During this time, group members within 100 feet are emboldened, increasing their toughness by 75. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8318,
       "componentValues": {
@@ -338,7 +338,7 @@
       "componentValues": {
         "COM_1_VAL0": 0,
         "COM_0_VAL0_TOD_DAMAGE": 0,
-        "COM_0_DURA_SECONDS": 0
+        "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
     },
@@ -394,7 +394,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 46 Spirit damage. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 46 Spirit damage. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8327,
       "componentValues": {
@@ -414,7 +414,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 30 feet will have all their resistances reduced by 118. During this time, groupmates within 100 feet have all their resistances increased by 236. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 30 feet will have all their resistances reduced by 118. During this time, groupmates within 100 feet have all their resistances increased by 236. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8321,
       "componentValues": {
@@ -436,7 +436,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within 30 feet to be 25% less effective. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within 30 feet to be 25% less effective. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8348,
       "componentValues": {
@@ -521,7 +521,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take 99 Spirit damage every 3 seconds. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take 99 Spirit damage every 3 seconds. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8334,
       "componentValues": {
@@ -543,7 +543,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 30 feet of you, reducing their Strength by 75. During this time, the Strength of any groupmates within 100 feet is increased by 75. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 30 feet of you, reducing their Strength by 75. During this time, the Strength of any groupmates within 100 feet is increased by 75. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8316,
       "componentValues": {
@@ -565,7 +565,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use one Chaotic Aura at a time.",
-      "description": "The power of the Warp encases you in a terrifying visage. All enemies within 30 feet will lose 20 Action Points every 5 seconds. All groupmates within 100 feet will regain 20 Action Points every 5 seconds. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "The power of the Warp encases you in a terrifying visage. All enemies within 30 feet will lose 20 Action Points every 5 seconds. All groupmates within 100 feet will regain 20 Action Points every 5 seconds. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8342,
       "componentValues": {
@@ -670,7 +670,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
       "gameId": 245,
       "componentValues": {
@@ -754,7 +754,7 @@
       "incant": "12s cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
-      "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
+      "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds.  You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back.  Allies may have this effect stacked on them up to 3 times.<BR>This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability",
       "gameId": 8326,
       "componentValues": {
@@ -939,7 +939,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Block or Parry",
-      "description": "A thunderous shield slam that inflicts 184 damage, increases your armor by 618 for 20 seconds and reduces your damage taken by 15% for 10 seconds.",
+      "description": "A thunderous shield slam that inflicts  184 damage, increases your armor by 618 for 20 seconds and reduces your damage taken by 15% for 10 seconds.",
       "category": "Ability",
       "gameId": 8347,
       "componentValues": {
@@ -963,11 +963,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "The land around you warps and changes, encasing up to 4 nearby opponents in hardened stone. Effected opponents are rooted for 10 seconds and cannot move. Rooted targets have a 50% chance to break free when they suffer damage.",
+      "description": "The land around you warps and changes, encasing up to 4 nearby opponents in hardened stone. Effected opponents are rooted for 5 seconds and cannot move. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability",
       "gameId": 8336,
       "componentValues": {
-        "COM_0_DURA_SECONDS": 10
+        "COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "The land around you warps and changes, encasing up to 4 nearby opponents in hardened stone. Effected opponents are rooted for {COM_0_DURA_SECONDS} and cannot move. Rooted targets have a 50% chance to break free when they suffer damage."
     },
@@ -983,7 +983,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Repel will now apply a buff on you that will reduce the armor penetration of all attackers by 10% for 10 seconds.",
+      "description": "Repel will now apply a buff on you that will reduce the armor penetration of all attackers by  10% for 10 seconds.",
       "category": "CareerTactic",
       "gameId": 8356,
       "componentValues": {
@@ -1090,8 +1090,8 @@
       "gameId": 607,
       "componentValues": {
         "COM_1_VAL0_DAMAGE": 0,
-        "COM_0_DURA_SECONDS": 0,
-        "COM_1_RADI_FEET": 0
+        "COM_0_DURA_SECONDS": 3,
+        "COM_1_RADI_FEET": 65
       },
       "rawDescription": "You repeatedly attack all enemies in a line in front of you, inflicting {COM_1_VAL0_DAMAGE} every second for {COM_0_DURA_SECONDS}, up to {COM_1_RADI_FEET} away, for as long as you maintain your concentration."
     },
@@ -1107,7 +1107,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing 114 damage with each hit. This effect will end if you break your concentration or run out of action points.",
+      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing 114 damage with each hit.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
       "gameId": 8343,
       "componentValues": {
@@ -1315,7 +1315,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A quick blow that causes 134 damage and improves your defensive position, increasing your chance to parry by 25% for 15 seconds.",
+      "description": "A quick blow that causes 134 damage and improves your defensive position, increasing your chance to parry by  25% for 15 seconds.",
       "category": "Ability",
       "gameId": 8335,
       "componentValues": {
@@ -1362,7 +1362,7 @@
       "gameId": 8322,
       "componentValues": {
         "COM_3_VAL0": 0,
-        "COM_2_DURA_SECONDS": 0
+        "COM_2_DURA_SECONDS": 15
       },
       "rawDescription": "You enrage your opponent, interrupting any currently building abilities and making monsters hate you more. While taunted your opponent will take {COM_3_VAL0}% more damage from your attacks. This effect will fade after {COM_2_DURA_SECONDS} or after your opponent has hit you 3 times."
     },
@@ -1467,8 +1467,8 @@
       "componentValues": {
         "COM_0_VAL0": 0,
         "COM_1_VAL0": 0,
-        "COM_0_DURA_SECONDS": 0,
-        "ABIL_3762_COM_0_DURA_SECONDS": 0
+        "COM_0_DURA_SECONDS": 10,
+        "ABIL_3762_COM_0_DURA_SECONDS": 3
       },
       "rawDescription": "You are surrounded by a magical barrier, increasing your willpower by {COM_0_VAL0} and disrupt chance by {COM_1_VAL0}% for {COM_0_DURA_SECONDS}. During this time, any spell you disrupt will silence its caster for {ABIL_3762_COM_0_DURA_SECONDS}."
     },
@@ -1522,7 +1522,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 797,
       "componentValues": {
@@ -1547,7 +1547,7 @@
       "gameId": 8377,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_0_RADI_FEET": 0
+        "COM_0_RADI_FEET": 40
       },
       "rawDescription": "A surge of chaotic energy ripples forward, inflicting {COM_0_VAL0_DAMAGE} to everyone {COM_0_RADI_FEET} in front of you. The surge of power clings to its victims, snaring them by 40% for 15 seconds."
     },

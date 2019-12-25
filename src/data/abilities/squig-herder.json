@@ -144,7 +144,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Battle Squig will not tolerate you having any other Squigs around. Your armor is increased by the amount of armor you have from items. Your ranged abilities will do less damage but your melee attacks will do 25% more damage and Squig Leap will have no cooldown.",
+      "description": "Your Battle Squig will not tolerate you having any other Squigs around. Your armour is increased by the amount of armor you have from items. Your ranged abilities will do less damage but your melee attacks will do 25% more damage and Squig Leap will have no cooldown. This effect will not stack with All By Myself.",
       "category": "CareerTactic",
       "gameId": 2996,
       "componentValues": {},
@@ -270,9 +270,9 @@
       "category": "Ability",
       "gameId": 1851,
       "componentValues": {
-        "COM_0_DURA_SECONDS": 0,
+        "COM_0_DURA_SECONDS": 3,
         "COM_1_VAL0_DAMAGE": 0,
-        "COM_1_RADI_FEET": 0
+        "COM_1_RADI_FEET": 30
       },
       "rawDescription": "You force your Battle Squig to bounce in the air for up to {COM_0_DURA_SECONDS}, repeatedly dealing {COM_1_VAL0_DAMAGE} to all enemies within {COM_1_RADI_FEET}."
     },
@@ -353,7 +353,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 549,
       "componentValues": {
@@ -393,7 +393,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Sneaky strike will now increase your chance to defend attacks by 15%.",
+      "description": "Sneaky Strike will now also increase your chance to defend attacks by 15%.",
       "category": "CareerTactic",
       "gameId": 2807,
       "componentValues": {},
@@ -431,7 +431,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An Ailment which deals 505 physical damage over 15 seconds.",
+      "description": "An Ailment which deals 505 damage over 15 seconds.",
       "category": "Ability",
       "gameId": 1829,
       "componentValues": {
@@ -490,7 +490,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds.  If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
       "gameId": 1827,
       "componentValues": {
@@ -531,7 +531,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires an active pet",
-      "description": "On the Squig's next attack, it will deal an additional 194 physical damage and disarm your target for 4 seconds, making them unable to use melee or ranged weapons.",
+      "description": "On the Squig's next attack, it will deal an additional 194 damage and disarm your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability",
       "gameId": 1837,
       "componentValues": {
@@ -590,7 +590,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "An Ailment which deals 133 elemental damage to your target and then explodes, dealing an additional 165 elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
+      "description": "An Ailment which deals 133 Elemental damage to your target and then explodes, dealing an additional 165 Elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability",
       "gameId": 1833,
       "componentValues": {
@@ -613,7 +613,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<br>This effect will not trigger more than once every second.",
+      "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<BR>This effect will not trigger more than once every second.",
       "category": "Morale",
       "gameId": 650,
       "componentValues": {
@@ -634,7 +634,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires an active pet",
-      "description": "You cause your pet to explode, dealing 419 damage to enemies within 30 feet. For the next 10 seconds, the next different squig other than the one that just exploded will be summoned instantly.",
+      "description": "You cause your pet to explode, dealing 419 damage to enemies within 30 feet.  For the next 10 seconds, the next different squig other than the one that just exploded will be summoned instantly.",
       "category": "Ability",
       "gameId": 1828,
       "componentValues": {
@@ -677,7 +677,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
       "gameId": 245,
       "componentValues": {
@@ -737,7 +737,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires an active pet",
-      "description": "You and your Squig attack together on each others target. You strike your target for 94 damage, and your pet strikes its target for 119 damage. If you are within 35 feet of your pet's target, you will also strike that enemy for 94 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 119 physical damage as well.",
+      "description": "You and your Squig attack together on each others target. You strike your target for 94 damage, and your pet strikes its target for 119 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 94 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 119 damage as well.",
       "category": "Ability",
       "gameId": 1824,
       "componentValues": {
@@ -766,7 +766,7 @@
       "category": "Morale",
       "gameId": 651,
       "componentValues": {
-        "COM_1_FREQ_SECONDS": 0,
+        "COM_1_FREQ_SECONDS": 0.5,
         "COM_1_DURA_SECONDS": 5,
         "COM_1_RADI_FEET": 20,
         "COM_1_VAL0_DAMAGE": 300
@@ -805,7 +805,7 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a Horned squig pet which you can order around. This pet deals more damage than a basic squig. It is strong against physical attacks, but weak against magic.<br>This pet receives a bonus to Strength equal to your bonus from items. This pet receives a bonus to Toughness and Wounds that is 50% of your bonus from items.<br>Your armor is increased by the amount of armor gained from items as long as this squig is alive.<br>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a Horned squig pet which you can order around. This pet deals more damage than a basic squig. It is strong against physical attacks, but weak against magic.<BR>This pet receives a bonus to Strength and Weapon Skill equal to your Ballistic Skill bonus from items. This pet receives a bonus to Toughness and Wounds that is 50% of your bonus from items.<BR>Your armor is increased by the amount of armor gained from items as long as your Squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability",
       "gameId": 2828,
       "componentValues": {},
@@ -823,7 +823,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit with a Path of Big Shootin' ability, you will regain 50 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you critically hit with a Path of Big Shootin' ability, you will regain 50 Action Points.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 1868,
       "componentValues": {
@@ -861,7 +861,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Squig Armor",
-      "description": "You prod the inside of your Battle Squig, causing it to deal 85 corporeal damage to all targets 40 feet in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 5 seconds. This effect lasts for 10 seconds.",
+      "description": "You prod the inside of your Battle Squig, causing it to deal 85 Corporeal damage to all targets 40 feet in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 5 seconds. This effect lasts for 10 seconds.",
       "category": "Ability",
       "gameId": 2814,
       "componentValues": {
@@ -883,11 +883,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Squig Armor",
-      "description": "Your Battle Squig explodes, causing you to be launched upward out of your Squiggy armor. All enemies within 30 feet take 304 damage and are knocked back.",
+      "description": "Your Battle Squig explodes, causing you to be launched upward out of your Squiggy armor. All enemies within 10 feet take 304 damage and are knocked back.",
       "category": "Ability",
       "gameId": 5,
       "componentValues": {
-        "COM_1_RADI_FEET": 30,
+        "COM_1_RADI_FEET": 10,
         "COM_3_VAL0_DAMAGE": 304
       },
       "rawDescription": "Your Battle Squig explodes, causing you to be launched upward out of your Squiggy armor. All enemies within {COM_1_RADI_FEET} take {COM_3_VAL0_DAMAGE} and are knocked back."
@@ -966,7 +966,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A Crippling shot that deals 191 damage and reduces your target's Initiative by 50 for 10 seconds. This ability will continue to build up even if you move.",
+      "description": "A Crippling shot that deals 191 damage and reduces your target's Initiative by 50 for 10 seconds.  This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 1835,
       "componentValues": {
@@ -1174,7 +1174,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals 166 damage to your target. This ability will continue to build up even if you move.",
+      "description": "Deals 166 damage to your target.  This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 1826,
       "componentValues": {
@@ -1194,7 +1194,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Git Em!'s damage is increased to 419 damage on your pet's first attack, and its cost is reduced by 15 Action Points.",
+      "description": "Git Em!'s damage is increased to 419 on your pet's first attack, and its cost is reduced by 15 Action Points.",
       "category": "CareerTactic",
       "gameId": 1858,
       "componentValues": {
@@ -1257,7 +1257,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A piercing arrow which deals 237 damage to all enemies in front of you, up to 65 feet away. This ability will continue to build up even if you move.",
+      "description": "A piercing arrow which deals 237 damage to all enemies in front of you, up to 65 feet away.  This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 1840,
       "componentValues": {
@@ -1345,7 +1345,7 @@
       "gameId": 1877,
       "componentValues": {
         "COM_0_VAL1": 0,
-        "COM_0_DURA_SECONDS": 0
+        "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "While within 100 feet of you, your group members' actions cost {COM_0_VAL1}% less AP for {COM_0_DURA_SECONDS}."
     },
@@ -1401,7 +1401,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Summons a massive battle squig which will promptly eat you. From within the battle squig, you can poke and prod it to move it around and make it attack.<br>While in your Squig Armor; your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance.",
+      "description": "Summons a massive battle squig which will promptly eat you.  From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor; your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance.",
       "category": "Ability",
       "gameId": 1830,
       "componentValues": {},
@@ -1440,7 +1440,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A targeted area-effect attack that deals 900 over 9 seconds to all enemies within 30 feet, and snares the targets by 60%.",
+      "description": "A targeted area-effect attack that deals 900 to all enemies within 30 feet, and snares the targets by 60%.",
       "category": "Morale",
       "gameId": 1878,
       "componentValues": {
@@ -1487,7 +1487,7 @@
       "gameId": 2801,
       "componentValues": {
         "COM_0_VAL0": 0,
-        "COM_0_DURA_SECONDS": 0
+        "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Channeled. You kick deep down your Squig's throat, causing it to rage. Its speed is increased by {COM_0_VAL0}% for the next {COM_0_DURA_SECONDS}, as you plow through any enemies who dare stand in your way."
     },
@@ -1525,7 +1525,7 @@
       "incant": "1.0s cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "An Ailment which deals 191 damage and snares your target, reducing their run speed by 40% for 10 seconds. This ability will continue to build up if you move.",
+      "description": "An Ailment which deals 191 damage and snares your target, reducing their run speed by 40% for 10 seconds.  This ability will continue to build up if you move.",
       "category": "Ability",
       "gameId": 1825,
       "componentValues": {
@@ -1547,7 +1547,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time one of your groupmates within 100 feet of you hits an enemy, there is a 25% chance that you will regain 100 points of Morale over 3 seconds.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time one of your groupmates within 100 feet of you hits an enemy, there is a 25% chance that you will regain 100 points of Morale over 3 seconds.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 1856,
       "componentValues": {
@@ -1568,7 +1568,7 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a basic squig pet which you can order around. This pet is very tough, and can take quite beating.<br>This pet receives a bonuses to Toughness and Wounds equal to your bonus from items.<br>This squig generates much more hatred in enemy monsters than normal.<br>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a basic squig pet which you can order around. This pet is very tough, and can take quite beating.<BR>This pet receives a bonuses to Toughness and Wounds equal to your bonus from items.<BR>This squig generates much more hatred in enemy monsters than normal.<BR>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability",
       "gameId": 1841,
       "componentValues": {},
@@ -1634,7 +1634,7 @@
         "COM_0_VAL0_DAMAGE": 0,
         "COM_1_VAL0": 0,
         "COM_2_VAL0": 0,
-        "COM_1_DURA_SECONDS": 0
+        "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "An attack which deals {COM_0_VAL0_DAMAGE} and reduces your target's armor by {COM_1_VAL0} and reduces their chance to block by {COM_2_VAL0}% for {COM_1_DURA_SECONDS}."
     },
@@ -1650,7 +1650,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds.<br>If you hit anyone that you have Detaunted, the effect will end.",
+      "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds.<BR>If you hit anyone that you have Detaunted, the effect will end.",
       "category": "CareerTactic",
       "gameId": 760,
       "componentValues": {
@@ -1676,7 +1676,7 @@
       "gameId": 1884,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_0_RADI_FEET": 0
+        "COM_0_RADI_FEET": 30
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all targets within {COM_0_RADI_FEET} of you."
     },

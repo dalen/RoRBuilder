@@ -85,11 +85,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "You deal 127 damage to your enemy and call upon Sigmar to Curse them for 10 seconds, causing all healing effects used on them to become 50% less effective.",
+      "description": "You call on Sigmar to Curse your enemy for 10 seconds, causing all healing effects used on them to become 25% less effective.",
       "category": "Ability",
       "gameId": 8270,
       "componentValues": {
-        "COM_0_DURA_SECONDS": 0
+        "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You call on Sigmar to Curse your enemy for {COM_0_DURA_SECONDS}, causing all healing effects used on them to become 25% less effective."
     },
@@ -333,7 +333,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Requires 25 Righteous Fury per second",
-      "description": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will. You strike the target up to four times over 3 seconds, dealing 84 Spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Righteous Fury.",
+      "description": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will.  You strike the target up to four times over 3 seconds, dealing 84 Spirit damage per hit.  Each hit heals your defensive target for 350% of the damage that was dealt.<BR>This effect will end if you break your concentration, or run out of Righteous Fury.",
       "category": "Ability",
       "gameId": 8244,
       "componentValues": {
@@ -436,7 +436,7 @@
       "incant": "0.5s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "A quick heal that restores 461 health.<br>Not affected by cooldown modification abilities.",
+      "description": "A quick heal that restores 461 health.<BR>Not affected by cooldown modification abilities.",
       "category": "Ability",
       "gameId": 8239,
       "componentValues": {
@@ -559,7 +559,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 779,
       "componentValues": {
@@ -644,7 +644,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
       "gameId": 245,
       "componentValues": {
@@ -684,7 +684,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 Righteous Fury. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 Righteous Fury.  Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 8282,
       "componentValues": {
@@ -908,7 +908,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "Requires 20 Righteous Fury per second",
-      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, all allies within 30 feet of you will regain 179 health, and you will consume 20 Righteous Fury.<br>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
+      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration.  Each second, all allies within 30 feet of you will regain 179 health, and you will consume 20 Righteous Fury.<BR>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
       "category": "Ability",
       "gameId": 8266,
       "componentValues": {
@@ -1113,7 +1113,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.  If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
       "componentValues": {
         "COM_0_VAL0": 50,
@@ -1258,7 +1258,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "You smash your weapon into your enemy, dealing 177 damage to them. Your defensive target becomes Blessed for up to 10 seconds, and will regain 100 health each time they're attacked. You will lose 10 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
+      "description": "You smash your weapon into your enemy, dealing 177 damage to them.  Your defensive target becomes Blessed for up to 10 seconds, and will regain 100 health each time they're attacked.  You will lose 10 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
       "category": "Ability",
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 177,
@@ -1307,7 +1307,7 @@
       "category": "Ability",
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_0_RADI_FEET": 0,
+        "COM_0_RADI_FEET": 50,
         "COM_1_VAL0_COM_0_VAL0": 0
       },
       "rawDescription": "A sweeping blow which deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away.<BR>Builds an additional {COM_1_VAL0_COM_0_VAL0} Righteous Fury for each enemy that you strike."
@@ -1385,7 +1385,7 @@
       "incant": "5.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "For the next 5 seconds, you will convert 30 action points into 30 Righteous Fury every second. If you run out of action points or break your concentration, this effect will end.",
+      "description": "For the next 5 seconds, you will convert 30 action points into 30 Righteous Fury every second.  If you run out of action points or break your concentration, this effect will end.",
       "category": "Ability",
       "componentValues": {
         "COM_0_DURA_SECONDS": 5,
@@ -1467,7 +1467,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 30 Righteous Fury",
-      "description": "Deals 177 damage to your target. If they are Cursed, then they will also become snared, reducing their run speed by 40% for 6 seconds.",
+      "description": "Deals 177 damage to your target.  If they are Cursed, then they will also become snared, reducing their run speed by 40% for 6 seconds.",
       "category": "Ability",
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 177,
@@ -1488,7 +1488,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Righteous Fury",
-      "description": "You crush your enemy, dealing 102 damage to them. The divine power of Sigmar heals your defensive target and any allies within 10 feet of them for 100% of the damage that was dealt.",
+      "description": "You crush your enemy, dealing 102 damage to them.  The divine power of Sigmar heals your defensive target and any allies within 10 feet of them for 100% of the damage that was dealt.",
       "category": "Ability",
       "gameId": 2931,
       "componentValues": {
@@ -1572,11 +1572,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires Great Weapon",
-      "description": "Sigmar's Wrath rises within you, your attacks will ignore 25% of the victim's armor for the next 20 seconds.",
+      "description": "Sigmar's Wrath rises within you, your attacks will ignore 25% the victim's armor for the next 20 seconds.",
       "category": "Ability",
       "gameId": 2937,
       "componentValues": {
-        "COM_0_DURA_SECONDS": 0
+        "COM_0_DURA_SECONDS": 20
       },
       "rawDescription": "Sigmar's Wrath rises within you, your attacks will ignore 25% the victim's armor for the next {COM_0_DURA_SECONDS}."
     },
@@ -1592,11 +1592,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You wrath removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
+      "description": "Your wrath removes all roots and snares from you.  For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability",
       "gameId": 2960,
       "componentValues": {
-        "COM_2_DURA_SECONDS": 0
+        "COM_2_DURA_SECONDS": 10
       },
       "rawDescription": "Your wrath removes all roots and snares from you.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you."
     }

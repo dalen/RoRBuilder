@@ -246,7 +246,7 @@
       "category": "CareerTactic",
       "gameId": 9444,
       "componentValues": {
-        "ABIL_9398_COM_2_RADI_FEET": 0,
+        "ABIL_9398_COM_2_RADI_FEET": 25,
         "COM_1_VAL1": 0
       },
       "rawDescription": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within {ABIL_9398_COM_2_RADI_FEET}, but Slice will now do {COM_1_VAL1}% less damage."
@@ -381,7 +381,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A vile brew which drives you into a rage for the next 7 seconds. All of your attacks will ignore 50% of the victim's armor.<br>You may only use a single Elixir at a time.",
+      "description": "A vile brew which drives you into a rage for the next 7 seconds.  All of your attacks will ignore 50% of the victim's armor.<BR>You may only use a single Elixir at a time.",
       "category": "Ability",
       "gameId": 9420,
       "componentValues": {
@@ -406,7 +406,7 @@
       "gameId": 2999,
       "componentValues": {
         "COM_1_VAL0": 0,
-        "COM_1_DURA_SECONDS": 0
+        "COM_1_DURA_SECONDS": 7
       },
       "rawDescription": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds and increase your speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR>You may only use a single Elixir at a time."
     },
@@ -422,7 +422,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% for 7 seconds.<br>You may only use a single Elixir at a time.",
+      "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% for 7 seconds.<BR>You may only use a single Elixir at a time.",
       "category": "Ability",
       "gameId": 9426,
       "componentValues": {
@@ -447,9 +447,9 @@
       "category": "Ability",
       "gameId": 9392,
       "componentValues": {
-        "COM_0_RADI_FEET": 0,
+        "COM_0_RADI_FEET": 30,
         "COM_0_VAL0": 0,
-        "COM_0_DURA_SECONDS": 0
+        "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "Your unearthly Elven beauty Detaunts all enemies within {COM_0_RADI_FEET}, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
     },
@@ -508,7 +508,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "You stab your enemy with a poisoned blade, dealing 103 damage. The victim becomes wracked with pains, suffering an additional 222 Corporeal damage over 9 seconds. This effect will stack with itself up to three times.",
+      "description": "You stab your enemy with a poisoned blade, dealing 103 damage.  The victim becomes wracked with pains, suffering an additional 222 Corporeal damage over 9 seconds.  This effect will stack with itself up to three times.",
       "category": "Ability",
       "gameId": 9403,
       "componentValues": {
@@ -588,7 +588,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
       "gameId": 245,
       "componentValues": {
@@ -610,7 +610,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your swift footwork and quick thinking removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
+      "description": "Your swift footwork and quick thinking removes all roots and snares from you.  For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability",
       "gameId": 9395,
       "componentValues": {
@@ -694,7 +694,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the damage of your Frenzies by 5% for each Blood Lust point you have.",
+      "description": "Increases your the damage of your Frenzies by 5% for each Blood Lust point you have.",
       "category": "CareerTactic",
       "gameId": 6033,
       "componentValues": {},
@@ -730,7 +730,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for 10 seconds which reduces their Wounds.<br>  1 Blood Lust: 112 damage per hit; Wounds reduced by 25.<br>  2 Blood Lust: 133 damage per hit; Wounds reduced by 33.<br>  3 Blood Lust: 155 damage per hit; Wounds reduced by 41.<br>  4 Blood Lust: 175 damage per hit; Wounds reduced by 50.<br>  5 Blood Lust: 196 damage per hit; Wounds reduced by 58.",
+      "description": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for 10 seconds which reduces their Wounds.<BR>   1 Blood Lust:  112 damage per hit; Wounds reduced by 25.<BR>   2 Blood Lust:  133 damage per hit; Wounds reduced by 33.<BR>   3 Blood Lust:  155 damage per hit; Wounds reduced by 41.<BR>   4 Blood Lust:  175 damage per hit; Wounds reduced by 50.<BR>   5 Blood Lust:  196 damage per hit; Wounds reduced by 58.",
       "category": "Ability",
       "gameId": 9404,
       "componentValues": {
@@ -765,7 +765,7 @@
       "gameId": 9427,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_1_DURA_SECONDS": 0
+        "COM_1_DURA_SECONDS": 3
       },
       "rawDescription": "A shocking strike which deals {COM_0_VAL0_DAMAGE} and knocksdown your target for {COM_1_DURA_SECONDS}."
     },
@@ -827,7 +827,7 @@
         "COM_0_DURA_MINUTES": 0,
         "ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE": 0,
         "ABIL_3810_COM_0_VAL0": 0,
-        "ABIL_3810_COM_0_DURA_SECONDS": 0
+        "ABIL_3810_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You cover your blades with a toxic concoction. For the next {COM_0_DURA_MINUTES}, anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing them to have their Initiative reduced by {ABIL_3810_COM_0_VAL0} for the next {ABIL_3810_COM_0_DURA_SECONDS}. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."
     },
@@ -872,7 +872,7 @@
         "COM_0_DURA_MINUTES": 0,
         "ABIL_3811_COM_0_VAL0_CORPOREALDAMAGE": 0,
         "ABIL_3811_COM_2_VAL1": 0,
-        "ABIL_3811_COM_2_DURA_SECONDS": 0
+        "ABIL_3811_COM_2_DURA_SECONDS": 5
       },
       "rawDescription": "You cover your blades with a toxic concoction. For the next {COM_0_DURA_MINUTES}, anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3811_COM_0_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing all healing done by them to be reduced to {ABIL_3811_COM_2_VAL1}% for the next {ABIL_3811_COM_2_DURA_SECONDS}.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."
     },
@@ -927,7 +927,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them reducing their Morale by 300, inspired, your group gains 300 Morale.<br>  1 Blood Lust: 108 damage per hit, 30 feet radius.<br>  2 Blood Lust: 133 damage per hit, 35 feet radius.<br>  3 Blood Lust: 159 damage per hit, 40 feet radius.<br>  4 Blood Lust: 183 damage per hit, 43.3 feet radius.<br>  5 Blood Lust: 208 damage per hit, 48.3 feet radius.",
+      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them reducing their Morale by 300, inspired, your group gains 300 Morale.<BR>   1 Blood Lust:  108 damage per hit, 30 feet radius.<BR>   2 Blood Lust:  133 damage per hit, 35 feet radius.<BR>   3 Blood Lust:  159 damage per hit, 40 feet radius.<BR>   4 Blood Lust:  183 damage per hit, 43 feet radius.<BR>   5 Blood Lust:  208 damage per hit, 48 feet radius.",
       "category": "Ability",
       "gameId": 9422,
       "componentValues": {
@@ -1000,7 +1000,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "A powerful stab that slices through the target's defenses, dealing 275 damage to your target and ignoring all of their armor. If the target suffers from an Ailment, then your Weapon Skill will be increased by 75 for 20 seconds.",
+      "description": "A powerful stab that slices through the target's defenses, dealing 275 damage to your target and ignoring all of their armor.  If the target suffers from an Ailment, then your Weapon Skill will be increased by 75 for 20 seconds.",
       "category": "Ability",
       "gameId": 9421,
       "componentValues": {
@@ -1022,7 +1022,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You quickly stab your target twice, dealing damage based on your Blood Lust.<br>  1 Blood Lust: 137 damage per hit<br>  2 Blood Lust: 167 damage per hit<br>  3 Blood Lust: 197 damage per hit<br>  4 Blood Lust: 225 damage per hit<br>  5 Blood Lust: 254 damage per hit",
+      "description": "You quickly stab your target twice, dealing damage based on your Blood Lust.<BR>   1 Blood Lust:  137 damage per hit<BR>   2 Blood Lust:  167 damage per hit<BR>   3 Blood Lust:  197 damage per hit<BR>   4 Blood Lust:  225 damage per hit<BR>   5 Blood Lust:  254 damage per hit",
       "category": "Ability",
       "gameId": 9410,
       "componentValues": {
@@ -1087,7 +1087,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<br>  1 Blood Lust: 750 damage.<br>  2 Blood Lust:  900 damage.<br>  3 Blood Lust:  1056 damage.<br>  4 Blood Lust:  1200 damage.<br>  5 Blood Lust:  1350 damage.",
+      "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<BR>   1 Blood Lust:  750 damage.<BR>   2 Blood Lust:   900 damage.<BR>   3 Blood Lust:   1056 damage.<BR>   4 Blood Lust:   1200 damage.<BR>   5 Blood Lust:   1350 damage.",
       "category": "Ability",
       "gameId": 9399,
       "componentValues": {
@@ -1112,7 +1112,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are critically hit by a direct damage ability, you will become protected by a barrier which will absorb up to 600 damage.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are critically hit by a direct damage ability, you will become protected by a barrier which will absorb up to 600 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 9439,
       "componentValues": {
@@ -1298,7 +1298,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to parry attacks by 10%. Each time you parry an attack, you will regain 20 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Increases your chance to parry attacks by 10%.  Each time you parry an attack, you will regain 20 Action Points.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 9445,
       "componentValues": {
@@ -1401,7 +1401,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A quick dagger throw which deals 97 damage.<br>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
+      "description": "A quick dagger throw which deals 97 damage.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability",
       "gameId": 9394,
       "componentValues": {
@@ -1528,7 +1528,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "A brutal attack that deals 868 Corporeal damage to your target over 21 seconds. If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 75 for 21 seconds.",
+      "description": "A brutal attack that deals 868 Corporeal damage to your target over 21 seconds.  If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 75 for 21 seconds.",
       "category": "Ability",
       "gameId": 9405,
       "componentValues": {
@@ -1571,7 +1571,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Armour Penetration is increased by 50% for 3 serconds after successful use of your Frenzies.",
+      "description": "Your Armour Penetration is increased by 50% for 3 seconds after successful use of your Frenzies.",
       "category": "CareerTactic",
       "gameId": 2991,
       "componentValues": {},
@@ -1589,7 +1589,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Moral gain is doubled for 15s.",
+      "description": "Your bloody fury inspires your group. Morale gain is doubled for 15 seconds.",
       "category": "Morale",
       "gameId": 2715,
       "componentValues": {},

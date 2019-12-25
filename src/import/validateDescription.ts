@@ -124,7 +124,9 @@ export const validateDescription = (
   );
 
   if (
-    [...componentValueNames].sort().toString() !==
+    Array.from(new Set(componentValueNames))
+      .sort()
+      .toString() !==
     Object.keys(componentValues)
       .sort()
       .toString()
