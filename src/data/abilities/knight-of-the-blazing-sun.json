@@ -85,7 +85,13 @@
       "note": "",
       "description": "You become filled with the endless power of Myrmidia, dealing 148 damage every 3 seconds to all enemies within 30 feet.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
-      "gameId": 8022
+      "gameId": 8022,
+      "componentValues": {
+        "COM_4_VAL0_DAMAGE": 148,
+        "COM_3_FREQ_SECONDS": 3,
+        "COM_4_RADI_FEET": 30
+      },
+      "rawDescription": "You become filled with the endless power of Myrmidia, dealing {COM_4_VAL0_DAMAGE} every {COM_3_FREQ_SECONDS} to all enemies within {COM_4_RADI_FEET}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
     {
       "image": "08057",
@@ -101,7 +107,13 @@
       "note": "Requires Great Weapon",
       "description": "You sweep your blade out in a wide arc, dealing 109 damage to all enemies 25 feet in front of you, and reducing their Wounds by 120.",
       "category": "Ability",
-      "gameId": 8026
+      "gameId": 8026,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 109,
+        "COM_0_RADI_FEET": 25,
+        "COM_2_VAL0": 120
+      },
+      "rawDescription": "You sweep your blade out in a wide arc, dealing {COM_0_VAL0_DAMAGE} to all enemies {COM_0_RADI_FEET} in front of you, and reducing their Wounds by {COM_2_VAL0}."
     },
     {
       "image": "22703",
@@ -117,7 +129,11 @@
       "note": "",
       "description": "Repel Darkness will now cool down 50% faster, and will send the victim flying even further away from you.",
       "category": "CareerTactic",
-      "gameId": 8047
+      "gameId": 8047,
+      "componentValues": {
+        "COM_0_VAL0": 50
+      },
+      "rawDescription": "Repel Darkness will now cool down {COM_0_VAL0}% faster, and will send the victim flying even further away from you."
     },
     {
       "image": "22715",
@@ -133,7 +149,9 @@
       "note": "",
       "description": "Battle Commands will restore 5 action points every second for each of your active Battle Commands.",
       "category": "CareerTactic",
-      "gameId": 8048
+      "gameId": 8048,
+      "componentValues": {},
+      "rawDescription": "Battle Commands will restore 5 action points every second for each of your active Battle Commands."
     },
     {
       "image": "22701",
@@ -149,7 +167,13 @@
       "note": "",
       "description": "Any time you critically hit an enemy, they will suffer an additional 350 damage over 10 seconds and their parry chance will be reduced by 5%.",
       "category": "CareerTactic",
-      "gameId": 8044
+      "gameId": 8044,
+      "componentValues": {
+        "COM_1_VAL0_COM_1_VAL0_TOD_DAMAGE": 350,
+        "COM_1_VAL0_COM_1_DURA_SECONDS": 10,
+        "COM_1_VAL0_COM_0_VAL1": 5
+      },
+      "rawDescription": "Any time you critically hit an enemy, they will suffer an additional {COM_1_VAL0_COM_1_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_1_DURA_SECONDS} and their parry chance will be reduced by {COM_1_VAL0_COM_0_VAL1}%."
     },
     {
       "image": "08006",
@@ -165,7 +189,13 @@
       "note": "",
       "description": "The force of the sun fills your blade, dealing 142 damage to the enemy and the victim will also suffer 258 over the next 9 seconds. This effect is stackable up to three times.",
       "category": "Ability",
-      "gameId": 8007
+      "gameId": 8007,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 142,
+        "COM_1_VAL0_COM_1_VAL0_TOD": 258,
+        "COM_1_VAL0_COM_1_DURA_SECONDS": 9
+      },
+      "rawDescription": "The force of the sun fills your blade, dealing {COM_0_VAL0_DAMAGE} to the enemy and the victim will also suffer {COM_1_VAL0_COM_1_VAL0_TOD} over the next {COM_1_VAL0_COM_1_DURA_SECONDS}. This effect is stackable up to three times."
     },
     {
       "image": "08058",
@@ -181,7 +211,12 @@
       "note": "",
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability",
-      "gameId": 8021
+      "gameId": 8021,
+      "componentValues": {
+        "COM_5_VAL0": 0,
+        "COM_5_DURA_SECONDS": 0
+      },
+      "rawDescription": "You challenge all opponents in front of you, making monsters hate you more. While challenged, your opponents will deal only {COM_5_VAL0}% damage to everyone other than you. This effect will fade after {COM_5_DURA_SECONDS} or after your opponent has hit you 3 times."
     },
     {
       "image": "23174",
@@ -197,7 +232,11 @@
       "note": "",
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
       "category": "Morale",
-      "gameId": 608
+      "gameId": 608,
+      "componentValues": {
+        "COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "Both you and your target are held tightly in place for {COM_1_DURA_SECONDS}, and neither one of you can move.<BR>This effect cannot be dispelled or broken."
     },
     {
       "image": "22706",
@@ -213,7 +252,11 @@
       "note": "",
       "description": "Shield Rush will now also increase your chance to parry by 15%.",
       "category": "CareerTactic",
-      "gameId": 8056
+      "gameId": 8056,
+      "componentValues": {
+        "ABIL_8011_COM_1_VAL0_COM_1_VAL0": 15
+      },
+      "rawDescription": "Shield Rush will now also increase your chance to parry by {ABIL_8011_COM_1_VAL0_COM_1_VAL0}%."
     },
     {
       "image": "07945",
@@ -229,7 +272,13 @@
       "note": "",
       "description": "A cruel slash at your victim's legs which deals 171 damage and snares them, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability",
-      "gameId": 8012
+      "gameId": 8012,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 171,
+        "COM_1_VAL0": 40,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "A cruel slash at your victim's legs which deals {COM_0_VAL0_DAMAGE} and snares them, reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "23172",
@@ -245,7 +294,13 @@
       "note": "",
       "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale",
-      "gameId": 606
+      "gameId": 606,
+      "componentValues": {
+        "COM_1_VAL0": 0,
+        "COM_0_VAL0_TOD_DAMAGE": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -261,7 +316,12 @@
       "note": "",
       "description": "When you block, all members of your group within 100 feet except you will gain a 5% chance to critically hit for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 8057
+      "gameId": 8057,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL1": 5,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "When you block, all members of your group within 100 feet except you will gain a {COM_1_VAL0_COM_0_VAL1}% chance to critically hit for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "23173",
@@ -277,7 +337,13 @@
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale",
-      "gameId": 610
+      "gameId": 610,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A loud shout that startles your target and all enemies within {COM_0_RADI_FEET} of them, reducing their damage to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22694",
@@ -293,7 +359,11 @@
       "note": "",
       "description": "All Path of Conquest abilities now cost 35% fewer action points.",
       "category": "CareerTactic",
-      "gameId": 8053
+      "gameId": 8053,
+      "componentValues": {
+        "COM_0_VAL1": 35
+      },
+      "rawDescription": "All Path of Conquest abilities now cost {COM_0_VAL1}% fewer action points."
     },
     {
       "image": "08011",
@@ -309,7 +379,12 @@
       "note": "",
       "description": "Increases your Strength, Toughness, and Wounds by 240 for 30 seconds.",
       "category": "Morale",
-      "gameId": 8070
+      "gameId": 8070,
+      "componentValues": {
+        "COM_0_VAL0": 240,
+        "COM_0_DURA_SECONDS": 30
+      },
+      "rawDescription": "Increases your Strength, Toughness, and Wounds by {COM_0_VAL0} for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22710",
@@ -325,7 +400,12 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 779
+      "gameId": 779,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 375
+      },
+      "rawDescription": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS}, which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}.<BR>This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "22701",
@@ -341,7 +421,11 @@
       "note": "",
       "description": "Arcing Swing will now additionally make enemies 10% more likely to be critically hit.",
       "category": "CareerTactic",
-      "gameId": 8054
+      "gameId": 8054,
+      "componentValues": {
+        "ABIL_8026_COM_3_VAL1": 10
+      },
+      "rawDescription": "Arcing Swing will now additionally make enemies {ABIL_8026_COM_3_VAL1}% more likely to be critically hit."
     },
     {
       "image": "08059",
@@ -357,7 +441,12 @@
       "note": "",
       "description": "Increase the chances to block, dodge, parry, and disrupt attacks by 50% for 10 seconds for all group members within 100 feet of you.",
       "category": "Morale",
-      "gameId": 8075
+      "gameId": 8075,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Increase the chances to block, dodge, parry, and disrupt attacks by {COM_0_VAL0}% for {COM_0_DURA_SECONDS} for all group members within 100 feet of you."
     },
     {
       "image": "05004",
@@ -373,7 +462,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "22706",
@@ -389,7 +484,11 @@
       "note": "",
       "description": "Stay Focused! will now also cause groupmates in the area to receive 15% more from all healing effects used on them.",
       "category": "CareerTactic",
-      "gameId": 8060
+      "gameId": 8060,
+      "componentValues": {
+        "ABIL_8020_COM_5_VAL1": 15
+      },
+      "rawDescription": "Stay Focused! will now also cause groupmates in the area to receive {ABIL_8020_COM_5_VAL1}% more from all healing effects used on them."
     },
     {
       "image": "22701",
@@ -405,7 +504,13 @@
       "note": "",
       "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
       "category": "CareerTactic",
-      "gameId": 500
+      "gameId": 500,
+      "componentValues": {
+        "COM_0_VAL0": 15,
+        "COM_2_VAL1": 15,
+        "COM_1_VAL0": 33
+      },
+      "rawDescription": "You deal {COM_0_VAL0}% more damage and all enemy monsters will hate you {COM_2_VAL1}% less than normal, but your armor is reduced by {COM_1_VAL0}%."
     },
     {
       "image": "08002",
@@ -421,7 +526,14 @@
       "note": "",
       "description": "You order your group to steady their thoughts, increasing all resistances by 378 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their resistances by 188.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
-      "gameId": 8008
+      "gameId": 8008,
+      "componentValues": {
+        "COM_3_VAL0": 378,
+        "COM_3_RADI_FEET": 100,
+        "COM_4_RADI_FEET": 30,
+        "COM_4_VAL0": 188
+      },
+      "rawDescription": "You order your group to steady their thoughts, increasing all resistances by {COM_3_VAL0} for all groupmates within {COM_3_RADI_FEET}.  All enemies within {COM_4_RADI_FEET} will be frightened, reducing their resistances by {COM_4_VAL0}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
     {
       "image": "22702",
@@ -437,7 +549,11 @@
       "note": "",
       "description": "Increases your chance to disrupt attacks by 15% as long as you're holding a shield.",
       "category": "CareerTactic",
-      "gameId": 8042
+      "gameId": 8042,
+      "componentValues": {
+        "COM_0_VAL0": 15
+      },
+      "rawDescription": "Increases your chance to disrupt attacks by {COM_0_VAL0}% as long as you're holding a shield."
     },
     {
       "image": "08078",
@@ -453,7 +569,11 @@
       "note": "Only usable on other players",
       "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
       "category": "Ability",
-      "gameId": 8013
+      "gameId": 8013,
+      "componentValues": {
+        "COM_1_VAL1": 0
+      },
+      "rawDescription": "You defend one of your groupmates and try to take attacks meant for them.  As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and {COM_1_VAL1}% of all hate that they cause will be redirected to you.<BR><BR>Damage received from this ability can be blocked or parried, unless the original attack was undefendable."
     },
     {
       "image": "08060",
@@ -469,7 +589,12 @@
       "note": "",
       "description": "You become surrounded by a protective barrier for up to 30 seconds which will absorb up to 3600 damage.",
       "category": "Morale",
-      "gameId": 8068
+      "gameId": 8068,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 30,
+        "COM_0_VAL1_DAMAGE": 3600
+      },
+      "rawDescription": "You become surrounded by a protective barrier for up to {COM_0_DURA_SECONDS} which will absorb up to {COM_0_VAL1_DAMAGE}."
     },
     {
       "image": "08061",
@@ -485,7 +610,13 @@
       "note": "",
       "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 105 damage to all enemies in front of you up to 40 feet away. Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
-      "gameId": 8038
+      "gameId": 8038,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 105,
+        "COM_0_RADI_FEET": 40,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing {COM_0_VAL0_DAMAGE} to all enemies in front of you up to {COM_0_RADI_FEET} away.  Everyone hit by this attack will be staggered, and unable to move for {COM_2_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
     },
     {
       "image": "07997",
@@ -501,7 +632,14 @@
       "note": "Requires Shield",
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability",
-      "gameId": 1378
+      "gameId": 1378,
+      "componentValues": {
+        "COM_0_VAL0": 45,
+        "COM_0_DURA_SECONDS": 12,
+        "COM_1_RADI_FEET": 50,
+        "COM_1_VAL0": 15
+      },
+      "rawDescription": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}. You will also defend all allies behind you, up to {COM_1_RADI_FEET} away, increasing their chances to dodge and disrupt by {COM_1_VAL0}% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<BR>This effect will end if you break your concentration, or run out of action points."
     },
     {
       "image": "23175",
@@ -517,7 +655,12 @@
       "note": "",
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
       "category": "Morale",
-      "gameId": 613
+      "gameId": 613,
+      "componentValues": {
+        "COM_0_VAL1": 75,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "An impressive display of defense which reduces incoming damage by {COM_0_VAL1}% for both you and all group members within 100 feet of you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "08062",
@@ -533,7 +676,9 @@
       "note": "",
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
       "category": "Ability",
-      "gameId": 8019
+      "gameId": 8019,
+      "componentValues": {},
+      "rawDescription": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects."
     },
     {
       "image": "22713",
@@ -549,7 +694,9 @@
       "note": "",
       "description": "Vigilance will no longer reduce the damage you deal.",
       "category": "CareerTactic",
-      "gameId": 8058
+      "gameId": 8058,
+      "componentValues": {},
+      "rawDescription": "Vigilance will no longer reduce the damage you deal."
     },
     {
       "image": "22709",
@@ -565,7 +712,11 @@
       "note": "",
       "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
       "category": "CareerTactic",
-      "gameId": 504
+      "gameId": 504,
+      "componentValues": {
+        "COM_0_VAL1": 100
+      },
+      "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% more than normal on all attacks."
     },
     {
       "image": "22715",
@@ -581,7 +732,9 @@
       "note": "",
       "description": "All of your attacks within the Path of Glory will now deal Elemental damage instead of physical damage.",
       "category": "CareerTactic",
-      "gameId": 8061
+      "gameId": 8061,
+      "componentValues": {},
+      "rawDescription": "All of your attacks within the Path of Glory will now deal Elemental damage instead of physical damage."
     },
     {
       "image": "08063",
@@ -597,7 +750,12 @@
       "note": "",
       "description": "You slam into your target without remorse, dealing up to 792 damage over 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
-      "gameId": 8031
+      "gameId": 8031,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 792,
+        "COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "You slam into your target without remorse, dealing up to {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}.  This effect will end if you break your concentration or run out of action points."
     },
     {
       "image": "08064",
@@ -613,7 +771,13 @@
       "note": "",
       "description": "Deals 1200 damage to all enemies within 30 feet and roots them, making them unable to move for 10 seconds.",
       "category": "Morale",
-      "gameId": 8069
+      "gameId": 8069,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 1200,
+        "COM_0_RADI_FEET": 30,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Deals {COM_1_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET} and roots them, making them unable to move for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "08065",
@@ -629,7 +793,14 @@
       "note": "",
       "description": "Deals 1200 damage to all enemies in a line in front of you, up to 65 feet away, and an additional 1206 damage over 9 seconds.",
       "category": "Morale",
-      "gameId": 8074
+      "gameId": 8074,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_RADI_FEET": 65,
+        "COM_1_VAL0_TOD_DAMAGE": 1206,
+        "COM_1_DURA_SECONDS": 9
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in a line in front of you, up to {COM_0_RADI_FEET} away, and an additional {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
     },
     {
       "image": "08066",
@@ -645,7 +816,13 @@
       "note": "",
       "description": "You fill your enemies with fear and doubt, causing all healing abilities to become 75% as effective when used by any enemies within 30 feet of you.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
-      "gameId": 8036
+      "gameId": 8036,
+      "componentValues": {
+        "COM_3_VAL1": 0,
+        "COM_3_RADI_FEET": 0,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You fill your enemies with fear and doubt, causing all healing abilities to become {COM_3_VAL1}% as effective when used by any enemies within {COM_3_RADI_FEET} of you.<BR>The effect will linger for {COM_2_VAL0_COM_0_DURA_SECONDS} after you stop using this Battle Command."
     },
     {
       "image": "07991",
@@ -661,7 +838,12 @@
       "note": "",
       "description": "You order your group to ready their defenses, causing 225 damage back against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds. <BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
-      "gameId": 8015
+      "gameId": 8015,
+      "componentValues": {
+        "COM_4_VAL0_COM_0_VAL0_DAMAGE": 0,
+        "COM_3_RADI_FEET": 0
+      },
+      "rawDescription": "You order your group to ready their defenses, causing {COM_4_VAL0_COM_0_VAL0_DAMAGE} back against any attacker who strikes a groupmate within {COM_3_RADI_FEET} with a melee attack. Targets can only be damaged once every two seconds.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
     {
       "image": "08067",
@@ -677,7 +859,13 @@
       "note": "",
       "description": "The blessings of Myrmidia fill you, increasing your Armor by 990 for 10 seconds. Whenever you're attacked during this time, you will regain 10 Action Points.",
       "category": "Ability",
-      "gameId": 8016
+      "gameId": 8016,
+      "componentValues": {
+        "COM_0_VAL0": 990,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_2_VAL0_COM_0_VAL0_ACTIONPOINTS": 10
+      },
+      "rawDescription": "The blessings of Myrmidia fill you, increasing your Armor by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  Whenever you're attacked during this time, you will regain {COM_2_VAL0_COM_0_VAL0_ACTIONPOINTS}."
     },
     {
       "image": "08068",
@@ -693,7 +881,11 @@
       "note": "",
       "description": "A careful strike that deals 209 damage, and ignores 25% of the victim's armor.",
       "category": "Ability",
-      "gameId": 8005
+      "gameId": 8005,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 209
+      },
+      "rawDescription": "A careful strike that deals {COM_0_VAL0_DAMAGE}, and ignores 25% of the victim's armor."
     },
     {
       "image": "07995",
@@ -709,7 +901,14 @@
       "note": "",
       "description": "You order your group to strike fiercely, increasing Strength by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Strength by 120.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
-      "gameId": 8004
+      "gameId": 8004,
+      "componentValues": {
+        "COM_3_VAL0": 120,
+        "COM_3_RADI_FEET": 100,
+        "COM_4_RADI_FEET": 30,
+        "COM_4_VAL0": 120
+      },
+      "rawDescription": "You order your group to strike fiercely, increasing Strength by {COM_3_VAL0} for all groupmates within {COM_3_RADI_FEET}.  All enemies within {COM_4_RADI_FEET} will be frightened, reducing their Strength by {COM_4_VAL0}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
     {
       "image": "23176",
@@ -725,7 +924,13 @@
       "note": "",
       "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
       "category": "Morale",
-      "gameId": 607
+      "gameId": 607,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 0,
+        "COM_0_DURA_SECONDS": 0,
+        "COM_1_RADI_FEET": 0
+      },
+      "rawDescription": "You repeatedly attack all enemies in a line in front of you, inflicting {COM_1_VAL0_DAMAGE} every second for {COM_0_DURA_SECONDS}, up to {COM_1_RADI_FEET} away, for as long as you maintain your concentration."
     },
     {
       "image": "07961",
@@ -741,7 +946,11 @@
       "note": "",
       "description": "The power of the sun blasts your enemy away, dealing 209 damage and knocking them away from you.",
       "category": "Ability",
-      "gameId": 8017
+      "gameId": 8017,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 209
+      },
+      "rawDescription": "The power of the sun blasts your enemy away, dealing {COM_0_VAL0_DAMAGE} and knocking them away from you."
     },
     {
       "image": "22702",
@@ -757,7 +966,11 @@
       "note": "",
       "description": "Increases Toughness by 160.",
       "category": "CareerTactic",
-      "gameId": 503
+      "gameId": 503,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases Toughness by {COM_0_VAL0}."
     },
     {
       "image": "22708",
@@ -773,7 +986,12 @@
       "note": "",
       "description": "Whenever you parry an attack, your Strength, Weapon Skill, and Initiative will be increased by 240 for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic",
-      "gameId": 8043
+      "gameId": 8043,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 240,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Whenever you parry an attack, your Strength, Weapon Skill, and Initiative will be increased by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}. This effect will not refresh itself."
     },
     {
       "image": "08005",
@@ -789,7 +1007,12 @@
       "note": "",
       "description": "Your cowardly enemies are forced to face your wrath. Up to 4 enemies within 30 feet are rooted in place, making them unable to move for 5 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability",
-      "gameId": 8024
+      "gameId": 8024,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Your cowardly enemies are forced to face your wrath.  Up to 4 enemies within {COM_0_RADI_FEET} are rooted in place, making them unable to move for {COM_0_DURA_SECONDS}.  Rooted targets have a 50% chance to break free when they suffer damage."
     },
     {
       "image": "08010",
@@ -805,7 +1028,12 @@
       "note": "",
       "description": "You crush your enemy's will, removing 1 Enchantment from them. If an Enchantment is successfully removed, then the victim will also suffer 246 damage.",
       "category": "Ability",
-      "gameId": 8023
+      "gameId": 8023,
+      "componentValues": {
+        "COM_0_VAL1": 1,
+        "COM_1_VAL0_DAMAGE": 246
+      },
+      "rawDescription": "You crush your enemy's will, removing {COM_0_VAL1} Enchantment from them.  If an Enchantment is successfully removed, then the victim will also suffer {COM_1_VAL0_DAMAGE}."
     },
     {
       "image": "08070",
@@ -821,7 +1049,12 @@
       "note": "",
       "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing 150 Elemental damage back to anyone that attacks you.",
       "category": "Ability",
-      "gameId": 8025
+      "gameId": 8025,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_ELEMENTALDAMAGE": 150
+      },
+      "rawDescription": "The heat of the very sun itself surrounds you for {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_ELEMENTALDAMAGE} back to anyone that attacks you."
     },
     {
       "image": "08009",
@@ -837,7 +1070,13 @@
       "note": "Requires Shield",
       "description": "A powerful forward slam with your shield which deals 246 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
       "category": "Ability",
-      "gameId": 8011
+      "gameId": 8011,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 246,
+        "COM_1_VAL0_COM_0_VAL0": 10,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A powerful forward slam with your shield which deals {COM_0_VAL0_DAMAGE} to your enemy, and increases your chance to block by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "23177",
@@ -853,7 +1092,11 @@
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
       "category": "Morale",
-      "gameId": 611
+      "gameId": 611,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "For the next {COM_0_DURA_SECONDS}, your chance to block is almost guaranteed."
     },
     {
       "image": "08071",
@@ -869,7 +1112,13 @@
       "note": "",
       "description": "Your Shining Blade slices into your opponent for 209 damage. For the next 5 seconds, Shining Blade will cause an additional 150 Elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability",
-      "gameId": 8035
+      "gameId": 8035,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 209,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5,
+        "COM_1_VAL0_COM_1_VAL0_ELEMENTALDAMAGE": 150
+      },
+      "rawDescription": "Your Shining Blade slices into your opponent for {COM_0_VAL0_DAMAGE}.  For the next {COM_1_VAL0_COM_0_DURA_SECONDS}, Shining Blade will cause an additional {COM_1_VAL0_COM_1_VAL0_ELEMENTALDAMAGE} on the next damaging attack made by everyone in your group within 100 feet of you."
     },
     {
       "image": "22710",
@@ -885,7 +1134,11 @@
       "note": "",
       "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional 135 hit points as well.",
       "category": "CareerTactic",
-      "gameId": 776
+      "gameId": 776,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 135
+      },
+      "rawDescription": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional {COM_1_VAL0_COM_0_VAL0} hit points as well."
     },
     {
       "image": "22709",
@@ -901,7 +1154,11 @@
       "note": "",
       "description": "Crippling Blow will now hit 3 enemies within 25 feet of you, but your base damage is reduced by 10%.",
       "category": "CareerTactic",
-      "gameId": 8055
+      "gameId": 8055,
+      "componentValues": {
+        "ABIL_8012_COM_2_RADI_FEET": 25
+      },
+      "rawDescription": "Crippling Blow will now hit 3 enemies within {ABIL_8012_COM_2_RADI_FEET} of you, but your base damage is reduced by 10%."
     },
     {
       "image": "08072",
@@ -917,7 +1174,12 @@
       "note": "",
       "description": "An overwhelming counterattack which deals 209 damage and knocks the victim down for 3 seconds.",
       "category": "Ability",
-      "gameId": 8018
+      "gameId": 8018,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 209,
+        "COM_1_DURA_SECONDS": 3
+      },
+      "rawDescription": "An overwhelming counterattack which deals {COM_0_VAL0_DAMAGE} and knocks the victim down for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "08073",
@@ -933,7 +1195,12 @@
       "note": "",
       "description": "Deals 800 damage to all enemies within 30 feet. Enemy players hit by this effect will lose all of their Morale.",
       "category": "Morale",
-      "gameId": 8076
+      "gameId": 8076,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_RADI_FEET": 0
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}.  Enemy players hit by this effect will lose all of their Morale. This ability hits max 9 targets."
     },
     {
       "image": "08074",
@@ -949,7 +1216,14 @@
       "note": "",
       "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet. All of the victims will suffer 305 damage over 10 seconds and have their chance to defend attacks reduced by 10%.",
       "category": "Ability",
-      "gameId": 8032
+      "gameId": 8032,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0_TOD_DAMAGE": 305,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0": 10
+      },
+      "rawDescription": "Myrmidia's power bursts forth from you, slamming into all enemies within {COM_0_RADI_FEET}.  All of the victims will suffer {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} and have their chance to defend attacks reduced by {COM_1_VAL0}%."
     },
     {
       "image": "08075",
@@ -965,7 +1239,14 @@
       "note": "",
       "description": "You order your group to hold their positions, increasing Toughness by 120 for all groupmates within 100 feet. All enemies within 30 feet will be frightened, reducing their Toughness by 120.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
-      "gameId": 8006
+      "gameId": 8006,
+      "componentValues": {
+        "COM_3_VAL0": 120,
+        "COM_3_RADI_FEET": 100,
+        "COM_4_RADI_FEET": 30,
+        "COM_4_VAL0": 120
+      },
+      "rawDescription": "You order your group to hold their positions, increasing Toughness by {COM_3_VAL0} for all groupmates within {COM_3_RADI_FEET}.  All enemies within {COM_4_RADI_FEET} will be frightened, reducing their Toughness by {COM_4_VAL0}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
     {
       "image": "08003",
@@ -981,7 +1262,14 @@
       "note": "",
       "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 24 Action Points and 132 health over 3 seconds any time they defend themselves against an attack.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
-      "gameId": 8020
+      "gameId": 8020,
+      "componentValues": {
+        "COM_3_RADI_FEET": 100,
+        "COM_4_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS": 24,
+        "COM_4_VAL0_COM_1_VAL0_TOD_HEALTH": 132,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "You order your group to prepare for combat, causing all of your groupmates within {COM_3_RADI_FEET} to regain {COM_4_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS} and {COM_4_VAL0_COM_1_VAL0_TOD_HEALTH} over {COM_4_VAL0_COM_0_DURA_SECONDS} any time they defend themselves against an attack.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
     {
       "image": "07990",
@@ -997,7 +1285,11 @@
       "note": "",
       "description": "A smashing attack which deals 171 damage. This attack causes monsters to hate you twice as much as normal.",
       "category": "Ability",
-      "gameId": 8002
+      "gameId": 8002,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 171
+      },
+      "rawDescription": "A smashing attack which deals {COM_0_VAL0_DAMAGE}.  This attack causes monsters to hate you twice as much as normal."
     },
     {
       "image": "22702",
@@ -1013,7 +1305,11 @@
       "note": "",
       "description": "Shield Of The Sun will now deal 225 damage back against enemies, and Vicious Slash's cooldown is reduced by 1 second.",
       "category": "CareerTactic",
-      "gameId": 8059
+      "gameId": 8059,
+      "componentValues": {
+        "ABIL_8025_COM_2_VAL0_DAMAGE": 225
+      },
+      "rawDescription": "Shield Of The Sun will now deal {ABIL_8025_COM_2_VAL0_DAMAGE} back against enemies, and Vicious Slash's cooldown is reduced by 1 second."
     },
     {
       "image": "22709",
@@ -1029,7 +1325,11 @@
       "note": "",
       "description": "Shield Of The Sun and Perseverance will now cool down 50% faster.",
       "category": "CareerTactic",
-      "gameId": 8045
+      "gameId": 8045,
+      "componentValues": {
+        "COM_0_VAL0": 50
+      },
+      "rawDescription": "Shield Of The Sun and Perseverance will now cool down {COM_0_VAL0}% faster."
     },
     {
       "image": "07994",
@@ -1045,7 +1345,12 @@
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability",
-      "gameId": 8010
+      "gameId": 8010,
+      "componentValues": {
+        "COM_3_VAL0": 0,
+        "COM_2_DURA_SECONDS": 0
+      },
+      "rawDescription": "You enrage your opponent, interrupting any currently building abilities and making monsters hate you more.While taunted your opponent will take {COM_3_VAL0}% more damage from your attacks. This effect will fade after {COM_2_DURA_SECONDS} or after your opponent has hit you 3 times."
     },
     {
       "image": "07992",
@@ -1061,7 +1366,12 @@
       "note": "",
       "description": "A basic throwing attack that inflicts 103 damage. Has a chance to deal 702 damage to a severely wounded target if you are behind them.",
       "category": "Ability",
-      "gameId": 8003
+      "gameId": 8003,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 103,
+        "COM_0_VAL0_DAMAGE": 702
+      },
+      "rawDescription": "A basic throwing attack that inflicts {COM_1_VAL0_DAMAGE}. Has a chance to deal {COM_0_VAL0_DAMAGE} to a severely wounded target if you are behind them."
     },
     {
       "image": "08076",
@@ -1077,7 +1387,16 @@
       "note": "",
       "description": "You fill your group with purpose, causing all of your groupmates within 100 feet to regain 20 Action Points every 5 seconds. All enemies within 30 feet will lose 20 Action Points every 5 seconds.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
-      "gameId": 8030
+      "gameId": 8030,
+      "componentValues": {
+        "COM_4_RADI_FEET": 100,
+        "COM_4_VAL0_ACTIONPOINTS": 20,
+        "COM_3_FREQ_SECONDS": 5,
+        "COM_5_RADI_FEET": 30,
+        "COM_7_VAL0_ACTIONPOINTS": 20,
+        "COM_5_FREQ_SECONDS": 5
+      },
+      "rawDescription": "You fill your group with purpose, causing all of your groupmates within {COM_4_RADI_FEET} to regain {COM_4_VAL0_ACTIONPOINTS} every {COM_3_FREQ_SECONDS}. All enemies within {COM_5_RADI_FEET} will lose {COM_7_VAL0_ACTIONPOINTS} every {COM_5_FREQ_SECONDS}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
     {
       "image": "08007",
@@ -1093,7 +1412,14 @@
       "note": "",
       "description": "You order your group to steady themselves, making it 25% less likely that your groupmates within 100 feet will become set back if they're hit while using an ability. All enemies within 30 feet will be frightened, making it 25% more likely that they'll be set back when hit.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
-      "gameId": 8033
+      "gameId": 8033,
+      "componentValues": {
+        "COM_3_VAL1": 25,
+        "COM_3_RADI_FEET": 100,
+        "COM_4_RADI_FEET": 30,
+        "COM_4_VAL1": 25
+      },
+      "rawDescription": "You order your group to steady themselves, making it {COM_3_VAL1}% less likely that your groupmates within {COM_3_RADI_FEET} will become set back if they're hit while using an ability.  All enemies within {COM_4_RADI_FEET} will be frightened, making it {COM_4_VAL1}% more likely that they'll be set back when hit.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
     {
       "image": "08077",
@@ -1109,7 +1435,12 @@
       "note": "",
       "description": "A powerful strike which knocks your enemy off-balance, dealing 209 damage and causing the victim to lose 40 Action Points.",
       "category": "Ability",
-      "gameId": 8037
+      "gameId": 8037,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 209,
+        "COM_1_VAL0_ACTIONPOINTS": 40
+      },
+      "rawDescription": "A powerful strike which knocks your enemy off-balance, dealing {COM_0_VAL0_DAMAGE} and causing the victim to lose {COM_1_VAL0_ACTIONPOINTS}."
     },
     {
       "image": "22694",
@@ -1125,7 +1456,9 @@
       "note": "",
       "description": "Juggernaut's cooldown is reduced to 20 seconds.",
       "category": "CareerTactic",
-      "gameId": 505
+      "gameId": 505,
+      "componentValues": {},
+      "rawDescription": "Juggernaut's cooldown is reduced to 20 seconds."
     },
     {
       "image": "22710",
@@ -1141,7 +1474,11 @@
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 777
+      "gameId": 777,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Spirit resistance by {COM_0_VAL0}."
     },
     {
       "image": "07999",
@@ -1157,7 +1494,13 @@
       "note": "",
       "description": "You slice deeply into your enemy, dealing 142 damage to the enemy and interrupting any abilities that they are building up. The victim will also suffer an additional 300 damage over 5 seconds.",
       "category": "Ability",
-      "gameId": 8009
+      "gameId": 8009,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 142,
+        "COM_2_VAL0_COM_0_VAL0_TOD_DAMAGE": 300,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "You slice deeply into your enemy, dealing {COM_0_VAL0_DAMAGE} to the enemy and interrupting any abilities that they are building up.  The victim will also suffer an additional {COM_2_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_2_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "08078",
@@ -1173,7 +1516,13 @@
       "note": "",
       "description": "The glory of the sun fills you with power, reducing all damage that you take by 50% for 10 seconds but reducing all damage that you deal by 25%.",
       "category": "Ability",
-      "gameId": 8034
+      "gameId": 8034,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0": 25
+      },
+      "rawDescription": "The glory of the sun fills you with power, reducing all damage that you take by {COM_0_VAL0}% for {COM_0_DURA_SECONDS} but reducing all damage that you deal by {COM_1_VAL0}%."
     },
     {
       "image": "22704",
@@ -1189,7 +1538,9 @@
       "note": "",
       "description": "Smashing Counter, Shield Rush, and Vicious Slash no longer cost action points.",
       "category": "CareerTactic",
-      "gameId": 8046
+      "gameId": 8046,
+      "componentValues": {},
+      "rawDescription": "Smashing Counter, Shield Rush, and Vicious Slash no longer cost action points."
     }
   ]
 }

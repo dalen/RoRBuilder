@@ -8,7 +8,13 @@ import { readComponents, structureComponents } from './abilityComponents';
 import { structureAbilities, AbilityData } from './structureAbilities';
 import { stringMatch } from './utilities';
 
-import { CareerLine, AbilityType, TargetType, AbilityFlags } from './types';
+import {
+  CareerLine,
+  AbilityType,
+  TargetType,
+  AbilityFlags,
+  ComponentOP,
+} from './types';
 
 import archmage from '../data/abilities/archmage.json';
 import blackOrc from '../data/abilities/black-orc.json';
@@ -37,6 +43,8 @@ import zealot from '../data/abilities/zealot.json';
 
 import { Career, Ability } from '../helpers/abilities';
 import { validateNote } from './validateNote';
+import { validateDescription } from './validateDescription';
+import { validateComponentValues } from './validateComponentValues';
 
 const careerData: {
   archmage: Career;
@@ -91,7 +99,15 @@ const careerData: {
 } as const;
 
 const logAbility = (ability: AbilityData) => {
-  console.log(ability.AbilityID, ability.Name, ability.Description);
+  console.log(
+    ability.AbilityID,
+    colors.cyan(ability.Name),
+    ability.Description,
+  );
+};
+
+const logComponent = (component: AbilityData['Components'][0]) => {
+  console.log(component);
 };
 
 const logAbilityError = (ability: Ability, error: string) => {
@@ -375,10 +391,18 @@ const validateAbility = async (
   const gameAbility = abilityData[ability.gameId];
 
   // Debug
-  const printDebugAbilities: number[] = [8252];
+  const printDebugAbilities: number[] = [];
   if (printDebugAbilities.includes(gameAbility.AbilityID)) {
     console.log(JSON.stringify(gameAbility, undefined, 2));
   }
+  /* if (
+    gameAbility.Components.find(
+      component => component.Operation === ComponentOP.MECHANIC_CHANGE,
+    )
+  ) {
+    logAbility(gameAbility);
+    gameAbility.Components.forEach(logComponent);
+  } */
 
   return {
     ...ability,
@@ -390,6 +414,8 @@ const validateAbility = async (
     ...validateAPCost(ability, gameAbility),
     ...validateName(ability, gameAbility),
     ...validateNote(ability, gameAbility),
+    ...validateComponentValues(ability, gameAbility, abilityData),
+    ...validateDescription(ability, gameAbility),
   };
 };
 

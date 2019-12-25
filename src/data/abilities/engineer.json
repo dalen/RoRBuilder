@@ -83,7 +83,14 @@
       "note": "",
       "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 236 and suffer 427 Corporeal damage over 21 seconds.",
       "category": "Ability",
-      "gameId": 1514
+      "gameId": 1514,
+      "componentValues": {
+        "COM_1_RADI_FEET": 20,
+        "COM_2_VAL0": 236,
+        "COM_1_VAL0_TOD_CORPOREALDAMAGE": 427,
+        "COM_2_DURA_SECONDS": 21
+      },
+      "rawDescription": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within {COM_1_RADI_FEET} of them have Corporeal resistance reduced by {COM_2_VAL0} and suffer {COM_1_VAL0_TOD_CORPOREALDAMAGE} over {COM_2_DURA_SECONDS}."
     },
     {
       "image": "04605",
@@ -99,7 +106,12 @@
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 1516
+      "gameId": 1516,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You detaunt your target, making them hate you less and causing them to deal {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "22711",
@@ -115,7 +127,11 @@
       "note": "",
       "description": "Increases your Armor by 660.",
       "category": "CareerTactic",
-      "gameId": 716
+      "gameId": 716,
+      "componentValues": {
+        "COM_0_VAL0": 660
+      },
+      "rawDescription": "Increases your Armor by {COM_0_VAL0}."
     },
     {
       "image": "04620",
@@ -131,7 +147,12 @@
       "note": "",
       "description": "Everyone in your group within 100 feet takes only 80% damage for 20 seconds.",
       "category": "Morale",
-      "gameId": 1575
+      "gameId": 1575,
+      "componentValues": {
+        "COM_0_VAL0": 80,
+        "COM_0_DURA_SECONDS": 20
+      },
+      "rawDescription": "Everyone in your group within 100 feet takes only {COM_0_VAL0}% damage for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "04456",
@@ -147,7 +168,13 @@
       "note": "",
       "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 600 damage per second to all enemies within 30 feet of that spot.",
       "category": "Morale",
-      "gameId": 1581
+      "gameId": 1581,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 4,
+        "COM_1_VAL0_DAMAGE": 600,
+        "COM_1_RADI_FEET": 30
+      },
+      "rawDescription": "You select a spot on the ground and call in an artillery strike for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} per second to all enemies within {COM_1_RADI_FEET} of that spot."
     },
     {
       "image": "04619",
@@ -163,7 +190,12 @@
       "note": "",
       "description": "You regain action points 30% faster for 10 seconds.",
       "category": "Morale",
-      "gameId": 1574
+      "gameId": 1574,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You regain action points {COM_0_VAL0}% faster for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22706",
@@ -179,7 +211,11 @@
       "note": "",
       "description": "All of your Path of the Grenadier abilities cost 35% fewer action points.",
       "category": "CareerTactic",
-      "gameId": 1562
+      "gameId": 1562,
+      "componentValues": {
+        "COM_0_VAL1": 35
+      },
+      "rawDescription": "All of your Path of the Grenadier abilities cost {COM_0_VAL1}% fewer action points."
     },
     {
       "image": "04566",
@@ -195,7 +231,12 @@
       "note": "",
       "description": "You fling coils of barbed wire all around you, rooting all enemies within 30 feet in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability",
-      "gameId": 1519
+      "gameId": 1519,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "You fling coils of barbed wire all around you, rooting all enemies within {COM_0_RADI_FEET} in place for {COM_0_DURA_SECONDS}. There is a 50% chance of the root breaking with every hit."
     },
     {
       "image": "04606",
@@ -211,7 +252,12 @@
       "note": "",
       "description": "You fire a blast of short-range pellets which deal X damage to all enemies in front of you, up to 40 feet away.",
       "category": "Ability",
-      "gameId": 1517
+      "gameId": 1517,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_RADI_FEET": 40
+      },
+      "rawDescription": "You fire a blast of short-range pellets which deal {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
     },
     {
       "image": "23411",
@@ -227,7 +273,12 @@
       "note": "Not usable on Siege Rams or Oil",
       "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
       "category": "Ability",
-      "gameId": 14406
+      "gameId": 14406,
+      "componentValues": {
+        "COM_0_VAL0": 2,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Siege Targetted buff. Increases damage done by that siege engine by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "04607",
@@ -243,7 +294,14 @@
       "note": "",
       "description": "You construct a turret with an auto-firing grenade launcher which will attack enemies at a moderate range.  The turret gains 100% of your Ballistic Skill, 30% of your Weapon Skill, and 70% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.<BR>You will lose 4 stacks of this effect every time a turret is destroyed for any reason.",
       "category": "Ability",
-      "gameId": 1518
+      "gameId": 1518,
+      "componentValues": {
+        "ABIL_1069_COM_1_RADI_FEET": 0,
+        "ABIL_1069_COM_0_FREQ_SECONDS": 0,
+        "ABIL_1070_COM_0_VAL0": 0,
+        "ABIL_1070_COM_0_VAL1": 0
+      },
+      "rawDescription": "Construct a turret with a moderate range auto-firing grenade launcher. The turret gains 100% of BS, 30% of WS, and 70% of your Wounds from item bonuses.  While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, shorten the duration and tick interval of Path of Grenadier and Tinkerer DoTs by 4% to a maximum of 35% and allow Grenadier skills to be cast while moving. You lose 4 stacks of upgrades if the turret is destroyed."
     },
     {
       "image": "04568",
@@ -259,7 +317,14 @@
       "note": "",
       "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any group members within 30 feet of it, restoring 224 health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
       "category": "Ability",
-      "gameId": 1544
+      "gameId": 1544,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 0,
+        "COM_3_RADI_FEET": 0,
+        "COM_3_VAL0_COM_0_VAL0_HEALTH": 0,
+        "COM_2_FREQ_SECONDS": 0
+      },
+      "rawDescription": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next {COM_0_DURA_SECONDS}, the faint vapors escaping from the keg will rejuvenate any of your groupmates within {COM_3_RADI_FEET} of it, restoring {COM_3_VAL0_COM_0_VAL0_HEALTH} every {COM_2_FREQ_SECONDS}. You dream of the day that the brew will be aged enough to actually tap and drink."
     },
     {
       "image": "04649",
@@ -275,7 +340,12 @@
       "note": "",
       "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 252 for 60 minutes.",
       "category": "Ability",
-      "gameId": 1529
+      "gameId": 1529,
+      "componentValues": {
+        "COM_0_VAL0": 252,
+        "COM_0_DURA_MINUTES": 60
+      },
+      "rawDescription": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by {COM_0_VAL0} for {COM_0_DURA_MINUTES}."
     },
     {
       "image": "04621",
@@ -291,7 +361,13 @@
       "note": "",
       "description": "A massive cannonball smashes into your target, dealing 2400 damage and reducing their armor by 1400 for 30 seconds.",
       "category": "Morale",
-      "gameId": 1576
+      "gameId": 1576,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 2400,
+        "COM_1_VAL0": 1400,
+        "COM_1_DURA_SECONDS": 30
+      },
+      "rawDescription": "A massive cannonball smashes into your target, dealing {COM_0_VAL0_DAMAGE}  and reducing their armor by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22698",
@@ -307,7 +383,11 @@
       "note": "",
       "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 549
+      "gameId": 549,
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 75
+      },
+      "rawDescription": "If an enemy dodges any of your attacks, you will regain {COM_1_VAL0_ACTIONPOINTS}.<BR>This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "23162",
@@ -323,7 +403,11 @@
       "note": "",
       "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
       "category": "Morale",
-      "gameId": 652
+      "gameId": 652,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "04616",
@@ -339,7 +423,11 @@
       "note": "",
       "description": "You lob a grenade that releases a powerful shockwave on impact, dealing 291 Corporeal damage to your target and knocking them back a short distance. Monsters will be knocked down instead.",
       "category": "Ability",
-      "gameId": 1531
+      "gameId": 1531,
+      "componentValues": {
+        "COM_0_VAL0_CORPOREALDAMAGE": 291
+      },
+      "rawDescription": "You lob a grenade that releases a powerful shockwave on impact, dealing {COM_0_VAL0_CORPOREALDAMAGE} to your target and knocking them back a short distance.  Monsters will be knocked down instead."
     },
     {
       "image": "22708",
@@ -355,7 +443,12 @@
       "note": "",
       "description": "When your Land Mine detonates, any enemy hit by the blast will become disoriented for 10 seconds, increasing the build times of their abilities by 50%.",
       "category": "CareerTactic",
-      "gameId": 1549
+      "gameId": 1549,
+      "componentValues": {
+        "ABIL_3368_COM_0_DURA_SECONDS": 10,
+        "ABIL_3368_COM_0_VAL0": 50
+      },
+      "rawDescription": "When your Land Mine detonates, any enemy hit by the blast will become disoriented for {ABIL_3368_COM_0_DURA_SECONDS}, increasing the build times of their abilities by {ABIL_3368_COM_0_VAL0}%."
     },
     {
       "image": "22709",
@@ -371,7 +464,11 @@
       "note": "",
       "description": "Signal Flare will now also cause the victim to suffer 15% more damage from all sources.",
       "category": "CareerTactic",
-      "gameId": 1555
+      "gameId": 1555,
+      "componentValues": {
+        "ABIL_1521_COM_1_VAL0": 15
+      },
+      "rawDescription": "Signal Flare will now also cause the victim to suffer {ABIL_1521_COM_1_VAL0}% more damage from all sources."
     },
     {
       "image": "04614",
@@ -387,7 +484,12 @@
       "note": "",
       "description": "A well-aimed shot which deals 293 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
       "category": "Ability",
-      "gameId": 1536
+      "gameId": 1536,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 293,
+        "COM_1_DURA_SECONDS": 3
+      },
+      "rawDescription": "A well-aimed shot which deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_DURA_SECONDS}, making them unable to use their weapons."
     },
     {
       "image": "23406",
@@ -403,7 +505,12 @@
       "note": "Not usable on Siege Rams or Oil",
       "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
       "category": "Ability",
-      "gameId": 14408
+      "gameId": 14408,
+      "componentValues": {
+        "COM_0_VAL0": 98,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Siege Targetted debuff. Decreases damage done by that siege engine to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "04654",
@@ -419,7 +526,14 @@
       "note": "",
       "description": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within 75 feet inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within 30 feet, reducing their movement speed by 40% for 4 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability",
-      "gameId": 1542
+      "gameId": 1542,
+      "componentValues": {
+        "COM_1_RADI_FEET": 75,
+        "COM_3_RADI_FEET": 30,
+        "COM_3_VAL0": 40,
+        "COM_3_DURA_SECONDS": 4
+      },
+      "rawDescription": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within {COM_1_RADI_FEET} inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within {COM_3_RADI_FEET}, reducing their movement speed by {COM_3_VAL0}% for {COM_3_DURA_SECONDS}.<BR>The attack uses the Ranged statistic."
     },
     {
       "image": "22694",
@@ -435,7 +549,11 @@
       "note": "",
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic",
-      "gameId": 544
+      "gameId": 544,
+      "componentValues": {
+        "COM_0_VAL0": 50
+      },
+      "rawDescription": "Your cast times are reduced to {COM_0_VAL0}% when you are within 20 feet of your target."
     },
     {
       "image": "23163",
@@ -451,7 +569,12 @@
       "note": "",
       "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<br>This effect will not trigger more than once every second.",
       "category": "Morale",
-      "gameId": 650
+      "gameId": 650,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 300,
+        "COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "All of your ranged attacks will explode for the next 10 seconds, dealing {COM_1_VAL0_DAMAGE} to all enemies within {COM_1_RADI_FEET} of your target.<BR>This effect will not trigger more than once every second."
     },
     {
       "image": "22698",
@@ -467,7 +590,13 @@
       "note": "",
       "description": "When you construct a turret, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
       "category": "CareerTactic",
-      "gameId": 1551
+      "gameId": 1551,
+      "componentValues": {
+        "ABIL_1069_COM_2_VAL0_ACTIONPOINTS": 20,
+        "ABIL_1069_COM_2_RADI_FEET": 30,
+        "ABIL_1069_COM_0_FREQ_SECONDS": 2
+      },
+      "rawDescription": "When you construct a turret, it will restore {ABIL_1069_COM_2_VAL0_ACTIONPOINTS} to everyone within {ABIL_1069_COM_2_RADI_FEET} every {ABIL_1069_COM_0_FREQ_SECONDS}."
     },
     {
       "image": "22694",
@@ -483,7 +612,9 @@
       "note": "",
       "description": "Acid Bomb and Fragmentation Grenade gain a 50% increase to the size of their areas of effect.",
       "category": "CareerTactic",
-      "gameId": 1563
+      "gameId": 1563,
+      "componentValues": {},
+      "rawDescription": "Acid Bomb and Fragmentation Grenade gain a 50% increase to the size of their areas of effect."
     },
     {
       "image": "22704",
@@ -499,7 +630,12 @@
       "note": "",
       "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by 120, but reduces your Toughness by 120.",
       "category": "CareerTactic",
-      "gameId": 1552
+      "gameId": 1552,
+      "componentValues": {
+        "COM_0_VAL0": 120,
+        "COM_1_VAL0": 120
+      },
+      "rawDescription": "Increases your Strength, Ballistic Skill, and Weapon Skill by {COM_0_VAL0}, but reduces your Toughness by {COM_1_VAL0}."
     },
     {
       "image": "04468",
@@ -515,7 +651,11 @@
       "note": "",
       "description": "You toss a grenade filled with flaming pitch which deals 266 Corporeal damage to your target.",
       "category": "Ability",
-      "gameId": 1523
+      "gameId": 1523,
+      "componentValues": {
+        "COM_0_VAL0_CORPOREALDAMAGE": 266
+      },
+      "rawDescription": "You toss a grenade filled with flaming pitch which deals {COM_0_VAL0_CORPOREALDAMAGE} to your target."
     },
     {
       "image": "04620",
@@ -531,7 +671,12 @@
       "note": "",
       "description": "You don an experimental suit of protective gear, increasing your Armor by 560 for up to 1 hours.",
       "category": "Ability",
-      "gameId": 1527
+      "gameId": 1527,
+      "componentValues": {
+        "COM_0_VAL0": 560,
+        "COM_0_DURA_HOURS": 1
+      },
+      "rawDescription": "You don an experimental suit of protective gear, increasing your Armor by {COM_0_VAL0} for up to {COM_0_DURA_HOURS}."
     },
     {
       "image": "04613",
@@ -547,7 +692,14 @@
       "note": "",
       "description": "You construct a turret with a self-firing flamethrower which will attack enemies at close range. The turret gains 100% of your Ballistic Skill, 10% of your Weapon Skill, and 90% of your Wounds from item bonuses. While you are within 25feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.<BR>You will lose 4 stacks of this effect every time a turret is destroyed for any reason.",
       "category": "Ability",
-      "gameId": 1526
+      "gameId": 1526,
+      "componentValues": {
+        "ABIL_1069_COM_1_RADI_FEET": 0,
+        "ABIL_1069_COM_0_FREQ_SECONDS": 0,
+        "ABIL_1070_COM_0_VAL0": 0,
+        "ABIL_1070_COM_0_VAL1": 0
+      },
+      "rawDescription": "Construct a turret with a short range self-firing flamethrower. The turret gains 100% of BS, 10% of WS, and 90% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50% but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of upgrades if the turret is destroyed."
     },
     {
       "image": "04610",
@@ -563,7 +715,12 @@
       "note": "",
       "description": "You toss a grenade which explodes with a burst of force, dealing 291 Corporeal damage to the target. The blinding flash interrupts the victim and all enemies within 20 feet of them.",
       "category": "Ability",
-      "gameId": 1522
+      "gameId": 1522,
+      "componentValues": {
+        "COM_0_VAL0_CORPOREALDAMAGE": 291,
+        "COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "You toss a grenade which explodes with a burst of force, dealing {COM_0_VAL0_CORPOREALDAMAGE} to the target.  The blinding flash interrupts the victim and all enemies within {COM_1_RADI_FEET} of them."
     },
     {
       "image": "05004",
@@ -579,7 +736,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "04623",
@@ -595,7 +758,13 @@
       "note": "",
       "description": "You fling packets of explosives all around you for up to 4 seconds, dealing 600 damage each second to all enemies within 30 feet.",
       "category": "Morale",
-      "gameId": 1582
+      "gameId": 1582,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 4,
+        "COM_1_VAL0_DAMAGE": 600,
+        "COM_1_RADI_FEET": 30
+      },
+      "rawDescription": "You fling packets of explosives all around you for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} each second to all enemies within {COM_1_RADI_FEET}."
     },
     {
       "image": "04527",
@@ -611,7 +780,12 @@
       "note": "",
       "description": "You focus all of your shots on your enemy for up to 3 seconds, dealing 219 damage to them every second. This effect will end if you lose your concentration or run out of action points.",
       "category": "Ability",
-      "gameId": 1528
+      "gameId": 1528,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_0_VAL0_DAMAGE": 219
+      },
+      "rawDescription": "You focus all of your shots on your enemy for up to {COM_0_DURA_SECONDS}, dealing {COM_0_VAL0_DAMAGE} to them every second. This effect will end if you lose your concentration or run out of action points."
     },
     {
       "image": "23153",
@@ -627,7 +801,9 @@
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale",
-      "gameId": 653
+      "gameId": 653,
+      "componentValues": {},
+      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
     },
     {
       "image": "04656",
@@ -643,7 +819,13 @@
       "note": "",
       "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing 501 Corporeal damage over 9 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability",
-      "gameId": 1513
+      "gameId": 1513,
+      "componentValues": {
+        "COM_0_RADI_FEET": 40,
+        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 501,
+        "COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "A powerful swipe with your spanner which smacks all enemies in front of you up to {COM_0_RADI_FEET} away, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}.<BR>The attack uses the Ranged statistic."
     },
     {
       "image": "04460",
@@ -659,7 +841,11 @@
       "note": "",
       "description": "A gun attack which deals 387 damage to your enemy.",
       "category": "Ability",
-      "gameId": 1508
+      "gameId": 1508,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 387
+      },
+      "rawDescription": "A gun attack which deals {COM_0_VAL0_DAMAGE} to your enemy."
     },
     {
       "image": "04602",
@@ -675,7 +861,14 @@
       "note": "",
       "description": "You construct a turret with a self-aiming gun which will fire at distant enemies. The turret gains 75% of your Ballistic Skill and Weapon Skill from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.<BR><BR>You will lose 4 stacks of this effect every time a turret is destroyed for any reason.",
       "category": "Ability",
-      "gameId": 1511
+      "gameId": 1511,
+      "componentValues": {
+        "ABIL_1069_COM_1_RADI_FEET": 0,
+        "ABIL_1069_COM_0_FREQ_SECONDS": 0,
+        "ABIL_1070_COM_0_VAL0": 0,
+        "ABIL_1070_COM_0_VAL1": 0
+      },
+      "rawDescription": "Construct a turret with a long range self-aiming gun. The turret gains 75% of BS and WS from item bonuses and 50% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}% and increase your range by 5% to a maximum of 25% extra range. You lose 4 stacks of upgrades if the turret is destroyed."
     },
     {
       "image": "23164",
@@ -691,7 +884,14 @@
       "note": "",
       "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
       "category": "Morale",
-      "gameId": 651
+      "gameId": 651,
+      "componentValues": {
+        "COM_1_FREQ_SECONDS": 0,
+        "COM_1_DURA_SECONDS": 5,
+        "COM_1_RADI_FEET": 20,
+        "COM_1_VAL0_DAMAGE": 300
+      },
+      "rawDescription": "You focus on a spot on the ground, shooting arrows at that spot every {COM_1_FREQ_SECONDS} for {COM_1_DURA_SECONDS}, hitting all enemies within {COM_1_RADI_FEET} of that area for {COM_1_VAL0_DAMAGE} as long as you maintain your concentration."
     },
     {
       "image": "23409",
@@ -707,7 +907,12 @@
       "note": "Not usable on Siege Rams or Oil",
       "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
       "category": "Ability",
-      "gameId": 14407
+      "gameId": 14407,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Siege Targetted debuff. Increases the cooldown times of that siege engine by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}"
     },
     {
       "image": "22697",
@@ -723,7 +928,11 @@
       "note": "",
       "description": "Increases your autoattack speed by 50% when using a gun.",
       "category": "CareerTactic",
-      "gameId": 1550
+      "gameId": 1550,
+      "componentValues": {
+        "COM_0_VAL1": 50
+      },
+      "rawDescription": "Increases your autoattack speed by {COM_0_VAL1}% when using a gun."
     },
     {
       "image": "04608",
@@ -739,7 +948,11 @@
       "note": "",
       "description": "A quick shot from the hip which deals 216 damage. This attack may be used at close range.",
       "category": "Ability",
-      "gameId": 1520
+      "gameId": 1520,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 216
+      },
+      "rawDescription": "A quick shot from the hip which deals {COM_0_VAL0_DAMAGE}.  This attack may be used at close range."
     },
     {
       "image": "22697",
@@ -755,7 +968,12 @@
       "note": "",
       "description": "Snipe and Gun Blast will now deal an additional 505 damage over 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 1560
+      "gameId": 1560,
+      "componentValues": {
+        "ABIL_3838_COM_0_VAL0_TOD_DAMAGE": 505,
+        "ABIL_3838_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Snipe and Gun Blast will now deal an additional {ABIL_3838_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3838_COM_0_DURA_SECONDS}."
     },
     {
       "image": "04457",
@@ -771,7 +989,12 @@
       "note": "",
       "description": "You fire bullets that burst into flame when they strike the enemy, dealing 860 Corporeal damage over 15 seconds.",
       "category": "Ability",
-      "gameId": 1515
+      "gameId": 1515,
+      "componentValues": {
+        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 860,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "You fire bullets that burst into flame when they strike the enemy, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "04611",
@@ -787,7 +1010,14 @@
       "note": "",
       "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minute. The mine will detonate when an enemy gets too close, dealing 243 damage to all enemies within 30 feet and staggering them for up to 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
-      "gameId": 1524
+      "gameId": 1524,
+      "componentValues": {
+        "COM_0_DURA_MINUTES": 1,
+        "ABIL_31_COM_0_VAL0_DAMAGE": 243,
+        "COM_2_RADI_FEET": 30,
+        "ABIL_31_COM_2_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "You fling out a land mine which arms itself immediately and persists for up to {COM_0_DURA_MINUTES}.  The mine will detonate when an enemy gets too close, dealing {ABIL_31_COM_0_VAL0_DAMAGE} to all enemies within {COM_2_RADI_FEET} and staggering them for up to {ABIL_31_COM_2_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
     },
     {
       "image": "04655",
@@ -803,7 +1033,14 @@
       "note": "",
       "description": "You deploy a shock rod at your feet which will remain for up to 9 seconds and periodically blast out with waves of power, dealing 229 Corporeal damage every 3 seconds to all enemies within 30 feet of it.",
       "category": "Ability",
-      "gameId": 1543
+      "gameId": 1543,
+      "componentValues": {
+        "COM_4_DURA_SECONDS": 9,
+        "COM_2_VAL0_COM_0_VAL0_CORPOREALDAMAGE": 229,
+        "COM_0_FREQ_SECONDS": 3,
+        "COM_2_RADI_FEET": 30
+      },
+      "rawDescription": "You deploy a shock rod at your feet which will remain for up to {COM_4_DURA_SECONDS} and periodically blast out with waves of power, dealing {COM_2_VAL0_COM_0_VAL0_CORPOREALDAMAGE} every {COM_0_FREQ_SECONDS} to all enemies within {COM_2_RADI_FEET} of it."
     },
     {
       "image": "22697",
@@ -819,7 +1056,11 @@
       "note": "",
       "description": "Increases your Ballistic Skill by 160",
       "category": "CareerTactic",
-      "gameId": 542
+      "gameId": 542,
+      "componentValues": {
+        "COM_0_VAL0": 0
+      },
+      "rawDescription": "Increases your Ballistic Skill by {COM_0_VAL0}."
     },
     {
       "image": "04653",
@@ -835,7 +1076,19 @@
       "note": "",
       "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing 79 Corporeal damage during the first 10 seconds, 146 Corporeal damage for the next 10 seconds, and 212 Corporeal damage for the final 10 seconds. <br> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
       "category": "Ability",
-      "gameId": 1537
+      "gameId": 1537,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 30,
+        "COM_2_FREQ_SECONDS": 2,
+        "COM_3_RADI_FEET": 20,
+        "COM_3_VAL0_CORPOREALDAMAGE": 79,
+        "COM_2_DURA_SECONDS": 10,
+        "COM_5_VAL0_CORPOREALDAMAGE": 146,
+        "COM_4_DURA_SECONDS": 10,
+        "COM_7_VAL0_CORPOREALDAMAGE": 212,
+        "COM_6_DURA_SECONDS": 10
+      },
+      "rawDescription": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for {COM_0_DURA_SECONDS}, causing damaging every {COM_2_FREQ_SECONDS} to any enemies who come within {COM_3_RADI_FEET} of that spot. The fires increase in intensity over time, causing {COM_3_VAL0_CORPOREALDAMAGE} during the first {COM_2_DURA_SECONDS}, {COM_5_VAL0_CORPOREALDAMAGE} for the next {COM_4_DURA_SECONDS}, and {COM_7_VAL0_CORPOREALDAMAGE} for the final {COM_6_DURA_SECONDS}. <BR> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage."
     },
     {
       "image": "abi_dw_explosion01",
@@ -851,7 +1104,13 @@
       "note": "",
       "description": "A barrage of mortar attacks which continously fire at a spot on the ground that you select for up to 6 seconds, dealing 243 Corporeal damage every 2 secpnds to all enemies within 20 feet of that spot, and snares them by 20%. This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
       "category": "Ability",
-      "gameId": 1541
+      "gameId": 1541,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 0,
+        "COM_2_VAL0_CORPOREALDAMAGE": 0,
+        "COM_2_RADI_FEET": 0
+      },
+      "rawDescription": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to {COM_0_DURA_SECONDS}, dealing {COM_2_VAL0_CORPOREALDAMAGE} every 2 seconds to all enemies within {COM_2_RADI_FEET} of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel."
     },
     {
       "image": "22709",
@@ -867,7 +1126,12 @@
       "note": "",
       "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 550
+      "gameId": 550,
+      "componentValues": {
+        "ABIL_3880_COM_0_VAL0": 15,
+        "ABIL_3880_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by {ABIL_3880_COM_0_VAL0}% for {ABIL_3880_COM_0_DURA_SECONDS}."
     },
     {
       "image": "23165",
@@ -883,7 +1147,11 @@
       "note": "",
       "description": "A mid-range attack that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale",
-      "gameId": 648
+      "gameId": 648,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 600
+      },
+      "rawDescription": "A mid-range attack that deals {COM_0_VAL0_DAMAGE} and knocks the targeted player away. Monsters will be knocked down."
     },
     {
       "image": "22694",
@@ -899,7 +1167,12 @@
       "note": "",
       "description": "Increases the chance for you and your groupmates to detect hidden enemies by 50% while you or your group are within 20 feet feet of your turret.",
       "category": "CareerTactic",
-      "gameId": 1553
+      "gameId": 1553,
+      "componentValues": {
+        "COM_1_VAL1": 50,
+        "COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "Increases the chance for you and your groupmates to detect hidden enemies by {COM_1_VAL1}% while you or your group are within {COM_1_RADI_FEET} feet of your turret."
     },
     {
       "image": "22704",
@@ -915,7 +1188,11 @@
       "note": "",
       "description": "All of your Path of the Rifleman abilities cost 35% fewer action points.",
       "category": "CareerTactic",
-      "gameId": 1559
+      "gameId": 1559,
+      "componentValues": {
+        "COM_0_VAL1": 35
+      },
+      "rawDescription": "All of your Path of the Rifleman abilities cost {COM_0_VAL1}% fewer action points."
     },
     {
       "image": "04652",
@@ -931,7 +1208,9 @@
       "note": "Requires a Turret",
       "description": "You activate your Turret's automatic redeployment mechanism, instantly moving it to your current location.",
       "category": "Ability",
-      "gameId": 1532
+      "gameId": 1532,
+      "componentValues": {},
+      "rawDescription": "You activate your Turret's automatic redeployment mechanism, instantly moving it to your current location."
     },
     {
       "image": "22694",
@@ -947,7 +1226,11 @@
       "note": "",
       "description": "Adds 160 Wounds to your turrets.",
       "category": "CareerTactic",
-      "gameId": 1548
+      "gameId": 1548,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Adds {COM_0_VAL0} Wounds to your turrets."
     },
     {
       "image": "04622",
@@ -963,7 +1246,13 @@
       "note": "",
       "description": "You release a string of several gun blasts in a row for up to 4 seconds, dealing 600 damage each second to all enemies in front of you, up to 40 feet away.",
       "category": "Morale",
-      "gameId": 1580
+      "gameId": 1580,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 4,
+        "COM_1_VAL0_DAMAGE": 600,
+        "COM_1_RADI_FEET": 40
+      },
+      "rawDescription": "You release a string of several gun blasts in a row for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} each second to all enemies in front of you, up to {COM_1_RADI_FEET} away."
     },
     {
       "image": "04612",
@@ -979,7 +1268,13 @@
       "note": "Requires a Turret",
       "description": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing 370 Corporeal damage to all enemies within 30 feet of it, knocking them down for 2 seconds.",
       "category": "Ability",
-      "gameId": 1525
+      "gameId": 1525,
+      "componentValues": {
+        "COM_1_VAL0_CORPOREALDAMAGE": 370,
+        "COM_1_RADI_FEET": 30,
+        "COM_2_DURA_SECONDS": 2
+      },
+      "rawDescription": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing {COM_1_VAL0_CORPOREALDAMAGE} to all enemies within {COM_1_RADI_FEET} of it, knocking them down for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "04603",
@@ -995,7 +1290,11 @@
       "note": "",
       "description": "You toss a grenade at an ally which removes stagger effects from them and five others within 25 feet.",
       "category": "Ability",
-      "gameId": 1512
+      "gameId": 1512,
+      "componentValues": {
+        "COM_1_RADI_FEET": 25
+      },
+      "rawDescription": "You toss a grenade at an ally which removes stagger effects from them and five others within {COM_1_RADI_FEET}."
     },
     {
       "image": "04609",
@@ -1011,7 +1310,13 @@
       "note": "",
       "description": "You mark the enemy with a bright signal flare, dealing 1225 damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
       "category": "Ability",
-      "gameId": 1521
+      "gameId": 1521,
+      "componentValues": {
+        "COM_2_VAL0_TOD_DAMAGE": 1225,
+        "COM_2_DURA_SECONDS": 21,
+        "COM_0_VAL0": 5
+      },
+      "rawDescription": "You mark the enemy with a bright signal flare, dealing {COM_2_VAL0_TOD_DAMAGE} over {COM_2_DURA_SECONDS} and reducing their chances to dodge or block attacks by {COM_0_VAL0}%."
     },
     {
       "image": "04615",
@@ -1027,7 +1332,11 @@
       "note": "",
       "description": "A slow but powerful gun shot which deals 538 damage to your enemy and can not be defended against.",
       "category": "Ability",
-      "gameId": 1538
+      "gameId": 1538,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "A slow but powerful gun shot which deals {COM_0_VAL0_DAMAGE} to your enemy and cannot be defended against."
     },
     {
       "image": "04466",
@@ -1043,7 +1352,13 @@
       "note": "",
       "description": "You clobber your enemy with your spanner, dealing 253 damage and reducing their run speed by 40% for 10 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability",
-      "gameId": 1509
+      "gameId": 1509,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 253,
+        "COM_1_VAL0": 40,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "You clobber your enemy with your spanner, dealing {COM_0_VAL0_DAMAGE} and reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR>The attack uses the Ranged statistic."
     },
     {
       "image": "04651",
@@ -1059,7 +1374,12 @@
       "note": "",
       "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing 158 Corporeal damage to all enemies within 30 feet.",
       "category": "Ability",
-      "gameId": 1530
+      "gameId": 1530,
+      "componentValues": {
+        "COM_0_VAL0_CORPOREALDAMAGE": 158,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing {COM_0_VAL0_CORPOREALDAMAGE} to all enemies within {COM_0_RADI_FEET}."
     },
     {
       "image": "04476",
@@ -1075,7 +1395,14 @@
       "note": "",
       "description": "A packet of explosives which sticks to your target and slowly burns, dealing 432 Corporeal damage over 15 seconds. If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing 183 Corporeal damage to the victim and all enemies within 20 feet of them.",
       "category": "Ability",
-      "gameId": 1539
+      "gameId": 1539,
+      "componentValues": {
+        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 432,
+        "COM_0_DURA_SECONDS": 15,
+        "ABIL_3211_COM_0_VAL0_CORPOREALDAMAGE": 183,
+        "ABIL_3211_COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "A packet of explosives which sticks to your target and slowly burns, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}.  If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing {ABIL_3211_COM_0_VAL0_CORPOREALDAMAGE} to the victim and all enemies within {ABIL_3211_COM_1_RADI_FEET} of them."
     },
     {
       "image": "22708",
@@ -1091,7 +1418,9 @@
       "note": "",
       "description": "Hip Shot now will knock the victim back a short distance.",
       "category": "CareerTactic",
-      "gameId": 1561
+      "gameId": 1561,
+      "componentValues": {},
+      "rawDescription": "Hip Shot now will knock the victim back a short distance."
     },
     {
       "image": "22711",
@@ -1107,7 +1436,11 @@
       "note": "",
       "description": "You recover from Stuns and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
       "category": "CareerTactic",
-      "gameId": 713
+      "gameId": 713,
+      "componentValues": {
+        "COM_0_VAL1": 50
+      },
+      "rawDescription": "You recover from Stuns and Knockdowns {COM_0_VAL1}% quicker. You will still gain immunity based on the original duration."
     },
     {
       "image": "04531",
@@ -1123,7 +1456,12 @@
       "note": "",
       "description": "You call for air support, signaling for a strafing run which deals 403 damage to all enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
       "category": "Ability",
-      "gameId": 1540
+      "gameId": 1540,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 403,
+        "COM_0_RADI_FEET": 65
+      },
+      "rawDescription": "You call for air support, signaling for a strafing run which deals {COM_0_VAL0_DAMAGE} to all enemies in a line in front of you, up to {COM_0_RADI_FEET} away.  Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down."
     },
     {
       "image": "22711",
@@ -1139,7 +1477,11 @@
       "note": "",
       "description": "Increases your Corporeal resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 714
+      "gameId": 714,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Corporeal resistance by {COM_0_VAL0}."
     },
     {
       "image": "22697",
@@ -1155,7 +1497,13 @@
       "note": "",
       "description": "After ending or being removed, Barbed Wire will now Snare targets by 40% and deal 246 damage over 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 1554
+      "gameId": 1554,
+      "componentValues": {
+        "ABIL_3468_COM_1_VAL0": 40,
+        "ABIL_3468_COM_0_VAL0_TOD_DAMAGE": 246,
+        "ABIL_3468_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "After ending or being removed, Barbed Wire will now Snare targets by {ABIL_3468_COM_1_VAL0}% and deal {ABIL_3468_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3468_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22697",
@@ -1171,7 +1519,11 @@
       "note": "",
       "description": "Increases the ranges of all Path of the Grenadier abilities by 25%.",
       "category": "CareerTactic",
-      "gameId": 1564
+      "gameId": 1564,
+      "componentValues": {
+        "COM_0_VAL1": 25
+      },
+      "rawDescription": "Increases the ranges of all Path of the Grenadier abilities by {COM_0_VAL1}%."
     },
     {
       "image": "22697",
@@ -1187,7 +1539,11 @@
       "note": "",
       "description": "Increases your chance to critically hit by 15% as long as you are within 100 feet of your turret.",
       "category": "CareerTactic",
-      "gameId": 1566
+      "gameId": 1566,
+      "componentValues": {
+        "COM_0_VAL1": 15
+      },
+      "rawDescription": "Increases your chance to critically hit by {COM_0_VAL1}% as long as you are within 100 feet of your turret."
     },
     {
       "image": "22698",
@@ -1203,7 +1559,11 @@
       "note": "",
       "description": "Your damage is increased by 15% when under 45 feet away from your target.",
       "category": "CareerTactic",
-      "gameId": 1567
+      "gameId": 1567,
+      "componentValues": {
+        "COM_1_VAL0": 15
+      },
+      "rawDescription": "Your damage is increased by {COM_1_VAL0}% when under 45 feet away from your target."
     },
     {
       "image": "22709",
@@ -1219,7 +1579,9 @@
       "note": "",
       "description": "You can now construct your turrets instantly and the cost of Redeploy is reduced to 0 Action Points.",
       "category": "CareerTactic",
-      "gameId": 1565
+      "gameId": 1565,
+      "componentValues": {},
+      "rawDescription": "You can now construct your turrets instantly and the cost of Redeploy is reduced to 0 Action Points."
     },
     {
       "image": "abi_dw_gun01",
@@ -1235,7 +1597,11 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You load your rifle with the finest of rounds. Your attacks will ignore 25% of the victim's armor for 12seconds.",
-      "category": "Ability"
+      "category": "Ability",
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You load your rifle with the finest of rounds, your attacks will ignore 25% the victim's armor for the next {COM_0_DURA_SECONDS}."
     },
     {
       "image": "abi_dw_explosion01",
@@ -1251,7 +1617,12 @@
       "note": "",
       "description": "You fire a mortar at your target, dealing 300 damage to them and everyone within 20 feet every second for 4 seconds.",
       "category": "Morale",
-      "gameId": 2712
+      "gameId": 2712,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 300,
+        "COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "You fire a mortar at your target, dealing {COM_1_VAL0_DAMAGE} to them and everyone within {COM_1_RADI_FEET} every second for 4 seconds."
     }
   ]
 }

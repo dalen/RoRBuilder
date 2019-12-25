@@ -83,7 +83,15 @@
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 500 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale",
-      "gameId": 697
+      "gameId": 697,
+      "componentValues": {
+        "COM_1_RADI_FEET": 30,
+        "ABIL_3884_COM_0_VAL0_TOD": 500,
+        "ABIL_3884_COM_0_DURA_SECONDS": 9,
+        "ABIL_3876_COM_0_VAL0": 20,
+        "ABIL_3876_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Resurrects all groupmates within {COM_1_RADI_FEET}. Anyone who is brought back from the dead will also be healed for {ABIL_3884_COM_0_VAL0_TOD} over {ABIL_3884_COM_0_DURA_SECONDS}, and they will deal {ABIL_3876_COM_0_VAL0}% more damage for {ABIL_3876_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22709",
@@ -99,7 +107,11 @@
       "note": "",
       "description": "Healing abilities have a 25% chance to also increase your target's AP by 50. This effect will not work on yourself.",
       "category": "CareerTactic",
-      "gameId": 1632
+      "gameId": 1632,
+      "componentValues": {
+        "COM_1_VAL0": 50
+      },
+      "rawDescription": "Healing abilities have a 25% chance to also increase your target's AP by {COM_1_VAL0}. This effect will not work on yourself."
     },
     {
       "image": "22706",
@@ -115,7 +127,12 @@
       "note": "",
       "description": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to 475 damage over 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 1639
+      "gameId": 1639,
+      "componentValues": {
+        "ABIL_3470_COM_0_VAL1_DAMAGE": 475,
+        "ABIL_3470_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to {ABIL_3470_COM_0_VAL1_DAMAGE} over {ABIL_3470_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22711",
@@ -131,7 +148,11 @@
       "note": "",
       "description": "Increases your Armor by 660.",
       "category": "CareerTactic",
-      "gameId": 716
+      "gameId": 716,
+      "componentValues": {
+        "COM_0_VAL0": 660
+      },
+      "rawDescription": "Increases your Armor by {COM_0_VAL0}."
     },
     {
       "image": "22704",
@@ -147,7 +168,11 @@
       "note": "",
       "description": "Critical direct heals will Bless your target for 10 seconds, increasing the power of any heals used on them by 25%.",
       "category": "CareerTactic",
-      "gameId": 1624
+      "gameId": 1624,
+      "componentValues": {
+        "ABIL_3777_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Critical direct heals will Bless your target for {ABIL_3777_COM_0_DURA_SECONDS}, increasing the power of any heals used on them by 25%."
     },
     {
       "image": "04489",
@@ -163,7 +188,11 @@
       "note": "",
       "description": "Heals all groupmembers within 100 feet for 679 health.",
       "category": "Ability",
-      "gameId": 1604
+      "gameId": 1604,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 0
+      },
+      "rawDescription": "Heals all group members within 100 feet for {COM_0_VAL0_HEALTH}."
     },
     {
       "image": "23404",
@@ -179,7 +208,9 @@
       "note": "Only usable on Siege Engines",
       "description": "Siege Targetted cleanse. Removes two siege specific debuffs from a friendly siege engine.",
       "category": "Ability",
-      "gameId": 14415
+      "gameId": 14415,
+      "componentValues": {},
+      "rawDescription": "Siege Targetted cleanse. Removes two siege specific debuffs from a friendly siege engine."
     },
     {
       "image": "22706",
@@ -195,7 +226,12 @@
       "note": "",
       "description": "Rune of Cleansing will now heal the defensive target for 399 over 9 seconds if an effect was successfully removed.",
       "category": "CareerTactic",
-      "gameId": 1623
+      "gameId": 1623,
+      "componentValues": {
+        "ABIL_3993_COM_0_VAL0_TOD": 399,
+        "ABIL_3993_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Rune of Cleansing will now heal the defensive target for {ABIL_3993_COM_0_VAL0_TOD} over {ABIL_3993_COM_0_DURA_SECONDS} if an effect was successfully removed."
     },
     {
       "image": "22709",
@@ -211,7 +247,11 @@
       "note": "",
       "description": "Rune of cleaving grows ever more potent and now also reduces armor by 618.",
       "category": "CareerTactic",
-      "gameId": 1638
+      "gameId": 1638,
+      "componentValues": {
+        "ABIL_1597_COM_3_VAL0": 0
+      },
+      "rawDescription": "Rune of Cleaving grows ever more potent and now also reduces Armor by {ABIL_1597_COM_3_VAL0}."
     },
     {
       "image": "22706",
@@ -227,7 +267,11 @@
       "note": "",
       "description": "Increases your Willpower by 160.",
       "category": "CareerTactic",
-      "gameId": 592
+      "gameId": 592,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Willpower by {COM_0_VAL0}."
     },
     {
       "image": "23151",
@@ -243,7 +287,11 @@
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
       "category": "Morale",
-      "gameId": 694
+      "gameId": 694,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 1800
+      },
+      "rawDescription": "A strong heal that will restore {COM_0_VAL0_HEALTH} to your target."
     },
     {
       "image": "22703",
@@ -259,7 +307,12 @@
       "note": "",
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
       "category": "CareerTactic",
-      "gameId": 585
+      "gameId": 585,
+      "componentValues": {
+        "COM_0_VAL0": 25,
+        "COM_1_VAL1": 20
+      },
+      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your healing becomes {COM_1_VAL1}% less effective."
     },
     {
       "image": "23152",
@@ -275,7 +328,12 @@
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
       "category": "Morale",
-      "gameId": 696
+      "gameId": 696,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_0_VAL1_DAMAGE": 4500
+      },
+      "rawDescription": "Each group member within 100 feet is surrounded by a protective shield for the next {COM_0_DURA_SECONDS} that will absorb up to {COM_0_VAL1_DAMAGE} from melee abilities."
     },
     {
       "image": "22704",
@@ -291,7 +349,12 @@
       "note": "",
       "description": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by 120 for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 1636
+      "gameId": 1636,
+      "componentValues": {
+        "ABIL_3472_COM_0_VAL0": 120,
+        "ABIL_3472_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by {ABIL_3472_COM_0_VAL0} for {ABIL_3472_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22708",
@@ -307,7 +370,9 @@
       "note": "",
       "description": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
       "category": "CareerTactic",
-      "gameId": 1637
+      "gameId": 1637,
+      "componentValues": {},
+      "rawDescription": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt."
     },
     {
       "image": "22694",
@@ -323,7 +388,9 @@
       "note": "",
       "description": "Increases the area of effect of Rune of Cleaving and Rune of Battle by 50%.",
       "category": "CareerTactic",
-      "gameId": 1640
+      "gameId": 1640,
+      "componentValues": {},
+      "rawDescription": "Increases the area of effect of Rune of Cleaving and Rune of Battle by 50%."
     },
     {
       "image": "05004",
@@ -339,7 +406,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "23153",
@@ -355,7 +428,9 @@
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale",
-      "gameId": 695
+      "gameId": 695,
+      "componentValues": {},
+      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
     },
     {
       "image": "04557",
@@ -371,7 +446,11 @@
       "note": "",
       "description": "Resurrects all fallen groupmembers within 30 feet, and does not cause Resurrection Sickness. Anyone resurrected by this effect will regain 50% of their hit points.",
       "category": "Ability",
-      "gameId": 1619
+      "gameId": 1619,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Resurrects all fallen groupmembers within {COM_0_RADI_FEET}, and does not cause Resurrection Sickness.  Anyone resurrected by this effect will regain 50% of their hit points."
     },
     {
       "image": "04628",
@@ -387,7 +466,13 @@
       "note": "",
       "description": "You will take only 50% damage and your abilities will cost 25% fewer Action Points for 10 seconds. During this time you generate almost no threat, and can not be set back while casting.",
       "category": "Ability",
-      "gameId": 1592
+      "gameId": 1592,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_1_VAL1": 25,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You will take only {COM_0_VAL0}% damage and your abilities will cost {COM_1_VAL1}% fewer Action Points for {COM_0_DURA_SECONDS}. During this time you generate almost no threat, and can not be set back while casting."
     },
     {
       "image": "04625",
@@ -403,7 +488,11 @@
       "note": "",
       "description": "Grungni blesses your target, restoring 303 health.",
       "category": "Ability",
-      "gameId": 1587
+      "gameId": 1587,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 303
+      },
+      "rawDescription": "Grungni blesses your target, restoring {COM_0_VAL0_HEALTH}."
     },
     {
       "image": "22694",
@@ -419,7 +508,13 @@
       "note": "",
       "description": "Each tick of Rune of Immolation has a 25% chance to drain 30 Action Points from target and snare them by 40% for 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 1635
+      "gameId": 1635,
+      "componentValues": {
+        "ABIL_3500_COM_1_VAL0_ACTIONPOINTS": 0,
+        "ABIL_3500_COM_0_VAL0": 0,
+        "ABIL_3500_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Each tick of Rune of Immolation has a 25% chance to drain {ABIL_3500_COM_1_VAL0_ACTIONPOINTS} from the target and snare them by {ABIL_3500_COM_0_VAL0}% for {ABIL_3500_COM_0_DURA_SECONDS}."
     },
     {
       "image": "04502",
@@ -435,7 +530,14 @@
       "note": "You may only have 1 Master Rune active",
       "description": "Inscribes a Master rune into the ground for 30 seconds. Heals Groupmates within 100 feet of the Rune of Adamant for 146 health every 3 seconds while the Master rune is active.",
       "category": "Ability",
-      "gameId": 1618
+      "gameId": 1618,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 30,
+        "COM_1_RADI_FEET": 100,
+        "COM_1_VAL0_HEALTH": 146,
+        "COM_0_FREQ_SECONDS": 3
+      },
+      "rawDescription": "Inscribes a Master rune into the ground for {COM_0_DURA_SECONDS}. Heals Groupmates within {COM_1_RADI_FEET} of the Rune of Adamant for {COM_1_VAL0_HEALTH} every {COM_0_FREQ_SECONDS} while the Master rune is active."
     },
     {
       "image": "04637",
@@ -451,7 +553,12 @@
       "note": "You may only have 1 Master Rune active",
       "description": "Inscribes a Master rune into the ground for 30 seconds. Groupmates within the 100 feet of the Rune of Fury have a 20% chance to gain 50 AP whenever they activate an ability.",
       "category": "Ability",
-      "gameId": 1612
+      "gameId": 1612,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 30,
+        "COM_2_VAL0": 50
+      },
+      "rawDescription": "Inscribes a Master rune into the ground for {COM_0_DURA_SECONDS}. Groupmates within the 100 feet of the Rune of Fury have a 20% chance to gain {COM_2_VAL0} AP whenever they activate an ability."
     },
     {
       "image": "04640",
@@ -467,7 +574,11 @@
       "note": "You may only have 1 Master Rune active",
       "description": "Inscribes a Master rune into the ground for 30 seconds. Groupmates within 100 feet of the Rune of Speed have their buildup times reduced by 0.25 seconds.",
       "category": "Ability",
-      "gameId": 1615
+      "gameId": 1615,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 30
+      },
+      "rawDescription": "Inscribes a Master rune into the ground for {COM_0_DURA_SECONDS}. Groupmates within 100 feet of the Rune of Speed have their buildup times reduced by 0.25 seconds."
     },
     {
       "image": "04642",
@@ -483,7 +594,13 @@
       "note": "",
       "description": "Increase the armor of all group mates within 100 feet by 1320 and resists by 504 for 10 seconds.",
       "category": "Morale",
-      "gameId": 1644
+      "gameId": 1644,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "COM_1_VAL0": 0,
+        "COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "Increases the armor of all group mates within 100 feet by {COM_0_VAL0} and resists by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "04634",
@@ -499,7 +616,13 @@
       "note": "",
       "description": "Increase targeted group member's Initiative and Willpower by 50 for 1 hour. The rune holder may activate it to inflict 488 Elemental damage over 9 seconds.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
-      "gameId": 1600
+      "gameId": 1600,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "ABIL_3870_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "ABIL_3870_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Increases the targeted group member's Initiative and Willpower by {COM_0_VAL0} for 1 hour. The rune holder may activate it to inflict {ABIL_3870_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3870_COM_0_DURA_SECONDS}.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
     },
     {
       "image": "04562",
@@ -515,7 +638,12 @@
       "note": "",
       "description": "Increases target group member's Strength, Ballistic Skill, and Intelligence by 50 for 1 hour. The rune holder may activate to inflict 234 Elemental damage to a target.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
-      "gameId": 1591
+      "gameId": 1591,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE": 0
+      },
+      "rawDescription": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by {COM_0_VAL0} for 1 hour. The rune holder may activate to inflict {ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE} to a target.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
     },
     {
       "image": "04554",
@@ -531,7 +659,11 @@
       "note": "",
       "description": "Increases targeted group member's Toughness by 80 for 1 hour. The rune holder will then be able to resurrect themselves with 20% health if killed within the next 10 minutes. Doing so will remove the Oath Rune.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
-      "gameId": 1608
+      "gameId": 1608,
+      "componentValues": {
+        "COM_5_VAL0": 0
+      },
+      "rawDescription": "Increases the targeted group member's Toughness by {COM_5_VAL0} for 1 hour. The rune holder will then be able to resurrect themselves with 20% health if killed within the next 10 minutes. Doing so will remove the Oath Rune.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
     },
     {
       "image": "04626",
@@ -547,7 +679,14 @@
       "note": "",
       "description": "Increases targeted group member's Resists by 157 for 1 hour. The rune holder may activate it to inflict 344 Elemental damage over 9 seconds to all targets within 30 feet.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
-      "gameId": 1588
+      "gameId": 1588,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "ABIL_3868_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "ABIL_3868_COM_0_DURA_SECONDS": 0,
+        "ABIL_3868_COM_0_RADI_FEET": 0
+      },
+      "rawDescription": "Increases all of the targeted group member's resistances by {COM_0_VAL0} for 1 hour. The rune holder may activate it to inflict {ABIL_3868_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3868_COM_0_DURA_SECONDS} to all targets within {ABIL_3868_COM_0_RADI_FEET}.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
     },
     {
       "image": "22706",
@@ -563,7 +702,13 @@
       "note": "",
       "description": "Rune of Life, Rune of Sanctuary and Grimnir's Fury will heal the target for 132 health over 5 seconds and will restore 70 Action Points when the target is resurrected.",
       "category": "CareerTactic",
-      "gameId": 1627
+      "gameId": 1627,
+      "componentValues": {
+        "ABIL_3878_COM_0_VAL0_TOD_HEALTH": 132,
+        "ABIL_3878_COM_0_DURA_SECONDS": 5,
+        "ABIL_3878_COM_1_VAL0_ACTIONPOINTS": 70
+      },
+      "rawDescription": "Rune of Life, Rune of Sanctuary and Grimnir's Fury will heal the target for {ABIL_3878_COM_0_VAL0_TOD_HEALTH} over {ABIL_3878_COM_0_DURA_SECONDS} and will restore {ABIL_3878_COM_1_VAL0_ACTIONPOINTS} when the target is resurrected."
     },
     {
       "image": "22694",
@@ -579,7 +724,9 @@
       "note": "",
       "description": "Rune of Striking and Rune of Immolation are now undefendable.",
       "category": "CareerTactic",
-      "gameId": 1625
+      "gameId": 1625,
+      "componentValues": {},
+      "rawDescription": "Rune of Striking and Rune of Immolation are now undefendable."
     },
     {
       "image": "04636",
@@ -595,7 +742,12 @@
       "note": "",
       "description": "Increases target group member's Wounds by 100 for 60 seconds. Heals target for value of HP increase.",
       "category": "Ability",
-      "gameId": 1606
+      "gameId": 1606,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Increases the target group member's Wounds by {COM_0_VAL0} for {COM_0_DURA_SECONDS}, healing them for the value of the additional HP gained."
     },
     {
       "image": "23154",
@@ -611,7 +763,12 @@
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale",
-      "gameId": 692
+      "gameId": 692,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_DAMAGE": 600,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {COM_1_VAL0_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and heals group members within 100 feet for the full amount of the damage dealt."
     },
     {
       "image": "22702",
@@ -627,7 +784,13 @@
       "note": "",
       "description": "Each tick of Rune of Regeneration has 25% chance to increase target's armor by 1056 for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
       "category": "CareerTactic",
-      "gameId": 1622
+      "gameId": 1622,
+      "componentValues": {
+        "ABIL_3875_COM_0_VAL0": 0,
+        "ABIL_3875_COM_0_DURA_SECONDS": 0,
+        "ABIL_3875_COM_1_VAL1": 0
+      },
+      "rawDescription": "Each tick of Rune of Regeneration has a 25% chance to increase the target's armor by {ABIL_3875_COM_0_VAL0} for {ABIL_3875_COM_0_DURA_SECONDS}. Additionally, {ABIL_3875_COM_1_VAL1}% less armor will be bypassed when they are attacked."
     },
     {
       "image": "23414",
@@ -643,7 +806,12 @@
       "note": "Only usable on Rams",
       "description": "You heal the ram for 750 health over the next 5 seconds.",
       "category": "Ability",
-      "gameId": 14414
+      "gameId": 14414,
+      "componentValues": {
+        "COM_0_VAL0_TOD_HEALTH": 750,
+        "COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "You heal the ram for {COM_0_VAL0_TOD_HEALTH} over the next {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22694",
@@ -659,7 +827,12 @@
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 589
+      "gameId": 589,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS": 40,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "Any time one of your direct healing effects critically heals an ally, you will regain {COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "04641",
@@ -675,7 +848,14 @@
       "note": "",
       "description": "Buffs you or a friendly player with a pulsing area of effect that deals 290 Elemental damage every 3 seconds to all enemies within to 30 feet for 15 seconds. Not effected by cooldown reduction abilities.",
       "category": "Ability",
-      "gameId": 1617
+      "gameId": 1617,
+      "componentValues": {
+        "COM_1_VAL0_ELEMENTALDAMAGE": 0,
+        "COM_0_FREQ_SECONDS": 0,
+        "COM_1_RADI_FEET": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Buffs you or a friendly player with a pulsing area of effect that deals {COM_1_VAL0_ELEMENTALDAMAGE} every {COM_0_FREQ_SECONDS} to all enemies within to {COM_1_RADI_FEET} for {COM_0_DURA_SECONDS}.<BR><BR>Not affected by cooldown reduction abilities."
     },
     {
       "image": "04638",
@@ -691,7 +871,12 @@
       "note": "",
       "description": "Wounds your target for 273 Elemental damage and Staggers the target for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability",
-      "gameId": 1613
+      "gameId": 1613,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 273,
+        "ABIL_3028_COM_0_DURA_SECONDS": 6
+      },
+      "rawDescription": "Wounds your target for {COM_0_VAL0_TOD_ELEMENTALDAMAGE} and Staggers the target for {ABIL_3028_COM_0_DURA_SECONDS}, preventing all actions unless they're damaged."
     },
     {
       "image": "04100",
@@ -707,7 +892,9 @@
       "note": "",
       "description": "When this ability is toggled on, you gain the Rune of Breaking, converting your Healing Power, Willpower, and Healing Critical Chance bonuses from items into Magic Power, Intelligence, and Magic Critical Chance.<br><br>When this ability is toggled off, you gain the Rune of Balance, converting your Magic Power, Intelligence, and Magic Critical Chance bonuses from items into Healing Power, Willpower, and Healing Critical Chance.",
       "category": "Ability",
-      "gameId": 1659
+      "gameId": 1659,
+      "componentValues": {},
+      "rawDescription": "When this ability is toggled on, you gain the Rune of Breaking, converting your Healing Power, Willpower, and Healing Critical Chance bonuses from items into Magic Power, Intelligence, and Magic Critical Chance.<BR><BR>When this ability is toggled off, you gain the Rune of Balance, converting your Magic Power, Intelligence, and Magic Critical Chance bonuses from items into Healing Power, Willpower, and Healing Critical Chance."
     },
     {
       "image": "04639",
@@ -723,7 +910,12 @@
       "note": "",
       "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1729 Elemental Damage over 6 seconds for as long as you maintain yout concentration.",
       "category": "Ability",
-      "gameId": 1614
+      "gameId": 1614,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You channel a powerful series of runes around your target which project searing flame into them, dealing {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} for as long as you maintain your concentration."
     },
     {
       "image": "04507",
@@ -739,7 +931,9 @@
       "note": "Target must be Cursed or Ailing",
       "description": "Your rune cleanses an ally, removing one Curse or Ailment.",
       "category": "Ability",
-      "gameId": 1602
+      "gameId": 1602,
+      "componentValues": {},
+      "rawDescription": "Your rune cleanses an ally, removing one Curse or Ailment."
     },
     {
       "image": "04632",
@@ -755,7 +949,13 @@
       "note": "",
       "description": "A burst of force errupts from your rune dealing 756 Elemental Damage over 9 seconds to targets 40 feet in front of you.",
       "category": "Ability",
-      "gameId": 1597
+      "gameId": 1597,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "COM_0_DURA_SECONDS": 0,
+        "COM_0_RADI_FEET": 0
+      },
+      "rawDescription": "A burst of force erupts from your rune, dealing {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} to targets {COM_0_RADI_FEET} in front of you."
     },
     {
       "image": "04643",
@@ -771,7 +971,12 @@
       "note": "",
       "description": "Deals 800 damage to all enemies within 30 feet and then heals all group members within 100 feet for all damage dealt.",
       "category": "Morale",
-      "gameId": 1648
+      "gameId": 1648,
+      "componentValues": {
+        "ABIL_3001_COM_0_VAL0_DAMAGE": 800,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {ABIL_3001_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET} and then heals all group members within 100 feet for all damage dealt."
     },
     {
       "image": "04500",
@@ -787,7 +992,12 @@
       "note": "",
       "description": "Deals 1505 Elemental damage over 24 seconds and heals your defensive target for the amount of damage dealt.",
       "category": "Ability",
-      "gameId": 1616
+      "gameId": 1616,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1505,
+        "COM_0_DURA_SECONDS": 24
+      },
+      "rawDescription": "Deals {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} and heals your defensive target for the amount of damage dealt."
     },
     {
       "image": "04630",
@@ -803,7 +1013,11 @@
       "note": "",
       "description": "Your rune releases a scorching blast, inflicting 320 Elemental damage to your target.",
       "category": "Ability",
-      "gameId": 1594
+      "gameId": 1594,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 320
+      },
+      "rawDescription": "Your rune releases a scorching blast, inflicting {COM_0_VAL0_ELEMENTALDAMAGE} to your target."
     },
     {
       "image": "04559",
@@ -819,7 +1033,11 @@
       "note": "",
       "description": "Deals 425 Elemental damage to your target and heals your Defensive target for the damage dealt.",
       "category": "Ability",
-      "gameId": 1611
+      "gameId": 1611,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 0
+      },
+      "rawDescription": "Deals {COM_0_VAL0_ELEMENTALDAMAGE} to your target and heals your defensive target for the damage dealt."
     },
     {
       "image": "04627",
@@ -835,7 +1053,12 @@
       "note": "",
       "description": "You set your target ablaze. Burning them for 870 Elemental Damage over 15 seconds.",
       "category": "Ability",
-      "gameId": 1589
+      "gameId": 1589,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You set your target ablaze, burning them for {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "04537",
@@ -851,7 +1074,12 @@
       "note": "",
       "description": "Inflicts 600 damage to the target and reduces their Action Points by 200.",
       "category": "Morale",
-      "gameId": 1643
+      "gameId": 1643,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 600,
+        "COM_1_VAL0": 200
+      },
+      "rawDescription": "Inflicts {COM_0_VAL0_DAMAGE} to the target and reduces their Action Points by {COM_1_VAL0}."
     },
     {
       "image": "04633",
@@ -867,7 +1095,9 @@
       "note": "Only usable on Dead Players",
       "description": "Restores life to a slain ally, reviving them with 20% of their health.",
       "category": "Ability",
-      "gameId": 1598
+      "gameId": 1598,
+      "componentValues": {},
+      "rawDescription": "Restores life to a slain ally, reviving them with 20% of their health."
     },
     {
       "image": "04503",
@@ -883,7 +1113,13 @@
       "note": "",
       "description": "Restores 272 health, then continues to restore 340 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability",
-      "gameId": 1599
+      "gameId": 1599,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 272,
+        "ABIL_3551_COM_0_VAL0_TOD_HEALTH": 340,
+        "ABIL_3551_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Restores {COM_0_VAL0_HEALTH}, then continues to restore {ABIL_3551_COM_0_VAL0_TOD_HEALTH} over {ABIL_3551_COM_0_DURA_SECONDS}. This ability will continue to build up even if you move."
     },
     {
       "image": "04558",
@@ -899,7 +1135,12 @@
       "note": "",
       "description": "Your rune transmits a surge of power through the ground, dealing 247 Elemental damage to all targets within 30 feet of you.",
       "category": "Ability",
-      "gameId": 1603
+      "gameId": 1603,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 247,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Your rune transmits a surge of power through the ground, dealing {COM_0_VAL0_ELEMENTALDAMAGE} to all targets within {COM_0_RADI_FEET} of you."
     },
     {
       "image": "22702",
@@ -915,7 +1156,11 @@
       "note": "",
       "description": "Critical attacks place a debuff on your target that reduces all incoming healing by 50% for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 1633
+      "gameId": 1633,
+      "componentValues": {
+        "ABIL_3393_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Critical attacks place a debuff on your target that reduces all incoming healing by 50% for {ABIL_3393_COM_0_DURA_SECONDS}."
     },
     {
       "image": "04631",
@@ -931,7 +1176,12 @@
       "note": "",
       "description": "A defensive rune which wards you from your target, reducing all damage that they deal to you by 50% for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 1595
+      "gameId": 1595,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "A defensive rune which wards you from your target, reducing all damage that they deal to you by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}. If you attack anyone that you have detaunted, the effect will immediately end."
     },
     {
       "image": "04535",
@@ -947,7 +1197,13 @@
       "note": "",
       "description": "Self Heal for 1200 then an additional 2403 health over 9 seconds.",
       "category": "Morale",
-      "gameId": 1645
+      "gameId": 1645,
+      "componentValues": {
+        "COM_0_VAL0": 1200,
+        "COM_1_VAL0_TOD_HEALTH": 2403,
+        "COM_1_DURA_SECONDS": 9
+      },
+      "rawDescription": "Self Heal for {COM_0_VAL0} then an additional {COM_1_VAL0_TOD_HEALTH} over {COM_1_DURA_SECONDS}."
     },
     {
       "image": "04561",
@@ -963,7 +1219,12 @@
       "note": "",
       "description": "You call upon a regenerative rune, restoring 1780 health over 15 seconds to your target.",
       "category": "Ability",
-      "gameId": 1590
+      "gameId": 1590,
+      "componentValues": {
+        "COM_0_VAL0_TOD": 1780,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "You call upon a regenerative rune, restoring {COM_0_VAL0_TOD} health over {COM_0_DURA_SECONDS} to your target."
     },
     {
       "image": "04563",
@@ -979,7 +1240,11 @@
       "note": "",
       "description": "Your rune infuses the target with vitality, restoring 883 health.<br>This is a fragile spell, and will always be set back by a small amount if you are damaged while casting it.",
       "category": "Ability",
-      "gameId": 1596
+      "gameId": 1596,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 0
+      },
+      "rawDescription": "Your rune infuses the target with vitality, restoring {COM_0_VAL0_HEALTH}.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it."
     },
     {
       "image": "04635",
@@ -995,7 +1260,13 @@
       "note": "",
       "description": "Heals your target for 525 health over 9 seconds, and will then bounce to and heal other allies within 30 feet of the previous target. This effect will not apply itself to the same target more than once, and will heal up to 6 people.",
       "category": "Ability",
-      "gameId": 1601
+      "gameId": 1601,
+      "componentValues": {
+        "ABIL_3016_COM_0_VAL0_TOD": 525,
+        "ABIL_3016_COM_0_DURA_SECONDS": 9,
+        "ABIL_3017_COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Heals your target for {ABIL_3016_COM_0_VAL0_TOD} health over {ABIL_3016_COM_0_DURA_SECONDS}, and will then bounce to and heal other allies within {ABIL_3017_COM_0_RADI_FEET} of the previous target. This effect will not apply itself to the same target more than once, and will heal up to 6 people."
     },
     {
       "image": "04629",
@@ -1011,7 +1282,13 @@
       "note": "",
       "description": "A shielding rune which absorbs up to 550 damage over 10 seconds. When the effect fades, the target recovers 205 health.",
       "category": "Ability",
-      "gameId": 1593
+      "gameId": 1593,
+      "componentValues": {
+        "COM_0_VAL1_DAMAGE": 550,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_HEALTH": 205
+      },
+      "rawDescription": "A shielding rune which absorbs up to {COM_0_VAL1_DAMAGE} over {COM_0_DURA_SECONDS}. When the effect fades, the target recovers {COM_1_VAL0_HEALTH}."
     },
     {
       "image": "04645",
@@ -1027,7 +1304,12 @@
       "note": "",
       "description": "Deals 1600 damage to all targets 40 feet in front of you.",
       "category": "Morale",
-      "gameId": 1650
+      "gameId": 1650,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1600,
+        "COM_0_RADI_FEET": 40
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all targets {COM_0_RADI_FEET} in front of you."
     },
     {
       "image": "04624",
@@ -1043,7 +1325,11 @@
       "note": "",
       "description": "Your rune calls down a bolt of electricity, dealing 277 Elemental damage to your target.",
       "category": "Ability",
-      "gameId": 1586
+      "gameId": 1586,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 277
+      },
+      "rawDescription": "Your rune calls down a bolt of electricity, dealing {COM_0_VAL0_ELEMENTALDAMAGE} to your target."
     },
     {
       "image": "04564",
@@ -1059,7 +1345,11 @@
       "note": "",
       "description": "A rune which ruptures the ground underfoot, knocking back targets within 30 feet of you. Monsters will be knocked down.",
       "category": "Ability",
-      "gameId": 1605
+      "gameId": 1605,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "A rune which ruptures the ground underfoot, knocking back targets within {COM_0_RADI_FEET} of you. Monsters will be knocked down."
     },
     {
       "image": "22703",
@@ -1075,7 +1365,11 @@
       "note": "",
       "description": "Increases critical chance of Rune of Fire, Grungni's Gift, and Rune of Striking by 15%.",
       "category": "CareerTactic",
-      "gameId": 1634
+      "gameId": 1634,
+      "componentValues": {
+        "COM_0_VAL1": 0
+      },
+      "rawDescription": "Increases the critical chance of Rune of Fire, Grungni's Gift, and Rune of Striking by {COM_0_VAL1}%."
     },
     {
       "image": "23415",
@@ -1091,7 +1385,12 @@
       "note": "",
       "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 40 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability",
-      "gameId": 14416
+      "gameId": 14416,
+      "componentValues": {
+        "COM_0_VAL0": 90,
+        "COM_0_RADI_FEET": 40
+      },
+      "rawDescription": "Ranged siege engines will deal {COM_0_VAL0}% of the normal damage to you. You will also protect two other group mates within {COM_0_RADI_FEET}. Only one effect of this type may be on a player at a time."
     },
     {
       "image": "04533",
@@ -1107,7 +1406,12 @@
       "note": "",
       "description": "A potent rune which suppresses magic, silencing and wounding your target for 375 Elemental damage over 4 seconds.",
       "category": "Ability",
-      "gameId": 1607
+      "gameId": 1607,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 375,
+        "COM_0_DURA_SECONDS": 4
+      },
+      "rawDescription": "A potent rune which suppresses magic, silencing and wounding your target for {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "23155",
@@ -1123,7 +1427,11 @@
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale",
-      "gameId": 690
+      "gameId": 690,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 0
+      },
+      "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
     },
     {
       "image": "22711",
@@ -1139,7 +1447,11 @@
       "note": "",
       "description": "You recover from Stuns and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
       "category": "CareerTactic",
-      "gameId": 713
+      "gameId": 713,
+      "componentValues": {
+        "COM_0_VAL1": 50
+      },
+      "rawDescription": "You recover from Stuns and Knockdowns {COM_0_VAL1}% quicker. You will still gain immunity based on the original duration."
     },
     {
       "image": "22711",
@@ -1155,7 +1467,11 @@
       "note": "",
       "description": "Increases your Corporeal resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 714
+      "gameId": 714,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Corporeal resistance by {COM_0_VAL0}."
     },
     {
       "image": "22709",
@@ -1171,7 +1487,9 @@
       "note": "",
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
       "category": "CareerTactic",
-      "gameId": 588
+      "gameId": 588,
+      "componentValues": {},
+      "rawDescription": "All of your heals will cause enemy monsters to hate you 25% less than normal."
     },
     {
       "image": "22703",
@@ -1187,7 +1505,12 @@
       "note": "",
       "description": "Rune of Sundering's cooldown is reduced to 20 seconds and will now apply a 40% movement reduction for 10 seconds to all those hit.",
       "category": "CareerTactic",
-      "gameId": 1628
+      "gameId": 1628,
+      "componentValues": {
+        "ABIL_3981_COM_0_VAL0": 0,
+        "ABIL_3981_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Rune of Sundering's cooldown is reduced to 20 seconds, and it will now apply a {ABIL_3981_COM_0_VAL0}% movement reduction for {ABIL_3981_COM_0_DURA_SECONDS} to all those hit."
     },
     {
       "image": "22694",
@@ -1203,7 +1526,9 @@
       "note": "",
       "description": "Removes the cooldown of Rune of Cleansing, but increases the cost to 40 Action Points.",
       "category": "CareerTactic",
-      "gameId": 1626
+      "gameId": 1626,
+      "componentValues": {},
+      "rawDescription": "Removes the cooldown of Rune of Cleansing, but increases the cost to 40 Action Points."
     },
     {
       "image": "22696",
@@ -1219,7 +1544,9 @@
       "note": "",
       "description": "Rune of Mending and Rune of Serenity can no longer be set back when casting.",
       "category": "CareerTactic",
-      "gameId": 1629
+      "gameId": 1629,
+      "componentValues": {},
+      "rawDescription": "Rune of Mending and Rune of Serenity can no longer be set back when casting."
     },
     {
       "image": "04644",
@@ -1235,7 +1562,14 @@
       "note": "",
       "description": "Heals your groupmates within 100 feet 1596 health over 15 seconds and gives 375 Action Points over 15 seconds",
       "category": "Morale",
-      "gameId": 1649
+      "gameId": 1649,
+      "componentValues": {
+        "COM_0_VAL0_TOD_HEALTH": 1596,
+        "COM_0_DURA_SECONDS": 15,
+        "COM_1_VAL0_TOD_ACTIONPOINTS": 375,
+        "COM_1_DURA_SECONDS": 15
+      },
+      "rawDescription": "Heals your groupmates within 100 feet {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS} and gives {COM_1_VAL0_TOD_ACTIONPOINTS} over {COM_1_DURA_SECONDS}"
     }
   ]
 }

@@ -82,7 +82,12 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
       "category": "CareerTactic",
-      "gameId": 800
+      "gameId": 800,
+      "componentValues": {
+        "ABIL_3595_COM_0_VAL0_TOD": 250,
+        "ABIL_3595_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Any time you are attacked, there is a 25% chance that you will lash out for {ABIL_3595_COM_0_VAL0_TOD} Elemental damage over {ABIL_3595_COM_0_DURA_SECONDS} to anyone who hits you."
     },
     {
       "image": "23156",
@@ -98,7 +103,11 @@
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale",
-      "gameId": 629
+      "gameId": 629,
+      "componentValues": {
+        "COM_1_RADI_FEET": 25
+      },
+      "rawDescription": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within {COM_1_RADI_FEET} in front of you."
     },
     {
       "image": "22702",
@@ -114,7 +123,11 @@
       "note": "",
       "description": "Increases your chance to Disrupt enemy magic by 10%.",
       "category": "CareerTactic",
-      "gameId": 8429
+      "gameId": 8429,
+      "componentValues": {
+        "COM_0_VAL0": 10
+      },
+      "rawDescription": "Increases your chance to Disrupt enemy magic by {COM_0_VAL0}%."
     },
     {
       "image": "22701",
@@ -130,7 +143,11 @@
       "note": "",
       "description": "Increases your Strength by 160",
       "category": "CareerTactic",
-      "gameId": 521
+      "gameId": 521,
+      "componentValues": {
+        "COM_0_VAL0": 0
+      },
+      "rawDescription": "Increases your Strength by {COM_0_VAL0}."
     },
     {
       "image": "23403",
@@ -146,7 +163,11 @@
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
       "category": "Ability",
-      "gameId": 14423
+      "gameId": 14423,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You bolster yourself for {COM_0_DURA_SECONDS}, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside."
     },
     {
       "image": "05313",
@@ -162,7 +183,12 @@
       "note": "",
       "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, this effect will immediately end.",
       "category": "Ability",
-      "gameId": 240
+      "gameId": 240,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You charge into the thick of battle, increasing your run speed by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.  If you use any abilities, this effect will immediately end."
     },
     {
       "image": "22702",
@@ -178,7 +204,11 @@
       "note": "",
       "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 second. This effect will not stack with other damage reductions.",
       "category": "CareerTactic",
-      "gameId": 522
+      "gameId": 522,
+      "componentValues": {
+        "ABIL_3080_COM_0_VAL1": 0
+      },
+      "rawDescription": "Any time you strike an enemy in melee with a direct attack, you will receive {ABIL_3080_COM_0_VAL1}% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities."
     },
     {
       "image": "05204",
@@ -194,7 +224,13 @@
       "note": "",
       "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting 113 damage.",
       "category": "Ability",
-      "gameId": 8423
+      "gameId": 8423,
+      "componentValues": {
+        "COM_0_RADI_FEET": 25,
+        "COM_1_DURA_SECONDS": 2,
+        "COM_0_VAL0_DAMAGE": 113
+      },
+      "rawDescription": "A great wave of concussive force knocks down all targets {COM_0_RADI_FEET} in front of you for {COM_1_DURA_SECONDS}, inflicting {COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "23157",
@@ -210,7 +246,11 @@
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
       "category": "Morale",
-      "gameId": 631
+      "gameId": 631,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "05201",
@@ -226,7 +266,12 @@
       "note": "Requires Gift of Brutality",
       "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 6 times and dealing 132 damage per hit. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
-      "gameId": 8406
+      "gameId": 8406,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_0_VAL0_DAMAGE": 132
+      },
+      "rawDescription": "You continually slice at an enemy for up to {COM_0_DURA_SECONDS}, striking them up to 6 times and dealing {COM_0_VAL0_DAMAGE} per hit.  This effect will end if you break your concentration or run out of action points."
     },
     {
       "image": "22701",
@@ -242,7 +287,11 @@
       "note": "",
       "description": "Gift of Brutality further increases your Strength and Initiative by 160.",
       "category": "CareerTactic",
-      "gameId": 8441
+      "gameId": 8441,
+      "componentValues": {
+        "ABIL_8398_COM_5_VAL0": 160
+      },
+      "rawDescription": "Gift of Brutality further increases your Strength and Initiative by {ABIL_8398_COM_5_VAL0}."
     },
     {
       "image": "05209",
@@ -258,7 +307,13 @@
       "note": "",
       "description": "Corruption spreads to your target, reducing their toughness by 75 for 20 seconds and inflicting 141 damage.",
       "category": "Ability",
-      "gameId": 8400
+      "gameId": 8400,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 75,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 20,
+        "COM_0_VAL0_DAMAGE": 141
+      },
+      "rawDescription": "Corruption spreads to your target, reducing their toughness by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS} and inflicting {COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "22696",
@@ -274,7 +329,11 @@
       "note": "",
       "description": "While you are using the Gift Of Monstrosity, all of your hits have a 25% chance to remove 225 points of Morale from the enemy.",
       "category": "CareerTactic",
-      "gameId": 8446
+      "gameId": 8446,
+      "componentValues": {
+        "COM_1_VAL0": 0
+      },
+      "rawDescription": "While you are using the Gift of Monstrosity, all of your hits have a 25% chance to remove {COM_1_VAL0} points of Morale from the enemy."
     },
     {
       "image": "05196",
@@ -290,7 +349,13 @@
       "note": "Requires Gift of Savagery",
       "description": "Undefendable claw attack that deals 216 damage and reduces the targets armor by 1000 for 10 seconds.",
       "category": "Ability",
-      "gameId": 8418
+      "gameId": 8418,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_1_VAL0": 0,
+        "COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "An undefendable claw attack that deals {COM_0_VAL0_DAMAGE} and reduces targets armor by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22706",
@@ -306,7 +371,9 @@
       "note": "",
       "description": "Tainted Claw will now reduce all healing used on the victim by 50%. Additionally, you will be healed for 50% of the heals actually received by the target.",
       "category": "CareerTactic",
-      "gameId": 8440
+      "gameId": 8440,
+      "componentValues": {},
+      "rawDescription": "Tainted Claw will now reduce all healing used on the victim by 50%. Additionally, you will be healed for 50% of the heals actually received by the target."
     },
     {
       "image": "05200",
@@ -322,7 +389,11 @@
       "note": "Requires Parry",
       "description": "Disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability",
-      "gameId": 8405
+      "gameId": 8405,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 4
+      },
+      "rawDescription": "Disarms your target for {COM_0_DURA_SECONDS}, making them unable to use melee or ranged weapons."
     },
     {
       "image": "05191",
@@ -338,7 +409,13 @@
       "note": "",
       "description": "A deliberate attack that inflicts 191 damage and Cripples your target, reducing their movement speed by 40% for 5 seconds.",
       "category": "Ability",
-      "gameId": 8396
+      "gameId": 8396,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 191,
+        "COM_1_VAL0": 40,
+        "COM_1_DURA_SECONDS": 5
+      },
+      "rawDescription": "A deliberate attack that inflicts {COM_0_VAL0_DAMAGE} and Cripples your target, reducing their movement speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22701",
@@ -354,7 +431,12 @@
       "note": "",
       "description": "Any time you Impale an enemy, they will become 10% more susceptible to being critically hit for 15 seconds.",
       "category": "CareerTactic",
-      "gameId": 8431
+      "gameId": 8431,
+      "componentValues": {
+        "ABIL_3217_COM_0_VAL1": 10,
+        "ABIL_3217_COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Any time you Impale an enemy, they will become {ABIL_3217_COM_0_VAL1}% more susceptible to being critically hit for {ABIL_3217_COM_0_DURA_SECONDS}."
     },
     {
       "image": "05199",
@@ -370,7 +452,12 @@
       "note": "Requires Gift of Monstrosity",
       "description": "A widespread attack that inflicts 138 damage to all targets up to 25 feet in front of you.",
       "category": "Ability",
-      "gameId": 8409
+      "gameId": 8409,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 138,
+        "COM_0_RADI_FEET": 25
+      },
+      "rawDescription": "A widespread attack that inflicts {COM_0_VAL0_DAMAGE} to all targets up to {COM_0_RADI_FEET} in front of you."
     },
     {
       "image": "05222",
@@ -386,7 +473,13 @@
       "note": "Requires Gift of Savagery",
       "description": "You quickly rake your target twice, dealing 108 damage with each hit. The victim will regain action points 50% more slowly for 10 seconds.",
       "category": "Ability",
-      "gameId": 8419
+      "gameId": 8419,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 108,
+        "COM_2_VAL0": 50,
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "You quickly rake your target twice, dealing {COM_0_VAL0_DAMAGE} with each hit.  The victim will regain action points {COM_2_VAL0}% more slowly for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "05208",
@@ -402,7 +495,13 @@
       "note": "",
       "description": "A large burst of power courses through you, dealing 1800 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds.",
       "category": "Morale",
-      "gameId": 8456
+      "gameId": 8456,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_RADI_FEET": 0,
+        "COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "A large burst of power courses through you, dealing {COM_0_VAL0_DAMAGE} to all targets within {COM_0_RADI_FEET}, knocking down all targets around you for {COM_1_DURA_SECONDS}. This ability hits max 9 targets."
     },
     {
       "image": "22708",
@@ -418,7 +517,12 @@
       "note": "",
       "description": "Any time you critically hit an enemy while Mutated, they will lose 40 Action Points over the next 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 8439
+      "gameId": 8439,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS": 40,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "Any time you critically hit an enemy while Mutated, they will lose {COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS} over the next {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22696",
@@ -434,7 +538,13 @@
       "note": "",
       "description": "Any time you critically hit an enemy, your chance to critically hit will be increased by 20% for 5 seconds, but you will also become 10% more susceptible to being critically hit.",
       "category": "CareerTactic",
-      "gameId": 8432
+      "gameId": 8432,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL1": 20,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5,
+        "COM_1_VAL0_COM_1_VAL1": 10
+      },
+      "rawDescription": "Any time you critically hit an enemy, your chance to critically hit will be increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}, but you will also become {COM_1_VAL0_COM_1_VAL1}% more susceptible to being critically hit."
     },
     {
       "image": "05171",
@@ -450,7 +560,12 @@
       "note": "Requires Gift of Brutality or Monstrosity",
       "description": "Chaotic winds and daemonic fury combine to increase your Strength and Toughness by 125 for 20 seconds.",
       "category": "Ability",
-      "gameId": 8411
+      "gameId": 8411,
+      "componentValues": {
+        "COM_0_VAL0": 125,
+        "COM_0_DURA_SECONDS": 20
+      },
+      "rawDescription": "Chaotic winds and daemonic fury combine to increase your Strength and Toughness by {COM_0_VAL0} for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "05187",
@@ -466,7 +581,12 @@
       "note": "",
       "description": "You swipe at your opponent for 133 damage. If you have an active Mutation, this attack will hit an additional time for 108 damage.",
       "category": "Ability",
-      "gameId": 8392
+      "gameId": 8392,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 133,
+        "COM_1_VAL0_DAMAGE": 108
+      },
+      "rawDescription": "You swipe at your opponent for {COM_0_VAL0_DAMAGE}. If you have an active Mutation, this attack will hit an additional time for {COM_1_VAL0_DAMAGE}."
     },
     {
       "image": "05206",
@@ -482,7 +602,12 @@
       "note": "",
       "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and rooting them in place for 5 seconds.",
       "category": "Morale",
-      "gameId": 8449
+      "gameId": 8449,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 900,
+        "COM_1_DURA_SECONDS": 5
+      },
+      "rawDescription": "Your target is engulfed in the chaotic flames of fate, dealing {COM_0_VAL0_DAMAGE} and rooting them in place for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -498,7 +623,11 @@
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
       "category": "CareerTactic",
-      "gameId": 523
+      "gameId": 523,
+      "componentValues": {
+        "COM_0_VAL0": 15
+      },
+      "rawDescription": "All of your attacks deal {COM_0_VAL0}% more damage when you strike an enemy from the sides or rear."
     },
     {
       "image": "05004",
@@ -514,7 +643,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "23158",
@@ -530,7 +665,13 @@
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
       "category": "Morale",
-      "gameId": 628
+      "gameId": 628,
+      "componentValues": {
+        "COM_0_VAL0": 200,
+        "COM_2_VAL0": 160,
+        "COM_2_DURA_SECONDS": 30
+      },
+      "rawDescription": "You stare down your opponent, draining {COM_0_VAL0} of their Action Points into yourself, and reducing their Strength by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "05230",
@@ -546,7 +687,11 @@
       "note": "",
       "description": "For 20 seconds, all damage dealt to you is mirrored back to the attacker with a 50% boost.",
       "category": "Morale",
-      "gameId": 8455
+      "gameId": 8455,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 20
+      },
+      "rawDescription": "For {COM_0_DURA_SECONDS}, all damage dealt to you is mirrored back to the attacker with a 50% boost."
     },
     {
       "image": "23159",
@@ -562,7 +707,9 @@
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale",
-      "gameId": 630
+      "gameId": 630,
+      "componentValues": {},
+      "rawDescription": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds."
     },
     {
       "image": "05193",
@@ -578,7 +725,12 @@
       "note": "Grants Gift of Brutality",
       "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<br><br>While mutated, your attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%.",
       "category": "Ability",
-      "gameId": 8398
+      "gameId": 8398,
+      "componentValues": {
+        "ABIL_3044_COM_0_DURA_SECONDS": 0,
+        "ABIL_3044_COM_1_VAL1": 0
+      },
+      "rawDescription": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<BR><BR>While mutated, your melee attacks have a 25% chance to fill you with power for {ABIL_3044_COM_0_DURA_SECONDS}, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by {ABIL_3044_COM_1_VAL1}%."
     },
     {
       "image": "05198",
@@ -594,7 +746,12 @@
       "note": "Grants Gift of Monstrosity",
       "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<br><br>While mutated, your attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health and letting you shrug off your enemy's armor penetration.",
       "category": "Ability",
-      "gameId": 8403
+      "gameId": 8403,
+      "componentValues": {
+        "ABIL_3045_COM_1_DURA_SECONDS": 0,
+        "ABIL_3045_COM_1_VAL0_TOD_HEALTH": 0
+      },
+      "rawDescription": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your melee attacks have a 25% chance to empower you for {ABIL_3045_COM_1_DURA_SECONDS}, gradually restoring {ABIL_3045_COM_1_VAL0_TOD_HEALTH} and letting you shrug off your enemy's armor penetration."
     },
     {
       "image": "05215",
@@ -610,7 +767,9 @@
       "note": "Requires a Mutation",
       "description": "Releases your current mutation.",
       "category": "Ability",
-      "gameId": 8415
+      "gameId": 8415,
+      "componentValues": {},
+      "rawDescription": "Releases your current mutation."
     },
     {
       "image": "05189",
@@ -626,7 +785,13 @@
       "note": "Grants Gift of Savagery",
       "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<br><br>While mutated, your attacks have a 25% chance to deal an additional 840 damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
       "category": "Ability",
-      "gameId": 8394
+      "gameId": 8394,
+      "componentValues": {
+        "ABIL_3050_COM_1_VAL0_TOD_DAMAGE": 0,
+        "ABIL_3050_COM_1_DURA_SECONDS": 0,
+        "ABIL_3050_COM_0_VAL1": 0
+      },
+      "rawDescription": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<BR><BR>While mutated, your melee attacks have a 25% chance to deal an additional {ABIL_3050_COM_1_VAL0_TOD_DAMAGE} over {ABIL_3050_COM_1_DURA_SECONDS}, and reduce the victim's autoattack speed by {ABIL_3050_COM_0_VAL1}%."
     },
     {
       "image": "05207",
@@ -642,7 +807,12 @@
       "note": "",
       "description": "A mighty swing attack that inflicts 1200 damage to all targets 40 feet in front of you.",
       "category": "Morale",
-      "gameId": 8450
+      "gameId": 8450,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_RADI_FEET": 40
+      },
+      "rawDescription": "A mighty swing attack that inflicts {COM_0_VAL0_DAMAGE} to all targets {COM_0_RADI_FEET} in front of you."
     },
     {
       "image": "22709",
@@ -658,7 +828,9 @@
       "note": "",
       "description": "The power of Chaos begins to take control of your body, causing all of your critical hits to deal additional 50% bonus damage.",
       "category": "CareerTactic",
-      "gameId": 8442
+      "gameId": 8442,
+      "componentValues": {},
+      "rawDescription": "The power of Chaos begins to take control of your body, causing all of your critical hits to deal an additional 50% bonus damage."
     },
     {
       "image": "05223",
@@ -674,7 +846,11 @@
       "note": "Requires Gift of Brutality",
       "description": "Target must be below 50% health<BR> A powerful blow inflicting 316 damage and will almost always deal critical damage to a weakened target.",
       "category": "Ability",
-      "gameId": 8420
+      "gameId": 8420,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "Requires target to be below 50% health<BR>A powerful blow inflicting {COM_0_VAL0_DAMAGE} and will almost always deal critical damage to a weakened target."
     },
     {
       "image": "05219",
@@ -690,7 +866,12 @@
       "note": "Requires Parry<br>Requires Gift of Savagery",
       "description": "A savage attack that guts your opponent for 191 damage, and makes your next damaging ability within 5 seconds automatically critical.",
       "category": "Ability",
-      "gameId": 8414
+      "gameId": 8414,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 191,
+        "ABIL_3744_COM_1_DURA_SECONDS": 5
+      },
+      "rawDescription": "A savage attack that guts your opponent for {COM_0_VAL0_DAMAGE}, and makes your next damaging ability within {ABIL_3744_COM_1_DURA_SECONDS} automatically critical."
     },
     {
       "image": "22702",
@@ -706,7 +887,11 @@
       "note": "",
       "description": "Gift of Monstrosity further increases your Toughness and Initiative by 160.",
       "category": "CareerTactic",
-      "gameId": 8444
+      "gameId": 8444,
+      "componentValues": {
+        "ABIL_8403_COM_5_VAL0": 160
+      },
+      "rawDescription": "Gift of Monstrosity further increases your Toughness and Initiative by {ABIL_8403_COM_5_VAL0}."
     },
     {
       "image": "05194",
@@ -722,7 +907,12 @@
       "note": "Requires Gift of Brutality",
       "description": "Stabs into your opponents vital areas for 166 damage. If behind your target, ignores 618 armor.",
       "category": "Ability",
-      "gameId": 8399
+      "gameId": 8399,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 166,
+        "COM_2_VAL0": 618
+      },
+      "rawDescription": "Stabs into your opponents vital areas for {COM_0_VAL0_DAMAGE}. If behind your target, ignores {COM_2_VAL0} armor."
     },
     {
       "image": "22704",
@@ -738,7 +928,12 @@
       "note": "",
       "description": "Mouth of Tzeentch will now disorient your enemies for 5 seconds, causing all of their abilities to take 50% longer to build up.",
       "category": "CareerTactic",
-      "gameId": 8445
+      "gameId": 8445,
+      "componentValues": {
+        "ABIL_8397_COM_3_DURA_SECONDS": 5,
+        "ABIL_8397_COM_3_VAL0": 50
+      },
+      "rawDescription": "Mouth of Tzeentch will now disorient your enemies for {ABIL_8397_COM_3_DURA_SECONDS}, causing all of their abilities to take {ABIL_8397_COM_3_VAL0}% longer to build up."
     },
     {
       "image": "22694",
@@ -754,7 +949,12 @@
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 526
+      "gameId": 526,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD": 606,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Any time you critically hit an enemy they will begin to bleed, suffering additional {COM_1_VAL0_COM_0_VAL0_TOD} Corporeal damage over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "05229",
@@ -770,7 +970,12 @@
       "note": "",
       "description": "For 20 seconds, each time you are hit, there is a 33% chance that the same amount of damage will be done to an enemy within 40 feet, and you will be healed for that amount.",
       "category": "Morale",
-      "gameId": 8454
+      "gameId": 8454,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 20,
+        "COM_1_RADI_FEET": 40
+      },
+      "rawDescription": "For {COM_0_DURA_SECONDS}, each time you are hit, there is a 33% chance that the same amount of damage will be done to an enemy within {COM_1_RADI_FEET}, and you will be healed for that amount."
     },
     {
       "image": "05192",
@@ -786,7 +991,12 @@
       "note": "Requires Gift of Monstrosity or Savagery",
       "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting 133 damage to all in range.",
       "category": "Ability",
-      "gameId": 8397
+      "gameId": 8397,
+      "componentValues": {
+        "COM_0_RADI_FEET": 40,
+        "COM_0_VAL0_DAMAGE": 133
+      },
+      "rawDescription": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast {COM_0_RADI_FEET} in front of you, and inflicting {COM_0_VAL0_DAMAGE} to all in range."
     },
     {
       "image": "05224",
@@ -802,7 +1012,12 @@
       "note": "",
       "description": "Chaotic energy surges through you, increasing all the damage you inflict by 25% for 10 seconds.",
       "category": "Ability",
-      "gameId": 8421
+      "gameId": 8421,
+      "componentValues": {
+        "COM_0_VAL0": 25,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Chaotic energy surges through you, increasing all the damage you inflict by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "05220",
@@ -818,7 +1033,11 @@
       "note": "Requires Disrupt",
       "description": "Disrupted Magic is twisted back into the caster, inflicting 241 damage and knocking them down for 3 seconds.",
       "category": "Ability",
-      "gameId": 8412
+      "gameId": 8412,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 241
+      },
+      "rawDescription": "Disrupted Magic is twisted back into the caster, inflicting {COM_0_VAL0_DAMAGE} and knocking them down for 3 seconds."
     },
     {
       "image": "05267",
@@ -834,7 +1053,11 @@
       "note": "",
       "description": "Your bones and muscles twist and contort to free you from any root or snaring effects. You will also be immune from all snares and roots for the next 10 seconds",
       "category": "Ability",
-      "gameId": 8408
+      "gameId": 8408,
+      "componentValues": {
+        "COM_4_DURA_SECONDS": 10
+      },
+      "rawDescription": "Your bones and muscles twist and contort to free you from any root or snaring effects. You will also be immune from all snares and roots for the next {COM_4_DURA_SECONDS}"
     },
     {
       "image": "22698",
@@ -850,7 +1073,11 @@
       "note": "",
       "description": "All of your abilities which require a Mutation will now bypass 50% of your enemy's armor.",
       "category": "CareerTactic",
-      "gameId": 8435
+      "gameId": 8435,
+      "componentValues": {
+        "COM_1_VAL0": 50
+      },
+      "rawDescription": "All of your abilities which require a Mutation will now bypass {COM_1_VAL0}% of your enemy's armor."
     },
     {
       "image": "05218",
@@ -866,7 +1093,14 @@
       "note": "Requires Gift of Brutality or Monstrosity",
       "description": "Inflicts 214 damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.",
       "category": "Ability",
-      "gameId": 8413
+      "gameId": 8413,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 214,
+        "COM_1_VAL0": 10,
+        "COM_2_VAL0": 10,
+        "COM_1_DURA_SECONDS": 20
+      },
+      "rawDescription": "Inflicts {COM_0_VAL0_DAMAGE} and lowers your targets ability to parry by {COM_1_VAL0}% and their ability to block by {COM_2_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "23160",
@@ -882,7 +1116,12 @@
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale",
-      "gameId": 633
+      "gameId": 633,
+      "componentValues": {
+        "COM_0_VAL0_ACTIONPOINTS": 10,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A prolonged fervor that grants {COM_0_VAL0_ACTIONPOINTS} a second to everyone in your group within 100 feet of you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "05190",
@@ -898,7 +1137,13 @@
       "note": "Requires Gift of Savagery or Brutality",
       "description": "You tear into your target, dealing 108 damage immediately and an additional 198 damage over 9 seconds. The damage over time will stack with itself up to three times.",
       "category": "Ability",
-      "gameId": 8395
+      "gameId": 8395,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 108,
+        "COM_1_VAL0_COM_1_VAL0_TOD_DAMAGE": 198,
+        "COM_1_VAL0_COM_1_DURA_SECONDS": 9
+      },
+      "rawDescription": "You tear into your target, dealing {COM_0_VAL0_DAMAGE} immediately and an additional {COM_1_VAL0_COM_1_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_1_DURA_SECONDS}. The damage over time will stack with itself up to three times."
     },
     {
       "image": "22694",
@@ -914,7 +1159,9 @@
       "note": "",
       "description": "Increases Rend's duration by an additional 6 seconds.",
       "category": "CareerTactic",
-      "gameId": 8430
+      "gameId": 8430,
+      "componentValues": {},
+      "rawDescription": "Increases Rend's duration by an additional 6 seconds."
     },
     {
       "image": "22702",
@@ -930,7 +1177,11 @@
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 253 damage which they can not prevent.",
       "category": "CareerTactic",
-      "gameId": 528
+      "gameId": 528,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 253
+      },
+      "rawDescription": "Each time you parry an enemy's attack, you will strike them back for {COM_1_VAL0_DAMAGE} which they can not prevent."
     },
     {
       "image": "22701",
@@ -946,7 +1197,11 @@
       "note": "",
       "description": "Gift of Savagery further increases your Weapon Skill and Initiative by 160.",
       "category": "CareerTactic",
-      "gameId": 8438
+      "gameId": 8438,
+      "componentValues": {
+        "ABIL_8394_COM_5_VAL0": 160
+      },
+      "rawDescription": "Gift of Savagery further increases your Weapon Skill and Initiative by {ABIL_8394_COM_5_VAL0}."
     },
     {
       "image": "23161",
@@ -962,7 +1217,11 @@
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale",
-      "gameId": 627
+      "gameId": 627,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200
+      },
+      "rawDescription": "A directed strike that inflicts {COM_0_VAL0_DAMAGE} to your target."
     },
     {
       "image": "22708",
@@ -978,7 +1237,11 @@
       "note": "",
       "description": "Any time you critically hit an enemy, you will regain 40 Action Points. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 8428
+      "gameId": 8428,
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 40
+      },
+      "rawDescription": "Any time you critically hit an enemy, you will regain {COM_1_VAL0_ACTIONPOINTS}. Tactic can not trigger more than once every 3 seconds."
     },
     {
       "image": "05216",
@@ -994,7 +1257,13 @@
       "note": "Requires Gift of Savagery",
       "description": "An Ailing attack inflicting 166 damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
       "category": "Ability",
-      "gameId": 8401
+      "gameId": 8401,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 166,
+        "COM_1_DURA_SECONDS": 5,
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "An Ailing attack inflicting {COM_0_VAL0_DAMAGE} and makes the victim resist 25% of incoming heals for {COM_1_DURA_SECONDS}. If target is Ailing, they suffer the effects for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "05205",
@@ -1010,7 +1279,9 @@
       "note": "",
       "description": "Extends a tendril of energy to pull an opposing player towards you. Monster targets will be dragged to the ground.",
       "category": "Ability",
-      "gameId": 8410
+      "gameId": 8410,
+      "componentValues": {},
+      "rawDescription": "Extends a tendril of energy to pull an opposing player towards you. Monster targets will be dragged to the ground."
     },
     {
       "image": "05214",
@@ -1026,7 +1297,11 @@
       "note": "",
       "description": "You throw an axe that deals 105 damage to your prey.",
       "category": "Ability",
-      "gameId": 8393
+      "gameId": 8393,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 105
+      },
+      "rawDescription": "You throw an axe that deals {COM_0_VAL0_DAMAGE} to your prey."
     },
     {
       "image": "05226",
@@ -1042,7 +1317,13 @@
       "note": "",
       "description": "A particularly nasty blow that inflicts 241 damage to your target and decreases their Wounds by 100 for the next 20 seconds.",
       "category": "Ability",
-      "gameId": 8424
+      "gameId": 8424,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 241,
+        "COM_1_VAL0": 100,
+        "COM_1_DURA_SECONDS": 20
+      },
+      "rawDescription": "A particularly nasty blow that inflicts {COM_0_VAL0_DAMAGE} to your target and decreases their Wounds by {COM_1_VAL0} for the next {COM_1_DURA_SECONDS}."
     },
     {
       "image": "05202",
@@ -1058,7 +1339,12 @@
       "note": "Requires Gift of Savagery or Brutality",
       "description": "Target loses control over their magic, and for 10 seconds will inflict 232 corporeal damage to themselves whenever they use magic.",
       "category": "Ability",
-      "gameId": 8407
+      "gameId": 8407,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_CORPOREALDAMAGE": 232
+      },
+      "rawDescription": "Target loses control over their magic, and for {COM_0_DURA_SECONDS} will inflict {COM_1_VAL0_CORPOREALDAMAGE} to themselves whenever they use magic."
     },
     {
       "image": "05195",
@@ -1074,7 +1360,12 @@
       "note": "Requires Gift of Monstrosity or Savagery",
       "description": "Spreads an agonizing rot to your opponent for 10 seconds, inflicting 125 corporeal damage whenever they use a melee ability.",
       "category": "Ability",
-      "gameId": 8404
+      "gameId": 8404,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_CORPOREALDAMAGE": 125
+      },
+      "rawDescription": "Spreads an agonizing rot to your opponent for {COM_0_DURA_SECONDS}, inflicting {COM_1_VAL0_CORPOREALDAMAGE} whenever they use a melee ability."
     },
     {
       "image": "05228",
@@ -1090,7 +1381,11 @@
       "note": "",
       "description": "Melee attack that deals 1200 damage and returns all of that damage as health.",
       "category": "Morale",
-      "gameId": 8451
+      "gameId": 8451,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200
+      },
+      "rawDescription": "Melee attack that deals {COM_0_VAL0_DAMAGE} and returns all of that damage as health."
     },
     {
       "image": "22714",
@@ -1106,7 +1401,11 @@
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 798
+      "gameId": 798,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Elemental resistance by {COM_0_VAL0}."
     },
     {
       "image": "22694",
@@ -1122,7 +1421,11 @@
       "note": "",
       "description": "Increases Wave Of Horror's duration to 15 seconds.",
       "category": "CareerTactic",
-      "gameId": 8433
+      "gameId": 8433,
+      "componentValues": {
+        "ABIL_8402_COM_4_DURA_SECONDS": 0
+      },
+      "rawDescription": "Increases Wave of Horror's duration to {ABIL_8402_COM_4_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -1138,7 +1441,11 @@
       "note": "",
       "description": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them. Each time an Enchantment is successfully removed, they will suffer 152 damage .",
       "category": "CareerTactic",
-      "gameId": 8443
+      "gameId": 8443,
+      "componentValues": {
+        "COM_2_VAL0_DAMAGE": 152
+      },
+      "rawDescription": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them.  Each time an Enchantment is successfully removed, they will suffer {COM_2_VAL0_DAMAGE} ."
     },
     {
       "image": "22714",
@@ -1154,7 +1461,11 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 797
+      "gameId": 797,
+      "componentValues": {
+        "ABIL_3996_COM_0_VAL1": 375
+      },
+      "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "05197",
@@ -1170,7 +1481,14 @@
       "note": "",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 67% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 8402
+      "gameId": 8402,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 5,
+        "COM_8_VAL0": 67
+      },
+      "rawDescription": "All enemies within {COM_0_RADI_FEET} are detaunted, making them hate you less and reducing the damage they deal against you to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.  During this time, all of your attacks will cause enemies to hate you {COM_8_VAL0}% less than normal. If you attack anyone you have detaunted, the effect will immediately end."
     },
     {
       "image": "05221",
@@ -1186,7 +1504,15 @@
       "note": "",
       "description": "A wave of horror spreads forth from you, dealing 553 damage over 21 seconds to all enemies within 30 feet and reducing their Weapon Skill by 75 and Initiative by 50.",
       "category": "Ability",
-      "gameId": 8417
+      "gameId": 8417,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 553,
+        "COM_0_DURA_SECONDS": 21,
+        "COM_0_RADI_FEET": 30,
+        "COM_2_VAL0": 75,
+        "COM_1_VAL0": 50
+      },
+      "rawDescription": "A wave of horror spreads forth from you, dealing {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} to all enemies within {COM_0_RADI_FEET} and reducing their Weapon Skill by {COM_2_VAL0} and Initiative by {COM_1_VAL0}."
     },
     {
       "image": "05225",
@@ -1202,7 +1528,13 @@
       "note": "Requires Gift of Brutality",
       "description": "You wildly lash out at all targets directly in front of you up to 40 feet away, dealing 183 damage and preventing all who are hit from generating Morale for 5 seconds.",
       "category": "Ability",
-      "gameId": 8422
+      "gameId": 8422,
+      "componentValues": {
+        "COM_0_RADI_FEET": 40,
+        "COM_0_VAL0_DAMAGE": 183,
+        "COM_1_DURA_SECONDS": 5
+      },
+      "rawDescription": "You wildly lash out at all targets directly in front of you up to {COM_0_RADI_FEET} away, dealing {COM_0_VAL0_DAMAGE} and preventing all who are hit from generating Morale for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -1218,7 +1550,11 @@
       "note": "",
       "description": "Increased Demolition's radius to 30 feet.",
       "category": "CareerTactic",
-      "gameId": 8434
+      "gameId": 8434,
+      "componentValues": {
+        "ABIL_8409_COM_2_RADI_FEET": 30
+      },
+      "rawDescription": "Increased Demolition's radius to {ABIL_8409_COM_2_RADI_FEET}."
     },
     {
       "image": "05227",
@@ -1234,7 +1570,13 @@
       "note": "Requires Gift of Monstrosity",
       "description": "You spin in a circle with your club arm extended, aimlessly inflicting 132 damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
-      "gameId": 8425
+      "gameId": 8425,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 132,
+        "COM_1_RADI_FEET": 30,
+        "COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "You spin in a circle with your club arm extended, aimlessly inflicting {COM_1_VAL0_DAMAGE} every half second to all targets within {COM_1_RADI_FEET} in front of you for up to {COM_0_DURA_SECONDS}.  This effect will end if you break your concentration or run out of action points."
     }
   ]
 }

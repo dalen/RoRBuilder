@@ -82,7 +82,12 @@
       "note": "",
       "description": "Your target suffers 500 physical damage over the next 10 seconds. The damage will start low, and increase as the effect continues.",
       "category": "Ability",
-      "gameId": 1771
+      "gameId": 1771,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_DAMAGE": 500,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Your target suffers {COM_1_VAL0_COM_0_VAL0_DAMAGE} over the next {COM_1_VAL0_COM_0_DURA_SECONDS}. The damage will start low, and increase as the effect continues."
     },
     {
       "image": "22706",
@@ -98,7 +103,11 @@
       "note": "",
       "description": "All your Exhaustive Blows have a 50% chance to restore 225 hit points.",
       "category": "CareerTactic",
-      "gameId": 1780
+      "gameId": 1780,
+      "componentValues": {
+        "ABIL_3307_COM_0_VAL0": 225
+      },
+      "rawDescription": "All your Exhaustive Blows have a 50% chance to restore {ABIL_3307_COM_0_VAL0} hit points."
     },
     {
       "image": "02652",
@@ -114,7 +123,14 @@
       "note": "",
       "description": "Each time that you attack an enemy within the next 10 seconds, Any group member within 100 feet will have their Weapon Skill increased by 25, but your Initiative will also be reduced by 25 for the next 10 seconds. This effect can be stacked up to three times.",
       "category": "Ability",
-      "gameId": 1769
+      "gameId": 1769,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_COM_1_VAL0": 25,
+        "COM_2_VAL0_COM_1_VAL0": 25,
+        "COM_2_VAL0_COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "Each time that you attack an enemy within the next {COM_0_DURA_SECONDS}, Any group member within 100 feet will have their Weapon Skill increased by {COM_1_VAL0_COM_1_VAL0}, but your Initiative will also be reduced by {COM_2_VAL0_COM_1_VAL0} for the next {COM_2_VAL0_COM_1_DURA_SECONDS}. This effect can be stacked up to three times."
     },
     {
       "image": "02650",
@@ -130,7 +146,12 @@
       "note": "Requires Dual Wield",
       "description": "You strike out at all enemies with 25 feet in front of you, inflicting 180 physical damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
       "category": "Ability",
-      "gameId": 1762
+      "gameId": 1762,
+      "componentValues": {
+        "COM_1_RADI_FEET": 25,
+        "COM_1_VAL0_DAMAGE": 180
+      },
+      "rawDescription": "You strike out at all enemies {COM_1_RADI_FEET} in front of you, inflicting {COM_1_VAL0_DAMAGE} every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%."
     },
     {
       "image": "23156",
@@ -146,7 +167,11 @@
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale",
-      "gameId": 629
+      "gameId": 629,
+      "componentValues": {
+        "COM_1_RADI_FEET": 25
+      },
+      "rawDescription": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within {COM_1_RADI_FEET} in front of you."
     },
     {
       "image": "22701",
@@ -162,7 +187,11 @@
       "note": "",
       "description": "Increases your Strength by.",
       "category": "CareerTactic",
-      "gameId": 521
+      "gameId": 521,
+      "componentValues": {
+        "COM_0_VAL0": 0
+      },
+      "rawDescription": "Increases your Strength by {COM_0_VAL0}."
     },
     {
       "image": "23403",
@@ -178,7 +207,11 @@
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
       "category": "Ability",
-      "gameId": 14423
+      "gameId": 14423,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You bolster yourself for {COM_0_DURA_SECONDS}, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside."
     },
     {
       "image": "02634",
@@ -194,7 +227,12 @@
       "note": "",
       "description": "You chop at your enemy, dealing 141 physical damage and reducing the value of incoming heals on them by 50% for the next 10 seconds.",
       "category": "Ability",
-      "gameId": 1746
+      "gameId": 1746,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 141,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "You chop at your enemy, dealing {COM_0_VAL0_DAMAGE} and reducing the value of incoming heals on them by 50% for the next {COM_1_DURA_SECONDS}."
     },
     {
       "image": "02640",
@@ -210,7 +248,12 @@
       "note": "",
       "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 1752
+      "gameId": 1752,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "You charge into the thick of battle, increasing your movement speed by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.  If you use any abilities, the effect will immediately end."
     },
     {
       "image": "02658",
@@ -226,7 +269,11 @@
       "note": "",
       "description": "Group members within 100 feet are inspired by the way you shrug off the blows, for the next 10 seconds any ability used by your groupmates will cool down 5 seconds faster.",
       "category": "Ability",
-      "gameId": 1775
+      "gameId": 1775,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Group members within 100 feet are inspired by the way you shrug off the blows, for the next {COM_0_DURA_SECONDS} any ability used by your groupmates will cool down 5 seconds faster."
     },
     {
       "image": "22707",
@@ -242,7 +289,9 @@
       "note": "",
       "description": "Get Stuck In's cooldown timer is lowered by 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 1784
+      "gameId": 1784,
+      "componentValues": {},
+      "rawDescription": "Get Stuck In's cooldown timer is lowered by 10 seconds."
     },
     {
       "image": "02646",
@@ -258,7 +307,12 @@
       "note": "",
       "description": "Increases your Toughness by 25 for each enemy within 30 feet, up to a maximum of 9 enemies. for 10 seconds.",
       "category": "Ability",
-      "gameId": 1758
+      "gameId": 1758,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Increases your Toughness by {COM_0_VAL0} for each enemy within 30 feet, up to a maximum of 9 enemies, for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "23157",
@@ -274,7 +328,11 @@
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
       "category": "Morale",
-      "gameId": 631
+      "gameId": 631,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "02660",
@@ -290,7 +348,12 @@
       "note": "",
       "description": "Absorbs 3600 damage for up to 20 seconds.",
       "category": "Morale",
-      "gameId": 1799
+      "gameId": 1799,
+      "componentValues": {
+        "COM_0_VAL1_DAMAGE": 3600,
+        "COM_0_DURA_SECONDS": 20
+      },
+      "rawDescription": "Absorbs {COM_0_VAL1_DAMAGE} for up to {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22707",
@@ -306,7 +369,11 @@
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 735
+      "gameId": 735,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Spirit resistance by {COM_0_VAL0}."
     },
     {
       "image": "02632",
@@ -322,7 +389,13 @@
       "note": "",
       "description": "A maiming attack which deals 152 physical damage to the target and snares them, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability",
-      "gameId": 1744
+      "gameId": 1744,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 152,
+        "COM_1_VAL0_COM_0_VAL0": 40,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "A maiming attack which deals {COM_0_VAL0_DAMAGE} to the target and snares them, reducing their run speed by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22708",
@@ -338,7 +411,11 @@
       "note": "",
       "description": "All attacks will generate 25% less hate.",
       "category": "CareerTactic",
-      "gameId": 1782
+      "gameId": 1782,
+      "componentValues": {
+        "COM_0_VAL1": 25
+      },
+      "rawDescription": "All attacks will generate {COM_0_VAL1}% less hate."
     },
     {
       "image": "22703",
@@ -354,7 +431,12 @@
       "note": "",
       "description": "Increases your Strength and Weapon Skill by 120 but reduces your Toughness by 120.",
       "category": "CareerTactic",
-      "gameId": 1778
+      "gameId": 1778,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "COM_1_VAL0": 0
+      },
+      "rawDescription": "Increases your Strength and Weapon Skill by {COM_0_VAL0}, but reduces your Toughness by {COM_1_VAL0}."
     },
     {
       "image": "02644",
@@ -370,7 +452,12 @@
       "note": "Requires Target to have Parried or Blocked",
       "description": "Your attacks become more precise, your target's chance to block or parry is reduced by 50% for 10 seconds. This attack cannot be defended against.",
       "category": "Ability",
-      "gameId": 1756
+      "gameId": 1756,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Your attacks become more precise, your target's chance to block or parry is reduced by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22709",
@@ -386,7 +473,9 @@
       "note": "",
       "description": "Reduces the Action Point costs by 5 points in Furious state and 10 points in Berserk state.",
       "category": "CareerTactic",
-      "gameId": 1783
+      "gameId": 1783,
+      "componentValues": {},
+      "rawDescription": "Reduces the Action Point costs by 5 points in Furious state and 10 points in Berserk state."
     },
     {
       "image": "22701",
@@ -402,7 +491,11 @@
       "note": "",
       "description": "Lotsa Choppin' will affect 9 targets within 30 feet and reduces the base damage by 20%.",
       "category": "CareerTactic",
-      "gameId": 1796
+      "gameId": 1796,
+      "componentValues": {
+        "ABIL_1747_COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Lotsa Choppin' will affect 9 targets within {ABIL_1747_COM_0_RADI_FEET} and reduces the base damage by 20%."
     },
     {
       "image": "22707",
@@ -418,7 +511,11 @@
       "note": "",
       "description": "Cooldowns on your Exhaustive Blows are reduced by 25%.",
       "category": "CareerTactic",
-      "gameId": 1779
+      "gameId": 1779,
+      "componentValues": {
+        "COM_0_VAL0": 25
+      },
+      "rawDescription": "Cooldowns on your Exhaustive Blows are reduced by {COM_0_VAL0}%."
     },
     {
       "image": "22704",
@@ -434,7 +531,11 @@
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
       "category": "CareerTactic",
-      "gameId": 523
+      "gameId": 523,
+      "componentValues": {
+        "COM_0_VAL0": 15
+      },
+      "rawDescription": "All of your attacks deal {COM_0_VAL0}% more damage when you strike an enemy from the sides or rear."
     },
     {
       "image": "05004",
@@ -450,7 +551,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "02631",
@@ -466,7 +573,11 @@
       "note": "",
       "description": "A basic throwing attack that inflicts 104 damage.",
       "category": "Ability",
-      "gameId": 1743
+      "gameId": 1743,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 104
+      },
+      "rawDescription": "A basic throwing attack that inflicts {COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "23158",
@@ -482,7 +593,13 @@
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
       "category": "Morale",
-      "gameId": 628
+      "gameId": 628,
+      "componentValues": {
+        "COM_0_VAL0": 200,
+        "COM_2_VAL0": 160,
+        "COM_2_DURA_SECONDS": 30
+      },
+      "rawDescription": "You stare down your opponent, draining {COM_0_VAL0} of their Action Points into yourself, and reducing their Strength by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "23159",
@@ -498,7 +615,9 @@
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale",
-      "gameId": 630
+      "gameId": 630,
+      "componentValues": {},
+      "rawDescription": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds."
     },
     {
       "image": "02651",
@@ -514,7 +633,12 @@
       "note": "",
       "description": "A merciless strike of attacks that repeatedly hits your target for up to 5 seconds, dealing up to 194 damage. You will be healed for all damage this ability deals.",
       "category": "Ability",
-      "gameId": 1768
+      "gameId": 1768,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 5,
+        "COM_1_VAL0_DAMAGE": 194
+      },
+      "rawDescription": "A merciless strike of attacks that repeatedly hits your target for up to {COM_0_DURA_SECONDS}, dealing up to {COM_1_VAL0_DAMAGE}. You will be healed for all damage this ability deals."
     },
     {
       "image": "02642",
@@ -530,7 +654,12 @@
       "note": "",
       "description": "Your groupmates are inspired by your eagerness to fight. Auto attack speed is increased by 35% for 20 seconds for all groupmates within 100 feet.",
       "category": "Ability",
-      "gameId": 1754
+      "gameId": 1754,
+      "componentValues": {
+        "COM_0_VAL1": 35,
+        "COM_0_DURA_SECONDS": 20
+      },
+      "rawDescription": "Your groupmates are inspired by your eagerness to fight. Auto attack speed is increased by {COM_0_VAL1}% for {COM_0_DURA_SECONDS} for all groupmates within 100 feet."
     },
     {
       "image": "02659",
@@ -546,7 +675,13 @@
       "note": "Requires Dual Wield",
       "description": "You charge and frantically lash out at everything nearby for up to 6 seconds, dealing 153 damage every 2 seconds to all enemies within 40 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active.",
       "category": "Ability",
-      "gameId": 1776
+      "gameId": 1776,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 6,
+        "COM_1_VAL0_DAMAGE": 153,
+        "COM_1_RADI_FEET": 40
+      },
+      "rawDescription": "You charge and frantically lash out at everything nearby for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} every 2 seconds to all enemies within {COM_1_RADI_FEET}. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active."
     },
     {
       "image": "02637",
@@ -562,7 +697,11 @@
       "note": "Target must be facing away from you",
       "description": "You deal 227 physical damage to your enemy.",
       "category": "Ability",
-      "gameId": 1749
+      "gameId": 1749,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 227
+      },
+      "rawDescription": "You deal {COM_0_VAL0_DAMAGE} to your enemy."
     },
     {
       "image": "02648",
@@ -578,7 +717,12 @@
       "note": "",
       "description": "While this ability is active, your will deal an additional 100 damage whenever you strike a target with a melee attack, but you will also suffer 50 damage each time this effect occurs.",
       "category": "Ability",
-      "gameId": 1760
+      "gameId": 1760,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 100,
+        "COM_2_VAL0_DAMAGE": 50
+      },
+      "rawDescription": "While this ability is active, your will deal an additional {COM_1_VAL0_DAMAGE} whenever you strike a target with a melee attack, but you will also suffer {COM_2_VAL0_DAMAGE} each time this effect occurs."
     },
     {
       "image": "22707",
@@ -594,7 +738,11 @@
       "note": "",
       "description": "Increases your Wounds by 160.",
       "category": "CareerTactic",
-      "gameId": 734
+      "gameId": 734,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Wounds by {COM_0_VAL0}."
     },
     {
       "image": "22707",
@@ -610,7 +758,9 @@
       "note": "",
       "description": "Increases the duration of Come An' Git It and Try An' Hurt Me by 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 1781
+      "gameId": 1781,
+      "componentValues": {},
+      "rawDescription": "Increases the duration of Come An' Git It and Try An' Hurt Me by 5 seconds."
     },
     {
       "image": "22694",
@@ -626,7 +776,12 @@
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 526
+      "gameId": 526,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD": 606,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Any time you critically hit an enemy they will begin to bleed, suffering additional {COM_1_VAL0_COM_0_VAL0_TOD} Corporeal damage over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22707",
@@ -642,7 +797,12 @@
       "note": "",
       "description": "When you die, you have a 25% chance of ressurecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing 250 damage.",
       "category": "CareerTactic",
-      "gameId": 1795
+      "gameId": 1795,
+      "componentValues": {
+        "ABIL_3194_COM_0_RADI_FEET": 0,
+        "ABIL_3194_COM_0_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "When you die, you have a 25% chance of resurrecting at 25% health and unleashing a blow to all enemies within {ABIL_3194_COM_0_RADI_FEET} and dealing {ABIL_3194_COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "02653",
@@ -658,7 +818,12 @@
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You chop deeply into your enemy, dealing 191 damage. Your love of battle fills you with energy, restoring 100 Action Points.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
-      "gameId": 1770
+      "gameId": 1770,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 191,
+        "COM_1_VAL0_COM_0_VAL0_ACTIONPOINTS": 100
+      },
+      "rawDescription": "You chop deeply into your enemy, dealing {COM_0_VAL0_DAMAGE}. Your love of battle fills you with energy, restoring {COM_1_VAL0_COM_0_VAL0_ACTIONPOINTS}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
     {
       "image": "22707",
@@ -674,7 +839,9 @@
       "note": "",
       "description": "Any time your Exhaustive Blow gets defended, for the next 6 seconds all attacks will cost 0 action points.",
       "category": "CareerTactic",
-      "gameId": 1791
+      "gameId": 1791,
+      "componentValues": {},
+      "rawDescription": "Any time your Exhaustive Blow gets defended, for the next 6 seconds all attacks will cost 0 action points."
     },
     {
       "image": "22709",
@@ -690,7 +857,12 @@
       "note": "",
       "description": "While you are Furious, you regain 100 health every 4 seconds. While you are Berserk, you regain 175 health every 4 seconds.",
       "category": "CareerTactic",
-      "gameId": 1794
+      "gameId": 1794,
+      "componentValues": {
+        "COM_1_VAL0_HEALTH": 100,
+        "COM_2_VAL0_HEALTH": 175
+      },
+      "rawDescription": "While you are Furious, you regain {COM_1_VAL0_HEALTH} every 4 seconds. While you are Berserk, you regain {COM_2_VAL0_HEALTH} every 4 seconds."
     },
     {
       "image": "02635",
@@ -706,7 +878,13 @@
       "note": "",
       "description": "You wildly swing at enemies in front of you within 25 feet, dealing anywhere from 93 damage to 133 damage. May only hit up to three targets.",
       "category": "Ability",
-      "gameId": 1747
+      "gameId": 1747,
+      "componentValues": {
+        "COM_1_RADI_FEET": 25,
+        "COM_0_VAL0_COM_2_VAL0_DAMAGE": 93,
+        "COM_0_VAL0_COM_0_VAL0_DAMAGE": 133
+      },
+      "rawDescription": "You wildly swing at enemies in front of you within {COM_1_RADI_FEET}, dealing anywhere from {COM_0_VAL0_COM_2_VAL0_DAMAGE} to {COM_0_VAL0_COM_0_VAL0_DAMAGE}. May only hit up to three targets."
     },
     {
       "image": "02656",
@@ -722,7 +900,13 @@
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "A brutal attack which deals 327 physical damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
-      "gameId": 1773
+      "gameId": 1773,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 327,
+        "COM_1_DURA_SECONDS": 10,
+        "COM_1_VAL1": 50
+      },
+      "rawDescription": "A brutal attack which deals {COM_0_VAL0_DAMAGE} to the target. For the next {COM_1_DURA_SECONDS}, any healing abilities that they use will be {COM_1_VAL1}% as effective.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
     {
       "image": "02641",
@@ -738,7 +922,13 @@
       "note": "",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 1753
+      "gameId": 1753,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "All enemies within {COM_0_RADI_FEET} are detaunted, making them hate you less and reducing the damage they deal against you to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.  During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end."
     },
     {
       "image": "02649",
@@ -754,7 +944,11 @@
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "A wild swing which deals 227 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
-      "gameId": 1761
+      "gameId": 1761,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "A wild swing which Deals {COM_0_VAL0_DAMAGE}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
     {
       "image": "22708",
@@ -770,7 +964,9 @@
       "note": "",
       "description": "While Berserk, all cooldowns are reduced by 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 1790
+      "gameId": 1790,
+      "componentValues": {},
+      "rawDescription": "While Berserk, all cooldowns are reduced by 5 seconds."
     },
     {
       "image": "23160",
@@ -786,7 +982,12 @@
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale",
-      "gameId": 633
+      "gameId": 633,
+      "componentValues": {
+        "COM_0_VAL0_ACTIONPOINTS": 10,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A prolonged fervor that grants {COM_0_VAL0_ACTIONPOINTS} a second to everyone in your group within 100 feet of you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22702",
@@ -802,7 +1003,11 @@
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 253 damage which they can not prevent.",
       "category": "CareerTactic",
-      "gameId": 528
+      "gameId": 528,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 253
+      },
+      "rawDescription": "Each time you parry an enemy's attack, you will strike them back for {COM_1_VAL0_DAMAGE} which they can not prevent."
     },
     {
       "image": "23161",
@@ -818,7 +1023,11 @@
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale",
-      "gameId": 627
+      "gameId": 627,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200
+      },
+      "rawDescription": "A directed strike that inflicts {COM_0_VAL0_DAMAGE} to your target."
     },
     {
       "image": "02645",
@@ -834,7 +1043,11 @@
       "note": "",
       "description": "Any roots or snares are removed, as all attempts to impede your movement are futile. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability",
-      "gameId": 1757
+      "gameId": 1757,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "Any roots or snares are removed, as all attempts to impede your movement are futile. For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you."
     },
     {
       "image": "02643",
@@ -850,7 +1063,12 @@
       "note": "Must be Berserk<br>Exhausts your Rage",
       "description": "Deals 177 damage and knocks down the target for 3 seconds. The attack is undefendable.",
       "category": "Ability",
-      "gameId": 1755
+      "gameId": 1755,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 177,
+        "COM_1_DURA_SECONDS": 3
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} and knocks down the target for {COM_1_DURA_SECONDS}. The attack is undefendable."
     },
     {
       "image": "02633",
@@ -866,7 +1084,13 @@
       "note": "",
       "description": "A furious slash that deals 191 damage and reduces your targets Toughness by 25 for 9 seconds. This effect is stackable up to three times.",
       "category": "Ability",
-      "gameId": 1745
+      "gameId": 1745,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_COM_1_VAL0": 0,
+        "COM_1_VAL0_COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "A furious slash that deals {COM_0_VAL0_DAMAGE} and reduces your target's Toughness by {COM_1_VAL0_COM_1_VAL0} for {COM_1_VAL0_COM_1_DURA_SECONDS}. This effect is stackable up to three times."
     },
     {
       "image": "22707",
@@ -882,7 +1106,9 @@
       "note": "",
       "description": "All of your critical hits will deal 25% more bonus critical damage.",
       "category": "CareerTactic",
-      "gameId": 739
+      "gameId": 739,
+      "componentValues": {},
+      "rawDescription": "All of your critical hits will deal 25% more bonus critical damage."
     },
     {
       "image": "02665",
@@ -898,7 +1124,13 @@
       "note": "",
       "description": "You stomp the ground, knocking down targets within 30 feet for 3 seconds and dealing 1800 damage.",
       "category": "Morale",
-      "gameId": 1804
+      "gameId": 1804,
+      "componentValues": {
+        "COM_0_RADI_FEET": 0,
+        "COM_1_DURA_SECONDS": 0,
+        "COM_0_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "You stomp the ground, knocking down targets within {COM_0_RADI_FEET} for {COM_1_DURA_SECONDS} and dealing {COM_0_VAL0_DAMAGE}. This ability hits max 9 targets."
     },
     {
       "image": "22702",
@@ -914,7 +1146,12 @@
       "note": "",
       "description": "Increases the chance to critically hit with Path of Da' Big Hitta abilities by 15%, but if you are dual wielding, decreases your ability to defend critical hits by 10%.",
       "category": "CareerTactic",
-      "gameId": 1793
+      "gameId": 1793,
+      "componentValues": {
+        "COM_0_VAL1": 15,
+        "COM_1_VAL1": 10
+      },
+      "rawDescription": "Increases the chance to critically hit with Path of Da' Big Hitta abilities by {COM_0_VAL1}%, but if you are dual wielding, decreases your ability to defend critical hits by {COM_1_VAL1}%."
     },
     {
       "image": "02662",
@@ -930,7 +1167,13 @@
       "note": "",
       "description": "Deals 1800 damage and reduces Action Point costs by 50% for 10 seconds.",
       "category": "Morale",
-      "gameId": 1801
+      "gameId": 1801,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1800,
+        "COM_1_VAL1": 50,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} and reduces Action Point costs by {COM_1_VAL1}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "02661",
@@ -946,7 +1189,11 @@
       "note": "",
       "description": "For the next 30 seconds you deal an additional 300 damage, whenever you use an ability. This effect will fade after you damage 8 targets.",
       "category": "Morale",
-      "gameId": 2860
+      "gameId": 2860,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 300
+      },
+      "rawDescription": "For the next 30 seconds you deal an additional {COM_1_VAL0_DAMAGE}, whenever you use an ability. This effect will fade after you damage 8 targets."
     },
     {
       "image": "02630",
@@ -962,7 +1209,13 @@
       "note": "",
       "description": "You slash at your opponent's throat, immediately inflicting 119 damage. The wound continues to bleed for 132 damage over 3 seconds.",
       "category": "Ability",
-      "gameId": 1742
+      "gameId": 1742,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 119,
+        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 132,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "You slash at your opponent's throat, immediately inflicting {COM_0_VAL0_DAMAGE}. The wound continues to bleed for {COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02655",
@@ -978,7 +1231,12 @@
       "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You chop your target in a vital organ, dealing 177 damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
-      "gameId": 1772
+      "gameId": 1772,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 177,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "You chop your target in a vital organ, dealing {COM_0_VAL0_DAMAGE}. For the next {COM_1_DURA_SECONDS}, any abilities that they use will take an additional 5 seconds to cooldown.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
     {
       "image": "02638",
@@ -994,7 +1252,13 @@
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "An exhaustive blow that deals 152 damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
-      "gameId": 1750
+      "gameId": 1750,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 152,
+        "COM_1_VAL0_COM_0_VAL1": 100,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "An exhaustive blow that deals {COM_0_VAL0_DAMAGE} and reduces your target's chance to critically hit by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
     {
       "image": "22701",
@@ -1010,7 +1274,12 @@
       "note": "",
       "description": "When you do critical damage, reduces your target's Weapon Skill by 120 for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 1785
+      "gameId": 1785,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 120,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "When you do critical damage, reduces your target's Weapon Skill by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02639",
@@ -1026,7 +1295,11 @@
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "You unleash a powerful blow, dealing 302 physical damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
-      "gameId": 1751
+      "gameId": 1751,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "You unleash a powerful blow, dealing {COM_0_VAL0_DAMAGE}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
     {
       "image": "22701",
@@ -1042,7 +1315,9 @@
       "note": "",
       "description": "Every 4 seconds, you will gain one stack of an effect which reduces the Rage cost of your exhaustive blows by 25%. This effect stacks up to 3 times, and using an exhaustive blow will consume one stack.",
       "category": "CareerTactic",
-      "gameId": 1792
+      "gameId": 1792,
+      "componentValues": {},
+      "rawDescription": "Every 4 seconds, you will gain one stack of an effect which reduces the Rage cost of your Exhaustive Blows by 25%. This effect stacks up to 3 times, and using an Exhaustive Blow will consume one stack."
     },
     {
       "image": "02663",
@@ -1058,7 +1333,12 @@
       "note": "",
       "description": "Your rage inspires all around, causing groupmates' attacks to deal an additional 300 damage for 10 seconds while within 100 feet of you.",
       "category": "Morale",
-      "gameId": 1802
+      "gameId": 1802,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 300,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Your rage inspires all around, causing groupmates' attacks to deal an additional {COM_1_VAL0_DAMAGE} for {COM_0_DURA_SECONDS} while within 100 feet of you."
     },
     {
       "image": "02647",
@@ -1074,7 +1354,13 @@
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You strike enemies within 30 feet, dealing anywhere from 91 damage to 191 damage. <br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
-      "gameId": 1759
+      "gameId": 1759,
+      "componentValues": {
+        "COM_0_VAL0_COM_0_RADI_FEET": 30,
+        "COM_0_VAL0_COM_1_VAL0_DAMAGE": 91,
+        "COM_0_VAL0_COM_3_VAL0_DAMAGE": 191
+      },
+      "rawDescription": "You strike enemies within {COM_0_VAL0_COM_0_RADI_FEET}, dealing anywhere from {COM_0_VAL0_COM_1_VAL0_DAMAGE} to {COM_0_VAL0_COM_3_VAL0_DAMAGE}. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
     {
       "image": "22702",
@@ -1090,7 +1376,9 @@
       "note": "",
       "description": "Exhaustive Blows will no longer remove your Rage.",
       "category": "CareerTactic",
-      "gameId": 1788
+      "gameId": 1788,
+      "componentValues": {},
+      "rawDescription": "Exhaustive Blows will no longer remove your Rage."
     },
     {
       "image": "02657",
@@ -1106,7 +1394,15 @@
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
       "description": "You lash out at all enemies within 30 feet, inflicting 116 physical damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
-      "gameId": 1774
+      "gameId": 1774,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0_DAMAGE": 116,
+        "COM_1_VAL0_COM_3_VAL0": 10,
+        "COM_1_VAL0_COM_0_VAL0": 40,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "You lash out at all enemies within {COM_0_RADI_FEET}, inflicting {COM_0_VAL0_DAMAGE}. All of the victims will also become snared, reducing their run speed anywhere from {COM_1_VAL0_COM_3_VAL0}% to {COM_1_VAL0_COM_0_VAL0}% for up to {COM_1_VAL0_COM_0_DURA_SECONDS}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
     {
       "image": "02636",
@@ -1122,7 +1418,13 @@
       "note": "",
       "description": "You swipe at the enemies in front of you, dealing 316 damage over 9 seconds to enemies within 40 feet.",
       "category": "Ability",
-      "gameId": 1748
+      "gameId": 1748,
+      "componentValues": {
+        "COM_0_VAL0_COM_0_VAL0_TOD": 316,
+        "COM_0_VAL0_COM_0_DURA_SECONDS": 9,
+        "COM_0_VAL0_COM_0_RADI_FEET": 40
+      },
+      "rawDescription": "You swipe at the enemies in front of you, dealing {COM_0_VAL0_COM_0_VAL0_TOD} over {COM_0_VAL0_COM_0_DURA_SECONDS} to enemies within {COM_0_VAL0_COM_0_RADI_FEET}."
     },
     {
       "image": "22701",
@@ -1138,7 +1440,12 @@
       "note": "",
       "description": "When your attacks get defended, increases your chance to critically hit with Path of Da' Savage abilities by 100% for the next 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 1789
+      "gameId": 1789,
+      "componentValues": {
+        "COM_4_VAL0_COM_0_VAL1": 100,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "When your attacks get defended, increases your chance to critically hit with Path of Da' Savage abilities by {COM_4_VAL0_COM_0_VAL1}% for the next {COM_4_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02664",
@@ -1154,7 +1461,13 @@
       "note": "",
       "description": "You chop all enemies within 30 feet for 1200 damage and all heals are reduced by 50% for 10 seconds.",
       "category": "Morale",
-      "gameId": 1803
+      "gameId": 1803,
+      "componentValues": {
+        "COM_0_RADI_FEET": 0,
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "You chop all enemies within {COM_0_RADI_FEET} for {COM_0_VAL0_DAMAGE} and all heals are reduced by 50% for {COM_1_DURA_SECONDS}. This ability hits max 9 targets."
     }
   ]
 }

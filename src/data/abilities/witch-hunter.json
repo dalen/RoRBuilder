@@ -83,7 +83,15 @@
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "A precision shot to the enemy's vital organs which deals damage based on combo points.<br>  1 Accusation: 227 damage. <br>  2 Accusations: 284 damage.<br>  3 Accusations: 344 damage.<br>  4 Accusations: 402 damage.<br>  5 Accusations: 459 damage.",
       "category": "Ability",
-      "gameId": 8082
+      "gameId": 8082,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 227,
+        "COM_1_VAL0_DAMAGE": 284,
+        "COM_2_VAL0_DAMAGE": 344,
+        "COM_3_VAL0_DAMAGE": 402,
+        "COM_4_VAL0_DAMAGE": 459
+      },
+      "rawDescription": "A precision shot to the enemy's vital organs which deals damage based on combo points.<BR>   1 Accusation:  {COM_0_VAL0_DAMAGE}. <BR>   2 Accusations:  {COM_1_VAL0_DAMAGE}.<BR>   3 Accusations:  {COM_2_VAL0_DAMAGE}.<BR>   4 Accusations:  {COM_3_VAL0_DAMAGE}.<BR>   5 Accusations:  {COM_4_VAL0_DAMAGE}."
     },
     {
       "image": "22708",
@@ -99,7 +107,11 @@
       "note": "",
       "description": "Increases Absolution's chance to critically hit by 25%.",
       "category": "CareerTactic",
-      "gameId": 8138
+      "gameId": 8138,
+      "componentValues": {
+        "COM_0_VAL1": 25
+      },
+      "rawDescription": "Increases Absolution's chance to critically hit by {COM_0_VAL1}%."
     },
     {
       "image": "07974",
@@ -115,7 +127,13 @@
       "note": "",
       "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 45 Spirit damage to the target. The victim will lose 20 Action Points, and you will gain 20 Action Points.<br/><br/>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability",
-      "gameId": 8089
+      "gameId": 8089,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 0,
+        "COM_1_VAL0_COM_1_VAL0_ACTIONPOINTS": 0,
+        "COM_1_VAL0_COM_2_VAL0_ACTIONPOINTS": 0
+      },
+      "rawDescription": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional {COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE} to the target.  The victim will lose {COM_1_VAL0_COM_1_VAL0_ACTIONPOINTS}, and you will gain {COM_1_VAL0_COM_2_VAL0_ACTIONPOINTS}.<BR><BR>This ability may be used while Incognito without breaking the effect."
     },
     {
       "image": "07970",
@@ -131,7 +149,13 @@
       "note": "",
       "description": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional 225 Spirit damage. Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.<br/><br/>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability",
-      "gameId": 8099
+      "gameId": 8099,
+      "componentValues": {
+        "ABIL_3002_COM_0_VAL0_SPIRITDAMAGE": 0,
+        "COM_1_VAL0_COM_1_DURA_SECONDS": 0,
+        "COM_1_VAL0_COM_1_VAL1": 0
+      },
+      "rawDescription": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional {ABIL_3002_COM_0_VAL0_SPIRITDAMAGE}.  Any healing abilities that the victim uses over the next {COM_1_VAL0_COM_1_DURA_SECONDS} will become {COM_1_VAL0_COM_1_VAL1}% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect."
     },
     {
       "image": "08045",
@@ -147,7 +171,14 @@
       "note": "",
       "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 225 Spirit damage.  The victim's Initiative will be reduced by 50  for 10 seconds, and your Initiative will be increased by 50.<br/><br/>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability",
-      "gameId": 8084
+      "gameId": 8084,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 0,
+        "COM_1_VAL0_COM_1_VAL0": 0,
+        "COM_1_VAL0_COM_1_DURA_SECONDS": 0,
+        "COM_1_VAL0_COM_2_VAL0_COM_0_VAL0": 0
+      },
+      "rawDescription": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional {COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE}.  The victim's Initiative will be reduced by {COM_1_VAL0_COM_1_VAL0} for {COM_1_VAL0_COM_1_DURA_SECONDS}, and your Initiative will be increased by {COM_1_VAL0_COM_2_VAL0_COM_0_VAL0}.<BR><BR>This ability may be used while Incognito without breaking the effect."
     },
     {
       "image": "22696",
@@ -163,7 +194,11 @@
       "note": "",
       "description": "Any time you land a killing blow on your enemy, all of your groupmates within 30 feet will regain 75 Action Points.",
       "category": "CareerTactic",
-      "gameId": 8126
+      "gameId": 8126,
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 75
+      },
+      "rawDescription": "Any time you land a killing blow on your enemy, all of your groupmates within 30 feet will regain {COM_1_VAL0_ACTIONPOINTS}."
     },
     {
       "image": "23156",
@@ -179,7 +214,11 @@
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale",
-      "gameId": 629
+      "gameId": 629,
+      "componentValues": {
+        "COM_1_RADI_FEET": 25
+      },
+      "rawDescription": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within {COM_1_RADI_FEET} in front of you."
     },
     {
       "image": "22701",
@@ -195,7 +234,11 @@
       "note": "",
       "description": "Increases your Strength by 160.",
       "category": "CareerTactic",
-      "gameId": 521
+      "gameId": 521,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Strength by {COM_0_VAL0}."
     },
     {
       "image": "07971",
@@ -211,7 +254,14 @@
       "note": "Requires Incognito<br>Builds 2 Accusations",
       "description": "A surprise attack that burns your target, causing them to take 125 Spirit damage each time they use a melee attack for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
       "category": "Ability",
-      "gameId": 8091
+      "gameId": 8091,
+      "componentValues": {
+        "COM_1_VAL0_SPIRITDAMAGE": 125,
+        "COM_0_DURA_SECONDS": 15,
+        "COM_2_VAL0_COM_0_VAL1": 50,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A surprise attack that burns your target, causing them to take {COM_1_VAL0_SPIRITDAMAGE} each time they use a melee attack for the next {COM_0_DURA_SECONDS}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
     },
     {
       "image": "08049",
@@ -227,7 +277,21 @@
       "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent",
       "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<br>  1 Accusation: 672 damage over time; 333 ending damage.<br>  2 Accusations: 858 damage over time; 432 ending damage.<br>  3 Accusations: 1047 damage over time; 524 ending damage.<br>  4 Accusations: 1233 damage over time; 619 ending damage.<br>  5 Accusations: 1422 damage over time; 715 ending damage.",
       "category": "Ability",
-      "gameId": 8116
+      "gameId": 8116,
+      "componentValues": {
+        "ABIL_3921_COM_0_DURA_SECONDS": 0,
+        "ABIL_3921_COM_0_VAL0_TOD_DAMAGE": 0,
+        "ABIL_3921_COM_1_VAL0": 0,
+        "ABIL_3922_COM_0_VAL0_TOD_DAMAGE": 0,
+        "ABIL_3922_COM_1_VAL0": 0,
+        "ABIL_3923_COM_0_VAL0_TOD_DAMAGE": 0,
+        "ABIL_3923_COM_1_VAL0": 0,
+        "ABIL_3924_COM_0_VAL0_TOD_DAMAGE": 0,
+        "ABIL_3924_COM_1_VAL0": 0,
+        "ABIL_3925_COM_0_VAL0_TOD_DAMAGE": 0,
+        "ABIL_3925_COM_1_VAL0": 0
+      },
+      "rawDescription": "A pistol shot that fires bullets filled with fire oil, first dealing damage over {ABIL_3921_COM_0_DURA_SECONDS} and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  {ABIL_3921_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3921_COM_1_VAL0} ending damage.<BR>   2 Accusations:  {ABIL_3922_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3922_COM_1_VAL0} ending damage.<BR>   3 Accusations:  {ABIL_3923_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3923_COM_1_VAL0} ending damage.<BR>   4 Accusations:  {ABIL_3924_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3924_COM_1_VAL0} ending damage.<BR>   5 Accusations:  {ABIL_3925_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3925_COM_1_VAL0} ending damage.<BR>"
     },
     {
       "image": "08046",
@@ -243,7 +307,16 @@
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<br>  1 Accusation: 534 damage<br>  2 Accusations: 672 damage<br>  3 Accusations: 822 damage<br>  4 Accusations: 954 damage<br>  5 Accusations: 1104 damage",
       "category": "Ability",
-      "gameId": 8093
+      "gameId": 8093,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_0_VAL0_TOD_DAMAGE": 534,
+        "COM_1_VAL0_TOD_DAMAGE": 672,
+        "COM_2_VAL0_TOD_DAMAGE": 822,
+        "COM_3_VAL0_TOD_DAMAGE": 954,
+        "COM_4_VAL0_TOD_DAMAGE": 1104
+      },
+      "rawDescription": "A cleansing shot of flame which deals damage to your target over {COM_0_DURA_SECONDS}.<BR>   1 Accusation:  {COM_0_VAL0_TOD_DAMAGE}<BR>   2 Accusations:  {COM_1_VAL0_TOD_DAMAGE}<BR>   3 Accusations:  {COM_2_VAL0_TOD_DAMAGE}<BR>   4 Accusations:  {COM_3_VAL0_TOD_DAMAGE}<BR>   5 Accusations:  {COM_4_VAL0_TOD_DAMAGE}"
     },
     {
       "image": "07976",
@@ -259,7 +332,12 @@
       "note": "Requires Parry",
       "description": "A savage counterattack that deals 227 damage and disarms your target for 4 seconds, making them unable to use their weapons.",
       "category": "Ability",
-      "gameId": 8086
+      "gameId": 8086,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 227,
+        "COM_1_DURA_SECONDS": 4
+      },
+      "rawDescription": "A savage counterattack that deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_DURA_SECONDS}, making them unable to use their weapons."
     },
     {
       "image": "23157",
@@ -275,7 +353,11 @@
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
       "category": "Morale",
-      "gameId": 631
+      "gameId": 631,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "07981",
@@ -291,7 +373,11 @@
       "note": "You cannot perform this action while rooted",
       "description": "You leap backwards from your target, causing your target to be Staggered for up to 3 seconds, preventing all actions unless they're damaged.",
       "category": "Ability",
-      "gameId": 8094
+      "gameId": 8094,
+      "componentValues": {
+        "ABIL_3033_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "You leap backwards from your target, causing your target to be Staggered for up to {ABIL_3033_COM_0_DURA_SECONDS}, preventing all actions unless they're damaged."
     },
     {
       "image": "07980",
@@ -307,7 +393,12 @@
       "note": "",
       "description": "Deals 1600 damage to all enemies in front of you, up to 65 feet away.",
       "category": "Morale",
-      "gameId": 8152
+      "gameId": 8152,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1600,
+        "COM_0_RADI_FEET": 65
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
     },
     {
       "image": "08047",
@@ -323,7 +414,20 @@
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 300, inspired, your group gains 300 Morale.<br>  1 Accusation: 186 damage, 30 feet radius.<br>  2 Accusations: 206 damage, 35 feet radius.<br>  3 Accusations: 226 damage, 40 feet radius.<br>  4 Accusations: 248 damage, 43.3 feet radius.<br>  5 Accusations: 268 damage, 48.3 feet radius.",
       "category": "Ability",
-      "gameId": 8110
+      "gameId": 8110,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 186,
+        "COM_0_RADI_FEET": 30,
+        "COM_1_VAL0_DAMAGE": 206,
+        "COM_1_RADI_FEET": 35,
+        "COM_2_VAL0_DAMAGE": 226,
+        "COM_2_RADI_FEET": 40,
+        "COM_3_VAL0_DAMAGE": 248,
+        "COM_3_RADI_FEET": 43,
+        "COM_4_VAL0_DAMAGE": 268,
+        "COM_4_RADI_FEET": 48
+      },
+      "rawDescription": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 300, inspired, your group gains 300 Morale.<BR>   1 Accusation:  {COM_0_VAL0_DAMAGE}, {COM_0_RADI_FEET} radius.<BR>   2 Accusations:  {COM_1_VAL0_DAMAGE}, {COM_1_RADI_FEET} radius.<BR>   3 Accusations:  {COM_2_VAL0_DAMAGE}, {COM_2_RADI_FEET} radius.<BR>   4 Accusations:  {COM_3_VAL0_DAMAGE}, {COM_3_RADI_FEET} radius.<BR>   5 Accusations:  {COM_4_VAL0_DAMAGE}, {COM_4_RADI_FEET} radius."
     },
     {
       "image": "22710",
@@ -339,7 +443,12 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 779
+      "gameId": 779,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 375
+      },
+      "rawDescription": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS}, which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}.<BR>This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "22704",
@@ -355,7 +464,11 @@
       "note": "",
       "description": "Blessed Bullets of Confession will now also make the target 5% easier to critical hit.",
       "category": "CareerTactic",
-      "gameId": 8136
+      "gameId": 8136,
+      "componentValues": {
+        "ABIL_3784_COM_2_VAL1": 5
+      },
+      "rawDescription": "Blessed Bullets of Confession will now also make the target {ABIL_3784_COM_2_VAL1}% easier to critical hit."
     },
     {
       "image": "07978",
@@ -371,7 +484,14 @@
       "note": "",
       "description": "For the next 15 seconds, heals will have no effects on your target. The target and all other enemies within 20 feet of them will suffer 1200 damage over 15 seconds.",
       "category": "Morale",
-      "gameId": 8153
+      "gameId": 8153,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 15,
+        "COM_1_RADI_FEET": 20,
+        "COM_1_VAL0_TOD_DAMAGE": 1200,
+        "COM_1_DURA_SECONDS": 15
+      },
+      "rawDescription": "For the next {COM_0_DURA_SECONDS}, heals will have no effects on your target.  The target and all other enemies within {COM_1_RADI_FEET} of them will suffer {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
     },
     {
       "image": "07982",
@@ -387,7 +507,21 @@
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<br>  1 Accusation: 252 damage; stats reduced by 50.<br>  2 Accusations: 318 damage; stats reduced by 75.<br>  3 Accusations: 386 damage; stats reduced by 100.<br>  4 Accusations: 452 damage; stats reduced by 125.<br>  5 Accusations: 518 damage; stats reduced by 150.",
       "category": "Ability",
-      "gameId": 8113
+      "gameId": 8113,
+      "componentValues": {
+        "ABIL_3983_COM_1_DURA_SECONDS": 10,
+        "ABIL_3983_COM_0_VAL0_DAMAGE": 252,
+        "ABIL_3983_COM_1_VAL0": 50,
+        "ABIL_3984_COM_0_VAL0_DAMAGE": 318,
+        "ABIL_3984_COM_1_VAL0": 75,
+        "ABIL_3985_COM_0_VAL0_DAMAGE": 386,
+        "ABIL_3985_COM_1_VAL0": 100,
+        "ABIL_3986_COM_0_VAL0_DAMAGE": 452,
+        "ABIL_3986_COM_1_VAL0": 125,
+        "ABIL_3987_COM_0_VAL0_DAMAGE": 518,
+        "ABIL_3987_COM_1_VAL0": 150
+      },
+      "rawDescription": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for {ABIL_3983_COM_1_DURA_SECONDS}.<BR>   1 Accusation:  {ABIL_3983_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3983_COM_1_VAL0}.<BR>    2 Accusations:  {ABIL_3984_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3984_COM_1_VAL0}.<BR>    3 Accusations:  {ABIL_3985_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3985_COM_1_VAL0}.<BR>    4 Accusations:  {ABIL_3986_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3986_COM_1_VAL0}.<BR>    5 Accusations:  {ABIL_3987_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3987_COM_1_VAL0}."
     },
     {
       "image": "07988",
@@ -403,7 +537,13 @@
       "note": "",
       "description": "You regain 1197 health and 180 Action Points over 9 seconds.",
       "category": "Morale",
-      "gameId": 8146
+      "gameId": 8146,
+      "componentValues": {
+        "COM_0_VAL0_TOD_HEALTH": 1197,
+        "COM_1_VAL0_TOD_ACTIONPOINTS": 180,
+        "COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "You regain {COM_0_VAL0_TOD_HEALTH} and {COM_1_VAL0_TOD_ACTIONPOINTS} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "07989",
@@ -419,7 +559,14 @@
       "note": "",
       "description": "Deals 1600 damage over 10 seconds to all enemies within 30 feet and snares them, reducing their run speed by 60%.",
       "category": "Morale",
-      "gameId": 8154
+      "gameId": 8154,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 1600,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_0_RADI_FEET": 30,
+        "COM_1_VAL0": 60
+      },
+      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} to all enemies within {COM_0_RADI_FEET} and snares them, reducing their run speed by {COM_1_VAL0}%."
     },
     {
       "image": "22709",
@@ -435,7 +582,9 @@
       "note": "",
       "description": "Your critical hits will inflict 50% more damage.",
       "category": "CareerTactic",
-      "gameId": 8137
+      "gameId": 8137,
+      "componentValues": {},
+      "rawDescription": "Your critical hits will inflict 50% more damage."
     },
     {
       "image": "07983",
@@ -451,7 +600,14 @@
       "note": "Requires Incognito<br>Builds 2 Accusations",
       "description": "You leap from the shadows, fueled with righteous anger. Your target will take 175 Spirit damage every time they use a magical ability for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
       "category": "Ability",
-      "gameId": 8098
+      "gameId": 8098,
+      "componentValues": {
+        "COM_1_VAL0_SPIRITDAMAGE": 175,
+        "COM_0_DURA_SECONDS": 15,
+        "COM_3_VAL0_COM_0_VAL1": 50,
+        "COM_3_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You leap from the shadows, fueled with righteous anger. Your target will take {COM_1_VAL0_SPIRITDAMAGE} every time they use a magical ability for the next {COM_0_DURA_SECONDS}. Your abilities will cost {COM_3_VAL0_COM_0_VAL1}% fewer Action Points for {COM_3_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
     },
     {
       "image": "07972",
@@ -467,7 +623,11 @@
       "note": "",
       "description": "Your positional attacks can be used without the positional requirement for 10 seconds. Does not affect morale abilities.",
       "category": "Ability",
-      "gameId": 8092
+      "gameId": 8092,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Your positional attacks can be used without the positional requirement for {COM_0_DURA_SECONDS}. Does not affect morale abilities."
     },
     {
       "image": "08052",
@@ -483,7 +643,13 @@
       "note": "Builds 1 Accusation",
       "description": "A precise incision that deals 103 damage, and an additional 222 Spiritual damage over 9 seconds. This effect can be stacked up to 3 times.",
       "category": "Ability",
-      "gameId": 8083
+      "gameId": 8083,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 103,
+        "COM_2_VAL0_COM_1_VAL0_TOD_SPIRITDAMAGE": 222,
+        "COM_2_VAL0_COM_1_DURA_SECONDS": 9
+      },
+      "rawDescription": "A precise incision that deals {COM_0_VAL0_DAMAGE}, and an additional {COM_2_VAL0_COM_1_VAL0_TOD_SPIRITDAMAGE} over {COM_2_VAL0_COM_1_DURA_SECONDS}.  This effect can be stacked up to 3 times."
     },
     {
       "image": "22704",
@@ -499,7 +665,11 @@
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
       "category": "CareerTactic",
-      "gameId": 523
+      "gameId": 523,
+      "componentValues": {
+        "COM_0_VAL0": 15
+      },
+      "rawDescription": "All of your attacks deal {COM_0_VAL0}% more damage when you strike an enemy from the sides or rear."
     },
     {
       "image": "05004",
@@ -515,7 +685,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "22710",
@@ -531,7 +707,9 @@
       "note": "",
       "description": "All of your Executions gain a 50% chance to restore 2 Accusations.",
       "category": "CareerTactic",
-      "gameId": 8121
+      "gameId": 8121,
+      "componentValues": {},
+      "rawDescription": "All of your Executions gain a 50% chance to restore 2 Accusations."
     },
     {
       "image": "23158",
@@ -547,7 +725,13 @@
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
       "category": "Morale",
-      "gameId": 628
+      "gameId": 628,
+      "componentValues": {
+        "COM_0_VAL0": 200,
+        "COM_2_VAL0": 160,
+        "COM_2_DURA_SECONDS": 30
+      },
+      "rawDescription": "You stare down your opponent, draining {COM_0_VAL0} of their Action Points into yourself, and reducing their Strength by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "23159",
@@ -563,7 +747,9 @@
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale",
-      "gameId": 630
+      "gameId": 630,
+      "componentValues": {},
+      "rawDescription": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds."
     },
     {
       "image": "22701",
@@ -579,7 +765,9 @@
       "note": "",
       "description": "Confess! no longer costs action points, and it will nearly always critically hit.",
       "category": "CareerTactic",
-      "gameId": 8134
+      "gameId": 8134,
+      "componentValues": {},
+      "rawDescription": "Confess! no longer costs action points, and it will nearly always critically hit."
     },
     {
       "image": "07968",
@@ -595,7 +783,13 @@
       "note": "",
       "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.<br>If you hit anyone that you have Detaunted, the effect will end.",
       "category": "Ability",
-      "gameId": 8088
+      "gameId": 8088,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Detaunts all enemies within {COM_0_RADI_FEET}, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.<BR>If you hit anyone that you have Detaunted, the effect will end."
     },
     {
       "image": "07985",
@@ -611,7 +805,9 @@
       "note": "",
       "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points. This effect will end if you use any abilities, run out of action points, or after 30 seconds has passed.",
       "category": "Ability",
-      "gameId": 8090
+      "gameId": 8090,
+      "componentValues": {},
+      "rawDescription": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, run out of action points, or after 30 seconds has passed."
     },
     {
       "image": "22708",
@@ -627,7 +823,12 @@
       "note": "",
       "description": "Each time you critically hit an enemy, your autoattack speed will be increased by 50% for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 8120
+      "gameId": 8120,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL1": 50,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Each time you critically hit an enemy, your autoattack speed will be increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22694",
@@ -643,7 +844,12 @@
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 526
+      "gameId": 526,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD": 606,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Any time you critically hit an enemy they will begin to bleed, suffering additional {COM_1_VAL0_COM_0_VAL0_TOD} Corporeal damage over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22706",
@@ -659,7 +865,12 @@
       "note": "",
       "description": "Any time you land a killing blow on an enemy, you will regain 576 health over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 8124
+      "gameId": 8124,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD_HEALTH": 576,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Any time you land a killing blow on an enemy, you will regain {COM_1_VAL0_COM_0_VAL0_TOD_HEALTH} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22694",
@@ -675,7 +886,9 @@
       "note": "",
       "description": "Increases the durations of Fanatical Zeal, Burn Armor, and Sudden Accusation by an additional 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 8123
+      "gameId": 8123,
+      "componentValues": {},
+      "rawDescription": "Increases the durations of Fanatical Zeal, Burn Armor, and Sudden Accusation by an additional 5 seconds."
     },
     {
       "image": "23412",
@@ -691,7 +904,11 @@
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
       "category": "Ability",
-      "gameId": 14427
+      "gameId": 14427,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You bolster yourself for {COM_0_DURA_SECONDS}, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside."
     },
     {
       "image": "07984",
@@ -707,7 +924,12 @@
       "note": "Requires Pistol<br>Builds 1 Accusation<br>Target must be facing away from you",
       "description": "A quick backhand blow with the butt of your pistol that deals 277 damage and knocks your target down for 3 seconds.",
       "category": "Ability",
-      "gameId": 8115
+      "gameId": 8115,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 277,
+        "COM_1_DURA_SECONDS": 3
+      },
+      "rawDescription": "A quick backhand blow with the butt of your pistol that deals {COM_0_VAL0_DAMAGE} and knocks your target down for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22694",
@@ -723,7 +945,9 @@
       "note": "",
       "description": "All attacks that build Accusations have a 50% chance to build an additional Accusation.",
       "category": "CareerTactic",
-      "gameId": 8135
+      "gameId": 8135,
+      "componentValues": {},
+      "rawDescription": "All attacks that build Accusations have a 50% chance to build an additional Accusation."
     },
     {
       "image": "22709",
@@ -739,7 +963,11 @@
       "note": "",
       "description": "When leaving Incognito, you will become protected by a barrier that will absorb up to 475 damage",
       "category": "CareerTactic",
-      "gameId": 8127
+      "gameId": 8127,
+      "componentValues": {
+        "ABIL_3003_COM_0_VAL1_DAMAGE": 475
+      },
+      "rawDescription": "When leaving Incognito, you will become protected by a barrier that will absorb up to {ABIL_3003_COM_0_VAL1_DAMAGE}"
     },
     {
       "image": "07977",
@@ -755,7 +983,12 @@
       "note": "Builds 1 Accusation",
       "description": "A precision blow that deals 202 damage, and causes a lingering wound which reduces the effectiveness of all healing by 50% for 10 seconds.",
       "category": "Ability",
-      "gameId": 8112
+      "gameId": 8112,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 202,
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "A precision blow that deals {COM_0_VAL0_DAMAGE}, and causes a lingering wound which reduces the effectiveness of all healing by 50% for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "07965",
@@ -771,7 +1004,11 @@
       "note": "Builds 1 Accusation",
       "description": "A quick precision strike that deals 227 damage.",
       "category": "Ability",
-      "gameId": 8081
+      "gameId": 8081,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 227
+      },
+      "rawDescription": "A quick precision strike that deals {COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "23160",
@@ -787,7 +1024,12 @@
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale",
-      "gameId": 633
+      "gameId": 633,
+      "componentValues": {
+        "COM_0_VAL0_ACTIONPOINTS": 10,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A prolonged fervor that grants {COM_0_VAL0_ACTIONPOINTS} a second to everyone in your group within 100 feet of you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "08050",
@@ -803,7 +1045,13 @@
       "note": "Builds 1 Accusation",
       "description": "A melee attack that deals 277 damage. Your chance to parry attacks is increased by 100% for the next 5 seconds.",
       "category": "Ability",
-      "gameId": 8109
+      "gameId": 8109,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 277,
+        "COM_1_VAL0": 100,
+        "COM_1_DURA_SECONDS": 5
+      },
+      "rawDescription": "A melee attack that deals {COM_0_VAL0_DAMAGE}.  Your chance to parry attacks is increased by {COM_1_VAL0}% for the next {COM_1_DURA_SECONDS}."
     },
     {
       "image": "07987",
@@ -819,7 +1067,12 @@
       "note": "",
       "description": "You turn your enemy's luck against them, dealing 1200 damage to all targets in line in front of you, up to 65 feet away from you.",
       "category": "Morale",
-      "gameId": 8147
+      "gameId": 8147,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_RADI_FEET": 65
+      },
+      "rawDescription": "You turn your enemy's luck against them, dealing {COM_0_VAL0_DAMAGE} to all targets in line in front of you, up to {COM_0_RADI_FEET} away from you."
     },
     {
       "image": "22702",
@@ -835,7 +1088,11 @@
       "note": "",
       "description": "Increases your chance to parry attacks by 10%.",
       "category": "CareerTactic",
-      "gameId": 8122
+      "gameId": 8122,
+      "componentValues": {
+        "COM_0_VAL0": 10
+      },
+      "rawDescription": "Increases your chance to parry attacks by {COM_0_VAL0}%."
     },
     {
       "image": "22702",
@@ -851,7 +1108,11 @@
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 239 damage which they can not prevent.",
       "category": "CareerTactic",
-      "gameId": 528
+      "gameId": 528,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 239
+      },
+      "rawDescription": "Each time you parry an enemy's attack, you will strike them back for {COM_1_VAL0_DAMAGE} which they can not prevent."
     },
     {
       "image": "22706",
@@ -867,7 +1128,9 @@
       "note": "",
       "description": "Blessed Bullets of Purity will now heal you for 100% of the damage that they cause.",
       "category": "CareerTactic",
-      "gameId": 8132
+      "gameId": 8132,
+      "componentValues": {},
+      "rawDescription": "Blessed Bullets of Purity will now heal you for 100% of the damage that they cause."
     },
     {
       "image": "07978",
@@ -883,7 +1146,11 @@
       "note": "",
       "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.",
       "category": "Ability",
-      "gameId": 8111
+      "gameId": 8111,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next {COM_0_DURA_SECONDS}."
     },
     {
       "image": "08053",
@@ -899,7 +1166,13 @@
       "note": "Builds 1 Accusation",
       "description": "A melee attack that can not be defended against, and deals 227 damage. If the target is Ailing, then they will also become Cursed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
       "category": "Ability",
-      "gameId": 8097
+      "gameId": 8097,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 227,
+        "COM_2_DURA_SECONDS": 15,
+        "COM_2_VAL0": 5
+      },
+      "rawDescription": "A melee attack that can not be defended against, and deals {COM_0_VAL0_DAMAGE}.  If the target is Ailing, then they will also become Cursed for {COM_2_DURA_SECONDS}, reducing their chances to block, parry, dodge, and disrupt attacks by {COM_2_VAL0}%."
     },
     {
       "image": "22701",
@@ -915,7 +1188,9 @@
       "note": "",
       "description": "Seeker's Blade will now ignore 50% of the target's armor, and its cooldown time is reduced by 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 8131
+      "gameId": 8131,
+      "componentValues": {},
+      "rawDescription": "Seeker's Blade will now ignore 50% of the target's armor, and its cooldown time is reduced by 5 seconds."
     },
     {
       "image": "02497",
@@ -931,7 +1206,11 @@
       "note": "Target must have a Blessing",
       "description": "You sever one Blessing from your enemy and inflict 127 damage",
       "category": "Ability",
-      "gameId": 8101
+      "gameId": 8101,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "You sever one Blessing from your enemy and inflict {COM_1_VAL0_DAMAGE}."
     },
     {
       "image": "23161",
@@ -947,7 +1226,11 @@
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale",
-      "gameId": 627
+      "gameId": 627,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200
+      },
+      "rawDescription": "A directed strike that inflicts {COM_0_VAL0_DAMAGE} to your target."
     },
     {
       "image": "07973",
@@ -963,7 +1246,12 @@
       "note": "",
       "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to Disrupt enemy magic by 100% for 7 seconds.<br>You may only use a single relic at a time.",
       "category": "Ability",
-      "gameId": 8108
+      "gameId": 8108,
+      "componentValues": {
+        "COM_0_VAL0": 100,
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to Disrupt enemy magic by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.<BR>You may only use a single relic at a time."
     },
     {
       "image": "08011",
@@ -979,7 +1267,11 @@
       "note": "",
       "description": "An artifact of the Temple of Sigmar which removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability",
-      "gameId": 8095
+      "gameId": 8095,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "An artifact of the Temple of Sigmar which removes all roots and snares from you.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you."
     },
     {
       "image": "22710",
@@ -995,7 +1287,11 @@
       "note": "",
       "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional 135 hit points as well.",
       "category": "CareerTactic",
-      "gameId": 776
+      "gameId": 776,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 135
+      },
+      "rawDescription": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional {COM_1_VAL0_COM_0_VAL0} hit points as well."
     },
     {
       "image": "07979",
@@ -1011,7 +1307,12 @@
       "note": "Builds 1 Accusation",
       "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds. If you are behind your target, then you will also deal 202 damage.",
       "category": "Ability",
-      "gameId": 8100
+      "gameId": 8100,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_2_VAL0_DAMAGE": 202
+      },
+      "rawDescription": "A punishing blow that silences your target, making them unable to use magic for {COM_0_DURA_SECONDS}.  If you are behind your target, then you will also deal {COM_2_VAL0_DAMAGE}."
     },
     {
       "image": "07966",
@@ -1027,7 +1328,13 @@
       "note": "Requires Pistol",
       "description": "A quick pistol shot that deals 112 damage, and can be used on the run.<br>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability",
-      "gameId": 8080
+      "gameId": 8080,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 112,
+        "COM_1_VAL0": 40,
+        "COM_1_DURA_SECONDS": 5
+      },
+      "rawDescription": "A quick pistol shot that deals {COM_0_VAL0_DAMAGE}, and can be used on the run.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "07969",
@@ -1043,7 +1350,14 @@
       "note": "Requires Incognito<br>Builds 2 Accusations",
       "description": "You leap from the shadows and accuse your target of heresy. Your target will take 75 Spirit damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
       "category": "Ability",
-      "gameId": 8096
+      "gameId": 8096,
+      "componentValues": {
+        "COM_1_VAL0_SPIRITDAMAGE": 75,
+        "COM_0_DURA_SECONDS": 15,
+        "COM_2_VAL0_COM_0_VAL1": 50,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You leap from the shadows and accuse your target of heresy. Your target will take {COM_1_VAL0_SPIRITDAMAGE} every time they move for {COM_0_DURA_SECONDS}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
     },
     {
       "image": "22694",
@@ -1059,7 +1373,12 @@
       "note": "",
       "description": "Razor Strike will now also hit up to 2 additional enemies within 25 feet of your target, but Razor Strike will now do 10% less damage.",
       "category": "CareerTactic",
-      "gameId": 8133
+      "gameId": 8133,
+      "componentValues": {
+        "ABIL_8081_COM_2_RADI_FEET": 25,
+        "COM_1_VAL1": 10
+      },
+      "rawDescription": "Razor Strike will now also hit up to 2 additional enemies within {ABIL_8081_COM_2_RADI_FEET} of your target, but Razor Strike will now do {COM_1_VAL1}% less damage."
     },
     {
       "image": "07975",
@@ -1075,7 +1394,11 @@
       "note": "Builds 1 Accusation",
       "description": "A destructive thrust that deals 177 damage to your enemy. If you are behind your target, this attack will ignore armor.",
       "category": "Ability",
-      "gameId": 8085
+      "gameId": 8085,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 177
+      },
+      "rawDescription": "A destructive thrust that deals {COM_0_VAL0_DAMAGE} to your enemy. If you are behind your target, this attack will ignore armor."
     },
     {
       "image": "07967",
@@ -1091,7 +1414,16 @@
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<br>  1 Accusation: 172 damage per shot<br>  2 Accusations: 183 damage per shot.<br>  3 Accusations: 194 damage per shot<br>  4 Accusations: 205 damage per shot<br>  5 Accusations: 216 damage per shot",
       "category": "Ability",
-      "gameId": 8087
+      "gameId": 8087,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_1_VAL0_DAMAGE": 172,
+        "COM_2_VAL0_DAMAGE": 183,
+        "COM_3_VAL0_DAMAGE": 194,
+        "COM_4_VAL0_DAMAGE": 205,
+        "COM_5_VAL0_DAMAGE": 216
+      },
+      "rawDescription": "A barrage of withering fire that damages your target for up to {COM_0_DURA_SECONDS}, as long as you maintain your concentration.<BR>   1 Accusation:  {COM_1_VAL0_DAMAGE} per shot<BR>   2 Accusations:  {COM_2_VAL0_DAMAGE} per shot.<BR>   3 Accusations:  {COM_3_VAL0_DAMAGE} per shot<BR>   4 Accusations:  {COM_4_VAL0_DAMAGE} per shot<BR>   5 Accusations:  {COM_5_VAL0_DAMAGE} per shot"
     },
     {
       "image": "22710",
@@ -1107,7 +1439,11 @@
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 777
+      "gameId": 777,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Spirit resistance by {COM_0_VAL0}."
     },
     {
       "image": "abi_em_distractingburst",
@@ -1123,7 +1459,12 @@
       "note": "",
       "description": "You light and drop a flask of sanctified oil at your feet. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 Seconds.",
       "category": "Ability",
-      "gameId": 2997
+      "gameId": 2997,
+      "componentValues": {
+        "COM_1_VAL0": 0,
+        "COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "You light and drop a flask of sanctified oil at your feet. You will become invisible to enemies for 2 seconds and increase your speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR>You may only use a single relic at a time."
     },
     {
       "image": "22703",
@@ -1139,7 +1480,12 @@
       "note": "",
       "description": "Each time you disrupt an enemy's spell, you will deal 35% more damage for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 8125
+      "gameId": 8125,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 35,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Each time you disrupt an enemy's spell, you will deal {COM_1_VAL0_COM_0_VAL0}% more damage for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -1155,7 +1501,11 @@
       "note": "",
       "description": "Any time you strike an enemy in the back, there is a 25% chance that they will lose 225 points of Morale.",
       "category": "CareerTactic",
-      "gameId": 8139
+      "gameId": 8139,
+      "componentValues": {
+        "COM_1_VAL0": 225
+      },
+      "rawDescription": "Any time you strike an enemy in the back, there is a 25% chance that they will lose {COM_1_VAL0} points of Morale."
     },
     {
       "image": "07986",
@@ -1171,7 +1521,12 @@
       "note": "",
       "description": "Everyone in your group within 100 feet of you has a 50% increased chance to parry attacks for 10 seconds.",
       "category": "Morale",
-      "gameId": 8148
+      "gameId": 8148,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Everyone in your group within 100 feet of you has a {COM_0_VAL0}% increased chance to parry attacks for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22702",
@@ -1187,7 +1542,11 @@
       "note": "",
       "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
       "category": "CareerTactic",
-      "gameId": 522
+      "gameId": 522,
+      "componentValues": {
+        "ABIL_3080_COM_0_VAL1": 0
+      },
+      "rawDescription": "Any time you strike an enemy in melee with a direct attack, you will receive {ABIL_3080_COM_0_VAL1}% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities."
     },
     {
       "image": "WH_M2_WitchfindersJudgement",
@@ -1203,7 +1562,9 @@
       "note": "",
       "description": "You judge your group and find them worthy. Morale gain is doubled for 15 seconds.",
       "category": "Morale",
-      "gameId": 2714
+      "gameId": 2714,
+      "componentValues": {},
+      "rawDescription": "You judge your group and find them worthy. Morale gain is doubled for 15 seconds."
     },
     {
       "image": "22708",
@@ -1219,7 +1580,9 @@
       "note": "",
       "description": "Your Armour Penetration is increased by 50% for 3 seconds after successful use of your Executions.",
       "category": "CareerTactic",
-      "gameId": 2993
+      "gameId": 2993,
+      "componentValues": {},
+      "rawDescription": "Your Armour Penetration is increased by 50% for 3 seconds after successful use of your Executions."
     }
   ]
 }

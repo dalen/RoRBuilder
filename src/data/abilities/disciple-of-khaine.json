@@ -88,7 +88,11 @@
       "note": "",
       "description": "Spiritual resistance increased by 252.",
       "category": "CareerTactic",
-      "gameId": 839
+      "gameId": 839,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Spiritual resistance increased by {COM_0_VAL0}."
     },
     {
       "image": "23150",
@@ -104,7 +108,15 @@
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale",
-      "gameId": 697
+      "gameId": 697,
+      "componentValues": {
+        "COM_1_RADI_FEET": 30,
+        "ABIL_3884_COM_0_VAL0_TOD": 424,
+        "ABIL_3884_COM_0_DURA_SECONDS": 9,
+        "ABIL_3876_COM_0_VAL0": 20,
+        "ABIL_3876_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Resurrects all groupmates within {COM_1_RADI_FEET}. Anyone who is brought back from the dead will also be healed for {ABIL_3884_COM_0_VAL0_TOD} over {ABIL_3884_COM_0_DURA_SECONDS}, and they will deal {ABIL_3876_COM_0_VAL0}% more damage for {ABIL_3876_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22712",
@@ -120,7 +132,12 @@
       "note": "",
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 840
+      "gameId": 840,
+      "componentValues": {
+        "ABIL_3260_COM_0_VAL0_TOD_HEALTH": 471,
+        "ABIL_3260_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Any time you kill an enemy, you will regain {ABIL_3260_COM_0_VAL0_TOD_HEALTH} over {ABIL_3260_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22694",
@@ -136,7 +153,9 @@
       "note": "",
       "description": "Increases Lacerate, Sanguinary Extension, and Fell Sacrifice's durations by an additional 6 seconds.",
       "category": "CareerTactic",
-      "gameId": 9601
+      "gameId": 9601,
+      "componentValues": {},
+      "rawDescription": "Increases Lacerate, Sanguinary Extension, and Fell Sacrifice's durations by an additional 6 seconds."
     },
     {
       "image": "10949",
@@ -152,7 +171,12 @@
       "note": "",
       "description": "For the next 5 seconds, you will regain 30 Soul Essence every second. If you run out of action points or break your concentration, this effect will end.",
       "category": "Ability",
-      "gameId": 9561
+      "gameId": 9561,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 5,
+        "COM_1_VAL0_COM_0_VAL0": 30
+      },
+      "rawDescription": "For the next {COM_0_DURA_SECONDS}, you will regain {COM_1_VAL0_COM_0_VAL0} Soul Essence every second.  If you run out of action points or break your concentration, this effect will end."
     },
     {
       "image": "22709",
@@ -168,7 +192,11 @@
       "note": "",
       "description": "Covenant Of Celerity will now deal 225 Spirit damage.",
       "category": "CareerTactic",
-      "gameId": 9598
+      "gameId": 9598,
+      "componentValues": {
+        "ABIL_9559_COM_5_VAL0_SPIRITDAMAGE": 225
+      },
+      "rawDescription": "Covenant Of Celerity will now deal {ABIL_9559_COM_5_VAL0_SPIRITDAMAGE}."
     },
     {
       "image": "22706",
@@ -184,7 +212,9 @@
       "note": "",
       "description": "Whenever you directly heal an ally, there is a 25% chance that you will also be healed for 25% of the same amount.",
       "category": "CareerTactic",
-      "gameId": 9585
+      "gameId": 9585,
+      "componentValues": {},
+      "rawDescription": "Whenever you directly heal an ally, there is a 25% chance that you will also be healed for 25% of the same amount."
     },
     {
       "image": "10967",
@@ -200,7 +230,13 @@
       "note": "",
       "description": "You call upon the Word of Pain, dealing 200 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Word of Pain.",
       "category": "Morale",
-      "gameId": 9618
+      "gameId": 9618,
+      "componentValues": {
+        "ABIL_3048_COM_0_VAL0_DAMAGE": 200,
+        "COM_0_RADI_FEET": 30,
+        "COM_0_DURA_SECONDS": 4
+      },
+      "rawDescription": "You call upon the Word of Pain, dealing {ABIL_3048_COM_0_VAL0_DAMAGE} every second to all enemies in a {COM_0_RADI_FEET} area around you for the next {COM_0_DURA_SECONDS}. Reveling in their agony, you are healed for all damage inflicted by the Word of Pain."
     },
     {
       "image": "10939",
@@ -216,7 +252,11 @@
       "note": "Builds 30 Soul Essence",
       "description": "A potent attack which deals 152 damage to your enemy.",
       "category": "Ability",
-      "gameId": 9552
+      "gameId": 9552,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 152
+      },
+      "rawDescription": "A potent attack which deals {COM_0_VAL0_DAMAGE} to your enemy."
     },
     {
       "image": "05188",
@@ -232,7 +272,11 @@
       "note": "Builds 30 Soul Essence<br>Target must have an Enchantment",
       "description": "A shattering attack that removes one Enchantment from your enemy and does 127 damage.",
       "category": "Ability",
-      "gameId": 9569
+      "gameId": 9569,
+      "componentValues": {
+        "COM_2_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "A shattering attack that removes one Enchantment from your enemy and deals {COM_2_VAL0_DAMAGE}."
     },
     {
       "image": "10948",
@@ -248,7 +292,14 @@
       "note": "Builds 25 Soul Essence",
       "description": "A Crippling attack which deals 127 damage and reduces your enemy's Strength by 50 for 20 seconds. Your defensive target's Strength is increased by 50.",
       "category": "Ability",
-      "gameId": 9560
+      "gameId": 9560,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 127,
+        "COM_1_VAL0": 50,
+        "COM_1_DURA_SECONDS": 20,
+        "COM_2_VAL0_COM_0_VAL0": 50
+      },
+      "rawDescription": "A Crippling attack which deals {COM_0_VAL0_DAMAGE} and reduces your enemy's Strength by {COM_1_VAL0} for {COM_1_DURA_SECONDS}.  Your defensive target's Strength is increased by {COM_2_VAL0_COM_0_VAL0}."
     },
     {
       "image": "10953",
@@ -264,7 +315,12 @@
       "note": "Builds 25 Soul Essence",
       "description": "An overwhelming attack which deals 177 damage to your enemy and silences them for 4 seconds, making them unable to use magic.",
       "category": "Ability",
-      "gameId": 9565
+      "gameId": 9565,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 177,
+        "COM_2_DURA_SECONDS": 4
+      },
+      "rawDescription": "An overwhelming attack which deals {COM_0_VAL0_DAMAGE} to your enemy and silences them for {COM_2_DURA_SECONDS}, making them unable to use magic."
     },
     {
       "image": "10947",
@@ -280,7 +336,13 @@
       "note": "Only one Covenant may be active at a time.",
       "description": "All group mates within 100 feet of you gain a 20% chance to Cripple anyone that they damage, dealing 125 Spirit damage and reducing the victim's run speed by 20% for 9 seconds.",
       "category": "Ability",
-      "gameId": 9559
+      "gameId": 9559,
+      "componentValues": {
+        "COM_3_VAL0_SPIRITDAMAGE": 125,
+        "ABIL_3262_COM_0_VAL0": 20,
+        "ABIL_3262_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "All group mates within 100 feet of you gain a 20% chance to Cripple anyone that they damage, dealing {COM_3_VAL0_SPIRITDAMAGE} and reducing the victim's run speed by {ABIL_3262_COM_0_VAL0}% for {ABIL_3262_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10951",
@@ -296,7 +358,11 @@
       "note": "Only one Covenant may be active at a time.",
       "description": "A pact with Khaine that increases the armor of all groupmates within 100 feet of you by 412.",
       "category": "Ability",
-      "gameId": 9563
+      "gameId": 9563,
+      "componentValues": {
+        "COM_1_VAL0": 412
+      },
+      "rawDescription": "A pact with Khaine that increases the armor of all groupmates within 100 feet of you by {COM_1_VAL0}."
     },
     {
       "image": "10955",
@@ -312,7 +378,11 @@
       "note": "Only one Covenant may be active at a time.",
       "description": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional 125 Spirit damage to their victim, and heal themselves for an equal amount.",
       "category": "Ability",
-      "gameId": 9567
+      "gameId": 9567,
+      "componentValues": {
+        "COM_3_VAL0_SPIRITDAMAGE": 125
+      },
+      "rawDescription": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional {COM_3_VAL0_SPIRITDAMAGE} to their victim, and heal themselves for an equal amount."
     },
     {
       "image": "22706",
@@ -328,7 +398,11 @@
       "note": "",
       "description": "Any time you critically hit an enemy, all healing used on them for the next 5 seconds will become 50% less effective.",
       "category": "CareerTactic",
-      "gameId": 9602
+      "gameId": 9602,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Any time you critically hit an enemy, all healing used on them for the next {COM_1_VAL0_COM_0_DURA_SECONDS} will become 50% less effective."
     },
     {
       "image": "22712",
@@ -344,7 +418,11 @@
       "note": "",
       "description": "Direct heals cast on you will recover 10% more health.",
       "category": "CareerTactic",
-      "gameId": 841
+      "gameId": 841,
+      "componentValues": {
+        "COM_0_VAL1": 10
+      },
+      "rawDescription": "Direct heals cast on you will recover {COM_0_VAL1}% more health."
     },
     {
       "image": "10958",
@@ -360,7 +438,14 @@
       "note": "Requires 25 Soul Essence per second",
       "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds. Each second, your ally will deal 101 damage to up to 4 enemies within 30 feet of them, and become healed for 50% of all the damage done. You will lose 25 Soul Essence each second, and this effect will end if you run out of Soul Essence to power it with.",
       "category": "Ability",
-      "gameId": 9578
+      "gameId": 9578,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 5,
+        "ABIL_3367_COM_0_VAL0_DAMAGE": 101,
+        "COM_3_RADI_FEET": 30,
+        "COM_1_VAL1": 25
+      },
+      "rawDescription": "You surround yourself or an ally with a devouring aura for up to {COM_0_DURA_SECONDS}.  Each second, your ally will deal {ABIL_3367_COM_0_VAL0_DAMAGE} to up to 4 enemies within {COM_3_RADI_FEET} of them, and become healed for 50% of all the damage done.  You will lose {COM_1_VAL1} Soul Essence each second, and this effect will end if you run out of Soul Essence to power it with."
     },
     {
       "image": "22706",
@@ -376,7 +461,11 @@
       "note": "",
       "description": "Increases your Willpower by 160.",
       "category": "CareerTactic",
-      "gameId": 592
+      "gameId": 592,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Willpower by {COM_0_VAL0}."
     },
     {
       "image": "23151",
@@ -392,7 +481,11 @@
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
       "category": "Morale",
-      "gameId": 694
+      "gameId": 694,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 1800
+      },
+      "rawDescription": "A strong heal that will restore {COM_0_VAL0_HEALTH} to your target."
     },
     {
       "image": "22703",
@@ -408,7 +501,12 @@
       "note": "",
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
       "category": "CareerTactic",
-      "gameId": 585
+      "gameId": 585,
+      "componentValues": {
+        "COM_0_VAL0": 25,
+        "COM_1_VAL1": 20
+      },
+      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your healing becomes {COM_1_VAL1}% less effective."
     },
     {
       "image": "23152",
@@ -424,7 +522,12 @@
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
       "category": "Morale",
-      "gameId": 696
+      "gameId": 696,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_0_VAL1_DAMAGE": 4500
+      },
+      "rawDescription": "Each group member within 100 feet is surrounded by a protective shield for the next {COM_0_DURA_SECONDS} that will absorb up to {COM_0_VAL1_DAMAGE} from melee abilities."
     },
     {
       "image": "22708",
@@ -440,7 +543,9 @@
       "note": "",
       "description": "Patch Wounds will now remove one Ailment or Hex for the entire group.",
       "category": "CareerTactic",
-      "gameId": 9597
+      "gameId": 9597,
+      "componentValues": {},
+      "rawDescription": "Patch Wounds will now remove one Ailment or Hex for the entire group."
     },
     {
       "image": "22706",
@@ -456,7 +561,11 @@
       "note": "",
       "description": "Transfer Essence's base heal is increased to 282 health and the healing from lifetaps are increased by 25%.",
       "category": "CareerTactic",
-      "gameId": 2959
+      "gameId": 2959,
+      "componentValues": {
+        "ABIL_9562_COM_3_VAL0_HEALTH": 282
+      },
+      "rawDescription": "Transfer Essence's base heal is increased to {ABIL_9562_COM_3_VAL0_HEALTH} and the healing from lifetaps are increased by 25%."
     },
     {
       "image": "10954",
@@ -472,7 +581,12 @@
       "note": "",
       "description": "You lash out at all opponents in front of you up to 50 feet away, dealing 101 damage and regaining 15 Soul Essence for each enemy hit.",
       "category": "Ability",
-      "gameId": 9566
+      "gameId": 9566,
+      "componentValues": {
+        "COM_0_RADI_FEET": 50,
+        "COM_0_VAL0_DAMAGE": 101
+      },
+      "rawDescription": "You lash out at all opponents in front of you up to {COM_0_RADI_FEET} away, dealing {COM_0_VAL0_DAMAGE} and regaining 15 Soul Essence for each enemy hit."
     },
     {
       "image": "10950",
@@ -488,7 +602,13 @@
       "note": "Builds 30 Soul Essence<br>Requires Dual Wield",
       "description": "Cripples all targets within 30 feet of you for 584 damage over 24 seconds.",
       "category": "Ability",
-      "gameId": 2935
+      "gameId": 2935,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0_TOD_DAMAGE": 584,
+        "COM_0_DURA_SECONDS": 24
+      },
+      "rawDescription": "Cripples all targets within {COM_0_RADI_FEET} of you for {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "10934",
@@ -504,7 +624,11 @@
       "note": "Builds 15 Soul Essence",
       "description": "You call forth the wrath of Khaine, dealing 102 Spirit damage to your target.",
       "category": "Ability",
-      "gameId": 9568
+      "gameId": 9568,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 102
+      },
+      "rawDescription": "You call forth the wrath of Khaine, dealing {COM_0_VAL0_SPIRITDAMAGE} to your target."
     },
     {
       "image": "10936",
@@ -520,7 +644,13 @@
       "note": "Builds 30 Soul Essence",
       "description": "You flay your target for 177 damage. If target is Crippled, they are further Crippled as they become snared, reducing their run speed by 40% for 6 seconds.",
       "category": "Ability",
-      "gameId": 9549
+      "gameId": 9549,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 177,
+        "COM_1_VAL0": 40,
+        "COM_1_DURA_SECONDS": 6
+      },
+      "rawDescription": "You flay your target for {COM_0_VAL0_DAMAGE}.  If target is Crippled, they are further Crippled as they become snared, reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "05004",
@@ -536,7 +666,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "23153",
@@ -552,7 +688,9 @@
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale",
-      "gameId": 695
+      "gameId": 695,
+      "componentValues": {},
+      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
     },
     {
       "image": "22708",
@@ -568,7 +706,11 @@
       "note": "",
       "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 Soul Essence. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 9587
+      "gameId": 9587,
+      "componentValues": {
+        "ABIL_317_COM_0_VAL0": 35
+      },
+      "rawDescription": "Whenever you are hit by an enemy, you have a 25% chance to gain {ABIL_317_COM_0_VAL0} Soul Essence.  Tactic can not trigger more than once every 3 seconds."
     },
     {
       "image": "22712",
@@ -584,7 +726,11 @@
       "note": "",
       "description": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will regain 60 Action Points. You may not grant action points to yourself with this effect. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 9603
+      "gameId": 9603,
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 60
+      },
+      "rawDescription": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will regain {COM_1_VAL0_ACTIONPOINTS}.  You may not grant action points to yourself with this effect.  Tactic can not trigger more than once every 3 seconds."
     },
     {
       "image": "22708",
@@ -600,7 +746,11 @@
       "note": "",
       "description": "Consume Strength will now also cause the victim to lose 50 Action Points.",
       "category": "CareerTactic",
-      "gameId": 9599
+      "gameId": 9599,
+      "componentValues": {
+        "ABIL_9560_COM_4_VAL0_ACTIONPOINTS": 50
+      },
+      "rawDescription": "Consume Strength will now also cause the victim to lose {ABIL_9560_COM_4_VAL0_ACTIONPOINTS}."
     },
     {
       "image": "22702",
@@ -616,7 +766,12 @@
       "note": "",
       "description": "Any time you critically hit an enemy, your autoattack speed is increased by 50% for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 9588
+      "gameId": 9588,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL1": 50,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Any time you critically hit an enemy, your autoattack speed is increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22702",
@@ -632,7 +787,12 @@
       "note": "",
       "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to 475 damage.",
       "category": "CareerTactic",
-      "gameId": 9595
+      "gameId": 9595,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 30,
+        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 475
+      },
+      "rawDescription": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS} which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}."
     },
     {
       "image": "10945",
@@ -648,7 +808,11 @@
       "note": "Requires 60 Soul Essence",
       "description": "All of your groupmates within 100 feet of you regain 350 health.",
       "category": "Ability",
-      "gameId": 9557
+      "gameId": 9557,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 350
+      },
+      "rawDescription": "All of your groupmates within 100 feet of you regain {COM_0_VAL0_HEALTH}."
     },
     {
       "image": "22708",
@@ -664,7 +828,12 @@
       "note": "",
       "description": "Any time you hit an enemy, there is a 25% chance that they will suffer an additional 453 Spirit damage over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 9584
+      "gameId": 9584,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE": 453,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Any time you hit an enemy, there is a 25% chance that they will suffer an additional {COM_1_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "abi_de_blackhorror",
@@ -680,7 +849,11 @@
       "note": "",
       "description": "A quick heal that restores 461 health.Not affected by cooldown modification abilities.",
       "category": "Ability",
-      "gameId": 9553
+      "gameId": 9553,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 0
+      },
+      "rawDescription": "A quick heal that restores {COM_0_VAL0_HEALTH}.<BR>Not affected by cooldown modification abilities."
     },
     {
       "image": "11002",
@@ -696,7 +869,14 @@
       "note": "Requires 20 Soul Essence per second",
       "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, all allies within 30 feet of you will regain 179 health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.",
       "category": "Ability",
-      "gameId": 9579
+      "gameId": 9579,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_3_RADI_FEET": 30,
+        "COM_3_VAL0_HEALTH": 179,
+        "COM_2_VAL1": 20
+      },
+      "rawDescription": "You throw yourself open to Khaine's influence as power rushes through you for up to {COM_0_DURA_SECONDS}.  Each second, all allies within {COM_3_RADI_FEET} of you will regain {COM_3_VAL0_HEALTH}, and you will lose {COM_2_VAL1} Soul Essence.  This effect will end if you lose your concentration, or run out of Soul Essence to power it with."
     },
     {
       "image": "10956",
@@ -712,7 +892,12 @@
       "note": "Requires 40 Soul Essence",
       "description": "All group mates within 100 feet of you gradually regains 567 health over 9 seconds.",
       "category": "Ability",
-      "gameId": 9573
+      "gameId": 9573,
+      "componentValues": {
+        "COM_0_VAL0_TOD_HEALTH": 567,
+        "COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "All group mates within 100 feet of you gradually regains {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "10989",
@@ -728,7 +913,9 @@
       "note": "",
       "description": "Removes all Ailments and Hexes from your group.",
       "category": "Morale",
-      "gameId": 9607
+      "gameId": 9607,
+      "componentValues": {},
+      "rawDescription": "Removes all Ailments and Hexes from your group."
     },
     {
       "image": "10938",
@@ -744,7 +931,14 @@
       "note": "Builds 20 Soul Essence",
       "description": "A gory strike that Cripples your enemy, dealing 76 damage initially and another 115 damage over 10 seconds and reducing their Toughness by 75.",
       "category": "Ability",
-      "gameId": 9551
+      "gameId": 9551,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 76,
+        "COM_2_VAL0_COM_0_VAL0_TOD_DAMAGE": 115,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 10,
+        "COM_2_VAL0_COM_1_VAL0": 75
+      },
+      "rawDescription": "A gory strike that Cripples your enemy, dealing {COM_0_VAL0_DAMAGE} initially and another {COM_2_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_2_VAL0_COM_0_DURA_SECONDS} and reducing their Toughness by {COM_2_VAL0_COM_1_VAL0}."
     },
     {
       "image": "10962",
@@ -760,7 +954,9 @@
       "note": "",
       "description": "For 10 seconds, you allow your group mates within 100 feet (instead of yourself) to feast on the life essence of your victims, healing everyone for 50% of the melee damage you deal.",
       "category": "Morale",
-      "gameId": 9605
+      "gameId": 9605,
+      "componentValues": {},
+      "rawDescription": "For 10 seconds, you allow your group mates within 100 feet (instead of yourself) to feast on the life essence of your victims, healing everyone for 50% of the melee damage you deal."
     },
     {
       "image": "22704",
@@ -776,7 +972,13 @@
       "note": "",
       "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but reduces the effectiveness of your healing abilities by 20%.",
       "category": "CareerTactic",
-      "gameId": 9586
+      "gameId": 9586,
+      "componentValues": {
+        "COM_2_VAL1": 10,
+        "COM_1_VAL0": 10,
+        "COM_0_VAL1": 20
+      },
+      "rawDescription": "Increases your chance to critically hit by {COM_2_VAL1}% and your chance to parry by {COM_1_VAL0}%, but reduces the effectiveness of your healing abilities by {COM_0_VAL1}%."
     },
     {
       "image": "10944",
@@ -792,7 +994,9 @@
       "note": "Requires 25 Soul Essence<br>Target must be Hexed or Ailing",
       "description": "You patch an ally's wound and remove one Ailment or Hex.",
       "category": "Ability",
-      "gameId": 9556
+      "gameId": 9556,
+      "componentValues": {},
+      "rawDescription": "You patch an ally's wound and remove one Ailment or Hex."
     },
     {
       "image": "11004",
@@ -808,7 +1012,12 @@
       "note": "Builds 45 Soul Essence",
       "description": "A strike into your target's soul which deals 202 damage and causes them to lose 50 Action Points. You will gain additional Soul Essence for most of the action points that the enemy lost.",
       "category": "Ability",
-      "gameId": 9581
+      "gameId": 9581,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 202,
+        "COM_1_VAL0_ACTIONPOINTS": 50
+      },
+      "rawDescription": "A strike into your target's soul which deals {COM_0_VAL0_DAMAGE} and causes them to lose {COM_1_VAL0_ACTIONPOINTS}.  You will gain additional Soul Essence for most of the action points that the enemy lost."
     },
     {
       "image": "22694",
@@ -824,7 +1033,9 @@
       "note": "",
       "description": "Increases the chance for your Covenants to trigger by an additional 15%.",
       "category": "CareerTactic",
-      "gameId": 9590
+      "gameId": 9590,
+      "componentValues": {},
+      "rawDescription": "Increases the chance for your Covenants to trigger by an additional 15%."
     },
     {
       "image": "23154",
@@ -840,7 +1051,12 @@
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale",
-      "gameId": 692
+      "gameId": 692,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_DAMAGE": 600,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {COM_1_VAL0_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and heals group members within 100 feet for the full amount of the damage dealt."
     },
     {
       "image": "10941",
@@ -856,7 +1072,12 @@
       "note": "Requires 25 Soul Essence per second",
       "description": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes. You strike the target up to four times over 3 seconds, dealing 84 Spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Soul Essence.",
       "category": "Ability",
-      "gameId": 9554
+      "gameId": 9554,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_2_VAL0_SPIRITDAMAGE": 84
+      },
+      "rawDescription": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes.  You strike the target up to four times over {COM_0_DURA_SECONDS}, dealing {COM_2_VAL0_SPIRITDAMAGE} per hit.  Each hit heals your defensive target for 350% of the damage that was dealt.<BR>This effect will end if you break your concentration, or run out of Soul Essence."
     },
     {
       "image": "22694",
@@ -872,7 +1093,12 @@
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 589
+      "gameId": 589,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS": 40,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "Any time one of your direct healing effects critically heals an ally, you will regain {COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10935",
@@ -888,7 +1114,13 @@
       "note": "Requires 55 Soul Essence",
       "description": "Dark forces restore 258 health to an ally immediately, and another 315 over 5 seconds.",
       "category": "Ability",
-      "gameId": 9548
+      "gameId": 9548,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 258,
+        "COM_1_VAL0_COM_0_VAL0_TOD": 315,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Dark forces restore {COM_0_VAL0_HEALTH} to an ally immediately, and another {COM_1_VAL0_COM_0_VAL0_TOD} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22709",
@@ -904,7 +1136,11 @@
       "note": "",
       "description": "Whenever you heal an ally, there is a 25% chance that they will regain 50 Action Points, but this effect will not work on you.",
       "category": "CareerTactic",
-      "gameId": 9596
+      "gameId": 9596,
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 50
+      },
+      "rawDescription": "Whenever you heal an ally, there is a 25% chance that they will regain {COM_1_VAL0_ACTIONPOINTS}, but this effect will not work on you."
     },
     {
       "image": "11003",
@@ -920,7 +1156,13 @@
       "note": "Builds 30 Soul Essence",
       "description": "A slice aimed at fresh wounds which deals 177 damage. If the enemy was Crippled, then they are further Crippled and take an additional 185 damage over 15 seconds.",
       "category": "Ability",
-      "gameId": 9580
+      "gameId": 9580,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 177,
+        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 185,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "A slice aimed at fresh wounds which deals {COM_0_VAL0_DAMAGE}.  If the enemy was Crippled, then they are further Crippled and take an additional {COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10937",
@@ -936,7 +1178,12 @@
       "note": "Requires 30 Soul Essence",
       "description": "Your target is gradually infused with 1700 health over 15 seconds.",
       "category": "Ability",
-      "gameId": 9550
+      "gameId": 9550,
+      "componentValues": {
+        "ABIL_3366_COM_0_VAL0_TOD_HEALTH": 1700,
+        "ABIL_3366_COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Your target is gradually infused with {ABIL_3366_COM_0_VAL0_TOD_HEALTH} over {ABIL_3366_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10957",
@@ -952,7 +1199,12 @@
       "note": "Requires 40 Soul Essence",
       "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to 775 damage for each person.",
       "category": "Ability",
-      "gameId": 9574
+      "gameId": 9574,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_0_VAL1_DAMAGE": 775
+      },
+      "rawDescription": "All group mates within 100 feet becomes surrounded by a magical barrier for {COM_0_DURA_SECONDS}, which will absorb up to {COM_0_VAL1_DAMAGE} for each person."
     },
     {
       "image": "10946",
@@ -968,7 +1220,9 @@
       "note": "Requires 20 Soul Essence",
       "description": "Life is restored to a dead ally, and 20% of their health is recovered in the hopes they will prove less worthless to you in the future.",
       "category": "Ability",
-      "gameId": 9558
+      "gameId": 9558,
+      "componentValues": {},
+      "rawDescription": "Life is restored to a dead ally, and 20% of their health is recovered in the hopes they will prove less worthless to you in the future."
     },
     {
       "image": "23155",
@@ -984,7 +1238,11 @@
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale",
-      "gameId": 690
+      "gameId": 690,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 0
+      },
+      "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
     },
     {
       "image": "22709",
@@ -1000,7 +1258,9 @@
       "note": "",
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
       "category": "CareerTactic",
-      "gameId": 588
+      "gameId": 588,
+      "componentValues": {},
+      "rawDescription": "All of your heals will cause enemy monsters to hate you 25% less than normal."
     },
     {
       "image": "22706",
@@ -1016,7 +1276,11 @@
       "note": "",
       "description": "Terrifying Vision will also affect all enemies within 30 feet.",
       "category": "CareerTactic",
-      "gameId": 9591
+      "gameId": 9591,
+      "componentValues": {
+        "ABIL_3046_COM_0_RADI_FEET": 0
+      },
+      "rawDescription": "Terrifying Vision will also affect all enemies within {ABIL_3046_COM_0_RADI_FEET} of you."
     },
     {
       "image": "10942",
@@ -1032,7 +1296,12 @@
       "note": "Builds 20 Soul Essence",
       "description": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only 50% damage against you for 15 seconds. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability",
-      "gameId": 9555
+      "gameId": 9555,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only {COM_0_VAL0}% damage against you for {COM_0_DURA_SECONDS}.  You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted."
     },
     {
       "image": "10965",
@@ -1048,7 +1317,14 @@
       "note": "",
       "description": "All of your group mates within 100 feet have their armor increased by 825, Block, Parry, Dodge and Disrupt by 25, and all Resists by 315 for the next 10 seconds.",
       "category": "Morale",
-      "gameId": 9616
+      "gameId": 9616,
+      "componentValues": {
+        "COM_0_VAL0": 825,
+        "COM_2_VAL0": 25,
+        "COM_1_VAL0": 315,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "All of your group mates within 100 feet have their armor increased by {COM_0_VAL0}, Block, Parry, Dodge and Disrupt by {COM_2_VAL0}, and all Resists by {COM_1_VAL0} for the next {COM_0_DURA_SECONDS}."
     },
     {
       "image": "10961",
@@ -1064,7 +1340,12 @@
       "note": "Requires Shield<br>Builds 35 Soul Essence",
       "description": "An unholy attack which deals 152 damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for 225 health plus 50% of the damage that you dealt.",
       "category": "Ability",
-      "gameId": 2932
+      "gameId": 2932,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 152,
+        "COM_1_VAL0_HEALTH": 225
+      },
+      "rawDescription": "An unholy attack which deals {COM_0_VAL0_DAMAGE} to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for {COM_1_VAL0_HEALTH} plus 50% of the damage that you dealt."
     },
     {
       "image": "22706",
@@ -1080,7 +1361,12 @@
       "note": "",
       "description": "Any time you critically hit an enemy, your defensive target will become 20% more receptive to direct healing effects for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 9589
+      "gameId": 9589,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL1": 20,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Any time you critically hit an enemy, your defensive target will become {COM_1_VAL0_COM_0_VAL1}% more receptive to direct healing effects for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10952",
@@ -1096,7 +1382,9 @@
       "note": "Builds 40 Soul Essence",
       "description": "A great energy washes over all targets in front of you, blowing back all enemy players within 30 feet and knocking down monsters.",
       "category": "Ability",
-      "gameId": 9564
+      "gameId": 9564,
+      "componentValues": {},
+      "rawDescription": "A great energy washes over all targets in front of you, blowing back all enemy players within 30 feet and knocking down monsters."
     },
     {
       "image": "10963",
@@ -1112,7 +1400,13 @@
       "note": "",
       "description": "Raw power erupts in a 30 feet area around you, inflicting 1200 damage and Staggering all enemies around you for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Morale",
-      "gameId": 9606
+      "gameId": 9606,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0_DAMAGE": 1200,
+        "ABIL_3707_COM_1_DURA_SECONDS": 6
+      },
+      "rawDescription": "Raw power erupts in a {COM_0_RADI_FEET} area around you, inflicting {COM_0_VAL0_DAMAGE} and Staggering all enemies around you for {ABIL_3707_COM_1_DURA_SECONDS}, preventing all actions unless they're damaged."
     },
     {
       "image": "10966",
@@ -1128,7 +1422,12 @@
       "note": "",
       "description": "Victim is overcome with seemingly endless visions of their own grisly death. So real are the visions, that the victim suffers 1596 damage over 7 seconds and will not generate any morale for every second of agony.",
       "category": "Morale",
-      "gameId": 9617
+      "gameId": 9617,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 1596,
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "Victim is overcome with seemingly endless visions of their own grisly death. So real are the visions, that the victim suffers {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} and will not generate any morale for every second of agony."
     },
     {
       "image": "10960",
@@ -1144,7 +1443,13 @@
       "note": "Builds 30 Soul Essence",
       "description": "A cunning strike which deals 152 damage to your enemy and reduces their chance to parry by 10% for 15 seconds.",
       "category": "Ability",
-      "gameId": 9577
+      "gameId": 9577,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 152,
+        "COM_1_VAL0": 10,
+        "COM_1_DURA_SECONDS": 15
+      },
+      "rawDescription": "A cunning strike which deals {COM_0_VAL0_DAMAGE} to your enemy and reduces their chance to parry by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "10959",
@@ -1160,7 +1465,12 @@
       "note": "Builds 30 Soul Essence",
       "description": "A merciless attack which deals 127 damage to the your enemy, or if they are below 50% hit points, instead inflicts 277 damage and will almost always critically hit.",
       "category": "Ability",
-      "gameId": 9576
+      "gameId": 9576,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "A merciless attack which deals {COM_0_VAL0_DAMAGE} to your enemy, or if they are below 50% hit points, instead inflicts {COM_1_VAL0_DAMAGE} and will almost always critically hit."
     },
     {
       "image": "abi_de_reapingscythe",
@@ -1176,7 +1486,11 @@
       "note": "Target must be below 50% health<br>Builds 30 Soul Essence<br>Requires Dual Wield",
       "description": "Deals 352 damage and will almost always deal critical damage to a wounded foe.",
       "category": "Ability",
-      "gameId": 2934
+      "gameId": 2934,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 352
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} and will almost always deal critical damage to a wounded foe."
     },
     {
       "image": "11045",
@@ -1192,7 +1506,11 @@
       "note": "Requires Dual Wield",
       "description": "Blood lust drives you on, your attacks will ignore 25% of the victims armour for the next 20 seconds.",
       "category": "Ability",
-      "gameId": 2938
+      "gameId": 2938,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Blood lust drives you on, your attacks will ignore 25% the victim's armor for the next {COM_0_DURA_SECONDS}."
     },
     {
       "image": "11043",
@@ -1208,7 +1526,11 @@
       "note": "Requires Shield<br>Requires 25 Soul Essence per second",
       "description": "You channel a Soul Ward making you immune from any root or snare effect and increasing parry, dodge and disrupt of you and your group by 10%.<br> This effect will end if you break concentration or run out of Soul Essence.",
       "category": "Ability",
-      "gameId": 2952
+      "gameId": 2952,
+      "componentValues": {
+        "COM_0_VAL0": 0
+      },
+      "rawDescription": "You channel a Soul Ward making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by {COM_0_VAL0}%.<BR>This effect will end if you break your concentration, or run out of Soul Essence."
     },
     {
       "image": "11033",
@@ -1224,7 +1546,12 @@
       "note": "Requires Shield<br>Requires 25 Soul Essence per second",
       "description": "To defeat your enemies you need to empower your team. You suffer 300 damage every second any groupmates within 100ft will recive 525 health restored to them.<br> This effect will end if you break concentration or run out of Soul Essence.",
       "category": "Ability",
-      "gameId": 2941
+      "gameId": 2941,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 0,
+        "COM_2_VAL0": 0
+      },
+      "rawDescription": "To defeat your enemies you need to empower your team, you will suffer {COM_1_VAL0_DAMAGE} every second, any groupmates within 100ft will have {COM_2_VAL0} health restored to them.<BR>This effect will end if you break your concentration, or run out of Soul Essence."
     },
     {
       "image": "11018",
@@ -1238,9 +1565,15 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Shield<br>Builds 25 Soul Essence",
-      "description": "You attack with your buckler dealing 177 damage,and increase your chance to block by 10% for 10 seconds.",
+      "description": "You attack with your buckler dealing 177 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
       "category": "Ability",
-      "gameId": 2953
+      "gameId": 2953,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 177,
+        "COM_1_VAL0_COM_0_VAL0": 10,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You attack with your buckler dealing {COM_0_VAL0_DAMAGE} to your enemy, and increases your chance to block by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10940",
@@ -1254,9 +1587,14 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A quick strike that deals 102 damage. Khaine's approval of your actions causes your defensive target and all allies within 10ft to be healed for 100% of the damage you dealt",
+      "description": "A quick strike which deals 102 damage.  Khaine's approval of your actions causes your defensive target and all allies within 10ft to become healed for 100% of the damage that you dealt.",
       "category": "Ability",
-      "gameId": 2933
+      "gameId": 2933,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 102,
+        "COM_1_RADI_FEET": 10
+      },
+      "rawDescription": "A quick strike which deals {COM_0_VAL0_DAMAGE}.  Khaine's approval of your actions causes your defensive target and all allies within {COM_1_RADI_FEET} to become healed for 100% of the damage that you dealt."
     },
     {
       "image": "11040",
@@ -1272,7 +1610,11 @@
       "note": "Requires Dual Wield",
       "description": "You free yourself from all roots and snares. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability",
-      "gameId": 2961
+      "gameId": 2961,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "You free yourself from all roots and snares.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you."
     },
     {
       "image": "22706",
@@ -1288,7 +1630,11 @@
       "note": "",
       "description": "Terrifying Vision will also affect all enemies within 30 feet of you.",
       "category": "CareerTactic",
-      "gameId": 9591
+      "gameId": 9591,
+      "componentValues": {
+        "ABIL_3046_COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Terrifying Vision will also affect all enemies within {ABIL_3046_COM_0_RADI_FEET} of you."
     }
   ]
 }

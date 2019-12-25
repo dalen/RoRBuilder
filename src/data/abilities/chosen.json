@@ -85,7 +85,12 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
       "category": "CareerTactic",
-      "gameId": 800
+      "gameId": 800,
+      "componentValues": {
+        "ABIL_3595_COM_0_VAL0_TOD": 250,
+        "ABIL_3595_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Any time you are attacked, there is a 25% chance that you will lash out for {ABIL_3595_COM_0_VAL0_TOD} Elemental damage over {ABIL_3595_COM_0_DURA_SECONDS} to anyone who hits you."
     },
     {
       "image": "05174",
@@ -101,7 +106,12 @@
       "note": "",
       "description": "A baneful aura surrounds you for 10 seconds, lashing out for 100 Spirit damage at any enemies who hit you.",
       "category": "Ability",
-      "gameId": 8337
+      "gameId": 8337,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_SPIRITDAMAGE": 100
+      },
+      "rawDescription": "A baneful aura surrounds you for {COM_0_DURA_SECONDS}, lashing out for {COM_1_VAL0_SPIRITDAMAGE} at any enemies who hit you."
     },
     {
       "image": "05266",
@@ -117,7 +127,13 @@
       "note": "",
       "description": "A great burst of corrupted winds tears at all targets within 20 feet, inflicting 76 damage. If under the effect of a Discordant Aura, Wounds are lowered by 75 for 20 seconds.",
       "category": "Ability",
-      "gameId": 8331
+      "gameId": 8331,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 76,
+        "COM_1_VAL0": 75,
+        "COM_1_DURA_SECONDS": 20
+      },
+      "rawDescription": "A great burst of corrupted winds tears at all targets within 20 feet, inflicting {COM_0_VAL0_DAMAGE}. If under the effect of a Discordant Aura, Wounds are lowered by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "05257",
@@ -133,7 +149,12 @@
       "note": "",
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability",
-      "gameId": 8333
+      "gameId": 8333,
+      "componentValues": {
+        "COM_5_VAL0": 0,
+        "COM_5_DURA_SECONDS": 0
+      },
+      "rawDescription": "You challenge all opponents in front of you, making monsters hate you more. While challenged, your opponents will deal only {COM_5_VAL0}% damage to everyone other than you. This effect will fade after {COM_5_DURA_SECONDS} or after your opponent has hit you 3 times."
     },
     {
       "image": "23174",
@@ -149,7 +170,11 @@
       "note": "",
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
       "category": "Morale",
-      "gameId": 608
+      "gameId": 608,
+      "componentValues": {
+        "COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "Both you and your target are held tightly in place for {COM_1_DURA_SECONDS}, and neither one of you can move.<BR>This effect cannot be dispelled or broken."
     },
     {
       "image": "22708",
@@ -165,7 +190,11 @@
       "note": "",
       "description": "Any time you parry an attack, you will regain 75 Action Points. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 8352
+      "gameId": 8352,
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 75
+      },
+      "rawDescription": "Any time you parry an attack, you will regain {COM_1_VAL0_ACTIONPOINTS}. Tactic can not trigger more than once every 3 seconds."
     },
     {
       "image": "05252",
@@ -181,7 +210,11 @@
       "note": "",
       "description": "A powerful overhand blow that inflicts 159 damage and can not be defended against.",
       "category": "Ability",
-      "gameId": 8319
+      "gameId": 8319,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 159
+      },
+      "rawDescription": "A powerful overhand blow that inflicts {COM_0_VAL0_DAMAGE} and can not be defended against."
     },
     {
       "image": "05265",
@@ -197,7 +230,11 @@
       "note": "May only use one Chaotic Aura at a time.",
       "description": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within 30 feet, causing their spells to build up 25% slower. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
-      "gameId": 8345
+      "gameId": 8345,
+      "componentValues": {
+        "COM_2_RADI_FEET": 30
+      },
+      "rawDescription": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within {COM_2_RADI_FEET}, causing their spells to build up 25% slower. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
     {
       "image": "05178",
@@ -213,7 +250,12 @@
       "note": "May only use one Chaotic Aura at a time.",
       "description": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for 24 health over 3 seconds every time they defend an attack. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
-      "gameId": 8332
+      "gameId": 8332,
+      "componentValues": {
+        "COM_2_VAL0_COM_0_VAL0_TOD_HEALTH": 24,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for {COM_2_VAL0_COM_0_VAL0_TOD_HEALTH} over {COM_2_VAL0_COM_0_DURA_SECONDS} every time they defend an attack. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
     {
       "image": "05179",
@@ -229,7 +271,13 @@
       "note": "May only use one Chaotic Aura at a time.",
       "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within 30 feet by 75. During this time, group members within 100 feet are emboldened, increasing their toughness by 75. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
-      "gameId": 8318
+      "gameId": 8318,
+      "componentValues": {
+        "COM_2_RADI_FEET": 30,
+        "COM_1_VAL0": 75,
+        "COM_2_VAL0": 75
+      },
+      "rawDescription": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within {COM_2_RADI_FEET} by {COM_1_VAL0}. During this time, group members within 100 feet are emboldened, increasing their toughness by {COM_2_VAL0}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
     {
       "image": "22702",
@@ -245,7 +293,11 @@
       "note": "",
       "description": "Path of Corruption abilities will now cost 35% less action points.",
       "category": "CareerTactic",
-      "gameId": 8357
+      "gameId": 8357,
+      "componentValues": {
+        "COM_0_VAL1": 35
+      },
+      "rawDescription": "Path of Corruption abilities will now cost {COM_0_VAL1}% less action points."
     },
     {
       "image": "22709",
@@ -261,7 +313,12 @@
       "note": "",
       "description": "Suppression will now also reduce the victim's chances to defend against attacks by 10% for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 8355
+      "gameId": 8355,
+      "componentValues": {
+        "ABIL_8335_COM_2_VAL0": 10,
+        "ABIL_8335_COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "Suppression will now also reduce the victim's chances to defend against attacks by {ABIL_8335_COM_2_VAL0}% for {ABIL_8335_COM_2_DURA_SECONDS}."
     },
     {
       "image": "23172",
@@ -277,7 +334,13 @@
       "note": "",
       "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale",
-      "gameId": 606
+      "gameId": 606,
+      "componentValues": {
+        "COM_1_VAL0": 0,
+        "COM_0_VAL0_TOD_DAMAGE": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22702",
@@ -293,7 +356,11 @@
       "note": "",
       "description": "Whenever you Block an attack you gain 4 seconds of Morale. This effect will not trigger more than once every 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 8359
+      "gameId": 8359,
+      "componentValues": {
+        "COM_1_VAL0": 0
+      },
+      "rawDescription": "Any time you block an attack, you gain {COM_1_VAL0} points of Morale. Tactic can not trigger more than once every 3 seconds."
     },
     {
       "image": "22694",
@@ -309,7 +376,11 @@
       "note": "",
       "description": "Bane Shield will now also protect any of your allies within 30 feet and last 7 seconds longer.",
       "category": "CareerTactic",
-      "gameId": 8364
+      "gameId": 8364,
+      "componentValues": {
+        "ABIL_8337_COM_3_RADI_FEET": 30
+      },
+      "rawDescription": "Bane Shield will now also protect any of your allies within {ABIL_8337_COM_3_RADI_FEET} and last 7 seconds longer."
     },
     {
       "image": "05181",
@@ -325,7 +396,11 @@
       "note": "May only use one Chaotic Aura at a time.",
       "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 46 Spirit damage. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
-      "gameId": 8327
+      "gameId": 8327,
+      "componentValues": {
+        "COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE": 46
+      },
+      "rawDescription": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them {COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
     {
       "image": "05253",
@@ -341,7 +416,13 @@
       "note": "May only use one Chaotic Aura at a time.",
       "description": "You tear at the fabric of reality, warping the world around you. Enemies within 30 feet will have all their resistances reduced by 118. During this time, groupmates within 100 feet have all their resistances increased by 236. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
-      "gameId": 8321
+      "gameId": 8321,
+      "componentValues": {
+        "COM_2_RADI_FEET": 30,
+        "COM_2_VAL0": 118,
+        "COM_1_VAL0": 236
+      },
+      "rawDescription": "You tear at the fabric of reality, warping the world around you. Enemies within {COM_2_RADI_FEET} will have all their resistances reduced by {COM_2_VAL0}. During this time, groupmates within 100 feet have all their resistances increased by {COM_1_VAL0}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
     {
       "image": "05258",
@@ -357,7 +438,11 @@
       "note": "May only use one Chaotic Aura at a time.",
       "description": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within 30 feet to be 25% less effective. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
-      "gameId": 8348
+      "gameId": 8348,
+      "componentValues": {
+        "COM_2_RADI_FEET": 30
+      },
+      "rawDescription": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within {COM_2_RADI_FEET} to be 25% less effective. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
     {
       "image": "23173",
@@ -373,7 +458,13 @@
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale",
-      "gameId": 610
+      "gameId": 610,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A loud shout that startles your target and all enemies within {COM_0_RADI_FEET} of them, reducing their damage to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "05184",
@@ -389,7 +480,13 @@
       "note": "",
       "description": "A blow to the head which inflicts 134 damage and snares your target, reducing their movement speed by 40% for 10 seconds.",
       "category": "Ability",
-      "gameId": 8324
+      "gameId": 8324,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 134,
+        "COM_2_VAL0": 40,
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "A blow to the head which inflicts {COM_0_VAL0_DAMAGE} and snares your target, reducing their movement speed by {COM_2_VAL0}% for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "05177",
@@ -405,7 +502,12 @@
       "note": "",
       "description": "A fierce blow that knocks down your opponent for 3 seconds and inflicts 159 damage.",
       "category": "Ability",
-      "gameId": 8346
+      "gameId": 8346,
+      "componentValues": {
+        "COM_1_DURA_SECONDS": 3,
+        "COM_0_VAL0_DAMAGE": 159
+      },
+      "rawDescription": "A fierce blow that knocks down your opponent for {COM_1_DURA_SECONDS} and inflicts {COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "05212",
@@ -421,7 +523,13 @@
       "note": "May only use one Chaotic Aura at a time.",
       "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take 99 Spirit damage every 3 seconds. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
-      "gameId": 8334
+      "gameId": 8334,
+      "componentValues": {
+        "COM_2_RADI_FEET": 30,
+        "COM_2_VAL0_SPIRITDAMAGE": 99,
+        "COM_1_FREQ_SECONDS": 3
+      },
+      "rawDescription": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within {COM_2_RADI_FEET} will take {COM_2_VAL0_SPIRITDAMAGE} every {COM_1_FREQ_SECONDS}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
     {
       "image": "05167",
@@ -437,7 +545,13 @@
       "note": "May only use one Chaotic Aura at a time.",
       "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 30 feet of you, reducing their Strength by 75. During this time, the Strength of any groupmates within 100 feet is increased by 75. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
-      "gameId": 8316
+      "gameId": 8316,
+      "componentValues": {
+        "COM_2_RADI_FEET": 30,
+        "COM_1_VAL0": 75,
+        "COM_2_VAL0": 75
+      },
+      "rawDescription": "You call upon the power of the warp to instill a bone chilling fear in your opponents within {COM_2_RADI_FEET} of you, reducing their Strength by {COM_1_VAL0}. During this time, the Strength of any groupmates within 100 feet is increased by {COM_2_VAL0}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
     {
       "image": "05263",
@@ -453,7 +567,16 @@
       "note": "May only use one Chaotic Aura at a time.",
       "description": "The power of the Warp encases you in a terrifying visage. All enemies within 30 feet will lose 20 Action Points every 5 seconds. All groupmates within 100 feet will regain 20 Action Points every 5 seconds. <br>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
-      "gameId": 8342
+      "gameId": 8342,
+      "componentValues": {
+        "COM_5_RADI_FEET": 30,
+        "COM_6_VAL0_ACTIONPOINTS": 20,
+        "COM_5_FREQ_SECONDS": 5,
+        "COM_2_RADI_FEET": 100,
+        "COM_2_VAL0_ACTIONPOINTS": 20,
+        "COM_1_FREQ_SECONDS": 5
+      },
+      "rawDescription": "The power of the Warp encases you in a terrifying visage. All enemies within {COM_5_RADI_FEET} will lose {COM_6_VAL0_ACTIONPOINTS} every {COM_5_FREQ_SECONDS}. All groupmates within {COM_2_RADI_FEET} will regain {COM_2_VAL0_ACTIONPOINTS} every {COM_1_FREQ_SECONDS}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
     {
       "image": "22706",
@@ -469,7 +592,11 @@
       "note": "",
       "description": "All healing used on you becomes 15% more effective.",
       "category": "CareerTactic",
-      "gameId": 8369
+      "gameId": 8369,
+      "componentValues": {
+        "COM_0_VAL1": 15
+      },
+      "rawDescription": "All healing used on you becomes {COM_0_VAL1}% more effective."
     },
     {
       "image": "05168",
@@ -485,7 +612,11 @@
       "note": "",
       "description": "A powerful blow that does 134 damage and has significantly increased threat against monsters",
       "category": "Ability",
-      "gameId": 8315
+      "gameId": 8315,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 134
+      },
+      "rawDescription": "A powerful blow that does {COM_0_VAL0_DAMAGE} and has significantly increased threat against monsters"
     },
     {
       "image": "22708",
@@ -501,7 +632,11 @@
       "note": "",
       "description": "Withering Blow will now drain 40 Action Points, and you will gain as many action points as the victim lost.",
       "category": "CareerTactic",
-      "gameId": 8361
+      "gameId": 8361,
+      "componentValues": {
+        "ABIL_8328_COM_2_VAL0_ACTIONPOINTS": 40
+      },
+      "rawDescription": "Withering Blow will now drain {ABIL_8328_COM_2_VAL0_ACTIONPOINTS}, and you will gain as many action points as the victim lost."
     },
     {
       "image": "22702",
@@ -517,7 +652,11 @@
       "note": "",
       "description": "Reduces the chance that an enemy will critically hit you by 10%.",
       "category": "CareerTactic",
-      "gameId": 8353
+      "gameId": 8353,
+      "componentValues": {
+        "COM_0_VAL1": 10
+      },
+      "rawDescription": "Reduces the chance that an enemy will critically hit you by {COM_0_VAL1}%."
     },
     {
       "image": "05004",
@@ -533,7 +672,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "22701",
@@ -549,7 +694,13 @@
       "note": "",
       "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
       "category": "CareerTactic",
-      "gameId": 500
+      "gameId": 500,
+      "componentValues": {
+        "COM_0_VAL0": 15,
+        "COM_2_VAL1": 15,
+        "COM_1_VAL0": 33
+      },
+      "rawDescription": "You deal {COM_0_VAL0}% more damage and all enemy monsters will hate you {COM_2_VAL1}% less than normal, but your armor is reduced by {COM_1_VAL0}%."
     },
     {
       "image": "05172",
@@ -565,7 +716,11 @@
       "note": "Only usable on other players",
       "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
       "category": "Ability",
-      "gameId": 8325
+      "gameId": 8325,
+      "componentValues": {
+        "COM_1_VAL1": 0
+      },
+      "rawDescription": "You defend one of your groupmates and try to take attacks meant for them.  As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and {COM_1_VAL1}% of all hate that they cause will be redirected to you.<BR><BR>Damage received from this ability can be blocked or parried, unless the original attack was undefendable."
     },
     {
       "image": "22709",
@@ -581,7 +736,11 @@
       "note": "",
       "description": "Reduces Repel's cooldown time by 50% and increases the length of the knockback.",
       "category": "CareerTactic",
-      "gameId": 8366
+      "gameId": 8366,
+      "componentValues": {
+        "COM_0_VAL1": 50
+      },
+      "rawDescription": "Reduces Repel's cooldown time by {COM_0_VAL1}% and increases the length of the knockback."
     },
     {
       "image": "05143",
@@ -597,7 +756,14 @@
       "note": "Requires Shield",
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability",
-      "gameId": 8326
+      "gameId": 8326,
+      "componentValues": {
+        "COM_0_VAL0": 45,
+        "COM_0_DURA_SECONDS": 12,
+        "COM_1_RADI_FEET": 50,
+        "COM_1_VAL0": 15
+      },
+      "rawDescription": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.  You will also defend all allies behind you, up to {COM_1_RADI_FEET} away, increasing their chances to dodge and disrupt by {COM_1_VAL0}% as long as they remain at your back.  Allies may have this effect stacked on them up to 3 times.<BR>This effect will end if you break your concentration, or run out of action points."
     },
     {
       "image": "23175",
@@ -613,7 +779,12 @@
       "note": "",
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
       "category": "Morale",
-      "gameId": 613
+      "gameId": 613,
+      "componentValues": {
+        "COM_0_VAL1": 75,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "An impressive display of defense which reduces incoming damage by {COM_0_VAL1}% for both you and all group members within 100 feet of you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "05261",
@@ -629,7 +800,12 @@
       "note": "",
       "description": "You are briefly covered with an impenetrable set of scales. For the next 20 seconds, up to 7200 damage will be absorbed.",
       "category": "Morale",
-      "gameId": 8378
+      "gameId": 8378,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 20,
+        "COM_0_VAL1_DAMAGE": 7200
+      },
+      "rawDescription": "You are briefly covered with an impenetrable set of scales. For the next {COM_0_DURA_SECONDS}, up to {COM_0_VAL1_DAMAGE} will be absorbed."
     },
     {
       "image": "05210",
@@ -645,7 +821,11 @@
       "note": "",
       "description": "A strong melee attack that deals 600 damage and restores all of your AP.",
       "category": "Morale",
-      "gameId": 8371
+      "gameId": 8371,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 600
+      },
+      "rawDescription": "A strong melee attack that deals {COM_0_VAL0_DAMAGE} and restores all of your AP."
     },
     {
       "image": "05176",
@@ -661,7 +841,9 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
-      "category": "Ability"
+      "category": "Ability",
+      "componentValues": {},
+      "rawDescription": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects."
     },
     {
       "image": "22709",
@@ -677,7 +859,11 @@
       "note": "",
       "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
       "category": "CareerTactic",
-      "gameId": 504
+      "gameId": 504,
+      "componentValues": {
+        "COM_0_VAL1": 100
+      },
+      "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% more than normal on all attacks."
     },
     {
       "image": "22702",
@@ -693,7 +879,12 @@
       "note": "",
       "description": "Any time you block an attack, your chance to parry is increased by 25% for 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 8365
+      "gameId": 8365,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 25,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Any time you block an attack, your chance to parry is increased by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22701",
@@ -709,7 +900,11 @@
       "note": "",
       "description": "Increases your chance to critically hit by 15% when you are wielding a great weapon and causes Relentless to inflict Spirit damage.",
       "category": "CareerTactic",
-      "gameId": 8363
+      "gameId": 8363,
+      "componentValues": {
+        "COM_0_VAL1": 15
+      },
+      "rawDescription": "Increases your chance to critically hit by {COM_0_VAL1}% when you are wielding a great weapon and causes Relentless to inflict Spirit damage."
     },
     {
       "image": "22696",
@@ -725,7 +920,12 @@
       "note": "",
       "description": "Whenever you critically hit an Enemy with a Great Weapon, your Strength, Weapon Skill, and Initiative will be increased by 100 for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic",
-      "gameId": 2832
+      "gameId": 2832,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 100,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Whenever you critically hit an Enemy with a Great Weapon, your Strength, Weapon Skill, and Initiative will be increased by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}. This effect will not refresh itself."
     },
     {
       "image": "05259",
@@ -741,7 +941,15 @@
       "note": "Requires Block or Parry",
       "description": "A thunderous shield slam that inflicts 184 damage, increases your armor by 618 for 20 seconds and reduces your damage taken by 15% for 10 seconds.",
       "category": "Ability",
-      "gameId": 8347
+      "gameId": 8347,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 184,
+        "COM_1_VAL0": 618,
+        "COM_1_DURA_SECONDS": 20,
+        "COM_2_VAL0_COM_0_VAL1": 15,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A thunderous shield slam that inflicts  {COM_0_VAL0_DAMAGE}, increases your armor by {COM_1_VAL0} for {COM_1_DURA_SECONDS} and reduces your damage taken by {COM_2_VAL0_COM_0_VAL1}% for {COM_2_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "05182",
@@ -757,7 +965,11 @@
       "note": "",
       "description": "The land around you warps and changes, encasing up to 4 nearby opponents in hardened stone. Effected opponents are rooted for 10 seconds and cannot move. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability",
-      "gameId": 8336
+      "gameId": 8336,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "The land around you warps and changes, encasing up to 4 nearby opponents in hardened stone. Effected opponents are rooted for {COM_0_DURA_SECONDS} and cannot move. Rooted targets have a 50% chance to break free when they suffer damage."
     },
     {
       "image": "22708",
@@ -773,7 +985,12 @@
       "note": "",
       "description": "Repel will now apply a buff on you that will reduce the armor penetration of all attackers by 10% for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 8356
+      "gameId": 8356,
+      "componentValues": {
+        "ABIL_8329_COM_4_VAL1": 10,
+        "ABIL_8329_COM_4_DURA_SECONDS": 10
+      },
+      "rawDescription": "Repel will now apply a buff on you that will reduce the armor penetration of all attackers by  {ABIL_8329_COM_4_VAL1}% for {ABIL_8329_COM_4_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -789,7 +1006,9 @@
       "note": "",
       "description": "The power of Tzeentch increases your Action Point regeneration by 15.",
       "category": "CareerTactic",
-      "gameId": 8358
+      "gameId": 8358,
+      "componentValues": {},
+      "rawDescription": "The power of Tzeentch increases your Action Point regeneration by 15."
     },
     {
       "image": "23417",
@@ -805,7 +1024,13 @@
       "note": "",
       "description": "You shake the very earth, dealing 154 Spirit damage to all opponents within 40 feet in front of you, staggering everyone for up to 3 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
-      "gameId": 8349
+      "gameId": 8349,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 154,
+        "COM_0_RADI_FEET": 40,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "You shake the very earth, dealing {COM_0_VAL0_SPIRITDAMAGE} to all opponents within {COM_0_RADI_FEET} in front of you, staggering everyone for up to {COM_2_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
     },
     {
       "image": "22694",
@@ -821,7 +1046,12 @@
       "note": "",
       "description": "Reduces Blast Wave's cooldown time by 5 seconds and Touch Of Palsy's cooldown time by 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 8354
+      "gameId": 8354,
+      "componentValues": {
+        "COM_0_VAL1_SECONDS": 5,
+        "COM_1_VAL1_SECONDS": 10
+      },
+      "rawDescription": "Reduces Blast Wave's cooldown time by {COM_0_VAL1_SECONDS} and Touch Of Palsy's cooldown time by {COM_1_VAL1_SECONDS}."
     },
     {
       "image": "05173",
@@ -837,7 +1067,11 @@
       "note": "",
       "description": "You channel the fell powers of the warp into your blade unleashing a devastating strike that does 159 Spiritual damage.",
       "category": "Ability",
-      "gameId": 8323
+      "gameId": 8323,
+      "componentValues": {
+        "COM_0_VAL0": 159
+      },
+      "rawDescription": "You channel the fell powers of the warp into your blade unleashing a devastating strike that does {COM_0_VAL0} Spiritual damage."
     },
     {
       "image": "23176",
@@ -853,7 +1087,13 @@
       "note": "",
       "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale",
-      "gameId": 607
+      "gameId": 607,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 0,
+        "COM_0_DURA_SECONDS": 0,
+        "COM_1_RADI_FEET": 0
+      },
+      "rawDescription": "You repeatedly attack all enemies in a line in front of you, inflicting {COM_1_VAL0_DAMAGE} every second for {COM_0_DURA_SECONDS}, up to {COM_1_RADI_FEET} away, for as long as you maintain your concentration."
     },
     {
       "image": "05264",
@@ -869,7 +1109,12 @@
       "note": "",
       "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing 114 damage with each hit. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
-      "gameId": 8343
+      "gameId": 8343,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_0_VAL0_DAMAGE": 114
+      },
+      "rawDescription": "You hack at your enemy with brutal strikes for up to {COM_0_DURA_SECONDS}, striking them up to six times and dealing {COM_0_VAL0_DAMAGE} with each hit.  This effect will end if you break your concentration or run out of action points."
     },
     {
       "image": "05186",
@@ -885,7 +1130,12 @@
       "note": "Requires Great Weapon",
       "description": "Your Demonic blade overpowers your enemy's defense causing 134 Spirit damage to all enemies within 25 feet in front of you. This attack is undefendable.",
       "category": "Ability",
-      "gameId": 8344
+      "gameId": 8344,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 134,
+        "COM_0_RADI_FEET": 25
+      },
+      "rawDescription": "Your Demonic blade overpowers your enemy's defense causing {COM_0_VAL0_SPIRITDAMAGE} to all enemies within {COM_0_RADI_FEET} in front of you. This attack is undefendable."
     },
     {
       "image": "05256",
@@ -901,7 +1151,11 @@
       "note": "",
       "description": "Forceful blow that deals 159 damage and knocks back players and knocks down monsters.",
       "category": "Ability",
-      "gameId": 8329
+      "gameId": 8329,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 159
+      },
+      "rawDescription": "Forceful blow that deals {COM_0_VAL0_DAMAGE} and knocks back players and knocks down monsters."
     },
     {
       "image": "22702",
@@ -917,7 +1171,11 @@
       "note": "",
       "description": "Increases Toughness by 160.",
       "category": "CareerTactic",
-      "gameId": 503
+      "gameId": 503,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases Toughness by {COM_0_VAL0}."
     },
     {
       "image": "05254",
@@ -933,7 +1191,12 @@
       "note": "",
       "description": "Your blade churns with Spiritual energies and will Cripple your target, inflicting 285 damage over 9 seconds.",
       "category": "Ability",
-      "gameId": 8320
+      "gameId": 8320,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 285,
+        "COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Your blade churns with Spiritual energies and will Cripple your target, inflicting {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "02497",
@@ -949,7 +1212,11 @@
       "note": "Target must have a Blessing",
       "description": "You sever one Blessing from your enemy and inflict 134 damage",
       "category": "Ability",
-      "gameId": 8339
+      "gameId": 8339,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "You sever one Blessing from your enemy and inflict {COM_1_VAL0_DAMAGE}."
     },
     {
       "image": "05262",
@@ -965,7 +1232,12 @@
       "note": "",
       "description": "A thunderous curse shatters the air, inflicting 800 damage to all targets within 30 feet and dispelling a blessing.",
       "category": "Morale",
-      "gameId": 8379
+      "gameId": 8379,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 800,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "A thunderous curse shatters the air, inflicting {COM_0_VAL0_DAMAGE} to all targets within {COM_0_RADI_FEET} and dispelling a blessing."
     },
     {
       "image": "23177",
@@ -981,7 +1253,11 @@
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
       "category": "Morale",
-      "gameId": 611
+      "gameId": 611,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "For the next {COM_0_DURA_SECONDS}, your chance to block is almost guaranteed."
     },
     {
       "image": "22706",
@@ -997,7 +1273,13 @@
       "note": "",
       "description": "Any time you disrupt a spell, you will regain 105 health, and your movement speed will be increased by 30% for 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 8367
+      "gameId": 8367,
+      "componentValues": {
+        "COM_2_VAL0_HEALTH": 105,
+        "COM_1_VAL0": 30,
+        "COM_1_DURA_SECONDS": 5
+      },
+      "rawDescription": "Any time you disrupt a spell, you will regain {COM_2_VAL0_HEALTH}, and your movement speed will be increased by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "05211",
@@ -1013,7 +1295,13 @@
       "note": "",
       "description": "In a chaotic surge of growth, everyone in the group's skin hardens, increasing Armor by 825 and all Resists by 315 for 30 seconds. Everyone receives 100 AP as well.",
       "category": "Morale",
-      "gameId": 8373
+      "gameId": 8373,
+      "componentValues": {
+        "COM_0_VAL0": 825,
+        "COM_1_VAL0": 315,
+        "COM_0_DURA_SECONDS": 30
+      },
+      "rawDescription": "In a chaotic surge of growth, everyone in the group's skin hardens, increasing Armor by {COM_0_VAL0} and all Resists by {COM_1_VAL0} for {COM_0_DURA_SECONDS}. Everyone receives 100 AP as well."
     },
     {
       "image": "05183",
@@ -1029,7 +1317,13 @@
       "note": "",
       "description": "A quick blow that causes 134 damage and improves your defensive position, increasing your chance to parry by 25% for 15 seconds.",
       "category": "Ability",
-      "gameId": 8335
+      "gameId": 8335,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 134,
+        "COM_1_VAL0": 25,
+        "COM_1_DURA_SECONDS": 15
+      },
+      "rawDescription": "A quick blow that causes {COM_0_VAL0_DAMAGE} and improves your defensive position, increasing your chance to parry by  {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -1045,7 +1339,11 @@
       "note": "",
       "description": "If an enemy is directly healed while suffering from your Seeping Wound, the healer will suffer 225 damage.",
       "category": "CareerTactic",
-      "gameId": 8368
+      "gameId": 8368,
+      "componentValues": {
+        "ABIL_8320_COM_3_VAL0_COM_0_VAL0_DAMAGE": 225
+      },
+      "rawDescription": "If an enemy is directly healed while suffering from your Seeping Wound, the healer will suffer {ABIL_8320_COM_3_VAL0_COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "05169",
@@ -1061,7 +1359,12 @@
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability",
-      "gameId": 8322
+      "gameId": 8322,
+      "componentValues": {
+        "COM_3_VAL0": 0,
+        "COM_2_DURA_SECONDS": 0
+      },
+      "rawDescription": "You enrage your opponent, interrupting any currently building abilities and making monsters hate you more. While taunted your opponent will take {COM_3_VAL0}% more damage from your attacks. This effect will fade after {COM_2_DURA_SECONDS} or after your opponent has hit you 3 times."
     },
     {
       "image": "05251",
@@ -1077,7 +1380,12 @@
       "note": "",
       "description": "A basic throwing attack that inflicts 97 damage. Has a chance to deal 696 damage to a severely wounded target if you are behind them.",
       "category": "Ability",
-      "gameId": 8314
+      "gameId": 8314,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 97,
+        "COM_0_VAL0_DAMAGE": 696
+      },
+      "rawDescription": "A basic throwing attack that inflicts {COM_1_VAL0_DAMAGE}. Has a chance to deal {COM_0_VAL0_DAMAGE} to a severely wounded target if you are behind them."
     },
     {
       "image": "05175",
@@ -1093,7 +1401,13 @@
       "note": "",
       "description": "You Stab into your opponent for 159 damage. For the next 5 seconds, Tooth Of Tzeentch will cause an additional 100 Spirit damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability",
-      "gameId": 8317
+      "gameId": 8317,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 0,
+        "COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE": 0
+      },
+      "rawDescription": "You stab into your opponent for {COM_0_VAL0_DAMAGE}.  For the next {COM_1_VAL0_COM_0_DURA_SECONDS}, Tooth Of Tzeentch will cause an additional {COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE} on the next damaging attack made by everyone in your group within 100 feet of you."
     },
     {
       "image": "05217",
@@ -1109,7 +1423,13 @@
       "note": "",
       "description": "You inflict 109 damage on the target. Target's legs become brittle for 10 seconds, causing them to suffer 75 Spirit damage for every half second they are moving.",
       "category": "Ability",
-      "gameId": 8338
+      "gameId": 8338,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 109,
+        "COM_1_DURA_SECONDS": 10,
+        "COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE": 75
+      },
+      "rawDescription": "You inflict {COM_0_VAL0_DAMAGE} on the target. Target's legs become brittle for {COM_1_DURA_SECONDS}, causing them to suffer {COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE} for every half second they are moving."
     },
     {
       "image": "05213",
@@ -1125,7 +1445,9 @@
       "note": "",
       "description": "For 15 seconds, Tzeentch amplifies the effects of all heals cast on you by 300%.",
       "category": "Morale",
-      "gameId": 8372
+      "gameId": 8372,
+      "componentValues": {},
+      "rawDescription": "For 15 seconds, Tzeentch amplifies the effects of all heals cast on you by 300%."
     },
     {
       "image": "05269",
@@ -1141,7 +1463,14 @@
       "note": "",
       "description": "You are surrounded by magical barrier increasing your willpower by 75 and disrupt chance by 25% for 10 seconds. During this time, any spell you disrupt will silence it's caster for 3 seconds.",
       "category": "Ability",
-      "gameId": 8350
+      "gameId": 8350,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "COM_1_VAL0": 0,
+        "COM_0_DURA_SECONDS": 0,
+        "ABIL_3762_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You are surrounded by a magical barrier, increasing your willpower by {COM_0_VAL0} and disrupt chance by {COM_1_VAL0}% for {COM_0_DURA_SECONDS}. During this time, any spell you disrupt will silence its caster for {ABIL_3762_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22714",
@@ -1157,7 +1486,11 @@
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 798
+      "gameId": 798,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Elemental resistance by {COM_0_VAL0}."
     },
     {
       "image": "22694",
@@ -1173,7 +1506,9 @@
       "note": "",
       "description": "Juggernaut's cooldown is reduced to 20 seconds.",
       "category": "CareerTactic",
-      "gameId": 505
+      "gameId": 505,
+      "componentValues": {},
+      "rawDescription": "Juggernaut's cooldown is reduced to 20 seconds."
     },
     {
       "image": "22714",
@@ -1189,7 +1524,11 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 797
+      "gameId": 797,
+      "componentValues": {
+        "ABIL_3996_COM_0_VAL1": 375
+      },
+      "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "05260",
@@ -1205,7 +1544,12 @@
       "note": "",
       "description": "A surge of chaotic energy ripples forward inflicting 240 damage to everyone 40 feet in front of you. The surge of power clings to it's victims, snaring them by 40% for 15 seconds.",
       "category": "Morale",
-      "gameId": 8377
+      "gameId": 8377,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_RADI_FEET": 0
+      },
+      "rawDescription": "A surge of chaotic energy ripples forward, inflicting {COM_0_VAL0_DAMAGE} to everyone {COM_0_RADI_FEET} in front of you. The surge of power clings to its victims, snaring them by 40% for 15 seconds."
     },
     {
       "image": "05255",
@@ -1221,7 +1565,12 @@
       "note": "",
       "description": "You release chaotic energies through your blade, withering your opponent's limbs causing 134 damage and removing 30 Action Points.",
       "category": "Ability",
-      "gameId": 8328
+      "gameId": 8328,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 134,
+        "COM_1_VAL0_ACTIONPOINTS": 30
+      },
+      "rawDescription": "You release chaotic energies through your blade, withering your opponent's limbs causing {COM_0_VAL0_DAMAGE} and removing {COM_1_VAL0_ACTIONPOINTS}."
     }
   ]
 }

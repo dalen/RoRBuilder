@@ -1,0 +1,30 @@
+        {
+          "Type": 1,
+          "Operation": 3,
+          "Condition": 4,
+          "LogicOperator": 8,
+          "Val5": 0,
+          "Val6": 520,
+          "Val7": 250,
+          "Val8": 0,
+          "Val9": 0
+        },
+
+520 == Righteous fury
+if RF < 250
+
+
+Operations:
+3: Check stat/buff (compare stat id Val6 with Val7) (optionally times Val5 per tick)
+6: Check pet??
+10: Combat event?
+18: (offensive) target stat
+
+Conditions:
+1: equal?
+4: Below
+5: above (or equal?)
+
+LogicOperators:
+8: is?
+9: is not?

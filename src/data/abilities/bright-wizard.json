@@ -82,7 +82,13 @@
       "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You concentrate on your magical powers for up to 3 seconds, opening your body to serve as a vessel for the raw power of the Red Wind. The unleashed power will deal 155 Corporeal damage each second to all enemies within 30 feet. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability",
-      "gameId": 8187
+      "gameId": 8187,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 3,
+        "COM_3_VAL0_CORPOREALDAMAGE": 155,
+        "COM_3_RADI_FEET": 30
+      },
+      "rawDescription": "You concentrate on your magical powers for up to {COM_2_DURA_SECONDS}, opening your body to serve as a vessel for the raw power of the Red Wind.  The unleashed power will deal {COM_3_VAL0_CORPOREALDAMAGE} each second to all enemies within {COM_3_RADI_FEET}. This effect will end if you break your concentration, or run out of action points."
     },
     {
       "image": "07936",
@@ -98,7 +104,13 @@
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing 710 Corporeal damage over 15 seconds to all enemies within 30 feet. The force of the blast will send enemy players flying away from you, while monsters will be knocked down.",
       "category": "Ability",
-      "gameId": 8189
+      "gameId": 8189,
+      "componentValues": {
+        "COM_2_VAL0_TOD_CORPOREALDAMAGE": 710,
+        "COM_2_DURA_SECONDS": 15,
+        "COM_2_RADI_FEET": 30
+      },
+      "rawDescription": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing {COM_2_VAL0_TOD_CORPOREALDAMAGE} over {COM_2_DURA_SECONDS} to all enemies within {COM_2_RADI_FEET}.  The force of the blast will send enemy players flying away from you, while monsters will be knocked down."
     },
     {
       "image": "08015",
@@ -114,7 +126,13 @@
       "note": "Builds 5 Combustion<br>Has a chance to cause an Explosion!",
       "description": "Reduces your target's Willpower by 75 for 10 seconds. When the effect ends, the victim will suffer 365 Corporeal damage.",
       "category": "Ability",
-      "gameId": 8165
+      "gameId": 8165,
+      "componentValues": {
+        "COM_2_VAL0": 75,
+        "COM_2_DURA_SECONDS": 10,
+        "COM_3_VAL0_CORPOREALDAMAGE": 365
+      },
+      "rawDescription": "Reduces your target's Willpower by {COM_2_VAL0} for {COM_2_DURA_SECONDS}.  When the effect ends, the victim will suffer {COM_3_VAL0_CORPOREALDAMAGE}."
     },
     {
       "image": "22703",
@@ -130,7 +148,9 @@
       "note": "",
       "description": "Fireball and Pyroclastic Surge are now virtually undefendable.",
       "category": "CareerTactic",
-      "gameId": 8206
+      "gameId": 8206,
+      "componentValues": {},
+      "rawDescription": "Fireball and Pyroclastic Surge are now virtually undefendable."
     },
     {
       "image": "08019",
@@ -146,7 +166,12 @@
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "Your target's weapons become red hot, dealing 191 Corporeal damage to them and causing them to lose 50 Action Points.",
       "category": "Ability",
-      "gameId": 8173
+      "gameId": 8173,
+      "componentValues": {
+        "COM_2_VAL0_CORPOREALDAMAGE": 191,
+        "COM_3_VAL0_ACTIONPOINTS": 50
+      },
+      "rawDescription": "Your target's weapons become red hot, dealing {COM_2_VAL0_CORPOREALDAMAGE} to them and causing them to lose {COM_3_VAL0_ACTIONPOINTS}."
     },
     {
       "image": "07957",
@@ -162,7 +187,11 @@
       "note": "Costs 40 Combustion",
       "description": "You call upon the Winds Of Magic to grant you power, instantly regaining 160 Action Points.",
       "category": "Ability",
-      "gameId": 8175
+      "gameId": 8175,
+      "componentValues": {
+        "COM_0_VAL0_ACTIONPOINTS": 160
+      },
+      "rawDescription": "You call upon the Winds Of Magic to grant you power, instantly regaining {COM_0_VAL0_ACTIONPOINTS}."
     },
     {
       "image": "08016",
@@ -178,7 +207,9 @@
       "note": "You must be Cursed, Hexed, or Ailing",
       "description": "You cause an open wound to sear itself shut, removing one Hex, Curse, or Ailment from yourself.",
       "category": "Ability",
-      "gameId": 8167
+      "gameId": 8167,
+      "componentValues": {},
+      "rawDescription": "You cause an open wound to sear itself shut, removing one Hex, Curse, or Ailment from yourself."
     },
     {
       "image": "08020",
@@ -194,7 +225,13 @@
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
       "description": "A Hex which turns the air into unbreathable smoke and ash, dealing 232 Corporeal damage to your target. The target and all other enemies within 20 feet become silenced for 3 seconds, making them unable to use magic.",
       "category": "Ability",
-      "gameId": 8174
+      "gameId": 8174,
+      "componentValues": {
+        "COM_2_VAL0_CORPOREALDAMAGE": 232,
+        "COM_3_RADI_FEET": 20,
+        "COM_3_DURA_SECONDS": 3
+      },
+      "rawDescription": "A Hex which turns the air into unbreathable smoke and ash, dealing {COM_2_VAL0_CORPOREALDAMAGE} to your target.  The target and all other enemies within {COM_3_RADI_FEET} become silenced for {COM_3_DURA_SECONDS}, making them unable to use magic."
     },
     {
       "image": "22694",
@@ -210,7 +247,11 @@
       "note": "",
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic",
-      "gameId": 569
+      "gameId": 569,
+      "componentValues": {
+        "COM_0_VAL0": 50
+      },
+      "rawDescription": "Your cast times are reduced to {COM_0_VAL0}% when you are within 20 feet of your target."
     },
     {
       "image": "07942",
@@ -226,7 +267,13 @@
       "note": "",
       "description": "A spot that you select bursts into flames for 8 seconds, dealing 200 damage each second to all enemies within 20 feet.",
       "category": "Morale",
-      "gameId": 8222
+      "gameId": 8222,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 8,
+        "COM_1_VAL0_DAMAGE": 200,
+        "COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "A spot that you select bursts into flames for {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} each second to all enemies within {COM_1_RADI_FEET}."
     },
     {
       "image": "22713",
@@ -242,7 +289,9 @@
       "note": "",
       "description": "Flames of Rhuin now has a 75% chance to trigger.",
       "category": "CareerTactic",
-      "gameId": 8197
+      "gameId": 8197,
+      "componentValues": {},
+      "rawDescription": "Flames of Rhuin now has a 75% chance to trigger."
     },
     {
       "image": "07902",
@@ -258,7 +307,14 @@
       "note": "Target must be Hexed<br>Builds 25 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You reach through the power of a Hex on the target to instantly deal 158 Elemental damage to them, and an additional 234 Elemental damage over 9 seconds to them and all other enemies within 20 feet.",
       "category": "Ability",
-      "gameId": 8170
+      "gameId": 8170,
+      "componentValues": {
+        "COM_2_VAL0_ELEMENTALDAMAGE": 158,
+        "COM_3_VAL0_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 234,
+        "COM_3_VAL0_COM_0_DURA_SECONDS": 9,
+        "COM_3_VAL0_COM_0_RADI_FEET": 20
+      },
+      "rawDescription": "You reach through the power of a Hex on the target to instantly deal {COM_2_VAL0_ELEMENTALDAMAGE} to them, and an additional {COM_3_VAL0_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_3_VAL0_COM_0_DURA_SECONDS} to them and all other enemies within {COM_3_VAL0_COM_0_RADI_FEET}."
     },
     {
       "image": "22704",
@@ -274,7 +330,12 @@
       "note": "",
       "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect can not occur more than once every 2 seconds.",
       "category": "CareerTactic",
-      "gameId": 568
+      "gameId": 568,
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 0,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Whenever one of your spells hits an enemy, you have a 25% chance to regain {COM_1_VAL0_ACTIONPOINTS}. This effect cannot occur more than once every {COM_2_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -290,7 +351,11 @@
       "note": "",
       "description": "Reduces the cooldown times of Smoke Screen and Fire Cage by 7 seconds.",
       "category": "CareerTactic",
-      "gameId": 8199
+      "gameId": 8199,
+      "componentValues": {
+        "COM_0_VAL0_SECONDS": 7
+      },
+      "rawDescription": "Reduces the cooldown times of Smoke Screen and Fire Cage by {COM_0_VAL0_SECONDS}."
     },
     {
       "image": "22708",
@@ -306,7 +371,11 @@
       "note": "",
       "description": "Burning Iron will now deal 291 damage, and you will regain 50 action points when it hits.",
       "category": "CareerTactic",
-      "gameId": 8204
+      "gameId": 8204,
+      "componentValues": {
+        "ABIL_8173_COM_4_VAL0_DAMAGE": 291
+      },
+      "rawDescription": "Burning Iron will now deal {ABIL_8173_COM_4_VAL0_DAMAGE}, and you will regain 50 action points when it hits."
     },
     {
       "image": "22703",
@@ -322,7 +391,11 @@
       "note": "",
       "description": "Any time you critically hit an enemy with a direct damage ability, you will gain 200 points of Morale. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 8200
+      "gameId": 8200,
+      "componentValues": {
+        "COM_1_VAL0": 200
+      },
+      "rawDescription": "Any time you critically hit an enemy with a direct damage ability, you will gain {COM_1_VAL0} points of Morale. This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "22710",
@@ -338,7 +411,12 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 779
+      "gameId": 779,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 375
+      },
+      "rawDescription": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS}, which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}.<BR>This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "22695",
@@ -354,7 +432,11 @@
       "note": "",
       "description": "Increases your Intelligence by 160.",
       "category": "CareerTactic",
-      "gameId": 563
+      "gameId": 563,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Intelligence by {COM_0_VAL0}."
     },
     {
       "image": "22696",
@@ -370,7 +452,11 @@
       "note": "",
       "description": "Any time that your Combustion causes an Explosion, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
       "category": "CareerTactic",
-      "gameId": 8210
+      "gameId": 8210,
+      "componentValues": {
+        "ABIL_301_COM_5_RADI_FEET": 30
+      },
+      "rawDescription": "Any time that your Combustion causes an Explosion, the blast will also deal 50% of the damage to all enemies within {ABIL_301_COM_5_RADI_FEET} of you."
     },
     {
       "image": "22709",
@@ -386,7 +472,11 @@
       "note": "",
       "description": "Increases the radii of Rain Of Fire and Detonate by 50%.",
       "category": "CareerTactic",
-      "gameId": 8198
+      "gameId": 8198,
+      "componentValues": {
+        "COM_0_VAL1": 50
+      },
+      "rawDescription": "Increases the radii of Rain Of Fire and Detonate by {COM_0_VAL1}%."
     },
     {
       "image": "07934",
@@ -402,7 +492,12 @@
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You fling a massive ball of fire, dealing 366 Elemental damage to your target and all other enemies within 20 feet of them.",
       "category": "Ability",
-      "gameId": 8166
+      "gameId": 8166,
+      "componentValues": {
+        "COM_4_VAL0_ELEMENTALDAMAGE": 366,
+        "COM_4_RADI_FEET": 20
+      },
+      "rawDescription": "You fling a massive ball of fire, dealing {COM_4_VAL0_ELEMENTALDAMAGE} to your target and all other enemies within {COM_4_RADI_FEET} of them."
     },
     {
       "image": "22709",
@@ -418,7 +513,11 @@
       "note": "",
       "description": "Reduces the cooldown times of Flame Breath and Rain Of Fire by 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 8212
+      "gameId": 8212,
+      "componentValues": {
+        "COM_0_VAL0_SECONDS": 10
+      },
+      "rawDescription": "Reduces the cooldown times of Flame Breath and Rain Of Fire by {COM_0_VAL0_SECONDS}."
     },
     {
       "image": "07924",
@@ -434,7 +533,12 @@
       "note": "",
       "description": "All enemies within 30 feet are Rooted as they become trapped within a cage of searing flames, making them unable to move for 5 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability",
-      "gameId": 8168
+      "gameId": 8168,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "All enemies within {COM_0_RADI_FEET} are Rooted as they become trapped within a cage of searing flames, making them unable to move for {COM_0_DURA_SECONDS}.  Rooted targets have a 50% chance to break free when they suffer damage."
     },
     {
       "image": "07933",
@@ -450,7 +554,11 @@
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You conjure up a fiery missile which slams into your target, dealing 533 Elemental damage.",
       "category": "Ability",
-      "gameId": 8159
+      "gameId": 8159,
+      "componentValues": {
+        "COM_2_VAL0_ELEMENTALDAMAGE": 533
+      },
+      "rawDescription": "You conjure up a fiery missile which slams into your target, dealing {COM_2_VAL0_ELEMENTALDAMAGE}."
     },
     {
       "image": "08021",
@@ -466,7 +574,14 @@
       "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals 333 Elemental damage to your target, and 167 Elemental damage to all other enemies within 20 feet of them. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
-      "gameId": 8183
+      "gameId": 8183,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 3,
+        "COM_2_VAL0_ELEMENTALDAMAGE": 333,
+        "ABIL_3150_COM_0_VAL0_ELEMENTALDAMAGE": 167,
+        "COM_3_RADI_FEET": 20
+      },
+      "rawDescription": "You assault your target with a constant stream of fireballs, striking them up to 3 times over {COM_2_DURA_SECONDS}.  Each blast deals {COM_2_VAL0_ELEMENTALDAMAGE} to your target, and {ABIL_3150_COM_0_VAL0_ELEMENTALDAMAGE} to all other enemies within {COM_3_RADI_FEET} of them.  This effect will end if you break your concentration or run out of action points."
     },
     {
       "image": "08018",
@@ -482,7 +597,13 @@
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You momentarily turn your very breath into a rolling burst of flames, dealing 508 Elemental damage over 9 seconds to all enemies in a cone in front of you, up to 40 feet away.",
       "category": "Ability",
-      "gameId": 8171
+      "gameId": 8171,
+      "componentValues": {
+        "COM_2_VAL0_TOD_ELEMENTALDAMAGE": 508,
+        "COM_2_DURA_SECONDS": 9,
+        "COM_2_RADI_FEET": 40
+      },
+      "rawDescription": "You momentarily turn your very breath into a rolling burst of flames, dealing {COM_2_VAL0_TOD_ELEMENTALDAMAGE} over {COM_2_DURA_SECONDS} to all enemies in a cone in front of you, up to {COM_2_RADI_FEET} away."
     },
     {
       "image": "07911",
@@ -498,7 +619,11 @@
       "note": "",
       "description": "All groupmates within 100 feet are Enchanted with a protective shield of flickering flames for 1 hour, giving them a 25% chance to deal 125 Elemental damage back against the attacker when they are struck by a melee attack.",
       "category": "Ability",
-      "gameId": 8161
+      "gameId": 8161,
+      "componentValues": {
+        "COM_1_VAL0_ELEMENTALDAMAGE": 125
+      },
+      "rawDescription": "All groupmates within 100 feet are Enchanted with a protective shield of flickering flames for 1 hour, giving them a 25% chance to deal {COM_1_VAL0_ELEMENTALDAMAGE} back against the attacker when they are struck by a melee attack."
     },
     {
       "image": "07910",
@@ -514,7 +639,11 @@
       "note": "",
       "description": "An Enchantment which infuses your groupmates within 100 feet of you with the spirit of fire for 1 hour, giving them a 25% chance to deal an additional 150 Elemental damage any time they attack a target.",
       "category": "Ability",
-      "gameId": 8164
+      "gameId": 8164,
+      "componentValues": {
+        "COM_1_VAL0_ELEMENTALDAMAGE": 150
+      },
+      "rawDescription": "An Enchantment which infuses your groupmates within 100 feet of you with the spirit of fire for 1 hour, giving them a 25% chance to deal an additional {COM_1_VAL0_ELEMENTALDAMAGE} any time they attack a target."
     },
     {
       "image": "22694",
@@ -530,7 +659,11 @@
       "note": "",
       "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds which would normally have a buildup time will cast instantly instead.<br>This effect will not trigger more than once every 6 seconds.",
       "category": "CareerTactic",
-      "gameId": 8196
+      "gameId": 8196,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Any time an enemy disrupts one of your spells, your next spell within the next {COM_1_VAL0_COM_0_DURA_SECONDS} which would normally have a buildup time will cast instantly instead.<BR>This effect will not trigger more than once every 6 seconds."
     },
     {
       "image": "05004",
@@ -546,7 +679,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "23153",
@@ -562,7 +701,9 @@
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50% and you cannot be set back.",
       "category": "Morale",
-      "gameId": 674
+      "gameId": 674,
+      "componentValues": {},
+      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
     },
     {
       "image": "22694",
@@ -578,7 +719,13 @@
       "note": "",
       "description": "Boiling Blood's Willpower debuff is increased to 225 for 5 seconds and will deal 533 Corporeal damage at the end of the debuff duration.",
       "category": "CareerTactic",
-      "gameId": 8207
+      "gameId": 8207,
+      "componentValues": {
+        "ABIL_8165_COM_4_VAL0": 225,
+        "ABIL_8165_COM_4_DURA_SECONDS": 5,
+        "ABIL_8165_COM_5_VAL0_CORPOREALDAMAGE": 533
+      },
+      "rawDescription": "Boiling Blood's Willpower debuff is increased to {ABIL_8165_COM_4_VAL0} for {ABIL_8165_COM_4_DURA_SECONDS} and will deal {ABIL_8165_COM_5_VAL0_CORPOREALDAMAGE} at the end of the debuff duration."
     },
     {
       "image": "22704",
@@ -594,7 +741,12 @@
       "note": "",
       "description": "Flames Of Rhuin will now deal 225 damage, and Flame Shield will now deal 200 damage.",
       "category": "CareerTactic",
-      "gameId": 8201
+      "gameId": 8201,
+      "componentValues": {
+        "ABIL_8164_COM_2_VAL0_DAMAGE": 225,
+        "ABIL_8161_COM_2_VAL0_DAMAGE": 200
+      },
+      "rawDescription": "Flames Of Rhuin will now deal {ABIL_8164_COM_2_VAL0_DAMAGE}, and Flame Shield will now deal {ABIL_8161_COM_2_VAL0_DAMAGE}."
     },
     {
       "image": "07919",
@@ -610,7 +762,12 @@
       "note": "",
       "description": "You become a living conduit for the power of the Red Wind of Magic, causing all of your directly damaging magical attacks to deal an additional 100 Corporeal damage to your target, but you will also suffer 50 damage for each one. Use this ability again to turn it off.",
       "category": "Ability",
-      "gameId": 8181
+      "gameId": 8181,
+      "componentValues": {
+        "COM_1_VAL0_CORPOREALDAMAGE": 100,
+        "COM_2_VAL0_DAMAGE": 50
+      },
+      "rawDescription": "You become a living conduit for the power of the Red Wind of Magic, causing all of your directly damaging magical attacks to deal an additional {COM_1_VAL0_CORPOREALDAMAGE} to your target, but you will also suffer {COM_2_VAL0_DAMAGE} for each one.  Use this ability again to turn it off."
     },
     {
       "image": "08028",
@@ -626,7 +783,12 @@
       "note": "",
       "description": "Removes all Hexes and Curses from you. You regain 485 health over 15 seconds.",
       "category": "Morale",
-      "gameId": 8217
+      "gameId": 8217,
+      "componentValues": {
+        "COM_0_VAL0_TOD_HEALTH": 485,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Removes all Hexes and Curses from you.  You regain {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "07913",
@@ -642,7 +804,12 @@
       "note": "Builds 5 Combustion<br>Has a chance to cause an Explosion!",
       "description": "A Hex which causes your target to burst into flames, dealing 426 Elemental damage to them over 9 seconds.",
       "category": "Ability",
-      "gameId": 8158
+      "gameId": 8158,
+      "componentValues": {
+        "COM_2_VAL0_TOD_ELEMENTALDAMAGE": 426,
+        "COM_2_DURA_SECONDS": 9
+      },
+      "rawDescription": "A Hex which causes your target to burst into flames, dealing {COM_2_VAL0_TOD_ELEMENTALDAMAGE} to them over {COM_2_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -658,7 +825,13 @@
       "note": "",
       "description": "The cost of Ignite is reduced by 20 and it will reduce the enemy's Corporeal resistance by 236 for 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 8209
+      "gameId": 8209,
+      "componentValues": {
+        "COM_1_VAL1": 20,
+        "ABIL_8158_COM_3_VAL0": 236,
+        "ABIL_8158_COM_3_DURA_SECONDS": 9
+      },
+      "rawDescription": "The cost of Ignite is reduced by {COM_1_VAL1} and it will reduce the enemy's Corporeal resistance by {ABIL_8158_COM_3_VAL0} for {ABIL_8158_COM_3_DURA_SECONDS}."
     },
     {
       "image": "22703",
@@ -674,7 +847,12 @@
       "note": "",
       "description": "Pyroclastic Surge and Scorched Earth gain a 25% chance to cause an additional 350 Elemental damage over 5 seconds to each target hit.",
       "category": "CareerTactic",
-      "gameId": 8195
+      "gameId": 8195,
+      "componentValues": {
+        "ABIL_3350_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 350,
+        "ABIL_3350_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Pyroclastic Surge and Scorched Earth gain a 25% chance to cause an additional {ABIL_3350_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3350_COM_0_DURA_SECONDS} to each target hit."
     },
     {
       "image": "23167",
@@ -690,7 +868,11 @@
       "note": "",
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale",
-      "gameId": 670
+      "gameId": 670,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 600
+      },
+      "rawDescription": "A focused blast that deals {COM_0_VAL0_DAMAGE} and knocks the targeted player away. Monsters will be knocked down."
     },
     {
       "image": "08026",
@@ -706,7 +888,13 @@
       "note": "",
       "description": "Deals 600 damage to your target immediately, and another 1206 damage over 9 seconds.",
       "category": "Morale",
-      "gameId": 8215
+      "gameId": 8215,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 600,
+        "COM_1_VAL0_TOD_DAMAGE": 1206,
+        "COM_1_DURA_SECONDS": 9
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target immediately, and another {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
     },
     {
       "image": "04630",
@@ -722,7 +910,15 @@
       "note": "Consumes all Combustion",
       "description": "You expel all of your build-up Combustion in a fiery blast, dealing damage to your target based on the amount of Combustion that was consumed.<br>  1 - 10 Combustion: 75 damage.<br>  11 - 30 Combustion: 150 damage.<br>  31 - 70 Combustion: 300 damage.<br>  71 - 90 Combustion: 600 damage.<br>  91 - 100 Combustion: 750 damage.",
       "category": "Ability",
-      "gameId": 8179
+      "gameId": 8179,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 75,
+        "COM_1_VAL0_DAMAGE": 150,
+        "COM_2_VAL0_DAMAGE": 300,
+        "COM_3_VAL0_DAMAGE": 600,
+        "COM_4_VAL0_DAMAGE": 750
+      },
+      "rawDescription": "You expel all of your build-up Combustion in a fiery blast, dealing damage to your target based on the amount of Combustion that was consumed.<BR>   1 - 10 Combustion:  {COM_0_VAL0_DAMAGE}.<BR>   11 - 30 Combustion:  {COM_1_VAL0_DAMAGE}.<BR>   31 - 70 Combustion:  {COM_2_VAL0_DAMAGE}.<BR>   71 - 90 Combustion:  {COM_3_VAL0_DAMAGE}.<BR>   91 - 100 Combustion:  {COM_4_VAL0_DAMAGE}."
     },
     {
       "image": "23168",
@@ -738,7 +934,11 @@
       "note": "",
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
       "category": "Morale",
-      "gameId": 673
+      "gameId": 673,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You gain a strong counter aura for the next {COM_0_DURA_SECONDS} that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster."
     },
     {
       "image": "07936",
@@ -754,7 +954,11 @@
       "note": "Builds 40 Combustion<br>Has a chance to cause an Explosion!",
       "description": "A powerful spell which makes your target spontaneously combust, dealing 341 Elemental damage to them.",
       "category": "Ability",
-      "gameId": 8182
+      "gameId": 8182,
+      "componentValues": {
+        "COM_2_VAL0_ELEMENTALDAMAGE": 341
+      },
+      "rawDescription": "A powerful spell which makes your target spontaneously combust, dealing {COM_2_VAL0_ELEMENTALDAMAGE} to them."
     },
     {
       "image": "08022",
@@ -770,7 +974,12 @@
       "note": "",
       "description": "A Hex which surrounds the target with hungry flames, causing all healing used on them for the next 10 seconds to become 50% less effective. Each time someone attempts to use a direct heal on them, the flames will lash out, and healer will suffer 250 Elemental damage.",
       "category": "Ability",
-      "gameId": 8184
+      "gameId": 8184,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_2_VAL0_ELEMENTALDAMAGE": 250
+      },
+      "rawDescription": "A Hex which surrounds the target with hungry flames, causing all healing used on them for the next {COM_0_DURA_SECONDS} to become 50% less effective.  Each time someone attempts to use a direct heal on them, the flames will lash out, and healer will suffer {COM_2_VAL0_ELEMENTALDAMAGE}."
     },
     {
       "image": "22708",
@@ -786,7 +995,9 @@
       "note": "",
       "description": "Meltdown will now restore your action points, returning an amount equal to the Combustion which was expended.",
       "category": "CareerTactic",
-      "gameId": 8194
+      "gameId": 8194,
+      "componentValues": {},
+      "rawDescription": "Meltdown will now restore your action points, returning an amount equal to the Combustion which was expended."
     },
     {
       "image": "08017",
@@ -802,7 +1013,13 @@
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "A fountain of molten lava envelops your target, dealing 320 Corporeal damage. If they are Hexed, then they will also be inflicted with a disorienting Hex for 3 seconds, causing all of their actions to take an additional 50% longer to build up.",
       "category": "Ability",
-      "gameId": 8169
+      "gameId": 8169,
+      "componentValues": {
+        "COM_2_VAL0_CORPOREALDAMAGE": 320,
+        "COM_3_DURA_SECONDS": 3,
+        "COM_3_VAL0": 50
+      },
+      "rawDescription": "A fountain of molten lava envelops your target, dealing {COM_2_VAL0_CORPOREALDAMAGE}.  If they are Hexed, then they will also be inflicted with a disorienting Hex for {COM_3_DURA_SECONDS}, causing all of their actions to take an additional {COM_3_VAL0}% longer to build up."
     },
     {
       "image": "07939",
@@ -818,7 +1035,13 @@
       "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 9 seconds, falling upon a spot you select and repeatedly dealing 183 damage to all enemies within 20 feet of that spot.",
       "category": "Ability",
-      "gameId": 8177
+      "gameId": 8177,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 9,
+        "COM_4_VAL0_DAMAGE": 183,
+        "COM_3_RADI_FEET": 20
+      },
+      "rawDescription": "You call down a shower of flames from the Winds Of Magic that rains down for the next {COM_2_DURA_SECONDS}, falling upon a spot you select and repeatedly dealing {COM_4_VAL0_DAMAGE} to all enemies within {COM_3_RADI_FEET} of that spot."
     },
     {
       "image": "08027",
@@ -834,7 +1057,12 @@
       "note": "",
       "description": "Deals 1200 damage to all enemies within 30 feet.",
       "category": "Morale",
-      "gameId": 8216
+      "gameId": 8216,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}."
     },
     {
       "image": "23169",
@@ -850,7 +1078,12 @@
       "note": "",
       "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
       "category": "Morale",
-      "gameId": 671
+      "gameId": 671,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "ABIL_3168_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target and staggers them for {ABIL_3168_COM_0_DURA_SECONDS}, preventing all actions until they take damage."
     },
     {
       "image": "08014",
@@ -866,7 +1099,12 @@
       "note": "Costs 20 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You send a blast of heat into the ground around you, dealing 169 Corporeal damage to all enemies within 30 feet.",
       "category": "Ability",
-      "gameId": 8163
+      "gameId": 8163,
+      "componentValues": {
+        "COM_2_VAL0_CORPOREALDAMAGE": 169,
+        "COM_2_RADI_FEET": 30
+      },
+      "rawDescription": "You send a blast of heat into the ground around you, dealing {COM_2_VAL0_CORPOREALDAMAGE} to all enemies within {COM_2_RADI_FEET}."
     },
     {
       "image": "07955",
@@ -882,7 +1120,11 @@
       "note": "Builds 25 Combustion<br>Has a chance to cause an Explosion!",
       "description": "Causes a pillar of scalding gas to erupt from the ground, dealing 291 Elemental damage to your target.",
       "category": "Ability",
-      "gameId": 8160
+      "gameId": 8160,
+      "componentValues": {
+        "COM_2_VAL0_ELEMENTALDAMAGE": 291
+      },
+      "rawDescription": "Causes a pillar of scalding gas to erupt from the ground, dealing {COM_2_VAL0_ELEMENTALDAMAGE} to your target."
     },
     {
       "image": "22706",
@@ -898,7 +1140,9 @@
       "note": "",
       "description": "Sear will now heal you for 67% of the damage that it deals.",
       "category": "CareerTactic",
-      "gameId": 8205
+      "gameId": 8205,
+      "componentValues": {},
+      "rawDescription": "Sear will now heal you for 67% of the damage that it deals."
     },
     {
       "image": "08012",
@@ -914,7 +1158,13 @@
       "note": "",
       "description": "An Enchantment which calls upon the power of the Red Wind to increase your armor by 990 for 10 seconds, and makes it 50% less likely that you will be set back while building up abilities.",
       "category": "Ability",
-      "gameId": 8172
+      "gameId": 8172,
+      "componentValues": {
+        "COM_1_VAL0": 990,
+        "COM_1_DURA_SECONDS": 10,
+        "COM_0_VAL1": 50
+      },
+      "rawDescription": "An Enchantment which calls upon the power of the Red Wind to increase your armor by {COM_1_VAL0} for {COM_1_DURA_SECONDS}, and makes it {COM_0_VAL1}% less likely that you will be set back while building up abilities."
     },
     {
       "image": "22710",
@@ -930,7 +1180,11 @@
       "note": "",
       "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional 135 hit points as well.",
       "category": "CareerTactic",
-      "gameId": 776
+      "gameId": 776,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 135
+      },
+      "rawDescription": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional {COM_1_VAL0_COM_0_VAL0} hit points as well."
     },
     {
       "image": "23170",
@@ -946,7 +1200,11 @@
       "note": "",
       "description": "You drain power from your target, Stealing up to 200 action points from your target and gives it to you. Your target's Intelligence will also be reduced by Intelligence by 160 for 30 seconds.",
       "category": "Morale",
-      "gameId": 669
+      "gameId": 669,
+      "componentValues": {
+        "COM_2_VAL0": 0
+      },
+      "rawDescription": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by {COM_2_VAL0} for 30 seconds."
     },
     {
       "image": "22708",
@@ -962,7 +1220,11 @@
       "note": "",
       "description": "Enemy monsters will hate you 50% less than normal.",
       "category": "CareerTactic",
-      "gameId": 567
+      "gameId": 567,
+      "componentValues": {
+        "COM_0_VAL1": 50
+      },
+      "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% less than normal."
     },
     {
       "image": "07940",
@@ -978,7 +1240,14 @@
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "For the next 5 seconds, the target is inflicted with a Hex which raises their temperature to a delirious fever, causing them to lose 6 Action Points every 1 seconds. When this effect ends, they will suffer 232 Corporeal damage as the fever peaks.",
       "category": "Ability",
-      "gameId": 8176
+      "gameId": 8176,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 5,
+        "COM_2_VAL0_ACTIONPOINTS": 6,
+        "COM_2_FREQ_SECONDS": 1,
+        "COM_3_VAL0_CORPOREALDAMAGE": 232
+      },
+      "rawDescription": "For the next {COM_2_DURA_SECONDS}, the target is inflicted with a Hex which raises their temperature to a delirious fever, causing them to lose {COM_2_VAL0_ACTIONPOINTS} every {COM_2_FREQ_SECONDS}.  When this effect ends, they will suffer {COM_3_VAL0_CORPOREALDAMAGE} as the fever peaks."
     },
     {
       "image": "08013",
@@ -994,7 +1263,12 @@
       "note": "",
       "description": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 8162
+      "gameId": 8162,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "22704",
@@ -1010,7 +1284,9 @@
       "note": "",
       "description": "When Ignite, Boiling Blood, and Slow Boil end or are removed, there is a 25% chance that they will re-kindle, reapplying themselves to the target once again. Be cautious, though, for you will build Combustion and have a chance to cause an Explosion each time that they are reapplied!",
       "category": "CareerTactic",
-      "gameId": 8208
+      "gameId": 8208,
+      "componentValues": {},
+      "rawDescription": "When Ignite, Boiling Blood, and Slow Boil end or are removed, there is a 25% chance that they will re-kindle, reapplying themselves to the target once again.  Be cautious, though, for you will build Combustion and have a chance to cause an Explosion each time that they are reapplied!"
     },
     {
       "image": "07956",
@@ -1026,7 +1302,15 @@
       "note": "Target must be Hexed<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "Deals 435 Elemental damage to your target over 15 seconds. Each time that this effect damages them, the flames will spread, causing 102 Elemental damage over 3 seconds to all other enemies within 20 feet of them.",
       "category": "Ability",
-      "gameId": 8188
+      "gameId": 8188,
+      "componentValues": {
+        "COM_2_VAL0_TOD_ELEMENTALDAMAGE": 435,
+        "COM_2_DURA_SECONDS": 15,
+        "COM_3_VAL0_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 102,
+        "COM_3_VAL0_COM_0_DURA_SECONDS": 3,
+        "COM_3_VAL0_COM_0_RADI_FEET": 20
+      },
+      "rawDescription": "Deals {COM_2_VAL0_TOD_ELEMENTALDAMAGE} to your target over {COM_2_DURA_SECONDS}.  Each time that this effect damages them, the flames will spread, causing {COM_3_VAL0_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_3_VAL0_COM_0_DURA_SECONDS} to all other enemies within {COM_3_VAL0_COM_0_RADI_FEET} of them."
     },
     {
       "image": "08024",
@@ -1042,7 +1326,12 @@
       "note": "Target must be Ignited<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You grasp the power of your Ignite hex and cause it to explode with concussive force, dealing 241 Elemental damage to your target and knocking them down for 3 seconds, but extinguishing your Ignite.",
       "category": "Ability",
-      "gameId": 8186
+      "gameId": 8186,
+      "componentValues": {
+        "COM_2_VAL0_ELEMENTALDAMAGE": 241,
+        "COM_3_DURA_SECONDS": 3
+      },
+      "rawDescription": "You grasp the power of your Ignite hex and cause it to explode with concussive force, dealing {COM_2_VAL0_ELEMENTALDAMAGE} to your target and knocking them down for {COM_3_DURA_SECONDS}, but extinguishing your Ignite."
     },
     {
       "image": "07937",
@@ -1058,7 +1347,14 @@
       "note": "",
       "description": "Deals 1600 damage to your target, and 1200 to all other enemies within 20 feet of them. All enemies hit by this effect will lose 600 points of Morale.",
       "category": "Morale",
-      "gameId": 8220
+      "gameId": 8220,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1600,
+        "COM_1_VAL0": 1200,
+        "COM_1_RADI_FEET": 20,
+        "COM_2_VAL0": 600
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target, and {COM_1_VAL0} to all other enemies within {COM_1_RADI_FEET} of them.  All enemies hit by this effect will lose {COM_2_VAL0} points of Morale."
     },
     {
       "image": "23171",
@@ -1074,7 +1370,12 @@
       "note": "",
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
       "category": "Morale",
-      "gameId": 672
+      "gameId": 672,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1800,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and knocks them away from you."
     },
     {
       "image": "22710",
@@ -1090,7 +1391,11 @@
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 777
+      "gameId": 777,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Spirit resistance by {COM_0_VAL0}."
     },
     {
       "image": "07941",
@@ -1106,7 +1411,13 @@
       "note": "",
       "description": "A wall of fire shoots outwards from you and remains on the ground for 8 seconds, dealing 200 damage each second to all enemies in a line in front of you up to 65 feet away from you.",
       "category": "Morale",
-      "gameId": 8221
+      "gameId": 8221,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 8,
+        "COM_1_VAL0_DAMAGE": 200,
+        "COM_1_RADI_FEET": 65
+      },
+      "rawDescription": "A wall of fire shoots outwards from you and remains on the ground for {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} each second to all enemies in a line in front of you up to {COM_1_RADI_FEET} away from you."
     },
     {
       "image": "22703",
@@ -1122,7 +1433,12 @@
       "note": "",
       "description": "When an enemy is hit by any Conflagration ability, there is a 25% chance that they will become covered in flames, receiving 300 Elemental damage over 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 8211
+      "gameId": 8211,
+      "componentValues": {
+        "ABIL_3423_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 300,
+        "ABIL_3423_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "When an enemy is hit by any Conflagration ability, there is a 25% chance that they will become covered in flames, receiving {ABIL_3423_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over  {ABIL_3423_COM_0_DURA_SECONDS}."
     },
     {
       "image": "08023",
@@ -1138,7 +1454,13 @@
       "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You turn the air around your enemy into a grasping storm of burning flames for up to 6 seconds, dealing up to 1240 Corporeal damage and snaring them, reducing their run speed by 40%. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability",
-      "gameId": 8185
+      "gameId": 8185,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 6,
+        "COM_2_VAL0_TOD_CORPOREALDAMAGE": 1240,
+        "COM_3_VAL0_COM_0_VAL0": 40
+      },
+      "rawDescription": "You turn the air around your enemy into a grasping storm of burning flames for up to {COM_2_DURA_SECONDS}, dealing up to {COM_2_VAL0_TOD_CORPOREALDAMAGE} and snaring them, reducing their run speed by {COM_3_VAL0_COM_0_VAL0}%.  This effect will end if you break your concentration, or run out of action points."
     }
   ]
 }

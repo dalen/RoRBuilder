@@ -16,7 +16,7 @@ export const getAbilityID = (componentString: string): void | number => {
   }
 };
 
-export const getComponentNumber = (componentString: string): number => {
+export const getComponentNumbers = (componentString: string): number => {
   const match = Array.from(
     componentString.matchAll(/^(ABIL_\d+_)?COM_(\d+)_.*/),
   ).flat(1);

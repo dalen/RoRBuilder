@@ -54,6 +54,8 @@ export type Ability = {
   category: string;
   abilityType?: AbilityType;
   gameId?: number;
+  rawDescription?: string;
+  componentValues?: { [key: string]: number };
 };
 
 export const arrayContains = <T>(

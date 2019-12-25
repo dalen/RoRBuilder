@@ -82,7 +82,15 @@
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale",
-      "gameId": 697
+      "gameId": 697,
+      "componentValues": {
+        "COM_1_RADI_FEET": 30,
+        "ABIL_3884_COM_0_VAL0_TOD": 424,
+        "ABIL_3884_COM_0_DURA_SECONDS": 9,
+        "ABIL_3876_COM_0_VAL0": 20,
+        "ABIL_3876_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Resurrects all groupmates within {COM_1_RADI_FEET}. Anyone who is brought back from the dead will also be healed for {ABIL_3884_COM_0_VAL0_TOD} over {ABIL_3884_COM_0_DURA_SECONDS}, and they will deal {ABIL_3876_COM_0_VAL0}% more damage for {ABIL_3876_COM_0_DURA_SECONDS}."
     },
     {
       "image": "13368",
@@ -98,7 +106,9 @@
       "note": "",
       "description": "Knocks back all enemies within 20 feet and Silences them, making them unable to use magic for 3 seconds.",
       "category": "Morale",
-      "gameId": 9304
+      "gameId": 9304,
+      "componentValues": {},
+      "rawDescription": "Knocks back all enemies within 20 feet and Silences them, making them unable to use magic for 3 seconds."
     },
     {
       "image": "22706",
@@ -114,7 +124,9 @@
       "note": "",
       "description": "Whenever one of your damaging spells hits an enemy, your defensive target will become healed for 25% of the damage that you dealt.",
       "category": "CareerTactic",
-      "gameId": 9295
+      "gameId": 9295,
+      "componentValues": {},
+      "rawDescription": "Whenever one of your damaging spells hits an enemy, your defensive target will become healed for 25% of the damage that you dealt."
     },
     {
       "image": "13463",
@@ -130,7 +142,12 @@
       "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "Deals 200 spiritdamage to your target, and heals your defensive target for 488 health plus 150% of the damage done.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability",
-      "gameId": 2300
+      "gameId": 2300,
+      "componentValues": {
+        "ABIL_2859_COM_0_VAL0_SPIRITDAMAGE": 200,
+        "COM_0_VAL0_HEALTH": 488
+      },
+      "rawDescription": "Deals {ABIL_2859_COM_0_VAL0_SPIRITDAMAGE} to your target, and heals your defensive target for {COM_0_VAL0_HEALTH} plus 150% of the damage done.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted."
     },
     {
       "image": "22705",
@@ -146,7 +163,11 @@
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 819
+      "gameId": 819,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Elemental resistance by {COM_0_VAL0}."
     },
     {
       "image": "13349",
@@ -162,7 +183,11 @@
       "note": "Force reduces cast time.<br>Builds Tranquility",
       "description": "Heals your entire group for 643 health.",
       "category": "Ability",
-      "gameId": 9245
+      "gameId": 9245,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 643
+      },
+      "rawDescription": "Heals your entire group for {COM_0_VAL0_HEALTH}."
     },
     {
       "image": "13367",
@@ -178,7 +203,11 @@
       "note": "",
       "description": "For 5 seconds, your target and all other enemies within 20 feet of them will take an additional 1 second to build up all abilities.",
       "category": "Morale",
-      "gameId": 9303
+      "gameId": 9303,
+      "componentValues": {
+        "COM_0_RADI_FEET": 20
+      },
+      "rawDescription": "For 5 seconds, your target and all other enemies within {COM_0_RADI_FEET} of them will take an additional 1 second to build up all abilities."
     },
     {
       "image": "22708",
@@ -194,7 +223,11 @@
       "note": "",
       "description": "Boon Of Hysh will now also grant the target 250 points of Morale.",
       "category": "CareerTactic",
-      "gameId": 9288
+      "gameId": 9288,
+      "componentValues": {
+        "ABIL_9242_COM_2_VAL0": 250
+      },
+      "rawDescription": "Boon Of Hysh will now also grant the target {ABIL_9242_COM_2_VAL0} points of Morale."
     },
     {
       "image": "13346",
@@ -210,7 +243,11 @@
       "note": "Force reduces cast time.<br>Builds Tranquility",
       "description": "Heals your target for 883 health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
       "category": "Ability",
-      "gameId": 9242
+      "gameId": 9242,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 0
+      },
+      "rawDescription": "Heals your target for {COM_0_VAL0_HEALTH}.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it."
     },
     {
       "image": "22705",
@@ -226,7 +263,12 @@
       "note": "",
       "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 818
+      "gameId": 818,
+      "componentValues": {
+        "ABIL_3995_COM_0_VAL0_TOD": 252,
+        "ABIL_3995_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional {ABIL_3995_COM_0_VAL0_TOD} Spirit damage over {ABIL_3995_COM_0_DURA_SECONDS}."
     },
     {
       "image": "13362",
@@ -242,7 +284,12 @@
       "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "Deals 205 Spirit damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
       "category": "Ability",
-      "gameId": 9266
+      "gameId": 9266,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 205,
+        "COM_0_RADI_FEET": 20
+      },
+      "rawDescription": "Deals {COM_0_VAL0_SPIRITDAMAGE} to your target and all other enemies within {COM_0_RADI_FEET} of them, and knocks them backwards."
     },
     {
       "image": "13348",
@@ -258,7 +305,12 @@
       "note": "Target must be Hexed or Ailing<br>Force reduces cooldown.<br>Builds Tranquility",
       "description": "You cleanse an ally's wound and remove one Ailment or Hex. If an effect is removed, your ally will absorb up to 175 damage over 10 seconds.",
       "category": "Ability",
-      "gameId": 9244
+      "gameId": 9244,
+      "componentValues": {
+        "COM_2_VAL1_TOD_DAMAGE": 175,
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "You cleanse an ally's wound and remove one Ailment or Hex. If an effect is removed, your ally will absorb up to {COM_2_VAL1_TOD_DAMAGE} over {COM_2_DURA_SECONDS}."
     },
     {
       "image": "22706",
@@ -274,7 +326,11 @@
       "note": "",
       "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Magical Infusion will make its target 25% more receptive to incoming heals.",
       "category": "CareerTactic",
-      "gameId": 2750
+      "gameId": 2750,
+      "componentValues": {
+        "COM_0_VAL1": 40
+      },
+      "rawDescription": "Your healing abilities become {COM_0_VAL1}% more effective when the target is below 25% hit points and Magical Infusion will make its target 25% more receptive to incoming heals."
     },
     {
       "image": "22705",
@@ -290,7 +346,11 @@
       "note": "",
       "description": "Your attacks have a 10% reduced chance to be defended against.",
       "category": "CareerTactic",
-      "gameId": 823
+      "gameId": 823,
+      "componentValues": {
+        "COM_0_VAL1": 10
+      },
+      "rawDescription": "Your attacks have a {COM_0_VAL1}% reduced chance to be defended against."
     },
     {
       "image": "22706",
@@ -306,7 +366,11 @@
       "note": "",
       "description": "Increases your Willpower by 160.",
       "category": "CareerTactic",
-      "gameId": 592
+      "gameId": 592,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Willpower by {COM_0_VAL0}."
     },
     {
       "image": "22704",
@@ -322,7 +386,11 @@
       "note": "",
       "description": "All of your damaging spells gain a 25% chance to remove 1 Blessing from the victim. Whenever this happens, they will also suffer an additional 150 Spirit damage.",
       "category": "CareerTactic",
-      "gameId": 9290
+      "gameId": 9290,
+      "componentValues": {
+        "COM_2_VAL0_SPIRITDAMAGE": 150
+      },
+      "rawDescription": "All of your damaging spells gain a 25% chance to remove 1 Blessing from the victim.  Whenever this happens, they will also suffer an additional {COM_2_VAL0_SPIRITDAMAGE}."
     },
     {
       "image": "13336",
@@ -338,7 +406,14 @@
       "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds. Every 1 seconds, all enemies within 30 feet of them will suffer 146 Spirit damage.",
       "category": "Ability",
-      "gameId": 9271
+      "gameId": 9271,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 5,
+        "COM_0_FREQ_SECONDS": 1,
+        "COM_1_VAL0_COM_0_RADI_FEET": 30,
+        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 146
+      },
+      "rawDescription": "A groupmate becomes surrounded by dangerous energies for {COM_0_DURA_SECONDS}.  Every {COM_0_FREQ_SECONDS}, all enemies within {COM_1_VAL0_COM_0_RADI_FEET} of them will suffer {COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE}."
     },
     {
       "image": "13358",
@@ -354,7 +429,12 @@
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 9256
+      "gameId": 9256,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "23151",
@@ -370,7 +450,11 @@
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
       "category": "Morale",
-      "gameId": 694
+      "gameId": 694,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 1800
+      },
+      "rawDescription": "A strong heal that will restore {COM_0_VAL0_HEALTH} to your target."
     },
     {
       "image": "22703",
@@ -386,7 +470,12 @@
       "note": "",
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
       "category": "CareerTactic",
-      "gameId": 585
+      "gameId": 585,
+      "componentValues": {
+        "COM_0_VAL0": 25,
+        "COM_1_VAL1": 20
+      },
+      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your healing becomes {COM_1_VAL1}% less effective."
     },
     {
       "image": "23152",
@@ -402,7 +491,12 @@
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
       "category": "Morale",
-      "gameId": 696
+      "gameId": 696,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_0_VAL1_DAMAGE": 4500
+      },
+      "rawDescription": "Each group member within 100 feet is surrounded by a protective shield for the next {COM_0_DURA_SECONDS} that will absorb up to {COM_0_VAL1_DAMAGE} from melee abilities."
     },
     {
       "image": "13353",
@@ -418,7 +512,12 @@
       "note": "",
       "description": "You siphon magic from your target, draining 180 Action Points over 9 seconds into yourself.",
       "category": "Ability",
-      "gameId": 9249
+      "gameId": 9249,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ACTIONPOINTS": 180,
+        "COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "You siphon magic from your target, draining {COM_0_VAL0_TOD_ACTIONPOINTS} over {COM_0_DURA_SECONDS} into yourself."
     },
     {
       "image": "22703",
@@ -434,7 +533,9 @@
       "note": "",
       "description": "Whenever you critically hit with an ability that builds either Force or Tranquility, you will gain one additional point. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 9276
+      "gameId": 9276,
+      "componentValues": {},
+      "rawDescription": "Whenever you critically hit with an ability that builds either Force or Tranquility, you will gain one additional point. Tactic can not trigger more than once every 3 seconds."
     },
     {
       "image": "23418",
@@ -450,7 +551,12 @@
       "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "A wash of power leeches the breath from your target and up to four other enemies within 25 feet of them, dealing 199 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 0 health, plus 50% of the total inflicted damage.<br><br>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likley to be Blocked or Disrupted.",
       "category": "Ability",
-      "gameId": 9274
+      "gameId": 9274,
+      "componentValues": {
+        "COM_0_RADI_FEET": 0,
+        "ABIL_3175_COM_0_VAL0_SPIRITDAMAGE": 0
+      },
+      "rawDescription": "A wash of power leeches the breath from your target and up to four other enemies within {COM_0_RADI_FEET} of them, dealing {ABIL_3175_COM_0_VAL0_SPIRITDAMAGE} to each. Their stolen breath will heal your defensive target for 150% of the inflicted damage."
     },
     {
       "image": "13415",
@@ -466,7 +572,11 @@
       "note": "",
       "description": "Flames burst from a spot that you select, damaging all enemies within 20 feet of that spot for up to 4 seconds, as long as you maintain your concentration.",
       "category": "Morale",
-      "gameId": 9309
+      "gameId": 9309,
+      "componentValues": {
+        "COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "Flames burst from a spot that you select, damaging all enemies within {COM_1_RADI_FEET} of that spot for up to 4 seconds, as long as you maintain your concentration."
     },
     {
       "image": "05004",
@@ -482,7 +592,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "23153",
@@ -498,7 +614,9 @@
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale",
-      "gameId": 695
+      "gameId": 695,
+      "componentValues": {},
+      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
     },
     {
       "image": "22703",
@@ -514,7 +632,11 @@
       "note": "",
       "description": "Radiant Lance will now affect all enemies within 15 feet of your target.",
       "category": "CareerTactic",
-      "gameId": 9289
+      "gameId": 9289,
+      "componentValues": {
+        "ABIL_9237_COM_2_RADI_FEET": 15
+      },
+      "rawDescription": "Radiant Lance will now affect all enemies within {ABIL_9237_COM_2_RADI_FEET} of your target."
     },
     {
       "image": "13459",
@@ -530,7 +652,11 @@
       "note": "",
       "description": "All enemies within 30 feet have their action point costs increased by 50% for 15 seconds, and all allies in the area have their action point costs reduced by 50% for 15 seconds.",
       "category": "Morale",
-      "gameId": 9310
+      "gameId": 9310,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "All enemies within {COM_0_RADI_FEET} have their action point costs increased by 50% for 15 seconds, and all allies in the area have their action point costs reduced by 50% for 15 seconds."
     },
     {
       "image": "13347",
@@ -546,7 +672,12 @@
       "note": "Force increases effectiveness.<br>Builds Tranquility",
       "description": "You focus your powers on your defensive target, restoring up to 1256 health to them over 3 seconds. This effect will end if you break your concentration, or if you run out of action points.",
       "category": "Ability",
-      "gameId": 9258
+      "gameId": 9258,
+      "componentValues": {
+        "COM_1_VAL0_TOD_HEALTH": 1256,
+        "COM_1_DURA_SECONDS": 3
+      },
+      "rawDescription": "You focus your powers on your defensive target, restoring up to {COM_1_VAL0_TOD_HEALTH} to them over {COM_1_DURA_SECONDS}.  This effect will end if you break your concentration, or if you run out of action points."
     },
     {
       "image": "13363",
@@ -562,7 +693,11 @@
       "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing  309 Spirit to your target.",
       "category": "Ability",
-      "gameId": 9267
+      "gameId": 9267,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 309
+      },
+      "rawDescription": "Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing {COM_0_VAL0_SPIRITDAMAGE} to your target."
     },
     {
       "image": "13350",
@@ -578,7 +713,9 @@
       "note": "Force reduces cast time.<br>Only usable on Dead Players",
       "description": "Resurrects your target with 20% health.",
       "category": "Ability",
-      "gameId": 9246
+      "gameId": 9246,
+      "componentValues": {},
+      "rawDescription": "Resurrects your target with 20% health."
     },
     {
       "image": "22713",
@@ -594,7 +731,9 @@
       "note": "",
       "description": "Shield of Saphery will now grant immunity to Stun and Knockdown effects while active.",
       "category": "CareerTactic",
-      "gameId": 9292
+      "gameId": 9292,
+      "componentValues": {},
+      "rawDescription": "Shield of Saphery will now grant immunity to Stun and Knockdown effects while active."
     },
     {
       "image": "13340",
@@ -610,7 +749,13 @@
       "note": "Force reduces cast time.<br>Builds Tranquility",
       "description": "Your target regains 258 health immediately, then continues to gain another 315 health over 5 seconds. If you have Force this ability will continue to build up even if you move.",
       "category": "Ability",
-      "gameId": 9236
+      "gameId": 9236,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 258,
+        "COM_1_VAL0_COM_0_VAL0_TOD_HEALTH": 315,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Your target regains {COM_0_VAL0_HEALTH} immediately, then continues to gain another {COM_1_VAL0_COM_0_VAL0_TOD_HEALTH} over {COM_1_VAL0_COM_0_DURA_SECONDS}. If you have Force this ability will continue to build up even if you move."
     },
     {
       "image": "22703",
@@ -626,7 +771,11 @@
       "note": "",
       "description": "Gift Of Life now resurrects allies instantly, but stuns you for 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 9279
+      "gameId": 9279,
+      "componentValues": {
+        "ABIL_9246_COM_5_DURA_SECONDS": 3
+      },
+      "rawDescription": "Gift Of Life now resurrects allies instantly, but stuns you for {ABIL_9246_COM_5_DURA_SECONDS}."
     },
     {
       "image": "22705",
@@ -642,7 +791,12 @@
       "note": "",
       "description": "If Cleansing Light successfully removes an effect from an ally, then they will also regain 534 health over 9 seconds. (at RR100)",
       "category": "CareerTactic",
-      "gameId": 9277
+      "gameId": 9277,
+      "componentValues": {
+        "ABIL_3143_COM_0_VAL0_TOD_HEALTH": 534,
+        "ABIL_3143_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "If Cleansing Light successfully removes an effect from an ally, then they will also regain {ABIL_3143_COM_0_VAL0_TOD_HEALTH} over {ABIL_3143_COM_0_DURA_SECONDS}."
     },
     {
       "image": "13366",
@@ -658,7 +812,12 @@
       "note": "",
       "description": "You gain a shield that absorbs 3600 damage for 30 seconds.",
       "category": "Morale",
-      "gameId": 2858
+      "gameId": 2858,
+      "componentValues": {
+        "COM_0_VAL1_DAMAGE": 3600,
+        "COM_0_DURA_SECONDS": 30
+      },
+      "rawDescription": "You gain a shield that absorbs {COM_0_VAL1_DAMAGE} for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "13342",
@@ -674,7 +833,12 @@
       "note": "Force increases effectiveness.<br>Builds Tranquility",
       "description": "Heals your target for 1700 health over 15 seconds.",
       "category": "Ability",
-      "gameId": 9238
+      "gameId": 9238,
+      "componentValues": {
+        "ABIL_3914_COM_0_VAL0_TOD_HEALTH": 1700,
+        "ABIL_3914_COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Heals your target for {ABIL_3914_COM_0_VAL0_TOD_HEALTH} over {ABIL_3914_COM_0_DURA_SECONDS}."
     },
     {
       "image": "13356",
@@ -690,7 +854,13 @@
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 75 for 20 seconds.",
       "category": "Ability",
-      "gameId": 9252
+      "gameId": 9252,
+      "componentValues": {
+        "COM_0_RADI_FEET": 20,
+        "COM_0_VAL0": 75,
+        "COM_0_DURA_SECONDS": 20
+      },
+      "rawDescription": "Your target and all other enemies within {COM_0_RADI_FEET} of them have their Toughness reduced by {COM_0_VAL0} for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "13343",
@@ -706,7 +876,12 @@
       "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "Deals 710 Spirit damage to your target over 15 seconds.",
       "category": "Ability",
-      "gameId": 9239
+      "gameId": 9239,
+      "componentValues": {
+        "ABIL_3913_COM_0_VAL0_TOD_SPIRITDAMAGE": 710,
+        "ABIL_3913_COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Deals {ABIL_3913_COM_0_VAL0_TOD_SPIRITDAMAGE} to your target over {ABIL_3913_COM_0_DURA_SECONDS}."
     },
     {
       "image": "13357",
@@ -722,7 +897,12 @@
       "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "Deals 284 Spirit damage and silences your target, making them unable to use magic for 5 seconds.",
       "category": "Ability",
-      "gameId": 9253
+      "gameId": 9253,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 284,
+        "COM_1_DURA_SECONDS": 5
+      },
+      "rawDescription": "Deals {COM_0_VAL0_SPIRITDAMAGE} and silences your target, making them unable to use magic for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "13413",
@@ -738,7 +918,12 @@
       "note": "",
       "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 25%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Magical Infusion at a time.",
       "category": "Ability",
-      "gameId": 9272
+      "gameId": 9272,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 0,
+        "COM_1_VAL0_HEALTH": 0
+      },
+      "rawDescription": "Infuses protective magic into an ally for {COM_0_DURA_SECONDS}, allowing them to recover from near fatal wounds.If the allies health is reduced below 25%, this effect will immediately dispel itself to restore {COM_1_VAL0_HEALTH} if they are still alive. A player may only be affected by a single Magical Infusion at a time."
     },
     {
       "image": "22704",
@@ -754,7 +939,11 @@
       "note": "",
       "description": "Increases your chance to critically hit enemies by 10%.",
       "category": "CareerTactic",
-      "gameId": 9280
+      "gameId": 9280,
+      "componentValues": {
+        "COM_0_VAL1": 10
+      },
+      "rawDescription": "Increases your chance to critically hit enemies by {COM_0_VAL1}%."
     },
     {
       "image": "22706",
@@ -770,7 +959,11 @@
       "note": "",
       "description": "Increases your chance to critically heal by 10%.",
       "category": "CareerTactic",
-      "gameId": 9278
+      "gameId": 9278,
+      "componentValues": {
+        "COM_0_VAL1": 10
+      },
+      "rawDescription": "Increases your chance to critically heal by {COM_0_VAL1}%."
     },
     {
       "image": "13355",
@@ -786,7 +979,14 @@
       "note": "",
       "description": "For 10 seconds, all enemies within 20 feet of a spot that you select will have their Initiative reduced by 50 and become snared, reducing their run speed by 60%.",
       "category": "Ability",
-      "gameId": 9251
+      "gameId": 9251,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_RADI_FEET": 20,
+        "COM_1_VAL0": 50,
+        "COM_2_VAL0": 60
+      },
+      "rawDescription": "For {COM_0_DURA_SECONDS}, all enemies within {COM_1_RADI_FEET} of a spot that you select will have their Initiative reduced by {COM_1_VAL0} and become snared, reducing their run speed by {COM_2_VAL0}%."
     },
     {
       "image": "13352",
@@ -802,7 +1002,11 @@
       "note": "",
       "description": "Increases all resistances of everyone in your group within 100 feet by 157 for 1 hour.",
       "category": "Ability",
-      "gameId": 9248
+      "gameId": 9248,
+      "componentValues": {
+        "COM_0_VAL0": 157
+      },
+      "rawDescription": "Increases all resistances of everyone in your group within 100 feet by {COM_0_VAL0} for 1 hour."
     },
     {
       "image": "13360",
@@ -818,7 +1022,13 @@
       "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "Deals 204 Spirit damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.",
       "category": "Ability",
-      "gameId": 9264
+      "gameId": 9264,
+      "componentValues": {
+        "COM_0_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE": 204,
+        "COM_0_VAL0_COM_0_DURA_SECONDS": 9,
+        "COM_0_VAL0_COM_7_VAL1": 5
+      },
+      "rawDescription": "Deals {COM_0_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_0_VAL0_COM_0_DURA_SECONDS} and reduces your target's damage and chance to critically hit by {COM_0_VAL0_COM_7_VAL1}%."
     },
     {
       "image": "13341",
@@ -834,7 +1044,11 @@
       "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "A lance of brilliant energy erupts from your staff, dealing 344 Spirit damage to your target.",
       "category": "Ability",
-      "gameId": 9237
+      "gameId": 9237,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 344
+      },
+      "rawDescription": "A lance of brilliant energy erupts from your staff, dealing {COM_0_VAL0_SPIRITDAMAGE} to your target."
     },
     {
       "image": "13344",
@@ -850,7 +1064,13 @@
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them have their Intelligence, Strength and Ballistic Skill reduced by 75 for 20 seconds.",
       "category": "Ability",
-      "gameId": 9240
+      "gameId": 9240,
+      "componentValues": {
+        "COM_0_RADI_FEET": 20,
+        "COM_0_VAL0": 75,
+        "COM_0_DURA_SECONDS": 20
+      },
+      "rawDescription": "Your target and all other enemies within {COM_0_RADI_FEET} of them have their Intelligence, Strength and Ballistic Skill reduced by {COM_0_VAL0} for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "23154",
@@ -866,7 +1086,12 @@
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale",
-      "gameId": 692
+      "gameId": 692,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_DAMAGE": 600,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {COM_1_VAL0_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and heals group members within 100 feet for the full amount of the damage dealt."
     },
     {
       "image": "22694",
@@ -882,7 +1107,12 @@
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 589
+      "gameId": 589,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS": 40,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "Any time one of your direct healing effects critically heals an ally, you will regain {COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22694",
@@ -898,7 +1128,11 @@
       "note": "",
       "description": "Reduces the cooldown time for Walk Between Worlds by 50%.",
       "category": "CareerTactic",
-      "gameId": 9282
+      "gameId": 9282,
+      "componentValues": {
+        "COM_0_VAL0": 50
+      },
+      "rawDescription": "Reduces the cooldown time for Walk Between Worlds by {COM_0_VAL0}%."
     },
     {
       "image": "13351",
@@ -914,7 +1148,12 @@
       "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "Deals 552 Spirit damage to your target over 9 seconds, and causes all heals that they receive to become 50% less effective.",
       "category": "Ability",
-      "gameId": 9247
+      "gameId": 9247,
+      "componentValues": {
+        "ABIL_3915_COM_0_VAL0_TOD_SPIRITDAMAGE": 552,
+        "ABIL_3915_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Deals {ABIL_3915_COM_0_VAL0_TOD_SPIRITDAMAGE} to your target over {ABIL_3915_COM_0_DURA_SECONDS}, and causes all heals that they receive to become 50% less effective."
     },
     {
       "image": "13354",
@@ -930,7 +1169,12 @@
       "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing 344 Spirit damage to them as long as you maintain your concentration.",
       "category": "Ability",
-      "gameId": 9250
+      "gameId": 9250,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 6,
+        "COM_0_VAL0_SPIRITDAMAGE": 344
+      },
+      "rawDescription": "You concentrate on your target for up to {COM_0_DURA_SECONDS}, repeatedly dealing  {COM_0_VAL0_SPIRITDAMAGE} to them as long as you maintain your concentration."
     },
     {
       "image": "13364",
@@ -946,7 +1190,12 @@
       "note": "Force increases effectiveness.<br>Builds Tranquility<br>Target must be in your group or warband.",
       "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to 925 damage.",
       "category": "Ability",
-      "gameId": 9268
+      "gameId": 9268,
+      "componentValues": {
+        "ABIL_3919_COM_0_DURA_SECONDS": 9,
+        "ABIL_3919_COM_0_VAL1_DAMAGE": 925
+      },
+      "rawDescription": "Surrounds an ally with a magical barrier for up to {ABIL_3919_COM_0_DURA_SECONDS} which will absorb up to {ABIL_3919_COM_0_VAL1_DAMAGE}."
     },
     {
       "image": "23155",
@@ -962,7 +1211,11 @@
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale",
-      "gameId": 690
+      "gameId": 690,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 0
+      },
+      "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
     },
     {
       "image": "13365",
@@ -978,7 +1231,14 @@
       "note": "Builds Force",
       "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 338 Spirit damage and reducing their Spirit resistance by 236 for 20 seconds.",
       "category": "Ability",
-      "gameId": 9269
+      "gameId": 9269,
+      "componentValues": {
+        "ABIL_3181_COM_0_RADI_FEET": 65,
+        "ABIL_3181_COM_0_VAL0_SPIRITDAMAGE": 338,
+        "ABIL_3181_COM_1_VAL0": 236,
+        "ABIL_3181_COM_1_DURA_SECONDS": 20
+      },
+      "rawDescription": "A cone of energy strikes enemies in front of you, up to {ABIL_3181_COM_0_RADI_FEET} away, dealing {ABIL_3181_COM_0_VAL0_SPIRITDAMAGE} and reducing their Spirit resistance by {ABIL_3181_COM_1_VAL0} for {ABIL_3181_COM_1_DURA_SECONDS}."
     },
     {
       "image": "22709",
@@ -994,7 +1254,9 @@
       "note": "",
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
       "category": "CareerTactic",
-      "gameId": 588
+      "gameId": 588,
+      "componentValues": {},
+      "rawDescription": "All of your heals will cause enemy monsters to hate you 25% less than normal."
     },
     {
       "image": "13345",
@@ -1010,7 +1272,12 @@
       "note": "Tranquility increases effectiveness.<br>Builds Force",
       "description": "Deals 1072 Spirit damage to your target over 24 seconds and heals your defensive target for 150% of the damage done on each tick.",
       "category": "Ability",
-      "gameId": 9241
+      "gameId": 9241,
+      "componentValues": {
+        "ABIL_3968_COM_0_VAL0_TOD_SPIRITDAMAGE": 1072,
+        "ABIL_3968_COM_0_DURA_SECONDS": 24
+      },
+      "rawDescription": "Deals {ABIL_3968_COM_0_VAL0_TOD_SPIRITDAMAGE} to your target over {ABIL_3968_COM_0_DURA_SECONDS} and heals your defensive target for 150% of the damage done on each tick."
     },
     {
       "image": "22708",
@@ -1026,7 +1293,13 @@
       "note": "",
       "description": "Drain Magic will now siphon energy from an area 20 feet around your initial target, but will only drain 92 Action Points over 9 seconds from each target.",
       "category": "CareerTactic",
-      "gameId": 9281
+      "gameId": 9281,
+      "componentValues": {
+        "ABIL_9249_COM_2_RADI_FEET": 20,
+        "ABIL_3183_COM_0_VAL0_TOD_ACTIONPOINTS": 92,
+        "ABIL_3183_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Drain Magic will now siphon energy from an area {ABIL_9249_COM_2_RADI_FEET} around your initial target, but will only drain {ABIL_3183_COM_0_VAL0_TOD_ACTIONPOINTS} over {ABIL_3183_COM_0_DURA_SECONDS} from each target."
     },
     {
       "image": "13361",
@@ -1042,7 +1315,12 @@
       "note": "",
       "description": "You can not be set back for 5 seconds and detaunts all enemies around you, making them hate you less and reducing the damage they deal to you to 50%.",
       "category": "Ability",
-      "gameId": 9265
+      "gameId": 9265,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 5,
+        "COM_0_VAL0": 50
+      },
+      "rawDescription": "You can not be set back for {COM_2_DURA_SECONDS} and detaunts all enemies around you, making them hate you less and reducing the damage they deal to you to {COM_0_VAL0}%."
     },
     {
       "image": "22706",
@@ -1058,7 +1336,12 @@
       "note": "",
       "description": "Whenever you critically heal someone, your healing abilities will cost 35% less action points for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 9293
+      "gameId": 9293,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL1": 35,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Whenever you critically heal someone, your healing abilities will cost {COM_1_VAL0_COM_0_VAL1}% less action points for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "13359",
@@ -1074,7 +1357,13 @@
       "note": "",
       "description": "You call forth a powerful gust of wind which slams into enemies within 30 feet of you, knocking players away a medium distance and knocking monsters down. Anyone hit by the wind becomes snared, reducing their run speed by 20% for 10 seconds.",
       "category": "Ability",
-      "gameId": 9255
+      "gameId": 9255,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_1_VAL0": 20,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "You call forth a powerful gust of wind which slams into enemies within {COM_0_RADI_FEET} of you, knocking players away a medium distance and knocking monsters down.  Anyone hit by the wind becomes snared, reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "13414",
@@ -1090,7 +1379,13 @@
       "note": "",
       "description": "All group mates within 100 feet regain 800 health over 15 seconds, and become surrounded by a magical barrier which will absorb 2400 damage.",
       "category": "Morale",
-      "gameId": 9308
+      "gameId": 9308,
+      "componentValues": {
+        "COM_0_VAL0_TOD_HEALTH": 800,
+        "COM_0_DURA_SECONDS": 15,
+        "COM_1_VAL1_DAMAGE": 2400
+      },
+      "rawDescription": "All group mates within 100 feet regain {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS}, and become surrounded by a magical barrier which will absorb {COM_1_VAL1_DAMAGE}."
     },
     {
       "image": "22706",
@@ -1106,7 +1401,9 @@
       "note": "",
       "description": "Any time you use Cleansing Light on an ally, you will now remove one Hex or Ailment from all groupmates within 50 feet of them.",
       "category": "CareerTactic",
-      "gameId": 9297
+      "gameId": 9297,
+      "componentValues": {},
+      "rawDescription": "Any time you use Cleansing Light on an ally, you will now remove one Hex or Ailment from all groupmates within 50 feet of them."
     },
     {
       "image": "22705",
@@ -1122,7 +1419,11 @@
       "note": "",
       "description": "Balance Essence and Energy of Vaul will now inflict 0 Spirit damage, but neither will grant a fixed heal, nor will they be castable on the move.",
       "category": "CareerTactic",
-      "gameId": 2305
+      "gameId": 2305,
+      "componentValues": {
+        "ABIL_2859_COM_3_VAL0_SPIRITDAMAGE": 0
+      },
+      "rawDescription": "Balance Essence and Energy of Vaul will now inflict {ABIL_2859_COM_3_VAL0_SPIRITDAMAGE}, but no longer receive a base healing value, instead healing for only 50% of the damage dealt."
     },
     {
       "image": "22696",
@@ -1138,7 +1439,11 @@
       "note": "",
       "description": "Reduces the duration and tick interval of Searing Touch by 50%. Khaine's price however will reduce the effectiveness of your healing abilities by 20% and increase the cooldown of Searing Touch by 50%.",
       "category": "CareerTactic",
-      "gameId": 2748
+      "gameId": 2748,
+      "componentValues": {
+        "COM_2_VAL1": 0
+      },
+      "rawDescription": "Reduces the duration and tick interval of Searing Touch by 50%. Khaine's price however will reduce the effectiveness of your healing abilities by {COM_2_VAL1}% and increases the cooldown of Searing Touch by 50%."
     }
   ]
 }

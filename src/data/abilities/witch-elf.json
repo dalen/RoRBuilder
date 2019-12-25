@@ -82,7 +82,11 @@
       "note": "You cannot perform this action while rooted",
       "description": "You leap backwards from your target, causing your target to be Staggered for up to 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability",
-      "gameId": 9396
+      "gameId": 9396,
+      "componentValues": {
+        "ABIL_3032_COM_0_DURA_SECONDS": 6
+      },
+      "rawDescription": "You leap backwards from your target, causing your target to be Staggered for up to {ABIL_3032_COM_0_DURA_SECONDS}, preventing all actions unless they're damaged."
     },
     {
       "image": "10979",
@@ -98,7 +102,11 @@
       "note": "Builds 1 Blood Lust",
       "description": "A cruel attack to your target, which deals 225 damage. If you are behind your target, you ignore your target's armor.",
       "category": "Ability",
-      "gameId": 9408
+      "gameId": 9408,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 225
+      },
+      "rawDescription": "A cruel attack to your target, which deals {COM_0_VAL0_DAMAGE}. If you are behind your target, you ignore your target's armor."
     },
     {
       "image": "22712",
@@ -114,7 +122,11 @@
       "note": "",
       "description": "Spiritual resistance increased by 252.",
       "category": "CareerTactic",
-      "gameId": 839
+      "gameId": 839,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Spiritual resistance increased by {COM_0_VAL0}."
     },
     {
       "image": "22696",
@@ -130,7 +142,9 @@
       "note": "",
       "description": "You have been blessed by Morathi. Your Autoattack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies.",
       "category": "CareerTactic",
-      "gameId": 6050
+      "gameId": 6050,
+      "componentValues": {},
+      "rawDescription": "You have been blessed by Morathi. Your Autoattack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies."
     },
     {
       "image": "22708",
@@ -146,7 +160,11 @@
       "note": "",
       "description": "Any time you attack an enemy from the sides or rear with an action, you will gain 15 Action Points.",
       "category": "CareerTactic",
-      "gameId": 9433
+      "gameId": 9433,
+      "componentValues": {
+        "COM_1_VAL0": 15
+      },
+      "rawDescription": "Any time you attack an enemy from the sides or rear with an action, you will gain {COM_1_VAL0} Action Points."
     },
     {
       "image": "22712",
@@ -162,7 +180,12 @@
       "note": "",
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 840
+      "gameId": 840,
+      "componentValues": {
+        "ABIL_3260_COM_0_VAL0_TOD_HEALTH": 471,
+        "ABIL_3260_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Any time you kill an enemy, you will regain {ABIL_3260_COM_0_VAL0_TOD_HEALTH} over {ABIL_3260_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10986",
@@ -178,7 +201,12 @@
       "note": "Builds 1 Blood Lust",
       "description": "A deadly strike which deals 250 damage to your target and infects them with Black Lotus toxin, causing all healing that they receive for the next 10 seconds to become 50% less effective.",
       "category": "Ability",
-      "gameId": 9424
+      "gameId": 9424,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 250,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "A deadly strike which deals {COM_0_VAL0_DAMAGE} to your target and infects them with Black Lotus toxin, causing all healing that they receive for the next {COM_1_DURA_SECONDS} to become 50% less effective."
     },
     {
       "image": "10991",
@@ -194,7 +222,13 @@
       "note": "",
       "description": "Deals 1600 damage over 5 seconds to all enemies within 30 feet.",
       "category": "Morale",
-      "gameId": 9464
+      "gameId": 9464,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 1600,
+        "COM_0_DURA_SECONDS": 5,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} to all enemies within {COM_0_RADI_FEET}."
     },
     {
       "image": "22694",
@@ -210,7 +244,12 @@
       "note": "",
       "description": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within 25 feet, but Slice will do 10% less damage.",
       "category": "CareerTactic",
-      "gameId": 9444
+      "gameId": 9444,
+      "componentValues": {
+        "ABIL_9398_COM_2_RADI_FEET": 0,
+        "COM_1_VAL1": 0
+      },
+      "rawDescription": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within {ABIL_9398_COM_2_RADI_FEET}, but Slice will now do {COM_1_VAL1}% less damage."
     },
     {
       "image": "23156",
@@ -226,7 +265,11 @@
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale",
-      "gameId": 629
+      "gameId": 629,
+      "componentValues": {
+        "COM_1_RADI_FEET": 25
+      },
+      "rawDescription": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within {COM_1_RADI_FEET} in front of you."
     },
     {
       "image": "22701",
@@ -242,7 +285,11 @@
       "note": "",
       "description": "Increases your Strength by 160.",
       "category": "CareerTactic",
-      "gameId": 521
+      "gameId": 521,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Strength by {COM_0_VAL0}."
     },
     {
       "image": "23157",
@@ -258,7 +305,11 @@
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
       "category": "Morale",
-      "gameId": 631
+      "gameId": 631,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "10988",
@@ -274,7 +325,11 @@
       "note": "",
       "description": "You concentrate on your target, repeatedly dealing 300 damage to them for up to 3 seconds.",
       "category": "Morale",
-      "gameId": 9458
+      "gameId": 9458,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 300
+      },
+      "rawDescription": "You concentrate on your target, repeatedly dealing {COM_0_VAL0_DAMAGE} to them for up to 3 seconds."
     },
     {
       "image": "22712",
@@ -290,7 +345,11 @@
       "note": "",
       "description": "Direct heals cast on you will recover 10% more health.",
       "category": "CareerTactic",
-      "gameId": 841
+      "gameId": 841,
+      "componentValues": {
+        "COM_0_VAL1": 10
+      },
+      "rawDescription": "Direct heals cast on you will recover {COM_0_VAL1}% more health."
     },
     {
       "image": "10963",
@@ -306,7 +365,9 @@
       "note": "",
       "description": "Increases critical hit chance by 50% for 10 seconds for all group members within 100 feet.",
       "category": "Morale",
-      "gameId": 9459
+      "gameId": 9459,
+      "componentValues": {},
+      "rawDescription": "Increases critical hit chance by 50% for 10 seconds for all group members within 100 feet."
     },
     {
       "image": "10901",
@@ -322,7 +383,11 @@
       "note": "",
       "description": "A vile brew which drives you into a rage for the next 7 seconds. All of your attacks will ignore 50% of the victim's armor.<br>You may only use a single Elixir at a time.",
       "category": "Ability",
-      "gameId": 9420
+      "gameId": 9420,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "A vile brew which drives you into a rage for the next {COM_0_DURA_SECONDS}.  All of your attacks will ignore 50% of the victim's armor.<BR>You may only use a single Elixir at a time."
     },
     {
       "image": "abi_de_blackhorror",
@@ -338,7 +403,12 @@
       "note": "",
       "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 seconds.<br />You may only use a single Elixir at a time.",
       "category": "Ability",
-      "gameId": 2999
+      "gameId": 2999,
+      "componentValues": {
+        "COM_1_VAL0": 0,
+        "COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds and increase your speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR>You may only use a single Elixir at a time."
     },
     {
       "image": "10987",
@@ -354,7 +424,12 @@
       "note": "",
       "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% for 7 seconds.<br>You may only use a single Elixir at a time.",
       "category": "Ability",
-      "gameId": 9426
+      "gameId": 9426,
+      "componentValues": {
+        "COM_0_VAL0": 100,
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.<BR>You may only use a single Elixir at a time."
     },
     {
       "image": "10968",
@@ -370,7 +445,13 @@
       "note": "",
       "description": "Your unearthly Elven beauty Detaunts all enemies within 30 feet, making them hate you less and causing them to deal 50% less damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 9392
+      "gameId": 9392,
+      "componentValues": {
+        "COM_0_RADI_FEET": 0,
+        "COM_0_VAL0": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Your unearthly Elven beauty Detaunts all enemies within {COM_0_RADI_FEET}, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "10973",
@@ -386,7 +467,14 @@
       "note": "Requires Prowling",
       "description": "You ambush your target from the shadows and strike with a Crippling attack. Your target will take 76 Corporeal damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
       "category": "Ability",
-      "gameId": 9401
+      "gameId": 9401,
+      "componentValues": {
+        "COM_1_VAL0_CORPOREALDAMAGE": 76,
+        "COM_0_DURA_SECONDS": 15,
+        "COM_2_VAL0_COM_0_VAL1": 50,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You ambush your target from the shadows and strike with a Crippling attack. Your target will take {COM_1_VAL0_CORPOREALDAMAGE} every time they move for {COM_0_DURA_SECONDS}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Blood Lust."
     },
     {
       "image": "22706",
@@ -402,7 +490,11 @@
       "note": "",
       "description": "When leaving Shadow Prowler, you will become protected by a barrier that will absorb up to 475 damage",
       "category": "CareerTactic",
-      "gameId": 9448
+      "gameId": 9448,
+      "componentValues": {
+        "ABIL_3004_COM_0_VAL1_DAMAGE": 475
+      },
+      "rawDescription": "When leaving Shadow Prowler, you will become protected by a barrier that will absorb up to {ABIL_3004_COM_0_VAL1_DAMAGE}"
     },
     {
       "image": "10975",
@@ -418,7 +510,13 @@
       "note": "Builds 1 Blood Lust",
       "description": "You stab your enemy with a poisoned blade, dealing 103 damage. The victim becomes wracked with pains, suffering an additional 222 Corporeal damage over 9 seconds. This effect will stack with itself up to three times.",
       "category": "Ability",
-      "gameId": 9403
+      "gameId": 9403,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 103,
+        "COM_2_VAL0_COM_1_VAL0_TOD_CORPOREALDAMAGE": 222,
+        "COM_2_VAL0_COM_1_DURA_SECONDS": 9
+      },
+      "rawDescription": "You stab your enemy with a poisoned blade, dealing {COM_0_VAL0_DAMAGE}.  The victim becomes wracked with pains, suffering an additional {COM_2_VAL0_COM_1_VAL0_TOD_CORPOREALDAMAGE} over {COM_2_VAL0_COM_1_DURA_SECONDS}.  This effect will stack with itself up to three times."
     },
     {
       "image": "22709",
@@ -434,7 +532,9 @@
       "note": "",
       "description": "Increases the durations of Vehement Blades, Enfeebling Strike, and Treacherous Assault by an additional 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 9436
+      "gameId": 9436,
+      "componentValues": {},
+      "rawDescription": "Increases the durations of Vehement Blades, Enfeebling Strike, and Treacherous Assault by an additional 5 seconds."
     },
     {
       "image": "05170",
@@ -450,7 +550,11 @@
       "note": "",
       "description": "Your positional attacks can be used without the positional requirement for 10 seconds. Does not affect morale abilities.",
       "category": "Ability",
-      "gameId": 9397
+      "gameId": 9397,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Your positional attacks can be used without the positional requirement for {COM_0_DURA_SECONDS}. Does not affect morale abilities."
     },
     {
       "image": "22704",
@@ -466,7 +570,11 @@
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
       "category": "CareerTactic",
-      "gameId": 523
+      "gameId": 523,
+      "componentValues": {
+        "COM_0_VAL0": 15
+      },
+      "rawDescription": "All of your attacks deal {COM_0_VAL0}% more damage when you strike an enemy from the sides or rear."
     },
     {
       "image": "05004",
@@ -482,7 +590,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "10970",
@@ -498,7 +612,11 @@
       "note": "",
       "description": "Your swift footwork and quick thinking removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability",
-      "gameId": 9395
+      "gameId": 9395,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "Your swift footwork and quick thinking removes all roots and snares from you.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you."
     },
     {
       "image": "10992",
@@ -514,7 +632,13 @@
       "note": "",
       "description": "Deals 1600 damage over 5 seconds to all enemies in front of you, up to 65 feet away.",
       "category": "Morale",
-      "gameId": 9465
+      "gameId": 9465,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 1600,
+        "COM_0_DURA_SECONDS": 5,
+        "COM_0_RADI_FEET": 65
+      },
+      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
     },
     {
       "image": "22708",
@@ -530,7 +654,11 @@
       "note": "",
       "description": "Your Frenzies will now have a 10% chance per point spent to knock the enemy down for 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 9435
+      "gameId": 9435,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "Your Frenzies will now have a 10% chance per point spent to knock the enemy down for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "23158",
@@ -546,7 +674,13 @@
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
       "category": "Morale",
-      "gameId": 628
+      "gameId": 628,
+      "componentValues": {
+        "COM_0_VAL0": 200,
+        "COM_2_VAL0": 160,
+        "COM_2_DURA_SECONDS": 30
+      },
+      "rawDescription": "You stare down your opponent, draining {COM_0_VAL0} of their Action Points into yourself, and reducing their Strength by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -562,7 +696,9 @@
       "note": "",
       "description": "Increases the damage of your Frenzies by 5% for each Blood Lust point you have.",
       "category": "CareerTactic",
-      "gameId": 6033
+      "gameId": 6033,
+      "componentValues": {},
+      "rawDescription": "Increases your the damage of your Frenzies by 5% for each Blood Lust point you have."
     },
     {
       "image": "23159",
@@ -578,7 +714,9 @@
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale",
-      "gameId": 630
+      "gameId": 630,
+      "componentValues": {},
+      "rawDescription": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds."
     },
     {
       "image": "10976",
@@ -594,7 +732,21 @@
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for 10 seconds which reduces their Wounds.<br>  1 Blood Lust: 112 damage per hit; Wounds reduced by 25.<br>  2 Blood Lust: 133 damage per hit; Wounds reduced by 33.<br>  3 Blood Lust: 155 damage per hit; Wounds reduced by 41.<br>  4 Blood Lust: 175 damage per hit; Wounds reduced by 50.<br>  5 Blood Lust: 196 damage per hit; Wounds reduced by 58.",
       "category": "Ability",
-      "gameId": 9404
+      "gameId": 9404,
+      "componentValues": {
+        "ABIL_3931_COM_2_DURA_SECONDS": 10,
+        "ABIL_3931_COM_0_VAL0_DAMAGE": 112,
+        "ABIL_3931_COM_2_VAL0": 25,
+        "ABIL_3932_COM_0_VAL0_DAMAGE": 133,
+        "ABIL_3932_COM_2_VAL0": 33,
+        "ABIL_3933_COM_0_VAL0_DAMAGE": 155,
+        "ABIL_3933_COM_2_VAL0": 41,
+        "ABIL_3934_COM_0_VAL0_DAMAGE": 175,
+        "ABIL_3934_COM_2_VAL0": 50,
+        "ABIL_3935_COM_0_VAL0_DAMAGE": 196,
+        "ABIL_3935_COM_2_VAL0": 58
+      },
+      "rawDescription": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for {ABIL_3931_COM_2_DURA_SECONDS} which reduces their Wounds.<BR>   1 Blood Lust:  {ABIL_3931_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3931_COM_2_VAL0}.<BR>   2 Blood Lust:  {ABIL_3932_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3932_COM_2_VAL0}.<BR>   3 Blood Lust:  {ABIL_3933_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3933_COM_2_VAL0}.<BR>   4 Blood Lust:  {ABIL_3934_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3934_COM_2_VAL0}.<BR>   5 Blood Lust:  {ABIL_3935_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3935_COM_2_VAL0}."
     },
     {
       "image": "05203",
@@ -610,7 +762,12 @@
       "note": "Target must be facing away from you<br>Builds 1 Blood Lust",
       "description": "A shocking strike which deals 325 damage and knocks down your target for 3 seconds.",
       "category": "Ability",
-      "gameId": 9427
+      "gameId": 9427,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "A shocking strike which deals {COM_0_VAL0_DAMAGE} and knocksdown your target for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22701",
@@ -626,7 +783,9 @@
       "note": "",
       "description": "Your critical hits will inflict 50% more damage.",
       "category": "CareerTactic",
-      "gameId": 9450
+      "gameId": 9450,
+      "componentValues": {},
+      "rawDescription": "Your critical hits will inflict 50% more damage."
     },
     {
       "image": "22694",
@@ -642,7 +801,12 @@
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 526
+      "gameId": 526,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD": 606,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Any time you critically hit an enemy they will begin to bleed, suffering additional {COM_1_VAL0_COM_0_VAL0_TOD} Corporeal damage over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10974",
@@ -658,7 +822,14 @@
       "note": "",
       "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 50 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.",
       "category": "Ability",
-      "gameId": 9402
+      "gameId": 9402,
+      "componentValues": {
+        "COM_0_DURA_MINUTES": 0,
+        "ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE": 0,
+        "ABIL_3810_COM_0_VAL0": 0,
+        "ABIL_3810_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You cover your blades with a toxic concoction. For the next {COM_0_DURA_MINUTES}, anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing them to have their Initiative reduced by {ABIL_3810_COM_0_VAL0} for the next {ABIL_3810_COM_0_DURA_SECONDS}. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."
     },
     {
       "image": "10982",
@@ -674,7 +845,13 @@
       "note": "",
       "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.",
       "category": "Ability",
-      "gameId": 9412
+      "gameId": 9412,
+      "componentValues": {
+        "COM_0_DURA_MINUTES": 0,
+        "ABIL_3812_COM_0_VAL0_CORPOREALDAMAGE": 0,
+        "ABIL_3812_COM_1_VAL0": 0
+      },
+      "rawDescription": "You cover your blades with a toxic concoction. For the next {COM_0_DURA_MINUTES}, anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3812_COM_0_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing them to lose {ABIL_3812_COM_1_VAL0} Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."
     },
     {
       "image": "11006",
@@ -690,7 +867,14 @@
       "note": "",
       "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.",
       "category": "Ability",
-      "gameId": 9407
+      "gameId": 9407,
+      "componentValues": {
+        "COM_0_DURA_MINUTES": 0,
+        "ABIL_3811_COM_0_VAL0_CORPOREALDAMAGE": 0,
+        "ABIL_3811_COM_2_VAL1": 0,
+        "ABIL_3811_COM_2_DURA_SECONDS": 0
+      },
+      "rawDescription": "You cover your blades with a toxic concoction. For the next {COM_0_DURA_MINUTES}, anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3811_COM_0_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing all healing done by them to be reduced to {ABIL_3811_COM_2_VAL1}% for the next {ABIL_3811_COM_2_DURA_SECONDS}.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."
     },
     {
       "image": "22694",
@@ -706,7 +890,9 @@
       "note": "",
       "description": "Kiss of Death will now heal you for the damage it deals.",
       "category": "CareerTactic",
-      "gameId": 9446
+      "gameId": 9446,
+      "componentValues": {},
+      "rawDescription": "Kiss of Death will now heal you for the damage it deals."
     },
     {
       "image": "22701",
@@ -722,7 +908,12 @@
       "note": "",
       "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, or Enfeebling Strike, you will deal 15% more damage for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 9451
+      "gameId": 9451,
+      "componentValues": {
+        "ABIL_9411_COM_6_VAL0_COM_0_VAL0": 15,
+        "ABIL_9411_COM_6_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "After hitting an enemy with Treacherous Assault, Vehement Blades, or Enfeebling Strike, you will deal {ABIL_9411_COM_6_VAL0_COM_0_VAL0}% more damage for {ABIL_9411_COM_6_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10984",
@@ -738,7 +929,21 @@
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them reducing their Morale by 300, inspired, your group gains 300 Morale.<br>  1 Blood Lust: 108 damage per hit, 30 feet radius.<br>  2 Blood Lust: 133 damage per hit, 35 feet radius.<br>  3 Blood Lust: 159 damage per hit, 40 feet radius.<br>  4 Blood Lust: 183 damage per hit, 43.3 feet radius.<br>  5 Blood Lust: 208 damage per hit, 48.3 feet radius.",
       "category": "Ability",
-      "gameId": 9422
+      "gameId": 9422,
+      "componentValues": {
+        "ABIL_3581_COM_2_DURA_SECONDS": 3,
+        "ABIL_3581_COM_0_VAL0_DAMAGE": 108,
+        "ABIL_3581_COM_0_RADI_FEET": 30,
+        "ABIL_3582_COM_0_VAL0_DAMAGE": 133,
+        "ABIL_3582_COM_0_RADI_FEET": 35,
+        "ABIL_3583_COM_0_VAL0_DAMAGE": 159,
+        "ABIL_3583_COM_0_RADI_FEET": 40,
+        "ABIL_3584_COM_0_VAL0_DAMAGE": 183,
+        "ABIL_3584_COM_0_RADI_FEET": 43,
+        "ABIL_3585_COM_0_VAL0_DAMAGE": 208,
+        "ABIL_3585_COM_0_RADI_FEET": 48
+      },
+      "rawDescription": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for {ABIL_3581_COM_2_DURA_SECONDS}, and does damage to your target an all enemies around them reducing their Morale by 300, inspired, your group gains 300 Morale.<BR>   1 Blood Lust:  {ABIL_3581_COM_0_VAL0_DAMAGE} per hit, {ABIL_3581_COM_0_RADI_FEET} radius.<BR>   2 Blood Lust:  {ABIL_3582_COM_0_VAL0_DAMAGE} per hit, {ABIL_3582_COM_0_RADI_FEET} radius.<BR>   3 Blood Lust:  {ABIL_3583_COM_0_VAL0_DAMAGE} per hit, {ABIL_3583_COM_0_RADI_FEET} radius.<BR>   4 Blood Lust:  {ABIL_3584_COM_0_VAL0_DAMAGE} per hit, {ABIL_3584_COM_0_RADI_FEET} radius.<BR>   5 Blood Lust:  {ABIL_3585_COM_0_VAL0_DAMAGE} per hit, {ABIL_3585_COM_0_RADI_FEET} radius."
     },
     {
       "image": "10993",
@@ -754,7 +959,14 @@
       "note": "",
       "description": "All enemies within 30 feet instantly lose 125 Action Points, and will regain action points 50% more slowly for the next 10 seconds.",
       "category": "Morale",
-      "gameId": 9466
+      "gameId": 9466,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0_ACTIONPOINTS": 125,
+        "COM_1_VAL0": 50,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "All enemies within {COM_0_RADI_FEET} instantly lose {COM_0_VAL0_ACTIONPOINTS}, and will regain action points {COM_1_VAL0}% more slowly for the next {COM_1_DURA_SECONDS}."
     },
     {
       "image": "23412",
@@ -770,7 +982,11 @@
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
       "category": "Ability",
-      "gameId": 14427
+      "gameId": 14427,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You bolster yourself for {COM_0_DURA_SECONDS}, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside."
     },
     {
       "image": "10983",
@@ -786,7 +1002,13 @@
       "note": "Builds 1 Blood Lust",
       "description": "A powerful stab that slices through the target's defenses, dealing 275 damage to your target and ignoring all of their armor. If the target suffers from an Ailment, then your Weapon Skill will be increased by 75 for 20 seconds.",
       "category": "Ability",
-      "gameId": 9421
+      "gameId": 9421,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 275,
+        "COM_1_VAL0": 75,
+        "COM_1_DURA_SECONDS": 20
+      },
+      "rawDescription": "A powerful stab that slices through the target's defenses, dealing {COM_0_VAL0_DAMAGE} to your target and ignoring all of their armor.  If the target suffers from an Ailment, then your Weapon Skill will be increased by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "10980",
@@ -802,7 +1024,15 @@
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You quickly stab your target twice, dealing damage based on your Blood Lust.<br>  1 Blood Lust: 137 damage per hit<br>  2 Blood Lust: 167 damage per hit<br>  3 Blood Lust: 197 damage per hit<br>  4 Blood Lust: 225 damage per hit<br>  5 Blood Lust: 254 damage per hit",
       "category": "Ability",
-      "gameId": 9410
+      "gameId": 9410,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 137,
+        "COM_1_VAL0_DAMAGE": 167,
+        "COM_2_VAL0_DAMAGE": 197,
+        "COM_3_VAL0_DAMAGE": 225,
+        "COM_4_VAL0_DAMAGE": 254
+      },
+      "rawDescription": "You quickly stab your target twice, dealing damage based on your Blood Lust.<BR>   1 Blood Lust:  {COM_0_VAL0_DAMAGE} per hit<BR>   2 Blood Lust:  {COM_1_VAL0_DAMAGE} per hit<BR>   3 Blood Lust:  {COM_2_VAL0_DAMAGE} per hit<BR>   4 Blood Lust:  {COM_3_VAL0_DAMAGE} per hit<BR>   5 Blood Lust:  {COM_4_VAL0_DAMAGE} per hit"
     },
     {
       "image": "23160",
@@ -818,7 +1048,12 @@
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale",
-      "gameId": 633
+      "gameId": 633,
+      "componentValues": {
+        "COM_0_VAL0_ACTIONPOINTS": 10,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A prolonged fervor that grants {COM_0_VAL0_ACTIONPOINTS} a second to everyone in your group within 100 feet of you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22702",
@@ -834,7 +1069,11 @@
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 239 damage which they can not prevent.",
       "category": "CareerTactic",
-      "gameId": 528
+      "gameId": 528,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 239
+      },
+      "rawDescription": "Each time you parry an enemy's attack, you will strike them back for {COM_1_VAL0_DAMAGE} which they can not prevent."
     },
     {
       "image": "10904",
@@ -850,7 +1089,16 @@
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<br>  1 Blood Lust: 750 damage.<br>  2 Blood Lust:  900 damage.<br>  3 Blood Lust:  1056 damage.<br>  4 Blood Lust:  1200 damage.<br>  5 Blood Lust:  1350 damage.",
       "category": "Ability",
-      "gameId": 9399
+      "gameId": 9399,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_0_VAL0_TOD_DAMAGE": 750,
+        "COM_1_VAL0_TOD_DAMAGE": 900,
+        "COM_2_VAL0_TOD_DAMAGE": 1056,
+        "COM_3_VAL0_TOD_DAMAGE": 1200,
+        "COM_4_VAL0_TOD_DAMAGE": 1350
+      },
+      "rawDescription": "A relentless string of attacks which repeatedly strikes your target up to 6 times over {COM_0_DURA_SECONDS}.<BR>   1 Blood Lust:  {COM_0_VAL0_TOD_DAMAGE}.<BR>   2 Blood Lust:   {COM_1_VAL0_TOD_DAMAGE}.<BR>   3 Blood Lust:   {COM_2_VAL0_TOD_DAMAGE}.<BR>   4 Blood Lust:   {COM_3_VAL0_TOD_DAMAGE}.<BR>   5 Blood Lust:   {COM_4_VAL0_TOD_DAMAGE}."
     },
     {
       "image": "22702",
@@ -866,7 +1114,11 @@
       "note": "",
       "description": "Any time you are critically hit by a direct damage ability, you will become protected by a barrier which will absorb up to 600 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 9439
+      "gameId": 9439,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 600
+      },
+      "rawDescription": "Any time you are critically hit by a direct damage ability, you will become protected by a barrier which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}.<BR>This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "10994",
@@ -882,7 +1134,15 @@
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack damage will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<br>  1 Blood Lust: 112 damage per hit.<br>  2 Blood Lust: 133 damage per hit.<br>  3 Blood Lust: 155 damage per hit.<br>  4 Blood Lust: 175 damage per hit.<br>  5 Blood Lust: 196 damage per hit.",
       "category": "Ability",
-      "gameId": 9428
+      "gameId": 9428,
+      "componentValues": {
+        "ABIL_3988_COM_0_VAL0_DAMAGE": 0,
+        "ABIL_3989_COM_0_VAL0_DAMAGE": 0,
+        "ABIL_3990_COM_0_VAL0_DAMAGE": 0,
+        "ABIL_3991_COM_0_VAL0_DAMAGE": 0,
+        "ABIL_3992_COM_0_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<BR>   1 Blood Lust:  {ABIL_3988_COM_0_VAL0_DAMAGE} per hit.<BR>   2 Blood Lust:  {ABIL_3989_COM_0_VAL0_DAMAGE} per hit.<BR>   3 Blood Lust:  {ABIL_3990_COM_0_VAL0_DAMAGE} per hit.<BR>   4 Blood Lust:  {ABIL_3991_COM_0_VAL0_DAMAGE} per hit.<BR>   5 Blood Lust:  {ABIL_3992_COM_0_VAL0_DAMAGE} per hit."
     },
     {
       "image": "22701",
@@ -898,7 +1158,11 @@
       "note": "",
       "description": "Envenomed Blade will now also reduce the victim's chance to critically hit by 25%.",
       "category": "CareerTactic",
-      "gameId": 9447
+      "gameId": 9447,
+      "componentValues": {
+        "ABIL_9403_COM_2_VAL0_COM_2_VAL1": 25
+      },
+      "rawDescription": "Envenomed Blade will now also reduce the victim's chance to critically hit by {ABIL_9403_COM_2_VAL0_COM_2_VAL1}%."
     },
     {
       "image": "02497",
@@ -914,7 +1178,11 @@
       "note": "Target must have a Blessing",
       "description": "You sever one Blessing from your enemy and do 127 damage",
       "category": "Ability",
-      "gameId": 9413
+      "gameId": 9413,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "You sever one Blessing from your enemy and inflict {COM_1_VAL0_DAMAGE}."
     },
     {
       "image": "10972",
@@ -930,7 +1198,12 @@
       "note": "Requires Parry",
       "description": "A precise Crippling attack that deals 275 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability",
-      "gameId": 9400
+      "gameId": 9400,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 275,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 4
+      },
+      "rawDescription": "A precise Crippling attack that deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_VAL0_COM_0_DURA_SECONDS}, making them unable to use melee or ranged weapons."
     },
     {
       "image": "23161",
@@ -946,7 +1219,11 @@
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale",
-      "gameId": 627
+      "gameId": 627,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200
+      },
+      "rawDescription": "A directed strike that inflicts {COM_0_VAL0_DAMAGE} to your target."
     },
     {
       "image": "10969",
@@ -962,7 +1239,11 @@
       "note": "",
       "description": "You prowl through the shadows for the next 30 seconds, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points.",
       "category": "Ability",
-      "gameId": 9393
+      "gameId": 9393,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 30
+      },
+      "rawDescription": "You prowl through the shadows for the next {COM_0_DURA_SECONDS}, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points."
     },
     {
       "image": "22698",
@@ -978,7 +1259,12 @@
       "note": "",
       "description": "Anytime an attack you make is blocked or parried, you will automatically do 150 damage to your target.<br>Cannot occur more than once every 2 seconds.",
       "category": "CareerTactic",
-      "gameId": 9443
+      "gameId": 9443,
+      "componentValues": {
+        "ABIL_3429_COM_0_VAL0_DAMAGE": 150,
+        "ABIL_3356_COM_0_DURA_SECONDS": 2
+      },
+      "rawDescription": "Anytime an attack you make is blocked or parried, you will automatically do {ABIL_3429_COM_0_VAL0_DAMAGE} to your target.<br>Cannot occur more than once every {ABIL_3356_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10902",
@@ -994,7 +1280,11 @@
       "note": "Builds 1 Blood Lust",
       "description": "A deep stab which deals 275 damage to your target.",
       "category": "Ability",
-      "gameId": 9398
+      "gameId": 9398,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 275
+      },
+      "rawDescription": "A deep stab which deals {COM_0_VAL0_DAMAGE} to your target."
     },
     {
       "image": "22702",
@@ -1010,7 +1300,12 @@
       "note": "",
       "description": "Increases your chance to parry attacks by 10%. Each time you parry an attack, you will regain 20 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 9445
+      "gameId": 9445,
+      "componentValues": {
+        "COM_0_VAL0": 10,
+        "COM_2_VAL0_ACTIONPOINTS": 20
+      },
+      "rawDescription": "Increases your chance to parry attacks by {COM_0_VAL0}%.  Each time you parry an attack, you will regain {COM_2_VAL0_ACTIONPOINTS}.<BR>This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "22709",
@@ -1026,7 +1321,11 @@
       "note": "",
       "description": "Reduces Feinted Positioning's cooldown time by 40 seconds.",
       "category": "CareerTactic",
-      "gameId": 9449
+      "gameId": 9449,
+      "componentValues": {
+        "COM_0_VAL0_SECONDS": 40
+      },
+      "rawDescription": "Reduces Feinted Positioning's cooldown time by {COM_0_VAL0_SECONDS}."
     },
     {
       "image": "22708",
@@ -1042,7 +1341,11 @@
       "note": "",
       "description": "Fleet-Footed will now also increase your run speed by 25%.",
       "category": "CareerTactic",
-      "gameId": 9438
+      "gameId": 9438,
+      "componentValues": {
+        "ABIL_9395_COM_4_VAL0": 25
+      },
+      "rawDescription": "Fleet-Footed will now also increase your run speed by {ABIL_9395_COM_4_VAL0}%."
     },
     {
       "image": "22701",
@@ -1058,7 +1361,12 @@
       "note": "",
       "description": "Any time you take damage, there is a 25% chance that you will cause 15% more damage for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 9437
+      "gameId": 9437,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 15,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Any time you take damage, there is a 25% chance that you will cause {COM_1_VAL0_COM_0_VAL0}% more damage for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "05166",
@@ -1074,7 +1382,12 @@
       "note": "Builds 1 Blood Lust",
       "description": "A swift slice that silences your target, making them unable to use magic for 3 seconds. You will also deal 250 damage to your target if you attack them from behind.",
       "category": "Ability",
-      "gameId": 9409
+      "gameId": 9409,
+      "componentValues": {
+        "COM_0_VAL0_COM_0_DURA_SECONDS": 3,
+        "COM_1_VAL0_DAMAGE": 250
+      },
+      "rawDescription": "A swift slice that silences your target, making them unable to use magic for {COM_0_VAL0_COM_0_DURA_SECONDS}. You will also deal {COM_1_VAL0_DAMAGE} to your target if you attack them from behind."
     },
     {
       "image": "10903",
@@ -1090,7 +1403,13 @@
       "note": "",
       "description": "A quick dagger throw which deals 97 damage.<br>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability",
-      "gameId": 9394
+      "gameId": 9394,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 97,
+        "COM_1_VAL0": 40,
+        "COM_1_DURA_SECONDS": 5
+      },
+      "rawDescription": "A quick dagger throw which deals {COM_0_VAL0_DAMAGE}.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "10981",
@@ -1106,7 +1425,14 @@
       "note": "Requires Prowling",
       "description": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. Your target will take 176 Corporeal damage every time they use a magical ability for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds.",
       "category": "Ability",
-      "gameId": 9411
+      "gameId": 9411,
+      "componentValues": {
+        "COM_1_VAL0_CORPOREALDAMAGE": 176,
+        "COM_0_DURA_SECONDS": 15,
+        "COM_2_VAL0_COM_0_VAL1": 50,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. Your target will take {COM_1_VAL0_CORPOREALDAMAGE} every time they use a magical ability for {COM_0_DURA_SECONDS}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10978",
@@ -1122,7 +1448,14 @@
       "note": "Requires Prowling",
       "description": "You leap out of the shadows in an insane rage. Each time your target uses a melee ability, your target will take 125 Corporeal damage for each melee ability used over the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
       "category": "Ability",
-      "gameId": 9406
+      "gameId": 9406,
+      "componentValues": {
+        "COM_1_VAL0_CORPOREALDAMAGE": 125,
+        "COM_0_DURA_SECONDS": 15,
+        "ABIL_3009_COM_0_VAL1": 50,
+        "ABIL_3009_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You leap out of the shadows in an insane rage. Each time your target uses a melee ability, your target will take {COM_1_VAL0_CORPOREALDAMAGE} for each melee ability used over the next {COM_0_DURA_SECONDS}. Your abilities will cost {ABIL_3009_COM_0_VAL1}% fewer Action Points for {ABIL_3009_COM_0_DURA_SECONDS}. Builds 2 Blood Lust."
     },
     {
       "image": "10990",
@@ -1138,7 +1471,12 @@
       "note": "",
       "description": "Deals 1200 damage to all enemies in front of you, up to 65 feet away.",
       "category": "Morale",
-      "gameId": 9460
+      "gameId": 9460,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_RADI_FEET": 65
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
     },
     {
       "image": "22712",
@@ -1154,7 +1492,9 @@
       "note": "",
       "description": "Your attacks which build Blood Lust will now have a 33% chance to build one additional Blood Lust.",
       "category": "CareerTactic",
-      "gameId": 9432
+      "gameId": 9432,
+      "componentValues": {},
+      "rawDescription": "Your attacks which build Blood Lust will now have a 33% chance to build one additional Blood Lust."
     },
     {
       "image": "10900",
@@ -1170,7 +1510,11 @@
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You consume a noxious liquid distilled from blood which fills you with power, causing your next several attacks to each deal an additional 300 Corporeal damage to your target.<br>  1 Blood Lust: Lasts for 2 attacks.<br>  2 Blood Lust: Lasts for 3 attacks.<br>  3 Blood Lust: Lasts for 4 attacks.<br>  4 Blood Lust: Lasts for 5 attacks.<br>  5 Blood Lust: Lasts for 6 attacks.",
       "category": "Ability",
-      "gameId": 9425
+      "gameId": 9425,
+      "componentValues": {
+        "ABIL_3621_COM_1_VAL0_CORPOREALDAMAGE": 0
+      },
+      "rawDescription": "You consume a noxious liquid distilled from blood which fills you with power, causing your next several attacks to each deal an additional {ABIL_3621_COM_1_VAL0_CORPOREALDAMAGE} to your target.<BR>   1 Blood Lust:  Lasts for 2 attacks.<BR>   2 Blood Lust:  Lasts for 3 attacks.<BR>   3 Blood Lust:  Lasts for 4 attacks.<BR>   4 Blood Lust:  Lasts for 5 attacks.<BR>   5 Blood Lust:  Lasts for 6 attacks."
     },
     {
       "image": "10977",
@@ -1186,7 +1530,14 @@
       "note": "Builds 1 Blood Lust",
       "description": "A brutal attack that deals 868 Corporeal damage to your target over 21 seconds. If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 75 for 21 seconds.",
       "category": "Ability",
-      "gameId": 9405
+      "gameId": 9405,
+      "componentValues": {
+        "COM_2_VAL0_TOD_CORPOREALDAMAGE": 868,
+        "COM_2_DURA_SECONDS": 21,
+        "COM_1_VAL0": 75,
+        "COM_1_DURA_SECONDS": 21
+      },
+      "rawDescription": "A brutal attack that deals {COM_2_VAL0_TOD_CORPOREALDAMAGE} to your target over {COM_2_DURA_SECONDS}.  If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22702",
@@ -1202,7 +1553,11 @@
       "note": "",
       "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
       "category": "CareerTactic",
-      "gameId": 522
+      "gameId": 522,
+      "componentValues": {
+        "ABIL_3080_COM_0_VAL1": 0
+      },
+      "rawDescription": "Any time you strike an enemy in melee with a direct attack, you will receive {ABIL_3080_COM_0_VAL1}% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities."
     },
     {
       "image": "22708",
@@ -1218,7 +1573,9 @@
       "note": "",
       "description": "Your Armour Penetration is increased by 50% for 3 serconds after successful use of your Frenzies.",
       "category": "CareerTactic",
-      "gameId": 2991
+      "gameId": 2991,
+      "componentValues": {},
+      "rawDescription": "Your Armour Penetration is increased by 50% for 3 seconds after successful use of your Frenzies."
     },
     {
       "image": "10936",
@@ -1234,7 +1591,9 @@
       "note": "",
       "description": "Moral gain is doubled for 15s.",
       "category": "Morale",
-      "gameId": 2715
+      "gameId": 2715,
+      "componentValues": {},
+      "rawDescription": "Your bloody fury inspires your group. Morale gain is doubled for 15 seconds."
     }
   ]
 }

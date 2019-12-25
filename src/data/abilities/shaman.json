@@ -83,7 +83,11 @@
       "note": "",
       "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Shrug it Off will make its target 25% more receptive to incoming heals.",
       "category": "CareerTactic",
-      "gameId": 2751
+      "gameId": 2751,
+      "componentValues": {
+        "COM_1_VAL1": 0
+      },
+      "rawDescription": "Your healing abilities become {COM_1_VAL1}% more effective when the target is below 25% hit points and Shrug It Off will make its target 25% more receptive to incoming heals."
     },
     {
       "image": "23150",
@@ -99,7 +103,15 @@
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale",
-      "gameId": 697
+      "gameId": 697,
+      "componentValues": {
+        "COM_1_RADI_FEET": 30,
+        "ABIL_3884_COM_0_VAL0_TOD": 424,
+        "ABIL_3884_COM_0_DURA_SECONDS": 9,
+        "ABIL_3876_COM_0_VAL0": 20,
+        "ABIL_3876_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Resurrects all groupmates within {COM_1_RADI_FEET}. Anyone who is brought back from the dead will also be healed for {ABIL_3884_COM_0_VAL0_TOD} over {ABIL_3884_COM_0_DURA_SECONDS}, and they will deal {ABIL_3876_COM_0_VAL0}% more damage for {ABIL_3876_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02498",
@@ -115,7 +127,11 @@
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 309 elemental damage.",
       "category": "Ability",
-      "gameId": 1913
+      "gameId": 1913,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 309
+      },
+      "rawDescription": "Deals {COM_0_VAL0_ELEMENTALDAMAGE}."
     },
     {
       "image": "02466",
@@ -131,7 +147,11 @@
       "note": "Mork's Waaagh! reduces cast time.",
       "description": "Heals your target for 883 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
       "category": "Ability",
-      "gameId": 1904
+      "gameId": 1904,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 0
+      },
+      "rawDescription": "Heals your target for {COM_0_VAL0_HEALTH}.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it."
     },
     {
       "image": "02582",
@@ -147,7 +167,12 @@
       "note": "Gork's Waaagh! increases effectiveness.",
       "description": "You deal 1072 elemental damage to your target over 24 seconds and your defensive target is healed for 150% of the damage done.",
       "category": "Ability",
-      "gameId": 1912
+      "gameId": 1912,
+      "componentValues": {
+        "ABIL_3909_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1072,
+        "ABIL_3909_COM_0_DURA_SECONDS": 24
+      },
+      "rawDescription": "You deal {ABIL_3909_COM_0_VAL0_TOD_ELEMENTALDAMAGE} to your target over {ABIL_3909_COM_0_DURA_SECONDS} and your defensive target is healed for 150% of the damage done."
     },
     {
       "image": "02459",
@@ -163,7 +188,11 @@
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 344 elemental damage to your target.",
       "category": "Ability",
-      "gameId": 1899
+      "gameId": 1899,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 344
+      },
+      "rawDescription": "Deals {COM_0_VAL0_ELEMENTALDAMAGE} to your target."
     },
     {
       "image": "02462",
@@ -179,7 +208,13 @@
       "note": "",
       "description": "Heals your target for 501 health every 3 seconds over 9 seconds. Each pulse also heals those around the target within 30 feet.",
       "category": "Morale",
-      "gameId": 1965
+      "gameId": 1965,
+      "componentValues": {
+        "COM_1_VAL0_HEALTH": 501,
+        "COM_0_DURA_SECONDS": 9,
+        "COM_1_RADI_FEET": 30
+      },
+      "rawDescription": "Heals your target for {COM_1_VAL0_HEALTH} every 3 seconds over {COM_0_DURA_SECONDS}. Each pulse also heals those around the target within {COM_1_RADI_FEET}."
     },
     {
       "image": "02577",
@@ -195,7 +230,12 @@
       "note": "Gork's Waaagh! increases effectiveness.",
       "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing 344 elemental damage to them as long as you maintain your concentration.",
       "category": "Ability",
-      "gameId": 1903
+      "gameId": 1903,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 6,
+        "COM_0_VAL0_ELEMENTALDAMAGE": 344
+      },
+      "rawDescription": "You concentrate on your target for up to {COM_0_DURA_SECONDS}, repeatedly dealing {COM_0_VAL0_ELEMENTALDAMAGE} to them as long as you maintain your concentration."
     },
     {
       "image": "22707",
@@ -211,7 +251,9 @@
       "note": "",
       "description": "Any time you critically hit with a spell that grants Waaagh!, an additional Waaagh! will be granted as well. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 1938
+      "gameId": 1938,
+      "componentValues": {},
+      "rawDescription": "Any time you critically hit with a spell that grants Waaagh!, an additional Waaagh! will be granted as well.  Tactic can not trigger more than once every 3 seconds."
     },
     {
       "image": "02403",
@@ -227,7 +269,12 @@
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 338 elemental damage to your target, and will then damage another target within 20 feet of the last, damaging up to 9 different targets total. Targets can not be hit more than once by the ability.",
       "category": "Ability",
-      "gameId": 1931
+      "gameId": 1931,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 338,
+        "COM_2_RADI_FEET": 20
+      },
+      "rawDescription": "Deals {COM_0_VAL0_ELEMENTALDAMAGE} to your target, and will then damage another target within {COM_2_RADI_FEET} of the last, damaging up to 9 different targets total. Targets can not be hit more than once by the ability."
     },
     {
       "image": "22703",
@@ -243,7 +290,11 @@
       "note": "",
       "description": "Your can now resurrect allies instantly, but you are stunned for 3 seconds after casting.",
       "category": "CareerTactic",
-      "gameId": 1941
+      "gameId": 1941,
+      "componentValues": {
+        "ABIL_1908_COM_5_DURA_SECONDS": 3
+      },
+      "rawDescription": "Your can now resurrect allies instantly, but you are stunned for {ABIL_1908_COM_5_DURA_SECONDS} after casting."
     },
     {
       "image": "22706",
@@ -259,7 +310,11 @@
       "note": "",
       "description": "Increases your Willpower by 160.",
       "category": "CareerTactic",
-      "gameId": 592
+      "gameId": 592,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Willpower by {COM_0_VAL0}."
     },
     {
       "image": "23151",
@@ -275,7 +330,11 @@
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
       "category": "Morale",
-      "gameId": 694
+      "gameId": 694,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 1800
+      },
+      "rawDescription": "A strong heal that will restore {COM_0_VAL0_HEALTH} to your target."
     },
     {
       "image": "22703",
@@ -291,7 +350,12 @@
       "note": "",
       "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
       "category": "CareerTactic",
-      "gameId": 585
+      "gameId": 585,
+      "componentValues": {
+        "COM_0_VAL0": 25,
+        "COM_1_VAL1": 20
+      },
+      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your healing becomes {COM_1_VAL1}% less effective."
     },
     {
       "image": "23152",
@@ -307,7 +371,12 @@
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
       "category": "Morale",
-      "gameId": 696
+      "gameId": 696,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_0_VAL1_DAMAGE": 4500
+      },
+      "rawDescription": "Each group member within 100 feet is surrounded by a protective shield for the next {COM_0_DURA_SECONDS} that will absorb up to {COM_0_VAL1_DAMAGE} from melee abilities."
     },
     {
       "image": "02501",
@@ -323,7 +392,13 @@
       "note": "",
       "description": "Your target's Toughness is increased by 150 and they regain 952 health over 10 seconds.",
       "category": "Ability",
-      "gameId": 1926
+      "gameId": 1926,
+      "componentValues": {
+        "ABIL_3274_COM_6_VAL0": 150,
+        "COM_0_VAL0_COM_0_VAL0_TOD_HEALTH": 952,
+        "COM_0_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Your target's Toughness is increased by {ABIL_3274_COM_6_VAL0} and they regain {COM_0_VAL0_COM_0_VAL0_TOD_HEALTH} over {COM_0_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02534",
@@ -339,7 +414,12 @@
       "note": "Mork's Waaagh! increases effectiveness.<br>Target must be in your group or warband.",
       "description": "Surrounds an ally with a magical barrier that absorbs up to 925 damage for up to 9 seconds.",
       "category": "Ability",
-      "gameId": 1932
+      "gameId": 1932,
+      "componentValues": {
+        "COM_0_VAL0_COM_0_VAL1_DAMAGE": 925,
+        "ABIL_3911_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Surrounds an ally with a magical barrier that absorbs up to {COM_0_VAL0_COM_0_VAL1_DAMAGE} for up to {ABIL_3911_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02583",
@@ -355,7 +435,13 @@
       "note": "",
       "description": "You blast back all enemies within 30 feet of you, knocking them back a medium distance and snaring them by 20% for 10 seconds. Monsters will be knocked down by the blast.",
       "category": "Ability",
-      "gameId": 1914
+      "gameId": 1914,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_1_VAL0": 20,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "You blast back all enemies within {COM_0_RADI_FEET} of you, knocking them back a medium distance and snaring them by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}. Monsters will be knocked down by the blast."
     },
     {
       "image": "02425",
@@ -371,7 +457,12 @@
       "note": "",
       "description": "Everyone in your group within 100 feet will do an additional 125 elemental damage on their next attack within 10 seconds.",
       "category": "Ability",
-      "gameId": 1902
+      "gameId": 1902,
+      "componentValues": {
+        "COM_1_VAL0_ELEMENTALDAMAGE": 125,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Everyone in your group within 100 feet will do an additional {COM_1_VAL0_ELEMENTALDAMAGE} on their next attack within {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22703",
@@ -387,7 +478,11 @@
       "note": "",
       "description": "Ere We Go will now deal 150 damage, and it will now affect your allies' next 2 attacks.",
       "category": "CareerTactic",
-      "gameId": 1957
+      "gameId": 1957,
+      "componentValues": {
+        "ABIL_1902_COM_4_VAL0_DAMAGE": 150
+      },
+      "rawDescription": "Ere We Go will now deal {ABIL_1902_COM_4_VAL0_DAMAGE}, and it will now affect your allies' next 2 attacks."
     },
     {
       "image": "22708",
@@ -403,7 +498,11 @@
       "note": "",
       "description": "Increases your chance to critically heal by 10%.",
       "category": "CareerTactic",
-      "gameId": 1940
+      "gameId": 1940,
+      "componentValues": {
+        "COM_0_VAL1": 10
+      },
+      "rawDescription": "Increases your chance to critically heal by {COM_0_VAL1}%."
     },
     {
       "image": "02576",
@@ -419,7 +518,12 @@
       "note": "Mork's Waaagh! increases effectiveness.",
       "description": "Heals your target for 1700 health over 15 seconds.",
       "category": "Ability",
-      "gameId": 1901
+      "gameId": 1901,
+      "componentValues": {
+        "ABIL_3908_COM_0_VAL0_TOD_HEALTH": 1700,
+        "ABIL_3908_COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Heals your target for {ABIL_3908_COM_0_VAL0_TOD_HEALTH} over {ABIL_3908_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02586",
@@ -435,7 +539,14 @@
       "note": "",
       "description": "Heals all of your group mates within 100 feet for 1130 health over 10 seconds and decreases damage against them to 75% for 10 seconds",
       "category": "Morale",
-      "gameId": 1970
+      "gameId": 1970,
+      "componentValues": {
+        "COM_0_VAL0_TOD_HEALTH": 1130,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0": 75,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "Heals all of your group mates within 100 feet for {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS} and decreases damage against them  to {COM_1_VAL0}% for {COM_1_DURA_SECONDS}"
     },
     {
       "image": "02545",
@@ -451,7 +562,12 @@
       "note": "",
       "description": "Deals 1800 damage and knocks back all enemy targets within 20 feet of your target.",
       "category": "Morale",
-      "gameId": 1971
+      "gameId": 1971,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1800,
+        "COM_0_RADI_FEET": 20
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} and knocks back all enemy targets within {COM_0_RADI_FEET} of your target."
     },
     {
       "image": "05004",
@@ -467,7 +583,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "23153",
@@ -483,7 +605,9 @@
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale",
-      "gameId": 695
+      "gameId": 695,
+      "componentValues": {},
+      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
     },
     {
       "image": "07996",
@@ -499,7 +623,14 @@
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "A surge of Waaagh! explodes from your target, inflicting 199 elemental damage upon them and up to 4 other enemies within 20 feet of them, and healing your defensive target and allies within 20 feet of them for 883 health plus 50% of the total inflicted damage.<br /><br />When casting this ability, you will focus your power into ensuring a hit rather than maximum damage, causing it to be 20% less likely to be blocked or disrupted.",
       "category": "Ability",
-      "gameId": 2102
+      "gameId": 2102,
+      "componentValues": {
+        "ABIL_2103_COM_0_VAL0_ELEMENTALDAMAGE": 0,
+        "COM_0_RADI_FEET": 0,
+        "COM_2_RADI_FEET": 0,
+        "ABIL_2103_COM_3_VAL0_HEALTH": 0
+      },
+      "rawDescription": "A surge of Waaagh! explodes from your target, inflicting {ABIL_2103_COM_0_VAL0_ELEMENTALDAMAGE} upon them and up to 4 other enemies within {COM_0_RADI_FEET} of them, and healing your defensive target and allies within {COM_2_RADI_FEET} of them for {ABIL_2103_COM_3_VAL0_HEALTH}, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted."
     },
     {
       "image": "02467",
@@ -515,7 +646,11 @@
       "note": "Mork's Waaagh! reduces cast time.",
       "description": "Heals group members within 100 feet for 643 health.",
       "category": "Ability",
-      "gameId": 1907
+      "gameId": 1907,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 643
+      },
+      "rawDescription": "Heals group members within 100 feet for {COM_0_VAL0_HEALTH}."
     },
     {
       "image": "02456",
@@ -531,7 +666,12 @@
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 205 elemental damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
       "category": "Ability",
-      "gameId": 1929
+      "gameId": 1929,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 205,
+        "COM_0_RADI_FEET": 20
+      },
+      "rawDescription": "Deals {COM_0_VAL0_ELEMENTALDAMAGE} to your target and all other enemies within {COM_0_RADI_FEET} of them, and knocks them backwards."
     },
     {
       "image": "02433",
@@ -547,7 +687,9 @@
       "note": "Only usable on Dead Players",
       "description": "Resurrects your target with 20% health.",
       "category": "Ability",
-      "gameId": 1908
+      "gameId": 1908,
+      "componentValues": {},
+      "rawDescription": "Resurrects your target with 20% health."
     },
     {
       "image": "22704",
@@ -563,7 +705,11 @@
       "note": "",
       "description": "Any time one of your groupmates damages an enemy with 'Ere We Go, they will gain 150 points of Morale.",
       "category": "CareerTactic",
-      "gameId": 1944
+      "gameId": 1944,
+      "componentValues": {
+        "ABIL_1902_COM_2_VAL0": 150
+      },
+      "rawDescription": "Any time one of your groupmates damages an enemy with 'Ere We Go, they will gain {ABIL_1902_COM_2_VAL0} points of Morale."
     },
     {
       "image": "22694",
@@ -579,7 +725,11 @@
       "note": "",
       "description": "Reduces Eeeek!'s cooldown time by 40 seconds.",
       "category": "CareerTactic",
-      "gameId": 1943
+      "gameId": 1943,
+      "componentValues": {
+        "COM_0_VAL0_SECONDS": 40
+      },
+      "rawDescription": "Reduces Eeeek!'s cooldown time by {COM_0_VAL0_SECONDS}."
     },
     {
       "image": "22695",
@@ -595,7 +745,9 @@
       "note": "",
       "description": "Any time you use Greener 'N Cleaner on an ally, you will additionally remove one curse or Ailment from all groupmates within 50 feet of them.",
       "category": "CareerTactic",
-      "gameId": 1958
+      "gameId": 1958,
+      "componentValues": {},
+      "rawDescription": "Any time you use Greener 'N Cleaner on an ally, you will additionally remove one Curse or Ailment from all groupmates within 50 feet of them."
     },
     {
       "image": "02505",
@@ -611,7 +763,11 @@
       "note": "",
       "description": "Your target suffers 600 damage over 2s. If the target moves, the duration is restarted.",
       "category": "Morale",
-      "gameId": 1964
+      "gameId": 1964,
+      "componentValues": {
+        "ABIL_3550_COM_0_VAL0_TOD_DAMAGE": 0
+      },
+      "rawDescription": "Your target suffers {ABIL_3550_COM_0_VAL0_TOD_DAMAGE} over 2s. If the target moves, the duration is restarted.<br>"
     },
     {
       "image": "02444",
@@ -627,7 +783,13 @@
       "note": "Mork's Waaagh! reduces cast time.",
       "description": "Your target regains 258 health immediately, then continues to gain another 315 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability",
-      "gameId": 1898
+      "gameId": 1898,
+      "componentValues": {
+        "COM_0_VAL0_HEALTH": 258,
+        "COM_1_VAL0_COM_0_VAL0_TOD_HEALTH": 315,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Your target regains {COM_0_VAL0_HEALTH} immediately, then continues to gain another {COM_1_VAL0_COM_0_VAL0_TOD_HEALTH} over {COM_1_VAL0_COM_0_DURA_SECONDS}. This ability will continue to build up even if you move."
     },
     {
       "image": "02578",
@@ -643,7 +805,12 @@
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Gork takes interest in your target, reducing all incoming heals by 50% for 10 seconds, and will deal 332 elemental damage to anyone healing his new toy.",
       "category": "Ability",
-      "gameId": 1905
+      "gameId": 1905,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_2_VAL0_ELEMENTALDAMAGE": 332
+      },
+      "rawDescription": "Gork takes interest in your target, reducing all incoming heals by 50% for {COM_0_DURA_SECONDS}, and will deal {COM_2_VAL0_ELEMENTALDAMAGE} to anyone healing his new toy."
     },
     {
       "image": "22706",
@@ -659,7 +826,12 @@
       "note": "",
       "description": "If Greener 'N Cleaner successfully removes an effect from an ally, then they will also regain 534 health over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 1945
+      "gameId": 1945,
+      "componentValues": {
+        "ABIL_3219_COM_0_VAL0_TOD_HEALTH": 534,
+        "ABIL_3219_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "If Greener 'N Cleaner successfully removes an effect from an ally, then they will also regain {ABIL_3219_COM_0_VAL0_TOD_HEALTH} over {ABIL_3219_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02579",
@@ -675,7 +847,12 @@
       "note": "Target must be Cursed or Ailing<br>Mork's Waaagh! reduces cooldown.<br>Builds Gork's Waaagh!",
       "description": "You cleanse an ally, removing one Curse or Ailment. If an effect is removed, your ally will absorb up to 175 damage over 10 seconds.",
       "category": "Ability",
-      "gameId": 1906
+      "gameId": 1906,
+      "componentValues": {
+        "COM_4_VAL1_DAMAGE": 175,
+        "COM_4_DURA_SECONDS": 10
+      },
+      "rawDescription": "You cleanse an ally, removing one Curse or Ailment.  If an effect is removed, your ally will absorb up to {COM_4_VAL1_DAMAGE} over {COM_4_DURA_SECONDS}."
     },
     {
       "image": "22696",
@@ -691,7 +868,13 @@
       "note": "",
       "description": "Brain Bursta will now also reduce the victim's Toughness by 240 for 20 seconds  and reduces the duration and tick interval of Bunch o' Waaagh by 50%. Gorks power however will reduce the effectiveness of your healing abilities by 20% and increases the cooldown of Bunch o' Waaagh by 50%.",
       "category": "CareerTactic",
-      "gameId": 2749
+      "gameId": 2749,
+      "componentValues": {
+        "ABIL_1899_COM_2_VAL0_COM_0_VAL0": 240,
+        "ABIL_3220_COM_0_DURA_SECONDS": 20,
+        "COM_2_VAL1": 20
+      },
+      "rawDescription": "Brain Bursta will now also reduce the victim's Toughness by {ABIL_1899_COM_2_VAL0_COM_0_VAL0} for {ABIL_3220_COM_0_DURA_SECONDS} and reduces the duration and tick interval of Bunch o' Waaagh by 50%. Gorks power however will reduce the effectiveness of your healing abilities by {COM_2_VAL1}% and increases the cooldown of Bunch o' Waaagh by 50%."
     },
     {
       "image": "02464",
@@ -707,7 +890,12 @@
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 277 elemental damage to your target, and heals your defensive target for 150% of the damage done. <BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability",
-      "gameId": 2100
+      "gameId": 2100,
+      "componentValues": {
+        "ABIL_2859_COM_0_VAL0_ELEMENTALDAMAGE": 0,
+        "COM_0_VAL0_HEALTH": 0
+      },
+      "rawDescription": "Deals {ABIL_2859_COM_0_VAL0_ELEMENTALDAMAGE} to your target, and heals your defensive target for {COM_0_VAL0_HEALTH} plus 150% of the damage done.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted."
     },
     {
       "image": "02575",
@@ -723,7 +911,12 @@
       "note": "Gork's Waaagh! increases effectiveness.",
       "description": "You deal 710 elemental damage to your target over 15 seconds.",
       "category": "Ability",
-      "gameId": 1900
+      "gameId": 1900,
+      "componentValues": {
+        "ABIL_3907_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 710,
+        "ABIL_3907_COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "You deal {ABIL_3907_COM_0_VAL0_TOD_ELEMENTALDAMAGE} to your target over {ABIL_3907_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02477",
@@ -739,7 +932,12 @@
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 1918
+      "gameId": 1918,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "22708",
@@ -755,7 +953,11 @@
       "note": "",
       "description": "Gork'll Fix It will now also restore 40 Action Points to the target.",
       "category": "CareerTactic",
-      "gameId": 1950
+      "gameId": 1950,
+      "componentValues": {
+        "ABIL_1898_COM_3_VAL0_ACTIONPOINTS": 40
+      },
+      "rawDescription": "Gork'll Fix It will now also restore {ABIL_1898_COM_3_VAL0_ACTIONPOINTS} to the target."
     },
     {
       "image": "22704",
@@ -771,7 +973,11 @@
       "note": "",
       "description": "Increases your chance to critically hit enemies by 10%.",
       "category": "CareerTactic",
-      "gameId": 1942
+      "gameId": 1942,
+      "componentValues": {
+        "COM_0_VAL1": 10
+      },
+      "rawDescription": "Increases your chance to critically hit enemies by {COM_0_VAL1}%."
     },
     {
       "image": "02472",
@@ -787,7 +993,11 @@
       "note": "",
       "description": "Increases all resistances of your group mates within 100 feet by 157 for 1 hour.",
       "category": "Ability",
-      "gameId": 1910
+      "gameId": 1910,
+      "componentValues": {
+        "COM_0_VAL0": 157
+      },
+      "rawDescription": "Increases all resistances of your group mates within 100 feet by {COM_0_VAL0} for 1 hour."
     },
     {
       "image": "22696",
@@ -803,7 +1013,11 @@
       "note": "",
       "description": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional 150 elemental damage as well.",
       "category": "CareerTactic",
-      "gameId": 1954
+      "gameId": 1954,
+      "componentValues": {
+        "COM_2_VAL0_ELEMENTALDAMAGE": 150
+      },
+      "rawDescription": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional {COM_2_VAL0_ELEMENTALDAMAGE} as well."
     },
     {
       "image": "22703",
@@ -819,7 +1033,11 @@
       "note": "",
       "description": "Don' Feel Nuthin will also cause your target to deal 15% more damage as long as the barrier is protecting them.",
       "category": "CareerTactic",
-      "gameId": 1949
+      "gameId": 1949,
+      "componentValues": {
+        "ABIL_1932_COM_0_VAL0_COM_6_VAL0_COM_0_VAL0": 15
+      },
+      "rawDescription": "Don' Feel Nuthin will also cause your target to deal {ABIL_1932_COM_0_VAL0_COM_6_VAL0_COM_0_VAL0}% more damage as long as the barrier is protecting them."
     },
     {
       "image": "22706",
@@ -835,7 +1053,12 @@
       "note": "",
       "description": "Any time you heal an ally with a Path of Mork ability, there is a 25% chance that another ally within 30 feet of them will also gain 171 health as well.",
       "category": "CareerTactic",
-      "gameId": 1951
+      "gameId": 1951,
+      "componentValues": {
+        "COM_1_RADI_FEET": 30,
+        "COM_1_VAL0_HEALTH": 171
+      },
+      "rawDescription": "Any time you heal an ally with a Path of Mork ability, there is a 25% chance that another ally within {COM_1_RADI_FEET} of them will also gain {COM_1_VAL0_HEALTH} as well."
     },
     {
       "image": "23154",
@@ -851,7 +1074,12 @@
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale",
-      "gameId": 692
+      "gameId": 692,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_DAMAGE": 600,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {COM_1_VAL0_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and heals group members within 100 feet for the full amount of the damage dealt."
     },
     {
       "image": "22694",
@@ -867,7 +1095,12 @@
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 589
+      "gameId": 589,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS": 40,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "Any time one of your direct healing effects critically heals an ally, you will regain {COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22707",
@@ -883,7 +1116,12 @@
       "note": "",
       "description": "Any time you are hit, there is a 25% chance that your movement speed will be increased by 30% for 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 758
+      "gameId": 758,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 30,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Any time you are hit, there is a 25% chance that your movement speed will be increased by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02500",
@@ -899,7 +1137,14 @@
       "note": "Gork's Waaagh! increases effectiveness.",
       "description": "A cone of energy strikes enemies in front of you, up to 40 feet away, dealing 338 elemental damage and reducing their Elemental resistance by 216 for 20 seconds.",
       "category": "Ability",
-      "gameId": 1933
+      "gameId": 1933,
+      "componentValues": {
+        "ABIL_3173_COM_0_RADI_FEET": 40,
+        "ABIL_3173_COM_0_VAL0_ELEMENTALDAMAGE": 338,
+        "ABIL_3173_COM_1_VAL0": 216,
+        "ABIL_3173_COM_1_DURA_SECONDS": 20
+      },
+      "rawDescription": "A cone of energy strikes enemies in front of you, up to {ABIL_3173_COM_0_RADI_FEET} away, dealing {ABIL_3173_COM_0_VAL0_ELEMENTALDAMAGE} and reducing their Elemental resistance by {ABIL_3173_COM_1_VAL0} for {ABIL_3173_COM_1_DURA_SECONDS}."
     },
     {
       "image": "02463",
@@ -915,7 +1160,12 @@
       "note": "",
       "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. If the allies health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
       "category": "Ability",
-      "gameId": 1928
+      "gameId": 1928,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 0,
+        "COM_1_VAL0_HEALTH": 0
+      },
+      "rawDescription": "An ally is charged with Waaagh for {COM_0_DURA_SECONDS}, allowing them to recover from near fatal wounds. If the allies health is reduced below 25%, this effect will immediately dispel itself to restore {COM_1_VAL0_HEALTH} if they are still alive. A player may only be affected by a single Shrug it Off at a time."
     },
     {
       "image": "23155",
@@ -931,7 +1181,11 @@
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale",
-      "gameId": 690
+      "gameId": 690,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 0
+      },
+      "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
     },
     {
       "image": "02588",
@@ -947,7 +1201,13 @@
       "note": "",
       "description": "Reduces the stats of all enemies within 30 feet of your target by 40 (except wounds), and increases all your groupmember's stats by 40 (except wounds) for 15 seconds",
       "category": "Morale",
-      "gameId": 1972
+      "gameId": 1972,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0": 40,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Reduces the stats of all enemies within {COM_0_RADI_FEET} of your target by {COM_0_VAL0} (except wounds), and increases all your groupmember's stats by {COM_0_VAL0} (except wounds) for {COM_0_DURA_SECONDS}"
     },
     {
       "image": "04543",
@@ -963,7 +1223,14 @@
       "note": "",
       "description": "For 10 seconds, all enemies within 20 feet of a spot that you select will have their Elemental resistance reduced by 236 and become snared, reducing their run speed by 60%.",
       "category": "Ability",
-      "gameId": 1927
+      "gameId": 1927,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_RADI_FEET": 20,
+        "COM_1_VAL0": 236,
+        "COM_2_VAL0": 60
+      },
+      "rawDescription": "For {COM_0_DURA_SECONDS}, all enemies within {COM_1_RADI_FEET} of a spot that you select will have their Elemental resistance reduced by {COM_1_VAL0} and become snared, reducing their run speed by {COM_2_VAL0}%."
     },
     {
       "image": "02584",
@@ -979,7 +1246,14 @@
       "note": "",
       "description": "Your chance to disrupt attacks is increased by 5%, and you Detaunt all enemies within 30 feet for 10 seconds, making them hate you less and causing them to deal 50% damage to you. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
-      "gameId": 1915
+      "gameId": 1915,
+      "componentValues": {
+        "COM_2_VAL0_COM_0_VAL0": 5,
+        "COM_0_RADI_FEET": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_0_VAL0": 50
+      },
+      "rawDescription": "Your chance to disrupt attacks is increased by {COM_2_VAL0_COM_0_VAL0}%, and you Detaunt all enemies within {COM_0_RADI_FEET} for {COM_0_DURA_SECONDS}, making them hate you less and causing them to deal {COM_0_VAL0}% damage to you. If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "22709",
@@ -995,7 +1269,9 @@
       "note": "",
       "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
       "category": "CareerTactic",
-      "gameId": 588
+      "gameId": 588,
+      "componentValues": {},
+      "rawDescription": "All of your heals will cause enemy monsters to hate you 25% less than normal."
     },
     {
       "image": "22707",
@@ -1011,7 +1287,11 @@
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 756
+      "gameId": 756,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Spirit resistance by {COM_0_VAL0}."
     },
     {
       "image": "22694",
@@ -1027,7 +1307,12 @@
       "note": "",
       "description": "I'll Take That and Fury of Da Green will now inflict 325 Elemental damage but no longer recieve a base healing value, instead healing for 50% of damage dealt.",
       "category": "CareerTactic",
-      "gameId": 1955
+      "gameId": 1955,
+      "componentValues": {
+        "COM_1_VAL0_SECONDS": 0,
+        "COM_0_VAL1_ACTIONPOINTS": 0
+      },
+      "rawDescription": "Reduces the build time of I'll Take That! by {COM_1_VAL0_SECONDS} but increases the cost by {COM_0_VAL1_ACTIONPOINTS}"
     },
     {
       "image": "22707",
@@ -1043,7 +1328,12 @@
       "note": "",
       "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds.<br>If you hit anyone that you have Detaunted, the effect will end.",
       "category": "CareerTactic",
-      "gameId": 760
+      "gameId": 760,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 75,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal {COM_1_VAL0_COM_0_VAL0}% damage to you for {COM_1_VAL0_COM_0_DURA_SECONDS}.<BR>If you hit anyone that you have Detaunted, the effect will end."
     },
     {
       "image": "abi_gs_getsmarter",
@@ -1059,7 +1349,13 @@
       "note": "",
       "description": "Steals 75 Intelligence from your target while dealing 730 elemental damage over 15 seconds.",
       "category": "Ability",
-      "gameId": 1909
+      "gameId": 1909,
+      "componentValues": {
+        "COM_0_VAL0": 75,
+        "COM_2_VAL0_TOD_ELEMENTALDAMAGE": 730,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Steals {COM_0_VAL0} Intelligence from your target while dealing {COM_2_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "02581",
@@ -1075,7 +1371,12 @@
       "note": "",
       "description": "Steals 180 Action points from your target over 9 seconds.",
       "category": "Ability",
-      "gameId": 1911
+      "gameId": 1911,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ACTIONPOINTS": 180,
+        "COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Steals {COM_0_VAL0_TOD_ACTIONPOINTS} from your target over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "02460",
@@ -1091,7 +1392,12 @@
       "note": "Gork's Waaagh! reduces cast time.",
       "description": "Deals 284 elemental damage and silences your target, making them unable to use magic for 5 seconds.",
       "category": "Ability",
-      "gameId": 1917
+      "gameId": 1917,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 284,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "Deals {COM_0_VAL0_ELEMENTALDAMAGE} and silences your target, making them unable to use magic for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22708",
@@ -1107,7 +1413,11 @@
       "note": "",
       "description": "Reduces You Got Nuthin's cooldown time by 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 1956
+      "gameId": 1956,
+      "componentValues": {
+        "COM_0_VAL0_SECONDS": 10
+      },
+      "rawDescription": "Reduces You Got Nuthin's cooldown time by {COM_0_VAL0_SECONDS}."
     },
     {
       "image": "02506",
@@ -1123,7 +1433,11 @@
       "note": "",
       "description": "Removes 100 AP from each enemy within 30 feet, and gives 50% of the stolen AP to you.",
       "category": "Morale",
-      "gameId": 1966
+      "gameId": 1966,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Removes 100 AP from each enemy within {COM_0_RADI_FEET}, and gives 50% of the stolen AP to you."
     },
     {
       "image": "02585",
@@ -1139,7 +1453,13 @@
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them have thier Toughness reduced by 75 for 20 seconds.",
       "category": "Ability",
-      "gameId": 1916
+      "gameId": 1916,
+      "componentValues": {
+        "COM_0_RADI_FEET": 0,
+        "COM_0_VAL0": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Your target and all other enemies within {COM_0_RADI_FEET} of them have their Toughness reduced by {COM_0_VAL0} for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "02504",
@@ -1155,7 +1475,13 @@
       "note": "",
       "description": "Everyone within 20 feet of your target will have their Strength, Intelligence and Ballistic Skill reduced by 75 for 20 seconds.",
       "category": "Ability",
-      "gameId": 1934
+      "gameId": 1934,
+      "componentValues": {
+        "COM_0_RADI_FEET": 20,
+        "COM_0_VAL0": 75,
+        "COM_0_DURA_SECONDS": 20
+      },
+      "rawDescription": "Everyone within {COM_0_RADI_FEET} of your target will have their Strength, Intelligence and Ballistic Skill reduced by {COM_0_VAL0} for {COM_0_DURA_SECONDS}."
     }
   ]
 }

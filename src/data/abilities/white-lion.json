@@ -85,7 +85,11 @@
       "note": "",
       "description": "You fling a throwing axe at your target, dealing 97 damage.",
       "category": "Ability",
-      "gameId": 9158
+      "gameId": 9158,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 97
+      },
+      "rawDescription": "You fling a throwing axe at your target, dealing {COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "13425",
@@ -101,7 +105,13 @@
       "note": "",
       "description": "An attack which momentarily distracts your enemy, dealing 134 damage to them. Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
       "category": "Ability",
-      "gameId": 9166
+      "gameId": 9166,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 134,
+        "COM_1_VAL0_COM_0_VAL1": 25,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "An attack which momentarily distracts your enemy, dealing {COM_0_VAL0_DAMAGE} to them.  Your targeted groupmate, or your War Lion if you do not have one, will cause {COM_1_VAL0_COM_0_VAL1}% less hatred in all enemy monsters for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22705",
@@ -117,7 +127,11 @@
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 819
+      "gameId": 819,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Elemental resistance by {COM_0_VAL0}."
     },
     {
       "image": "13460",
@@ -133,7 +147,12 @@
       "note": "",
       "description": "Deals 800 damage to all enemies within 30 feet of both you and your War Lion.",
       "category": "Morale",
-      "gameId": 9230
+      "gameId": 9230,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 800,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET} of both you and your War Lion."
     },
     {
       "image": "13420",
@@ -149,7 +168,13 @@
       "note": "Must be at your target's side or rear",
       "description": "You attack your enemy at a vulnerable spot, dealing 114 damage immediately and inflicting them with an Ailment which deals an additional 225 damage over 9 seconds.",
       "category": "Ability",
-      "gameId": 9161
+      "gameId": 9161,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 114,
+        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 225,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "You attack your enemy at a vulnerable spot, dealing {COM_0_VAL0_DAMAGE} immediately and inflicting them with an Ailment which deals an additional {COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22703",
@@ -165,7 +190,12 @@
       "note": "",
       "description": "Blindside will now also disorient your victim for 10 seconds, causing all of their abilities to take an additional 50% to build up.",
       "category": "CareerTactic",
-      "gameId": 9212
+      "gameId": 9212,
+      "componentValues": {
+        "ABIL_9161_COM_1_VAL0_COM_1_DURA_SECONDS": 10,
+        "ABIL_9161_COM_1_VAL0_COM_1_VAL0": 50
+      },
+      "rawDescription": "Blindside will now also disorient your victim for {ABIL_9161_COM_1_VAL0_COM_1_DURA_SECONDS}, causing all of their abilities to take an additional {ABIL_9161_COM_1_VAL0_COM_1_VAL0}% to build up."
     },
     {
       "image": "23156",
@@ -181,7 +211,11 @@
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale",
-      "gameId": 629
+      "gameId": 629,
+      "componentValues": {
+        "COM_1_RADI_FEET": 25
+      },
+      "rawDescription": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within {COM_1_RADI_FEET} in front of you."
     },
     {
       "image": "22701",
@@ -197,7 +231,9 @@
       "note": "",
       "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active.",
       "category": "CareerTactic",
-      "gameId": 9198
+      "gameId": 9198,
+      "componentValues": {},
+      "rawDescription": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active."
     },
     {
       "image": "22701",
@@ -213,7 +249,11 @@
       "note": "",
       "description": "Increases your Strength by 160.",
       "category": "CareerTactic",
-      "gameId": 521
+      "gameId": 521,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Strength by {COM_0_VAL0}."
     },
     {
       "image": "23403",
@@ -229,7 +269,11 @@
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
       "category": "Ability",
-      "gameId": 14423
+      "gameId": 14423,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You bolster yourself for {COM_0_DURA_SECONDS}, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside."
     },
     {
       "image": "13418",
@@ -245,7 +289,9 @@
       "note": "",
       "description": "You call your tamed War Lion to come forth and fight with you.<br>You may only have a single War Lion at a time.",
       "category": "Ability",
-      "gameId": 9159
+      "gameId": 9159,
+      "componentValues": {},
+      "rawDescription": "You call your tamed War Lion to come forth and fight with you.<BR>You may only have a single War Lion at a time."
     },
     {
       "image": "22705",
@@ -261,7 +307,12 @@
       "note": "",
       "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 818
+      "gameId": 818,
+      "componentValues": {
+        "ABIL_3995_COM_0_VAL0_TOD": 252,
+        "ABIL_3995_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional {ABIL_3995_COM_0_VAL0_TOD} Spirit damage over {ABIL_3995_COM_0_DURA_SECONDS}."
     },
     {
       "image": "13429",
@@ -277,7 +328,12 @@
       "note": "",
       "description": "You and your War Lion charge into the thick of battle, increasing your movement speed by 50 for 7 seconds. If you or your War Lion use any abilities, this effect will immediately end.",
       "category": "Ability",
-      "gameId": 9184
+      "gameId": 9184,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "You and your War Lion charge into the thick of battle, increasing your movement speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  If you or your War Lion use any abilities, this effect will immediately end."
     },
     {
       "image": "13430",
@@ -293,7 +349,13 @@
       "note": "",
       "description": "A sundering blow which deals 134 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 10 seconds.",
       "category": "Ability",
-      "gameId": 9170
+      "gameId": 9170,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 134,
+        "COM_1_VAL0_COM_0_VAL0": 40,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A sundering blow which deals {COM_0_VAL0_DAMAGE} and inflicts your victim with an Ailment which reduces their movement speed by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22705",
@@ -309,7 +371,13 @@
       "note": "",
       "description": "You gain an additional 50 Morale every 5 seconds as long as you have an active War Lion. If your War Lion ever dies, however, you will lose 600 Morale.",
       "category": "CareerTactic",
-      "gameId": 9205
+      "gameId": 9205,
+      "componentValues": {
+        "COM_1_VAL0": 50,
+        "COM_0_FREQ_SECONDS": 5,
+        "COM_3_VAL0": 600
+      },
+      "rawDescription": "You gain an additional {COM_1_VAL0} Morale every {COM_0_FREQ_SECONDS} as long as you have an active War Lion.  If your War Lion ever dies, however, you will lose {COM_3_VAL0} Morale."
     },
     {
       "image": "23157",
@@ -325,7 +393,11 @@
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
       "category": "Morale",
-      "gameId": 631
+      "gameId": 631,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 7
+      },
+      "rawDescription": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "13422",
@@ -341,7 +413,16 @@
       "note": "",
       "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for 89 damage, and your pet strikes its target for 109 damage. If you are within 35 feet of your pet's target, you will also strike that enemy for 109 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 89 damage as well.",
       "category": "Ability",
-      "gameId": 9163
+      "gameId": 9163,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 89,
+        "ABIL_3952_COM_0_VAL0_DAMAGE": 109,
+        "COM_2_RADI_FEET": 35,
+        "COM_2_VAL0_DAMAGE": 109,
+        "ABIL_3952_COM_2_RADI_FEET": 35,
+        "ABIL_3952_COM_2_VAL0_DAMAGE": 89
+      },
+      "rawDescription": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for {COM_0_VAL0_DAMAGE}, and your pet strikes its target for {ABIL_3952_COM_0_VAL0_DAMAGE}.  If you are within {COM_2_RADI_FEET} of your pet's target, you will also strike that enemy for {COM_2_VAL0_DAMAGE}, and likewise, if your pet is within {ABIL_3952_COM_2_RADI_FEET} of your target, it will also strike your enemy for {ABIL_3952_COM_2_VAL0_DAMAGE} as well."
     },
     {
       "image": "13443",
@@ -357,7 +438,11 @@
       "note": "Target must be below 50% health",
       "description": "A ruthless attack which deals 309 damage and will almost always deal critical damage to a wounded foe.",
       "category": "Ability",
-      "gameId": 9190
+      "gameId": 9190,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 309
+      },
+      "rawDescription": "A ruthless attack which deals {COM_0_VAL0_DAMAGE} and will almost always deal critical damage to a wounded foe."
     },
     {
       "image": "22705",
@@ -373,7 +458,11 @@
       "note": "",
       "description": "Your attacks have a 10% reduced chance to be defended against.",
       "category": "CareerTactic",
-      "gameId": 823
+      "gameId": 823,
+      "componentValues": {
+        "COM_0_VAL1": 10
+      },
+      "rawDescription": "Your attacks have a {COM_0_VAL1}% reduced chance to be defended against."
     },
     {
       "image": "13459",
@@ -389,7 +478,11 @@
       "note": "",
       "description": "Deals 1800 damage to your target, and heals you for 50% of the damage done.",
       "category": "Morale",
-      "gameId": 9226
+      "gameId": 9226,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1800
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target, and heals you for 50% of the damage done."
     },
     {
       "image": "13440",
@@ -405,7 +498,13 @@
       "note": "",
       "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 15 feet of either one of you and inflicting an Ailment which causes 390 Spirit damage over 15 seconds to all affected enemies.",
       "category": "Ability",
-      "gameId": 9187
+      "gameId": 9187,
+      "componentValues": {
+        "COM_0_RADI_FEET": 15,
+        "COM_1_VAL0_TOD_SPIRITDAMAGE": 390,
+        "COM_1_DURA_SECONDS": 15
+      },
+      "rawDescription": "You and your War Lion each unleash a blasting shout, interrupting any enemies within {COM_0_RADI_FEET} of either one of you and inflicting an Ailment which causes {COM_1_VAL0_TOD_SPIRITDAMAGE} over {COM_1_DURA_SECONDS} to all affected enemies."
     },
     {
       "image": "13457",
@@ -421,7 +520,12 @@
       "note": "",
       "description": "Deals 900 damage to your target, and roots them in place for 10 seconds.",
       "category": "Morale",
-      "gameId": 9224
+      "gameId": 9224,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 900,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target, and roots them in place for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "13433",
@@ -437,7 +541,11 @@
       "note": "",
       "description": "Your training and Elven grace allows you to remove all roots and snares from yourself and your War Lion. For the next 10 seconds, roots and snares will have no effect on you or your War Lion.",
       "category": "Ability",
-      "gameId": 9173
+      "gameId": 9173,
+      "componentValues": {
+        "COM_2_DURA_SECONDS": 10
+      },
+      "rawDescription": "Your training and Elven grace allows you to remove all roots and snares from yourself and your War Lion.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you or your War Lion."
     },
     {
       "image": "13438",
@@ -453,7 +561,9 @@
       "note": "Requires an active pet",
       "description": "You command your War Lion to toss its target through the air, knocking them closer to you.",
       "category": "Ability",
-      "gameId": 9178
+      "gameId": 9178,
+      "componentValues": {},
+      "rawDescription": "You command your War Lion to toss its target through the air, knocking them closer to you."
     },
     {
       "image": "13435",
@@ -469,7 +579,13 @@
       "note": "",
       "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing 209 damage. The enemies attack speed is reduced by 20% for the next 10 seconds. Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow.",
       "category": "Ability",
-      "gameId": 9175
+      "gameId": 9175,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 209,
+        "COM_4_VAL0_COM_0_VAL1": 20,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing {COM_0_VAL0_DAMAGE}. The enemies attack speed is reduced by {COM_4_VAL0_COM_0_VAL1}% for the next {COM_4_VAL0_COM_0_DURA_SECONDS}.  Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow."
     },
     {
       "image": "22704",
@@ -485,7 +601,11 @@
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
       "category": "CareerTactic",
-      "gameId": 523
+      "gameId": 523,
+      "componentValues": {
+        "COM_0_VAL0": 15
+      },
+      "rawDescription": "All of your attacks deal {COM_0_VAL0}% more damage when you strike an enemy from the sides or rear."
     },
     {
       "image": "22702",
@@ -501,7 +621,11 @@
       "note": "",
       "description": "Increases the chance to parry attacks by 10% for both you and your pet, as long as you have a pet active.",
       "category": "CareerTactic",
-      "gameId": 9200
+      "gameId": 9200,
+      "componentValues": {
+        "COM_0_VAL0": 10
+      },
+      "rawDescription": "Increases the chance to parry attacks by {COM_0_VAL0}% for both you and your pet, as long as you have a pet active."
     },
     {
       "image": "05004",
@@ -517,7 +641,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "13458",
@@ -533,7 +663,13 @@
       "note": "",
       "description": "Deals 1200 damage over 9s to all enemies in front of you, up to 65 feet away.",
       "category": "Morale",
-      "gameId": 9225
+      "gameId": 9225,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 1200,
+        "COM_0_DURA_SECONDS": 9,
+        "COM_0_RADI_FEET": 65
+      },
+      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
     },
     {
       "image": "23158",
@@ -549,7 +685,13 @@
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
       "category": "Morale",
-      "gameId": 628
+      "gameId": 628,
+      "componentValues": {
+        "COM_0_VAL0": 200,
+        "COM_2_VAL0": 160,
+        "COM_2_DURA_SECONDS": 30
+      },
+      "rawDescription": "You stare down your opponent, draining {COM_0_VAL0} of their Action Points into yourself, and reducing their Strength by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
     },
     {
       "image": "13445",
@@ -565,7 +707,13 @@
       "note": "",
       "description": "You strike at your enemy with a brutal attack which causes 184 damage and can not be defended against. The victim's armor is reduced by 1000 for the next 10 seconds.",
       "category": "Ability",
-      "gameId": 9192
+      "gameId": 9192,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 184,
+        "COM_1_VAL0": 1000,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "You strike at your enemy with a brutal attack which causes {COM_0_VAL0_DAMAGE} and can not be defended against. The victim's armor is reduced by {COM_1_VAL0} for the next {COM_1_DURA_SECONDS}."
     },
     {
       "image": "23159",
@@ -581,7 +729,9 @@
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale",
-      "gameId": 630
+      "gameId": 630,
+      "componentValues": {},
+      "rawDescription": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds."
     },
     {
       "image": "22702",
@@ -597,7 +747,12 @@
       "note": "",
       "description": "Increases your Strength by 50, and increases your War Lion's Wounds by 100.",
       "category": "CareerTactic",
-      "gameId": 9214
+      "gameId": 9214,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_1_VAL0": 100
+      },
+      "rawDescription": "Increases your Strength by {COM_0_VAL0}, and increases your War Lion's Wounds by {COM_1_VAL0}."
     },
     {
       "image": "13419",
@@ -613,7 +768,11 @@
       "note": "",
       "description": "A brutal chop at your enemy which deals 134 damage.",
       "category": "Ability",
-      "gameId": 9160
+      "gameId": 9160,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 134
+      },
+      "rawDescription": "A brutal chop at your enemy which deals {COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "22694",
@@ -629,7 +788,12 @@
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
       "category": "CareerTactic",
-      "gameId": 526
+      "gameId": 526,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0_TOD": 606,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Any time you critically hit an enemy they will begin to bleed, suffering additional {COM_1_VAL0_COM_0_VAL0_TOD} Corporeal damage over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "13461",
@@ -645,7 +809,11 @@
       "note": "",
       "description": "Your War Lion is fully healed, and all group members within 100 feet instantly gain 250 Action Points.",
       "category": "Morale",
-      "gameId": 9231
+      "gameId": 9231,
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 250
+      },
+      "rawDescription": "Your War Lion is fully healed, and all group members within 100 feet instantly gain {COM_1_VAL0_ACTIONPOINTS}."
     },
     {
       "image": "13447",
@@ -661,7 +829,12 @@
       "note": "Requires an active pet",
       "description": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds.  During this time, your pet will deal an additional 159 damage every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds.",
       "category": "Ability",
-      "gameId": 9194
+      "gameId": 9194,
+      "componentValues": {
+        "COM_3_DURA_SECONDS": 0,
+        "COM_5_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next {COM_3_DURA_SECONDS}.  During this time, your pet will deal an additional {COM_5_VAL0_DAMAGE} every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds."
     },
     {
       "image": "22694",
@@ -677,7 +850,12 @@
       "note": "",
       "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals 309 Spirit damage.",
       "category": "CareerTactic",
-      "gameId": 9209
+      "gameId": 9209,
+      "componentValues": {
+        "COM_1_VAL1": 15,
+        "ABIL_9167_COM_1_VAL0_SPIRITDAMAGE": 309
+      },
+      "rawDescription": "Lion's Fury no longer requires that the target be Cursed, costs {COM_1_VAL1} fewer action points, and deals {ABIL_9167_COM_1_VAL0_SPIRITDAMAGE}."
     },
     {
       "image": "13426",
@@ -693,7 +871,11 @@
       "note": "Target must be Cursed",
       "description": "You draw upon your mystical Elven heritage and furiously attack your target, dealing 184 Spirit damage.",
       "category": "Ability",
-      "gameId": 9167
+      "gameId": 9167,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 184
+      },
+      "rawDescription": "You draw upon your mystical Elven heritage and furiously attack your target, dealing {COM_0_VAL0_SPIRITDAMAGE}."
     },
     {
       "image": "22709",
@@ -709,7 +891,11 @@
       "note": "",
       "description": "You deal 25% more damage and the cooldown of Pounce is removed, but you are unable to call forth your War Lion, and it will depart if it has already been summoned.",
       "category": "CareerTactic",
-      "gameId": 9202
+      "gameId": 9202,
+      "componentValues": {
+        "COM_0_VAL0": 25
+      },
+      "rawDescription": "You deal {COM_0_VAL0}% more damage and the cooldown of Pounce is removed, but you are unable to call forth your War Lion, and it will depart if it has already been summoned."
     },
     {
       "image": "13423",
@@ -725,7 +911,12 @@
       "note": "",
       "description": "Your War Lion regains 785 health over 15 seconds.",
       "category": "Ability",
-      "gameId": 9164
+      "gameId": 9164,
+      "componentValues": {
+        "COM_0_VAL0_TOD_HEALTH": 785,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Your War Lion regains {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "13434",
@@ -741,7 +932,13 @@
       "note": "",
       "description": "A feral attack which deals 159 damage and inspires your groupmates to hunt as a pack. Within the next 5 seconds, each group member within 100 feet will deal an additional 100 damage with their next attack.",
       "category": "Ability",
-      "gameId": 9174
+      "gameId": 9174,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 159,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5,
+        "COM_1_VAL0_COM_1_VAL0_DAMAGE": 100
+      },
+      "rawDescription": "A feral attack which deals {COM_0_VAL0_DAMAGE} and inspires your groupmates to hunt as a pack.  Within the next {COM_1_VAL0_COM_0_DURA_SECONDS}, each group member within 100 feet will deal an additional {COM_1_VAL0_COM_1_VAL0_DAMAGE} with their next attack."
     },
     {
       "image": "22701",
@@ -757,7 +954,11 @@
       "note": "",
       "description": "Trained To Hunt will now also increase your autoattack speed by 50%",
       "category": "CareerTactic",
-      "gameId": 9210
+      "gameId": 9210,
+      "componentValues": {
+        "ABIL_9172_COM_5_VAL0_COM_0_VAL1": 0
+      },
+      "rawDescription": "Trained To Hunt will now also increase your autoattack speed by {ABIL_9172_COM_5_VAL0_COM_0_VAL1}%."
     },
     {
       "image": "22701",
@@ -773,7 +974,9 @@
       "note": "",
       "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active.",
       "category": "CareerTactic",
-      "gameId": 9198
+      "gameId": 9198,
+      "componentValues": {},
+      "rawDescription": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active."
     },
     {
       "image": "13439",
@@ -789,7 +992,11 @@
       "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
       "description": "You pounce forwards, leaping towards your target and causing 159 damage wehen you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air.",
       "category": "Ability",
-      "gameId": 9186
+      "gameId": 9186,
+      "componentValues": {
+        "COM_2_VAL0_DAMAGE": 0
+      },
+      "rawDescription": "You pounce forwards, leaping towards your target and causing {COM_2_VAL0_DAMAGE} when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air."
     },
     {
       "image": "13442",
@@ -805,7 +1012,12 @@
       "note": "",
       "description": "For the next 10 seconds, you will deal 25% more damage any time you strike an enemy in the sides or back.",
       "category": "Ability",
-      "gameId": 9189
+      "gameId": 9189,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_0_VAL0": 25
+      },
+      "rawDescription": "For the next {COM_0_DURA_SECONDS}, you will deal {COM_0_VAL0}% more damage any time you strike an enemy in the sides or back."
     },
     {
       "image": "13462",
@@ -821,7 +1033,11 @@
       "note": "",
       "description": "For the next 10 seconds, all of your abilities will cool down immediately and not cost any action points. This will also affect your War Lion as well.",
       "category": "Morale",
-      "gameId": 9232
+      "gameId": 9232,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "For the next {COM_0_DURA_SECONDS}, all of your abilities will cool down immediately and not cost any action points.  This will also affect your War Lion as well."
     },
     {
       "image": "23160",
@@ -837,7 +1053,12 @@
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale",
-      "gameId": 633
+      "gameId": 633,
+      "componentValues": {
+        "COM_0_VAL0_ACTIONPOINTS": 10,
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "A prolonged fervor that grants {COM_0_VAL0_ACTIONPOINTS} a second to everyone in your group within 100 feet of you for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22696",
@@ -853,7 +1074,12 @@
       "note": "",
       "description": "If your War Lion is killed, you will go into a rage and deal 50% more damage for 10 seconds.",
       "category": "CareerTactic",
-      "gameId": 9201
+      "gameId": 9201,
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL0": 50,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "If your War Lion is killed, you will go into a rage and deal {COM_1_VAL0_COM_0_VAL0}% more damage for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "22702",
@@ -869,7 +1095,11 @@
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 246 damage which they can not prevent.",
       "category": "CareerTactic",
-      "gameId": 528
+      "gameId": 528,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 246
+      },
+      "rawDescription": "Each time you parry an enemy's attack, you will strike them back for {COM_1_VAL0_DAMAGE} which they can not prevent."
     },
     {
       "image": "23161",
@@ -885,7 +1115,11 @@
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale",
-      "gameId": 627
+      "gameId": 627,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200
+      },
+      "rawDescription": "A directed strike that inflicts {COM_0_VAL0_DAMAGE} to your target."
     },
     {
       "image": "13431",
@@ -901,7 +1135,14 @@
       "note": "",
       "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 345 damage over 9 seconds. If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
       "category": "Ability",
-      "gameId": 9171
+      "gameId": 9171,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 345,
+        "COM_0_DURA_SECONDS": 9,
+        "COM_1_VAL0": 75,
+        "COM_1_DURA_SECONDS": 9
+      },
+      "rawDescription": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}.  If you attack an enemy from the sides or back, then you will also reduce their Strength by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "13436",
@@ -917,7 +1158,12 @@
       "note": "",
       "description": "A broad sweep of your axe which deals 134 damage to all enemies in front of you, up to 25 feet away.",
       "category": "Ability",
-      "gameId": 9176
+      "gameId": 9176,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 134,
+        "COM_0_RADI_FEET": 25
+      },
+      "rawDescription": "A broad sweep of your axe which deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
     },
     {
       "image": "22703",
@@ -933,7 +1179,11 @@
       "note": "",
       "description": "Increases your War Lion's movement speed by 50%.",
       "category": "CareerTactic",
-      "gameId": 9199
+      "gameId": 9199,
+      "componentValues": {
+        "COM_1_VAL0": 50
+      },
+      "rawDescription": "Increases your War Lion's movement speed by {COM_1_VAL0}%."
     },
     {
       "image": "13428",
@@ -949,7 +1199,15 @@
       "note": "",
       "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters.<br>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
       "category": "Ability",
-      "gameId": 9169
+      "gameId": 9169,
+      "componentValues": {
+        "COM_1_RADI_FEET": 30,
+        "COM_1_VAL0": 50,
+        "COM_1_DURA_SECONDS": 5,
+        "COM_3_DURA_SECONDS": 5,
+        "COM_3_VAL1": 25
+      },
+      "rawDescription": "You cower submissively, causing all enemies within {COM_1_RADI_FEET} to hate you less and deal only {COM_1_VAL0}% damage to you for {COM_1_DURA_SECONDS}.  For the next {COM_3_DURA_SECONDS}, you will cause {COM_3_VAL1}% less hate in all enemy monsters.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them."
     },
     {
       "image": "13424",
@@ -965,7 +1223,12 @@
       "note": "",
       "description": "A powerful axe chop which deals 159 damage. If you are behind the enemy, then this attack will ignore 618 armor.",
       "category": "Ability",
-      "gameId": 9165
+      "gameId": 9165,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 159,
+        "COM_2_VAL0": 618
+      },
+      "rawDescription": "A powerful axe chop which deals {COM_0_VAL0_DAMAGE}.  If you are behind the enemy, then this attack will ignore {COM_2_VAL0} armor."
     },
     {
       "image": "22701",
@@ -981,7 +1244,12 @@
       "note": "",
       "description": "Slashing Blade and Sundering Chop will now cause an additional 258 damage over 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 9204
+      "gameId": 9204,
+      "componentValues": {
+        "ABIL_3961_COM_0_VAL0_TOD_DAMAGE": 258,
+        "ABIL_3961_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "Slashing Blade and Sundering Chop will now cause an additional {ABIL_3961_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3961_COM_0_DURA_SECONDS}."
     },
     {
       "image": "13444",
@@ -997,7 +1265,13 @@
       "note": "Must be at your target's side or rear",
       "description": "You call forth a small bit of power as you attack your enemy, dealing 184 damage and causing all healing that they use within the next 10 seconds to become 50% as effective.",
       "category": "Ability",
-      "gameId": 9191
+      "gameId": 9191,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 184,
+        "COM_1_DURA_SECONDS": 10,
+        "COM_1_VAL1": 50
+      },
+      "rawDescription": "You call forth a small bit of power as you attack your enemy, dealing {COM_0_VAL0_DAMAGE} and causing all healing that they use within the next {COM_1_DURA_SECONDS} to become {COM_1_VAL1}% as effective."
     },
     {
       "image": "13437",
@@ -1013,7 +1287,13 @@
       "note": "Requires an active pet",
       "description": "You command your pet to go for the throat! Your War Lion's next attack within 20 seconds will deal an additional 159 damage and will Silence its victim, making them unable to use magic for 4 seconds.",
       "category": "Ability",
-      "gameId": 9177
+      "gameId": 9177,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 20,
+        "ABIL_3958_COM_0_VAL0_DAMAGE": 159,
+        "ABIL_3958_COM_1_DURA_SECONDS": 4
+      },
+      "rawDescription": "You command your pet to go for the throat!  Your War Lion's next attack within {COM_0_DURA_SECONDS} will deal an additional {ABIL_3958_COM_0_VAL0_DAMAGE} and will Silence its victim, making them unable to use magic for {ABIL_3958_COM_1_DURA_SECONDS}."
     },
     {
       "image": "13432",
@@ -1029,7 +1309,12 @@
       "note": "",
       "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional 159 damage over 3 seconds.<br><br>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability",
-      "gameId": 9172
+      "gameId": 9172,
+      "componentValues": {
+        "COM_4_VAL0_COM_0_VAL0_TOD_DAMAGE": 159,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items.  Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional {COM_4_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_4_VAL0_COM_0_DURA_SECONDS}.<BR><BR>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds."
     },
     {
       "image": "13421",
@@ -1045,7 +1330,11 @@
       "note": "",
       "description": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by 50.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability",
-      "gameId": 9162
+      "gameId": 9162,
+      "componentValues": {
+        "COM_2_VAL0": 0
+      },
+      "rawDescription": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by {COM_2_VAL0}.<BR><BR>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time."
     },
     {
       "image": "13427",
@@ -1061,7 +1350,11 @@
       "note": "",
       "description": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by 5% as long as you are at your target's side or back.<br><br>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies.",
       "category": "Ability",
-      "gameId": 9168
+      "gameId": 9168,
+      "componentValues": {
+        "COM_2_VAL1": 0
+      },
+      "rawDescription": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by {COM_2_VAL1}% as long as you are at your target's sides or back.<BR><BR>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies."
     },
     {
       "image": "13441",
@@ -1077,7 +1370,13 @@
       "note": "",
       "description": "You rapidly spin your axe around for up to 3 seconds, dealing 131 damage twice a second to all enemies within 30 feet. This ability will end if you lose your concentration or run out of action points.",
       "category": "Ability",
-      "gameId": 9188
+      "gameId": 9188,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_1_VAL0_DAMAGE": 131,
+        "COM_1_RADI_FEET": 30
+      },
+      "rawDescription": "You rapidly spin your axe around for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} twice a second to all enemies within {COM_1_RADI_FEET}.  This ability will end if you lose your concentration or run out of action points."
     },
     {
       "image": "13446",
@@ -1093,7 +1392,13 @@
       "note": "Requires an active pet",
       "description": "You command your pet to attack wihout mercy! Your War Lion's next attack within 20 seconds will deal an additional 209 physical damage and will knock down its victim for 3 seconds.",
       "category": "Ability",
-      "gameId": 9193
+      "gameId": 9193,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 0,
+        "ABIL_3959_COM_0_VAL0_DAMAGE": 0,
+        "ABIL_3959_COM_1_DURA_SECONDS": 0
+      },
+      "rawDescription": "You command your pet to attack without mercy!  Your War Lion's next attack within {COM_0_DURA_SECONDS} will deal an additional {ABIL_3959_COM_0_VAL0_DAMAGE} and will knock down its victim for {ABIL_3959_COM_1_DURA_SECONDS}."
     },
     {
       "image": "22706",
@@ -1109,7 +1414,12 @@
       "note": "",
       "description": "Trained to kill now restores 80 health to you and your War Lion every 5 seconds.",
       "category": "CareerTactic",
-      "gameId": 9216
+      "gameId": 9216,
+      "componentValues": {
+        "ABIL_9162_COM_4_VAL0_HEALTH": 0,
+        "ABIL_9162_COM_4_FREQ_SECONDS": 0
+      },
+      "rawDescription": "Trained To Kill now restores {ABIL_9162_COM_4_VAL0_HEALTH} to you and your War Lion every {ABIL_9162_COM_4_FREQ_SECONDS}."
     },
     {
       "image": "22706",
@@ -1125,7 +1435,11 @@
       "note": "",
       "description": "Your War Lion now causes 75% less hatred in hostile monsters.",
       "category": "CareerTactic",
-      "gameId": 9215
+      "gameId": 9215,
+      "componentValues": {
+        "COM_0_VAL1": 75
+      },
+      "rawDescription": "Your War Lion now causes {COM_0_VAL1}% less hatred in hostile monsters."
     },
     {
       "image": "22708",
@@ -1141,7 +1455,11 @@
       "note": "",
       "description": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents armor, additionally reduces the action point cost of Slashing Blade and Hack by 50%.",
       "category": "CareerTactic",
-      "gameId": 2929
+      "gameId": 2929,
+      "componentValues": {
+        "COM_0_VAL1": 0
+      },
+      "rawDescription": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents Armor, additionally reduces the action point costs of Slashing Blade and Hack by {COM_0_VAL1}%."
     },
     {
       "image": "22706",
@@ -1157,7 +1475,11 @@
       "note": "",
       "description": "Trained to Threaten will now reduce all hatred that you cause in hostile monsters by 75%.",
       "category": "CareerTactic",
-      "gameId": 9213
+      "gameId": 9213,
+      "componentValues": {
+        "ABIL_9168_COM_4_VAL1": 0
+      },
+      "rawDescription": "Trained To Threaten will now reduce all hatred that you cause in hostile monsters by {ABIL_9168_COM_4_VAL1}%."
     },
     {
       "image": "22694",
@@ -1173,7 +1495,13 @@
       "note": "",
       "description": "Baiting Strike will now also increase your chance to disrupt spells by 10% for 15 seconds, and increase your armor by 618.",
       "category": "CareerTactic",
-      "gameId": 9217
+      "gameId": 9217,
+      "componentValues": {
+        "ABIL_9166_COM_4_VAL0": 10,
+        "ABIL_9166_COM_4_DURA_SECONDS": 15,
+        "ABIL_9166_COM_3_VAL0": 618
+      },
+      "rawDescription": "Baiting Strike will now also increase your chance to disrupt spells by {ABIL_9166_COM_4_VAL0}% for {ABIL_9166_COM_4_DURA_SECONDS}, and increase your armor by {ABIL_9166_COM_3_VAL0}."
     }
   ]
 }

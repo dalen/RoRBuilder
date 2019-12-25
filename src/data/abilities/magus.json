@@ -82,7 +82,13 @@
       "note": "",
       "description": "You summon and absorb orange flames to increase your wounds by 150, increasing your total life for 20 seconds. During this time, any enemies striking you have a 25% chance to recieve 234 Elemental damage from your flames.",
       "category": "Ability",
-      "gameId": 8501
+      "gameId": 8501,
+      "componentValues": {
+        "COM_0_VAL0": 0,
+        "COM_0_DURA_SECONDS": 0,
+        "COM_3_VAL0_ELEMENTALDAMAGE": 0
+      },
+      "rawDescription": "You summon and absorb orange flames to increase your Wounds by {COM_0_VAL0}, increasing your total life for {COM_0_DURA_SECONDS}. During this time, any enemies striking you has a 25% chance to receive {COM_3_VAL0_ELEMENTALDAMAGE} from your flames."
     },
     {
       "image": "05289",
@@ -98,7 +104,13 @@
       "note": "",
       "description": "Your disk emanates an aura of pain that inflicts 268 spirit damage every 3 seconds for 9 seconds.",
       "category": "Ability",
-      "gameId": 8500
+      "gameId": 8500,
+      "componentValues": {
+        "COM_1_VAL0_SPIRITDAMAGE": 268,
+        "COM_0_FREQ_SECONDS": 3,
+        "COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "Your disk emanates an aura of pain that inflicts {COM_1_VAL0_SPIRITDAMAGE} every {COM_0_FREQ_SECONDS} for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22714",
@@ -114,7 +126,12 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 elemental damage over 5 seconds to anyone who hits you.",
       "category": "CareerTactic",
-      "gameId": 800
+      "gameId": 800,
+      "componentValues": {
+        "ABIL_3595_COM_0_VAL0_TOD": 0,
+        "ABIL_3595_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Any time you are attacked, there is a 25% chance that you will lash out for {ABIL_3595_COM_0_VAL0_TOD} Elemental damage over {ABIL_3595_COM_0_DURA_SECONDS} to anyone who hits you."
     },
     {
       "image": "05307",
@@ -130,7 +147,12 @@
       "note": "",
       "description": "Bends and twists your target from within to deal 835 elemental damage over 15 seconds.",
       "category": "Ability",
-      "gameId": 8488
+      "gameId": 8488,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 835,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Bends and twists your target from within to deal {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "05294",
@@ -146,7 +168,11 @@
       "note": "",
       "description": "An un-defendable bolt of far-traveling force that inflicts 633 elemental damage.",
       "category": "Ability",
-      "gameId": 8496
+      "gameId": 8496,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 0
+      },
+      "rawDescription": "An undefendable bolt of far-traveling force that inflicts {COM_0_VAL0_ELEMENTALDAMAGE}."
     },
     {
       "image": "22706",
@@ -162,7 +188,9 @@
       "note": "",
       "description": "Surging Violet Fire will now heal you for 50% of damage dealt.",
       "category": "CareerTactic",
-      "gameId": 8516
+      "gameId": 8516,
+      "componentValues": {},
+      "rawDescription": "Surging Violet Fire will now heal you for 50% of damage dealt."
     },
     {
       "image": "22704",
@@ -178,7 +206,9 @@
       "note": "",
       "description": "Increases the critical chance for all Path of Havoc spells by 15%.",
       "category": "CareerTactic",
-      "gameId": 8518
+      "gameId": 8518,
+      "componentValues": {},
+      "rawDescription": "Increases the critical hit rate of all Path of Havoc spells by 15%."
     },
     {
       "image": "22713",
@@ -194,7 +224,9 @@
       "note": "",
       "description": "Daemons can now be summoned instantly and the cost of Resummon is reduced to 0 Action Points.",
       "category": "CareerTactic",
-      "gameId": 8522
+      "gameId": 8522,
+      "componentValues": {},
+      "rawDescription": "Daemons can now be summoned instantly and the cost of Resummon is reduced to 0 Action Points."
     },
     {
       "image": "05297",
@@ -210,7 +242,14 @@
       "note": "",
       "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 75 feet of the vortex towards it's center and then snaring everyone within 30 feet a second later by 40% for 4 seconds. Monsters will be knocked down by the initial pull.",
       "category": "Ability",
-      "gameId": 8499
+      "gameId": 8499,
+      "componentValues": {
+        "COM_1_RADI_FEET": 0,
+        "COM_4_RADI_FEET": 0,
+        "COM_4_VAL0": 0,
+        "COM_4_DURA_SECONDS": 0
+      },
+      "rawDescription": "A rift in the warp is opened briefly, pulling up to six enemy players within {COM_1_RADI_FEET} of the vortex towards its center and then snaring everyone within {COM_4_RADI_FEET} a second later by {COM_4_VAL0}% for {COM_4_DURA_SECONDS}. Monsters will be knocked down by the initial pull."
     },
     {
       "image": "22694",
@@ -226,7 +265,11 @@
       "note": "",
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic",
-      "gameId": 569
+      "gameId": 569,
+      "componentValues": {
+        "COM_0_VAL0": 50
+      },
+      "rawDescription": "Your cast times are reduced to {COM_0_VAL0}% when you are within 20 feet of your target."
     },
     {
       "image": "05102",
@@ -242,7 +285,11 @@
       "note": "",
       "description": "Focusing the great powers of Chaos for 10 seconds, you may tirelessly use all your abilities for no AP cost.",
       "category": "Morale",
-      "gameId": 8529
+      "gameId": 8529,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "Focusing the great powers of Chaos for {COM_0_DURA_SECONDS}, you may tirelessly use all your abilities for no AP cost."
     },
     {
       "image": "05309",
@@ -258,7 +305,12 @@
       "note": "",
       "description": "You surround yourself with daemonic protection, increasing your Armor by 560 for up to 1 hours.",
       "category": "Ability",
-      "gameId": 8492
+      "gameId": 8492,
+      "componentValues": {
+        "COM_0_VAL0": 560,
+        "COM_0_DURA_HOURS": 1
+      },
+      "rawDescription": "You surround yourself with daemonic protection, increasing your Armor by {COM_0_VAL0} for up to {COM_0_DURA_HOURS}."
     },
     {
       "image": "22709",
@@ -274,7 +326,11 @@
       "note": "",
       "description": "Your damage is increased by 15% when under 45 feet away from your target.",
       "category": "CareerTactic",
-      "gameId": 8524
+      "gameId": 8524,
+      "componentValues": {
+        "COM_1_VAL0": 15
+      },
+      "rawDescription": "Your damage is increased by {COM_1_VAL0}% when under 45 feet away from your target."
     },
     {
       "image": "05310",
@@ -290,7 +346,13 @@
       "note": "",
       "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close dealing 243 spirit damage to all enemies within 30 feet and staggering them for 5 seconds, preventing all actions until they take damage.",
       "category": "Ability",
-      "gameId": 8541
+      "gameId": 8541,
+      "componentValues": {
+        "ABIL_383_COM_0_VAL0_DAMAGE": 0,
+        "COM_2_RADI_FEET": 0,
+        "ABIL_3167_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close, dealing {ABIL_383_COM_0_VAL0_DAMAGE} to all enemies within {COM_2_RADI_FEET} and staggering them for {ABIL_3167_COM_0_DURA_SECONDS}, preventing all actions until they take damage."
     },
     {
       "image": "05270",
@@ -306,7 +368,11 @@
       "note": "",
       "description": "An ethereal tentacle swipes the target in front of you for 203 spirit damage.",
       "category": "Ability",
-      "gameId": 8472
+      "gameId": 8472,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 203
+      },
+      "rawDescription": "An ethereal tentacle swipes the target in front of you for {COM_0_VAL0_SPIRITDAMAGE}."
     },
     {
       "image": "05304",
@@ -322,7 +388,13 @@
       "note": "",
       "description": "Deals 328 Spirit damage and reduces movement speed by 40% for 10 seconds.",
       "category": "Ability",
-      "gameId": 8484
+      "gameId": 8484,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 328,
+        "COM_1_VAL0": 40,
+        "COM_1_DURA_SECONDS": 10
+      },
+      "rawDescription": "Deals {COM_0_VAL0_SPIRITDAMAGE} and reduces movement speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22702",
@@ -338,7 +410,11 @@
       "note": "",
       "description": "Forms a pact with newly summoned daemons that increases both you and your daemon's Toughness by 100 while your daemon remains in this realm.",
       "category": "CareerTactic",
-      "gameId": 8523
+      "gameId": 8523,
+      "componentValues": {
+        "COM_0_VAL0": 0
+      },
+      "rawDescription": "Forms a pact with newly summoned daemons that increases both you and your daemon's Toughness by {COM_0_VAL0} while it remains in this realm."
     },
     {
       "image": "22697",
@@ -354,7 +430,11 @@
       "note": "",
       "description": "Increases the ranges of all Path of Changing abilities by 25%.",
       "category": "CareerTactic",
-      "gameId": 8520
+      "gameId": 8520,
+      "componentValues": {
+        "COM_0_VAL1": 25
+      },
+      "rawDescription": "Increases the ranges of all Path of Changing abilities by {COM_0_VAL1}%."
     },
     {
       "image": "05306",
@@ -370,7 +450,11 @@
       "note": "",
       "description": "Increases your group members' Corporeal resistance by 157 if they are within 100 feet of you.",
       "category": "Ability",
-      "gameId": 8490
+      "gameId": 8490,
+      "componentValues": {
+        "COM_0_VAL0": 157
+      },
+      "rawDescription": "Increases your group members' Corporeal resistance by {COM_0_VAL0} if they are within 100 feet of you."
     },
     {
       "image": "05302",
@@ -386,7 +470,12 @@
       "note": "",
       "description": "Deals 2400 damage to all targets in a line in front of you up to 65 feet away.",
       "category": "Morale",
-      "gameId": 8534
+      "gameId": 8534,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 2400,
+        "COM_0_RADI_FEET": 65
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all targets in a line in front of you up to {COM_0_RADI_FEET} away."
     },
     {
       "image": "22706",
@@ -402,7 +491,11 @@
       "note": "",
       "description": "Withered Soul will now also cause the victim to suffer 15% more damage from all sources.",
       "category": "CareerTactic",
-      "gameId": 8513
+      "gameId": 8513,
+      "componentValues": {
+        "ABIL_8491_COM_2_VAL0": 15
+      },
+      "rawDescription": "Withered Soul will now also cause the victim to suffer {ABIL_8491_COM_2_VAL0}% more damage from all sources."
     },
     {
       "image": "22704",
@@ -418,7 +511,12 @@
       "note": "",
       "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect can not occur more than once every 2 seconds.",
       "category": "CareerTactic",
-      "gameId": 568
+      "gameId": 568,
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 0,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Whenever one of your spells hits an enemy, you have a 25% chance to regain {COM_1_VAL0_ACTIONPOINTS}. This effect cannot occur more than once every {COM_2_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "05287",
@@ -434,7 +532,15 @@
       "note": "",
       "description": "Summons a cloud of caustic mist that deals 79 spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds the cloud doubles in strength, dealing 146 spirit damage and 10 seconds later will double in strength again, dealing 212 spirit damage.<br> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
       "category": "Ability",
-      "gameId": 8494
+      "gameId": 8494,
+      "componentValues": {
+        "COM_3_VAL0_SPIRITDAMAGE": 79,
+        "COM_1_RADI_FEET": 20,
+        "COM_2_DURA_SECONDS": 10,
+        "COM_5_VAL0_SPIRITDAMAGE": 146,
+        "COM_7_VAL0_SPIRITDAMAGE": 212
+      },
+      "rawDescription": "Summons a cloud of caustic mist that deals {COM_3_VAL0_SPIRITDAMAGE} every 2 seconds to targets within {COM_1_RADI_FEET} of the summoning point. After {COM_2_DURA_SECONDS}  the cloud doubles in strength, dealing {COM_5_VAL0_SPIRITDAMAGE} and {COM_2_DURA_SECONDS} later will double in strength again, dealing {COM_7_VAL0_SPIRITDAMAGE}.<BR> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage."
     },
     {
       "image": "22695",
@@ -450,7 +556,11 @@
       "note": "",
       "description": "Increases your Intelligence by 160.",
       "category": "CareerTactic",
-      "gameId": 563
+      "gameId": 563,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Increases your Intelligence by {COM_0_VAL0}."
     },
     {
       "image": "22694",
@@ -466,7 +576,9 @@
       "note": "",
       "description": "Pandemonium will now reapply it's damage effect 50% of the time after it ends or is removed.",
       "category": "CareerTactic",
-      "gameId": 8519
+      "gameId": 8519,
+      "componentValues": {},
+      "rawDescription": "Pandemonium will now reapply its damage effect 50% of the time after it ends or is removed."
     },
     {
       "image": "22704",
@@ -482,7 +594,11 @@
       "note": "",
       "description": "Flickering Red Fire and Surging Violet Fire will hit one additional enemy up to 15 feet away from the target.",
       "category": "CareerTactic",
-      "gameId": 8517
+      "gameId": 8517,
+      "componentValues": {
+        "ABIL_8470_COM_1_RADI_FEET": 15
+      },
+      "rawDescription": "Flickering Red Fire and Surging Violet Fire will hit one additional enemy up to {ABIL_8470_COM_1_RADI_FEET} away from the target."
     },
     {
       "image": "05303",
@@ -498,7 +614,11 @@
       "note": "",
       "description": "Summons a mighty Firewyrm that will rampage around attacking your enemies for 16 seconds.",
       "category": "Morale",
-      "gameId": 8535
+      "gameId": 8535,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 16
+      },
+      "rawDescription": "Summons a mighty Firewyrm that will rampage around attacking your enemies for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "22704",
@@ -514,7 +634,9 @@
       "note": "",
       "description": "Rend Winds and Flickering Red Fire are now undefendable.",
       "category": "CareerTactic",
-      "gameId": 8507
+      "gameId": 8507,
+      "componentValues": {},
+      "rawDescription": "Rend Winds and Flickering Red Fire are now undefendable."
     },
     {
       "image": "05004",
@@ -530,7 +652,13 @@
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
-      "gameId": 245
+      "gameId": 245,
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
     },
     {
       "image": "05106",
@@ -546,7 +674,11 @@
       "note": "",
       "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict 320 elemental damage.",
       "category": "Ability",
-      "gameId": 8470
+      "gameId": 8470,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 320
+      },
+      "rawDescription": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict {COM_0_VAL0_ELEMENTALDAMAGE}."
     },
     {
       "image": "23153",
@@ -562,7 +694,9 @@
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale",
-      "gameId": 674
+      "gameId": 674,
+      "componentValues": {},
+      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
     },
     {
       "image": "05286",
@@ -578,7 +712,14 @@
       "note": "",
       "description": "You strip away the spiritual protections of everyone 20 feet from your target, reducing their Spirit resistance by  236 and dealing 420 spirit damage over 20.",
       "category": "Ability",
-      "gameId": 8482
+      "gameId": 8482,
+      "componentValues": {
+        "COM_0_RADI_FEET": 0,
+        "COM_1_VAL0": 0,
+        "COM_0_VAL0_TOD_SPIRITDAMAGE": 0,
+        "COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "You strip away the Spiritual protections of everyone {COM_0_RADI_FEET} from your target, reducing their Spirit resistance by {COM_1_VAL0} and dealing {COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_0_DURA_SECONDS}."
     },
     {
       "image": "05301",
@@ -594,7 +735,13 @@
       "note": "",
       "description": "Deals 798 damage over 6 seconds and Snares by 60% for 6 seconds",
       "category": "Morale",
-      "gameId": 8527
+      "gameId": 8527,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 798,
+        "COM_0_DURA_SECONDS": 6,
+        "COM_1_DURA_SECONDS": 6
+      },
+      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} and Snares by 60% for {COM_1_DURA_SECONDS}"
     },
     {
       "image": "05279",
@@ -610,7 +757,12 @@
       "note": "",
       "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability",
-      "gameId": 8477
+      "gameId": 8477,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 15
+      },
+      "rawDescription": "Horrifying images distract your opponent, causing them to deal only {COM_0_VAL0}% damage against you for {COM_0_DURA_SECONDS}.  You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted."
     },
     {
       "image": "05300",
@@ -626,7 +778,14 @@
       "note": "",
       "description": "A horrible torrent of energy that deals 387 elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 Action Points over 6 seconds to you.",
       "category": "Ability",
-      "gameId": 8502
+      "gameId": 8502,
+      "componentValues": {
+        "COM_1_VAL0_ELEMENTALDAMAGE": 387,
+        "COM_1_DURA_SECONDS": 6,
+        "ABIL_3071_COM_0_VAL0_TOD_ACTIONPOINTS": 120,
+        "ABIL_3071_COM_0_DURA_SECONDS": 6
+      },
+      "rawDescription": "A horrible torrent of energy that deals {COM_1_VAL0_ELEMENTALDAMAGE} every 2 seconds for {COM_1_DURA_SECONDS}. Victims killed while bathed in this flame will return {ABIL_3071_COM_0_VAL0_TOD_ACTIONPOINTS} over {ABIL_3071_COM_0_DURA_SECONDS} to you."
     },
     {
       "image": "05290",
@@ -642,7 +801,13 @@
       "note": "",
       "description": "A daemonic wave that warps the air in front of you dealing 576 elemental damage over 9 seconds to all targets 40 feet in front of you.",
       "category": "Ability",
-      "gameId": 8487
+      "gameId": 8487,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 576,
+        "COM_0_DURA_SECONDS": 9,
+        "COM_0_RADI_FEET": 40
+      },
+      "rawDescription": "A daemonic wave that warps the air in front of you dealing {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} to all targets {COM_0_RADI_FEET} in front of you."
     },
     {
       "image": "22702",
@@ -658,7 +823,11 @@
       "note": "",
       "description": "Daemons will be summoned with 160 more Wounds.",
       "category": "CareerTactic",
-      "gameId": 8512
+      "gameId": 8512,
+      "componentValues": {
+        "COM_0_VAL0": 160
+      },
+      "rawDescription": "Daemons will be summoned with {COM_0_VAL0} more Wounds."
     },
     {
       "image": "22708",
@@ -674,7 +843,12 @@
       "note": "",
       "description": "Surge of Insanity will now cause an additional 345 spirit damage over 6 seconds to all targets hit.",
       "category": "CareerTactic",
-      "gameId": 8510
+      "gameId": 8510,
+      "componentValues": {
+        "ABIL_3939_COM_0_VAL0_TOD_DAMAGE": 345,
+        "ABIL_3939_COM_0_DURA_SECONDS": 6
+      },
+      "rawDescription": "Surge of Insanity will now cause an additional {ABIL_3939_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3939_COM_0_DURA_SECONDS} to all targets hit."
     },
     {
       "image": "05299",
@@ -690,7 +864,13 @@
       "note": "Requires a summoned minion.",
       "description": "You force so much power into your daemon that it explodes from within, dealing 320 spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
       "category": "Ability",
-      "gameId": 8481
+      "gameId": 8481,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 320,
+        "COM_0_RADI_FEET": 30,
+        "COM_1_DURA_SECONDS": 3
+      },
+      "rawDescription": "You force so much power into your daemon that it explodes from within, dealing {COM_0_VAL0_SPIRITDAMAGE} to all targets within {COM_0_RADI_FEET}, knocking them down for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22694",
@@ -706,7 +886,13 @@
       "note": "",
       "description": "When you summon a daemon, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
       "category": "CareerTactic",
-      "gameId": 8509
+      "gameId": 8509,
+      "componentValues": {
+        "ABIL_1071_COM_2_VAL0_ACTIONPOINTS": 20,
+        "ABIL_1071_COM_2_RADI_FEET": 30,
+        "ABIL_1071_COM_0_FREQ_SECONDS": 2
+      },
+      "rawDescription": "When you summon a daemon, it will restore {ABIL_1071_COM_2_VAL0_ACTIONPOINTS} to everyone within {ABIL_1071_COM_2_RADI_FEET} every {ABIL_1071_COM_0_FREQ_SECONDS}."
     },
     {
       "image": "23167",
@@ -722,7 +908,11 @@
       "note": "",
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale",
-      "gameId": 670
+      "gameId": 670,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 600
+      },
+      "rawDescription": "A focused blast that deals {COM_0_VAL0_DAMAGE} and knocks the targeted player away. Monsters will be knocked down."
     },
     {
       "image": "23168",
@@ -738,7 +928,11 @@
       "note": "",
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
       "category": "Morale",
-      "gameId": 673
+      "gameId": 673,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10
+      },
+      "rawDescription": "You gain a strong counter aura for the next {COM_0_DURA_SECONDS} that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster."
     },
     {
       "image": "05149",
@@ -754,7 +948,13 @@
       "note": "",
       "description": "A column of blue flame washes over your target, dealing 516 elemental damage and then dealing an additional 429 elemental damage over 9 seconds.",
       "category": "Ability",
-      "gameId": 8486
+      "gameId": 8486,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 516,
+        "ABIL_3940_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 429,
+        "ABIL_3940_COM_0_DURA_SECONDS": 9
+      },
+      "rawDescription": "A column of blue flame washes over your target, dealing {COM_0_VAL0_ELEMENTALDAMAGE} and then dealing an additional {ABIL_3940_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3940_COM_0_DURA_SECONDS}."
     },
     {
       "image": "05312",
@@ -770,7 +970,13 @@
       "note": "",
       "description": "Chaotic swirls of power inflict 735 Spirit damage over 15 seconds to your target and those within 20 feet of them.",
       "category": "Ability",
-      "gameId": 8489
+      "gameId": 8489,
+      "componentValues": {
+        "COM_1_VAL0_TOD_SPIRITDAMAGE": 735,
+        "COM_1_DURA_SECONDS": 15,
+        "COM_0_RADI_FEET": 20
+      },
+      "rawDescription": "Chaotic swirls of power inflict {COM_1_VAL0_TOD_SPIRITDAMAGE} over {COM_1_DURA_SECONDS} to your target and those within {COM_0_RADI_FEET} of them."
     },
     {
       "image": "05293",
@@ -786,7 +992,12 @@
       "note": "",
       "description": "You open a rift surrounding your target, dealing 288 elemental damage and weakening the fabric of reality around them, disarming them for  3 seconds.",
       "category": "Ability",
-      "gameId": 8495
+      "gameId": 8495,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 288,
+        "COM_1_DURA_SECONDS": 3
+      },
+      "rawDescription": "You open a rift surrounding your target, dealing {COM_0_VAL0_ELEMENTALDAMAGE} and weakening the fabric of reality around them, disarming them for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "05112",
@@ -802,7 +1013,11 @@
       "note": "",
       "description": "Tears at your foe with fierce winds, hitting them three times for a total of 264 spirit damage.",
       "category": "Ability",
-      "gameId": 8471
+      "gameId": 8471,
+      "componentValues": {
+        "COM_0_VAL0_TOD_SPIRITDAMAGE": 264
+      },
+      "rawDescription": "Tears at your foe with fierce winds, hitting them three times for a total of {COM_0_VAL0_TOD_SPIRITDAMAGE}."
     },
     {
       "image": "05311",
@@ -818,7 +1033,9 @@
       "note": "Requires a summoned minion.",
       "description": "You shift your active summoning circle to your current location, bringing your minion with it.",
       "category": "Ability",
-      "gameId": 8542
+      "gameId": 8542,
+      "componentValues": {},
+      "rawDescription": "You shift your active summoning circle to your current location, bringing your minion with it."
     },
     {
       "image": "05114",
@@ -834,7 +1051,12 @@
       "note": "",
       "description": "Winds tear out from your target, dealing 300 damage to them and everyone within 20 feet every second for 4 seconds.",
       "category": "Morale",
-      "gameId": 8528
+      "gameId": 8528,
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 300,
+        "COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "Winds tear out from your target, dealing {COM_1_VAL0_DAMAGE} to them and everyone within {COM_1_RADI_FEET} every second for 4 seconds."
     },
     {
       "image": "23169",
@@ -850,7 +1072,12 @@
       "note": "",
       "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
       "category": "Morale",
-      "gameId": 671
+      "gameId": 671,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 0,
+        "ABIL_3168_COM_0_DURA_SECONDS": 0
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target and staggers them for {ABIL_3168_COM_0_DURA_SECONDS}, preventing all actions until they take damage."
     },
     {
       "image": "05295",
@@ -866,7 +1093,14 @@
       "note": "",
       "description": "Grows a seed inside your target dealing 435 spirit damage over 15 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal 183 spirit damage to all targets within 20 feet.",
       "category": "Ability",
-      "gameId": 8497
+      "gameId": 8497,
+      "componentValues": {
+        "COM_0_VAL0_TOD_SPIRITDAMAGE": 435,
+        "COM_0_DURA_SECONDS": 15,
+        "ABIL_3229_COM_0_VAL0_SPIRITDAMAGE": 183,
+        "ABIL_3229_COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "Grows a seed inside your target dealing {COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_0_DURA_SECONDS}. After this time expires or the target is killed, the seed will explode using the victims life force to deal {ABIL_3229_COM_0_VAL0_SPIRITDAMAGE} to all targets within {ABIL_3229_COM_1_RADI_FEET}."
     },
     {
       "image": "05271",
@@ -882,7 +1116,11 @@
       "note": "",
       "description": "You remove stagger effects from an ally and five other allies within 25 feet.",
       "category": "Ability",
-      "gameId": 8473
+      "gameId": 8473,
+      "componentValues": {
+        "COM_1_RADI_FEET": 25
+      },
+      "rawDescription": "You remove stagger effects from an ally and five other allies within {COM_1_RADI_FEET}."
     },
     {
       "image": "23170",
@@ -898,7 +1136,11 @@
       "note": "",
       "description": "You drain power from your target, Steals up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
       "category": "Morale",
-      "gameId": 669
+      "gameId": 669,
+      "componentValues": {
+        "COM_2_VAL0": 0
+      },
+      "rawDescription": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by {COM_2_VAL0} for 30 seconds."
     },
     {
       "image": "22708",
@@ -914,7 +1156,11 @@
       "note": "",
       "description": "Enemy monsters will hate you 50% less than normal.",
       "category": "CareerTactic",
-      "gameId": 567
+      "gameId": 567,
+      "componentValues": {
+        "COM_0_VAL1": 50
+      },
+      "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% less than normal."
     },
     {
       "image": "05151",
@@ -930,7 +1176,14 @@
       "note": "",
       "description": "Deals 2394 damage over 10 seconds and removes 50 Action Points every 2 seconds.",
       "category": "Morale",
-      "gameId": 8533
+      "gameId": 8533,
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 2394,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0": 50,
+        "COM_0_FREQ_SECONDS": 2
+      },
+      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} and removes {COM_1_VAL0} Action Points every {COM_0_FREQ_SECONDS}."
     },
     {
       "image": "05276",
@@ -946,7 +1199,14 @@
       "note": "",
       "description": "Summons a daemonic minion who specializes in short range Spiritual and Elemental area of effect attacks. This minion is confined to its summoning circle and cannot move. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your The daemonic minion gains 50% of your Intelligence from item bonuses and 100% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when your daemon is slain for any reason.",
       "category": "Ability",
-      "gameId": 8476
+      "gameId": 8476,
+      "componentValues": {
+        "ABIL_1071_COM_1_RADI_FEET": 0,
+        "ABIL_1071_COM_0_FREQ_SECONDS": 0,
+        "ABIL_1072_COM_0_VAL0": 0,
+        "ABIL_1072_COM_0_VAL1": 0
+      },
+      "rawDescription": "Summons a daemonic minion with short range area of effect attacks. The minion gains 50% of Int and 100% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}%, your Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50%, but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of this effect if the daemon is slain."
     },
     {
       "image": "05280",
@@ -962,7 +1222,14 @@
       "note": "",
       "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 75% of your Intelligence from item bonuses and 75% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when your daemon is slain for any reason.",
       "category": "Ability",
-      "gameId": 8478
+      "gameId": 8478,
+      "componentValues": {
+        "ABIL_1071_COM_1_RADI_FEET": 0,
+        "ABIL_1071_COM_0_FREQ_SECONDS": 0,
+        "ABIL_1072_COM_0_VAL0": 0,
+        "ABIL_1072_COM_0_VAL1": 0
+      },
+      "rawDescription": "Summons a daemonic minion with moderate range Spiritual attacks. The minion gains 75% of Int and 75% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}%, shortening the duration and tick interval of Path of Changing and Path of Daemonology DoTs by 4% to a maximum of 35% and allow Changing skills to be cast while moving. You lose 4 stacks of this effect if the daemon is slain."
     },
     {
       "image": "05272",
@@ -978,7 +1245,14 @@
       "note": "",
       "description": "Summons a daemonic minion who specializes in long range Elemental based attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 100% of your Intelligence from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the turret you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when your daemon is slain for any reason.",
       "category": "Ability",
-      "gameId": 8474
+      "gameId": 8474,
+      "componentValues": {
+        "ABIL_1071_COM_1_RADI_FEET": 0,
+        "ABIL_1071_COM_0_FREQ_SECONDS": 0,
+        "ABIL_1072_COM_0_VAL0": 0,
+        "ABIL_1072_COM_0_VAL1": 0
+      },
+      "rawDescription": "Summons a daemonic minion with long range Elemental attacks.The daemonic minion gains 100% of Int and 50% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}% and range by 5% to a maximum of 25% extra range. You will lose 4 stacks of this effect if daemon is slain."
     },
     {
       "image": "05275",
@@ -994,7 +1268,12 @@
       "note": "",
       "description": "A surge of chaotic bliss overcomes your target, dealing 291 spirit damage. The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
       "category": "Ability",
-      "gameId": 8475
+      "gameId": 8475,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 291,
+        "COM_1_RADI_FEET": 20
+      },
+      "rawDescription": "A surge of chaotic bliss overcomes your target, dealing {COM_0_VAL0_SPIRITDAMAGE}.  The victim and any other enemies within {COM_1_RADI_FEET} of them are also interruped, cancelling any abilities that they are building up."
     },
     {
       "image": "22709",
@@ -1010,7 +1289,9 @@
       "note": "",
       "description": "Increases critical damage from Infernal Blast, Surging Violet Fire, Flickering Red Fire, and Surge of Insanity by 50%.",
       "category": "CareerTactic",
-      "gameId": 8511
+      "gameId": 8511,
+      "componentValues": {},
+      "rawDescription": "Increases critical damage from Infernal Blast, Surging Violet Fire, Flickering Red Fire, and Surge of Insanity by 50%."
     },
     {
       "image": "05283",
@@ -1026,7 +1307,11 @@
       "note": "",
       "description": "Tendrils of writhing violet flame coil around your target, burning them for 241 elemental damage.",
       "category": "Ability",
-      "gameId": 8479
+      "gameId": 8479,
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 241
+      },
+      "rawDescription": "Tendrils of writhing violet flame coil around your target, burning them for {COM_0_VAL0_ELEMENTALDAMAGE}."
     },
     {
       "image": "22703",
@@ -1042,7 +1327,9 @@
       "note": "",
       "description": "Reduces Surging Violet Fire's cooldown by 7 seconds.",
       "category": "CareerTactic",
-      "gameId": 8508
+      "gameId": 8508,
+      "componentValues": {},
+      "rawDescription": "Reduces Surging Violet Fire's cooldown by 7 seconds."
     },
     {
       "image": "05296",
@@ -1058,7 +1345,12 @@
       "note": "",
       "description": "Creates a great column of wind and flame that deals 243 spirit damage every 2 seconds to all targets within 20 feet of the area, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
       "category": "Ability",
-      "gameId": 8498
+      "gameId": 8498,
+      "componentValues": {
+        "COM_2_VAL0_SPIRITDAMAGE": 243,
+        "COM_2_RADI_FEET": 20
+      },
+      "rawDescription": "Creates a great column of wind and flame that deals {COM_2_VAL0_SPIRITDAMAGE} every 2 seconds to all targets within {COM_2_RADI_FEET} of the area, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit."
     },
     {
       "image": "05284",
@@ -1074,7 +1366,12 @@
       "note": "",
       "description": "A summoning wave passes over those within 30 feet of you, calling fourth tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability",
-      "gameId": 8480
+      "gameId": 8480,
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_DURA_SECONDS": 5
+      },
+      "rawDescription": "A summoning wave passes over those within {COM_0_RADI_FEET} of you, calling fourth tentacles to bind their movement for {COM_0_DURA_SECONDS}. There is a 50% chance of the root breaking with every hit."
     },
     {
       "image": "22714",
@@ -1090,7 +1387,11 @@
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic",
-      "gameId": 798
+      "gameId": 798,
+      "componentValues": {
+        "COM_0_VAL0": 252
+      },
+      "rawDescription": "Increases your Elemental resistance by {COM_0_VAL0}."
     },
     {
       "image": "22709",
@@ -1106,7 +1407,12 @@
       "note": "",
       "description": "Pink Horrors, Blue horrors and Flamers of Tzeentch now have a 15% chance to taunt their targets with every attack. This enrages the target, interrupting any building actions and forces monsters to target your pet for 5 seconds. Taunted targets receive 20% more damage from your daemon. If your daemon is struck 3 times by their taunted target, taunt will be broken.",
       "category": "CareerTactic",
-      "gameId": 8506
+      "gameId": 8506,
+      "componentValues": {
+        "ABIL_3980_COM_1_DURA_SECONDS": 0,
+        "ABIL_3947_COM_2_VAL0": 0
+      },
+      "rawDescription": "Pink Horrors, Blue Horrors and Flamers of Tzeentch now have a 15% chance to taunt their targets with every attack. This enrages the target, interrupting any building actions and forces monsters to target your pet for {ABIL_3980_COM_1_DURA_SECONDS}. Taunted targets receive  {ABIL_3947_COM_2_VAL0}% more damage from your daemon. If your daemon is struck 3 times by their taunted target, taunt will be broken."
     },
     {
       "image": "23171",
@@ -1122,7 +1428,12 @@
       "note": "",
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
       "category": "Morale",
-      "gameId": 672
+      "gameId": 672,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1800,
+        "COM_0_RADI_FEET": 30
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and knocks them away from you."
     },
     {
       "image": "22714",
@@ -1138,7 +1449,11 @@
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
-      "gameId": 797
+      "gameId": 797,
+      "componentValues": {
+        "ABIL_3996_COM_0_VAL1": 375
+      },
+      "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "05305",
@@ -1154,7 +1469,13 @@
       "note": "",
       "description": "You channel warping flame through your disk, dealing 155 elemental damage to all targets within 30 feet of you every second for 3 seconds.",
       "category": "Ability",
-      "gameId": 8485
+      "gameId": 8485,
+      "componentValues": {
+        "COM_1_VAL0_ELEMENTALDAMAGE": 155,
+        "COM_1_RADI_FEET": 30,
+        "COM_0_DURA_SECONDS": 3
+      },
+      "rawDescription": "You channel warping flame through your disk, dealing {COM_1_VAL0_ELEMENTALDAMAGE} to all targets within {COM_1_RADI_FEET} of you every second for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "05153",
@@ -1170,7 +1491,11 @@
       "note": "",
       "description": "Energy spirals towards your foe, dealing 291 spirit damage and knocking them back a short distance. Monsters will be knocked down.",
       "category": "Ability",
-      "gameId": 8483
+      "gameId": 8483,
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 291
+      },
+      "rawDescription": "Energy spirals towards your foe, dealing {COM_0_VAL0_SPIRITDAMAGE} and knocking them back a short distance. Monsters will be knocked down."
     },
     {
       "image": "22708",
@@ -1186,7 +1511,9 @@
       "note": "",
       "description": "Increases critical chance for all Path Of Changing spells by 15%",
       "category": "CareerTactic",
-      "gameId": 8521
+      "gameId": 8521,
+      "componentValues": {},
+      "rawDescription": "Increases the critical hit rate of all Path of Changing spells by 15%."
     },
     {
       "image": "05308",
@@ -1202,7 +1529,13 @@
       "note": "",
       "description": "Your malice is forced directly into your target's soul, inflicting 1240 elemental damage over 20 seconds while reducing their Disrupt chance by 5%.",
       "category": "Ability",
-      "gameId": 8491
+      "gameId": 8491,
+      "componentValues": {
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1240,
+        "COM_0_DURA_SECONDS": 20,
+        "COM_1_VAL0": 5
+      },
+      "rawDescription": "Your malice is forced directly into your target's soul, inflicting {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} while reducing their Disrupt chance by {COM_1_VAL0}%."
     }
   ]
 }
