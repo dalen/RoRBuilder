@@ -240,13 +240,13 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 75 feet of the vortex towards it's center and then snaring everyone within 30 feet a second later by 40% for 4 seconds. Monsters will be knocked down by the initial pull.",
+      "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 75 feet of the vortex towards its center and then snaring everyone within 30 feet a second later by 40% for 4 seconds. Monsters will be knocked down by the initial pull.",
       "category": "Ability",
       "gameId": 8499,
       "componentValues": {
         "COM_1_RADI_FEET": 75,
         "COM_4_RADI_FEET": 30,
-        "COM_4_VAL0": 0,
+        "COM_4_VAL0": 40,
         "COM_4_DURA_SECONDS": 4
       },
       "rawDescription": "A rift in the warp is opened briefly, pulling up to six enemy players within {COM_1_RADI_FEET} of the vortex towards its center and then snaring everyone within {COM_4_RADI_FEET} a second later by {COM_4_VAL0}% for {COM_4_DURA_SECONDS}. Monsters will be knocked down by the initial pull."
@@ -1203,7 +1203,7 @@
       "componentValues": {
         "ABIL_1071_COM_1_RADI_FEET": 25,
         "ABIL_1071_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1072_COM_0_VAL0": 0,
+        "ABIL_1072_COM_0_VAL0": 4,
         "ABIL_1072_COM_0_VAL1": 0
       },
       "rawDescription": "Summons a daemonic minion with short range area of effect attacks. The minion gains 50% of Int and 100% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}%, your Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50%, but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of this effect if the daemon is slain."
@@ -1226,7 +1226,7 @@
       "componentValues": {
         "ABIL_1071_COM_1_RADI_FEET": 25,
         "ABIL_1071_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1072_COM_0_VAL0": 0,
+        "ABIL_1072_COM_0_VAL0": 4,
         "ABIL_1072_COM_0_VAL1": 0
       },
       "rawDescription": "Summons a daemonic minion with moderate range Spiritual attacks. The minion gains 75% of Int and 75% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}%, shortening the duration and tick interval of Path of Changing and Path of Daemonology DoTs by 4% to a maximum of 35% and allow Changing skills to be cast while moving. You lose 4 stacks of this effect if the daemon is slain."
@@ -1249,7 +1249,7 @@
       "componentValues": {
         "ABIL_1071_COM_1_RADI_FEET": 25,
         "ABIL_1071_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1072_COM_0_VAL0": 0,
+        "ABIL_1072_COM_0_VAL0": 4,
         "ABIL_1072_COM_0_VAL1": 0
       },
       "rawDescription": "Summons a daemonic minion with long range Elemental attacks.The daemonic minion gains 100% of Int and 50% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}% and range by 5% to a maximum of 25% extra range. You will lose 4 stacks of this effect if daemon is slain."
@@ -1405,12 +1405,12 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Pink Horrors, Blue horrors and Flamers of Tzeentch now have a 15% chance to taunt their targets with every attack. This enrages the target, interrupting any building actions and forces monsters to target your pet for 5 seconds. Taunted targets receive 20% more damage from your daemon. If your daemon is struck 3 times by their taunted target, taunt will be broken.",
+      "description": "Pink Horrors, Blue Horrors and Flamers of Tzeentch now have a 15% chance to taunt their targets with every attack. This enrages the target, interrupting any building actions and forces monsters to target your pet for 5 seconds. Taunted targets receive  20% more damage from your daemon. If your daemon is struck 3 times by their taunted target, taunt will be broken.",
       "category": "CareerTactic",
       "gameId": 8506,
       "componentValues": {
         "ABIL_3980_COM_1_DURA_SECONDS": 5,
-        "ABIL_3947_COM_2_VAL0": 0
+        "ABIL_3947_COM_2_VAL0": 20
       },
       "rawDescription": "Pink Horrors, Blue Horrors and Flamers of Tzeentch now have a 15% chance to taunt their targets with every attack. This enrages the target, interrupting any building actions and forces monsters to target your pet for {ABIL_3980_COM_1_DURA_SECONDS}. Taunted targets receive  {ABIL_3947_COM_2_VAL0}% more damage from your daemon. If your daemon is struck 3 times by their taunted target, taunt will be broken."
     },
@@ -1447,11 +1447,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 50 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 797,
       "componentValues": {
-        "ABIL_3996_COM_0_VAL1": 375
+        "ABIL_3996_COM_0_VAL1": 50
       },
       "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
     },

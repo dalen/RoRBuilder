@@ -81,11 +81,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Shrug it Off will make its target 25% more receptive to incoming heals.",
+      "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Shrug It Off will make its target 25% more receptive to incoming heals.",
       "category": "CareerTactic",
       "gameId": 2751,
       "componentValues": {
-        "COM_1_VAL1": 0
+        "COM_1_VAL1": 40
       },
       "rawDescription": "Your healing abilities become {COM_1_VAL1}% more effective when the target is below 25% hit points and Shrug It Off will make its target 25% more receptive to incoming heals."
     },

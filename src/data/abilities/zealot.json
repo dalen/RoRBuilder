@@ -517,12 +517,12 @@
       "incant": "Instant cast",
       "cooldown": "3m cooldown",
       "note": "",
-      "description": "You embrace the Warp, surrounding yourself with it's power. You will take only 50% damage and your abilities will cost 25% fewer Action Points for 10 seconds. During this time you generate almost no threat, and can not be set back while casting.",
+      "description": "You embrace the Warp, surrounding yourself with its power. You will take only 50% damage and your abilities will cost 25% fewer Action Points for 10 seconds. During this time you generate almost no threat, and can not be set back while casting.",
       "category": "Ability",
       "gameId": 8622,
       "componentValues": {
-        "COM_0_VAL0": 0,
-        "COM_1_VAL1": 0,
+        "COM_0_VAL0": 50,
+        "COM_1_VAL1": 25,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You embrace the Warp, surrounding yourself with its power. You will take only {COM_0_VAL0}% damage and your abilities will cost {COM_1_VAL1}% fewer Action Points for {COM_0_DURA_SECONDS}. During this time you generate almost no threat, and can not be set back while casting."
@@ -1421,11 +1421,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 50 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 797,
       "componentValues": {
-        "ABIL_3996_COM_0_VAL1": 375
+        "ABIL_3996_COM_0_VAL1": 50
       },
       "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
     },
@@ -1447,7 +1447,7 @@
       "componentValues": {
         "ABIL_3074_COM_0_VAL0": 0,
         "ABIL_3074_COM_0_DURA_SECONDS": 10,
-        "ABIL_3074_COM_1_VAL1": 0
+        "ABIL_3074_COM_1_VAL1": 10
       },
       "rawDescription": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by {ABIL_3074_COM_0_VAL0} for {ABIL_3074_COM_0_DURA_SECONDS}. Additionally, {ABIL_3074_COM_1_VAL1}% less armor will be bypassed when they are attacked."
     },

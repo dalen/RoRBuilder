@@ -181,11 +181,11 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, this effect will immediately end.",
+      "description": "You charge into the thick of battle, increasing your run speed by 50% for 7 seconds.  If you use any abilities, this effect will immediately end.",
       "category": "Ability",
       "gameId": 240,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 7
       },
       "rawDescription": "You charge into the thick of battle, increasing your run speed by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.  If you use any abilities, this effect will immediately end."
@@ -202,11 +202,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 second. This effect will not stack with other damage reductions.",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
       "category": "CareerTactic",
       "gameId": 522,
       "componentValues": {
-        "ABIL_3080_COM_0_VAL1": 0
+        "ABIL_3080_COM_0_VAL1": 25
       },
       "rawDescription": "Any time you strike an enemy in melee with a direct attack, you will receive {ABIL_3080_COM_0_VAL1}% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities."
     },
@@ -327,11 +327,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While you are using the Gift Of Monstrosity, all of your hits have a 25% chance to remove 225 points of Morale from the enemy.",
+      "description": "While you are using the Gift of Monstrosity, all of your hits have a 25% chance to remove 225 points of Morale from the enemy.",
       "category": "CareerTactic",
       "gameId": 8446,
       "componentValues": {
-        "COM_1_VAL0": 0
+        "COM_1_VAL0": 225
       },
       "rawDescription": "While you are using the Gift of Monstrosity, all of your hits have a 25% chance to remove {COM_1_VAL0} points of Morale from the enemy."
     },
@@ -723,12 +723,12 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Gift of Brutality",
-      "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<br><br>While mutated, your attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%.",
+      "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<BR><BR>While mutated, your melee attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%.",
       "category": "Ability",
       "gameId": 8398,
       "componentValues": {
         "ABIL_3044_COM_0_DURA_SECONDS": 5,
-        "ABIL_3044_COM_1_VAL1": 0
+        "ABIL_3044_COM_1_VAL1": 25
       },
       "rawDescription": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<BR><BR>While mutated, your melee attacks have a 25% chance to fill you with power for {ABIL_3044_COM_0_DURA_SECONDS}, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by {ABIL_3044_COM_1_VAL1}%."
     },
@@ -789,7 +789,7 @@
       "componentValues": {
         "ABIL_3050_COM_1_VAL0_TOD_DAMAGE": 0,
         "ABIL_3050_COM_1_DURA_SECONDS": 5,
-        "ABIL_3050_COM_0_VAL1": 0
+        "ABIL_3050_COM_0_VAL1": 33
       },
       "rawDescription": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<BR><BR>While mutated, your melee attacks have a 25% chance to deal an additional {ABIL_3050_COM_1_VAL0_TOD_DAMAGE} over {ABIL_3050_COM_1_DURA_SECONDS}, and reduce the victim's autoattack speed by {ABIL_3050_COM_0_VAL1}%."
     },
@@ -1459,11 +1459,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 50 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 797,
       "componentValues": {
-        "ABIL_3996_COM_0_VAL1": 375
+        "ABIL_3996_COM_0_VAL1": 50
       },
       "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
     },

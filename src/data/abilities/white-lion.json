@@ -1348,11 +1348,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by 5% as long as you are at your target's side or back.<br><br>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies.",
+      "description": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by 5% as long as you are at your target's sides or back.<BR><BR>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies.",
       "category": "Ability",
       "gameId": 9168,
       "componentValues": {
-        "COM_2_VAL1": 0
+        "COM_2_VAL1": 5
       },
       "rawDescription": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by {COM_2_VAL1}% as long as you are at your target's sides or back.<BR><BR>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies."
     },
@@ -1453,11 +1453,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents armor, additionally reduces the action point cost of Slashing Blade and Hack by 50%.",
+      "description": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents Armor, additionally reduces the action point costs of Slashing Blade and Hack by 50%.",
       "category": "CareerTactic",
       "gameId": 2929,
       "componentValues": {
-        "COM_0_VAL1": 0
+        "COM_0_VAL1": 50
       },
       "rawDescription": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents Armor, additionally reduces the action point costs of Slashing Blade and Hack by {COM_0_VAL1}%."
     },
@@ -1473,11 +1473,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Trained to Threaten will now reduce all hatred that you cause in hostile monsters by 75%.",
+      "description": "Trained To Threaten will now reduce all hatred that you cause in hostile monsters by 75%.",
       "category": "CareerTactic",
       "gameId": 9213,
       "componentValues": {
-        "ABIL_9168_COM_4_VAL1": 0
+        "ABIL_9168_COM_4_VAL1": 75
       },
       "rawDescription": "Trained To Threaten will now reduce all hatred that you cause in hostile monsters by {ABIL_9168_COM_4_VAL1}%."
     },

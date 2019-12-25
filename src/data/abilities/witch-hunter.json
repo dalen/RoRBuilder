@@ -1457,11 +1457,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You light and drop a flask of sanctified oil at your feet. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 Seconds.",
+      "description": "You light and drop a flask of sanctified oil at your feet. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 seconds.<BR>You may only use a single relic at a time.",
       "category": "Ability",
       "gameId": 2997,
       "componentValues": {
-        "COM_1_VAL0": 0,
+        "COM_1_VAL0": 50,
         "COM_1_DURA_SECONDS": 7
       },
       "rawDescription": "You light and drop a flask of sanctified oil at your feet. You will become invisible to enemies for 2 seconds and increase your speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR>You may only use a single relic at a time."
@@ -1540,11 +1540,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
       "category": "CareerTactic",
       "gameId": 522,
       "componentValues": {
-        "ABIL_3080_COM_0_VAL1": 0
+        "ABIL_3080_COM_0_VAL1": 25
       },
       "rawDescription": "Any time you strike an enemy in melee with a direct attack, you will receive {ABIL_3080_COM_0_VAL1}% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities."
     },

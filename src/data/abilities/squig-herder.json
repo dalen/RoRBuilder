@@ -124,11 +124,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage when you have no pets present.",
+      "description": "You deal 25% more damage when you have no pets present. This effect will not stack with Territorial Aggression.",
       "category": "CareerTactic",
       "gameId": 1860,
       "componentValues": {
-        "COM_0_VAL0": 0
+        "COM_0_VAL0": 25
       },
       "rawDescription": "You deal {COM_0_VAL0}% more damage when you have no pets present. This effect will not stack with Territorial Aggression."
     },
@@ -717,11 +717,11 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<br>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<br>Your range is increaded by 10% as long as your Squig is alive.<br>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<BR>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<BR>Your range is increased by 10% as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability",
       "gameId": 2829,
       "componentValues": {
-        "COM_2_VAL1": 0
+        "COM_2_VAL1": 10
       },
       "rawDescription": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<BR>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<BR>Your range is increased by {COM_2_VAL1}% as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason."
     },
@@ -1340,11 +1340,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "While within 100 feet of you, your group member's actions cost 50% less AP for 10 seconds.",
+      "description": "While within 100 feet of you, your group members' actions cost 50% less AP for 10 seconds.",
       "category": "Morale",
       "gameId": 1877,
       "componentValues": {
-        "COM_0_VAL1": 0,
+        "COM_0_VAL1": 50,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "While within 100 feet of you, your group members' actions cost {COM_0_VAL1}% less AP for {COM_0_DURA_SECONDS}."
@@ -1361,11 +1361,11 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a Spiked squig pet which you can order around. This pet attacks from range and has increased damage.<br>This pet receives a bonus to Ballistic Skill equal to 150% of your bonus from items. This pet receives a bonus to Weapon Skill equal to 50% of your bonus from items.<br>You gain the ability to autoattack while moving, and your chance to critically hit is increased by 5% as long as this squig is alive.<br>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a Spiked squig pet which you can order around. This pet attacks from range and has increased damage.<BR>This pet receives a bonus to Ballistic Skill equal to 150% of your bonus from items. This pet receives a bonus to Weapon Skill equal to 50% of your bonus from items.<BR>You gain the ability to autoattack while moving, and your chance to critically hit is increased by 5% as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability",
       "gameId": 1844,
       "componentValues": {
-        "COM_2_VAL1": 0
+        "COM_2_VAL1": 5
       },
       "rawDescription": "Summons a Spiked squig pet which you can order around. This pet attacks from range and has increased damage.<BR>This pet receives a bonus to Ballistic Skill equal to 150% of your bonus from items. This pet receives a bonus to Weapon Skill equal to 50% of your bonus from items.<BR>You gain the ability to autoattack while moving, and your chance to critically hit is increased by {COM_2_VAL1}% as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason."
     },
@@ -1482,11 +1482,11 @@
       "incant": "Instant cast",
       "cooldown": "55s cooldown",
       "note": "Requires Squig Armor",
-      "description": "Channeled. You kick deep down your squig's throat, causing it to rage. Its speed is increased by 75% for the next 10 seconds, as you plow through any enemies who dare stand in your way.",
+      "description": "Channeled. You kick deep down your Squig's throat, causing it to rage. Its speed is increased by 75% for the next 10 seconds, as you plow through any enemies who dare stand in your way.",
       "category": "Ability",
       "gameId": 2801,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 75,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Channeled. You kick deep down your Squig's throat, causing it to rage. Its speed is increased by {COM_0_VAL0}% for the next {COM_0_DURA_SECONDS}, as you plow through any enemies who dare stand in your way."
@@ -1633,7 +1633,7 @@
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
         "COM_1_VAL0": 0,
-        "COM_2_VAL0": 0,
+        "COM_2_VAL0": 10,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "An attack which deals {COM_0_VAL0_DAMAGE} and reduces your target's armor by {COM_1_VAL0} and reduces their chance to block by {COM_2_VAL0}% for {COM_1_DURA_SECONDS}."

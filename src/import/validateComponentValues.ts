@@ -23,6 +23,50 @@ export const getValueIndices = (componentString: string): number[] => {
   );
 };
 
+// Values should have been extracted as signed...
+const getValue = (
+  component: AbilityData['Components'][0],
+  valueIndex: number,
+) => {
+  if (component.Values[valueIndex] > Math.pow(2, 15)) {
+    return component.Values[valueIndex] - Math.pow(2, 16);
+  }
+  return component.Values[valueIndex];
+};
+
+const calculateValue = (
+  component: AbilityData['Components'][0],
+  valueIndex: number,
+): number | void => {
+  switch (component.Operation) {
+    case ComponentOP.DAMAGE_CHANGE_PCT:
+      return Math.abs(component.Values[valueIndex]);
+    case ComponentOP.AP_CHANGE:
+      return Math.abs(component.Values[valueIndex]);
+    case ComponentOP.MOVEMENT_SPEED:
+      return Math.abs(component.Values[valueIndex]);
+    case ComponentOP.MECHANIC_CHANGE:
+      return Math.abs(component.Values[valueIndex + 1]);
+    case ComponentOP.DEFENSIVE_STAT_CHANGE:
+      return Math.abs(component.Values[valueIndex]);
+    case ComponentOP.AP_REGEN_CHANGE:
+      return Math.abs(component.Values[valueIndex]);
+    case ComponentOP.MORALE_CHANGE:
+      return Math.abs(component.Values[valueIndex]);
+    case ComponentOP.COOLDOWN_CHANGE:
+      return Math.abs(component.Values[valueIndex]);
+    case ComponentOP.CASTIME_CHANGE:
+      return Math.abs(component.Values[valueIndex]);
+    case ComponentOP.BONUS_TYPE:
+      if (valueIndex === 0) {
+        return Math.abs(component.Values[valueIndex]);
+      }
+      return Math.abs(component.Values[valueIndex + 1]);
+    case ComponentOP.CAREER_RESOURCE:
+      return Math.abs(component.Values[valueIndex]);
+  }
+};
+
 const validateComponentValue = (
   name: string,
   number: number,
@@ -74,6 +118,8 @@ const validateComponentValue = (
       return number;
     } else if (name.endsWith('_DURA_SECONDS')) {
       return component.Duration / 1000;
+    } else if (name.endsWith('_DURA_MINUTES')) {
+      return component.Duration / 1000 / 60;
     } else if (name.endsWith('_FREQ_SECONDS')) {
       return component.Interval / 1000;
     } else if (name.endsWith('_SECONDS')) {
@@ -85,9 +131,29 @@ const validateComponentValue = (
       return number;
     } else if (name.endsWith('_HEALTH')) {
       return number;
+    } else if (name.endsWith('_TOD')) {
+      return number;
     }
 
-    return number;
+    if (
+      !calculateValue(component, valueIndex) &&
+      number > 0 &&
+      ![1, 2, 3, 5].includes(component.Operation)
+    ) {
+      console.log(
+        'Failed to calculate:',
+        'name',
+        colors.cyan(name),
+        'operation',
+        component.Operation,
+        'number:',
+        number,
+        'values',
+        component.Values,
+      );
+      // console.log(component);
+    }
+    return calculateValue(component, valueIndex) || number;
   })();
 
   if (num !== number) {

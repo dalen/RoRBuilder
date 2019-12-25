@@ -5,9 +5,13 @@ import {
   integer,
   nullable,
   $DecoderType,
+  map,
 } from 'decoders';
 
 import { promises as fs } from 'fs';
+
+// Decode a unsigned int to a signed int
+const unsignedToSignedInt = map(integer, n => (n > 32768 ? n - 65536 : n));
 
 const componentData = object({
   Type: integer,
@@ -25,7 +29,7 @@ const component = object({
   ComponentID: integer,
   A00: integer,
   Data: array(nullable(componentData)),
-  Values: array(integer),
+  Values: array(unsignedToSignedInt),
   Multipliers: array(integer),
   A05: integer,
   Duration: integer,

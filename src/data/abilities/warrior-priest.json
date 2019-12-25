@@ -1552,11 +1552,11 @@
       "incant": "10s cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield<br>Requires 25 Righteous Fury per second",
-      "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. This effect will end if you break your concentration, or run out of Righteous Fury.",
+      "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%.<BR>This effect will end if you break your concentration, or run out of Righteous Fury.",
       "category": "Ability",
       "gameId": 2947,
       "componentValues": {
-        "COM_0_VAL0": 0
+        "COM_0_VAL0": 10
       },
       "rawDescription": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by {COM_0_VAL0}%.<BR>This effect will end if you break your concentration, or run out of Righteous Fury."
     },

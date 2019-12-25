@@ -149,8 +149,20 @@ export const validateDescription = (
     );
   }, gameAbility.Description);
 
+  if (ability.description !== description) {
+    console.log(
+      `Description for ${colors.cyan(ability.name)} (${colors.red(
+        gameAbility.AbilityID.toString(),
+      )})`,
+    );
+    console.log(colors.red('From:'), ability.description);
+    console.log(colors.green('To:'), description);
+    return {
+      description,
+      rawDescription: gameAbility.Description,
+    };
+  }
   return {
-    description,
     rawDescription: gameAbility.Description,
   };
 };

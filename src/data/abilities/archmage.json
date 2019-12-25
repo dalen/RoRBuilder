@@ -1437,11 +1437,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces the duration and tick interval of Searing Touch by 50%. Khaine's price however will reduce the effectiveness of your healing abilities by 20% and increase the cooldown of Searing Touch by 50%.",
+      "description": "Reduces the duration and tick interval of Searing Touch by 50%. Khaine's price however will reduce the effectiveness of your healing abilities by 20% and increases the cooldown of Searing Touch by 50%.",
       "category": "CareerTactic",
       "gameId": 2748,
       "componentValues": {
-        "COM_2_VAL1": 0
+        "COM_2_VAL1": 20
       },
       "rawDescription": "Reduces the duration and tick interval of Searing Touch by 50%. Khaine's price however will reduce the effectiveness of your healing abilities by {COM_2_VAL1}% and increases the cooldown of Searing Touch by 50%."
     }
