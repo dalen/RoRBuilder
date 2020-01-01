@@ -498,6 +498,11 @@ const main = async () => {
   await validateCareer('zealot', CareerLine.ZEALOT, abilityData);
   await validateCareer('magus', CareerLine.MAGUS, abilityData);
   await validateCareer('sword-master', CareerLine.SWORD_MASTER, abilityData);
+  await validateCareer(
+    'shadow-warrior',
+    CareerLine.SHADOW_WARRIOR,
+    abilityData,
+  );
   await validateCareer('white-lion', CareerLine.WHITE_LION, abilityData);
   await validateCareer('archmage', CareerLine.ARCHMAGE, abilityData);
   await validateCareer('black-guard', CareerLine.BLACK_GUARD, abilityData);
