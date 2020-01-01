@@ -161,6 +161,8 @@ const validateComponentValue = (
       return component.Duration / 1000;
     } else if (name.endsWith('_DURA_MINUTES')) {
       return component.Duration / 1000 / 60;
+    } else if (name.endsWith('_DURA_HOURS')) {
+      return component.Duration / 1000 / 60 / 60;
     } else if (name.endsWith('_FREQ_SECONDS')) {
       return component.Interval / 1000;
     } else if (name.endsWith('_SECONDS')) {
