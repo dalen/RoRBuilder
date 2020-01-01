@@ -296,7 +296,7 @@
       "category": "Morale",
       "gameId": 606,
       "componentValues": {
-        "COM_1_VAL0": 0,
+        "COM_1_VAL0": 1056,
         "COM_0_VAL0_TOD_DAMAGE": 0,
         "COM_0_DURA_SECONDS": 15
       },
@@ -857,11 +857,11 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "The blessings of Myrmidia fill you, increasing your Armor by 990 for 10 seconds.  Whenever you're attacked during this time, you will regain 10 Action Points.",
+      "description": "The blessings of Myrmidia fill you, increasing your Armor by 618 for 10 seconds.  Whenever you're attacked during this time, you will regain 10 Action Points.",
       "category": "Ability",
       "gameId": 8016,
       "componentValues": {
-        "COM_0_VAL0": 990,
+        "COM_0_VAL0": 618,
         "COM_0_DURA_SECONDS": 10,
         "COM_2_VAL0_COM_0_VAL0_ACTIONPOINTS": 10
       },

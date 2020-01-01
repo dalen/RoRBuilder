@@ -28,24 +28,30 @@ const calculateValue = (
   valueIndex: number,
   abilityLevel: number,
 ): number | void => {
+  const calcWithMultiplier = (): number => {
+    if (component.A15 === 4) {
+      // It seems A15 == 4 means it is a static value
+      return Math.abs(component.Values[valueIndex]);
+    }
+    return Math.floor(
+      Math.abs(
+        (component.Values[valueIndex] *
+          abilityLevel *
+          component.Multipliers[0]) /
+          100,
+      ),
+    );
+  };
+
   switch (component.Operation) {
     case ComponentOP.DAMAGE:
       return;
     case ComponentOP.STAT_CHANGE:
-      if (component.A15 === 4) {
-        // It seems A15 == 4 means it is a static value
-        return Math.abs(component.Values[valueIndex]);
-      }
-      return Math.floor(
-        Math.abs(
-          (component.Values[valueIndex] *
-            abilityLevel *
-            component.Multipliers[0]) /
-            100,
-        ),
-      );
+      return calcWithMultiplier();
     case ComponentOP.DAMAGE_CHANGE_PCT:
       return Math.abs(component.Values[valueIndex]);
+    case ComponentOP.ARMOR_CHANGE_PCT:
+      return calcWithMultiplier();
     case ComponentOP.AP_CHANGE:
       return Math.abs(component.Values[valueIndex]);
     case ComponentOP.MOVEMENT_SPEED:
@@ -200,7 +206,7 @@ const validateComponentValue = (
     if (
       !calculateValue(component, valueIndex, abilityLevel) &&
       number > 0 &&
-      ![1, 3, 5].includes(component.Operation)
+      ![1, 3].includes(component.Operation)
     ) {
       console.log(
         'Failed to calculate:',
@@ -208,10 +214,14 @@ const validateComponentValue = (
         colors.cyan(name),
         'operation',
         component.Operation,
+        'specialization',
+        gameAbility.Specialization,
         'number:',
         number,
         'values',
         component.Values,
+        'multipliers',
+        component.Multipliers,
       );
       // console.log(component);
     }

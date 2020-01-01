@@ -394,13 +394,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "War Bellow",
-      "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by 236 for 10 seconds on all group members within 100 feet. Physical damage will increase armour by 618.",
+      "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by 236 for 10 seconds on all group members within 100 feet. Physical damage will increase armor by 618 for 10 seconds for all group members within 100 feet.<BR><BR>You may only have 1 War Bellow active at a time.",
       "category": "Ability",
       "gameId": 1675,
       "componentValues": {
         "ABIL_3239_COM_0_VAL0": 236,
         "ABIL_3239_COM_0_DURA_SECONDS": 10,
-        "ABIL_3242_COM_0_VAL0": 0,
+        "ABIL_3242_COM_0_VAL0": 618,
         "ABIL_3242_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by {ABIL_3239_COM_0_VAL0} for {ABIL_3239_COM_0_DURA_SECONDS} on all group members within 100 feet. Physical damage will increase armor by {ABIL_3242_COM_0_VAL0} for {ABIL_3242_COM_0_DURA_SECONDS} for all group members within 100 feet.<BR><BR>You may only have 1 War Bellow active at a time."
@@ -484,7 +484,7 @@
       "category": "Morale",
       "gameId": 606,
       "componentValues": {
-        "COM_1_VAL0": 0,
+        "COM_1_VAL0": 1056,
         "COM_0_VAL0_TOD_DAMAGE": 0,
         "COM_0_DURA_SECONDS": 15
       },
@@ -1358,7 +1358,7 @@
       "gameId": 1669,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_1_VAL0": 0,
+        "COM_1_VAL0": 618,
         "COM_1_DURA_SECONDS": 20
       },
       "rawDescription": "You slam your shield into your enemy, dealing {COM_0_VAL0_DAMAGE} and increasing your armor by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."

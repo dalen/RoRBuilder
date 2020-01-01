@@ -578,11 +578,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increase the armor of all group mates within 100 feet by 1518 and resists by 504 for 10 seconds.",
+      "description": "Increase the armor of all group mates within 100 feet by 1320 and resists by 504 for 10 seconds.",
       "category": "Morale",
       "gameId": 8606,
       "componentValues": {
-        "COM_0_VAL0": 1518,
+        "COM_0_VAL0": 1320,
         "COM_1_VAL0": 504,
         "COM_1_DURA_SECONDS": 10
       },
@@ -1112,11 +1112,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Demon Spittle grows ever more corrosive and now now also reduces Armor by 618 and Corporeal resistance by 236.",
+      "description": "Demon Spittle grows ever more corrosive and now also reduces Armor by 618 and Corporeal resistance by 236.",
       "category": "CareerTactic",
       "gameId": 8600,
       "componentValues": {
-        "ABIL_8563_COM_3_VAL0": 0,
+        "ABIL_8563_COM_3_VAL0": 618,
         "ABIL_8563_COM_2_VAL0": 236
       },
       "rawDescription": "Demon Spittle grows ever more corrosive and now also reduces Armor by {ABIL_8563_COM_3_VAL0} and Corporeal resistance by {ABIL_8563_COM_2_VAL0}."
@@ -1441,11 +1441,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
+      "description": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by 1056 for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
       "category": "CareerTactic",
       "gameId": 8584,
       "componentValues": {
-        "ABIL_3074_COM_0_VAL0": 0,
+        "ABIL_3074_COM_0_VAL0": 1056,
         "ABIL_3074_COM_0_DURA_SECONDS": 10,
         "ABIL_3074_COM_1_VAL1": 10
       },

@@ -352,7 +352,7 @@
       "gameId": 8418,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_1_VAL0": 0,
+        "COM_1_VAL0": 1000,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "An undefendable claw attack that deals {COM_0_VAL0_DAMAGE} and reduces targets armor by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."

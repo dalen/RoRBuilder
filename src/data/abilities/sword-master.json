@@ -360,7 +360,7 @@
         "COM_0_VAL0_DAMAGE": 0,
         "COM_3_DURA_SECONDS": 20,
         "COM_3_VAL0": 5,
-        "COM_4_VAL0": 0
+        "COM_4_VAL0": 618
       },
       "rawDescription": "A calculated shield maneuver that inflicts {COM_0_VAL0_DAMAGE} to all enemies 15 feet in front of you and interrupts any spells they are casting. Additionally, for the next {COM_3_DURA_SECONDS}, your block rate is increased by {COM_3_VAL0}% and your armor will be increased by {COM_4_VAL0} points."
     },
@@ -423,7 +423,7 @@
       "category": "Morale",
       "gameId": 606,
       "componentValues": {
-        "COM_1_VAL0": 0,
+        "COM_1_VAL0": 1056,
         "COM_0_VAL0_TOD_DAMAGE": 0,
         "COM_0_DURA_SECONDS": 15
       },
@@ -758,11 +758,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirit of the heavens. Whenever you strike a target with a melee attack, there is a 25% chance that you will increase your group's defenses against one of the damage types that your target uses. For physical damage, your group's armor is increased by 618 and for resistance damage, that resistance is increased by 236. This effect persists for 10s.<br><br>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirit of the heavens. Whenever you strike a target with a melee attack, there is a 25% chance that you will increase your group's defenses against one of the damage types that your target uses. For physical damage, your group's armor is increased by 618, and for resistance damage, that resistance is increased by 236. This effect persists for 10 seconds.<BR><BR>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability",
       "gameId": 9015,
       "componentValues": {
-        "ABIL_3084_COM_0_VAL0": 0,
+        "ABIL_3084_COM_0_VAL0": 618,
         "ABIL_3085_COM_0_VAL0": 236,
         "ABIL_3085_COM_0_DURA_SECONDS": 10
       },
