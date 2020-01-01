@@ -390,11 +390,6 @@ const validateAbility = async (
   }
   const gameAbility = abilityData[ability.gameId];
 
-  // Debug
-  const printDebugAbilities: number[] = [];
-  if (printDebugAbilities.includes(gameAbility.AbilityID)) {
-    console.log(JSON.stringify(gameAbility, undefined, 2));
-  }
   /* if (
     gameAbility.Components.find(
       component => component.Operation === ComponentOP.MECHANIC_CHANGE,
@@ -471,6 +466,12 @@ const main = async () => {
     abilityComponents,
     abilityResults,
   );
+
+  // Debug
+  const printDebugAbilities: number[] = [];
+  printDebugAbilities.forEach(abilityId => {
+    console.log(JSON.stringify(abilityData[abilityId], undefined, 2));
+  });
 
   await validateCareer('ironbreaker', CareerLine.IRON_BREAKER, abilityData);
   await validateCareer('slayer', CareerLine.SLAYER, abilityData);

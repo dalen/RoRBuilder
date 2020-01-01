@@ -37,8 +37,24 @@ const getValue = (
 const calculateValue = (
   component: AbilityData['Components'][0],
   valueIndex: number,
+  abilityLevel: number,
 ): number | void => {
   switch (component.Operation) {
+    case ComponentOP.DAMAGE:
+      return;
+    case ComponentOP.STAT_CHANGE:
+      if (component.A15 === 4) {
+        // It seems A15 == 4 means it is a static value
+        return Math.abs(component.Values[valueIndex]);
+      }
+      return Math.floor(
+        Math.abs(
+          (component.Values[valueIndex] *
+            abilityLevel *
+            component.Multipliers[0]) /
+            100,
+        ),
+      );
     case ComponentOP.DAMAGE_CHANGE_PCT:
       return Math.abs(component.Values[valueIndex]);
     case ComponentOP.AP_CHANGE:
@@ -135,10 +151,14 @@ const validateComponentValue = (
       return number;
     }
 
+    // At lvl 40 with no mastery abilityLevel will be 40 for core abilities and
+    // 25 for mastery abilities.
+    const abilityLevel = gameAbility.Specialization === 0 ? 40 : 25;
+
     if (
-      !calculateValue(component, valueIndex) &&
+      !calculateValue(component, valueIndex, abilityLevel) &&
       number > 0 &&
-      ![1, 2, 3, 5].includes(component.Operation)
+      ![1, 3, 5].includes(component.Operation)
     ) {
       console.log(
         'Failed to calculate:',
@@ -153,7 +173,7 @@ const validateComponentValue = (
       );
       // console.log(component);
     }
-    return calculateValue(component, valueIndex) || number;
+    return calculateValue(component, valueIndex, abilityLevel) || number;
   })();
 
   if (num !== number) {
