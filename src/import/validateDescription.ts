@@ -88,6 +88,10 @@ const componentValueToText = (name: string, number: number): string => {
     return `${number} seconds`;
   } else if (name.endsWith('_SECONDS')) {
     return `${number} seconds`;
+  } else if (name.endsWith('_DURA_MINUTES')) {
+    return `${number} minutes`;
+  } else if (name.endsWith('_DURA_HOURS')) {
+    return `${number} hours`;
   } else if (name.endsWith('_RADI_FEET')) {
     return `${number} feet`;
   } else if (name.endsWith('_ACTIONPOINTS')) {
@@ -168,16 +172,6 @@ export const validateDescription = (
 };
 
 /*
-const calculateDamage2 = (
-  ability: AbilityData,
-  component: AbilityData['Components'][0],
-  valIndex: number,
-  level: number,
-  effectiveLevel: number,
-  mastery: number,
-  staticLevel: number,
-) => {};
-
 const calculateDamage = (
   ability: AbilityData,
   component: AbilityData['Components'][0],
