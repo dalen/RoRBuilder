@@ -814,13 +814,13 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You fill your enemies with fear and doubt, causing all healing abilities to become 75% as effective when used by any enemies within 30 feet of you.<br>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
+      "description": "You fill your enemies with fear and doubt, causing all healing abilities to become 75% as effective when used by any enemies within 30 feet of you.<BR>The effect will linger for 12 seconds after you stop using this Battle Command.",
       "category": "Ability",
       "gameId": 8036,
       "componentValues": {
         "COM_3_VAL1": 75,
         "COM_3_RADI_FEET": 30,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 0
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 12
       },
       "rawDescription": "You fill your enemies with fear and doubt, causing all healing abilities to become {COM_3_VAL1}% as effective when used by any enemies within {COM_3_RADI_FEET} of you.<BR>The effect will linger for {COM_2_VAL0_COM_0_DURA_SECONDS} after you stop using this Battle Command."
     },

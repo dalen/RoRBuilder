@@ -188,14 +188,14 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 20 Righteous Fury",
-      "description": "A strike that deals 76 damage to your enemy, and an additional 115 damage over 10 seconds, and reduces their Initiative by 80.",
+      "description": "A strike that deals 76 damage to your enemy, and an additional 115 damage over 10 seconds, and reduces their Initiative by 50.",
       "category": "Ability",
       "gameId": 8257,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 76,
         "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 115,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_COM_1_VAL0": 80
+        "COM_1_VAL0_COM_1_VAL0": 50
       },
       "rawDescription": "A strike that deals {COM_0_VAL0_DAMAGE} to your enemy, and an additional {COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}, and reduces their Initiative by {COM_1_VAL0_COM_1_VAL0}."
     },
@@ -772,7 +772,7 @@
       "gameId": 8295,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0_TOD": 0,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 0
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional {COM_1_VAL0_COM_0_VAL0_TOD} Spirit Damage over {COM_1_VAL0_COM_0_DURA_SECONDS}. Your defensive target will also be healed for any damage dealt."
     },
@@ -1308,7 +1308,7 @@
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
         "COM_0_RADI_FEET": 50,
-        "COM_1_VAL0_COM_0_VAL0": 0
+        "COM_1_VAL0_COM_0_VAL0": 15
       },
       "rawDescription": "A sweeping blow which deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away.<BR>Builds an additional {COM_1_VAL0_COM_0_VAL0} Righteous Fury for each enemy that you strike."
     },

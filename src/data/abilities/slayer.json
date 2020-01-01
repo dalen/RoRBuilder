@@ -508,13 +508,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, group member's within 100 feet will have their Weaponskill increased by 25 each time that you hit an enemy, and your Initiative will be reduced by 25. This effect can be stacked up to three times.",
+      "description": "For the next 10 seconds, group member's within 100 feet will have their Weaponskill increased by 25 each time that you hit an enemy with direct damage, and your Initiative will be reduced by 25. This effect can be stacked up to three times.",
       "category": "Ability",
       "gameId": 1458,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_COM_1_VAL0": 0,
-        "COM_2_VAL0_COM_1_VAL0": 0
+        "COM_1_VAL0_COM_1_VAL0": 25,
+        "COM_2_VAL0_COM_1_VAL0": 25
       },
       "rawDescription": "For the next {COM_0_DURA_SECONDS}, group member's within 100 feet will have their Weaponskill increased by {COM_1_VAL0_COM_1_VAL0} each time that you hit an enemy with direct damage, and your Initiative will be reduced by {COM_2_VAL0_COM_1_VAL0}. This effect can be stacked up to three times."
     },
@@ -1461,7 +1461,7 @@
       "category": "Ability",
       "gameId": 1447,
       "componentValues": {
-        "COM_0_VAL0_COM_0_RADI_FEET": 0,
+        "COM_0_VAL0_COM_0_RADI_FEET": 30,
         "COM_0_VAL0_COM_0_VAL0_DAMAGE": 0,
         "COM_0_VAL0_COM_4_VAL0_DAMAGE": 0
       },

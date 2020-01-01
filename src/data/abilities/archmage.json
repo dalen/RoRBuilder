@@ -1334,11 +1334,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically heal someone, your healing abilities will cost 35% less action points for 10 seconds.",
+      "description": "Whenever you critically heal someone, your healing abilities will cost 50% less action points for 10 seconds.",
       "category": "CareerTactic",
       "gameId": 9293,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL1": 35,
+        "COM_1_VAL0_COM_0_VAL1": 50,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Whenever you critically heal someone, your healing abilities will cost {COM_1_VAL0_COM_0_VAL1}% less action points for {COM_1_VAL0_COM_0_DURA_SECONDS}."

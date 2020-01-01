@@ -772,13 +772,13 @@
       "gameId": 1364,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_1_VAL0_COM_0_VAL0": 0,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 0,
-        "COM_1_VAL0_COM_3_RADI_FEET": 0,
-        "COM_1_VAL0_COM_1_VAL0": 0,
-        "COM_1_VAL0_COM_2_VAL0": 0,
-        "COM_1_VAL0_COM_3_VAL0": 0,
-        "COM_1_VAL0_COM_4_VAL0": 0
+        "COM_1_VAL0_COM_0_VAL0": 75,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 20,
+        "COM_1_VAL0_COM_3_RADI_FEET": 50,
+        "COM_1_VAL0_COM_1_VAL0": 75,
+        "COM_1_VAL0_COM_2_VAL0": 150,
+        "COM_1_VAL0_COM_3_VAL0": 225,
+        "COM_1_VAL0_COM_4_VAL0": 300
       },
       "rawDescription": "A brutal attack that deals {COM_0_VAL0_DAMAGE} to your target and inspires you to push the attack, increasing your Strength by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}. Will also affect your Oath Friend if they are within {COM_1_VAL0_COM_3_RADI_FEET}. <BR><BR>   At 25 Grudges:  Also increases Willpower by {COM_1_VAL0_COM_1_VAL0}.<BR>   At 50 Grudges: Also increases Willpower by {COM_1_VAL0_COM_2_VAL0}.<BR>   At 75 Grudges: Also increases Willpower by {COM_1_VAL0_COM_3_VAL0}.<BR>   At 100 Grudges:  Also increases Willpower by {COM_1_VAL0_COM_4_VAL0}.<BR>"
     },

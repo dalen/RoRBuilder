@@ -1087,8 +1087,8 @@
       "gameId": 1745,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_1_VAL0_COM_1_VAL0": 0,
-        "COM_1_VAL0_COM_1_DURA_SECONDS": 0
+        "COM_1_VAL0_COM_1_VAL0": 25,
+        "COM_1_VAL0_COM_1_DURA_SECONDS": 9
       },
       "rawDescription": "A furious slash that deals {COM_0_VAL0_DAMAGE} and reduces your target's Toughness by {COM_1_VAL0_COM_1_VAL0} for {COM_1_VAL0_COM_1_DURA_SECONDS}. This effect is stackable up to three times."
     },

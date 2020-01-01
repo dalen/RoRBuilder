@@ -1022,13 +1022,13 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "You shake the very earth, dealing 154 Spirit damage to all opponents within 40 feet in front of you, staggering everyone for up to 3 seconds, preventing all actions unless they are damaged.",
+      "description": "You shake the very earth, dealing 154 Spirit damage to all opponents within 40 feet in front of you, staggering everyone for up to 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
       "gameId": 8349,
       "componentValues": {
         "COM_0_VAL0_SPIRITDAMAGE": 154,
         "COM_0_RADI_FEET": 40,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 3
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "You shake the very earth, dealing {COM_0_VAL0_SPIRITDAMAGE} to all opponents within {COM_0_RADI_FEET} in front of you, staggering everyone for up to {COM_2_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
     },
@@ -1404,7 +1404,7 @@
       "gameId": 8317,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 0,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 0,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5,
         "COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE": 0
       },
       "rawDescription": "You stab into your opponent for {COM_0_VAL0_DAMAGE}.  For the next {COM_1_VAL0_COM_0_DURA_SECONDS}, Tooth Of Tzeentch will cause an additional {COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE} on the next damaging attack made by everyone in your group within 100 feet of you."

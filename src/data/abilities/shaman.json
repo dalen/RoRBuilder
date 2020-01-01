@@ -866,11 +866,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Brain Bursta will now also reduce the victim's Toughness by 240 for 20 seconds and reduces the duration and tick interval of Bunch o' Waaagh by 50%. Gorks power however will reduce the effectiveness of your healing abilities by 20% and increases the cooldown of Bunch o' Waaagh by 50%.",
+      "description": "Brain Bursta will now also reduce the victim's Toughness by 150 for 20 seconds and reduces the duration and tick interval of Bunch o' Waaagh by 50%. Gorks power however will reduce the effectiveness of your healing abilities by 20% and increases the cooldown of Bunch o' Waaagh by 50%.",
       "category": "CareerTactic",
       "gameId": 2749,
       "componentValues": {
-        "ABIL_1899_COM_2_VAL0_COM_0_VAL0": 240,
+        "ABIL_1899_COM_2_VAL0_COM_0_VAL0": 150,
         "ABIL_3220_COM_0_DURA_SECONDS": 20,
         "COM_2_VAL1": 20
       },

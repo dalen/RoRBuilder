@@ -152,8 +152,8 @@
       "gameId": 8099,
       "componentValues": {
         "ABIL_3002_COM_0_VAL0_SPIRITDAMAGE": 0,
-        "COM_1_VAL0_COM_1_DURA_SECONDS": 0,
-        "COM_1_VAL0_COM_1_VAL1": 0
+        "COM_1_VAL0_COM_1_DURA_SECONDS": 5,
+        "COM_1_VAL0_COM_1_VAL1": 50
       },
       "rawDescription": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional {ABIL_3002_COM_0_VAL0_SPIRITDAMAGE}.  Any healing abilities that the victim uses over the next {COM_1_VAL0_COM_1_DURA_SECONDS} will become {COM_1_VAL0_COM_1_VAL1}% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect."
     },
@@ -174,9 +174,9 @@
       "gameId": 8084,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 0,
-        "COM_1_VAL0_COM_1_VAL0": 0,
-        "COM_1_VAL0_COM_1_DURA_SECONDS": 0,
-        "COM_1_VAL0_COM_2_VAL0_COM_0_VAL0": 0
+        "COM_1_VAL0_COM_1_VAL0": 50,
+        "COM_1_VAL0_COM_1_DURA_SECONDS": 10,
+        "COM_1_VAL0_COM_2_VAL0_COM_0_VAL0": 50
       },
       "rawDescription": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional {COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE}.  The victim's Initiative will be reduced by {COM_1_VAL0_COM_1_VAL0} for {COM_1_VAL0_COM_1_DURA_SECONDS}, and your Initiative will be increased by {COM_1_VAL0_COM_2_VAL0_COM_0_VAL0}.<BR><BR>This ability may be used while Incognito without breaking the effect."
     },

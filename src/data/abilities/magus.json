@@ -514,7 +514,7 @@
       "gameId": 568,
       "componentValues": {
         "COM_1_VAL0_ACTIONPOINTS": 0,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 0
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 2
       },
       "rawDescription": "Whenever one of your spells hits an enemy, you have a 25% chance to regain {COM_1_VAL0_ACTIONPOINTS}. This effect cannot occur more than once every {COM_2_VAL0_COM_0_DURA_SECONDS}."
     },

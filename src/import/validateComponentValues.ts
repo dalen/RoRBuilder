@@ -23,17 +23,6 @@ export const getValueIndices = (componentString: string): number[] => {
   );
 };
 
-// Values should have been extracted as signed...
-const getValue = (
-  component: AbilityData['Components'][0],
-  valueIndex: number,
-) => {
-  if (component.Values[valueIndex] > Math.pow(2, 15)) {
-    return component.Values[valueIndex] - Math.pow(2, 16);
-  }
-  return component.Values[valueIndex];
-};
-
 const calculateValue = (
   component: AbilityData['Components'][0],
   valueIndex: number,
@@ -83,6 +72,43 @@ const calculateValue = (
   }
 };
 
+// Get the component we should calculate on
+const getComponent = (
+  ability: AbilityData,
+  abilityData: {
+    [key: number]: AbilityData;
+  },
+  componentIndices: number[],
+  valueIndices: number[],
+): [AbilityData['Components'][0], number] | [] => {
+  if (componentIndices.length > 1) {
+    // We got something like `COM_1_VAL0_COM_0_VAL1`
+    if (
+      ability.Components[componentIndices[0]].Operation ===
+      ComponentOP.LINKED_ABILITY
+    ) {
+      return getComponent(
+        abilityData[
+          ability.Components[componentIndices[0]].Values[valueIndices[0]]
+        ],
+        abilityData,
+        componentIndices.slice(1),
+        valueIndices.slice(1),
+      );
+    }
+    // Something odd we don't know how to handle yet
+    console.log(
+      `Ability: ${colors.green(ability.Name)} (${
+        ability.AbilityID
+      }) Unhandled ${componentIndices} ${valueIndices} ${
+        ability.Components[componentIndices[0]].Operation
+      }`,
+    );
+    return [];
+  }
+  return [ability.Components[componentIndices[0]], valueIndices[0]];
+};
+
 const validateComponentValue = (
   name: string,
   number: number,
@@ -94,15 +120,14 @@ const validateComponentValue = (
   // Ability refered might be different than current one
   const ability = abilityData[getAbilityID(name) || gameAbility.AbilityID];
   const componentIndices = getComponentIndices(name);
+  const valueIndices = getValueIndices(name);
 
-  if (componentIndices.length !== 1) {
-    // Don't know how to handle stuff like COM_1_VAL0_COM_0_DURA_SECONDS yet
-    return number;
-  }
-
-  const component = ability.Components[componentIndices[0]];
-
-  const valueIndex = getValueIndices(name)[0];
+  const [component, valueIndex] = getComponent(
+    ability,
+    abilityData,
+    componentIndices,
+    valueIndices,
+  );
 
   if (component === undefined) {
     console.log(
@@ -148,6 +173,21 @@ const validateComponentValue = (
     } else if (name.endsWith('_HEALTH')) {
       return number;
     } else if (name.endsWith('_TOD')) {
+      return number;
+    }
+
+    if (valueIndex === undefined) {
+      console.log(
+        'valueIndex is undefined for',
+        'name',
+        colors.cyan(name),
+        'operation',
+        component.Operation,
+        'number:',
+        number,
+        'values',
+        component.Values,
+      );
       return number;
     }
 

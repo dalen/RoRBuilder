@@ -652,11 +652,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Frenzies will now have a 10% chance per point spent to knock the enemy down for 3 seconds.",
+      "description": "Your Frenzies will now have a 10% chance per point spent to knock the enemy down for 4 seconds.",
       "category": "CareerTactic",
       "gameId": 9435,
       "componentValues": {
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 4
       },
       "rawDescription": "Your Frenzies will now have a 10% chance per point spent to knock the enemy down for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },

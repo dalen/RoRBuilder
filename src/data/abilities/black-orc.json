@@ -438,11 +438,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the duration of \"Wot Armor?\" by 10 seconds, and will now reduces target's toughness by 75.",
+      "description": "Increases the duration of \"Wot Armor?\" by 10 seconds, and will now reduces target's toughness by 120.",
       "category": "CareerTactic",
       "gameId": 1703,
       "componentValues": {
-        "ABIL_1666_COM_1_VAL0_COM_1_VAL0": 75
+        "ABIL_1666_COM_1_VAL0_COM_1_VAL0": 120
       },
       "rawDescription": "Increases the duration of \"Wot Armor?\" by 10 seconds, and will now reduces target's toughness by {ABIL_1666_COM_1_VAL0_COM_1_VAL0}."
     },

@@ -952,11 +952,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Trained To Hunt will now also increase your autoattack speed by 50%",
+      "description": "Trained To Hunt will now also increase your autoattack speed by 50%.",
       "category": "CareerTactic",
       "gameId": 9210,
       "componentValues": {
-        "ABIL_9172_COM_5_VAL0_COM_0_VAL1": 0
+        "ABIL_9172_COM_5_VAL0_COM_0_VAL1": 50
       },
       "rawDescription": "Trained To Hunt will now also increase your autoattack speed by {ABIL_9172_COM_5_VAL0_COM_0_VAL1}%."
     },
