@@ -141,11 +141,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength by 160",
+      "description": "Increases your Strength by 160.",
       "category": "CareerTactic",
       "gameId": 521,
       "componentValues": {
-        "COM_0_VAL0": 0
+        "COM_0_VAL0": 160
       },
       "rawDescription": "Increases your Strength by {COM_0_VAL0}."
     },
@@ -285,11 +285,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Brutality further increases your Strength and Initiative by 160.",
+      "description": "Gift of Brutality further increases your Strength and Initiative by 100.",
       "category": "CareerTactic",
       "gameId": 8441,
       "componentValues": {
-        "ABIL_8398_COM_5_VAL0": 160
+        "ABIL_8398_COM_5_VAL0": 100
       },
       "rawDescription": "Gift of Brutality further increases your Strength and Initiative by {ABIL_8398_COM_5_VAL0}."
     },
@@ -885,11 +885,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Monstrosity further increases your Toughness and Initiative by 160.",
+      "description": "Gift of Monstrosity further increases your Toughness and Initiative by 100.",
       "category": "CareerTactic",
       "gameId": 8444,
       "componentValues": {
-        "ABIL_8403_COM_5_VAL0": 160
+        "ABIL_8403_COM_5_VAL0": 100
       },
       "rawDescription": "Gift of Monstrosity further increases your Toughness and Initiative by {ABIL_8403_COM_5_VAL0}."
     },
@@ -1195,11 +1195,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Savagery further increases your Weapon Skill and Initiative by 160.",
+      "description": "Gift of Savagery further increases your Weapon Skill and Initiative by 100.",
       "category": "CareerTactic",
       "gameId": 8438,
       "componentValues": {
-        "ABIL_8394_COM_5_VAL0": 160
+        "ABIL_8394_COM_5_VAL0": 100
       },
       "rawDescription": "Gift of Savagery further increases your Weapon Skill and Initiative by {ABIL_8394_COM_5_VAL0}."
     },

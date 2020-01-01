@@ -361,12 +361,12 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You devastate your target, dealing 211 damage and reducing your target's Wounds by 120 for 10 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You devastate your target, dealing 211 damage and reducing your target's Wounds by 100 for 10 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1461,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 211,
-        "COM_1_VAL0": 120,
+        "COM_1_VAL0": 100,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "You devastate your target, dealing {COM_0_VAL0_DAMAGE} and reducing your target's Wounds by {COM_1_VAL0} for {COM_1_DURA_SECONDS}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."

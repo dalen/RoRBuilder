@@ -1461,11 +1461,11 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You are surrounded by magical barrier increasing your willpower by 75 and disrupt chance by 25% for 10 seconds. During this time, any spell you disrupt will silence it's caster for 3 seconds.",
+      "description": "You are surrounded by a magical barrier, increasing your willpower by 75 and disrupt chance by 25% for 10 seconds. During this time, any spell you disrupt will silence its caster for 3 seconds.",
       "category": "Ability",
       "gameId": 8350,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 75,
         "COM_1_VAL0": 25,
         "COM_0_DURA_SECONDS": 10,
         "ABIL_3762_COM_0_DURA_SECONDS": 3

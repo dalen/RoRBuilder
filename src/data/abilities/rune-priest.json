@@ -347,11 +347,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by 120 for 10 seconds.",
+      "description": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by 75 for 10 seconds.",
       "category": "CareerTactic",
       "gameId": 1636,
       "componentValues": {
-        "ABIL_3472_COM_0_VAL0": 120,
+        "ABIL_3472_COM_0_VAL0": 75,
         "ABIL_3472_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by {ABIL_3472_COM_0_VAL0} for {ABIL_3472_COM_0_DURA_SECONDS}."
@@ -597,7 +597,7 @@
       "gameId": 1644,
       "componentValues": {
         "COM_0_VAL0": 0,
-        "COM_1_VAL0": 0,
+        "COM_1_VAL0": 504,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "Increases the armor of all group mates within 100 feet by {COM_0_VAL0} and resists by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
@@ -618,7 +618,7 @@
       "category": "Ability",
       "gameId": 1600,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 50,
         "ABIL_3870_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
         "ABIL_3870_COM_0_DURA_SECONDS": 9
       },
@@ -640,7 +640,7 @@
       "category": "Ability",
       "gameId": 1591,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 50,
         "ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE": 0
       },
       "rawDescription": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by {COM_0_VAL0} for 1 hour. The rune holder may activate to inflict {ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE} to a target.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
@@ -657,11 +657,11 @@
       "incant": "Instant cast",
       "cooldown": "10m cooldown",
       "note": "",
-      "description": "Increases targeted group member's Toughness by 80 for 1 hour. The rune holder will then be able to resurrect themselves with 20% health if killed within the next 10 minutes. Doing so will remove the Oath Rune.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the targeted group member's Toughness by 80 for 1 hour. The rune holder will then be able to resurrect themselves with 20% health if killed within the next 10 minutes. Doing so will remove the Oath Rune.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
       "gameId": 1608,
       "componentValues": {
-        "COM_5_VAL0": 0
+        "COM_5_VAL0": 80
       },
       "rawDescription": "Increases the targeted group member's Toughness by {COM_5_VAL0} for 1 hour. The rune holder will then be able to resurrect themselves with 20% health if killed within the next 10 minutes. Doing so will remove the Oath Rune.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
     },
@@ -681,7 +681,7 @@
       "category": "Ability",
       "gameId": 1588,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 157,
         "ABIL_3868_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
         "ABIL_3868_COM_0_DURA_SECONDS": 9,
         "ABIL_3868_COM_0_RADI_FEET": 30
@@ -740,11 +740,11 @@
       "incant": "Instant cast",
       "cooldown": "3m cooldown",
       "note": "",
-      "description": "Increases target group member's Wounds by 100 for 60 seconds. Heals target for value of HP increase.",
+      "description": "Increases the target group member's Wounds by 100 for 60 seconds, healing them for the value of the additional HP gained.",
       "category": "Ability",
       "gameId": 1606,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 100,
         "COM_0_DURA_SECONDS": 60
       },
       "rawDescription": "Increases the target group member's Wounds by {COM_0_VAL0} for {COM_0_DURA_SECONDS}, healing them for the value of the additional HP gained."

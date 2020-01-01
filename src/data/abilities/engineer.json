@@ -338,11 +338,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 252 for 60.",
+      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 157 for 60.",
       "category": "Ability",
       "gameId": 1529,
       "componentValues": {
-        "COM_0_VAL0": 252,
+        "COM_0_VAL0": 157,
         "COM_0_DURA_MINUTES": 60
       },
       "rawDescription": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by {COM_0_VAL0} for {COM_0_DURA_MINUTES}."
@@ -1054,11 +1054,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Ballistic Skill by 160",
+      "description": "Increases your Ballistic Skill by 160.",
       "category": "CareerTactic",
       "gameId": 542,
       "componentValues": {
-        "COM_0_VAL0": 0
+        "COM_0_VAL0": 160
       },
       "rawDescription": "Increases your Ballistic Skill by {COM_0_VAL0}."
     },

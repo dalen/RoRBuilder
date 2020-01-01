@@ -185,11 +185,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength by.",
+      "description": "Increases your Strength by 160.",
       "category": "CareerTactic",
       "gameId": 521,
       "componentValues": {
-        "COM_0_VAL0": 0
+        "COM_0_VAL0": 160
       },
       "rawDescription": "Increases your Strength by {COM_0_VAL0}."
     },
@@ -305,11 +305,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increases your Toughness by 25 for each enemy within 30 feet, up to a maximum of 9 enemies. for 10 seconds.",
+      "description": "Increases your Toughness by 25 for each enemy within 30 feet, up to a maximum of 9 enemies, for 10 seconds.",
       "category": "Ability",
       "gameId": 1758,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 25,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Increases your Toughness by {COM_0_VAL0} for each enemy within 30 feet, up to a maximum of 9 enemies, for {COM_0_DURA_SECONDS}."
@@ -429,12 +429,12 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength and Weapon Skill by 120 but reduces your Toughness by 120.",
+      "description": "Increases your Strength and Weapon Skill by 120, but reduces your Toughness by 120.",
       "category": "CareerTactic",
       "gameId": 1778,
       "componentValues": {
-        "COM_0_VAL0": 0,
-        "COM_1_VAL0": 0
+        "COM_0_VAL0": 120,
+        "COM_1_VAL0": 120
       },
       "rawDescription": "Increases your Strength and Weapon Skill by {COM_0_VAL0}, but reduces your Toughness by {COM_1_VAL0}."
     },

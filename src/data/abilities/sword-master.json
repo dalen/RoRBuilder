@@ -763,7 +763,7 @@
       "gameId": 9015,
       "componentValues": {
         "ABIL_3084_COM_0_VAL0": 0,
-        "ABIL_3085_COM_0_VAL0": 0,
+        "ABIL_3085_COM_0_VAL0": 236,
         "ABIL_3085_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You enchant your blade with the spirit of the heavens. Whenever you strike a target with a melee attack, there is a 25% chance that you will increase your group's defenses against one of the damage types that your target uses. For physical damage, your group's armor is increased by {ABIL_3084_COM_0_VAL0}, and for resistance damage, that resistance is increased by {ABIL_3085_COM_0_VAL0}. This effect persists for {ABIL_3085_COM_0_DURA_SECONDS}.<BR><BR>You may only have 1 Blade Enchantment active at a time."
@@ -987,11 +987,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to increase your group's wounds by 32 for 10 seconds. Anyone affected will be healed for the amount increased.<br><br>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to increase your group's Wounds by 162. Anyone affected will be healed for the amount increased.<BR><BR>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability",
       "gameId": 9020,
       "componentValues": {
-        "ABIL_3231_COM_0_VAL0": 0
+        "ABIL_3231_COM_0_VAL0": 162
       },
       "rawDescription": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to increase your group's Wounds by {ABIL_3231_COM_0_VAL0}. Anyone affected will be healed for the amount increased.<BR><BR>You may only have 1 Blade Enchantment active at a time."
     },
@@ -1459,13 +1459,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "The magic from your blade is released in a staggering explosion that deals 170 damage to all opponents within 30 feet. In addition your opponent's Spiritual resistance will be reduced by 378 for 20 seconds.",
+      "description": "The magic from your blade is released in a staggering explosion that deals 170 damage to all opponents within 30 feet. In addition your opponent's Spiritual resistance will be reduced by 236 for 20 seconds.",
       "category": "Ability",
       "gameId": 9017,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 170,
         "COM_0_RADI_FEET": 30,
-        "ABIL_3169_COM_0_VAL0": 378,
+        "ABIL_3169_COM_0_VAL0": 236,
         "ABIL_3169_COM_0_DURA_SECONDS": 20
       },
       "rawDescription": "The magic from your blade is released in a staggering explosion that deals {COM_0_VAL0_DAMAGE} to all opponents within {COM_0_RADI_FEET}. In addition your opponent's Spiritual resistance will be reduced by {ABIL_3169_COM_0_VAL0} for {ABIL_3169_COM_0_DURA_SECONDS}."

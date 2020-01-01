@@ -105,13 +105,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You sweep your blade out in a wide arc, dealing 109 damage to all enemies 25 feet in front of you, and reducing their Wounds by 120.",
+      "description": "You sweep your blade out in a wide arc, dealing 109 damage to all enemies 25 feet in front of you, and reducing their Wounds by 75.",
       "category": "Ability",
       "gameId": 8026,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 109,
         "COM_0_RADI_FEET": 25,
-        "COM_2_VAL0": 120
+        "COM_2_VAL0": 75
       },
       "rawDescription": "You sweep your blade out in a wide arc, dealing {COM_0_VAL0_DAMAGE} to all enemies {COM_0_RADI_FEET} in front of you, and reducing their Wounds by {COM_2_VAL0}."
     },
@@ -524,14 +524,14 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to steady their thoughts, increasing all resistances by 378 for all groupmates within 100 feet.  All enemies within 30 feet will be frightened, reducing their resistances by 188.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
+      "description": "You order your group to steady their thoughts, increasing all resistances by 236 for all groupmates within 100 feet.  All enemies within 30 feet will be frightened, reducing their resistances by 118.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
       "gameId": 8008,
       "componentValues": {
-        "COM_3_VAL0": 378,
+        "COM_3_VAL0": 236,
         "COM_3_RADI_FEET": 100,
         "COM_4_RADI_FEET": 30,
-        "COM_4_VAL0": 188
+        "COM_4_VAL0": 118
       },
       "rawDescription": "You order your group to steady their thoughts, increasing all resistances by {COM_3_VAL0} for all groupmates within {COM_3_RADI_FEET}.  All enemies within {COM_4_RADI_FEET} will be frightened, reducing their resistances by {COM_4_VAL0}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
@@ -899,14 +899,14 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to strike fiercely, increasing Strength by 120 for all groupmates within 100 feet.  All enemies within 30 feet will be frightened, reducing their Strength by 120.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
+      "description": "You order your group to strike fiercely, increasing Strength by 75 for all groupmates within 100 feet.  All enemies within 30 feet will be frightened, reducing their Strength by 75.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
       "gameId": 8004,
       "componentValues": {
-        "COM_3_VAL0": 120,
+        "COM_3_VAL0": 75,
         "COM_3_RADI_FEET": 100,
         "COM_4_RADI_FEET": 30,
-        "COM_4_VAL0": 120
+        "COM_4_VAL0": 75
       },
       "rawDescription": "You order your group to strike fiercely, increasing Strength by {COM_3_VAL0} for all groupmates within {COM_3_RADI_FEET}.  All enemies within {COM_4_RADI_FEET} will be frightened, reducing their Strength by {COM_4_VAL0}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
@@ -1237,14 +1237,14 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to hold their positions, increasing Toughness by 120 for all groupmates within 100 feet.  All enemies within 30 feet will be frightened, reducing their Toughness by 120.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
+      "description": "You order your group to hold their positions, increasing Toughness by 75 for all groupmates within 100 feet.  All enemies within 30 feet will be frightened, reducing their Toughness by 75.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
       "gameId": 8006,
       "componentValues": {
-        "COM_3_VAL0": 120,
+        "COM_3_VAL0": 75,
         "COM_3_RADI_FEET": 100,
         "COM_4_RADI_FEET": 30,
-        "COM_4_VAL0": 120
+        "COM_4_VAL0": 75
       },
       "rawDescription": "You order your group to hold their positions, increasing Toughness by {COM_3_VAL0} for all groupmates within {COM_3_RADI_FEET}.  All enemies within {COM_4_RADI_FEET} will be frightened, reducing their Toughness by {COM_4_VAL0}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },

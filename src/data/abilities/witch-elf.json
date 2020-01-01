@@ -826,7 +826,7 @@
       "componentValues": {
         "COM_0_DURA_MINUTES": 30,
         "ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE": 0,
-        "ABIL_3810_COM_0_VAL0": 0,
+        "ABIL_3810_COM_0_VAL0": 50,
         "ABIL_3810_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You cover your blades with a toxic concoction. For the next {COM_0_DURA_MINUTES}, anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing them to have their Initiative reduced by {ABIL_3810_COM_0_VAL0} for the next {ABIL_3810_COM_0_DURA_SECONDS}. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."

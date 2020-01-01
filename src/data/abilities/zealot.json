@@ -310,11 +310,11 @@
       "incant": "Instant cast",
       "cooldown": "3m cooldown",
       "note": "",
-      "description": "Increases the target's Wounds by 100 for 60 seconds and then heals the recipient for the amount increased.",
+      "description": "Increases target's Wounds by 100 for 60 seconds and then heals the recipient for the amount increased.",
       "category": "Ability",
       "gameId": 8561,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 100,
         "COM_0_DURA_SECONDS": 60
       },
       "rawDescription": "Increases target's Wounds by {COM_0_VAL0} for {COM_0_DURA_SECONDS} and then heals the recipient for the amount increased."
@@ -578,12 +578,12 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increase the armor of all group mates within 100 feet by 1518 and resists by 579 for 10 seconds.",
+      "description": "Increase the armor of all group mates within 100 feet by 1518 and resists by 504 for 10 seconds.",
       "category": "Morale",
       "gameId": 8606,
       "componentValues": {
         "COM_0_VAL0": 1518,
-        "COM_1_VAL0": 579,
+        "COM_1_VAL0": 504,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "Increase the armor of all group mates within 100 feet by {COM_0_VAL0} and resists by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
@@ -760,7 +760,7 @@
       "category": "Ability",
       "gameId": 8551,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 50,
         "ABIL_3611_COM_0_VAL0_CORPOREALDAMAGE": 0
       },
       "rawDescription": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by {COM_0_VAL0}.  The bearer of this Mark may also activate it like an ability to inflict {ABIL_3611_COM_0_VAL0_CORPOREALDAMAGE}.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time."
@@ -823,7 +823,7 @@
       "category": "Ability",
       "gameId": 8560,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 157,
         "ABIL_3613_COM_0_VAL0_TOD_CORPOREALDAMAGE": 0,
         "ABIL_3613_COM_0_DURA_SECONDS": 9,
         "ABIL_3613_COM_0_RADI_FEET": 30
@@ -1117,7 +1117,7 @@
       "gameId": 8600,
       "componentValues": {
         "ABIL_8563_COM_3_VAL0": 0,
-        "ABIL_8563_COM_2_VAL0": 0
+        "ABIL_8563_COM_2_VAL0": 236
       },
       "rawDescription": "Demon Spittle grows ever more corrosive and now also reduces Armor by {ABIL_8563_COM_3_VAL0} and Corporeal resistance by {ABIL_8563_COM_2_VAL0}."
     },

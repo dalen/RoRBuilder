@@ -1328,11 +1328,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by 50.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
+      "description": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by 50.<BR><BR>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability",
       "gameId": 9162,
       "componentValues": {
-        "COM_2_VAL0": 0
+        "COM_2_VAL0": 50
       },
       "rawDescription": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by {COM_2_VAL0}.<BR><BR>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time."
     },

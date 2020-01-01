@@ -1004,11 +1004,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically hit a target their Wounds are reduced by 120 for 10 seconds. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by 50% for 10 seconds.",
+      "description": "Whenever you critically hit a target their Wounds are reduced by 75 for 10 seconds. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by 50% for 10 seconds.",
       "category": "CareerTactic",
       "gameId": 9367,
       "componentValues": {
-        "ABIL_3375_COM_0_VAL0": 120,
+        "ABIL_3375_COM_0_VAL0": 75,
         "ABIL_3375_COM_0_DURA_SECONDS": 10,
         "ABIL_3148_COM_0_VAL1": 50,
         "ABIL_3148_COM_0_DURA_SECONDS": 10
