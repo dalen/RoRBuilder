@@ -49,7 +49,7 @@ describe('descriptionRegexp', () => {
         'You smash into your enemy, dealing {COM_0_VAL0_DAMAGE} to them.  The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for {COM_1_VAL0_HEALTH} plus 50% of the damage that you dealt.',
       ),
     ).toEqual(
-      'You smash into your enemy, dealing (.*) to them\\.  The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for (.*) plus 50% of the damage that you dealt\\.',
+      'You smash into your enemy, dealing (.*) to them\\.\\s+The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for (.*) plus 50% of the damage that you dealt\\.',
     );
   });
 });
