@@ -28,17 +28,14 @@ const calculateValue = (
   valueIndex: number,
   abilityLevel: number,
 ): number | void => {
-  const calcWithMultiplier = (): number => {
+  const calcWithMultiplier = (level: number, valueIndex: number): number => {
     if (component.A15 === 4) {
       // It seems A15 == 4 means it is a static value
       return Math.abs(component.Values[valueIndex]);
     }
     return Math.floor(
       Math.abs(
-        (component.Values[valueIndex] *
-          abilityLevel *
-          component.Multipliers[0]) /
-          100,
+        (component.Values[valueIndex] * level * component.Multipliers[0]) / 100,
       ),
     );
   };
@@ -47,34 +44,35 @@ const calculateValue = (
     case ComponentOP.DAMAGE:
       return;
     case ComponentOP.STAT_CHANGE:
-      return calcWithMultiplier();
+      return calcWithMultiplier(abilityLevel, valueIndex);
     case ComponentOP.DAMAGE_CHANGE_PCT:
-      return Math.abs(component.Values[valueIndex]);
+      return calcWithMultiplier(1, valueIndex);
     case ComponentOP.ARMOR_CHANGE_PCT:
-      return calcWithMultiplier();
+      return calcWithMultiplier(abilityLevel, valueIndex);
     case ComponentOP.AP_CHANGE:
-      return Math.abs(component.Values[valueIndex]);
+      return calcWithMultiplier(1, valueIndex);
     case ComponentOP.MOVEMENT_SPEED:
-      return Math.abs(component.Values[valueIndex]);
+      return calcWithMultiplier(1, valueIndex);
     case ComponentOP.MECHANIC_CHANGE:
-      return Math.abs(component.Values[valueIndex + 1]);
+      return calcWithMultiplier(1, valueIndex + 1);
     case ComponentOP.DEFENSIVE_STAT_CHANGE:
+      return calcWithMultiplier(1, valueIndex);
       return Math.abs(component.Values[valueIndex]);
     case ComponentOP.AP_REGEN_CHANGE:
-      return Math.abs(component.Values[valueIndex]);
+      return calcWithMultiplier(1, valueIndex);
     case ComponentOP.MORALE_CHANGE:
-      return Math.abs(component.Values[valueIndex]);
+      return calcWithMultiplier(1, valueIndex);
     case ComponentOP.COOLDOWN_CHANGE:
-      return Math.abs(component.Values[valueIndex]);
+      return calcWithMultiplier(1, valueIndex);
     case ComponentOP.CASTIME_CHANGE:
-      return Math.abs(component.Values[valueIndex]);
+      return calcWithMultiplier(1, valueIndex);
     case ComponentOP.BONUS_TYPE:
       if (valueIndex === 0) {
-        return Math.abs(component.Values[valueIndex]);
+        return calcWithMultiplier(1, valueIndex);
       }
-      return Math.abs(component.Values[valueIndex + 1]);
+      return calcWithMultiplier(1, valueIndex + 1);
     case ComponentOP.CAREER_RESOURCE:
-      return Math.abs(component.Values[valueIndex]);
+      return calcWithMultiplier(1, valueIndex);
   }
 };
 
