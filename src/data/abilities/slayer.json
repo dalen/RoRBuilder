@@ -1234,14 +1234,14 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "A shattering strike which deals 261 damage and will remove one damage absorbing effect, one Enchantment and one Blessing from the target. Any effects removed from the target will inflict an additional 64 damage for each one.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "A shattering strike which deals 261 damage and will remove one damage absorbing effect, one Enchantment and one Blessing from the target. Any effects removed from the target will inflict an additional 64 damage for each one. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
-      "gameId": 1462,
+      "gameId": 2747,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0,
-        "ABIL_3053_COM_1_VAL0_DAMAGE": 0
+        "COM_1_VAL0_DAMAGE": 261,
+        "ABIL_3053_COM_1_VAL0_DAMAGE": 64
       },
-      "rawDescription": "A shattering strike which deals {COM_1_VAL0_DAMAGE} to the target. If the target has any Blessings or Enchantments, this attack will then dispel up to 3 of them, dealing {ABIL_3053_COM_1_VAL0_DAMAGE} for each one. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
+      "rawDescription": "A shattering strike which deals {COM_1_VAL0_DAMAGE} and will remove one damage absorbing effect, one Enchantment and one Blessing from the target. Any effects removed from the target will inflict an additional {ABIL_3053_COM_1_VAL0_DAMAGE} for each one. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
     {
       "image": "04665",
