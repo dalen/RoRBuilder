@@ -731,7 +731,7 @@
       "category": "CareerTactic",
       "gameId": 8292,
       "componentValues": {
-        "ABIL_8252_COM_4_VAL0_HEALTH": 0
+        "ABIL_8252_COM_4_VAL0_HEALTH": 282
       },
       "rawDescription": "The base heal on Sigmar's Radiance is increased to {ABIL_8252_COM_4_VAL0_HEALTH} and the healing from damage dealt increased to 75%."
     },
@@ -771,7 +771,7 @@
       "category": "CareerTactic",
       "gameId": 8295,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD": 0,
+        "COM_1_VAL0_COM_0_VAL0_TOD": 405,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional {COM_1_VAL0_COM_0_VAL0_TOD} Spirit Damage over {COM_1_VAL0_COM_0_DURA_SECONDS}. Your defensive target will also be healed for any damage dealt."
@@ -1037,7 +1037,7 @@
       "category": "Ability",
       "gameId": 8251,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0
+        "COM_1_VAL0_DAMAGE": 127
       },
       "rawDescription": "A shattering attack that removes one Enchantment from your enemy and deals {COM_1_VAL0_DAMAGE}."
     },
@@ -1306,7 +1306,7 @@
       "description": "A sweeping blow which deals 101 damage to all enemies in front of you, up to 50 feet away.",
       "category": "Ability",
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 101,
         "COM_0_RADI_FEET": 50,
         "COM_1_VAL0_COM_0_VAL0": 15
       },
@@ -1350,7 +1350,7 @@
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale",
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 0
+        "COM_0_VAL0_TOD_DAMAGE": 900
       },
       "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
     },
@@ -1513,8 +1513,8 @@
       "category": "Ability",
       "gameId": 2940,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0,
-        "COM_2_VAL0": 0
+        "COM_1_VAL0_DAMAGE": 300,
+        "COM_2_VAL0": 525
       },
       "rawDescription": "You shield your team with your life force, you will suffer {COM_1_VAL0_DAMAGE} every second, any groupmates within 100ft will have {COM_2_VAL0} health restored to them.<BR>This effect will end if you break your concentration, or run out of Righteous Fury."
     },

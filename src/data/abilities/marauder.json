@@ -351,7 +351,7 @@
       "category": "Ability",
       "gameId": 8418,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 216,
         "COM_1_VAL0": 1000,
         "COM_1_DURA_SECONDS": 10
       },
@@ -497,7 +497,7 @@
       "category": "Morale",
       "gameId": 8456,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 1800,
         "COM_0_RADI_FEET": 30,
         "COM_1_DURA_SECONDS": 3
       },
@@ -749,7 +749,7 @@
       "gameId": 8403,
       "componentValues": {
         "ABIL_3045_COM_1_DURA_SECONDS": 5,
-        "ABIL_3045_COM_1_VAL0_TOD_HEALTH": 0
+        "ABIL_3045_COM_1_VAL0_TOD_HEALTH": 1032
       },
       "rawDescription": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your melee attacks have a 25% chance to empower you for {ABIL_3045_COM_1_DURA_SECONDS}, gradually restoring {ABIL_3045_COM_1_VAL0_TOD_HEALTH} and letting you shrug off your enemy's armor penetration."
     },
@@ -787,7 +787,7 @@
       "category": "Ability",
       "gameId": 8394,
       "componentValues": {
-        "ABIL_3050_COM_1_VAL0_TOD_DAMAGE": 0,
+        "ABIL_3050_COM_1_VAL0_TOD_DAMAGE": 840,
         "ABIL_3050_COM_1_DURA_SECONDS": 5,
         "ABIL_3050_COM_0_VAL1": 33
       },
@@ -848,7 +848,7 @@
       "category": "Ability",
       "gameId": 8420,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 316
       },
       "rawDescription": "Requires target to be below 50% health<BR>A powerful blow inflicting {COM_0_VAL0_DAMAGE} and will almost always deal critical damage to a weakened target."
     },

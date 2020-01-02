@@ -250,11 +250,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You fire a blast of short-range pellets which deal X damage to all enemies in front of you, up to 40 feet away.",
+      "description": "You fire a blast of short-range pellets which deal 153 damage to all enemies in front of you, up to 40 feet away.",
       "category": "Ability",
       "gameId": 1517,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 153,
         "COM_0_RADI_FEET": 40
       },
       "rawDescription": "You fire a blast of short-range pellets which deal {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
@@ -299,7 +299,7 @@
         "ABIL_1069_COM_1_RADI_FEET": 25,
         "ABIL_1069_COM_0_FREQ_SECONDS": 2,
         "ABIL_1070_COM_0_VAL0": 4,
-        "ABIL_1070_COM_0_VAL1": 0
+        "ABIL_1070_COM_0_VAL1": 20
       },
       "rawDescription": "Construct a turret with a moderate range auto-firing grenade launcher. The turret gains 100% of BS, 30% of WS, and 70% of your Wounds from item bonuses.  While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, shorten the duration and tick interval of Path of Grenadier and Tinkerer DoTs by 4% to a maximum of 35% and allow Grenadier skills to be cast while moving. You lose 4 stacks of upgrades if the turret is destroyed."
     },
@@ -321,7 +321,7 @@
       "componentValues": {
         "COM_0_DURA_SECONDS": 15,
         "COM_3_RADI_FEET": 30,
-        "COM_3_VAL0_COM_0_VAL0_HEALTH": 0,
+        "COM_3_VAL0_COM_0_VAL0_HEALTH": 224,
         "COM_2_FREQ_SECONDS": 3
       },
       "rawDescription": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next {COM_0_DURA_SECONDS}, the faint vapors escaping from the keg will rejuvenate any of your groupmates within {COM_3_RADI_FEET} of it, restoring {COM_3_VAL0_COM_0_VAL0_HEALTH} every {COM_2_FREQ_SECONDS}. You dream of the day that the brew will be aged enough to actually tap and drink."
@@ -697,7 +697,7 @@
         "ABIL_1069_COM_1_RADI_FEET": 25,
         "ABIL_1069_COM_0_FREQ_SECONDS": 2,
         "ABIL_1070_COM_0_VAL0": 4,
-        "ABIL_1070_COM_0_VAL1": 0
+        "ABIL_1070_COM_0_VAL1": 20
       },
       "rawDescription": "Construct a turret with a short range self-firing flamethrower. The turret gains 100% of BS, 10% of WS, and 90% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50% but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of upgrades if the turret is destroyed."
     },
@@ -866,7 +866,7 @@
         "ABIL_1069_COM_1_RADI_FEET": 25,
         "ABIL_1069_COM_0_FREQ_SECONDS": 2,
         "ABIL_1070_COM_0_VAL0": 4,
-        "ABIL_1070_COM_0_VAL1": 0
+        "ABIL_1070_COM_0_VAL1": 20
       },
       "rawDescription": "Construct a turret with a long range self-aiming gun. The turret gains 75% of BS and WS from item bonuses and 50% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}% and increase your range by 5% to a maximum of 25% extra range. You lose 4 stacks of upgrades if the turret is destroyed."
     },
@@ -1107,7 +1107,7 @@
       "gameId": 1541,
       "componentValues": {
         "COM_0_DURA_SECONDS": 6,
-        "COM_2_VAL0_CORPOREALDAMAGE": 0,
+        "COM_2_VAL0_CORPOREALDAMAGE": 243,
         "COM_2_RADI_FEET": 20
       },
       "rawDescription": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to {COM_0_DURA_SECONDS}, dealing {COM_2_VAL0_CORPOREALDAMAGE} every 2 seconds to all enemies within {COM_2_RADI_FEET} of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel."
@@ -1334,7 +1334,7 @@
       "category": "Ability",
       "gameId": 1538,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 538
       },
       "rawDescription": "A slow but powerful gun shot which deals {COM_0_VAL0_DAMAGE} to your enemy and cannot be defended against."
     },

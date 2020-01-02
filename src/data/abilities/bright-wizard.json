@@ -332,7 +332,7 @@
       "category": "CareerTactic",
       "gameId": 568,
       "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 0,
+        "COM_1_VAL0_ACTIONPOINTS": 30,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 2
       },
       "rawDescription": "Whenever one of your spells hits an enemy, you have a 25% chance to regain {COM_1_VAL0_ACTIONPOINTS}. This effect cannot occur more than once every {COM_2_VAL0_COM_0_DURA_SECONDS}."
@@ -1080,7 +1080,7 @@
       "category": "Morale",
       "gameId": 671,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 1200,
         "ABIL_3168_COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target and staggers them for {ABIL_3168_COM_0_DURA_SECONDS}, preventing all actions until they take damage."

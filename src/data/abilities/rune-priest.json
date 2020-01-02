@@ -190,7 +190,7 @@
       "category": "Ability",
       "gameId": 1604,
       "componentValues": {
-        "COM_0_VAL0_HEALTH": 0
+        "COM_0_VAL0_HEALTH": 679
       },
       "rawDescription": "Heals all group members within 100 feet for {COM_0_VAL0_HEALTH}."
     },
@@ -249,7 +249,7 @@
       "category": "CareerTactic",
       "gameId": 1638,
       "componentValues": {
-        "ABIL_1597_COM_3_VAL0": 0
+        "ABIL_1597_COM_3_VAL0": 618
       },
       "rawDescription": "Rune of Cleaving grows ever more potent and now also reduces Armor by {ABIL_1597_COM_3_VAL0}."
     },
@@ -510,7 +510,7 @@
       "category": "CareerTactic",
       "gameId": 1635,
       "componentValues": {
-        "ABIL_3500_COM_1_VAL0_ACTIONPOINTS": 0,
+        "ABIL_3500_COM_1_VAL0_ACTIONPOINTS": 30,
         "ABIL_3500_COM_0_VAL0": 40,
         "ABIL_3500_COM_0_DURA_SECONDS": 5
       },
@@ -619,7 +619,7 @@
       "gameId": 1600,
       "componentValues": {
         "COM_0_VAL0": 50,
-        "ABIL_3870_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "ABIL_3870_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 488,
         "ABIL_3870_COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Increases the targeted group member's Initiative and Willpower by {COM_0_VAL0} for 1 hour. The rune holder may activate it to inflict {ABIL_3870_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3870_COM_0_DURA_SECONDS}.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
@@ -641,7 +641,7 @@
       "gameId": 1591,
       "componentValues": {
         "COM_0_VAL0": 50,
-        "ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE": 0
+        "ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE": 234
       },
       "rawDescription": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by {COM_0_VAL0} for 1 hour. The rune holder may activate to inflict {ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE} to a target.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
     },
@@ -682,7 +682,7 @@
       "gameId": 1588,
       "componentValues": {
         "COM_0_VAL0": 157,
-        "ABIL_3868_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "ABIL_3868_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 344,
         "ABIL_3868_COM_0_DURA_SECONDS": 9,
         "ABIL_3868_COM_0_RADI_FEET": 30
       },
@@ -850,7 +850,7 @@
       "category": "Ability",
       "gameId": 1617,
       "componentValues": {
-        "COM_1_VAL0_ELEMENTALDAMAGE": 0,
+        "COM_1_VAL0_ELEMENTALDAMAGE": 290,
         "COM_0_FREQ_SECONDS": 3,
         "COM_1_RADI_FEET": 30,
         "COM_0_DURA_SECONDS": 15
@@ -912,7 +912,7 @@
       "category": "Ability",
       "gameId": 1614,
       "componentValues": {
-        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1729,
         "COM_0_DURA_SECONDS": 6
       },
       "rawDescription": "You channel a powerful series of runes around your target which project searing flame into them, dealing {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} for as long as you maintain your concentration."
@@ -951,7 +951,7 @@
       "category": "Ability",
       "gameId": 1597,
       "componentValues": {
-        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 756,
         "COM_0_DURA_SECONDS": 9,
         "COM_0_RADI_FEET": 40
       },
@@ -1035,7 +1035,7 @@
       "category": "Ability",
       "gameId": 1611,
       "componentValues": {
-        "COM_0_VAL0_ELEMENTALDAMAGE": 0
+        "COM_0_VAL0_ELEMENTALDAMAGE": 425
       },
       "rawDescription": "Deals {COM_0_VAL0_ELEMENTALDAMAGE} to your target and heals your defensive target for the damage dealt."
     },
@@ -1055,7 +1055,7 @@
       "category": "Ability",
       "gameId": 1589,
       "componentValues": {
-        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 0,
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 870,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "You set your target ablaze, burning them for {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS}."
@@ -1242,7 +1242,7 @@
       "category": "Ability",
       "gameId": 1596,
       "componentValues": {
-        "COM_0_VAL0_HEALTH": 0
+        "COM_0_VAL0_HEALTH": 883
       },
       "rawDescription": "Your rune infuses the target with vitality, restoring {COM_0_VAL0_HEALTH}.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it."
     },
@@ -1429,7 +1429,7 @@
       "category": "Morale",
       "gameId": 690,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 0
+        "COM_0_VAL0_TOD_DAMAGE": 900
       },
       "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
     },

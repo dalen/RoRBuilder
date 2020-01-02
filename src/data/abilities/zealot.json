@@ -761,7 +761,7 @@
       "gameId": 8551,
       "componentValues": {
         "COM_0_VAL0": 50,
-        "ABIL_3611_COM_0_VAL0_CORPOREALDAMAGE": 0
+        "ABIL_3611_COM_0_VAL0_CORPOREALDAMAGE": 234
       },
       "rawDescription": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by {COM_0_VAL0}.  The bearer of this Mark may also activate it like an ability to inflict {ABIL_3611_COM_0_VAL0_CORPOREALDAMAGE}.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time."
     },
@@ -824,7 +824,7 @@
       "gameId": 8560,
       "componentValues": {
         "COM_0_VAL0": 157,
-        "ABIL_3613_COM_0_VAL0_TOD_CORPOREALDAMAGE": 0,
+        "ABIL_3613_COM_0_VAL0_TOD_CORPOREALDAMAGE": 342,
         "ABIL_3613_COM_0_DURA_SECONDS": 9,
         "ABIL_3613_COM_0_RADI_FEET": 30
       },
@@ -847,7 +847,7 @@
       "gameId": 8575,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_CORPOREALDAMAGE": 0
+        "COM_1_VAL0_CORPOREALDAMAGE": 365
       },
       "rawDescription": "Curses your target for {COM_0_DURA_SECONDS} so that whenever they receive a direct heal, it inflicts {COM_1_VAL0_CORPOREALDAMAGE} to them. This ability will continue to build up even if you move."
     },
@@ -932,7 +932,7 @@
       "componentValues": {
         "COM_1_DURA_SECONDS": 30,
         "COM_1_RADI_FEET": 100,
-        "COM_2_VAL0_ACTIONPOINTS": 0
+        "COM_2_VAL0_ACTIONPOINTS": 50
       },
       "rawDescription": "A frenzied, {COM_1_DURA_SECONDS} long ritual that affects all groupmembers within {COM_1_RADI_FEET}, granting them a 20% chance to regain {COM_2_VAL0_ACTIONPOINTS} every time they use an ability."
     },
@@ -1034,7 +1034,7 @@
       "category": "Morale",
       "gameId": 690,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 0
+        "COM_0_VAL0_TOD_DAMAGE": 900
       },
       "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
     },
@@ -1054,7 +1054,7 @@
       "category": "Ability",
       "gameId": 8576,
       "componentValues": {
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 0,
+        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 1323,
         "COM_0_DURA_SECONDS": 6,
         "COM_1_VAL0_COM_0_VAL0": 40
       },
@@ -1489,7 +1489,7 @@
       "gameId": 8579,
       "componentValues": {
         "COM_0_DURA_SECONDS": 6,
-        "COM_1_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_DAMAGE": 172,
         "COM_1_RADI_FEET": 30
       },
       "rawDescription": "You securely root yourself in place to call fourth ferocious winds for up to {COM_0_DURA_SECONDS} that inflict {COM_1_VAL0_DAMAGE} every second to targets within {COM_1_RADI_FEET} of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<BR>This spell may be toggled off to regain your movement."
@@ -1510,7 +1510,7 @@
       "category": "Morale",
       "gameId": 8613,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 1800,
         "COM_0_RADI_FEET": 30,
         "COM_1_DURA_SECONDS": 10
       },

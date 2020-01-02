@@ -800,7 +800,7 @@
       "gameId": 1795,
       "componentValues": {
         "ABIL_3194_COM_0_RADI_FEET": 40,
-        "ABIL_3194_COM_0_VAL0_DAMAGE": 0
+        "ABIL_3194_COM_0_VAL0_DAMAGE": 250
       },
       "rawDescription": "When you die, you have a 25% chance of resurrecting at 25% health and unleashing a blow to all enemies within {ABIL_3194_COM_0_RADI_FEET} and dealing {ABIL_3194_COM_0_VAL0_DAMAGE}."
     },
@@ -946,7 +946,7 @@
       "category": "Ability",
       "gameId": 1761,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 227
       },
       "rawDescription": "A wild swing which Deals {COM_0_VAL0_DAMAGE}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
@@ -1086,7 +1086,7 @@
       "category": "Ability",
       "gameId": 1745,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 191,
         "COM_1_VAL0_COM_1_VAL0": 25,
         "COM_1_VAL0_COM_1_DURA_SECONDS": 9
       },
@@ -1128,7 +1128,7 @@
       "componentValues": {
         "COM_0_RADI_FEET": 30,
         "COM_1_DURA_SECONDS": 3,
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 1800
       },
       "rawDescription": "You stomp the ground, knocking down targets within {COM_0_RADI_FEET} for {COM_1_DURA_SECONDS} and dealing {COM_0_VAL0_DAMAGE}. This ability hits max 9 targets."
     },
@@ -1297,7 +1297,7 @@
       "category": "Ability",
       "gameId": 1751,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 302
       },
       "rawDescription": "You unleash a powerful blow, dealing {COM_0_VAL0_DAMAGE}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
@@ -1464,7 +1464,7 @@
       "gameId": 1803,
       "componentValues": {
         "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 1200,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "You chop all enemies within {COM_0_RADI_FEET} for {COM_0_VAL0_DAMAGE} and all heals are reduced by 50% for {COM_1_DURA_SECONDS}. This ability hits max 9 targets."

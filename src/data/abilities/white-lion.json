@@ -832,7 +832,7 @@
       "gameId": 9194,
       "componentValues": {
         "COM_3_DURA_SECONDS": 10,
-        "COM_5_VAL0_DAMAGE": 0
+        "COM_5_VAL0_DAMAGE": 159
       },
       "rawDescription": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next {COM_3_DURA_SECONDS}.  During this time, your pet will deal an additional {COM_5_VAL0_DAMAGE} every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds."
     },
@@ -994,7 +994,7 @@
       "category": "Ability",
       "gameId": 9186,
       "componentValues": {
-        "COM_2_VAL0_DAMAGE": 0
+        "COM_2_VAL0_DAMAGE": 159
       },
       "rawDescription": "You pounce forwards, leaping towards your target and causing {COM_2_VAL0_DAMAGE} when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air."
     },
@@ -1395,7 +1395,7 @@
       "gameId": 9193,
       "componentValues": {
         "COM_0_DURA_SECONDS": 20,
-        "ABIL_3959_COM_0_VAL0_DAMAGE": 0,
+        "ABIL_3959_COM_0_VAL0_DAMAGE": 209,
         "ABIL_3959_COM_1_DURA_SECONDS": 3
       },
       "rawDescription": "You command your pet to attack without mercy!  Your War Lion's next attack within {COM_0_DURA_SECONDS} will deal an additional {ABIL_3959_COM_0_VAL0_DAMAGE} and will knock down its victim for {ABIL_3959_COM_1_DURA_SECONDS}."
@@ -1416,7 +1416,7 @@
       "category": "CareerTactic",
       "gameId": 9216,
       "componentValues": {
-        "ABIL_9162_COM_4_VAL0_HEALTH": 0,
+        "ABIL_9162_COM_4_VAL0_HEALTH": 80,
         "ABIL_9162_COM_4_FREQ_SECONDS": 5
       },
       "rawDescription": "Trained To Kill now restores {ABIL_9162_COM_4_VAL0_HEALTH} to you and your War Lion every {ABIL_9162_COM_4_FREQ_SECONDS}."

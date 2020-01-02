@@ -485,7 +485,7 @@
       "gameId": 606,
       "componentValues": {
         "COM_1_VAL0": 1056,
-        "COM_0_VAL0_TOD_DAMAGE": 0,
+        "COM_0_VAL0_TOD_DAMAGE": 900,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
@@ -613,7 +613,7 @@
       "category": "Ability",
       "gameId": 1667,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 127,
         "COM_1_VAL0": 75,
         "COM_1_DURA_SECONDS": 20
       },
@@ -800,7 +800,7 @@
       "category": "CareerTactic",
       "gameId": 1711,
       "componentValues": {
-        "ABIL_1678_COM_1_VAL0": 0
+        "ABIL_1678_COM_1_VAL0": 276
       },
       "rawDescription": "Increases damage on Da Big Un' to {ABIL_1678_COM_1_VAL0}."
     },
@@ -1043,7 +1043,7 @@
       "category": "Morale",
       "gameId": 607,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_DAMAGE": 300,
         "COM_0_DURA_SECONDS": 3,
         "COM_1_RADI_FEET": 65
       },
@@ -1065,7 +1065,7 @@
       "category": "Ability",
       "gameId": 1682,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 177,
         "COM_1_VAL0": 75,
         "COM_1_DURA_SECONDS": 20
       },
@@ -1087,7 +1087,7 @@
       "category": "Ability",
       "gameId": 1694,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 127,
         "COM_1_VAL1": 50,
         "COM_1_DURA_SECONDS": 5
       },
@@ -1147,7 +1147,7 @@
       "category": "Ability",
       "gameId": 1677,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 202,
         "COM_1_VAL0": 75,
         "COM_1_DURA_SECONDS": 20,
         "COM_3_VAL0": 80,
@@ -1171,7 +1171,7 @@
       "category": "Ability",
       "gameId": 1733,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0
+        "COM_1_VAL0_DAMAGE": 122
       },
       "rawDescription": "A shattering attack that removes one Enchantment from your enemy and deals {COM_1_VAL0_DAMAGE}."
     },
@@ -1211,7 +1211,7 @@
       "category": "Ability",
       "gameId": 1683,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_DAMAGE": 302,
         "COM_3_DURA_SECONDS": 4
       },
       "rawDescription": "You ruthlessly smack your target in the face, dealing {COM_1_VAL0_DAMAGE} and silencing them for {COM_3_DURA_SECONDS}."
@@ -1357,7 +1357,7 @@
       "category": "Ability",
       "gameId": 1669,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 152,
         "COM_1_VAL0": 618,
         "COM_1_DURA_SECONDS": 20
       },
@@ -1397,7 +1397,7 @@
       "category": "Ability",
       "gameId": 1695,
       "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 0,
+        "COM_0_VAL0_CORPOREALDAMAGE": 173,
         "COM_0_RADI_FEET": 30,
         "ABIL_3171_COM_0_VAL0": 236,
         "ABIL_3171_COM_0_DURA_SECONDS": 20
@@ -1504,7 +1504,7 @@
       "category": "Ability",
       "gameId": 1690,
       "componentValues": {
-        "COM_0_VAL0": 0,
+        "COM_0_VAL0": 127,
         "COM_1_VAL0": 80,
         "COM_1_DURA_SECONDS": 10
       },
@@ -1526,7 +1526,7 @@
       "category": "Morale",
       "gameId": 1729,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 0,
+        "COM_0_VAL0_TOD_DAMAGE": 1200,
         "COM_0_DURA_SECONDS": 12,
         "COM_0_RADI_FEET": 30
       },

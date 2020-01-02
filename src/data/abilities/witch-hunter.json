@@ -129,9 +129,9 @@
       "category": "Ability",
       "gameId": 8089,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 0,
-        "COM_1_VAL0_COM_1_VAL0_ACTIONPOINTS": 0,
-        "COM_1_VAL0_COM_2_VAL0_ACTIONPOINTS": 0
+        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 45,
+        "COM_1_VAL0_COM_1_VAL0_ACTIONPOINTS": 20,
+        "COM_1_VAL0_COM_2_VAL0_ACTIONPOINTS": 20
       },
       "rawDescription": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional {COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE} to the target.  The victim will lose {COM_1_VAL0_COM_1_VAL0_ACTIONPOINTS}, and you will gain {COM_1_VAL0_COM_2_VAL0_ACTIONPOINTS}.<BR><BR>This ability may be used while Incognito without breaking the effect."
     },
@@ -151,7 +151,7 @@
       "category": "Ability",
       "gameId": 8099,
       "componentValues": {
-        "ABIL_3002_COM_0_VAL0_SPIRITDAMAGE": 0,
+        "ABIL_3002_COM_0_VAL0_SPIRITDAMAGE": 225,
         "COM_1_VAL0_COM_1_DURA_SECONDS": 5,
         "COM_1_VAL0_COM_1_VAL1": 50
       },
@@ -173,7 +173,7 @@
       "category": "Ability",
       "gameId": 8084,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 0,
+        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 225,
         "COM_1_VAL0_COM_1_VAL0": 50,
         "COM_1_VAL0_COM_1_DURA_SECONDS": 10,
         "COM_1_VAL0_COM_2_VAL0_COM_0_VAL0": 50
@@ -280,16 +280,16 @@
       "gameId": 8116,
       "componentValues": {
         "ABIL_3921_COM_0_DURA_SECONDS": 9,
-        "ABIL_3921_COM_0_VAL0_TOD_DAMAGE": 0,
-        "ABIL_3921_COM_1_VAL0": 0,
-        "ABIL_3922_COM_0_VAL0_TOD_DAMAGE": 0,
-        "ABIL_3922_COM_1_VAL0": 0,
-        "ABIL_3923_COM_0_VAL0_TOD_DAMAGE": 0,
-        "ABIL_3923_COM_1_VAL0": 0,
-        "ABIL_3924_COM_0_VAL0_TOD_DAMAGE": 0,
-        "ABIL_3924_COM_1_VAL0": 0,
-        "ABIL_3925_COM_0_VAL0_TOD_DAMAGE": 0,
-        "ABIL_3925_COM_1_VAL0": 0
+        "ABIL_3921_COM_0_VAL0_TOD_DAMAGE": 672,
+        "ABIL_3921_COM_1_VAL0": 333,
+        "ABIL_3922_COM_0_VAL0_TOD_DAMAGE": 858,
+        "ABIL_3922_COM_1_VAL0": 432,
+        "ABIL_3923_COM_0_VAL0_TOD_DAMAGE": 1047,
+        "ABIL_3923_COM_1_VAL0": 524,
+        "ABIL_3924_COM_0_VAL0_TOD_DAMAGE": 1233,
+        "ABIL_3924_COM_1_VAL0": 619,
+        "ABIL_3925_COM_0_VAL0_TOD_DAMAGE": 1422,
+        "ABIL_3925_COM_1_VAL0": 715
       },
       "rawDescription": "A pistol shot that fires bullets filled with fire oil, first dealing damage over {ABIL_3921_COM_0_DURA_SECONDS} and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  {ABIL_3921_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3921_COM_1_VAL0} ending damage.<BR>   2 Accusations:  {ABIL_3922_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3922_COM_1_VAL0} ending damage.<BR>   3 Accusations:  {ABIL_3923_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3923_COM_1_VAL0} ending damage.<BR>   4 Accusations:  {ABIL_3924_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3924_COM_1_VAL0} ending damage.<BR>   5 Accusations:  {ABIL_3925_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3925_COM_1_VAL0} ending damage.<BR>"
     },
@@ -1208,7 +1208,7 @@
       "category": "Ability",
       "gameId": 8101,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0
+        "COM_1_VAL0_DAMAGE": 127
       },
       "rawDescription": "You sever one Blessing from your enemy and inflict {COM_1_VAL0_DAMAGE}."
     },

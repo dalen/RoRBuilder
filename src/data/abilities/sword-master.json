@@ -357,7 +357,7 @@
       "category": "Ability",
       "gameId": 9027,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 194,
         "COM_3_DURA_SECONDS": 20,
         "COM_3_VAL0": 5,
         "COM_4_VAL0": 618
@@ -424,7 +424,7 @@
       "gameId": 606,
       "componentValues": {
         "COM_1_VAL0": 1056,
-        "COM_0_VAL0_TOD_DAMAGE": 0,
+        "COM_0_VAL0_TOD_DAMAGE": 900,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
@@ -1073,7 +1073,7 @@
       "category": "Ability",
       "gameId": 9029,
       "componentValues": {
-        "COM_0_VAL1_DAMAGE": 0,
+        "COM_0_VAL1_DAMAGE": 825,
         "COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "You call upon the magic in your blade to form a barrier to protect you and any groupmates within 50 feet of you, absorbing up to {COM_0_VAL1_DAMAGE} for up to {COM_0_DURA_SECONDS}."
@@ -1116,7 +1116,7 @@
       "category": "Morale",
       "gameId": 607,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_DAMAGE": 300,
         "COM_0_DURA_SECONDS": 3,
         "COM_1_RADI_FEET": 65
       },
@@ -1138,7 +1138,7 @@
       "category": "Ability",
       "gameId": 9032,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 231
       },
       "rawDescription": "Redirects the force of a blocked blow into an undefendable attack dealing {COM_0_VAL0_DAMAGE} and knocking your target back. This attack generates a large amount of additional hate from monsters."
     },
@@ -1200,8 +1200,8 @@
       "category": "Morale",
       "gameId": 9076,
       "componentValues": {
-        "COM_0_VAL0_TOD": 0,
-        "COM_1_VAL0_TOD": 0
+        "COM_0_VAL0_TOD": 1800,
+        "COM_1_VAL0_TOD": 28
       },
       "rawDescription": "All enemies within 30 feet suffer {COM_0_VAL0_TOD} Spiritual damage over 12 seconds, and will steadily lose {COM_1_VAL0_TOD} Morale. This ability hits max 9 targets."
     },
@@ -1221,7 +1221,7 @@
       "category": "Ability",
       "gameId": 9034,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0
+        "COM_1_VAL0_DAMAGE": 119
       },
       "rawDescription": "A shattering attack that removes one Enchantment from your enemy and deals {COM_1_VAL0_DAMAGE}."
     },
@@ -1381,7 +1381,7 @@
       "category": "Ability",
       "gameId": 9021,
       "componentValues": {
-        "COM_2_VAL0_SPIRITDAMAGE": 0
+        "COM_2_VAL0_SPIRITDAMAGE": 150
       },
       "rawDescription": "You spin your greatsword with astounding speed, forming a wall of steel between you and your opponent. Your chances to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back {COM_2_VAL0_SPIRITDAMAGE}."
     },

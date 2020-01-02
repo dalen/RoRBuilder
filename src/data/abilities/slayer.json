@@ -304,7 +304,7 @@
       "category": "Ability",
       "gameId": 1439,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 291
       },
       "rawDescription": "You unleash a powerful blow, dealing {COM_0_VAL0_DAMAGE}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
@@ -408,7 +408,7 @@
       "category": "Morale",
       "gameId": 1494,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 1800,
         "COM_0_RADI_FEET": 30,
         "COM_1_DURA_SECONDS": 3
       },
@@ -910,7 +910,7 @@
       "category": "Ability",
       "gameId": 1449,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 216
       },
       "rawDescription": "A reckless attack which deals {COM_0_VAL0_DAMAGE} to your target.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
@@ -1462,8 +1462,8 @@
       "gameId": 1447,
       "componentValues": {
         "COM_0_VAL0_COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_COM_0_VAL0_DAMAGE": 0,
-        "COM_0_VAL0_COM_4_VAL0_DAMAGE": 0
+        "COM_0_VAL0_COM_0_VAL0_DAMAGE": 146,
+        "COM_0_VAL0_COM_4_VAL0_DAMAGE": 186
       },
       "rawDescription": "You wildly attack everything around you, striking each enemy within {COM_0_VAL0_COM_0_RADI_FEET} for anywhere between {COM_0_VAL0_COM_0_VAL0_DAMAGE} to {COM_0_VAL0_COM_4_VAL0_DAMAGE}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     }

@@ -591,7 +591,7 @@
       "gameId": 606,
       "componentValues": {
         "COM_1_VAL0": 1056,
-        "COM_0_VAL0_TOD_DAMAGE": 0,
+        "COM_0_VAL0_TOD_DAMAGE": 900,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
@@ -792,7 +792,7 @@
       "category": "Ability",
       "gameId": 9328,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 423
       },
       "rawDescription": "An overwhelming blow that deals {COM_0_VAL0_DAMAGE} and will knockback your target based on your Hate.<BR> With 30 Hate: Medium Knockback. <BR> With 60 Hate: Long Knockback.<BR> With 90 Hate: Very Long Knockback."
     },
@@ -1659,7 +1659,7 @@
       "category": "Ability",
       "gameId": 9337,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0
+        "COM_1_VAL0_DAMAGE": 151
       },
       "rawDescription": "You shatter one Enchantment from your enemy and deal {COM_1_VAL0_DAMAGE}."
     },

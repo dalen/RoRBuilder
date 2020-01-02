@@ -209,7 +209,7 @@
       "category": "Ability",
       "gameId": 2800,
       "componentValues": {
-        "COM_2_VAL0_DAMAGE": 0
+        "COM_2_VAL0_DAMAGE": 144
       },
       "rawDescription": "You pounce forwards, leaping towards your target. You will inflict {COM_2_VAL0_DAMAGE} to them when you land. This ability cannot be used while you are airborne."
     },
@@ -271,7 +271,7 @@
       "gameId": 1851,
       "componentValues": {
         "COM_0_DURA_SECONDS": 3,
-        "COM_1_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_DAMAGE": 119,
         "COM_1_RADI_FEET": 30
       },
       "rawDescription": "You force your Battle Squig to bounce in the air for up to {COM_0_DURA_SECONDS}, repeatedly dealing {COM_1_VAL0_DAMAGE} to all enemies within {COM_1_RADI_FEET}."
@@ -1054,7 +1054,7 @@
       "category": "Morale",
       "gameId": 648,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 600
       },
       "rawDescription": "A mid-range attack that deals {COM_0_VAL0_DAMAGE} and knocks the targeted player away. Monsters will be knocked down."
     },
@@ -1094,7 +1094,7 @@
       "category": "Ability",
       "gameId": 2813,
       "componentValues": {
-        "COM_1_VAL0_CORPOREALDAMAGE": 0
+        "COM_1_VAL0_CORPOREALDAMAGE": 210
       },
       "rawDescription": "Your Battle Squig evacuates a disagreeable meal, producing a toxic cloud that inflicts {COM_1_VAL0_CORPOREALDAMAGE} every 2 seconds for 6 seconds."
     },
@@ -1241,7 +1241,7 @@
       "category": "Ability",
       "gameId": 2805,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0
+        "COM_0_VAL0_DAMAGE": 294
       },
       "rawDescription": "A sly attack which deals {COM_0_VAL0_DAMAGE} to your enemy, and increases your Armour by a large amount for 15 seconds."
     },
@@ -1631,7 +1631,7 @@
       "category": "Ability",
       "gameId": 1823,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 216,
         "COM_1_VAL0": 618,
         "COM_2_VAL0": 10,
         "COM_1_DURA_SECONDS": 10
@@ -1675,7 +1675,7 @@
       "category": "Morale",
       "gameId": 1884,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 2400,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all targets within {COM_0_RADI_FEET} of you."

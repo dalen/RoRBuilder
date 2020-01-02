@@ -86,7 +86,7 @@
       "componentValues": {
         "COM_0_VAL0": 150,
         "COM_0_DURA_SECONDS": 20,
-        "COM_3_VAL0_ELEMENTALDAMAGE": 0
+        "COM_3_VAL0_ELEMENTALDAMAGE": 234
       },
       "rawDescription": "You summon and absorb orange flames to increase your Wounds by {COM_0_VAL0}, increasing your total life for {COM_0_DURA_SECONDS}. During this time, any enemies striking you has a 25% chance to receive {COM_3_VAL0_ELEMENTALDAMAGE} from your flames."
     },
@@ -128,7 +128,7 @@
       "category": "CareerTactic",
       "gameId": 800,
       "componentValues": {
-        "ABIL_3595_COM_0_VAL0_TOD": 0,
+        "ABIL_3595_COM_0_VAL0_TOD": 250,
         "ABIL_3595_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "Any time you are attacked, there is a 25% chance that you will lash out for {ABIL_3595_COM_0_VAL0_TOD} Elemental damage over {ABIL_3595_COM_0_DURA_SECONDS} to anyone who hits you."
@@ -170,7 +170,7 @@
       "category": "Ability",
       "gameId": 8496,
       "componentValues": {
-        "COM_0_VAL0_ELEMENTALDAMAGE": 0
+        "COM_0_VAL0_ELEMENTALDAMAGE": 633
       },
       "rawDescription": "An undefendable bolt of far-traveling force that inflicts {COM_0_VAL0_ELEMENTALDAMAGE}."
     },
@@ -348,7 +348,7 @@
       "category": "Ability",
       "gameId": 8541,
       "componentValues": {
-        "ABIL_383_COM_0_VAL0_DAMAGE": 0,
+        "ABIL_383_COM_0_VAL0_DAMAGE": 243,
         "COM_2_RADI_FEET": 30,
         "ABIL_3167_COM_0_DURA_SECONDS": 5
       },
@@ -513,7 +513,7 @@
       "category": "CareerTactic",
       "gameId": 568,
       "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 0,
+        "COM_1_VAL0_ACTIONPOINTS": 30,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 2
       },
       "rawDescription": "Whenever one of your spells hits an enemy, you have a 25% chance to regain {COM_1_VAL0_ACTIONPOINTS}. This effect cannot occur more than once every {COM_2_VAL0_COM_0_DURA_SECONDS}."
@@ -716,7 +716,7 @@
       "componentValues": {
         "COM_0_RADI_FEET": 20,
         "COM_1_VAL0": 236,
-        "COM_0_VAL0_TOD_SPIRITDAMAGE": 0,
+        "COM_0_VAL0_TOD_SPIRITDAMAGE": 420,
         "COM_0_DURA_SECONDS": 20
       },
       "rawDescription": "You strip away the Spiritual protections of everyone {COM_0_RADI_FEET} from your target, reducing their Spirit resistance by {COM_1_VAL0} and dealing {COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_0_DURA_SECONDS}."
@@ -1074,7 +1074,7 @@
       "category": "Morale",
       "gameId": 671,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 1200,
         "ABIL_3168_COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target and staggers them for {ABIL_3168_COM_0_DURA_SECONDS}, preventing all actions until they take damage."
@@ -1204,7 +1204,7 @@
         "ABIL_1071_COM_1_RADI_FEET": 25,
         "ABIL_1071_COM_0_FREQ_SECONDS": 2,
         "ABIL_1072_COM_0_VAL0": 4,
-        "ABIL_1072_COM_0_VAL1": 0
+        "ABIL_1072_COM_0_VAL1": 20
       },
       "rawDescription": "Summons a daemonic minion with short range area of effect attacks. The minion gains 50% of Int and 100% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}%, your Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50%, but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of this effect if the daemon is slain."
     },
@@ -1227,7 +1227,7 @@
         "ABIL_1071_COM_1_RADI_FEET": 25,
         "ABIL_1071_COM_0_FREQ_SECONDS": 2,
         "ABIL_1072_COM_0_VAL0": 4,
-        "ABIL_1072_COM_0_VAL1": 0
+        "ABIL_1072_COM_0_VAL1": 20
       },
       "rawDescription": "Summons a daemonic minion with moderate range Spiritual attacks. The minion gains 75% of Int and 75% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}%, shortening the duration and tick interval of Path of Changing and Path of Daemonology DoTs by 4% to a maximum of 35% and allow Changing skills to be cast while moving. You lose 4 stacks of this effect if the daemon is slain."
     },
@@ -1250,7 +1250,7 @@
         "ABIL_1071_COM_1_RADI_FEET": 25,
         "ABIL_1071_COM_0_FREQ_SECONDS": 2,
         "ABIL_1072_COM_0_VAL0": 4,
-        "ABIL_1072_COM_0_VAL1": 0
+        "ABIL_1072_COM_0_VAL1": 20
       },
       "rawDescription": "Summons a daemonic minion with long range Elemental attacks.The daemonic minion gains 100% of Int and 50% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}% and range by 5% to a maximum of 25% extra range. You will lose 4 stacks of this effect if daemon is slain."
     },

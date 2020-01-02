@@ -297,7 +297,7 @@
       "gameId": 606,
       "componentValues": {
         "COM_1_VAL0": 1056,
-        "COM_0_VAL0_TOD_DAMAGE": 0,
+        "COM_0_VAL0_TOD_DAMAGE": 900,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
@@ -840,7 +840,7 @@
       "category": "Ability",
       "gameId": 8015,
       "componentValues": {
-        "COM_4_VAL0_COM_0_VAL0_DAMAGE": 0,
+        "COM_4_VAL0_COM_0_VAL0_DAMAGE": 225,
         "COM_3_RADI_FEET": 100
       },
       "rawDescription": "You order your group to ready their defenses, causing {COM_4_VAL0_COM_0_VAL0_DAMAGE} back against any attacker who strikes a groupmate within {COM_3_RADI_FEET} with a melee attack. Targets can only be damaged once every two seconds.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
@@ -926,7 +926,7 @@
       "category": "Morale",
       "gameId": 607,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_DAMAGE": 300,
         "COM_0_DURA_SECONDS": 3,
         "COM_1_RADI_FEET": 65
       },
@@ -1197,7 +1197,7 @@
       "category": "Morale",
       "gameId": 8076,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 800,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}.  Enemy players hit by this effect will lose all of their Morale. This ability hits max 9 targets."

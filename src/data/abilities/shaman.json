@@ -149,7 +149,7 @@
       "category": "Ability",
       "gameId": 1904,
       "componentValues": {
-        "COM_0_VAL0_HEALTH": 0
+        "COM_0_VAL0_HEALTH": 883
       },
       "rawDescription": "Heals your target for {COM_0_VAL0_HEALTH}.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it."
     },
@@ -625,10 +625,10 @@
       "category": "Ability",
       "gameId": 2102,
       "componentValues": {
-        "ABIL_2103_COM_0_VAL0_ELEMENTALDAMAGE": 0,
+        "ABIL_2103_COM_0_VAL0_ELEMENTALDAMAGE": 199,
         "COM_0_RADI_FEET": 25,
         "COM_2_RADI_FEET": 20,
-        "ABIL_2103_COM_3_VAL0_HEALTH": 0
+        "ABIL_2103_COM_3_VAL0_HEALTH": 883
       },
       "rawDescription": "A surge of Waaagh! explodes from your target, inflicting {ABIL_2103_COM_0_VAL0_ELEMENTALDAMAGE} upon them and up to 4 other enemies within {COM_0_RADI_FEET} of them, and healing your defensive target and allies within {COM_2_RADI_FEET} of them for {ABIL_2103_COM_3_VAL0_HEALTH}, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted."
     },
@@ -765,7 +765,7 @@
       "category": "Morale",
       "gameId": 1964,
       "componentValues": {
-        "ABIL_3550_COM_0_VAL0_TOD_DAMAGE": 0
+        "ABIL_3550_COM_0_VAL0_TOD_DAMAGE": 600
       },
       "rawDescription": "Your target suffers {ABIL_3550_COM_0_VAL0_TOD_DAMAGE} over 2s. If the target moves, the duration is restarted.<br>"
     },
@@ -892,7 +892,7 @@
       "category": "Ability",
       "gameId": 2100,
       "componentValues": {
-        "ABIL_2859_COM_0_VAL0_ELEMENTALDAMAGE": 0,
+        "ABIL_2859_COM_0_VAL0_ELEMENTALDAMAGE": 277,
         "COM_0_VAL0_HEALTH": 0
       },
       "rawDescription": "Deals {ABIL_2859_COM_0_VAL0_ELEMENTALDAMAGE} to your target, and heals your defensive target for {COM_0_VAL0_HEALTH} plus 150% of the damage done.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted."
@@ -1163,7 +1163,7 @@
       "gameId": 1928,
       "componentValues": {
         "COM_0_DURA_SECONDS": 30,
-        "COM_1_VAL0_HEALTH": 0
+        "COM_1_VAL0_HEALTH": 711
       },
       "rawDescription": "An ally is charged with Waaagh for {COM_0_DURA_SECONDS}, allowing them to recover from near fatal wounds. If the allies health is reduced below 25%, this effect will immediately dispel itself to restore {COM_1_VAL0_HEALTH} if they are still alive. A player may only be affected by a single Shrug it Off at a time."
     },
@@ -1183,7 +1183,7 @@
       "category": "Morale",
       "gameId": 690,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 0
+        "COM_0_VAL0_TOD_DAMAGE": 900
       },
       "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
     },

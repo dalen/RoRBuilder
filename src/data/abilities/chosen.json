@@ -337,7 +337,7 @@
       "gameId": 606,
       "componentValues": {
         "COM_1_VAL0": 1056,
-        "COM_0_VAL0_TOD_DAMAGE": 0,
+        "COM_0_VAL0_TOD_DAMAGE": 900,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
@@ -1089,7 +1089,7 @@
       "category": "Morale",
       "gameId": 607,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_DAMAGE": 300,
         "COM_0_DURA_SECONDS": 3,
         "COM_1_RADI_FEET": 65
       },
@@ -1214,7 +1214,7 @@
       "category": "Ability",
       "gameId": 8339,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0
+        "COM_1_VAL0_DAMAGE": 134
       },
       "rawDescription": "You sever one Blessing from your enemy and inflict {COM_1_VAL0_DAMAGE}."
     },
@@ -1403,9 +1403,9 @@
       "category": "Ability",
       "gameId": 8317,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 159,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 5,
-        "COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE": 0
+        "COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE": 100
       },
       "rawDescription": "You stab into your opponent for {COM_0_VAL0_DAMAGE}.  For the next {COM_1_VAL0_COM_0_DURA_SECONDS}, Tooth Of Tzeentch will cause an additional {COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE} on the next damaging attack made by everyone in your group within 100 feet of you."
     },
@@ -1546,7 +1546,7 @@
       "category": "Morale",
       "gameId": 8377,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 240,
         "COM_0_RADI_FEET": 40
       },
       "rawDescription": "A surge of chaotic energy ripples forward, inflicting {COM_0_VAL0_DAMAGE} to everyone {COM_0_RADI_FEET} in front of you. The surge of power clings to its victims, snaring them by 40% for 15 seconds."

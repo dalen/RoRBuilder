@@ -245,7 +245,7 @@
       "category": "Ability",
       "gameId": 9242,
       "componentValues": {
-        "COM_0_VAL0_HEALTH": 0
+        "COM_0_VAL0_HEALTH": 883
       },
       "rawDescription": "Heals your target for {COM_0_VAL0_HEALTH}.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it."
     },
@@ -553,8 +553,8 @@
       "category": "Ability",
       "gameId": 9274,
       "componentValues": {
-        "COM_0_RADI_FEET": 20,
-        "ABIL_3175_COM_0_VAL0_SPIRITDAMAGE": 0
+        "COM_0_RADI_FEET": 25,
+        "ABIL_3175_COM_0_VAL0_SPIRITDAMAGE": 199
       },
       "rawDescription": "A wash of power leeches the breath from your target and up to four other enemies within {COM_0_RADI_FEET} of them, dealing {ABIL_3175_COM_0_VAL0_SPIRITDAMAGE} to each. Their stolen breath will heal your defensive target for 150% of the inflicted damage."
     },
@@ -921,7 +921,7 @@
       "gameId": 9272,
       "componentValues": {
         "COM_0_DURA_SECONDS": 30,
-        "COM_1_VAL0_HEALTH": 0
+        "COM_1_VAL0_HEALTH": 711
       },
       "rawDescription": "Infuses protective magic into an ally for {COM_0_DURA_SECONDS}, allowing them to recover from near fatal wounds.If the allies health is reduced below 25%, this effect will immediately dispel itself to restore {COM_1_VAL0_HEALTH} if they are still alive. A player may only be affected by a single Magical Infusion at a time."
     },
@@ -1213,7 +1213,7 @@
       "category": "Morale",
       "gameId": 690,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 0
+        "COM_0_VAL0_TOD_DAMAGE": 900
       },
       "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
     },
@@ -1417,11 +1417,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Balance Essence and Energy of Vaul will now inflict 0 Spirit damage, but neither will grant a fixed heal, nor will they be castable on the move.",
+      "description": "Balance Essence and Energy of Vaul will now inflict 325 Spirit damage, but neither will grant a fixed heal, nor will they be castable on the move.",
       "category": "CareerTactic",
       "gameId": 2305,
       "componentValues": {
-        "ABIL_2859_COM_3_VAL0_SPIRITDAMAGE": 0
+        "ABIL_2859_COM_3_VAL0_SPIRITDAMAGE": 325
       },
       "rawDescription": "Balance Essence and Energy of Vaul will now inflict {ABIL_2859_COM_3_VAL0_SPIRITDAMAGE}, but no longer receive a base healing value, instead healing for only 50% of the damage dealt."
     },

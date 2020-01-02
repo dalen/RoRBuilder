@@ -333,7 +333,7 @@
       "gameId": 606,
       "componentValues": {
         "COM_1_VAL0": 1056,
-        "COM_0_VAL0_TOD_DAMAGE": 0,
+        "COM_0_VAL0_TOD_DAMAGE": 900,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
@@ -771,7 +771,7 @@
       "category": "Ability",
       "gameId": 1364,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 144,
         "COM_1_VAL0_COM_0_VAL0": 75,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 20,
         "COM_1_VAL0_COM_3_RADI_FEET": 50,
@@ -816,7 +816,7 @@
       "category": "Ability",
       "gameId": 1362,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 119,
         "COM_1_VAL1": 5,
         "COM_2_VAL1": 10,
         "COM_3_VAL1": 15,
@@ -858,10 +858,10 @@
       "category": "CareerTactic",
       "gameId": 1393,
       "componentValues": {
-        "COM_1_VAL0": 0,
-        "COM_2_VAL0": 0,
-        "COM_3_VAL0": 0,
-        "COM_4_VAL0": 0
+        "COM_1_VAL0": 15,
+        "COM_2_VAL0": 20,
+        "COM_3_VAL0": 25,
+        "COM_4_VAL0": 30
       },
       "rawDescription": "All of your damaging attacks will cause additional hate based on Grudge.<BR> At 25 Grudges: Adds an additional {COM_1_VAL0} threat.<BR> At 50 Grudges: Adds an additional {COM_2_VAL0} threat.<BR> At 75 Grudges: Adds an additional {COM_3_VAL0} threat.<BR> At 100 Grudges:  Adds an additional {COM_4_VAL0} threat.<BR>"
     },
@@ -991,7 +991,7 @@
       "category": "CareerTactic",
       "gameId": 1406,
       "componentValues": {
-        "ABIL_3758_COM_0_VAL0_DAMAGE": 0
+        "ABIL_3758_COM_0_VAL0_DAMAGE": 150
       },
       "rawDescription": "Whenever your Oath Friend is attacked, there is a 25% chance that you toss the assailant a glare so fierce they take {ABIL_3758_COM_0_VAL0_DAMAGE}."
     },
@@ -1074,7 +1074,7 @@
       "category": "Morale",
       "gameId": 607,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0,
+        "COM_1_VAL0_DAMAGE": 300,
         "COM_0_DURA_SECONDS": 3,
         "COM_1_RADI_FEET": 65
       },
@@ -1177,7 +1177,7 @@
       "category": "Ability",
       "gameId": 1366,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 100,
         "COM_0_RADI_FEET": 25
       },
       "rawDescription": "You whirl your axe around, dealing {COM_0_VAL0_DAMAGE} to enemies {COM_0_RADI_FEET} in front of you.<BR><BR> At 25 Grudges: Ignores 25% of the victim's armor.<BR> At 50 Grudges: Ignores 50% of the victim's armor.<BR> At 75 Grudges: Ignores 75% of the victim's armor.<BR> At 100 Grudges: Ignores 100% of the victim's armor."
@@ -1261,7 +1261,7 @@
       "category": "Ability",
       "gameId": 1374,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0
+        "COM_1_VAL0_DAMAGE": 119
       },
       "rawDescription": "You sever one Blessing from your enemy and deal {COM_1_VAL0_DAMAGE}."
     },

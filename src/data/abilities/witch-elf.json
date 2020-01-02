@@ -764,7 +764,7 @@
       "category": "Ability",
       "gameId": 9427,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 0,
+        "COM_0_VAL0_DAMAGE": 325,
         "COM_1_DURA_SECONDS": 3
       },
       "rawDescription": "A shocking strike which deals {COM_0_VAL0_DAMAGE} and knocksdown your target for {COM_1_DURA_SECONDS}."
@@ -825,7 +825,7 @@
       "gameId": 9402,
       "componentValues": {
         "COM_0_DURA_MINUTES": 30,
-        "ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE": 0,
+        "ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE": 100,
         "ABIL_3810_COM_0_VAL0": 50,
         "ABIL_3810_COM_0_DURA_SECONDS": 10
       },
@@ -848,7 +848,7 @@
       "gameId": 9412,
       "componentValues": {
         "COM_0_DURA_MINUTES": 30,
-        "ABIL_3812_COM_0_VAL0_CORPOREALDAMAGE": 0,
+        "ABIL_3812_COM_0_VAL0_CORPOREALDAMAGE": 100,
         "ABIL_3812_COM_1_VAL0": 20
       },
       "rawDescription": "You cover your blades with a toxic concoction. For the next {COM_0_DURA_MINUTES}, anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3812_COM_0_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing them to lose {ABIL_3812_COM_1_VAL0} Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."
@@ -870,7 +870,7 @@
       "gameId": 9407,
       "componentValues": {
         "COM_0_DURA_MINUTES": 30,
-        "ABIL_3811_COM_0_VAL0_CORPOREALDAMAGE": 0,
+        "ABIL_3811_COM_0_VAL0_CORPOREALDAMAGE": 100,
         "ABIL_3811_COM_2_VAL1": 50,
         "ABIL_3811_COM_2_DURA_SECONDS": 5
       },
@@ -1136,11 +1136,11 @@
       "category": "Ability",
       "gameId": 9428,
       "componentValues": {
-        "ABIL_3988_COM_0_VAL0_DAMAGE": 0,
-        "ABIL_3989_COM_0_VAL0_DAMAGE": 0,
-        "ABIL_3990_COM_0_VAL0_DAMAGE": 0,
-        "ABIL_3991_COM_0_VAL0_DAMAGE": 0,
-        "ABIL_3992_COM_0_VAL0_DAMAGE": 0
+        "ABIL_3988_COM_0_VAL0_DAMAGE":112,
+        "ABIL_3989_COM_0_VAL0_DAMAGE": 133,
+        "ABIL_3990_COM_0_VAL0_DAMAGE": 155,
+        "ABIL_3991_COM_0_VAL0_DAMAGE": 175,
+        "ABIL_3992_COM_0_VAL0_DAMAGE": 196
       },
       "rawDescription": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<BR>   1 Blood Lust:  {ABIL_3988_COM_0_VAL0_DAMAGE} per hit.<BR>   2 Blood Lust:  {ABIL_3989_COM_0_VAL0_DAMAGE} per hit.<BR>   3 Blood Lust:  {ABIL_3990_COM_0_VAL0_DAMAGE} per hit.<BR>   4 Blood Lust:  {ABIL_3991_COM_0_VAL0_DAMAGE} per hit.<BR>   5 Blood Lust:  {ABIL_3992_COM_0_VAL0_DAMAGE} per hit."
     },
@@ -1180,7 +1180,7 @@
       "category": "Ability",
       "gameId": 9413,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 0
+        "COM_1_VAL0_DAMAGE": 127
       },
       "rawDescription": "You sever one Blessing from your enemy and inflict {COM_1_VAL0_DAMAGE}."
     },
@@ -1512,7 +1512,7 @@
       "category": "Ability",
       "gameId": 9425,
       "componentValues": {
-        "ABIL_3621_COM_1_VAL0_CORPOREALDAMAGE": 0
+        "ABIL_3621_COM_1_VAL0_CORPOREALDAMAGE": 300
       },
       "rawDescription": "You consume a noxious liquid distilled from blood which fills you with power, causing your next several attacks to each deal an additional {ABIL_3621_COM_1_VAL0_CORPOREALDAMAGE} to your target.<BR>   1 Blood Lust:  Lasts for 2 attacks.<BR>   2 Blood Lust:  Lasts for 3 attacks.<BR>   3 Blood Lust:  Lasts for 4 attacks.<BR>   4 Blood Lust:  Lasts for 5 attacks.<BR>   5 Blood Lust:  Lasts for 6 attacks."
     },
