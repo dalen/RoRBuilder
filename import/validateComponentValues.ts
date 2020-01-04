@@ -113,6 +113,7 @@ const calculateValue = (
   valueIndex: number,
   abilityLevel: number,
   stats: Stats,
+  tod: boolean = false, // Total over Duration?
 ): number | void => {
   const calcWithMultiplier = (
     level: number,
@@ -135,14 +136,38 @@ const calculateValue = (
 
   switch (component.Operation) {
     case ComponentOP.DAMAGE:
+      /* if (tod) {
+        console.log(
+          component.Duration,
+          component.Interval,
+          component.A15,
+          calculateDamage(ability, component, valueIndex, abilityLevel),
+          calculateStatContribution(
+            ability,
+            stats,
+            component.Operation,
+            tod ? component.Duration : 1000,
+          ),
+        );
+      } */
       return Math.round(
         calculateDamage(ability, component, valueIndex, abilityLevel) +
-          calculateStatContribution(ability, stats, component.Operation),
+          calculateStatContribution(
+            ability,
+            stats,
+            component.Operation,
+            tod ? component.Duration : 1000,
+          ),
       );
     case ComponentOP.HEAL:
       return Math.round(
         calculateDamage(ability, component, valueIndex, abilityLevel) +
-          calculateStatContribution(ability, stats, component.Operation),
+          calculateStatContribution(
+            ability,
+            stats,
+            component.Operation,
+            tod ? component.Duration : 1000,
+          ),
       );
     case ComponentOP.STAT_CHANGE:
       return calcWithMultiplier(abilityLevel, valueIndex, 0);
@@ -268,6 +293,7 @@ const validateComponentValue = (
         valueIndex,
         abilityLevel,
         stats,
+        name.includes('_TOD'),
       );
 
       if (value === undefined) {
