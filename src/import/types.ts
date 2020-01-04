@@ -135,4 +135,5 @@ export type Stats = {
 
 export enum ComponentA15Flags {
   NO_INITIAL_TICK = 1, // No tick on dot/hot/AP change apply
+  STATIC_VALUE = 4,
 }

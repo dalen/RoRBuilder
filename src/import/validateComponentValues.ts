@@ -69,6 +69,7 @@ const calculateStatContribution = (
   ability: AbilityData,
   stats: Stats,
   operation: number,
+  duration: number = 1000,
 ): number => {
   if (
     ability.AbilityType === AbilityType.MORALE ||
@@ -78,16 +79,29 @@ const calculateStatContribution = (
   }
 
   if (operation === ComponentOP.HEAL) {
-    return (stats.willpower * ability.ScaleStatMult) / 100 / 5;
+    return (
+      (((stats.willpower * ability.ScaleStatMult) / 100 / 5) * duration) / 1000
+    );
   }
   if (operation === ComponentOP.DAMAGE) {
     switch (ability.AbilityType) {
       case AttackType.MELEE:
-        return (stats.strength * ability.ScaleStatMult) / 100 / 5;
+        return (
+          (((stats.strength * ability.ScaleStatMult) / 100 / 5) * duration) /
+          1000
+        );
       case AttackType.RANGED:
-        return (stats.ballisticSkill * ability.ScaleStatMult) / 100 / 5;
+        return (
+          (((stats.ballisticSkill * ability.ScaleStatMult) / 100 / 5) *
+            duration) /
+          1000
+        );
       case AttackType.MAGIC:
-        return (stats.intelligence * ability.ScaleStatMult) / 100 / 5;
+        return (
+          (((stats.intelligence * ability.ScaleStatMult) / 100 / 5) *
+            duration) /
+          1000
+        );
     }
   }
   return 0;
@@ -105,7 +119,7 @@ const calculateValue = (
     valueIndex: number,
     multiplierIndex: number,
   ): number => {
-    if (component.A15 === 4) {
+    if (component.A15 & ComponentA15Flags.STATIC_VALUE) {
       // It seems A15 == 4 means it is a static value
       return Math.abs(component.Values[valueIndex]);
     }
