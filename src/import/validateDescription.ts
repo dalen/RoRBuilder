@@ -2,7 +2,6 @@ import colors from 'colors';
 
 import { Ability } from '../helpers/abilities';
 import { AbilityData } from './structureAbilities';
-import { AbilityFlags, CareerLine, ComponentOP } from './types';
 
 export const escapeRegExp = (string: string) => {
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string

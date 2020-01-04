@@ -653,6 +653,8 @@ export const validateNote = (
     })
     .filter(n => n !== null);
 
+  console.log(dataStrs);
+
   const labelStr = gameAbility.Labels.map(label => labelMap[label]).filter(
     n => n !== undefined,
   );

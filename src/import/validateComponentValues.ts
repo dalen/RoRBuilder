@@ -2,7 +2,14 @@ import colors from 'colors';
 
 import { Ability } from '../helpers/abilities';
 import { AbilityData } from './structureAbilities';
-import { AbilityFlags, CareerLine, ComponentOP } from './types';
+import { extractComponentValueNames } from './validateDescription';
+import {
+  ComponentOP,
+  Stats,
+  AttackType,
+  AbilityType,
+  ComponentA15Flags,
+} from './types';
 
 export const getAbilityID = (componentString: string): void | number => {
   const match = Array.from(componentString.matchAll(/^ABIL_(\d+)_.*/)).flat(1);
@@ -23,56 +30,144 @@ export const getValueIndices = (componentString: string): number[] => {
   );
 };
 
-const calculateValue = (
+// Calculate damage value without stat contribution
+const calculateDamage = (
+  ability: AbilityData,
   component: AbilityData['Components'][0],
   valueIndex: number,
   abilityLevel: number,
+) => {
+  const multIndex = 0;
+  const intervalDuration =
+    component.Interval > 0 && component.Interval > 0
+      ? component.Duration / component.Interval
+      : 1;
+
+  const baseValue = component.Values[valueIndex];
+  const multiplier = component.Multipliers[multIndex];
+  let baseMultiplier =
+    component.Operation === ComponentOP.STAT_CHANGE ? 1 : 0.166667;
+
+  const result =
+    (((abilityLevel - 1) * baseMultiplier * baseValue + baseValue) *
+      multiplier) /
+    100;
+
+  if (component.A07 == 32) {
+    return baseValue;
+  }
+
+  if (intervalDuration > 1 && ability.ChannelInterval <= 0) {
+    return result * intervalDuration;
+  }
+
+  return result;
+};
+
+// Calculate the contribution from stats
+const calculateStatContribution = (
+  ability: AbilityData,
+  stats: Stats,
+  operation: number,
+): number => {
+  if (
+    ability.AbilityType === AbilityType.MORALE ||
+    ability.AbilityType === AbilityType.TACTIC
+  ) {
+    return 0;
+  }
+
+  if (operation === ComponentOP.HEAL) {
+    return (stats.willpower * ability.ScaleStatMult) / 100 / 5;
+  }
+  if (operation === ComponentOP.DAMAGE) {
+    switch (ability.AbilityType) {
+      case AttackType.MELEE:
+        return (stats.strength * ability.ScaleStatMult) / 100 / 5;
+      case AttackType.RANGED:
+        return (stats.ballisticSkill * ability.ScaleStatMult) / 100 / 5;
+      case AttackType.MAGIC:
+        return (stats.intelligence * ability.ScaleStatMult) / 100 / 5;
+    }
+  }
+  return 0;
+};
+
+const calculateValue = (
+  ability: AbilityData,
+  component: AbilityData['Components'][0],
+  valueIndex: number,
+  abilityLevel: number,
+  stats: Stats,
 ): number | void => {
-  const calcWithMultiplier = (level: number, valueIndex: number): number => {
+  const calcWithMultiplier = (
+    level: number,
+    valueIndex: number,
+    multiplierIndex: number,
+  ): number => {
     if (component.A15 === 4) {
       // It seems A15 == 4 means it is a static value
       return Math.abs(component.Values[valueIndex]);
     }
     return Math.floor(
       Math.abs(
-        (component.Values[valueIndex] * level * component.Multipliers[0]) / 100,
+        (component.Values[valueIndex] *
+          level *
+          component.Multipliers[multiplierIndex]) /
+          100,
       ),
     );
   };
 
   switch (component.Operation) {
     case ComponentOP.DAMAGE:
-      return;
+      return Math.round(
+        calculateDamage(ability, component, valueIndex, abilityLevel) +
+          calculateStatContribution(ability, stats, component.Operation),
+      );
+    case ComponentOP.HEAL:
+      return Math.round(
+        calculateDamage(ability, component, valueIndex, abilityLevel) +
+          calculateStatContribution(ability, stats, component.Operation),
+      );
     case ComponentOP.STAT_CHANGE:
-      return calcWithMultiplier(abilityLevel, valueIndex);
+      return calcWithMultiplier(abilityLevel, valueIndex, 0);
     case ComponentOP.DAMAGE_CHANGE_PCT:
-      return calcWithMultiplier(1, valueIndex);
+      return calcWithMultiplier(1, valueIndex, 0);
     case ComponentOP.ARMOR_CHANGE_PCT:
-      return calcWithMultiplier(abilityLevel, valueIndex);
+      return calcWithMultiplier(abilityLevel, valueIndex, 0);
     case ComponentOP.AP_CHANGE:
-      return calcWithMultiplier(1, valueIndex);
+      return calcWithMultiplier(1, valueIndex, 0);
     case ComponentOP.MOVEMENT_SPEED:
-      return calcWithMultiplier(1, valueIndex);
+      return calcWithMultiplier(1, valueIndex, 0);
     case ComponentOP.MECHANIC_CHANGE:
-      return calcWithMultiplier(1, valueIndex + 1);
+      return calcWithMultiplier(1, valueIndex + 1, 0);
     case ComponentOP.DEFENSIVE_STAT_CHANGE:
-      return calcWithMultiplier(1, valueIndex);
-      return Math.abs(component.Values[valueIndex]);
+      return calcWithMultiplier(1, valueIndex, 0);
     case ComponentOP.AP_REGEN_CHANGE:
-      return calcWithMultiplier(1, valueIndex);
+      return calcWithMultiplier(1, valueIndex, 0);
     case ComponentOP.MORALE_CHANGE:
-      return calcWithMultiplier(1, valueIndex);
+      return calcWithMultiplier(1, valueIndex, 0);
     case ComponentOP.COOLDOWN_CHANGE:
-      return calcWithMultiplier(1, valueIndex);
+      return calcWithMultiplier(1, valueIndex, 0);
     case ComponentOP.CASTIME_CHANGE:
-      return calcWithMultiplier(1, valueIndex);
+      return calcWithMultiplier(1, valueIndex, 0);
     case ComponentOP.BONUS_TYPE:
-      if (valueIndex === 0) {
-        return calcWithMultiplier(1, valueIndex);
+      if (component.Values[0] === 47) {
+        // This seems to mean it is an absorb shield, and needs do multiply value by 5 for abilityLevel 25
+        // or 7.5 for abilityLevel 40
+        // TODO: find out exactly how thir scales with ability level
+
+        return (
+          calcWithMultiplier(1, valueIndex * 2, valueIndex) *
+          (abilityLevel === 40 ? 7.5 : 5)
+        );
       }
-      return calcWithMultiplier(1, valueIndex + 1);
+      return calcWithMultiplier(1, valueIndex * 2, valueIndex);
     case ComponentOP.CAREER_RESOURCE:
-      return calcWithMultiplier(1, valueIndex);
+      return calcWithMultiplier(1, valueIndex, 0);
+    default:
+      console.log(`unknown op ${component.Operation}`);
   }
 };
 
@@ -117,6 +212,7 @@ const validateComponentValue = (
   name: string,
   number: number,
   gameAbility: AbilityData,
+  stats: Stats,
   abilityData: {
     [key: number]: AbilityData;
   },
@@ -147,21 +243,40 @@ const validateComponentValue = (
   }
 
   const num = (() => {
-    if (name.endsWith('_DAMAGE')) {
-      return number;
-    } else if (name.endsWith('_TOD_SPIRITDAMAGE')) {
-      return number;
-    } else if (name.endsWith('_SPIRITDAMAGE')) {
-      return number;
-    } else if (name.endsWith('_TOD_CORPOREALDAMAGE')) {
-      return number;
-    } else if (name.endsWith('_CORPOREALDAMAGE')) {
-      return number;
-    } else if (name.endsWith('_TOD_ELEMENTALDAMAGE')) {
-      return number;
-    } else if (name.endsWith('_ELEMENTALDAMAGE')) {
-      return number;
-    } else if (name.endsWith('_DURA_SECONDS')) {
+    // At lvl 40 with no mastery abilityLevel will be 40 for core abilities and
+    // 25 for mastery abilities.
+    const abilityLevel = gameAbility.Specialization === 0 ? 40 : 25;
+
+    if (valueIndex !== undefined) {
+      const value = calculateValue(
+        gameAbility,
+        component,
+        valueIndex,
+        abilityLevel,
+        stats,
+      );
+
+      if (value === undefined) {
+        return number;
+      }
+
+      if (name.endsWith('_SECONDS')) {
+        if (value === 25536) {
+          // This seems to be a special case as 40000 doesn't fit in a signed 16-bit int
+          return 40;
+        }
+        return value / 1000;
+      } else if (name.endsWith('_TOD_ACTIONPOINTS')) {
+        return (
+          value *
+          (component.Duration / component.Interval +
+            (component.A15 & ComponentA15Flags.NO_INITIAL_TICK ? 0 : 1))
+        ); // Values[1] seems to be -1 when there is n
+      }
+      return value;
+    }
+
+    if (name.endsWith('_DURA_SECONDS')) {
       return component.Duration / 1000;
     } else if (name.endsWith('_DURA_MINUTES')) {
       return component.Duration / 1000 / 60;
@@ -169,61 +284,27 @@ const validateComponentValue = (
       return component.Duration / 1000 / 60 / 60;
     } else if (name.endsWith('_FREQ_SECONDS')) {
       return component.Interval / 1000;
-    } else if (name.endsWith('_SECONDS')) {
-      return number;
     } else if (name.endsWith('_RADI_FEET')) {
       // The 10 extra feet seems consistent
       return Math.round(component.Radius / 12 + 10);
-    } else if (name.endsWith('_ACTIONPOINTS')) {
-      return number;
-    } else if (name.endsWith('_HEALTH')) {
-      return number;
-    } else if (name.endsWith('_TOD')) {
-      return number;
     }
 
-    if (valueIndex === undefined) {
-      console.log(
-        'valueIndex is undefined for',
-        'name',
-        colors.cyan(name),
-        'operation',
-        component.Operation,
-        'number:',
-        number,
-        'values',
-        component.Values,
-      );
-      return number;
-    }
-
-    // At lvl 40 with no mastery abilityLevel will be 40 for core abilities and
-    // 25 for mastery abilities.
-    const abilityLevel = gameAbility.Specialization === 0 ? 40 : 25;
-
-    if (
-      !calculateValue(component, valueIndex, abilityLevel) &&
-      number > 0 &&
-      ![1, 3].includes(component.Operation)
-    ) {
-      console.log(
-        'Failed to calculate:',
-        'name',
-        colors.cyan(name),
-        'operation',
-        component.Operation,
-        'specialization',
-        gameAbility.Specialization,
-        'number:',
-        number,
-        'values',
-        component.Values,
-        'multipliers',
-        component.Multipliers,
-      );
-      // console.log(component);
-    }
-    return calculateValue(component, valueIndex, abilityLevel) || number;
+    console.log(
+      'Failed to calculate:',
+      'name',
+      colors.cyan(name),
+      'operation',
+      component.Operation,
+      'specialization',
+      gameAbility.Specialization,
+      'number:',
+      number,
+      'values',
+      component.Values,
+      'multipliers',
+      component.Multipliers,
+    );
+    return number;
   })();
 
   if (num !== number) {
@@ -242,21 +323,30 @@ const validateComponentValue = (
 export const validateComponentValues = (
   ability: Ability,
   gameAbility: AbilityData,
+  stats: Stats,
   abilityData: {
     [key: number]: AbilityData;
   },
 ): Partial<Ability> => {
-  const componentValues = ability.componentValues;
-  if (componentValues === undefined) {
-    return {};
-  }
+  const componentValueNames = extractComponentValueNames(
+    gameAbility.Description,
+  );
+
+  const componentValues = ability.componentValues || {};
 
   return {
     componentValues: Object.fromEntries(
-      Object.entries(componentValues).map(([name, number]) => {
+      componentValueNames.map(name => {
+        const previousNumber = componentValues[name] || 0;
         return [
           name,
-          validateComponentValue(name, number, gameAbility, abilityData),
+          validateComponentValue(
+            name,
+            previousNumber,
+            gameAbility,
+            stats,
+            abilityData,
+          ),
         ];
       }),
     ),

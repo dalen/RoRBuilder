@@ -118,3 +118,21 @@ export enum AbilityFlags {
   FLAG30 = Math.pow(2, 30), // None
   FLAG31 = Math.pow(2, 31), // None
 }
+
+export enum AttackType {
+  GENERIC = 0,
+  MELEE = 1,
+  RANGED = 2,
+  MAGIC = 3,
+}
+
+export type Stats = {
+  strength: number;
+  ballisticSkill: number;
+  intelligence: number;
+  willpower: number;
+};
+
+export enum ComponentA15Flags {
+  NO_INITIAL_TICK = 1, // No tick on dot/hot/AP change apply
+}

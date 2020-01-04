@@ -8,13 +8,7 @@ import { readComponents, structureComponents } from './abilityComponents';
 import { structureAbilities, AbilityData } from './structureAbilities';
 import { stringMatch } from './utilities';
 
-import {
-  CareerLine,
-  AbilityType,
-  TargetType,
-  AbilityFlags,
-  ComponentOP,
-} from './types';
+import { CareerLine, AbilityType, AbilityFlags, Stats } from './types';
 
 import archmage from '../data/abilities/archmage.json';
 import blackOrc from '../data/abilities/black-orc.json';
@@ -97,18 +91,6 @@ const careerData: {
   'witch-hunter': witchHunter,
   zealot,
 } as const;
-
-const logAbility = (ability: AbilityData) => {
-  console.log(
-    ability.AbilityID,
-    colors.cyan(ability.Name),
-    ability.Description,
-  );
-};
-
-const logComponent = (component: AbilityData['Components'][0]) => {
-  console.log(component);
-};
 
 const logAbilityError = (ability: Ability, error: string) => {
   console.warn(
@@ -309,43 +291,13 @@ const validateName = (
   return {};
 };
 
-const validateType = (
-  ability: Ability,
-  gameAbility: AbilityData,
-): Partial<Ability> => {
-  /* console.log(
-    `Type:`,
-    !!(gameAbility.Flags & AbilityFlags.FLAG3),
-    'AttackType',
-    gameAbility.AttackType,
-    'type',
-    ability.type,
-  ); */
-
-  if (ability.note.includes('Requires')) {
-    console.log(ability.name, colors.blue(ability.note));
-    console.log(gameAbility.Data);
-  }
-  /*if (
-      !!(gameAbility.Flags & AbilityFlags.FLAG14) &&
-      !(gameAbility.Flags & AbilityFlags.FLAG13)
-    ) {
-      console.log(
-        'Flags:',
-        ability.name,
-        `(${colors.blue(ability.type)} ${colors.red(ability.category)})`,
-      );
-    } */
-
-  return {};
-};
-
 // Validate single ability
 const validateAbility = async (
   ability: Ability,
   abilityData: { [key: number]: AbilityData },
   career: Career,
   careerId: number, // Used to filter out selection of abilities to only ones from current career
+  stats: Stats,
 ): Promise<Ability> => {
   if (ability.gameId === undefined) {
     const matchingName = Object.values(abilityData).filter(
@@ -409,7 +361,7 @@ const validateAbility = async (
     ...validateAPCost(ability, gameAbility),
     ...validateName(ability, gameAbility),
     ...validateNote(ability, gameAbility),
-    ...validateComponentValues(ability, gameAbility, abilityData),
+    ...validateComponentValues(ability, gameAbility, stats, abilityData),
     ...validateDescription(ability, gameAbility),
   };
 };
@@ -418,6 +370,7 @@ const validateAbility = async (
 const validateCareer = async (
   careerSlug: keyof typeof careerData,
   careerId: number,
+  stats: Stats,
   abilityData: { [key: number]: AbilityData },
 ): Promise<void> => {
   console.log(colors.green(`\nValidating ${careerSlug}`));
@@ -428,7 +381,7 @@ const validateCareer = async (
     ability => ability.category !== 'TomeTactic',
   )) {
     fixedAbilities.push(
-      await validateAbility(ability, abilityData, career, careerId),
+      await validateAbility(ability, abilityData, career, careerId, stats),
     );
   }
 
@@ -468,51 +421,277 @@ const main = async () => {
   );
 
   // Debug
-  const printDebugAbilities: number[] = [];
+  const printDebugAbilities: number[] = [9478, 9249, 3437];
   printDebugAbilities.forEach(abilityId => {
     console.log(JSON.stringify(abilityData[abilityId], undefined, 2));
   });
 
-  await validateCareer('ironbreaker', CareerLine.IRON_BREAKER, abilityData);
-  await validateCareer('slayer', CareerLine.SLAYER, abilityData);
-  await validateCareer('rune-priest', CareerLine.RUNE_PRIEST, abilityData);
-  await validateCareer('engineer', CareerLine.ENGINEER, abilityData);
-  await validateCareer('black-orc', CareerLine.BLACK_ORC, abilityData);
-  await validateCareer('choppa', CareerLine.CHOPPA, abilityData);
-  await validateCareer('shaman', CareerLine.SHAMAN, abilityData);
-  await validateCareer('squig-herder', CareerLine.SQUIG_HERDER, abilityData);
-  await validateCareer('witch-hunter', CareerLine.WITCH_HUNTER, abilityData);
+  /* await validateCareer(
+    'ironbreaker',
+    CareerLine.IRON_BREAKER,
+    {
+      strength: 147,
+      ballisticSkill: 98,
+      intelligence: 74,
+      willpower: 172,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'slayer',
+    CareerLine.SLAYER,
+    {
+      strength: 221,
+      ballisticSkill: 96,
+      intelligence: 72,
+      willpower: 123,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'rune-priest',
+    CareerLine.RUNE_PRIEST,
+    {
+      strength: 98,
+      ballisticSkill: 74,
+      intelligence: 226,
+      willpower: 222,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'engineer',
+    CareerLine.ENGINEER,
+    {
+      strength: 137,
+      ballisticSkill: 221,
+      intelligence: 74,
+      willpower: 123,
+    },
+    abilityData,
+  );
+
+  // TODO: fix stats
+  await validateCareer(
+    'black-orc',
+    CareerLine.BLACK_ORC,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 99,
+      willpower: 221,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'choppa',
+    CareerLine.CHOPPA,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 99,
+      willpower: 221,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'shaman',
+    CareerLine.SHAMAN,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 99,
+      willpower: 221,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'squig-herder',
+    CareerLine.SQUIG_HERDER,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 99,
+      willpower: 221,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'witch-hunter',
+    CareerLine.WITCH_HUNTER,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 99,
+      willpower: 221,
+    },
+    abilityData,
+  );
   await validateCareer(
     'knight-of-the-blazing-sun',
     CareerLine.KNIGHT_OF_THE_BLAZING_SUN,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 99,
+      willpower: 221,
+    },
     abilityData,
   );
-  await validateCareer('bright-wizard', CareerLine.BRIGHT_WIZARD, abilityData);
+  await validateCareer(
+    'bright-wizard',
+    CareerLine.BRIGHT_WIZARD,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 99,
+      willpower: 221,
+    },
+    abilityData,
+  ); */
   await validateCareer(
     'warrior-priest',
     CareerLine.WARRIOR_PRIEST,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 99,
+      willpower: 221,
+    },
     abilityData,
   );
-  await validateCareer('chosen', CareerLine.CHOSEN, abilityData);
-  await validateCareer('marauder', CareerLine.MARAUDER, abilityData);
-  await validateCareer('zealot', CareerLine.ZEALOT, abilityData);
-  await validateCareer('magus', CareerLine.MAGUS, abilityData);
-  await validateCareer('sword-master', CareerLine.SWORD_MASTER, abilityData);
+  await validateCareer(
+    'chosen',
+    CareerLine.CHOSEN,
+    {
+      strength: 197,
+      ballisticSkill: 74,
+      intelligence: 99,
+      willpower: 148,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'marauder',
+    CareerLine.MARAUDER,
+    {
+      strength: 221,
+      ballisticSkill: 99,
+      intelligence: 74,
+      willpower: 197,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'zealot',
+    CareerLine.ZEALOT,
+    {
+      strength: 99,
+      ballisticSkill: 74,
+      intelligence: 196,
+      willpower: 221,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'magus',
+    CareerLine.MAGUS,
+    {
+      strength: 98,
+      ballisticSkill: 74,
+      intelligence: 221,
+      willpower: 172,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'sword-master',
+    CareerLine.SWORD_MASTER,
+    {
+      strength: 147,
+      ballisticSkill: 74,
+      intelligence: 123,
+      willpower: 98,
+    },
+    abilityData,
+  );
   await validateCareer(
     'shadow-warrior',
     CareerLine.SHADOW_WARRIOR,
+    {
+      strength: 172,
+      ballisticSkill: 221,
+      intelligence: 74,
+      willpower: 98,
+    },
     abilityData,
   );
-  await validateCareer('white-lion', CareerLine.WHITE_LION, abilityData);
-  await validateCareer('archmage', CareerLine.ARCHMAGE, abilityData);
-  await validateCareer('black-guard', CareerLine.BLACK_GUARD, abilityData);
-  await validateCareer('witch-elf', CareerLine.WITCH_ELF, abilityData);
+  await validateCareer(
+    'white-lion',
+    CareerLine.WHITE_LION,
+    {
+      strength: 196,
+      ballisticSkill: 74,
+      intelligence: 98,
+      willpower: 123,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'archmage',
+    CareerLine.ARCHMAGE,
+    {
+      strength: 98,
+      ballisticSkill: 74,
+      intelligence: 196,
+      willpower: 221,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'black-guard',
+    CareerLine.BLACK_GUARD,
+    {
+      strength: 147,
+      ballisticSkill: 98,
+      intelligence: 74,
+      willpower: 133,
+    },
+    abilityData,
+  );
+  await validateCareer(
+    'witch-elf',
+    CareerLine.WITCH_ELF,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 98,
+      willpower: 147,
+    },
+    abilityData,
+  );
   await validateCareer(
     'disciple-of-khaine',
     CareerLine.DISCIPLE_OF_KHAINE,
+    {
+      strength: 172,
+      ballisticSkill: 74,
+      intelligence: 98,
+      willpower: 221,
+    },
     abilityData,
   );
-  await validateCareer('sorcerer', CareerLine.SORCERESS, abilityData);
+  await validateCareer(
+    'sorcerer',
+    CareerLine.SORCERESS,
+    {
+      strength: 98,
+      ballisticSkill: 74,
+      intelligence: 221,
+      willpower: 196,
+    },
+    abilityData,
+  );
 };
 
 main()
