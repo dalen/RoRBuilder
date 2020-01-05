@@ -133,6 +133,11 @@ export type Stats = {
   willpower: number;
 };
 
+export enum ComponentA07Flags {
+  NO_STAT_CONTRIBUTION = 1,
+  FLAG2 = 2, // Used on divine Aegis heal & Soul Stealer heal, also no stat conrib?
+}
+
 export enum ComponentA15Flags {
   NO_INITIAL_TICK = 1, // No tick on dot/hot/AP change apply
   STATIC_VALUE = 4,

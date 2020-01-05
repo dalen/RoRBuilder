@@ -10,32 +10,32 @@ import { stringMatch } from './utilities';
 
 import { CareerLine, AbilityType, AbilityFlags, Stats } from './types';
 
-import archmage from '../data/abilities/archmage.json';
-import blackOrc from '../data/abilities/black-orc.json';
-import blackGuard from '../data/abilities/black-guard.json';
-import brightWizard from '../data/abilities/bright-wizard.json';
-import choppa from '../data/abilities/choppa.json';
-import chosen from '../data/abilities/chosen.json';
-import discipleOfKhaine from '../data/abilities/disciple-of-khaine.json';
-import engineer from '../data/abilities/engineer.json';
-import ironbreaker from '../data/abilities/ironbreaker.json';
-import knightOfTheBlazingSun from '../data/abilities/knight-of-the-blazing-sun.json';
-import magus from '../data/abilities/magus.json';
-import marauder from '../data/abilities/marauder.json';
-import runePriest from '../data/abilities/rune-priest.json';
-import shadowWarrior from '../data/abilities/shadow-warrior.json';
-import shaman from '../data/abilities/shaman.json';
-import slayer from '../data/abilities/slayer.json';
-import sorcerer from '../data/abilities/sorcerer.json';
-import squigHerder from '../data/abilities/squig-herder.json';
-import swordMaster from '../data/abilities/sword-master.json';
-import warriorPriest from '../data/abilities/warrior-priest.json';
-import whiteLion from '../data/abilities/white-lion.json';
-import witchElf from '../data/abilities/witch-elf.json';
-import witchHunter from '../data/abilities/witch-hunter.json';
-import zealot from '../data/abilities/zealot.json';
+import archmage from '../src/data/abilities/archmage.json';
+import blackOrc from '../src/data/abilities/black-orc.json';
+import blackGuard from '../src/data/abilities/black-guard.json';
+import brightWizard from '../src/data/abilities/bright-wizard.json';
+import choppa from '../src/data/abilities/choppa.json';
+import chosen from '../src/data/abilities/chosen.json';
+import discipleOfKhaine from '../src/data/abilities/disciple-of-khaine.json';
+import engineer from '../src/data/abilities/engineer.json';
+import ironbreaker from '../src/data/abilities/ironbreaker.json';
+import knightOfTheBlazingSun from '../src/data/abilities/knight-of-the-blazing-sun.json';
+import magus from '../src/data/abilities/magus.json';
+import marauder from '../src/data/abilities/marauder.json';
+import runePriest from '../src/data/abilities/rune-priest.json';
+import shadowWarrior from '../src/data/abilities/shadow-warrior.json';
+import shaman from '../src/data/abilities/shaman.json';
+import slayer from '../src/data/abilities/slayer.json';
+import sorcerer from '../src/data/abilities/sorcerer.json';
+import squigHerder from '../src/data/abilities/squig-herder.json';
+import swordMaster from '../src/data/abilities/sword-master.json';
+import warriorPriest from '../src/data/abilities/warrior-priest.json';
+import whiteLion from '../src/data/abilities/white-lion.json';
+import witchElf from '../src/data/abilities/witch-elf.json';
+import witchHunter from '../src/data/abilities/witch-hunter.json';
+import zealot from '../src/data/abilities/zealot.json';
 
-import { Career, Ability } from '../helpers/abilities';
+import { Career, Ability } from '../src/helpers/abilities';
 import { validateNote } from './validateNote';
 import { validateDescription } from './validateDescription';
 import { validateComponentValues } from './validateComponentValues';
@@ -386,7 +386,7 @@ const validateCareer = async (
   }
 
   await fs.writeFile(
-    `../data/abilities/${careerSlug}.json`,
+    `../src/data/abilities/${careerSlug}.json`,
     JSON.stringify(
       {
         ...career,
@@ -421,9 +421,24 @@ const main = async () => {
   );
 
   // Debug
-  const printDebugAbilities: number[] = [9478, 9249, 3437];
+  const printDebugAbilities: number[] = [];
   printDebugAbilities.forEach(abilityId => {
     console.log(JSON.stringify(abilityData[abilityId], undefined, 2));
+  });
+
+  Object.values(abilityData).forEach(ability => {
+    if (
+      ability.CareerID !== 0 &&
+      ability.Components.find(component => component?.A07 != 0)
+    ) {
+      console.log(
+        colors.cyan(ability.Name),
+        colors.red(ability.AbilityID.toString()),
+        ability.AbilityType,
+        ability.Description,
+        ability.Components.map(component => component?.A07),
+      );
+    }
   });
 
   /* await validateCareer(
@@ -549,7 +564,7 @@ const main = async () => {
     },
     abilityData,
   ); */
-  await validateCareer(
+  /* await validateCareer(
     'warrior-priest',
     CareerLine.WARRIOR_PRIEST,
     {
@@ -559,8 +574,8 @@ const main = async () => {
       willpower: 221,
     },
     abilityData,
-  );
-  await validateCareer(
+  ); */
+  /* await validateCareer(
     'chosen',
     CareerLine.CHOSEN,
     {
@@ -680,8 +695,8 @@ const main = async () => {
       willpower: 221,
     },
     abilityData,
-  );
-  await validateCareer(
+  ); */
+  /* await validateCareer(
     'sorcerer',
     CareerLine.SORCERESS,
     {
@@ -691,7 +706,7 @@ const main = async () => {
       willpower: 196,
     },
     abilityData,
-  );
+  ); */
 };
 
 main()

@@ -1,13 +1,13 @@
 import colors from 'colors';
 
-import { Ability } from '../helpers/abilities';
+import { Ability } from '../src/helpers/abilities';
 import { AbilityData } from './structureAbilities';
 import { extractComponentValueNames } from './validateDescription';
 import {
   ComponentOP,
   Stats,
   AttackType,
-  AbilityType,
+  ComponentA07Flags,
   ComponentA15Flags,
 } from './types';
 
@@ -67,44 +67,35 @@ const calculateDamage = (
 // Calculate the contribution from stats
 const calculateStatContribution = (
   ability: AbilityData,
+  component: AbilityData['Components'][0],
   stats: Stats,
   operation: number,
-  duration: number = 1000,
 ): number => {
-  if (
-    ability.AbilityType === AbilityType.MORALE ||
-    ability.AbilityType === AbilityType.TACTIC
-  ) {
+  if (component.A07 & ComponentA07Flags.NO_STAT_CONTRIBUTION) {
     return 0;
   }
 
-  if (operation === ComponentOP.HEAL) {
-    return (
-      (((stats.willpower * ability.ScaleStatMult) / 100 / 5) * duration) / 1000
-    );
-  }
-  if (operation === ComponentOP.DAMAGE) {
+  const intervalDuration =
+    component.Interval > 0 && component.Interval > 0
+      ? component.Duration / component.Interval
+      : 1;
+
+  const stat = (() => {
+    if (operation === ComponentOP.HEAL) {
+      return stats.willpower;
+    }
     switch (ability.AbilityType) {
       case AttackType.MELEE:
-        return (
-          (((stats.strength * ability.ScaleStatMult) / 100 / 5) * duration) /
-          1000
-        );
+        return stats.strength;
       case AttackType.RANGED:
-        return (
-          (((stats.ballisticSkill * ability.ScaleStatMult) / 100 / 5) *
-            duration) /
-          1000
-        );
+        return stats.ballisticSkill;
       case AttackType.MAGIC:
-        return (
-          (((stats.intelligence * ability.ScaleStatMult) / 100 / 5) *
-            duration) /
-          1000
-        );
+        return stats.intelligence;
     }
-  }
-  return 0;
+    return 0;
+  })();
+
+  return ((stat * ability.ScaleStatMult) / 100 / 5) * intervalDuration;
 };
 
 const calculateValue = (
@@ -136,6 +127,33 @@ const calculateValue = (
 
   switch (component.Operation) {
     case ComponentOP.DAMAGE:
+      console.log(
+        'ability',
+        ability.AbilityID,
+        'ScaleStatMult',
+        ability.ScaleStatMult,
+        'A07',
+        component.A07,
+        'A15',
+        component.A15,
+        'duration',
+        component.Duration,
+        'Interval',
+        component.Interval,
+        'ChannelInterval',
+        ability.ChannelInterval,
+        'tod',
+        tod,
+        'damage',
+        calculateDamage(ability, component, valueIndex, abilityLevel),
+        'statContrib',
+        calculateStatContribution(
+          ability,
+          component,
+          stats,
+          component.Operation,
+        ),
+      );
       /* if (tod) {
         console.log(
           component.Duration,
@@ -154,19 +172,46 @@ const calculateValue = (
         calculateDamage(ability, component, valueIndex, abilityLevel) +
           calculateStatContribution(
             ability,
+            component,
             stats,
             component.Operation,
-            tod ? component.Duration : 1000,
           ),
       );
     case ComponentOP.HEAL:
+      console.log(
+        'ability',
+        ability.AbilityID,
+        'ScaleStatMult',
+        ability.ScaleStatMult,
+        'A07',
+        component.A07,
+        'A15',
+        component.A15,
+        'duration',
+        component.Duration,
+        'Interval',
+        component.Interval,
+        'ChannelInterval',
+        ability.ChannelInterval,
+        'tod',
+        tod,
+        'damage',
+        calculateDamage(ability, component, valueIndex, abilityLevel),
+        'statContrib',
+        calculateStatContribution(
+          ability,
+          component,
+          stats,
+          component.Operation,
+        ),
+      );
       return Math.round(
         calculateDamage(ability, component, valueIndex, abilityLevel) +
           calculateStatContribution(
             ability,
+            component,
             stats,
             component.Operation,
-            tod ? component.Duration : 1000,
           ),
       );
     case ComponentOP.STAT_CHANGE:
@@ -218,7 +263,7 @@ const getComponent = (
   },
   componentIndices: number[],
   valueIndices: number[],
-): [AbilityData['Components'][0], number] | [] => {
+): [AbilityData, AbilityData['Components'][0], number] | [] => {
   if (componentIndices.length > 1) {
     // We got something like `COM_1_VAL0_COM_0_VAL1`
     if (
@@ -244,7 +289,7 @@ const getComponent = (
     );
     return [];
   }
-  return [ability.Components[componentIndices[0]], valueIndices[0]];
+  return [ability, ability.Components[componentIndices[0]], valueIndices[0]];
 };
 
 const validateComponentValue = (
@@ -261,14 +306,15 @@ const validateComponentValue = (
   const componentIndices = getComponentIndices(name);
   const valueIndices = getValueIndices(name);
 
-  const [component, valueIndex] = getComponent(
+  // linkedAbility is same as ability if there was no linking
+  const [linkedAbility, component, valueIndex] = getComponent(
     ability,
     abilityData,
     componentIndices,
     valueIndices,
   );
 
-  if (component === undefined) {
+  if (component === undefined || linkedAbility === undefined) {
     console.log(
       `Can't find component for ${colors.cyan(
         name,
@@ -288,7 +334,7 @@ const validateComponentValue = (
 
     if (valueIndex !== undefined) {
       const value = calculateValue(
-        gameAbility,
+        linkedAbility,
         component,
         valueIndex,
         abilityLevel,

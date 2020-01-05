@@ -1,6 +1,6 @@
 import colors from 'colors';
 
-import { Ability } from '../helpers/abilities';
+import { Ability } from '../src/helpers/abilities';
 import { AbilityData } from './structureAbilities';
 
 export const validateNote = (
