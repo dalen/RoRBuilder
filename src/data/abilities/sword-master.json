@@ -353,7 +353,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Shield",
-      "description": "A calculated shield maneuver that inflicts 194 damage to all enemies within 15ft in front of you and interrupts any spells they are casting. Additionally, for the next 20 seconds, your block rate is increased by 5% and your armor will be increased by 990 points.",
+      "description": "A calculated shield maneuver that inflicts 194 damage to all enemies 15 feet in front of you and interrupts any spells they are casting. Additionally, for the next 20 seconds, your block rate is increased by 5% and your armor will be increased by 618 points.",
       "category": "Ability",
       "gameId": 9027,
       "componentValues": {
@@ -419,7 +419,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds.",
       "category": "Morale",
       "gameId": 606,
       "componentValues": {
@@ -1069,7 +1069,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Leads to Improved Balance",
-      "description": "You call upon the magic in your blade to form a barrier to protect you and any groupmates within 50 feet of you, absorbing up to 825 damage for up to 5 seconds",
+      "description": "You call upon the magic in your blade to form a barrier to protect you and any groupmates within 50 feet of you, absorbing up to 825 damage for up to 5 seconds.",
       "category": "Ability",
       "gameId": 9029,
       "componentValues": {
@@ -1112,7 +1112,7 @@
       "incant": "3.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
+      "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale",
       "gameId": 607,
       "componentValues": {
@@ -1134,7 +1134,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Block",
-      "description": "Redirects the force of a blocked blow into an undefendable attack dealing 231 and knocking your target back a medium distance. This attack generates a large amount of additional hate from monsters.",
+      "description": "Redirects the force of a blocked blow into an undefendable attack dealing 231 damage and knocking your target back. This attack generates a large amount of additional hate from monsters.",
       "category": "Ability",
       "gameId": 9032,
       "componentValues": {
@@ -1196,7 +1196,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet suffer 1800 Spiritual damage over 12 seconds, and will steadily lose 28 Morale.",
+      "description": "All enemies within 30 feet suffer 1800 Spiritual damage over 12 seconds, and will steadily lose 28 Morale. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 9076,
       "componentValues": {
@@ -1217,7 +1217,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Target must have an Enchantment",
-      "description": "A shattering attack that removes one Enchantment from your enemy and do 119 damage.",
+      "description": "A shattering attack that removes one Enchantment from your enemy and deals 119 damage.",
       "category": "Ability",
       "gameId": 9034,
       "componentValues": {
@@ -1377,7 +1377,7 @@
       "incant": "20s cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon",
-      "description": "You spin your greatsword with astounding speed forming a wall of steel between you and your opponent. Increasing your chance to Dodge, Disrupt and Parry attacks by 50% and whenever you defend against attack you will reflect back 150 Spirit damage.",
+      "description": "You spin your greatsword with astounding speed, forming a wall of steel between you and your opponent. Your chances to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back 150 Spirit damage.",
       "category": "Ability",
       "gameId": 9021,
       "componentValues": {

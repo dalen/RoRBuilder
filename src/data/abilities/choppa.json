@@ -795,7 +795,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you die, you have a 25% chance of ressurecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing 250 damage.",
+      "description": "When you die, you have a 25% chance of resurrecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing 250 damage.",
       "category": "CareerTactic",
       "gameId": 1795,
       "componentValues": {
@@ -942,7 +942,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "A wild swing which deals 227 damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "A wild swing which Deals 227 damage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1761,
       "componentValues": {
@@ -1082,7 +1082,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A furious slash that deals 191 damage and reduces your targets Toughness by 25 for 9 seconds. This effect is stackable up to three times.",
+      "description": "A furious slash that deals 191 damage and reduces your target's Toughness by 25 for 9 seconds. This effect is stackable up to three times.",
       "category": "Ability",
       "gameId": 1745,
       "componentValues": {
@@ -1122,7 +1122,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You stomp the ground, knocking down targets within 30 feet for 3 seconds and dealing 1800 damage.",
+      "description": "You stomp the ground, knocking down targets within 30 feet for 3 seconds and dealing 1800 damage. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 1804,
       "componentValues": {
@@ -1293,7 +1293,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "You unleash a powerful blow, dealing 302 physical damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You unleash a powerful blow, dealing 302 damage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1751,
       "componentValues": {
@@ -1459,7 +1459,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You chop all enemies within 30 feet for 1200 damage and all heals are reduced by 50% for 10 seconds.",
+      "description": "You chop all enemies within 30 feet for 1200 damage and all heals are reduced by 50% for 10 seconds. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 1803,
       "componentValues": {

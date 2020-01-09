@@ -586,7 +586,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds.",
       "category": "Morale",
       "gameId": 606,
       "componentValues": {
@@ -788,7 +788,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "An overwhelming blow that deals 423 damage and will knockback your target based on your Hate.<br> With 30 Hate: Medium Knockback. <br> With 60 Hate: Long Knockback.<br> With 90 Hate: Very Long Knockback.",
+      "description": "An overwhelming blow that deals 423 damage and will knockback your target based on your Hate.<BR> With 30 Hate: Medium Knockback. <BR> With 60 Hate: Long Knockback.<BR> With 90 Hate: Very Long Knockback.",
       "category": "Ability",
       "gameId": 9328,
       "componentValues": {
@@ -1655,7 +1655,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Target must have an Enchantment",
-      "description": "A shattering attack that removes one Enchantment from your enemy and deals 151 damage.",
+      "description": "You shatter one Enchantment from your enemy and deal 151 damage.",
       "category": "Ability",
       "gameId": 9337,
       "componentValues": {

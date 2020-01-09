@@ -125,7 +125,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 45 Spirit damage to the target. The victim will lose 20 Action Points, and you will gain 20 Action Points.<br/><br/>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 45 Spirit damage to the target.  The victim will lose 20 Action Points, and you will gain 20 Action Points.<BR><BR>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability",
       "gameId": 8089,
       "componentValues": {
@@ -147,7 +147,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional 225 Spirit damage. Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.<br/><br/>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional 225 Spirit damage.  Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability",
       "gameId": 8099,
       "componentValues": {
@@ -169,7 +169,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 225 Spirit damage.  The victim's Initiative will be reduced by 50  for 10 seconds, and your Initiative will be increased by 50.<br/><br/>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 225 Spirit damage.  The victim's Initiative will be reduced by 50 for 10 seconds, and your Initiative will be increased by 50.<BR><BR>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability",
       "gameId": 8084,
       "componentValues": {
@@ -275,7 +275,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<br>  1 Accusation: 672 damage over time; 333 ending damage.<br>  2 Accusations: 858 damage over time; 432 ending damage.<br>  3 Accusations: 1047 damage over time; 524 ending damage.<br>  4 Accusations: 1233 damage over time; 619 ending damage.<br>  5 Accusations: 1422 damage over time; 715 ending damage.",
+      "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  672 damage over time; 333 ending damage.<BR>   2 Accusations:  858 damage over time; 432 ending damage.<BR>   3 Accusations:  1047 damage over time; 524 ending damage.<BR>   4 Accusations:  1233 damage over time; 619 ending damage.<BR>   5 Accusations:  1422 damage over time; 715 ending damage.<BR>",
       "category": "Ability",
       "gameId": 8116,
       "componentValues": {
@@ -412,7 +412,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 300, inspired, your group gains 300 Morale.<BR>   1 Accusation:  186 damage, 30 feet radius.<BR>   2 Accusations:  206 damage, 35 feet radius.<BR>   3 Accusations:  226 damage, 40 feet radius.<BR>   4 Accusations:  248 damage, 43 feet radius.<BR>   5 Accusations:  268 damage, 48 feet radius.",
+      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  186 damage, 30 feet radius.<BR>   2 Accusations:  206 damage, 35 feet radius.<BR>   3 Accusations:  226 damage, 40 feet radius.<BR>   4 Accusations:  248 damage, 43 feet radius.<BR>   5 Accusations:  268 damage, 48 feet radius.",
       "category": "Ability",
       "gameId": 8110,
       "componentValues": {
@@ -427,7 +427,7 @@
         "COM_4_VAL0_DAMAGE": 268,
         "COM_4_RADI_FEET": 48
       },
-      "rawDescription": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 300, inspired, your group gains 300 Morale.<BR>   1 Accusation:  {COM_0_VAL0_DAMAGE}, {COM_0_RADI_FEET} radius.<BR>   2 Accusations:  {COM_1_VAL0_DAMAGE}, {COM_1_RADI_FEET} radius.<BR>   3 Accusations:  {COM_2_VAL0_DAMAGE}, {COM_2_RADI_FEET} radius.<BR>   4 Accusations:  {COM_3_VAL0_DAMAGE}, {COM_3_RADI_FEET} radius.<BR>   5 Accusations:  {COM_4_VAL0_DAMAGE}, {COM_4_RADI_FEET} radius."
+      "rawDescription": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  {COM_0_VAL0_DAMAGE}, {COM_0_RADI_FEET} radius.<BR>   2 Accusations:  {COM_1_VAL0_DAMAGE}, {COM_1_RADI_FEET} radius.<BR>   3 Accusations:  {COM_2_VAL0_DAMAGE}, {COM_2_RADI_FEET} radius.<BR>   4 Accusations:  {COM_3_VAL0_DAMAGE}, {COM_3_RADI_FEET} radius.<BR>   5 Accusations:  {COM_4_VAL0_DAMAGE}, {COM_4_RADI_FEET} radius."
     },
     {
       "image": "22710",
@@ -1204,7 +1204,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Target must have a Blessing",
-      "description": "You sever one Blessing from your enemy and inflict 127 damage",
+      "description": "You sever one Blessing from your enemy and inflict 127 damage.",
       "category": "Ability",
       "gameId": 8101,
       "componentValues": {

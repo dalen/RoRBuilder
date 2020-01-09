@@ -347,7 +347,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "Undefendable claw attack that deals 216 damage and reduces the targets armor by 1000 for 10 seconds.",
+      "description": "An undefendable claw attack that deals 216 damage and reduces targets armor by 1000 for 10 seconds.",
       "category": "Ability",
       "gameId": 8418,
       "componentValues": {
@@ -493,7 +493,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A large burst of power courses through you, dealing 1800 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds.",
+      "description": "A large burst of power courses through you, dealing 1800 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 8456,
       "componentValues": {
@@ -744,7 +744,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Gift of Monstrosity",
-      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<br><br>While mutated, your attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health and letting you shrug off your enemy's armor penetration.",
+      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your melee attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health and letting you shrug off your enemy's armor penetration.",
       "category": "Ability",
       "gameId": 8403,
       "componentValues": {
@@ -783,7 +783,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Gift of Savagery",
-      "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<br><br>While mutated, your attacks have a 25% chance to deal an additional 840 damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
+      "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<BR><BR>While mutated, your melee attacks have a 25% chance to deal an additional 840 damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
       "category": "Ability",
       "gameId": 8394,
       "componentValues": {
@@ -844,7 +844,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "Target must be below 50% health<BR> A powerful blow inflicting 316 damage and will almost always deal critical damage to a weakened target.",
+      "description": "Requires target to be below 50% health<BR>A powerful blow inflicting 316 damage and will almost always deal critical damage to a weakened target.",
       "category": "Ability",
       "gameId": 8420,
       "componentValues": {

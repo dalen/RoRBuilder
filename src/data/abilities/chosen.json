@@ -302,7 +302,7 @@
     {
       "image": "22709",
       "id": 4775,
-      "name": "Critical Suppression",
+      "name": "Discordant Winds",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "31",
@@ -311,14 +311,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Suppression will now also reduce the victim's chances to defend against attacks by 10% for 10 seconds.",
+      "description": "All your attacks will now deal spiritual damage instead of physical but healing on you will be reduced by 20%.",
       "category": "CareerTactic",
       "gameId": 8355,
-      "componentValues": {
-        "ABIL_8335_COM_2_VAL0": 10,
-        "ABIL_8335_COM_2_DURA_SECONDS": 10
-      },
-      "rawDescription": "Suppression will now also reduce the victim's chances to defend against attacks by {ABIL_8335_COM_2_VAL0}% for {ABIL_8335_COM_2_DURA_SECONDS}."
+      "componentValues": {},
+      "rawDescription": "All your attacks will now deal spiritual damage instead of physical but healing on you will be reduced by 20%."
     },
     {
       "image": "23172",
@@ -332,7 +329,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds.",
       "category": "Morale",
       "gameId": 606,
       "componentValues": {
@@ -918,14 +915,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically hit an Enemy with a Great Weapon, your Strength, Weapon Skill, and Initiative will be increased by 100 for 10 seconds. This effect will not refresh itself.",
+      "description": "Whenever you parry an attack, your Strength and Weapon Skill will be increased by 100 for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic",
       "gameId": 2832,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0": 100,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10
       },
-      "rawDescription": "Whenever you critically hit an Enemy with a Great Weapon, your Strength, Weapon Skill, and Initiative will be increased by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}. This effect will not refresh itself."
+      "rawDescription": "Whenever you parry an attack, your Strength and Weapon Skill will be increased by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}. This effect will not refresh itself."
     },
     {
       "image": "05259",
@@ -1085,7 +1082,7 @@
       "incant": "3.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
+      "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale",
       "gameId": 607,
       "componentValues": {
@@ -1210,7 +1207,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Target must have a Blessing",
-      "description": "You sever one Blessing from your enemy and inflict 134 damage",
+      "description": "You sever one Blessing from your enemy and inflict 134 damage.",
       "category": "Ability",
       "gameId": 8339,
       "componentValues": {
@@ -1399,7 +1396,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You Stab into your opponent for 159 damage. For the next 5 seconds, Tooth Of Tzeentch will cause an additional 100 Spirit damage on the next damaging attack made by everyone in your group within 100 feet of you.",
+      "description": "You stab into your opponent for 159 damage.  For the next 5 seconds, Tooth Of Tzeentch will cause an additional 100 Spirit damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability",
       "gameId": 8317,
       "componentValues": {
@@ -1542,7 +1539,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A surge of chaotic energy ripples forward inflicting 240 damage to everyone 40 feet in front of you. The surge of power clings to it's victims, snaring them by 40% for 15 seconds.",
+      "description": "A surge of chaotic energy ripples forward, inflicting 240 damage to everyone 40 feet in front of you. The surge of power clings to its victims, snaring them by 40% for 15 seconds.",
       "category": "Morale",
       "gameId": 8377,
       "componentValues": {

@@ -328,7 +328,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect can not occur more than once every 2 seconds.",
+      "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect cannot occur more than once every 2 seconds.",
       "category": "CareerTactic",
       "gameId": 568,
       "componentValues": {
@@ -1076,7 +1076,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
+      "description": "Deals 1200 damage to your target and staggers them for 9 seconds, preventing all actions until they take damage.",
       "category": "Morale",
       "gameId": 671,
       "componentValues": {

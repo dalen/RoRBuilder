@@ -205,7 +205,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Squig Armor<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target. You inflict 144 damage to them when you land. This ability cannot be used while you are airborne.",
+      "description": "You pounce forwards, leaping towards your target. You will inflict 144 damage to them when you land. This ability cannot be used while you are airborne.",
       "category": "Ability",
       "gameId": 2800,
       "componentValues": {
@@ -266,7 +266,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Requires Squig Armor",
-      "description": "You force your battle squig to bounce in the air for 3 seconds, repeatedly dealing 119 physical damage to all enemies within 30 feet.",
+      "description": "You force your Battle Squig to bounce in the air for up to 3 seconds, repeatedly dealing 119 damage to all enemies within 30 feet.",
       "category": "Ability",
       "gameId": 1851,
       "componentValues": {
@@ -1050,7 +1050,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A mid-range attack that deals 600 damage and knocks targeted player away. Monsters will be knocked down.",
+      "description": "A mid-range attack that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale",
       "gameId": 648,
       "componentValues": {
@@ -1090,7 +1090,7 @@
       "incant": "1.0s cast",
       "cooldown": "20s cooldown",
       "note": "Requires Squig Armor",
-      "description": "Your battle squig evacuates a disagreeable meal, producing a toxic cloud that inflicts 210 corporeal damage every 2 seconds for 6 seconds.",
+      "description": "Your Battle Squig evacuates a disagreeable meal, producing a toxic cloud that inflicts 210 Corporeal damage every 2 seconds for 6 seconds.",
       "category": "Ability",
       "gameId": 2813,
       "componentValues": {
@@ -1237,7 +1237,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Squig Armor",
-      "description": "A sly attack which deals 294 damage to your enemy, and increases your armor by a large amount for 15 seconds.",
+      "description": "A sly attack which deals 294 damage to your enemy, and increases your Armour by a large amount for 15 seconds.",
       "category": "Ability",
       "gameId": 2805,
       "componentValues": {
@@ -1627,7 +1627,7 @@
       "incant": "1.5s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "An attack which deals 216 damage and reduces your target's Armor by 618 and their chance to block by 10% for 10 seconds.",
+      "description": "An attack which deals 216 damage and reduces your target's armor by 618 and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability",
       "gameId": 1823,
       "componentValues": {
@@ -1671,7 +1671,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 2400 damage to all targets within 30 feet of you",
+      "description": "Deals 2400 damage to all targets within 30 feet of you.",
       "category": "Morale",
       "gameId": 1884,
       "componentValues": {

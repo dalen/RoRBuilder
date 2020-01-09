@@ -727,7 +727,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The base heal on Sigmar's Radiance is increased to 282 health and the healing from lifetaps are increased by 25%.",
+      "description": "The base heal on Sigmar's Radiance is increased to 282 health and the healing from damage dealt increased to 75%.",
       "category": "CareerTactic",
       "gameId": 8292,
       "componentValues": {
@@ -767,7 +767,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional 405 Spirit Damage over 9 seconds and you gain a blessing which increases your Path of Wrath abilities by 5%. This blessing stacks up to 4 times.",
+      "description": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional 405 Spirit Damage over 9 seconds. Your defensive target will also be healed for any damage dealt.",
       "category": "CareerTactic",
       "gameId": 8295,
       "componentValues": {
@@ -1033,7 +1033,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury<br>Target must have an Enchantment",
-      "description": "A shattering attack that removes one Enchantment from your enemy and does 127 damage.",
+      "description": "A shattering attack that removes one Enchantment from your enemy and deals 127 damage.",
       "category": "Ability",
       "gameId": 8251,
       "componentValues": {
@@ -1303,7 +1303,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "A sweeping blow which deals 101 damage to all enemies in front of you, up to 50 feet away.",
+      "description": "A sweeping blow which deals 101 damage to all enemies in front of you, up to 50 feet away.<BR>Builds an additional 15 Righteous Fury for each enemy that you strike.",
       "category": "Ability",
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 101,
@@ -1347,7 +1347,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
+      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
       "category": "Morale",
       "componentValues": {
         "COM_0_VAL0_TOD_DAMAGE": 900
@@ -1509,7 +1509,7 @@
       "incant": "10s cast",
       "cooldown": "30s cooldown",
       "note": "Requires Shield<br>Requires 25 Righteous Fury per second",
-      "description": "You shield your team with your life force, you will suffer 300 damage every second, any groupmates within 100ft will have 525 health restored to them. This effect will end if you break your concentration, or run out of Righteous Fury.",
+      "description": "You shield your team with your life force, you will suffer 300 damage every second, any groupmates within 100ft will have 525 health restored to them.<BR>This effect will end if you break your concentration, or run out of Righteous Fury.",
       "category": "Ability",
       "gameId": 2940,
       "componentValues": {

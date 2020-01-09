@@ -291,7 +291,7 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You construct a turret with an auto-firing grenade launcher which will attack enemies at a moderate range.  The turret gains 100% of your Ballistic Skill, 30% of your Weapon Skill, and 70% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.<BR>You will lose 4 stacks of this effect every time a turret is destroyed for any reason.",
+      "description": "Construct a turret with a moderate range auto-firing grenade launcher. The turret gains 100% of BS, 30% of WS, and 70% of your Wounds from item bonuses.  While within 25 feet of it you will use it to create an improvised upgrade every 2 seconds, increasing your damage by 4% to a maximum of 20%, shorten the duration and tick interval of Path of Grenadier and Tinkerer DoTs by 4% to a maximum of 35% and allow Grenadier skills to be cast while moving. You lose 4 stacks of upgrades if the turret is destroyed.",
       "category": "Ability",
       "gameId": 1518,
       "componentValues": {
@@ -314,7 +314,7 @@
       "incant": "2.0s cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any group members within 30 feet of it, restoring 224 health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
+      "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any of your groupmates within 30 feet of it, restoring 224 health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
       "category": "Ability",
       "gameId": 1544,
       "componentValues": {
@@ -337,7 +337,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 157 for 60.",
+      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 157 for 60 minutes.",
       "category": "Ability",
       "gameId": 1529,
       "componentValues": {
@@ -668,7 +668,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You don an experimental suit of protective gear, increasing your Armor by 560 for up to 1.",
+      "description": "You don an experimental suit of protective gear, increasing your Armor by 560 for up to 1 hours.",
       "category": "Ability",
       "gameId": 1527,
       "componentValues": {
@@ -689,7 +689,7 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You construct a turret with a self-firing flamethrower which will attack enemies at close range. The turret gains 100% of your Ballistic Skill, 10% of your Weapon Skill, and 90% of your Wounds from item bonuses. While you are within 25feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.<BR>You will lose 4 stacks of this effect every time a turret is destroyed for any reason.",
+      "description": "Construct a turret with a short range self-firing flamethrower. The turret gains 100% of BS, 10% of WS, and 90% of your Wounds from item bonuses. While within 25 feet of it you will use it to create an improvised upgrade every 2 seconds, increasing your damage by 4% to a maximum of 20%, Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50% but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of upgrades if the turret is destroyed.",
       "category": "Ability",
       "gameId": 1526,
       "componentValues": {
@@ -858,7 +858,7 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You construct a turret with a self-aiming gun which will fire at distant enemies. The turret gains 75% of your Ballistic Skill and Weapon Skill from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.<BR><BR>You will lose 4 stacks of this effect every time a turret is destroyed for any reason.",
+      "description": "Construct a turret with a long range self-aiming gun. The turret gains 75% of BS and WS from item bonuses and 50% of your Wounds from item bonuses. While within 25 feet of it you will use it to create an improvised upgrade every 2 seconds, increasing your damage by 4% to a maximum of 20% and increase your range by 5% to a maximum of 25% extra range. You lose 4 stacks of upgrades if the turret is destroyed.",
       "category": "Ability",
       "gameId": 1511,
       "componentValues": {
@@ -1007,7 +1007,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You fling out a land mine which arms itself immediately and persists for up to 1.  The mine will detonate when an enemy gets too close, dealing 243 damage to all enemies within 30 feet and staggering them for up to 5 seconds, preventing all actions unless they are damaged.",
+      "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minutes.  The mine will detonate when an enemy gets too close, dealing 243 damage to all enemies within 30 feet and staggering them for up to 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
       "gameId": 1524,
       "componentValues": {
@@ -1101,7 +1101,7 @@
       "incant": "Instant cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "A barrage of mortar attacks which continously fire at a spot on the ground that you select for up to 6 seconds, dealing 243 Corporeal damage every 2 secpnds to all enemies within 20 feet of that spot, and snares them by 20%. This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
+      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 243 Corporeal damage every 2 seconds to all enemies within 20 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
       "category": "Ability",
       "gameId": 1541,
       "componentValues": {
@@ -1329,7 +1329,7 @@
       "incant": "3.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A slow but powerful gun shot which deals 538 damage to your enemy and can not be defended against.",
+      "description": "A slow but powerful gun shot which deals 538 damage to your enemy and cannot be defended against.",
       "category": "Ability",
       "gameId": 1538,
       "componentValues": {

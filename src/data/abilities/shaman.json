@@ -621,7 +621,7 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "A surge of Waaagh! explodes from your target, inflicting 199 elemental damage upon them and up to 4 other enemies within 20 feet of them, and healing your defensive target and allies within 20 feet of them for 883 health plus 50% of the total inflicted damage.<br /><br />When casting this ability, you will focus your power into ensuring a hit rather than maximum damage, causing it to be 20% less likely to be blocked or disrupted.",
+      "description": "A surge of Waaagh! explodes from your target, inflicting 199 Elemental damage upon them and up to 4 other enemies within 25 feet of them, and healing your defensive target and allies within 20 feet of them for 883 health, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability",
       "gameId": 2102,
       "componentValues": {
@@ -761,7 +761,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 600 damage over 2s. If the target moves, the duration is restarted.",
+      "description": "Your target suffers 600 damage over 2s. If the target moves, the duration is restarted.<br>",
       "category": "Morale",
       "gameId": 1964,
       "componentValues": {
@@ -1158,7 +1158,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. If the allies health is reduced below 20%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
+      "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. If the allies health is reduced below 25%, this effect will immediately dispel itself to restore 711 health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
       "category": "Ability",
       "gameId": 1928,
       "componentValues": {
@@ -1179,7 +1179,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
+      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
       "category": "Morale",
       "gameId": 690,
       "componentValues": {

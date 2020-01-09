@@ -186,7 +186,7 @@
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Heals all groupmembers within 100 feet for 679 health.",
+      "description": "Heals all group members within 100 feet for 679 health.",
       "category": "Ability",
       "gameId": 1604,
       "componentValues": {
@@ -245,7 +245,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rune of cleaving grows ever more potent and now also reduces armor by 618.",
+      "description": "Rune of Cleaving grows ever more potent and now also reduces Armor by 618.",
       "category": "CareerTactic",
       "gameId": 1638,
       "componentValues": {
@@ -506,7 +506,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each tick of Rune of Immolation has a 25% chance to drain 30 Action Points from target and snare them by 40% for 5 seconds.",
+      "description": "Each tick of Rune of Immolation has a 25% chance to drain 30 Action Points from the target and snare them by 40% for 5 seconds.",
       "category": "CareerTactic",
       "gameId": 1635,
       "componentValues": {
@@ -614,7 +614,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increase targeted group member's Initiative and Willpower by 50 for 1 hour. The rune holder may activate it to inflict 488 Elemental damage over 9 seconds.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the targeted group member's Initiative and Willpower by 50 for 1 hour. The rune holder may activate it to inflict 488 Elemental damage over 9 seconds.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
       "gameId": 1600,
       "componentValues": {
@@ -636,7 +636,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases target group member's Strength, Ballistic Skill, and Intelligence by 50 for 1 hour. The rune holder may activate to inflict 234 Elemental damage to a target.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by 50 for 1 hour. The rune holder may activate to inflict 234 Elemental damage to a target.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
       "gameId": 1591,
       "componentValues": {
@@ -677,7 +677,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases targeted group member's Resists by 157 for 1 hour. The rune holder may activate it to inflict 344 Elemental damage over 9 seconds to all targets within 30 feet.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases all of the targeted group member's resistances by 157 for 1 hour. The rune holder may activate it to inflict 344 Elemental damage over 9 seconds to all targets within 30 feet.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
       "gameId": 1588,
       "componentValues": {
@@ -846,7 +846,7 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Buffs you or a friendly player with a pulsing area of effect that deals 290 Elemental damage every 3 seconds to all enemies within to 30 feet for 15 seconds. Not effected by cooldown reduction abilities.",
+      "description": "Buffs you or a friendly player with a pulsing area of effect that deals 290 Elemental damage every 3 seconds to all enemies within to 30 feet for 15 seconds.<BR><BR>Not affected by cooldown reduction abilities.",
       "category": "Ability",
       "gameId": 1617,
       "componentValues": {
@@ -908,7 +908,7 @@
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
       "note": "",
-      "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1729 Elemental Damage over 6 seconds for as long as you maintain yout concentration.",
+      "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1729 Elemental damage over 6 seconds for as long as you maintain your concentration.",
       "category": "Ability",
       "gameId": 1614,
       "componentValues": {
@@ -947,7 +947,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A burst of force errupts from your rune dealing 756 Elemental Damage over 9 seconds to targets 40 feet in front of you.",
+      "description": "A burst of force erupts from your rune, dealing 756 Elemental damage over 9 seconds to targets 40 feet in front of you.",
       "category": "Ability",
       "gameId": 1597,
       "componentValues": {
@@ -1031,7 +1031,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals 425 Elemental damage to your target and heals your Defensive target for the damage dealt.",
+      "description": "Deals 425 Elemental damage to your target and heals your defensive target for the damage dealt.",
       "category": "Ability",
       "gameId": 1611,
       "componentValues": {
@@ -1051,7 +1051,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You set your target ablaze. Burning them for 870 Elemental Damage over 15 seconds.",
+      "description": "You set your target ablaze, burning them for 870 Elemental damage over 15 seconds.",
       "category": "Ability",
       "gameId": 1589,
       "componentValues": {
@@ -1238,7 +1238,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your rune infuses the target with vitality, restoring 883 health.<br>This is a fragile spell, and will always be set back by a small amount if you are damaged while casting it.",
+      "description": "Your rune infuses the target with vitality, restoring 883 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
       "category": "Ability",
       "gameId": 1596,
       "componentValues": {
@@ -1425,7 +1425,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
+      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
       "category": "Morale",
       "gameId": 690,
       "componentValues": {

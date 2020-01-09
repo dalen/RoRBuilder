@@ -756,7 +756,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases a groupmember's Stregth, Ballistic Skill and Intelligence by 50. The bearer of this Mark may also activate it like an ability to inflict 234 corporeal damage.<br>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by 50.  The bearer of this Mark may also activate it like an ability to inflict 234 Corporeal damage.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability",
       "gameId": 8551,
       "componentValues": {
@@ -819,7 +819,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all you groupmember's resistances by 157. The bearer of this Mark may activate it to inflict 342 corporeal damage over 9 seconds to all targets within 30 feet. <br>A player may only bear a single Mark at a time, and all of your Marks will fade if you die.",
+      "description": "Increases all your groupmember's resistances by 157.  The bearer of this Mark may activate it to inflict 342 Corporeal damage over 9 seconds to all targets within  30 feet. <BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability",
       "gameId": 8560,
       "componentValues": {
@@ -842,7 +842,7 @@
       "incant": "2.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Curses your target for 10 seconds so that whenever they receive a direct heal, it inflicts 365 corporeal damage to them.",
+      "description": "Curses your target for 10 seconds so that whenever they receive a direct heal, it inflicts 365 Corporeal damage to them. This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 8575,
       "componentValues": {
@@ -926,7 +926,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 Ritual active",
-      "description": "A frenzied, 30 seconds long ritual that affects all groupmembers within 100 feet, granting them a 20% chance to regain 50 Action Points every attack.",
+      "description": "A frenzied, 30 seconds long ritual that affects all groupmembers within 100 feet, granting them a 20% chance to regain 50 Action Points every time they use an ability.",
       "category": "Ability",
       "gameId": 8572,
       "componentValues": {
@@ -1030,7 +1030,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
+      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
       "category": "Morale",
       "gameId": 690,
       "componentValues": {
@@ -1050,7 +1050,7 @@
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
       "note": "",
-      "description": "You call forth a storm of ravens which claw and peck at your target, dealing 1323 corporeal damage over 6 seconds and snaring them by 40%, as long as you maintain your concentration.",
+      "description": "You call forth a storm of ravens which claw and peck at your target, dealing 1323 Corporeal damage over 6 seconds and snaring them by 40%. for as long as you maintain your concentration.",
       "category": "Ability",
       "gameId": 8576,
       "componentValues": {
@@ -1484,7 +1484,7 @@
       "incant": "Instant cast",
       "cooldown": "26s cooldown",
       "note": "",
-      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 172 corporeal damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 2 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<br>This spell may be toggled off to regain your movement.",
+      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 172 damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<BR>This spell may be toggled off to regain your movement.",
       "category": "Ability",
       "gameId": 8579,
       "componentValues": {
@@ -1506,7 +1506,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Inflicts 1800 damage to all targets within 30 feet of you, making heals 50% less effective on them for 10 seconds.",
+      "description": "Inflicts 1800 damage to all targets within 30 feet of you, making heals 50% less effective on them for 10 seconds. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 8613,
       "componentValues": {

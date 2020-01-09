@@ -328,7 +328,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds.",
       "category": "Morale",
       "gameId": 606,
       "componentValues": {
@@ -767,7 +767,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "A brutal attack that deals 144 damage to your target and inspires you to push the attack, increasing your Strength by 75 for 20 seconds. Will also affect your Oath Friend if they are within 50 feet. <br><br>  At 25 Grudges: Also increases Willpower by 75.<br>  At 50 Grudges: Also increases Willpower by 150.<br>  At 75 Grudges: Also increases Willpower by 225.<br>  At 100 Grudges: Also increases Willpower by 300.",
+      "description": "A brutal attack that deals 144 damage to your target and inspires you to push the attack, increasing your Strength by 75 for 20 seconds. Will also affect your Oath Friend if they are within 50 feet. <BR><BR>   At 25 Grudges:  Also increases Willpower by 75.<BR>   At 50 Grudges: Also increases Willpower by 150.<BR>   At 75 Grudges: Also increases Willpower by 225.<BR>   At 100 Grudges:  Also increases Willpower by 300.<BR>",
       "category": "Ability",
       "gameId": 1364,
       "componentValues": {
@@ -812,7 +812,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "A painful strike to the enemy's leg that deals 119 damage.<br><br>  At 25 Grudges: Also reduces the target's chance to critically hit by 5%.<br>  At 50 Grudges: Also reduces the target's chance to critically hit by 10%.<br>  At 75 Grudges: Also reduces the target's chance to critically hit by 15%.<br>  At 100 Grudges: Also reduces the target's chance to critically hit by 20%.",
+      "description": "A painful strike to the enemy's leg that deals 119 damage.<BR><BR>   At 25 Grudges:  Also reduces the target's chance to critically hit by 5%.<BR>   At 50 Grudges:  Also reduces the target's chance to critically hit by 10%.<BR>   At 75 Grudges:  Also reduces the target's chance to critically hit by 15%.<BR>   At 100 Grudges:  Also reduces the target's chance to critically hit by 20%.<BR>",
       "category": "Ability",
       "gameId": 1362,
       "componentValues": {
@@ -854,7 +854,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your damaging attacks will cause additional hate based on Grudge.<br> At 25 Grudges: Adds an additional 15 threat.<br> At 50 Grudges: Adds an additional 20 threat.<br> At 75 Grudges: Adds an additional 25 threat.<br> At 100 Grudges: Adds an additional 30 threat.",
+      "description": "All of your damaging attacks will cause additional hate based on Grudge.<BR> At 25 Grudges: Adds an additional 15 threat.<BR> At 50 Grudges: Adds an additional 20 threat.<BR> At 75 Grudges: Adds an additional 25 threat.<BR> At 100 Grudges:  Adds an additional 30 threat.<BR>",
       "category": "CareerTactic",
       "gameId": 1393,
       "componentValues": {
@@ -987,7 +987,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever your Oath Friend is attacked there is a 25% chance that you toss the assailant a glare so fierce they take 150 damage.",
+      "description": "Whenever your Oath Friend is attacked, there is a 25% chance that you toss the assailant a glare so fierce they take 150 damage.",
       "category": "CareerTactic",
       "gameId": 1406,
       "componentValues": {
@@ -1070,7 +1070,7 @@
       "incant": "3.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
+      "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale",
       "gameId": 607,
       "componentValues": {
@@ -1173,7 +1173,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Improves with Grudge",
-      "description": "You whirl your axe around, dealing 100 damage to enemies 25 feet in front of you.<br><br> At 25 Grudges: Ignores 25% of the victim's armor.<br> At 50 Grudges: Ignores 50% of the victim's armor.<br> At 75 Grudges: Ignores 75% of the victim's armor.<br> At 100 Grudges: Ignores 100% of the victim's armor.",
+      "description": "You whirl your axe around, dealing 100 damage to enemies 25 feet in front of you.<BR><BR> At 25 Grudges: Ignores 25% of the victim's armor.<BR> At 50 Grudges: Ignores 50% of the victim's armor.<BR> At 75 Grudges: Ignores 75% of the victim's armor.<BR> At 100 Grudges: Ignores 100% of the victim's armor.",
       "category": "Ability",
       "gameId": 1366,
       "componentValues": {
@@ -1257,7 +1257,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Target must have a Blessing",
-      "description": "You sever one Blessing from your enemy and inflict 119 damage.",
+      "description": "You sever one Blessing from your enemy and deal 119 damage.",
       "category": "Ability",
       "gameId": 1374,
       "componentValues": {
