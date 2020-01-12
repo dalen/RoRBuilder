@@ -14,14 +14,7 @@
         "lvl6": 5003,
         "lvl7": 5004
       },
-      "coreAbilities": [
-        5053,
-        4960,
-        4967,
-        4969,
-        5056,
-        4966
-      ]
+      "coreAbilities": [5053, 4960, 4967, 4969, 5056, 4966]
     },
     "b": {
       "name": "Path of Torture",
@@ -37,14 +30,7 @@
         "lvl6": 2934,
         "lvl7": 5011
       },
-      "coreAbilities": [
-        4959,
-        4963,
-        4965,
-        4968,
-        5008,
-        5054
-      ]
+      "coreAbilities": [4959, 4963, 4965, 4968, 5008, 5054]
     },
     "c": {
       "name": "Path of Sacrifice",
@@ -60,17 +46,7 @@
         "lvl6": 2952,
         "lvl7": 5018
       },
-      "coreAbilities": [
-        4971,
-        4962,
-        4958,
-        4972,
-        4956,
-        5013,
-        2941,
-        2953,
-        2051
-      ]
+      "coreAbilities": [4971, 4962, 4958, 4972, 4956, 5013, 2941, 2953, 2051]
     }
   },
   "data": [
@@ -1261,26 +1237,6 @@
       "gameId": 588,
       "componentValues": {},
       "rawDescription": "All of your heals will cause enemy monsters to hate you 25% less than normal."
-    },
-    {
-      "image": "22706",
-      "id": 4979,
-      "name": "Terrifying Aura",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "23",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Terrifying Vision will also affect all enemies within 30 feet of you.",
-      "category": "CareerTactic",
-      "gameId": 9591,
-      "componentValues": {
-        "ABIL_3046_COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Terrifying Vision will also affect all enemies within {ABIL_3046_COM_0_RADI_FEET} of you."
     },
     {
       "image": "10942",
