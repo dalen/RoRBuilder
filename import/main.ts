@@ -441,7 +441,7 @@ const main = async () => {
     }
   });
 
-  /* await validateCareer(
+  await validateCareer(
     'ironbreaker',
     CareerLine.IRON_BREAKER,
     {
@@ -492,9 +492,9 @@ const main = async () => {
     CareerLine.BLACK_ORC,
     {
       strength: 172,
-      ballisticSkill: 74,
-      intelligence: 99,
-      willpower: 221,
+      ballisticSkill: 98,
+      intelligence: 74,
+      willpower: 147,
     },
     abilityData,
   );
@@ -502,10 +502,10 @@ const main = async () => {
     'choppa',
     CareerLine.CHOPPA,
     {
-      strength: 172,
-      ballisticSkill: 74,
-      intelligence: 99,
-      willpower: 221,
+      strength: 221,
+      ballisticSkill: 68,
+      intelligence: 74,
+      willpower: 123,
     },
     abilityData,
   );
@@ -513,9 +513,9 @@ const main = async () => {
     'shaman',
     CareerLine.SHAMAN,
     {
-      strength: 172,
+      strength: 98,
       ballisticSkill: 74,
-      intelligence: 99,
+      intelligence: 196,
       willpower: 221,
     },
     abilityData,
@@ -524,10 +524,10 @@ const main = async () => {
     'squig-herder',
     CareerLine.SQUIG_HERDER,
     {
-      strength: 172,
-      ballisticSkill: 74,
-      intelligence: 99,
-      willpower: 221,
+      strength: 147,
+      ballisticSkill: 221,
+      intelligence: 74,
+      willpower: 98,
     },
     abilityData,
   );
@@ -536,9 +536,9 @@ const main = async () => {
     CareerLine.WITCH_HUNTER,
     {
       strength: 172,
-      ballisticSkill: 74,
-      intelligence: 99,
-      willpower: 221,
+      ballisticSkill: 123,
+      intelligence: 74,
+      willpower: 118,
     },
     abilityData,
   );
@@ -546,10 +546,10 @@ const main = async () => {
     'knight-of-the-blazing-sun',
     CareerLine.KNIGHT_OF_THE_BLAZING_SUN,
     {
-      strength: 172,
+      strength: 197,
       ballisticSkill: 74,
       intelligence: 99,
-      willpower: 221,
+      willpower: 148,
     },
     abilityData,
   );
@@ -557,14 +557,14 @@ const main = async () => {
     'bright-wizard',
     CareerLine.BRIGHT_WIZARD,
     {
-      strength: 172,
+      strength: 99,
       ballisticSkill: 74,
-      intelligence: 99,
-      willpower: 221,
+      intelligence: 221,
+      willpower: 197,
     },
     abilityData,
-  ); */
-  /* await validateCareer(
+  );
+  await validateCareer(
     'warrior-priest',
     CareerLine.WARRIOR_PRIEST,
     {
@@ -574,8 +574,8 @@ const main = async () => {
       willpower: 221,
     },
     abilityData,
-  ); */
-  /* await validateCareer(
+  );
+  await validateCareer(
     'chosen',
     CareerLine.CHOSEN,
     {
@@ -695,8 +695,8 @@ const main = async () => {
       willpower: 221,
     },
     abilityData,
-  ); */
-  /* await validateCareer(
+  );
+  await validateCareer(
     'sorcerer',
     CareerLine.SORCERESS,
     {
@@ -706,7 +706,7 @@ const main = async () => {
       willpower: 196,
     },
     abilityData,
-  ); */
+  );
 };
 
 main()
