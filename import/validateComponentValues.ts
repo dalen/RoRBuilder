@@ -83,7 +83,7 @@ const calculateStatContribution = (
   const defaultScaleStat = 150;
 
   const intervalDuration =
-    component.Interval > 0 && component.Interval > 0
+    component.Duration > 0 && component.Interval > 0
       ? Math.floor(component.Duration / component.Interval)
       : 1;
 
@@ -105,10 +105,15 @@ const calculateStatContribution = (
     return 0;
   })();
 
-  return (
-    Math.round((stat * (ability.ScaleStatMult || defaultScaleStat)) / 100 / 5) *
-    intervalDuration
+  const result = Math.round(
+    (stat * (ability.ScaleStatMult || defaultScaleStat)) / 100 / 5,
   );
+
+  if (intervalDuration > 1 && ability.ChannelInterval <= 0) {
+    return result * intervalDuration;
+  }
+
+  return result;
 };
 
 const calculateValue = (
