@@ -49,9 +49,15 @@ const calculateDamage = (
     component.Operation === ComponentOP.STAT_CHANGE ? 1 : 0.166667;
 
   const result =
+    (Math.floor(
+      (abilityLevel - 1) * baseMultiplier * baseValue + Math.floor(baseValue),
+    ) *
+      Math.floor(multiplier)) /
+    100;
+  /* const result =
     (((abilityLevel - 1) * baseMultiplier * baseValue + baseValue) *
       multiplier) /
-    100;
+    100; */
 
   if (component.A07 == 32) {
     return baseValue;
@@ -75,6 +81,9 @@ const calculateStatContribution = (
     return 0;
   }
 
+  // ScaleStateMult = 0 seems to mean this value instead in fact
+  const defaultScaleStat = 150;
+
   const intervalDuration =
     component.Interval > 0 && component.Interval > 0
       ? component.Duration / component.Interval
@@ -84,7 +93,7 @@ const calculateStatContribution = (
     if (operation === ComponentOP.HEAL) {
       return stats.willpower;
     }
-    switch (ability.AbilityType) {
+    switch (ability.AttackType) {
       case AttackType.MELEE:
         return stats.strength;
       case AttackType.RANGED:
@@ -92,10 +101,17 @@ const calculateStatContribution = (
       case AttackType.MAGIC:
         return stats.intelligence;
     }
+    console.log(
+      colors.red(`No attacktype set for ability ${ability.AbilityID}`),
+    );
     return 0;
   })();
+  //console.log(`Stat:`, stat, ability.AttackType);
 
-  return ((stat * ability.ScaleStatMult) / 100 / 5) * intervalDuration;
+  return (
+    ((stat * (ability.ScaleStatMult || defaultScaleStat)) / 100 / 5) *
+    intervalDuration
+  );
 };
 
 const calculateValue = (
@@ -128,8 +144,8 @@ const calculateValue = (
   switch (component.Operation) {
     case ComponentOP.DAMAGE:
       console.log(
-        'ability',
-        ability.AbilityID,
+        colors.cyan(ability.Name),
+        `(${colors.red(ability.AbilityID.toString())})`,
         'ScaleStatMult',
         ability.ScaleStatMult,
         'A07',
@@ -168,14 +184,18 @@ const calculateValue = (
           ),
         );
       } */
-      return Math.round(
-        calculateDamage(ability, component, valueIndex, abilityLevel) +
+      return (
+        Math.floor(
+          calculateDamage(ability, component, valueIndex, abilityLevel),
+        ) +
+        Math.floor(
           calculateStatContribution(
             ability,
             component,
             stats,
             component.Operation,
           ),
+        )
       );
     case ComponentOP.HEAL:
       console.log(
