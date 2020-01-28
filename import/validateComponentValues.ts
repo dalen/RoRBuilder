@@ -104,12 +104,6 @@ const calculateStatContribution = (
     );
     return 0;
   })();
-  //console.log(`Stat:`, stat, ability.AttackType);
-
-  // debug
-  if (ability.AbilityID === 9470) {
-    console.log('stat', stat, 'intervalDuration', intervalDuration);
-  }
 
   return (
     Math.round((stat * (ability.ScaleStatMult || defaultScaleStat)) / 100 / 5) *
