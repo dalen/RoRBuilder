@@ -351,7 +351,7 @@ const validateAbility = async (
     gameAbility.Components.forEach(logComponent);
   } */
 
-  return {
+  const updatedAbility = {
     ...ability,
     ...validateCooldown(ability, gameAbility),
     ...validateMinRank(ability, gameAbility),
@@ -362,8 +362,13 @@ const validateAbility = async (
     ...validateName(ability, gameAbility),
     ...validateNote(ability, gameAbility),
     ...validateComponentValues(ability, gameAbility, stats, abilityData),
-    ...validateDescription(ability, gameAbility),
   };
+
+  // Use previous values for calculating description
+  return {
+    ...updatedAbility,
+    ...validateDescription(updatedAbility, gameAbility),
+};
 };
 
 // Validate one career
