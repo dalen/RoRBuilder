@@ -40,7 +40,7 @@ const calculateDamage = (
   const multIndex = 0;
   const intervalDuration =
     component.Interval > 0 && component.Interval > 0
-      ? component.Duration / component.Interval
+      ? Math.floor(component.Duration / component.Interval)
       : 1;
 
   const baseValue = component.Values[valueIndex];
@@ -48,16 +48,11 @@ const calculateDamage = (
   let baseMultiplier =
     component.Operation === ComponentOP.STAT_CHANGE ? 1 : 0.166667;
 
-  const result =
-    (Math.floor(
-      (abilityLevel - 1) * baseMultiplier * baseValue + Math.floor(baseValue),
-    ) *
+  const result = Math.floor(
+    (((abilityLevel - 1) * baseMultiplier * baseValue + Math.floor(baseValue)) *
       Math.floor(multiplier)) /
-    100;
-  /* const result =
-    (((abilityLevel - 1) * baseMultiplier * baseValue + baseValue) *
-      multiplier) /
-    100; */
+      100,
+  );
 
   if (component.A07 == 32) {
     return baseValue;
@@ -77,7 +72,10 @@ const calculateStatContribution = (
   stats: Stats,
   operation: number,
 ): number => {
-  if (component.A07 & ComponentA07Flags.NO_STAT_CONTRIBUTION) {
+  if (
+    component.A07 & ComponentA07Flags.NO_STAT_CONTRIBUTION ||
+    component.A07 & ComponentA07Flags.FLAG2
+  ) {
     return 0;
   }
 
@@ -86,7 +84,7 @@ const calculateStatContribution = (
 
   const intervalDuration =
     component.Interval > 0 && component.Interval > 0
-      ? component.Duration / component.Interval
+      ? Math.floor(component.Duration / component.Interval)
       : 1;
 
   const stat = (() => {
@@ -108,8 +106,13 @@ const calculateStatContribution = (
   })();
   //console.log(`Stat:`, stat, ability.AttackType);
 
+  // debug
+  if (ability.AbilityID === 9470) {
+    console.log('stat', stat, 'intervalDuration', intervalDuration);
+  }
+
   return (
-    ((stat * (ability.ScaleStatMult || defaultScaleStat)) / 100 / 5) *
+    Math.round((stat * (ability.ScaleStatMult || defaultScaleStat)) / 100 / 5) *
     intervalDuration
   );
 };
