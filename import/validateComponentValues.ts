@@ -36,6 +36,7 @@ const calculateDamage = (
   component: AbilityData['Components'][0],
   valueIndex: number,
   abilityLevel: number,
+  tod: boolean,
 ) => {
   const multIndex = 0;
   const intervalDuration =
@@ -62,6 +63,10 @@ const calculateDamage = (
     return result * intervalDuration;
   }
 
+  if (tod) {
+    return result * (component.Duration / 1000 + 1);
+  }
+
   return result;
 };
 
@@ -71,6 +76,7 @@ const calculateStatContribution = (
   component: AbilityData['Components'][0],
   stats: Stats,
   operation: number,
+  tod: boolean,
 ): number => {
   if (
     component.A07 & ComponentA07Flags.NO_STAT_CONTRIBUTION ||
@@ -99,9 +105,6 @@ const calculateStatContribution = (
       case AttackType.MAGIC:
         return stats.intelligence;
     }
-    console.log(
-      colors.red(`No attacktype set for ability ${ability.AbilityID}`),
-    );
     return 0;
   })();
 
@@ -111,6 +114,10 @@ const calculateStatContribution = (
 
   if (intervalDuration > 1 && ability.ChannelInterval <= 0) {
     return result * intervalDuration;
+  }
+
+  if (tod) {
+    return result * (component.Duration / 1000 + 1);
   }
 
   return result;
@@ -163,13 +170,14 @@ const calculateValue = (
         'tod',
         tod,
         'damage',
-        calculateDamage(ability, component, valueIndex, abilityLevel),
+        calculateDamage(ability, component, valueIndex, abilityLevel, tod),
         'statContrib',
         calculateStatContribution(
           ability,
           component,
           stats,
           component.Operation,
+          tod,
         ),
       );
       /* if (tod) {
@@ -187,22 +195,19 @@ const calculateValue = (
         );
       } */
       return (
-        Math.floor(
-          calculateDamage(ability, component, valueIndex, abilityLevel),
-        ) +
-        Math.floor(
-          calculateStatContribution(
-            ability,
-            component,
-            stats,
-            component.Operation,
-          ),
+        calculateDamage(ability, component, valueIndex, abilityLevel, tod) +
+        calculateStatContribution(
+          ability,
+          component,
+          stats,
+          component.Operation,
+          tod,
         )
       );
     case ComponentOP.HEAL:
       console.log(
-        'ability',
-        ability.AbilityID,
+        colors.cyan(ability.Name),
+        `(${colors.red(ability.AbilityID.toString())})`,
         'ScaleStatMult',
         ability.ScaleStatMult,
         'A07',
@@ -217,25 +222,28 @@ const calculateValue = (
         ability.ChannelInterval,
         'tod',
         tod,
-        'damage',
-        calculateDamage(ability, component, valueIndex, abilityLevel),
+        colors.green('healing'),
+        calculateDamage(ability, component, valueIndex, abilityLevel, tod),
         'statContrib',
         calculateStatContribution(
           ability,
           component,
           stats,
           component.Operation,
+          tod,
         ),
       );
-      return Math.round(
-        calculateDamage(ability, component, valueIndex, abilityLevel) +
-          calculateStatContribution(
-            ability,
-            component,
-            stats,
-            component.Operation,
-          ),
+      return (
+        calculateDamage(ability, component, valueIndex, abilityLevel, tod) +
+        calculateStatContribution(
+          ability,
+          component,
+          stats,
+          component.Operation,
+          tod,
+        )
       );
+
     case ComponentOP.STAT_CHANGE:
       return calcWithMultiplier(abilityLevel, valueIndex, 0);
     case ComponentOP.DAMAGE_CHANGE_PCT:
