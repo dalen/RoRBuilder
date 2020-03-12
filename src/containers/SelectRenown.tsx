@@ -130,6 +130,7 @@ class SelectRenown extends Component<Props> {
           <option value="50">50+</option>
           <option value="60">60+</option>
           <option value="70">70+</option>
+          <option value="80">Sov +2</option>
           <option value="10">&lt; 40</option>
         </select>
       </div>

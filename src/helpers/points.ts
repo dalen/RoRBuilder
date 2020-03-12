@@ -29,6 +29,9 @@ export function calculateMasteryPoints(level: number, renown: number) {
       case 70:
         points += 4;
         break;
+      case 80:
+        points += 6;
+        break;
       default:
         break;
     }
