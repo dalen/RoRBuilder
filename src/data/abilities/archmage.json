@@ -14,13 +14,7 @@
         "lvl6": 3459,
         "lvl7": 3460
       },
-      "coreAbilities": [
-        3416,
-        3509,
-        3423,
-        3418,
-        3425
-      ]
+      "coreAbilities": [3416, 3509, 3423, 3418, 3425]
     },
     "b": {
       "name": "Path of Asuryan",
@@ -36,13 +30,7 @@
         "lvl6": 3466,
         "lvl7": 3467
       },
-      "coreAbilities": [
-        3415,
-        3510,
-        3421,
-        3411,
-        3428
-      ]
+      "coreAbilities": [3415, 3510, 3421, 3411, 3428]
     },
     "c": {
       "name": "Path of Vaul",
@@ -58,13 +46,7 @@
         "lvl6": 3473,
         "lvl7": 3474
       },
-      "coreAbilities": [
-        3419,
-        3414,
-        3427,
-        3429,
-        3413
-      ]
+      "coreAbilities": [3419, 3414, 3427, 3429, 3413]
     }
   },
   "data": [
@@ -549,12 +531,12 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "Tranquility reduces cast time.<br>Builds Force",
-      "description": "A wash of power leeches the breath from your target and up to four other enemies within 25 feet of them, dealing 199 Spirit damage to each. Their stolen breath will heal your defensive target for 150% of the inflicted damage.",
+      "description": "A wash of power leeches the breath from your target and up to four other enemies within 20 feet of them, dealing 251 Spirit damage to each. Their stolen breath will heal your defensive target for 150% of the inflicted damage.",
       "category": "Ability",
       "gameId": 9274,
       "componentValues": {
-        "COM_0_RADI_FEET": 25,
-        "ABIL_3175_COM_0_VAL0_SPIRITDAMAGE": 199
+        "COM_0_RADI_FEET": 20,
+        "ABIL_3175_COM_0_VAL0_SPIRITDAMAGE": 251
       },
       "rawDescription": "A wash of power leeches the breath from your target and up to four other enemies within {COM_0_RADI_FEET} of them, dealing {ABIL_3175_COM_0_VAL0_SPIRITDAMAGE} to each. Their stolen breath will heal your defensive target for 150% of the inflicted damage."
     },
@@ -1020,11 +1002,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Tranquility increases effectiveness.<br>Builds Force",
-      "description": "Deals 204 Spirit damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.",
+      "description": "Deals 552 Spirit damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.",
       "category": "Ability",
       "gameId": 9264,
       "componentValues": {
-        "COM_0_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE": 204,
+        "COM_0_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE": 552,
         "COM_0_VAL0_COM_0_DURA_SECONDS": 9,
         "COM_0_VAL0_COM_7_VAL1": 5
       },
@@ -1417,11 +1399,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Balance Essence and Energy of Vaul will now inflict 325 Spirit damage, but no longer receive a base healing value, instead healing for only 50% of the damage dealt.",
+      "description": "Balance Essence and Energy of Vaul will now inflict 458 Spirit damage, but no longer receive a base healing value, instead healing for only 50% of the damage dealt.",
       "category": "CareerTactic",
       "gameId": 2305,
       "componentValues": {
-        "ABIL_2859_COM_3_VAL0_SPIRITDAMAGE": 325
+        "ABIL_2859_COM_3_VAL0_SPIRITDAMAGE": 458
       },
       "rawDescription": "Balance Essence and Energy of Vaul will now inflict {ABIL_2859_COM_3_VAL0_SPIRITDAMAGE}, but no longer receive a base healing value, instead healing for only 50% of the damage dealt."
     },
