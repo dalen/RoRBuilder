@@ -273,11 +273,11 @@ const calculateValue = (
         // TODO: find out exactly how thir scales with ability level
 
         return (
-          calcWithMultiplier(1, valueIndex * 2, valueIndex) *
+          calcWithMultiplier(1, valueIndex + 1, valueIndex) *
           (abilityLevel === 40 ? 7.5 : 5)
         );
       }
-      return calcWithMultiplier(1, valueIndex * 2, valueIndex);
+      return calcWithMultiplier(1, valueIndex + 1, valueIndex);
     case ComponentOP.CAREER_RESOURCE:
       return calcWithMultiplier(1, valueIndex, 0);
     default:
