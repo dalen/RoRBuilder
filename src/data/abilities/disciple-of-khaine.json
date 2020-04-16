@@ -8,9 +8,9 @@
       "optionalAbilities": {
         "lvl1": 4998,
         "lvl2": 4999,
-        "lvl3": 5000,
+        "lvl3": 5002,
         "lvl4": 5001,
-        "lvl5": 5002,
+        "lvl5": 5000,
         "lvl6": 5003,
         "lvl7": 5004
       },
@@ -22,9 +22,9 @@
         "primary": "A mastery path focused on melee combat"
       },
       "optionalAbilities": {
-        "lvl1": 5005,
+        "lvl1": 4977,
         "lvl2": 5006,
-        "lvl3": 4977,
+        "lvl3": 5005,
         "lvl4": 2938,
         "lvl5": 5009,
         "lvl6": 2934,
@@ -46,7 +46,7 @@
         "lvl6": 2952,
         "lvl7": 5018
       },
-      "coreAbilities": [4971, 4962, 4958, 4972, 4956, 5013, 2941, 2953, 2051]
+      "coreAbilities": [4971, 4962, 4958, 4972, 4956, 5013, 2941, 2051]
     }
   },
   "data": [
@@ -535,7 +535,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Transfer Essence's base heal is increased to 282 health and the healing from lifetaps are increased by 25%.",
+      "description": "The healing from lifetaps are increased by 25%.<br><br>When wearing a shield Consume Essence will hit up to two additional enemies within 10ft of your target.",
       "category": "CareerTactic",
       "gameId": 2959,
       "componentValues": {
@@ -1232,7 +1232,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
+      "description": "Enemy monsters will hate you 25% less than normal.",
       "category": "CareerTactic",
       "gameId": 588,
       "componentValues": {},
@@ -1288,13 +1288,13 @@
       "name": "Transfer Essence",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
-      "minrank": "1",
+      "minrank": "20",
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Builds 35 Soul Essence",
-      "description": "An unholy attack which deals 152 damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for 225 health plus 50% of the damage that you dealt.",
+      "description": "An unholy attack which deals 152 damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for 85% of the total ability damage plus 50% of the damage that you dealt.",
       "category": "Ability",
       "gameId": 2932,
       "componentValues": {
@@ -1397,7 +1397,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A cunning strike which deals 152 damage to your enemy and reduces their chance to parry by 10% for 15 seconds.",
+      "description": "A cunning strike which deals 152 damage to your enemy and reduces their chance to parry by 10% for 15 seconds.<br><br>Additionally when wearing a shield your chance to block will be increased by 10% for 10 seconds.",
       "category": "Ability",
       "gameId": 9577,
       "componentValues": {
@@ -1480,7 +1480,7 @@
       "incant": "10s cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield<br>Requires 25 Soul Essence per second",
-      "description": "You channel a Soul Ward making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%.<BR>This effect will end if you break your concentration, or run out of Soul Essence.",
+      "description": "You channel a Soul Ward making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. Each second your group is surrounded by a protective barrier which will absorb up to 250 magical and ranged damage.<BR>This effect will end if you break your concentration, or run out of Soul Essence.",
       "category": "Ability",
       "gameId": 2952,
       "componentValues": {
