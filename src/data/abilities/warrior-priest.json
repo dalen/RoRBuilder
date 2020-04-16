@@ -6,11 +6,11 @@
         "primary": "A mastery path focused on healing and restorative powers"
       },
       "optionalAbilities": {
-        "lvl1": 4177,
+        "lvl1": 4173,
         "lvl2": 4174,
         "lvl3": 4175,
         "lvl4": 4176,
-        "lvl5": 4173,
+        "lvl5": 4177,
         "lvl6": 4178,
         "lvl7": 4179
       },
@@ -30,7 +30,7 @@
         "lvl6": 7509,
         "lvl7": 4186
       },
-      "coreAbilities": [4147, 4146, 4131, 4133, 4137, 4181, 7506, 7507, 7508]
+      "coreAbilities": [4147, 4146, 4131, 4133, 4137, 4181, 7506, 7507]
     },
     "c": {
       "name": "Path of Wrath",
@@ -38,9 +38,9 @@
         "primary": "A mastery path focused on melee attacks and weakening effects"
       },
       "optionalAbilities": {
-        "lvl1": 5890,
+        "lvl1": 4189,
         "lvl2": 4190,
-        "lvl3": 4189,
+        "lvl3": 5890,
         "lvl4": 7510,
         "lvl5": 4191,
         "lvl6": 4192,
@@ -704,7 +704,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The base heal on Sigmar's Radiance is increased to 282 health and the healing from lifetaps are increased by 25%.",
+      "description": "The healing from lifetaps are increased by 25%.<br><br>If wearing a shield Divine Strike will hit up to two additional enemies within 10ft of your target.",
       "category": "CareerTactic",
       "gameId": 2958,
       "componentValues": {
@@ -1208,13 +1208,13 @@
       "name": "Sigmar's Radiance",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "30",
+      "minrank": "20",
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Builds 40 Righteous Fury",
-      "description": "You smash into your enemy, dealing 152 damage to them.  The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for 225 health plus 50% of the damage that you dealt.",
+      "description": "You smash into your enemy, dealing 152 damage to them. The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for 152 health plus 50% of the damage that you dealt.",
       "category": "Ability",
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 152,
@@ -1258,7 +1258,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 30 Righteous Fury",
-      "description": "Deals 177 damage to your enemy and Blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.",
+      "description": "Deals 177 damage to your enemy and Blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.<br><br>Additionally if wearing a shield your chance to Block will be increased by 10% for 10 seconds.",
       "category": "Ability",
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 177,
@@ -1344,7 +1344,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
+      "description": "Enemy monsters to hate you 25% less than normal.",
       "category": "CareerTactic",
       "componentValues": {},
       "rawDescription": "All of your heals will cause enemy monsters to hate you 25% less than normal."
@@ -1529,7 +1529,7 @@
       "incant": "10s cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield<br>Requires 25 Righteous Fury per second",
-      "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%.<BR>This effect will end if you break your concentration, or run out of Righteous Fury.",
+      "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. Each second your group is surrounded by a protective barrier which will absorb up to 250 magical and ranged damage.<BR>This effect will end if you break your concentration, or run out of Righteous Fury.",
       "category": "Ability",
       "gameId": 2947,
       "componentValues": {
