@@ -62,13 +62,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "You call on Sigmar to Curse your enemy for 10 seconds, causing all healing effects used on them to become 25% less effective.",
+      "description": "You deal 152 damage to your enemy and call upon Sigmar to Curse them for 10 seconds, causing all healing effects used on them to become 50% less effective.",
       "category": "Ability",
-      "gameId": 8270,
+      "gameId": 2200,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10
       },
-      "rawDescription": "You call on Sigmar to Curse your enemy for {COM_0_DURA_SECONDS}, causing all healing effects used on them to become 25% less effective."
+      "rawDescription": "You call on Sigmar to Curse your enemy for {COM_0_DURA_SECONDS}, causing all healing effects used on them to become 50% less effective."
     },
     {
       "image": "23150",
