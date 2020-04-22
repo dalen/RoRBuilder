@@ -40,7 +40,7 @@ const calculateDamage = (
 ) => {
   const multIndex = 0;
   const intervalDuration =
-    component.Interval > 0 && component.Interval > 0
+    component.Duration > 0 && component.Interval > 0
       ? Math.floor(component.Duration / component.Interval)
       : 1;
 
