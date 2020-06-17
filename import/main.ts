@@ -6,7 +6,7 @@ import { readTextFile } from './readTextFile';
 import { readAbilities } from './abilityDecoder';
 import { readComponents, structureComponents } from './abilityComponents';
 import { structureAbilities, AbilityData } from './structureAbilities';
-import { stringMatch } from './utilities';
+import { stringMatch, logAbilityError } from './utilities';
 
 import { CareerLine, AbilityType, AbilityFlags, Stats } from './types';
 
@@ -39,6 +39,13 @@ import { Career, Ability } from '../src/helpers/abilities';
 import { validateNote } from './validateNote';
 import { validateDescription } from './validateDescription';
 import { validateComponentValues } from './validateComponentValues';
+import { validateAPCost } from './validateAPCost';
+import { validateCooldown } from './validateCooldown';
+import { validateMinRank } from './validateMinRank';
+import { validateCastTime } from './validateCastTime';
+import { validateRange } from './validateRange';
+import { validateName } from './validateName';
+import { validateMastery } from './validateMastery';
 
 const careerData: {
   archmage: Career;
@@ -91,205 +98,6 @@ const careerData: {
   'witch-hunter': witchHunter,
   zealot,
 } as const;
-
-const logAbilityError = (ability: Ability, error: string) => {
-  console.warn(
-    `Ability: "${ability.name}" (${ability.gameId})`,
-    colors.red(error),
-  );
-};
-
-// Validate cooldown
-const validateCooldown = (
-  ability: Ability,
-  gameAbility: AbilityData,
-): Partial<Ability> => {
-  const cooldown = ((): string => {
-    if (gameAbility.Cooldown === 0) {
-      return 'No cooldown';
-    }
-
-    if (gameAbility.Cooldown > 60 * 1000) {
-      return `${gameAbility.Cooldown / (60 * 1000)}m cooldown`;
-    }
-
-    return `${gameAbility.Cooldown / 1000}s cooldown`;
-  })();
-
-  if (ability.cooldown !== cooldown) {
-    logAbilityError(ability, `Cooldown ${ability.cooldown} != ${cooldown}`);
-    return { cooldown };
-  }
-  return {};
-};
-
-// Validate minRank
-const validateMinRank = (
-  ability: Ability,
-  gameAbility: AbilityData,
-): Partial<Ability> => {
-  const minRank = (gameAbility.MinLevel || 1).toString();
-
-  if (ability.minrank !== minRank) {
-    logAbilityError(ability, `minrank ${ability.minrank} != ${minRank}`);
-    return { minrank: minRank };
-  }
-  return {};
-};
-
-// Validate AP cost
-const validateAPCost = (
-  ability: Ability,
-  gameAbility: AbilityData,
-): Partial<Ability> => {
-  const cost = ((): string => {
-    if (gameAbility.AP > 0 && gameAbility.ChannelInterval > 0) {
-      return `${Math.round(
-        gameAbility.AP / (gameAbility.ChannelInterval / 1000),
-      )} Action Points / Sec`;
-    }
-
-    if (gameAbility.AP > 0) {
-      return `${gameAbility.AP} Action Points`;
-    }
-
-    if (gameAbility.AbilityType === AbilityType.TACTIC) {
-      return 'Tactic';
-    }
-
-    if (gameAbility.AbilityType == AbilityType.MORALE) {
-      return `Rank ${gameAbility.MoraleLevel} morale`;
-    }
-
-    return 'No AP Cost';
-  })();
-
-  if (ability.cost !== cost) {
-    logAbilityError(ability, `cost ${ability.cost} != ${cost}`);
-    return { cost };
-  }
-  return {};
-};
-
-// Validate mastery
-const validateMastery = (
-  ability: Ability,
-  gameAbility: AbilityData,
-  career: Career,
-) => {
-  const spec = ((): string => {
-    if (gameAbility.Specialization === 0) {
-      return 'Core Ability';
-    }
-    if (gameAbility.Specialization === 1) {
-      return career.mastery.a.name;
-    }
-    if (gameAbility.Specialization === 2) {
-      return career.mastery.b.name;
-    }
-    if (gameAbility.Specialization === 3) {
-      return career.mastery.c.name;
-    }
-    throw new Error(
-      `Unknown Specialization ${gameAbility.Specialization}, ability ${gameAbility.AbilityID}`,
-    );
-  })();
-
-  if (ability.spec !== spec) {
-    logAbilityError(ability, `spec ${ability.spec} != ${spec}`);
-    return { spec };
-  }
-  return {};
-};
-
-// Validate Cast Time
-const validateCastTime = (
-  ability: Ability,
-  gameAbility: AbilityData,
-): Partial<Ability> => {
-  const castTime = ((): string => {
-    if (
-      gameAbility.Castime === 0 &&
-      (gameAbility.AbilityType === AbilityType.PASSIVE ||
-        gameAbility.AbilityType === AbilityType.TACTIC)
-    ) {
-      return 'Passive';
-    }
-
-    const msCastTime = ((): number => {
-      if (gameAbility.Castime > 0) {
-        return gameAbility.Castime;
-      }
-
-      // Firball Barrage seems to have a 60m duration component though !?!
-      // So filter that out
-      if (gameAbility.Flags & AbilityFlags.CHANNEL) {
-        return Math.max(
-          ...gameAbility.Components.map(c => c.Duration).filter(d => d < 30000),
-        );
-      }
-
-      return gameAbility.Castime;
-    })();
-
-    if (msCastTime === 0) {
-      return 'Instant cast';
-    }
-    if (msCastTime >= 60000) {
-      return `${msCastTime / 60000}m cast`;
-    }
-
-    if (msCastTime < 10000) {
-      return `${(msCastTime / 1000).toFixed(1)}s cast`;
-    }
-
-    return `${msCastTime / 1000}s cast`;
-  })();
-
-  if (ability.incant !== castTime) {
-    logAbilityError(ability, `incant ${ability.incant} != ${castTime}`);
-
-    return { incant: castTime };
-  }
-
-  return {};
-};
-
-// Validate range
-const validateRange = (
-  ability: Ability,
-  gameAbility: AbilityData,
-): Partial<Ability> => {
-  const range = ((): string => {
-    if (gameAbility.Range > 0) {
-      if (gameAbility.A44 > 0) {
-        return `${gameAbility.A44 / 12} - ${gameAbility.Range / 12}ft range`;
-      }
-      return `${gameAbility.Range / 12}ft range`;
-    }
-
-    return 'Self';
-  })();
-
-  if (ability.range !== range) {
-    logAbilityError(ability, `Range ${ability.range} != ${range}`);
-    return { range };
-  }
-  return {};
-};
-
-const validateName = (
-  ability: Ability,
-  gameAbility: AbilityData,
-): Partial<Ability> => {
-  const name = gameAbility.Name;
-
-  if (ability.name !== name) {
-    logAbilityError(ability, `name ${ability.name} != ${name}`);
-    return { name };
-  }
-  return {};
-};
 
 // Validate single ability
 const validateAbility = async (

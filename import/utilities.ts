@@ -1,4 +1,5 @@
 import { AbilityData } from './structureAbilities';
+import { Ability } from '../src/helpers/abilities';
 import colors from 'colors';
 
 // Return how many chars of the strings that match
@@ -21,4 +22,11 @@ export const logAbility = (ability: AbilityData) => {
 
 export const logComponent = (component: AbilityData['Components'][0]) => {
   console.log(component);
+};
+
+export const logAbilityError = (ability: Ability, error: string) => {
+  console.warn(
+    `Ability: "${ability.name}" (${ability.gameId})`,
+    colors.red(error),
+  );
 };
