@@ -52,7 +52,7 @@ export type Component = $DecoderType<typeof component>;
 
 export const readComponents = async () => {
   const abilityComponentExport = JSON.parse(
-    (await fs.readFile('data/abilitycomponentexport.json')).toString(),
+    (await fs.readFile('data/bin/abilitycomponentexport.json')).toString(),
   );
 
   return guard(componentFileDecoder)(abilityComponentExport).Components;

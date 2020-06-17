@@ -12,7 +12,7 @@ import {
 } from './types';
 
 export const getAbilityID = (componentString: string): void | number => {
-  const match = Array.from(componentString.matchAll(/^ABIL_(\d+)_.*/)).flat(1);
+  const match = Array.from(componentString.matchAll(/^ABIL_(\d+)_.*/g)).flat(1);
   if (match.length > 0) {
     return Number(match[1]);
   }

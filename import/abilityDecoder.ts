@@ -74,7 +74,7 @@ export type Ability = $DecoderType<typeof abilityDecoder>;
 
 export const readAbilities = async () => {
   const abilityExport = JSON.parse(
-    (await fs.readFile('data/abilityexport.json')).toString(),
+    (await fs.readFile('data/bin/abilityexport.json')).toString(),
   );
 
   return guard(abilitiesFileDecoder)(abilityExport).Abilities;

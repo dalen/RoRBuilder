@@ -148,7 +148,7 @@ export const validateDescription = (
   const description = componentValueNames.reduce((ret, name) => {
     return ret.replace(
       `{${name}}`,
-      componentValueToText(name, componentValues[name]),
+      componentValueToText(name, componentValues[name] || 0),
     );
   }, gameAbility.Description);
 

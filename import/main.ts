@@ -368,7 +368,7 @@ const validateAbility = async (
   return {
     ...updatedAbility,
     ...validateDescription(updatedAbility, gameAbility),
-};
+  };
 };
 
 // Validate one career
@@ -406,13 +406,16 @@ const validateCareer = async (
 
 // Read data and validate
 const main = async () => {
-  const abilityNames = await readTextFile('data/abilitynames.txt', 'utf16be');
+  const abilityNames = await readTextFile(
+    'data/strings/english/abilitynames.txt',
+    'utf16be',
+  );
   const abilityDescriptions = await readTextFile(
-    'data/abilitydesc.txt',
+    'data/strings/english/abilitydesc.txt',
     'utf16be',
   );
   const abilityResults = await readTextFile(
-    'data/abilityresults.txt',
+    'data/strings/english/abilityresults.txt',
     'utf16le',
   );
   const abilityComponents = structureComponents(await readComponents());

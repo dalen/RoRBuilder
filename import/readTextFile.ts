@@ -18,7 +18,7 @@ export const readTextFile = async (
       .map((line, index) => [
         index,
         ...Array.from(
-          line.trim().matchAll(/([A-Z_\d]+)\s+([^\^]*)(\^n)?/),
+          line.trim().matchAll(/([A-Z_\d]+)\s+([^\^]*)(\^n)?/g),
         ).flat(1),
       ])
       .filter(line => line.length > 1) // Skip lines that didn't match regexp
