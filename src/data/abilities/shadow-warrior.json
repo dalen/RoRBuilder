@@ -7,20 +7,20 @@
         "secondary": "Bow counts 100% of its dps to abilities, sword counts 45%."
       },
       "optionalAbilities": {
-        "lvl1": 3975,
-        "lvl2": 3972,
+        "lvl1": 9127,
+        "lvl2": 9096,
         "lvl3": 3973,
-        "lvl4": 3974,
+        "lvl4": 9085,
         "lvl5": 3971,
-        "lvl6": 3976,
+        "lvl6": 9105,
         "lvl7": 3977
       },
       "coreAbilities": [
         3945,
         3940,
-        3939,
         4027,
-        3930
+        3930,
+        1556
       ]
     },
     "b": {
@@ -55,11 +55,11 @@
       },
       "optionalAbilities": {
         "lvl1": 3985,
-        "lvl2": 3990,
+        "lvl2": 9088,
         "lvl3": 3987,
-        "lvl4": 3986,
+        "lvl4": 9109,
         "lvl5": 3989,
-        "lvl6": 3941,
+        "lvl6": 9111,
         "lvl7": 3991
       },
       "coreAbilities": [
@@ -84,10 +84,16 @@
       "incant": "1.5s cast",
       "cooldown": "5s cooldown",
       "note": "Requires Scout or Assault Stance",
-      "description": "An attack which deals 241 physical damage and reduces your target's armor by 618 and reduces their chance to block by 10% for 10 seconds.",
+      "description": "An attack which deals 328 damage and reduces your target's armor by 618 and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability",
       "gameId": 9104,
-      "rawDescription": "An attack which deals {COM_0_VAL0_DAMAGE} and reduces your target's armor by {COM_1_VAL0} and reduces their chance to block by {COM_2_VAL0}% for {COM_1_DURA_SECONDS}."
+      "rawDescription": "An attack which deals {COM_0_VAL0_DAMAGE} and reduces your target's armor by {COM_1_VAL0} and reduces their chance to block by {COM_2_VAL0}% for {COM_1_DURA_SECONDS}.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 328,
+        "COM_1_VAL0": 618,
+        "COM_2_VAL0": 10,
+        "COM_1_DURA_SECONDS": 10
+      }
     },
     {
       "image": "13404",
@@ -101,14 +107,17 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Assault Stance",
-      "description": "A close-combat stance which increases your Strength and Weapon Skill by 120, unique bonus to Strength and Weaponskilland increases your Armor by the same amount that you receive from items.<br><br>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Autoattack damage is increased by 65%. Additionally you have a 25% chance on melee attacks to increase your Autoattack speed by 33%.<BR><BR>You may only use a single Stance at a time.",
+      "description": "A close-combat stance which increases your Strength and Weapon Skill by 120, and increases your Armor by the same amount that you receive from items.<BR><BR>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Autoattack damage is increased by 65%. Additionally you have a 25% chance on melee attacks to increase your Autoattack speed by 33%.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability",
       "gameId": 2975,
-      "rawDescription": "A close-combat stance which increases your Strength and Weapon Skill by {COM_0_VAL0}, and increases your Armor by the same amount that you receive from items.<BR><BR>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Autoattack damage is increased by 65%. Additionally you have a 25% chance on melee attacks to increase your Autoattack speed by 33%.<BR><BR>You may only use a single Stance at a time."
+      "rawDescription": "A close-combat stance which increases your Strength and Weapon Skill by {COM_0_VAL0}, and increases your Armor by the same amount that you receive from items.<BR><BR>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Autoattack damage is increased by 65%. Additionally you have a 25% chance on melee attacks to increase your Autoattack speed by 33%.<BR><BR>You may only use a single Stance at a time.",
+      "componentValues": {
+        "COM_0_VAL0": 120
+      }
     },
     {
       "image": "13337",
-      "id": 3990,
+      "id": 9111,
       "name": "Barrage",
       "type": "Damaging",
       "spec": "Path of The Skirmisher",
@@ -116,12 +125,16 @@
       "cost": "35 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires Skirmish Stance",
-      "description": "Deals 278 physical damage to all enemies in an arc in front of you, up to 40 feet away.",
+      "description": "Deals 278 damage to all enemies in an arc in front of you, up to 40 feet away.<BR>If you are Vengeful, this attack removes 100 points of morale from the enemy.",
       "category": "Ability",
       "gameId": 9111,
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in an arc in front of you, up to {COM_0_RADI_FEET} away."
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in an arc in front of you, up to {COM_0_RADI_FEET} away.<BR>If you are Vengeful, this attack removes 100 points of morale from the enemy.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 278,
+        "COM_0_RADI_FEET": 40
+      }
     },
     {
       "image": "22705",
@@ -138,7 +151,10 @@
       "description": "Increases your Elemental resistance by 252.",
       "category": "CareerTactic",
       "gameId": 819,
-      "rawDescription": "Increases your Elemental resistance by {COM_0_VAL0}."
+      "rawDescription": "Increases your Elemental resistance by {COM_0_VAL0}.",
+      "componentValues": {
+        "COM_0_VAL0": 252
+      }
     },
     {
       "image": "22696",
@@ -155,7 +171,10 @@
       "description": "Any time you kill an enemy, you will instantly regain 321 health.",
       "category": "CareerTactic",
       "gameId": 9123,
-      "rawDescription": "Any time you kill an enemy, you will instantly regain {ABIL_3039_COM_0_VAL0_HEALTH}."
+      "rawDescription": "Any time you kill an enemy, you will instantly regain {ABIL_3039_COM_0_VAL0_HEALTH}.",
+      "componentValues": {
+        "ABIL_3039_COM_0_VAL0_HEALTH": 321
+      }
     },
     {
       "image": "13309",
@@ -165,14 +184,18 @@
       "spec": "Path of The Skirmisher",
       "minrank": "2",
       "cost": "25 Action Points",
-      "range": "65ft range",
+      "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An Ailment which deals 760 physical damage to your target over 15 seconds.",
+      "description": "An Ailment which deals 760 damage to your target over 15 seconds.",
       "category": "Ability",
       "gameId": 9084,
-      "rawDescription": "An Ailment which deals {COM_0_VAL0_TOD_DAMAGE} to your target over {COM_0_DURA_SECONDS}."
+      "rawDescription": "An Ailment which deals {COM_1_VAL0_TOD_DAMAGE} to your target over {COM_1_DURA_SECONDS}.",
+      "componentValues": {
+        "COM_1_VAL0_TOD_DAMAGE": 760,
+        "COM_1_DURA_SECONDS": 15
+      }
     },
     {
       "image": "13402",
@@ -185,11 +208,14 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Target must be facing away from you<br>Requires Scout or Assault Stance",
-      "description": "Deals 302 physical damage to your target, and makes monsters hate you less than normal. Only usable when you are behind the target.<br>If you are Vengeful, then this attack may be used from any position.",
+      "note": "Target must be facing away from you<br>Requires Assault or Skirmish Stance",
+      "description": "Deals 302 damage to your target, and makes monsters hate you less than normal.  Only usable when you are behind the target.<BR>If you are Vengeful, then this attack may be used from any position.",
       "category": "Ability",
       "gameId": 9086,
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target, and makes monsters hate you less than normal.  Only usable when you are behind the target.<BR>If you are Vengeful, then this attack may be used from any position."
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target, and makes monsters hate you less than normal.  Only usable when you are behind the target.<BR>If you are Vengeful, then this attack may be used from any position.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 302
+      }
     },
     {
       "image": "22709",
@@ -206,7 +232,12 @@
       "description": "Whenever you critically hit an enemy, your chance to critically hit is increased by 20% for 5 seconds, but you also become 10% more vulnerable to being critically hit.",
       "category": "CareerTactic",
       "gameId": 9117,
-      "rawDescription": "Whenever you critically hit an enemy, your chance to critically hit is increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}, but you also become {COM_1_VAL0_COM_1_VAL1}% more vulnerable to being critically hit."
+      "rawDescription": "Whenever you critically hit an enemy, your chance to critically hit is increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}, but you also become {COM_1_VAL0_COM_1_VAL1}% more vulnerable to being critically hit.",
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL1": 20,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5,
+        "COM_1_VAL0_COM_1_VAL1": 10
+      }
     },
     {
       "image": "22705",
@@ -223,7 +254,11 @@
       "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
       "category": "CareerTactic",
       "gameId": 818,
-      "rawDescription": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional {ABIL_3995_COM_0_VAL0_TOD} Spirit damage over {ABIL_3995_COM_0_DURA_SECONDS}."
+      "rawDescription": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional {ABIL_3995_COM_0_VAL0_TOD} Spirit damage over {ABIL_3995_COM_0_DURA_SECONDS}.",
+      "componentValues": {
+        "ABIL_3995_COM_0_VAL0_TOD": 252,
+        "ABIL_3995_COM_0_DURA_SECONDS": 3
+      }
     },
     {
       "image": "22698",
@@ -237,10 +272,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 549,
-      "rawDescription": "If an enemy dodges any of your attacks, you will regain {COM_1_VAL0_ACTIONPOINTS}.<BR>This effect will not trigger more than once every 3 seconds."
+      "rawDescription": "If an enemy dodges any of your attacks, you will regain {COM_1_VAL0_ACTIONPOINTS}.<BR>This effect will not trigger more than once every 3 seconds.",
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 75
+      }
     },
     {
       "image": "23162",
@@ -257,7 +295,10 @@
       "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
       "category": "Morale",
       "gameId": 652,
-      "rawDescription": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for {COM_0_DURA_SECONDS}."
+      "rawDescription": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for {COM_0_DURA_SECONDS}.",
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 7
+      }
     },
     {
       "image": "13323",
@@ -274,7 +315,10 @@
       "description": "A quick strike which deals 127 damage to your target and interrupts any ability that they were building up.",
       "category": "Ability",
       "gameId": 9099,
-      "rawDescription": "A quick strike which deals {COM_0_VAL0_DAMAGE} to your target and interrupts any ability that they were building up."
+      "rawDescription": "A quick strike which deals {COM_0_VAL0_DAMAGE} to your target and interrupts any ability that they were building up.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 127
+      }
     },
     {
       "image": "22705",
@@ -291,7 +335,10 @@
       "description": "Your attacks have a 10% reduced chance to be defended against.",
       "category": "CareerTactic",
       "gameId": 823,
-      "rawDescription": "Your attacks have a {COM_0_VAL1}% reduced chance to be defended against."
+      "rawDescription": "Your attacks have a {COM_0_VAL1}% reduced chance to be defended against.",
+      "componentValues": {
+        "COM_0_VAL1": 10
+      }
     },
     {
       "image": "22697",
@@ -308,7 +355,10 @@
       "description": "Distracting Shot will now also affect any other enemies within 20 feet of your initial target.",
       "category": "CareerTactic",
       "gameId": 9122,
-      "rawDescription": "Distracting Shot will now also affect any other enemies within {ABIL_9089_COM_2_RADI_FEET} of your initial target."
+      "rawDescription": "Distracting Shot will now also affect any other enemies within {ABIL_9089_COM_2_RADI_FEET} of your initial target.",
+      "componentValues": {
+        "ABIL_9089_COM_2_RADI_FEET": 20
+      }
     },
     {
       "image": "13403",
@@ -322,10 +372,14 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.  If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
       "gameId": 9089,
-      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
+      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_DURA_SECONDS": 15
+      }
     },
     {
       "image": "13405",
@@ -339,10 +393,14 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Assault or Skirmish Stance",
-      "description": "An Ailment which deals 468 physical damage over 9 seconds.",
+      "description": "An Ailment which deals 468 damage over 9 seconds.",
       "category": "Ability",
       "gameId": 9091,
-      "rawDescription": "An Ailment which deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
+      "rawDescription": "An Ailment which deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}.",
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 468,
+        "COM_0_DURA_SECONDS": 9
+      }
     },
     {
       "image": "13322",
@@ -356,10 +414,13 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A well aimed arrow that deals 354 physical damage.",
+      "description": "A well aimed arrow that deals 354 damage.",
       "category": "Ability",
       "gameId": 9082,
-      "rawDescription": "A well aimed arrow that deals {COM_0_VAL0_DAMAGE}."
+      "rawDescription": "A well aimed arrow that deals {COM_0_VAL0_DAMAGE}.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 354
+      }
     },
     {
       "image": "22698",
@@ -376,7 +437,8 @@
       "description": "Flame Arrow and Festering Arrow will now bypass all of your victim's resistances.",
       "category": "CareerTactic",
       "gameId": 9126,
-      "rawDescription": "Flame Arrow and Festering Arrow will now bypass all of your victim's resistances."
+      "rawDescription": "Flame Arrow and Festering Arrow will now bypass all of your victim's resistances.",
+      "componentValues": {}
     },
     {
       "image": "22694",
@@ -393,7 +455,10 @@
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic",
       "gameId": 544,
-      "rawDescription": "Your cast times are reduced to {COM_0_VAL0}% when you are within 20 feet of your target."
+      "rawDescription": "Your cast times are reduced to {COM_0_VAL0}% when you are within 20 feet of your target.",
+      "componentValues": {
+        "COM_0_VAL0": 50
+      }
     },
     {
       "image": "13409",
@@ -407,10 +472,14 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Assault Stance",
-      "description": "A Crippling attack which deals 252 physical damage and knocks down your target for 3 seconds.",
+      "description": "A Crippling attack which deals 252 damage and knocks down your target for 3 seconds.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
       "category": "Ability",
       "gameId": 9108,
-      "rawDescription": "A Crippling attack which deals {COM_0_VAL0_DAMAGE} and knocks down your target for {COM_1_DURA_SECONDS}."
+      "rawDescription": "A Crippling attack which deals {COM_0_VAL0_DAMAGE} and knocks down your target for {COM_1_DURA_SECONDS}.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 252,
+        "COM_1_DURA_SECONDS": 3
+      }
     },
     {
       "image": "23163",
@@ -424,31 +493,41 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<br>This effect will not trigger more than once every second.",
+      "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<BR>This effect will not trigger more than once every second.",
       "category": "Morale",
       "gameId": 650,
-      "rawDescription": "All of your ranged attacks will explode for the next 10 seconds, dealing {COM_1_VAL0_DAMAGE} to all enemies within {COM_1_RADI_FEET} of your target.<BR>This effect will not trigger more than once every second."
+      "rawDescription": "All of your ranged attacks will explode for the next 10 seconds, dealing {COM_1_VAL0_DAMAGE} to all enemies within {COM_1_RADI_FEET} of your target.<BR>This effect will not trigger more than once every second.",
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 300,
+        "COM_1_RADI_FEET": 20
+      }
     },
     {
       "image": "13325",
-      "id": 3941,
+      "id": 9096,
       "name": "Eye Shot",
       "type": "Ailment",
-      "spec": "Path of The Skirmisher",
+      "spec": "Path of The Scout",
       "minrank": "18",
       "cost": "20 Action Points",
-      "range": "65ft range",
+      "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "20s cooldown",
-      "note": "Requires Skirmish Stance",
-      "description": "A Crippling shot that deals 116 damage, reduces your target's initiative by 50 for 20 seconds, and knocks down the target for 3 seconds. This ability will continue to build up even if you move.",
+      "note": "",
+      "description": "A Crippling shot that deals 116 damage,  reduces your target's Initiative by 50 for 20 seconds, and knocks the target down for 3 seconds. This ability will continue to build up even if you move.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
       "category": "Ability",
       "gameId": 9096,
-      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE},  reduces your target's Initiative by {COM_1_VAL0} for {COM_1_DURA_SECONDS}, and knocks the target down for {COM_2_VAL0_COM_0_DURA_SECONDS}. This ability will continue to build up even if you move."
+      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE},  reduces your target's Initiative by {COM_1_VAL0} for {COM_1_DURA_SECONDS}, and knocks the target down for {COM_2_VAL0_COM_0_DURA_SECONDS}. This ability will continue to build up even if you move.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 116,
+        "COM_1_VAL0": 50,
+        "COM_1_DURA_SECONDS": 20,
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 3
+      }
     },
     {
       "image": "13313",
-      "id": 3976,
+      "id": 9105,
       "name": "Fell The Weak",
       "type": "Ailment",
       "spec": "Path of The Scout",
@@ -458,14 +537,18 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Scout Stance",
-      "description": "Deals 641 physical damage if your target is below 30% hit points, or 266 physical damage otherwise.",
+      "description": "Deals 641 damage if your target is below 30% hit points, or 332 damage otherwise.<BR>If you are Vengeful, then this attack deals spirit damage.",
       "category": "Ability",
       "gameId": 9105,
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} if your target is below 30% hit points, or {COM_1_VAL0_DAMAGE} otherwise."
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} if your target is below 30% hit points, or {COM_1_VAL0_DAMAGE} otherwise.<BR>If you are Vengeful, then this attack deals spirit damage.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 641,
+        "COM_1_VAL0_DAMAGE": 332
+      }
     },
     {
       "image": "13401",
-      "id": 3974,
+      "id": 9085,
       "name": "Festering Arrow",
       "type": "Damaging",
       "spec": "Path of The Scout",
@@ -475,27 +558,36 @@
       "incant": "3.0s cast",
       "cooldown": "5s cooldown",
       "note": "Requires Scout Stance",
-      "description": "Deals 733 corporeal damage to your target.",
+      "description": "Deals 733 Corporeal damage to your target.<BR>If you are Vengeful, then this attack is undefendable.",
       "category": "Ability",
       "gameId": 9085,
-      "rawDescription": "Deals {COM_0_VAL0_CORPOREALDAMAGE} to your target."
+      "rawDescription": "Deals {COM_0_VAL0_CORPOREALDAMAGE} to your target.<BR>If you are Vengeful, then this attack is undefendable.",
+      "componentValues": {
+        "COM_0_VAL0_CORPOREALDAMAGE": 733
+      }
     },
     {
       "image": "13326",
-      "id": 3939,
+      "id": 9088,
       "name": "Flame Arrow",
       "type": "Damaging",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Skirmisher",
       "minrank": "14",
       "cost": "40 Action Points",
-      "range": "80ft range",
+      "range": "65ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Requires Scout Stance",
-      "description": "An Ailment which deals 169 elemental damage to your target and then explodes, dealing an additional 267 elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
+      "note": "Requires Skirmish Stance",
+      "description": "An Ailment which deals 178 Elemental damage to your target and then explodes, dealing an additional 267 Elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.<BR>If you are Vengeful, the radius is increased by 10 feet.",
       "category": "Ability",
       "gameId": 9088,
-      "rawDescription": "An Ailment which deals {COM_0_VAL0_ELEMENTALDAMAGE} to your target and then explodes, dealing an additional {ABIL_3928_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3928_COM_0_DURA_SECONDS} to the target and all other enemies within {ABIL_3928_COM_0_RADI_FEET} of them."
+      "rawDescription": "An Ailment which deals {COM_0_VAL0_ELEMENTALDAMAGE} to your target and then explodes, dealing an additional {ABIL_3928_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3928_COM_0_DURA_SECONDS} to the target and all other enemies within {ABIL_3928_COM_0_RADI_FEET} of them.<BR>If you are Vengeful, the radius is increased by 10 feet.",
+      "componentValues": {
+        "COM_0_VAL0_ELEMENTALDAMAGE": 178,
+        "ABIL_3928_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 267,
+        "ABIL_3928_COM_0_DURA_SECONDS": 9,
+        "ABIL_3928_COM_0_RADI_FEET": 20
+      }
     },
     {
       "image": "13329",
@@ -509,10 +601,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Skirmish Stance<br>Target must be facing away from you",
-      "description": "Deals 316 physical damage to your target. This ability will continue to build up even if you move.  Only usable from behind the target.<BR>The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
+      "description": "Deals 316 damage to your target.  This ability will continue to build up even if you move.  Only usable from behind the target.<BR>The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
       "category": "Ability",
       "gameId": 9110,
-      "rawDescription": "Deals {COM_1_VAL0_DAMAGE} to your target.  This ability will continue to build up even if you move.  Only usable from behind the target.<BR>The critical chance of the ability is increased by the percentage of life lost on the enemy target."
+      "rawDescription": "Deals {COM_1_VAL0_DAMAGE} to your target.  This ability will continue to build up even if you move.  Only usable from behind the target.<BR>The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 316
+      }
     },
     {
       "image": "05004",
@@ -526,10 +621,15 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability",
       "gameId": 245,
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "componentValues": {
+        "COM_0_VAL0": 30,
+        "COM_0_DURA_SECONDS": 10,
+        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
+      }
     },
     {
       "image": "23153",
@@ -546,24 +646,29 @@
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale",
       "gameId": 653,
-      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
+      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
+      "componentValues": {}
     },
     {
       "image": "13311",
-      "id": 3972,
+      "id": 1556,
       "name": "Glass Arrow",
       "type": "Ailment",
       "spec": "Path of The Scout",
       "minrank": "21",
       "cost": "30 Action Points",
-      "range": "100ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Deals 199 physical damage to your target and reduces range on their abilities to 75% for the next 3 seconds.",
+      "description": "All your ranged abilities deal an additional 150 damage, but cost 15 more AP.<BR>Use this ability again to deactivate it.",
       "category": "Ability",
-      "gameId": 9103,
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target and reduces range on their abilities to {COM_1_VAL1}% for the next {COM_1_DURA_SECONDS}."
+      "gameId": 1556,
+      "rawDescription": "All your ranged abilities deal an additional {COM_0_VAL0_DAMAGE}, but cost {COM_1_VAL1} more AP.<BR>Use this ability again to deactivate it.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 150,
+        "COM_1_VAL1": 15
+      }
     },
     {
       "image": "13400",
@@ -577,14 +682,17 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals 202 physical damage to your target.",
+      "description": "Deals 202 damage to your target.",
       "category": "Ability",
       "gameId": 9083,
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target."
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 202
+      }
     },
     {
       "image": "22697",
-      "id": 3975,
+      "id": 9127,
       "name": "Guerrilla Training",
       "type": "Buff",
       "spec": "Path of The Scout",
@@ -594,10 +702,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces the action point costs of all abilities within the Path Of The Scout by 35%.",
+      "description": "After switching stance your action point costs are reduced by 25% and your movement speed is increased by 20% for 5 seconds.",
       "category": "CareerTactic",
       "gameId": 9127,
-      "rawDescription": "Reduces the action point costs of all abilities within the Path Of The Scout by {COM_0_VAL1}%."
+      "rawDescription": "After switching stance your action point costs are reduced by {ABIL_9149_COM_0_VAL1}% and your movement speed is increased by {ABIL_9149_COM_1_VAL0}% for 5 seconds.",
+      "componentValues": {
+        "ABIL_9149_COM_0_VAL1": 25,
+        "ABIL_9149_COM_1_VAL0": 20
+      }
     },
     {
       "image": "23164",
@@ -611,10 +723,16 @@
       "incant": "5.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
+      "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 3000 damage as long as you maintain your concentration.",
       "category": "Morale",
       "gameId": 651,
-      "rawDescription": "You focus on a spot on the ground, shooting arrows at that spot every {COM_1_FREQ_SECONDS} for {COM_1_DURA_SECONDS}, hitting all enemies within {COM_1_RADI_FEET} of that area for {COM_1_VAL0_DAMAGE} as long as you maintain your concentration."
+      "rawDescription": "You focus on a spot on the ground, shooting arrows at that spot every {COM_1_FREQ_SECONDS} for {COM_1_DURA_SECONDS}, hitting all enemies within {COM_1_RADI_FEET} of that area for {COM_1_VAL0_DAMAGE} as long as you maintain your concentration.",
+      "componentValues": {
+        "COM_1_FREQ_SECONDS": 0.5,
+        "COM_1_DURA_SECONDS": 5,
+        "COM_1_RADI_FEET": 20,
+        "COM_1_VAL0_DAMAGE": 3000
+      }
     },
     {
       "image": "13302",
@@ -628,10 +746,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "An inspired ferver fills your group, increasing AP regeneration by 20% for 15 seconds to all groupmates within 100 feet of you.",
+      "description": "An inspired fervor fills your group, giving 5 AP every second for 9 seconds to all groupmates within 100 feet of you.",
       "category": "Ability",
       "gameId": 9148,
-      "rawDescription": "An inspired fervor fills your group, increasing AP regeneration by {COM_0_VAL0}% for {COM_0_DURA_SECONDS} to all groupmates within 100 feet of you."
+      "rawDescription": "An inspired fervor fills your group, giving 5 AP every second for {COM_0_DURA_SECONDS} to all groupmates within 100 feet of you.",
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 9
+      }
     },
     {
       "image": "13336",
@@ -648,7 +769,12 @@
       "description": "You deal 1200 damage to all enemies within 30 feet and staggers the target for up to 6 seconds, preventing all actions unless they are damaged.",
       "category": "Morale",
       "gameId": 9139,
-      "rawDescription": "You deal {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET} and staggers the target for up to {COM_1_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
+      "rawDescription": "You deal {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET} and staggers the target for up to {COM_1_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_RADI_FEET": 30,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 6
+      }
     },
     {
       "image": "22694",
@@ -662,10 +788,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by , but reduces your Toughness by 120.",
+      "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by 120, but reduces your Toughness by 120.",
       "category": "CareerTactic",
       "gameId": 9121,
-      "rawDescription": "Increases your Strength, Ballistic Skill, and Weapon Skill by {COM_0_VAL0}, but reduces your Toughness by {COM_1_VAL0}."
+      "rawDescription": "Increases your Strength, Ballistic Skill, and Weapon Skill by {COM_0_VAL0}, but reduces your Toughness by {COM_1_VAL0}.",
+      "componentValues": {
+        "COM_0_VAL0": 120,
+        "COM_1_VAL0": 120
+      }
     },
     {
       "image": "22702",
@@ -679,10 +809,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the durations of Broadhead Arrows to 21 seconds, Takedown to 15 seconds, and Eye Shot to 25 seconds.",
+      "description": "Increases the durations of Broadhead Arrows to 21 seconds, Takedown to 15 seconds, and Flame Arrow to 15 seconds.",
       "category": "CareerTactic",
       "gameId": 9133,
-      "rawDescription": "Increases the durations of Broadhead Arrows to 21 seconds, Takedown to 15 seconds, and Eye Shot to 25 seconds."
+      "rawDescription": "Increases the durations of Broadhead Arrows to 21 seconds, Takedown to 15 seconds, and Flame Arrow to 15 seconds.",
+      "componentValues": {}
     },
     {
       "image": "22697",
@@ -699,7 +830,11 @@
       "description": "Any time you critically hit with a ranged attack, the chance to critically hit will be increased by 8% for 10 seconds for group members within 100 feet, but this will not affect you.",
       "category": "CareerTactic",
       "gameId": 9128,
-      "rawDescription": "Any time you critically hit with a ranged attack, the chance to critically hit will be increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS} for group members within 100 feet, but this will not affect you."
+      "rawDescription": "Any time you critically hit with a ranged attack, the chance to critically hit will be increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS} for group members within 100 feet, but this will not affect you.",
+      "componentValues": {
+        "COM_1_VAL0_COM_0_VAL1": 8,
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+      }
     },
     {
       "image": "13307",
@@ -711,12 +846,16 @@
       "cost": "40 Action Points",
       "range": "Self",
       "incant": "2.0s cast",
-      "cooldown": "No cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires Skirmish Stance",
-      "description": "A piercing arrow which deals 285 physical damage to all enemies in front of you, up to 65 feet away. This ability will continue to build up even if you move.",
+      "description": "A piercing arrow which deals 285 damage to all enemies in front of you, up to 65 feet away.  This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 9100,
-      "rawDescription": "A piercing arrow which deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away.  This ability will continue to build up even if you move."
+      "rawDescription": "A piercing arrow which deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away.  This ability will continue to build up even if you move.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 285,
+        "COM_0_RADI_FEET": 65
+      }
     },
     {
       "image": "13334",
@@ -730,10 +869,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Removes all Hexes, Curses, Cripples, and Ailments from you. You regain 250 Action Points.",
+      "description": "Removes all Hexes, Curses, Cripples, and Ailments from you.  You regain 250 Action Points.",
       "category": "Morale",
       "gameId": 9137,
-      "rawDescription": "Removes all Hexes, Curses, Cripples, and Ailments from you.  You regain {COM_4_VAL0_ACTIONPOINTS}."
+      "rawDescription": "Removes all Hexes, Curses, Cripples, and Ailments from you.  You regain {COM_4_VAL0_ACTIONPOINTS}.",
+      "componentValues": {
+        "COM_4_VAL0_ACTIONPOINTS": 250
+      }
     },
     {
       "image": "22697",
@@ -750,7 +892,10 @@
       "description": "Increases your Ballistic Skill by 160.",
       "category": "CareerTactic",
       "gameId": 542,
-      "rawDescription": "Increases your Ballistic Skill by {COM_0_VAL0}."
+      "rawDescription": "Increases your Ballistic Skill by {COM_0_VAL0}.",
+      "componentValues": {
+        "COM_0_VAL0": 160
+      }
     },
     {
       "image": "22708",
@@ -767,7 +912,8 @@
       "description": "Increases the critical damage of your direct damage Path of Assault abilities by 50% and the critical chance of Swift Strikes and Draw Blood by 25%.",
       "category": "CareerTactic",
       "gameId": 2974,
-      "rawDescription": "Increases the critical damage of your direct damage Path of Assault abilities by 50% and the critical chance of Swift Strikes and Draw Blood by 25%."
+      "rawDescription": "Increases the critical damage of your direct damage Path of Assault abilities by 50% and the critical chance of Swift Strikes and Draw Blood by 25%.",
+      "componentValues": {}
     },
     {
       "image": "22709",
@@ -784,7 +930,10 @@
       "description": "Eagle's Eye and Festering Arrow now builds up 1 seconds faster.",
       "category": "CareerTactic",
       "gameId": 2741,
-      "rawDescription": "Eagle's Eye and Festering Arrow now builds up {COM_1_VAL0_SECONDS} faster."
+      "rawDescription": "Eagle's Eye and Festering Arrow now builds up {COM_1_VAL0_SECONDS} faster.",
+      "componentValues": {
+        "COM_1_VAL0_SECONDS": 1
+      }
     },
     {
       "image": "22702",
@@ -801,7 +950,10 @@
       "description": "Your damage is increased by 15% when under 45 feet away from your target.",
       "category": "CareerTactic",
       "gameId": 9131,
-      "rawDescription": "Your damage is increased by {COM_0_VAL0}% when under 45 feet away from your target."
+      "rawDescription": "Your damage is increased by {COM_0_VAL0}% when under 45 feet away from your target.",
+      "componentValues": {
+        "COM_0_VAL0": 15
+      }
     },
     {
       "image": "13319",
@@ -818,7 +970,11 @@
       "description": "A Crippling attack that deals 202 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability",
       "gameId": 9098,
-      "rawDescription": "A Crippling attack that deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_DURA_SECONDS}, making them unable to use melee or ranged weapons."
+      "rawDescription": "A Crippling attack that deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_DURA_SECONDS}, making them unable to use melee or ranged weapons.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 202,
+        "COM_1_DURA_SECONDS": 4
+      }
     },
     {
       "image": "13335",
@@ -832,10 +988,16 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Hidden Allies come to your aid and launch an attack that deals 900 damage over 9 seconds to all enemies within 30 feet, and snares the targets by 60%.",
+      "description": "Hidden Allies come to your aid and launch an attack that deals 900 over 9 seconds to all enemies within 30 feet, and snares the targets by 60%.",
       "category": "Morale",
       "gameId": 2711,
-      "rawDescription": "Hidden Allies come to your aid and launch an attack that deals {COM_0_VAL0_TOD} over {COM_0_DURA_SECONDS} to all enemies within {COM_0_RADI_FEET}, and snares the targets by {COM_1_VAL0}%."
+      "rawDescription": "Hidden Allies come to your aid and launch an attack that deals {COM_0_VAL0_TOD} over {COM_0_DURA_SECONDS} to all enemies within {COM_0_RADI_FEET}, and snares the targets by {COM_1_VAL0}%.",
+      "componentValues": {
+        "COM_0_VAL0_TOD": 900,
+        "COM_0_DURA_SECONDS": 9,
+        "COM_0_RADI_FEET": 30,
+        "COM_1_VAL0": 60
+      }
     },
     {
       "image": "13339",
@@ -849,10 +1011,16 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all enemies in front of you, up to 40 feet away, and an additional 1200 damage over 10 seconds.",
+      "description": "Deals 800 damage to all enemies in front of you, up to 40 feet away, and an additional 800 damage over 10 seconds.",
       "category": "Morale",
       "gameId": 9144,
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away, and an additional {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away, and an additional {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 800,
+        "COM_0_RADI_FEET": 40,
+        "COM_1_VAL0_TOD_DAMAGE": 800,
+        "COM_1_DURA_SECONDS": 10
+      }
     },
     {
       "image": "22709",
@@ -869,7 +1037,11 @@
       "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
       "category": "CareerTactic",
       "gameId": 550,
-      "rawDescription": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by {ABIL_3880_COM_0_VAL0}% for {ABIL_3880_COM_0_DURA_SECONDS}."
+      "rawDescription": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by {ABIL_3880_COM_0_VAL0}% for {ABIL_3880_COM_0_DURA_SECONDS}.",
+      "componentValues": {
+        "ABIL_3880_COM_0_VAL0": 15,
+        "ABIL_3880_COM_0_DURA_SECONDS": 10
+      }
     },
     {
       "image": "23165",
@@ -883,10 +1055,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A mid-range attack that deals 600 damage and knocks targeted player away. Monsters will be knocked down.",
+      "description": "A mid-range attack that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale",
       "gameId": 648,
-      "rawDescription": "A mid-range attack that deals {COM_0_VAL0_DAMAGE} and knocks the targeted player away. Monsters will be knocked down."
+      "rawDescription": "A mid-range attack that deals {COM_0_VAL0_DAMAGE} and knocks the targeted player away. Monsters will be knocked down.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 600
+      }
     },
     {
       "image": "22697",
@@ -900,10 +1075,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the maximum range of all Path Of The Skirmisher attacks by 50%.",
+      "description": "Increases the armor penetration of all Path Of The Skirmisher attacks by 25%.",
       "category": "CareerTactic",
       "gameId": 9132,
-      "rawDescription": "Increases the maximum range of all Path Of The Skirmisher attacks by {COM_0_VAL1}%."
+      "rawDescription": "Increases the armor penetration of all Path Of The Skirmisher attacks by {COM_0_VAL0}%.",
+      "componentValues": {
+        "COM_0_VAL0": 25
+      }
     },
     {
       "image": "13337",
@@ -917,10 +1095,15 @@
       "incant": "10s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You repeatedly shoot arrows at the ground for 10 seconds, dealing 219 damage every second to all enemies within 20 feet of that spot.",
+      "description": "You repeatedly shoot arrows at the ground for 10 seconds, dealing 146 damage every second to all enemies within 20 feet of that spot.",
       "category": "Morale",
       "gameId": 9142,
-      "rawDescription": "You repeatedly shoot arrows at the ground for {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} every second to all enemies within {COM_1_RADI_FEET} of that spot."
+      "rawDescription": "You repeatedly shoot arrows at the ground for {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} every second to all enemies within {COM_1_RADI_FEET} of that spot.",
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0_DAMAGE": 146,
+        "COM_1_RADI_FEET": 20
+      }
     },
     {
       "image": "13314",
@@ -934,10 +1117,15 @@
       "incant": "3.0s cast",
       "cooldown": "7s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "You move with blinding speed as you quickly fire several shots at your target, dealing 106  physical damage to the enemy twice per second for up to 3 seconds. This effect will end if you break your concentration, or run out of action points.<br>If you are Vengeful, then the shots will deal 10% more damage.",
+      "description": "You move with blinding speed as you quickly fire several shots at your target, dealing 106 damage to the enemy twice per second for up to 3 seconds.  This effect will end if you break your concentration, or run out of action points.<BR>If you are Vengeful, then the shots will deal 10% more damage.",
       "category": "Ability",
       "gameId": 9101,
-      "rawDescription": "You move with blinding speed as you quickly fire several shots at your target, dealing {COM_1_VAL0_DAMAGE} to the enemy twice per second for up to {COM_1_DURA_SECONDS}.  This effect will end if you break your concentration, or run out of action points.<BR>If you are Vengeful, then the shots will deal {COM_0_VAL0}% more damage."
+      "rawDescription": "You move with blinding speed as you quickly fire several shots at your target, dealing {COM_1_VAL0_DAMAGE} to the enemy twice per second for up to {COM_1_DURA_SECONDS}.  This effect will end if you break your concentration, or run out of action points.<BR>If you are Vengeful, then the shots will deal {COM_0_VAL0}% more damage.",
+      "componentValues": {
+        "COM_1_VAL0_DAMAGE": 106,
+        "COM_1_DURA_SECONDS": 3,
+        "COM_0_VAL0": 10
+      }
     },
     {
       "image": "22708",
@@ -954,7 +1142,10 @@
       "description": "Any time you critically hit an enemy, you will regain 40 Action Points. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 9118,
-      "rawDescription": "Any time you critically hit an enemy, you will regain {COM_1_VAL0_ACTIONPOINTS}. Tactic can not trigger more than once every 3 seconds."
+      "rawDescription": "Any time you critically hit an enemy, you will regain {COM_1_VAL0_ACTIONPOINTS}. Tactic can not trigger more than once every 3 seconds.",
+      "componentValues": {
+        "COM_1_VAL0_ACTIONPOINTS": 40
+      }
     },
     {
       "image": "13398",
@@ -971,11 +1162,15 @@
       "description": "A long-distance bow stance that increases your Ballistic Skill and Initiative by 80 and the range of your bow attacks by 10%.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability",
       "gameId": 9080,
-      "rawDescription": "A long-distance bow stance that increases your Ballistic Skill and Initiative by {COM_0_VAL0} and the range of your bow attacks by {COM_1_VAL1}%.<BR><BR>You may only use a single Stance at a time."
+      "rawDescription": "A long-distance bow stance that increases your Ballistic Skill and Initiative by {COM_0_VAL0} and the range of your bow attacks by {COM_1_VAL1}%.<BR><BR>You may only use a single Stance at a time.",
+      "componentValues": {
+        "COM_0_VAL0": 80,
+        "COM_1_VAL1": 10
+      }
     },
     {
       "image": "13317",
-      "id": 3986,
+      "id": 9109,
       "name": "Shadow Sting",
       "type": "Ailment",
       "spec": "Path of The Skirmisher",
@@ -985,10 +1180,14 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Target must be Ailing",
-      "description": "An Ailment which deals 498 damage to your target over 9 seconds and causes all healing effects used on them to become 50% weaker. Only usable on a target that is already Ailing.",
+      "description": "An Ailment which deals 498 damage to your target over 9 seconds and causes all healing effects used on them to become 50% weaker.  Only usable on a target that is already Ailing.<BR>If you are Vengeful, this attack is undefendable.",
       "category": "Ability",
       "gameId": 9109,
-      "rawDescription": "An Ailment which deals {COM_0_VAL0_TOD_DAMAGE} to your target over {COM_0_DURA_SECONDS} and causes all healing effects used on them to become 50% weaker.  Only usable on a target that is already Ailing."
+      "rawDescription": "An Ailment which deals {COM_0_VAL0_TOD_DAMAGE} to your target over {COM_0_DURA_SECONDS} and causes all healing effects used on them to become 50% weaker.  Only usable on a target that is already Ailing.<BR>If you are Vengeful, this attack is undefendable.",
+      "componentValues": {
+        "COM_0_VAL0_TOD_DAMAGE": 498,
+        "COM_0_DURA_SECONDS": 9
+      }
     },
     {
       "image": "13335",
@@ -996,16 +1195,17 @@
       "name": "Shadowstep",
       "type": "Buff",
       "spec": "Path of Assault",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "25 Action Points",
       "range": "65ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Assault Stance",
-      "description": "You merge with the shadows and appear on your target within the blink of an eye. For the next 10 seconds your defences will be increased.",
+      "description": "You merge with the shadows and appear on your target within the blink of an eye. For the next 10 seconds your defences will be increased by 25%. Cant be used if there is a too big height difference between you and your target or if you are airborne.",
       "category": "Ability",
       "gameId": 2822,
-      "rawDescription": "You merge with the shadows and appear on your target within the blink of an eye. For the next 10 seconds your defences will be increased by 25%."
+      "rawDescription": "You merge with the shadows and appear on your target within the blink of an eye. For the next 10 seconds your defences will be increased by 25%. Cant be used if there is a too big height difference between you and your target or if you are airborne.",
+      "componentValues": {}
     },
     {
       "image": "22698",
@@ -1022,7 +1222,8 @@
       "description": "Brutal Assault will now bypass all of the target's armor.",
       "category": "CareerTactic",
       "gameId": 9130,
-      "rawDescription": "Brutal Assault will now bypass all of the target's armor."
+      "rawDescription": "Brutal Assault will now bypass all of the target's armor.",
+      "componentValues": {}
     },
     {
       "image": "13407",
@@ -1036,10 +1237,14 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Skirmish Stance",
-      "description": "A close-range bow stance that increases your Toughness by 80 and the chance that your bow attacks will critically hit by  5%. You gain the ability to autoattack while moving while in this stance.<BR><BR>You may only use a single Stance at a time.",
+      "description": "A close-range bow stance that increases your Toughness by 80 and the chance that your bow attacks will critically hit by 5%. You gain the ability to autoattack while moving while in this stance.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability",
       "gameId": 9094,
-      "rawDescription": "A close-range bow stance that increases your Toughness by {COM_0_VAL0} and the chance that your bow attacks will critically hit by {COM_1_VAL1}%. You gain the ability to autoattack while moving while in this stance.<BR><BR>You may only use a single Stance at a time."
+      "rawDescription": "A close-range bow stance that increases your Toughness by {COM_0_VAL0} and the chance that your bow attacks will critically hit by {COM_1_VAL1}%. You gain the ability to autoattack while moving while in this stance.<BR><BR>You may only use a single Stance at a time.",
+      "componentValues": {
+        "COM_0_VAL0": 80,
+        "COM_1_VAL1": 5
+      }
     },
     {
       "image": "22697",
@@ -1053,10 +1258,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flame Arrow's damage over time is increased to 471 damage.",
+      "description": "Flame Arrow's damage over time is increased to 672 damage.",
       "category": "CareerTactic",
       "gameId": 9119,
-      "rawDescription": "Flame Arrow's damage over time is increased to {ABIL_9088_COM_1_VAL0_COM_1_VAL0_TOD_DAMAGE}."
+      "rawDescription": "Flame Arrow's damage over time is increased to {ABIL_9088_COM_1_VAL0_COM_1_VAL0_TOD_DAMAGE}.",
+      "componentValues": {
+        "ABIL_9088_COM_1_VAL0_COM_1_VAL0_TOD_DAMAGE": 672
+      }
     },
     {
       "image": "13406",
@@ -1066,14 +1274,17 @@
       "spec": "Path of The Skirmisher",
       "minrank": "6",
       "cost": "25 Action Points",
-      "range": "65ft range",
+      "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Assault or Skirmish Stance",
-      "description": "Deals 216 physical damage to your target. This ability will continue to build up even if you move.",
+      "description": "Deals 216 damage to your target. This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 9093,
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target. This ability will continue to build up even if you move."
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target. This ability will continue to build up even if you move.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 216
+      }
     },
     {
       "image": "22694",
@@ -1087,10 +1298,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Spiral-Fletched Arrow now hits all enemies within 20 feet of your initial target, but does 30% less damage.",
+      "description": "Spiral-Fletched Arrow and Broadhead Arrows now hit all enemies within 20 feet of your initial target, their range is reduced to 65 feet.",
       "category": "CareerTactic",
       "gameId": 9134,
-      "rawDescription": "Spiral-Fletched Arrow now hits all enemies within {ABIL_9093_COM_1_RADI_FEET} of your initial target, but does {COM_1_VAL1}% less damage."
+      "rawDescription": "Spiral-Fletched Arrow and Broadhead Arrows now hit all enemies within {ABIL_9093_COM_1_RADI_FEET} of your initial target, their range is reduced to 65 feet.",
+      "componentValues": {
+        "ABIL_9093_COM_1_RADI_FEET": 20
+      }
     },
     {
       "image": "13308",
@@ -1104,10 +1318,14 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "For the next 6 seconds, all of your abilities that do damage will have a 50% higher chance to critically hit, but will take an additional 1.5 seconds to build up.",
+      "description": "While this ability is active, all of your abilities that do damage will have a 25% higher chance to critically hit, but will take an additional 1 seconds to build up.",
       "category": "Ability",
       "gameId": 9097,
-      "rawDescription": "For the next {COM_0_DURA_SECONDS}, all of your abilities that do damage will have a {COM_1_VAL1}% higher chance to critically hit, but will take an additional {COM_0_VAL0_SECONDS} to build up."
+      "rawDescription": "While this ability is active, all of your abilities that do damage will have a {COM_1_VAL1}% higher chance to critically hit, but will take an additional {COM_0_VAL0_SECONDS} to build up.",
+      "componentValues": {
+        "COM_1_VAL1": 25,
+        "COM_0_VAL0_SECONDS": 1
+      }
     },
     {
       "image": "13331",
@@ -1120,11 +1338,15 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Requires Assault Stance",
-      "description": "Deals 209 physical damage to all enemies in an arc in front of you, up to 25 feet away.",
+      "note": "Requires Assault or Skirmish Stance",
+      "description": "Deals 209 damage to all enemies in an arc in front of you, up to 25 feet away.",
       "category": "Ability",
       "gameId": 9107,
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in an arc in front of you, up to {COM_0_RADI_FEET} away."
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in an arc in front of you, up to {COM_0_RADI_FEET} away.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 209,
+        "COM_0_RADI_FEET": 25
+      }
     },
     {
       "image": "13330",
@@ -1138,10 +1360,15 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing 79 physical damage per hit. If the target is building up an ability, then your strikes will deal 142 physical damage instead.<br.<br>This ability will end if you break your concentration or run out of action points.",
+      "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing 79 damage per hit.  If the target is building up an ability, then your strikes will deal 142 damage instead.  This ability will end if you break your concentration or run out of action points.<BR>If you are Vengeful, then duration is incraesed to 5 seconds.",
       "category": "Ability",
       "gameId": 9106,
-      "rawDescription": "You unleash a punishing series of attacks on your enemy for up to {COM_0_DURA_SECONDS}, striking them twice per second and dealing {COM_1_VAL0_DAMAGE} per hit.  If the target is building up an ability, then your strikes will deal {COM_2_VAL0_DAMAGE} instead.  This ability will end if you break your concentration or run out of action points."
+      "rawDescription": "You unleash a punishing series of attacks on your enemy for up to {COM_0_DURA_SECONDS}, striking them twice per second and dealing {COM_1_VAL0_DAMAGE} per hit.  If the target is building up an ability, then your strikes will deal {COM_2_VAL0_DAMAGE} instead.  This ability will end if you break your concentration or run out of action points.<BR>If you are Vengeful, then duration is incraesed to 5 seconds.",
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 3,
+        "COM_1_VAL0_DAMAGE": 79,
+        "COM_2_VAL0_DAMAGE": 142
+      }
     },
     {
       "image": "13310",
@@ -1155,10 +1382,15 @@
       "incant": "1.0s cast",
       "cooldown": "15s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "An Ailment which deals 216 physical damage and snares your target, reducing their run speed by 40% for 10 seconds.",
+      "description": "An Ailment which deals 216 damage and snares your target, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability",
       "gameId": 9087,
-      "rawDescription": "An Ailment which deals {COM_0_VAL0_DAMAGE} and snares your target, reducing their run speed by {ABIL_3012_COM_0_VAL0}% for {ABIL_3012_COM_0_DURA_SECONDS}."
+      "rawDescription": "An Ailment which deals {COM_0_VAL0_DAMAGE} and snares your target, reducing their run speed by {ABIL_3012_COM_0_VAL0}% for {ABIL_3012_COM_0_DURA_SECONDS}.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 216,
+        "ABIL_3012_COM_0_VAL0": 40,
+        "ABIL_3012_COM_0_DURA_SECONDS": 10
+      }
     },
     {
       "image": "13408",
@@ -1172,10 +1404,14 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "Requires Scout Stance",
-      "description": "A Crippling shot that deals 266 damage and silences your target for 4 seconds, making them unable to use magic.",
+      "description": "A Crippling shot that deals 332 damage and silences your target for 4 seconds, making them unable to use magic.",
       "category": "Ability",
       "gameId": 9095,
-      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE} and silences your target for {COM_1_DURA_SECONDS}, making them unable to use magic."
+      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE} and silences your target for {COM_1_DURA_SECONDS}, making them unable to use magic.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 332,
+        "COM_1_DURA_SECONDS": 4
+      }
     },
     {
       "image": "13399",
@@ -1192,7 +1428,11 @@
       "description": "You are filled with a desire for vengeance, increasing all damage you deal by 25% for 10 seconds.",
       "category": "Ability",
       "gameId": 9081,
-      "rawDescription": "You are filled with a desire for vengeance, increasing all damage you deal by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
+      "rawDescription": "You are filled with a desire for vengeance, increasing all damage you deal by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.",
+      "componentValues": {
+        "COM_0_VAL0": 25,
+        "COM_0_DURA_SECONDS": 10
+      }
     },
     {
       "image": "13321",
@@ -1209,7 +1449,12 @@
       "description": "All enemies within 30 feet become snared, reducing movement speed by 40% for the next 10 seconds. You are knocked back away from your enemies.",
       "category": "Ability",
       "gameId": 9092,
-      "rawDescription": "All enemies within {COM_0_RADI_FEET} become snared, reducing movement speed by {COM_0_VAL0}% for the next {COM_0_DURA_SECONDS}. You are knocked back away from your enemies."
+      "rawDescription": "All enemies within {COM_0_RADI_FEET} become snared, reducing movement speed by {COM_0_VAL0}% for the next {COM_0_DURA_SECONDS}. You are knocked back away from your enemies.",
+      "componentValues": {
+        "COM_0_RADI_FEET": 30,
+        "COM_0_VAL0": 40,
+        "COM_0_DURA_SECONDS": 10
+      }
     },
     {
       "image": "13338",
@@ -1226,7 +1471,11 @@
       "description": "Deals 1600 damage to all enemies within 30 feet.",
       "category": "Morale",
       "gameId": 9143,
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}."
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}.",
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 1600,
+        "COM_0_RADI_FEET": 30
+      }
     },
     {
       "image": "22704",
@@ -1240,10 +1489,15 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grim Slash will now reduce your enemy's Weapon Skill by 120 and Initiative by 80 for 20 seconds, and increase your Weapon Skill and Initiative by the same amount.",
+      "description": "Grim Slash will now reduce your enemy's Weaponskill by 120 and Initiative by 80 for 20 seconds, and increase your Weaponskill and Initiative by the same amount.",
       "category": "CareerTactic",
       "gameId": 9116,
-      "rawDescription": "Grim Slash will now reduce your enemy's Weaponskill by {ABIL_3225_COM_0_VAL0} and Initiative by {ABIL_3225_COM_1_VAL0} for {ABIL_3225_COM_1_DURA_SECONDS}, and increase your Weaponskill and Initiative by the same amount."
+      "rawDescription": "Grim Slash will now reduce your enemy's Weaponskill by {ABIL_3225_COM_0_VAL0} and Initiative by {ABIL_3225_COM_1_VAL0} for {ABIL_3225_COM_1_DURA_SECONDS}, and increase your Weaponskill and Initiative by the same amount.",
+      "componentValues": {
+        "ABIL_3225_COM_0_VAL0": 120,
+        "ABIL_3225_COM_1_VAL0": 80,
+        "ABIL_3225_COM_1_DURA_SECONDS": 20
+      }
     },
     {
       "image": "13301",
@@ -1257,10 +1511,15 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Assault Stance",
-      "description": "You unleash two swift blows upon your enemy that deal 127 Spirit damage each, causing them to be 10% more likely to be critically hit by others for 10 seconds.",
+      "description": "You unleash two swift blows upon your enemy that deal 127 Spirit damage each, causing them to be 10% more likely to be critically hit by others for 10 seconds.<BR>If you are Vengeful, then this attack hits an attitional time.",
       "category": "Ability",
       "gameId": 2972,
-      "rawDescription": "You unleash two swift blows upon your enemy that deal {COM_0_VAL0_SPIRITDAMAGE} each, causing them to be {ABIL_2973_COM_0_VAL1}% more likely to be critically hit by others for {ABIL_2973_COM_0_DURA_SECONDS}."
+      "rawDescription": "You unleash two swift blows upon your enemy that deal {COM_0_VAL0_SPIRITDAMAGE} each, causing them to be {ABIL_2973_COM_0_VAL1}% more likely to be critically hit by others for {ABIL_2973_COM_0_DURA_SECONDS}.<BR>If you are Vengeful, then this attack hits an attitional time.",
+      "componentValues": {
+        "COM_0_VAL0_SPIRITDAMAGE": 127,
+        "ABIL_2973_COM_0_VAL1": 10,
+        "ABIL_2973_COM_0_DURA_SECONDS": 10
+      }
     }
   ]
 }
