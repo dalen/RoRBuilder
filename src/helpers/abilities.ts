@@ -55,7 +55,7 @@ export type Ability = {
   abilityType?: AbilityType;
   gameId?: number;
   rawDescription?: string;
-  componentValues?: { [key: string]: number };
+  componentValues?: { [key: string]: number | undefined };
 };
 
 export const arrayContains = <T>(
