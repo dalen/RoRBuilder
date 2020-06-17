@@ -222,13 +222,13 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting 113 damage.",
+      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting 130 damage.",
       "category": "Ability",
       "gameId": 8423,
       "componentValues": {
         "COM_0_RADI_FEET": 25,
         "COM_1_DURA_SECONDS": 2,
-        "COM_0_VAL0_DAMAGE": 113
+        "COM_0_VAL0_DAMAGE": 130
       },
       "rawDescription": "A great wave of concussive force knocks down all targets {COM_0_RADI_FEET} in front of you for {COM_1_DURA_SECONDS}, inflicting {COM_0_VAL0_DAMAGE}."
     },
@@ -264,12 +264,12 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 6 times and dealing 132 damage per hit.  This effect will end if you break your concentration or run out of action points.",
+      "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 6 times and dealing 136 damage per hit.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
       "gameId": 8406,
       "componentValues": {
         "COM_0_DURA_SECONDS": 3,
-        "COM_0_VAL0_DAMAGE": 132
+        "COM_0_VAL0_DAMAGE": 136
       },
       "rawDescription": "You continually slice at an enemy for up to {COM_0_DURA_SECONDS}, striking them up to 6 times and dealing {COM_0_VAL0_DAMAGE} per hit.  This effect will end if you break your concentration or run out of action points."
     },
@@ -305,13 +305,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Corruption spreads to your target, reducing their toughness by 75 for 20 seconds and inflicting 141 damage.",
+      "description": "Corruption spreads to your target, reducing their toughness by 75 for 20 seconds and inflicting 148 damage.",
       "category": "Ability",
       "gameId": 8400,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0": 75,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 20,
-        "COM_0_VAL0_DAMAGE": 141
+        "COM_0_VAL0_DAMAGE": 148
       },
       "rawDescription": "Corruption spreads to your target, reducing their toughness by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS} and inflicting {COM_0_VAL0_DAMAGE}."
     },
@@ -327,13 +327,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While you are using the Gift of Monstrosity, all of your hits have a 25% chance to remove 225 points of Morale from the enemy.",
+      "description": "While you are using the Gift of Monstrosity, all of your hits have a 25% chance to prevent all who are hit from generating Morale for 5 seconds.",
       "category": "CareerTactic",
       "gameId": 8446,
       "componentValues": {
-        "COM_1_VAL0": 225
+        "COM_1_DURA_SECONDS": 5
       },
-      "rawDescription": "While you are using the Gift of Monstrosity, all of your hits have a 25% chance to remove {COM_1_VAL0} points of Morale from the enemy."
+      "rawDescription": "While you are using the Gift of Monstrosity, all of your hits have a 25% chance to prevent all who are hit from generating Morale for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "05196",
@@ -347,11 +347,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "An undefendable claw attack that deals 216 damage and reduces targets armor by 1000 for 10 seconds.",
+      "description": "An undefendable claw attack that deals 223 damage and reduces targets armor by 1000 for 10 seconds.",
       "category": "Ability",
       "gameId": 8418,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 216,
+        "COM_0_VAL0_DAMAGE": 223,
         "COM_1_VAL0": 1000,
         "COM_1_DURA_SECONDS": 10
       },
@@ -407,11 +407,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A deliberate attack that inflicts 191 damage and Cripples your target, reducing their movement speed by 40% for 5 seconds.",
+      "description": "A deliberate attack that inflicts 198 damage and Cripples your target, reducing their movement speed by 40% for 5 seconds.",
       "category": "Ability",
       "gameId": 8396,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 191,
+        "COM_0_VAL0_DAMAGE": 198,
         "COM_1_VAL0": 40,
         "COM_1_DURA_SECONDS": 5
       },
@@ -450,11 +450,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "A widespread attack that inflicts 138 damage to all targets up to 25 feet in front of you.",
+      "description": "A widespread attack that inflicts 150 damage to all targets up to 25 feet in front of you.",
       "category": "Ability",
       "gameId": 8409,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 138,
+        "COM_0_VAL0_DAMAGE": 150,
         "COM_0_RADI_FEET": 25
       },
       "rawDescription": "A widespread attack that inflicts {COM_0_VAL0_DAMAGE} to all targets up to {COM_0_RADI_FEET} in front of you."
@@ -471,11 +471,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "You quickly rake your target twice, dealing 108 damage with each hit.  The victim will regain action points 50% more slowly for 10 seconds.",
+      "description": "You quickly rake your target twice, dealing 117 damage with each hit.  The victim will regain action points 50% more slowly for 10 seconds.",
       "category": "Ability",
       "gameId": 8419,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 108,
+        "COM_0_VAL0_DAMAGE": 117,
         "COM_2_VAL0": 50,
         "COM_2_DURA_SECONDS": 10
       },
@@ -493,11 +493,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A large burst of power courses through you, dealing 1800 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds. This ability hits max 9 targets.",
+      "description": "A large burst of power courses through you, dealing 1200 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 8456,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1800,
+        "COM_0_VAL0_DAMAGE": 1200,
         "COM_0_RADI_FEET": 30,
         "COM_1_DURA_SECONDS": 3
       },
@@ -579,12 +579,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You swipe at your opponent for 133 damage. If you have an active Mutation, this attack will hit an additional time for 108 damage.",
+      "description": "You swipe at your opponent for 144 damage. If you have an active Mutation, this attack will hit an additional time for 119 damage.",
       "category": "Ability",
       "gameId": 8392,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 133,
-        "COM_1_VAL0_DAMAGE": 108
+        "COM_0_VAL0_DAMAGE": 144,
+        "COM_1_VAL0_DAMAGE": 119
       },
       "rawDescription": "You swipe at your opponent for {COM_0_VAL0_DAMAGE}. If you have an active Mutation, this attack will hit an additional time for {COM_1_VAL0_DAMAGE}."
     },
@@ -744,12 +744,12 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Gift of Monstrosity",
-      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your melee attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health and letting you shrug off your enemy's armor penetration.",
+      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your melee attacks have a 25% chance to empower you for 5 seconds, gradually restoring 860 health and letting you shrug off your enemy's armor penetration.",
       "category": "Ability",
       "gameId": 8403,
       "componentValues": {
         "ABIL_3045_COM_1_DURA_SECONDS": 5,
-        "ABIL_3045_COM_1_VAL0_TOD_HEALTH": 1032
+        "ABIL_3045_COM_1_VAL0_TOD_HEALTH": 860
       },
       "rawDescription": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your melee attacks have a 25% chance to empower you for {ABIL_3045_COM_1_DURA_SECONDS}, gradually restoring {ABIL_3045_COM_1_VAL0_TOD_HEALTH} and letting you shrug off your enemy's armor penetration."
     },
@@ -864,11 +864,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Parry<br>Requires Gift of Savagery",
-      "description": "A savage attack that guts your opponent for 191 damage, and makes your next damaging ability within 5 seconds automatically critical.",
+      "description": "A savage attack that guts your opponent for 198 damage, and makes your next damaging ability within 5 seconds automatically critical.",
       "category": "Ability",
       "gameId": 8414,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 191,
+        "COM_0_VAL0_DAMAGE": 198,
         "ABIL_3744_COM_1_DURA_SECONDS": 5
       },
       "rawDescription": "A savage attack that guts your opponent for {COM_0_VAL0_DAMAGE}, and makes your next damaging ability within {ABIL_3744_COM_1_DURA_SECONDS} automatically critical."
@@ -905,11 +905,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "Stabs into your opponents vital areas for 166 damage. If behind your target, ignores 618 armor.",
+      "description": "Stabs into your opponents vital areas for 175 damage. If behind your target, ignores 618 armor.",
       "category": "Ability",
       "gameId": 8399,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 166,
+        "COM_0_VAL0_DAMAGE": 175,
         "COM_2_VAL0": 618
       },
       "rawDescription": "Stabs into your opponents vital areas for {COM_0_VAL0_DAMAGE}. If behind your target, ignores {COM_2_VAL0} armor."
@@ -989,12 +989,12 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
-      "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting 133 damage to all in range.",
+      "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting 144 damage to all in range.",
       "category": "Ability",
       "gameId": 8397,
       "componentValues": {
         "COM_0_RADI_FEET": 40,
-        "COM_0_VAL0_DAMAGE": 133
+        "COM_0_VAL0_DAMAGE": 144
       },
       "rawDescription": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast {COM_0_RADI_FEET} in front of you, and inflicting {COM_0_VAL0_DAMAGE} to all in range."
     },
@@ -1031,11 +1031,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Disrupt",
-      "description": "Disrupted Magic is twisted back into the caster, inflicting 241 damage and knocking them down for 3 seconds.",
+      "description": "Disrupted Magic is twisted back into the caster, inflicting 248 damage and knocking them down for 3 seconds.",
       "category": "Ability",
       "gameId": 8412,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 241
+        "COM_0_VAL0_DAMAGE": 248
       },
       "rawDescription": "Disrupted Magic is twisted back into the caster, inflicting {COM_0_VAL0_DAMAGE} and knocking them down for 3 seconds."
     },
@@ -1091,11 +1091,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
-      "description": "Inflicts 214 damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.",
+      "description": "Inflicts 248 damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.",
       "category": "Ability",
       "gameId": 8413,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 214,
+        "COM_0_VAL0_DAMAGE": 248,
         "COM_1_VAL0": 10,
         "COM_2_VAL0": 10,
         "COM_1_DURA_SECONDS": 20
@@ -1135,11 +1135,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Savagery or Brutality",
-      "description": "You tear into your target, dealing 108 damage immediately and an additional 198 damage over 9 seconds. The damage over time will stack with itself up to three times.",
+      "description": "You tear into your target, dealing 148 damage immediately and an additional 198 damage over 9 seconds. The damage over time will stack with itself up to three times.",
       "category": "Ability",
       "gameId": 8395,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 108,
+        "COM_0_VAL0_DAMAGE": 148,
         "COM_1_VAL0_COM_1_VAL0_TOD_DAMAGE": 198,
         "COM_1_VAL0_COM_1_DURA_SECONDS": 9
       },
@@ -1255,11 +1255,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "An Ailing attack inflicting 166 damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
+      "description": "An Ailing attack inflicting 173 damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
       "category": "Ability",
       "gameId": 8401,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 166,
+        "COM_0_VAL0_DAMAGE": 173,
         "COM_1_DURA_SECONDS": 5,
         "COM_2_DURA_SECONDS": 10
       },
@@ -1315,11 +1315,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "A particularly nasty blow that inflicts 241 damage to your target and decreases their Wounds by 100 for the next 20 seconds.",
+      "description": "A particularly nasty blow that inflicts 248 damage to your target and decreases their Wounds by 100 for the next 20 seconds.",
       "category": "Ability",
       "gameId": 8424,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 241,
+        "COM_0_VAL0_DAMAGE": 248,
         "COM_1_VAL0": 100,
         "COM_1_DURA_SECONDS": 20
       },
@@ -1439,11 +1439,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them.  Each time an Enchantment is successfully removed, they will suffer 152 damage .",
+      "description": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them.  Each time an Enchantment is successfully removed, they will suffer 156 damage .",
       "category": "CareerTactic",
       "gameId": 8443,
       "componentValues": {
-        "COM_2_VAL0_DAMAGE": 152
+        "COM_2_VAL0_DAMAGE": 156
       },
       "rawDescription": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them.  Each time an Enchantment is successfully removed, they will suffer {COM_2_VAL0_DAMAGE} ."
     },
@@ -1459,11 +1459,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 50 damage.<BR>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 797,
       "componentValues": {
-        "ABIL_3996_COM_0_VAL1": 50
+        "ABIL_3996_COM_0_VAL1": 375
       },
       "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
     },
@@ -1486,7 +1486,7 @@
         "COM_0_RADI_FEET": 30,
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 5,
-        "COM_8_VAL0": 67
+        "COM_8_VAL0": 0
       },
       "rawDescription": "All enemies within {COM_0_RADI_FEET} are detaunted, making them hate you less and reducing the damage they deal against you to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.  During this time, all of your attacks will cause enemies to hate you {COM_8_VAL0}% less than normal. If you attack anyone you have detaunted, the effect will immediately end."
     },
@@ -1502,11 +1502,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A wave of horror spreads forth from you, dealing 553 damage over 21 seconds to all enemies within 30 feet and reducing their Weapon Skill by 75 and Initiative by 50.",
+      "description": "A wave of horror spreads forth from you, dealing 602 damage over 21 seconds to all enemies within 30 feet and reducing their Weapon Skill by 75 and Initiative by 50.",
       "category": "Ability",
       "gameId": 8417,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 553,
+        "COM_0_VAL0_TOD_DAMAGE": 602,
         "COM_0_DURA_SECONDS": 21,
         "COM_0_RADI_FEET": 30,
         "COM_2_VAL0": 75,
@@ -1526,15 +1526,15 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "You wildly lash out at all targets directly in front of you up to 40 feet away, dealing 183 damage and preventing all who are hit from generating Morale for 5 seconds.",
+      "description": "You wildly lash out at all targets directly in front of you up to 40 feet away, dealing 227 damage and removing 225 points of Morale from the enemy.",
       "category": "Ability",
       "gameId": 8422,
       "componentValues": {
         "COM_0_RADI_FEET": 40,
-        "COM_0_VAL0_DAMAGE": 183,
-        "COM_1_DURA_SECONDS": 5
+        "COM_0_VAL0_DAMAGE": 227,
+        "COM_1_VAL0": 225
       },
-      "rawDescription": "You wildly lash out at all targets directly in front of you up to {COM_0_RADI_FEET} away, dealing {COM_0_VAL0_DAMAGE} and preventing all who are hit from generating Morale for {COM_1_DURA_SECONDS}."
+      "rawDescription": "You wildly lash out at all targets directly in front of you up to {COM_0_RADI_FEET} away, dealing {COM_0_VAL0_DAMAGE} and removing {COM_1_VAL0} points of Morale from the enemy."
     },
     {
       "image": "22704",
@@ -1568,11 +1568,11 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "You spin in a circle with your club arm extended, aimlessly inflicting 132 damage every half second to all targets within 30 feet in front of you for up to 3 seconds.  This effect will end if you break your concentration or run out of action points.",
+      "description": "You spin in a circle with your club arm extended, aimlessly inflicting 137 damage every half second to all targets within 30 feet in front of you for up to 3 seconds.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
       "gameId": 8425,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 132,
+        "COM_1_VAL0_DAMAGE": 137,
         "COM_1_RADI_FEET": 30,
         "COM_0_DURA_SECONDS": 3
       },
