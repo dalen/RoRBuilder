@@ -9,8 +9,10 @@ export const validateRange = (
 ): Partial<Ability> => {
   const range = ((): string => {
     if (gameAbility.Range > 0) {
-      if (gameAbility.A44 > 0) {
-        return `${gameAbility.A44 / 12} - ${gameAbility.Range / 12}ft range`;
+      if (gameAbility.MinRange > 0) {
+        return `${gameAbility.MinRange / 12} - ${
+          gameAbility.Range / 12
+        }ft range`;
       }
       return `${gameAbility.Range / 12}ft range`;
     }

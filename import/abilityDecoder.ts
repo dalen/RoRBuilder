@@ -37,7 +37,7 @@ const abilityDecoder = object({
   CounterAmount: integer,
   Flags: integer,
   EffectID: integer,
-  A44: integer,
+  MinRange: integer,
   Range: integer,
   Angle: integer,
   MoraleCost: integer,
