@@ -10,9 +10,6 @@ import {
 
 import { promises as fs } from 'fs';
 
-// Decode a unsigned int to a signed int
-const unsignedToSignedInt = map(integer, n => (n > 32768 ? n - 65536 : n));
-
 const componentData = object({
   Type: integer,
   Operation: integer,
@@ -29,7 +26,7 @@ const component = object({
   ComponentID: integer,
   A00: integer,
   Data: array(nullable(componentData)),
-  Values: array(unsignedToSignedInt),
+  Values: array(integer),
   Multipliers: array(integer),
   A05: integer,
   Duration: integer,
@@ -63,7 +60,7 @@ export const structureComponents = (
   components: Component[],
 ): { [key: number]: Component } => {
   return Object.fromEntries(
-    components.map(component => {
+    components.map((component) => {
       return [component.ComponentID, component];
     }),
   );
