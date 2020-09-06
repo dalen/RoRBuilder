@@ -83,7 +83,7 @@
       "range": "100ft range",
       "incant": "1.5s cast",
       "cooldown": "5s cooldown",
-      "note": "Requires Scout or Assault Stance",
+      "note": "",
       "description": "An attack which deals 328 damage and reduces your target's armor by 618 and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability",
       "gameId": 9104,
@@ -182,16 +182,16 @@
       "name": "Broadhead Arrow",
       "type": "Ailment",
       "spec": "Path of The Skirmisher",
-      "minrank": "2",
+      "minrank": "16",
       "cost": "25 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An Ailment which deals 760 damage to your target over 15 seconds.",
+      "description": "An Ailment which deals 760 damage to your target over 15 seconds. Stacks up to 3 times.",
       "category": "Ability",
       "gameId": 9084,
-      "rawDescription": "An Ailment which deals {COM_1_VAL0_TOD_DAMAGE} to your target over {COM_1_DURA_SECONDS}.",
+      "rawDescription": "An Ailment which deals {COM_1_VAL0_TOD_DAMAGE} to your target over {COM_1_DURA_SECONDS}. Stacks up to 3 times.",
       "componentValues": {
         "COM_1_VAL0_TOD_DAMAGE": 760,
         "COM_1_DURA_SECONDS": 15
@@ -514,10 +514,10 @@
       "incant": "1.0s cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A Crippling shot that deals 116 damage,  reduces your target's Initiative by 50 for 20 seconds, and knocks the target down for 3 seconds. This ability will continue to build up even if you move.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
+      "description": "A Crippling shot that deals 116 damage,  reduces your target's Initiative by 50 for 20 seconds, and knocks the target down for 3 seconds.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
       "category": "Ability",
       "gameId": 9096,
-      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE},  reduces your target's Initiative by {COM_1_VAL0} for {COM_1_DURA_SECONDS}, and knocks the target down for {COM_2_VAL0_COM_0_DURA_SECONDS}. This ability will continue to build up even if you move.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
+      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE},  reduces your target's Initiative by {COM_1_VAL0} for {COM_1_DURA_SECONDS}, and knocks the target down for {COM_2_VAL0_COM_0_DURA_SECONDS}.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 116,
         "COM_1_VAL0": 50,
@@ -661,13 +661,13 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "All your ranged abilities deal an additional 150 damage, but cost 15 more AP.<BR>Use this ability again to deactivate it.",
+      "description": "All Path of the Scout abilities deal an additional 150 damage, but will drain 15 AP each time this effect triggers.<BR>Will not trigger more than once every second.<BR>Use this ability again to deactivate it.",
       "category": "Ability",
       "gameId": 1556,
-      "rawDescription": "All your ranged abilities deal an additional {COM_0_VAL0_DAMAGE}, but cost {COM_1_VAL1} more AP.<BR>Use this ability again to deactivate it.",
+      "rawDescription": "All Path of the Scout abilities deal an additional {COM_0_VAL0_DAMAGE}, but will drain {COM_1_VAL0} AP each time this effect triggers.<BR>Will not trigger more than once every second.<BR>Use this ability again to deactivate it.",
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 150,
-        "COM_1_VAL1": 15
+        "COM_1_VAL0": 15
       }
     },
     {
@@ -845,7 +845,7 @@
       "minrank": "40",
       "cost": "40 Action Points",
       "range": "Self",
-      "incant": "2.0s cast",
+      "incant": "0.5s cast",
       "cooldown": "5s cooldown",
       "note": "Requires Skirmish Stance",
       "description": "A piercing arrow which deals 285 damage to all enemies in front of you, up to 65 feet away.  This ability will continue to build up even if you move.",
@@ -1111,7 +1111,7 @@
       "name": "Rapid Fire",
       "type": "Damaging",
       "spec": "Path of The Scout",
-      "minrank": "16",
+      "minrank": "2",
       "cost": "25 Action Points / Sec",
       "range": "100ft range",
       "incant": "3.0s cast",
@@ -1511,12 +1511,12 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Assault Stance",
-      "description": "You unleash two swift blows upon your enemy that deal 127 Spirit damage each, causing them to be 10% more likely to be critically hit by others for 10 seconds.<BR>If you are Vengeful, then this attack hits an attitional time.",
+      "description": "You unleash two swift blows upon your enemy that deal 127 damage each, causing them to be 10% more likely to be critically hit by others for 10 seconds.<BR>If you are Vengeful, then this attack deals spirit damage instead.",
       "category": "Ability",
       "gameId": 2972,
-      "rawDescription": "You unleash two swift blows upon your enemy that deal {COM_0_VAL0_SPIRITDAMAGE} each, causing them to be {ABIL_2973_COM_0_VAL1}% more likely to be critically hit by others for {ABIL_2973_COM_0_DURA_SECONDS}.<BR>If you are Vengeful, then this attack hits an attitional time.",
+      "rawDescription": "You unleash two swift blows upon your enemy that deal {COM_0_VAL0_DAMAGE} each, causing them to be {ABIL_2973_COM_0_VAL1}% more likely to be critically hit by others for {ABIL_2973_COM_0_DURA_SECONDS}.<BR>If you are Vengeful, then this attack deals spirit damage instead.",
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 127,
+        "COM_0_VAL0_DAMAGE": 127,
         "ABIL_2973_COM_0_VAL1": 10,
         "ABIL_2973_COM_0_DURA_SECONDS": 10
       }
