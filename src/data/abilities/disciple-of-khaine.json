@@ -105,12 +105,12 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 1098 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale",
       "gameId": 697,
       "componentValues": {
         "COM_1_RADI_FEET": 30,
-        "ABIL_3884_COM_0_VAL0_TOD": 424,
+        "ABIL_3884_COM_0_VAL0_TOD": 1098,
         "ABIL_3884_COM_0_DURA_SECONDS": 9,
         "ABIL_3876_COM_0_VAL0": 20,
         "ABIL_3876_COM_0_DURA_SECONDS": 10
