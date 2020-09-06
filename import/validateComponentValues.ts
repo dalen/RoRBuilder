@@ -60,16 +60,25 @@ const calculateDamage = (
   }
 
   if (tod) {
+    if (
+      component.Duration == 0 &&
+      component.Interval == 0 &&
+      ability.ChannelInterval == 0
+    ) {
+      return result;
+    }
+
     if (intervalNumber > 1 && ability.ChannelInterval <= 0) {
       return result * intervalNumber;
     }
 
     return (
-      result *
-      (component.Duration / 1000 +
-        (component.A15 & ComponentA15Flags.FLAG4 ? 1 : 0) +
-        (component.A15 & ComponentA15Flags.FLAG6 ? 1 : 0) +
-        1)
+      (result *
+        (component.Duration / 1000 +
+          (component.A15 & ComponentA15Flags.FLAG4 ? 1 : 0) +
+          (component.A15 & ComponentA15Flags.FLAG6 ? 1 : 0) +
+          1)) /
+      (ability.ChannelInterval / 1000)
     );
   }
 
@@ -118,17 +127,26 @@ const calculateStatContribution = (
     (stat * (ability.ScaleStatMult || defaultScaleStat)) / 100 / 5,
   );
 
-  if (intervalNumber > 1 && ability.ChannelInterval <= 0) {
-    return result * intervalNumber;
-  }
-
   if (tod) {
+    if (
+      component.Duration == 0 &&
+      component.Interval == 0 &&
+      ability.ChannelInterval == 0
+    ) {
+      return result;
+    }
+
+    if (intervalNumber > 1 && ability.ChannelInterval <= 0) {
+      return result * intervalNumber;
+    }
+
     return (
-      result *
-      (component.Duration / 1000 +
-        (component.A15 & ComponentA15Flags.FLAG4 ? 1 : 0) +
-        (component.A15 & ComponentA15Flags.FLAG6 ? 1 : 0) +
-        1)
+      (result *
+        (component.Duration / 1000 +
+          (component.A15 & ComponentA15Flags.FLAG4 ? 1 : 0) +
+          (component.A15 & ComponentA15Flags.FLAG6 ? 1 : 0) +
+          1)) /
+      (ability.ChannelInterval / 1000)
     );
   }
 
