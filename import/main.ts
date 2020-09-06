@@ -46,6 +46,7 @@ import { validateCastTime } from './validateCastTime';
 import { validateRange } from './validateRange';
 import { validateName } from './validateName';
 import { validateMastery } from './validateMastery';
+import { validateType } from './validateType';
 
 const careerData: {
   archmage: Career;
@@ -109,7 +110,7 @@ const validateAbility = async (
 ): Promise<Ability> => {
   if (ability.gameId === undefined) {
     const matchingName = Object.values(abilityData).filter(
-      gameAbility =>
+      (gameAbility) =>
         gameAbility.Name === ability.name &&
         (gameAbility.CareerID === 0 || gameAbility.CareerID === careerId) &&
         gameAbility.Description !== undefined,
@@ -118,8 +119,8 @@ const validateAbility = async (
     // How many characters of description match for each skill
     const descriptionMatch = [
       '',
-      ...matchingName.map(gameAbility => gameAbility.Description || ''),
-    ].map(description => stringMatch(ability.description, description));
+      ...matchingName.map((gameAbility) => gameAbility.Description || ''),
+    ].map((description) => stringMatch(ability.description, description));
 
     // Only one ability matches, and description seems to match as well
     if (matchingName.length === 1 && descriptionMatch[1] > 0) {
@@ -134,13 +135,13 @@ const validateAbility = async (
       )}\n${colors.yellow(ability.description)}`,
       choices: [
         { name: 'None', value: null },
-        ...matchingName.map(gameAbility => ({
+        ...matchingName.map((gameAbility) => ({
           name: `(CID: ${gameAbility.CareerID}) ${gameAbility.AbilityID}: ${gameAbility.Description}`,
           value: gameAbility.AbilityID,
         })),
       ],
       default: descriptionMatch.findIndex(
-        n => n === Math.max(...descriptionMatch),
+        (n) => n === Math.max(...descriptionMatch),
       ),
     });
     if (gameId.gameId) {
@@ -170,6 +171,7 @@ const validateAbility = async (
     ...validateName(ability, gameAbility),
     ...validateNote(ability, gameAbility),
     ...validateComponentValues(ability, gameAbility, stats, abilityData),
+    ...validateType(ability, gameAbility),
   };
 
   // Use previous values for calculating description
@@ -191,7 +193,7 @@ const validateCareer = async (
 
   let fixedAbilities = [];
   for (const ability of career.data.filter(
-    ability => ability.category !== 'TomeTactic',
+    (ability) => ability.category !== 'TomeTactic',
   )) {
     fixedAbilities.push(
       await validateAbility(ability, abilityData, career, careerId, stats),
@@ -223,7 +225,7 @@ const main = async () => {
     'utf16be',
   );
   const abilityResults = await readTextFile(
-    'data/strings/english/abilityresults.txt',
+    'data-master/strings/english/abilityresults.txt',
     'utf16le',
   );
   const abilityComponents = structureComponents(await readComponents());
@@ -237,25 +239,26 @@ const main = async () => {
   );
 
   // Debug
-  const printDebugAbilities: number[] = [];
-  printDebugAbilities.forEach(abilityId => {
+  /*
+  const printDebugAbilities: number[] = [8082];
+  printDebugAbilities.forEach((abilityId) => {
     console.log(JSON.stringify(abilityData[abilityId], undefined, 2));
   });
 
-  Object.values(abilityData).forEach(ability => {
+  Object.values(abilityData).forEach((ability) => {
     if (
       ability.CareerID !== 0 &&
-      ability.Components.find(component => component?.A07 != 0)
+      ability.Components.find((component) => component?.A07 != 0)
     ) {
       console.log(
         colors.cyan(ability.Name),
         colors.red(ability.AbilityID.toString()),
         ability.AbilityType,
         ability.Description,
-        ability.Components.map(component => component?.A07),
+        ability.Components.map((component) => component?.A07),
       );
     }
-  });
+  }); */
 
   await validateCareer(
     'ironbreaker',
@@ -527,6 +530,6 @@ const main = async () => {
 
 main()
   .then()
-  .catch(err => {
+  .catch((err) => {
     console.error(err);
   });

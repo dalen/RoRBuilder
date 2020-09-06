@@ -28,7 +28,7 @@ const component = object({
   Data: array(nullable(componentData)),
   Values: array(integer),
   Multipliers: array(integer),
-  A05: integer,
+  Delay: integer,
   Duration: integer,
   A07: integer,
   A08: integer,
