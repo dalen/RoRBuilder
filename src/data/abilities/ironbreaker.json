@@ -137,23 +137,22 @@
       "image": "04591",
       "id": 3774,
       "name": "Avenging the Debt",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Path of Stone",
       "minrank": "25",
       "cost": "No AP Cost",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Costs 20 Grudge",
-      "description": "A decisive final strike that deals 194 damage to your enemy.  If the target dies immediately after being hit by this attack, then you will regain 285 health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
+      "cooldown": "30s cooldown",
+      "note": "Costs 25 Grudge",
+      "description": "Upon spotting a hated foe your rage boils over. You remove all movement impairing effects. For each effect removed, you will regain 133 health. Your Oath Friend will be affected as well if they're within 50 feet of you.",
       "category": "Ability",
       "gameId": 1381,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 194,
-        "COM_2_VAL0_COM_0_VAL0_HEALTH": 285,
+        "COM_2_VAL0_COM_0_VAL0_HEALTH": 133,
         "ABIL_3825_COM_1_RADI_FEET": 50
       },
-      "rawDescription": "A decisive final strike that deals {COM_0_VAL0_DAMAGE} to your enemy.  If the target dies immediately after being hit by this attack, then you will regain {COM_2_VAL0_COM_0_VAL0_HEALTH}, and your Oath Friend will be affected as well if they're within {ABIL_3825_COM_1_RADI_FEET} of you."
+      "rawDescription": "Upon spotting a hated foe your rage boils over. You remove all movement impairing effects. For each effect removed, you will regain {COM_2_VAL0_COM_0_VAL0_HEALTH}. Your Oath Friend will be affected as well if they're within {ABIL_3825_COM_1_RADI_FEET} of you."
     },
     {
       "image": "04584",
@@ -208,12 +207,12 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts 104 damage. Has a chance to deal 703 damage to a severely wounded target if you are behind them.",
+      "description": "A basic throwing attack that inflicts 79 damage. Has a chance to deal 679 damage to a severely wounded target if you are behind them.",
       "category": "Ability",
       "gameId": 1352,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 104,
-        "COM_0_VAL0_DAMAGE": 703
+        "COM_1_VAL0_DAMAGE": 79,
+        "COM_0_VAL0_DAMAGE": 679
       },
       "rawDescription": "A basic throwing attack that inflicts {COM_1_VAL0_DAMAGE}. Has a chance to deal {COM_0_VAL0_DAMAGE} to a severely wounded target if you are behind them."
     },
@@ -300,7 +299,7 @@
       "image": "23174",
       "id": 3757,
       "name": "Champion's Challenge",
-      "type": "Buff",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
@@ -320,7 +319,7 @@
       "image": "23172",
       "id": 3755,
       "name": "Demolishing Strike",
-      "type": "Buff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "8",
       "cost": "Rank 1 morale",
@@ -342,7 +341,7 @@
       "image": "23173",
       "id": 3759,
       "name": "Distracting Bellow",
-      "type": "Buff",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 2 morale",
@@ -1092,13 +1091,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grudging Blow and Heavy Blow will cost 15 fewer action points.",
+      "description": "After a successful parry, there is a 20% chance your next ability will cost no Action Points. This effect can occur no more than once every 5 seconds.",
       "category": "CareerTactic",
       "gameId": 1398,
-      "componentValues": {
-        "COM_0_VAL1": 15
-      },
-      "rawDescription": "Grudging Blow and Heavy Blow will cost {COM_0_VAL1} fewer action points."
+      "componentValues": {},
+      "rawDescription": "After a successful parry, there is a 20% chance your next ability will cost no Action Points. This effect can occur no more than once every 5 seconds."
     },
     {
       "image": "22694",
@@ -1128,16 +1125,16 @@
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Rank 1 morale",
-      "range": "5ft range",
+      "range": "30ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 600 damage to your target and roots them in place for 10 seconds.",
+      "description": "Deals 900 damage to your target and roots them in place for 5 seconds.",
       "category": "Morale",
       "gameId": 1418,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 600,
-        "COM_1_DURA_SECONDS": 10
+        "COM_0_VAL0_DAMAGE": 900,
+        "COM_1_DURA_SECONDS": 5
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target and roots them in place for {COM_1_DURA_SECONDS}."
     },
@@ -1194,12 +1191,12 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 30 Grudge",
-      "description": "You invoke a powerful rune that you've learned, and become surrounded by a protective barrier for 10 seconds which will absorb up to 50 magical damage. Your Oath Friend will be affected as well if they're within 50 feet of you. During this time, you will gain 15 Grudges each time you're hit by an enemy spell.",
+      "description": "You invoke a powerful rune that you've learned, and become surrounded by a protective barrier for 10 seconds which will absorb up to 625 magical damage. Your Oath Friend will be affected as well if they're within 50 feet of you. During this time, you will gain 15 Grudges each time you're hit by an enemy spell.",
       "category": "Ability",
       "gameId": 1386,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL1": 50,
+        "COM_0_VAL1": 625,
         "COM_1_RADI_FEET": 50
       },
       "rawDescription": "You invoke a powerful rune that you've learned, and become surrounded by a protective barrier for {COM_0_DURA_SECONDS} which will absorb up to {COM_0_VAL1} magical damage. Your Oath Friend will be affected as well if they're within {COM_1_RADI_FEET} of you. During this time, you will gain 15 Grudges each time you're hit by an enemy spell."
@@ -1318,8 +1315,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Costs 25 Grudge<br>Requires Shield",
-      "description": "You bring your shield around in a smashing hit, dealing 135 damage to up to three enemies within 25 feet of them.<BR>When hitting targets you regain 10 Grudges for each target that you hit.",
+      "note": "Costs 10 Grudge<br>Requires Shield",
+      "description": "You bring your shield around in a smashing hit, dealing 135 damage to up to five enemies within 25 feet of them.<BR>When hitting targets you regain 10 Grudges for each target that you hit.",
       "category": "Ability",
       "gameId": 1361,
       "componentValues": {
@@ -1327,7 +1324,7 @@
         "COM_0_RADI_FEET": 25,
         "COM_2_VAL0_COM_0_VAL0": 10
       },
-      "rawDescription": "You bring your shield around in a smashing hit, dealing {COM_0_VAL0_DAMAGE} to up to three enemies within {COM_0_RADI_FEET} of them.<BR>When hitting targets you regain {COM_2_VAL0_COM_0_VAL0} Grudges for each target that you hit."
+      "rawDescription": "You bring your shield around in a smashing hit, dealing {COM_0_VAL0_DAMAGE} to up to five enemies within {COM_0_RADI_FEET} of them.<BR>When hitting targets you regain {COM_2_VAL0_COM_0_VAL0} Grudges for each target that you hit."
     },
     {
       "image": "23177",
@@ -1533,13 +1530,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy, each group member within 100 feet will gain 25 Action Points. This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you spend Grudge, each group member within 100ft will gain Action Points equivalent to Grudge spent.",
       "category": "CareerTactic",
       "gameId": 1411,
-      "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 25
-      },
-      "rawDescription": "Any time you critically hit an enemy, each group member within 100 feet will gain {COM_1_VAL0_ACTIONPOINTS}. This effect will not trigger more than once every 3 seconds."
+      "componentValues": {},
+      "rawDescription": "Any time you spend Grudge, each group member within 100ft will gain Action Points equivalent to Grudge spent."
     },
     {
       "image": "22694",
