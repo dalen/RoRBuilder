@@ -139,6 +139,12 @@ export enum ComponentA07Flags {
 }
 
 export enum ComponentA15Flags {
-  NO_INITIAL_TICK = 1, // No tick on dot/hot/AP change apply
+  NO_FINAL_TICK = 1, // No tick on dot/hot/AP change apply
+  FLAG1 = Math.pow(2, 1), // ??
   STATIC_VALUE = 4,
+  FLAG3 = Math.pow(2, 3), // ??
+  FLAG4 = Math.pow(2, 4), // ?? initial tick on channel ?
+  FLAG5 = Math.pow(2, 5), // ??
+  FLAG6 = Math.pow(2, 6), // ?? initial tick on channel ?
+  FLAG7 = Math.pow(2, 7), // ??
 }

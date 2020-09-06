@@ -19,13 +19,13 @@ export const getAbilityID = (componentString: string): void | number => {
 };
 
 export const getComponentIndices = (componentString: string): number[] => {
-  return Array.from(componentString.matchAll(/COM_(\d+)_/g)).map(m =>
+  return Array.from(componentString.matchAll(/COM_(\d+)_/g)).map((m) =>
     Number(m[1]),
   );
 };
 
 export const getValueIndices = (componentString: string): number[] => {
-  return Array.from(componentString.matchAll(/COM_\d+_VAL(\d+)/g)).map(m =>
+  return Array.from(componentString.matchAll(/COM_\d+_VAL(\d+)/g)).map((m) =>
     Number(m[1]),
   );
 };
@@ -39,7 +39,7 @@ const calculateDamage = (
   tod: boolean,
 ) => {
   const multIndex = 0;
-  const intervalDuration =
+  const intervalNumber =
     component.Duration > 0 && component.Interval > 0
       ? Math.floor(component.Duration / component.Interval)
       : 1;
@@ -59,12 +59,18 @@ const calculateDamage = (
     return baseValue;
   }
 
-  if (intervalDuration > 1 && ability.ChannelInterval <= 0) {
-    return result * intervalDuration;
-  }
-
   if (tod) {
-    return result * (component.Duration / 1000 + 1);
+    if (intervalNumber > 1 && ability.ChannelInterval <= 0) {
+      return result * intervalNumber;
+    }
+
+    return (
+      result *
+      (component.Duration / 1000 +
+        (component.A15 & ComponentA15Flags.FLAG4 ? 1 : 0) +
+        (component.A15 & ComponentA15Flags.FLAG6 ? 1 : 0) +
+        1)
+    );
   }
 
   return result;
@@ -88,7 +94,7 @@ const calculateStatContribution = (
   // ScaleStateMult = 0 seems to mean this value instead in fact
   const defaultScaleStat = 150;
 
-  const intervalDuration =
+  const intervalNumber =
     component.Duration > 0 && component.Interval > 0
       ? Math.floor(component.Duration / component.Interval)
       : 1;
@@ -112,12 +118,18 @@ const calculateStatContribution = (
     (stat * (ability.ScaleStatMult || defaultScaleStat)) / 100 / 5,
   );
 
-  if (intervalDuration > 1 && ability.ChannelInterval <= 0) {
-    return result * intervalDuration;
+  if (intervalNumber > 1 && ability.ChannelInterval <= 0) {
+    return result * intervalNumber;
   }
 
   if (tod) {
-    return result * (component.Duration / 1000 + 1);
+    return (
+      result *
+      (component.Duration / 1000 +
+        (component.A15 & ComponentA15Flags.FLAG4 ? 1 : 0) +
+        (component.A15 & ComponentA15Flags.FLAG6 ? 1 : 0) +
+        1)
+    );
   }
 
   return result;
@@ -386,7 +398,7 @@ const validateComponentValue = (
         return (
           value *
           (component.Duration / component.Interval +
-            (component.A15 & ComponentA15Flags.NO_INITIAL_TICK ? 0 : 1))
+            (component.A15 & ComponentA15Flags.NO_FINAL_TICK ? 0 : 1))
         ); // Values[1] seems to be -1 when there is n
       }
       return value;
@@ -452,7 +464,7 @@ export const validateComponentValues = (
 
   return {
     componentValues: Object.fromEntries(
-      componentValueNames.map(name => {
+      componentValueNames.map((name) => {
         const previousNumber = componentValues[name] || 0;
         return [
           name,

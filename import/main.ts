@@ -239,7 +239,6 @@ const main = async () => {
   );
 
   // Debug
-  /*
   const printDebugAbilities: number[] = [8082];
   printDebugAbilities.forEach((abilityId) => {
     console.log(JSON.stringify(abilityData[abilityId], undefined, 2));
@@ -258,7 +257,7 @@ const main = async () => {
         ability.Components.map((component) => component?.A07),
       );
     }
-  }); */
+  });
 
   await validateCareer(
     'ironbreaker',
