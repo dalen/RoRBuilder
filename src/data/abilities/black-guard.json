@@ -704,7 +704,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "For up to 10 seconds your superior training allows you to easily Parry the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <BR> With 30 Hate: Restores 5 AP. <BR> With 60 Hate: Restores 10 AP.<BR> With 90 Hate: Restores 15 AP",
+      "description": "For up to 10 seconds your superior training allows you to easily Parry or Disrupt the next 4 attacks made against you. Your Dark Protector will receive the benefits if they are within 50ft. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <BR> With 30 Hate: Restores 5 AP. <BR> With 60 Hate: Restores 10 AP.<BR> With 90 Hate: Restores 15 AP",
       "category": "Ability",
       "gameId": 9347,
       "componentValues": {
@@ -713,7 +713,7 @@
         "COM_4_VAL0": 10,
         "COM_5_VAL0": 15
       },
-      "rawDescription": "For up to {COM_0_DURA_SECONDS} your superior training allows you to easily Parry the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <BR> With 30 Hate: Restores {COM_3_VAL0} AP. <BR> With 60 Hate: Restores {COM_4_VAL0} AP.<BR> With 90 Hate: Restores {COM_5_VAL0} AP"
+      "rawDescription": "For up to {COM_0_DURA_SECONDS} your superior training allows you to easily Parry or Disrupt the next 4 attacks made against you. Your Dark Protector will receive the benefits if they are within 50ft. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <BR> With 30 Hate: Restores {COM_3_VAL0} AP. <BR> With 60 Hate: Restores {COM_4_VAL0} AP.<BR> With 90 Hate: Restores {COM_5_VAL0} AP"
     },
     {
       "image": "22666",
