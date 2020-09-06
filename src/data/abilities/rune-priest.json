@@ -305,14 +305,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
+      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
       "category": "CareerTactic",
       "gameId": 585,
       "componentValues": {
         "COM_0_VAL0": 25,
         "COM_1_VAL1": 20
       },
-      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your healing becomes {COM_1_VAL1}% less effective."
+      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your casted heals become {COM_1_VAL1}% less effective."
     },
     {
       "image": "23152",
@@ -903,7 +903,7 @@
       "type": "Damaging",
       "spec": "Path of Valaya",
       "minrank": "25",
-      "cost": "20 Action Points / Sec",
+      "cost": "13 Action Points / Sec",
       "range": "100ft range",
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
@@ -1485,11 +1485,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
+      "description": "Enemy monsters will hate you 25% less than normal.",
       "category": "CareerTactic",
       "gameId": 588,
       "componentValues": {},
-      "rawDescription": "All of your heals will cause enemy monsters to hate you 25% less than normal."
+      "rawDescription": "Enemy monsters will hate you 25% less than normal."
     },
     {
       "image": "22703",
