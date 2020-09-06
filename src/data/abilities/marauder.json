@@ -222,13 +222,13 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting 130 damage.",
+      "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting 113 damage.",
       "category": "Ability",
       "gameId": 8423,
       "componentValues": {
         "COM_0_RADI_FEET": 25,
         "COM_1_DURA_SECONDS": 2,
-        "COM_0_VAL0_DAMAGE": 130
+        "COM_0_VAL0_DAMAGE": 113
       },
       "rawDescription": "A great wave of concussive force knocks down all targets {COM_0_RADI_FEET} in front of you for {COM_1_DURA_SECONDS}, inflicting {COM_0_VAL0_DAMAGE}."
     },
@@ -450,11 +450,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "A widespread attack that inflicts 150 damage to all targets up to 25 feet in front of you.",
+      "description": "A widespread attack that inflicts 138 damage to all targets up to 25 feet in front of you.",
       "category": "Ability",
       "gameId": 8409,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 150,
+        "COM_0_VAL0_DAMAGE": 138,
         "COM_0_RADI_FEET": 25
       },
       "rawDescription": "A widespread attack that inflicts {COM_0_VAL0_DAMAGE} to all targets up to {COM_0_RADI_FEET} in front of you."
@@ -596,16 +596,16 @@
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Rank 1 morale",
-      "range": "65ft range",
+      "range": "30ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and rooting them in place for 10 seconds.",
+      "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and rooting them in place for 5 seconds.",
       "category": "Morale",
       "gameId": 8449,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 900,
-        "COM_1_DURA_SECONDS": 10
+        "COM_1_DURA_SECONDS": 5
       },
       "rawDescription": "Your target is engulfed in the chaotic flames of fate, dealing {COM_0_VAL0_DAMAGE} and rooting them in place for {COM_1_DURA_SECONDS}."
     },
@@ -744,12 +744,12 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Gift of Monstrosity",
-      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your melee attacks have a 25% chance to empower you for 5 seconds, gradually restoring 860 health and letting you shrug off your enemy's armor penetration.",
+      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your melee attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health and letting you shrug off your enemy's armor penetration.",
       "category": "Ability",
       "gameId": 8403,
       "componentValues": {
         "ABIL_3045_COM_1_DURA_SECONDS": 5,
-        "ABIL_3045_COM_1_VAL0_TOD_HEALTH": 860
+        "ABIL_3045_COM_1_VAL0_TOD_HEALTH": 1032
       },
       "rawDescription": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your melee attacks have a 25% chance to empower you for {ABIL_3045_COM_1_DURA_SECONDS}, gradually restoring {ABIL_3045_COM_1_VAL0_TOD_HEALTH} and letting you shrug off your enemy's armor penetration."
     },
@@ -989,12 +989,12 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
-      "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting 144 damage to all in range.",
+      "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting 133 damage to all in range.",
       "category": "Ability",
       "gameId": 8397,
       "componentValues": {
         "COM_0_RADI_FEET": 40,
-        "COM_0_VAL0_DAMAGE": 144
+        "COM_0_VAL0_DAMAGE": 133
       },
       "rawDescription": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast {COM_0_RADI_FEET} in front of you, and inflicting {COM_0_VAL0_DAMAGE} to all in range."
     },
@@ -1295,11 +1295,11 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You throw an axe that deals 105 damage to your prey.",
+      "description": "You throw an axe that deals 82 damage to your prey.",
       "category": "Ability",
       "gameId": 8393,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 105
+        "COM_0_VAL0_DAMAGE": 82
       },
       "rawDescription": "You throw an axe that deals {COM_0_VAL0_DAMAGE} to your prey."
     },
@@ -1502,11 +1502,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A wave of horror spreads forth from you, dealing 602 damage over 21 seconds to all enemies within 30 feet and reducing their Weapon Skill by 75 and Initiative by 50.",
+      "description": "A wave of horror spreads forth from you, dealing 553 damage over 21 seconds to all enemies within 30 feet and reducing their Weapon Skill by 75 and Initiative by 50.",
       "category": "Ability",
       "gameId": 8417,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 602,
+        "COM_0_VAL0_TOD_DAMAGE": 553,
         "COM_0_DURA_SECONDS": 21,
         "COM_0_RADI_FEET": 30,
         "COM_2_VAL0": 75,
@@ -1568,11 +1568,11 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "You spin in a circle with your club arm extended, aimlessly inflicting 137 damage every half second to all targets within 30 feet in front of you for up to 3 seconds.  This effect will end if you break your concentration or run out of action points.",
+      "description": "You spin in a circle with your club arm extended, aimlessly inflicting 132 damage every half second to all targets within 30 feet in front of you for up to 3 seconds.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
       "gameId": 8425,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 137,
+        "COM_1_VAL0_DAMAGE": 132,
         "COM_1_RADI_FEET": 30,
         "COM_0_DURA_SECONDS": 3
       },

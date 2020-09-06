@@ -102,12 +102,12 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 1464 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale",
       "gameId": 697,
       "componentValues": {
         "COM_1_RADI_FEET": 30,
-        "ABIL_3884_COM_0_VAL0_TOD": 424,
+        "ABIL_3884_COM_0_VAL0_TOD": 1464,
         "ABIL_3884_COM_0_DURA_SECONDS": 9,
         "ABIL_3876_COM_0_VAL0": 20,
         "ABIL_3876_COM_0_DURA_SECONDS": 10
@@ -227,13 +227,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Critical attacks place a debuff on your target that reduces all incoming healing by 50% for 10 seconds.",
+      "description": "Critical single target attacks place a debuff on your target that reduces all incoming healing by 50% for 10 seconds.",
       "category": "CareerTactic",
       "gameId": 8596,
       "componentValues": {
         "ABIL_3075_COM_0_DURA_SECONDS": 10
       },
-      "rawDescription": "Critical attacks place a debuff on your target that reduces all incoming healing by 50% for {ABIL_3075_COM_0_DURA_SECONDS}."
+      "rawDescription": "Critical single target attacks place a debuff on your target that reduces all incoming healing by 50% for {ABIL_3075_COM_0_DURA_SECONDS}."
     },
     {
       "image": "05110",
@@ -326,7 +326,7 @@
       "type": "Healing",
       "spec": "Path of Witchcraft",
       "minrank": "10",
-      "cost": "55 Action Points",
+      "cost": "45 Action Points",
       "range": "150ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
@@ -415,14 +415,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
+      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
       "category": "CareerTactic",
       "gameId": 585,
       "componentValues": {
         "COM_0_VAL0": 25,
         "COM_1_VAL1": 20
       },
-      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your healing becomes {COM_1_VAL1}% less effective."
+      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your casted heals become {COM_1_VAL1}% less effective."
     },
     {
       "image": "23152",
@@ -570,7 +570,7 @@
       "image": "05134",
       "id": 5711,
       "name": "Eye of Sheerian",
-      "type": "Healing",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 2 morale",
@@ -652,7 +652,7 @@
       "image": "05235",
       "id": 5694,
       "name": "Glimpse of Chaos",
-      "type": "Damaging",
+      "type": "Healing",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "25 Action Points",
@@ -855,7 +855,7 @@
       "image": "23154",
       "id": 5718,
       "name": "Rampaging Siphon",
-      "type": "Buff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "Rank 2 morale",
@@ -1022,7 +1022,7 @@
       "image": "23155",
       "id": 5719,
       "name": "Steal Life",
-      "type": "Buff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
@@ -1045,7 +1045,7 @@
       "type": "Damaging",
       "spec": "Path of Witchcraft",
       "minrank": "25",
-      "cost": "20 Action Points / Sec",
+      "cost": "13 Action Points / Sec",
       "range": "100ft range",
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
@@ -1072,11 +1072,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
+      "description": "Enemy monsters will hate you 25% less than normal.",
       "category": "CareerTactic",
       "gameId": 588,
       "componentValues": {},
-      "rawDescription": "All of your heals will cause enemy monsters to hate you 25% less than normal."
+      "rawDescription": "Enemy monsters will hate you 25% less than normal."
     },
     {
       "image": "05135",
@@ -1291,11 +1291,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All groupmates within 100 feet are healed for 2394 health over 15 seconds and regain 25 Action Points every second for 15 seconds",
+      "description": "All groupmates within 100 feet are healed for 1596 health over 15 seconds and regain 25 Action Points every second for 15 seconds",
       "category": "Morale",
       "gameId": 8612,
       "componentValues": {
-        "COM_0_VAL0_TOD_HEALTH": 2394,
+        "COM_0_VAL0_TOD_HEALTH": 1596,
         "COM_0_DURA_SECONDS": 15,
         "COM_1_VAL0": 25,
         "COM_1_DURA_SECONDS": 15
@@ -1314,13 +1314,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All group mates within 100 feet are granted 250 Action Points, and for 20 seconds, everyone will absorb up to 5400 damage.",
+      "description": "All group mates within 100 feet are granted 250 Action Points, and for 20 seconds, everyone will absorb up to 3600 damage.",
       "category": "Morale",
       "gameId": 8611,
       "componentValues": {
         "COM_1_VAL0_ACTIONPOINTS": 250,
         "COM_0_DURA_SECONDS": 20,
-        "COM_0_VAL1_DAMAGE": 5400
+        "COM_0_VAL1_DAMAGE": 3600
       },
       "rawDescription": "All group mates within 100 feet are granted {COM_1_VAL0_ACTIONPOINTS}, and for {COM_0_DURA_SECONDS}, everyone will absorb up to {COM_0_VAL1_DAMAGE}."
     },
@@ -1421,11 +1421,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 50 damage.<BR>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 797,
       "componentValues": {
-        "ABIL_3996_COM_0_VAL1": 50
+        "ABIL_3996_COM_0_VAL1": 375
       },
       "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
     },
@@ -1506,11 +1506,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Inflicts 1800 damage to all targets within 30 feet of you, making heals 50% less effective on them for 10 seconds. This ability hits max 9 targets.",
+      "description": "Inflicts 1200 damage to all targets within 30 feet of you, making heals 50% less effective on them for 10 seconds. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 8613,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1800,
+        "COM_0_VAL0_DAMAGE": 1200,
         "COM_0_RADI_FEET": 30,
         "COM_1_DURA_SECONDS": 10
       },

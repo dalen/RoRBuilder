@@ -208,12 +208,12 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Cooldown on Shut Yer Face is reduced by 5 seconds and damage is increased to 438",
+      "description": "Cooldown on Shut Yer Face is reduced by 5 seconds and damage is increased to 614",
       "category": "CareerTactic",
       "gameId": 1704,
       "componentValues": {
         "COM_0_VAL1_SECONDS": 5,
-        "ABIL_1683_COM_2_VAL0": 438
+        "ABIL_1683_COM_2_VAL0": 614
       },
       "rawDescription": "Cooldown on Shut Yer Face is reduced by {COM_0_VAL1_SECONDS} and damage is increased to {ABIL_1683_COM_2_VAL0}"
     },
@@ -285,7 +285,7 @@
       "image": "23174",
       "id": 4477,
       "name": "Champion's Challenge",
-      "type": "Buff",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
@@ -472,7 +472,7 @@
       "image": "23172",
       "id": 4475,
       "name": "Demolishing Strike",
-      "type": "Buff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "8",
       "cost": "Rank 1 morale",
@@ -494,7 +494,7 @@
       "image": "23173",
       "id": 4479,
       "name": "Distracting Bellow",
-      "type": "Buff",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 2 morale",
@@ -837,12 +837,12 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts 104 damage. Has a chance to deal 703 damage to a severely wounded target if you are behind them.",
+      "description": "A basic throwing attack that inflicts 80 damage. Has a chance to deal 680 damage to a severely wounded target if you are behind them.",
       "category": "Ability",
       "gameId": 1665,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 104,
-        "COM_0_VAL0_DAMAGE": 703
+        "COM_1_VAL0_DAMAGE": 80,
+        "COM_0_VAL0_DAMAGE": 680
       },
       "rawDescription": "A basic throwing attack that inflicts {COM_1_VAL0_DAMAGE}. Has a chance to deal {COM_0_VAL0_DAMAGE} to a severely wounded target if you are behind them."
     },
@@ -1083,12 +1083,12 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "Deals 127 damage. Activates a protective shield on yourself and any of your groupmates within 80 feet of you that absorbs up to 50 over 5 seconds.",
+      "description": "Deals 127 damage. Activates a protective shield on yourself and any of your groupmates within 80 feet of you that absorbs up to 400 over 5 seconds.",
       "category": "Ability",
       "gameId": 1694,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 127,
-        "COM_1_VAL1": 50,
+        "COM_1_VAL1": 400,
         "COM_1_DURA_SECONDS": 5
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE}. Activates a protective shield on yourself and any of your groupmates within 80 feet of you that absorbs up to {COM_1_VAL1} over {COM_1_DURA_SECONDS}."
@@ -1167,11 +1167,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Target must have an Enchantment",
-      "description": "A shattering attack that removes one Enchantment from your enemy and deals 122 damage.",
+      "description": "A shattering attack that removes one Enchantment from your enemy and deals 127 damage.",
       "category": "Ability",
       "gameId": 1733,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 122
+        "COM_1_VAL0_DAMAGE": 127
       },
       "rawDescription": "A shattering attack that removes one Enchantment from your enemy and deals {COM_1_VAL0_DAMAGE}."
     },
@@ -1478,11 +1478,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "You smash your weapon into your target, dealing 109 damage and reducing their armor by 618 for 20 seconds.",
+      "description": "You smash your weapon into your target, dealing 102 damage and reducing their armor by 618 for 20 seconds.",
       "category": "Ability",
       "gameId": 1666,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 109,
+        "COM_0_VAL0_DAMAGE": 102,
         "COM_1_VAL0_COM_0_VAL0": 618,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 20
       },
@@ -1557,7 +1557,7 @@
       "image": "abi_or_figure01",
       "id": 7575,
       "name": "You Wot!?!!!",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Path of Da' Brawler",
       "minrank": "9",
       "cost": "20 Action Points",

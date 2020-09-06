@@ -1084,16 +1084,16 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<BR>   1 Blood Lust:  750 damage.<BR>   2 Blood Lust:   900 damage.<BR>   3 Blood Lust:   1056 damage.<BR>   4 Blood Lust:   1200 damage.<BR>   5 Blood Lust:   1350 damage.",
+      "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<BR>   1 Blood Lust:  606 damage.<BR>   2 Blood Lust:   756 damage.<BR>   3 Blood Lust:   912 damage.<BR>   4 Blood Lust:   1056 damage.<BR>   5 Blood Lust:   1206 damage.",
       "category": "Ability",
       "gameId": 9399,
       "componentValues": {
         "COM_0_DURA_SECONDS": 3,
-        "COM_0_VAL0_TOD_DAMAGE": 750,
-        "COM_1_VAL0_TOD_DAMAGE": 900,
-        "COM_2_VAL0_TOD_DAMAGE": 1056,
-        "COM_3_VAL0_TOD_DAMAGE": 1200,
-        "COM_4_VAL0_TOD_DAMAGE": 1350
+        "COM_0_VAL0_TOD_DAMAGE": 606,
+        "COM_1_VAL0_TOD_DAMAGE": 756,
+        "COM_2_VAL0_TOD_DAMAGE": 912,
+        "COM_3_VAL0_TOD_DAMAGE": 1056,
+        "COM_4_VAL0_TOD_DAMAGE": 1206
       },
       "rawDescription": "A relentless string of attacks which repeatedly strikes your target up to 6 times over {COM_0_DURA_SECONDS}.<BR>   1 Blood Lust:  {COM_0_VAL0_TOD_DAMAGE}.<BR>   2 Blood Lust:   {COM_1_VAL0_TOD_DAMAGE}.<BR>   3 Blood Lust:   {COM_2_VAL0_TOD_DAMAGE}.<BR>   4 Blood Lust:   {COM_3_VAL0_TOD_DAMAGE}.<BR>   5 Blood Lust:   {COM_4_VAL0_TOD_DAMAGE}."
     },

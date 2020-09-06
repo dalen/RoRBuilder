@@ -14,7 +14,14 @@
         "lvl6": 3097,
         "lvl7": 3098
       },
-      "coreAbilities": [3060, 3045, 3046, 3053, 3067, 3064]
+      "coreAbilities": [
+        3060,
+        3045,
+        3046,
+        3053,
+        3067,
+        3064
+      ]
     },
     "b": {
       "name": "Path of Vigilance",
@@ -30,7 +37,14 @@
         "lvl6": 3104,
         "lvl7": 3105
       },
-      "coreAbilities": [3148, 3047, 3052, 3059, 3058, 3056]
+      "coreAbilities": [
+        3148,
+        3047,
+        3052,
+        3059,
+        3058,
+        3056
+      ]
     },
     "c": {
       "name": "Path of Glory",
@@ -46,7 +60,14 @@
         "lvl6": 3111,
         "lvl7": 3112
       },
-      "coreAbilities": [3050, 3062, 3066, 3063, 3049, 3048]
+      "coreAbilities": [
+        3050,
+        3062,
+        3066,
+        3063,
+        3049,
+        3048
+      ]
     }
   },
   "data": [
@@ -54,7 +75,7 @@
       "image": "07996",
       "id": 3064,
       "name": "All Out Assault!",
-      "type": "",
+      "type": "Unknown",
       "spec": "Path of Conquest",
       "minrank": "25",
       "cost": "No AP Cost",
@@ -62,15 +83,15 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You become filled with the endless power of Myrmidia, dealing 148 damage every 3 seconds to all enemies within 30 feet.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
+      "description": "You become filled with the endless power of Myrmidia, dealing 99 Elemental damage every 3 seconds to all enemies within 30 feet.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
       "gameId": 8022,
       "componentValues": {
-        "COM_4_VAL0_DAMAGE": 148,
+        "COM_4_VAL0_ELEMENTALDAMAGE": 99,
         "COM_3_FREQ_SECONDS": 3,
         "COM_4_RADI_FEET": 30
       },
-      "rawDescription": "You become filled with the endless power of Myrmidia, dealing {COM_4_VAL0_DAMAGE} every {COM_3_FREQ_SECONDS} to all enemies within {COM_4_RADI_FEET}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
+      "rawDescription": "You become filled with the endless power of Myrmidia, dealing {COM_4_VAL0_ELEMENTALDAMAGE} every {COM_3_FREQ_SECONDS} to all enemies within {COM_4_RADI_FEET}.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
     },
     {
       "image": "08057",
@@ -84,11 +105,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You sweep your blade out in a wide arc, dealing 109 damage to all enemies 25 feet in front of you, and reducing their Wounds by 75.",
+      "description": "You sweep your blade out in a wide arc, dealing 84 damage to all enemies 25 feet in front of you, and reducing their Wounds by 75.",
       "category": "Ability",
       "gameId": 8026,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 109,
+        "COM_0_VAL0_DAMAGE": 84,
         "COM_0_RADI_FEET": 25,
         "COM_2_VAL0": 75
       },
@@ -166,12 +187,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The force of the sun fills your blade, dealing 142 damage to the enemy and the victim will also suffer 258 over the next 9 seconds. This effect is stackable up to three times.",
+      "description": "The force of the sun fills your blade, dealing 105 damage to the enemy and the victim will also suffer 192 over the next 9 seconds. This effect is stackable up to three times.",
       "category": "Ability",
       "gameId": 8007,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 142,
-        "COM_1_VAL0_COM_1_VAL0_TOD": 258,
+        "COM_0_VAL0_DAMAGE": 105,
+        "COM_1_VAL0_COM_1_VAL0_TOD": 192,
         "COM_1_VAL0_COM_1_DURA_SECONDS": 9
       },
       "rawDescription": "The force of the sun fills your blade, dealing {COM_0_VAL0_DAMAGE} to the enemy and the victim will also suffer {COM_1_VAL0_COM_1_VAL0_TOD} over the next {COM_1_VAL0_COM_1_DURA_SECONDS}. This effect is stackable up to three times."
@@ -201,7 +222,7 @@
       "image": "23174",
       "id": 3085,
       "name": "Champion's Challenge",
-      "type": "Buff",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
@@ -222,7 +243,7 @@
       "id": 3099,
       "name": "Coordination",
       "type": "Buff",
-      "spec": "Path or Vigilance",
+      "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
@@ -249,11 +270,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "A cruel slash at your victim's legs which deals 171 damage and snares them, reducing their run speed by 40% for 10 seconds.",
+      "description": "A cruel slash at your victim's legs which deals 134 damage and snares them, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability",
       "gameId": 8012,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 171,
+        "COM_0_VAL0_DAMAGE": 134,
         "COM_1_VAL0": 40,
         "COM_1_DURA_SECONDS": 10
       },
@@ -263,7 +284,7 @@
       "image": "23172",
       "id": 3083,
       "name": "Demolishing Strike",
-      "type": "Buff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "8",
       "cost": "Rank 1 morale",
@@ -286,7 +307,7 @@
       "id": 3101,
       "name": "Dirty Tricks",
       "type": "Buff",
-      "spec": "Path or Vigilance",
+      "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
@@ -306,7 +327,7 @@
       "image": "23173",
       "id": 3087,
       "name": "Distracting Bellow",
-      "type": "Buff",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 2 morale",
@@ -329,7 +350,7 @@
       "id": 3096,
       "name": "Efficient Swings",
       "type": "Buff",
-      "spec": "Path or Conquest",
+      "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
@@ -391,7 +412,7 @@
       "id": 3094,
       "name": "Overpowering Swing",
       "type": "Buff",
-      "spec": "Path or Conquest",
+      "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
@@ -454,7 +475,7 @@
       "id": 3108,
       "name": "Focused Mending",
       "type": "Defensive",
-      "spec": "Path or Glory",
+      "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
@@ -495,7 +516,7 @@
       "image": "08002",
       "id": 3049,
       "name": "Gather Your Resolve!",
-      "type": "",
+      "type": "Unknown",
       "spec": "Path of Glory",
       "minrank": "6",
       "cost": "No AP Cost",
@@ -587,11 +608,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 105 damage to all enemies in front of you up to 40 feet away.  Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
+      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 80 damage to all enemies in front of you up to 40 feet away.  Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
       "gameId": 8038,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 105,
+        "COM_0_VAL0_DAMAGE": 80,
         "COM_0_RADI_FEET": 40,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 5
       },
@@ -601,7 +622,7 @@
       "image": "07997",
       "id": 3054,
       "name": "Hold The Line!",
-      "type": "Defensive",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "20 Action Points / Sec",
@@ -664,7 +685,7 @@
       "id": 3103,
       "name": "Laurels of Victory",
       "type": "Defensive",
-      "spec": "Path or Vigilance",
+      "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
@@ -727,11 +748,11 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "You slam into your target without remorse, dealing up to 792 damage over 3 seconds.  This effect will end if you break your concentration or run out of action points.",
+      "description": "You slam into your target without remorse, dealing up to 570 damage over 3 seconds.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
       "gameId": 8031,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 792,
+        "COM_0_VAL0_TOD_DAMAGE": 570,
         "COM_0_DURA_SECONDS": 3
       },
       "rawDescription": "You slam into your target without remorse, dealing up to {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}.  This effect will end if you break your concentration or run out of action points."
@@ -770,13 +791,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all enemies in a line in front of you, up to 65 feet away, and an additional 1206 damage over 9 seconds.",
+      "description": "Deals 800 damage to all enemies in a line in front of you, up to 65 feet away, and an additional 804 damage over 9 seconds.",
       "category": "Morale",
       "gameId": 8074,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_VAL0_DAMAGE": 800,
         "COM_0_RADI_FEET": 65,
-        "COM_1_VAL0_TOD_DAMAGE": 1206,
+        "COM_1_VAL0_TOD_DAMAGE": 804,
         "COM_1_DURA_SECONDS": 9
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in a line in front of you, up to {COM_0_RADI_FEET} away, and an additional {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
@@ -785,7 +806,7 @@
       "image": "08066",
       "id": 3107,
       "name": "Now's Our Chance!",
-      "type": "",
+      "type": "Unknown",
       "spec": "Path of Glory",
       "minrank": "21",
       "cost": "No AP Cost",
@@ -807,7 +828,7 @@
       "image": "07991",
       "id": 3056,
       "name": "On Your Guard!",
-      "type": "",
+      "type": "Unknown",
       "spec": "Path of Vigilance",
       "minrank": "12",
       "cost": "No AP Cost",
@@ -815,11 +836,11 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to ready their defenses, causing 225 damage back against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
+      "description": "You order your group to ready their defenses, causing 150 damage back against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
       "gameId": 8015,
       "componentValues": {
-        "COM_4_VAL0_COM_0_VAL0_DAMAGE": 225,
+        "COM_4_VAL0_COM_0_VAL0_DAMAGE": 150,
         "COM_3_RADI_FEET": 100
       },
       "rawDescription": "You order your group to ready their defenses, causing {COM_4_VAL0_COM_0_VAL0_DAMAGE} back against any attacker who strikes a groupmate within {COM_3_RADI_FEET} with a melee attack. Targets can only be damaged once every two seconds.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
@@ -858,11 +879,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A careful strike that deals 209 damage, and ignores 25% of the victim's armor.",
+      "description": "A careful strike that deals 159 damage, and ignores 25% of the victim's armor.",
       "category": "Ability",
       "gameId": 8005,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 209
+        "COM_0_VAL0_DAMAGE": 159
       },
       "rawDescription": "A careful strike that deals {COM_0_VAL0_DAMAGE}, and ignores 25% of the victim's armor."
     },
@@ -870,7 +891,7 @@
       "image": "07995",
       "id": 3045,
       "name": "Press The Attack!",
-      "type": "",
+      "type": "Unknown",
       "spec": "Path of Conquest",
       "minrank": "2",
       "cost": "No AP Cost",
@@ -923,11 +944,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "The power of the sun blasts your enemy away, dealing 209 damage and knocking them away from you.",
+      "description": "The power of the sun blasts your enemy away, dealing 159 damage and knocking them away from you.",
       "category": "Ability",
       "gameId": 8017,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 209
+        "COM_0_VAL0_DAMAGE": 159
       },
       "rawDescription": "The power of the sun blasts your enemy away, dealing {COM_0_VAL0_DAMAGE} and knocking them away from you."
     },
@@ -963,11 +984,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you parry an attack, your Toughness and Initiative will be increased by 240 for 10 seconds. This effect will not refresh itself.",
+      "description": "Whenever you parry an attack, your Toughness and Initiative will be increased by 100 for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic",
       "gameId": 8043,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0": 240,
+        "COM_1_VAL0_COM_0_VAL0": 100,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Whenever you parry an attack, your Toughness and Initiative will be increased by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}. This effect will not refresh itself."
@@ -1005,12 +1026,12 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You crush your enemy's will, removing 1 Enchantment from them.  If an Enchantment is successfully removed, then the victim will also suffer 246 damage.",
+      "description": "You crush your enemy's will, removing 1 Enchantment from them.  If an Enchantment is successfully removed, then the victim will also suffer 184 damage.",
       "category": "Ability",
       "gameId": 8023,
       "componentValues": {
         "COM_0_VAL1": 1,
-        "COM_1_VAL0_DAMAGE": 246
+        "COM_1_VAL0_DAMAGE": 184
       },
       "rawDescription": "You crush your enemy's will, removing {COM_0_VAL1} Enchantment from them.  If an Enchantment is successfully removed, then the victim will also suffer {COM_1_VAL0_DAMAGE}."
     },
@@ -1026,12 +1047,12 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing 150 Elemental damage back to anyone that attacks you.",
+      "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing 100 Elemental damage back to anyone that attacks you.",
       "category": "Ability",
       "gameId": 8025,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_ELEMENTALDAMAGE": 150
+        "COM_1_VAL0_ELEMENTALDAMAGE": 100
       },
       "rawDescription": "The heat of the very sun itself surrounds you for {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_ELEMENTALDAMAGE} back to anyone that attacks you."
     },
@@ -1047,11 +1068,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Shield",
-      "description": "A powerful forward slam with your shield which deals 246 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
+      "description": "A powerful forward slam with your shield which deals 184 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
       "category": "Ability",
       "gameId": 8011,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 246,
+        "COM_0_VAL0_DAMAGE": 184,
         "COM_1_VAL0_COM_0_VAL0": 10,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10
       },
@@ -1089,13 +1110,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Your Shining Blade slices into your opponent for 209 damage.  For the next 5 seconds, Shining Blade will cause an additional 150 Elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
+      "description": "Your Shining Blade slices into your opponent for 159 damage.  For the next 5 seconds, Shining Blade will cause an additional 100 Elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability",
       "gameId": 8035,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 209,
+        "COM_0_VAL0_DAMAGE": 159,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 5,
-        "COM_1_VAL0_COM_1_VAL0_ELEMENTALDAMAGE": 150
+        "COM_1_VAL0_COM_1_VAL0_ELEMENTALDAMAGE": 100
       },
       "rawDescription": "Your Shining Blade slices into your opponent for {COM_0_VAL0_DAMAGE}.  For the next {COM_1_VAL0_COM_0_DURA_SECONDS}, Shining Blade will cause an additional {COM_1_VAL0_COM_1_VAL0_ELEMENTALDAMAGE} on the next damaging attack made by everyone in your group within 100 feet of you."
     },
@@ -1124,7 +1145,7 @@
       "id": 3092,
       "name": "Slice Through",
       "type": "Buff",
-      "spec": "Path or Conquest",
+      "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
@@ -1151,11 +1172,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "An overwhelming counterattack which deals 209 damage and knocks the victim down for 3 seconds.",
+      "description": "An overwhelming counterattack which deals 159 damage and knocks the victim down for 3 seconds.",
       "category": "Ability",
       "gameId": 8018,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 209,
+        "COM_0_VAL0_DAMAGE": 159,
         "COM_1_DURA_SECONDS": 3
       },
       "rawDescription": "An overwhelming counterattack which deals {COM_0_VAL0_DAMAGE} and knocks the victim down for {COM_1_DURA_SECONDS}."
@@ -1193,12 +1214,12 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet.  All of the victims will suffer 305 damage over 10 seconds and have their chance to defend attacks reduced by 10%.",
+      "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet.  All of the victims will suffer 220 damage over 10 seconds and have their chance to defend attacks reduced by 10%.",
       "category": "Ability",
       "gameId": 8032,
       "componentValues": {
         "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_TOD_DAMAGE": 305,
+        "COM_0_VAL0_TOD_DAMAGE": 220,
         "COM_0_DURA_SECONDS": 10,
         "COM_1_VAL0": 10
       },
@@ -1208,7 +1229,7 @@
       "image": "08075",
       "id": 3047,
       "name": "Stand Strong!",
-      "type": "",
+      "type": "Unknown",
       "spec": "Path of Vigilance",
       "minrank": "4",
       "cost": "No AP Cost",
@@ -1231,7 +1252,7 @@
       "image": "08003",
       "id": 3062,
       "name": "Stay Focused!",
-      "type": "",
+      "type": "Unknown",
       "spec": "Path of Glory",
       "minrank": "20",
       "cost": "No AP Cost",
@@ -1239,12 +1260,12 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "",
-      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 132 health over 3 seconds any time they defend themselves against an attack.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
+      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 90 health over 3 seconds any time they defend themselves against an attack.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time.",
       "category": "Ability",
       "gameId": 8020,
       "componentValues": {
         "COM_3_RADI_FEET": 100,
-        "COM_4_VAL0_COM_1_VAL0_TOD_HEALTH": 132,
+        "COM_4_VAL0_COM_1_VAL0_TOD_HEALTH": 90,
         "COM_4_VAL0_COM_0_DURA_SECONDS": 3
       },
       "rawDescription": "You order your group to prepare for combat, causing all of your groupmates within {COM_3_RADI_FEET} to regain {COM_4_VAL0_COM_1_VAL0_TOD_HEALTH} over {COM_4_VAL0_COM_0_DURA_SECONDS} any time they defend themselves against an attack.<BR>The Battle Command will last until its toggled off. You can have up to 3 Battle Commands active at the same time."
@@ -1261,11 +1282,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A smashing attack which deals 171 damage.  This attack causes monsters to hate you twice as much as normal.",
+      "description": "A smashing attack which deals 134 damage.  This attack causes monsters to hate you twice as much as normal.",
       "category": "Ability",
       "gameId": 8002,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 171
+        "COM_0_VAL0_DAMAGE": 134
       },
       "rawDescription": "A smashing attack which deals {COM_0_VAL0_DAMAGE}.  This attack causes monsters to hate you twice as much as normal."
     },
@@ -1274,7 +1295,7 @@
       "id": 3106,
       "name": "Sunfury",
       "type": "Defensive",
-      "spec": "Path or Glory",
+      "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
@@ -1342,12 +1363,12 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts 103 damage. Has a chance to deal 702 damage to a severely wounded target if you are behind them.",
+      "description": "A basic throwing attack that inflicts 81 damage. Has a chance to deal 681 damage to a severely wounded target if you are behind them.",
       "category": "Ability",
       "gameId": 8003,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 103,
-        "COM_0_VAL0_DAMAGE": 702
+        "COM_1_VAL0_DAMAGE": 81,
+        "COM_0_VAL0_DAMAGE": 681
       },
       "rawDescription": "A basic throwing attack that inflicts {COM_1_VAL0_DAMAGE}. Has a chance to deal {COM_0_VAL0_DAMAGE} to a severely wounded target if you are behind them."
     },
@@ -1355,7 +1376,7 @@
       "image": "08076",
       "id": 3093,
       "name": "To Glory!",
-      "type": "",
+      "type": "Unknown",
       "spec": "Path of Conquest",
       "minrank": "21",
       "cost": "No AP Cost",
@@ -1380,7 +1401,7 @@
       "image": "08007",
       "id": 3100,
       "name": "To Victory!",
-      "type": "",
+      "type": "Unknown",
       "spec": "Path of Vigilance",
       "minrank": "21",
       "cost": "No AP Cost",
@@ -1411,11 +1432,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A powerful strike which knocks your enemy off-balance, dealing 209 damage and causing the victim to lose 40 Action Points.",
+      "description": "A powerful strike which knocks your enemy off-balance, dealing 159 damage and causing the victim to lose 40 Action Points.",
       "category": "Ability",
       "gameId": 8037,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 209,
+        "COM_0_VAL0_DAMAGE": 159,
         "COM_1_VAL0_ACTIONPOINTS": 40
       },
       "rawDescription": "A powerful strike which knocks your enemy off-balance, dealing {COM_0_VAL0_DAMAGE} and causing the victim to lose {COM_1_VAL0_ACTIONPOINTS}."
@@ -1470,12 +1491,12 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You slice deeply into your enemy, dealing 142 damage to the enemy and interrupting any abilities that they are building up.  The victim will also suffer an additional 300 damage over 5 seconds.",
+      "description": "You slice deeply into your enemy, dealing 105 damage to the enemy and interrupting any abilities that they are building up.  The victim will also suffer an additional 235 damage over 5 seconds.",
       "category": "Ability",
       "gameId": 8009,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 142,
-        "COM_2_VAL0_COM_0_VAL0_TOD_DAMAGE": 300,
+        "COM_0_VAL0_DAMAGE": 105,
+        "COM_2_VAL0_COM_0_VAL0_TOD_DAMAGE": 235,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "You slice deeply into your enemy, dealing {COM_0_VAL0_DAMAGE} to the enemy and interrupting any abilities that they are building up.  The victim will also suffer an additional {COM_2_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_2_VAL0_COM_0_DURA_SECONDS}."

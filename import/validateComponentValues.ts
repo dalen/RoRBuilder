@@ -10,6 +10,7 @@ import {
   ComponentA07Flags,
   ComponentA15Flags,
 } from './types';
+import { Component } from './abilityComponents';
 
 export const getAbilityID = (componentString: string): void | number => {
   const match = Array.from(componentString.matchAll(/^ABIL_(\d+)_.*/g)).flat(1);
@@ -41,7 +42,8 @@ const calculateDamage = (
   const multIndex = 0;
   const intervalNumber =
     component.Duration > 0 && component.Interval > 0
-      ? Math.floor(component.Duration / component.Interval)
+      ? Math.floor(component.Duration / component.Interval) +
+        (component.A15 & ComponentA15Flags.NO_FINAL_TICK ? 0 : 1)
       : 1;
 
   const baseValue = component.Values[valueIndex];
@@ -60,6 +62,16 @@ const calculateDamage = (
   }
 
   if (tod) {
+    /*
+    // Some abilities should return this, but unknown why exactly
+    if (
+      component.Operation == ComponentOP.HEAL &&
+      ability.AttackType == AttackType.GENERIC
+    ) {
+      return ((baseValue * multiplier) / 100) * intervalNumber;
+    }
+    */
+
     if (
       component.Duration == 0 &&
       component.Interval == 0 &&
@@ -68,18 +80,7 @@ const calculateDamage = (
       return result;
     }
 
-    if (intervalNumber > 1 && ability.ChannelInterval <= 0) {
-      return result * intervalNumber;
-    }
-
-    return (
-      (result *
-        (component.Duration / 1000 +
-          (component.A15 & ComponentA15Flags.FLAG4 ? 1 : 0) +
-          (component.A15 & ComponentA15Flags.FLAG6 ? 1 : 0) +
-          1)) /
-      (ability.ChannelInterval / 1000)
-    );
+    return result * intervalNumber;
   }
 
   return result;
@@ -105,7 +106,8 @@ const calculateStatContribution = (
 
   const intervalNumber =
     component.Duration > 0 && component.Interval > 0
-      ? Math.floor(component.Duration / component.Interval)
+      ? Math.floor(component.Duration / component.Interval) +
+        (component.A15 & ComponentA15Flags.NO_FINAL_TICK ? 0 : 1)
       : 1;
 
   const stat = (() => {
@@ -136,18 +138,7 @@ const calculateStatContribution = (
       return result;
     }
 
-    if (intervalNumber > 1 && ability.ChannelInterval <= 0) {
-      return result * intervalNumber;
-    }
-
-    return (
-      (result *
-        (component.Duration / 1000 +
-          (component.A15 & ComponentA15Flags.FLAG4 ? 1 : 0) +
-          (component.A15 & ComponentA15Flags.FLAG6 ? 1 : 0) +
-          1)) /
-      (ability.ChannelInterval / 1000)
-    );
+    return result * intervalNumber;
   }
 
   return result;
@@ -165,18 +156,29 @@ const calculateValue = (
     level: number,
     valueIndex: number,
     multiplierIndex: number,
+    component: Component,
+    tod: boolean,
   ): number => {
+    const intervalNumber =
+      component.Duration > 0 && component.Interval > 0
+        ? Math.floor(component.Duration / component.Interval)
+        : 1;
+
     if (component.A15 & ComponentA15Flags.STATIC_VALUE) {
       // It seems A15 == 4 means it is a static value
-      return Math.abs(component.Values[valueIndex]);
+      return (
+        Math.abs(component.Values[valueIndex]) * (tod ? intervalNumber : 1)
+      );
     }
-    return Math.floor(
-      Math.abs(
-        (component.Values[valueIndex] *
-          level *
-          component.Multipliers[multiplierIndex]) /
-          100,
-      ),
+    return (
+      Math.floor(
+        Math.abs(
+          (component.Values[valueIndex] *
+            level *
+            component.Multipliers[multiplierIndex]) /
+            100,
+        ),
+      ) * (tod ? intervalNumber : 1)
     );
   };
 
@@ -275,27 +277,27 @@ const calculateValue = (
       );
 
     case ComponentOP.STAT_CHANGE:
-      return calcWithMultiplier(abilityLevel, valueIndex, 0);
+      return calcWithMultiplier(abilityLevel, valueIndex, 0, component, false);
     case ComponentOP.DAMAGE_CHANGE_PCT:
-      return calcWithMultiplier(1, valueIndex, 0);
+      return calcWithMultiplier(1, valueIndex, 0, component, false);
     case ComponentOP.ARMOR_CHANGE_PCT:
-      return calcWithMultiplier(abilityLevel, valueIndex, 0);
+      return calcWithMultiplier(abilityLevel, valueIndex, 0, component, false);
     case ComponentOP.AP_CHANGE:
-      return calcWithMultiplier(1, valueIndex, 0);
+      return calcWithMultiplier(1, valueIndex, 0, component, false);
     case ComponentOP.MOVEMENT_SPEED:
-      return calcWithMultiplier(1, valueIndex, 0);
+      return calcWithMultiplier(1, valueIndex, 0, component, false);
     case ComponentOP.MECHANIC_CHANGE:
-      return calcWithMultiplier(1, valueIndex + 1, 0);
+      return calcWithMultiplier(1, valueIndex + 1, 0, component, false);
     case ComponentOP.DEFENSIVE_STAT_CHANGE:
-      return calcWithMultiplier(1, valueIndex, 0);
+      return calcWithMultiplier(1, valueIndex, 0, component, false);
     case ComponentOP.AP_REGEN_CHANGE:
-      return calcWithMultiplier(1, valueIndex, 0);
+      return calcWithMultiplier(1, valueIndex, 0, component, false);
     case ComponentOP.MORALE_CHANGE:
-      return calcWithMultiplier(1, valueIndex, 0);
+      return calcWithMultiplier(1, valueIndex, 0, component, tod);
     case ComponentOP.COOLDOWN_CHANGE:
-      return calcWithMultiplier(1, valueIndex, 0);
+      return calcWithMultiplier(1, valueIndex, 0, component, false);
     case ComponentOP.CASTIME_CHANGE:
-      return calcWithMultiplier(1, valueIndex, 0);
+      return calcWithMultiplier(1, valueIndex, 0, component, false);
     case ComponentOP.BONUS_TYPE:
       if (component.Values[0] === 47) {
         // This seems to mean it is an absorb shield, and needs do multiply value by 5 for abilityLevel 25
@@ -303,13 +305,19 @@ const calculateValue = (
         // TODO: find out exactly how thir scales with ability level
 
         return (
-          calcWithMultiplier(1, valueIndex + 1, valueIndex) *
+          calcWithMultiplier(1, valueIndex + 1, valueIndex, component, false) *
           (abilityLevel === 40 ? 7.5 : 5)
         );
       }
-      return calcWithMultiplier(1, valueIndex + 1, valueIndex);
+      return calcWithMultiplier(
+        1,
+        valueIndex + 1,
+        valueIndex,
+        component,
+        false,
+      );
     case ComponentOP.CAREER_RESOURCE:
-      return calcWithMultiplier(1, valueIndex, 0);
+      return calcWithMultiplier(1, valueIndex, 0, component, false);
     default:
       console.log(`unknown op ${component.Operation}`);
   }
@@ -459,7 +467,9 @@ const validateComponentValue = (
         gameAbility.AbilityID.toString(),
       )}): Component value for ${colors.red(name)}: was ${colors.yellow(
         number.toString(),
-      )} now ${colors.yellow(num.toString())}`,
+      )} now ${colors.yellow(num.toString())} ${component.Duration} ${
+        component.Interval
+      }`,
     );
     // console.log(component);
   }

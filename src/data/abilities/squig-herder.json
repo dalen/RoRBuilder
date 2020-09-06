@@ -182,13 +182,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all targets in front of you within 40 feet, and then deals an additional 1200 over 10 seconds.",
+      "description": "Deals 800 damage to all targets in front of you within 40 feet, and then deals an additional 800 over 10 seconds.",
       "category": "Morale",
       "gameId": 1885,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_VAL0_DAMAGE": 800,
         "COM_0_RADI_FEET": 40,
-        "COM_1_VAL0_TOD": 1200,
+        "COM_1_VAL0_TOD": 800,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all targets in front of you within {COM_0_RADI_FEET}, and then deals an additional {COM_1_VAL0_TOD} over {COM_1_DURA_SECONDS}."
@@ -199,19 +199,19 @@
       "name": "Squig Leap",
       "type": "Damaging",
       "spec": "Path of Bouncin'",
-      "minrank": "1",
+      "minrank": "21",
       "cost": "30 Action Points",
       "range": "65ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Squig Armor<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target. You will inflict 144 damage to them when you land. This ability cannot be used while you are airborne.",
+      "description": "You pounce forwards, leaping towards your target. You will inflict 144 damage to them when you land. This ability cannot be used while you are airborne. Cant be used if there is a too big height difference between you and your target.",
       "category": "Ability",
       "gameId": 2800,
       "componentValues": {
         "COM_2_VAL0_DAMAGE": 144
       },
-      "rawDescription": "You pounce forwards, leaping towards your target. You will inflict {COM_2_VAL0_DAMAGE} to them when you land. This ability cannot be used while you are airborne."
+      "rawDescription": "You pounce forwards, leaping towards your target. You will inflict {COM_2_VAL0_DAMAGE} to them when you land. This ability cannot be used while you are airborne. Cant be used if there is a too big height difference between you and your target."
     },
     {
       "image": "02620",
@@ -239,7 +239,7 @@
       "name": "Tastes Like Stuntie",
       "type": "Damaging",
       "spec": "Path of Bouncin'",
-      "minrank": "1",
+      "minrank": "29",
       "cost": "15 Action Points / Sec",
       "range": "5ft range",
       "incant": "Instant cast",
@@ -258,7 +258,7 @@
       "image": "02508",
       "id": 7565,
       "name": "Big Bouncin!",
-      "type": "Damaging",
+      "type": "Cripple",
       "spec": "Path of Bouncin'",
       "minrank": "29",
       "cost": "20 Action Points / Sec",
@@ -280,7 +280,7 @@
       "image": "02601",
       "id": 5489,
       "name": "Big Claw",
-      "type": "Damaging",
+      "type": "Ailment",
       "spec": "Path of Bouncin'",
       "minrank": "1",
       "cost": "25 Action Points",
@@ -387,7 +387,7 @@
       "name": "Sneaky Git",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "17",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -737,16 +737,16 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires an active pet",
-      "description": "You and your Squig attack together on each others target. You strike your target for 94 damage, and your pet strikes its target for 119 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 94 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 119 damage as well.",
+      "description": "You and your Squig attack together on each others target. You strike your target for 94 damage, and your pet strikes its target for 94 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 94 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 94 damage as well.",
       "category": "Ability",
       "gameId": 1824,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 94,
-        "ABIL_18_COM_0_VAL0_DAMAGE": 119,
+        "ABIL_18_COM_0_VAL0_DAMAGE": 94,
         "COM_2_RADI_FEET": 35,
         "COM_2_VAL0_DAMAGE": 94,
         "ABIL_18_COM_2_RADI_FEET": 35,
-        "ABIL_18_COM_2_VAL0_DAMAGE": 119
+        "ABIL_18_COM_2_VAL0_DAMAGE": 94
       },
       "rawDescription": "You and your Squig attack together on each others target. You strike your target for {COM_0_VAL0_DAMAGE}, and your pet strikes its target for {ABIL_18_COM_0_VAL0_DAMAGE}.  If you are within {COM_2_RADI_FEET} of your pet's target, you will also strike that enemy for {COM_2_VAL0_DAMAGE}, and likewise, if your pet is within {ABIL_18_COM_2_RADI_FEET} of your target, it will also strike your enemy for {ABIL_18_COM_2_VAL0_DAMAGE} as well."
     },
@@ -853,9 +853,9 @@
       "image": "02629",
       "id": 5528,
       "name": "Indigestion",
-      "type": "Damaging",
+      "type": "Hex",
       "spec": "Path of Bouncin'",
-      "minrank": "21",
+      "minrank": "25",
       "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
@@ -904,12 +904,12 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "You concentrate on your target for up to 3 seconds, repeatedly shooting them for 111 damage as long as you maintain your concentration.",
+      "description": "You concentrate on your target for up to 3 seconds, repeatedly shooting them for 106 damage as long as you maintain your concentration.",
       "category": "Ability",
       "gameId": 1834,
       "componentValues": {
         "COM_0_DURA_SECONDS": 3,
-        "COM_0_VAL0_DAMAGE": 111
+        "COM_0_VAL0_DAMAGE": 106
       },
       "rawDescription": "You concentrate on your target for up to {COM_0_DURA_SECONDS}, repeatedly shooting them for {COM_0_VAL0_DAMAGE} as long as you maintain your concentration."
     },
@@ -925,11 +925,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 2400 damage to all targets within 20 feet of your target.",
+      "description": "Deals 1600 damage to all targets within 20 feet of your target.",
       "category": "Morale",
       "gameId": 1883,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 2400,
+        "COM_0_VAL0_DAMAGE": 1600,
         "COM_0_RADI_FEET": 20
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all targets within {COM_0_RADI_FEET} of your target."
@@ -958,7 +958,7 @@
       "image": "02596",
       "id": 5487,
       "name": "Not So Fast!",
-      "type": "Cripple",
+      "type": "Ailment",
       "spec": "Path of Quick Shootin'",
       "minrank": "18",
       "cost": "30 Action Points",
@@ -1082,7 +1082,7 @@
       "image": "02608",
       "id": 7566,
       "name": "Really Bad Gas!",
-      "type": "Offensive",
+      "type": "Unknown",
       "spec": "Path of Bouncin'",
       "minrank": "1",
       "cost": "35 Action Points",
@@ -1215,12 +1215,12 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Explodin Arrer now deals 183 damage to the initial enemy, and 429 damage over 9 seconds with its explosion.",
+      "description": "Explodin Arrer now deals 258 damage to the initial enemy, and 627 damage over 9 seconds with its explosion.",
       "category": "CareerTactic",
       "gameId": 1861,
       "componentValues": {
-        "ABIL_1833_COM_1_VAL0_DAMAGE": 183,
-        "ABIL_1833_COM_2_VAL0_COM_1_VAL0_TOD_DAMAGE": 429,
+        "ABIL_1833_COM_1_VAL0_DAMAGE": 258,
+        "ABIL_1833_COM_2_VAL0_COM_1_VAL0_TOD_DAMAGE": 627,
         "ABIL_1833_COM_2_VAL0_COM_1_DURA_SECONDS": 9
       },
       "rawDescription": "Explodin Arrer now deals {ABIL_1833_COM_1_VAL0_DAMAGE} to the initial enemy, and {ABIL_1833_COM_2_VAL0_COM_1_VAL0_TOD_DAMAGE} over {ABIL_1833_COM_2_VAL0_COM_1_DURA_SECONDS} with its explosion."
@@ -1476,7 +1476,7 @@
       "name": "Outta My Way!",
       "type": "Buff",
       "spec": "Path of Bouncin'",
-      "minrank": "1",
+      "minrank": "31",
       "cost": "20 Action Points / Sec",
       "range": "Self",
       "incant": "Instant cast",
@@ -1547,11 +1547,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time one of your groupmates within 100 feet of you hits an enemy, there is a 25% chance that you will regain 100 points of Morale over 3 seconds.<BR>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time one of your groupmates within 100 feet of you hits an enemy, there is a 25% chance that you will regain 75 points of Morale over 3 seconds.<BR>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 1856,
       "componentValues": {
-        "COM_2_VAL0_COM_0_VAL0_TOD": 100,
+        "COM_2_VAL0_COM_0_VAL0_TOD": 75,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 3
       },
       "rawDescription": "Any time one of your groupmates within 100 feet of you hits an enemy, there is a 25% chance that you will regain {COM_2_VAL0_COM_0_VAL0_TOD} points of Morale over {COM_2_VAL0_COM_0_DURA_SECONDS}.<BR>This effect will not trigger more than once every 3 seconds."
@@ -1671,11 +1671,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 2400 damage to all targets within 30 feet of you.",
+      "description": "Deals 1600 damage to all targets within 30 feet of you.",
       "category": "Morale",
       "gameId": 1884,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 2400,
+        "COM_0_VAL0_DAMAGE": 1600,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all targets within {COM_0_RADI_FEET} of you."

@@ -653,7 +653,7 @@
       "image": "13311",
       "id": 1556,
       "name": "Glass Arrow",
-      "type": "Ailment",
+      "type": "Unknown",
       "spec": "Path of The Scout",
       "minrank": "21",
       "cost": "30 Action Points",
@@ -723,7 +723,7 @@
       "incant": "5.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 3000 damage as long as you maintain your concentration.",
+      "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
       "category": "Morale",
       "gameId": 651,
       "rawDescription": "You focus on a spot on the ground, shooting arrows at that spot every {COM_1_FREQ_SECONDS} for {COM_1_DURA_SECONDS}, hitting all enemies within {COM_1_RADI_FEET} of that area for {COM_1_VAL0_DAMAGE} as long as you maintain your concentration.",
@@ -731,7 +731,7 @@
         "COM_1_FREQ_SECONDS": 0.5,
         "COM_1_DURA_SECONDS": 5,
         "COM_1_RADI_FEET": 20,
-        "COM_1_VAL0_DAMAGE": 3000
+        "COM_1_VAL0_DAMAGE": 300
       }
     },
     {

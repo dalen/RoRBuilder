@@ -83,11 +83,11 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You fling a throwing axe at your target, dealing 97 damage.",
+      "description": "You fling a throwing axe at your target, dealing 81 damage.",
       "category": "Ability",
       "gameId": 9158,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 97
+        "COM_0_VAL0_DAMAGE": 81
       },
       "rawDescription": "You fling a throwing axe at your target, dealing {COM_0_VAL0_DAMAGE}."
     },
@@ -166,12 +166,12 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Must be at your target's side or rear",
-      "description": "You attack your enemy at a vulnerable spot, dealing 114 damage immediately and inflicting them with an Ailment which deals an additional 225 damage over 9 seconds.",
+      "description": "You attack your enemy at a vulnerable spot, dealing 153 damage immediately and inflicting them with an Ailment which deals an additional 342 damage over 9 seconds.",
       "category": "Ability",
       "gameId": 9161,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 114,
-        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 225,
+        "COM_0_VAL0_DAMAGE": 153,
+        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 342,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "You attack your enemy at a vulnerable spot, dealing {COM_0_VAL0_DAMAGE} immediately and inflicting them with an Ailment which deals an additional {COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
@@ -345,15 +345,15 @@
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "A sundering blow which deals 134 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 10 seconds.",
+      "description": "A sundering blow which deals 134 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
       "category": "Ability",
       "gameId": 9170,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 134,
         "COM_1_VAL0_COM_0_VAL0": 40,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "A sundering blow which deals {COM_0_VAL0_DAMAGE} and inflicts your victim with an Ailment which reduces their movement speed by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
@@ -411,16 +411,16 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for 89 damage, and your pet strikes its target for 109 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 109 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 89 damage as well.",
+      "description": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for 89 damage, and your pet strikes its target for 109 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 89 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 109 damage as well.",
       "category": "Ability",
       "gameId": 9163,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 89,
         "ABIL_3952_COM_0_VAL0_DAMAGE": 109,
         "COM_2_RADI_FEET": 35,
-        "COM_2_VAL0_DAMAGE": 109,
+        "COM_2_VAL0_DAMAGE": 89,
         "ABIL_3952_COM_2_RADI_FEET": 35,
-        "ABIL_3952_COM_2_VAL0_DAMAGE": 89
+        "ABIL_3952_COM_2_VAL0_DAMAGE": 109
       },
       "rawDescription": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for {COM_0_VAL0_DAMAGE}, and your pet strikes its target for {ABIL_3952_COM_0_VAL0_DAMAGE}.  If you are within {COM_2_RADI_FEET} of your pet's target, you will also strike that enemy for {COM_2_VAL0_DAMAGE}, and likewise, if your pet is within {ABIL_3952_COM_2_RADI_FEET} of your target, it will also strike your enemy for {ABIL_3952_COM_2_VAL0_DAMAGE} as well."
     },
@@ -514,16 +514,16 @@
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Rank 1 morale",
-      "range": "65ft range",
+      "range": "30ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 900 damage to your target, and roots them in place for 10 seconds.",
+      "description": "Deals 900 damage to your target, and roots them in place for 5 seconds.",
       "category": "Morale",
       "gameId": 9224,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 900,
-        "COM_1_DURA_SECONDS": 10
+        "COM_1_DURA_SECONDS": 5
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target, and roots them in place for {COM_1_DURA_SECONDS}."
     },
@@ -990,13 +990,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target and causing 159 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air.",
+      "description": "You pounce forwards, leaping towards your target and causing 159 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
       "category": "Ability",
       "gameId": 9186,
       "componentValues": {
         "COM_2_VAL0_DAMAGE": 159
       },
-      "rawDescription": "You pounce forwards, leaping towards your target and causing {COM_2_VAL0_DAMAGE} when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air."
+      "rawDescription": "You pounce forwards, leaping towards your target and causing {COM_2_VAL0_DAMAGE} when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target."
     },
     {
       "image": "13442",
@@ -1133,11 +1133,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 345 damage over 9 seconds.  If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 522 damage over 9 seconds.  If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
       "category": "Ability",
       "gameId": 9171,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 345,
+        "COM_0_VAL0_TOD_DAMAGE": 522,
         "COM_0_DURA_SECONDS": 9,
         "COM_1_VAL0": 75,
         "COM_1_DURA_SECONDS": 9
@@ -1189,7 +1189,7 @@
       "image": "13428",
       "id": 4241,
       "name": "Submission",
-      "type": "Curse",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "50 Action Points",

@@ -144,12 +144,12 @@
       "incant": "5.0s cast",
       "cooldown": "30s cooldown",
       "note": "Requires Dual Wield",
-      "description": "You strike out at all enemies 25 feet in front of you, inflicting 180 damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
+      "description": "You strike out at all enemies 25 feet in front of you, inflicting 169 damage every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%.",
       "category": "Ability",
       "gameId": 1762,
       "componentValues": {
         "COM_1_RADI_FEET": 25,
-        "COM_1_VAL0_DAMAGE": 180
+        "COM_1_VAL0_DAMAGE": 169
       },
       "rawDescription": "You strike out at all enemies {COM_1_RADI_FEET} in front of you, inflicting {COM_1_VAL0_DAMAGE} every second. The damage inflicted by this ability increases by 15% for every enemy that attacked you within the previous second, to a maximum of 60%."
     },
@@ -238,7 +238,7 @@
       "image": "02640",
       "id": 4655,
       "name": "Charge!",
-      "type": "Debuff",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "No AP Cost",
@@ -387,11 +387,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A maiming attack which deals 152 damage to the target and snares them, reducing their run speed by 40% for 5 seconds.",
+      "description": "A maiming attack which deals 141 damage to the target and snares them, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability",
       "gameId": 1744,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 152,
+        "COM_0_VAL0_DAMAGE": 141,
         "COM_1_VAL0_COM_0_VAL0": 40,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 5
       },
@@ -489,13 +489,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Lotsa Choppin' will affect 9 targets within 30 feet and reduces the base damage by 20%.",
+      "description": "Lotsa Choppin' will affect 24 targets within 30 feet and reduces the base damage by 20%.",
       "category": "CareerTactic",
       "gameId": 1796,
       "componentValues": {
         "ABIL_1747_COM_0_RADI_FEET": 30
       },
-      "rawDescription": "Lotsa Choppin' will affect 9 targets within {ABIL_1747_COM_0_RADI_FEET} and reduces the base damage by 20%."
+      "rawDescription": "Lotsa Choppin' will affect 24 targets within {ABIL_1747_COM_0_RADI_FEET} and reduces the base damage by 20%."
     },
     {
       "image": "22707",
@@ -571,11 +571,11 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts 104 damage.",
+      "description": "A basic throwing attack that inflicts 82 damage.",
       "category": "Ability",
       "gameId": 1743,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 104
+        "COM_0_VAL0_DAMAGE": 82
       },
       "rawDescription": "A basic throwing attack that inflicts {COM_0_VAL0_DAMAGE}."
     },
@@ -665,7 +665,7 @@
       "image": "02659",
       "id": 4709,
       "name": "Git To Da Choppa",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Path of Da' Wrecka",
       "minrank": "29",
       "cost": "10 Action Points / Sec",
@@ -673,12 +673,12 @@
       "incant": "6.0s cast",
       "cooldown": "20s cooldown",
       "note": "Requires Dual Wield",
-      "description": "You charge and frantically lash out at everything nearby for up to 6 seconds, dealing 153 damage every 2 seconds to all enemies within 40 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active.",
+      "description": "You charge and frantically lash out at everything nearby for up to 6 seconds, dealing 138 damage every 2 seconds to all enemies within 40 feet. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active.",
       "category": "Ability",
       "gameId": 1776,
       "componentValues": {
         "COM_0_DURA_SECONDS": 6,
-        "COM_1_VAL0_DAMAGE": 153,
+        "COM_1_VAL0_DAMAGE": 138,
         "COM_1_RADI_FEET": 40
       },
       "rawDescription": "You charge and frantically lash out at everything nearby for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} every 2 seconds to all enemies within {COM_1_RADI_FEET}. Each time you deal damage, you'll randomly pull one of the victims in towards you. Your speed is increased by 20% for as long as this ability is active."
@@ -695,11 +695,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Target must be facing away from you",
-      "description": "You deal 227 damage to your enemy.",
+      "description": "You deal 216 damage to your enemy.",
       "category": "Ability",
       "gameId": 1749,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 227
+        "COM_0_VAL0_DAMAGE": 216
       },
       "rawDescription": "You deal {COM_0_VAL0_DAMAGE} to your enemy."
     },
@@ -707,7 +707,7 @@
       "image": "02648",
       "id": 4658,
       "name": "Hurtin' Time",
-      "type": "Offensive",
+      "type": "Unknown",
       "spec": "Path of Da' Hitta",
       "minrank": "14",
       "cost": "No AP Cost",
@@ -898,11 +898,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "A brutal attack which deals 327 damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "A brutal attack which deals 316 damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1773,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 327,
+        "COM_0_VAL0_DAMAGE": 316,
         "COM_1_DURA_SECONDS": 10,
         "COM_1_VAL1": 50
       },
@@ -912,7 +912,7 @@
       "image": "02641",
       "id": 4656,
       "name": "Outta My Face!",
-      "type": "Curse",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "50 Action Points",
@@ -942,11 +942,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "A wild swing which Deals 227 damage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "A wild swing which Deals 216 damage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1761,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 227
+        "COM_0_VAL0_DAMAGE": 216
       },
       "rawDescription": "A wild swing which Deals {COM_0_VAL0_DAMAGE}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
@@ -1061,11 +1061,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Must be Berserk<br>Exhausts your Rage",
-      "description": "Deals 177 damage and knocks down the target for 3 seconds. The attack is undefendable.",
+      "description": "Deals 166 damage and knocks down the target for 3 seconds. The attack is undefendable.",
       "category": "Ability",
       "gameId": 1755,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 177,
+        "COM_0_VAL0_DAMAGE": 166,
         "COM_1_DURA_SECONDS": 3
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} and knocks down the target for {COM_1_DURA_SECONDS}. The attack is undefendable."
@@ -1122,13 +1122,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You stomp the ground, knocking down targets within 30 feet for 3 seconds and dealing 1800 damage. This ability hits max 9 targets.",
+      "description": "You stomp the ground, knocking down targets within 30 feet for 3 seconds and dealing 1200 damage. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 1804,
       "componentValues": {
         "COM_0_RADI_FEET": 30,
         "COM_1_DURA_SECONDS": 3,
-        "COM_0_VAL0_DAMAGE": 1800
+        "COM_0_VAL0_DAMAGE": 1200
       },
       "rawDescription": "You stomp the ground, knocking down targets within {COM_0_RADI_FEET} for {COM_1_DURA_SECONDS} and dealing {COM_0_VAL0_DAMAGE}. This ability hits max 9 targets."
     },
@@ -1207,11 +1207,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You slash at your opponent's throat, immediately inflicting 119 damage. The wound continues to bleed for 132 damage over 3 seconds.",
+      "description": "You slash at your opponent's throat, immediately inflicting 108 damage. The wound continues to bleed for 132 damage over 3 seconds.",
       "category": "Ability",
       "gameId": 1742,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 119,
+        "COM_0_VAL0_DAMAGE": 108,
         "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 132,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 3
       },
@@ -1229,11 +1229,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You chop your target in a vital organ, dealing 177 damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You chop your target in a vital organ, dealing 166 damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1772,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 177,
+        "COM_0_VAL0_DAMAGE": 166,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "You chop your target in a vital organ, dealing {COM_0_VAL0_DAMAGE}. For the next {COM_1_DURA_SECONDS}, any abilities that they use will take an additional 5 seconds to cooldown.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
@@ -1250,11 +1250,11 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "An exhaustive blow that deals 152 damage and reduces your target's chance to critically hit by 100% for 10 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "An exhaustive blow that deals 141 damage and reduces your target's chance to critically hit by 100% for 10 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1750,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 152,
+        "COM_0_VAL0_DAMAGE": 141,
         "COM_1_VAL0_COM_0_VAL1": 100,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10
       },
@@ -1293,11 +1293,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "You unleash a powerful blow, dealing 302 damage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You unleash a powerful blow, dealing 291 damage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1751,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 302
+        "COM_0_VAL0_DAMAGE": 291
       },
       "rawDescription": "You unleash a powerful blow, dealing {COM_0_VAL0_DAMAGE}.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
@@ -1331,11 +1331,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your rage inspires all around, causing groupmates' attacks to deal an additional 300 damage for 10 seconds while within 100 feet of you.",
+      "description": "Your rage inspires all around, causing groupmates' attacks to deal an additional 200 damage for 10 seconds while within 100 feet of you.",
       "category": "Morale",
       "gameId": 1802,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 300,
+        "COM_1_VAL0_DAMAGE": 200,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Your rage inspires all around, causing groupmates' attacks to deal an additional {COM_1_VAL0_DAMAGE} for {COM_0_DURA_SECONDS} while within 100 feet of you."
@@ -1352,13 +1352,13 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You strike enemies within 30 feet, dealing anywhere from 91 damage to 191 damage. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You strike enemies within 30 feet, dealing anywhere from 116 damage to 216 damage. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1759,
       "componentValues": {
         "COM_0_VAL0_COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_COM_1_VAL0_DAMAGE": 91,
-        "COM_0_VAL0_COM_3_VAL0_DAMAGE": 191
+        "COM_0_VAL0_COM_1_VAL0_DAMAGE": 116,
+        "COM_0_VAL0_COM_3_VAL0_DAMAGE": 216
       },
       "rawDescription": "You strike enemies within {COM_0_VAL0_COM_0_RADI_FEET}, dealing anywhere from {COM_0_VAL0_COM_1_VAL0_DAMAGE} to {COM_0_VAL0_COM_3_VAL0_DAMAGE}. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus."
     },
@@ -1392,12 +1392,12 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
-      "description": "You lash out at all enemies within 30 feet, inflicting 116 damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You lash out at all enemies within 30 feet, inflicting 141 damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability",
       "gameId": 1774,
       "componentValues": {
         "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_DAMAGE": 116,
+        "COM_0_VAL0_DAMAGE": 141,
         "COM_1_VAL0_COM_3_VAL0": 10,
         "COM_1_VAL0_COM_0_VAL0": 40,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 9
@@ -1416,11 +1416,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You swipe at the enemies in front of you, dealing 316 over 9 seconds to enemies within 40 feet.",
+      "description": "You swipe at the enemies in front of you, dealing 304 over 9 seconds to enemies within 40 feet.",
       "category": "Ability",
       "gameId": 1748,
       "componentValues": {
-        "COM_0_VAL0_COM_0_VAL0_TOD": 316,
+        "COM_0_VAL0_COM_0_VAL0_TOD": 304,
         "COM_0_VAL0_COM_0_DURA_SECONDS": 9,
         "COM_0_VAL0_COM_0_RADI_FEET": 40
       },
@@ -1459,12 +1459,12 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You chop all enemies within 30 feet for 1200 damage and all heals are reduced by 50% for 10 seconds. This ability hits max 9 targets.",
+      "description": "You chop all enemies within 30 feet for 800 damage and all heals are reduced by 50% for 10 seconds. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 1803,
       "componentValues": {
         "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_VAL0_DAMAGE": 800,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "You chop all enemies within {COM_0_RADI_FEET} for {COM_0_VAL0_DAMAGE} and all heals are reduced by 50% for {COM_1_DURA_SECONDS}. This ability hits max 9 targets."

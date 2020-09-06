@@ -239,10 +239,28 @@ const main = async () => {
   );
 
   // Debug
-  const printDebugAbilities: number[] = [8082];
-  printDebugAbilities.forEach((abilityId) => {
-    console.log(JSON.stringify(abilityData[abilityId], undefined, 2));
-  });
+  const printDebugAbilities: number[] = [
+    697,
+    3884,
+    14414,
+    3878,
+    8241,
+    3365,
+    1590,
+    3551,
+    3143,
+  ];
+  await Promise.all(
+    printDebugAbilities.map((abilityId) => {
+      return fs.writeFile(
+        `../build/abilities/${abilityId}_${abilityData[abilityId].Name.replace(
+          ' ',
+          '_',
+        ).replace("'", '_')}.json`,
+        JSON.stringify(abilityData[abilityId], undefined, 2),
+      );
+    }),
+  );
 
   Object.values(abilityData).forEach((ability) => {
     if (

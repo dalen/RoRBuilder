@@ -101,12 +101,12 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 1464 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale",
       "gameId": 697,
       "componentValues": {
         "COM_1_RADI_FEET": 30,
-        "ABIL_3884_COM_0_VAL0_TOD": 424,
+        "ABIL_3884_COM_0_VAL0_TOD": 1464,
         "ABIL_3884_COM_0_DURA_SECONDS": 9,
         "ABIL_3876_COM_0_VAL0": 20,
         "ABIL_3876_COM_0_DURA_SECONDS": 10
@@ -560,11 +560,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1800 damage and knocks back all enemy targets within 20 feet of your target.",
+      "description": "Deals 1200 damage and knocks back all enemy targets within 20 feet of your target.",
       "category": "Morale",
       "gameId": 1971,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1800,
+        "COM_0_VAL0_DAMAGE": 1200,
         "COM_0_RADI_FEET": 20
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} and knocks back all enemy targets within {COM_0_RADI_FEET} of your target."
@@ -621,14 +621,14 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "A surge of Waaagh! explodes from your target, inflicting 199 Elemental damage upon them and up to 4 other enemies within 25 feet of them, and healing your defensive target and allies within 20 feet of them for 883 health, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
+      "description": "A surge of Waaagh! explodes from your target, inflicting 277 Elemental damage upon them and up to 4 other enemies within 25 feet of them, and healing your defensive target and allies within 20 feet of them for 838 health, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability",
       "gameId": 2102,
       "componentValues": {
-        "ABIL_2103_COM_0_VAL0_ELEMENTALDAMAGE": 199,
+        "ABIL_2103_COM_0_VAL0_ELEMENTALDAMAGE": 277,
         "COM_0_RADI_FEET": 25,
         "COM_2_RADI_FEET": 20,
-        "ABIL_2103_COM_3_VAL0_HEALTH": 883
+        "ABIL_2103_COM_3_VAL0_HEALTH": 838
       },
       "rawDescription": "A surge of Waaagh! explodes from your target, inflicting {ABIL_2103_COM_0_VAL0_ELEMENTALDAMAGE} upon them and up to 4 other enemies within {COM_0_RADI_FEET} of them, and healing your defensive target and allies within {COM_2_RADI_FEET} of them for {ABIL_2103_COM_3_VAL0_HEALTH}, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted."
     },
@@ -776,7 +776,7 @@
       "type": "Enchantment",
       "spec": "Path of Mork",
       "minrank": "1",
-      "cost": "55 Action Points",
+      "cost": "45 Action Points",
       "range": "150ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
@@ -888,12 +888,12 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "Deals 277 elemental damage to your target, and heals your defensive target for 150% of the damage done. <BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
+      "description": "Deals 200 Elemental damage to your target, and heals your defensive target for 488 health plus 150% of the damage done.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability",
       "gameId": 2100,
       "componentValues": {
-        "ABIL_2859_COM_0_VAL0_ELEMENTALDAMAGE": 277,
-        "COM_0_VAL0_HEALTH": 0
+        "ABIL_2859_COM_0_VAL0_ELEMENTALDAMAGE": 200,
+        "COM_0_VAL0_HEALTH": 488
       },
       "rawDescription": "Deals {ABIL_2859_COM_0_VAL0_ELEMENTALDAMAGE} to your target, and heals your defensive target for {COM_0_VAL0_HEALTH} plus 150% of the damage done.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted."
     },
@@ -1064,7 +1064,7 @@
       "image": "23154",
       "id": 5303,
       "name": "Rampaging Siphon",
-      "type": "Buff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "Rank 2 morale",
@@ -1171,7 +1171,7 @@
       "image": "23155",
       "id": 5304,
       "name": "Steal Life",
-      "type": "Buff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
@@ -1297,22 +1297,21 @@
       "image": "22694",
       "id": 5325,
       "name": "Waaagh! Frenzy",
-      "type": "Healing",
-      "spec": "Path of Da Green",
-      "minrank": "27",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "I'll Take That and Fury of Da Green will now inflict 325 Elemental damage but no longer recieve a base healing value, instead healing for 50% of damage dealt.",
+      "description": "I'll Take That! and Fury of Da Green will now inflict 458 Elemental damage, but no longer receive a base healing value, instead healing for only 50% of the damage dealt.",
       "category": "CareerTactic",
-      "gameId": 1955,
+      "gameId": 2105,
       "componentValues": {
-        "COM_1_VAL0_SECONDS": 0,
-        "COM_0_VAL1_ACTIONPOINTS": 0
+        "ABIL_2859_COM_3_VAL0_ELEMENTALDAMAGE": 458
       },
-      "rawDescription": "Reduces the build time of I'll Take That! by {COM_1_VAL0_SECONDS} but increases the cost by {COM_0_VAL1_ACTIONPOINTS}"
+      "rawDescription": "I'll Take That! and Fury of Da Green will now inflict {ABIL_2859_COM_3_VAL0_ELEMENTALDAMAGE}, but no longer receive a base healing value, instead healing for only 50% of the damage dealt."
     },
     {
       "image": "22707",
@@ -1369,11 +1368,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Steals 180 Action Points from your target over 9 seconds.",
+      "description": "Steals 239.94001999333557 Action Points from your target over 9 seconds.",
       "category": "Ability",
       "gameId": 1911,
       "componentValues": {
-        "COM_0_VAL0_TOD_ACTIONPOINTS": 180,
+        "COM_0_VAL0_TOD_ACTIONPOINTS": 239.94001999333557,
         "COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Steals {COM_0_VAL0_TOD_ACTIONPOINTS} from your target over {COM_0_DURA_SECONDS}."

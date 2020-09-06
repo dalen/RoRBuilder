@@ -86,12 +86,12 @@ export enum ComponentOP {
 
 export enum AbilityFlags {
   FLAG0 = Math.pow(2, 0),
-  FLAG1 = Math.pow(2, 1), // Buff tactic?
-  FLAG2 = Math.pow(2, 2), // Buff general
-  FLAG3 = Math.pow(2, 3), // Curse?
-  FLAG4 = Math.pow(2, 4), // Damaging?
+  FLAG1 = Math.pow(2, 1), // tactic?
+  FLAG2 = Math.pow(2, 2), // Buff
+  FLAG3 = Math.pow(2, 3), // Debuff
+  FLAG4 = Math.pow(2, 4), // Damaging
   FLAG5 = Math.pow(2, 5), // Healing
-  FLAG6 = Math.pow(2, 6), // ??
+  FLAG6 = Math.pow(2, 6), // Defensive
   FLAG7 = Math.pow(2, 7), // ??
   FLAG8 = Math.pow(2, 8), // None
   FLAG9 = Math.pow(2, 9), // None
@@ -139,7 +139,7 @@ export enum ComponentA07Flags {
 }
 
 export enum ComponentA15Flags {
-  NO_FINAL_TICK = 1, // No tick on dot/hot/AP change apply
+  NO_FINAL_TICK = 1, // No tick on dot/hot/AP/channel change apply
   FLAG1 = 2, // ??
   STATIC_VALUE = 4,
   FLAG3 = 8, // ??
