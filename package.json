@@ -87,6 +87,10 @@
       "import"
     ],
     "rules": {
+      "import/extensions": [
+        "err",
+        "never"
+      ],
       "prettier/prettier": [
         "error"
       ],

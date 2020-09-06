@@ -18,7 +18,8 @@ const mapDispatchToProps = {
   toggleOverlay: actionOverlay.toggleOverlay,
 };
 
-type Props = ReturnType<typeof mapStateToProps> & typeof mapDispatchToProps;
+type Props = ReturnType<typeof mapStateToProps> &
+  typeof mapDispatchToProps & { children: JSX.Element[] };
 
 class Modal extends Component<Props> {
   constructor(props: Props) {
