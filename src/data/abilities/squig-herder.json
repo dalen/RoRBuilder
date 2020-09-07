@@ -861,7 +861,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Squig Armor",
-      "description": "You prod the inside of your Battle Squig, causing it to deal 85 Corporeal damage to all targets 40 feet in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 5 seconds. This effect lasts for 10 seconds.",
+      "description": "You prod the inside of your Battle Squig, causing it to deal 85 Corporeal damage to all targets 40 feet in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 3 seconds. This effect lasts for 10 seconds.",
       "category": "Ability",
       "gameId": 2814,
       "componentValues": {
@@ -869,7 +869,7 @@
         "COM_4_RADI_FEET": 40,
         "COM_0_DURA_SECONDS": 10
       },
-      "rawDescription": "You prod the inside of your Battle Squig, causing it to deal {COM_2_VAL0_CORPOREALDAMAGE} to all targets {COM_4_RADI_FEET} in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 5 seconds. This effect lasts for {COM_0_DURA_SECONDS}."
+      "rawDescription": "You prod the inside of your Battle Squig, causing it to deal {COM_2_VAL0_CORPOREALDAMAGE} to all targets {COM_4_RADI_FEET} in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 3 seconds. This effect lasts for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "02604",

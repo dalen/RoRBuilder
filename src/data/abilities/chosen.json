@@ -731,13 +731,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces Repel's cooldown time by 50% and increases the length of the knockback.",
+      "description": "Repel will send the victim flying even further away from you.<BR>If using a Great Weapon Repel's cooldown time is reduced by 50%.",
       "category": "CareerTactic",
       "gameId": 8366,
       "componentValues": {
         "COM_0_VAL1": 50
       },
-      "rawDescription": "Reduces Repel's cooldown time by {COM_0_VAL1}% and increases the length of the knockback."
+      "rawDescription": "Repel will send the victim flying even further away from you.<BR>If using a Great Weapon Repel's cooldown time is reduced by {COM_0_VAL1}%."
     },
     {
       "image": "05143",

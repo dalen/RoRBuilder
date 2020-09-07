@@ -14,7 +14,13 @@
         "lvl6": 5316,
         "lvl7": 5317
       },
-      "coreAbilities": [5273, 5280, 5367, 5282, 5275]
+      "coreAbilities": [
+        5273,
+        5280,
+        5367,
+        5282,
+        5275
+      ]
     },
     "b": {
       "name": "Path of Gork",
@@ -30,7 +36,13 @@
         "lvl6": 5323,
         "lvl7": 5324
       },
-      "coreAbilities": [5268, 5278, 5272, 5368, 5285]
+      "coreAbilities": [
+        5268,
+        5278,
+        5272,
+        5368,
+        5285
+      ]
     },
     "c": {
       "name": "Path of Da Green",
@@ -46,7 +58,14 @@
         "lvl6": 5330,
         "lvl7": 5331
       },
-      "coreAbilities": [5286, 5284, 5270, 5271, 5276, 1934]
+      "coreAbilities": [
+        5286,
+        5284,
+        5270,
+        5271,
+        5276,
+        1934
+      ]
     }
   },
   "data": [
@@ -1005,7 +1024,7 @@
       "id": 5329,
       "name": "Nuthin' But Da WAAAGH!",
       "type": "Healing",
-      "spec": "Path of Mork",
+      "spec": "Path of Da Green",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
@@ -1279,18 +1298,18 @@
       "id": 5325,
       "name": "Waaagh! Frenzy",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Da Green",
       "minrank": "1",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "I'll Take That! and Fury of Da Green will now inflict 458 Elemental damage, but no longer receive a base healing value, instead healing for only 50% of the damage dealt.",
+      "description": "I'll Take That! and Fury of Da Green will now inflict 325 Elemental damage, but no longer receive a base healing value, instead healing for only 50% of the damage dealt.",
       "category": "CareerTactic",
       "gameId": 2105,
       "componentValues": {
-        "ABIL_2859_COM_3_VAL0_ELEMENTALDAMAGE": 458
+        "ABIL_2859_COM_3_VAL0_ELEMENTALDAMAGE": 325
       },
       "rawDescription": "I'll Take That! and Fury of Da Green will now inflict {ABIL_2859_COM_3_VAL0_ELEMENTALDAMAGE}, but no longer receive a base healing value, instead healing for only 50% of the damage dealt."
     },

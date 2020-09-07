@@ -415,14 +415,14 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 30 Hatred<br>Requires Great Weapon",
-      "description": "A great cleave that strikes all targets 40 feet in front of you for 294 damage and making them 10% more likely to be critically hit by others for 5 seconds.",
+      "description": "A great cleave that strikes all targets 40 feet in front of you for 294 damage and making them 10% more likely to be critically hit by others for 10 seconds.",
       "category": "Ability",
       "gameId": 9344,
       "componentValues": {
         "COM_1_RADI_FEET": 40,
         "COM_1_VAL0_DAMAGE": 294,
         "COM_2_VAL1": 10,
-        "COM_2_DURA_SECONDS": 5
+        "COM_2_DURA_SECONDS": 10
       },
       "rawDescription": "A great cleave that strikes all targets {COM_1_RADI_FEET} in front of you for {COM_1_VAL0_DAMAGE} and making them {COM_2_VAL1}% more likely to be critically hit by others for {COM_2_DURA_SECONDS}."
     },

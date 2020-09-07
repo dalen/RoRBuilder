@@ -547,7 +547,7 @@
       "cost": "50 Action Points",
       "range": "80ft range",
       "incant": "2.0s cast",
-      "cooldown": "8s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Tranquility reduces cast time.<br>Builds Force",
       "description": "A wash of power leeches the breath from your target and up to four other enemies within 25 feet of them, dealing 251 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 809 health, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability",
@@ -1336,11 +1336,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically heal someone, your healing abilities will cost 50% less action points for 10 seconds.",
+      "description": "Whenever you critically heal someone, your healing abilities will cost 35% less action points for 10 seconds.",
       "category": "CareerTactic",
       "gameId": 9293,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL1": 50,
+        "COM_1_VAL0_COM_0_VAL1": 35,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Whenever you critically heal someone, your healing abilities will cost {COM_1_VAL0_COM_0_VAL1}% less action points for {COM_1_VAL0_COM_0_DURA_SECONDS}."
@@ -1412,18 +1412,18 @@
       "id": 6104,
       "name": "Penetrating Siphon",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Vaul",
       "minrank": "1",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Balance Essence and Energy of Vaul will now inflict 458 Spirit damage, but no longer receive a base healing value, instead healing for only 50% of the damage dealt.",
+      "description": "Balance Essence and Energy of Vaul will now inflict 325 Spirit damage, but no longer receive a base healing value, instead healing for only 50% of the damage dealt.",
       "category": "CareerTactic",
       "gameId": 2305,
       "componentValues": {
-        "ABIL_2859_COM_3_VAL0_SPIRITDAMAGE": 458
+        "ABIL_2859_COM_3_VAL0_SPIRITDAMAGE": 325
       },
       "rawDescription": "Balance Essence and Energy of Vaul will now inflict {ABIL_2859_COM_3_VAL0_SPIRITDAMAGE}, but no longer receive a base healing value, instead healing for only 50% of the damage dealt."
     },

@@ -320,7 +320,7 @@
       "componentValues": {
         "ABIL_1069_COM_1_RADI_FEET": 25,
         "ABIL_1069_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1070_COM_0_VAL0": 4,
+        "ABIL_1070_COM_0_VAL0": 5,
         "ABIL_1070_COM_0_VAL1": 0
       },
       "rawDescription": "Construct a turret with a moderate range auto-firing grenade launcher. The turret gains 100% of BS, 30% of WS, and 70% of your Wounds from item bonuses.  While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, shorten the duration and tick interval of Path of Grenadier and Tinkerer DoTs by 4% to a maximum of 35% and allow Grenadier skills to be cast while moving. You lose 4 stacks of upgrades if the turret is destroyed."
@@ -718,7 +718,7 @@
       "componentValues": {
         "ABIL_1069_COM_1_RADI_FEET": 25,
         "ABIL_1069_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1070_COM_0_VAL0": 4,
+        "ABIL_1070_COM_0_VAL0": 5,
         "ABIL_1070_COM_0_VAL1": 0
       },
       "rawDescription": "Construct a turret with a short range self-firing flamethrower. The turret gains 100% of BS, 10% of WS, and 90% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50% but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of upgrades if the turret is destroyed."
@@ -887,7 +887,7 @@
       "componentValues": {
         "ABIL_1069_COM_1_RADI_FEET": 25,
         "ABIL_1069_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1070_COM_0_VAL0": 4,
+        "ABIL_1070_COM_0_VAL0": 5,
         "ABIL_1070_COM_0_VAL1": 0
       },
       "rawDescription": "Construct a turret with a long range self-aiming gun. The turret gains 75% of BS and WS from item bonuses and 50% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}% and increase your range by 5% to a maximum of 25% extra range. You lose 4 stacks of upgrades if the turret is destroyed."

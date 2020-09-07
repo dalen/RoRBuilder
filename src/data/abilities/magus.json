@@ -1203,7 +1203,7 @@
       "componentValues": {
         "ABIL_1071_COM_1_RADI_FEET": 25,
         "ABIL_1071_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1072_COM_0_VAL0": 4,
+        "ABIL_1072_COM_0_VAL0": 5,
         "ABIL_1072_COM_0_VAL1": 0
       },
       "rawDescription": "Summons a daemonic minion with short range area of effect attacks. The minion gains 50% of Int and 100% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}%, your Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50%, but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of this effect if the daemon is slain."
@@ -1226,7 +1226,7 @@
       "componentValues": {
         "ABIL_1071_COM_1_RADI_FEET": 25,
         "ABIL_1071_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1072_COM_0_VAL0": 4,
+        "ABIL_1072_COM_0_VAL0": 5,
         "ABIL_1072_COM_0_VAL1": 0
       },
       "rawDescription": "Summons a daemonic minion with moderate range Spiritual attacks. The minion gains 75% of Int and 75% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}%, shortening the duration and tick interval of Path of Changing and Path of Daemonology DoTs by 4% to a maximum of 35% and allow Changing skills to be cast while moving. You lose 4 stacks of this effect if the daemon is slain."
@@ -1249,7 +1249,7 @@
       "componentValues": {
         "ABIL_1071_COM_1_RADI_FEET": 25,
         "ABIL_1071_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1072_COM_0_VAL0": 4,
+        "ABIL_1072_COM_0_VAL0": 5,
         "ABIL_1072_COM_0_VAL1": 0
       },
       "rawDescription": "Summons a daemonic minion with long range Elemental attacks.The daemonic minion gains 100% of Int and 50% of your Wounds from item bonuses. While within {ABIL_1071_COM_1_RADI_FEET} of the minion you will be empowered by unholy energy every {ABIL_1071_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1072_COM_0_VAL0}% to a maximum of {ABIL_1072_COM_0_VAL1}% and range by 5% to a maximum of 25% extra range. You will lose 4 stacks of this effect if daemon is slain."
