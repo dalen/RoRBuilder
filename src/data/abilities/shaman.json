@@ -14,13 +14,7 @@
         "lvl6": 5316,
         "lvl7": 5317
       },
-      "coreAbilities": [
-        5273,
-        5280,
-        5367,
-        5282,
-        5275
-      ]
+      "coreAbilities": [5273, 5280, 5367, 5282, 5275]
     },
     "b": {
       "name": "Path of Gork",
@@ -36,13 +30,7 @@
         "lvl6": 5323,
         "lvl7": 5324
       },
-      "coreAbilities": [
-        5268,
-        5278,
-        5272,
-        5368,
-        5285
-      ]
+      "coreAbilities": [5268, 5278, 5272, 5368, 5285]
     },
     "c": {
       "name": "Path of Da Green",
@@ -58,14 +46,7 @@
         "lvl6": 5330,
         "lvl7": 5331
       },
-      "coreAbilities": [
-        5286,
-        5284,
-        5270,
-        5271,
-        5276,
-        1934
-      ]
+      "coreAbilities": [5286, 5284, 5270, 5271, 5276, 1934]
     }
   },
   "data": [
@@ -610,7 +591,7 @@
       "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
     },
     {
-      "image": "07996",
+      "image": "abi_or_face06",
       "id": 5330,
       "name": "Fury of Da Green",
       "type": "Damaging",
