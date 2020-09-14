@@ -327,13 +327,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While you are using the Gift of Monstrosity, all of your hits have a 25% chance to prevent all who are hit from generating Morale for 5 seconds.",
+      "description": "While you are using the Gift of Monstrosity, all of your hits have a 10% chance to prevent all who are hit from generating Morale for 5 seconds.",
       "category": "CareerTactic",
       "gameId": 8446,
       "componentValues": {
         "COM_1_DURA_SECONDS": 5
       },
-      "rawDescription": "While you are using the Gift of Monstrosity, all of your hits have a 25% chance to prevent all who are hit from generating Morale for {COM_1_DURA_SECONDS}."
+      "rawDescription": "While you are using the Gift of Monstrosity, all of your hits have a 10% chance to prevent all who are hit from generating Morale for {COM_1_DURA_SECONDS}."
     },
     {
       "image": "05196",

@@ -1675,14 +1675,14 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 15 Hatred",
-      "description": "Your overwhelming hate shields you from up to 625 damage over 10 seconds.",
+      "description": "Your overwhelming hate shields you from up to 625 damage over 10 seconds. Your Dark Protector will be affected as well if they are within 50ft.",
       "category": "Ability",
       "gameId": 9336,
       "componentValues": {
         "COM_1_VAL1_DAMAGE": 625,
         "COM_1_DURA_SECONDS": 10
       },
-      "rawDescription": "Your overwhelming hate shields you from up to {COM_1_VAL1_DAMAGE} over {COM_1_DURA_SECONDS}."
+      "rawDescription": "Your overwhelming hate shields you from up to {COM_1_VAL1_DAMAGE} over {COM_1_DURA_SECONDS}. Your Dark Protector will be affected as well if they are within 50ft."
     },
     {
       "image": "23177",
