@@ -1172,7 +1172,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Target must have a Blessing",
+      "note": "Target must have a Blessing<br>Builds 1 Blood Lust",
       "description": "You sever one Blessing from your enemy and inflict 127 damage.",
       "category": "Ability",
       "gameId": 9413,
@@ -1234,13 +1234,11 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You prowl through the shadows for the next 30 seconds, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points.",
+      "description": "You prowl through the shadows, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points.",
       "category": "Ability",
       "gameId": 9393,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 30
-      },
-      "rawDescription": "You prowl through the shadows for the next {COM_0_DURA_SECONDS}, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points."
+      "componentValues": {},
+      "rawDescription": "You prowl through the shadows, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points."
     },
     {
       "image": "22698",

@@ -801,7 +801,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You deal 800 damage to targets within 30 feet  and debuff incoming healing by 50% for 10 seconds.",
+      "description": "You deal 800 damage to targets within 30 feet  and debuff incoming healing by 50% for 10 seconds. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 1501,
       "componentValues": {
@@ -809,7 +809,7 @@
         "COM_0_RADI_FEET": 30,
         "COM_1_DURA_SECONDS": 10
       },
-      "rawDescription": "You deal {COM_0_VAL0_DAMAGE} to targets within {COM_0_RADI_FEET}  and debuff incoming healing by 50% for {COM_1_DURA_SECONDS}."
+      "rawDescription": "You deal {COM_0_VAL0_DAMAGE} to targets within {COM_0_RADI_FEET}  and debuff incoming healing by 50% for {COM_1_DURA_SECONDS}. This ability hits max 9 targets."
     },
     {
       "image": "04685",

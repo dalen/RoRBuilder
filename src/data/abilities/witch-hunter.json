@@ -802,11 +802,11 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, run out of action points, or after 30 seconds has passed.",
+      "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, or run out of action points.",
       "category": "Ability",
       "gameId": 8090,
       "componentValues": {},
-      "rawDescription": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, run out of action points, or after 30 seconds has passed."
+      "rawDescription": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, or run out of action points."
     },
     {
       "image": "22708",
@@ -1125,11 +1125,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blessed Bullets of Purity will now heal you for 100% of the damage that they cause.",
+      "description": "Blessed Bullets of Purity will now heal you for 150% of the damage that they cause.",
       "category": "CareerTactic",
       "gameId": 8132,
       "componentValues": {},
-      "rawDescription": "Blessed Bullets of Purity will now heal you for 100% of the damage that they cause."
+      "rawDescription": "Blessed Bullets of Purity will now heal you for 150% of the damage that they cause."
     },
     {
       "image": "07978",
@@ -1202,7 +1202,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Target must have a Blessing",
+      "note": "Target must have a Blessing<br>Builds 1 Accusation",
       "description": "You sever one Blessing from your enemy and inflict 127 damage.",
       "category": "Ability",
       "gameId": 8101,

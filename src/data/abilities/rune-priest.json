@@ -368,11 +368,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
+      "description": "While under the effects of your Rune of Breaking; you gain 10% disrupt strikethrough and each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
       "category": "CareerTactic",
       "gameId": 1637,
       "componentValues": {},
-      "rawDescription": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt."
+      "rawDescription": "While under the effects of your Rune of Breaking; you gain 10% disrupt strikethrough and each time you deal direct damage, your defensive target is healed for 50% of the damage dealt."
     },
     {
       "image": "22694",
@@ -908,14 +908,14 @@
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
       "note": "",
-      "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1365 Elemental damage over 6 seconds for as long as you maintain your concentration.",
+      "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1365 Elemental damage over 6 seconds and snaring them by 40% for as long as you maintain your concentration.",
       "category": "Ability",
       "gameId": 1614,
       "componentValues": {
         "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1365,
         "COM_0_DURA_SECONDS": 6
       },
-      "rawDescription": "You channel a powerful series of runes around your target which project searing flame into them, dealing {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} for as long as you maintain your concentration."
+      "rawDescription": "You channel a powerful series of runes around your target which project searing flame into them, dealing {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} and snaring them by 40% for as long as you maintain your concentration."
     },
     {
       "image": "04507",
@@ -990,14 +990,14 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Deals 1197 Elemental damage over 24 seconds and heals your defensive target for the amount of damage dealt.",
+      "description": "Deals 1197 Elemental damage over 24 seconds and heals your defensive target for 150% of the damage dealt.",
       "category": "Ability",
       "gameId": 1616,
       "componentValues": {
         "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1197,
         "COM_0_DURA_SECONDS": 24
       },
-      "rawDescription": "Deals {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} and heals your defensive target for the amount of damage dealt."
+      "rawDescription": "Deals {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} and heals your defensive target for 150% of the damage dealt."
     },
     {
       "image": "04630",

@@ -300,24 +300,6 @@
       "rawDescription": "Path of Corruption abilities will now cost {COM_0_VAL1}% less action points."
     },
     {
-      "image": "22709",
-      "id": 4775,
-      "name": "Discordant Winds",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "31",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "All your attacks will now deal spiritual damage instead of physical but healing on you will be reduced by 20%.",
-      "category": "CareerTactic",
-      "gameId": 8355,
-      "componentValues": {},
-      "rawDescription": "All your attacks will now deal spiritual damage instead of physical but healing on you will be reduced by 20%."
-    },
-    {
       "image": "23172",
       "id": 4787,
       "name": "Demolishing Strike",

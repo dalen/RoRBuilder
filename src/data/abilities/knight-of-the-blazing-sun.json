@@ -187,15 +187,15 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The force of the sun fills your blade, dealing 105 damage to the enemy and the victim will also suffer 192 over the next 9 seconds. This effect is stackable up to three times.",
+      "description": "The force of the sun fills your blade, dealing 105 damage to the enemy and the victim will also suffer 192 Elemental damage over the next 9 seconds. This effect is stackable up to three times.",
       "category": "Ability",
       "gameId": 8007,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 105,
-        "COM_1_VAL0_COM_1_VAL0_TOD": 192,
+        "COM_1_VAL0_COM_1_VAL0_TOD_ELEMENTALDAMAGE": 192,
         "COM_1_VAL0_COM_1_DURA_SECONDS": 9
       },
-      "rawDescription": "The force of the sun fills your blade, dealing {COM_0_VAL0_DAMAGE} to the enemy and the victim will also suffer {COM_1_VAL0_COM_1_VAL0_TOD} over the next {COM_1_VAL0_COM_1_DURA_SECONDS}. This effect is stackable up to three times."
+      "rawDescription": "The force of the sun fills your blade, dealing {COM_0_VAL0_DAMAGE} to the enemy and the victim will also suffer {COM_1_VAL0_COM_1_VAL0_TOD_ELEMENTALDAMAGE} over the next {COM_1_VAL0_COM_1_DURA_SECONDS}. This effect is stackable up to three times."
     },
     {
       "image": "08058",
@@ -243,7 +243,7 @@
       "id": 3099,
       "name": "Coordination",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Conquest",
       "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
@@ -307,7 +307,7 @@
       "id": 3101,
       "name": "Dirty Tricks",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Conquest",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
@@ -350,7 +350,7 @@
       "id": 3096,
       "name": "Efficient Swings",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Conquest",
       "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
@@ -412,7 +412,7 @@
       "id": 3094,
       "name": "Overpowering Swing",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Conquest",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
@@ -475,7 +475,7 @@
       "id": 3108,
       "name": "Focused Mending",
       "type": "Defensive",
-      "spec": "Core Ability",
+      "spec": "Path of Glory",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
@@ -608,15 +608,15 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 80 damage to all enemies in front of you up to 40 feet away.  Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
+      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 80 Elemental damage to all enemies in front of you up to 40 feet away.  Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
       "gameId": 8038,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 80,
+        "COM_0_VAL0_ELEMENTALDAMAGE": 80,
         "COM_0_RADI_FEET": 40,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 5
       },
-      "rawDescription": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing {COM_0_VAL0_DAMAGE} to all enemies in front of you up to {COM_0_RADI_FEET} away.  Everyone hit by this attack will be staggered, and unable to move for {COM_2_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
+      "rawDescription": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing {COM_0_VAL0_ELEMENTALDAMAGE} to all enemies in front of you up to {COM_0_RADI_FEET} away.  Everyone hit by this attack will be staggered, and unable to move for {COM_2_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
     },
     {
       "image": "07997",
@@ -685,7 +685,7 @@
       "id": 3103,
       "name": "Laurels of Victory",
       "type": "Defensive",
-      "spec": "Core Ability",
+      "spec": "Path of Conquest",
       "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
@@ -717,24 +717,6 @@
         "COM_0_VAL1": 100
       },
       "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% more than normal on all attacks."
-    },
-    {
-      "image": "22715",
-      "id": 3110,
-      "name": "Mighty Soul",
-      "type": "Defensive",
-      "spec": "Core Ability",
-      "minrank": "27",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "All of your attacks will now deal Elemental damage instead of physical damage but you will take 15% increased damage.",
-      "category": "CareerTactic",
-      "gameId": 8061,
-      "componentValues": {},
-      "rawDescription": "All of your attacks will now deal Elemental damage instead of physical damage but you will take 15% increased damage."
     },
     {
       "image": "08063",
@@ -1144,7 +1126,7 @@
       "id": 3092,
       "name": "Slice Through",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Conquest",
       "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
@@ -1294,18 +1276,18 @@
       "id": 3106,
       "name": "Sunfury",
       "type": "Defensive",
-      "spec": "Core Ability",
+      "spec": "Path of Glory",
       "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shield Of The Sun will now deal 225 damage back against enemies, and Vicious Slash's cooldown is reduced by 1 second.",
+      "description": "Shield Of The Sun will now deal 150 damage back against enemies, and Vicious Slash's cooldown is reduced by 1 second.",
       "category": "CareerTactic",
       "gameId": 8059,
       "componentValues": {
-        "ABIL_8025_COM_2_VAL0_DAMAGE": 225
+        "ABIL_8025_COM_2_VAL0_DAMAGE": 150
       },
       "rawDescription": "Shield Of The Sun will now deal {ABIL_8025_COM_2_VAL0_DAMAGE} back against enemies, and Vicious Slash's cooldown is reduced by 1 second."
     },

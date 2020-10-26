@@ -205,13 +205,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Squig Armor<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target. You will inflict 144 damage to them when you land. This ability cannot be used while you are airborne. Cant be used if there is a too big height difference between you and your target.",
+      "description": "You pounce forwards, leaping towards your target. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot be used while you are airborne or if there is a too big height difference between you and your target.",
       "category": "Ability",
       "gameId": 2800,
-      "componentValues": {
-        "COM_2_VAL0_DAMAGE": 144
-      },
-      "rawDescription": "You pounce forwards, leaping towards your target. You will inflict {COM_2_VAL0_DAMAGE} to them when you land. This ability cannot be used while you are airborne. Cant be used if there is a too big height difference between you and your target."
+      "componentValues": {},
+      "rawDescription": "You pounce forwards, leaping towards your target. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot be used while you are airborne or if there is a too big height difference between you and your target."
     },
     {
       "image": "02620",
@@ -286,7 +284,7 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Squig Armor",
       "description": "You force your Battle Squig to claw at your target, dealing 318 damage over 9 seconds and snaring them by 40% over 9 seconds.",
       "category": "Ability",
@@ -856,7 +854,7 @@
       "type": "Hex",
       "spec": "Path of Bouncin'",
       "minrank": "25",
-      "cost": "20 Action Points",
+      "cost": "45 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",

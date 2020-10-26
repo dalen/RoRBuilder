@@ -990,13 +990,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target and causing 159 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
+      "description": "You pounce forwards, leaping towards your target. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
       "category": "Ability",
       "gameId": 9186,
-      "componentValues": {
-        "COM_2_VAL0_DAMAGE": 159
-      },
-      "rawDescription": "You pounce forwards, leaping towards your target and causing {COM_2_VAL0_DAMAGE} when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target."
+      "componentValues": {},
+      "rawDescription": "You pounce forwards, leaping towards your target. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target."
     },
     {
       "image": "13442",

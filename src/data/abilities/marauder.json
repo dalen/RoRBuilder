@@ -471,13 +471,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "You quickly rake your target twice, dealing 117 damage with each hit.  The victim will regain action points 50% more slowly for 10 seconds.",
+      "description": "You quickly rake your target twice, dealing 117 damage with each hit.  The victim will regain action points 50% more slowly for 5 seconds.",
       "category": "Ability",
       "gameId": 8419,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 117,
         "COM_2_VAL0": 50,
-        "COM_2_DURA_SECONDS": 10
+        "COM_2_DURA_SECONDS": 5
       },
       "rawDescription": "You quickly rake your target twice, dealing {COM_0_VAL0_DAMAGE} with each hit.  The victim will regain action points {COM_2_VAL0}% more slowly for {COM_2_DURA_SECONDS}."
     },
@@ -1315,15 +1315,15 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "A particularly nasty blow that inflicts 248 damage to your target and decreases their Wounds by 100 for the next 20 seconds.",
+      "description": "A particularly nasty blow that inflicts 248 damage to your target and decreases their Wounds by 75 for the next 20 seconds.<BR>Not affected by cooldown modification abilities.",
       "category": "Ability",
       "gameId": 8424,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 248,
-        "COM_1_VAL0": 100,
+        "COM_1_VAL0": 75,
         "COM_1_DURA_SECONDS": 20
       },
-      "rawDescription": "A particularly nasty blow that inflicts {COM_0_VAL0_DAMAGE} to your target and decreases their Wounds by {COM_1_VAL0} for the next {COM_1_DURA_SECONDS}."
+      "rawDescription": "A particularly nasty blow that inflicts {COM_0_VAL0_DAMAGE} to your target and decreases their Wounds by {COM_1_VAL0} for the next {COM_1_DURA_SECONDS}.<BR>Not affected by cooldown modification abilities."
     },
     {
       "image": "05202",
