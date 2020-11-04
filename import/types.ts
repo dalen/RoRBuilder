@@ -104,7 +104,7 @@ export enum AbilityFlags {
   FLAG16 = Math.pow(2, 16), // CareerTactic
   FLAG17 = Math.pow(2, 17), // Requires parry/disrupt? (Also force opportunity & malignant strike)
   FLAG18 = Math.pow(2, 18), // None
-  FLAG19 = Math.pow(2, 19), // Stacks with other buffs
+  FLAG19 = Math.pow(2, 19), // Does not stack with other buffs if set (Normal ability stacking rules)
   FLAG20 = Math.pow(2, 20), // Seems all have this flag?
   FLAG21 = Math.pow(2, 21), // ??
   CHANNEL = Math.pow(2, 22),
