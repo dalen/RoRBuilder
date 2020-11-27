@@ -1384,24 +1384,6 @@
       "rawDescription": "You whip your pet in to a frenzy, causing it to do {COM_0_VAL0}% more damage for {COM_0_DURA_SECONDS}."
     },
     {
-      "image": "02594",
-      "id": 1830,
-      "name": "Squig Armor",
-      "type": "Buff",
-      "spec": "Path of Bouncin'",
-      "minrank": "1",
-      "cost": "No AP Cost",
-      "range": "Self",
-      "incant": "Instant cast",
-      "cooldown": "5s cooldown",
-      "note": "",
-      "description": "Summons a massive battle squig which will promptly eat you.  From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor; your armor is increased by the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance.",
-      "category": "Ability",
-      "gameId": 1830,
-      "componentValues": {},
-      "rawDescription": "Summons a massive battle squig which will promptly eat you.  From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor; your armor is increased by the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance."
-    },
-    {
       "image": "04506",
       "id": 5505,
       "name": "Squig Goo",
