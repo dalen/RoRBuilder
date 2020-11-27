@@ -287,11 +287,11 @@
       "incant": "1.0s cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You call your tamed War Lion to come forth and fight with you.<BR>You may only have a single War Lion at a time.",
+      "description": "You call your tamed War Lion to come forth and fight with you.<BR>You may only have a single War Lion at a time.<BR>If the War Lion is more than 40ft away from you, its damage will be reduced. The further away the pet is, the more the damage is reduced.",
       "category": "Ability",
       "gameId": 9159,
       "componentValues": {},
-      "rawDescription": "You call your tamed War Lion to come forth and fight with you.<BR>You may only have a single War Lion at a time."
+      "rawDescription": "You call your tamed War Lion to come forth and fight with you.<BR>You may only have a single War Lion at a time.<BR>If the War Lion is more than 40ft away from you, its damage will be reduced. The further away the pet is, the more the damage is reduced."
     },
     {
       "image": "22705",

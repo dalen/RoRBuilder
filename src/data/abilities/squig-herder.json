@@ -7,18 +7,18 @@
       },
       "optionalAbilities": {
         "lvl1": 5524,
-        "lvl2": 5521,
+        "lvl2": 1835,
         "lvl3": 2743,
         "lvl4": 5523,
         "lvl5": 5520,
-        "lvl6": 5525,
+        "lvl6": 1833,
         "lvl7": 5526
       },
       "coreAbilities": [
+        5521,
         5471,
         5577,
         5486,
-        5485,
         5493
       ]
     },
@@ -40,14 +40,12 @@
         5495,
         5472,
         5490,
-        5491,
         5477,
         5492,
         5489,
         5480,
         7565,
-        7566,
-        7567
+        7566
       ]
     },
     "c": {
@@ -61,15 +59,15 @@
         "lvl3": 5536,
         "lvl4": 5537,
         "lvl5": 5538,
-        "lvl6": 5539,
+        "lvl6": 1848,
         "lvl7": 5540
       },
       "coreAbilities": [
         5470,
         5473,
-        5494,
         5474,
-        5487
+        5491,
+        1854
       ]
     }
   },
@@ -124,31 +122,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage when you have no pets present. This effect will not stack with Territorial Aggression.",
+      "description": "You deal 25% more damage when you have no pets present.",
       "category": "CareerTactic",
       "gameId": 1860,
       "componentValues": {
         "COM_0_VAL0": 25
       },
-      "rawDescription": "You deal {COM_0_VAL0}% more damage when you have no pets present. This effect will not stack with Territorial Aggression."
-    },
-    {
-      "image": "22707",
-      "id": 2996,
-      "name": "Territorial Aggression",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "31",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Your Battle Squig will not tolerate you having any other Squigs around. Your armour is increased by the amount of armor you have from items. Your ranged abilities will do less damage but your melee attacks will do 25% more damage and Squig Leap will have no cooldown. This effect will not stack with All By Myself.",
-      "category": "CareerTactic",
-      "gameId": 2996,
-      "componentValues": {},
-      "rawDescription": "Your Battle Squig will not tolerate you having any other Squigs around. Your armour is increased by the amount of armor you have from items. Your ranged abilities will do less damage but your melee attacks will do 25% more damage and Squig Leap will have no cooldown. This effect will not stack with All By Myself."
+      "rawDescription": "You deal {COM_0_VAL0}% more damage when you have no pets present."
     },
     {
       "image": "02626",
@@ -213,11 +193,11 @@
     },
     {
       "image": "02620",
-      "id": 5539,
+      "id": 1854,
       "name": "Behind Ya!",
       "type": "Damaging",
       "spec": "Path of Quick Shootin'",
-      "minrank": "29",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "65ft range",
       "incant": "Instant cast",
@@ -362,22 +342,22 @@
     {
       "image": "22697",
       "id": 5524,
-      "name": "Clever Shootin'",
+      "name": "Scramblin' Quick-Like",
       "type": "Buff",
-      "spec": "Path of Big Shootin'",
+      "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your Path of Big Shootin' abilities cost 35% fewer action points.",
+      "description": "Increases your Squig's movement speed by 50%.",
       "category": "CareerTactic",
       "gameId": 1869,
       "componentValues": {
-        "COM_0_VAL1": 35
+        "COM_1_VAL0": 50
       },
-      "rawDescription": "All of your Path of Big Shootin' abilities cost {COM_0_VAL1}% fewer action points."
+      "rawDescription": "Increases your Squig's movement speed by {COM_1_VAL0}%."
     },
     {
       "image": "22701",
@@ -391,11 +371,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Sneaky Strike will now also increase your chance to defend attacks by 15%.",
+      "description": "While in your Squig Armor, your defenses are increased by 10%.",
       "category": "CareerTactic",
       "gameId": 2807,
       "componentValues": {},
-      "rawDescription": "Sneaky Strike will now also increase your chance to defend attacks by 15%."
+      "rawDescription": "While in your Squig Armor, your defenses are increased by 10%."
     },
     {
       "image": "23162",
@@ -470,11 +450,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases durations of Yer Bleeding to 24s, Stop Runnin to 15s, and Not So Fast! to 15s.",
+      "description": "Enemies affected by Rotten Arrer will take 181 Elemental damage each time they're healed. This effect will not trigger more than once every seconds.",
       "category": "CareerTactic",
       "gameId": 1874,
-      "componentValues": {},
-      "rawDescription": "Increases durations of Yer Bleeding to 24s, Stop Runnin to 15s, and Not So Fast! to 15s."
+      "componentValues": {
+        "ABIL_3352_COM_0_VAL0_ELEMENTALDAMAGE": 181
+      },
+      "rawDescription": "Enemies affected by Rotten Arrer will take {ABIL_3352_COM_0_VAL0_ELEMENTALDAMAGE} each time they're healed. This effect will not trigger more than once every seconds."
     },
     {
       "image": "02477",
@@ -500,22 +482,22 @@
     {
       "image": "02615",
       "id": 5491,
-      "name": "Don't Hit Me!",
+      "name": "Red Tipped Arrer!",
       "type": "Damaging",
-      "spec": "Path of Bouncin'",
+      "spec": "Path of Quick Shootin'",
       "minrank": "30",
       "cost": "30 Action Points",
-      "range": "5ft range",
+      "range": "65ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You lash out at your target, dealing 169 damage and interrupting any ability that they are building up.",
+      "description": "You fire a quick arrow at your target, dealing 191 damage and interrupting any ability that they are building up.",
       "category": "Ability",
       "gameId": 1838,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 169
+        "COM_0_VAL0_DAMAGE": 191
       },
-      "rawDescription": "You lash out at your target, dealing {COM_0_VAL0_DAMAGE} and interrupting any ability that they are building up."
+      "rawDescription": "You fire a quick arrow at your target, dealing {COM_0_VAL0_DAMAGE} and interrupting any ability that they are building up."
     },
     {
       "image": "02598",
@@ -550,11 +532,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you are dealt damage, there is a 25% chance that 50% of the damage is dealt to your Squig, if it is within 45 feet.",
+      "description": "Any time you reveive a direct healing effect, your squig will become healed for 25% of the value as long as it is within 30 feet.",
       "category": "CareerTactic",
       "gameId": 1870,
       "componentValues": {},
-      "rawDescription": "When you are dealt damage, there is a 25% chance that 50% of the damage is dealt to your Squig, if it is within 45 feet."
+      "rawDescription": "Any time you reveive a direct healing effect, your squig will become healed for 25% of the value as long as it is within 30 feet."
     },
     {
       "image": "22694",
@@ -578,26 +560,26 @@
     },
     {
       "image": "02590",
-      "id": 5485,
+      "id": 1833,
       "name": "Explodin' Arrer",
       "type": "Ailment",
       "spec": "Path of Big Shootin'",
-      "minrank": "14",
+      "minrank": "29",
       "cost": "40 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "An Ailment which deals 133 Elemental damage to your target and then explodes, dealing an additional 165 Elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
+      "description": "An ailment which deals 183 Elemental damage and an additional 429 Elemental damage over 9 seconds to all enemies within 20 feet of a spot you selected and knock them back a medium distance.",
       "category": "Ability",
       "gameId": 1833,
       "componentValues": {
-        "COM_0_VAL0_ELEMENTALDAMAGE": 133,
-        "COM_2_VAL0_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 165,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 9,
-        "COM_2_VAL0_COM_0_RADI_FEET": 20
+        "COM_1_VAL0_ELEMENTALDAMAGE": 183,
+        "ABIL_3901_COM_1_VAL0_TOD_ELEMENTALDAMAGE": 429,
+        "ABIL_3901_COM_1_DURA_SECONDS": 9,
+        "COM_2_RADI_FEET": 20
       },
-      "rawDescription": "An Ailment which deals {COM_0_VAL0_ELEMENTALDAMAGE} to your target and then explodes, dealing an additional {COM_2_VAL0_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_2_VAL0_COM_0_DURA_SECONDS} to the target and all other enemies within {COM_2_VAL0_COM_0_RADI_FEET} of them."
+      "rawDescription": "An ailment which deals {COM_1_VAL0_ELEMENTALDAMAGE} and an additional {ABIL_3901_COM_1_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3901_COM_1_DURA_SECONDS} to all enemies within {COM_2_RADI_FEET} of a spot you selected and knock them back a medium distance."
     },
     {
       "image": "23163",
@@ -644,13 +626,13 @@
     },
     {
       "image": "02614",
-      "id": 5525,
+      "id": 1848,
       "name": "Finish 'em Off",
       "type": "Damaging",
-      "spec": "Path of Big Shootin'",
+      "spec": "Path of Quick Shootin'",
       "minrank": "29",
       "cost": "30 Action Points",
-      "range": "100ft range",
+      "range": "65ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
@@ -705,7 +687,7 @@
     },
     {
       "image": "02507",
-      "id": 5481,
+      "id": 1843,
       "name": "Gas Squig",
       "type": "Buff",
       "spec": "Core Ability",
@@ -717,7 +699,7 @@
       "note": "You may only have 1 active pet",
       "description": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<BR>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<BR>Your range is increased by 10% as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability",
-      "gameId": 2829,
+      "gameId": 1843,
       "componentValues": {
         "COM_2_VAL1": 10
       },
@@ -783,17 +765,17 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your summoned Squig's Strength and Toughness are increased by 160",
+      "description": "Your summoned Squig's Strength, Ballistic Skill and Wounds are increased by 160",
       "category": "CareerTactic",
       "gameId": 1859,
       "componentValues": {
         "COM_0_VAL0": 160
       },
-      "rawDescription": "Your summoned Squig's Strength and Toughness are increased by {COM_0_VAL0}"
+      "rawDescription": "Your summoned Squig's Strength, Ballistic Skill and Wounds are increased by {COM_0_VAL0}"
     },
     {
       "image": "02488",
-      "id": 5478,
+      "id": 1842,
       "name": "Horned Squig",
       "type": "Buff",
       "spec": "Core Ability",
@@ -803,11 +785,13 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a Horned squig pet which you can order around. This pet deals more damage than a basic squig. It is strong against physical attacks, but weak against magic.<BR>This pet receives a bonus to Strength and Weapon Skill equal to your Ballistic Skill bonus from items. This pet receives a bonus to Toughness and Wounds that is 50% of your bonus from items.<BR>Your armor is increased by the amount of armor gained from items as long as your Squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a Horned squig pet which you can order around. This pet deals more damage than a basic squig. It is strong against physical attacks, but weak against magic.<BR>This pet receives a bonus to Strength equal to your Ballistic Skill bonus from items. This pet receives a bonus to Toughness and Wounds that is 50% of your bonus from items.<BR>Your parry strikethrough is increased by 10% as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability",
-      "gameId": 2828,
-      "componentValues": {},
-      "rawDescription": "Summons a Horned squig pet which you can order around. This pet deals more damage than a basic squig. It is strong against physical attacks, but weak against magic.<BR>This pet receives a bonus to Strength and Weapon Skill equal to your Ballistic Skill bonus from items. This pet receives a bonus to Toughness and Wounds that is 50% of your bonus from items.<BR>Your armor is increased by the amount of armor gained from items as long as your Squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason."
+      "gameId": 1842,
+      "componentValues": {
+        "COM_2_VAL1": 10
+      },
+      "rawDescription": "Summons a Horned squig pet which you can order around. This pet deals more damage than a basic squig. It is strong against physical attacks, but weak against magic.<BR>This pet receives a bonus to Strength equal to your Ballistic Skill bonus from items. This pet receives a bonus to Toughness and Wounds that is 50% of your bonus from items.<BR>Your parry strikethrough is increased by {COM_2_VAL1}% as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason."
     },
     {
       "image": "22706",
@@ -954,25 +938,26 @@
     },
     {
       "image": "02596",
-      "id": 5487,
+      "id": 1835,
       "name": "Not So Fast!",
       "type": "Ailment",
       "spec": "Path of Quick Shootin'",
-      "minrank": "18",
-      "cost": "30 Action Points",
-      "range": "65ft range",
+      "minrank": "21",
+      "cost": "20 Action Points",
+      "range": "100ft range",
       "incant": "1.0s cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "A Crippling shot that deals 191 damage and reduces your target's Initiative by 50 for 10 seconds.  This ability will continue to build up even if you move.",
+      "description": "A Crippling shot that deals 191 damage, reduces your target's Initiative by 50 for 10 seconds and knocks the target down for 3 seconds",
       "category": "Ability",
       "gameId": 1835,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 191,
         "COM_1_VAL0": 50,
-        "COM_1_DURA_SECONDS": 10
+        "COM_1_DURA_SECONDS": 10,
+        "ABIL_20104_COM_0_DURA_SECONDS": 3
       },
-      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE} and reduces your target's Initiative by {COM_1_VAL0} for {COM_1_DURA_SECONDS}.  This ability will continue to build up even if you move."
+      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE}, reduces your target's Initiative by {COM_1_VAL0} for {COM_1_DURA_SECONDS} and knocks the target down for {ABIL_20104_COM_0_DURA_SECONDS}"
     },
     {
       "image": "22702",
@@ -1079,7 +1064,7 @@
     {
       "image": "02608",
       "id": 7566,
-      "name": "Really Bad Gas!",
+      "name": "Bad Gas!",
       "type": "Unknown",
       "spec": "Path of Bouncin'",
       "minrank": "1",
@@ -1206,22 +1191,18 @@
       "id": 5501,
       "name": "Sharpened Arrers",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Big Shootin'",
       "minrank": "35",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Explodin Arrer now deals 258 damage to the initial enemy, and 627 damage over 9 seconds with its explosion.",
+      "description": "Increases the armor penetration of all your ranged abilities by 25% as long as you have an active pet.",
       "category": "CareerTactic",
       "gameId": 1861,
-      "componentValues": {
-        "ABIL_1833_COM_1_VAL0_DAMAGE": 258,
-        "ABIL_1833_COM_2_VAL0_COM_1_VAL0_TOD_DAMAGE": 627,
-        "ABIL_1833_COM_2_VAL0_COM_1_DURA_SECONDS": 9
-      },
-      "rawDescription": "Explodin Arrer now deals {ABIL_1833_COM_1_VAL0_DAMAGE} to the initial enemy, and {ABIL_1833_COM_2_VAL0_COM_1_VAL0_TOD_DAMAGE} over {ABIL_1833_COM_2_VAL0_COM_1_DURA_SECONDS} with its explosion."
+      "componentValues": {},
+      "rawDescription": "Increases the armor penetration of all your ranged abilities by 25% as long as you have an active pet."
     },
     {
       "image": "abi_squig_spikeshield",
@@ -1245,24 +1226,24 @@
     },
     {
       "image": "02489",
-      "id": 5494,
+      "id": 1840,
       "name": "Shoot Thru Ya",
       "type": "Damaging",
-      "spec": "Path of Quick Shootin'",
-      "minrank": "40",
-      "cost": "40 Action Points",
+      "spec": "Core Ability",
+      "minrank": "36",
+      "cost": "Rank 3 morale",
       "range": "Self",
-      "incant": "2.0s cast",
-      "cooldown": "No cooldown",
+      "incant": "Instant cast",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "A piercing arrow which deals 237 damage to all enemies in front of you, up to 65 feet away.  This ability will continue to build up even if you move.",
-      "category": "Ability",
+      "description": "A piercing arrow which deals 1800 damage to all enemies in front of you, up to 65 feet away.",
+      "category": "Morale",
       "gameId": 1840,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 237,
+        "COM_0_VAL0_DAMAGE": 1800,
         "COM_0_RADI_FEET": 65
       },
-      "rawDescription": "A piercing arrow which deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away.  This ability will continue to build up even if you move."
+      "rawDescription": "A piercing arrow which deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
     },
     {
       "image": "22709",
@@ -1276,13 +1257,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the ranges of all Path of Quick Shootin' abilities by 50%.",
+      "description": "Increases critical hit rate of all Path of Quick Shootin' abilities by 15% and the critical damage of Red Tipped Arrer and Behind Ya! by 50%.",
       "category": "CareerTactic",
       "gameId": 1875,
-      "componentValues": {
-        "COM_0_VAL1": 50
-      },
-      "rawDescription": "Increases the ranges of all Path of Quick Shootin' abilities by {COM_0_VAL1}%."
+      "componentValues": {},
+      "rawDescription": "Increases critical hit rate of all Path of Quick Shootin' abilities by 15% and the critical damage of Red Tipped Arrer and Behind Ya! by 50%."
     },
     {
       "image": "02612",
@@ -1290,7 +1269,7 @@
       "name": "Shrapnel Arrer",
       "type": "Damaging",
       "spec": "Path of Big Shootin'",
-      "minrank": "21",
+      "minrank": "18",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -1309,7 +1288,7 @@
     {
       "image": "22701",
       "id": 5529,
-      "name": "Sneaky Stabbin",
+      "name": "Sneaky Bouncin'",
       "type": "Buff",
       "spec": "Path of Bouncin'",
       "minrank": "23",
@@ -1325,27 +1304,6 @@
         "COM_0_VAL0": 15
       },
       "rawDescription": "Your damage is increased by {COM_0_VAL0}% when under 45 feet away from your target."
-    },
-    {
-      "image": "02482",
-      "id": 5504,
-      "name": "Soothin' Mushroom Wrap",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "28",
-      "cost": "Rank 1 morale",
-      "range": "Self",
-      "incant": "Instant cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "While within 100 feet of you, your group members' actions cost 50% less AP for 10 seconds.",
-      "category": "Morale",
-      "gameId": 1877,
-      "componentValues": {
-        "COM_0_VAL1": 50,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "While within 100 feet of you, your group members' actions cost {COM_0_VAL1}% less AP for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "02483",
@@ -1370,7 +1328,7 @@
     {
       "image": "22697",
       "id": 5534,
-      "name": "Splinterin' Arrers",
+      "name": "Shootin' Quicka",
       "type": "Buff",
       "spec": "Path of Quick Shootin'",
       "minrank": "17",
@@ -1379,13 +1337,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Run 'N Shoot will now also damage all enemies within 20 feet of your target, but damage is reduced by 30%.",
+      "description": "Increase autoattack speed by 50% for you and your pet as long as your pet is alive.",
       "category": "CareerTactic",
       "gameId": 1873,
-      "componentValues": {
-        "ABIL_1826_COM_1_RADI_FEET": 20
-      },
-      "rawDescription": "Run 'N Shoot will now also damage all enemies within {ABIL_1826_COM_1_RADI_FEET} of your target, but damage is reduced by 30%."
+      "componentValues": {},
+      "rawDescription": "Increase autoattack speed by 50% for you and your pet as long as your pet is alive."
     },
     {
       "image": "02599",
@@ -1394,16 +1350,16 @@
       "type": "Buff",
       "spec": "Path of Bouncin'",
       "minrank": "1",
-      "cost": "55 Action Points",
+      "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
-      "description": "Summons a massive battle squig which will promptly eat you.  From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor; your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance.",
+      "description": "Summons a massive battle squig which will promptly eat you.  From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor; your armor is increased by the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance.",
       "category": "Ability",
       "gameId": 1830,
       "componentValues": {},
-      "rawDescription": "Summons a massive battle squig which will promptly eat you.  From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor; your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance."
+      "rawDescription": "Summons a massive battle squig which will promptly eat you.  From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor; your armor is increased by the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance."
     },
     {
       "image": "02594",
@@ -1415,16 +1371,16 @@
       "cost": "35 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "3m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires an active pet",
-      "description": "You whip your pet in to a frenzy, causing it to do 50% more auto attack damage for 30 seconds.",
+      "description": "You whip your pet in to a frenzy, causing it to do 25% more damage for 20 seconds.",
       "category": "Ability",
       "gameId": 1832,
       "componentValues": {
-        "COM_0_VAL1": 50,
-        "COM_0_DURA_SECONDS": 30
+        "COM_0_VAL0": 25,
+        "COM_0_DURA_SECONDS": 20
       },
-      "rawDescription": "You whip your pet in to a frenzy, causing it to do {COM_0_VAL1}% more auto attack damage for {COM_0_DURA_SECONDS}."
+      "rawDescription": "You whip your pet in to a frenzy, causing it to do {COM_0_VAL0}% more damage for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "04506",
@@ -1454,8 +1410,8 @@
       "name": "Squigbeast",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "36",
-      "cost": "Rank 3 morale",
+      "minrank": "28",
+      "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
@@ -1566,11 +1522,11 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a basic squig pet which you can order around. This pet is very tough, and can take quite beating.<BR>This pet receives a bonuses to Toughness and Wounds equal to your bonus from items.<BR>This squig generates much more hatred in enemy monsters than normal.<BR>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a basic squig pet which you can order around. This pet is very tough, and can take quite beating.<BR>This pet receives a bonuses to Toughness and Wounds equal to your bonus from items.<BR>This squig generates much more hatred in enemy monsters than normal.<BR>When you are dealt damage, there is a 25% chance that 50% of the damage is dealt to your Basic Squig, if it is within 45 feet.<BR>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability",
       "gameId": 1841,
       "componentValues": {},
-      "rawDescription": "Summons a basic squig pet which you can order around. This pet is very tough, and can take quite beating.<BR>This pet receives a bonuses to Toughness and Wounds equal to your bonus from items.<BR>This squig generates much more hatred in enemy monsters than normal.<BR>Cooldown will begin when you lose control of your pet for any reason."
+      "rawDescription": "Summons a basic squig pet which you can order around. This pet is very tough, and can take quite beating.<BR>This pet receives a bonuses to Toughness and Wounds equal to your bonus from items.<BR>This squig generates much more hatred in enemy monsters than normal.<BR>When you are dealt damage, there is a 25% chance that 50% of the damage is dealt to your Basic Squig, if it is within 45 feet.<BR>Cooldown will begin when you lose control of your pet for any reason."
     },
     {
       "image": "02597",
@@ -1584,14 +1540,14 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires an active pet",
-      "description": "You eat your squig, gaining 441 health. For the next 10 seconds, the next different squig other than the one that was just eaten will be summoned instantly.",
+      "description": "You eat your squig, increasing your wounds by 160 for 10 seconds. For the next 10 seconds, the next different squig other than the one that was just eaten will be summoned instantly.",
       "category": "Ability",
       "gameId": 1836,
       "componentValues": {
-        "COM_0_VAL0_HEALTH": 441,
+        "ABIL_1889_COM_0_VAL0": 160,
         "COM_2_DURA_SECONDS": 10
       },
-      "rawDescription": "You eat your squig, gaining {COM_0_VAL0_HEALTH}. For the next {COM_2_DURA_SECONDS}, the next different squig other than the one that was just eaten will be summoned instantly."
+      "rawDescription": "You eat your squig, increasing your wounds by {ABIL_1889_COM_0_VAL0} for {COM_2_DURA_SECONDS}. For the next {COM_2_DURA_SECONDS}, the next different squig other than the one that was just eaten will be summoned instantly."
     },
     {
       "image": "22707",

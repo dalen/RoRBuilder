@@ -222,7 +222,7 @@
     {
       "image": "22706",
       "id": 3671,
-      "name": "Bandolier",
+      "name": "Dazzling Flash",
       "type": "Buff",
       "spec": "Path of The Grenadier",
       "minrank": "27",
@@ -231,13 +231,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your Path of the Grenadier abilities cost 35% fewer action points.",
+      "description": "When your Flashbang Grenade detonates, any enemy hit by the blast will become disoriented for 5 seconds, increasing the build times of their abilities by 50%.",
       "category": "CareerTactic",
       "gameId": 1562,
       "componentValues": {
-        "COM_0_VAL1": 35
+        "ABIL_3368_COM_0_DURA_SECONDS": 5,
+        "ABIL_3368_COM_0_VAL0": 50
       },
-      "rawDescription": "All of your Path of the Grenadier abilities cost {COM_0_VAL1}% fewer action points."
+      "rawDescription": "When your Flashbang Grenade detonates, any enemy hit by the blast will become disoriented for {ABIL_3368_COM_0_DURA_SECONDS}, increasing the build times of their abilities by {ABIL_3368_COM_0_VAL0}%."
     },
     {
       "image": "04566",
@@ -463,11 +464,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When your Land Mine detonates, any enemy hit by the blast will become disoriented for 10 seconds, increasing the build times of their abilities by 50%.",
+      "description": "When your Land Mine detonates, any enemy hit by the blast will become disoriented for 5 seconds, increasing the build times of their abilities by 50%.",
       "category": "CareerTactic",
       "gameId": 1549,
       "componentValues": {
-        "ABIL_3368_COM_0_DURA_SECONDS": 10,
+        "ABIL_3368_COM_0_DURA_SECONDS": 5,
         "ABIL_3368_COM_0_VAL0": 50
       },
       "rawDescription": "When your Land Mine detonates, any enemy hit by the blast will become disoriented for {ABIL_3368_COM_0_DURA_SECONDS}, increasing the build times of their abilities by {ABIL_3368_COM_0_VAL0}%."
@@ -1208,13 +1209,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your Path of the Rifleman abilities cost 35% fewer action points.",
+      "description": "Gun Blast and Snipe now builds up 1 seconds faster.",
       "category": "CareerTactic",
       "gameId": 1559,
       "componentValues": {
-        "COM_0_VAL1": 35
+        "COM_0_VAL0_SECONDS": 1
       },
-      "rawDescription": "All of your Path of the Rifleman abilities cost {COM_0_VAL1}% fewer action points."
+      "rawDescription": "Gun Blast and Snipe now builds up {COM_0_VAL0_SECONDS} faster."
     },
     {
       "image": "04652",
@@ -1301,22 +1302,23 @@
     {
       "image": "04603",
       "id": 3615,
-      "name": "Shock Grenade",
+      "name": "Field Repair",
       "type": "Healing",
       "spec": "Core Ability",
       "minrank": "22",
-      "cost": "No AP Cost",
-      "range": "65ft range",
+      "cost": "5 Action Points / Sec",
+      "range": "20ft range",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
-      "note": "",
-      "description": "You toss a grenade at an ally which removes stagger effects from them and five others within 25 feet.",
+      "cooldown": "10s cooldown",
+      "note": "Requires a Turret",
+      "description": "You focus on repairing your turret for up to 3 seconds, restoring 674 health to it every second and making it briefly immune to damage. This effect will end if you lose your concentration or run out of action points.",
       "category": "Ability",
       "gameId": 1512,
       "componentValues": {
-        "COM_1_RADI_FEET": 25
+        "COM_0_DURA_SECONDS": 3,
+        "COM_0_VAL0_HEALTH": 674
       },
-      "rawDescription": "You toss a grenade at an ally which removes stagger effects from them and five others within {COM_1_RADI_FEET}."
+      "rawDescription": "You focus on repairing your turret for up to {COM_0_DURA_SECONDS}, restoring {COM_0_VAL0_HEALTH} to it every second and making it briefly immune to damage. This effect will end if you lose your concentration or run out of action points."
     },
     {
       "image": "04609",

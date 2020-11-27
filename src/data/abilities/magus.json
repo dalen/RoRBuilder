@@ -1105,22 +1105,23 @@
     {
       "image": "05271",
       "id": 5059,
-      "name": "Shocking Jolt",
-      "type": "Defensive",
+      "name": "Strengthen Thrall",
+      "type": "Healing",
       "spec": "Core Ability",
       "minrank": "22",
-      "cost": "No AP Cost",
-      "range": "65ft range",
+      "cost": "5 Action Points / Sec",
+      "range": "20ft range",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
-      "note": "",
-      "description": "You remove stagger effects from an ally and five other allies within 25 feet.",
+      "cooldown": "10s cooldown",
+      "note": "Requires a summoned minion.",
+      "description": "Stabilizes your daemonic minion, restoring 689 health every second for 3 seconds and making it briefly immune to damage.",
       "category": "Ability",
       "gameId": 8473,
       "componentValues": {
-        "COM_1_RADI_FEET": 25
+        "COM_0_VAL0_HEALTH": 689,
+        "COM_0_DURA_SECONDS": 3
       },
-      "rawDescription": "You remove stagger effects from an ally and five other allies within {COM_1_RADI_FEET}."
+      "rawDescription": "Stabilizes your daemonic minion, restoring {COM_0_VAL0_HEALTH} every second for {COM_0_DURA_SECONDS} and making it briefly immune to damage."
     },
     {
       "image": "23170",

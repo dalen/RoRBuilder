@@ -1131,13 +1131,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you heal an ally, there is a 25% chance that they will regain 50 Action Points, but this effect will not work on you.",
+      "description": "Whenever you directly heal an ally, there is a 25% chance that they will regain 50 Action Points, but this effect will not work on you.",
       "category": "CareerTactic",
       "gameId": 9596,
       "componentValues": {
         "COM_1_VAL0_ACTIONPOINTS": 50
       },
-      "rawDescription": "Whenever you heal an ally, there is a 25% chance that they will regain {COM_1_VAL0_ACTIONPOINTS}, but this effect will not work on you."
+      "rawDescription": "Whenever you directly heal an ally, there is a 25% chance that they will regain {COM_1_VAL0_ACTIONPOINTS}, but this effect will not work on you."
     },
     {
       "image": "11003",

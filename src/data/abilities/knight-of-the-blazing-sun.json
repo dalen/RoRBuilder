@@ -357,13 +357,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All Path of Conquest abilities now cost 35% fewer action points.",
+      "description": "Detaunts are dispelled automatically when applied to you.",
       "category": "CareerTactic",
       "gameId": 8053,
-      "componentValues": {
-        "COM_0_VAL1": 35
-      },
-      "rawDescription": "All Path of Conquest abilities now cost {COM_0_VAL1}% fewer action points."
+      "componentValues": {},
+      "rawDescription": "Detaunts are dispelled automatically when applied to you."
     },
     {
       "image": "08011",
@@ -965,14 +963,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you parry an attack, your Toughness and Initiative will be increased by 100 for 10 seconds. This effect will not refresh itself.",
+      "description": "Whenever you parry an attack, your Toughness and Weapon Skill will be increased by 100 for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic",
       "gameId": 8043,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0": 100,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10
       },
-      "rawDescription": "Whenever you parry an attack, your Toughness and Initiative will be increased by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}. This effect will not refresh itself."
+      "rawDescription": "Whenever you parry an attack, your Toughness and Weapon Skill will be increased by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}. This effect will not refresh itself."
     },
     {
       "image": "08005",
@@ -1493,7 +1491,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "",
+      "note": "Requires Shield",
       "description": "The glory of the sun fills you with power, reducing all damage that you take by 50% for 10 seconds but reducing all damage that you deal by 25%.",
       "category": "Ability",
       "gameId": 8034,
