@@ -174,7 +174,7 @@
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all targets in front of you within {COM_0_RADI_FEET}, and then deals an additional {COM_1_VAL0_TOD} over {COM_1_DURA_SECONDS}."
     },
     {
-      "image": "abi_or_squig14",
+      "image": "abi_or_squig13",
       "id": 5530,
       "name": "Squig Leap",
       "type": "Damaging",
@@ -480,7 +480,7 @@
       "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
-      "image": "02615",
+      "image": "abi_or_range01",
       "id": 5491,
       "name": "Red Tipped Arrer!",
       "type": "Damaging",
