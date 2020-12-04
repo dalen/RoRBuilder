@@ -98,8 +98,8 @@ export enum AbilityFlags {
   FLAG10 = Math.pow(2, 10), // None
   FLAG11 = Math.pow(2, 11), // Requires Mechanic? Stealth, Mutation, Squig armor or exhaustive abilities
   FLAG12 = Math.pow(2, 12), // None
-  FLAG13 = Math.pow(2, 13), // Toggle abilities?
-  FLAG14 = Math.pow(2, 14), // Similar to flag13, but without flee
+  FLAG13 = Math.pow(2, 13), // Toggle abilities
+  FLAG14 = Math.pow(2, 14), // Likely Ignore GCD. Similar to flag13, but without flee
   FLAG15 = Math.pow(2, 15), // Gives passive buff?
   FLAG16 = Math.pow(2, 16), // CareerTactic
   FLAG17 = Math.pow(2, 17), // Requires parry/disrupt? (Also force opportunity & malignant strike)
