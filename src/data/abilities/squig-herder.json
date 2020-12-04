@@ -7,19 +7,19 @@
       },
       "optionalAbilities": {
         "lvl1": 1861,
-        "lvl2": 1835,
+        "lvl2": 1833,
         "lvl3": 2743,
-        "lvl4": 5523,
-        "lvl5": 5520,
-        "lvl6": 1833,
-        "lvl7": 5526
+        "lvl4": 1848,
+        "lvl5": 2742,
+        "lvl6": 1847,
+        "lvl7": 1883
       },
       "coreAbilities": [
-        5521,
-        5471,
-        5577,
-        5486,
-        5493
+        1823,
+        1846,
+        1834,
+        1839,
+        1821
       ]
     },
     "b": {
@@ -55,27 +55,27 @@
         "primary": "A mastery path focused on short range and moving bow combat"
       },
       "optionalAbilities": {
-        "lvl1": 5534,
-        "lvl2": 5535,
-        "lvl3": 5536,
-        "lvl4": 5537,
-        "lvl5": 5538,
-        "lvl6": 1848,
-        "lvl7": 5540
+        "lvl1": 1873,
+        "lvl2": 1835,
+        "lvl3": 1874,
+        "lvl4": 1853,
+        "lvl5": 1875,
+        "lvl6": 1838,
+        "lvl7": 1885
       },
       "coreAbilities": [
-        5470,
-        5473,
-        5474,
-        5491,
-        1854
+        1822,
+        1825,
+        1826,
+        1854,
+        1852
       ]
     }
   },
   "data": [
     {
       "image": "22704",
-      "id": 5520,
+      "id": 2742,
       "name": "Aimin' Quickly",
       "type": "Buff",
       "spec": "Path of Big Shootin'",
@@ -105,11 +105,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Explodin' Arrer and Poison Arrer will now bypass all of your victim's resistances.",
+      "description": "Poison Arrer applies a lingering poison for 10 seconds seconds that takes effect when an enemies health drops below 25%, dealing 400 Corporeal damage damage.<BR><BR>Additionally, Explodin' Arrer and Poison Arrer will bypass your victim's resistances.",
       "category": "CareerTactic",
       "gameId": 2743,
-      "componentValues": {},
-      "rawDescription": "Explodin' Arrer and Poison Arrer will now bypass all of your victim's resistances."
+      "componentValues": {
+        "ABIL_3096_COM_0_DURA_SECONDS": 10,
+        "ABIL_3096_COM_1_VAL0_CORPOREALDAMAGE": 400
+      },
+      "rawDescription": "Poison Arrer applies a lingering poison for {ABIL_3096_COM_0_DURA_SECONDS} seconds that takes effect when an enemies health drops below 25%, dealing {ABIL_3096_COM_1_VAL0_CORPOREALDAMAGE} damage.<BR><BR>Additionally, Explodin' Arrer and Poison Arrer will bypass your victim's resistances."
     },
     {
       "image": "22697",
@@ -123,13 +126,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage when you have no pets present.",
+      "description": "You deal 25% more damage when you have no pets present and Squig Leap will have no cooldown.",
       "category": "CareerTactic",
       "gameId": 1860,
       "componentValues": {
         "COM_0_VAL0": 25
       },
-      "rawDescription": "You deal {COM_0_VAL0}% more damage when you have no pets present."
+      "rawDescription": "You deal {COM_0_VAL0}% more damage when you have no pets present and Squig Leap will have no cooldown."
     },
     {
       "image": "02626",
@@ -153,7 +156,7 @@
     },
     {
       "image": "02624",
-      "id": 5540,
+      "id": 1885,
       "name": "Arrer O' Mork",
       "type": "Buff",
       "spec": "Path of Quick Shootin'",
@@ -301,7 +304,7 @@
     },
     {
       "image": "02595",
-      "id": 5493,
+      "id": 1839,
       "name": "Choking Arrer",
       "type": "Ailment",
       "spec": "Path of Big Shootin'",
@@ -441,7 +444,7 @@
     },
     {
       "image": "22694",
-      "id": 5536,
+      "id": 1874,
       "name": "Da Waaagh Iz Strong",
       "type": "Buff",
       "spec": "Path of Quick Shootin'",
@@ -482,23 +485,24 @@
     },
     {
       "image": "abi_or_range01",
-      "id": 5491,
+      "id": 1838,
       "name": "Red Tipped Arrer!",
       "type": "Damaging",
       "spec": "Path of Quick Shootin'",
-      "minrank": "30",
+      "minrank": "29",
       "cost": "30 Action Points",
       "range": "65ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You fire a quick arrow at your target, dealing 191 damage and interrupting any ability that they are building up.",
+      "description": "You fire a quick arrow at your target, dealing 191 damage, interrupting any ability that they are building up and will remove one damage absorbing effect from the target. Any damage absorbing effect removed from the target will inflict an additional 200 damage.",
       "category": "Ability",
       "gameId": 1838,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 191
+        "COM_0_VAL0_DAMAGE": 191,
+        "ABIL_3089_COM_0_VAL0_DAMAGE": 200
       },
-      "rawDescription": "You fire a quick arrow at your target, dealing {COM_0_VAL0_DAMAGE} and interrupting any ability that they are building up."
+      "rawDescription": "You fire a quick arrow at your target, dealing {COM_0_VAL0_DAMAGE}, interrupting any ability that they are building up and will remove one damage absorbing effect from the target. Any damage absorbing effect removed from the target will inflict an additional {ABIL_3089_COM_0_VAL0_DAMAGE}."
     },
     {
       "image": "02598",
@@ -533,11 +537,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you reveive a direct healing effect, your squig will become healed for 25% of the value as long as it is within 30 feet.",
+      "description": "Any time you receive a direct healing effect, your squig will become healed for 25% of the value as long as it is within 30 feet.",
       "category": "CareerTactic",
       "gameId": 1870,
       "componentValues": {},
-      "rawDescription": "Any time you reveive a direct healing effect, your squig will become healed for 25% of the value as long as it is within 30 feet."
+      "rawDescription": "Any time you receive a direct healing effect, your squig will become healed for 25% of the value as long as it is within 30 feet."
     },
     {
       "image": "22694",
@@ -565,22 +569,22 @@
       "name": "Explodin' Arrer",
       "type": "Ailment",
       "spec": "Path of Big Shootin'",
-      "minrank": "29",
+      "minrank": "21",
       "cost": "40 Action Points",
       "range": "100ft range",
-      "incant": "Instant cast",
+      "incant": "2.0s cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "An ailment which deals 183 Elemental damage and an additional 429 Elemental damage over 9 seconds to all enemies within 20 feet of a spot you selected and knock them back a medium distance.",
+      "description": "An ailment which deals 183 Elemental damage and an additional 429 Elemental damage over 9 seconds to your target and all other enemies within 20 feet and knock them back a medium distance.",
       "category": "Ability",
       "gameId": 1833,
       "componentValues": {
-        "COM_1_VAL0_ELEMENTALDAMAGE": 183,
+        "COM_0_VAL0_ELEMENTALDAMAGE": 183,
         "ABIL_3901_COM_1_VAL0_TOD_ELEMENTALDAMAGE": 429,
         "ABIL_3901_COM_1_DURA_SECONDS": 9,
-        "COM_2_RADI_FEET": 20
+        "COM_1_RADI_FEET": 20
       },
-      "rawDescription": "An ailment which deals {COM_1_VAL0_ELEMENTALDAMAGE} and an additional {ABIL_3901_COM_1_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3901_COM_1_DURA_SECONDS} to all enemies within {COM_2_RADI_FEET} of a spot you selected and knock them back a medium distance."
+      "rawDescription": "An ailment which deals {COM_0_VAL0_ELEMENTALDAMAGE} and an additional {ABIL_3901_COM_1_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3901_COM_1_DURA_SECONDS} to your target and all other enemies within {COM_1_RADI_FEET} and knock them back a medium distance."
     },
     {
       "image": "23163",
@@ -630,10 +634,10 @@
       "id": 1848,
       "name": "Finish 'em Off",
       "type": "Damaging",
-      "spec": "Path of Quick Shootin'",
-      "minrank": "29",
+      "spec": "Path of Big Shootin'",
+      "minrank": "25",
       "cost": "30 Action Points",
-      "range": "65ft range",
+      "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
@@ -698,13 +702,13 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<BR>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<BR>Your range is increased by 10% as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<BR>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<BR>Your range is increased by 15 feet as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability",
       "gameId": 1843,
       "componentValues": {
-        "COM_2_VAL1": 10
+        "COM_2_RADI_FEET": 15
       },
-      "rawDescription": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<BR>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<BR>Your range is increased by {COM_2_VAL1}% as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason."
+      "rawDescription": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<BR>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<BR>Your range is increased by {COM_2_RADI_FEET} as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason."
     },
     {
       "image": "02478",
@@ -877,7 +881,7 @@
     },
     {
       "image": "04529",
-      "id": 5486,
+      "id": 1834,
       "name": "Lots o' Arrers",
       "type": "Damaging",
       "spec": "Path of Big Shootin'",
@@ -898,7 +902,7 @@
     },
     {
       "image": "02622",
-      "id": 5526,
+      "id": 1883,
       "name": "Lots Of Shootin'",
       "type": "Buff",
       "spec": "Path of Big Shootin'",
@@ -945,20 +949,18 @@
       "spec": "Path of Quick Shootin'",
       "minrank": "21",
       "cost": "20 Action Points",
-      "range": "100ft range",
+      "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A Crippling shot that deals 191 damage, reduces your target's Initiative by 50 for 10 seconds and knocks the target down for 3 seconds",
+      "description": "A Crippling shot that deals 191 damage and knocks the target down for 3 seconds. This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 1835,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 191,
-        "COM_1_VAL0": 50,
-        "COM_1_DURA_SECONDS": 10,
         "ABIL_20104_COM_0_DURA_SECONDS": 3
       },
-      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE}, reduces your target's Initiative by {COM_1_VAL0} for {COM_1_DURA_SECONDS} and knocks the target down for {ABIL_20104_COM_0_DURA_SECONDS}"
+      "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE} and knocks the target down for {ABIL_20104_COM_0_DURA_SECONDS}. This ability will continue to build up even if you move."
     },
     {
       "image": "22702",
@@ -1004,7 +1006,7 @@
     },
     {
       "image": "02538",
-      "id": 5577,
+      "id": 1821,
       "name": "Plink",
       "type": "Damaging",
       "spec": "Path of Big Shootin'",
@@ -1044,11 +1046,11 @@
     },
     {
       "image": "02589",
-      "id": 5523,
+      "id": 1847,
       "name": "Poison Arrer",
       "type": "Damaging",
       "spec": "Path of Big Shootin'",
-      "minrank": "25",
+      "minrank": "29",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "3.0s cast",
@@ -1084,7 +1086,7 @@
     },
     {
       "image": "02619",
-      "id": 5537,
+      "id": 1853,
       "name": "Rotten Arrer",
       "type": "Ailment",
       "spec": "Path of Quick Shootin'",
@@ -1105,7 +1107,7 @@
     },
     {
       "image": "02618",
-      "id": 5535,
+      "id": 1852,
       "name": "Run Away!",
       "type": "Buff",
       "spec": "Path of Quick Shootin'",
@@ -1148,7 +1150,7 @@
     },
     {
       "image": "02593",
-      "id": 5474,
+      "id": 1826,
       "name": "Run 'n Shoot",
       "type": "Damaging",
       "spec": "Path of Quick Shootin'",
@@ -1248,7 +1250,7 @@
     },
     {
       "image": "22709",
-      "id": 5538,
+      "id": 1875,
       "name": "Shootin' Wif Da Wind",
       "type": "Buff",
       "spec": "Path of Quick Shootin'",
@@ -1266,7 +1268,7 @@
     },
     {
       "image": "02612",
-      "id": 5521,
+      "id": 1846,
       "name": "Shrapnel Arrer",
       "type": "Damaging",
       "spec": "Path of Big Shootin'",
@@ -1328,7 +1330,7 @@
     },
     {
       "image": "22697",
-      "id": 5534,
+      "id": 1873,
       "name": "Shootin' Quicka",
       "type": "Buff",
       "spec": "Path of Quick Shootin'",
@@ -1470,7 +1472,7 @@
     },
     {
       "image": "abi_or_foot01",
-      "id": 5473,
+      "id": 1825,
       "name": "Stop Runnin!",
       "type": "Ailment",
       "spec": "Path of Quick Shootin'",
@@ -1572,7 +1574,7 @@
     },
     {
       "image": "02613",
-      "id": 5471,
+      "id": 1823,
       "name": "What Blocka?",
       "type": "Ailment",
       "spec": "Path of Big Shootin'",
@@ -1637,7 +1639,7 @@
     },
     {
       "image": "02625",
-      "id": 5470,
+      "id": 1822,
       "name": "Yer Bleedin'!",
       "type": "Ailment",
       "spec": "Path of Quick Shootin'",
@@ -1645,16 +1647,18 @@
       "cost": "25 Action Points",
       "range": "65ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
-      "description": "An Ailment which deals 675 damage to your target over 15 seconds.",
+      "description": "An Ailment which deals 675 damage to your target over 10 seconds and reduces your target's Initiative by 50 for 10 seconds",
       "category": "Ability",
       "gameId": 1822,
       "componentValues": {
         "COM_0_VAL0_TOD_DAMAGE": 675,
-        "COM_0_DURA_SECONDS": 15
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0": 50,
+        "COM_1_DURA_SECONDS": 10
       },
-      "rawDescription": "An Ailment which deals {COM_0_VAL0_TOD_DAMAGE} to your target over {COM_0_DURA_SECONDS}."
+      "rawDescription": "An Ailment which deals {COM_0_VAL0_TOD_DAMAGE} to your target over {COM_0_DURA_SECONDS} and reduces your target's Initiative by {COM_1_VAL0} for {COM_1_DURA_SECONDS}"
     }
   ]
 }
