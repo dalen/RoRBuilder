@@ -105,14 +105,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Poison Arrer applies a lingering poison for 10 seconds seconds that takes effect when an enemies health drops below 25%, dealing 400 Corporeal damage damage.<BR><BR>Additionally, Explodin' Arrer and Poison Arrer will bypass your victim's resistances.",
+      "description": "Poison Arrer applies a lingering poison for 10 seconds that takes effect when an enemies health drops below 25%, dealing 400 Corporeal damage.<BR><BR>Additionally, Explodin' Arrer and Poison Arrer will bypass your victim's resistances.",
       "category": "CareerTactic",
       "gameId": 2743,
       "componentValues": {
         "ABIL_3096_COM_0_DURA_SECONDS": 10,
         "ABIL_3096_COM_1_VAL0_CORPOREALDAMAGE": 400
       },
-      "rawDescription": "Poison Arrer applies a lingering poison for {ABIL_3096_COM_0_DURA_SECONDS} seconds that takes effect when an enemies health drops below 25%, dealing {ABIL_3096_COM_1_VAL0_CORPOREALDAMAGE} damage.<BR><BR>Additionally, Explodin' Arrer and Poison Arrer will bypass your victim's resistances."
+      "rawDescription": "Poison Arrer applies a lingering poison for {ABIL_3096_COM_0_DURA_SECONDS} that takes effect when an enemies health drops below 25%, dealing {ABIL_3096_COM_1_VAL0_CORPOREALDAMAGE}.<BR><BR>Additionally, Explodin' Arrer and Poison Arrer will bypass your victim's resistances."
     },
     {
       "image": "22697",
