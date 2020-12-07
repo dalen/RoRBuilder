@@ -11,7 +11,7 @@
   overflow: hidden;
   z-index: 10;
   height: 30rem;
-  background: url('/images/home-background.jpg') no-repeat;
+  background: url('../../images/home-background.jpg') no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   transition: all 500ms ease;

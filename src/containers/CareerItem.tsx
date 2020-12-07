@@ -13,7 +13,7 @@ const CareerItem = ({ career }: Props) => {
   };
 
   const url = `/career/${career.slug}`;
-  const imgUrl = `/images/icons/${career.slug}.png`;
+  const imgUrl = `../images/icons/${career.slug}.png`;
 
   return (
     <SideBarItem

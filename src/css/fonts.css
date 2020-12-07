@@ -3,22 +3,22 @@
   font-style: normal;
   font-weight: 300;
   src: local('Roboto'), local('Roboto-Light'),
-    url('/fonts/Roboto-Light.woff') format('woff'),
-    url('/fonts/Roboto-Light.ttf') format('truetype');
+    url('../fonts/Roboto-Light.woff') format('woff'),
+    url('../fonts/Roboto-Light.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   src: local('Roboto'), local('Roboto-Regular'),
-    url('/fonts/Roboto-Regular.woff') format('woff'),
-    url('/fonts/Roboto-Regular.ttf') format('truetype');
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   src: local('Roboto Bold'), local('Roboto-Bold'),
-    url('/fonts/Roboto-Bold.woff') format('woff'),
-    url('/fonts/Roboto-Bold.ttf') format('truetype');
+    url('../fonts/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold.ttf') format('truetype');
 }

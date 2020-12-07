@@ -36,6 +36,7 @@ const Sidebar = ({ sidebar }: ReturnType<typeof mapStateToProps>) => {
             url="/renown"
             text="Renown Builder"
             img="/images/renown/specpoint_renown.png"
+            onClick={() => undefined}
           />
         </div>
         {renderCareers(careerData)}

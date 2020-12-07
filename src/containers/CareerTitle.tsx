@@ -9,7 +9,7 @@ const CareerTitle = ({ careers, slug }: ReturnType<typeof mapStateToProps>) => {
     return <div className="row row--v-center">No career selected</div>;
 
   const career = careers[slug];
-  const url = `/images/icons/${career.slug}.png`;
+  const url = `../images/icons/${career.slug}.png`;
   return (
     <div className="row row--v-center">
       <img alt={`Career icon ${career.name}`} src={url} className={css.icon} />

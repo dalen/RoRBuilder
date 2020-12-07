@@ -19,7 +19,7 @@ const ModalShareCareer = ({
 }: ReturnType<typeof mapStateToProps>) => {
   if (!slug || !sharingLink) return <div>No career selected</div>;
 
-  const url = `/images/icons/${slug}.png`;
+  const url = `../images/icons/${slug}.png`;
 
   return (
     <ModalShare
