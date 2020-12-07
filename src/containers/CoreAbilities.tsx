@@ -18,7 +18,7 @@ const CoreAbilities = ({ abilities }: ReturnType<typeof mapStateToProps>) => {
     <div className={css.container}>
       <h2 className={css.heading}>Core abilities</h2>
       <div className="row">
-        {abilities.structured.coreAbilities.map(ability =>
+        {abilities.structured.coreAbilities.map((ability) =>
           renderAbility(abilities, ability),
         )}
       </div>

@@ -1,7 +1,7 @@
 import { OPEN_MODAL, CLOSE_MODAL, ActionModal } from '../actions/actionModal';
 import { ModalType } from '../helpers/modalTypes';
 
-export default function(state: ModalType | false = false, action: ActionModal) {
+export default (state: ModalType | false = false, action: ActionModal) => {
   switch (action.type) {
     case OPEN_MODAL:
       return action.payload;
@@ -10,4 +10,4 @@ export default function(state: ModalType | false = false, action: ActionModal) {
     default:
       return state;
   }
-}
+};

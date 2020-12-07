@@ -6,7 +6,7 @@ import {
 
 const initialPoints = 26;
 
-export default function(state = initialPoints, action: ActionPoints) {
+export default (state = initialPoints, action: ActionPoints) => {
   switch (action.type) {
     case SET_POINTS:
       return action.payload;
@@ -15,4 +15,4 @@ export default function(state = initialPoints, action: ActionPoints) {
     default:
       return state;
   }
-}
+};

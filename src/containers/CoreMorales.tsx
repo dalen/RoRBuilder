@@ -24,7 +24,7 @@ const renderMorale4 = (abilities: Abilities, masteryMorales: number[]) => {
   } else {
     combinedMorales = abilities.structured.coreMorales4;
   }
-  return combinedMorales.map(morale => renderMorale(abilities, morale));
+  return combinedMorales.map((morale) => renderMorale(abilities, morale));
 };
 
 const renderMorales = (abilities: Abilities, masteryMorales: number[]) => {
@@ -33,7 +33,7 @@ const renderMorales = (abilities: Abilities, masteryMorales: number[]) => {
       <div className={css.moraleFirst}>
         <h3 className={css.moraleHeading}>Rank 1</h3>
         <div className="row">
-          {abilities.structured.coreMorales1.map(key => (
+          {abilities.structured.coreMorales1.map((key) => (
             <AbilityMorale key={key} rank="1" data={abilities.indexed[key]} />
           ))}
         </div>
@@ -41,7 +41,7 @@ const renderMorales = (abilities: Abilities, masteryMorales: number[]) => {
       <div className={css.morale}>
         <h3 className={css.moraleHeading}>Rank 2</h3>
         <div className="row">
-          {abilities.structured.coreMorales2.map(key => (
+          {abilities.structured.coreMorales2.map((key) => (
             <AbilityMorale key={key} rank="2" data={abilities.indexed[key]} />
           ))}
         </div>
@@ -49,7 +49,7 @@ const renderMorales = (abilities: Abilities, masteryMorales: number[]) => {
       <div className={css.morale}>
         <h3 className={css.moraleHeading}>Rank 3</h3>
         <div className="row">
-          {abilities.structured.coreMorales3.map(key => (
+          {abilities.structured.coreMorales3.map((key) => (
             <AbilityMorale key={key} rank="3" data={abilities.indexed[key]} />
           ))}
         </div>

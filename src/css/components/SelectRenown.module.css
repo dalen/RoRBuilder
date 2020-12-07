@@ -1,9 +1,9 @@
 .container {
-  composes: select from "../shared/select.css";
+  composes: select from '../shared/select.css';
 }
 .label {
-  composes: selectLabel from "../shared/select.css";
+  composes: selectLabel from '../shared/select.css';
 }
 .select {
-  composes: selectElement from "../shared/select.css";
+  composes: selectElement from '../shared/select.css';
 }

@@ -58,7 +58,7 @@ export function setMasteryMorales(
   payload: number[];
 } {
   // Ensure that values are integers not string (as can happen coming from query string)
-  const newArray = morales.map(abilityId => Number(abilityId));
+  const newArray = morales.map((abilityId) => Number(abilityId));
 
   return {
     type: SET_MASTERY_MORALES,

@@ -152,7 +152,7 @@ class Career extends Component<Props> {
         this.loadCareerData(nextProps.match);
       } else {
         // TODO redirect to not found page on else here
-        console.warn('CAREER DOES NOT EXIST!');
+        // console.warn('CAREER DOES NOT EXIST!');
       }
     }
   }
@@ -206,13 +206,13 @@ class Career extends Component<Props> {
       this.props.setPathMeterC(pC);
     }
     if (ma) {
-      this.props.setMasteryAbilities(ma.split(',').map(a => Number(a)));
+      this.props.setMasteryAbilities(ma.split(',').map((a) => Number(a)));
     }
     if (mm) {
-      this.props.setMasteryMorales(mm.split(',').map(a => Number(a)));
+      this.props.setMasteryMorales(mm.split(',').map((a) => Number(a)));
     }
     if (mt) {
-      this.props.setMasteryTactics(mt.split(',').map(a => Number(a)));
+      this.props.setMasteryTactics(mt.split(',').map((a) => Number(a)));
     }
     if (m1) {
       this.props.selectMorale1(m1);
@@ -227,7 +227,7 @@ class Career extends Component<Props> {
       this.props.selectMorale4(m4);
     }
     if (t) {
-      this.props.setSelectedTactics(t.split(',').map(a => Number(a)));
+      this.props.setSelectedTactics(t.split(',').map((a) => Number(a)));
     }
   }
 

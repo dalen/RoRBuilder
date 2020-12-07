@@ -244,7 +244,9 @@ function mapStateToProps({
   };
 }
 
-export default connect(
-  mapStateToProps,
-  { setPathMeterA, setPathMeterB, setPathMeterC, setCurrentPoints },
-)(PathButtonsContainer);
+export default connect(mapStateToProps, {
+  setPathMeterA,
+  setPathMeterB,
+  setPathMeterC,
+  setCurrentPoints,
+})(PathButtonsContainer);

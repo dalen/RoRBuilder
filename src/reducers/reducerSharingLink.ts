@@ -3,7 +3,7 @@ import {
   ActionSharingLink,
 } from '../actions/actionSharingLink';
 
-export default function(
+export default function (
   state: string | null = null,
   action: ActionSharingLink,
 ) {

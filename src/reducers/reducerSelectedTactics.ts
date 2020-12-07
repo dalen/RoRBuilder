@@ -6,10 +6,10 @@ import {
   ActionSelectedTactics,
 } from '../actions/actionSelectedTactics';
 
-export default function(
+export default (
   state: readonly number[] = [],
   action: ActionSelectedTactics,
-) {
+) => {
   switch (action.type) {
     case SELECT_TACTIC:
       return [...action.payload.tacticsArray, action.payload.tacticId];
@@ -25,4 +25,4 @@ export default function(
     default:
       return state;
   }
-}
+};

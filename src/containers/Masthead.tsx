@@ -34,7 +34,7 @@ class Masthead extends Component<Props, { mastheadActive: boolean }> {
     e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement, MouseEvent>,
   ) {
     e.preventDefault();
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       mastheadActive: !prevState.mastheadActive,
     }));
   }
@@ -144,7 +144,7 @@ class Masthead extends Component<Props, { mastheadActive: boolean }> {
                     />
                     <div className={css.careersRaceTitle}>Dwarves</div>
                   </div>
-                  {Object.keys(careers).map(key =>
+                  {Object.keys(careers).map((key) =>
                     this.renderCareers(key, 'Dwarf'),
                   )}
                 </div>
@@ -157,7 +157,7 @@ class Masthead extends Component<Props, { mastheadActive: boolean }> {
                     />
                     <div className={css.careersRaceTitle}>High Elves</div>
                   </div>
-                  {Object.keys(careers).map(key =>
+                  {Object.keys(careers).map((key) =>
                     this.renderCareers(key, 'High Elf'),
                   )}
                 </div>
@@ -170,7 +170,7 @@ class Masthead extends Component<Props, { mastheadActive: boolean }> {
                     />
                     <div className={css.careersRaceTitle}>Empire</div>
                   </div>
-                  {Object.keys(careers).map(key =>
+                  {Object.keys(careers).map((key) =>
                     this.renderCareers(key, 'Empire'),
                   )}
                 </div>
@@ -188,7 +188,7 @@ class Masthead extends Component<Props, { mastheadActive: boolean }> {
                     />
                     <div className={css.careersRaceTitle}>Greenskins</div>
                   </div>
-                  {Object.keys(careers).map(key =>
+                  {Object.keys(careers).map((key) =>
                     this.renderCareers(key, 'Greenskin'),
                   )}
                 </div>
@@ -201,7 +201,7 @@ class Masthead extends Component<Props, { mastheadActive: boolean }> {
                     />
                     <div className={css.careersRaceTitle}>Dark Elves</div>
                   </div>
-                  {Object.keys(careers).map(key =>
+                  {Object.keys(careers).map((key) =>
                     this.renderCareers(key, 'Dark Elf'),
                   )}
                 </div>
@@ -214,7 +214,7 @@ class Masthead extends Component<Props, { mastheadActive: boolean }> {
                     />
                     <div className={css.careersRaceTitle}>Chaos</div>
                   </div>
-                  {Object.keys(careers).map(key =>
+                  {Object.keys(careers).map((key) =>
                     this.renderCareers(key, 'Chaos'),
                   )}
                 </div>

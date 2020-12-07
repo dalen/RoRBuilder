@@ -43,7 +43,9 @@ class PathMeterAbilities extends Component<Props> {
           return this.props.pathMeterC;
       }
     })();
-    const abilityKey = `oa${this.props.abilities.mastery[this.props.path].optionalAbilities[levelProp]}`;
+    const abilityKey = `oa${
+      this.props.abilities.mastery[this.props.path].optionalAbilities[levelProp]
+    }`;
     const abilityData = this.props.abilities.indexed[
       this.props.abilities.mastery[this.props.path].optionalAbilities[levelProp]
     ];
@@ -96,7 +98,7 @@ class PathMeterAbilities extends Component<Props> {
     return (
       <div>
         <div className="column marginLeft--small">
-          {abilities.map(i => this.renderAbility(i))}
+          {abilities.map((i) => this.renderAbility(i))}
         </div>
       </div>
     );

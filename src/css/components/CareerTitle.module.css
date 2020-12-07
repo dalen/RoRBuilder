@@ -1,9 +1,9 @@
 .title {
-  composes: headingCareer from "../shared/heading.css";
+  composes: headingCareer from '../shared/heading.css';
   margin-top: 0.3rem;
 }
 .icon {
-  composes: careerIconBordered from "../shared/careerIcon.css";
+  composes: careerIconBordered from '../shared/careerIcon.css';
 }
 .matt {
   font-size: 2px;

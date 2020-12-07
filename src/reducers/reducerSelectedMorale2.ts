@@ -4,10 +4,7 @@ import {
   ActionMorale2,
 } from '../actions/actionSelectedMorale2';
 
-export default function(
-  state: number | boolean = false,
-  action: ActionMorale2,
-) {
+export default (state: number | boolean = false, action: ActionMorale2) => {
   switch (action.type) {
     case SELECT_MORALE_2:
       return action.payload;
@@ -16,4 +13,4 @@ export default function(
     default:
       return state;
   }
-}
+};

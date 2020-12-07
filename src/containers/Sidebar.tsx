@@ -9,7 +9,7 @@ import SidebarItem from './SideBarItem';
 import careerData from '../data/careers.json';
 
 const renderCareers = (careers: { [key: string]: CareerSummary }) => {
-  return Object.keys(careers).map(key => (
+  return Object.keys(careers).map((key) => (
     <div className={css.item} key={key}>
       <CareerItem career={careers[key]} />
     </div>

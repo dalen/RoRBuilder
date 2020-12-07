@@ -1,6 +1,6 @@
 .container {
-  composes: box from "../shared/box.css";
+  composes: box from '../shared/box.css';
 }
 .heading {
-  composes: heading1 from "../shared/heading.css";
+  composes: heading1 from '../shared/heading.css';
 }
