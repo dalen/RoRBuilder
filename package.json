@@ -9,11 +9,12 @@
     "npm": "5.5.1"
   },
   "scripts": {
-    "lint": "eslint --ext ts,js .",
+    "lint": "eslint --ext ts,js,tsx,jsx .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier"
   },
   "repository": {
     "type": "git",
@@ -61,7 +62,9 @@
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.32.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-node": "^0.3.4",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.2.0",
@@ -77,25 +80,24 @@
   },
   "eslintConfig": {
     "extends": [
-      "airbnb",
-      "plugin:@typescript-eslint/recommended",
-      "prettier"
+      "airbnb-typescript",
+      "prettier",
+      "prettier/@typescript-eslint",
+      "prettier/react"
     ],
     "plugins": [
-      "@typescript-eslint",
-      "prettier",
-      "import"
+      "prettier"
     ],
     "rules": {
       "import/extensions": [
-        "err",
+        "off",
         "never"
       ],
       "prettier/prettier": [
         "error"
       ],
       "react/jsx-filename-extension": [
-        1,
+        "warn",
         {
           "extensions": [
             ".tsx",
@@ -112,29 +114,23 @@
       ],
       "import/no-unresolved": "off",
       "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": [
-        "error"
-      ],
+      "@typescript-eslint/no-unused-vars": "off",
       "@typescript-eslint/explicit-function-return-type": "off",
       "@typescript-eslint/promise-function-async": "error",
       "@typescript-eslint/prefer-readonly": "error",
       "@typescript-eslint/no-explicit-any": "error",
-      "@typescript-eslint/camelcase": [
-        "error",
-        {
-          "properties": "never"
-        }
-      ],
+      "@typescript-eslint/no-shadow": "off",
       "react/prop-types": "off",
       "default-case": "off",
       "no-nested-ternary": "off",
-      "react/jsx-one-expression-per-line": "off"
+      "react/jsx-one-expression-per-line": "off",
+      "react/destructuring-assignment": "off",
+      "consistent-return": "off"
     },
     "env": {
       "browser": true,
       "node": true
     },
-    "parser": "@typescript-eslint/parser",
     "parserOptions": {
       "project": "./tsconfig.json"
     }
@@ -143,7 +139,8 @@
     "public",
     "coverage",
     "build",
-    "react-app-env.d.ts"
+    "react-app-env.d.ts",
+    "import"
   ],
   "browserslist": {
     "production": [

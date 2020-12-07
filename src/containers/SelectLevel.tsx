@@ -173,7 +173,4 @@ const mapDispatchToProps = {
   resetMasteryTactics,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(SelectLevel);
+export default connect(mapStateToProps, mapDispatchToProps)(SelectLevel);

@@ -2,11 +2,11 @@
 
 .bar {
   composes: bar from '../shared/bar.css';
-  background-image: url('/images/bar/empty.png');
+  background-image: url('../../images/bar/empty.png');
   background-repeat: repeat-x;
 }
 .progress {
   composes: barProgress from '../shared/bar.css';
-  background-image: url('/images/bar/xp.png');
+  background-image: url('../../images/bar/xp.png');
   background-repeat: repeat-x;
 }

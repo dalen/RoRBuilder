@@ -3,14 +3,11 @@ import {
   ActionSharingLink,
 } from '../actions/actionSharingLink';
 
-export default function(
-  state: string | null = null,
-  action: ActionSharingLink,
-) {
+export default (state: string | null = null, action: ActionSharingLink) => {
   switch (action.type) {
     case SET_SHARING_LINK:
       return action.payload;
     default:
       return state;
   }
-}
+};

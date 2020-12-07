@@ -59,12 +59,12 @@ type RenownState = typeof initialState;
 
 const slugFromState = (state: RenownState): string =>
   Object.values(state)
-    .map(meter => meter.toString())
+    .map((meter) => meter.toString())
     .join(';');
 
 const stateFromSlug = (slug: string | undefined): RenownState => {
   if (slug === undefined) return initialState;
-  const slugValues = slug.split(';').map(v => Number(v));
+  const slugValues = slug.split(';').map((v) => Number(v));
   const entries = Object.entries(initialState).map((entry, index): [
     string,
     number,
@@ -180,7 +180,7 @@ const Renown = ({
                     'Resolve',
                     'Fortitude',
                     'Vigor',
-                  ] as const).map(name => renderCategory(name, 5))}
+                  ] as const).map((name) => renderCategory(name, 5))}
                 </div>
                 <div className="row">
                   {([
@@ -191,7 +191,7 @@ const Renown = ({
                     'Quick Escape',
                     'Improved Flee',
                     'Expanded Capacity',
-                  ] as const).map(name => renderCategory(name, 4))}
+                  ] as const).map((name) => renderCategory(name, 4))}
                 </div>
                 <div className="row">
                   {([
@@ -201,7 +201,7 @@ const Renown = ({
                     'Futile Strikes',
                     'Hardy Concession',
                     'Regeneration',
-                  ] as const).map(name => renderCategory(name, 5))}
+                  ] as const).map((name) => renderCategory(name, 5))}
                 </div>
               </div>
               <div className="marginTop">

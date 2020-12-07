@@ -28,16 +28,16 @@ const renderCoreAbilities = (abilities: Abilities, path: 'a' | 'b' | 'c') => {
     const coreAbilities2 = [...coreAbilities.slice(6)];
     return [
       <div key="core1" className="column">
-        {coreAbilities1.map(ability => renderAbility(abilities, ability))}
+        {coreAbilities1.map((ability) => renderAbility(abilities, ability))}
       </div>,
       <div key="core2" className="l-col">
-        {coreAbilities2.map(ability => renderAbility(abilities, ability))}
+        {coreAbilities2.map((ability) => renderAbility(abilities, ability))}
       </div>,
     ];
   }
   return (
     <div className="column">
-      {coreAbilities.map(ability => renderAbility(abilities, ability))}
+      {coreAbilities.map((ability) => renderAbility(abilities, ability))}
     </div>
   );
 };

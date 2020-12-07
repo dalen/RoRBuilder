@@ -6,10 +6,10 @@ import {
   ActionMasteryMorales,
 } from '../actions/actionMasteryMorales';
 
-export default function(
+export default (
   state: readonly number[] = [],
   action: ActionMasteryMorales,
-) {
+) => {
   switch (action.type) {
     case ADD_MASTERY_MORALE:
       return [...action.payload.abilitiesArray, action.payload.abilityId];
@@ -25,4 +25,4 @@ export default function(
     default:
       return state;
   }
-}
+};

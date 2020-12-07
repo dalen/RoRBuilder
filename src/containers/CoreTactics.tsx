@@ -17,7 +17,7 @@ const renderTactics = (abilities: Abilities, masteryTactics: number[]) => {
   } else {
     combinedTactics = abilities.structured.coreTactics;
   }
-  return combinedTactics.map(tactic => renderTactic(abilities, tactic));
+  return combinedTactics.map((tactic) => renderTactic(abilities, tactic));
 };
 
 const CoreTactics = ({

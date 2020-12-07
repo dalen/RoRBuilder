@@ -137,7 +137,4 @@ class SelectRenown extends Component<Props> {
     );
   }
 }
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(SelectRenown);
+export default connect(mapStateToProps, mapDispatchToProps)(SelectRenown);

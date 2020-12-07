@@ -6,7 +6,7 @@ import {
 
 const initialRenown = 40;
 
-export default function(state = initialRenown, action: ActionRenown) {
+export default (state = initialRenown, action: ActionRenown) => {
   switch (action.type) {
     case SET_RENOWN:
       return action.payload;
@@ -15,4 +15,4 @@ export default function(state = initialRenown, action: ActionRenown) {
     default:
       return state;
   }
-}
+};

@@ -5,6 +5,12 @@ import css from '../css/components/Loading.module.css';
 
 import { State } from '../reducers';
 
+function mapStateToProps({ sidebar }: State) {
+  return {
+    sidebar,
+  };
+}
+
 const Loading = ({ sidebar }: ReturnType<typeof mapStateToProps>) => {
   const containerClass = classNames({
     [css.container]: !sidebar,
@@ -18,11 +24,5 @@ const Loading = ({ sidebar }: ReturnType<typeof mapStateToProps>) => {
     </div>
   );
 };
-
-function mapStateToProps({ sidebar }: State) {
-  return {
-    sidebar,
-  };
-}
 
 export default connect(mapStateToProps)(Loading);

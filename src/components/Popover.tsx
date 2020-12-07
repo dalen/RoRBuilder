@@ -179,9 +179,9 @@ class Popover extends React.Component<Props, State> {
     // .popover.top
     if (alignment === 'top') {
       const { popoverArrowSize, popoverSpacing } = this.state;
-      popoverElement.style.top = `${-popoverHeight -
-        popoverArrowSize -
-        popoverSpacing}px`;
+      popoverElement.style.top = `${
+        -popoverHeight - popoverArrowSize - popoverSpacing
+      }px`;
     }
 
     // .popover.right .popover.left
@@ -192,9 +192,9 @@ class Popover extends React.Component<Props, State> {
     // .popover.bottom
     if (alignment === 'bottom') {
       const { popoverArrowSize, popoverSpacing } = this.state;
-      popoverElement.style.bottom = `${-popoverHeight -
-        popoverArrowSize -
-        popoverSpacing}px`;
+      popoverElement.style.bottom = `${
+        -popoverHeight - popoverArrowSize - popoverSpacing
+      }px`;
     }
   }
 
@@ -247,7 +247,7 @@ class Popover extends React.Component<Props, State> {
     return (
       <div
         className={popoverClass}
-        ref={c => {
+        ref={(c) => {
           this.popover = c;
         }}
       >
