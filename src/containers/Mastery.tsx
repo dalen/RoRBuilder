@@ -21,7 +21,7 @@ const renderAbility = (abilities: Abilities, abilityId: number) => {
 };
 
 const renderCoreAbilities = (abilities: Abilities, path: 'a' | 'b' | 'c') => {
-  const coreAbilities = abilities.mastery[path].coreAbilities;
+  const { coreAbilities } = abilities.mastery[path];
   // Split core abilities into two columns if there are 6 or more abilities (currently only Squig Herder)
   if (coreAbilities.length > 6) {
     const coreAbilities1 = [...coreAbilities.slice(0, 6)];

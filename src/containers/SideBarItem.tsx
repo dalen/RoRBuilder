@@ -24,7 +24,7 @@ type Props = {
   url: string;
   img: string;
   text: string;
-  onClick?: () => void;
+  onClick: () => void;
 } & ReturnType<typeof mapStateToProps> &
   typeof mapDispatchToProps;
 

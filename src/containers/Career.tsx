@@ -137,14 +137,19 @@ class Career extends Component<Props> {
     this.loadCareerData(this.props.match);
   }
 
-  componentWillReceiveProps(nextProps: Props) {
+  UNSAFE_componentWillReceiveProps(nextProps: Props) {
     if (!this.props.match.params.slug || !nextProps.match.params.slug) return;
 
     // This will be run when a new career is selected from the Sidebar
     // Manually force the loading of new data
     if (this.props.match.params.slug !== nextProps.match.params.slug) {
       // Check if it's a valid career name
-      if (this.props.careers.hasOwnProperty(nextProps.match.params.slug)) {
+      if (
+        Object.prototype.hasOwnProperty.call(
+          this.props.careers,
+          nextProps.match.params.slug,
+        )
+      ) {
         // Reset Career data
         this.resetCareer();
 
@@ -252,7 +257,7 @@ class Career extends Component<Props> {
   }
 
   loadCareerData(match: Props['match']) {
-    const slug = match.params.slug;
+    const { slug } = match.params;
 
     // Fetch careers and abilities
     this.props.fetchCareers();

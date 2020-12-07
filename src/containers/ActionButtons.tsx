@@ -97,7 +97,7 @@ const mapDispatchToProps = {
   setSharingLink,
 };
 
-type Props = {} & ReturnType<typeof mapStateToProps> &
+type Props = ReturnType<typeof mapStateToProps> &
   typeof mapDispatchToProps &
   RouteComponentProps;
 
@@ -208,25 +208,27 @@ class ActionButtons extends Component<Props> {
       );
     }
     if (Number(this.props.selectedTactics.length) > 0) {
-      for (const abilityId of this.props.selectedTactics) {
+      const { abilities } = this.props;
+      this.props.selectedTactics.forEach((abilityId) =>
         gaEvent(
           careerName,
           'Selected Tactic',
-          this.props.abilities.indexed[abilityId].name,
+          abilities.indexed[abilityId].name,
           abilityId.toString(),
-        );
-      }
+        ),
+      );
     }
     const combinedMasteries = this.combineMasteries();
     if (Number(combinedMasteries.length) > 0) {
-      for (const abilityId of combinedMasteries) {
+      const { abilities } = this.props;
+      combinedMasteries.forEach((abilityId) =>
         gaEvent(
           careerName,
           'Mastery ability',
-          this.props.abilities.indexed[abilityId].name,
+          abilities.indexed[abilityId].name,
           abilityId.toString(),
-        );
-      }
+        ),
+      );
     }
   }
 

@@ -88,9 +88,16 @@
       "react/prop-types": "off",
       "default-case": "off",
       "no-nested-ternary": "off",
+      "camelcase": "off",
+      "consistent-return": "off",
       "@typescript-eslint/no-shadow": "off",
       "react/destructuring-assignment": "off",
-      "@typescript-eslint/explicit-module-boundary-types": "off"
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "react/no-string-refs": "off",
+      "react/no-danger": "off",
+      "react/no-deprecated": "off",
+      "react/static-property-placement": "off",
+      "react/require-default-props": "off"
     },
     "env": {
       "browser": true,

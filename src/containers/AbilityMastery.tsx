@@ -79,6 +79,68 @@ class AbilityMastery extends Component<
     this.processAbility = this.processAbility.bind(this);
   }
 
+  // Initial render
+  componentDidMount() {
+    this.processAbility(this.props);
+  }
+
+  // About to update because parent changed
+  componentWillReceiveProps(nextProps: Props) {
+    if (this.props !== nextProps) {
+      this.processAbility(nextProps);
+
+      // Meter level goes below optional Ability requirement
+      // Ability must be deactivated and Mastery points updated
+      // e.g. meter level 3, lvl1 path ability selected. Go to level 2, deselect
+      // and deactive ability and add point back for meter decrement PLUS deselected ability
+      if (
+        this.state.selected &&
+        Number(nextProps.pathMeter) > 0 &&
+        Number(nextProps.pathMeter) < Number(nextProps.meterRequirement)
+      ) {
+        this.setState({
+          status: false,
+          selected: false,
+        });
+        // Remove this ability from relevant mastery array
+        // eslint-disable-next-line
+        switch (nextProps.data.abilityType) {
+          case 'standard':
+            nextProps.removeMasteryAbility(
+              nextProps.masteryAbilities,
+              nextProps.data.id,
+            );
+            break;
+          case 'morale':
+            nextProps.removeMasteryMorale(
+              nextProps.masteryMorales,
+              nextProps.data.id,
+            );
+            // remove from selected morales if it's there
+            if (nextProps.selectedMorale4 === nextProps.data.id) {
+              nextProps.resetSelectedMorale4();
+            }
+            break;
+          case 'tactic':
+            nextProps.removeMasteryTactic(
+              nextProps.masteryTactics,
+              nextProps.data.id,
+            );
+            // remove from selected tactics if it's there
+            if (nextProps.selectedTactics.indexOf(nextProps.data.id) !== -1) {
+              nextProps.deselectTactic(
+                nextProps.selectedTactics,
+                nextProps.data.id,
+              );
+            }
+            break;
+        }
+        // Increment mastery total as normal
+        nextProps.setCurrentPoints(nextProps.currentPoints + 1);
+      }
+    }
+  }
+
   processAbility(props: Props) {
     // Create single variable for current ability's group
     const abilities = (() => {
@@ -176,7 +238,7 @@ class AbilityMastery extends Component<
               Number(this.props.pathMeter) -
               Number(this.props.meterRequirement);
             // Remove one more point for the current selection
-            masteryDifference--;
+            masteryDifference -= 1;
             // Re-calculate new current points total
             masteryDifference =
               Number(this.props.currentPoints) + Number(masteryDifference);
@@ -242,68 +304,6 @@ class AbilityMastery extends Component<
     }
   }
 
-  // Initial render
-  componentDidMount() {
-    this.processAbility(this.props);
-  }
-
-  // About to update because parent changed
-  componentWillReceiveProps(nextProps: Props) {
-    if (this.props !== nextProps) {
-      this.processAbility(nextProps);
-
-      // Meter level goes below optional Ability requirement
-      // Ability must be deactivated and Mastery points updated
-      // e.g. meter level 3, lvl1 path ability selected. Go to level 2, deselect
-      // and deactive ability and add point back for meter decrement PLUS deselected ability
-      if (
-        this.state.selected &&
-        Number(nextProps.pathMeter) > 0 &&
-        Number(nextProps.pathMeter) < Number(nextProps.meterRequirement)
-      ) {
-        this.setState({
-          status: false,
-          selected: false,
-        });
-        // Remove this ability from relevant mastery array
-        // eslint-disable-next-line
-        switch (nextProps.data.abilityType) {
-          case 'standard':
-            nextProps.removeMasteryAbility(
-              nextProps.masteryAbilities,
-              nextProps.data.id,
-            );
-            break;
-          case 'morale':
-            nextProps.removeMasteryMorale(
-              nextProps.masteryMorales,
-              nextProps.data.id,
-            );
-            // remove from selected morales if it's there
-            if (nextProps.selectedMorale4 === nextProps.data.id) {
-              nextProps.resetSelectedMorale4();
-            }
-            break;
-          case 'tactic':
-            nextProps.removeMasteryTactic(
-              nextProps.masteryTactics,
-              nextProps.data.id,
-            );
-            // remove from selected tactics if it's there
-            if (nextProps.selectedTactics.indexOf(nextProps.data.id) !== -1) {
-              nextProps.deselectTactic(
-                nextProps.selectedTactics,
-                nextProps.data.id,
-              );
-            }
-            break;
-        }
-        // Increment mastery total as normal
-        nextProps.setCurrentPoints(nextProps.currentPoints + 1);
-      }
-    }
-  }
-
   render() {
     const abilityClass = classNames({
       [css.abilityStandard]:
@@ -359,14 +359,22 @@ class AbilityMastery extends Component<
       <PopoverAbility data={this.props.data} imgSrc={imgSrc} />
     );
     return (
-      <div className={abilityClass} ref="popoverParent">
+      <div
+        className={abilityClass}
+        ref="popoverParent"
+        role="button"
+        tabIndex={0}
+        onMouseOver={this.hoverOver}
+        onFocus={this.hoverOver}
+        onMouseOut={this.hoverOut}
+        onBlur={this.hoverOut}
+        onClick={this.clicked}
+        onKeyPress={this.clicked}
+      >
         <img
           className={abilityImageClass}
           src={imgSrc}
           alt={this.props.data.name}
-          onMouseOver={this.hoverOver}
-          onMouseOut={this.hoverOut}
-          onClick={this.clicked}
         />
         <Popover
           alignment="top"

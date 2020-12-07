@@ -119,20 +119,20 @@ class SelectRenown extends Component<Props> {
       <div className={css.container}>
         <label className={css.label} htmlFor="renownSelect">
           Renown rank
+          <select
+            onChange={this.changeRenown}
+            className={css.select}
+            id="renownSelect"
+            value={renown}
+          >
+            <option value="40">40+</option>
+            <option value="50">50+</option>
+            <option value="60">60+</option>
+            <option value="70">70+</option>
+            <option value="80">Sov +2</option>
+            <option value="10">&lt; 40</option>
+          </select>
         </label>
-        <select
-          onChange={this.changeRenown}
-          className={css.select}
-          id="renownSelect"
-          value={renown}
-        >
-          <option value="40">40+</option>
-          <option value="50">50+</option>
-          <option value="60">60+</option>
-          <option value="70">70+</option>
-          <option value="80">Sov +2</option>
-          <option value="10">&lt; 40</option>
-        </select>
       </div>
     );
   }

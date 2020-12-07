@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 import css from '../css/components/Masthead.module.css';
 
 import CareerItem from './CareerItem';
@@ -8,7 +9,6 @@ import CareerItem from './CareerItem';
 import * as actionSidebar from '../actions/actionSidebar';
 import * as actionOverlay from '../actions/actionOverlay';
 import { State } from '../reducers';
-import { Link } from 'react-router-dom';
 
 type Props = {
   overlay: boolean;

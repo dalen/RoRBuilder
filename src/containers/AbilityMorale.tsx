@@ -138,17 +138,18 @@ const AbilityMorale = ({
   const imgSrc = `../../images/abilities/${data.image}.png`;
   const popoverContent = <PopoverAbility data={data} imgSrc={imgSrc} />;
   return (
-    <div className={abilityClass}>
-      <img
-        className={abilityImageClass}
-        src={imgSrc}
-        alt={data.name}
-        onMouseOver={hoverOver}
-        onMouseOut={hoverOut}
-        onFocus={hoverOver}
-        onBlur={hoverOut}
-        onClick={selectMorale}
-      />
+    <div
+      className={abilityClass}
+      role="button"
+      tabIndex={0}
+      onMouseOver={hoverOver}
+      onMouseOut={hoverOut}
+      onFocus={hoverOver}
+      onBlur={hoverOut}
+      onClick={selectMorale}
+      onKeyPress={selectMorale}
+    >
+      <img className={abilityImageClass} src={imgSrc} alt={data.name} />
       <Popover
         alignment="top"
         activate={hovered}

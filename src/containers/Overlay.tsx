@@ -54,7 +54,16 @@ class Overlay extends Component<Props> {
       [css.overlayActiveInvisible]:
         this.props.overlay && !this.props.overlayVisible,
     });
-    return <div className={overlayClass} onClick={this.clickOverlay} />;
+    return (
+      <div
+        role="button"
+        aria-label="Popup"
+        tabIndex={0}
+        className={overlayClass}
+        onKeyPress={this.clickOverlay}
+        onClick={this.clickOverlay}
+      />
+    );
   }
 }
 

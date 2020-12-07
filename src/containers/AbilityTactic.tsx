@@ -83,14 +83,9 @@ class AbilityTactic extends Component<
           this.props.selectedTactics,
           this.props.data.id,
         );
-      } else {
+      } else if (this.props.selectedTactics.length < this.props.tacticLimit) {
         // Check that we are within our tactic limit for the current level
-        if (this.props.selectedTactics.length < this.props.tacticLimit) {
-          this.props.selectTactic(
-            this.props.selectedTactics,
-            this.props.data.id,
-          );
-        }
+        this.props.selectTactic(this.props.selectedTactics, this.props.data.id);
       }
     }
   }
@@ -112,14 +107,22 @@ class AbilityTactic extends Component<
       <PopoverAbility data={this.props.data} imgSrc={imgSrc} />
     );
     return (
-      <div className={abilityClass} ref="popoverParent">
+      <div
+        className={abilityClass}
+        ref="popoverParent"
+        role="button"
+        tabIndex={0}
+        onMouseOver={this.hoverOver}
+        onFocus={this.hoverOver}
+        onMouseOut={this.hoverOut}
+        onBlur={this.hoverOut}
+        onClick={this.selectTactic}
+        onKeyPress={this.selectTactic}
+      >
         <img
           className={abilityImageClass}
           src={imgSrc}
           alt={this.props.data.name}
-          onMouseOver={this.hoverOver}
-          onMouseOut={this.hoverOut}
-          onClick={this.selectTactic}
         />
         <Popover
           alignment="top"

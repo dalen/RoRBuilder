@@ -8,7 +8,7 @@ const CareerUpdated = ({
   careers,
   slug,
 }: ReturnType<typeof mapStateToProps>) => {
-  if (slug == null) return <div></div>;
+  if (slug == null) return <div> </div>;
 
   const career = careers[slug];
   return (
