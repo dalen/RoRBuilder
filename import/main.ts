@@ -253,7 +253,7 @@ const main = async () => {
   await Promise.all(
     printDebugAbilities.map((abilityId) => {
       return fs.writeFile(
-        `../build/abilities/${abilityId}_${abilityData[abilityId].Name.replace(
+        `../abilities/${abilityId}_${abilityData[abilityId].Name.replace(
           ' ',
           '_',
         ).replace("'", '_')}.json`,
