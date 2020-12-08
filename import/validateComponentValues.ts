@@ -51,8 +51,12 @@ const calculateDamage = (
   let baseMultiplier =
     component.Operation === ComponentOP.STAT_CHANGE ? 1 : 0.166667;
 
+  // This seems to be mostly Alter Fate heal component
+  const adjustedLevel = ability.A62 == 0 ? 1 : abilityLevel;
+
   const result = Math.floor(
-    (((abilityLevel - 1) * baseMultiplier * baseValue + Math.floor(baseValue)) *
+    (((adjustedLevel - 1) * baseMultiplier * baseValue +
+      Math.floor(baseValue)) *
       Math.floor(multiplier)) /
       100,
   );
