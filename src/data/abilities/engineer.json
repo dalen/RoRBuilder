@@ -1209,13 +1209,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gun Blast and Snipe now builds up 1 seconds faster.",
+      "description": "The cast times of all your abilities in the Path of the Rifleman are reduced by 25%.",
       "category": "CareerTactic",
       "gameId": 1559,
       "componentValues": {
-        "COM_0_VAL0_SECONDS": 1
+        "COM_0_VAL0": 25
       },
-      "rawDescription": "Gun Blast and Snipe now builds up {COM_0_VAL0_SECONDS} faster."
+      "rawDescription": "The cast times of all your abilities in the Path of the Rifleman are reduced by {COM_0_VAL0}%."
     },
     {
       "image": "04652",
