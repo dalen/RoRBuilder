@@ -8,7 +8,7 @@
       },
       "optionalAbilities": {
         "lvl1": 4276,
-        "lvl2": 4277,
+        "lvl2": 4291,
         "lvl3": 4278,
         "lvl4": 4279,
         "lvl5": 4280,
@@ -54,7 +54,7 @@
       },
       "optionalAbilities": {
         "lvl1": 4290,
-        "lvl2": 4291,
+        "lvl2": 4277,
         "lvl3": 4292,
         "lvl4": 4293,
         "lvl5": 4294,
@@ -489,7 +489,7 @@
       "id": 4291,
       "name": "Echoing Roar",
       "type": "Curse",
-      "spec": "Path of The Guardian",
+      "spec": "Path of The Hunter",
       "minrank": "21",
       "cost": "35 Action Points",
       "range": "Self",
@@ -983,18 +983,20 @@
       "id": 4277,
       "name": "Pounce",
       "type": "Damaging",
-      "spec": "Path of The Hunter",
+      "spec": "Path of The Guardian",
       "minrank": "21",
       "cost": "30 Action Points",
-      "range": "65ft range",
+      "range": "45ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
+      "description": "You pounce forwards, leaping towards your target and causing 204 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<br><br>This ability cannot critically hit.<br>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
       "category": "Ability",
       "gameId": 9186,
-      "componentValues": {},
-      "rawDescription": "You pounce forwards, leaping towards your target. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target."
+      "componentValues": {
+          "COM_0_VAL0_DAMAGE": 204
+      },
+      "rawDescription": "You pounce forwards, leaping towards your target and causing {COM_0_VAL0_DAMAGE} damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<br><br>This ability cannot critically hit.<br>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target."
     },
     {
       "image": "13442",
