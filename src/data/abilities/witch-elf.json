@@ -69,6 +69,24 @@
   },
   "data": [
     {
+      "image": "abi_de_shadowofdeath",
+      "id": 5645,
+      "name": "Shadow of Death",
+      "type": "Debuff",
+      "spec": "Core Ability",
+      "minrank": "34",
+      "cost": "30 Action Points",
+      "range": "5ft range",
+      "incant": "2s cast",
+      "cooldown": "20s cooldown",
+      "note": "Only usable on Dead Players",
+      "description": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be ressurected for the next 30 seconds.",
+      "category": "Ability",
+      "gameId": 0,
+      "componentValues": {},
+      "rawDescription": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be ressurected for the next 30 seconds."
+    },
+    {
       "image": "10905",
       "id": 5598,
       "name": "Agile Escape",
