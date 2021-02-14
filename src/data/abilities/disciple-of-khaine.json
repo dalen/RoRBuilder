@@ -183,7 +183,7 @@
       "name": "Bloodthirst",
       "type": "Buff",
       "spec": "Path of Torture",
-      "minrank": "17",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -289,11 +289,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 25 Soul Essence",
-      "description": "A Crippling attack which deals 127 damage and reduces your enemy's Strength by 50 for 20 seconds.  Your defensive target's Strength is increased by 50.",
+      "description": "A Crippling attack which deals 145 damage and reduces your enemy's Strength by 50 for 20 seconds.  Your defensive target's Strength is increased by 50.",
       "category": "Ability",
       "gameId": 9560,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 127,
+        "COM_0_VAL0_DAMAGE": 145,
         "COM_1_VAL0": 50,
         "COM_1_DURA_SECONDS": 20,
         "COM_2_VAL0_COM_0_VAL0": 50
@@ -534,7 +534,7 @@
       "name": "Efficient Patching",
       "type": "Buff",
       "spec": "Path of Dark Rites",
-      "minrank": "27",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -961,7 +961,7 @@
       "name": "Murderous Intent",
       "type": "Buff",
       "spec": "Path of Torture",
-      "minrank": "23",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1125,7 +1125,7 @@
       "name": "Restored Motivation",
       "type": "Buff",
       "spec": "Path of Dark Rites",
-      "minrank": "23",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1271,14 +1271,14 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "Builds 20 Soul Essence",
-      "description": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only 50% damage against you for 15 seconds.  You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
+      "description": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only 50% damage against you for 15 seconds. You will also deal 50% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability",
       "gameId": 9555,
       "componentValues": {
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only {COM_0_VAL0}% damage against you for {COM_0_DURA_SECONDS}.  You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted."
+      "rawDescription": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only {COM_0_VAL0}% damage against you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted."
     },
     {
       "image": "10965",
@@ -1566,14 +1566,14 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires 35 Soul Essence",
-      "description": "A quick strike which deals 102 Spirit damage.  Khaine's approval of your actions causes your defensive target and all allies within 20 feet to become healed for 100% of the damage that you dealt.",
+      "description": "A quick strike which deals 69 Spirit damage.  Khaine's approval of your actions causes your defensive target and all allies within 20 feet to become healed for 150% of the damage that you dealt.",
       "category": "Ability",
       "gameId": 2933,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 102,
+        "COM_0_VAL0_SPIRITDAMAGE": 69,
         "COM_1_RADI_FEET": 20
       },
-      "rawDescription": "A quick strike which deals {COM_0_VAL0_SPIRITDAMAGE}.  Khaine's approval of your actions causes your defensive target and all allies within {COM_1_RADI_FEET} to become healed for 100% of the damage that you dealt."
+      "rawDescription": "A quick strike which deals {COM_0_VAL0_SPIRITDAMAGE}.  Khaine's approval of your actions causes your defensive target and all allies within {COM_1_RADI_FEET} to become healed for 150% of the damage that you dealt."
     },
     {
       "image": "11040",

@@ -269,14 +269,14 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "Detaunts targets attack power to 50% for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "Detaunts targets attack power to 50% for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
       "gameId": 8621,
       "componentValues": {
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "Detaunts targets attack power to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}. If you attack anyone that you have Detaunted, the effect will immediately end."
+      "rawDescription": "Detaunts targets attack power to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "22708",

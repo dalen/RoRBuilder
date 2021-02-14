@@ -77,14 +77,16 @@
       "minrank": "34",
       "cost": "30 Action Points",
       "range": "5ft range",
-      "incant": "2s cast",
+      "incant": "2.0s cast",
       "cooldown": "20s cooldown",
       "note": "Only usable on Dead Players",
-      "description": "You drive your stake though the heretic's heart, invoking Sigmar's name to repel the abomination. They cannot be ressurected for the next 30 seconds.",
+      "description": "You drive your stake through the heretic's heart, invoking Sigmar's name to repel the abomination. They cannot be resurrected for the next 30 seconds.",
       "category": "Ability",
       "gameId": 9700,
-      "componentValues": {},
-      "rawDescription": "You drive your stake though the heretic's heart, invoking Sigmar's name to repel the abomination. They cannot be ressurected for the next 30 seconds."
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 30
+      },
+      "rawDescription": "You drive your stake through the heretic's heart, invoking Sigmar's name to repel the abomination. They cannot be resurrected for the next {COM_0_DURA_SECONDS}."
     },
     {
       "image": "08051",
@@ -265,20 +267,21 @@
       "spec": "Path of Confession",
       "minrank": "10",
       "cost": "No AP Cost",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "A surprise attack that burns your target, causing them to take 125 Spirit damage each time they use a melee attack for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
+      "description": "A surprise attack that burns all targets 10 feet in front of you, causing them to take 125 Spirit damage and reducing their armor by 618. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
       "category": "Ability",
       "gameId": 8091,
       "componentValues": {
+        "COM_0_RADI_FEET": 10,
         "COM_1_VAL0_SPIRITDAMAGE": 125,
-        "COM_0_DURA_SECONDS": 15,
+        "COM_0_VAL0": 618,
         "COM_2_VAL0_COM_0_VAL1": 50,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 10
       },
-      "rawDescription": "A surprise attack that burns your target, causing them to take {COM_1_VAL0_SPIRITDAMAGE} each time they use a melee attack for the next {COM_0_DURA_SECONDS}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
+      "rawDescription": "A surprise attack that burns all targets {COM_0_RADI_FEET} in front of you, causing them to take {COM_1_VAL0_SPIRITDAMAGE} and reducing their armor by {COM_0_VAL0}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
     },
     {
       "image": "08049",
@@ -658,11 +661,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A precise incision that deals 101 damage, and an additional 216 Spirit damage over 9 seconds.  This effect can be stacked up to 3 times.",
+      "description": "A precise incision that deals 119 damage, and an additional 216 Spirit damage over 9 seconds.  This effect can be stacked up to 3 times.",
       "category": "Ability",
       "gameId": 8083,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 101,
+        "COM_0_VAL0_DAMAGE": 119,
         "COM_2_VAL0_COM_1_VAL0_TOD_SPIRITDAMAGE": 216,
         "COM_2_VAL0_COM_1_DURA_SECONDS": 9
       },
@@ -798,7 +801,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.<BR>If you hit anyone that you have Detaunted, the effect will end.",
+      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end.",
       "category": "Ability",
       "gameId": 8088,
       "componentValues": {
@@ -806,7 +809,7 @@
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "Detaunts all enemies within {COM_0_RADI_FEET}, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.<BR>If you hit anyone that you have Detaunted, the effect will end."
+      "rawDescription": "Detaunts all enemies within {COM_0_RADI_FEET}, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end."
     },
     {
       "image": "07985",
@@ -1161,13 +1164,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.",
+      "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.<BR>You may only use a single relic at a time.",
       "category": "Ability",
       "gameId": 8111,
       "componentValues": {
         "COM_0_DURA_SECONDS": 7
       },
-      "rawDescription": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next {COM_0_DURA_SECONDS}."
+      "rawDescription": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next {COM_0_DURA_SECONDS}.<BR>You may only use a single relic at a time."
     },
     {
       "image": "08053",
@@ -1589,7 +1592,7 @@
       "name": "Blessed Blade",
       "type": "Buff",
       "spec": "Path of Confession",
-      "minrank": "23",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",

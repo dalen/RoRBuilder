@@ -225,11 +225,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You chop at your enemy, dealing 141 damage and reducing the value of incoming heals on them by 50% for the next 10 seconds.",
+      "description": "You chop at your enemy, dealing 159 damage and reducing the value of incoming heals on them by 50% for the next 10 seconds.",
       "category": "Ability",
       "gameId": 1746,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 141,
+        "COM_0_VAL0_DAMAGE": 159,
         "COM_1_DURA_SECONDS": 10
       },
       "rawDescription": "You chop at your enemy, dealing {COM_0_VAL0_DAMAGE} and reducing the value of incoming heals on them by 50% for the next {COM_1_DURA_SECONDS}."
@@ -920,7 +920,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds.  During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
+      "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds.  During this time, all of your attacks will cause enemies to hate you 25% less than normal. You will also deal 50% damage to them until the effect is broken. If you attack anyone you have detaunted, the effect will immediately end.",
       "category": "Ability",
       "gameId": 1753,
       "componentValues": {
@@ -928,7 +928,7 @@
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 5
       },
-      "rawDescription": "All enemies within {COM_0_RADI_FEET} are detaunted, making them hate you less and reducing the damage they deal against you to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.  During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end."
+      "rawDescription": "All enemies within {COM_0_RADI_FEET} are detaunted, making them hate you less and reducing the damage they deal against you to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}.  During this time, all of your attacks will cause enemies to hate you 25% less than normal. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone you have detaunted, the effect will immediately end."
     },
     {
       "image": "02649",
@@ -1207,11 +1207,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You slash at your opponent's throat, immediately inflicting 108 damage. The wound continues to bleed for 132 damage over 3 seconds.",
+      "description": "You slash at your opponent's throat, immediately inflicting 126 damage. The wound continues to bleed for 132 damage over 3 seconds.",
       "category": "Ability",
       "gameId": 1742,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 108,
+        "COM_0_VAL0_DAMAGE": 126,
         "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 132,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 3
       },

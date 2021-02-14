@@ -126,14 +126,14 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
       "gameId": 1516,
       "componentValues": {
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "You detaunt your target, making them hate you less and causing them to deal {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. If you attack anyone that you have Detaunted, the effect will immediately end."
+      "rawDescription": "You detaunt your target, making them hate you less and causing them to deal {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "22711",
@@ -1028,14 +1028,14 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minutes.  The mine will detonate when an enemy gets too close, dealing 243 damage to all enemies within 30 feet and staggering them for up to 5 seconds, preventing all actions unless they are damaged.",
+      "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minutes.  The mine will detonate when an enemy gets too close, dealing 243 damage to all enemies within 30 feet and staggering them for up to 3 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
       "gameId": 1524,
       "componentValues": {
         "COM_0_DURA_MINUTES": 1,
         "ABIL_31_COM_0_VAL0_DAMAGE": 243,
         "COM_2_RADI_FEET": 30,
-        "ABIL_31_COM_2_VAL0_COM_0_DURA_SECONDS": 5
+        "ABIL_31_COM_2_VAL0_COM_0_DURA_SECONDS": 3
       },
       "rawDescription": "You fling out a land mine which arms itself immediately and persists for up to {COM_0_DURA_MINUTES}.  The mine will detonate when an enemy gets too close, dealing {ABIL_31_COM_0_VAL0_DAMAGE} to all enemies within {COM_2_RADI_FEET} and staggering them for up to {ABIL_31_COM_2_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
     },

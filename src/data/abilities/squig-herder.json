@@ -79,7 +79,7 @@
       "name": "Aimin' Quickly",
       "type": "Buff",
       "spec": "Path of Big Shootin'",
-      "minrank": "17",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -185,15 +185,17 @@
       "spec": "Path of Bouncin'",
       "minrank": "21",
       "cost": "30 Action Points",
-      "range": "65ft range",
+      "range": "45ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Squig Armor<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot be used while you are airborne or if there is a too big height difference between you and your target.",
+      "description": "You pounce forwards, leaping towards your target. You will inflict 144 damage to them when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot critically hit.<BR>This ability cannot be used while you are airborne or if there is a too big height difference between you and your target.",
       "category": "Ability",
       "gameId": 2800,
-      "componentValues": {},
-      "rawDescription": "You pounce forwards, leaping towards your target. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot be used while you are airborne or if there is a too big height difference between you and your target."
+      "componentValues": {
+        "COM_2_VAL0_DAMAGE": 144
+      },
+      "rawDescription": "You pounce forwards, leaping towards your target. You will inflict {COM_2_VAL0_DAMAGE} to them when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot critically hit.<BR>This ability cannot be used while you are airborne or if there is a too big height difference between you and your target."
     },
     {
       "image": "02620",
@@ -428,7 +430,7 @@
       "name": "Da Smell Don't Bother Me",
       "type": "Buff",
       "spec": "Path of Bouncin'",
-      "minrank": "39",
+      "minrank": "15",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -454,13 +456,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Enemies affected by Rotten Arrer will take 181 Elemental damage each time they're healed. This effect will not trigger more than once every seconds.",
+      "description": "Enemies affected by Rotten Arrer will take 181 Elemental damage each time they're healed. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 1874,
       "componentValues": {
         "ABIL_3352_COM_0_VAL0_ELEMENTALDAMAGE": 181
       },
-      "rawDescription": "Enemies affected by Rotten Arrer will take {ABIL_3352_COM_0_VAL0_ELEMENTALDAMAGE} each time they're healed. This effect will not trigger more than once every seconds."
+      "rawDescription": "Enemies affected by Rotten Arrer will take {ABIL_3352_COM_0_VAL0_ELEMENTALDAMAGE} each time they're healed. This effect will not trigger more than once every 3 seconds."
     },
     {
       "image": "02477",
@@ -474,14 +476,14 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds.  If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
       "gameId": 1827,
       "componentValues": {
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
+      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "abi_or_range01",
@@ -512,7 +514,7 @@
       "spec": "Path of Bouncin'",
       "minrank": "25",
       "cost": "20 Action Points",
-      "range": "5ft range",
+      "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires an active pet",
@@ -721,7 +723,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Requires an active pet",
+      "note": "",
       "description": "You and your Squig attack together on each others target. You strike your target for 94 damage, and your pet strikes its target for 94 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 94 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 94 damage as well.",
       "category": "Ability",
       "gameId": 1824,
@@ -848,7 +850,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Squig Armor",
-      "description": "You prod the inside of your Battle Squig, causing it to deal 85 Corporeal damage to all targets 40 feet in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 3 seconds.increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 3 seconds. This effect lasts for 10 seconds.",
+      "description": "You prod the inside of your Battle Squig, causing it to deal 85 Corporeal damage to all targets 40 feet in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 3 seconds. This effect lasts for 10 seconds.",
       "category": "Ability",
       "gameId": 2814,
       "componentValues": {
@@ -856,19 +858,19 @@
         "COM_4_RADI_FEET": 40,
         "COM_0_DURA_SECONDS": 10
       },
-      "rawDescription": "You prod the inside of your Battle Squig, causing it to deal {COM_2_VAL0_CORPOREALDAMAGE} to all targets {COM_4_RADI_FEET} in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 3 seconds.increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 3 seconds. This effect lasts for {COM_0_DURA_SECONDS}."
+      "rawDescription": "You prod the inside of your Battle Squig, causing it to deal {COM_2_VAL0_CORPOREALDAMAGE} to all targets {COM_4_RADI_FEET} in front of you. The rancid juices cling to your foes, increasing the cooldowns of affected enemies by 1 second for each enemy you hit, to a maximum of 3 seconds. This effect lasts for {COM_0_DURA_SECONDS}."
     },
     {
       "image": "02604",
       "id": 5495,
-      "name": "KABOOM!",
+      "name": "Lemme Out!",
       "type": "Debuff",
       "spec": "Path of Bouncin'",
       "minrank": "1",
       "cost": "35 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "1s cooldown",
       "note": "Requires Squig Armor",
       "description": "Your Battle Squig explodes, causing you to be launched upward out of your Squiggy armor. All enemies within 10 feet take 304 damage and are knocked back.",
       "category": "Ability",
@@ -953,12 +955,12 @@
       "incant": "1.0s cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A Crippling shot that deals 191 damage and knocks the target down for 3 seconds. This ability will continue to build up even if you move.",
+      "description": "A Crippling shot that deals 191 damage and knocks the target down for 2 seconds. This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 1835,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 191,
-        "ABIL_20104_COM_0_DURA_SECONDS": 3
+        "ABIL_20104_COM_0_DURA_SECONDS": 2
       },
       "rawDescription": "A Crippling shot that deals {COM_0_VAL0_DAMAGE} and knocks the target down for {ABIL_20104_COM_0_DURA_SECONDS}. This ability will continue to build up even if you move."
     },
@@ -1139,14 +1141,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are hit, there is a 25% chance that your movement speed will be increased by 30% for 5 seconds.",
+      "description": "Any time you are hit, there is a 25% chance that your movement speed will be increased by 30% for 5 seconds. This effect can only trigger once every 10 seconds.",
       "category": "CareerTactic",
       "gameId": 758,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0": 30,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 5
       },
-      "rawDescription": "Any time you are hit, there is a 25% chance that your movement speed will be increased by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "rawDescription": "Any time you are hit, there is a 25% chance that your movement speed will be increased by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}. This effect can only trigger once every 10 seconds."
     },
     {
       "image": "02593",
@@ -1174,20 +1176,21 @@
       "name": "Sharp Toofs",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "15",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Git Em!'s damage is increased to 419 on your pet's first attack, and its cost is reduced by 15 Action Points.",
+      "description": "Git Em! will now deal 119 damage to all enemies within 20 feet of your target instead of hitting an additional time, and its cost is reduced by 15 Action Points.",
       "category": "CareerTactic",
       "gameId": 1858,
       "componentValues": {
-        "ABIL_18_COM_3_VAL0": 419,
+        "ABIL_1824_COM_0_VAL0_DAMAGE": 119,
+        "COM_0_RADI_FEET": 20,
         "COM_1_VAL1_ACTIONPOINTS": 15
       },
-      "rawDescription": "Git Em!'s damage is increased to {ABIL_18_COM_3_VAL0} on your pet's first attack, and its cost is reduced by {COM_1_VAL1_ACTIONPOINTS}."
+      "rawDescription": "Git Em! will now deal {ABIL_1824_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET} of your target instead of hitting an additional time, and its cost is reduced by {COM_1_VAL1_ACTIONPOINTS}."
     },
     {
       "image": "22697",
@@ -1195,7 +1198,7 @@
       "name": "Sharpened Arrers",
       "type": "Buff",
       "spec": "Path of Big Shootin'",
-      "minrank": "19",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1260,11 +1263,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases critical hit rate of all Path of Quick Shootin' abilities by 15% and the critical damage of Red Tipped Arrer and Behind Ya! by 50%.",
+      "description": "Increases critical hit rate of all Path of Quick Shootin' abilities by 15% and the critical damage of Red Tipped Arrer and Behind Ya! by 35%.",
       "category": "CareerTactic",
       "gameId": 1875,
       "componentValues": {},
-      "rawDescription": "Increases critical hit rate of all Path of Quick Shootin' abilities by 15% and the critical damage of Red Tipped Arrer and Behind Ya! by 50%."
+      "rawDescription": "Increases critical hit rate of all Path of Quick Shootin' abilities by 15% and the critical damage of Red Tipped Arrer and Behind Ya! by 35%."
     },
     {
       "image": "02612",
@@ -1278,17 +1281,15 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "On contact, your arrow explodes in to shrapnel, dealing 141 damage to your target, reduces range on their abilities to 75% for the next 3 seconds and their Initiative by 50 for 10 seconds.",
+      "description": "On contact, your arrow explodes in to shrapnel, dealing 141 damage to your target, reduces range on their abilities to 75% for the next 3 seconds.",
       "category": "Ability",
       "gameId": 1846,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 141,
         "COM_1_VAL1": 75,
-        "COM_1_DURA_SECONDS": 3,
-        "COM_2_VAL0": 50,
-        "COM_2_DURA_SECONDS": 10
+        "COM_1_DURA_SECONDS": 3
       },
-      "rawDescription": "On contact, your arrow explodes in to shrapnel, dealing {COM_0_VAL0_DAMAGE} to your target, reduces range on their abilities to {COM_1_VAL1}% for the next {COM_1_DURA_SECONDS} and their Initiative by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
+      "rawDescription": "On contact, your arrow explodes in to shrapnel, dealing {COM_0_VAL0_DAMAGE} to your target, reduces range on their abilities to {COM_1_VAL1}% for the next {COM_1_DURA_SECONDS}."
     },
     {
       "image": "22701",
@@ -1610,14 +1611,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds.<BR>If you hit anyone that you have Detaunted, the effect will end.",
+      "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds. You will also deal 75% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end.",
       "category": "CareerTactic",
       "gameId": 760,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0": 75,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 5
       },
-      "rawDescription": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal {COM_1_VAL0_COM_0_VAL0}% damage to you for {COM_1_VAL0_COM_0_DURA_SECONDS}.<BR>If you hit anyone that you have Detaunted, the effect will end."
+      "rawDescription": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal {COM_1_VAL0_COM_0_VAL0}% damage to you for {COM_1_VAL0_COM_0_DURA_SECONDS}. You will also deal {COM_1_VAL0_COM_0_VAL0}% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end."
     },
     {
       "image": "02623",
@@ -1650,16 +1651,18 @@
       "cost": "25 Action Points",
       "range": "65ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
-      "description": "An Ailment which deals 675 damage to your target over 15 seconds.",
+      "description": "An Ailment which deals 675 damage to your target over 10 seconds, and reduces their Initiative by 50 for 10 seconds.",
       "category": "Ability",
       "gameId": 1822,
       "componentValues": {
         "COM_0_VAL0_TOD_DAMAGE": 675,
-        "COM_0_DURA_SECONDS": 15
+        "COM_0_DURA_SECONDS": 10,
+        "COM_1_VAL0": 50,
+        "COM_1_DURA_SECONDS": 10
       },
-      "rawDescription": "An Ailment which deals {COM_0_VAL0_TOD_DAMAGE} to your target over {COM_0_DURA_SECONDS}."
+      "rawDescription": "An Ailment which deals {COM_0_VAL0_TOD_DAMAGE} to your target over {COM_0_DURA_SECONDS}, and reduces their Initiative by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
     }
   ]
 }

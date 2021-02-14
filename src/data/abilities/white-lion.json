@@ -103,11 +103,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An attack which momentarily distracts your enemy, dealing 134 damage to them.  Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
+      "description": "An attack which momentarily distracts your enemy, dealing 152 damage to them.  Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
       "category": "Ability",
       "gameId": 9166,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 134,
+        "COM_0_VAL0_DAMAGE": 152,
         "COM_1_VAL0_COM_0_VAL1": 25,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 5
       },
@@ -166,12 +166,12 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Must be at your target's side or rear",
-      "description": "You attack your enemy at a vulnerable spot, dealing 153 damage immediately and inflicting them with an Ailment which deals an additional 342 damage over 9 seconds.",
+      "description": "You attack your enemy at a vulnerable spot, dealing 132 damage immediately and inflicting them with an Ailment which deals an additional 264 damage over 9 seconds.",
       "category": "Ability",
       "gameId": 9161,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 153,
-        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 342,
+        "COM_0_VAL0_DAMAGE": 132,
+        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 264,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "You attack your enemy at a vulnerable spot, dealing {COM_0_VAL0_DAMAGE} immediately and inflicting them with an Ailment which deals an additional {COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
@@ -347,11 +347,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A sundering blow which deals 134 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
+      "description": "A sundering blow which deals 152 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
       "category": "Ability",
       "gameId": 9170,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 134,
+        "COM_0_VAL0_DAMAGE": 152,
         "COM_1_VAL0_COM_0_VAL0": 40,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 5
       },
@@ -411,14 +411,14 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for 89 damage, and your pet strikes its target for 109 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 89 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 109 damage as well.",
+      "description": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for 109 damage, and your pet strikes its target for 109 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 109 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 109 damage as well.",
       "category": "Ability",
       "gameId": 9163,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 89,
+        "COM_0_VAL0_DAMAGE": 109,
         "ABIL_3952_COM_0_VAL0_DAMAGE": 109,
         "COM_2_RADI_FEET": 35,
-        "COM_2_VAL0_DAMAGE": 89,
+        "COM_2_VAL0_DAMAGE": 109,
         "ABIL_3952_COM_2_RADI_FEET": 35,
         "ABIL_3952_COM_2_VAL0_DAMAGE": 109
       },
@@ -430,7 +430,7 @@
       "name": "Cull The Weak",
       "type": "Damaging",
       "spec": "Path of The Axeman",
-      "minrank": "25",
+      "minrank": "21",
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
@@ -488,7 +488,7 @@
       "image": "13440",
       "id": 4291,
       "name": "Echoing Roar",
-      "type": "Curse",
+      "type": "Ailment",
       "spec": "Path of The Hunter",
       "minrank": "21",
       "cost": "35 Action Points",
@@ -766,11 +766,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A brutal chop at your enemy which deals 134 damage.",
+      "description": "A brutal chop at your enemy which deals 152 damage.",
       "category": "Ability",
       "gameId": 9160,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 134
+        "COM_0_VAL0_DAMAGE": 152
       },
       "rawDescription": "A brutal chop at your enemy which deals {COM_0_VAL0_DAMAGE}."
     },
@@ -990,13 +990,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target and causing 204 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<br><br>This ability cannot critically hit.<br>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
+      "description": "You pounce forwards, leaping towards your target and causing 159 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot critically hit.<BR>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
       "category": "Ability",
       "gameId": 9186,
       "componentValues": {
-          "COM_0_VAL0_DAMAGE": 204
+        "COM_2_VAL0_DAMAGE": 159
       },
-      "rawDescription": "You pounce forwards, leaping towards your target and causing {COM_0_VAL0_DAMAGE} damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<br><br>This ability cannot critically hit.<br>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target."
+      "rawDescription": "You pounce forwards, leaping towards your target and causing {COM_2_VAL0_DAMAGE} when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot critically hit.<BR>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target."
     },
     {
       "image": "13442",
@@ -1004,7 +1004,7 @@
       "name": "Primal Fury",
       "type": "Blessing",
       "spec": "Path of The Axeman",
-      "minrank": "21",
+      "minrank": "25",
       "cost": "45 Action Points",
       "range": "Self",
       "incant": "Instant cast",
@@ -1133,11 +1133,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 522 damage over 9 seconds.  If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 327 damage over 9 seconds.  If you attack an enemy from the sides or back, then you will also reduce their Strength by 75 for 9 seconds.",
       "category": "Ability",
       "gameId": 9171,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 522,
+        "COM_0_VAL0_TOD_DAMAGE": 327,
         "COM_0_DURA_SECONDS": 9,
         "COM_1_VAL0": 75,
         "COM_1_DURA_SECONDS": 9
@@ -1197,7 +1197,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds.  For the next 5 seconds, you will cause 25% less hate in all enemy monsters.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
+      "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds.  For the next 5 seconds, you will cause 25% less hate in all enemy monsters. You will also deal 50% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
       "category": "Ability",
       "gameId": 9169,
       "componentValues": {
@@ -1207,7 +1207,7 @@
         "COM_3_DURA_SECONDS": 5,
         "COM_3_VAL1": 25
       },
-      "rawDescription": "You cower submissively, causing all enemies within {COM_1_RADI_FEET} to hate you less and deal only {COM_1_VAL0}% damage to you for {COM_1_DURA_SECONDS}.  For the next {COM_3_DURA_SECONDS}, you will cause {COM_3_VAL1}% less hate in all enemy monsters.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them."
+      "rawDescription": "You cower submissively, causing all enemies within {COM_1_RADI_FEET} to hate you less and deal only {COM_1_VAL0}% damage to you for {COM_1_DURA_SECONDS}.  For the next {COM_3_DURA_SECONDS}, you will cause {COM_3_VAL1}% less hate in all enemy monsters. You will also deal {COM_1_VAL0}% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them."
     },
     {
       "image": "13424",

@@ -606,13 +606,13 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 80 Elemental damage to all enemies in front of you up to 40 feet away.  Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
+      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing 80 Elemental damage to all enemies in front of you up to 40 feet away.  Everyone hit by this attack will be staggered, and unable to move for 3 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
       "gameId": 8038,
       "componentValues": {
         "COM_0_VAL0_ELEMENTALDAMAGE": 80,
         "COM_0_RADI_FEET": 40,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 5
+        "COM_2_VAL0_COM_0_DURA_SECONDS": 3
       },
       "rawDescription": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing {COM_0_VAL0_ELEMENTALDAMAGE} to all enemies in front of you up to {COM_0_RADI_FEET} away.  Everyone hit by this attack will be staggered, and unable to move for {COM_2_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
     },
@@ -957,7 +957,7 @@
       "name": "Runefang",
       "type": "Buff",
       "spec": "Path of Glory",
-      "minrank": "15",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1172,11 +1172,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 800 damage to all enemies within 30 feet.  Enemy players hit by this effect will lose all of their Morale. This ability hits max 9 targets.",
+      "description": "Deals 1200 damage to all enemies within 30 feet.  Enemy players hit by this effect will lose all of their Morale. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 8076,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 800,
+        "COM_0_VAL0_DAMAGE": 1200,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}.  Enemy players hit by this effect will lose all of their Morale. This ability hits max 9 targets."
@@ -1261,11 +1261,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A smashing attack which deals 134 damage.  This attack causes monsters to hate you twice as much as normal.",
+      "description": "A smashing attack which deals 152 damage.  This attack causes monsters to hate you twice as much as normal.",
       "category": "Ability",
       "gameId": 8002,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 134
+        "COM_0_VAL0_DAMAGE": 152
       },
       "rawDescription": "A smashing attack which deals {COM_0_VAL0_DAMAGE}.  This attack causes monsters to hate you twice as much as normal."
     },

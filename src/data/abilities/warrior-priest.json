@@ -223,7 +223,7 @@
       "name": "Cleansing Power",
       "type": "Buff",
       "spec": "Path of Salvation",
-      "minrank": "27",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -389,7 +389,7 @@
       "name": "Divine Justice",
       "type": "Buff",
       "spec": "Path of Wrath",
-      "minrank": "17",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -616,7 +616,7 @@
       "name": "Fanaticism",
       "type": "Buff",
       "spec": "Path of Wrath",
-      "minrank": "23",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1087,7 +1087,7 @@
       "name": "Refreshing Radiance",
       "type": "Buff",
       "spec": "Path of Salvation",
-      "minrank": "23",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1113,13 +1113,13 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.  If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
       "componentValues": {
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
+      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "22694",
@@ -1195,10 +1195,10 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "A blessed attack which deals 127 damage to your target, and increases your defensive target's Strength by 75 for 20 seconds.",
+      "description": "A blessed attack which deals 145 damage to your target, and increases your defensive target's Strength by 75 for 20 seconds.",
       "category": "Ability",
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 127,
+        "COM_0_VAL0_DAMAGE": 145,
         "COM_1_VAL0_COM_0_VAL0": 75,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 20
       },
@@ -1489,14 +1489,14 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires 35 Righteous Fury",
-      "description": "You crush your enemy, dealing 102 Spirit damage to them.  The divine power of Sigmar heals your defensive target and any allies within 20 feet of them for 100% of the damage that was dealt.",
+      "description": "You crush your enemy, dealing 69 Spirit damage to them.  The divine power of Sigmar heals your defensive target and any allies within 20 feet of them for 150% of the damage that was dealt.",
       "category": "Ability",
       "gameId": 2931,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 102,
+        "COM_0_VAL0_SPIRITDAMAGE": 69,
         "COM_1_RADI_FEET": 20
       },
-      "rawDescription": "You crush your enemy, dealing {COM_0_VAL0_SPIRITDAMAGE} to them.  The divine power of Sigmar heals your defensive target and any allies within {COM_1_RADI_FEET} of them for 100% of the damage that was dealt."
+      "rawDescription": "You crush your enemy, dealing {COM_0_VAL0_SPIRITDAMAGE} to them.  The divine power of Sigmar heals your defensive target and any allies within {COM_1_RADI_FEET} of them for 150% of the damage that was dealt."
     },
     {
       "image": "07976",
@@ -1547,7 +1547,7 @@
       "name": "Shielding Grace",
       "type": "Defensive",
       "spec": "Path of Grace",
-      "minrank": "31",
+      "minrank": "29",
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "10s cast",

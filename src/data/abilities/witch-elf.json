@@ -70,21 +70,23 @@
   "data": [
     {
       "image": "abi_de_shadowofdeath",
-      "id": 5645,
+      "id": 9701,
       "name": "Shadow of Death",
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "34",
       "cost": "30 Action Points",
       "range": "5ft range",
-      "incant": "2s cast",
+      "incant": "2.0s cast",
       "cooldown": "20s cooldown",
       "note": "Only usable on Dead Players",
-      "description": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be ressurected for the next 30 seconds.",
+      "description": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be resurrected for the next 30 seconds.",
       "category": "Ability",
-      "gameId": 0,
-      "componentValues": {},
-      "rawDescription": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be ressurected for the next 30 seconds."
+      "gameId": 9701,
+      "componentValues": {
+        "COM_0_DURA_SECONDS": 30
+      },
+      "rawDescription": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be resurrected for the next {COM_0_DURA_SECONDS}."
     },
     {
       "image": "10905",
@@ -461,7 +463,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Your unearthly Elven beauty Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.  If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "Your unearthly Elven beauty Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
       "gameId": 9392,
       "componentValues": {
@@ -469,7 +471,7 @@
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "Your unearthly Elven beauty Detaunts all enemies within {COM_0_RADI_FEET}, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
+      "rawDescription": "Your unearthly Elven beauty Detaunts all enemies within {COM_0_RADI_FEET}, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "10973",
@@ -526,11 +528,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "You stab your enemy with a poisoned blade, dealing 101 damage.  The victim becomes wracked with pains, suffering an additional 216 Corporeal damage over 9 seconds.  This effect will stack with itself up to three times.",
+      "description": "You stab your enemy with a poisoned blade, dealing 119 damage.  The victim becomes wracked with pains, suffering an additional 216 Corporeal damage over 9 seconds.  This effect will stack with itself up to three times.",
       "category": "Ability",
       "gameId": 9403,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 101,
+        "COM_0_VAL0_DAMAGE": 119,
         "COM_2_VAL0_COM_1_VAL0_TOD_CORPOREALDAMAGE": 216,
         "COM_2_VAL0_COM_1_DURA_SECONDS": 9
       },
@@ -548,11 +550,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the durations of Vehement Blades, Enfeebling Strike, and Treacherous Assault by an additional 5 seconds.",
+      "description": "Increases the durations of Vehement Blades, Enfeebling Strike, Shadow Leap, and Treacherous Assault by an additional 5 seconds.",
       "category": "CareerTactic",
       "gameId": 9436,
       "componentValues": {},
-      "rawDescription": "Increases the durations of Vehement Blades, Enfeebling Strike, and Treacherous Assault by an additional 5 seconds."
+      "rawDescription": "Increases the durations of Vehement Blades, Enfeebling Strike, Shadow Leap, and Treacherous Assault by an additional 5 seconds."
     },
     {
       "image": "05170",
@@ -834,7 +836,7 @@
       "spec": "Path of Carnage",
       "minrank": "4",
       "cost": "20 Action Points",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
@@ -856,7 +858,7 @@
       "spec": "Path of Treachery",
       "minrank": "35",
       "cost": "20 Action Points",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
@@ -877,7 +879,7 @@
       "spec": "Path of Suffering",
       "minrank": "9",
       "cost": "20 Action Points",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
@@ -921,14 +923,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, or Enfeebling Strike, you will deal 15% more damage for 10 seconds.",
+      "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, Enfeebling Strike or Shadow Leap, you will deal 15% more damage for 10 seconds.",
       "category": "CareerTactic",
       "gameId": 9451,
       "componentValues": {
         "ABIL_9411_COM_6_VAL0_COM_0_VAL0": 15,
         "ABIL_9411_COM_6_VAL0_COM_0_DURA_SECONDS": 10
       },
-      "rawDescription": "After hitting an enemy with Treacherous Assault, Vehement Blades, or Enfeebling Strike, you will deal {ABIL_9411_COM_6_VAL0_COM_0_VAL0}% more damage for {ABIL_9411_COM_6_VAL0_COM_0_DURA_SECONDS}."
+      "rawDescription": "After hitting an enemy with Treacherous Assault, Vehement Blades, Enfeebling Strike or Shadow Leap, you will deal {ABIL_9411_COM_6_VAL0_COM_0_VAL0}% more damage for {ABIL_9411_COM_6_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "10984",
@@ -1432,7 +1434,7 @@
       "spec": "Path of Treachery",
       "minrank": "30",
       "cost": "No AP Cost",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
@@ -1455,7 +1457,7 @@
       "spec": "Path of Carnage",
       "minrank": "10",
       "cost": "No AP Cost",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
@@ -1578,7 +1580,7 @@
       "name": "Bleeding Edge",
       "type": "Buff",
       "spec": "Path of Carnage",
-      "minrank": "23",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",

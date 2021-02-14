@@ -609,11 +609,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A vicious attack that deals 119 damage, and causes monsters to hate you much more than normal.",
+      "description": "A vicious attack that deals 137 damage, and causes monsters to hate you much more than normal.",
       "category": "Ability",
       "gameId": 1355,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 119
+        "COM_0_VAL0_DAMAGE": 137
       },
       "rawDescription": "A vicious attack that deals {COM_0_VAL0_DAMAGE}, and causes monsters to hate you much more than normal."
     },
@@ -671,11 +671,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 119 damage to your target and prepare yourself for their attacks, increasing your armor by 618 for 20 seconds.<BR>Your Oath Friend's armor will also be increased if they are within 50 feet.",
+      "description": "You deal 137 damage to your target and prepare yourself for their attacks, increasing your armor by 618 for 20 seconds.<BR>Your Oath Friend's armor will also be increased if they are within 50 feet.",
       "category": "Ability",
       "gameId": 1356,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 119,
+        "COM_0_VAL0_DAMAGE": 137,
         "COM_1_VAL0_COM_0_VAL0": 618,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 20,
         "COM_1_VAL0_COM_1_RADI_FEET": 50
@@ -811,11 +811,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "A painful strike to the enemy's leg that deals 119 damage.<BR><BR>   At 25 Grudges:  Also reduces the target's chance to critically hit by 5%.<BR>   At 50 Grudges:  Also reduces the target's chance to critically hit by 10%.<BR>   At 75 Grudges:  Also reduces the target's chance to critically hit by 15%.<BR>   At 100 Grudges:  Also reduces the target's chance to critically hit by 20%.<BR>",
+      "description": "A painful strike to the enemy's leg that deals 137 damage.<BR><BR>   At 25 Grudges:  Also reduces the target's chance to critically hit by 5%.<BR>   At 50 Grudges:  Also reduces the target's chance to critically hit by 10%.<BR>   At 75 Grudges:  Also reduces the target's chance to critically hit by 15%.<BR>   At 100 Grudges:  Also reduces the target's chance to critically hit by 20%.<BR>",
       "category": "Ability",
       "gameId": 1362,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 119,
+        "COM_0_VAL0_DAMAGE": 137,
         "COM_1_VAL1": 5,
         "COM_2_VAL1": 10,
         "COM_3_VAL1": 15,
@@ -1315,7 +1315,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Costs 10 Grudge<br>Requires Shield",
+      "note": "Costs 25 Grudge<br>Requires Shield",
       "description": "You bring your shield around in a smashing hit, dealing 135 damage to up to five enemies within 25 feet of them.<BR>When hitting targets you regain 10 Grudges for each target that you hit.",
       "category": "Ability",
       "gameId": 1361,
@@ -1566,11 +1566,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 10 Grudge",
-      "description": "You strike your enemy for 119 damage and stubbornly push yourself to keep fighting, increasing your Toughness by 75 for 20 seconds.<BR>Your Oath Friend's Toughness will also be increased if they are within 50 feet.",
+      "description": "You strike your enemy for 137 damage and stubbornly push yourself to keep fighting, increasing your Toughness by 75 for 20 seconds.<BR>Your Oath Friend's Toughness will also be increased if they are within 50 feet.",
       "category": "Ability",
       "gameId": 1357,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 119,
+        "COM_0_VAL0_DAMAGE": 137,
         "COM_2_VAL0_COM_0_VAL0": 75,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 20,
         "COM_2_VAL0_COM_1_RADI_FEET": 50

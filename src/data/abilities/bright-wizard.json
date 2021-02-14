@@ -1261,14 +1261,14 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.  If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability",
       "gameId": 8162,
       "componentValues": {
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}.  If you attack anyone that you have Detaunted, the effect will immediately end."
+      "rawDescription": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
     },
     {
       "image": "22704",

@@ -344,13 +344,13 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close, dealing 243 damage to all enemies within 30 feet and staggering them for 5 seconds, preventing all actions until they take damage.",
+      "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close, dealing 243 damage to all enemies within 30 feet and staggering them for 3 seconds, preventing all actions until they take damage.",
       "category": "Ability",
       "gameId": 8541,
       "componentValues": {
         "ABIL_383_COM_0_VAL0_DAMAGE": 243,
         "COM_2_RADI_FEET": 30,
-        "ABIL_3167_COM_0_DURA_SECONDS": 5
+        "ABIL_3167_COM_0_DURA_SECONDS": 3
       },
       "rawDescription": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close, dealing {ABIL_383_COM_0_VAL0_DAMAGE} to all enemies within {COM_2_RADI_FEET} and staggering them for {ABIL_3167_COM_0_DURA_SECONDS}, preventing all actions until they take damage."
     },
@@ -755,14 +755,14 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds.  You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
+      "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds. You will also deal 50% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability",
       "gameId": 8477,
       "componentValues": {
         "COM_0_VAL0": 50,
         "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "Horrifying images distract your opponent, causing them to deal only {COM_0_VAL0}% damage against you for {COM_0_DURA_SECONDS}.  You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted."
+      "rawDescription": "Horrifying images distract your opponent, causing them to deal only {COM_0_VAL0}% damage against you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted."
     },
     {
       "image": "05300",
