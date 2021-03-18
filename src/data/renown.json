@@ -406,6 +406,34 @@
         }
       ]
     },
+    "Trivial Blows": {
+      "name": "Trivial Blows",
+      "description": "Reduces the amount of critical damage received",
+      "short_name": "Reduced Crit Damage",
+      "icon": "statbuff_resilient",
+      "levels": [
+        {
+          "name": "Trivial Blows I",
+          "note": "Reduces the amount of critical damage received by 4%",
+          "cost": 5
+        },
+        {
+          "name": "Trivial Blows II",
+          "note": "Reduces the amount of critical damage received by 8% (Total increase of 12%)",
+          "cost": 10
+        },
+        {
+          "name": "Trivial Blows III",
+          "note": "Reduces the amount of critical damage received by 12% (Total increase of 24%)",
+          "cost": 15
+        },
+        {
+          "name": "Trivial Blows IV",
+          "note": "Reduces the amount of critical damage received by 16% (Total increase of 40%)",
+          "cost": 15
+        }
+      ]
+    },
 
     "Regeneration": {
       "name": "Regeneration",

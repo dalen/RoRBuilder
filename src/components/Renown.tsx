@@ -49,6 +49,7 @@ const initialState = {
   'Futile Strikes': 0,
   'Hardy Concession': 0,
   Regeneration: 0,
+  'Trivial Blows': 0,
 };
 
 const MAX_RENOWN = 80;
@@ -199,6 +200,7 @@ const Renown = ({
                     'Defender',
                     'Deft Defender',
                     'Futile Strikes',
+                    'Trivial Blows',
                     'Hardy Concession',
                     'Regeneration',
                   ] as const).map((name) => renderCategory(name, 5))}
