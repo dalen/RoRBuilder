@@ -61,6 +61,7 @@ export enum ComponentOP {
   ARMOR_CHANGE_PCT = 5,
   AP_CHANGE = 6,
   MOVEMENT_SPEED = 8,
+  INTERRUPT = 9, // Unsure on this one
   RESSURRECT = 10, // 0x0000000A
   MECHANIC_CHANGE = 11,
   DISABLE = 12, // 0x0000000C
