@@ -51,9 +51,7 @@ export function resetMasteryTactics(): {
   };
 }
 
-export function setMasteryTactics(
-  tactics: number[],
-): {
+export function setMasteryTactics(tactics: number[]): {
   type: 'set_mastery_tactics';
   payload: number[];
 } {

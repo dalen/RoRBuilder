@@ -46,9 +46,12 @@ class PathMeterAbilities extends Component<Props> {
     const abilityKey = `oa${
       this.props.abilities.mastery[this.props.path].optionalAbilities[levelProp]
     }`;
-    const abilityData = this.props.abilities.indexed[
-      this.props.abilities.mastery[this.props.path].optionalAbilities[levelProp]
-    ];
+    const abilityData =
+      this.props.abilities.indexed[
+        this.props.abilities.mastery[this.props.path].optionalAbilities[
+          levelProp
+        ]
+      ];
     return (
       <div className={css.ability} key={abilityKey}>
         <AbilityMastery

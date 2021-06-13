@@ -1,58 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <title>RoR Career Builder</title>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+      name='viewport'
+    />
+    <title>RoR Career Builder</title>
 
-  <base href="/">
+    <base href='/' />
 
-  <link rel="stylesheet" href="{{ htmlWebpackPlugin.files.css }}">
+    <link rel='stylesheet' href='{{htmlWebpackPlugin.files.css}}' />
 
-  <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', '{{ htmlWebpackPlugin.options.ga }}', 'auto');
-    ga('require', 'autotrack', {
-      mediaQueryDefinitions: [
-        {
-          name: 'Breakpoint',
-          dimensionIndex: 1,
-          items: [
-            {name: 'xs', media: 'all'},
-            {name: 'mobile', media: '(max-width: 480px)'},
-            {name: 'sm', media: '(min-width: 768px)'},
-            {name: 'md', media: '(min-width: 992px)'},
-            {name: 'lg', media: '(min-width: 1200px)'}
-          ]
-        },
-        {
-          name: 'Resolution',
-          dimensionIndex: 2,
-          items: [
-            {name: '1x',   media: 'all'},
-            {name: '1.5x', media: '(min-resolution: 144dpi)'},
-            {name: '2x',   media: '(min-resolution: 192dpi)'}
-          ]
-        },
-        {
-          name: 'Orientation',
-          dimensionIndex: 3,
-          items: [
-            {name: 'landscape', media: '(orientation: landscape)'},
-            {name: 'portrait',  media: '(orientation: portrait)'}
-          ]
-        }
-      ]
-    });
-    ga('send', 'pageview');
-  </script>
-  <script async src="https://www.google-analytics.com/analytics.js"></script>
-</head>
-<body>
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new
+      Date; ga('create', '{{htmlWebpackPlugin.options.ga}}', 'auto');
+      ga('require', 'autotrack', { mediaQueryDefinitions: [ { name:
+      'Breakpoint', dimensionIndex: 1, items: [ {name: 'xs', media: 'all'},
+      {name: 'mobile', media: '(max-width: 480px)'}, {name: 'sm', media:
+      '(min-width: 768px)'}, {name: 'md', media: '(min-width: 992px)'}, {name:
+      'lg', media: '(min-width: 1200px)'} ] }, { name: 'Resolution',
+      dimensionIndex: 2, items: [ {name: '1x', media: 'all'}, {name: '1.5x',
+      media: '(min-resolution: 144dpi)'}, {name: '2x', media: '(min-resolution:
+      192dpi)'} ] }, { name: 'Orientation', dimensionIndex: 3, items: [ {name:
+      'landscape', media: '(orientation: landscape)'}, {name: 'portrait', media:
+      '(orientation: portrait)'} ] } ] }); ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+  </head>
+  <body>
 
-  <div id="app"></div>
+    <div id='app'></div>
 
-  <script src="{{ htmlWebpackPlugin.files.js }}"></script>
+    <script src='{{htmlWebpackPlugin.files.js}}'></script>
 
-</body>
+  </body>
 </html>

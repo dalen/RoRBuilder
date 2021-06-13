@@ -66,12 +66,11 @@ const slugFromState = (state: RenownState): string =>
 const stateFromSlug = (slug: string | undefined): RenownState => {
   if (slug === undefined) return initialState;
   const slugValues = slug.split(';').map((v) => Number(v));
-  const entries = Object.entries(initialState).map((entry, index): [
-    string,
-    number,
-  ] => {
-    return [entry[0], slugValues[index] || entry[1]];
-  });
+  const entries = Object.entries(initialState).map(
+    (entry, index): [string, number] => {
+      return [entry[0], slugValues[index] || entry[1]];
+    },
+  );
   return Object.fromEntries(entries) as RenownState;
 };
 
@@ -172,38 +171,44 @@ const Renown = ({
             <div className="grid-col-1 grid-col-24-24@md-min">
               <div className={css.container}>
                 <div className="row">
-                  {([
-                    'Might',
-                    'Blade Master',
-                    'Marksmen',
-                    'Impetus',
-                    'Acumen',
-                    'Resolve',
-                    'Fortitude',
-                    'Vigor',
-                  ] as const).map((name) => renderCategory(name, 5))}
+                  {(
+                    [
+                      'Might',
+                      'Blade Master',
+                      'Marksmen',
+                      'Impetus',
+                      'Acumen',
+                      'Resolve',
+                      'Fortitude',
+                      'Vigor',
+                    ] as const
+                  ).map((name) => renderCategory(name, 5))}
                 </div>
                 <div className="row">
-                  {([
-                    'Opportunist',
-                    'Sure Shot',
-                    'Focused Power',
-                    'Spiritual Refinement',
-                    'Quick Escape',
-                    'Improved Flee',
-                    'Expanded Capacity',
-                  ] as const).map((name) => renderCategory(name, 4))}
+                  {(
+                    [
+                      'Opportunist',
+                      'Sure Shot',
+                      'Focused Power',
+                      'Spiritual Refinement',
+                      'Quick Escape',
+                      'Improved Flee',
+                      'Expanded Capacity',
+                    ] as const
+                  ).map((name) => renderCategory(name, 4))}
                 </div>
                 <div className="row">
-                  {([
-                    'Reflexes',
-                    'Defender',
-                    'Deft Defender',
-                    'Futile Strikes',
-                    'Trivial Blows',
-                    'Hardy Concession',
-                    'Regeneration',
-                  ] as const).map((name) => renderCategory(name, 5))}
+                  {(
+                    [
+                      'Reflexes',
+                      'Defender',
+                      'Deft Defender',
+                      'Futile Strikes',
+                      'Trivial Blows',
+                      'Hardy Concession',
+                      'Regeneration',
+                    ] as const
+                  ).map((name) => renderCategory(name, 5))}
                 </div>
               </div>
               <div className="marginTop">

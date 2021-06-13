@@ -21,27 +21,19 @@ type Props = {
   masteryAbilities: number[];
   masteryMorales: number[];
   masteryTactics: number[];
-  setCurrentPoints: (
-    points: number,
-  ) => {
+  setCurrentPoints: (points: number) => {
     type: string;
     payload: number;
   };
-  setPathMeterA: (
-    points: number,
-  ) => {
+  setPathMeterA: (points: number) => {
     type: string;
     payload: number;
   };
-  setPathMeterB: (
-    points: number,
-  ) => {
+  setPathMeterB: (points: number) => {
     type: string;
     payload: number;
   };
-  setPathMeterC: (
-    points: number,
-  ) => {
+  setPathMeterC: (points: number) => {
     type: string;
     payload: number;
   };
@@ -178,13 +170,8 @@ class PathButtonsContainer extends Component<Props> {
   }
 
   render() {
-    const {
-      path,
-      pathMeterA,
-      pathMeterB,
-      pathMeterC,
-      currentPoints,
-    } = this.props;
+    const { path, pathMeterA, pathMeterB, pathMeterC, currentPoints } =
+      this.props;
     let pathPoints = 0;
     // Set path points depending on which path
     switch (path) {

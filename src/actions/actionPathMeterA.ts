@@ -1,9 +1,7 @@
 export const SET_PATH_METER_A = 'set_path_meter_a';
 export const RESET_PATH_METER_A = 'reset_path_meter_a';
 
-export function setPathMeterA(
-  points: number,
-): {
+export function setPathMeterA(points: number): {
   type: 'set_path_meter_a';
   payload: number;
 } {
