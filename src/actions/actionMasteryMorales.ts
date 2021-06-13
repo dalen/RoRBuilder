@@ -51,9 +51,7 @@ export function resetMasteryMorales(): {
   };
 }
 
-export function setMasteryMorales(
-  morales: (number | string)[],
-): {
+export function setMasteryMorales(morales: (number | string)[]): {
   type: 'set_mastery_morales';
   payload: number[];
 } {

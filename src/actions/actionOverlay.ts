@@ -1,8 +1,6 @@
 export const TOGGLE_OVERLAY = 'toggle_overlay';
 
-export function toggleOverlay(
-  bool: boolean,
-): {
+export function toggleOverlay(bool: boolean): {
   type: 'toggle_overlay';
   payload: boolean;
 } {

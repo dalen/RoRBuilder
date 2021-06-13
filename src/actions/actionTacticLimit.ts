@@ -2,9 +2,7 @@ export const CALCULATE_TACTIC_LIMIT = 'calculate_tactic_limit';
 export const RESET_TACTIC_LIMIT = 'reset_tactic_limit';
 export const SET_TACTIC_LIMIT = 'set_tactic_limit';
 
-export function calculateTacticLimit(
-  level: number,
-): {
+export function calculateTacticLimit(level: number): {
   type: 'calculate_tactic_limit';
   payload: number;
 } {
@@ -34,9 +32,7 @@ export function resetTacticLimit(): {
   };
 }
 
-export function setTacticLimit(
-  limit: number,
-): {
+export function setTacticLimit(limit: number): {
   type: 'set_tactic_limit';
   payload: number;
 } {
