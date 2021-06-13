@@ -14,7 +14,13 @@
         "lvl6": 5316,
         "lvl7": 5317
       },
-      "coreAbilities": [5273, 5280, 5367, 5282, 5275]
+      "coreAbilities": [
+        5273,
+        5280,
+        5367,
+        5282,
+        5275
+      ]
     },
     "b": {
       "name": "Path of Gork",
@@ -30,7 +36,13 @@
         "lvl6": 5323,
         "lvl7": 5324
       },
-      "coreAbilities": [5268, 5278, 5272, 5368, 5285]
+      "coreAbilities": [
+        5268,
+        5278,
+        5272,
+        5368,
+        5285
+      ]
     },
     "c": {
       "name": "Path of Da Green",
@@ -46,7 +58,14 @@
         "lvl6": 5330,
         "lvl7": 5331
       },
-      "coreAbilities": [5286, 5284, 5270, 5271, 5276, 1934]
+      "coreAbilities": [
+        5286,
+        5284,
+        5270,
+        5271,
+        5276,
+        1934
+      ]
     }
   },
   "data": [
@@ -1349,11 +1368,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Steals 239.94001999333557 Action Points from your target over 9 seconds.",
+      "description": "Steals 180 Action Points from your target over 9 seconds.",
       "category": "Ability",
       "gameId": 1911,
       "componentValues": {
-        "COM_0_VAL0_TOD_ACTIONPOINTS": 239.94001999333557,
+        "COM_0_VAL0_TOD_ACTIONPOINTS": 180,
         "COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Steals {COM_0_VAL0_TOD_ACTIONPOINTS} from your target over {COM_0_DURA_SECONDS}."

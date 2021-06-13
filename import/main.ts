@@ -239,17 +239,7 @@ const main = async () => {
   );
 
   // Debug
-  const printDebugAbilities: number[] = [
-    697,
-    3884,
-    14414,
-    3878,
-    8241,
-    3365,
-    1590,
-    3551,
-    3143,
-  ];
+  const printDebugAbilities: number[] = [1911];
   await Promise.all(
     printDebugAbilities.map((abilityId) => {
       return fs.writeFile(
@@ -277,6 +267,7 @@ const main = async () => {
     }
   });
 
+  /*
   await validateCareer(
     'ironbreaker',
     CareerLine.IRON_BREAKER,
@@ -344,7 +335,7 @@ const main = async () => {
       willpower: 123,
     },
     abilityData,
-  );
+  ); */
   await validateCareer(
     'shaman',
     CareerLine.SHAMAN,
@@ -356,6 +347,7 @@ const main = async () => {
     },
     abilityData,
   );
+  /*
   await validateCareer(
     'squig-herder',
     CareerLine.SQUIG_HERDER,
@@ -542,7 +534,7 @@ const main = async () => {
       willpower: 196,
     },
     abilityData,
-  );
+  ); */
 };
 
 main()

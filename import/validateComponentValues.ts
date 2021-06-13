@@ -427,7 +427,7 @@ const validateComponentValue = (
       } else if (name.endsWith('_TOD_ACTIONPOINTS')) {
         return (
           value *
-          (component.Duration / component.Interval +
+          (Math.floor(component.Duration / component.Interval) +
             (component.A15 & ComponentA15Flags.NO_FINAL_TICK ? 0 : 1))
         ); // Values[1] seems to be -1 when there is n
       }
