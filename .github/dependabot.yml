@@ -1,21 +1,14 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "04:00"
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: "@types/node"
-    versions:
-    - 15.0.0
-  - dependency-name: typescript
-    versions:
-    - 4.2.3
-  - dependency-name: query-string
-    versions:
-    - 6.14.1
-  - dependency-name: react-scripts
-    versions:
-    - 4.0.1
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: daily
+      time: '04:00'
+    open-pull-requests-limit: 10
+  - package-ecosystem: npm
+    directory: '/import'
+    schedule:
+      interval: daily
+      time: '04:00'
+    open-pull-requests-limit: 10
