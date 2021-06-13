@@ -254,9 +254,9 @@ const main = async () => {
     printDebugAbilities.map((abilityId) => {
       return fs.writeFile(
         `../abilities/${abilityId}_${abilityData[abilityId].Name.replace(
-          ' ',
+          /[\s']+/,
           '_',
-        ).replace("'", '_')}.json`,
+        )}.json`,
         JSON.stringify(abilityData[abilityId], undefined, 2),
       );
     }),
