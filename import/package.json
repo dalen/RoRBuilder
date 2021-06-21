@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
-    "decoders": "^1.23.5",
+    "decoders": "^1.24.0",
     "iconv-lite": "^0.6.3",
     "inquirer": "^8.1.0",
     "ts-node": "^10.0.0",
