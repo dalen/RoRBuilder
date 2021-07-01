@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
 import css from '../css/components/Ability.module.css';

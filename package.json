@@ -93,7 +93,9 @@
       "react/no-danger": "off",
       "react/no-deprecated": "off",
       "react/static-property-placement": "off",
-      "react/require-default-props": "off"
+      "react/require-default-props": "off",
+      "react/jsx-uses-react": "off",
+      "react/react-in-jsx-scope": "off"
     },
     "env": {
       "browser": true,

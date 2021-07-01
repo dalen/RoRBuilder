@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { CareerSummary } from '../reducers/reducerCareers';
 import SideBarItem from './SideBarItem';
 import { gaCareerSelected } from '../helpers/googleAnalytics';

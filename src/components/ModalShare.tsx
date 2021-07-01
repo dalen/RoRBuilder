@@ -1,4 +1,3 @@
-import React from 'react';
 import css from '../css/components/ModalShare.module.css';
 
 import Modal from '../containers/Modal';

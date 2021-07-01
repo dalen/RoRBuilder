@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { connect } from 'react-redux';
 import css from '../css/components/SelectRenown.module.css';
 import { calculateMasteryPoints } from '../helpers/points';

@@ -1,4 +1,3 @@
-import React from 'react';
 import css from '../css/components/BarRenown.module.css';
 import Bar from './Bar';
 

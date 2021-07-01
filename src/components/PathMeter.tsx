@@ -1,4 +1,4 @@
-import React, { MouseEvent } from 'react';
+import { MouseEvent } from 'react';
 import css from '../css/components/PathMeter.module.css';
 
 const PathMeter = ({

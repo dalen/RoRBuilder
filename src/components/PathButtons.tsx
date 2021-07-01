@@ -1,4 +1,4 @@
-import React, { MouseEvent } from 'react';
+import { MouseEvent } from 'react';
 import classNames from 'classnames';
 import IconPlus from '../icons/IconPlus';
 import IconMinus from '../icons/IconMinus';

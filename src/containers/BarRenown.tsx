@@ -1,4 +1,3 @@
-import React from 'react';
 import { connect } from 'react-redux';
 import css from '../css/components/BarRenown.module.css';
 import Bar from '../components/Bar';

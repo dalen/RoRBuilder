@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import classNames from 'classnames';
 import Popover from './Popover';
 import css from '../css/components/PathInfo.module.css';

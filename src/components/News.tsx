@@ -1,4 +1,3 @@
-import React from 'react';
 import IconChevronRight from '../icons/IconChevronRight';
 import css from '../css/components/News.module.css';
 

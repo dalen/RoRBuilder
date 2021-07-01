@@ -1,5 +1,3 @@
-import React from 'react';
-
 const calculateBarWidth = (level: number, max: number) => {
   const barWidth = Math.round((level / max) * 100);
   const barStyle = {

@@ -1,4 +1,3 @@
-import React from 'react';
 import css from '../css/components/PopoverAbility.module.css';
 
 import { Ability } from '../helpers/abilities';

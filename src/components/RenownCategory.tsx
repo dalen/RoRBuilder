@@ -1,4 +1,3 @@
-import React from 'react';
 import css from '../css/components/RenownCategory.module.css';
 
 import RenownCategoryHeading from './RenownCategoryHeading';

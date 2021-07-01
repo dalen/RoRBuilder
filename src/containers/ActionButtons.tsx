@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { RouteComponentProps } from 'react-router-dom';
 import { connect } from 'react-redux';
 import css from '../css/components/ActionButtons.module.css';

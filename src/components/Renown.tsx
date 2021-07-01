@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import classNames from 'classnames';
 import { RouteComponentProps, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
