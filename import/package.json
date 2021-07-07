@@ -66,7 +66,7 @@
     }
   },
   "devDependencies": {
-    "@types/inquirer": "^7.3.1",
+    "@types/inquirer": "^7.3.3",
     "@types/jest": "^26.0.23",
     "eslint": "^7.29.0",
     "eslint-config-airbnb-typescript-prettier": "^4.2.0",
