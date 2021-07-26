@@ -239,7 +239,7 @@ const main = async () => {
   );
 
   // Debug
-  const printDebugAbilities: number[] = [1911];
+  const printDebugAbilities: number[] = [14313];
   await Promise.all(
     printDebugAbilities.map((abilityId) => {
       return fs.writeFile(
@@ -254,8 +254,9 @@ const main = async () => {
 
   Object.values(abilityData).forEach((ability) => {
     if (
-      ability.CareerID !== 0 &&
-      ability.Components.find((component) => component?.A07 != 0)
+      /*ability.CareerID !== 0 &&
+      ability.Components.find((component) => component?.A07 != 0) */
+      ability.Flags & AbilityFlags.FLAG13
     ) {
       console.log(
         colors.cyan(ability.Name),
@@ -335,7 +336,7 @@ const main = async () => {
       willpower: 123,
     },
     abilityData,
-  ); */
+  );
   await validateCareer(
     'shaman',
     CareerLine.SHAMAN,
@@ -347,7 +348,6 @@ const main = async () => {
     },
     abilityData,
   );
-  /*
   await validateCareer(
     'squig-herder',
     CareerLine.SQUIG_HERDER,
