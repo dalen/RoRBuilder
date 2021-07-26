@@ -93,7 +93,7 @@ export enum AbilityFlags {
   FLAG4 = Math.pow(2, 4), // Damaging
   FLAG5 = Math.pow(2, 5), // Healing
   FLAG6 = Math.pow(2, 6), // Defensive
-  FLAG7 = Math.pow(2, 7), // ??
+  FLAG7 = Math.pow(2, 7), // Offensive
   FLAG8 = Math.pow(2, 8), // None
   FLAG9 = Math.pow(2, 9), // None
   FLAG10 = Math.pow(2, 10), // None
