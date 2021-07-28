@@ -1418,16 +1418,17 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You release two swift blows that deal 109 Spirit damage each, interrupting any building attack and will Silence your target for 4 seconds. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
+      "description": "You release a single swift blow damaging enemies 30 feet in front of you for 109 Spirit damage. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
       "category": "Ability",
       "gameId": 9030,
       "componentValues": {
         "ABIL_3539_COM_0_VAL0_SPIRITDAMAGE": 109,
-        "COM_2_DURA_SECONDS": 4,
+        "ABIL_3539_COM_0_VAL0_SPIRITDAMAGE_RANGE": 30,
         "ABIL_3335_COM_0_DURA_SECONDS": 10,
-        "ABIL_3335_COM_0_VAL0_SECONDS": 5
+        "ABIL_3335_COM_0_VAL0_SECONDS": 5,
+        "ABIL_3335_COM_0_RADIUS": 100
       },
-      "rawDescription": "You release two swift blows that deal {ABIL_3539_COM_0_VAL0_SPIRITDAMAGE} each, interrupting any building attack and will Silence your target for {COM_2_DURA_SECONDS}. The winds then aid group members within 100 feet for the next {ABIL_3335_COM_0_DURA_SECONDS} by decreasing the cooldown of abilities used by {ABIL_3335_COM_0_VAL0_SECONDS}."
+      "rawDescription": "You release a single swift blow damaging enemies {ABIL_3539_COM_0_VAL0_SPIRITDAMAGE_RANGE} feet in front of you for {ABIL_3539_COM_0_VAL0_SPIRITDAMAGE} Spirit damage. The winds then aid group members within {ABIL_3335_COM_0_RADIUS} feet for the next {ABIL_3335_COM_0_DURA_SECONDS} seconds by decreasing the cooldown of abilities used by {ABIL_3335_COM_0_VAL0_SECONDS} seconds."
     },
     {
       "image": "13392",

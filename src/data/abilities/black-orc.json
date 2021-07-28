@@ -54,7 +54,7 @@
         "lvl2": 4501,
         "lvl3": 4500,
         "lvl4": 4496,
-        "lvl5": 7576,
+        "lvl5": 4502,
         "lvl6": 4503,
         "lvl7": 4504
       },
@@ -947,20 +947,21 @@
       "id": 4502,
       "name": "No Choppin' Me",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Da' Boss",
       "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Follow 'me Lead will also buff all groupmates within 30 feet of the defensive target.",
+      "description": "Follow 'me Lead will also buff all groupmates within 100 feet of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect will also affect all group members within 100 feet of you.",
       "category": "CareerTactic",
       "gameId": 1719,
       "componentValues": {
-        "ABIL_1667_COM_5_RADI_FEET": 30
+        "ABIL_1667_COM_5_RADI_FEET": 100,
+        "ABIL_1667_COM_6_RADI_FEET": 100
       },
-      "rawDescription": "Follow 'me Lead will also buff all groupmates within {ABIL_1667_COM_5_RADI_FEET} of the defensive target."
+      "rawDescription": "Follow 'me Lead will also buff all groupmates within {ABIL_1667_COM_5_RADI_FEET} of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect will also affect all group members within {ABIL_1667_COM_6_RADI_FEET} feet of you."
     },
     {
       "image": "02566",
