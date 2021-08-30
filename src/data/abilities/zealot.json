@@ -207,11 +207,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Critical direct heals will increase your morale by 200. This effect will not trigger more than once every 3 seconds.",
+      "description": "Critical direct heals will increase your morale by 75. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 8588,
       "componentValues": {
-        "COM_1_VAL0": 200
+        "COM_1_VAL0": 75
       },
       "rawDescription": "Critical direct heals will increase your morale by {COM_1_VAL0}. This effect will not trigger more than once every 3 seconds."
     },
