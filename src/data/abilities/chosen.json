@@ -334,13 +334,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you block an attack, you gain 200 points of Morale. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Any time you block an attack, you gain 250 points of Morale. Tactic can not trigger more than once every 10 seconds.",
       "category": "CareerTactic",
       "gameId": 8359,
       "componentValues": {
-        "COM_1_VAL0": 200
+        "COM_1_VAL0": 250,
+        "COM_0_VAL0_SECONDS": 10
       },
-      "rawDescription": "Any time you block an attack, you gain {COM_1_VAL0} points of Morale. Tactic can not trigger more than once every 3 seconds."
+      "rawDescription": "Any time you block an attack, you gain {COM_1_VAL0} points of Morale. Tactic can not trigger more than once every {COM_0_VAL0_SECONDS} seconds."
     },
     {
       "image": "22694",
