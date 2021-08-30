@@ -508,14 +508,14 @@
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
-      "description": "You siphon magic from your target, draining 180 Action Points over 9 seconds into yourself.",
+      "description": "You siphon magic from your target, draining 140 Action Points over 7 seconds into yourself.",
       "category": "Ability",
       "gameId": 9249,
       "componentValues": {
-        "COM_0_VAL0_TOD_ACTIONPOINTS": 180,
-        "COM_0_DURA_SECONDS": 9
+        "COM_0_VAL0_TOD_ACTIONPOINTS": 140,
+        "COM_0_DURA_SECONDS": 7
       },
       "rawDescription": "You siphon magic from your target, draining {COM_0_VAL0_TOD_ACTIONPOINTS} over {COM_0_DURA_SECONDS} into yourself."
     },
