@@ -766,12 +766,12 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional 405 Spirit Damage over 9 seconds and gain a blessing which increases your Path Of Wrath abilities by 5%. The blessing stacks up to 4 times.",
+      "description": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional 405 Spirit Damage over 12 seconds and gain a blessing which increases your Path Of Wrath abilities by 5%. The blessing stacks up to 4 times.",
       "category": "CareerTactic",
       "gameId": 2963,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0_TOD": 405,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 12
       },
       "rawDescription": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional {COM_1_VAL0_COM_0_VAL0_TOD} Spirit Damage over {COM_1_VAL0_COM_0_DURA_SECONDS} and gain a blessing which increases your Path Of Wrath abilities by 5%. The blessing stacks up to 4 times."
     },
