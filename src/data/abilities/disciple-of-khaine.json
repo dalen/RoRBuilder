@@ -824,14 +824,15 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you hit an enemy, there is a 25% chance that they will suffer an additional 453 Spirit damage over 9 seconds.",
+      "description": "Any time you hit an enemy with a Path of Torture ability, there is a 33% chance that they will suffer an additional 453 Spirit damage over 9 seconds.",
       "category": "CareerTactic",
       "gameId": 9584,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE": 453,
+        "COM_1_VAL0": 33,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 9
       },
-      "rawDescription": "Any time you hit an enemy, there is a 25% chance that they will suffer an additional {COM_1_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "rawDescription": "Any time you hit an enemy with a Path of Torture ability, there is a {COM_1_VAL0}% chance that they will suffer an additional {COM_1_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
     },
     {
       "image": "abi_de_blackhorror",
