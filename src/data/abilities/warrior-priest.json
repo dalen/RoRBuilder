@@ -311,12 +311,12 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You call upon the power of Sigmar, dealing 200 damage every second to all enemies in a 10 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to you as health.",
+      "description": "You call upon the power of Sigmar, dealing 200 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to you as health.",
       "category": "Morale",
       "gameId": 8310,
       "componentValues": {
         "ABIL_3049_COM_0_VAL0_DAMAGE": 200,
-        "ABIL_3049_COM_0_RADI_FEET": 10,
+        "ABIL_3049_COM_0_RADI_FEET": 30,
         "COM_0_DURA_SECONDS": 4
       },
       "rawDescription": "You call upon the power of Sigmar, dealing {ABIL_3049_COM_0_VAL0_DAMAGE} every second to all enemies in a {ABIL_3049_COM_0_RADI_FEET} area around you for the next {COM_0_DURA_SECONDS}. Sigmar returns all the damage done to your enemies to you as health."
