@@ -1589,9 +1589,9 @@
       "category": "CareerTactic",
       "gameId": 1707,
       "componentValues": {
-        "COM_2_VAL0_COM_0_VAL0_TOD": 75
+        "COM_1_VAL0": 75
       },
-      "rawDescription": "Whenever you Block an attack you gain {COM_2_VAL0_COM_0_VAL0_TOD} of Morale. This effect will not trigger more than once every 3 seconds."
+      "rawDescription": "Whenever you Block an attack you gain {COM_1_VAL0} of Morale. This effect will not trigger more than once every 3 seconds."
     }
   ]
 }
