@@ -243,19 +243,20 @@
       "name": "Cleave Soul",
       "type": "Damaging",
       "spec": "Path of Torture",
-      "minrank": "1",
+      "minrank": "6",
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A potent attack which deals 152 damage to your enemy.",
+      "description": "A potent attack which deals 152 damage to your enemy. If behind your target, ignores 660 armor.",
       "category": "Ability",
       "gameId": 9552,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 152
+        "COM_0_VAL0_DAMAGE": 152,
+        "COM_0_VAL0_PENETRATION": 660
       },
-      "rawDescription": "A potent attack which deals {COM_0_VAL0_DAMAGE} to your enemy."
+      "rawDescription": "A potent attack which deals {COM_0_VAL0_DAMAGE} to your enemy. If behind your target, ignores {COM_0_VAL0_PENETRATION} armor."
     },
     {
       "image": "05188",
