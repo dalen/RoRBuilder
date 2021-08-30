@@ -722,13 +722,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will regain 60 Action Points.  You may not grant action points to yourself with this effect.  Tactic can not trigger more than once every 3 seconds.",
+      "description": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will become surrounded by a protective barrier for up to 10 seconds which will absorb up to 116 damage. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 9603,
       "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 60
+        "COM_1_VAL0_SECONDS": 10,
+        "COM_1_VAL0_ABSORB": 116
       },
-      "rawDescription": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will regain {COM_1_VAL0_ACTIONPOINTS}.  You may not grant action points to yourself with this effect.  Tactic can not trigger more than once every 3 seconds."
+      "rawDescription": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will become surrounded by a protective barrier for up to {COM_1_VAL0_SECONDS} seconds which will absorb up to {COM_1_VAL0_ABSORB} damage. Tactic can not trigger more than once every 3 seconds."
     },
     {
       "image": "22708",
