@@ -1366,14 +1366,14 @@
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
-      "description": "Steals 180 Action Points from your target over 9 seconds.",
+      "description": "Steals 140 Action Points from your target over 7 seconds.",
       "category": "Ability",
       "gameId": 1911,
       "componentValues": {
-        "COM_0_VAL0_TOD_ACTIONPOINTS": 180,
-        "COM_0_DURA_SECONDS": 9
+        "COM_0_VAL0_TOD_ACTIONPOINTS": 140,
+        "COM_0_DURA_SECONDS": 7
       },
       "rawDescription": "Steals {COM_0_VAL0_TOD_ACTIONPOINTS} from your target over {COM_0_DURA_SECONDS}."
     },
