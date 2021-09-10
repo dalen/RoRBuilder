@@ -144,19 +144,20 @@
       "name": "Bludgeon",
       "type": "Damaging",
       "spec": "Path of Wrath",
-      "minrank": "1",
+      "minrank": "6",
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Righteous Fury",
-      "description": "A powerful attack which deals 152 damage to your enemy.",
+      "description": "A powerful attack which deals 152 damage to your enemy. If behind your target, ignores 660 armor.",
       "category": "Ability",
       "gameId": 8240,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 152
+        "COM_0_VAL0_DAMAGE": 152,
+        "COM_0_VAL0_PENETRATION": 660
       },
-      "rawDescription": "A powerful attack which deals {COM_0_VAL0_DAMAGE} to your enemy."
+      "rawDescription": "A powerful attack which deals {COM_0_VAL0_DAMAGE} to your enemy. If behind your target, ignores {COM_0_VAL0_PENETRATION} armor."
     },
     {
       "image": "07901",
@@ -267,15 +268,15 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Restores 240 health over 7 seconds, and increases your armor by 1320.",
+      "description": "Increases your target's armor by 1320 and all resistances by 504 for 15 seconds.",
       "category": "Morale",
       "gameId": 8302,
       "componentValues": {
-        "COM_0_VAL0_TOD_HEALTH": 240,
-        "COM_0_DURA_SECONDS": 7,
-        "COM_1_VAL0": 1320
+        "COM_1_VAL0": 1320,
+        "COM_1_VAL1": 504,
+        "COM_0_DURA_SECONDS": 15
       },
-      "rawDescription": "Restores {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS}, and increases your armor by {COM_1_VAL0}."
+      "rawDescription": "Increases your target's armor by {COM_1_VAL0} and all resistances by {COM_1_VAL1} for {COM_0_DURA_SECONDS} seconds."
     },
     {
       "image": "07903",
@@ -311,12 +312,12 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You call upon the power of Sigmar, dealing 200 damage every second to all enemies in a 10 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to you as health.",
+      "description": "You call upon the power of Sigmar, dealing 200 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to you as health.",
       "category": "Morale",
       "gameId": 8310,
       "componentValues": {
         "ABIL_3049_COM_0_VAL0_DAMAGE": 200,
-        "ABIL_3049_COM_0_RADI_FEET": 10,
+        "ABIL_3049_COM_0_RADI_FEET": 30,
         "COM_0_DURA_SECONDS": 4
       },
       "rawDescription": "You call upon the power of Sigmar, dealing {ABIL_3049_COM_0_VAL0_DAMAGE} every second to all enemies in a {ABIL_3049_COM_0_RADI_FEET} area around you for the next {COM_0_DURA_SECONDS}. Sigmar returns all the damage done to your enemies to you as health."
@@ -765,12 +766,12 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional 405 Spirit Damage over 9 seconds and gain a blessing which increases your Path Of Wrath abilities by 5%. The blessing stacks up to 4 times.",
+      "description": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional 405 Spirit Damage over 12 seconds and gain a blessing which increases your Path Of Wrath abilities by 5%. The blessing stacks up to 4 times.",
       "category": "CareerTactic",
       "gameId": 2963,
       "componentValues": {
         "COM_1_VAL0_COM_0_VAL0_TOD": 405,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
+        "COM_1_VAL0_COM_0_DURA_SECONDS": 12
       },
       "rawDescription": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional {COM_1_VAL0_COM_0_VAL0_TOD} Spirit Damage over {COM_1_VAL0_COM_0_DURA_SECONDS} and gain a blessing which increases your Path Of Wrath abilities by 5%. The blessing stacks up to 4 times."
     },
@@ -1113,13 +1114,15 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end. <br><br>If wearing a shield or great weapon this will also affect all enemies within 30 feet of you for 5 seconds.",
       "category": "Ability",
       "componentValues": {
         "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 15
+        "COM_0_DURA_SECONDS0": 15,
+        "COM_0_VAL0_RANGE": 30,
+        "COM_0_DURA_SECONDS1": 5
       },
-      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
+      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS0}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end. <br><br>If wearing a shield or great weapon this will also affect all enemies within {COM_0_VAL0_RANGE} feet of you for {COM_0_DURA_SECONDS1} seconds."
     },
     {
       "image": "22694",
@@ -1483,7 +1486,7 @@
       "name": "Divine Strike",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "6",
+      "minrank": "1",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",

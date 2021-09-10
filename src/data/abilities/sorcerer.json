@@ -659,11 +659,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy with a direct damage ability, you will gain 200 points of Morale. This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you critically hit an enemy with a direct damage ability, you will gain 75 points of Morale. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic",
       "gameId": 9516,
       "componentValues": {
-        "COM_1_VAL0": 200
+        "COM_1_VAL0": 75
       },
       "rawDescription": "Any time you critically hit an enemy with a direct damage ability, you will gain {COM_1_VAL0} points of Morale. This effect will not trigger more than once every 3 seconds."
     },

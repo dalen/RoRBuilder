@@ -53,7 +53,7 @@
         "secondary": "Points in the Guardian Tree grants Wounds, Toughness, Weapon Skill, Strength and Initiative to your lion."
       },
       "optionalAbilities": {
-        "lvl1": 4290,
+        "lvl1": 4298,
         "lvl2": 4250,
         "lvl3": 4292,
         "lvl4": 4293,
@@ -1388,7 +1388,7 @@
       "cost": "15 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires an active pet",
       "description": "You command your pet to attack without mercy!  Your War Lion's next attack within 20 seconds will deal an additional 209 damage and will knock down its victim for 3 seconds.",
       "category": "Ability",
@@ -1458,6 +1458,28 @@
         "COM_0_VAL1": 75
       },
       "rawDescription": "Your War Lion now causes {COM_0_VAL1}% less hatred in hostile monsters."
+    },
+    {
+      "image": "22706",
+      "id": 4298,
+      "name": "Bonded Pack",
+      "type": "Buff",
+      "spec": "Path of The Guardian",
+      "minrank": "17",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "You gain additional 50 Morale every 5 seconds as long as you have an active War Lion. Any time you or one of your groupmates damages an ememy with Pack Assault they will gain 100 Morale.",
+      "category": "CareerTactic",
+      "gameId": 9215,
+      "componentValues": {
+        "COM_0_VAL0": 50,
+        "COM_0_VAL0_SECONDS": 5,
+        "COM_0_VAL1": 100
+      },
+      "rawDescription": "You gain additional {COM_0_VAL0} Morale every {COM_0_VAL0_SECONDS} seconds as long as you have an active War Lion. Any time you or one of your groupmates damages an ememy with Pack Assault they will gain {COM_0_VAL1} Morale."
     },
     {
       "image": "22708",

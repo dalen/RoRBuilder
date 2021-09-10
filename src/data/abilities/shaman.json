@@ -516,14 +516,15 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! increases effectiveness.",
-      "description": "Heals your target for 1700 health over 15 seconds.",
+      "description": "Heals your target and two additional allies within 15 feet for 1700 health over 15 seconds.",
       "category": "Ability",
       "gameId": 1901,
       "componentValues": {
         "ABIL_3908_COM_0_VAL0_TOD_HEALTH": 1700,
-        "ABIL_3908_COM_0_DURA_SECONDS": 15
+        "ABIL_3908_COM_0_DURA_SECONDS": 15,
+        "COM_0_RADI_FEET": 15
       },
-      "rawDescription": "Heals your target for {ABIL_3908_COM_0_VAL0_TOD_HEALTH} over {ABIL_3908_COM_0_DURA_SECONDS}."
+      "rawDescription": "Heals your target and two additional allies within {COM_0_RADI_FEET} feet for {ABIL_3908_COM_0_VAL0_TOD_HEALTH} over {ABIL_3908_COM_0_DURA_SECONDS}."
     },
     {
       "image": "02586",
@@ -1366,14 +1367,14 @@
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
-      "description": "Steals 180 Action Points from your target over 9 seconds.",
+      "description": "Steals 140 Action Points from your target over 7 seconds.",
       "category": "Ability",
       "gameId": 1911,
       "componentValues": {
-        "COM_0_VAL0_TOD_ACTIONPOINTS": 180,
-        "COM_0_DURA_SECONDS": 9
+        "COM_0_VAL0_TOD_ACTIONPOINTS": 140,
+        "COM_0_DURA_SECONDS": 7
       },
       "rawDescription": "Steals {COM_0_VAL0_TOD_ACTIONPOINTS} from your target over {COM_0_DURA_SECONDS}."
     },

@@ -28,8 +28,8 @@
         "primary": "A mastery path focused on toe-to-toe combat"
       },
       "optionalAbilities": {
-        "lvl1": 5527,
-        "lvl2": 5530,
+        "lvl1": 5496,
+        "lvl2": 5492,
         "lvl3": 5529,
         "lvl4": 5528,
         "lvl5": 5531,
@@ -38,11 +38,11 @@
       },
       "coreAbilities": [
         1830,
+        5530,
         5495,
         5472,
         5490,
         5477,
-        5492,
         5489,
         5480,
         7565,
@@ -295,14 +295,14 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Squig Armor",
-      "description": "You cause your Battle Squig to bounce, dealing 169 damage and knocking your target down for 3 seconds.",
+      "description": "You cause your Battle Squig to bounce, dealing 169 damage to all enemies, up to 20 feet away.",
       "category": "Ability",
       "gameId": 3,
       "componentValues": {
         "COM_0_VAL0_DAMAGE": 169,
-        "COM_1_DURA_SECONDS": 3
+        "COM_0_RADI_FEET": 20
       },
-      "rawDescription": "You cause your Battle Squig to bounce, dealing {COM_0_VAL0_DAMAGE} and knocking your target down for {COM_1_DURA_SECONDS}."
+      "rawDescription": "You cause your Battle Squig to bounce, dealing {COM_0_VAL0_DAMAGE} up to {COM_0_RADI_FEET} feet away."
     },
     {
       "image": "02595",
@@ -1204,11 +1204,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the armor penetration of all your ranged abilities by 25% as long as you have an active pet.",
+      "description": "Increases the armor penetration of all your Path of Big Shootin' abilities by 25% as long as you have an active pet.",
       "category": "CareerTactic",
       "gameId": 1861,
       "componentValues": {},
-      "rawDescription": "Increases the armor penetration of all your ranged abilities by 25% as long as you have an active pet."
+      "rawDescription": "Increases the armor penetration of all your Path of Big Shootin' abilities by 25% as long as you have an active pet."
     },
     {
       "image": "abi_squig_spikeshield",
@@ -1422,11 +1422,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Pet Buff. Increases pet damage output by 150% and increases the size of your pet for 15 seconds.",
+      "description": "Pet Buff. Increases pet damage output by 100% and increases the size of your pet for 15 seconds.",
       "category": "Morale",
       "gameId": 1879,
       "componentValues": {
-        "COM_0_VAL0": 150,
+        "COM_0_VAL0": 100,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "Pet Buff. Increases pet damage output by {COM_0_VAL0}% and increases the size of your pet for {COM_0_DURA_SECONDS}."
@@ -1443,11 +1443,11 @@
       "incant": "Instant cast",
       "cooldown": "55s cooldown",
       "note": "Requires Squig Armor",
-      "description": "Channeled. You kick deep down your Squig's throat, causing it to rage. Its speed is increased by 75% for the next 10 seconds, as you plow through any enemies who dare stand in your way.",
+      "description": "Channeled. You kick deep down your Squig's throat, causing it to rage. Its speed is increased by 25% for the next 10 seconds, as you plow through any enemies who dare stand in your way.",
       "category": "Ability",
       "gameId": 2801,
       "componentValues": {
-        "COM_0_VAL0": 75,
+        "COM_0_VAL0": 25,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Channeled. You kick deep down your Squig's throat, causing it to rage. Its speed is increased by {COM_0_VAL0}% for the next {COM_0_DURA_SECONDS}, as you plow through any enemies who dare stand in your way."
