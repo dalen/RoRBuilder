@@ -10,7 +10,7 @@
   "author": "Erik Dalén <erik.gustav.dalen@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.4.0",
+    "colors": "^1.4.2",
     "decoders": "^1.25.5",
     "iconv-lite": "^0.6.3",
     "inquirer": "^8.2.0",
