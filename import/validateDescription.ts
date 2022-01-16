@@ -11,7 +11,7 @@ export const escapeRegExp = (string: string) => {
 export const extractComponentValueNames = (description: string): string[] => {
   const regexp = /\{([A-Z\d_]+)\}/g;
 
-  return Array.from(description.matchAll(regexp)).map(m => m[1]);
+  return Array.from(description.matchAll(regexp)).map((m) => m[1]);
 };
 
 export const descriptionRegexp = (description: string): string => {
@@ -58,7 +58,7 @@ export const extractComponentValues = (
     return {
       rawDescription: gameAbility.Description,
       componentValues: Object.fromEntries(
-        componentValueNames.map(compValue => [compValue, 0]),
+        componentValueNames.map((compValue) => [compValue, 0]),
       ),
     };
   }
@@ -127,12 +127,8 @@ export const validateDescription = (
   );
 
   if (
-    Array.from(new Set(componentValueNames))
-      .sort()
-      .toString() !==
-    Object.keys(componentValues)
-      .sort()
-      .toString()
+    Array.from(new Set(componentValueNames)).sort().toString() !==
+    Object.keys(componentValues).sort().toString()
   ) {
     console.log(
       `componentValues mismatch for ${colors.cyan(ability.name)} (${colors.red(
@@ -211,9 +207,9 @@ const calculateDamage = (
   if (component.Duration > 0 && component.Interval > 0) {
     num6 = component.Duration / component.Interval;
   }
-  //num7 = component.A07;
-  //if (ability.Components[compIndex].A07 == 32)
-  if (component.A07 == 32) {
+  //num7 = component.OperationFlags;
+  //if (ability.Components[compIndex].OperationFlags == 32)
+  if (component.OperationFlags == 32) {
     return num4;
   }
   let num8 = (((num2 - 1) * num5 * num4 + num4) * multiplier) / 100;

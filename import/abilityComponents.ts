@@ -10,34 +10,34 @@ import {
 
 import { promises as fs } from 'fs';
 
-const componentData = object({
+const componentRequirement = object({
   Type: integer,
   Operation: integer,
   Condition: integer,
   LogicOperator: integer,
-  Val5: integer,
-  Val6: integer,
-  Val7: integer,
-  Val8: integer,
-  Val9: integer,
+  Target: integer,
+  Param1: integer,
+  Value: integer,
+  Param2: integer,
+  Param3: integer,
 });
 
 const component = object({
   ComponentID: integer,
   A00: integer,
-  Data: array(nullable(componentData)),
+  Requirements: array(nullable(componentRequirement)),
   Values: array(integer),
   Multipliers: array(integer),
   Delay: integer,
   Duration: integer,
-  A07: integer,
-  A08: integer,
+  OperationFlags: integer,
+  IconVisible: integer,
   Operation: integer,
   Interval: integer,
   Radius: integer,
   ConeAngle: integer,
   FlightSpeed: integer,
-  A15: integer,
+  ComponentFlags: integer,
   MaxTargets: integer,
 });
 

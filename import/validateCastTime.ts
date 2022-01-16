@@ -10,7 +10,7 @@ export const validateCastTime = (
 ): Partial<Ability> => {
   const castTime = ((): string => {
     if (
-      gameAbility.Castime === 0 &&
+      gameAbility.CastTime === 0 &&
       (gameAbility.AbilityType === AbilityType.PASSIVE ||
         gameAbility.AbilityType === AbilityType.TACTIC)
     ) {
@@ -18,19 +18,21 @@ export const validateCastTime = (
     }
 
     const msCastTime = ((): number => {
-      if (gameAbility.Castime > 0) {
-        return gameAbility.Castime;
+      if (gameAbility.CastTime > 0) {
+        return gameAbility.CastTime;
       }
 
       // Firball Barrage seems to have a 60m duration component though !?!
       // So filter that out
       if (gameAbility.Flags & AbilityFlags.CHANNEL) {
         return Math.max(
-          ...gameAbility.Components.map(c => c.Duration).filter(d => d < 30000),
+          ...gameAbility.Components.map((c) => c.Duration).filter(
+            (d) => d < 30000,
+          ),
         );
       }
 
-      return gameAbility.Castime;
+      return gameAbility.CastTime;
     })();
 
     if (msCastTime === 0) {

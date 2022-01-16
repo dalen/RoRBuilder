@@ -255,7 +255,7 @@ const main = async () => {
   Object.values(abilityData).forEach((ability) => {
     if (
       /*ability.CareerID !== 0 &&
-      ability.Components.find((component) => component?.A07 != 0) */
+      ability.Components.find((component) => component?.OperationFlags != 0) */
       ability.Flags & AbilityFlags.FLAG1
     ) {
       console.log(
@@ -264,12 +264,11 @@ const main = async () => {
         ability.AbilityType,
         ability.Description,
         ability.Components.map((component) => component?.Values),
-        ability.Components.map((component) => component?.A07),
+        ability.Components.map((component) => component?.OperationFlags),
       );
     }
   });
 
-  /*
   await validateCareer(
     'ironbreaker',
     CareerLine.IRON_BREAKER,
@@ -535,7 +534,7 @@ const main = async () => {
       willpower: 196,
     },
     abilityData,
-  ); */
+  );
 };
 
 main()

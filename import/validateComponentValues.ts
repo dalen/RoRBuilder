@@ -7,8 +7,8 @@ import {
   ComponentOP,
   Stats,
   AttackType,
-  ComponentA07Flags,
-  ComponentA15Flags,
+  EComponentFlags as ComponentOperationFlags,
+  ComponentComponentFlags,
 } from './types';
 import { Component } from './abilityComponents';
 
@@ -43,7 +43,9 @@ const calculateDamage = (
   const intervalNumber =
     component.Duration > 0 && component.Interval > 0
       ? Math.floor(component.Duration / component.Interval) +
-        (component.A15 & ComponentA15Flags.NO_FINAL_TICK ? 0 : 1)
+        (component.ComponentFlags & ComponentComponentFlags.NO_FINAL_TICK
+          ? 0
+          : 1)
       : 1;
 
   const baseValue = component.Values[valueIndex];
@@ -52,7 +54,7 @@ const calculateDamage = (
     component.Operation === ComponentOP.STAT_CHANGE ? 1 : 0.166667;
 
   // This seems to be mostly Alter Fate heal component
-  const adjustedLevel = ability.A62 == 0 ? 1 : abilityLevel;
+  const adjustedLevel = ability.ScalingFlags == 0 ? 1 : abilityLevel;
 
   const result = Math.floor(
     (((adjustedLevel - 1) * baseMultiplier * baseValue +
@@ -61,7 +63,7 @@ const calculateDamage = (
       100,
   );
 
-  if (component.A07 == 32) {
+  if (component.OperationFlags == 32) {
     return baseValue;
   }
 
@@ -99,8 +101,8 @@ const calculateStatContribution = (
   tod: boolean,
 ): number => {
   if (
-    component.A07 & ComponentA07Flags.NO_STAT_CONTRIBUTION ||
-    component.A07 & ComponentA07Flags.FLAG2
+    component.OperationFlags & ComponentOperationFlags.NO_STAT_CONTRIBUTION ||
+    component.OperationFlags & ComponentOperationFlags.FLAG2
   ) {
     return 0;
   }
@@ -111,7 +113,9 @@ const calculateStatContribution = (
   const intervalNumber =
     component.Duration > 0 && component.Interval > 0
       ? Math.floor(component.Duration / component.Interval) +
-        (component.A15 & ComponentA15Flags.NO_FINAL_TICK ? 0 : 1)
+        (component.ComponentFlags & ComponentComponentFlags.NO_FINAL_TICK
+          ? 0
+          : 1)
       : 1;
 
   const stat = (() => {
@@ -168,8 +172,8 @@ const calculateValue = (
         ? Math.floor(component.Duration / component.Interval)
         : 1;
 
-    if (component.A15 & ComponentA15Flags.STATIC_VALUE) {
-      // It seems A15 == 4 means it is a static value
+    if (component.ComponentFlags & ComponentComponentFlags.STATIC_VALUE) {
+      // It seems ComponentFlags == 4 means it is a static value
       return (
         Math.abs(component.Values[valueIndex]) * (tod ? intervalNumber : 1)
       );
@@ -193,10 +197,10 @@ const calculateValue = (
         `(${colors.red(ability.AbilityID.toString())})`,
         'ScaleStatMult',
         ability.ScaleStatMult,
-        'A07',
-        component.A07,
-        'A15',
-        component.A15,
+        'OperationFlags',
+        component.OperationFlags,
+        'ComponentFlags',
+        component.ComponentFlags,
         'duration',
         component.Duration,
         'Interval',
@@ -220,7 +224,7 @@ const calculateValue = (
         console.log(
           component.Duration,
           component.Interval,
-          component.A15,
+          component.ComponentFlags,
           calculateDamage(ability, component, valueIndex, abilityLevel),
           calculateStatContribution(
             ability,
@@ -246,10 +250,10 @@ const calculateValue = (
         `(${colors.red(ability.AbilityID.toString())})`,
         'ScaleStatMult',
         ability.ScaleStatMult,
-        'A07',
-        component.A07,
-        'A15',
-        component.A15,
+        'OperationFlags',
+        component.OperationFlags,
+        'ComponentFlags',
+        component.ComponentFlags,
         'duration',
         component.Duration,
         'Interval',
@@ -428,7 +432,9 @@ const validateComponentValue = (
         return (
           value *
           (Math.floor(component.Duration / component.Interval) +
-            (component.A15 & ComponentA15Flags.NO_FINAL_TICK ? 0 : 1))
+            (component.ComponentFlags & ComponentComponentFlags.NO_FINAL_TICK
+              ? 0
+              : 1))
         ); // Values[1] seems to be -1 when there is n
       }
       return value;
