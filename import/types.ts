@@ -86,15 +86,15 @@ export enum ComponentOP {
 }
 
 export enum AbilityFlags {
-  FLAG0 = Math.pow(2, 0),
-  FLAG1 = Math.pow(2, 1), // tactic?
+  FLAG0 = Math.pow(2, 0), // isGranted
+  FLAG1 = Math.pow(2, 1), // isPassive
   FLAG2 = Math.pow(2, 2), // Buff
   FLAG3 = Math.pow(2, 3), // Debuff
   FLAG4 = Math.pow(2, 4), // Damaging
   FLAG5 = Math.pow(2, 5), // Healing
   FLAG6 = Math.pow(2, 6), // Defensive
   FLAG7 = Math.pow(2, 7), // Offensive
-  FLAG8 = Math.pow(2, 8), // None
+  FLAG8 = Math.pow(2, 8), // RequiresPet
   FLAG9 = Math.pow(2, 9), // None
   FLAG10 = Math.pow(2, 10), // None
   FLAG11 = Math.pow(2, 11), // Requires Mechanic? Stealth, Mutation, Squig armor or exhaustive abilities
@@ -104,7 +104,7 @@ export enum AbilityFlags {
   FLAG15 = Math.pow(2, 15), // Gives passive buff?
   FLAG16 = Math.pow(2, 16), // CareerTactic
   FLAG17 = Math.pow(2, 17), // Requires parry/disrupt? (Also force opportunity & malignant strike)
-  FLAG18 = Math.pow(2, 18), // None
+  FLAG18 = Math.pow(2, 18), // isStatsBuff. None have it
   FLAG19 = Math.pow(2, 19), // Does not stack with other buffs if set (Normal ability stacking rules)
   FLAG20 = Math.pow(2, 20), // Seems all have this flag?
   FLAG21 = Math.pow(2, 21), // ??

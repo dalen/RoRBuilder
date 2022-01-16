@@ -256,13 +256,14 @@ const main = async () => {
     if (
       /*ability.CareerID !== 0 &&
       ability.Components.find((component) => component?.A07 != 0) */
-      ability.Flags & AbilityFlags.FLAG13
+      ability.Flags & AbilityFlags.FLAG1
     ) {
       console.log(
         colors.cyan(ability.Name),
         colors.red(ability.AbilityID.toString()),
         ability.AbilityType,
         ability.Description,
+        ability.Components.map((component) => component?.Values),
         ability.Components.map((component) => component?.A07),
       );
     }
