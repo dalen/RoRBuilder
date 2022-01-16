@@ -406,7 +406,8 @@ const validateComponentValue = (
   const num = (() => {
     // At lvl 40 with no mastery abilityLevel will be 40 for core abilities and
     // 25 for mastery abilities.
-    const abilityLevel = gameAbility.Specialization === 0 ? 40 : 25;
+    // const abilityLevel = gameAbility.Specialization === 0 ? 40 : 25;
+    const abilityLevel = 40;
 
     if (valueIndex !== undefined) {
       const value = calculateValue(
