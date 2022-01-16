@@ -100,15 +100,15 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A precision shot to the enemy's vital organs which deals damage based on combo points.<BR>   1 Accusation:  227 damage. <BR>   2 Accusations:  284 damage.<BR>   3 Accusations:  344 damage.<BR>   4 Accusations:  402 damage.<BR>   5 Accusations:  459 damage.",
+      "description": "A precision shot to the enemy's vital organs which deals damage based on combo points.<BR>   1 Accusation:  314 damage. <BR>   2 Accusations:  401 damage.<BR>   3 Accusations:  490 damage.<BR>   4 Accusations:  577 damage.<BR>   5 Accusations:  663 damage.",
       "category": "Ability",
       "gameId": 8082,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 227,
-        "COM_1_VAL0_DAMAGE": 284,
-        "COM_2_VAL0_DAMAGE": 344,
-        "COM_3_VAL0_DAMAGE": 402,
-        "COM_4_VAL0_DAMAGE": 459
+        "COM_0_VAL0_DAMAGE": 314,
+        "COM_1_VAL0_DAMAGE": 401,
+        "COM_2_VAL0_DAMAGE": 490,
+        "COM_3_VAL0_DAMAGE": 577,
+        "COM_4_VAL0_DAMAGE": 663
       },
       "rawDescription": "A precision shot to the enemy's vital organs which deals damage based on combo points.<BR>   1 Accusation:  {COM_0_VAL0_DAMAGE}. <BR>   2 Accusations:  {COM_1_VAL0_DAMAGE}.<BR>   3 Accusations:  {COM_2_VAL0_DAMAGE}.<BR>   4 Accusations:  {COM_3_VAL0_DAMAGE}.<BR>   5 Accusations:  {COM_4_VAL0_DAMAGE}."
     },
@@ -128,7 +128,7 @@
       "category": "CareerTactic",
       "gameId": 8138,
       "componentValues": {
-        "COM_0_VAL1": 25
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Increases Absolution's chance to critically hit by {COM_0_VAL1}%."
     },
@@ -144,11 +144,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 225 Spirit damage to the target.  The victim will lose 20 Action Points, and you will gain 20 Action Points.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 337 Spirit damage to the target.  The victim will lose 20 Action Points, and you will gain 20 Action Points.<BR><BR>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability",
       "gameId": 8089,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 225,
+        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 337,
         "COM_1_VAL0_COM_1_VAL0_ACTIONPOINTS": 20,
         "COM_1_VAL0_COM_2_VAL0_ACTIONPOINTS": 20
       },
@@ -170,9 +170,9 @@
       "category": "Ability",
       "gameId": 8099,
       "componentValues": {
-        "ABIL_3002_COM_0_VAL0_SPIRITDAMAGE": 225,
+        "ABIL_3002_COM_0_VAL0_SPIRITDAMAGE": 337,
         "COM_1_VAL0_COM_1_DURA_SECONDS": 5,
-        "COM_1_VAL0_COM_1_VAL1": 50
+        "COM_1_VAL0_COM_1_VAL1": 0
       },
       "rawDescription": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional {ABIL_3002_COM_0_VAL0_SPIRITDAMAGE}.  Any healing abilities that the victim uses over the next {COM_1_VAL0_COM_1_DURA_SECONDS} will become {COM_1_VAL0_COM_1_VAL1}% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect."
     },
@@ -188,14 +188,14 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 225 Spirit damage.  The victim's Initiative will be reduced by 50 for 10 seconds, and your Initiative will be increased by 50.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 337 Spirit damage.  The victim's Initiative will be reduced by 80 for 10 seconds, and your Initiative will be increased by 80.<BR><BR>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability",
       "gameId": 8084,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 225,
-        "COM_1_VAL0_COM_1_VAL0": 50,
+        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 337,
+        "COM_1_VAL0_COM_1_VAL0": 80,
         "COM_1_VAL0_COM_1_DURA_SECONDS": 10,
-        "COM_1_VAL0_COM_2_VAL0_COM_0_VAL0": 50
+        "COM_1_VAL0_COM_2_VAL0_COM_0_VAL0": 80
       },
       "rawDescription": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional {COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE}.  The victim's Initiative will be reduced by {COM_1_VAL0_COM_1_VAL0} for {COM_1_VAL0_COM_1_DURA_SECONDS}, and your Initiative will be increased by {COM_1_VAL0_COM_2_VAL0_COM_0_VAL0}.<BR><BR>This ability may be used while Incognito without breaking the effect."
     },
@@ -276,9 +276,9 @@
       "gameId": 8091,
       "componentValues": {
         "COM_0_RADI_FEET": 10,
-        "COM_1_VAL0_SPIRITDAMAGE": 125,
-        "COM_0_VAL0": 618,
-        "COM_2_VAL0_COM_0_VAL1": 50,
+        "COM_1_VAL0_SPIRITDAMAGE": 187,
+        "COM_0_VAL0": 990,
+        "COM_2_VAL0_COM_0_VAL1": 0,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "A surprise attack that burns all targets {COM_0_RADI_FEET} in front of you, causing them to take {COM_1_VAL0_SPIRITDAMAGE} and reducing their armor by {COM_0_VAL0}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
@@ -295,21 +295,21 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  672 damage over time; 333 ending damage.<BR>   2 Accusations:  858 damage over time; 432 ending damage.<BR>   3 Accusations:  1047 damage over time; 524 ending damage.<BR>   4 Accusations:  1233 damage over time; 619 ending damage.<BR>   5 Accusations:  1422 damage over time; 715 ending damage.<BR>",
+      "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  957 damage over time; 482 ending damage.<BR>   2 Accusations:  1236 damage over time; 631 ending damage.<BR>   3 Accusations:  1518 damage over time; 769 ending damage.<BR>   4 Accusations:  1800 damage over time; 911 ending damage.<BR>   5 Accusations:  2082 damage over time; 1056 ending damage.<BR>",
       "category": "Ability",
       "gameId": 8116,
       "componentValues": {
         "ABIL_3921_COM_0_DURA_SECONDS": 9,
-        "ABIL_3921_COM_0_VAL0_TOD_DAMAGE": 672,
-        "ABIL_3921_COM_1_VAL0": 333,
-        "ABIL_3922_COM_0_VAL0_TOD_DAMAGE": 858,
-        "ABIL_3922_COM_1_VAL0": 432,
-        "ABIL_3923_COM_0_VAL0_TOD_DAMAGE": 1047,
-        "ABIL_3923_COM_1_VAL0": 524,
-        "ABIL_3924_COM_0_VAL0_TOD_DAMAGE": 1233,
-        "ABIL_3924_COM_1_VAL0": 619,
-        "ABIL_3925_COM_0_VAL0_TOD_DAMAGE": 1422,
-        "ABIL_3925_COM_1_VAL0": 715
+        "ABIL_3921_COM_0_VAL0_TOD_DAMAGE": 957,
+        "ABIL_3921_COM_1_VAL0": 482,
+        "ABIL_3922_COM_0_VAL0_TOD_DAMAGE": 1236,
+        "ABIL_3922_COM_1_VAL0": 631,
+        "ABIL_3923_COM_0_VAL0_TOD_DAMAGE": 1518,
+        "ABIL_3923_COM_1_VAL0": 769,
+        "ABIL_3924_COM_0_VAL0_TOD_DAMAGE": 1800,
+        "ABIL_3924_COM_1_VAL0": 911,
+        "ABIL_3925_COM_0_VAL0_TOD_DAMAGE": 2082,
+        "ABIL_3925_COM_1_VAL0": 1056
       },
       "rawDescription": "A pistol shot that fires bullets filled with fire oil, first dealing damage over {ABIL_3921_COM_0_DURA_SECONDS} and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  {ABIL_3921_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3921_COM_1_VAL0} ending damage.<BR>   2 Accusations:  {ABIL_3922_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3922_COM_1_VAL0} ending damage.<BR>   3 Accusations:  {ABIL_3923_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3923_COM_1_VAL0} ending damage.<BR>   4 Accusations:  {ABIL_3924_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3924_COM_1_VAL0} ending damage.<BR>   5 Accusations:  {ABIL_3925_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3925_COM_1_VAL0} ending damage.<BR>"
     },
@@ -325,16 +325,16 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<BR>   1 Accusation:  534 damage<BR>   2 Accusations:  672 damage<BR>   3 Accusations:  822 damage<BR>   4 Accusations:  954 damage<BR>   5 Accusations:  1104 damage",
+      "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<BR>   1 Accusation:  750 damage<BR>   2 Accusations:  954 damage<BR>   3 Accusations:  1182 damage<BR>   4 Accusations:  1380 damage<BR>   5 Accusations:  1608 damage",
       "category": "Ability",
       "gameId": 8093,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL0_TOD_DAMAGE": 534,
-        "COM_1_VAL0_TOD_DAMAGE": 672,
-        "COM_2_VAL0_TOD_DAMAGE": 822,
-        "COM_3_VAL0_TOD_DAMAGE": 954,
-        "COM_4_VAL0_TOD_DAMAGE": 1104
+        "COM_0_VAL0_TOD_DAMAGE": 750,
+        "COM_1_VAL0_TOD_DAMAGE": 954,
+        "COM_2_VAL0_TOD_DAMAGE": 1182,
+        "COM_3_VAL0_TOD_DAMAGE": 1380,
+        "COM_4_VAL0_TOD_DAMAGE": 1608
       },
       "rawDescription": "A cleansing shot of flame which deals damage to your target over {COM_0_DURA_SECONDS}.<BR>   1 Accusation:  {COM_0_VAL0_TOD_DAMAGE}<BR>   2 Accusations:  {COM_1_VAL0_TOD_DAMAGE}<BR>   3 Accusations:  {COM_2_VAL0_TOD_DAMAGE}<BR>   4 Accusations:  {COM_3_VAL0_TOD_DAMAGE}<BR>   5 Accusations:  {COM_4_VAL0_TOD_DAMAGE}"
     },
@@ -350,11 +350,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Parry",
-      "description": "A savage counterattack that deals 227 damage and disarms your target for 4 seconds, making them unable to use their weapons.",
+      "description": "A savage counterattack that deals 314 damage and disarms your target for 4 seconds, making them unable to use their weapons.",
       "category": "Ability",
       "gameId": 8086,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 227,
+        "COM_0_VAL0_DAMAGE": 314,
         "COM_1_DURA_SECONDS": 4
       },
       "rawDescription": "A savage counterattack that deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_DURA_SECONDS}, making them unable to use their weapons."
@@ -411,11 +411,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1600 damage to all enemies in front of you, up to 65 feet away.",
+      "description": "Deals 2400 damage to all enemies in front of you, up to 65 feet away.",
       "category": "Morale",
       "gameId": 8152,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1600,
+        "COM_0_VAL0_DAMAGE": 2400,
         "COM_0_RADI_FEET": 65
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
@@ -432,19 +432,19 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  148 damage, 30 feet radius.<BR>   2 Accusations:  189 damage, 35 feet radius.<BR>   3 Accusations:  231 damage, 40 feet radius.<BR>   4 Accusations:  273 damage, 43 feet radius.<BR>   5 Accusations:  314 damage, 48 feet radius.",
+      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  210 damage, 30 feet radius.<BR>   2 Accusations:  272 damage, 35 feet radius.<BR>   3 Accusations:  336 damage, 40 feet radius.<BR>   4 Accusations:  398 damage, 43 feet radius.<BR>   5 Accusations:  459 damage, 48 feet radius.",
       "category": "Ability",
       "gameId": 8110,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 148,
+        "COM_0_VAL0_DAMAGE": 210,
         "COM_0_RADI_FEET": 30,
-        "COM_1_VAL0_DAMAGE": 189,
+        "COM_1_VAL0_DAMAGE": 272,
         "COM_1_RADI_FEET": 35,
-        "COM_2_VAL0_DAMAGE": 231,
+        "COM_2_VAL0_DAMAGE": 336,
         "COM_2_RADI_FEET": 40,
-        "COM_3_VAL0_DAMAGE": 273,
+        "COM_3_VAL0_DAMAGE": 398,
         "COM_3_RADI_FEET": 43,
-        "COM_4_VAL0_DAMAGE": 314,
+        "COM_4_VAL0_DAMAGE": 459,
         "COM_4_RADI_FEET": 48
       },
       "rawDescription": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  {COM_0_VAL0_DAMAGE}, {COM_0_RADI_FEET} radius.<BR>   2 Accusations:  {COM_1_VAL0_DAMAGE}, {COM_1_RADI_FEET} radius.<BR>   3 Accusations:  {COM_2_VAL0_DAMAGE}, {COM_2_RADI_FEET} radius.<BR>   4 Accusations:  {COM_3_VAL0_DAMAGE}, {COM_3_RADI_FEET} radius.<BR>   5 Accusations:  {COM_4_VAL0_DAMAGE}, {COM_4_RADI_FEET} radius."
@@ -466,7 +466,7 @@
       "gameId": 779,
       "componentValues": {
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 375
+        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 0
       },
       "rawDescription": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS}, which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}.<BR>This effect will not trigger more than once every 3 seconds."
     },
@@ -486,7 +486,7 @@
       "category": "CareerTactic",
       "gameId": 8136,
       "componentValues": {
-        "ABIL_3784_COM_2_VAL1": 5
+        "ABIL_3784_COM_2_VAL1": 0
       },
       "rawDescription": "Blessed Bullets of Confession will now also make the target {ABIL_3784_COM_2_VAL1}% easier to critical hit."
     },
@@ -502,13 +502,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 15 seconds, heals will have no effects on your target.  The target and all other enemies within 20 feet of them will suffer 1200 damage over 15 seconds.",
+      "description": "For the next 15 seconds, heals will have no effects on your target.  The target and all other enemies within 20 feet of them will suffer 1800 damage over 15 seconds.",
       "category": "Morale",
       "gameId": 8153,
       "componentValues": {
         "COM_0_DURA_SECONDS": 15,
         "COM_1_RADI_FEET": 20,
-        "COM_1_VAL0_TOD_DAMAGE": 1200,
+        "COM_1_VAL0_TOD_DAMAGE": 1800,
         "COM_1_DURA_SECONDS": 15
       },
       "rawDescription": "For the next {COM_0_DURA_SECONDS}, heals will have no effects on your target.  The target and all other enemies within {COM_1_RADI_FEET} of them will suffer {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
@@ -525,21 +525,21 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<BR>   1 Accusation:  252 damage; stats reduced by 50.<BR>    2 Accusations:  318 damage; stats reduced by 75.<BR>    3 Accusations:  386 damage; stats reduced by 100.<BR>    4 Accusations:  452 damage; stats reduced by 125.<BR>    5 Accusations:  518 damage; stats reduced by 150.",
+      "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<BR>   1 Accusation:  352 damage; stats reduced by 80.<BR>    2 Accusations:  451 damage; stats reduced by 120.<BR>    3 Accusations:  553 damage; stats reduced by 160.<BR>    4 Accusations:  652 damage; stats reduced by 200.<BR>    5 Accusations:  751 damage; stats reduced by 240.",
       "category": "Ability",
       "gameId": 8113,
       "componentValues": {
         "ABIL_3983_COM_1_DURA_SECONDS": 10,
-        "ABIL_3983_COM_0_VAL0_DAMAGE": 252,
-        "ABIL_3983_COM_1_VAL0": 50,
-        "ABIL_3984_COM_0_VAL0_DAMAGE": 318,
-        "ABIL_3984_COM_1_VAL0": 75,
-        "ABIL_3985_COM_0_VAL0_DAMAGE": 386,
-        "ABIL_3985_COM_1_VAL0": 100,
-        "ABIL_3986_COM_0_VAL0_DAMAGE": 452,
-        "ABIL_3986_COM_1_VAL0": 125,
-        "ABIL_3987_COM_0_VAL0_DAMAGE": 518,
-        "ABIL_3987_COM_1_VAL0": 150
+        "ABIL_3983_COM_0_VAL0_DAMAGE": 352,
+        "ABIL_3983_COM_1_VAL0": 80,
+        "ABIL_3984_COM_0_VAL0_DAMAGE": 451,
+        "ABIL_3984_COM_1_VAL0": 120,
+        "ABIL_3985_COM_0_VAL0_DAMAGE": 553,
+        "ABIL_3985_COM_1_VAL0": 160,
+        "ABIL_3986_COM_0_VAL0_DAMAGE": 652,
+        "ABIL_3986_COM_1_VAL0": 200,
+        "ABIL_3987_COM_0_VAL0_DAMAGE": 751,
+        "ABIL_3987_COM_1_VAL0": 240
       },
       "rawDescription": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for {ABIL_3983_COM_1_DURA_SECONDS}.<BR>   1 Accusation:  {ABIL_3983_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3983_COM_1_VAL0}.<BR>    2 Accusations:  {ABIL_3984_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3984_COM_1_VAL0}.<BR>    3 Accusations:  {ABIL_3985_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3985_COM_1_VAL0}.<BR>    4 Accusations:  {ABIL_3986_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3986_COM_1_VAL0}.<BR>    5 Accusations:  {ABIL_3987_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3987_COM_1_VAL0}."
     },
@@ -577,11 +577,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1600 damage over 10 seconds to all enemies within 30 feet and snares them, reducing their run speed by 60%.",
+      "description": "Deals 2400 damage over 10 seconds to all enemies within 30 feet and snares them, reducing their run speed by 60%.",
       "category": "Morale",
       "gameId": 8154,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 1600,
+        "COM_0_VAL0_TOD_DAMAGE": 2400,
         "COM_0_DURA_SECONDS": 10,
         "COM_0_RADI_FEET": 30,
         "COM_1_VAL0": 60
@@ -622,9 +622,9 @@
       "category": "Ability",
       "gameId": 8098,
       "componentValues": {
-        "COM_1_VAL0_SPIRITDAMAGE": 175,
+        "COM_1_VAL0_SPIRITDAMAGE": 262,
         "COM_0_DURA_SECONDS": 15,
-        "COM_3_VAL0_COM_0_VAL1": 50,
+        "COM_3_VAL0_COM_0_VAL1": 0,
         "COM_3_VAL0_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You leap from the shadows, fueled with righteous anger. Your target will take {COM_1_VAL0_SPIRITDAMAGE} every time they use a magical ability for the next {COM_0_DURA_SECONDS}. Your abilities will cost {COM_3_VAL0_COM_0_VAL1}% fewer Action Points for {COM_3_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
@@ -661,12 +661,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A precise incision that deals 119 damage, and an additional 216 Spirit damage over 9 seconds.  This effect can be stacked up to 3 times.",
+      "description": "A precise incision that deals 166 damage, and an additional 297 Spirit damage over 9 seconds.  This effect can be stacked up to 3 times.",
       "category": "Ability",
       "gameId": 8083,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 119,
-        "COM_2_VAL0_COM_1_VAL0_TOD_SPIRITDAMAGE": 216,
+        "COM_0_VAL0_DAMAGE": 166,
+        "COM_2_VAL0_COM_1_VAL0_TOD_SPIRITDAMAGE": 297,
         "COM_2_VAL0_COM_1_DURA_SECONDS": 9
       },
       "rawDescription": "A precise incision that deals {COM_0_VAL0_DAMAGE}, and an additional {COM_2_VAL0_COM_1_VAL0_TOD_SPIRITDAMAGE} over {COM_2_VAL0_COM_1_DURA_SECONDS}.  This effect can be stacked up to 3 times."
@@ -845,7 +845,7 @@
       "category": "CareerTactic",
       "gameId": 8120,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL1": 50,
+        "COM_1_VAL0_COM_0_VAL1": 0,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Each time you critically hit an enemy, your autoattack speed will be increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
@@ -942,11 +942,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Pistol<br>Builds 1 Accusation<br>Target must be facing away from you",
-      "description": "A quick backhand blow with the butt of your pistol that deals 277 damage and knocks your target down for 3 seconds.",
+      "description": "A quick backhand blow with the butt of your pistol that deals 389 damage and knocks your target down for 3 seconds.",
       "category": "Ability",
       "gameId": 8115,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 277,
+        "COM_0_VAL0_DAMAGE": 389,
         "COM_1_DURA_SECONDS": 3
       },
       "rawDescription": "A quick backhand blow with the butt of your pistol that deals {COM_0_VAL0_DAMAGE} and knocks your target down for {COM_1_DURA_SECONDS}."
@@ -985,7 +985,7 @@
       "category": "CareerTactic",
       "gameId": 8127,
       "componentValues": {
-        "ABIL_3003_COM_0_VAL1_DAMAGE": 475
+        "ABIL_3003_COM_0_VAL1_DAMAGE": 0
       },
       "rawDescription": "When leaving Incognito, you will become protected by a barrier that will absorb up to {ABIL_3003_COM_0_VAL1_DAMAGE}"
     },
@@ -1001,11 +1001,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A precision blow that deals 202 damage, and causes a lingering wound which reduces the effectiveness of all healing by 50% for 10 seconds.",
+      "description": "A precision blow that deals 277 damage, and causes a lingering wound which reduces the effectiveness of all healing by 50% for 10 seconds.",
       "category": "Ability",
       "gameId": 8112,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 202,
+        "COM_0_VAL0_DAMAGE": 277,
         "COM_2_DURA_SECONDS": 10
       },
       "rawDescription": "A precision blow that deals {COM_0_VAL0_DAMAGE}, and causes a lingering wound which reduces the effectiveness of all healing by 50% for {COM_2_DURA_SECONDS}."
@@ -1022,11 +1022,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A quick precision strike that deals 227 damage.",
+      "description": "A quick precision strike that deals 314 damage.",
       "category": "Ability",
       "gameId": 8081,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 227
+        "COM_0_VAL0_DAMAGE": 314
       },
       "rawDescription": "A quick precision strike that deals {COM_0_VAL0_DAMAGE}."
     },
@@ -1063,11 +1063,11 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A melee attack that deals 277 damage.  Your chance to parry attacks is increased by 100% for the next 5 seconds.",
+      "description": "A melee attack that deals 389 damage.  Your chance to parry attacks is increased by 100% for the next 5 seconds.",
       "category": "Ability",
       "gameId": 8109,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 277,
+        "COM_0_VAL0_DAMAGE": 389,
         "COM_1_VAL0": 100,
         "COM_1_DURA_SECONDS": 5
       },
@@ -1184,11 +1184,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A melee attack that can not be defended against, and deals 227 damage.  If the target is Ailing, then they will also become Cursed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
+      "description": "A melee attack that can not be defended against, and deals 314 damage.  If the target is Ailing, then they will also become Cursed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
       "category": "Ability",
       "gameId": 8097,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 227,
+        "COM_0_VAL0_DAMAGE": 314,
         "COM_2_DURA_SECONDS": 15,
         "COM_2_VAL0": 5
       },
@@ -1325,12 +1325,12 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds.  If you are behind your target, then you will also deal 202 damage.",
+      "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds.  If you are behind your target, then you will also deal 277 damage.",
       "category": "Ability",
       "gameId": 8100,
       "componentValues": {
         "COM_0_DURA_SECONDS": 3,
-        "COM_2_VAL0_DAMAGE": 202
+        "COM_2_VAL0_DAMAGE": 277
       },
       "rawDescription": "A punishing blow that silences your target, making them unable to use magic for {COM_0_DURA_SECONDS}.  If you are behind your target, then you will also deal {COM_2_VAL0_DAMAGE}."
     },
@@ -1372,9 +1372,9 @@
       "category": "Ability",
       "gameId": 8096,
       "componentValues": {
-        "COM_1_VAL0_SPIRITDAMAGE": 75,
+        "COM_1_VAL0_SPIRITDAMAGE": 112,
         "COM_0_DURA_SECONDS": 15,
-        "COM_2_VAL0_COM_0_VAL1": 50,
+        "COM_2_VAL0_COM_0_VAL1": 0,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You leap from the shadows and accuse your target of heresy. Your target will take {COM_1_VAL0_SPIRITDAMAGE} every time they move for {COM_0_DURA_SECONDS}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
@@ -1385,7 +1385,7 @@
       "name": "Sweeping Razor",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "1",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1396,7 +1396,7 @@
       "gameId": 8133,
       "componentValues": {
         "ABIL_8081_COM_2_RADI_FEET": 25,
-        "COM_1_VAL1": 10
+        "COM_1_VAL1": 0
       },
       "rawDescription": "Razor Strike will now also hit up to 2 additional enemies within {ABIL_8081_COM_2_RADI_FEET} of your target, but Razor Strike will now do {COM_1_VAL1}% less damage."
     },
@@ -1412,11 +1412,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A destructive thrust that deals 177 damage to your enemy. If you are behind your target, this attack will ignore armor.",
+      "description": "A destructive thrust that deals 239 damage to your enemy. If you are behind your target, this attack will ignore armor.",
       "category": "Ability",
       "gameId": 8085,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 177
+        "COM_0_VAL0_DAMAGE": 239
       },
       "rawDescription": "A destructive thrust that deals {COM_0_VAL0_DAMAGE} to your enemy. If you are behind your target, this attack will ignore armor."
     },
@@ -1432,16 +1432,16 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<BR>   1 Accusation:  101 damage per shot<BR>   2 Accusations:  126 damage per shot.<BR>   3 Accusations:  152 damage per shot<BR>   4 Accusations:  176 damage per shot<BR>   5 Accusations:  201 damage per shot",
+      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<BR>   1 Accusation:  138 damage per shot<BR>   2 Accusations:  176 damage per shot.<BR>   3 Accusations:  215 damage per shot<BR>   4 Accusations:  251 damage per shot<BR>   5 Accusations:  289 damage per shot",
       "category": "Ability",
       "gameId": 8087,
       "componentValues": {
         "COM_0_DURA_SECONDS": 3,
-        "COM_1_VAL0_DAMAGE": 101,
-        "COM_2_VAL0_DAMAGE": 126,
-        "COM_3_VAL0_DAMAGE": 152,
-        "COM_4_VAL0_DAMAGE": 176,
-        "COM_5_VAL0_DAMAGE": 201
+        "COM_1_VAL0_DAMAGE": 138,
+        "COM_2_VAL0_DAMAGE": 176,
+        "COM_3_VAL0_DAMAGE": 215,
+        "COM_4_VAL0_DAMAGE": 251,
+        "COM_5_VAL0_DAMAGE": 289
       },
       "rawDescription": "A barrage of withering fire that damages your target for up to {COM_0_DURA_SECONDS}, as long as you maintain your concentration.<BR>   1 Accusation:  {COM_1_VAL0_DAMAGE} per shot<BR>   2 Accusations:  {COM_2_VAL0_DAMAGE} per shot.<BR>   3 Accusations:  {COM_3_VAL0_DAMAGE} per shot<BR>   4 Accusations:  {COM_4_VAL0_DAMAGE} per shot<BR>   5 Accusations:  {COM_5_VAL0_DAMAGE} per shot"
     },
@@ -1554,7 +1554,7 @@
       "name": "Close Combat",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "31",
+      "minrank": "32",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1564,7 +1564,7 @@
       "category": "CareerTactic",
       "gameId": 522,
       "componentValues": {
-        "ABIL_3080_COM_0_VAL1": 25
+        "ABIL_3080_COM_0_VAL1": 0
       },
       "rawDescription": "Any time you strike an enemy in melee with a direct attack, you will receive {ABIL_3080_COM_0_VAL1}% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities."
     },
@@ -1574,7 +1574,7 @@
       "name": "Witchfinders Judgement",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "20",
+      "minrank": "21",
       "cost": "Rank 2 morale",
       "range": "Self",
       "incant": "Instant cast",

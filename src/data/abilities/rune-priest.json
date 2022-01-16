@@ -129,7 +129,7 @@
       "category": "CareerTactic",
       "gameId": 1639,
       "componentValues": {
-        "ABIL_3470_COM_0_VAL1_DAMAGE": 475,
+        "ABIL_3470_COM_0_VAL1_DAMAGE": 0,
         "ABIL_3470_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to {ABIL_3470_COM_0_VAL1_DAMAGE} over {ABIL_3470_COM_0_DURA_SECONDS}."
@@ -186,11 +186,11 @@
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Heals all group members within 100 feet for 643 health.",
+      "description": "Heals all group members within 100 feet for 898 health.",
       "category": "Ability",
       "gameId": 1604,
       "componentValues": {
-        "COM_0_VAL0_HEALTH": 643
+        "COM_0_VAL0_HEALTH": 898
       },
       "rawDescription": "Heals all group members within 100 feet for {COM_0_VAL0_HEALTH}."
     },
@@ -310,7 +310,7 @@
       "gameId": 585,
       "componentValues": {
         "COM_0_VAL0": 25,
-        "COM_1_VAL1": 20
+        "COM_1_VAL1": 0
       },
       "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your casted heals become {COM_1_VAL1}% less effective."
     },
@@ -331,7 +331,7 @@
       "gameId": 696,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL1_DAMAGE": 4500
+        "COM_0_VAL1_DAMAGE": 0
       },
       "rawDescription": "Each group member within 100 feet is surrounded by a protective shield for the next {COM_0_DURA_SECONDS} that will absorb up to {COM_0_VAL1_DAMAGE} from melee abilities."
     },
@@ -347,11 +347,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by 75 for 10 seconds.",
+      "description": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by 120 for 10 seconds.",
       "category": "CareerTactic",
       "gameId": 1636,
       "componentValues": {
-        "ABIL_3472_COM_0_VAL0": 75,
+        "ABIL_3472_COM_0_VAL0": 120,
         "ABIL_3472_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by {ABIL_3472_COM_0_VAL0} for {ABIL_3472_COM_0_DURA_SECONDS}."
@@ -469,7 +469,7 @@
       "gameId": 1592,
       "componentValues": {
         "COM_0_VAL0": 50,
-        "COM_1_VAL1": 25,
+        "COM_1_VAL1": 0,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You will take only {COM_0_VAL0}% damage and your abilities will cost {COM_1_VAL1}% fewer Action Points for {COM_0_DURA_SECONDS}. During this time you generate almost no threat, and can not be set back while casting."
@@ -486,11 +486,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grungni blesses your target, restoring 277 health.",
+      "description": "Grungni blesses your target, restoring 382 health.",
       "category": "Ability",
       "gameId": 1587,
       "componentValues": {
-        "COM_0_VAL0_HEALTH": 277
+        "COM_0_VAL0_HEALTH": 382
       },
       "rawDescription": "Grungni blesses your target, restoring {COM_0_VAL0_HEALTH}."
     },
@@ -528,13 +528,13 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 Master Rune active",
-      "description": "Inscribes a Master rune into the ground for 30 seconds. Heals Groupmates within 100 feet of the Rune of Adamant for 144 health every 3 seconds while the Master rune is active.",
+      "description": "Inscribes a Master rune into the ground for 30 seconds. Heals Groupmates within 100 feet of the Rune of Adamant for 214 health every 3 seconds while the Master rune is active.",
       "category": "Ability",
       "gameId": 1618,
       "componentValues": {
         "COM_0_DURA_SECONDS": 30,
         "COM_1_RADI_FEET": 100,
-        "COM_1_VAL0_HEALTH": 144,
+        "COM_1_VAL0_HEALTH": 214,
         "COM_0_FREQ_SECONDS": 3
       },
       "rawDescription": "Inscribes a Master rune into the ground for {COM_0_DURA_SECONDS}. Heals Groupmates within {COM_1_RADI_FEET} of the Rune of Adamant for {COM_1_VAL0_HEALTH} every {COM_0_FREQ_SECONDS} while the Master rune is active."
@@ -614,12 +614,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the targeted group member's Initiative and Willpower by 50 for 1 hour. The rune holder may activate it to inflict 496 Elemental damage over 9 seconds.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the targeted group member's Initiative and Willpower by 80 for 1 hour. The rune holder may activate it to inflict 712 Elemental damage over 9 seconds.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
       "gameId": 1600,
       "componentValues": {
-        "COM_0_VAL0": 50,
-        "ABIL_3870_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 496,
+        "COM_0_VAL0": 80,
+        "ABIL_3870_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 712,
         "ABIL_3870_COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Increases the targeted group member's Initiative and Willpower by {COM_0_VAL0} for 1 hour. The rune holder may activate it to inflict {ABIL_3870_COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {ABIL_3870_COM_0_DURA_SECONDS}.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
@@ -636,12 +636,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by 50 for 1 hour. The rune holder may activate to inflict 243 Elemental damage to a target.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by 80 for 1 hour. The rune holder may activate to inflict 330 Elemental damage to a target.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
       "gameId": 1591,
       "componentValues": {
-        "COM_0_VAL0": 50,
-        "ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE": 243
+        "COM_0_VAL0": 80,
+        "ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE": 330
       },
       "rawDescription": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by {COM_0_VAL0} for 1 hour. The rune holder may activate to inflict {ABIL_3869_COM_0_VAL0_ELEMENTALDAMAGE} to a target.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time."
     },
@@ -677,12 +677,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all of the targeted group member's resistances by 157 for 1 hour. The rune holder may activate it to inflict 356 Elemental damage over 9 seconds to all targets within 30 feet.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases all of the targeted group member's resistances by 252 for 1 hour. The rune holder may activate it to inflict 488 Elemental damage over 9 seconds to all targets within 30 feet.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability",
       "gameId": 1588,
       "componentValues": {
-        "COM_0_VAL0": 157,
-        "ABIL_3868_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 356,
+        "COM_0_VAL0": 252,
+        "ABIL_3868_COM_0_VAL0_TOD_ELEMENTALDAMAGE": 488,
         "ABIL_3868_COM_0_DURA_SECONDS": 9,
         "ABIL_3868_COM_0_RADI_FEET": 30
       },
@@ -740,11 +740,11 @@
       "incant": "Instant cast",
       "cooldown": "3m cooldown",
       "note": "",
-      "description": "Increases the target group member's Wounds by 100 for 60 seconds, healing them for the value of the additional HP gained.",
+      "description": "Increases the target group member's Wounds by 160 for 60 seconds, healing them for the value of the additional HP gained.",
       "category": "Ability",
       "gameId": 1606,
       "componentValues": {
-        "COM_0_VAL0": 100,
+        "COM_0_VAL0": 160,
         "COM_0_DURA_SECONDS": 60
       },
       "rawDescription": "Increases the target group member's Wounds by {COM_0_VAL0} for {COM_0_DURA_SECONDS}, healing them for the value of the additional HP gained."
@@ -788,7 +788,7 @@
       "componentValues": {
         "ABIL_3875_COM_0_VAL0": 1056,
         "ABIL_3875_COM_0_DURA_SECONDS": 10,
-        "ABIL_3875_COM_1_VAL1": 10
+        "ABIL_3875_COM_1_VAL1": 0
       },
       "rawDescription": "Each tick of Rune of Regeneration has a 25% chance to increase the target's armor by {ABIL_3875_COM_0_VAL0} for {ABIL_3875_COM_0_DURA_SECONDS}. Additionally, {ABIL_3875_COM_1_VAL1}% less armor will be bypassed when they are attacked."
     },
@@ -846,11 +846,11 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Buffs you or a friendly player with a pulsing area of effect that deals 259 Elemental damage every 3 seconds to all enemies within to 30 feet for 15 seconds.<BR><BR>Not affected by cooldown reduction abilities.",
+      "description": "Buffs you or a friendly player with a pulsing area of effect that deals 376 Elemental damage every 3 seconds to all enemies within to 30 feet for 15 seconds.<BR><BR>Not affected by cooldown reduction abilities.",
       "category": "Ability",
       "gameId": 1617,
       "componentValues": {
-        "COM_1_VAL0_ELEMENTALDAMAGE": 259,
+        "COM_1_VAL0_ELEMENTALDAMAGE": 376,
         "COM_0_FREQ_SECONDS": 3,
         "COM_1_RADI_FEET": 30,
         "COM_0_DURA_SECONDS": 15
@@ -869,11 +869,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Wounds your target for 248 Elemental damage and Staggers the target for 6 seconds, preventing all actions unless they're damaged.",
+      "description": "Wounds your target for 360 Elemental damage and Staggers the target for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability",
       "gameId": 1613,
       "componentValues": {
-        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 248,
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 360,
         "ABIL_3028_COM_0_DURA_SECONDS": 6
       },
       "rawDescription": "Wounds your target for {COM_0_VAL0_TOD_ELEMENTALDAMAGE} and Staggers the target for {ABIL_3028_COM_0_DURA_SECONDS}, preventing all actions unless they're damaged."
@@ -908,11 +908,11 @@
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
       "note": "",
-      "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1365 Elemental damage over 6 seconds and snaring them by 40% for as long as you maintain your concentration.",
+      "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1890 Elemental damage over 6 seconds and snaring them by 40% for as long as you maintain your concentration.",
       "category": "Ability",
       "gameId": 1614,
       "componentValues": {
-        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1365,
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1890,
         "COM_0_DURA_SECONDS": 6
       },
       "rawDescription": "You channel a powerful series of runes around your target which project searing flame into them, dealing {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} and snaring them by 40% for as long as you maintain your concentration."
@@ -947,11 +947,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A burst of force erupts from your rune, dealing 548 Elemental damage over 9 seconds to targets 40 feet in front of you.",
+      "description": "A burst of force erupts from your rune, dealing 732 Elemental damage over 9 seconds to targets 40 feet in front of you.",
       "category": "Ability",
       "gameId": 1597,
       "componentValues": {
-        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 548,
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 732,
         "COM_0_DURA_SECONDS": 9,
         "COM_0_RADI_FEET": 40
       },
@@ -969,11 +969,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 800 damage to all enemies within 30 feet and then heals all group members within 100 feet for all damage dealt.",
+      "description": "Deals 1200 damage to all enemies within 30 feet and then heals all group members within 100 feet for all damage dealt.",
       "category": "Morale",
       "gameId": 1648,
       "componentValues": {
-        "ABIL_3001_COM_0_VAL0_DAMAGE": 800,
+        "ABIL_3001_COM_0_VAL0_DAMAGE": 1200,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "Deals {ABIL_3001_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET} and then heals all group members within 100 feet for all damage dealt."
@@ -990,11 +990,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Deals 1197 Elemental damage over 24 seconds and heals your defensive target for 150% of the damage dealt.",
+      "description": "Deals 1659 Elemental damage over 24 seconds and heals your defensive target for 150% of the damage dealt.",
       "category": "Ability",
       "gameId": 1616,
       "componentValues": {
-        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1197,
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 1659,
         "COM_0_DURA_SECONDS": 24
       },
       "rawDescription": "Deals {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS} and heals your defensive target for 150% of the damage dealt."
@@ -1011,11 +1011,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Your rune releases a scorching blast, inflicting 243 Elemental damage to your target.",
+      "description": "Your rune releases a scorching blast, inflicting 330 Elemental damage to your target.",
       "category": "Ability",
       "gameId": 1594,
       "componentValues": {
-        "COM_0_VAL0_ELEMENTALDAMAGE": 243
+        "COM_0_VAL0_ELEMENTALDAMAGE": 330
       },
       "rawDescription": "Your rune releases a scorching blast, inflicting {COM_0_VAL0_ELEMENTALDAMAGE} to your target."
     },
@@ -1031,11 +1031,11 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals 322 Elemental damage to your target and heals your defensive target for the damage dealt.",
+      "description": "Deals 439 Elemental damage to your target and heals your defensive target for the damage dealt.",
       "category": "Ability",
       "gameId": 1611,
       "componentValues": {
-        "COM_0_VAL0_ELEMENTALDAMAGE": 322
+        "COM_0_VAL0_ELEMENTALDAMAGE": 439
       },
       "rawDescription": "Deals {COM_0_VAL0_ELEMENTALDAMAGE} to your target and heals your defensive target for the damage dealt."
     },
@@ -1051,11 +1051,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You set your target ablaze, burning them for 640 Elemental damage over 15 seconds.",
+      "description": "You set your target ablaze, burning them for 860 Elemental damage over 15 seconds.",
       "category": "Ability",
       "gameId": 1589,
       "componentValues": {
-        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 640,
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 860,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "You set your target ablaze, burning them for {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS}."
@@ -1111,12 +1111,12 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Restores 258 health, then continues to restore 315 health over 5 seconds. This ability will continue to build up even if you move.",
+      "description": "Restores 370 health, then continues to restore 445 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability",
       "gameId": 1599,
       "componentValues": {
-        "COM_0_VAL0_HEALTH": 258,
-        "ABIL_3551_COM_0_VAL0_TOD_HEALTH": 315,
+        "COM_0_VAL0_HEALTH": 370,
+        "ABIL_3551_COM_0_VAL0_TOD_HEALTH": 445,
         "ABIL_3551_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "Restores {COM_0_VAL0_HEALTH}, then continues to restore {ABIL_3551_COM_0_VAL0_TOD_HEALTH} over {ABIL_3551_COM_0_DURA_SECONDS}. This ability will continue to build up even if you move."
@@ -1133,11 +1133,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Your rune transmits a surge of power through the ground, dealing 195 Elemental damage to all targets within 30 feet of you.",
+      "description": "Your rune transmits a surge of power through the ground, dealing 270 Elemental damage to all targets within 30 feet of you.",
       "category": "Ability",
       "gameId": 1603,
       "componentValues": {
-        "COM_0_VAL0_ELEMENTALDAMAGE": 195,
+        "COM_0_VAL0_ELEMENTALDAMAGE": 270,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "Your rune transmits a surge of power through the ground, dealing {COM_0_VAL0_ELEMENTALDAMAGE} to all targets within {COM_0_RADI_FEET} of you."
@@ -1238,11 +1238,11 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your rune infuses the target with vitality, restoring 883 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
+      "description": "Your rune infuses the target with vitality, restoring 1258 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
       "category": "Ability",
       "gameId": 1596,
       "componentValues": {
-        "COM_0_VAL0_HEALTH": 883
+        "COM_0_VAL0_HEALTH": 1258
       },
       "rawDescription": "Your rune infuses the target with vitality, restoring {COM_0_VAL0_HEALTH}.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it."
     },
@@ -1258,11 +1258,11 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Heals your target for 507 health over 9 seconds, and will then bounce to and heal other allies within 30 feet of the previous target. This effect will not apply itself to the same target more than once, and will heal up to 6 people.",
+      "description": "Heals your target for 729 health over 9 seconds, and will then bounce to and heal other allies within 30 feet of the previous target. This effect will not apply itself to the same target more than once, and will heal up to 6 people.",
       "category": "Ability",
       "gameId": 1601,
       "componentValues": {
-        "ABIL_3016_COM_0_VAL0_TOD": 507,
+        "ABIL_3016_COM_0_VAL0_TOD": 729,
         "ABIL_3016_COM_0_DURA_SECONDS": 9,
         "ABIL_3017_COM_0_RADI_FEET": 30
       },
@@ -1284,9 +1284,9 @@
       "category": "Ability",
       "gameId": 1593,
       "componentValues": {
-        "COM_0_VAL1_DAMAGE": 550,
+        "COM_0_VAL1_DAMAGE": 0,
         "COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_HEALTH": 187
+        "COM_1_VAL0_HEALTH": 247
       },
       "rawDescription": "A shielding rune which absorbs up to {COM_0_VAL1_DAMAGE} over {COM_0_DURA_SECONDS}. When the effect fades, the target recovers {COM_1_VAL0_HEALTH}."
     },
@@ -1302,11 +1302,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1600 damage to all targets 40 feet in front of you.",
+      "description": "Deals 2400 damage to all targets 40 feet in front of you.",
       "category": "Morale",
       "gameId": 1650,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1600,
+        "COM_0_VAL0_DAMAGE": 2400,
         "COM_0_RADI_FEET": 40
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all targets {COM_0_RADI_FEET} in front of you."
@@ -1323,11 +1323,11 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your rune calls down a bolt of electricity, dealing 289 Elemental damage to your target.",
+      "description": "Your rune calls down a bolt of electricity, dealing 389 Elemental damage to your target.",
       "category": "Ability",
       "gameId": 1586,
       "componentValues": {
-        "COM_0_VAL0_ELEMENTALDAMAGE": 289
+        "COM_0_VAL0_ELEMENTALDAMAGE": 389
       },
       "rawDescription": "Your rune calls down a bolt of electricity, dealing {COM_0_VAL0_ELEMENTALDAMAGE} to your target."
     },
@@ -1367,7 +1367,7 @@
       "category": "CareerTactic",
       "gameId": 1634,
       "componentValues": {
-        "COM_0_VAL1": 15
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Increases the critical chance of Rune of Fire, Grungni's Gift, and Rune of Striking by {COM_0_VAL1}%."
     },
@@ -1404,11 +1404,11 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A potent rune which suppresses magic, silencing and wounding your target for 385 Elemental damage over 4 seconds.",
+      "description": "A potent rune which suppresses magic, silencing and wounding your target for 540 Elemental damage over 4 seconds.",
       "category": "Ability",
       "gameId": 1607,
       "componentValues": {
-        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 385,
+        "COM_0_VAL0_TOD_ELEMENTALDAMAGE": 540,
         "COM_0_DURA_SECONDS": 4
       },
       "rawDescription": "A potent rune which suppresses magic, silencing and wounding your target for {COM_0_VAL0_TOD_ELEMENTALDAMAGE} over {COM_0_DURA_SECONDS}."
@@ -1449,7 +1449,7 @@
       "category": "CareerTactic",
       "gameId": 713,
       "componentValues": {
-        "COM_0_VAL1": 50
+        "COM_0_VAL1": 0
       },
       "rawDescription": "You recover from Stuns and Knockdowns {COM_0_VAL1}% quicker. You will still gain immunity based on the original duration."
     },
@@ -1560,11 +1560,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Heals your groupmates within 100 feet 1596 health over 15 seconds and gives 375 Action Points over 15 seconds",
+      "description": "Heals your groupmates within 100 feet 2394 health over 15 seconds and gives 375 Action Points over 15 seconds",
       "category": "Morale",
       "gameId": 1649,
       "componentValues": {
-        "COM_0_VAL0_TOD_HEALTH": 1596,
+        "COM_0_VAL0_TOD_HEALTH": 2394,
         "COM_0_DURA_SECONDS": 15,
         "COM_1_VAL0_TOD_ACTIONPOINTS": 375,
         "COM_1_DURA_SECONDS": 15

@@ -104,12 +104,12 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A baneful aura surrounds you for 10 seconds, lashing out for 100 Spirit damage at any enemies who hit you.",
+      "description": "A baneful aura surrounds you for 10 seconds, lashing out for 150 Spirit damage at any enemies who hit you.",
       "category": "Ability",
       "gameId": 8337,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_SPIRITDAMAGE": 100
+        "COM_1_VAL0_SPIRITDAMAGE": 150
       },
       "rawDescription": "A baneful aura surrounds you for {COM_0_DURA_SECONDS}, lashing out for {COM_1_VAL0_SPIRITDAMAGE} at any enemies who hit you."
     },
@@ -125,12 +125,12 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "A great burst of corrupted winds tears at all targets within 20 feet, inflicting 76 damage. If under the effect of a Discordant Aura, Wounds are lowered by 75 for 20 seconds.",
+      "description": "A great burst of corrupted winds tears at all targets within 20 feet, inflicting 101 damage. If under the effect of a Discordant Aura, Wounds are lowered by 120 for 20 seconds.",
       "category": "Ability",
       "gameId": 8331,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 76,
-        "COM_1_VAL0": 75,
+        "COM_0_VAL0_DAMAGE": 101,
+        "COM_1_VAL0": 120,
         "COM_1_DURA_SECONDS": 20
       },
       "rawDescription": "A great burst of corrupted winds tears at all targets within 20 feet, inflicting {COM_0_VAL0_DAMAGE}. If under the effect of a Discordant Aura, Wounds are lowered by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
@@ -208,11 +208,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful overhand blow that inflicts 159 damage and can not be defended against.",
+      "description": "A powerful overhand blow that inflicts 209 damage and can not be defended against.",
       "category": "Ability",
       "gameId": 8319,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 159
+        "COM_0_VAL0_DAMAGE": 209
       },
       "rawDescription": "A powerful overhand blow that inflicts {COM_0_VAL0_DAMAGE} and can not be defended against."
     },
@@ -248,11 +248,11 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time.",
-      "description": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for 120 health over 3 seconds every time they defend an attack. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for 180 health over 3 seconds every time they defend an attack. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8332,
       "componentValues": {
-        "COM_2_VAL0_COM_0_VAL0_TOD_HEALTH": 120,
+        "COM_2_VAL0_COM_0_VAL0_TOD_HEALTH": 180,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 3
       },
       "rawDescription": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for {COM_2_VAL0_COM_0_VAL0_TOD_HEALTH} over {COM_2_VAL0_COM_0_DURA_SECONDS} every time they defend an attack. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
@@ -269,13 +269,13 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time.",
-      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within 30 feet by 75. During this time, group members within 100 feet are emboldened, increasing their toughness by 75. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within 30 feet by 120. During this time, group members within 100 feet are emboldened, increasing their toughness by 120. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8318,
       "componentValues": {
         "COM_2_RADI_FEET": 30,
-        "COM_1_VAL0": 75,
-        "COM_2_VAL0": 75
+        "COM_1_VAL0": 120,
+        "COM_2_VAL0": 120
       },
       "rawDescription": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within {COM_2_RADI_FEET} by {COM_1_VAL0}. During this time, group members within 100 feet are emboldened, increasing their toughness by {COM_2_VAL0}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
@@ -295,7 +295,7 @@
       "category": "CareerTactic",
       "gameId": 8357,
       "componentValues": {
-        "COM_0_VAL0_COM_0_VAL1": 10,
+        "COM_0_VAL0_COM_0_VAL1": 0,
         "COM_0_VAL0_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "Any time you critically hit an enemy, all members of your group within 100 feet except you will gain an enchantment that reduces their chance to be critically hit by {COM_0_VAL0_COM_0_VAL1}% for {COM_0_VAL0_COM_0_DURA_SECONDS}."
@@ -338,10 +338,9 @@
       "category": "CareerTactic",
       "gameId": 8359,
       "componentValues": {
-        "COM_1_VAL0": 250,
-        "COM_0_VAL0_SECONDS": 10
+        "COM_1_VAL0": 250
       },
-      "rawDescription": "Any time you block an attack, you gain {COM_1_VAL0} points of Morale. Tactic can not trigger more than once every {COM_0_VAL0_SECONDS} seconds."
+      "rawDescription": "Any time you block an attack, you gain {COM_1_VAL0} points of Morale. Tactic can not trigger more than once every 10 seconds."
     },
     {
       "image": "22694",
@@ -375,11 +374,11 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time.",
-      "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 232 Spirit damage. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 349 Spirit damage. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8327,
       "componentValues": {
-        "COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE": 232
+        "COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE": 349
       },
       "rawDescription": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them {COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
@@ -395,13 +394,13 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time.",
-      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 30 feet will have all their resistances reduced by 118. During this time, groupmates within 100 feet have all their resistances increased by 236. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 30 feet will have all their resistances reduced by 188. During this time, groupmates within 100 feet have all their resistances increased by 378. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8321,
       "componentValues": {
         "COM_2_RADI_FEET": 30,
-        "COM_2_VAL0": 118,
-        "COM_1_VAL0": 236
+        "COM_2_VAL0": 188,
+        "COM_1_VAL0": 378
       },
       "rawDescription": "You tear at the fabric of reality, warping the world around you. Enemies within {COM_2_RADI_FEET} will have all their resistances reduced by {COM_2_VAL0}. During this time, groupmates within 100 feet have all their resistances increased by {COM_1_VAL0}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
@@ -429,10 +428,10 @@
       "image": "23173",
       "id": 4791,
       "name": "Distracting Bellow",
-      "type": "Debuff",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "24",
-      "cost": "Rank 2 morale",
+      "cost": "Rank 3 morale",
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
@@ -459,11 +458,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "A blow to the head which inflicts 134 damage and snares your target, reducing their movement speed by 40% for 10 seconds.",
+      "description": "A blow to the head which inflicts 171 damage and snares your target, reducing their movement speed by 40% for 10 seconds.",
       "category": "Ability",
       "gameId": 8324,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 134,
+        "COM_0_VAL0_DAMAGE": 171,
         "COM_2_VAL0": 40,
         "COM_2_DURA_SECONDS": 10
       },
@@ -481,12 +480,12 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A fierce blow that knocks down your opponent for 3 seconds and inflicts 159 damage.",
+      "description": "A fierce blow that knocks down your opponent for 3 seconds and inflicts 209 damage.",
       "category": "Ability",
       "gameId": 8346,
       "componentValues": {
         "COM_1_DURA_SECONDS": 3,
-        "COM_0_VAL0_DAMAGE": 159
+        "COM_0_VAL0_DAMAGE": 209
       },
       "rawDescription": "A fierce blow that knocks down your opponent for {COM_1_DURA_SECONDS} and inflicts {COM_0_VAL0_DAMAGE}."
     },
@@ -502,12 +501,12 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time.",
-      "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take 99 Spirit damage every 3 seconds. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take 149 Spirit damage every 3 seconds. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8334,
       "componentValues": {
         "COM_2_RADI_FEET": 30,
-        "COM_2_VAL0_SPIRITDAMAGE": 99,
+        "COM_2_VAL0_SPIRITDAMAGE": 149,
         "COM_1_FREQ_SECONDS": 3
       },
       "rawDescription": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within {COM_2_RADI_FEET} will take {COM_2_VAL0_SPIRITDAMAGE} every {COM_1_FREQ_SECONDS}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
@@ -524,13 +523,13 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time.",
-      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 30 feet of you, reducing their Strength by 75. During this time, the Strength of any groupmates within 100 feet is increased by 75. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
+      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 30 feet of you, reducing their Strength by 120. During this time, the Strength of any groupmates within 100 feet is increased by 120. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time.",
       "category": "Ability",
       "gameId": 8316,
       "componentValues": {
         "COM_2_RADI_FEET": 30,
-        "COM_1_VAL0": 75,
-        "COM_2_VAL0": 75
+        "COM_1_VAL0": 120,
+        "COM_2_VAL0": 120
       },
       "rawDescription": "You call upon the power of the warp to instill a bone chilling fear in your opponents within {COM_2_RADI_FEET} of you, reducing their Strength by {COM_1_VAL0}. During this time, the Strength of any groupmates within 100 feet is increased by {COM_2_VAL0}. <BR>This curse will last until it is toggled off. You can have up to 3 curses active at the same time."
     },
@@ -575,7 +574,7 @@
       "category": "CareerTactic",
       "gameId": 8369,
       "componentValues": {
-        "COM_0_VAL1": 15
+        "COM_0_VAL1": 0
       },
       "rawDescription": "All healing used on you becomes {COM_0_VAL1}% more effective."
     },
@@ -591,11 +590,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful blow that does 152 damage and has significantly increased threat against monsters",
+      "description": "A powerful blow that does 199 damage and has significantly increased threat against monsters",
       "category": "Ability",
       "gameId": 8315,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 152
+        "COM_0_VAL0_DAMAGE": 199
       },
       "rawDescription": "A powerful blow that does {COM_0_VAL0_DAMAGE} and has significantly increased threat against monsters"
     },
@@ -635,7 +634,7 @@
       "category": "CareerTactic",
       "gameId": 8353,
       "componentValues": {
-        "COM_0_VAL1": 10
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Reduces the chance that an enemy will critically hit you by {COM_0_VAL1}%."
     },
@@ -678,7 +677,7 @@
       "gameId": 500,
       "componentValues": {
         "COM_0_VAL0": 15,
-        "COM_2_VAL1": 15,
+        "COM_2_VAL1": 0,
         "COM_1_VAL0": 33
       },
       "rawDescription": "You deal {COM_0_VAL0}% more damage and all enemy monsters will hate you {COM_2_VAL1}% less than normal, but your armor is reduced by {COM_1_VAL0}%."
@@ -699,7 +698,7 @@
       "category": "Ability",
       "gameId": 8325,
       "componentValues": {
-        "COM_1_VAL1": 35
+        "COM_1_VAL1": 0
       },
       "rawDescription": "You defend one of your groupmates and try to take attacks meant for them.  As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and {COM_1_VAL1}% of all hate that they cause will be redirected to you.<BR><BR>Damage received from this ability can be blocked or parried, unless the original attack was undefendable."
     },
@@ -719,7 +718,7 @@
       "category": "CareerTactic",
       "gameId": 8366,
       "componentValues": {
-        "COM_0_VAL1": 50
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Repel will send the victim flying even further away from you.<BR>If using a Great Weapon Repel's cooldown time is reduced by {COM_0_VAL1}%."
     },
@@ -762,7 +761,7 @@
       "category": "Morale",
       "gameId": 613,
       "componentValues": {
-        "COM_0_VAL1": 75,
+        "COM_0_VAL1": 0,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "An impressive display of defense which reduces incoming damage by {COM_0_VAL1}% for both you and all group members within 100 feet of you for {COM_0_DURA_SECONDS}."
@@ -784,7 +783,7 @@
       "gameId": 8378,
       "componentValues": {
         "COM_0_DURA_SECONDS": 20,
-        "COM_0_VAL1_DAMAGE": 7200
+        "COM_0_VAL1_DAMAGE": 0
       },
       "rawDescription": "You are briefly covered with an impenetrable set of scales. For the next {COM_0_DURA_SECONDS}, up to {COM_0_VAL1_DAMAGE} will be absorbed."
     },
@@ -842,7 +841,7 @@
       "category": "CareerTactic",
       "gameId": 504,
       "componentValues": {
-        "COM_0_VAL1": 100
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% more than normal on all attacks."
     },
@@ -883,7 +882,7 @@
       "category": "CareerTactic",
       "gameId": 8363,
       "componentValues": {
-        "COM_0_VAL1": 15
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Increases your chance to critically hit by {COM_0_VAL1}% when you are wielding a great weapon and causes Relentless to inflict Spirit damage."
     },
@@ -899,11 +898,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you parry an attack, your Strength and Toughness will be increased by 100 for 10 seconds. This effect will not refresh itself.",
+      "description": "Whenever you parry an attack, your Strength and Toughness will be increased by 160 for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic",
       "gameId": 2832,
       "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0": 100,
+        "COM_1_VAL0_COM_0_VAL0": 160,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Whenever you parry an attack, your Strength and Toughness will be increased by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}. This effect will not refresh itself."
@@ -924,10 +923,10 @@
       "category": "Ability",
       "gameId": 8347,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 184,
-        "COM_1_VAL0": 618,
+        "COM_0_VAL0_DAMAGE": 246,
+        "COM_1_VAL0": 990,
         "COM_1_DURA_SECONDS": 20,
-        "COM_2_VAL0_COM_0_VAL1": 15,
+        "COM_2_VAL0_COM_0_VAL1": 0,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "A thunderous shield slam that inflicts  {COM_0_VAL0_DAMAGE}, increases your armor by {COM_1_VAL0} for {COM_1_DURA_SECONDS} and reduces your damage taken by {COM_2_VAL0_COM_0_VAL1}% for {COM_2_VAL0_COM_0_DURA_SECONDS}."
@@ -968,7 +967,7 @@
       "category": "CareerTactic",
       "gameId": 8356,
       "componentValues": {
-        "ABIL_8329_COM_4_VAL1": 10,
+        "ABIL_8329_COM_4_VAL1": 0,
         "ABIL_8329_COM_4_DURA_SECONDS": 10
       },
       "rawDescription": "Repel will now apply a buff on you that will reduce the armor penetration of all attackers by  {ABIL_8329_COM_4_VAL1}% for {ABIL_8329_COM_4_DURA_SECONDS}."
@@ -1003,11 +1002,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "You shake the very earth, dealing 155 Spirit damage to all opponents within 40 feet in front of you, staggering everyone for up to 3 seconds, preventing all actions unless they are damaged.",
+      "description": "You shake the very earth, dealing 217 Spirit damage to all opponents within 40 feet in front of you, staggering everyone for up to 3 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
       "gameId": 8349,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 155,
+        "COM_0_VAL0_SPIRITDAMAGE": 217,
         "COM_0_RADI_FEET": 40,
         "COM_2_VAL0_COM_0_DURA_SECONDS": 3
       },
@@ -1029,8 +1028,8 @@
       "category": "CareerTactic",
       "gameId": 8354,
       "componentValues": {
-        "COM_0_VAL1_SECONDS": 5,
-        "COM_1_VAL1_SECONDS": 10
+        "COM_0_VAL1_SECONDS": 0,
+        "COM_1_VAL1_SECONDS": 0
       },
       "rawDescription": "Reduces Blast Wave's cooldown time by {COM_0_VAL1_SECONDS} and Touch Of Palsy's cooldown time by {COM_1_VAL1_SECONDS}."
     },
@@ -1046,11 +1045,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You channel the fell powers of the warp into your blade unleashing a devastating strike that does 159 Spiritual damage.",
+      "description": "You channel the fell powers of the warp into your blade unleashing a devastating strike that does 209 Spiritual damage.",
       "category": "Ability",
       "gameId": 8323,
       "componentValues": {
-        "COM_0_VAL0": 159
+        "COM_0_VAL0": 209
       },
       "rawDescription": "You channel the fell powers of the warp into your blade unleashing a devastating strike that does {COM_0_VAL0} Spiritual damage."
     },
@@ -1061,7 +1060,7 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "20",
-      "cost": "Rank 3 morale",
+      "cost": "Rank 2 morale",
       "range": "Self",
       "incant": "3.0s cast",
       "cooldown": "60s cooldown",
@@ -1088,12 +1087,12 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing 114 damage with each hit.  This effect will end if you break your concentration or run out of action points.",
+      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing 159 damage with each hit.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability",
       "gameId": 8343,
       "componentValues": {
         "COM_0_DURA_SECONDS": 3,
-        "COM_0_VAL0_DAMAGE": 114
+        "COM_0_VAL0_DAMAGE": 159
       },
       "rawDescription": "You hack at your enemy with brutal strikes for up to {COM_0_DURA_SECONDS}, striking them up to six times and dealing {COM_0_VAL0_DAMAGE} with each hit.  This effect will end if you break your concentration or run out of action points."
     },
@@ -1109,11 +1108,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires Great Weapon",
-      "description": "Your Demonic blade overpowers your enemy's defense causing 134 Spirit damage to all enemies within 25 feet in front of you. This attack is undefendable.",
+      "description": "Your Demonic blade overpowers your enemy's defense causing 184 Spirit damage to all enemies within 25 feet in front of you. This attack is undefendable.",
       "category": "Ability",
       "gameId": 8344,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 134,
+        "COM_0_VAL0_SPIRITDAMAGE": 184,
         "COM_0_RADI_FEET": 25
       },
       "rawDescription": "Your Demonic blade overpowers your enemy's defense causing {COM_0_VAL0_SPIRITDAMAGE} to all enemies within {COM_0_RADI_FEET} in front of you. This attack is undefendable."
@@ -1130,11 +1129,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Forceful blow that deals 159 damage and knocks back players and knocks down monsters.",
+      "description": "Forceful blow that deals 209 damage and knocks back players and knocks down monsters.",
       "category": "Ability",
       "gameId": 8329,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 159
+        "COM_0_VAL0_DAMAGE": 209
       },
       "rawDescription": "Forceful blow that deals {COM_0_VAL0_DAMAGE} and knocks back players and knocks down monsters."
     },
@@ -1170,11 +1169,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your blade churns with Spiritual energies and will Cripple your target, inflicting 285 damage over 9 seconds.",
+      "description": "Your blade churns with Spiritual energies and will Cripple your target, inflicting 369 damage over 9 seconds.",
       "category": "Ability",
       "gameId": 8320,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 285,
+        "COM_0_VAL0_TOD_DAMAGE": 369,
         "COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "Your blade churns with Spiritual energies and will Cripple your target, inflicting {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
@@ -1211,11 +1210,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A thunderous curse shatters the air, inflicting 1200 damage to all targets within 30 feet and dispelling a blessing.",
+      "description": "A thunderous curse shatters the air, inflicting 1800 damage to all targets within 30 feet and dispelling a blessing.",
       "category": "Morale",
       "gameId": 8379,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200,
+        "COM_0_VAL0_DAMAGE": 1800,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "A thunderous curse shatters the air, inflicting {COM_0_VAL0_DAMAGE} to all targets within {COM_0_RADI_FEET} and dispelling a blessing."
@@ -1252,11 +1251,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you disrupt a spell, you will regain 105 health, and your movement speed will be increased by 30% for 5 seconds.",
+      "description": "Any time you disrupt a spell, you will regain 157 health, and your movement speed will be increased by 30% for 5 seconds.",
       "category": "CareerTactic",
       "gameId": 8367,
       "componentValues": {
-        "COM_2_VAL0_HEALTH": 105,
+        "COM_2_VAL0_HEALTH": 157,
         "COM_1_VAL0": 30,
         "COM_1_DURA_SECONDS": 5
       },
@@ -1274,12 +1273,12 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "In a chaotic surge of growth, everyone in the group's skin hardens, increasing Armor by 825 and all Resists by 315 for 30 seconds. Everyone receives 100 AP as well.",
+      "description": "In a chaotic surge of growth, everyone in the group's skin hardens, increasing Armor by 1320 and all Resists by 504 for 30 seconds. Everyone receives 100 AP as well.",
       "category": "Morale",
       "gameId": 8373,
       "componentValues": {
-        "COM_0_VAL0": 825,
-        "COM_1_VAL0": 315,
+        "COM_0_VAL0": 1320,
+        "COM_1_VAL0": 504,
         "COM_0_DURA_SECONDS": 30
       },
       "rawDescription": "In a chaotic surge of growth, everyone in the group's skin hardens, increasing Armor by {COM_0_VAL0} and all Resists by {COM_1_VAL0} for {COM_0_DURA_SECONDS}. Everyone receives 100 AP as well."
@@ -1296,11 +1295,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A quick blow that causes 152 damage and improves your defensive position, increasing your chance to parry by  25% for 15 seconds.",
+      "description": "A quick blow that causes 199 damage and improves your defensive position, increasing your chance to parry by  25% for 15 seconds.",
       "category": "Ability",
       "gameId": 8335,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 152,
+        "COM_0_VAL0_DAMAGE": 199,
         "COM_1_VAL0": 25,
         "COM_1_DURA_SECONDS": 15
       },
@@ -1318,11 +1317,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy is directly healed while suffering from your Seeping Wound, the healer will suffer 225 damage.",
+      "description": "If an enemy is directly healed while suffering from your Seeping Wound, the healer will suffer 337 damage.",
       "category": "CareerTactic",
       "gameId": 8368,
       "componentValues": {
-        "ABIL_8320_COM_3_VAL0_COM_0_VAL0_DAMAGE": 225
+        "ABIL_8320_COM_3_VAL0_COM_0_VAL0_DAMAGE": 337
       },
       "rawDescription": "If an enemy is directly healed while suffering from your Seeping Wound, the healer will suffer {ABIL_8320_COM_3_VAL0_COM_0_VAL0_DAMAGE}."
     },
@@ -1380,13 +1379,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You stab into your opponent for 159 damage.  For the next 5 seconds, Tooth Of Tzeentch will cause an additional 100 Spirit damage on the next damaging attack made by everyone in your group within 100 feet of you.",
+      "description": "You stab into your opponent for 209 damage.  For the next 5 seconds, Tooth Of Tzeentch will cause an additional 150 Spirit damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability",
       "gameId": 8317,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 159,
+        "COM_0_VAL0_DAMAGE": 209,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 5,
-        "COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE": 100
+        "COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE": 150
       },
       "rawDescription": "You stab into your opponent for {COM_0_VAL0_DAMAGE}.  For the next {COM_1_VAL0_COM_0_DURA_SECONDS}, Tooth Of Tzeentch will cause an additional {COM_1_VAL0_COM_1_VAL0_SPIRITDAMAGE} on the next damaging attack made by everyone in your group within 100 feet of you."
     },
@@ -1402,13 +1401,13 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "You inflict 109 damage on the target. Target's legs become brittle for 10 seconds, causing them to suffer 75 Spirit damage for every half second they are moving.",
+      "description": "You inflict 134 damage on the target. Target's legs become brittle for 10 seconds, causing them to suffer 112 Spirit damage for every half second they are moving.",
       "category": "Ability",
       "gameId": 8338,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 109,
+        "COM_0_VAL0_DAMAGE": 134,
         "COM_1_DURA_SECONDS": 10,
-        "COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE": 75
+        "COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE": 112
       },
       "rawDescription": "You inflict {COM_0_VAL0_DAMAGE} on the target. Target's legs become brittle for {COM_1_DURA_SECONDS}, causing them to suffer {COM_2_VAL0_COM_0_VAL0_SPIRITDAMAGE} for every half second they are moving."
     },
@@ -1442,11 +1441,11 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You are surrounded by a magical barrier, increasing your willpower by 75 and disrupt chance by 25% for 10 seconds. During this time, any spell you disrupt will silence its caster for 3 seconds.",
+      "description": "You are surrounded by a magical barrier, increasing your willpower by 120 and disrupt chance by 25% for 10 seconds. During this time, any spell you disrupt will silence its caster for 3 seconds.",
       "category": "Ability",
       "gameId": 8350,
       "componentValues": {
-        "COM_0_VAL0": 75,
+        "COM_0_VAL0": 120,
         "COM_1_VAL0": 25,
         "COM_0_DURA_SECONDS": 10,
         "ABIL_3762_COM_0_DURA_SECONDS": 3
@@ -1507,7 +1506,7 @@
       "category": "CareerTactic",
       "gameId": 797,
       "componentValues": {
-        "ABIL_3996_COM_0_VAL1": 375
+        "ABIL_3996_COM_0_VAL1": 0
       },
       "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
     },
@@ -1523,11 +1522,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A surge of chaotic energy ripples forward, inflicting 1200 damage over 15 seconds to everyone 40 feet in front of you. The surge of power clings to its victims, snaring them by 40% for 15 seconds.",
+      "description": "A surge of chaotic energy ripples forward, inflicting 1800 damage over 15 seconds to everyone 40 feet in front of you. The surge of power clings to its victims, snaring them by 40% for 15 seconds.",
       "category": "Morale",
       "gameId": 8377,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 1200,
+        "COM_0_VAL0_TOD_DAMAGE": 1800,
         "COM_0_DURA_SECONDS": 15,
         "COM_0_RADI_FEET": 40
       },
@@ -1545,11 +1544,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You release chaotic energies through your blade, withering your opponent's limbs causing 152 damage and removing 30 Action Points.",
+      "description": "You release chaotic energies through your blade, withering your opponent's limbs causing 199 damage and removing 30 Action Points.",
       "category": "Ability",
       "gameId": 8328,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 152,
+        "COM_0_VAL0_DAMAGE": 199,
         "COM_1_VAL0_ACTIONPOINTS": 30
       },
       "rawDescription": "You release chaotic energies through your blade, withering your opponent's limbs causing {COM_0_VAL0_DAMAGE} and removing {COM_1_VAL0_ACTIONPOINTS}."

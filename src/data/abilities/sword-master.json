@@ -84,7 +84,7 @@
       "category": "CareerTactic",
       "gameId": 9053,
       "componentValues": {
-        "COM_0_VAL1": 35
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Improved Stance abilities now cost {COM_0_VAL1}% less AP."
     },
@@ -125,8 +125,8 @@
       "category": "CareerTactic",
       "gameId": 9062,
       "componentValues": {
-        "COM_0_VAL1": 10,
-        "COM_1_VAL1": 20
+        "COM_0_VAL1": 0,
+        "COM_1_VAL1": 0
       },
       "rawDescription": "Increases your chance to critically hit by {COM_0_VAL1}% while you have Improved Balance, or {COM_1_VAL1}% while you have Perfect Balance."
     },
@@ -167,7 +167,7 @@
       "gameId": 9058,
       "componentValues": {
         "COM_2_VAL0_DAMAGE": 600,
-        "ABIL_3681_COM_0_VAL1_DAMAGE": 3600,
+        "ABIL_3681_COM_0_VAL1_DAMAGE": 0,
         "ABIL_3681_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You become protected by a magical shell for a few moments which will strike back at any attacker for {COM_2_VAL0_DAMAGE} and absorb up to {ABIL_3681_COM_0_VAL1_DAMAGE} for up to {ABIL_3681_COM_0_DURA_SECONDS}."
@@ -184,12 +184,12 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Path of Hoeth abilities will place an effect on your target for 10 seconds. During this time, any allies who strike the target will recover 88 health over 3 seconds.",
+      "description": "Path of Hoeth abilities will place an effect on your target for 10 seconds. During this time, any allies who strike the target will recover 132 health over 3 seconds.",
       "category": "CareerTactic",
       "gameId": 2884,
       "componentValues": {
         "ABIL_3382_COM_0_DURA_SECONDS": 10,
-        "ABIL_3381_COM_0_VAL0_TOD_HEALTH": 88,
+        "ABIL_3381_COM_0_VAL0_TOD_HEALTH": 132,
         "ABIL_3381_COM_0_DURA_SECONDS": 3
       },
       "rawDescription": "Path of Hoeth abilities will place an effect on your target for {ABIL_3382_COM_0_DURA_SECONDS}. During this time, any allies who strike the target will recover {ABIL_3381_COM_0_VAL0_TOD_HEALTH} over {ABIL_3381_COM_0_DURA_SECONDS}."
@@ -206,13 +206,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "A powerful slash that deals 144 Spirit damage. For the next 10 seconds, each time the target is critically hit, they take an additional 75 Spirit damage.",
+      "description": "A powerful slash that deals 194 Spirit damage. For the next 10 seconds, each time the target is critically hit, they take an additional 112 Spirit damage.",
       "category": "Ability",
       "gameId": 9022,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 144,
+        "COM_0_VAL0_SPIRITDAMAGE": 194,
         "ABIL_3178_COM_0_DURA_SECONDS": 10,
-        "ABIL_3538_COM_0_VAL0_SPIRITDAMAGE": 75
+        "ABIL_3538_COM_0_VAL0_SPIRITDAMAGE": 112
       },
       "rawDescription": "A powerful slash that deals {COM_0_VAL0_SPIRITDAMAGE}. For the next {ABIL_3178_COM_0_DURA_SECONDS}, each time the target is critically hit, they take an additional {ABIL_3538_COM_0_VAL0_SPIRITDAMAGE}."
     },
@@ -332,11 +332,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You launch two powerful blows dealing a total of 262 Spirit damage and knocking your opponent down for 3 seconds.",
+      "description": "You launch two powerful blows dealing a total of 350 Spirit damage and knocking your opponent down for 3 seconds.",
       "category": "Ability",
       "gameId": 9028,
       "componentValues": {
-        "COM_0_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE": 262,
+        "COM_0_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE": 350,
         "COM_1_DURA_SECONDS": 3
       },
       "rawDescription": "You launch two powerful blows dealing a total of {COM_0_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE} and knocking your opponent down for {COM_1_DURA_SECONDS}."
@@ -353,14 +353,14 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Shield",
-      "description": "A calculated shield maneuver that inflicts 144 damage to all enemies 15 feet in front of you and interrupts any spells they are casting. Additionally, for the next 20 seconds, your block rate is increased by 5% and your armor will be increased by 618 points.",
+      "description": "A calculated shield maneuver that inflicts 194 damage to all enemies 15 feet in front of you and interrupts any spells they are casting. Additionally, for the next 20 seconds, your block rate is increased by 5% and your armor will be increased by 990 points.",
       "category": "Ability",
       "gameId": 9027,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 144,
+        "COM_0_VAL0_DAMAGE": 194,
         "COM_3_DURA_SECONDS": 20,
         "COM_3_VAL0": 5,
-        "COM_4_VAL0": 618
+        "COM_4_VAL0": 990
       },
       "rawDescription": "A calculated shield maneuver that inflicts {COM_0_VAL0_DAMAGE} to all enemies 15 feet in front of you and interrupts any spells they are casting. Additionally, for the next {COM_3_DURA_SECONDS}, your block rate is increased by {COM_3_VAL0}% and your armor will be increased by {COM_4_VAL0} points."
     },
@@ -376,11 +376,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "When your blade hits your opponent it releases a blinding flash of light that deals 219 Spirit damage, and disorients your target for 5 seconds, increasing their build times by 50%.",
+      "description": "When your blade hits your opponent it releases a blinding flash of light that deals 306 Spirit damage, and disorients your target for 5 seconds, increasing their build times by 50%.",
       "category": "Ability",
       "gameId": 9019,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 219,
+        "COM_0_VAL0_SPIRITDAMAGE": 306,
         "COM_1_DURA_SECONDS": 5,
         "COM_1_VAL0": 50
       },
@@ -398,11 +398,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Quick Incision will now inflict an additional 448 damage over 10 seconds.",
+      "description": "Quick Incision will now inflict an additional 628 damage over 10 seconds.",
       "category": "CareerTactic",
       "gameId": 9068,
       "componentValues": {
-        "ABIL_3197_COM_0_VAL0_TOD_DAMAGE": 448,
+        "ABIL_3197_COM_0_VAL0_TOD_DAMAGE": 628,
         "ABIL_3197_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "Quick Incision will now inflict an additional {ABIL_3197_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3197_COM_0_DURA_SECONDS}."
@@ -445,7 +445,7 @@
       "category": "CareerTactic",
       "gameId": 823,
       "componentValues": {
-        "COM_0_VAL1": 10
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Your attacks have a {COM_0_VAL1}% reduced chance to be defended against."
     },
@@ -453,10 +453,10 @@
       "image": "23173",
       "id": 2881,
       "name": "Distracting Bellow",
-      "type": "Debuff",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "24",
-      "cost": "Rank 2 morale",
+      "cost": "Rank 3 morale",
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
@@ -483,11 +483,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You release two rending blows that deal 97 Spirit damage each, crippling your target for 4 seconds, reducing the damage they deal with every attack to 80%.",
+      "description": "You release two rending blows that deal 134 Spirit damage each, crippling your target for 4 seconds, reducing the damage they deal with every attack to 80%.",
       "category": "Ability",
       "gameId": 9006,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 97,
+        "COM_0_VAL0_SPIRITDAMAGE": 134,
         "ABIL_3535_COM_0_DURA_SECONDS": 4,
         "ABIL_3535_COM_0_VAL0": 80
       },
@@ -505,11 +505,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A guarded strike that deals 144 damage and improves your chance to parry by 25% for 5 seconds.",
+      "description": "A guarded strike that deals 194 damage and improves your chance to parry by 25% for 5 seconds.",
       "category": "Ability",
       "gameId": 9007,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 144,
+        "COM_0_VAL0_DAMAGE": 194,
         "COM_1_VAL0": 25,
         "COM_1_DURA_SECONDS": 5
       },
@@ -548,11 +548,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
-      "description": "A quick precision slash that calls out the enchantment in your blade dealing 137 Spirit damage.",
+      "description": "A quick precision slash that calls out the enchantment in your blade dealing 184 Spirit damage.",
       "category": "Ability",
       "gameId": 9010,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 137
+        "COM_0_VAL0_SPIRITDAMAGE": 184
       },
       "rawDescription": "A quick precision slash that calls out the enchantment in your blade dealing {COM_0_VAL0_SPIRITDAMAGE}."
     },
@@ -568,12 +568,12 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Great Weapon",
-      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing 190 Spirit damage with each hit.",
+      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing 275 Spirit damage with each hit.",
       "category": "Ability",
       "gameId": 9026,
       "componentValues": {
         "COM_0_DURA_SECONDS": 3,
-        "COM_0_VAL0_SPIRITDAMAGE": 190
+        "COM_0_VAL0_SPIRITDAMAGE": 275
       },
       "rawDescription": "You focus on your target, slashing repeatedly for up to {COM_0_DURA_SECONDS}, striking them up to five times and dealing {COM_0_VAL0_SPIRITDAMAGE} with each hit."
     },
@@ -616,7 +616,7 @@
       "gameId": 500,
       "componentValues": {
         "COM_0_VAL0": 15,
-        "COM_2_VAL1": 15,
+        "COM_2_VAL1": 0,
         "COM_1_VAL0": 33
       },
       "rawDescription": "You deal {COM_0_VAL0}% more damage and all enemy monsters will hate you {COM_2_VAL1}% less than normal, but your armor is reduced by {COM_1_VAL0}%."
@@ -633,12 +633,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
-      "description": "A swift attack that deals 72 damage and an additional 135 damage over 5 seconds. Monsters struck with this technique will hate you more.",
+      "description": "A swift attack that deals 97 damage and an additional 185 damage over 5 seconds. Monsters struck with this technique will hate you more.",
       "category": "Ability",
       "gameId": 9002,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 72,
-        "ABIL_3831_COM_0_VAL0_TOD_DAMAGE": 135,
+        "COM_0_VAL0_DAMAGE": 97,
+        "ABIL_3831_COM_0_VAL0_TOD_DAMAGE": 185,
         "ABIL_3831_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "A swift attack that deals {COM_0_VAL0_DAMAGE} and an additional {ABIL_3831_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3831_COM_0_DURA_SECONDS}. Monsters struck with this technique will hate you more."
@@ -676,11 +676,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
-      "description": "A fierce attack that deals 144 damage and cannot be Blocked or Parried.",
+      "description": "A fierce attack that deals 194 damage and cannot be Blocked or Parried.",
       "category": "Ability",
       "gameId": 9031,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 144
+        "COM_0_VAL0_DAMAGE": 194
       },
       "rawDescription": "A fierce attack that deals {COM_0_VAL0_DAMAGE} and cannot be Blocked or Parried."
     },
@@ -700,7 +700,7 @@
       "category": "Ability",
       "gameId": 9008,
       "componentValues": {
-        "COM_1_VAL1": 35
+        "COM_1_VAL1": 0
       },
       "rawDescription": "You defend one of your groupmates and try to take attacks meant for them.  As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and {COM_1_VAL1}% of all hate that they cause will be redirected to you.<BR><BR>Damage received from this ability can be blocked or parried, unless the original attack was undefendable."
     },
@@ -737,11 +737,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals 70 Spirit damage to all opponents within 30 feet of you, knocking back enemy players and knocking down monsters.",
+      "description": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals 95 Spirit damage to all opponents within 30 feet of you, knocking back enemy players and knocking down monsters.",
       "category": "Ability",
       "gameId": 9012,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 70,
+        "COM_0_VAL0_SPIRITDAMAGE": 95,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals {COM_0_VAL0_SPIRITDAMAGE} to all opponents within {COM_0_RADI_FEET} of you, knocking back enemy players and knocking down monsters."
@@ -758,12 +758,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirit of the heavens. Whenever you strike a target with a melee attack, there is a 25% chance that you will increase your group's defenses against one of the damage types that your target uses. For physical damage, your group's armor is increased by 618, and for resistance damage, that resistance is increased by 236. This effect persists for 10 seconds.<BR><BR>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirit of the heavens. Whenever you strike a target with a melee attack, there is a 25% chance that you will increase your group's defenses against one of the damage types that your target uses. For physical damage, your group's armor is increased by 990, and for resistance damage, that resistance is increased by 378. This effect persists for 10 seconds.<BR><BR>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability",
       "gameId": 9015,
       "componentValues": {
-        "ABIL_3084_COM_0_VAL0": 618,
-        "ABIL_3085_COM_0_VAL0": 236,
+        "ABIL_3084_COM_0_VAL0": 990,
+        "ABIL_3085_COM_0_VAL0": 378,
         "ABIL_3085_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "You enchant your blade with the spirit of the heavens. Whenever you strike a target with a melee attack, there is a 25% chance that you will increase your group's defenses against one of the damage types that your target uses. For physical damage, your group's armor is increased by {ABIL_3084_COM_0_VAL0}, and for resistance damage, that resistance is increased by {ABIL_3085_COM_0_VAL0}. This effect persists for {ABIL_3085_COM_0_DURA_SECONDS}.<BR><BR>You may only have 1 Blade Enchantment active at a time."
@@ -807,7 +807,7 @@
       "category": "Morale",
       "gameId": 613,
       "componentValues": {
-        "COM_0_VAL1": 75,
+        "COM_0_VAL1": 0,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "An impressive display of defense which reduces incoming damage by {COM_0_VAL1}% for both you and all group members within 100 feet of you for {COM_0_DURA_SECONDS}."
@@ -844,11 +844,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "An overpowering strike that deals 169 damage and decreases your opponent's morale by 100.",
+      "description": "An overpowering strike that deals 231 damage and decreases your opponent's morale by 100.",
       "category": "Ability",
       "gameId": 9011,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 169,
+        "COM_0_VAL0_DAMAGE": 231,
         "COM_1_VAL0": 100
       },
       "rawDescription": "An overpowering strike that deals {COM_0_VAL0_DAMAGE} and decreases your opponent's morale by {COM_1_VAL0}."
@@ -869,7 +869,7 @@
       "category": "CareerTactic",
       "gameId": 9043,
       "componentValues": {
-        "COM_0_VAL1": 20
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Heals are {COM_0_VAL1}% more effective on you."
     },
@@ -907,7 +907,7 @@
       "category": "CareerTactic",
       "gameId": 9065,
       "componentValues": {
-        "ABIL_9011_COM_3_VAL1": 25,
+        "ABIL_9011_COM_3_VAL1": 0,
         "ABIL_9011_COM_3_DURA_SECONDS": 10
       },
       "rawDescription": "Intimidating Blow will now reduce your target's chance to Critically hit by {ABIL_9011_COM_3_VAL1}% for {ABIL_9011_COM_3_DURA_SECONDS}."
@@ -928,7 +928,7 @@
       "category": "CareerTactic",
       "gameId": 504,
       "componentValues": {
-        "COM_0_VAL1": 100
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% more than normal on all attacks."
     },
@@ -944,11 +944,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirit of nature. All your melee attacks gain a 25% chance to randomly steal 75 stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<BR><BR>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirit of nature. All your melee attacks gain a 25% chance to randomly steal 120 stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<BR><BR>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability",
       "gameId": 9009,
       "componentValues": {
-        "ABIL_3687_COM_0_VAL0": 75,
+        "ABIL_3687_COM_0_VAL0": 120,
         "COM_1_RADI_FEET": 30,
         "ABIL_3687_COM_0_DURA_SECONDS": 10
       },
@@ -987,11 +987,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to increase your group's Wounds by 162. Anyone affected will be healed for the amount increased.<BR><BR>You may only have 1 Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to increase your group's Wounds by 260. Anyone affected will be healed for the amount increased.<BR><BR>You may only have 1 Blade Enchantment active at a time.",
       "category": "Ability",
       "gameId": 9020,
       "componentValues": {
-        "ABIL_3231_COM_0_VAL0": 162
+        "ABIL_3231_COM_0_VAL0": 260
       },
       "rawDescription": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to increase your group's Wounds by {ABIL_3231_COM_0_VAL0}. Anyone affected will be healed for the amount increased.<BR><BR>You may only have 1 Blade Enchantment active at a time."
     },
@@ -1007,11 +1007,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A broad slash dealing 125 Spirit damage that hits all opponents in front of you, up to 25 feet away.",
+      "description": "A broad slash dealing 175 Spirit damage that hits all opponents in front of you, up to 25 feet away.",
       "category": "Ability",
       "gameId": 9025,
       "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 125,
+        "COM_0_VAL0_SPIRITDAMAGE": 175,
         "COM_0_RADI_FEET": 25
       },
       "rawDescription": "A broad slash dealing {COM_0_VAL0_SPIRITDAMAGE} that hits all opponents in front of you, up to {COM_0_RADI_FEET} away."
@@ -1032,7 +1032,7 @@
       "category": "CareerTactic",
       "gameId": 9052,
       "componentValues": {
-        "COM_0_VAL1": 10
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Attacks dealt from Improved or Perfect Balance are {COM_0_VAL1}% harder to defend against."
     },
@@ -1073,7 +1073,7 @@
       "category": "Ability",
       "gameId": 9029,
       "componentValues": {
-        "COM_0_VAL1_DAMAGE": 550,
+        "COM_0_VAL1_DAMAGE": 0,
         "COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "You call upon the magic in your blade to form a barrier to protect you and any groupmates within 50 feet of you, absorbing up to {COM_0_VAL1_DAMAGE} for up to {COM_0_DURA_SECONDS}."
@@ -1090,11 +1090,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A rapid slash to your opponents legs that deals 137 damage and snares them by 40% for 10 seconds.",
+      "description": "A rapid slash to your opponents legs that deals 184 damage and snares them by 40% for 10 seconds.",
       "category": "Ability",
       "gameId": 9004,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 137,
+        "COM_0_VAL0_TOD_DAMAGE": 184,
         "COM_1_VAL0": 40,
         "COM_1_DURA_SECONDS": 10
       },
@@ -1107,7 +1107,7 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "20",
-      "cost": "Rank 3 morale",
+      "cost": "Rank 2 morale",
       "range": "Self",
       "incant": "3.0s cast",
       "cooldown": "60s cooldown",
@@ -1134,11 +1134,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Block",
-      "description": "Redirects the force of a blocked blow into an undefendable attack dealing 169 damage and knocking your target back. This attack generates a large amount of additional hate from monsters.",
+      "description": "Redirects the force of a blocked blow into an undefendable attack dealing 231 damage and knocking your target back. This attack generates a large amount of additional hate from monsters.",
       "category": "Ability",
       "gameId": 9032,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 169
+        "COM_0_VAL0_DAMAGE": 231
       },
       "rawDescription": "Redirects the force of a blocked blow into an undefendable attack dealing {COM_0_VAL0_DAMAGE} and knocking your target back. This attack generates a large amount of additional hate from monsters."
     },
@@ -1174,11 +1174,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A targeted strike that saps the energy from your target dealing 137 damage and reducing your opponent's AP by 10 every second for 5 seconds.",
+      "description": "A targeted strike that saps the energy from your target dealing 184 damage and reducing your opponent's AP by 10 every second for 5 seconds.",
       "category": "Ability",
       "gameId": 9014,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 137,
+        "COM_0_VAL0_DAMAGE": 184,
         "COM_1_VAL0": 10,
         "COM_1_DURA_SECONDS": 5
       },
@@ -1196,11 +1196,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet suffer 1200 Spiritual damage over 12 seconds, and will steadily lose 28 Morale. This ability hits max 9 targets.",
+      "description": "All enemies within 30 feet suffer 1800 Spiritual damage over 12 seconds, and will steadily lose 28 Morale. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 9076,
       "componentValues": {
-        "COM_0_VAL0_TOD": 1200,
+        "COM_0_VAL0_TOD": 1800,
         "COM_1_VAL0_TOD": 28
       },
       "rawDescription": "All enemies within 30 feet suffer {COM_0_VAL0_TOD} Spiritual damage over 12 seconds, and will steadily lose {COM_1_VAL0_TOD} Morale. This ability hits max 9 targets."
@@ -1242,7 +1242,7 @@
       "gameId": 9075,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL1_DAMAGE": 3000
+        "COM_0_VAL1_DAMAGE": 0
       },
       "rawDescription": "Everyone in your group regains 200 action points and is protected by a magical barrier for {COM_0_DURA_SECONDS} which will absorb up to {COM_0_VAL1_DAMAGE}."
     },
@@ -1360,7 +1360,7 @@
       "category": "CareerTactic",
       "gameId": 9069,
       "componentValues": {
-        "ABIL_3463_COM_0_VAL1_DAMAGE": 400,
+        "ABIL_3463_COM_0_VAL1_DAMAGE": 0,
         "ABIL_3463_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "On a successful Block, Parry, Dodge or Disrupt you will absorb up to {ABIL_3463_COM_0_VAL1_DAMAGE} over the next {ABIL_3463_COM_0_DURA_SECONDS}. This effect will not trigger more than once every 3 seconds."
@@ -1377,11 +1377,11 @@
       "incant": "20s cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon",
-      "description": "You spin your greatsword with astounding speed, forming a wall of steel between you and your opponent. Your chances to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back 100 Spirit damage.",
+      "description": "You spin your greatsword with astounding speed, forming a wall of steel between you and your opponent. Your chances to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back 150 Spirit damage.",
       "category": "Ability",
       "gameId": 9021,
       "componentValues": {
-        "COM_2_VAL0_SPIRITDAMAGE": 100
+        "COM_2_VAL0_SPIRITDAMAGE": 150
       },
       "rawDescription": "You spin your greatsword with astounding speed, forming a wall of steel between you and your opponent. Your chances to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back {COM_2_VAL0_SPIRITDAMAGE}."
     },
@@ -1397,11 +1397,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires Great Weapon",
-      "description": "A spinning attack that inflicts 800 damage to all enemies within 30 feet and then knocks them away.",
+      "description": "A spinning attack that inflicts 1200 damage to all enemies within 30 feet and then knocks them away.",
       "category": "Morale",
       "gameId": 9074,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 800,
+        "COM_0_VAL0_DAMAGE": 1200,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "A spinning attack that inflicts {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET} and then knocks them away."
@@ -1418,17 +1418,16 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You release a single swift blow damaging enemies 30 feet in front of you for 109 Spirit damage. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
+      "description": "You release two swift blows that deal 153 Spirit damage each, interrupting any building attack and will Silence your target for 4 seconds. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
       "category": "Ability",
       "gameId": 9030,
       "componentValues": {
-        "ABIL_3539_COM_0_VAL0_SPIRITDAMAGE": 109,
-        "ABIL_3539_COM_0_VAL0_SPIRITDAMAGE_RANGE": 30,
+        "ABIL_3539_COM_0_VAL0_SPIRITDAMAGE": 153,
+        "COM_2_DURA_SECONDS": 4,
         "ABIL_3335_COM_0_DURA_SECONDS": 10,
-        "ABIL_3335_COM_0_VAL0_SECONDS": 5,
-        "ABIL_3335_COM_0_RADIUS": 100
+        "ABIL_3335_COM_0_VAL0_SECONDS": 5
       },
-      "rawDescription": "You release a single swift blow damaging enemies {ABIL_3539_COM_0_VAL0_SPIRITDAMAGE_RANGE} feet in front of you for {ABIL_3539_COM_0_VAL0_SPIRITDAMAGE} Spirit damage. The winds then aid group members within {ABIL_3335_COM_0_RADIUS} feet for the next {ABIL_3335_COM_0_DURA_SECONDS} seconds by decreasing the cooldown of abilities used by {ABIL_3335_COM_0_VAL0_SECONDS} seconds."
+      "rawDescription": "You release two swift blows that deal {ABIL_3539_COM_0_VAL0_SPIRITDAMAGE} each, interrupting any building attack and will Silence your target for {COM_2_DURA_SECONDS}. The winds then aid group members within 100 feet for the next {ABIL_3335_COM_0_DURA_SECONDS} by decreasing the cooldown of abilities used by {ABIL_3335_COM_0_VAL0_SECONDS}."
     },
     {
       "image": "13392",
@@ -1460,13 +1459,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "The magic from your blade is released in a staggering explosion that deals 120 damage to all opponents within 30 feet. In addition your opponent's Spiritual resistance will be reduced by 236 for 20 seconds.",
+      "description": "The magic from your blade is released in a staggering explosion that deals 170 damage to all opponents within 30 feet. In addition your opponent's Spiritual resistance will be reduced by 378 for 20 seconds.",
       "category": "Ability",
       "gameId": 9017,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 120,
+        "COM_0_VAL0_DAMAGE": 170,
         "COM_0_RADI_FEET": 30,
-        "ABIL_3169_COM_0_VAL0": 236,
+        "ABIL_3169_COM_0_VAL0": 378,
         "ABIL_3169_COM_0_DURA_SECONDS": 20
       },
       "rawDescription": "The magic from your blade is released in a staggering explosion that deals {COM_0_VAL0_DAMAGE} to all opponents within {COM_0_RADI_FEET}. In addition your opponent's Spiritual resistance will be reduced by {ABIL_3169_COM_0_VAL0} for {ABIL_3169_COM_0_DURA_SECONDS}."

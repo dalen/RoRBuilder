@@ -81,11 +81,11 @@
       "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You lob a grenade which shatters when it hits your enemy, dealing 725 Corporeal damage over 15 seconds to the target and all other enemies within 20 feet of them.",
+      "description": "You lob a grenade which shatters when it hits your enemy, dealing 1035 Corporeal damage over 15 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability",
       "gameId": 2887,
       "componentValues": {
-        "COM_1_VAL0_TOD_CORPOREALDAMAGE": 725,
+        "COM_1_VAL0_TOD_CORPOREALDAMAGE": 1035,
         "COM_1_DURA_SECONDS": 15,
         "COM_1_RADI_FEET": 20
       },
@@ -103,13 +103,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 236 and suffer 427 Corporeal damage over 21 seconds.",
+      "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 378 and suffer 581 Corporeal damage over 21 seconds.",
       "category": "Ability",
       "gameId": 1514,
       "componentValues": {
         "COM_1_RADI_FEET": 20,
-        "COM_2_VAL0": 236,
-        "COM_1_VAL0_TOD_CORPOREALDAMAGE": 427,
+        "COM_2_VAL0": 378,
+        "COM_1_VAL0_TOD_CORPOREALDAMAGE": 581,
         "COM_2_DURA_SECONDS": 21
       },
       "rawDescription": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within {COM_1_RADI_FEET} of them have Corporeal resistance reduced by {COM_2_VAL0} and suffer {COM_1_VAL0_TOD_CORPOREALDAMAGE} over {COM_2_DURA_SECONDS}."
@@ -188,12 +188,12 @@
       "incant": "4.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 400 damage per second to all enemies within 30 feet of that spot.",
+      "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 600 damage per second to all enemies within 30 feet of that spot.",
       "category": "Morale",
       "gameId": 1581,
       "componentValues": {
         "COM_0_DURA_SECONDS": 4,
-        "COM_1_VAL0_DAMAGE": 400,
+        "COM_1_VAL0_DAMAGE": 600,
         "COM_1_RADI_FEET": 30
       },
       "rawDescription": "You select a spot on the ground and call in an artillery strike for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} per second to all enemies within {COM_1_RADI_FEET} of that spot."
@@ -273,11 +273,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You fire a blast of short-range pellets which deal 153 damage to all enemies in front of you, up to 40 feet away.",
+      "description": "You fire a blast of short-range pellets which deal 203 damage to all enemies in front of you, up to 40 feet away.",
       "category": "Ability",
       "gameId": 1517,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 153,
+        "COM_0_VAL0_DAMAGE": 203,
         "COM_0_RADI_FEET": 40
       },
       "rawDescription": "You fire a blast of short-range pellets which deal {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
@@ -321,8 +321,8 @@
       "componentValues": {
         "ABIL_1069_COM_1_RADI_FEET": 25,
         "ABIL_1069_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1070_COM_0_VAL0": 5,
-        "ABIL_1070_COM_0_VAL1": 0
+        "ABIL_1070_COM_0_VAL0": 4,
+        "ABIL_1070_COM_0_VAL1": 20
       },
       "rawDescription": "Construct a turret with a moderate range auto-firing grenade launcher. The turret gains 100% of BS, 30% of WS, and 70% of your Wounds from item bonuses.  While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, shorten the duration and tick interval of Path of Grenadier and Tinkerer DoTs by 4% to a maximum of 35% and allow Grenadier skills to be cast while moving. You lose 4 stacks of upgrades if the turret is destroyed."
     },
@@ -338,13 +338,13 @@
       "incant": "2.0s cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any of your groupmates within 30 feet of it, restoring 224 health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
+      "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any of your groupmates within 30 feet of it, restoring 324 health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
       "category": "Ability",
       "gameId": 1544,
       "componentValues": {
         "COM_0_DURA_SECONDS": 15,
         "COM_3_RADI_FEET": 30,
-        "COM_3_VAL0_COM_0_VAL0_HEALTH": 224,
+        "COM_3_VAL0_COM_0_VAL0_HEALTH": 324,
         "COM_2_FREQ_SECONDS": 3
       },
       "rawDescription": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next {COM_0_DURA_SECONDS}, the faint vapors escaping from the keg will rejuvenate any of your groupmates within {COM_3_RADI_FEET} of it, restoring {COM_3_VAL0_COM_0_VAL0_HEALTH} every {COM_2_FREQ_SECONDS}. You dream of the day that the brew will be aged enough to actually tap and drink."
@@ -361,11 +361,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 157 for 60 minutes.",
+      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 252 for 60 minutes.",
       "category": "Ability",
       "gameId": 1529,
       "componentValues": {
-        "COM_0_VAL0": 157,
+        "COM_0_VAL0": 252,
         "COM_0_DURA_MINUTES": 60
       },
       "rawDescription": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by {COM_0_VAL0} for {COM_0_DURA_MINUTES}."
@@ -444,11 +444,11 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing 291 Corporeal damage to your target and knocking them back a short distance.  Monsters will be knocked down instead.",
+      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing 403 Corporeal damage to your target and knocking them back a short distance.  Monsters will be knocked down instead.",
       "category": "Ability",
       "gameId": 1531,
       "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 291
+        "COM_0_VAL0_CORPOREALDAMAGE": 403
       },
       "rawDescription": "You lob a grenade that releases a powerful shockwave on impact, dealing {COM_0_VAL0_CORPOREALDAMAGE} to your target and knocking them back a short distance.  Monsters will be knocked down instead."
     },
@@ -502,11 +502,11 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A well-aimed shot which deals 254 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
+      "description": "A well-aimed shot which deals 337 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
       "category": "Ability",
       "gameId": 1536,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 254,
+        "COM_0_VAL0_DAMAGE": 337,
         "COM_1_DURA_SECONDS": 3
       },
       "rawDescription": "A well-aimed shot which deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_DURA_SECONDS}, making them unable to use their weapons."
@@ -669,11 +669,11 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You toss a grenade filled with flaming pitch which deals 266 Corporeal damage to your target.",
+      "description": "You toss a grenade filled with flaming pitch which deals 366 Corporeal damage to your target.",
       "category": "Ability",
       "gameId": 1523,
       "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 266
+        "COM_0_VAL0_CORPOREALDAMAGE": 366
       },
       "rawDescription": "You toss a grenade filled with flaming pitch which deals {COM_0_VAL0_CORPOREALDAMAGE} to your target."
     },
@@ -716,8 +716,8 @@
       "componentValues": {
         "ABIL_1069_COM_1_RADI_FEET": 25,
         "ABIL_1069_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1070_COM_0_VAL0": 5,
-        "ABIL_1070_COM_0_VAL1": 0
+        "ABIL_1070_COM_0_VAL0": 4,
+        "ABIL_1070_COM_0_VAL1": 20
       },
       "rawDescription": "Construct a turret with a short range self-firing flamethrower. The turret gains 100% of BS, 10% of WS, and 90% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50% but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of upgrades if the turret is destroyed."
     },
@@ -733,11 +733,11 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You toss a grenade which explodes with a burst of force, dealing 291 Corporeal damage to the target.  The blinding flash interrupts the victim and all enemies within 20 feet of them.",
+      "description": "You toss a grenade which explodes with a burst of force, dealing 403 Corporeal damage to the target.  The blinding flash interrupts the victim and all enemies within 20 feet of them.",
       "category": "Ability",
       "gameId": 1522,
       "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 291,
+        "COM_0_VAL0_CORPOREALDAMAGE": 403,
         "COM_1_RADI_FEET": 20
       },
       "rawDescription": "You toss a grenade which explodes with a burst of force, dealing {COM_0_VAL0_CORPOREALDAMAGE} to the target.  The blinding flash interrupts the victim and all enemies within {COM_1_RADI_FEET} of them."
@@ -776,12 +776,12 @@
       "incant": "4.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You fling packets of explosives all around you for up to 4 seconds, dealing 400 damage each second to all enemies within 30 feet.",
+      "description": "You fling packets of explosives all around you for up to 4 seconds, dealing 600 damage each second to all enemies within 30 feet.",
       "category": "Morale",
       "gameId": 1582,
       "componentValues": {
         "COM_0_DURA_SECONDS": 4,
-        "COM_1_VAL0_DAMAGE": 400,
+        "COM_1_VAL0_DAMAGE": 600,
         "COM_1_RADI_FEET": 30
       },
       "rawDescription": "You fling packets of explosives all around you for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} each second to all enemies within {COM_1_RADI_FEET}."
@@ -798,12 +798,12 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "You focus all of your shots on your enemy for up to 3 seconds, dealing 219 damage to them every second. This effect will end if you lose your concentration or run out of action points.",
+      "description": "You focus all of your shots on your enemy for up to 3 seconds, dealing 306 damage to them every second. This effect will end if you lose your concentration or run out of action points.",
       "category": "Ability",
       "gameId": 1528,
       "componentValues": {
         "COM_0_DURA_SECONDS": 3,
-        "COM_0_VAL0_DAMAGE": 219
+        "COM_0_VAL0_DAMAGE": 306
       },
       "rawDescription": "You focus all of your shots on your enemy for up to {COM_0_DURA_SECONDS}, dealing {COM_0_VAL0_DAMAGE} to them every second. This effect will end if you lose your concentration or run out of action points."
     },
@@ -837,12 +837,12 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing 462 Corporeal damage over 9 seconds.<BR>The attack uses the Ranged statistic.",
+      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing 660 Corporeal damage over 9 seconds.<BR>The attack uses the Ranged statistic.",
       "category": "Ability",
       "gameId": 1513,
       "componentValues": {
         "COM_0_RADI_FEET": 40,
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 462,
+        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 660,
         "COM_0_DURA_SECONDS": 9
       },
       "rawDescription": "A powerful swipe with your spanner which smacks all enemies in front of you up to {COM_0_RADI_FEET} away, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}.<BR>The attack uses the Ranged statistic."
@@ -859,11 +859,11 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A gun attack which deals 387 damage to your enemy.",
+      "description": "A gun attack which deals 536 damage to your enemy.",
       "category": "Ability",
       "gameId": 1508,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 387
+        "COM_0_VAL0_DAMAGE": 536
       },
       "rawDescription": "A gun attack which deals {COM_0_VAL0_DAMAGE} to your enemy."
     },
@@ -885,8 +885,8 @@
       "componentValues": {
         "ABIL_1069_COM_1_RADI_FEET": 25,
         "ABIL_1069_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1070_COM_0_VAL0": 5,
-        "ABIL_1070_COM_0_VAL1": 0
+        "ABIL_1070_COM_0_VAL0": 4,
+        "ABIL_1070_COM_0_VAL1": 20
       },
       "rawDescription": "Construct a turret with a long range self-aiming gun. The turret gains 75% of BS and WS from item bonuses and 50% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}% and increase your range by 5% to a maximum of 25% extra range. You lose 4 stacks of upgrades if the turret is destroyed."
     },
@@ -950,7 +950,7 @@
       "category": "CareerTactic",
       "gameId": 1550,
       "componentValues": {
-        "COM_0_VAL1": 50
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Increases your autoattack speed by {COM_0_VAL1}% when using a gun."
     },
@@ -966,11 +966,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A quick shot from the hip which deals 216 damage.  This attack may be used at close range.",
+      "description": "A quick shot from the hip which deals 291 damage.  This attack may be used at close range.",
       "category": "Ability",
       "gameId": 1520,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 216
+        "COM_0_VAL0_DAMAGE": 291
       },
       "rawDescription": "A quick shot from the hip which deals {COM_0_VAL0_DAMAGE}.  This attack may be used at close range."
     },
@@ -986,11 +986,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Snipe and Gun Blast will now deal an additional 370 damage over 5 seconds.",
+      "description": "Snipe and Gun Blast will now deal an additional 505 damage over 5 seconds.",
       "category": "CareerTactic",
       "gameId": 1560,
       "componentValues": {
-        "ABIL_3838_COM_0_VAL0_TOD_DAMAGE": 370,
+        "ABIL_3838_COM_0_VAL0_TOD_DAMAGE": 505,
         "ABIL_3838_COM_0_DURA_SECONDS": 5
       },
       "rawDescription": "Snipe and Gun Blast will now deal an additional {ABIL_3838_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3838_COM_0_DURA_SECONDS}."
@@ -1007,11 +1007,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You fire bullets that burst into flame when they strike the enemy, dealing 860 Corporeal damage over 15 seconds.",
+      "description": "You fire bullets that burst into flame when they strike the enemy, dealing 1190 Corporeal damage over 15 seconds.",
       "category": "Ability",
       "gameId": 1515,
       "componentValues": {
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 860,
+        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 1190,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "You fire bullets that burst into flame when they strike the enemy, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}."
@@ -1028,12 +1028,12 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minutes.  The mine will detonate when an enemy gets too close, dealing 243 damage to all enemies within 30 feet and staggering them for up to 3 seconds, preventing all actions unless they are damaged.",
+      "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minutes.  The mine will detonate when an enemy gets too close, dealing 343 damage to all enemies within 30 feet and staggering them for up to 3 seconds, preventing all actions unless they are damaged.",
       "category": "Ability",
       "gameId": 1524,
       "componentValues": {
         "COM_0_DURA_MINUTES": 1,
-        "ABIL_31_COM_0_VAL0_DAMAGE": 243,
+        "ABIL_31_COM_0_VAL0_DAMAGE": 343,
         "COM_2_RADI_FEET": 30,
         "ABIL_31_COM_2_VAL0_COM_0_DURA_SECONDS": 3
       },
@@ -1051,12 +1051,12 @@
       "incant": "1.0s cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "You deploy a shock rod at your feet which will remain for up to 9 seconds and periodically blast out with waves of power, dealing 229 Corporeal damage every 3 seconds to all enemies within 30 feet of it.",
+      "description": "You deploy a shock rod at your feet which will remain for up to 9 seconds and periodically blast out with waves of power, dealing 329 Corporeal damage every 3 seconds to all enemies within 30 feet of it.",
       "category": "Ability",
       "gameId": 1543,
       "componentValues": {
         "COM_4_DURA_SECONDS": 9,
-        "COM_2_VAL0_COM_0_VAL0_CORPOREALDAMAGE": 229,
+        "COM_2_VAL0_COM_0_VAL0_CORPOREALDAMAGE": 329,
         "COM_0_FREQ_SECONDS": 3,
         "COM_2_RADI_FEET": 30
       },
@@ -1094,18 +1094,18 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing 79 Corporeal damage during the first 10 seconds, 146 Corporeal damage for the next 10 seconds, and 212 Corporeal damage for the final 10 seconds. <BR> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
+      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing 88 Corporeal damage during the first 10 seconds, 163 Corporeal damage for the next 10 seconds, and 238 Corporeal damage for the final 10 seconds. <BR> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
       "category": "Ability",
       "gameId": 1537,
       "componentValues": {
         "COM_0_DURA_SECONDS": 30,
         "COM_2_FREQ_SECONDS": 2,
         "COM_3_RADI_FEET": 20,
-        "COM_3_VAL0_CORPOREALDAMAGE": 79,
+        "COM_3_VAL0_CORPOREALDAMAGE": 88,
         "COM_2_DURA_SECONDS": 10,
-        "COM_5_VAL0_CORPOREALDAMAGE": 146,
+        "COM_5_VAL0_CORPOREALDAMAGE": 163,
         "COM_4_DURA_SECONDS": 10,
-        "COM_7_VAL0_CORPOREALDAMAGE": 212,
+        "COM_7_VAL0_CORPOREALDAMAGE": 238,
         "COM_6_DURA_SECONDS": 10
       },
       "rawDescription": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for {COM_0_DURA_SECONDS}, causing damaging every {COM_2_FREQ_SECONDS} to any enemies who come within {COM_3_RADI_FEET} of that spot. The fires increase in intensity over time, causing {COM_3_VAL0_CORPOREALDAMAGE} during the first {COM_2_DURA_SECONDS}, {COM_5_VAL0_CORPOREALDAMAGE} for the next {COM_4_DURA_SECONDS}, and {COM_7_VAL0_CORPOREALDAMAGE} for the final {COM_6_DURA_SECONDS}. <BR> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage."
@@ -1122,12 +1122,12 @@
       "incant": "Instant cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 265 Corporeal damage every 2 seconds to all enemies within 20 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
+      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 365 Corporeal damage every 2 seconds to all enemies within 20 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
       "category": "Ability",
       "gameId": 1541,
       "componentValues": {
         "COM_0_DURA_SECONDS": 6,
-        "COM_2_VAL0_CORPOREALDAMAGE": 265,
+        "COM_2_VAL0_CORPOREALDAMAGE": 365,
         "COM_2_RADI_FEET": 20
       },
       "rawDescription": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to {COM_0_DURA_SECONDS}, dealing {COM_2_VAL0_CORPOREALDAMAGE} every 2 seconds to all enemies within {COM_2_RADI_FEET} of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel."
@@ -1189,7 +1189,7 @@
       "category": "CareerTactic",
       "gameId": 1553,
       "componentValues": {
-        "COM_1_VAL1": 50,
+        "COM_1_VAL1": 0,
         "COM_1_RADI_FEET": 20
       },
       "rawDescription": "Increases the chance for you and your groupmates to detect hidden enemies by {COM_1_VAL1}% while you or your group are within {COM_1_RADI_FEET} feet of your turret."
@@ -1264,12 +1264,12 @@
       "incant": "4.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You release a string of several gun blasts in a row for up to 4 seconds, dealing 400 damage each second to all enemies in front of you, up to 40 feet away.",
+      "description": "You release a string of several gun blasts in a row for up to 4 seconds, dealing 600 damage each second to all enemies in front of you, up to 40 feet away.",
       "category": "Morale",
       "gameId": 1580,
       "componentValues": {
         "COM_0_DURA_SECONDS": 4,
-        "COM_1_VAL0_DAMAGE": 400,
+        "COM_1_VAL0_DAMAGE": 600,
         "COM_1_RADI_FEET": 40
       },
       "rawDescription": "You release a string of several gun blasts in a row for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} each second to all enemies in front of you, up to {COM_1_RADI_FEET} away."
@@ -1329,11 +1329,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "You mark the enemy with a bright signal flare, dealing 1225 damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
+      "description": "You mark the enemy with a bright signal flare, dealing 1708 damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
       "category": "Ability",
       "gameId": 1521,
       "componentValues": {
-        "COM_2_VAL0_TOD_DAMAGE": 1225,
+        "COM_2_VAL0_TOD_DAMAGE": 1708,
         "COM_2_DURA_SECONDS": 21,
         "COM_0_VAL0": 5
       },
@@ -1351,11 +1351,11 @@
       "incant": "3.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A slow but powerful gun shot which deals 538 damage to your enemy and cannot be defended against.",
+      "description": "A slow but powerful gun shot which deals 763 damage to your enemy and cannot be defended against.",
       "category": "Ability",
       "gameId": 1538,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 538
+        "COM_0_VAL0_DAMAGE": 763
       },
       "rawDescription": "A slow but powerful gun shot which deals {COM_0_VAL0_DAMAGE} to your enemy and cannot be defended against."
     },
@@ -1393,11 +1393,11 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing 146 Corporeal damage to all enemies within 30 feet.",
+      "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing 208 Corporeal damage to all enemies within 30 feet.",
       "category": "Ability",
       "gameId": 1530,
       "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 146,
+        "COM_0_VAL0_CORPOREALDAMAGE": 208,
         "COM_0_RADI_FEET": 30
       },
       "rawDescription": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing {COM_0_VAL0_CORPOREALDAMAGE} to all enemies within {COM_0_RADI_FEET}."
@@ -1414,13 +1414,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A packet of explosives which sticks to your target and slowly burns, dealing 432 Corporeal damage over 15 seconds.  If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing 183 Corporeal damage to the victim and all enemies within 20 feet of them.",
+      "description": "A packet of explosives which sticks to your target and slowly burns, dealing 594 Corporeal damage over 15 seconds.  If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing 266 Corporeal damage to the victim and all enemies within 20 feet of them.",
       "category": "Ability",
       "gameId": 1539,
       "componentValues": {
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 432,
+        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 594,
         "COM_0_DURA_SECONDS": 15,
-        "ABIL_3211_COM_0_VAL0_CORPOREALDAMAGE": 183,
+        "ABIL_3211_COM_0_VAL0_CORPOREALDAMAGE": 266,
         "ABIL_3211_COM_1_RADI_FEET": 20
       },
       "rawDescription": "A packet of explosives which sticks to your target and slowly burns, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}.  If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing {ABIL_3211_COM_0_VAL0_CORPOREALDAMAGE} to the victim and all enemies within {ABIL_3211_COM_1_RADI_FEET} of them."
@@ -1459,7 +1459,7 @@
       "category": "CareerTactic",
       "gameId": 713,
       "componentValues": {
-        "COM_0_VAL1": 50
+        "COM_0_VAL1": 0
       },
       "rawDescription": "You recover from Stuns and Knockdowns {COM_0_VAL1}% quicker. You will still gain immunity based on the original duration."
     },
@@ -1475,11 +1475,11 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You call for air support, signaling for a strafing run which deals 403 damage to all enemies in a line in front of you, up to 65 feet away.  Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
+      "description": "You call for air support, signaling for a strafing run which deals 578 damage to all enemies in a line in front of you, up to 65 feet away.  Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
       "category": "Ability",
       "gameId": 1540,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 403,
+        "COM_0_VAL0_DAMAGE": 578,
         "COM_0_RADI_FEET": 65
       },
       "rawDescription": "You call for air support, signaling for a strafing run which deals {COM_0_VAL0_DAMAGE} to all enemies in a line in front of you, up to {COM_0_RADI_FEET} away.  Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down."
@@ -1542,7 +1542,7 @@
       "category": "CareerTactic",
       "gameId": 1564,
       "componentValues": {
-        "COM_0_VAL1": 25
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Increases the ranges of all Path of the Grenadier abilities by {COM_0_VAL1}%."
     },
@@ -1562,7 +1562,7 @@
       "category": "CareerTactic",
       "gameId": 1566,
       "componentValues": {
-        "COM_0_VAL1": 15
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Increases your chance to critically hit by {COM_0_VAL1}% as long as you are within 100 feet of your turret."
     },

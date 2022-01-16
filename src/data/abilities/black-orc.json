@@ -41,7 +41,8 @@
         4442,
         4445,
         4492,
-        4540
+        4540,
+        1680
       ]
     },
     "c": {
@@ -80,11 +81,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "Deals 145 damage. Removes 50 Action Points over 5 seconds.",
+      "description": "Deals 192 damage. Removes 50 Action Points over 5 seconds.",
       "category": "Ability",
       "gameId": 1687,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 145,
+        "COM_0_VAL0_DAMAGE": 192,
         "COM_1_VAL0_TOD_ACTIONPOINTS": 50,
         "COM_1_DURA_SECONDS": 5
       },
@@ -145,11 +146,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "Deals 80 damage to targets 25 feet from you, and knocks them back.",
+      "description": "Deals 105 damage to targets 25 feet from you, and knocks them back.",
       "category": "Ability",
       "gameId": 1680,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 80,
+        "COM_0_VAL0_DAMAGE": 105,
         "COM_0_RADI_FEET": 25
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to targets {COM_0_RADI_FEET} from you, and knocks them back."
@@ -166,13 +167,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You furiously swing your weapon in a wide circle, dealing 73 damage to targets within 30 feet and reducing their Strength by 75 for 20 seconds.",
+      "description": "You furiously swing your weapon in a wide circle, dealing 98 damage to targets within 30 feet and reducing their Strength by 120 for 20 seconds.",
       "category": "Ability",
       "gameId": 1672,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 73,
+        "COM_0_VAL0_DAMAGE": 98,
         "COM_0_RADI_FEET": 30,
-        "COM_1_VAL0": 75,
+        "COM_1_VAL0": 120,
         "COM_1_DURA_SECONDS": 20
       },
       "rawDescription": "You furiously swing your weapon in a wide circle, dealing {COM_0_VAL0_DAMAGE} to targets within {COM_0_RADI_FEET} and reducing their Strength by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
@@ -211,7 +212,7 @@
       "category": "CareerTactic",
       "gameId": 1704,
       "componentValues": {
-        "COM_0_VAL1_SECONDS": 5,
+        "COM_0_VAL1_SECONDS": 0,
         "ABIL_1683_COM_2_VAL0": 614
       },
       "rawDescription": "Cooldown on Shut Yer Face is reduced by {COM_0_VAL1_SECONDS} and damage is increased to {ABIL_1683_COM_2_VAL0}"
@@ -228,12 +229,12 @@
       "incant": "20s cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
-      "description": "Increase Block Chance by 50%. While you are channeling, you can move at 60% movement speed. After you block, the attacker takes 175 damage.",
+      "description": "Increase Block Chance by 50%. While you are channeling, you can move at 60% movement speed. After you block, the attacker takes 262 damage.",
       "category": "Ability",
       "gameId": 1692,
       "componentValues": {
         "COM_0_VAL0": 50,
-        "COM_2_VAL0_DAMAGE": 175
+        "COM_2_VAL0_DAMAGE": 262
       },
       "rawDescription": "Increase Block Chance by {COM_0_VAL0}%. While you are channeling, you can move at 60% movement speed. After you block, the attacker takes {COM_2_VAL0_DAMAGE}."
     },
@@ -254,7 +255,7 @@
       "gameId": 1728,
       "componentValues": {
         "COM_1_VAL0_ACTIONPOINTS": 200,
-        "COM_0_VAL1_DAMAGE": 3000,
+        "COM_0_VAL1_DAMAGE": 0,
         "COM_0_DURA_SECONDS": 15
       },
       "rawDescription": "Group members within 100 feet will gain {COM_1_VAL0_ACTIONPOINTS} and will absorb up to {COM_0_VAL1_DAMAGE} over {COM_0_DURA_SECONDS}."
@@ -330,11 +331,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "Slashes for 152 damage, and generates extra hate against monsters.",
+      "description": "Slashes for 202 damage, and generates extra hate against monsters.",
       "category": "Ability",
       "gameId": 1664,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 152
+        "COM_0_VAL0_DAMAGE": 202
       },
       "rawDescription": "Slashes for {COM_0_VAL0_DAMAGE}, and generates extra hate against monsters."
     },
@@ -350,11 +351,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "A mighty leaping strike with your axe which deals 176 damage to all targets 25 feet in front of you.",
+      "description": "A mighty leaping strike with your axe which deals 251 damage to all targets 25 feet in front of you.",
       "category": "Ability",
       "gameId": 1678,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 176,
+        "COM_0_VAL0_DAMAGE": 251,
         "COM_0_RADI_FEET": 25
       },
       "rawDescription": "A mighty leaping strike with your axe which deals {COM_0_VAL0_DAMAGE} to all targets {COM_0_RADI_FEET} in front of you."
@@ -371,11 +372,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "War Bellow",
-      "description": "A mighty war cry that weakens your foes and gives you their strengths. All your melee attacks gain a 25% chance to randomly steal 75 stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<BR><BR>You may only have 1 War Bellow active at a time.",
+      "description": "A mighty war cry that weakens your foes and gives you their strengths. All your melee attacks gain a 25% chance to randomly steal 120 stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<BR><BR>You may only have 1 War Bellow active at a time.",
       "category": "Ability",
       "gameId": 1668,
       "componentValues": {
-        "ABIL_3232_COM_0_VAL0": 75,
+        "ABIL_3232_COM_0_VAL0": 120,
         "COM_1_RADI_FEET": 30,
         "ABIL_3232_COM_0_DURA_SECONDS": 10
       },
@@ -393,13 +394,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "War Bellow",
-      "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by 236 for 10 seconds on all group members within 100 feet. Physical damage will increase armor by 618 for 10 seconds for all group members within 100 feet.<BR><BR>You may only have 1 War Bellow active at a time.",
+      "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by 378 for 10 seconds on all group members within 100 feet. Physical damage will increase armor by 990 for 10 seconds for all group members within 100 feet.<BR><BR>You may only have 1 War Bellow active at a time.",
       "category": "Ability",
       "gameId": 1675,
       "componentValues": {
-        "ABIL_3239_COM_0_VAL0": 236,
+        "ABIL_3239_COM_0_VAL0": 378,
         "ABIL_3239_COM_0_DURA_SECONDS": 10,
-        "ABIL_3242_COM_0_VAL0": 618,
+        "ABIL_3242_COM_0_VAL0": 990,
         "ABIL_3242_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by {ABIL_3239_COM_0_VAL0} for {ABIL_3239_COM_0_DURA_SECONDS} on all group members within 100 feet. Physical damage will increase armor by {ABIL_3242_COM_0_VAL0} for {ABIL_3242_COM_0_DURA_SECONDS} for all group members within 100 feet.<BR><BR>You may only have 1 War Bellow active at a time."
@@ -416,11 +417,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "War Bellow",
-      "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to increase your group's wounds by 162 for 10 seconds. Anyone affected will be healed by the amount increased.<BR><BR>You may only have 1 War Bellow active at a time.",
+      "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to increase your group's wounds by 260 for 10 seconds. Anyone affected will be healed by the amount increased.<BR><BR>You may only have 1 War Bellow active at a time.",
       "category": "Ability",
       "gameId": 1673,
       "componentValues": {
-        "ABIL_3844_COM_0_VAL0": 162,
+        "ABIL_3844_COM_0_VAL0": 260,
         "ABIL_3844_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to increase your group's wounds by {ABIL_3844_COM_0_VAL0} for {ABIL_3844_COM_0_DURA_SECONDS}. Anyone affected will be healed by the amount increased.<BR><BR>You may only have 1 War Bellow active at a time."
@@ -493,10 +494,10 @@
       "image": "23173",
       "id": 4479,
       "name": "Distracting Bellow",
-      "type": "Debuff",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "24",
-      "cost": "Rank 2 morale",
+      "cost": "Rank 3 morale",
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
@@ -543,11 +544,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals 352 damage and knocks target down for 3 seconds.",
+      "description": "Deals 502 damage and knocks target down for 3 seconds.",
       "category": "Ability",
       "gameId": 1688,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 352,
+        "COM_0_VAL0_DAMAGE": 502,
         "COM_1_DURA_SECONDS": 3
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE} and knocks target down for {COM_1_DURA_SECONDS}."
@@ -591,7 +592,7 @@
       "gameId": 500,
       "componentValues": {
         "COM_0_VAL0": 15,
-        "COM_2_VAL1": 15,
+        "COM_2_VAL1": 0,
         "COM_1_VAL0": 33
       },
       "rawDescription": "You deal {COM_0_VAL0}% more damage and all enemy monsters will hate you {COM_2_VAL1}% less than normal, but your armor is reduced by {COM_1_VAL0}%."
@@ -608,12 +609,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "You batter your target to show the runts how it's done. You deal 145 damage and increase your own and your defensive target's Weapon Skill by 75 for 20 seconds.",
+      "description": "You batter your target to show the runts how it's done. You deal 192 damage and increase your own and your defensive target's Weapon Skill by 120 for 20 seconds.",
       "category": "Ability",
       "gameId": 1667,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 145,
-        "COM_1_VAL0": 75,
+        "COM_0_VAL0_DAMAGE": 192,
+        "COM_1_VAL0": 120,
         "COM_1_DURA_SECONDS": 20
       },
       "rawDescription": "You batter your target to show the runts how it's done. You deal {COM_0_VAL0_DAMAGE} and increase your own and your defensive target's Weapon Skill by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
@@ -675,8 +676,8 @@
       "category": "CareerTactic",
       "gameId": 1712,
       "componentValues": {
-        "COM_0_VAL1": 10,
-        "COM_1_VAL1": 20
+        "COM_0_VAL1": 0,
+        "COM_1_VAL1": 0
       },
       "rawDescription": "Increases Critical Hit Chance by {COM_0_VAL1}% when you have a Gud' Plan, and {COM_1_VAL1}% while you have Da' Best Plan."
     },
@@ -760,7 +761,7 @@
       "category": "Morale",
       "gameId": 613,
       "componentValues": {
-        "COM_0_VAL1": 75,
+        "COM_0_VAL1": 0,
         "COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "An impressive display of defense which reduces incoming damage by {COM_0_VAL1}% for both you and all group members within 100 feet of you for {COM_0_DURA_SECONDS}."
@@ -795,11 +796,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases damage on Da Big Un' to 276.",
+      "description": "Increases damage on Da Big Un' to 401.",
       "category": "CareerTactic",
       "gameId": 1711,
       "componentValues": {
-        "ABIL_1678_COM_1_VAL0": 276
+        "ABIL_1678_COM_1_VAL0": 401
       },
       "rawDescription": "Increases damage on Da Big Un' to {ABIL_1678_COM_1_VAL0}."
     },
@@ -899,7 +900,7 @@
       "category": "CareerTactic",
       "gameId": 504,
       "componentValues": {
-        "COM_0_VAL1": 100
+        "COM_0_VAL1": 0
       },
       "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% more than normal on all attacks."
     },
@@ -947,21 +948,20 @@
       "id": 4502,
       "name": "No Choppin' Me",
       "type": "Buff",
-      "spec": "Path of Da' Boss",
+      "spec": "Core Ability",
       "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Follow 'me Lead will also buff all groupmates within 100 feet of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect will also affect all group members within 100 feet of you.",
+      "description": "Follow 'me Lead will also buff all groupmates within 100 feet of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect all group members within 100 feet of you.",
       "category": "CareerTactic",
       "gameId": 1719,
       "componentValues": {
-        "ABIL_1667_COM_5_RADI_FEET": 100,
-        "ABIL_1667_COM_6_RADI_FEET": 100
+        "ABIL_1667_COM_5_RADI_FEET": 100
       },
-      "rawDescription": "Follow 'me Lead will also buff all groupmates within {ABIL_1667_COM_5_RADI_FEET} of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect will also affect all group members within {ABIL_1667_COM_6_RADI_FEET} feet of you."
+      "rawDescription": "Follow 'me Lead will also buff all groupmates within {ABIL_1667_COM_5_RADI_FEET} of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect all group members within 100 feet of you."
     },
     {
       "image": "02566",
@@ -975,11 +975,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals 202 damage. Increases cooldowns on target by 5 seconds for 10 seconds.",
+      "description": "Deals 277 damage. Increases cooldowns on target by 5 seconds for 10 seconds.",
       "category": "Ability",
       "gameId": 1691,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 202,
+        "COM_0_VAL0_DAMAGE": 277,
         "COM_1_VAL0_SECONDS": 5,
         "COM_1_DURA_SECONDS": 10
       },
@@ -997,11 +997,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage over 15 seconds to all targets 40 feet in front of you. Affected targets are snared by 40% for 15 seconds.",
+      "description": "Deals 1800 damage over 15 seconds to all targets 40 feet in front of you. Affected targets are snared by 40% for 15 seconds.",
       "category": "Morale",
       "gameId": 1727,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 1200,
+        "COM_0_VAL0_TOD_DAMAGE": 1800,
         "COM_0_DURA_SECONDS": 15,
         "COM_0_RADI_FEET": 40
       },
@@ -1034,7 +1034,7 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "20",
-      "cost": "Rank 3 morale",
+      "cost": "Rank 2 morale",
       "range": "Self",
       "incant": "3.0s cast",
       "cooldown": "60s cooldown",
@@ -1061,12 +1061,12 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You knee your target in a vital spot, inflicting 177 damage and reducing their Weapon Skill by 75 for 20 seconds.",
+      "description": "You knee your target in a vital spot, inflicting 239 damage and reducing their Weapon Skill by 120 for 20 seconds.",
       "category": "Ability",
       "gameId": 1682,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 177,
-        "COM_1_VAL0": 75,
+        "COM_0_VAL0_DAMAGE": 239,
+        "COM_1_VAL0": 120,
         "COM_1_DURA_SECONDS": 20
       },
       "rawDescription": "You knee your target in a vital spot, inflicting {COM_0_VAL0_DAMAGE} and reducing their Weapon Skill by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
@@ -1087,8 +1087,8 @@
       "category": "Ability",
       "gameId": 1694,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 145,
-        "COM_1_VAL1": 400,
+        "COM_0_VAL0_DAMAGE": 192,
+        "COM_1_VAL1": 0,
         "COM_1_DURA_SECONDS": 5
       },
       "rawDescription": "Deals {COM_0_VAL0_DAMAGE}. Activates a protective shield on yourself and any of your groupmates within 80 feet of you that absorbs up to {COM_1_VAL1} over {COM_1_DURA_SECONDS}."
@@ -1143,12 +1143,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals 202 damage. Increases your Toughness by 75 for 20 seconds. Group members within 100 feet will take only 80% incoming magic damage for the next 4 seconds.",
+      "description": "Deals 277 damage. Increases your Toughness by 120 for 20 seconds. Group members within 100 feet will take only 80% incoming magic damage for the next 4 seconds.",
       "category": "Ability",
       "gameId": 1677,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 202,
-        "COM_1_VAL0": 75,
+        "COM_0_VAL0_DAMAGE": 277,
+        "COM_1_VAL0": 120,
         "COM_1_DURA_SECONDS": 20,
         "COM_3_VAL0": 80,
         "COM_3_DURA_SECONDS": 4
@@ -1207,11 +1207,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "You ruthlessly smack your target in the face, dealing 302 damage and silencing them for 4 seconds.",
+      "description": "You ruthlessly smack your target in the face, dealing 427 damage and silencing them for 4 seconds.",
       "category": "Ability",
       "gameId": 1683,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 302,
+        "COM_1_VAL0_DAMAGE": 427,
         "COM_3_DURA_SECONDS": 4
       },
       "rawDescription": "You ruthlessly smack your target in the face, dealing {COM_1_VAL0_DAMAGE} and silencing them for {COM_3_DURA_SECONDS}."
@@ -1228,13 +1228,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "A pounding blow to your opponent's skull that deals 177 damage and for the next 10 seconds their head will ring for 75 Corporeal damage whenever they are Critically hit.",
+      "description": "A pounding blow to your opponent's skull that deals 239 damage and for the next 10 seconds their head will ring for 112 Corporeal damage whenever they are Critically hit.",
       "category": "Ability",
       "gameId": 1676,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 177,
+        "COM_0_VAL0_DAMAGE": 239,
         "COM_2_DURA_SECONDS": 10,
-        "ABIL_3196_COM_0_VAL0_CORPOREALDAMAGE": 75
+        "ABIL_3196_COM_0_VAL0_CORPOREALDAMAGE": 112
       },
       "rawDescription": "A pounding blow to your opponent's skull that deals {COM_0_VAL0_DAMAGE} and for the next {COM_2_DURA_SECONDS} their head will ring for {ABIL_3196_COM_0_VAL0_CORPOREALDAMAGE} whenever they are Critically hit."
     },
@@ -1309,11 +1309,11 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "You swing your weapon lots, dealing 213 damage every 0.75 seconds for 3 seconds. As Da' Big Boss would say, \"Countin' is for Stuntiez.\"",
+      "description": "You swing your weapon lots, dealing 307 damage every 0.75 seconds for 3 seconds. As Da' Big Boss would say, \"Countin' is for Stuntiez.\"",
       "category": "Ability",
       "gameId": 2810,
       "componentValues": {
-        "COM_1_VAL0_DAMAGE": 213,
+        "COM_1_VAL0_DAMAGE": 307,
         "COM_0_FREQ_SECONDS": 0.75,
         "COM_0_DURA_SECONDS": 3
       },
@@ -1331,11 +1331,11 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You \"trip\" your opponent by hacking at their legs for 145 damage, reducing their movement speed by 40% for 10 seconds.",
+      "description": "You \"trip\" your opponent by hacking at their legs for 192 damage, reducing their movement speed by 40% for 10 seconds.",
       "category": "Ability",
       "gameId": 1670,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 145,
+        "COM_0_VAL0_DAMAGE": 192,
         "COM_1_VAL0": 40,
         "COM_1_DURA_SECONDS": 10
       },
@@ -1353,12 +1353,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You slam your shield into your enemy, dealing 152 damage and increasing your armor by 618 for 20 seconds.",
+      "description": "You slam your shield into your enemy, dealing 202 damage and increasing your armor by 990 for 20 seconds.",
       "category": "Ability",
       "gameId": 1669,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 152,
-        "COM_1_VAL0": 618,
+        "COM_0_VAL0_DAMAGE": 202,
+        "COM_1_VAL0": 990,
         "COM_1_DURA_SECONDS": 20
       },
       "rawDescription": "You slam your shield into your enemy, dealing {COM_0_VAL0_DAMAGE} and increasing your armor by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
@@ -1393,13 +1393,13 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals 173 Corporeal damage to all targets within 30 feet. Also reduces target's Corporeal resistance by 236 for 20 seconds. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds.",
+      "description": "Deals 248 Corporeal damage to all targets within 30 feet. Also reduces target's Corporeal resistance by 378 for 20 seconds. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds.",
       "category": "Ability",
       "gameId": 1695,
       "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 173,
+        "COM_0_VAL0_CORPOREALDAMAGE": 248,
         "COM_0_RADI_FEET": 30,
-        "ABIL_3171_COM_0_VAL0": 236,
+        "ABIL_3171_COM_0_VAL0": 378,
         "ABIL_3171_COM_0_DURA_SECONDS": 20
       },
       "rawDescription": "Deals {COM_0_VAL0_CORPOREALDAMAGE} to all targets within {COM_0_RADI_FEET}. Also reduces target's Corporeal resistance by {ABIL_3171_COM_0_VAL0} for {ABIL_3171_COM_0_DURA_SECONDS}. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds."
@@ -1478,12 +1478,12 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "You smash your weapon into your target, dealing 102 damage and reducing their armor by 618 for 20 seconds.",
+      "description": "You smash your weapon into your target, dealing 127 damage and reducing their armor by 990 for 20 seconds.",
       "category": "Ability",
       "gameId": 1666,
       "componentValues": {
-        "COM_0_VAL0_DAMAGE": 102,
-        "COM_1_VAL0_COM_0_VAL0": 618,
+        "COM_0_VAL0_DAMAGE": 127,
+        "COM_1_VAL0_COM_0_VAL0": 990,
         "COM_1_VAL0_COM_0_DURA_SECONDS": 20
       },
       "rawDescription": "You smash your weapon into your target, dealing {COM_0_VAL0_DAMAGE} and reducing their armor by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}."
@@ -1500,11 +1500,11 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Block<br>Leads to da' Gud Plan!",
-      "description": "Deals 127 undefendable damage. Target's physical damage done is reduced to 80% for 10 seconds.",
+      "description": "Deals 164 undefendable damage. Target's physical damage done is reduced to 80% for 10 seconds.",
       "category": "Ability",
       "gameId": 1690,
       "componentValues": {
-        "COM_0_VAL0": 127,
+        "COM_0_VAL0": 164,
         "COM_1_VAL0": 80,
         "COM_1_DURA_SECONDS": 10
       },
@@ -1522,11 +1522,11 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage over 12 seconds to all targets within 30 feet in of you.  Affected targets lose 30 seconds of Morale over 12 seconds. This ability hits max 9 targets.",
+      "description": "Deals 1800 damage over 12 seconds to all targets within 30 feet in of you.  Affected targets lose 30 seconds of Morale over 12 seconds. This ability hits max 9 targets.",
       "category": "Morale",
       "gameId": 1729,
       "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 1200,
+        "COM_0_VAL0_TOD_DAMAGE": 1800,
         "COM_0_DURA_SECONDS": 12,
         "COM_0_RADI_FEET": 30
       },
@@ -1544,11 +1544,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When War Bellows trigger they will now restore 270 health over 10 seconds to your group members within 100 feet of you.",
+      "description": "When War Bellows trigger they will now restore 405 health over 10 seconds to your group members within 100 feet of you.",
       "category": "CareerTactic",
       "gameId": 1717,
       "componentValues": {
-        "ABIL_3064_COM_0_VAL0_TOD_HEALTH": 270,
+        "ABIL_3064_COM_0_VAL0_TOD_HEALTH": 405,
         "ABIL_3064_COM_0_DURA_SECONDS": 10
       },
       "rawDescription": "When War Bellows trigger they will now restore {ABIL_3064_COM_0_VAL0_TOD_HEALTH} over {ABIL_3064_COM_0_DURA_SECONDS} to your group members within 100 feet of you."
@@ -1591,7 +1591,28 @@
       "componentValues": {
         "COM_1_VAL0": 75
       },
-      "rawDescription": "Whenever you Block an attack you gain {COM_1_VAL0} of Morale. This effect will not trigger more than once every 3 seconds."
+      "rawDescription": "Whenever you Block an attack you gain {COM_1_VAL0} points of Morale. This effect will not trigger more than once every 3 seconds."
+    },
+    {
+      "image": "02562",
+      "id": 1680,
+      "name": "Big Slash",
+      "type": "Damaging",
+      "spec": "Path of Da' Toughest",
+      "minrank": "18",
+      "cost": "40 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "Deals 105 damage to targets 25 feet from you, and knocks them back.",
+      "category": "Ability",
+      "gameId": 1680,
+      "componentValues": {
+        "COM_0_VAL0_DAMAGE": 105,
+        "COM_0_RADI_FEET": 25
+      },
+      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to targets {COM_0_RADI_FEET} from you, and knocks them back."
     }
   ]
 }
