@@ -17,7 +17,9 @@ const MODAL_COMPONENTS = {
   [MODAL_SHARE]: ModalShareCareer,
 };
 
-const ModalContainer = ({ modal }: ReturnType<typeof mapStateToProps>) => {
+const ModalContainer = function ({
+  modal,
+}: ReturnType<typeof mapStateToProps>) {
   if (!modal) {
     return null;
   }

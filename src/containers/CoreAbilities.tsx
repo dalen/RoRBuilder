@@ -9,7 +9,9 @@ const renderAbility = (abilities: Abilities, abilityId: number) => {
   return <Ability key={abilityId} data={abilities.indexed[abilityId]} />;
 };
 
-const CoreAbilities = ({ abilities }: ReturnType<typeof mapStateToProps>) => {
+const CoreAbilities = function ({
+  abilities,
+}: ReturnType<typeof mapStateToProps>) {
   if (abilities == null) {
     return null;
   }

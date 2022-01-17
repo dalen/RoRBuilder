@@ -21,7 +21,7 @@ function mapStateToProps({ sidebar }: State) {
   };
 }
 
-const Sidebar = ({ sidebar }: ReturnType<typeof mapStateToProps>) => {
+const Sidebar = function ({ sidebar }: ReturnType<typeof mapStateToProps>) {
   const sidebarClass = classNames({
     [css.container]: !sidebar,
     [css.containerActive]: sidebar,

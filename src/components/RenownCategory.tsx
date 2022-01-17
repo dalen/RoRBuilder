@@ -25,7 +25,7 @@ const levelsAvailable = (
   )[0];
 };
 
-export default ({
+export default function ({
   points,
   height, // Set to same as levels, or hight to show empty squares
   pointsLeft,
@@ -41,7 +41,7 @@ export default ({
   addLevel: () => void;
   removeLevel: () => void;
   setLevel: (level: number) => void;
-}) => {
+}) {
   const { levels } = data;
 
   const numAvailable = levelsAvailable(data, points, pointsLeft);
@@ -85,4 +85,4 @@ export default ({
       />
     </div>
   );
-};
+}

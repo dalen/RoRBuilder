@@ -4,7 +4,7 @@ import IconPlus from '../icons/IconPlus';
 import IconMinus from '../icons/IconMinus';
 import css from '../css/components/RenownCategoryButtons.module.css';
 
-const RenownCategoryButtons = ({
+const RenownCategoryButtons = function ({
   points,
   pathPoints,
   meterMax,
@@ -18,7 +18,7 @@ const RenownCategoryButtons = ({
   addPoint: () => void;
   removePoint: () => void;
   reset: () => void;
-}) => {
+}) {
   const addHandler = (e: MouseEvent) => {
     if (points > 0 && pathPoints < meterMax) {
       addPoint();

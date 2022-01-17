@@ -74,14 +74,14 @@ const stateFromSlug = (slug: string | undefined): RenownState => {
   return Object.fromEntries(entries) as RenownState;
 };
 
-const Renown = ({
+const Renown = function ({
   history,
   match,
   sidebar,
   toggleSidebar,
 }: RouteComponentProps<{ slug?: string }> &
   ReturnType<typeof mapStateToProps> &
-  typeof mapDispatchToProps) => {
+  typeof mapDispatchToProps) {
   const [meters, setMeters] = useState(stateFromSlug(match.params.slug));
 
   const reset = () => {

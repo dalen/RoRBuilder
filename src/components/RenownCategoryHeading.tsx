@@ -5,7 +5,11 @@ import Popover from './Popover';
 import css from '../css/components/RenownCategoryHeading.module.css';
 import { RenownCategory } from '../helpers/renown';
 
-const RenownCategoryHeading = ({ category }: { category: RenownCategory }) => {
+const RenownCategoryHeading = function ({
+  category,
+}: {
+  category: RenownCategory;
+}) {
   const [hovered, setHovered] = useState(false);
 
   const imgSrc = `../../images/renown/${category.icon}.png`;

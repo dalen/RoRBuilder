@@ -31,7 +31,7 @@ const renderPopoverContent = (pathPopover: PathPopover) => {
   );
 };
 
-const PathInfo = ({ pathPopover }: { pathPopover: PathPopover }) => {
+const PathInfo = function ({ pathPopover }: { pathPopover: PathPopover }) {
   const [hovered, setHovered] = useState(false);
 
   const hoverOver = () => {

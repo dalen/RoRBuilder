@@ -4,7 +4,7 @@ import { gaCareerSelected } from '../helpers/googleAnalytics';
 
 type Props = { career: CareerSummary };
 
-const CareerItem = ({ career }: Props) => {
+const CareerItem = function ({ career }: Props) {
   const clickItem = () => {
     // Send event to Google Analytics
     gaCareerSelected(career.name, career.class, career.race);

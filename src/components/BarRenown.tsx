@@ -3,7 +3,7 @@ import Bar from './Bar';
 
 const MAX_RENOWN = 80;
 
-const BarRenown = ({ renown }: { renown: number }) => {
+const BarRenown = function ({ renown }: { renown: number }) {
   return (
     <Bar
       level={renown}

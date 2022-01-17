@@ -12,7 +12,7 @@ function mapStateToProps({ renown }: State) {
   };
 }
 
-const BarRenown = ({ renown }: ReturnType<typeof mapStateToProps>) => {
+const BarRenown = function ({ renown }: ReturnType<typeof mapStateToProps>) {
   return (
     <Bar
       level={renown}

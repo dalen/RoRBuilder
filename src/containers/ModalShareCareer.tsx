@@ -11,11 +11,11 @@ function mapStateToProps({ slug, careers, sharingLink }: State) {
   };
 }
 
-const ModalShareCareer = ({
+const ModalShareCareer = function ({
   slug,
   careers,
   sharingLink,
-}: ReturnType<typeof mapStateToProps>) => {
+}: ReturnType<typeof mapStateToProps>) {
   if (!slug || !sharingLink) return <div>No career selected</div>;
 
   const url = `../images/icons/${slug}.png`;

@@ -41,7 +41,7 @@ const renderCoreAbilities = (abilities: Abilities, path: 'a' | 'b' | 'c') => {
   );
 };
 
-const Mastery = (props: ReturnType<typeof mapStateToProps>) => {
+const Mastery = function (props: ReturnType<typeof mapStateToProps>) {
   const labelClass = classNames({
     [css.label]: true,
     'marginLeft--small': true,

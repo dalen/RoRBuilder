@@ -18,12 +18,12 @@ function mapStateToProps({ level }: State) {
   };
 }
 
-const Ability = ({
+const Ability = function ({
   level,
   data,
 }: {
   data: AbilityType;
-} & ReturnType<typeof mapStateToProps>) => {
+} & ReturnType<typeof mapStateToProps>) {
   const [hovered, setHovered] = useState(false);
 
   const status = initialStatus(level, Number(data.minrank));

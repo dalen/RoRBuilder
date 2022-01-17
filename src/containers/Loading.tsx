@@ -4,7 +4,7 @@ import css from '../css/components/Loading.module.css';
 
 import { State } from '../reducers';
 
-const Loading = ({ sidebar }: ReturnType<typeof mapStateToProps>) => {
+const Loading = function ({ sidebar }: ReturnType<typeof mapStateToProps>) {
   const containerClass = classNames({
     [css.container]: !sidebar,
     [css.containerSidebar]: sidebar,

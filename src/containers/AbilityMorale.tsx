@@ -47,7 +47,7 @@ type Props = {
 } & typeof mapDispatchToProps &
   ReturnType<typeof mapStateToProps>;
 
-const AbilityMorale = ({
+const AbilityMorale = function ({
   rank,
   data,
   level,
@@ -63,7 +63,7 @@ const AbilityMorale = ({
   resetSelectedMorale3,
   selectMorale4,
   resetSelectedMorale4,
-}: Props) => {
+}: Props) {
   const [hovered, setHovered] = useState(false);
 
   const minrank = Number(data.minrank);

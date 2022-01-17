@@ -119,16 +119,18 @@ function formatData(originalObject: Career) {
 }
 export type Abilities = ReturnType<typeof formatData>;
 
-const reducer: Reducer<ReturnType<typeof formatData> | null, AbilitiesAction> =
-  (state = null, action) => {
-    switch (action.type) {
-      case FETCH_ABILITIES:
-        return formatData(action.payload);
-      case RESET_ABILITIES:
-        return null;
-      default:
-        return state;
-    }
-  };
+const reducer: Reducer<
+  ReturnType<typeof formatData> | null,
+  AbilitiesAction
+> = (state = null, action) => {
+  switch (action.type) {
+    case FETCH_ABILITIES:
+      return formatData(action.payload);
+    case RESET_ABILITIES:
+      return null;
+    default:
+      return state;
+  }
+};
 
 export default reducer;
