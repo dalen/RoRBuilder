@@ -31,9 +31,9 @@
       "optionalAbilities": {
         "lvl1": 4803,
         "lvl2": 4804,
-        "lvl3": 4805,
+        "lvl3": 8357,
         "lvl4": 4806,
-        "lvl5": 4807,
+        "lvl5": 8365,
         "lvl6": 4808,
         "lvl7": 4809
       },
@@ -281,7 +281,7 @@
     },
     {
       "image": "22702",
-      "id": 4807,
+      "id": 8357,
       "name": "Corruptive Power",
       "type": "Buff",
       "spec": "Path of Corruption",
@@ -847,7 +847,7 @@
     },
     {
       "image": "22702",
-      "id": 4805,
+      "id": 8365,
       "name": "Mixed Defenses",
       "type": "Buff",
       "spec": "Path of Corruption",
