@@ -938,16 +938,18 @@
       "note": "",
       "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds your Armor is increased by 618 and you will become less likely to be Critically hit depending on your Hatred.<BR>Your Dark Protector will receive the benefits if they are within 50 feet. <BR> With 30 Hate: 15% less likely to be Critically hit. <BR> With 60 Hate: 30% less likely to be Critically hit.<BR> With 90 Hate: 45% less likely to be Critically hit.",
       "category": "Ability",
-      "gameId": 9346,
+      "gameId": 2746,
       "componentValues": {
         "COM_0_DURA_SECONDS": 10,
         "COM_0_VAL0": 990,
-        "ABIL_9324_COM_1_VAL0_COM_4_RADI_FEET": 50,
         "COM_1_VAL1": 0,
+        "COM_4_VAL0": 98,
         "COM_2_VAL1": 0,
-        "COM_3_VAL1": 0
+        "COM_5_VAL0": 96,
+        "COM_3_VAL1": 0,
+        "COM_6_VAL0": 94
       },
-      "rawDescription": "Your intense fury allows you to shrug off the greatest of hits. For {COM_0_DURA_SECONDS} your Armor is increased by {COM_0_VAL0} and you will become less likely to be Critically hit depending on your Hatred.<BR>Your Dark Protector will receive the benefits if they are within {ABIL_9324_COM_1_VAL0_COM_4_RADI_FEET}. <BR> With 30 Hate: {COM_1_VAL1}% less likely to be Critically hit. <BR> With 60 Hate: {COM_2_VAL1}% less likely to be Critically hit.<BR> With 90 Hate: {COM_3_VAL1}% less likely to be Critically hit."
+      "rawDescription": "Your intense fury allows you to shrug off the greatest of hits. For {COM_0_DURA_SECONDS} you and your Dark Protector have their Armor increased by {COM_0_VAL0}, become less likely to be Critically hit and suffer reduced damage depending on your Hatred. <BR> With 30 Hate: {COM_1_VAL1}% less likely to be Critically hit, incoming damage reduced to {COM_4_VAL0}%. <BR> With 60 Hate: {COM_2_VAL1}% less likely to be Critically hit, incoming damage reduced to {COM_5_VAL0}%.<BR> With 90 Hate: {COM_3_VAL1}% less likely to be Critically hit, incoming damage reduced to {COM_6_VAL0}%."
     },
     {
       "image": "11024",
