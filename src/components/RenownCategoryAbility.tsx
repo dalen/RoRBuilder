@@ -5,7 +5,7 @@ import Popover from './Popover';
 import css from '../css/components/RenownCategoryAbility.module.css';
 import { RenownAbility } from '../helpers/renown';
 
-const RenownCategoryAbility = function ({
+const RenownCategoryAbility = ({
   ability,
   state,
   onClick,
@@ -13,7 +13,7 @@ const RenownCategoryAbility = function ({
   ability: RenownAbility;
   state: 'selected' | 'available' | 'disabled';
   onClick: () => void;
-}) {
+}) => {
   const [hovered, setHovered] = useState(false);
 
   const hoverOver = () => {

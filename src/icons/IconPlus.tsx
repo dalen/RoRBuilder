@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 
-const IconPlus = function ({
+const IconPlus = ({
   name,
   nameSlug,
   classes,
@@ -8,7 +8,7 @@ const IconPlus = function ({
   name: string;
   nameSlug: string;
   classes: string;
-}) {
+}) => {
   const iconClass = classNames({
     icon: true,
     [classes]: classes,

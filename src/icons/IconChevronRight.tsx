@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 
-const IconChevronRight = function ({
+const IconChevronRight = ({
   name,
   nameSlug,
   classes,
@@ -8,7 +8,7 @@ const IconChevronRight = function ({
   name: string;
   nameSlug: string;
   classes: string;
-}) {
+}) => {
   const iconClass = classNames({
     icon: true,
     [classes]: classes,

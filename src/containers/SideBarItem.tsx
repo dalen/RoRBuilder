@@ -27,14 +27,14 @@ type Props = {
 } & ReturnType<typeof mapStateToProps> &
   typeof mapDispatchToProps;
 
-const SidebarItem = function ({
+const SidebarItem = ({
   url,
   img,
   text,
   toggleSidebar,
   toggleOverlay,
   onClick,
-}: Props) {
+}: Props) => {
   const clickItem = () => {
     if (onClick !== undefined) onClick();
 

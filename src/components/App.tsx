@@ -7,7 +7,7 @@ import Career from '../containers/Career';
 import Renown from './Renown';
 import NotFound from './NotFound';
 
-export default function () {
+export default () => {
   return (
     <Router>
       <Switch>
@@ -20,4 +20,4 @@ export default function () {
       </Switch>
     </Router>
   );
-}
+};

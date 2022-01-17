@@ -2,7 +2,7 @@ import css from '../css/components/ModalShare.module.css';
 
 import Modal from '../containers/Modal';
 
-const ModalShare = function ({
+const ModalShare = ({
   sharingLink,
   icon,
   title,
@@ -12,7 +12,7 @@ const ModalShare = function ({
   icon: string;
   title: string;
   shareText: string;
-}) {
+}) => {
   const BBCode = `[url=${sharingLink}]${shareText}[/url]`;
   return (
     <Modal>

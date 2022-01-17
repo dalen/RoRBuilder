@@ -4,7 +4,7 @@ import IconPlus from '../icons/IconPlus';
 import IconMinus from '../icons/IconMinus';
 import css from '../css/components/PathButtons.module.css';
 
-const PathButtons = function ({
+const PathButtons = ({
   points,
   pathPoints,
   meterMax,
@@ -16,7 +16,7 @@ const PathButtons = function ({
   pathPoints: number;
   addPoint: () => void;
   removePoint: () => void;
-}) {
+}) => {
   const addHandler = (e: MouseEvent) => {
     if (points > 0 && pathPoints < meterMax) {
       addPoint();

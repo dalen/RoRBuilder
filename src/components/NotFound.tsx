@@ -2,7 +2,7 @@
   404 Page
 */
 
-const NotFound = function () {
+const NotFound = () => {
   return <h1>Not Found!</h1>;
 };
 

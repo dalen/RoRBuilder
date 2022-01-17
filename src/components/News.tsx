@@ -1,7 +1,7 @@
 import IconChevronRight from '../icons/IconChevronRight';
 import css from '../css/components/News.module.css';
 
-const News = function () {
+const News = () => {
   return (
     <div className={css.container}>
       <div className={css.heading}>Latest updates</div>

@@ -11,13 +11,13 @@ const renderNote = (note: string) => {
   return false;
 };
 
-const PopoverAbility = function ({
+const PopoverAbility = ({
   data,
   imgSrc,
 }: {
   data: Ability;
   imgSrc: string;
-}) {
+}) => {
   return (
     <div>
       <img alt={data.name} src={imgSrc} className={css.image} />

@@ -6,7 +6,7 @@ const calculateBarWidth = (level: number, max: number) => {
   return barStyle;
 };
 
-const Bar = function Bar({
+const Bar = ({
   level,
   max,
   classNameBar,
@@ -16,7 +16,7 @@ const Bar = function Bar({
   max: number;
   classNameBar: string;
   classNameProgress: string;
-}) {
+}) => {
   return (
     <div className={classNameBar}>
       <div

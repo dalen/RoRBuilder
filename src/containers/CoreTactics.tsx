@@ -19,10 +19,10 @@ const renderTactics = (abilities: Abilities, masteryTactics: number[]) => {
   return combinedTactics.map((tactic) => renderTactic(abilities, tactic));
 };
 
-const CoreTactics = function ({
+const CoreTactics = ({
   abilities,
   masteryTactics,
-}: ReturnType<typeof mapStateToProps>) {
+}: ReturnType<typeof mapStateToProps>) => {
   if (abilities == null) {
     return null;
   }

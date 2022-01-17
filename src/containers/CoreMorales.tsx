@@ -61,10 +61,10 @@ const renderMorales = (abilities: Abilities, masteryMorales: number[]) => {
   );
 };
 
-const CoreMorales = function ({
+const CoreMorales = ({
   abilities,
   masteryMorales,
-}: ReturnType<typeof mapStateToProps>) {
+}: ReturnType<typeof mapStateToProps>) => {
   if (abilities == null) {
     return null;
   }

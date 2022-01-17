@@ -1,7 +1,7 @@
 import { MouseEvent } from 'react';
 import css from '../css/components/PathMeter.module.css';
 
-const PathMeter = function ({
+const PathMeter = ({
   meterMax,
   pathPoints,
   points,
@@ -11,7 +11,7 @@ const PathMeter = function ({
   pathPoints: number;
   points: number;
   setPoints: (points: number) => void;
-}) {
+}) => {
   const renderMeterLevel = () => {
     const meterLevels = [];
     for (let i = 1; i <= meterMax; i += 1) {

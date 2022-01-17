@@ -12,7 +12,7 @@ function mapStateToProps({ level }: State) {
   };
 }
 
-const BarXp = function ({ level }: ReturnType<typeof mapStateToProps>) {
+const BarXp = ({ level }: ReturnType<typeof mapStateToProps>) => {
   return (
     <Bar
       level={level}

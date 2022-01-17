@@ -3,10 +3,10 @@ import css from '../css/components/CareerUpdated.module.css';
 
 import { State } from '../reducers';
 
-const CareerUpdated = function ({
+const CareerUpdated = ({
   careers,
   slug,
-}: ReturnType<typeof mapStateToProps>) {
+}: ReturnType<typeof mapStateToProps>) => {
   if (slug == null) return <div> </div>;
 
   const career = careers[slug];

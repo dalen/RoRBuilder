@@ -3,10 +3,7 @@ import css from '../css/components/CareerTitle.module.css';
 
 import { State } from '../reducers';
 
-const CareerTitle = function ({
-  careers,
-  slug,
-}: ReturnType<typeof mapStateToProps>) {
+const CareerTitle = ({ careers, slug }: ReturnType<typeof mapStateToProps>) => {
   if (slug == null)
     return <div className="row row--v-center">No career selected</div>;
 
