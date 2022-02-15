@@ -28,25 +28,24 @@
         "primary": "A mastery path focused on toe-to-toe combat"
       },
       "optionalAbilities": {
-        "lvl1": 5496,
-        "lvl2": 5492,
-        "lvl3": 5529,
-        "lvl4": 5528,
-        "lvl5": 5531,
-        "lvl6": 5532,
-        "lvl7": 5576
+        "lvl1": 1858,
+        "lvl2": 2800,
+        "lvl3": 1871,
+        "lvl4": 2814,
+        "lvl5": 1872,
+        "lvl6": 2804,
+        "lvl7": 2801
       },
       "coreAbilities": [
+        1824,
+        1829,
         1830,
-        5530,
-        5495,
-        5472,
-        5490,
-        5477,
-        5489,
-        5480,
-        7565,
-        7566
+        1,
+        2,
+        1837,
+        3,
+        5,
+        1851
       ]
     },
     "c": {
@@ -136,7 +135,7 @@
     },
     {
       "image": "02626",
-      "id": 5480,
+      "id": 1,
       "name": "Ard Noggin",
       "type": "Damaging",
       "spec": "Path of Bouncin'",
@@ -179,7 +178,7 @@
     },
     {
       "image": "abi_or_squig13",
-      "id": 5530,
+      "id": 2800,
       "name": "Squig Leap",
       "type": "Damaging",
       "spec": "Path of Bouncin'",
@@ -219,7 +218,7 @@
     },
     {
       "image": "abi_or_bite",
-      "id": 5532,
+      "id": 2804,
       "name": "Tastes Like Stuntie",
       "type": "Damaging",
       "spec": "Path of Bouncin'",
@@ -240,7 +239,7 @@
     },
     {
       "image": "02508",
-      "id": 7565,
+      "id": 1851,
       "name": "Big Bouncin!",
       "type": "Cripple",
       "spec": "Path of Bouncin'",
@@ -262,7 +261,7 @@
     },
     {
       "image": "abi_squig_claw02",
-      "id": 5489,
+      "id": 2,
       "name": "Big Claw",
       "type": "Ailment",
       "spec": "Path of Bouncin'",
@@ -285,7 +284,7 @@
     },
     {
       "image": "02602",
-      "id": 5492,
+      "id": 3,
       "name": "Bounce",
       "type": "Debuff",
       "spec": "Path of Bouncin'",
@@ -367,7 +366,7 @@
     },
     {
       "image": "22701",
-      "id": 5531,
+      "id": 1872,
       "name": "Sneaky Git",
       "type": "Buff",
       "spec": "Core Ability",
@@ -379,7 +378,7 @@
       "note": "",
       "description": "While in your Squig Armor, your defenses are increased by 10%.",
       "category": "CareerTactic",
-      "gameId": 2807,
+      "gameId": 1872,
       "componentValues": {},
       "rawDescription": "While in your Squig Armor, your defenses are increased by 10%."
     },
@@ -405,7 +404,7 @@
     },
     {
       "image": "02591",
-      "id": 5477,
+      "id": 1829,
       "name": "Cut Ya!",
       "type": "Ailment",
       "spec": "Path of Bouncin'",
@@ -508,7 +507,7 @@
     },
     {
       "image": "02598",
-      "id": 5490,
+      "id": 1837,
       "name": "Drop That!!",
       "type": "Ailment",
       "spec": "Path of Bouncin'",
@@ -714,7 +713,7 @@
     },
     {
       "image": "02478",
-      "id": 5472,
+      "id": 1824,
       "name": "Git Em!",
       "type": "Damaging",
       "spec": "Path of Bouncin'",
@@ -840,7 +839,7 @@
     },
     {
       "image": "02629",
-      "id": 5528,
+      "id": 2814,
       "name": "Indigestion",
       "type": "Hex",
       "spec": "Path of Bouncin'",
@@ -862,7 +861,7 @@
     },
     {
       "image": "02604",
-      "id": 5495,
+      "id": 5,
       "name": "KABOOM!",
       "type": "Debuff",
       "spec": "Path of Bouncin'",
@@ -1172,7 +1171,7 @@
     },
     {
       "image": "22697",
-      "id": 5496,
+      "id": 1858,
       "name": "Sharp Toofs",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1293,7 +1292,7 @@
     },
     {
       "image": "22701",
-      "id": 5529,
+      "id": 1871,
       "name": "Sneaky Bouncin'",
       "type": "Buff",
       "spec": "Path of Bouncin'",
@@ -1433,7 +1432,7 @@
     },
     {
       "image": "abi_or_squig14",
-      "id": 5576,
+      "id": 2801,
       "name": "Outta My Way!",
       "type": "Buff",
       "spec": "Path of Bouncin'",
