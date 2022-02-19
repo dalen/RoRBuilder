@@ -183,7 +183,7 @@ class Career extends Component<Props> {
     l?: number;
     r?: number;
     tl?: number;
-    mp?: number;
+    mp?: string;
     pA?: number;
     pB?: number;
     pC?: number;
@@ -200,7 +200,7 @@ class Career extends Component<Props> {
     if (r) this.props.setRenown(r);
     if (l && r) this.props.setPoints(calculateMasteryPoints(l, r));
     if (tl) this.props.setTacticLimit(tl);
-    if (mp) this.props.setCurrentPoints(mp);
+    if (mp) this.props.setCurrentPoints(Number(mp));
     if (pA) {
       this.props.setPathMeterA(pA);
     }
