@@ -6,18 +6,7 @@ export function calculateTacticLimit(level: number): {
   type: 'calculate_tactic_limit';
   payload: number;
 } {
-  let limit = 4;
-
-  if (Number(level) === 40) {
-    limit = 4;
-  } else if (Number(level) >= 30) {
-    limit = 3;
-  } else if (Number(level) >= 20) {
-    limit = 2;
-  } else if (Number(level) >= 10) {
-    limit = 1;
-  }
-
+  const limit = Math.min(Math.floor(level / 8), 4);
   return {
     type: CALCULATE_TACTIC_LIMIT,
     payload: limit,
