@@ -11,11 +11,14 @@
 
     <base href="/" />
     <link rel="shortcut icon" href="/images/icons/favicon.ico" type="image/x-icon">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZF6P0F1CS"></script>
     <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '%REACT_APP_GOOGLE_ID%', 'auto');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NZF6P0F1CS');
     </script>
     <script async src="https://www.google-analytics.com/analytics.js"></script>
     <script async src="../node_modules/autotrack/autotrack.js"></script>
