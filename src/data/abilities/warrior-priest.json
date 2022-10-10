@@ -123,13 +123,13 @@
       "name": "Bludgeon",
       "type": "Damaging",
       "spec": "Path of Wrath",
-      "minrank": "6",
+      "minrank": "1",
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Righteous Fury",
-      "description": "A powerful attack which deals 202 damage to your enemy. If behind your target, ignores 660 armor.",
+      "description": "A powerful attack which deals 202 damage to your enemy.",
       "category": "Ability"
     },
     {
@@ -183,7 +183,7 @@
       "name": "Cleansing Power",
       "type": "Buff",
       "spec": "Path of Salvation",
-      "minrank": "23",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -198,7 +198,7 @@
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "16",
+      "minrank": "19",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -215,11 +215,11 @@
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Rank 1 morale",
-      "range": "100ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increases your target's armor by 1320 and all resistances by 504 for 15 seconds.",
+      "description": "Restores 240 health over 7 seconds, and increases your armor by 1320.",
       "category": "Morale"
     },
     {
@@ -233,7 +233,7 @@
       "range": "150ft range",
       "incant": "0.5s cast",
       "cooldown": "No cooldown",
-      "note": "Requires 45 Righteous Fury",
+      "note": "Requires 55 Righteous Fury",
       "description": "Heals an ally for 370 points, and an additional 445 over 5 seconds.",
       "category": "Ability"
     },
@@ -249,7 +249,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You call upon the power of Sigmar, dealing 300 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to you as health.",
+      "description": "You call upon the power of Sigmar, dealing 300 damage every second to all enemies in a 10 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to you as health.",
       "category": "Morale"
     },
     {
@@ -258,7 +258,7 @@
       "name": "Divine Assault",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "8",
+      "minrank": "6",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "3.0s cast",
@@ -294,7 +294,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
+      "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
       "category": "CareerTactic"
     },
     {
@@ -302,8 +302,8 @@
       "id": 8279,
       "name": "Divine Justice",
       "type": "Buff",
-      "spec": "Path of Wrath",
-      "minrank": "23",
+      "spec": "Core Ability",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -423,7 +423,7 @@
       "name": "Emperor's Ward",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "8",
+      "minrank": "11",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -459,7 +459,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you defend against an attack, your casted healing abilities will become 20% more effective for 10 seconds.",
+      "description": "Any time you defend against an attack, your healing abilities will become 20% more effective for 10 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -467,14 +467,14 @@
       "id": 8293,
       "name": "Fanaticism",
       "type": "Buff",
-      "spec": "Path of Wrath",
-      "minrank": "17",
+      "spec": "Core Ability",
+      "minrank": "31",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but reduces the effectiveness of your casted healing abilities by 20%.",
+      "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but reduces the effectiveness of your healing abilities by 20%.",
       "category": "CareerTactic"
     },
     {
@@ -504,7 +504,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale"
     },
     {
@@ -632,29 +632,29 @@
       "id": 8281,
       "name": "Intimidating Repent",
       "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "31",
+      "spec": "Path of Wrath",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Repent will always also affect all enemies within 30 feet of you for 5 seconds.",
+      "description": "Repent will now affect all enemies within 30 feet of your target.",
       "category": "CareerTactic"
     },
     {
       "image": "08029",
       "id": 8236,
       "name": "Judgement",
-      "type": "Curse",
+      "type": "Damaging",
       "spec": "Path of Salvation",
       "minrank": "1",
-      "cost": "No AP Cost",
+      "cost": "15 Action Points",
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
-      "note": "Requires 25 Righteous Fury",
-      "description": "You call down the holy judgement of Sigmar, dealing 127 Spirit damage to the enemy and reducing their movement speed by 20% for 2 seconds.",
+      "note": "Builds 15 Righteous Fury",
+      "description": "You call down the holy judgement of Sigmar, dealing 127 Spirit damage to the enemy.",
       "category": "Ability"
     },
     {
@@ -695,7 +695,7 @@
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
@@ -774,7 +774,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury<br>Target must have an Enchantment",
-      "description": "A shattering attack that removes one Enchantment from your enemy and deals 127 damage.",
+      "description": "A shattering attack that removes one Enchantment from your enemy and does 127 damage.",
       "category": "Ability"
     },
     {
@@ -796,7 +796,7 @@
       "image": "23154",
       "id": 692,
       "name": "Rampaging Siphon",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "Rank 2 morale",
@@ -813,7 +813,7 @@
       "name": "Refreshing Radiance",
       "type": "Buff",
       "spec": "Path of Salvation",
-      "minrank": "27",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -834,7 +834,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.<BR><BR>If wearing a shield or great weapon this will also affect all enemies within 30 feet of you for 5 seconds.",
+      "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.  If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
     {
@@ -894,7 +894,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "A blessed attack which deals 192 damage to your target, and increases your defensive target's Strength by 120 for 20 seconds.",
+      "description": "A blessed attack which deals 164 damage to your target, and increases your defensive target's Strength by 120 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -903,13 +903,13 @@
       "name": "Sigmar's Grace",
       "type": "Blessing",
       "spec": "Path of Grace",
-      "minrank": "25",
+      "minrank": "29",
       "cost": "35 Action Points",
       "range": "Self",
       "incant": "2.0s cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
-      "description": "The might of Sigmar infuses everyone in your group within 80 feet, increasing their Wounds by 80 for 1 hour.",
+      "description": "The might of Sigmar infuses everyone in your group within 100 feet, increasing their Wounds by 80 for 1 hour.",
       "category": "Ability"
     },
     {
@@ -933,13 +933,13 @@
       "name": "Sigmar's Shield",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "21",
+      "minrank": "25",
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "You smash your weapon into your enemy, dealing 239 damage to them.  Your defensive target becomes Blessed for up to 10 seconds, and will regain 150 health each time they're attacked.  You will lose 10 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
+      "description": "You smash your weapon into your enemy, dealing 239 damage to them.  Your defensive target becomes Blessed for up to 20 seconds, and will regain 150 health each time they're attacked.  You will lose 20 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
       "category": "Ability"
     },
     {
@@ -948,13 +948,13 @@
       "name": "Sigmar's Vision",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "16",
+      "minrank": "21",
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 30 Righteous Fury",
-      "description": "Deals 239 damage to your enemy and Blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.<BR><BR>Additionally, when wearing a shield your chance to block will be increased by 10% for 10 seconds.",
+      "description": "Deals 239 damage to your enemy and Blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.",
       "category": "Ability"
     },
     {
@@ -991,7 +991,7 @@
       "image": "23155",
       "id": 690,
       "name": "Steal Life",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
@@ -999,7 +999,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
+      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -1014,7 +1014,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Enemy monsters will hate you 25% less than normal.",
+      "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
       "category": "CareerTactic"
     },
     {

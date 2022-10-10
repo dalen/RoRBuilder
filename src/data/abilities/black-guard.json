@@ -89,7 +89,7 @@
       "name": "Anger Drives Me",
       "type": "Defensive",
       "spec": "Path of Loathing",
-      "minrank": "23",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -147,7 +147,7 @@
       "image": "22712",
       "id": 840,
       "name": "Bathing In Blood",
-      "type": "Buff",
+      "type": "Enchantment",
       "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
@@ -245,14 +245,14 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You challenge all opponents in front of you, making monsters hate you more. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
     {
       "image": "23174",
       "id": 608,
       "name": "Champion's Challenge",
-      "type": "Debuff",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "Rank 1 morale",
@@ -260,7 +260,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<BR>This effect cannot be dispelled or broken.",
+      "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<BR>This effect can not be dispelled or broken.",
       "category": "Morale"
     },
     {
@@ -320,7 +320,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 30 Hatred<br>Requires Great Weapon",
-      "description": "A great cleave that strikes all targets 40 feet in front of you for 419 damage and making them 10% more likely to be critically hit by others for 10 seconds.",
+      "description": "A great cleave that strikes all targets 40 feet in front of you for 419 damage and making them 10% more likely to be critically hit by others for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -350,7 +350,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Hatred",
-      "description": "A heartless attack that inflicts 184 damage and target's Critical hit chance will be reduced based on your Hate.<BR> With 25 Hate: Critical chance reduced 5%. <BR> With 50 Hate: Critical chance reduced 10%.<BR> With 75 Hate: Critical chance reduced 15%.<BR> With 100 Hate: Critical chance reduced 20%.",
+      "description": "A heartless attack that inflicts 156 damage and target's Critical hit chance will be reduced based on your Hate.<BR> With 25 Hate: Critical chance reduced 5%. <BR> With 50 Hate: Critical chance reduced 10%.<BR> With 75 Hate: Critical chance reduced 15%.<BR> With 100 Hate: Critical chance reduced 20%.",
       "category": "Ability"
     },
     {
@@ -389,7 +389,7 @@
       "name": "Dark Blessings",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "8",
+      "minrank": "11",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -432,7 +432,7 @@
       "image": "23172",
       "id": 606,
       "name": "Demolishing Strike",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "8",
       "cost": "Rank 1 morale",
@@ -440,7 +440,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds.",
+      "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale"
     },
     {
@@ -530,7 +530,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "For up to 10 seconds your superior training allows you to easily Parry or Disrupt the next 4 attacks made against you. Your Dark Protector will receive the benefits if they are within 50ft. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <BR> With 30 Hate: Restores 5 AP. <BR> With 60 Hate: Restores 10 AP.<BR> With 90 Hate: Restores 15 AP",
+      "description": "For up to 10 seconds your superior training allows you to easily Parry the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <BR> With 30 Hate: Restores 5 AP. <BR> With 60 Hate: Restores 10 AP.<BR> With 90 Hate: Restores 15 AP",
       "category": "Ability"
     },
     {
@@ -569,7 +569,7 @@
       "name": "Enraged Beating",
       "type": "Damaging",
       "spec": "Path of Malice",
-      "minrank": "21",
+      "minrank": "25",
       "cost": "25 Action Points / Sec",
       "range": "5ft range",
       "incant": "3.0s cast",
@@ -598,7 +598,7 @@
       "id": 9368,
       "name": "Feeding On Pain",
       "type": "Defensive",
-      "spec": "Core Ability",
+      "spec": "Path of Loathing",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
@@ -620,7 +620,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for 184 damage and increase your Toughness by 120 for 20 seconds and will recover health based on your Hate and damage inflicted.<BR>Your Dark Protector will regain health and receive increased Toughness if they are within 50 feet.  <BR> With 30 Hate: Recovers 25% of damage inflicted.<BR> With 60 Hate: Recovers 50% of damage inflicted. <BR> With 90 Hate: Recovers 75% of damage inflicted.",
+      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for 156 damage and increase your Toughness by 120 for 20 seconds and will recover health based on your Hate and damage inflicted.<BR>Your Dark Protector will regain health and receive increased Toughness if they are within 50 feet.  <BR> With 30 Hate: Recovers 25% of damage inflicted.<BR> With 60 Hate: Recovers 50% of damage inflicted. <BR> With 90 Hate: Recovers 75% of damage inflicted.",
       "category": "Ability"
     },
     {
@@ -725,7 +725,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
-      "description": "You defend one of your groupmates and try to take attacks meant for them.  As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.<BR><BR>Damage received from this ability can be blocked or parried, unless the original attack was undefendable.",
+      "description": "You defend one of your groupmates and try to take attacks meant for them.  As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
       "category": "Ability"
     },
     {
@@ -755,7 +755,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A vindictive blow that deals 184 damage and builds double threat.",
+      "description": "A vindictive blow that deals 156 damage and builds double threat.",
       "category": "Ability"
     },
     {
@@ -1010,7 +1010,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A vile attack that crushes your target's will to live, inflicting 184 damage and lowering their Intelligence and Willpower by 40 for 20 seconds. This effect can be stacked up to 3 times.",
+      "description": "A vile attack that crushes your target's will to live, inflicting 156 damage and lowering their Intelligence and Willpower by 40 for 20 seconds. This effect can be stacked up to 3 times.",
       "category": "Ability"
     },
     {
@@ -1055,7 +1055,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Monstrous Rending cost 10 less Hate to use.",
+      "description": "Blade of Ruin and Monstrous Rending both cost 10 less Hate to use.",
       "category": "CareerTactic"
     },
     {
@@ -1160,7 +1160,7 @@
       "incant": "3.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
+      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second  for 3 seconds, up to 65 feet away.",
       "category": "Morale"
     },
     {
@@ -1214,7 +1214,7 @@
       "name": "Rugged",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "16",
+      "minrank": "19",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1250,7 +1250,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 15 Hatred",
-      "description": "Your overwhelming hate shields you from up to 937 damage over 10 seconds. Your Dark Protector will be affected as well if they are within 50ft.",
+      "description": "Your overwhelming hate shields you from up to 937 damage over 10 seconds.",
       "category": "Ability"
     },
     {
@@ -1355,7 +1355,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and making monsters hate you more. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
     {
@@ -1415,7 +1415,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts 79 damage. Has a chance to deal 678 damage to a severely wounded target if you are behind them.",
+      "description": "A basic throwing attack that inflicts 104 damage. Has a chance to deal 703 damage to a severely wounded target if you are behind them.",
       "category": "Ability"
     },
     {
@@ -1469,7 +1469,7 @@
       "name": "Wave of Scorn",
       "type": "Hex",
       "spec": "Path of Loathing",
-      "minrank": "25",
+      "minrank": "29",
       "cost": "55 Action Points",
       "range": "Self",
       "incant": "Instant cast",

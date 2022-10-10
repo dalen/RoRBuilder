@@ -125,7 +125,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 337 Spirit damage to the target.  The victim will lose 20 Action Points, and you will gain 20 Action Points.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 337 Spirit damage to the target.  The victim will lose 20 Action Points, and you will gain 20 Action Points.",
       "category": "Ability"
     },
     {
@@ -140,7 +140,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional 337 Spirit damage.  Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional 337 Spirit damage.  Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.",
       "category": "Ability"
     },
     {
@@ -155,7 +155,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 337 Spirit damage.  The victim's Initiative will be reduced by 80 for 10 seconds, and your Initiative will be increased by 80.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 337 Spirit damage.  The victim's Initiative will be reduced by 80 for 10 seconds, and your Initiative will be increased by 80.",
       "category": "Ability"
     },
     {
@@ -194,7 +194,7 @@
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "16",
+      "minrank": "19",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -211,11 +211,11 @@
       "spec": "Path of Confession",
       "minrank": "10",
       "cost": "No AP Cost",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "A surprise attack that burns all targets 10 feet in front of you, causing them to take 187 Spirit damage and reducing their armor by 990. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
+      "description": "A surprise attack that burns your target, causing them to take 187 Spirit damage each time they use a melee attack for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
       "category": "Ability"
     },
     {
@@ -320,7 +320,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  210 damage, 30 feet radius.<BR>   2 Accusations:  271 damage, 35 feet radius.<BR>   3 Accusations:  335 damage, 40 feet radius.<BR>   4 Accusations:  397 damage, 43.333333333333336 feet radius.<BR>   5 Accusations:  458 damage, 48.333333333333336 feet radius.",
+      "description": "A pistol shot that deals damage to your target and all other enemies near them.<BR>   1 Accusation:  210 damage, 30 feet radius.<BR>   2 Accusations:  271 damage, 35 feet radius.<BR>   3 Accusations:  335 damage, 40 feet radius.<BR>   4 Accusations:  397 damage, 43.333333333333336 feet radius.<BR>   5 Accusations:  458 damage, 48.333333333333336 feet radius.",
       "category": "Ability"
     },
     {
@@ -329,7 +329,7 @@
       "name": "Emperor's Ward",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "8",
+      "minrank": "11",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -470,7 +470,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A precise incision that deals 166 damage, and an additional 297 Spirit damage over 9 seconds.  This effect can be stacked up to 3 times.",
+      "description": "A precise incision that deals 101 damage, and an additional 297 damage over 9 seconds.  This effect can be stacked up to 3 times.",
       "category": "Ability"
     },
     {
@@ -575,7 +575,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end.",
+      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.<BR>If you hit anyone that you have Detaunted, the effect will end.",
       "category": "Ability"
     },
     {
@@ -590,7 +590,7 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, or run out of action points.",
+      "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, run out of action points, or after 30 seconds has passed.",
       "category": "Ability"
     },
     {
@@ -830,7 +830,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blessed Bullets of Purity will now heal you for 150% of the damage that they cause.",
+      "description": "Blessed Bullets of Purity will now heal you for 100% of the damage that they cause.",
       "category": "CareerTactic"
     },
     {
@@ -845,7 +845,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.<BR>You may only use a single relic at a time.",
+      "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.",
       "category": "Ability"
     },
     {
@@ -889,8 +889,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Target must have a Blessing<br>Builds 1 Accusation",
-      "description": "You sever one Blessing from your enemy and inflict 127 damage.",
+      "note": "Target must have a Blessing",
+      "description": "You sever one Blessing from your enemy and do 127 damage",
       "category": "Ability"
     },
     {
@@ -920,7 +920,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to Disrupt enemy magic by 100% and make you resist all spell damage for 7 seconds.<BR>You may only use a single relic at a time.",
+      "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to Disrupt enemy magic by 100% for 7 seconds.<BR>You may only use a single relic at a time.",
       "category": "Ability"
     },
     {
@@ -980,7 +980,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Pistol",
-      "description": "A quick pistol shot that deals 80 damage, and can be used on the run.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
+      "description": "A quick pistol shot that deals 112 damage, and can be used on the run.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1003,8 +1003,8 @@
       "id": 8133,
       "name": "Sweeping Razor",
       "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "17",
+      "spec": "Path of Confession",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1038,9 +1038,9 @@
       "cost": "15 Action Points / Sec",
       "range": "30ft range",
       "incant": "3.0s cast",
-      "cooldown": "8s cooldown",
+      "cooldown": "No cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<BR>   1 Accusation:  138 damage per shot<BR>   2 Accusations:  176 damage per shot.<BR>   3 Accusations:  215 damage per shot<BR>   4 Accusations:  251 damage per shot<BR>   5 Accusations:  289 damage per shot",
+      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<BR>   1 Accusation:  92 damage per shot<BR>   2 Accusations:  117 damage per shot.<BR>   3 Accusations:  143 damage per shot<BR>   4 Accusations:  167 damage per shot<BR>   5 Accusations:  192 damage per shot",
       "category": "Ability"
     },
     {
@@ -1121,16 +1121,16 @@
     {
       "image": "22702",
       "id": 522,
-      "name": "Close Combat",
+      "name": "Weapon Expertise",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "32",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "description": "Increases your Weapon Skill by +1 per level.",
       "category": "CareerTactic"
     },
     {

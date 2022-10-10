@@ -11,7 +11,7 @@
         "lvl3": 1560,
         "lvl4": 1538,
         "lvl5": 1559,
-        "lvl6": 2870,
+        "lvl6": 1541,
         "lvl7": 1580
       },
       "coreAbilities": [
@@ -111,7 +111,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
     {
@@ -177,7 +177,7 @@
     {
       "image": "22706",
       "id": 1562,
-      "name": "Dazzling Flash",
+      "name": "Bandolier",
       "type": "Buff",
       "spec": "Path of The Grenadier",
       "minrank": "27",
@@ -186,7 +186,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When your Flashbang Grenade detonates, any enemy hit by the blast will become disoriented for 5 seconds, increasing the build times of their abilities by 50%.",
+      "description": "All of your Path of the Grenadier abilities cost 35% fewer action points.",
       "category": "CareerTactic"
     },
     {
@@ -246,7 +246,7 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Construct a turret with a moderate range auto-firing grenade launcher. The turret gains 100% of BS, 30% of WS, and 70% of your Wounds from item bonuses.  While within 25 feet of it you will use it to create an improvised upgrade every 2 seconds, increasing your damage by 4% to a maximum of 20%, shorten the duration and tick interval of Path of Grenadier and Tinkerer DoTs by 4% to a maximum of 35% and allow Grenadier skills to be cast while moving. You lose 4 stacks of upgrades if the turret is destroyed.",
+      "description": "You construct a turret with an auto-firing grenade launcher which will attack enemies at a moderate range.  The turret gains 100% of your Ballistic Skill, 30% of your Weapon Skill, and 70% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -259,9 +259,9 @@
       "cost": "35 Action Points",
       "range": "Self",
       "incant": "2.0s cast",
-      "cooldown": "15s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any of your groupmates within 30 feet of it, restoring 324 health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
+      "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any allies within 30 feet of it, restoring 324 health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
       "category": "Ability"
     },
     {
@@ -342,17 +342,17 @@
     {
       "image": "22708",
       "id": 1549,
-      "name": "Magnetic Repair",
+      "name": "Concussive Mine",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "No AP Cost",
+      "minrank": "27",
+      "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are healed, your turret will become healed for 25% of the value as long as it is within 30 feet.",
-      "category": "Ability"
+      "description": "When your Land Mine detonates, any enemy hit by the blast will become disoriented for 10 seconds, increasing the build times of their abilities by 50%.",
+      "category": "CareerTactic"
     },
     {
       "image": "22709",
@@ -378,10 +378,10 @@
       "minrank": "21",
       "cost": "35 Action Points",
       "range": "100ft range",
-      "incant": "1.0s cast",
+      "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A well-aimed shot which deals 336 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
+      "description": "A well-aimed shot which deals 586 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
       "category": "Ability"
     },
     {
@@ -531,7 +531,7 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Construct a turret with a short range self-firing flamethrower. The turret gains 100% of BS, 10% of WS, and 90% of your Wounds from item bonuses. While within 25 feet of it you will use it to create an improvised upgrade every 2 seconds, increasing your damage by 4% to a maximum of 20%, Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50% but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of upgrades if the turret is destroyed.",
+      "description": "You construct a turret with a self-firing flamethrower which will attack enemies at close range.  The turret gains 100% of your Ballistic Skill, 10% of your Weapon Skill, and 90% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -606,7 +606,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale"
     },
     {
@@ -651,7 +651,7 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Construct a turret with a long range self-aiming gun. The turret gains 75% of BS and WS from item bonuses and 50% of your Wounds from item bonuses. While within 25 feet of it you will use it to create an improvised upgrade every 2 seconds, increasing your damage by 4% to a maximum of 20% and increase your range by 5% to a maximum of 25% extra range. You lose 4 stacks of upgrades if the turret is destroyed.",
+      "description": "You construct a turret with a self-aiming gun which will fire at distant enemies. The turret gains 75% of your Ballistic Skill and Weapon Skill from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -780,13 +780,13 @@
       "name": "Masterful Aim",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "16",
+      "minrank": "19",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Ballistic Skill by 160.",
+      "description": "Increases your Ballistic Skill by 160",
       "category": "CareerTactic"
     },
     {
@@ -801,22 +801,22 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing 88 Corporeal damage during the first 10 seconds, 163 Corporeal damage for the next 10 seconds, and 238 Corporeal damage for the final 10 seconds. <BR> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
+      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing 112 Corporeal damage during the first 10 seconds, 212 Corporeal damage for the next 10 seconds, and 312 Corporeal damage for the final 10 seconds. <BR> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
       "category": "Ability"
     },
     {
       "image": "abi_dw_explosion01",
       "id": 1541,
       "name": "Phosphorous Shells",
-      "type": "Damaging",
-      "spec": "Path of The Grenadier",
-      "minrank": "25",
-      "cost": "13 Action Points / Sec",
+      "type": "Hex",
+      "spec": "Path of The Rifleman",
+      "minrank": "29",
+      "cost": "40 Action Points",
       "range": "80ft range",
-      "incant": "Instant cast",
-      "cooldown": "16s cooldown",
+      "incant": "1.0s cast",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 365 Corporeal damage every 2 seconds to all enemies within 20 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
+      "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing 108 Corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer 555 Corporeal damage over 15 seconds as the shells burst into flame.",
       "category": "Ability"
     },
     {
@@ -846,7 +846,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A mid-range attack that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
+      "description": "A mid-range attack that deals 600 damage and knocks targeted player away. Monsters will be knocked down.",
       "category": "Morale"
     },
     {
@@ -876,7 +876,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The cast times of all your abilities in the Path of the Rifleman are reduced by 25%.",
+      "description": "All of your Path of the Rifleman abilities cost 35% fewer action points.",
       "category": "CareerTactic"
     },
     {
@@ -942,16 +942,16 @@
     {
       "image": "04603",
       "id": 1512,
-      "name": "Field Repair",
+      "name": "Shock Grenade",
       "type": "Healing",
       "spec": "Core Ability",
       "minrank": "22",
-      "cost": "5 Action Points / Sec",
-      "range": "20ft range",
+      "cost": "No AP Cost",
+      "range": "65ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "Requires a Turret",
-      "description": "You focus on repairing your turret for up to 3 seconds, restoring 674 health to it every second and making it briefly immune to damage. This effect will end if you lose your concentration or run out of action points.",
+      "cooldown": "20s cooldown",
+      "note": "",
+      "description": "You toss a grenade at an ally which removes stagger effects from them and five others within 25 feet.",
       "category": "Ability"
     },
     {
@@ -981,7 +981,7 @@
       "incant": "3.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A slow but powerful gun shot which deals 762 damage to your enemy and cannot be defended against.",
+      "description": "A slow but powerful gun shot which deals 762 damage to your enemy and can not be defended against.",
       "category": "Ability"
     },
     {
@@ -1050,7 +1050,7 @@
       "name": "Stoutness of Stone",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "8",
+      "minrank": "11",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1064,8 +1064,8 @@
       "id": 1540,
       "name": "Strafing Run",
       "type": "Damaging",
-      "spec": "Path of The Tinkerer",
-      "minrank": "40",
+      "spec": "Path of The Grenadier",
+      "minrank": "25",
       "cost": "55 Action Points",
       "range": "Self",
       "incant": "Instant cast",
@@ -1131,7 +1131,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 15% as long as you are within 100 feet of your turret.",
+      "description": "Increases your chance to critically hit by 15% as long as you are within 20 feet of your turret.",
       "category": "CareerTactic"
     },
     {
@@ -1163,21 +1163,6 @@
       "note": "",
       "description": "You can now construct your turrets instantly and the cost of Redeploy is reduced to 0 Action Points.",
       "category": "CareerTactic"
-    },
-    {
-      "image": "abi_dw_gun01",
-      "id": 2870,
-      "name": "Armor-piercing Rounds",
-      "type": "Buff",
-      "spec": "Path of The Rifleman",
-      "minrank": "29",
-      "cost": "25 Action Points",
-      "range": "Self",
-      "incant": "Instant cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "You load your rifle with the finest of rounds, your attacks will ignore 25% the victim's armor for the next 12 seconds.",
-      "category": "Ability"
     },
     {
       "image": "abi_dw_explosion01",
