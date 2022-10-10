@@ -34,9 +34,6 @@ type Props = {
   masteryTactics: State['masteryTactics'];
   masteryMorales: State['masteryMorales'];
   currentPoints: State['currentPoints'];
-  pathMeterA: State['pathMeterA'];
-  pathMeterB: State['pathMeterB'];
-  pathMeterC: State['pathMeterC'];
   selectedTactics: State['selectedTactics'];
   selectedMorale4: State['selectedMorale4'];
   data: Ability;
@@ -394,9 +391,6 @@ function mapStateToProps({
   masteryTactics,
   masteryMorales,
   currentPoints,
-  pathMeterA,
-  pathMeterB,
-  pathMeterC,
   selectedTactics,
   selectedMorale4,
 }: State) {
@@ -405,9 +399,6 @@ function mapStateToProps({
     masteryTactics,
     masteryMorales,
     currentPoints,
-    pathMeterA,
-    pathMeterB,
-    pathMeterC,
     selectedTactics,
     selectedMorale4,
   };
