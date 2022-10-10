@@ -75,7 +75,6 @@
     {
       "image": "22712",
       "id": 839,
-      "gameId": 839,
       "name": "Alignment of Naggaroth",
       "type": "Buff",
       "spec": "Core Ability",
@@ -91,7 +90,6 @@
     {
       "image": "23150",
       "id": 697,
-      "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
       "spec": "Core Ability",
@@ -107,7 +105,6 @@
     {
       "image": "22712",
       "id": 840,
-      "gameId": 840,
       "name": "Bathing In Blood",
       "type": "Buff",
       "spec": "Core Ability",
@@ -123,7 +120,6 @@
     {
       "image": "22694",
       "id": 9601,
-      "gameId": 9601,
       "name": "Bleed Out",
       "type": "Buff",
       "spec": "Core Ability",
@@ -139,7 +135,6 @@
     {
       "image": "10949",
       "id": 9561,
-      "gameId": 9561,
       "name": "Blood Offering",
       "type": "Buff",
       "spec": "Core Ability",
@@ -155,7 +150,6 @@
     {
       "image": "22709",
       "id": 9598,
-      "gameId": 9598,
       "name": "Bloodthirst",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -171,7 +165,6 @@
     {
       "image": "22706",
       "id": 9585,
-      "gameId": 9585,
       "name": "Bound by Blood",
       "type": "Buff",
       "spec": "Core Ability",
@@ -187,7 +180,6 @@
     {
       "image": "10967",
       "id": 9618,
-      "gameId": 9618,
       "name": "Chant of Pain",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -203,7 +195,6 @@
     {
       "image": "10939",
       "id": 9552,
-      "gameId": 9552,
       "name": "Cleave Soul",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -219,7 +210,6 @@
     {
       "image": "05188",
       "id": 9569,
-      "gameId": 9569,
       "name": "Consume Enchantment",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -235,7 +225,6 @@
     {
       "image": "10948",
       "id": 9560,
-      "gameId": 9560,
       "name": "Consume Strength",
       "type": "Curse",
       "spec": "Path of Sacrifice",
@@ -251,7 +240,6 @@
     {
       "image": "10953",
       "id": 9565,
-      "gameId": 9565,
       "name": "Consume Thought",
       "type": "Curse",
       "spec": "Path of Sacrifice",
@@ -267,7 +255,6 @@
     {
       "image": "10947",
       "id": 9559,
-      "gameId": 9559,
       "name": "Covenant of Celerity",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -283,7 +270,6 @@
     {
       "image": "10951",
       "id": 9563,
-      "gameId": 9563,
       "name": "Covenant of Tenacity",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -299,7 +285,6 @@
     {
       "image": "10955",
       "id": 9567,
-      "gameId": 9567,
       "name": "Covenant of Vitality",
       "type": "Buff",
       "spec": "Path of Sacrifice",
@@ -315,7 +300,6 @@
     {
       "image": "22706",
       "id": 9602,
-      "gameId": 9602,
       "name": "Curse of Khaine",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -331,7 +315,6 @@
     {
       "image": "22712",
       "id": 841,
-      "gameId": 841,
       "name": "Dark Blessings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -347,7 +330,6 @@
     {
       "image": "10958",
       "id": 9578,
-      "gameId": 9578,
       "name": "Devour Essence",
       "type": "Blessing",
       "spec": "Path of Sacrifice",
@@ -363,7 +345,6 @@
     {
       "image": "22706",
       "id": 592,
-      "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
@@ -379,7 +360,6 @@
     {
       "image": "23151",
       "id": 694,
-      "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
       "spec": "Core Ability",
@@ -395,7 +375,6 @@
     {
       "image": "22703",
       "id": 585,
-      "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -411,7 +390,6 @@
     {
       "image": "23152",
       "id": 696,
-      "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -427,7 +405,6 @@
     {
       "image": "22708",
       "id": 9597,
-      "gameId": 9597,
       "name": "Efficient Patching",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -443,7 +420,6 @@
     {
       "image": "22706",
       "id": 2959,
-      "gameId": 2959,
       "name": "Empowered Transfer",
       "type": "Buff",
       "spec": "Path of Sacrifice",
@@ -459,7 +435,6 @@
     {
       "image": "10954",
       "id": 9566,
-      "gameId": 9566,
       "name": "Essence Lash",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -475,7 +450,6 @@
     {
       "image": "10950",
       "id": 2935,
-      "gameId": 2935,
       "name": "Fell Sacrifice",
       "type": "Curse",
       "spec": "Path of Torture",
@@ -491,7 +465,6 @@
     {
       "image": "10934",
       "id": 9568,
-      "gameId": 9568,
       "name": "Fist of Khaine",
       "type": "Damaging",
       "spec": "Path of Dark Rites",
@@ -507,7 +480,6 @@
     {
       "image": "10936",
       "id": 9549,
-      "gameId": 9549,
       "name": "Flay",
       "type": "Curse",
       "spec": "Path of Torture",
@@ -523,7 +495,6 @@
     {
       "image": "05004",
       "id": 245,
-      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -539,7 +510,6 @@
     {
       "image": "23153",
       "id": 695,
-      "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -555,7 +525,6 @@
     {
       "image": "22708",
       "id": 9587,
-      "gameId": 9587,
       "name": "Fueled Actions",
       "type": "Buff",
       "spec": "Core Ability",
@@ -571,7 +540,6 @@
     {
       "image": "22712",
       "id": 9603,
-      "gameId": 9603,
       "name": "Gift of Khaine",
       "type": "Buff",
       "spec": "Path of Sacrifice",
@@ -587,7 +555,6 @@
     {
       "image": "22708",
       "id": 9599,
-      "gameId": 9599,
       "name": "Horrifying Offering",
       "type": "Buff",
       "spec": "Path of Sacrifice",
@@ -603,7 +570,6 @@
     {
       "image": "22702",
       "id": 9588,
-      "gameId": 9588,
       "name": "Khaine's Blessing",
       "type": "Buff",
       "spec": "Core Ability",
@@ -619,7 +585,6 @@
     {
       "image": "22702",
       "id": 9595,
-      "gameId": 9595,
       "name": "Khaine's Bounty",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -635,7 +600,6 @@
     {
       "image": "10945",
       "id": 9557,
-      "gameId": 9557,
       "name": "Khaine's Embrace",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -651,7 +615,6 @@
     {
       "image": "22708",
       "id": 9584,
-      "gameId": 9584,
       "name": "Khaine's Imbuement",
       "type": "Buff",
       "spec": "Core Ability",
@@ -667,7 +630,6 @@
     {
       "image": "abi_de_blackhorror",
       "id": 9553,
-      "gameId": 9553,
       "name": "Khaine's Invigoration",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -683,7 +645,6 @@
     {
       "image": "11002",
       "id": 9579,
-      "gameId": 9579,
       "name": "Khaine's Refreshment",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -699,7 +660,6 @@
     {
       "image": "10956",
       "id": 9573,
-      "gameId": 9573,
       "name": "Khaine's Vigor",
       "type": "Blessing",
       "spec": "Path of Dark Rites",
@@ -715,7 +675,6 @@
     {
       "image": "10989",
       "id": 9607,
-      "gameId": 9607,
       "name": "Khaine's Withdrawal",
       "type": "Buff",
       "spec": "Core Ability",
@@ -731,7 +690,6 @@
     {
       "image": "10938",
       "id": 9551,
-      "gameId": 9551,
       "name": "Lacerate",
       "type": "Curse",
       "spec": "Path of Torture",
@@ -747,7 +705,6 @@
     {
       "image": "10962",
       "id": 9605,
-      "gameId": 9605,
       "name": "Life's End",
       "type": "Healing",
       "spec": "Core Ability",
@@ -763,7 +720,6 @@
     {
       "image": "22704",
       "id": 9586,
-      "gameId": 9586,
       "name": "Murderous Intent",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -779,7 +735,6 @@
     {
       "image": "10944",
       "id": 9556,
-      "gameId": 9556,
       "name": "Patch Wounds",
       "type": "Healing",
       "spec": "Core Ability",
@@ -795,7 +750,6 @@
     {
       "image": "11004",
       "id": 9581,
-      "gameId": 9581,
       "name": "Pillage Essence",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -811,7 +765,6 @@
     {
       "image": "22694",
       "id": 9590,
-      "gameId": 9590,
       "name": "Potent Covenants",
       "type": "Buff",
       "spec": "Core Ability",
@@ -827,7 +780,6 @@
     {
       "image": "23154",
       "id": 692,
-      "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -843,7 +795,6 @@
     {
       "image": "10941",
       "id": 9554,
-      "gameId": 9554,
       "name": "Rend Soul",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -859,7 +810,6 @@
     {
       "image": "22694",
       "id": 589,
-      "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
       "spec": "Core Ability",
@@ -875,7 +825,6 @@
     {
       "image": "10935",
       "id": 9548,
-      "gameId": 9548,
       "name": "Restore Essence",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -891,7 +840,6 @@
     {
       "image": "22709",
       "id": 9596,
-      "gameId": 9596,
       "name": "Restored Motivation",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -907,7 +855,6 @@
     {
       "image": "11003",
       "id": 9580,
-      "gameId": 9580,
       "name": "Sanguinary Extension",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -923,7 +870,6 @@
     {
       "image": "10937",
       "id": 9550,
-      "gameId": 9550,
       "name": "Soul Infusion",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -939,7 +885,6 @@
     {
       "image": "10957",
       "id": 9574,
-      "gameId": 9574,
       "name": "Soul Shielding",
       "type": "Blessing",
       "spec": "Path of Dark Rites",
@@ -955,7 +900,6 @@
     {
       "image": "10946",
       "id": 9558,
-      "gameId": 9558,
       "name": "Stand, Coward!",
       "type": "Healing",
       "spec": "Core Ability",
@@ -971,7 +915,6 @@
     {
       "image": "23155",
       "id": 690,
-      "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -987,7 +930,6 @@
     {
       "image": "22709",
       "id": 588,
-      "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1003,7 +945,6 @@
     {
       "image": "10942",
       "id": 9555,
-      "gameId": 9555,
       "name": "Terrifying Vision",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1019,7 +960,6 @@
     {
       "image": "10965",
       "id": 9616,
-      "gameId": 9616,
       "name": "Thousand and One Dark Blessings",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -1035,7 +975,6 @@
     {
       "image": "10961",
       "id": 2932,
-      "gameId": 2932,
       "name": "Transfer Essence",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -1051,7 +990,6 @@
     {
       "image": "22706",
       "id": 9589,
-      "gameId": 9589,
       "name": "Transferred Focus",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1067,7 +1005,6 @@
     {
       "image": "10952",
       "id": 9564,
-      "gameId": 9564,
       "name": "Uncaring Dismissal",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1083,7 +1020,6 @@
     {
       "image": "10963",
       "id": 9606,
-      "gameId": 9606,
       "name": "Universal Confusion",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1099,7 +1035,6 @@
     {
       "image": "10966",
       "id": 9617,
-      "gameId": 9617,
       "name": "Vision of Torment",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -1115,7 +1050,6 @@
     {
       "image": "10960",
       "id": 9577,
-      "gameId": 9577,
       "name": "Warding Strike",
       "type": "Curse",
       "spec": "Path of Sacrifice",
@@ -1131,7 +1065,6 @@
     {
       "image": "10959",
       "id": 9576,
-      "gameId": 9576,
       "name": "Wracking Agony",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -1147,7 +1080,6 @@
     {
       "image": "abi_de_reapingscythe",
       "id": 2934,
-      "gameId": 2934,
       "name": "Execute",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -1163,7 +1095,6 @@
     {
       "image": "11045",
       "id": 2938,
-      "gameId": 2938,
       "name": "Drowning in Blood",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -1179,7 +1110,6 @@
     {
       "image": "11043",
       "id": 2952,
-      "gameId": 2952,
       "name": "Soul Ward",
       "type": "Defensive",
       "spec": "Path of Sacrifice",
@@ -1195,7 +1125,6 @@
     {
       "image": "11033",
       "id": 2941,
-      "gameId": 2941,
       "name": "Blood of my Blood",
       "type": "Defensive",
       "spec": "Path of Sacrifice",
@@ -1211,7 +1140,6 @@
     {
       "image": "11018",
       "id": 2953,
-      "gameId": 2953,
       "name": "Blood Guard",
       "type": "Blessing",
       "spec": "Path of Sacrifice",
@@ -1227,7 +1155,6 @@
     {
       "image": "10940",
       "id": 2933,
-      "gameId": 2933,
       "name": "Consume Essence",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -1243,7 +1170,6 @@
     {
       "image": "11040",
       "id": 2961,
-      "gameId": 2961,
       "name": "Unyielding Tormentor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1259,7 +1185,6 @@
     {
       "image": "22706",
       "id": 9591,
-      "gameId": 9591,
       "name": "Terrifying Aura",
       "type": "Buff",
       "spec": "Core Ability",

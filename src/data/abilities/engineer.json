@@ -72,7 +72,6 @@
     {
       "image": "04477",
       "id": 2887,
-      "gameId": 2887,
       "name": "Fragmentation Grenade",
       "type": "Hex",
       "spec": "Path of The Grenadier",
@@ -88,7 +87,6 @@
     {
       "image": "04604",
       "id": 1514,
-      "gameId": 1514,
       "name": "Acid Bomb",
       "type": "Hex",
       "spec": "Path of The Grenadier",
@@ -104,7 +102,6 @@
     {
       "image": "04605",
       "id": 1516,
-      "gameId": 1516,
       "name": "Addling Shot",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -120,7 +117,6 @@
     {
       "image": "22711",
       "id": 716,
-      "gameId": 716,
       "name": "Ancestral Inheritance",
       "type": "Buff",
       "spec": "Core Ability",
@@ -136,7 +132,6 @@
     {
       "image": "04620",
       "id": 1575,
-      "gameId": 1575,
       "name": "Armored Plating",
       "type": "Buff",
       "spec": "Core Ability",
@@ -152,7 +147,6 @@
     {
       "image": "04456",
       "id": 1581,
-      "gameId": 1581,
       "name": "Artillery Barrage",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -168,7 +162,6 @@
     {
       "image": "04619",
       "id": 1574,
-      "gameId": 1574,
       "name": "Autoloader",
       "type": "Buff",
       "spec": "Core Ability",
@@ -184,7 +177,6 @@
     {
       "image": "22706",
       "id": 1562,
-      "gameId": 1562,
       "name": "Dazzling Flash",
       "type": "Buff",
       "spec": "Path of The Grenadier",
@@ -200,7 +192,6 @@
     {
       "image": "04566",
       "id": 1519,
-      "gameId": 1519,
       "name": "Barbed Wire",
       "type": "Hex",
       "spec": "Core Ability",
@@ -216,7 +207,6 @@
     {
       "image": "04606",
       "id": 1517,
-      "gameId": 1517,
       "name": "Blunderbuss Blast",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -232,7 +222,6 @@
     {
       "image": "23411",
       "id": 14406,
-      "gameId": 14406,
       "name": "Bolster War Engine",
       "type": "Buff",
       "spec": "Core Ability",
@@ -248,7 +237,6 @@
     {
       "image": "04607",
       "id": 1518,
-      "gameId": 1518,
       "name": "Bombardment Turret",
       "type": "Buff",
       "spec": "Core Ability",
@@ -264,7 +252,6 @@
     {
       "image": "04568",
       "id": 1544,
-      "gameId": 1544,
       "name": "Bugman's Best",
       "type": "Healing",
       "spec": "Path of The Tinkerer",
@@ -280,7 +267,6 @@
     {
       "image": "04649",
       "id": 1529,
-      "gameId": 1529,
       "name": "Burn Salve",
       "type": "Enchantment",
       "spec": "Path of The Tinkerer",
@@ -296,7 +282,6 @@
     {
       "image": "04621",
       "id": 1576,
-      "gameId": 1576,
       "name": "Cannon Smash",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -312,7 +297,6 @@
     {
       "image": "22698",
       "id": 549,
-      "gameId": 549,
       "name": "Clever Recovery",
       "type": "Buff",
       "spec": "Core Ability",
@@ -328,7 +312,6 @@
     {
       "image": "23162",
       "id": 652,
-      "gameId": 652,
       "name": "Concealment",
       "type": "Buff",
       "spec": "Core Ability",
@@ -344,7 +327,6 @@
     {
       "image": "04616",
       "id": 1531,
-      "gameId": 1531,
       "name": "Concussion Grenade",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -360,7 +342,6 @@
     {
       "image": "22708",
       "id": 1549,
-      "gameId": 1549,
       "name": "Magnetic Repair",
       "type": "Buff",
       "spec": "Core Ability",
@@ -376,7 +357,6 @@
     {
       "image": "22709",
       "id": 1555,
-      "gameId": 1555,
       "name": "Coordinated Fire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -392,7 +372,6 @@
     {
       "image": "04614",
       "id": 1536,
-      "gameId": 1536,
       "name": "Crack Shot",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -408,7 +387,6 @@
     {
       "image": "23406",
       "id": 14408,
-      "gameId": 14408,
       "name": "Diminish War Engine",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -424,7 +402,6 @@
     {
       "image": "04654",
       "id": 1542,
-      "gameId": 1542,
       "name": "Electromagnet",
       "type": "Debuff",
       "spec": "Path of The Tinkerer",
@@ -440,7 +417,6 @@
     {
       "image": "22694",
       "id": 544,
-      "gameId": 544,
       "name": "Expert Skirmisher",
       "type": "Buff",
       "spec": "Core Ability",
@@ -456,7 +432,6 @@
     {
       "image": "23163",
       "id": 650,
-      "gameId": 650,
       "name": "Explosive Shots",
       "type": "Buff",
       "spec": "Core Ability",
@@ -472,7 +447,6 @@
     {
       "image": "22698",
       "id": 1551,
-      "gameId": 1551,
       "name": "Extra Ammo",
       "type": "Buff",
       "spec": "Path of The Tinkerer",
@@ -488,7 +462,6 @@
     {
       "image": "22694",
       "id": 1563,
-      "gameId": 1563,
       "name": "Extra Powder",
       "type": "Buff",
       "spec": "Path of The Grenadier",
@@ -504,7 +477,6 @@
     {
       "image": "22704",
       "id": 1552,
-      "gameId": 1552,
       "name": "Fightin' Chance",
       "type": "Buff",
       "spec": "Core Ability",
@@ -520,7 +492,6 @@
     {
       "image": "04468",
       "id": 1523,
-      "gameId": 1523,
       "name": "Firebomb",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -536,7 +507,6 @@
     {
       "image": "04620",
       "id": 1527,
-      "gameId": 1527,
       "name": "Flak Jacket",
       "type": "Enchantment",
       "spec": "Core Ability",
@@ -552,7 +522,6 @@
     {
       "image": "04613",
       "id": 1526,
-      "gameId": 1526,
       "name": "Flame Turret",
       "type": "Buff",
       "spec": "Core Ability",
@@ -568,7 +537,6 @@
     {
       "image": "04610",
       "id": 1522,
-      "gameId": 1522,
       "name": "Flashbang Grenade",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -584,7 +552,6 @@
     {
       "image": "05004",
       "id": 245,
-      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -600,7 +567,6 @@
     {
       "image": "04623",
       "id": 1582,
-      "gameId": 1582,
       "name": "Fling Explosives",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -616,7 +582,6 @@
     {
       "image": "04527",
       "id": 1528,
-      "gameId": 1528,
       "name": "Focused Fire",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -632,7 +597,6 @@
     {
       "image": "23153",
       "id": 653,
-      "gameId": 653,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -648,7 +612,6 @@
     {
       "image": "04656",
       "id": 1513,
-      "gameId": 1513,
       "name": "Friction Burn",
       "type": "Hex",
       "spec": "Path of The Tinkerer",
@@ -664,7 +627,6 @@
     {
       "image": "04460",
       "id": 1508,
-      "gameId": 1508,
       "name": "Gun Blast",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -680,7 +642,6 @@
     {
       "image": "04602",
       "id": 1511,
-      "gameId": 1511,
       "name": "Gun Turret",
       "type": "Buff",
       "spec": "Core Ability",
@@ -696,7 +657,6 @@
     {
       "image": "23164",
       "id": 651,
-      "gameId": 651,
       "name": "Hail of Doom",
       "type": "Buff",
       "spec": "Core Ability",
@@ -712,7 +672,6 @@
     {
       "image": "23409",
       "id": 14407,
-      "gameId": 14407,
       "name": "Hamper War Engine",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -728,7 +687,6 @@
     {
       "image": "22697",
       "id": 1550,
-      "gameId": 1550,
       "name": "Hand-Crafted Scope",
       "type": "Buff",
       "spec": "Core Ability",
@@ -744,7 +702,6 @@
     {
       "image": "04608",
       "id": 1520,
-      "gameId": 1520,
       "name": "Hip Shot",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -760,7 +717,6 @@
     {
       "image": "22697",
       "id": 1560,
-      "gameId": 1560,
       "name": "Hollow-Points",
       "type": "Buff",
       "spec": "Path of The Rifleman",
@@ -776,7 +732,6 @@
     {
       "image": "04457",
       "id": 1515,
-      "gameId": 1515,
       "name": "Incendiary Rounds",
       "type": "Hex",
       "spec": "Path of The Rifleman",
@@ -792,7 +747,6 @@
     {
       "image": "04611",
       "id": 1524,
-      "gameId": 1524,
       "name": "Land Mine",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -808,7 +762,6 @@
     {
       "image": "04655",
       "id": 1543,
-      "gameId": 1543,
       "name": "Lightning Rod",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -824,7 +777,6 @@
     {
       "image": "22697",
       "id": 542,
-      "gameId": 542,
       "name": "Masterful Aim",
       "type": "Buff",
       "spec": "Core Ability",
@@ -840,7 +792,6 @@
     {
       "image": "04653",
       "id": 1537,
-      "gameId": 1537,
       "name": "Napalm Grenade",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -856,7 +807,6 @@
     {
       "image": "abi_dw_explosion01",
       "id": 1541,
-      "gameId": 1541,
       "name": "Phosphorous Shells",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -872,7 +822,6 @@
     {
       "image": "22709",
       "id": 550,
-      "gameId": 550,
       "name": "Pierce Defenses",
       "type": "Buff",
       "spec": "Core Ability",
@@ -888,7 +837,6 @@
     {
       "image": "23165",
       "id": 648,
-      "gameId": 648,
       "name": "Point-Blank",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -904,7 +852,6 @@
     {
       "image": "22694",
       "id": 1553,
-      "gameId": 1553,
       "name": "Proximity Alarm",
       "type": "Buff",
       "spec": "Core Ability",
@@ -920,7 +867,6 @@
     {
       "image": "22704",
       "id": 1559,
-      "gameId": 1559,
       "name": "Quick Reloader",
       "type": "Buff",
       "spec": "Path of The Rifleman",
@@ -936,7 +882,6 @@
     {
       "image": "04652",
       "id": 1532,
-      "gameId": 1532,
       "name": "Redeploy",
       "type": "Buff",
       "spec": "Core Ability",
@@ -952,7 +897,6 @@
     {
       "image": "22694",
       "id": 1548,
-      "gameId": 1548,
       "name": "Reinforced Casing",
       "type": "Buff",
       "spec": "Core Ability",
@@ -968,7 +912,6 @@
     {
       "image": "04622",
       "id": 1580,
-      "gameId": 1580,
       "name": "Scattershot",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -984,7 +927,6 @@
     {
       "image": "04612",
       "id": 1525,
-      "gameId": 1525,
       "name": "Self-Destruct",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1000,7 +942,6 @@
     {
       "image": "04603",
       "id": 1512,
-      "gameId": 1512,
       "name": "Field Repair",
       "type": "Healing",
       "spec": "Core Ability",
@@ -1016,7 +957,6 @@
     {
       "image": "04609",
       "id": 1521,
-      "gameId": 1521,
       "name": "Signal Flare",
       "type": "Hex",
       "spec": "Path of The Rifleman",
@@ -1032,7 +972,6 @@
     {
       "image": "04615",
       "id": 1538,
-      "gameId": 1538,
       "name": "Snipe",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -1048,7 +987,6 @@
     {
       "image": "04466",
       "id": 1509,
-      "gameId": 1509,
       "name": "Spanner Swipe",
       "type": "Hex",
       "spec": "Core Ability",
@@ -1064,7 +1002,6 @@
     {
       "image": "04651",
       "id": 1530,
-      "gameId": 1530,
       "name": "Static Discharge",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -1080,7 +1017,6 @@
     {
       "image": "04476",
       "id": 1539,
-      "gameId": 1539,
       "name": "Sticky Bomb",
       "type": "Hex",
       "spec": "Path of The Grenadier",
@@ -1096,7 +1032,6 @@
     {
       "image": "22708",
       "id": 1561,
-      "gameId": 1561,
       "name": "Stopping Power",
       "type": "Buff",
       "spec": "Path of The Rifleman",
@@ -1112,7 +1047,6 @@
     {
       "image": "22711",
       "id": 713,
-      "gameId": 713,
       "name": "Stoutness of Stone",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1128,7 +1062,6 @@
     {
       "image": "04531",
       "id": 1540,
-      "gameId": 1540,
       "name": "Strafing Run",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -1144,7 +1077,6 @@
     {
       "image": "22711",
       "id": 714,
-      "gameId": 714,
       "name": "Stubbornness",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1160,7 +1092,6 @@
     {
       "image": "22697",
       "id": 1554,
-      "gameId": 1554,
       "name": "Tangling Wire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1176,7 +1107,6 @@
     {
       "image": "22697",
       "id": 1564,
-      "gameId": 1564,
       "name": "Throwing Arm",
       "type": "Buff",
       "spec": "Path of The Grenadier",
@@ -1192,7 +1122,6 @@
     {
       "image": "22697",
       "id": 1566,
-      "gameId": 1566,
       "name": "Tracer Rounds",
       "type": "Buff",
       "spec": "Path of The Tinkerer",
@@ -1208,7 +1137,6 @@
     {
       "image": "22698",
       "id": 1567,
-      "gameId": 1567,
       "name": "Trench Fighting",
       "type": "Buff",
       "spec": "Path of The Tinkerer",
@@ -1224,7 +1152,6 @@
     {
       "image": "22709",
       "id": 1565,
-      "gameId": 1565,
       "name": "Well-Oiled Machine",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1240,7 +1167,6 @@
     {
       "image": "abi_dw_gun01",
       "id": 2870,
-      "gameId": 2870,
       "name": "Armor-piercing Rounds",
       "type": "Buff",
       "spec": "Path of The Rifleman",
@@ -1256,7 +1182,6 @@
     {
       "image": "abi_dw_explosion01",
       "id": 2712,
-      "gameId": 2712,
       "name": "Mortar Round",
       "type": "Damaging",
       "spec": "Core Ability",

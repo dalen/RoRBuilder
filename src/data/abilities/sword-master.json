@@ -71,7 +71,6 @@
     {
       "image": "22704",
       "id": 9053,
-      "gameId": 9053,
       "name": "Adept Movements",
       "type": "Buff",
       "spec": "Core Ability",
@@ -87,7 +86,6 @@
     {
       "image": "13381",
       "id": 9018,
-      "gameId": 9018,
       "name": "Aethyric Grasp",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -103,7 +101,6 @@
     {
       "image": "22709",
       "id": 9062,
-      "gameId": 9062,
       "name": "Balanced Accuracy",
       "type": "Buff",
       "spec": "Path of Khaine",
@@ -119,7 +116,6 @@
     {
       "image": "22705",
       "id": 819,
-      "gameId": 819,
       "name": "Bend the Winds",
       "type": "Buff",
       "spec": "Core Ability",
@@ -135,7 +131,6 @@
     {
       "image": "13393",
       "id": 9058,
-      "gameId": 9058,
       "name": "Bladeshield",
       "type": "Buff",
       "spec": "Core Ability",
@@ -151,7 +146,6 @@
     {
       "image": "22706",
       "id": 2884,
-      "gameId": 2884,
       "name": "Blessing of Heaven",
       "type": "Buff",
       "spec": "Path of Hoeth",
@@ -167,7 +161,6 @@
     {
       "image": "13386",
       "id": 9022,
-      "gameId": 9022,
       "name": "Blurring Shock",
       "type": "Damaging",
       "spec": "Path of Khaine",
@@ -183,7 +176,6 @@
     {
       "image": "22703",
       "id": 9066,
-      "gameId": 9066,
       "name": "Bolstering Enchantments",
       "type": "Buff",
       "spec": "Core Ability",
@@ -199,7 +191,6 @@
     {
       "image": "22694",
       "id": 9070,
-      "gameId": 9070,
       "name": "Calming Winds",
       "type": "Buff",
       "spec": "Path of Hoeth",
@@ -215,7 +206,6 @@
     {
       "image": "22705",
       "id": 818,
-      "gameId": 818,
       "name": "Centuries of Training",
       "type": "Buff",
       "spec": "Core Ability",
@@ -231,7 +221,6 @@
     {
       "image": "13378",
       "id": 9013,
-      "gameId": 9013,
       "name": "Challenge",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -247,7 +236,6 @@
     {
       "image": "23174",
       "id": 608,
-      "gameId": 608,
       "name": "Champion's Challenge",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -263,7 +251,6 @@
     {
       "image": "13383",
       "id": 9028,
-      "gameId": 9028,
       "name": "Crashing Wave",
       "type": "Damaging",
       "spec": "Path of Hoeth",
@@ -279,7 +266,6 @@
     {
       "image": "13385",
       "id": 9027,
-      "gameId": 9027,
       "name": "Crushing Advance",
       "type": "Enchantment",
       "spec": "Path of Vaul",
@@ -295,7 +281,6 @@
     {
       "image": "13304",
       "id": 9019,
-      "gameId": 9019,
       "name": "Dazzling Strike",
       "type": "Hex",
       "spec": "Path of Hoeth",
@@ -311,7 +296,6 @@
     {
       "image": "22701",
       "id": 9068,
-      "gameId": 9068,
       "name": "Deep Incision",
       "type": "Buff",
       "spec": "Path of Khaine",
@@ -327,7 +311,6 @@
     {
       "image": "23172",
       "id": 606,
-      "gameId": 606,
       "name": "Demolishing Strike",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -343,7 +326,6 @@
     {
       "image": "22705",
       "id": 823,
-      "gameId": 823,
       "name": "Discerning Offense",
       "type": "Buff",
       "spec": "Core Ability",
@@ -359,7 +341,6 @@
     {
       "image": "23173",
       "id": 610,
-      "gameId": 610,
       "name": "Distracting Bellow",
       "type": "Buff",
       "spec": "Core Ability",
@@ -375,7 +356,6 @@
     {
       "image": "13301",
       "id": 9006,
-      "gameId": 9006,
       "name": "Dragon's Talon",
       "type": "Hex",
       "spec": "Path of Vaul",
@@ -391,7 +371,6 @@
     {
       "image": "13372",
       "id": 9007,
-      "gameId": 9007,
       "name": "Eagle's Flight",
       "type": "Enchantment",
       "spec": "Path of Vaul",
@@ -407,7 +386,6 @@
     {
       "image": "22701",
       "id": 9045,
-      "gameId": 9045,
       "name": "Ensorcelled Agony",
       "type": "Buff",
       "spec": "Core Ability",
@@ -423,7 +401,6 @@
     {
       "image": "13375",
       "id": 9010,
-      "gameId": 9010,
       "name": "Ensorcelled Blow",
       "type": "Hex",
       "spec": "Path of Hoeth",
@@ -439,7 +416,6 @@
     {
       "image": "13384",
       "id": 9026,
-      "gameId": 9026,
       "name": "Ether Dance",
       "type": "Damaging",
       "spec": "Path of Khaine",
@@ -455,7 +431,6 @@
     {
       "image": "05004",
       "id": 245,
-      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -471,7 +446,6 @@
     {
       "image": "22701",
       "id": 500,
-      "gameId": 500,
       "name": "Focused Offense",
       "type": "Buff",
       "spec": "Core Ability",
@@ -487,7 +461,6 @@
     {
       "image": "13302",
       "id": 9002,
-      "gameId": 9002,
       "name": "Graceful Strike",
       "type": "Hex",
       "spec": "Path of Vaul",
@@ -503,7 +476,6 @@
     {
       "image": "22709",
       "id": 9063,
-      "gameId": 9063,
       "name": "Great Weapon Mastery",
       "type": "Buff",
       "spec": "Path of Khaine",
@@ -519,7 +491,6 @@
     {
       "image": "13389",
       "id": 9031,
-      "gameId": 9031,
       "name": "Gryphon's Lash",
       "type": "Damaging",
       "spec": "Path of Khaine",
@@ -535,7 +506,6 @@
     {
       "image": "13373",
       "id": 9008,
-      "gameId": 9008,
       "name": "Guard",
       "type": "Buff",
       "spec": "Core Ability",
@@ -551,7 +521,6 @@
     {
       "image": "13391",
       "id": 9056,
-      "gameId": 9056,
       "name": "Guard of Steel",
       "type": "Buff",
       "spec": "Core Ability",
@@ -567,7 +536,6 @@
     {
       "image": "13377",
       "id": 9012,
-      "gameId": 9012,
       "name": "Gusting Wind",
       "type": "Damaging",
       "spec": "Path of Hoeth",
@@ -583,7 +551,6 @@
     {
       "image": "13379",
       "id": 9015,
-      "gameId": 9015,
       "name": "Heaven's Blade",
       "type": "Buff",
       "spec": "Path of Hoeth",
@@ -599,7 +566,6 @@
     {
       "image": "13334",
       "id": 9023,
-      "gameId": 9023,
       "name": "Hold The Line!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -615,7 +581,6 @@
     {
       "image": "23175",
       "id": 613,
-      "gameId": 613,
       "name": "Immaculate Defense",
       "type": "Buff",
       "spec": "Core Ability",
@@ -631,7 +596,6 @@
     {
       "image": "22705",
       "id": 9050,
-      "gameId": 9050,
       "name": "Impeccable Reactions",
       "type": "Buff",
       "spec": "Core Ability",
@@ -647,7 +611,6 @@
     {
       "image": "13376",
       "id": 9011,
-      "gameId": 9011,
       "name": "Intimidating Blow",
       "type": "Hex",
       "spec": "Path of Vaul",
@@ -663,7 +626,6 @@
     {
       "image": "22706",
       "id": 9043,
-      "gameId": 9043,
       "name": "Isha's Protection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -679,7 +641,6 @@
     {
       "image": "13338",
       "id": 9016,
-      "gameId": 9016,
       "name": "Juggernaut",
       "type": "Buff",
       "spec": "Core Ability",
@@ -695,7 +656,6 @@
     {
       "image": "22704",
       "id": 9065,
-      "gameId": 9065,
       "name": "Lingering Intimidation",
       "type": "Buff",
       "spec": "Core Ability",
@@ -711,7 +671,6 @@
     {
       "image": "22709",
       "id": 504,
-      "gameId": 504,
       "name": "Menace",
       "type": "Buff",
       "spec": "Core Ability",
@@ -727,7 +686,6 @@
     {
       "image": "13374",
       "id": 9009,
-      "gameId": 9009,
       "name": "Nature's Blade",
       "type": "Buff",
       "spec": "Path of Khaine",
@@ -743,7 +701,6 @@
     {
       "image": "22702",
       "id": 9064,
-      "gameId": 9064,
       "name": "Perfect Defenses",
       "type": "Buff",
       "spec": "Path of Vaul",
@@ -759,7 +716,6 @@
     {
       "image": "13382",
       "id": 9020,
-      "gameId": 9020,
       "name": "Phantom's Blade",
       "type": "Buff",
       "spec": "Path of Vaul",
@@ -775,7 +731,6 @@
     {
       "image": "13303",
       "id": 9025,
-      "gameId": 9025,
       "name": "Phoenix's Wing",
       "type": "Damaging",
       "spec": "Path of Khaine",
@@ -791,7 +746,6 @@
     {
       "image": "22698",
       "id": 9052,
-      "gameId": 9052,
       "name": "Poised Attacks",
       "type": "Buff",
       "spec": "Core Ability",
@@ -807,7 +761,6 @@
     {
       "image": "22708",
       "id": 9047,
-      "gameId": 9047,
       "name": "Potent Enchantments",
       "type": "Buff",
       "spec": "Core Ability",
@@ -823,7 +776,6 @@
     {
       "image": "13387",
       "id": 9029,
-      "gameId": 9029,
       "name": "Protection of Hoeth",
       "type": "Enchantment",
       "spec": "Path of Hoeth",
@@ -839,7 +791,6 @@
     {
       "image": "13370",
       "id": 9004,
-      "gameId": 9004,
       "name": "Quick Incision",
       "type": "Hex",
       "spec": "Path of Khaine",
@@ -855,7 +806,6 @@
     {
       "image": "23176",
       "id": 607,
-      "gameId": 607,
       "name": "Raze",
       "type": "Buff",
       "spec": "Core Ability",
@@ -871,7 +821,6 @@
     {
       "image": "13394",
       "id": 9032,
-      "gameId": 9032,
       "name": "Redirected Force",
       "type": "Damaging",
       "spec": "Path of Vaul",
@@ -887,7 +836,6 @@
     {
       "image": "22702",
       "id": 503,
-      "gameId": 503,
       "name": "Rugged",
       "type": "Buff",
       "spec": "Core Ability",
@@ -903,7 +851,6 @@
     {
       "image": "13300",
       "id": 9014,
-      "gameId": 9014,
       "name": "Sapping Strike",
       "type": "Hex",
       "spec": "Path of Khaine",
@@ -919,7 +866,6 @@
     {
       "image": "13397",
       "id": 9076,
-      "gameId": 9076,
       "name": "Shadow Blades",
       "type": "Damaging",
       "spec": "Path of Hoeth",
@@ -935,7 +881,6 @@
     {
       "image": "02497",
       "id": 9034,
-      "gameId": 9034,
       "name": "Shatter Enchantment",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -951,7 +896,6 @@
     {
       "image": "13396",
       "id": 9075,
-      "gameId": 9075,
       "name": "Shield of Valor",
       "type": "Buff",
       "spec": "Path of Vaul",
@@ -967,7 +911,6 @@
     {
       "image": "23177",
       "id": 611,
-      "gameId": 611,
       "name": "Shield Wall",
       "type": "Buff",
       "spec": "Core Ability",
@@ -983,7 +926,6 @@
     {
       "image": "13330",
       "id": 9035,
-      "gameId": 9035,
       "name": "Sudden Shift",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -999,7 +941,6 @@
     {
       "image": "13371",
       "id": 9005,
-      "gameId": 9005,
       "name": "Taunt",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1015,7 +956,6 @@
     {
       "image": "13369",
       "id": 9003,
-      "gameId": 9003,
       "name": "Throw",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1031,7 +971,6 @@
     {
       "image": "22694",
       "id": 505,
-      "gameId": 505,
       "name": "Unstoppable Juggernaut",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1047,7 +986,6 @@
     {
       "image": "22706",
       "id": 9069,
-      "gameId": 9069,
       "name": "Vaul's Buffer",
       "type": "Buff",
       "spec": "Path of Vaul",
@@ -1063,7 +1001,6 @@
     {
       "image": "13305",
       "id": 9021,
-      "gameId": 9021,
       "name": "Wall of Darting Steel",
       "type": "Buff",
       "spec": "Path of Khaine",
@@ -1079,7 +1016,6 @@
     {
       "image": "13395",
       "id": 9074,
-      "gameId": 9074,
       "name": "Whirling Geyser",
       "type": "Damaging",
       "spec": "Path of Khaine",
@@ -1095,7 +1031,6 @@
     {
       "image": "13380",
       "id": 9030,
-      "gameId": 9030,
       "name": "Whispering Wind",
       "type": "Hex",
       "spec": "Path of Hoeth",
@@ -1111,7 +1046,6 @@
     {
       "image": "13392",
       "id": 9057,
-      "gameId": 9057,
       "name": "Wings of Heaven",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1127,7 +1061,6 @@
     {
       "image": "13388",
       "id": 9017,
-      "gameId": 9017,
       "name": "Wrath of Hoeth",
       "type": "Damaging",
       "spec": "Path of Hoeth",
@@ -1143,7 +1076,6 @@
     {
       "image": "22708",
       "id": 9049,
-      "gameId": 9049,
       "name": "Raking Talons",
       "type": "Buff",
       "spec": "Path of Vaul",
@@ -1159,7 +1091,6 @@
     {
       "image": "13390",
       "id": 9033,
-      "gameId": 9033,
       "name": "Vaul's Tempering",
       "type": "Enchantment",
       "spec": "Path of Vaul",
@@ -1175,7 +1106,6 @@
     {
       "image": "22709",
       "id": 9044,
-      "gameId": 9044,
       "name": "Blinding Strike",
       "type": "Buff",
       "spec": "Path of Hoeth",

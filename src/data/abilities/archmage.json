@@ -71,7 +71,6 @@
     {
       "image": "23150",
       "id": 697,
-      "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
       "spec": "Core Ability",
@@ -87,7 +86,6 @@
     {
       "image": "13368",
       "id": 9304,
-      "gameId": 9304,
       "name": "Arcane Suppression",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -103,7 +101,6 @@
     {
       "image": "22706",
       "id": 9295,
-      "gameId": 9295,
       "name": "Arcing Power",
       "type": "Buff",
       "spec": "Path of Vaul",
@@ -119,7 +116,6 @@
     {
       "image": "13463",
       "id": 2300,
-      "gameId": 2300,
       "name": "Balance Essence",
       "type": "Damaging",
       "spec": "Path of Vaul",
@@ -135,7 +131,6 @@
     {
       "image": "22705",
       "id": 819,
-      "gameId": 819,
       "name": "Bend the Winds",
       "type": "Buff",
       "spec": "Core Ability",
@@ -151,7 +146,6 @@
     {
       "image": "13349",
       "id": 9245,
-      "gameId": 9245,
       "name": "Blessing of Isha",
       "type": "Healing",
       "spec": "Path of Isha",
@@ -167,7 +161,6 @@
     {
       "image": "13367",
       "id": 9303,
-      "gameId": 9303,
       "name": "Blinding Light",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -183,7 +176,6 @@
     {
       "image": "22708",
       "id": 9288,
-      "gameId": 9288,
       "name": "Bolstering Boon",
       "type": "Buff",
       "spec": "Path of Isha",
@@ -199,7 +191,6 @@
     {
       "image": "13346",
       "id": 9242,
-      "gameId": 9242,
       "name": "Boon of Hysh",
       "type": "Healing",
       "spec": "Path of Isha",
@@ -215,7 +206,6 @@
     {
       "image": "22705",
       "id": 818,
-      "gameId": 818,
       "name": "Centuries of Training",
       "type": "Buff",
       "spec": "Core Ability",
@@ -231,7 +221,6 @@
     {
       "image": "13362",
       "id": 9266,
-      "gameId": 9266,
       "name": "Cleansing Flare",
       "type": "Damaging",
       "spec": "Path of Asuryan",
@@ -247,7 +236,6 @@
     {
       "image": "13348",
       "id": 9244,
-      "gameId": 9244,
       "name": "Cleansing Light",
       "type": "Healing",
       "spec": "Path of Isha",
@@ -263,7 +251,6 @@
     {
       "image": "22706",
       "id": 2750,
-      "gameId": 2750,
       "name": "Desperation",
       "type": "Buff",
       "spec": "Core Ability",
@@ -279,7 +266,6 @@
     {
       "image": "22705",
       "id": 823,
-      "gameId": 823,
       "name": "Discerning Offense",
       "type": "Buff",
       "spec": "Core Ability",
@@ -295,7 +281,6 @@
     {
       "image": "22706",
       "id": 592,
-      "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
@@ -311,7 +296,6 @@
     {
       "image": "22704",
       "id": 9290,
-      "gameId": 9290,
       "name": "Dispel Magic",
       "type": "Damaging",
       "spec": "Path of Asuryan",
@@ -327,7 +311,6 @@
     {
       "image": "13336",
       "id": 9271,
-      "gameId": 9271,
       "name": "Dissipating Energies",
       "type": "Enchantment",
       "spec": "Path of Asuryan",
@@ -343,7 +326,6 @@
     {
       "image": "13358",
       "id": 9256,
-      "gameId": 9256,
       "name": "Dissipating Hatred",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -359,7 +341,6 @@
     {
       "image": "23151",
       "id": 694,
-      "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
       "spec": "Core Ability",
@@ -375,7 +356,6 @@
     {
       "image": "22703",
       "id": 585,
-      "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -391,7 +371,6 @@
     {
       "image": "23152",
       "id": 696,
-      "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -407,7 +386,6 @@
     {
       "image": "13353",
       "id": 9249,
-      "gameId": 9249,
       "name": "Drain Magic",
       "type": "Hex",
       "spec": "Core Ability",
@@ -423,7 +401,6 @@
     {
       "image": "22703",
       "id": 9276,
-      "gameId": 9276,
       "name": "Empowered Lores",
       "type": "Buff",
       "spec": "Core Ability",
@@ -439,7 +416,6 @@
     {
       "image": "23418",
       "id": 2302,
-      "gameId": 2302,
       "name": "Energy of Vaul",
       "type": "Damaging",
       "spec": "Path of Vaul",
@@ -455,7 +431,6 @@
     {
       "image": "13415",
       "id": 9309,
-      "gameId": 9309,
       "name": "Flames of the Phoenix",
       "type": "Damaging",
       "spec": "Path of Asuryan",
@@ -471,7 +446,6 @@
     {
       "image": "05004",
       "id": 245,
-      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -487,7 +461,6 @@
     {
       "image": "23153",
       "id": 695,
-      "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -503,7 +476,6 @@
     {
       "image": "22703",
       "id": 9289,
-      "gameId": 9289,
       "name": "Radiant Burst",
       "type": "Buff",
       "spec": "Path of Asuryan",
@@ -519,7 +491,6 @@
     {
       "image": "13459",
       "id": 9310,
-      "gameId": 9310,
       "name": "Funnel Energy",
       "type": "Buff",
       "spec": "Path of Vaul",
@@ -535,7 +506,6 @@
     {
       "image": "13347",
       "id": 9258,
-      "gameId": 9258,
       "name": "Funnel Essence",
       "type": "Healing",
       "spec": "Path of Isha",
@@ -551,7 +521,6 @@
     {
       "image": "13363",
       "id": 9267,
-      "gameId": 9267,
       "name": "Fury of Asuryan",
       "type": "Damaging",
       "spec": "Path of Asuryan",
@@ -567,7 +536,6 @@
     {
       "image": "13350",
       "id": 9246,
-      "gameId": 9246,
       "name": "Gift of Life",
       "type": "Healing",
       "spec": "Core Ability",
@@ -583,7 +551,6 @@
     {
       "image": "22713",
       "id": 9292,
-      "gameId": 9292,
       "name": "Golden Aura",
       "type": "Buff",
       "spec": "Path of Vaul",
@@ -599,7 +566,6 @@
     {
       "image": "13340",
       "id": 9236,
-      "gameId": 9236,
       "name": "Healing Energy",
       "type": "Enchantment",
       "spec": "Path of Isha",
@@ -615,7 +581,6 @@
     {
       "image": "22703",
       "id": 9279,
-      "gameId": 9279,
       "name": "Hurried Restore",
       "type": "Buff",
       "spec": "Core Ability",
@@ -631,7 +596,6 @@
     {
       "image": "22705",
       "id": 9277,
-      "gameId": 9277,
       "name": "Isha's Encouragement",
       "type": "Buff",
       "spec": "Core Ability",
@@ -647,7 +611,6 @@
     {
       "image": "13366",
       "id": 2858,
-      "gameId": 2858,
       "name": "Isha's Ward",
       "type": "Buff",
       "spec": "Core Ability",
@@ -663,7 +626,6 @@
     {
       "image": "13342",
       "id": 9238,
-      "gameId": 9238,
       "name": "Lambent Aura",
       "type": "Enchantment",
       "spec": "Core Ability",
@@ -679,7 +641,6 @@
     {
       "image": "13356",
       "id": 9252,
-      "gameId": 9252,
       "name": "Law of Age",
       "type": "Hex",
       "spec": "Path of Vaul",
@@ -695,7 +656,6 @@
     {
       "image": "13343",
       "id": 9239,
-      "gameId": 9239,
       "name": "Law of Conductivity",
       "type": "Hex",
       "spec": "Path of Asuryan",
@@ -711,7 +671,6 @@
     {
       "image": "13357",
       "id": 9253,
-      "gameId": 9253,
       "name": "Law of Gold",
       "type": "Hex",
       "spec": "Path of Vaul",
@@ -727,7 +686,6 @@
     {
       "image": "13413",
       "id": 9272,
-      "gameId": 9272,
       "name": "Magical Infusion",
       "type": "Healing",
       "spec": "Path of Isha",
@@ -743,7 +701,6 @@
     {
       "image": "22704",
       "id": 9280,
-      "gameId": 9280,
       "name": "Master of Force",
       "type": "Buff",
       "spec": "Core Ability",
@@ -759,7 +716,6 @@
     {
       "image": "22706",
       "id": 9278,
-      "gameId": 9278,
       "name": "Master of Tranquility",
       "type": "Buff",
       "spec": "Core Ability",
@@ -775,7 +731,6 @@
     {
       "image": "13355",
       "id": 9251,
-      "gameId": 9251,
       "name": "Mistress of The Marsh",
       "type": "Hex",
       "spec": "Path of Isha",
@@ -791,7 +746,6 @@
     {
       "image": "13352",
       "id": 9248,
-      "gameId": 9248,
       "name": "Prismatic Shield",
       "type": "Enchantment",
       "spec": "Path of Isha",
@@ -807,7 +761,6 @@
     {
       "image": "13360",
       "id": 9264,
-      "gameId": 9264,
       "name": "Radiant Gaze",
       "type": "Hex",
       "spec": "Path of Asuryan",
@@ -823,7 +776,6 @@
     {
       "image": "13341",
       "id": 9237,
-      "gameId": 9237,
       "name": "Radiant Lance",
       "type": "Damaging",
       "spec": "Path of Asuryan",
@@ -839,7 +791,6 @@
     {
       "image": "13344",
       "id": 9240,
-      "gameId": 9240,
       "name": "Rain Lord",
       "type": "Hex",
       "spec": "Path of Vaul",
@@ -855,7 +806,6 @@
     {
       "image": "23154",
       "id": 692,
-      "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -871,7 +821,6 @@
     {
       "image": "22694",
       "id": 589,
-      "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
       "spec": "Core Ability",
@@ -887,7 +836,6 @@
     {
       "image": "22694",
       "id": 9282,
-      "gameId": 9282,
       "name": "Run Between Worlds",
       "type": "Buff",
       "spec": "Core Ability",
@@ -903,7 +851,6 @@
     {
       "image": "13351",
       "id": 9247,
-      "gameId": 9247,
       "name": "Scatter The Winds",
       "type": "Hex",
       "spec": "Path of Asuryan",
@@ -919,7 +866,6 @@
     {
       "image": "13354",
       "id": 9250,
-      "gameId": 9250,
       "name": "Searing Touch",
       "type": "Damaging",
       "spec": "Path of Asuryan",
@@ -935,7 +881,6 @@
     {
       "image": "13364",
       "id": 9268,
-      "gameId": 9268,
       "name": "Shield of Saphery",
       "type": "Enchantment",
       "spec": "Path of Vaul",
@@ -951,7 +896,6 @@
     {
       "image": "23155",
       "id": 690,
-      "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -967,7 +911,6 @@
     {
       "image": "13365",
       "id": 9269,
-      "gameId": 9269,
       "name": "Storm of Cronos",
       "type": "Hex",
       "spec": "Path of Vaul",
@@ -983,7 +926,6 @@
     {
       "image": "22709",
       "id": 588,
-      "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
       "spec": "Core Ability",
@@ -999,7 +941,6 @@
     {
       "image": "13345",
       "id": 9241,
-      "gameId": 9241,
       "name": "Transfer Force",
       "type": "Hex",
       "spec": "Path of Vaul",
@@ -1015,7 +956,6 @@
     {
       "image": "22708",
       "id": 9281,
-      "gameId": 9281,
       "name": "Transfer Magic",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1031,7 +971,6 @@
     {
       "image": "13361",
       "id": 9265,
-      "gameId": 9265,
       "name": "Walk Between Worlds",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1047,7 +986,6 @@
     {
       "image": "22706",
       "id": 9293,
-      "gameId": 9293,
       "name": "Wild Healing",
       "type": "Buff",
       "spec": "Path of Isha",
@@ -1063,7 +1001,6 @@
     {
       "image": "13359",
       "id": 9255,
-      "gameId": 9255,
       "name": "Wind Blast",
       "type": "Hex",
       "spec": "Core Ability",
@@ -1079,7 +1016,6 @@
     {
       "image": "13414",
       "id": 9308,
-      "gameId": 9308,
       "name": "Winds' Protection",
       "type": "Healing",
       "spec": "Path of Isha",
@@ -1095,7 +1031,6 @@
     {
       "image": "22706",
       "id": 9297,
-      "gameId": 9297,
       "name": "Apotheosis",
       "type": "Buff",
       "spec": "Path of Isha",
@@ -1111,7 +1046,6 @@
     {
       "image": "22705",
       "id": 2305,
-      "gameId": 2305,
       "name": "Penetrating Siphon",
       "type": "Buff",
       "spec": "Path of Vaul",
@@ -1127,7 +1061,6 @@
     {
       "image": "22696",
       "id": 2748,
-      "gameId": 2748,
       "name": "Khaine's Touch",
       "type": "Buff",
       "spec": "Path of Asuryan",

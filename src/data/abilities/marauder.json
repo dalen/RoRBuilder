@@ -71,7 +71,6 @@
     {
       "image": "22714",
       "id": 800,
-      "gameId": 800,
       "name": "Backlash",
       "type": "Buff",
       "spec": "Core Ability",
@@ -87,7 +86,6 @@
     {
       "image": "23156",
       "id": 629,
-      "gameId": 629,
       "name": "Broad Swings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -103,7 +101,6 @@
     {
       "image": "22702",
       "id": 8429,
-      "gameId": 8429,
       "name": "Brush Off",
       "type": "Buff",
       "spec": "Core Ability",
@@ -119,7 +116,6 @@
     {
       "image": "22701",
       "id": 521,
-      "gameId": 521,
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
@@ -135,7 +131,6 @@
     {
       "image": "23403",
       "id": 14423,
-      "gameId": 14423,
       "name": "Bypass Defenses",
       "type": "Buff",
       "spec": "Core Ability",
@@ -151,7 +146,6 @@
     {
       "image": "05313",
       "id": 240,
-      "gameId": 240,
       "name": "Charge!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -167,7 +161,6 @@
     {
       "image": "22702",
       "id": 522,
-      "gameId": 522,
       "name": "Close Combat",
       "type": "Buff",
       "spec": "Core Ability",
@@ -183,7 +176,6 @@
     {
       "image": "05204",
       "id": 8423,
-      "gameId": 8423,
       "name": "Concussive Jolt",
       "type": "Damaging",
       "spec": "Path of Monstrosity",
@@ -199,7 +191,6 @@
     {
       "image": "23157",
       "id": 631,
-      "gameId": 631,
       "name": "Confusing Movements",
       "type": "Buff",
       "spec": "Core Ability",
@@ -215,7 +206,6 @@
     {
       "image": "05201",
       "id": 8406,
-      "gameId": 8406,
       "name": "Convulsive Slashing",
       "type": "Damaging",
       "spec": "Path of Brutality",
@@ -231,7 +221,6 @@
     {
       "image": "22701",
       "id": 8441,
-      "gameId": 8441,
       "name": "Corrupted Edge",
       "type": "Buff",
       "spec": "Path of Brutality",
@@ -247,7 +236,6 @@
     {
       "image": "05209",
       "id": 8400,
-      "gameId": 8400,
       "name": "Corruption",
       "type": "Ailment",
       "spec": "Path of Savagery",
@@ -263,7 +251,6 @@
     {
       "image": "22696",
       "id": 8446,
-      "gameId": 8446,
       "name": "Crushing Blows",
       "type": "Buff",
       "spec": "Path of Monstrosity",
@@ -279,7 +266,6 @@
     {
       "image": "05196",
       "id": 8418,
-      "gameId": 8418,
       "name": "Cutting Claw",
       "type": "Ailment",
       "spec": "Path of Savagery",
@@ -295,7 +281,6 @@
     {
       "image": "22706",
       "id": 8440,
-      "gameId": 8440,
       "name": "Deadly Clutch",
       "type": "Buff",
       "spec": "Path of Savagery",
@@ -311,7 +296,6 @@
     {
       "image": "05200",
       "id": 8405,
-      "gameId": 8405,
       "name": "Death Grip",
       "type": "Ailment",
       "spec": "Core Ability",
@@ -327,7 +311,6 @@
     {
       "image": "05191",
       "id": 8396,
-      "gameId": 8396,
       "name": "Debilitate",
       "type": "Damaging",
       "spec": "Path of Brutality",
@@ -343,7 +326,6 @@
     {
       "image": "22701",
       "id": 8431,
-      "gameId": 8431,
       "name": "Deeply Impaled",
       "type": "Buff",
       "spec": "Core Ability",
@@ -359,7 +341,6 @@
     {
       "image": "05199",
       "id": 8409,
-      "gameId": 8409,
       "name": "Demolition",
       "type": "Damaging",
       "spec": "Path of Monstrosity",
@@ -375,7 +356,6 @@
     {
       "image": "05222",
       "id": 8419,
-      "gameId": 8419,
       "name": "Draining Swipe",
       "type": "Ailment",
       "spec": "Path of Savagery",
@@ -391,7 +371,6 @@
     {
       "image": "05208",
       "id": 8456,
-      "gameId": 8456,
       "name": "Energy Ripple",
       "type": "Damaging",
       "spec": "Path of Monstrosity",
@@ -407,7 +386,6 @@
     {
       "image": "22708",
       "id": 8439,
-      "gameId": 8439,
       "name": "Exhaustive Strikes",
       "type": "Buff",
       "spec": "Path of Savagery",
@@ -423,7 +401,6 @@
     {
       "image": "22696",
       "id": 8432,
-      "gameId": 8432,
       "name": "Feeding On Fear",
       "type": "Buff",
       "spec": "Core Ability",
@@ -439,7 +416,6 @@
     {
       "image": "05171",
       "id": 8411,
-      "gameId": 8411,
       "name": "Ferocious Assault",
       "type": "Blessing",
       "spec": "Path of Monstrosity",
@@ -455,7 +431,6 @@
     {
       "image": "05187",
       "id": 8392,
-      "gameId": 8392,
       "name": "Flail",
       "type": "Damaging",
       "spec": "Path of Monstrosity",
@@ -471,7 +446,6 @@
     {
       "image": "05206",
       "id": 8449,
-      "gameId": 8449,
       "name": "Flames of Fate",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -487,7 +461,6 @@
     {
       "image": "22704",
       "id": 523,
-      "gameId": 523,
       "name": "Flanking",
       "type": "Buff",
       "spec": "Core Ability",
@@ -503,7 +476,6 @@
     {
       "image": "05004",
       "id": 245,
-      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -519,7 +491,6 @@
     {
       "image": "23158",
       "id": 628,
-      "gameId": 628,
       "name": "Force of Will",
       "type": "Buff",
       "spec": "Core Ability",
@@ -535,7 +506,6 @@
     {
       "image": "05230",
       "id": 8455,
-      "gameId": 8455,
       "name": "Forked Aggression",
       "type": "Buff",
       "spec": "Path of Brutality",
@@ -551,7 +521,6 @@
     {
       "image": "23159",
       "id": 630,
-      "gameId": 630,
       "name": "Frenzied Slaughter",
       "type": "Buff",
       "spec": "Core Ability",
@@ -567,7 +536,6 @@
     {
       "image": "05193",
       "id": 8398,
-      "gameId": 8398,
       "name": "Gift of Brutality",
       "type": "Buff",
       "spec": "Core Ability",
@@ -583,7 +551,6 @@
     {
       "image": "05198",
       "id": 8403,
-      "gameId": 8403,
       "name": "Gift of Monstrosity",
       "type": "Buff",
       "spec": "Core Ability",
@@ -599,7 +566,6 @@
     {
       "image": "05215",
       "id": 8415,
-      "gameId": 8415,
       "name": "Gift of Release",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -615,7 +581,6 @@
     {
       "image": "05189",
       "id": 8394,
-      "gameId": 8394,
       "name": "Gift of Savagery",
       "type": "Buff",
       "spec": "Core Ability",
@@ -631,7 +596,6 @@
     {
       "image": "05207",
       "id": 8450,
-      "gameId": 8450,
       "name": "Great Fang",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -647,7 +611,6 @@
     {
       "image": "22709",
       "id": 8442,
-      "gameId": 8442,
       "name": "Growing Instability",
       "type": "Buff",
       "spec": "Path of Brutality",
@@ -663,7 +626,6 @@
     {
       "image": "05223",
       "id": 8420,
-      "gameId": 8420,
       "name": "Guillotine",
       "type": "Damaging",
       "spec": "Path of Brutality",
@@ -679,7 +641,6 @@
     {
       "image": "05219",
       "id": 8414,
-      "gameId": 8414,
       "name": "Gut Ripper",
       "type": "Damaging",
       "spec": "Path of Savagery",
@@ -695,7 +656,6 @@
     {
       "image": "22702",
       "id": 8444,
-      "gameId": 8444,
       "name": "Hulking Brute",
       "type": "Buff",
       "spec": "Path of Monstrosity",
@@ -711,7 +671,6 @@
     {
       "image": "05194",
       "id": 8399,
-      "gameId": 8399,
       "name": "Impale",
       "type": "Damaging",
       "spec": "Path of Brutality",
@@ -727,7 +686,6 @@
     {
       "image": "22704",
       "id": 8445,
-      "gameId": 8445,
       "name": "Insane Whispers",
       "type": "Buff",
       "spec": "Path of Monstrosity",
@@ -743,7 +701,6 @@
     {
       "image": "22694",
       "id": 526,
-      "gameId": 526,
       "name": "Jagged Edge",
       "type": "Buff",
       "spec": "Core Ability",
@@ -759,7 +716,6 @@
     {
       "image": "05229",
       "id": 8454,
-      "gameId": 8454,
       "name": "Lashing Power",
       "type": "Buff",
       "spec": "Path of Savagery",
@@ -775,7 +731,6 @@
     {
       "image": "05192",
       "id": 8397,
-      "gameId": 8397,
       "name": "Mouth of Tzeentch",
       "type": "Damaging",
       "spec": "Path of Monstrosity",
@@ -791,7 +746,6 @@
     {
       "image": "05224",
       "id": 8421,
-      "gameId": 8421,
       "name": "Mutated Aggressor",
       "type": "Blessing",
       "spec": "Path of Brutality",
@@ -807,7 +761,6 @@
     {
       "image": "05220",
       "id": 8412,
-      "gameId": 8412,
       "name": "Mutated Energy",
       "type": "Damaging",
       "spec": "Path of Monstrosity",
@@ -823,7 +776,6 @@
     {
       "image": "05267",
       "id": 8408,
-      "gameId": 8408,
       "name": "Mutating Release",
       "type": "Healing",
       "spec": "Core Ability",
@@ -839,7 +791,6 @@
     {
       "image": "22698",
       "id": 8435,
-      "gameId": 8435,
       "name": "Piercing Bite",
       "type": "Buff",
       "spec": "Core Ability",
@@ -855,7 +806,6 @@
     {
       "image": "05218",
       "id": 8413,
-      "gameId": 8413,
       "name": "Pulverize",
       "type": "Ailment",
       "spec": "Path of Brutality",
@@ -871,7 +821,6 @@
     {
       "image": "23160",
       "id": 633,
-      "gameId": 633,
       "name": "Relentless Assault",
       "type": "Buff",
       "spec": "Core Ability",
@@ -887,7 +836,6 @@
     {
       "image": "05190",
       "id": 8395,
-      "gameId": 8395,
       "name": "Rend",
       "type": "Ailment",
       "spec": "Path of Savagery",
@@ -903,7 +851,6 @@
     {
       "image": "22694",
       "id": 8430,
-      "gameId": 8430,
       "name": "Rend Asunder",
       "type": "Buff",
       "spec": "Core Ability",
@@ -919,7 +866,6 @@
     {
       "image": "22702",
       "id": 528,
-      "gameId": 528,
       "name": "Riposte",
       "type": "Buff",
       "spec": "Core Ability",
@@ -935,7 +881,6 @@
     {
       "image": "22701",
       "id": 8438,
-      "gameId": 8438,
       "name": "Scything Talons",
       "type": "Buff",
       "spec": "Path of Savagery",
@@ -951,7 +896,6 @@
     {
       "image": "23161",
       "id": 627,
-      "gameId": 627,
       "name": "Sever Nerve",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -967,7 +911,6 @@
     {
       "image": "22708",
       "id": 8428,
-      "gameId": 8428,
       "name": "Subvert Strength",
       "type": "Buff",
       "spec": "Core Ability",
@@ -983,7 +926,6 @@
     {
       "image": "05216",
       "id": 8401,
-      "gameId": 8401,
       "name": "Tainted Claw",
       "type": "Ailment",
       "spec": "Path of Savagery",
@@ -999,7 +941,6 @@
     {
       "image": "05205",
       "id": 8410,
-      "gameId": 8410,
       "name": "Terrible Embrace",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -1015,7 +956,6 @@
     {
       "image": "05214",
       "id": 8393,
-      "gameId": 8393,
       "name": "Throw Axe",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1031,7 +971,6 @@
     {
       "image": "05226",
       "id": 8424,
-      "gameId": 8424,
       "name": "Thunderous Blow",
       "type": "Ailment",
       "spec": "Path of Savagery",
@@ -1047,7 +986,6 @@
     {
       "image": "05202",
       "id": 8407,
-      "gameId": 8407,
       "name": "Touch of Instability",
       "type": "Ailment",
       "spec": "Path of Brutality",
@@ -1063,7 +1001,6 @@
     {
       "image": "05195",
       "id": 8404,
-      "gameId": 8404,
       "name": "Touch of Rot",
       "type": "Ailment",
       "spec": "Path of Savagery",
@@ -1079,7 +1016,6 @@
     {
       "image": "05228",
       "id": 8451,
-      "gameId": 8451,
       "name": "Tzeentch's Reversal",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1095,7 +1031,6 @@
     {
       "image": "22714",
       "id": 798,
-      "gameId": 798,
       "name": "Tzeentch's Warding",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1111,7 +1046,6 @@
     {
       "image": "22694",
       "id": 8433,
-      "gameId": 8433,
       "name": "Unending Horror",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1127,7 +1061,6 @@
     {
       "image": "22704",
       "id": 8443,
-      "gameId": 8443,
       "name": "Unstable Convulsions",
       "type": "Buff",
       "spec": "Path of Brutality",
@@ -1143,7 +1076,6 @@
     {
       "image": "22714",
       "id": 797,
-      "gameId": 797,
       "name": "Warped Flesh",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1159,7 +1091,6 @@
     {
       "image": "05197",
       "id": 8402,
-      "gameId": 8402,
       "name": "Wave of Horror",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1175,7 +1106,6 @@
     {
       "image": "05221",
       "id": 8417,
-      "gameId": 8417,
       "name": "Wave of Mutilation",
       "type": "Ailment",
       "spec": "Path of Monstrosity",
@@ -1191,7 +1121,6 @@
     {
       "image": "05225",
       "id": 8422,
-      "gameId": 8422,
       "name": "Wave of Terror",
       "type": "Damaging",
       "spec": "Path of Brutality",
@@ -1207,7 +1136,6 @@
     {
       "image": "22704",
       "id": 8434,
-      "gameId": 8434,
       "name": "Widespread Demolition",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1223,7 +1151,6 @@
     {
       "image": "05227",
       "id": 8425,
-      "gameId": 8425,
       "name": "Wrecking Ball",
       "type": "Damaging",
       "spec": "Path of Monstrosity",

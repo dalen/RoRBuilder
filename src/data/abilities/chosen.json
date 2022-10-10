@@ -74,7 +74,6 @@
     {
       "image": "22714",
       "id": 800,
-      "gameId": 800,
       "name": "Backlash",
       "type": "Buff",
       "spec": "Core Ability",
@@ -90,7 +89,6 @@
     {
       "image": "05174",
       "id": 8337,
-      "gameId": 8337,
       "name": "Bane Shield",
       "type": "Enchantment",
       "spec": "Path of Corruption",
@@ -106,7 +104,6 @@
     {
       "image": "05266",
       "id": 8331,
-      "gameId": 8331,
       "name": "Blast Wave",
       "type": "Curse",
       "spec": "Path of Discord",
@@ -122,7 +119,6 @@
     {
       "image": "05257",
       "id": 8333,
-      "gameId": 8333,
       "name": "Challenge",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -138,7 +134,6 @@
     {
       "image": "23174",
       "id": 608,
-      "gameId": 608,
       "name": "Champion's Challenge",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -154,7 +149,6 @@
     {
       "image": "22708",
       "id": 8352,
-      "gameId": 8352,
       "name": "Chaotic Advantage",
       "type": "Buff",
       "spec": "Core Ability",
@@ -170,7 +164,6 @@
     {
       "image": "05252",
       "id": 8319,
-      "gameId": 8319,
       "name": "Cleave",
       "type": "Damaging",
       "spec": "Path of Dread",
@@ -186,7 +179,6 @@
     {
       "image": "05265",
       "id": 8345,
-      "gameId": 8345,
       "name": "Corrupting Horror",
       "type": "Unknown",
       "spec": "Path of Corruption",
@@ -202,7 +194,6 @@
     {
       "image": "05178",
       "id": 8332,
-      "gameId": 8332,
       "name": "Corrupting Retribution",
       "type": "Unknown",
       "spec": "Path of Corruption",
@@ -218,7 +209,6 @@
     {
       "image": "05179",
       "id": 8318,
-      "gameId": 8318,
       "name": "Corrupting Wrath",
       "type": "Unknown",
       "spec": "Path of Corruption",
@@ -234,7 +224,6 @@
     {
       "image": "22702",
       "id": 8357,
-      "gameId": 8357,
       "name": "Corruptive Power",
       "type": "Buff",
       "spec": "Path of Corruption",
@@ -250,7 +239,6 @@
     {
       "image": "23172",
       "id": 606,
-      "gameId": 606,
       "name": "Demolishing Strike",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -266,7 +254,6 @@
     {
       "image": "22702",
       "id": 8359,
-      "gameId": 8359,
       "name": "Destined For Victory",
       "type": "Buff",
       "spec": "Core Ability",
@@ -282,7 +269,6 @@
     {
       "image": "22694",
       "id": 8364,
-      "gameId": 8364,
       "name": "Dire Shielding",
       "type": "Buff",
       "spec": "Path of Corruption",
@@ -298,7 +284,6 @@
     {
       "image": "05181",
       "id": 8327,
-      "gameId": 8327,
       "name": "Discordant Fluctuation",
       "type": "Unknown",
       "spec": "Path of Discord",
@@ -314,7 +299,6 @@
     {
       "image": "05253",
       "id": 8321,
-      "gameId": 8321,
       "name": "Discordant Instability",
       "type": "Unknown",
       "spec": "Path of Discord",
@@ -330,7 +314,6 @@
     {
       "image": "05258",
       "id": 8348,
-      "gameId": 8348,
       "name": "Discordant Turbulence",
       "type": "Unknown",
       "spec": "Path of Discord",
@@ -346,7 +329,6 @@
     {
       "image": "23173",
       "id": 610,
-      "gameId": 610,
       "name": "Distracting Bellow",
       "type": "Buff",
       "spec": "Core Ability",
@@ -362,7 +344,6 @@
     {
       "image": "05184",
       "id": 8324,
-      "gameId": 8324,
       "name": "Dizzying Blow",
       "type": "Curse",
       "spec": "Path of Corruption",
@@ -378,7 +359,6 @@
     {
       "image": "05177",
       "id": 8346,
-      "gameId": 8346,
       "name": "Downfall",
       "type": "Damaging",
       "spec": "Path of Corruption",
@@ -394,7 +374,6 @@
     {
       "image": "05212",
       "id": 8334,
-      "gameId": 8334,
       "name": "Dreadful Agony",
       "type": "Unknown",
       "spec": "Path of Dread",
@@ -410,7 +389,6 @@
     {
       "image": "05167",
       "id": 8316,
-      "gameId": 8316,
       "name": "Dreadful Fear",
       "type": "Unknown",
       "spec": "Path of Dread",
@@ -426,7 +404,6 @@
     {
       "image": "05263",
       "id": 8342,
-      "gameId": 8342,
       "name": "Dreadful Terror",
       "type": "Unknown",
       "spec": "Path of Dread",
@@ -442,7 +419,6 @@
     {
       "image": "22706",
       "id": 8369,
-      "gameId": 8369,
       "name": "Embrace the Winds",
       "type": "Buff",
       "spec": "Path of Discord",
@@ -458,7 +434,6 @@
     {
       "image": "05168",
       "id": 8315,
-      "gameId": 8315,
       "name": "Enraged Blow",
       "type": "Damaging",
       "spec": "Path of Corruption",
@@ -474,7 +449,6 @@
     {
       "image": "22708",
       "id": 8361,
-      "gameId": 8361,
       "name": "Feed on the Weary",
       "type": "Buff",
       "spec": "Path of Dread",
@@ -490,7 +464,6 @@
     {
       "image": "22702",
       "id": 8353,
-      "gameId": 8353,
       "name": "Flawless Armor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -506,7 +479,6 @@
     {
       "image": "05004",
       "id": 245,
-      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -522,7 +494,6 @@
     {
       "image": "22701",
       "id": 500,
-      "gameId": 500,
       "name": "Focused Offense",
       "type": "Buff",
       "spec": "Core Ability",
@@ -538,7 +509,6 @@
     {
       "image": "05172",
       "id": 8325,
-      "gameId": 8325,
       "name": "Guard",
       "type": "Buff",
       "spec": "Core Ability",
@@ -554,7 +524,6 @@
     {
       "image": "22709",
       "id": 8366,
-      "gameId": 8366,
       "name": "Hastened Dismissal",
       "type": "Buff",
       "spec": "Core Ability",
@@ -570,7 +539,6 @@
     {
       "image": "05143",
       "id": 8326,
-      "gameId": 8326,
       "name": "Hold The Line!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -586,7 +554,6 @@
     {
       "image": "23175",
       "id": 613,
-      "gameId": 613,
       "name": "Immaculate Defense",
       "type": "Buff",
       "spec": "Core Ability",
@@ -602,7 +569,6 @@
     {
       "image": "05261",
       "id": 8378,
-      "gameId": 8378,
       "name": "Impenetrable Armor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -618,7 +584,6 @@
     {
       "image": "05210",
       "id": 8371,
-      "gameId": 8371,
       "name": "Inevitable Changing",
       "type": "Buff",
       "spec": "Core Ability",
@@ -634,7 +599,6 @@
     {
       "image": "05176",
       "id": 8330,
-      "gameId": 8330,
       "name": "Juggernaut",
       "type": "Buff",
       "spec": "Core Ability",
@@ -650,7 +614,6 @@
     {
       "image": "22709",
       "id": 504,
-      "gameId": 504,
       "name": "Menace",
       "type": "Buff",
       "spec": "Core Ability",
@@ -666,7 +629,6 @@
     {
       "image": "22702",
       "id": 8365,
-      "gameId": 8365,
       "name": "Mixed Defenses",
       "type": "Buff",
       "spec": "Path of Corruption",
@@ -682,7 +644,6 @@
     {
       "image": "22701",
       "id": 8363,
-      "gameId": 8363,
       "name": "Oppressing Blows",
       "type": "Buff",
       "spec": "Path of Dread",
@@ -698,7 +659,6 @@
     {
       "image": "22696",
       "id": 2832,
-      "gameId": 2832,
       "name": "Daemonclaw",
       "type": "Buff",
       "spec": "Path of Dread",
@@ -714,7 +674,6 @@
     {
       "image": "05259",
       "id": 8347,
-      "gameId": 8347,
       "name": "Oppression",
       "type": "Enchantment",
       "spec": "Path of Corruption",
@@ -730,7 +689,6 @@
     {
       "image": "05182",
       "id": 8336,
-      "gameId": 8336,
       "name": "Petrify",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -746,7 +704,6 @@
     {
       "image": "22708",
       "id": 8356,
-      "gameId": 8356,
       "name": "Piercing Repel",
       "type": "Buff",
       "spec": "Core Ability",
@@ -762,7 +719,6 @@
     {
       "image": "22704",
       "id": 8358,
-      "gameId": 8358,
       "name": "Power from the Gods",
       "type": "Buff",
       "spec": "Core Ability",
@@ -778,7 +734,6 @@
     {
       "image": "23417",
       "id": 8349,
-      "gameId": 8349,
       "name": "Quake",
       "type": "Damaging",
       "spec": "Path of Discord",
@@ -794,7 +749,6 @@
     {
       "image": "22694",
       "id": 8354,
-      "gameId": 8354,
       "name": "Quickened Discord",
       "type": "Buff",
       "spec": "Core Ability",
@@ -810,7 +764,6 @@
     {
       "image": "05173",
       "id": 8323,
-      "gameId": 8323,
       "name": "Ravage",
       "type": "Damaging",
       "spec": "Path of Discord",
@@ -826,7 +779,6 @@
     {
       "image": "23176",
       "id": 607,
-      "gameId": 607,
       "name": "Raze",
       "type": "Buff",
       "spec": "Core Ability",
@@ -842,7 +794,6 @@
     {
       "image": "05264",
       "id": 8343,
-      "gameId": 8343,
       "name": "Relentless ",
       "type": "Damaging",
       "spec": "Path of Dread",
@@ -858,7 +809,6 @@
     {
       "image": "05186",
       "id": 8344,
-      "gameId": 8344,
       "name": "Rending Blade",
       "type": "Damaging",
       "spec": "Path of Dread",
@@ -874,7 +824,6 @@
     {
       "image": "05256",
       "id": 8329,
-      "gameId": 8329,
       "name": "Repel",
       "type": "Damaging",
       "spec": "Path of Corruption",
@@ -890,7 +839,6 @@
     {
       "image": "22702",
       "id": 503,
-      "gameId": 503,
       "name": "Rugged",
       "type": "Buff",
       "spec": "Core Ability",
@@ -906,7 +854,6 @@
     {
       "image": "05254",
       "id": 8320,
-      "gameId": 8320,
       "name": "Seeping Wound",
       "type": "Curse",
       "spec": "Path of Discord",
@@ -922,7 +869,6 @@
     {
       "image": "02497",
       "id": 8339,
-      "gameId": 8339,
       "name": "Sever Blessing",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -938,7 +884,6 @@
     {
       "image": "05262",
       "id": 8379,
-      "gameId": 8379,
       "name": "Shatter Faith",
       "type": "Buff",
       "spec": "Path of Discord",
@@ -954,7 +899,6 @@
     {
       "image": "23177",
       "id": 611,
-      "gameId": 611,
       "name": "Shield Wall",
       "type": "Buff",
       "spec": "Core Ability",
@@ -970,7 +914,6 @@
     {
       "image": "22706",
       "id": 8367,
-      "gameId": 8367,
       "name": "Siphoned Energy",
       "type": "Buff",
       "spec": "Path of Discord",
@@ -986,7 +929,6 @@
     {
       "image": "05211",
       "id": 8373,
-      "gameId": 8373,
       "name": "Sprout Carapace",
       "type": "Buff",
       "spec": "Path of Corruption",
@@ -1002,7 +944,6 @@
     {
       "image": "05183",
       "id": 8335,
-      "gameId": 8335,
       "name": "Suppression",
       "type": "Enchantment",
       "spec": "Path of Dread",
@@ -1018,7 +959,6 @@
     {
       "image": "22704",
       "id": 8368,
-      "gameId": 8368,
       "name": "Tainted Wound",
       "type": "Buff",
       "spec": "Path of Discord",
@@ -1034,7 +974,6 @@
     {
       "image": "05169",
       "id": 8322,
-      "gameId": 8322,
       "name": "Taunt",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1050,7 +989,6 @@
     {
       "image": "05251",
       "id": 8314,
-      "gameId": 8314,
       "name": "Throwing Axe",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1066,7 +1004,6 @@
     {
       "image": "05175",
       "id": 8317,
-      "gameId": 8317,
       "name": "Tooth of Tzeentch",
       "type": "Damaging",
       "spec": "Path of Dread",
@@ -1082,7 +1019,6 @@
     {
       "image": "05217",
       "id": 8338,
-      "gameId": 8338,
       "name": "Touch of Palsy",
       "type": "Curse",
       "spec": "Path of Discord",
@@ -1098,7 +1034,6 @@
     {
       "image": "05213",
       "id": 8372,
-      "gameId": 8372,
       "name": "Tzeentch's Amplification",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1114,7 +1049,6 @@
     {
       "image": "05269",
       "id": 8350,
-      "gameId": 8350,
       "name": "Tzeentch's Reflection",
       "type": "Enchantment",
       "spec": "Path of Discord",
@@ -1130,7 +1064,6 @@
     {
       "image": "22714",
       "id": 798,
-      "gameId": 798,
       "name": "Tzeentch's Warding",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1146,7 +1079,6 @@
     {
       "image": "22694",
       "id": 505,
-      "gameId": 505,
       "name": "Unstoppable Juggernaut",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1162,7 +1094,6 @@
     {
       "image": "22714",
       "id": 797,
-      "gameId": 797,
       "name": "Warped Flesh",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1178,7 +1109,6 @@
     {
       "image": "05260",
       "id": 8377,
-      "gameId": 8377,
       "name": "Warping Embrace",
       "type": "Buff",
       "spec": "Path of Dread",
@@ -1194,7 +1124,6 @@
     {
       "image": "05255",
       "id": 8328,
-      "gameId": 8328,
       "name": "Withering Blow",
       "type": "Damaging",
       "spec": "Path of Dread",

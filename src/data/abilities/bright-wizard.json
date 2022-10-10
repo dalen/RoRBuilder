@@ -71,7 +71,6 @@
     {
       "image": "07958",
       "id": 8187,
-      "gameId": 8187,
       "name": "Annihilate",
       "type": "Damaging",
       "spec": "Path of Conflagration",
@@ -87,7 +86,6 @@
     {
       "image": "07936",
       "id": 8189,
-      "gameId": 8189,
       "name": "Backdraft",
       "type": "Hex",
       "spec": "Path of Conflagration",
@@ -103,7 +101,6 @@
     {
       "image": "08015",
       "id": 8165,
-      "gameId": 8165,
       "name": "Boiling Blood",
       "type": "Hex",
       "spec": "Path of Immolation",
@@ -119,7 +116,6 @@
     {
       "image": "22703",
       "id": 8206,
-      "gameId": 8206,
       "name": "Burn Through",
       "type": "Buff",
       "spec": "Path of Incineration",
@@ -135,7 +131,6 @@
     {
       "image": "08019",
       "id": 8173,
-      "gameId": 8173,
       "name": "Burning Iron",
       "type": "Damaging",
       "spec": "Path of Incineration",
@@ -151,7 +146,6 @@
     {
       "image": "07957",
       "id": 8175,
-      "gameId": 8175,
       "name": "Burnout",
       "type": "Buff",
       "spec": "Core Ability",
@@ -167,7 +161,6 @@
     {
       "image": "08016",
       "id": 8167,
-      "gameId": 8167,
       "name": "Cauterize",
       "type": "Healing",
       "spec": "Core Ability",
@@ -183,7 +176,6 @@
     {
       "image": "08020",
       "id": 8174,
-      "gameId": 8174,
       "name": "Choking Smoke",
       "type": "Hex",
       "spec": "Path of Conflagration",
@@ -199,7 +191,6 @@
     {
       "image": "22694",
       "id": 569,
-      "gameId": 569,
       "name": "Close Quarters",
       "type": "Buff",
       "spec": "Core Ability",
@@ -215,7 +206,6 @@
     {
       "image": "07942",
       "id": 8222,
-      "gameId": 8222,
       "name": "Conflagration of Doom",
       "type": "Damaging",
       "spec": "Path of Conflagration",
@@ -231,7 +221,6 @@
     {
       "image": "22713",
       "id": 8197,
-      "gameId": 8197,
       "name": "Crown of Fire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -247,7 +236,6 @@
     {
       "image": "07902",
       "id": 8170,
-      "gameId": 8170,
       "name": "Detonate",
       "type": "Hex",
       "spec": "Path of Immolation",
@@ -263,7 +251,6 @@
     {
       "image": "22704",
       "id": 568,
-      "gameId": 568,
       "name": "Devour Energy",
       "type": "Buff",
       "spec": "Core Ability",
@@ -279,7 +266,6 @@
     {
       "image": "22704",
       "id": 8199,
-      "gameId": 8199,
       "name": "Distracting Fires",
       "type": "Buff",
       "spec": "Core Ability",
@@ -295,7 +281,6 @@
     {
       "image": "22708",
       "id": 8204,
-      "gameId": 8204,
       "name": "Draining Burn",
       "type": "Buff",
       "spec": "Path of Incineration",
@@ -311,7 +296,6 @@
     {
       "image": "22703",
       "id": 8200,
-      "gameId": 8200,
       "name": "Embrace The Flames",
       "type": "Buff",
       "spec": "Core Ability",
@@ -327,7 +311,6 @@
     {
       "image": "22710",
       "id": 779,
-      "gameId": 779,
       "name": "Emperor's Ward",
       "type": "Buff",
       "spec": "Core Ability",
@@ -343,7 +326,6 @@
     {
       "image": "22695",
       "id": 563,
-      "gameId": 563,
       "name": "Endless Knowledge",
       "type": "Buff",
       "spec": "Core Ability",
@@ -359,7 +341,6 @@
     {
       "image": "22696",
       "id": 8210,
-      "gameId": 8210,
       "name": "Explosive Force",
       "type": "Buff",
       "spec": "Path of Conflagration",
@@ -375,7 +356,6 @@
     {
       "image": "22709",
       "id": 8198,
-      "gameId": 8198,
       "name": "Fan The Flames",
       "type": "Buff",
       "spec": "Core Ability",
@@ -391,7 +371,6 @@
     {
       "image": "07934",
       "id": 8166,
-      "gameId": 8166,
       "name": "Fiery Blast",
       "type": "Damaging",
       "spec": "Path of Conflagration",
@@ -407,7 +386,6 @@
     {
       "image": "22709",
       "id": 8212,
-      "gameId": 8212,
       "name": "Fiery Reserves",
       "type": "Buff",
       "spec": "Path of Conflagration",
@@ -423,7 +401,6 @@
     {
       "image": "07924",
       "id": 8168,
-      "gameId": 8168,
       "name": "Fire Cage",
       "type": "Hex",
       "spec": "Core Ability",
@@ -439,7 +416,6 @@
     {
       "image": "07933",
       "id": 8159,
-      "gameId": 8159,
       "name": "Fireball",
       "type": "Damaging",
       "spec": "Path of Incineration",
@@ -455,7 +431,6 @@
     {
       "image": "08021",
       "id": 8183,
-      "gameId": 8183,
       "name": "Fireball Barrage",
       "type": "Damaging",
       "spec": "Path of Incineration",
@@ -471,7 +446,6 @@
     {
       "image": "08018",
       "id": 8171,
-      "gameId": 8171,
       "name": "Flame Breath",
       "type": "Damaging",
       "spec": "Path of Conflagration",
@@ -487,7 +461,6 @@
     {
       "image": "07911",
       "id": 8161,
-      "gameId": 8161,
       "name": "Flame Shield",
       "type": "Enchantment",
       "spec": "Path of Immolation",
@@ -503,7 +476,6 @@
     {
       "image": "07910",
       "id": 8164,
-      "gameId": 8164,
       "name": "Flames of Rhuin",
       "type": "Enchantment",
       "spec": "Path of Incineration",
@@ -519,7 +491,6 @@
     {
       "image": "22694",
       "id": 8196,
-      "gameId": 8196,
       "name": "Flashfire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -535,7 +506,6 @@
     {
       "image": "05004",
       "id": 245,
-      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -551,7 +521,6 @@
     {
       "image": "23153",
       "id": 674,
-      "gameId": 674,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -567,7 +536,6 @@
     {
       "image": "22694",
       "id": 8207,
-      "gameId": 8207,
       "name": "Fuel To The Fire",
       "type": "Buff",
       "spec": "Path of Immolation",
@@ -583,7 +551,6 @@
     {
       "image": "22704",
       "id": 8201,
-      "gameId": 8201,
       "name": "Fueled From Within",
       "type": "Buff",
       "spec": "Core Ability",
@@ -599,7 +566,6 @@
     {
       "image": "07919",
       "id": 8181,
-      "gameId": 8181,
       "name": "Funnel Power",
       "type": "Damaging",
       "spec": "Path of Incineration",
@@ -615,7 +581,6 @@
     {
       "image": "08028",
       "id": 8217,
-      "gameId": 8217,
       "name": "Heart of Fire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -631,7 +596,6 @@
     {
       "image": "07913",
       "id": 8158,
-      "gameId": 8158,
       "name": "Ignite",
       "type": "Hex",
       "spec": "Path of Immolation",
@@ -647,7 +611,6 @@
     {
       "image": "22704",
       "id": 8209,
-      "gameId": 8209,
       "name": "Ignition",
       "type": "Buff",
       "spec": "Path of Immolation",
@@ -663,7 +626,6 @@
     {
       "image": "22703",
       "id": 8195,
-      "gameId": 8195,
       "name": "Lingering Fires",
       "type": "Buff",
       "spec": "Core Ability",
@@ -679,7 +641,6 @@
     {
       "image": "23167",
       "id": 670,
-      "gameId": 670,
       "name": "Mage Bolt",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -695,7 +656,6 @@
     {
       "image": "08026",
       "id": 8215,
-      "gameId": 8215,
       "name": "Magic Dart",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -711,7 +671,6 @@
     {
       "image": "04630",
       "id": 8179,
-      "gameId": 8179,
       "name": "Meltdown",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -727,7 +686,6 @@
     {
       "image": "23168",
       "id": 673,
-      "gameId": 673,
       "name": "Misdirection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -743,7 +701,6 @@
     {
       "image": "07936",
       "id": 8182,
-      "gameId": 8182,
       "name": "Nova",
       "type": "Damaging",
       "spec": "Path of Incineration",
@@ -759,7 +716,6 @@
     {
       "image": "08022",
       "id": 8184,
-      "gameId": 8184,
       "name": "Playing With Fire",
       "type": "Hex",
       "spec": "Path of Immolation",
@@ -775,7 +731,6 @@
     {
       "image": "22708",
       "id": 8194,
-      "gameId": 8194,
       "name": "Power From The Ashes",
       "type": "Buff",
       "spec": "Core Ability",
@@ -791,7 +746,6 @@
     {
       "image": "08017",
       "id": 8169,
-      "gameId": 8169,
       "name": "Pyroclastic Surge",
       "type": "Damaging",
       "spec": "Path of Incineration",
@@ -807,7 +761,6 @@
     {
       "image": "07939",
       "id": 8177,
-      "gameId": 8177,
       "name": "Rain of Fire",
       "type": "Damaging",
       "spec": "Path of Conflagration",
@@ -823,7 +776,6 @@
     {
       "image": "08027",
       "id": 8216,
-      "gameId": 8216,
       "name": "Ruin And Destruction",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -839,7 +791,6 @@
     {
       "image": "23169",
       "id": 671,
-      "gameId": 671,
       "name": "Scintillating Energy",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -855,7 +806,6 @@
     {
       "image": "08014",
       "id": 8163,
-      "gameId": 8163,
       "name": "Scorched Earth",
       "type": "Damaging",
       "spec": "Path of Conflagration",
@@ -871,7 +821,6 @@
     {
       "image": "07955",
       "id": 8160,
-      "gameId": 8160,
       "name": "Sear",
       "type": "Damaging",
       "spec": "Path of Incineration",
@@ -887,7 +836,6 @@
     {
       "image": "22706",
       "id": 8205,
-      "gameId": 8205,
       "name": "Searing Vitality",
       "type": "Buff",
       "spec": "Path of Incineration",
@@ -903,7 +851,6 @@
     {
       "image": "08012",
       "id": 8172,
-      "gameId": 8172,
       "name": "Shield of Aqshy",
       "type": "Enchantment",
       "spec": "Core Ability",
@@ -919,7 +866,6 @@
     {
       "image": "22710",
       "id": 776,
-      "gameId": 776,
       "name": "Sigmar's Favor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -935,7 +881,6 @@
     {
       "image": "23170",
       "id": 669,
-      "gameId": 669,
       "name": "Siphon Power",
       "type": "Buff",
       "spec": "Core Ability",
@@ -951,7 +896,6 @@
     {
       "image": "22708",
       "id": 567,
-      "gameId": 567,
       "name": "Sleight of Hand",
       "type": "Buff",
       "spec": "Core Ability",
@@ -967,7 +911,6 @@
     {
       "image": "07940",
       "id": 8176,
-      "gameId": 8176,
       "name": "Slow Boil",
       "type": "Hex",
       "spec": "Path of Immolation",
@@ -983,7 +926,6 @@
     {
       "image": "08013",
       "id": 8162,
-      "gameId": 8162,
       "name": "Smoke Screen",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -999,7 +941,6 @@
     {
       "image": "22704",
       "id": 8208,
-      "gameId": 8208,
       "name": "Smoldering Embers",
       "type": "Buff",
       "spec": "Path of Immolation",
@@ -1015,7 +956,6 @@
     {
       "image": "07956",
       "id": 8188,
-      "gameId": 8188,
       "name": "Spreading Flames",
       "type": "Hex",
       "spec": "Path of Conflagration",
@@ -1031,7 +971,6 @@
     {
       "image": "08024",
       "id": 8186,
-      "gameId": 8186,
       "name": "Stop, Drop, And Roll",
       "type": "Damaging",
       "spec": "Path of Immolation",
@@ -1047,7 +986,6 @@
     {
       "image": "07937",
       "id": 8220,
-      "gameId": 8220,
       "name": "The Burning Head",
       "type": "Damaging",
       "spec": "Path of Incineration",
@@ -1063,7 +1001,6 @@
     {
       "image": "23171",
       "id": 672,
-      "gameId": 672,
       "name": "Unleash the Winds",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1079,7 +1016,6 @@
     {
       "image": "22710",
       "id": 777,
-      "gameId": 777,
       "name": "Unwavering Faith",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1095,7 +1031,6 @@
     {
       "image": "07941",
       "id": 8221,
-      "gameId": 8221,
       "name": "Wall of Fire",
       "type": "Damaging",
       "spec": "Path of Immolation",
@@ -1111,7 +1046,6 @@
     {
       "image": "22703",
       "id": 8211,
-      "gameId": 8211,
       "name": "Wildfire",
       "type": "Buff",
       "spec": "Path of Conflagration",
@@ -1127,7 +1061,6 @@
     {
       "image": "08023",
       "id": 8185,
-      "gameId": 8185,
       "name": "Withering Heat",
       "type": "Damaging",
       "spec": "Path of Immolation",

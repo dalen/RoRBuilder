@@ -72,7 +72,6 @@
     {
       "image": "23150",
       "id": 697,
-      "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
       "spec": "Core Ability",
@@ -88,7 +87,6 @@
     {
       "image": "22709",
       "id": 1632,
-      "gameId": 1632,
       "name": "Ancestor's Blessing",
       "type": "Buff",
       "spec": "Path of Grungni",
@@ -104,7 +102,6 @@
     {
       "image": "22706",
       "id": 1639,
-      "gameId": 1639,
       "name": "Ancestor's Echo",
       "type": "Buff",
       "spec": "Path of Grimnir",
@@ -120,7 +117,6 @@
     {
       "image": "22711",
       "id": 716,
-      "gameId": 716,
       "name": "Ancestral Inheritance",
       "type": "Buff",
       "spec": "Core Ability",
@@ -136,7 +132,6 @@
     {
       "image": "22704",
       "id": 1624,
-      "gameId": 1624,
       "name": "Blessing of Grungni",
       "type": "Buff",
       "spec": "Core Ability",
@@ -152,7 +147,6 @@
     {
       "image": "04489",
       "id": 1604,
-      "gameId": 1604,
       "name": "Blessing of Valaya",
       "type": "Healing",
       "spec": "Path of Grimnir",
@@ -168,7 +162,6 @@
     {
       "image": "23404",
       "id": 14415,
-      "gameId": 14415,
       "name": "Cleanse War Engine",
       "type": "Buff",
       "spec": "Core Ability",
@@ -184,7 +177,6 @@
     {
       "image": "22706",
       "id": 1623,
-      "gameId": 1623,
       "name": "Cleansing Vitality",
       "type": "Buff",
       "spec": "Core Ability",
@@ -200,7 +192,6 @@
     {
       "image": "22709",
       "id": 1638,
-      "gameId": 1638,
       "name": "Concussive Runes",
       "type": "Buff",
       "spec": "Path of Grimnir",
@@ -216,7 +207,6 @@
     {
       "image": "22706",
       "id": 592,
-      "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
@@ -232,7 +222,6 @@
     {
       "image": "23151",
       "id": 694,
-      "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
       "spec": "Core Ability",
@@ -248,7 +237,6 @@
     {
       "image": "22703",
       "id": 585,
-      "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -264,7 +252,6 @@
     {
       "image": "23152",
       "id": 696,
-      "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -280,7 +267,6 @@
     {
       "image": "22704",
       "id": 1636,
-      "gameId": 1636,
       "name": "Earth's Shielding",
       "type": "Buff",
       "spec": "Path of Valaya",
@@ -296,7 +282,6 @@
     {
       "image": "22708",
       "id": 1637,
-      "gameId": 1637,
       "name": "Efficient Runecarving",
       "type": "Buff",
       "spec": "Path of Valaya",
@@ -312,7 +297,6 @@
     {
       "image": "22694",
       "id": 1640,
-      "gameId": 1640,
       "name": "Extended Battle",
       "type": "Buff",
       "spec": "Path of Grimnir",
@@ -328,7 +312,6 @@
     {
       "image": "05004",
       "id": 245,
-      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -344,7 +327,6 @@
     {
       "image": "23153",
       "id": 695,
-      "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -360,7 +342,6 @@
     {
       "image": "04557",
       "id": 1619,
-      "gameId": 1619,
       "name": "Grimnir's Fury",
       "type": "Blessing",
       "spec": "Path of Grimnir",
@@ -376,7 +357,6 @@
     {
       "image": "04628",
       "id": 1592,
-      "gameId": 1592,
       "name": "Grimnir's Shield",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -392,7 +372,6 @@
     {
       "image": "04625",
       "id": 1587,
-      "gameId": 1587,
       "name": "Grungni's Gift",
       "type": "Healing",
       "spec": "Path of Grungni",
@@ -408,7 +387,6 @@
     {
       "image": "22694",
       "id": 1635,
-      "gameId": 1635,
       "name": "Immolating Grasp",
       "type": "Buff",
       "spec": "Path of Valaya",
@@ -424,7 +402,6 @@
     {
       "image": "04502",
       "id": 1618,
-      "gameId": 1618,
       "name": "Master Rune of Adamant",
       "type": "Healing",
       "spec": "Path of Grimnir",
@@ -440,7 +417,6 @@
     {
       "image": "04637",
       "id": 1612,
-      "gameId": 1612,
       "name": "Master Rune of Fury",
       "type": "Buff",
       "spec": "Path of Grungni",
@@ -456,7 +432,6 @@
     {
       "image": "04640",
       "id": 1615,
-      "gameId": 1615,
       "name": "Master Rune of Speed",
       "type": "Buff",
       "spec": "Path of Valaya",
@@ -472,7 +447,6 @@
     {
       "image": "04642",
       "id": 1644,
-      "gameId": 1644,
       "name": "Mountain Spirit",
       "type": "Buff",
       "spec": "Core Ability",
@@ -488,7 +462,6 @@
     {
       "image": "04634",
       "id": 1600,
-      "gameId": 1600,
       "name": "Oath Rune of Iron",
       "type": "Blessing",
       "spec": "Path of Valaya",
@@ -504,7 +477,6 @@
     {
       "image": "04562",
       "id": 1591,
-      "gameId": 1591,
       "name": "Oath Rune of Power",
       "type": "Blessing",
       "spec": "Path of Grungni",
@@ -520,7 +492,6 @@
     {
       "image": "04554",
       "id": 1608,
-      "gameId": 1608,
       "name": "Oath Rune of Sanctuary",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -536,7 +507,6 @@
     {
       "image": "04626",
       "id": 1588,
-      "gameId": 1588,
       "name": "Oath Rune of Warding",
       "type": "Blessing",
       "spec": "Path of Grimnir",
@@ -552,7 +522,6 @@
     {
       "image": "22706",
       "id": 1627,
-      "gameId": 1627,
       "name": "On Your Feet!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -568,7 +537,6 @@
     {
       "image": "22694",
       "id": 1625,
-      "gameId": 1625,
       "name": "Potent Runes",
       "type": "Buff",
       "spec": "Core Ability",
@@ -584,7 +552,6 @@
     {
       "image": "04636",
       "id": 1606,
-      "gameId": 1606,
       "name": "Protection of the Ancestors",
       "type": "Blessing",
       "spec": "Path of Grungni",
@@ -600,7 +567,6 @@
     {
       "image": "23154",
       "id": 692,
-      "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -616,7 +582,6 @@
     {
       "image": "22702",
       "id": 1622,
-      "gameId": 1622,
       "name": "Regenerative Shielding",
       "type": "Buff",
       "spec": "Core Ability",
@@ -632,7 +597,6 @@
     {
       "image": "23414",
       "id": 14414,
-      "gameId": 14414,
       "name": "Reinforce War Engine",
       "type": "Buff",
       "spec": "Core Ability",
@@ -648,7 +612,6 @@
     {
       "image": "22694",
       "id": 589,
-      "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
       "spec": "Core Ability",
@@ -664,7 +627,6 @@
     {
       "image": "04641",
       "id": 1617,
-      "gameId": 1617,
       "name": "Rune of Battle",
       "type": "Blessing",
       "spec": "Path of Grimnir",
@@ -680,7 +642,6 @@
     {
       "image": "04638",
       "id": 1613,
-      "gameId": 1613,
       "name": "Rune of Binding",
       "type": "Damaging",
       "spec": "Path of Grungni",
@@ -696,7 +657,6 @@
     {
       "image": "04100",
       "id": 1659,
-      "gameId": 1659,
       "name": "Rune of Breaking",
       "type": "Buff",
       "spec": "Core Ability",
@@ -712,7 +672,6 @@
     {
       "image": "04639",
       "id": 1614,
-      "gameId": 1614,
       "name": "Rune of Burning",
       "type": "Damaging",
       "spec": "Path of Valaya",
@@ -728,7 +687,6 @@
     {
       "image": "04507",
       "id": 1602,
-      "gameId": 1602,
       "name": "Rune of Cleansing",
       "type": "Healing",
       "spec": "Core Ability",
@@ -744,7 +702,6 @@
     {
       "image": "04632",
       "id": 1597,
-      "gameId": 1597,
       "name": "Rune of Cleaving",
       "type": "Ailment",
       "spec": "Path of Grimnir",
@@ -760,7 +717,6 @@
     {
       "image": "04643",
       "id": 1648,
-      "gameId": 1648,
       "name": "Rune of Ending",
       "type": "Damaging",
       "spec": "Path of Grungni",
@@ -776,7 +732,6 @@
     {
       "image": "04500",
       "id": 1616,
-      "gameId": 1616,
       "name": "Rune of Fate",
       "type": "Ailment",
       "spec": "Path of Valaya",
@@ -792,7 +747,6 @@
     {
       "image": "04630",
       "id": 1594,
-      "gameId": 1594,
       "name": "Rune of Fire",
       "type": "Damaging",
       "spec": "Path of Grungni",
@@ -808,7 +762,6 @@
     {
       "image": "04559",
       "id": 1611,
-      "gameId": 1611,
       "name": "Rune of Fortune",
       "type": "Damaging",
       "spec": "Path of Grungni",
@@ -824,7 +777,6 @@
     {
       "image": "04627",
       "id": 1589,
-      "gameId": 1589,
       "name": "Rune of Immolation",
       "type": "Damaging",
       "spec": "Path of Valaya",
@@ -840,7 +792,6 @@
     {
       "image": "04537",
       "id": 1643,
-      "gameId": 1643,
       "name": "Rune of Insanity",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -856,7 +807,6 @@
     {
       "image": "04633",
       "id": 1598,
-      "gameId": 1598,
       "name": "Rune of Life",
       "type": "Healing",
       "spec": "Core Ability",
@@ -872,7 +822,6 @@
     {
       "image": "04503",
       "id": 1599,
-      "gameId": 1599,
       "name": "Rune of Mending",
       "type": "Healing",
       "spec": "Path of Valaya",
@@ -888,7 +837,6 @@
     {
       "image": "04558",
       "id": 1603,
-      "gameId": 1603,
       "name": "Rune of Might",
       "type": "Damaging",
       "spec": "Path of Grimnir",
@@ -904,7 +852,6 @@
     {
       "image": "22702",
       "id": 1633,
-      "gameId": 1633,
       "name": "Rune of Nullification",
       "type": "Buff",
       "spec": "Path of Grungni",
@@ -920,7 +867,6 @@
     {
       "image": "04631",
       "id": 1595,
-      "gameId": 1595,
       "name": "Rune of Preservation",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -936,7 +882,6 @@
     {
       "image": "04535",
       "id": 1645,
-      "gameId": 1645,
       "name": "Rune of Rebirth",
       "type": "Healing",
       "spec": "Core Ability",
@@ -952,7 +897,6 @@
     {
       "image": "04561",
       "id": 1590,
-      "gameId": 1590,
       "name": "Rune of Regeneration",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -968,7 +912,6 @@
     {
       "image": "04563",
       "id": 1596,
-      "gameId": 1596,
       "name": "Rune of Restoration",
       "type": "Healing",
       "spec": "Path of Grungni",
@@ -984,7 +927,6 @@
     {
       "image": "04635",
       "id": 1601,
-      "gameId": 1601,
       "name": "Rune of Serenity",
       "type": "Blessing",
       "spec": "Path of Grimnir",
@@ -1000,7 +942,6 @@
     {
       "image": "04629",
       "id": 1593,
-      "gameId": 1593,
       "name": "Rune of Shielding",
       "type": "Blessing",
       "spec": "Path of Valaya",
@@ -1016,7 +957,6 @@
     {
       "image": "04645",
       "id": 1650,
-      "gameId": 1650,
       "name": "Rune of Skewering",
       "type": "Damaging",
       "spec": "Path of Grimnir",
@@ -1032,7 +972,6 @@
     {
       "image": "04624",
       "id": 1586,
-      "gameId": 1586,
       "name": "Rune of Striking",
       "type": "Damaging",
       "spec": "Path of Grungni",
@@ -1048,7 +987,6 @@
     {
       "image": "04564",
       "id": 1605,
-      "gameId": 1605,
       "name": "Rune of Sundering",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1064,7 +1002,6 @@
     {
       "image": "22703",
       "id": 1634,
-      "gameId": 1634,
       "name": "Runic Blasting",
       "type": "Buff",
       "spec": "Path of Grungni",
@@ -1080,7 +1017,6 @@
     {
       "image": "23415",
       "id": 14416,
-      "gameId": 14416,
       "name": "Shield the Skies",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1096,7 +1032,6 @@
     {
       "image": "04533",
       "id": 1607,
-      "gameId": 1607,
       "name": "Spellbinding Rune",
       "type": "Ailment",
       "spec": "Path of Valaya",
@@ -1112,7 +1047,6 @@
     {
       "image": "23155",
       "id": 690,
-      "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1128,7 +1062,6 @@
     {
       "image": "22711",
       "id": 713,
-      "gameId": 713,
       "name": "Stoutness of Stone",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1144,7 +1077,6 @@
     {
       "image": "22711",
       "id": 714,
-      "gameId": 714,
       "name": "Stubbornness",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1160,7 +1092,6 @@
     {
       "image": "22709",
       "id": 588,
-      "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1176,7 +1107,6 @@
     {
       "image": "22703",
       "id": 1628,
-      "gameId": 1628,
       "name": "Sundered Motion",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1192,7 +1122,6 @@
     {
       "image": "22694",
       "id": 1626,
-      "gameId": 1626,
       "name": "Swift Runes",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1208,7 +1137,6 @@
     {
       "image": "22696",
       "id": 1629,
-      "gameId": 1629,
       "name": "Thick-Skulled",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1224,7 +1152,6 @@
     {
       "image": "04644",
       "id": 1649,
-      "gameId": 1649,
       "name": "Valaya's Shield",
       "type": "Healing",
       "spec": "Path of Valaya",

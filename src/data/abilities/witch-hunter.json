@@ -71,7 +71,6 @@
     {
       "image": "abi_em_purgatory",
       "id": 9700,
-      "gameId": 9700,
       "name": "Purgatory",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -87,7 +86,6 @@
     {
       "image": "08051",
       "id": 8082,
-      "gameId": 8082,
       "name": "Absolution",
       "type": "Damaging",
       "spec": "Path of Judgment",
@@ -103,7 +101,6 @@
     {
       "image": "22708",
       "id": 8138,
-      "gameId": 8138,
       "name": "Atonement",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -119,7 +116,6 @@
     {
       "image": "07974",
       "id": 8089,
-      "gameId": 8089,
       "name": "Blessed Bullets of Cleansing",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -135,7 +131,6 @@
     {
       "image": "07970",
       "id": 8099,
-      "gameId": 8099,
       "name": "Blessed Bullets of Confession",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -151,7 +146,6 @@
     {
       "image": "08045",
       "id": 8084,
-      "gameId": 8084,
       "name": "Blessed Bullets of Purity",
       "type": "Buff",
       "spec": "Path of Confession",
@@ -167,7 +161,6 @@
     {
       "image": "22696",
       "id": 8126,
-      "gameId": 8126,
       "name": "Blood, Faith, And Fire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -183,7 +176,6 @@
     {
       "image": "23156",
       "id": 629,
-      "gameId": 629,
       "name": "Broad Swings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -199,7 +191,6 @@
     {
       "image": "22701",
       "id": 521,
-      "gameId": 521,
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
@@ -215,7 +206,6 @@
     {
       "image": "07971",
       "id": 8091,
-      "gameId": 8091,
       "name": "Burn Armor",
       "type": "Ailment",
       "spec": "Path of Confession",
@@ -231,7 +221,6 @@
     {
       "image": "08049",
       "id": 8116,
-      "gameId": 8116,
       "name": "Burn Away Lies",
       "type": "Ailment",
       "spec": "Path of Judgment",
@@ -247,7 +236,6 @@
     {
       "image": "08046",
       "id": 8093,
-      "gameId": 8093,
       "name": "Burn, Heretic!",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -263,7 +251,6 @@
     {
       "image": "07976",
       "id": 8086,
-      "gameId": 8086,
       "name": "Confess!",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -279,7 +266,6 @@
     {
       "image": "23157",
       "id": 631,
-      "gameId": 631,
       "name": "Confusing Movements",
       "type": "Buff",
       "spec": "Core Ability",
@@ -295,7 +281,6 @@
     {
       "image": "07981",
       "id": 8094,
-      "gameId": 8094,
       "name": "Declare Anathema",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -311,7 +296,6 @@
     {
       "image": "07980",
       "id": 8152,
-      "gameId": 8152,
       "name": "Divine Blast",
       "type": "Damaging",
       "spec": "Path of Confession",
@@ -327,7 +311,6 @@
     {
       "image": "08047",
       "id": 8110,
-      "gameId": 8110,
       "name": "Dragon Gun",
       "type": "Damaging",
       "spec": "Path of Confession",
@@ -343,7 +326,6 @@
     {
       "image": "22710",
       "id": 779,
-      "gameId": 779,
       "name": "Emperor's Ward",
       "type": "Buff",
       "spec": "Core Ability",
@@ -359,7 +341,6 @@
     {
       "image": "22704",
       "id": 8136,
-      "gameId": 8136,
       "name": "Encourage Confession",
       "type": "Buff",
       "spec": "Core Ability",
@@ -375,7 +356,6 @@
     {
       "image": "07978",
       "id": 8153,
-      "gameId": 8153,
       "name": "Excommunicate",
       "type": "Damaging",
       "spec": "Path of Inquisition",
@@ -391,7 +371,6 @@
     {
       "image": "07982",
       "id": 8113,
-      "gameId": 8113,
       "name": "Exit Wound",
       "type": "Defensive",
       "spec": "Path of Inquisition",
@@ -407,7 +386,6 @@
     {
       "image": "07988",
       "id": 8146,
-      "gameId": 8146,
       "name": "Exoneration",
       "type": "Healing",
       "spec": "Core Ability",
@@ -423,7 +401,6 @@
     {
       "image": "07989",
       "id": 8154,
-      "gameId": 8154,
       "name": "Expurgation",
       "type": "Damaging",
       "spec": "Path of Judgment",
@@ -439,7 +416,6 @@
     {
       "image": "22709",
       "id": 8137,
-      "gameId": 8137,
       "name": "Fanatical Cleansing",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -455,7 +431,6 @@
     {
       "image": "07983",
       "id": 8098,
-      "gameId": 8098,
       "name": "Fanatical Zeal",
       "type": "Ailment",
       "spec": "Path of Judgment",
@@ -471,7 +446,6 @@
     {
       "image": "07972",
       "id": 8092,
-      "gameId": 8092,
       "name": "Feinted Positioning",
       "type": "Buff",
       "spec": "Core Ability",
@@ -487,7 +461,6 @@
     {
       "image": "08052",
       "id": 8083,
-      "gameId": 8083,
       "name": "Fervor",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -503,7 +476,6 @@
     {
       "image": "22704",
       "id": 523,
-      "gameId": 523,
       "name": "Flanking",
       "type": "Buff",
       "spec": "Core Ability",
@@ -519,7 +491,6 @@
     {
       "image": "05004",
       "id": 245,
-      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -535,7 +506,6 @@
     {
       "image": "22710",
       "id": 8121,
-      "gameId": 8121,
       "name": "Flowing Accusations",
       "type": "Buff",
       "spec": "Core Ability",
@@ -551,7 +521,6 @@
     {
       "image": "23158",
       "id": 628,
-      "gameId": 628,
       "name": "Force of Will",
       "type": "Buff",
       "spec": "Core Ability",
@@ -567,7 +536,6 @@
     {
       "image": "23159",
       "id": 630,
-      "gameId": 630,
       "name": "Frenzied Slaughter",
       "type": "Buff",
       "spec": "Core Ability",
@@ -583,7 +551,6 @@
     {
       "image": "22701",
       "id": 8134,
-      "gameId": 8134,
       "name": "Full Confession",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -599,7 +566,6 @@
     {
       "image": "07968",
       "id": 8088,
-      "gameId": 8088,
       "name": "Get Thee Behind Me!",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -615,7 +581,6 @@
     {
       "image": "07985",
       "id": 8090,
-      "gameId": 8090,
       "name": "Incognito",
       "type": "Buff",
       "spec": "Core Ability",
@@ -631,7 +596,6 @@
     {
       "image": "22708",
       "id": 8120,
-      "gameId": 8120,
       "name": "Inquisitor's Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -647,7 +611,6 @@
     {
       "image": "22694",
       "id": 526,
-      "gameId": 526,
       "name": "Jagged Edge",
       "type": "Buff",
       "spec": "Core Ability",
@@ -663,7 +626,6 @@
     {
       "image": "22706",
       "id": 8124,
-      "gameId": 8124,
       "name": "Last Rites",
       "type": "Buff",
       "spec": "Core Ability",
@@ -679,7 +641,6 @@
     {
       "image": "22694",
       "id": 8123,
-      "gameId": 8123,
       "name": "Penetrating Barbs",
       "type": "Buff",
       "spec": "Core Ability",
@@ -695,7 +656,6 @@
     {
       "image": "23412",
       "id": 14427,
-      "gameId": 14427,
       "name": "Pick Lock",
       "type": "Buff",
       "spec": "Core Ability",
@@ -711,7 +671,6 @@
     {
       "image": "07984",
       "id": 8115,
-      "gameId": 8115,
       "name": "Pistol Whip",
       "type": "Ailment",
       "spec": "Path of Judgment",
@@ -727,7 +686,6 @@
     {
       "image": "22694",
       "id": 8135,
-      "gameId": 8135,
       "name": "Prolonged Confession",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -743,7 +701,6 @@
     {
       "image": "22709",
       "id": 8127,
-      "gameId": 8127,
       "name": "Protection from Heresy",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -759,7 +716,6 @@
     {
       "image": "07977",
       "id": 8112,
-      "gameId": 8112,
       "name": "Punish The False",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -775,7 +731,6 @@
     {
       "image": "07965",
       "id": 8081,
-      "gameId": 8081,
       "name": "Razor Strike",
       "type": "Damaging",
       "spec": "Path of Confession",
@@ -791,7 +746,6 @@
     {
       "image": "23160",
       "id": 633,
-      "gameId": 633,
       "name": "Relentless Assault",
       "type": "Buff",
       "spec": "Core Ability",
@@ -807,7 +761,6 @@
     {
       "image": "08050",
       "id": 8109,
-      "gameId": 8109,
       "name": "Repel Blasphemy",
       "type": "Blessing",
       "spec": "Path of Confession",
@@ -823,7 +776,6 @@
     {
       "image": "07987",
       "id": 8147,
-      "gameId": 8147,
       "name": "Reversal of Fortune",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -839,7 +791,6 @@
     {
       "image": "22702",
       "id": 8122,
-      "gameId": 8122,
       "name": "Righteous Steel",
       "type": "Buff",
       "spec": "Core Ability",
@@ -855,7 +806,6 @@
     {
       "image": "22702",
       "id": 528,
-      "gameId": 528,
       "name": "Riposte",
       "type": "Buff",
       "spec": "Core Ability",
@@ -871,7 +821,6 @@
     {
       "image": "22706",
       "id": 8132,
-      "gameId": 8132,
       "name": "Sanctified Bullets",
       "type": "Buff",
       "spec": "Path of Confession",
@@ -887,7 +836,6 @@
     {
       "image": "07978",
       "id": 8111,
-      "gameId": 8111,
       "name": "Seal of Destruction",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -903,7 +851,6 @@
     {
       "image": "08053",
       "id": 8097,
-      "gameId": 8097,
       "name": "Seeker's Blade",
       "type": "Ailment",
       "spec": "Path of Confession",
@@ -919,7 +866,6 @@
     {
       "image": "22701",
       "id": 8131,
-      "gameId": 8131,
       "name": "Seeker's Triumph",
       "type": "Buff",
       "spec": "Path of Confession",
@@ -935,7 +881,6 @@
     {
       "image": "02497",
       "id": 8101,
-      "gameId": 8101,
       "name": "Sever Blessing",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -951,7 +896,6 @@
     {
       "image": "23161",
       "id": 627,
-      "gameId": 627,
       "name": "Sever Nerve",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -967,7 +911,6 @@
     {
       "image": "07973",
       "id": 8108,
-      "gameId": 8108,
       "name": "Shroud of Magnus",
       "type": "Buff",
       "spec": "Path of Confession",
@@ -983,7 +926,6 @@
     {
       "image": "08011",
       "id": 8095,
-      "gameId": 8095,
       "name": "Sigil of Sigmar",
       "type": "Buff",
       "spec": "Core Ability",
@@ -999,7 +941,6 @@
     {
       "image": "22710",
       "id": 776,
-      "gameId": 776,
       "name": "Sigmar's Favor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1015,7 +956,6 @@
     {
       "image": "07979",
       "id": 8100,
-      "gameId": 8100,
       "name": "Silence The Heretic",
       "type": "Ailment",
       "spec": "Path of Judgment",
@@ -1031,7 +971,6 @@
     {
       "image": "07966",
       "id": 8080,
-      "gameId": 8080,
       "name": "Snap Shot",
       "type": "Ailment",
       "spec": "Core Ability",
@@ -1047,7 +986,6 @@
     {
       "image": "07969",
       "id": 8096,
-      "gameId": 8096,
       "name": "Sudden Accusation",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -1063,7 +1001,6 @@
     {
       "image": "22694",
       "id": 8133,
-      "gameId": 8133,
       "name": "Sweeping Razor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1079,7 +1016,6 @@
     {
       "image": "07975",
       "id": 8085,
-      "gameId": 8085,
       "name": "Torment",
       "type": "Damaging",
       "spec": "Path of Judgment",
@@ -1095,7 +1031,6 @@
     {
       "image": "07967",
       "id": 8087,
-      "gameId": 8087,
       "name": "Trial By Pain",
       "type": "Damaging",
       "spec": "Path of Confession",
@@ -1111,7 +1046,6 @@
     {
       "image": "22710",
       "id": 777,
-      "gameId": 777,
       "name": "Unwavering Faith",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1127,7 +1061,6 @@
     {
       "image": "abi_em_distractingburst",
       "id": 2997,
-      "gameId": 2997,
       "name": "Sanctified Oil",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -1143,7 +1076,6 @@
     {
       "image": "22703",
       "id": 8125,
-      "gameId": 8125,
       "name": "Vindication",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1159,7 +1091,6 @@
     {
       "image": "22704",
       "id": 8139,
-      "gameId": 8139,
       "name": "Vitriolic Judgement",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -1175,7 +1106,6 @@
     {
       "image": "07986",
       "id": 8148,
-      "gameId": 8148,
       "name": "Witchfinder's Protection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1191,7 +1121,6 @@
     {
       "image": "22702",
       "id": 522,
-      "gameId": 522,
       "name": "Close Combat",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1207,7 +1136,6 @@
     {
       "image": "WH_M2_WitchfindersJudgement",
       "id": 2714,
-      "gameId": 2714,
       "name": "Witchfinders Judgement",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1223,7 +1151,6 @@
     {
       "image": "22708",
       "id": 2993,
-      "gameId": 2993,
       "name": "Blessed Blade",
       "type": "Buff",
       "spec": "Path of Confession",
