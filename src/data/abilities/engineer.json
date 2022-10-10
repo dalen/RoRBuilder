@@ -72,6 +72,7 @@
     {
       "image": "04477",
       "id": 2887,
+      "gameId": 2887,
       "name": "Fragmentation Grenade",
       "type": "Hex",
       "spec": "Path of The Grenadier",
@@ -82,18 +83,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "You lob a grenade which shatters when it hits your enemy, dealing 1035 Corporeal damage over 15 seconds to the target and all other enemies within 20 feet of them.",
-      "category": "Ability",
-      "gameId": 2887,
-      "componentValues": {
-        "COM_1_VAL0_TOD_CORPOREALDAMAGE": 1035,
-        "COM_1_DURA_SECONDS": 15,
-        "COM_1_RADI_FEET": 20
-      },
-      "rawDescription": "You lob a grenade which shatters when it hits your enemy, dealing {COM_1_VAL0_TOD_CORPOREALDAMAGE} over {COM_1_DURA_SECONDS} to the target and all other enemies within {COM_1_RADI_FEET} of them."
+      "category": "Ability"
     },
     {
       "image": "04604",
       "id": 3617,
+      "gameId": 1514,
       "name": "Acid Bomb",
       "type": "Hex",
       "spec": "Path of The Grenadier",
@@ -104,19 +99,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 378 and suffer 581 Corporeal damage over 21 seconds.",
-      "category": "Ability",
-      "gameId": 1514,
-      "componentValues": {
-        "COM_1_RADI_FEET": 20,
-        "COM_2_VAL0": 378,
-        "COM_1_VAL0_TOD_CORPOREALDAMAGE": 581,
-        "COM_2_DURA_SECONDS": 21
-      },
-      "rawDescription": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within {COM_1_RADI_FEET} of them have Corporeal resistance reduced by {COM_2_VAL0} and suffer {COM_1_VAL0_TOD_CORPOREALDAMAGE} over {COM_2_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "04605",
       "id": 3620,
+      "gameId": 1516,
       "name": "Addling Shot",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -127,17 +115,12 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "You detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability",
-      "gameId": 1516,
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "You detaunt your target, making them hate you less and causing them to deal {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
+      "category": "Ability"
     },
     {
       "image": "22711",
       "id": 3659,
+      "gameId": 716,
       "name": "Ancestral Inheritance",
       "type": "Buff",
       "spec": "Core Ability",
@@ -148,16 +131,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Armor by 660.",
-      "category": "CareerTactic",
-      "gameId": 716,
-      "componentValues": {
-        "COM_0_VAL0": 660
-      },
-      "rawDescription": "Increases your Armor by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "04620",
       "id": 3645,
+      "gameId": 1575,
       "name": "Armored Plating",
       "type": "Buff",
       "spec": "Core Ability",
@@ -168,17 +147,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Everyone in your group within 100 feet takes only 80% damage for 20 seconds.",
-      "category": "Morale",
-      "gameId": 1575,
-      "componentValues": {
-        "COM_0_VAL0": 80,
-        "COM_0_DURA_SECONDS": 20
-      },
-      "rawDescription": "Everyone in your group within 100 feet takes only {COM_0_VAL0}% damage for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "04456",
       "id": 3673,
+      "gameId": 1581,
       "name": "Artillery Barrage",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -189,18 +163,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 600 damage per second to all enemies within 30 feet of that spot.",
-      "category": "Morale",
-      "gameId": 1581,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 4,
-        "COM_1_VAL0_DAMAGE": 600,
-        "COM_1_RADI_FEET": 30
-      },
-      "rawDescription": "You select a spot on the ground and call in an artillery strike for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} per second to all enemies within {COM_1_RADI_FEET} of that spot."
+      "category": "Morale"
     },
     {
       "image": "04619",
       "id": 3644,
+      "gameId": 1574,
       "name": "Autoloader",
       "type": "Buff",
       "spec": "Core Ability",
@@ -211,17 +179,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You regain action points 30% faster for 10 seconds.",
-      "category": "Morale",
-      "gameId": 1574,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You regain action points {COM_0_VAL0}% faster for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22706",
       "id": 3671,
+      "gameId": 1562,
       "name": "Dazzling Flash",
       "type": "Buff",
       "spec": "Path of The Grenadier",
@@ -232,17 +195,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "When your Flashbang Grenade detonates, any enemy hit by the blast will become disoriented for 5 seconds, increasing the build times of their abilities by 50%.",
-      "category": "CareerTactic",
-      "gameId": 1562,
-      "componentValues": {
-        "ABIL_3368_COM_0_DURA_SECONDS": 5,
-        "ABIL_3368_COM_0_VAL0": 50
-      },
-      "rawDescription": "When your Flashbang Grenade detonates, any enemy hit by the blast will become disoriented for {ABIL_3368_COM_0_DURA_SECONDS}, increasing the build times of their abilities by {ABIL_3368_COM_0_VAL0}%."
+      "category": "CareerTactic"
     },
     {
       "image": "04566",
       "id": 3625,
+      "gameId": 1519,
       "name": "Barbed Wire",
       "type": "Hex",
       "spec": "Core Ability",
@@ -253,17 +211,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You fling coils of barbed wire all around you, rooting all enemies within 30 feet in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
-      "category": "Ability",
-      "gameId": 1519,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "You fling coils of barbed wire all around you, rooting all enemies within {COM_0_RADI_FEET} in place for {COM_0_DURA_SECONDS}. There is a 50% chance of the root breaking with every hit."
+      "category": "Ability"
     },
     {
       "image": "04606",
       "id": 3618,
+      "gameId": 1517,
       "name": "Blunderbuss Blast",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -274,17 +227,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You fire a blast of short-range pellets which deal 203 damage to all enemies in front of you, up to 40 feet away.",
-      "category": "Ability",
-      "gameId": 1517,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 203,
-        "COM_0_RADI_FEET": 40
-      },
-      "rawDescription": "You fire a blast of short-range pellets which deal {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
+      "category": "Ability"
     },
     {
       "image": "23411",
       "id": 3681,
+      "gameId": 14406,
       "name": "Bolster War Engine",
       "type": "Buff",
       "spec": "Core Ability",
@@ -295,17 +243,12 @@
       "cooldown": "30s cooldown",
       "note": "Not usable on Siege Rams or Oil",
       "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
-      "category": "Ability",
-      "gameId": 14406,
-      "componentValues": {
-        "COM_0_VAL0": 2,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Siege Targetted buff. Increases damage done by that siege engine by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "04607",
       "id": 3621,
+      "gameId": 1518,
       "name": "Bombardment Turret",
       "type": "Buff",
       "spec": "Core Ability",
@@ -316,19 +259,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "Construct a turret with a moderate range auto-firing grenade launcher. The turret gains 100% of BS, 30% of WS, and 70% of your Wounds from item bonuses.  While within 25 feet of it you will use it to create an improvised upgrade every 2 seconds, increasing your damage by 4% to a maximum of 20%, shorten the duration and tick interval of Path of Grenadier and Tinkerer DoTs by 4% to a maximum of 35% and allow Grenadier skills to be cast while moving. You lose 4 stacks of upgrades if the turret is destroyed.",
-      "category": "Ability",
-      "gameId": 1518,
-      "componentValues": {
-        "ABIL_1069_COM_1_RADI_FEET": 25,
-        "ABIL_1069_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1070_COM_0_VAL0": 4,
-        "ABIL_1070_COM_0_VAL1": 20
-      },
-      "rawDescription": "Construct a turret with a moderate range auto-firing grenade launcher. The turret gains 100% of BS, 30% of WS, and 70% of your Wounds from item bonuses.  While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, shorten the duration and tick interval of Path of Grenadier and Tinkerer DoTs by 4% to a maximum of 35% and allow Grenadier skills to be cast while moving. You lose 4 stacks of upgrades if the turret is destroyed."
+      "category": "Ability"
     },
     {
       "image": "04568",
       "id": 3677,
+      "gameId": 1544,
       "name": "Bugman's Best",
       "type": "Healing",
       "spec": "Path of The Tinkerer",
@@ -339,19 +275,12 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any of your groupmates within 30 feet of it, restoring 324 health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
-      "category": "Ability",
-      "gameId": 1544,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 15,
-        "COM_3_RADI_FEET": 30,
-        "COM_3_VAL0_COM_0_VAL0_HEALTH": 324,
-        "COM_2_FREQ_SECONDS": 3
-      },
-      "rawDescription": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next {COM_0_DURA_SECONDS}, the faint vapors escaping from the keg will rejuvenate any of your groupmates within {COM_3_RADI_FEET} of it, restoring {COM_3_VAL0_COM_0_VAL0_HEALTH} every {COM_2_FREQ_SECONDS}. You dream of the day that the brew will be aged enough to actually tap and drink."
+      "category": "Ability"
     },
     {
       "image": "04649",
       "id": 3632,
+      "gameId": 1529,
       "name": "Burn Salve",
       "type": "Enchantment",
       "spec": "Path of The Tinkerer",
@@ -362,17 +291,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 252 for 60 minutes.",
-      "category": "Ability",
-      "gameId": 1529,
-      "componentValues": {
-        "COM_0_VAL0": 252,
-        "COM_0_DURA_MINUTES": 60
-      },
-      "rawDescription": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by {COM_0_VAL0} for {COM_0_DURA_MINUTES}."
+      "category": "Ability"
     },
     {
       "image": "04621",
       "id": 3646,
+      "gameId": 1576,
       "name": "Cannon Smash",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -383,18 +307,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A massive cannonball smashes into your target, dealing 2400 damage  and reducing their armor by 1400 for 30 seconds.",
-      "category": "Morale",
-      "gameId": 1576,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 2400,
-        "COM_1_VAL0": 1400,
-        "COM_1_DURA_SECONDS": 30
-      },
-      "rawDescription": "A massive cannonball smashes into your target, dealing {COM_0_VAL0_DAMAGE}  and reducing their armor by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22698",
       "id": 3649,
+      "gameId": 549,
       "name": "Clever Recovery",
       "type": "Buff",
       "spec": "Core Ability",
@@ -405,16 +323,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<BR>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 549,
-      "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 75
-      },
-      "rawDescription": "If an enemy dodges any of your attacks, you will regain {COM_1_VAL0_ACTIONPOINTS}.<BR>This effect will not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "23162",
       "id": 3653,
+      "gameId": 652,
       "name": "Concealment",
       "type": "Buff",
       "spec": "Core Ability",
@@ -425,16 +339,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
-      "category": "Morale",
-      "gameId": 652,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "04616",
       "id": 3629,
+      "gameId": 1531,
       "name": "Concussion Grenade",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -445,16 +355,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You lob a grenade that releases a powerful shockwave on impact, dealing 403 Corporeal damage to your target and knocking them back a short distance.  Monsters will be knocked down instead.",
-      "category": "Ability",
-      "gameId": 1531,
-      "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 403
-      },
-      "rawDescription": "You lob a grenade that releases a powerful shockwave on impact, dealing {COM_0_VAL0_CORPOREALDAMAGE} to your target and knocking them back a short distance.  Monsters will be knocked down instead."
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 3638,
+      "gameId": 1549,
       "name": "Magnetic Repair",
       "type": "Buff",
       "spec": "Core Ability",
@@ -465,14 +371,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are healed, your turret will become healed for 25% of the value as long as it is within 30 feet.",
-      "category": "CareerTactic",
-      "gameId": 1549,
-      "componentValues": {},
-      "rawDescription": "Any time you are healed, your turret will become healed for 25% of the value as long as it is within 30 feet."
+      "category": "Ability"
     },
     {
       "image": "22709",
       "id": 3643,
+      "gameId": 1555,
       "name": "Coordinated Fire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -483,16 +387,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Signal Flare will now also cause the victim to suffer 15% more damage from all sources.",
-      "category": "CareerTactic",
-      "gameId": 1555,
-      "componentValues": {
-        "ABIL_1521_COM_1_VAL0": 15
-      },
-      "rawDescription": "Signal Flare will now also cause the victim to suffer {ABIL_1521_COM_1_VAL0}% more damage from all sources."
+      "category": "CareerTactic"
     },
     {
       "image": "04614",
       "id": 3661,
+      "gameId": 1536,
       "name": "Crack Shot",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -502,18 +402,13 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A well-aimed shot which deals 337 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
-      "category": "Ability",
-      "gameId": 1536,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 337,
-        "COM_1_DURA_SECONDS": 3
-      },
-      "rawDescription": "A well-aimed shot which deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_DURA_SECONDS}, making them unable to use their weapons."
+      "description": "A well-aimed shot which deals 336 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
+      "category": "Ability"
     },
     {
       "image": "23406",
       "id": 3683,
+      "gameId": 14408,
       "name": "Diminish War Engine",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -524,17 +419,12 @@
       "cooldown": "30s cooldown",
       "note": "Not usable on Siege Rams or Oil",
       "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
-      "category": "Ability",
-      "gameId": 14408,
-      "componentValues": {
-        "COM_0_VAL0": 98,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Siege Targetted debuff. Decreases damage done by that siege engine to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "04654",
       "id": 3679,
+      "gameId": 1542,
       "name": "Electromagnet",
       "type": "Debuff",
       "spec": "Path of The Tinkerer",
@@ -545,19 +435,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within 75 feet inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within 30 feet, reducing their movement speed by 40% for 4 seconds.<BR>The attack uses the Ranged statistic.",
-      "category": "Ability",
-      "gameId": 1542,
-      "componentValues": {
-        "COM_1_RADI_FEET": 75,
-        "COM_3_RADI_FEET": 30,
-        "COM_3_VAL0": 40,
-        "COM_3_DURA_SECONDS": 4
-      },
-      "rawDescription": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within {COM_1_RADI_FEET} inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within {COM_3_RADI_FEET}, reducing their movement speed by {COM_3_VAL0}% for {COM_3_DURA_SECONDS}.<BR>The attack uses the Ranged statistic."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 3647,
+      "gameId": 544,
       "name": "Expert Skirmisher",
       "type": "Buff",
       "spec": "Core Ability",
@@ -568,16 +451,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
-      "category": "CareerTactic",
-      "gameId": 544,
-      "componentValues": {
-        "COM_0_VAL0": 50
-      },
-      "rawDescription": "Your cast times are reduced to {COM_0_VAL0}% when you are within 20 feet of your target."
+      "category": "CareerTactic"
     },
     {
       "image": "23163",
       "id": 3655,
+      "gameId": 650,
       "name": "Explosive Shots",
       "type": "Buff",
       "spec": "Core Ability",
@@ -588,17 +467,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<BR>This effect will not trigger more than once every second.",
-      "category": "Morale",
-      "gameId": 650,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 300,
-        "COM_1_RADI_FEET": 20
-      },
-      "rawDescription": "All of your ranged attacks will explode for the next 10 seconds, dealing {COM_1_VAL0_DAMAGE} to all enemies within {COM_1_RADI_FEET} of your target.<BR>This effect will not trigger more than once every second."
+      "category": "Morale"
     },
     {
       "image": "22698",
       "id": 3639,
+      "gameId": 1551,
       "name": "Extra Ammo",
       "type": "Buff",
       "spec": "Path of The Tinkerer",
@@ -609,18 +483,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "When you construct a turret, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
-      "category": "CareerTactic",
-      "gameId": 1551,
-      "componentValues": {
-        "ABIL_1069_COM_2_VAL0_ACTIONPOINTS": 20,
-        "ABIL_1069_COM_2_RADI_FEET": 30,
-        "ABIL_1069_COM_0_FREQ_SECONDS": 2
-      },
-      "rawDescription": "When you construct a turret, it will restore {ABIL_1069_COM_2_VAL0_ACTIONPOINTS} to everyone within {ABIL_1069_COM_2_RADI_FEET} every {ABIL_1069_COM_0_FREQ_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22694",
       "id": 3667,
+      "gameId": 1563,
       "name": "Extra Powder",
       "type": "Buff",
       "spec": "Path of The Grenadier",
@@ -631,14 +499,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Acid Bomb and Fragmentation Grenade gain a 50% increase to the size of their areas of effect.",
-      "category": "CareerTactic",
-      "gameId": 1563,
-      "componentValues": {},
-      "rawDescription": "Acid Bomb and Fragmentation Grenade gain a 50% increase to the size of their areas of effect."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 3640,
+      "gameId": 1552,
       "name": "Fightin' Chance",
       "type": "Buff",
       "spec": "Core Ability",
@@ -649,17 +515,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by 120, but reduces your Toughness by 120.",
-      "category": "CareerTactic",
-      "gameId": 1552,
-      "componentValues": {
-        "COM_0_VAL0": 120,
-        "COM_1_VAL0": 120
-      },
-      "rawDescription": "Increases your Strength, Ballistic Skill, and Weapon Skill by {COM_0_VAL0}, but reduces your Toughness by {COM_1_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "04468",
       "id": 3613,
+      "gameId": 1523,
       "name": "Firebomb",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -670,16 +531,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You toss a grenade filled with flaming pitch which deals 366 Corporeal damage to your target.",
-      "category": "Ability",
-      "gameId": 1523,
-      "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 366
-      },
-      "rawDescription": "You toss a grenade filled with flaming pitch which deals {COM_0_VAL0_CORPOREALDAMAGE} to your target."
+      "category": "Ability"
     },
     {
       "image": "04620",
       "id": 3624,
+      "gameId": 1527,
       "name": "Flak Jacket",
       "type": "Enchantment",
       "spec": "Core Ability",
@@ -690,17 +547,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You don an experimental suit of protective gear, increasing your Armor by 560 for up to 1 hours.",
-      "category": "Ability",
-      "gameId": 1527,
-      "componentValues": {
-        "COM_0_VAL0": 560,
-        "COM_0_DURA_HOURS": 1
-      },
-      "rawDescription": "You don an experimental suit of protective gear, increasing your Armor by {COM_0_VAL0} for up to {COM_0_DURA_HOURS}."
+      "category": "Ability"
     },
     {
       "image": "04613",
       "id": 3619,
+      "gameId": 1526,
       "name": "Flame Turret",
       "type": "Buff",
       "spec": "Core Ability",
@@ -711,19 +563,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "Construct a turret with a short range self-firing flamethrower. The turret gains 100% of BS, 10% of WS, and 90% of your Wounds from item bonuses. While within 25 feet of it you will use it to create an improvised upgrade every 2 seconds, increasing your damage by 4% to a maximum of 20%, Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50% but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of upgrades if the turret is destroyed.",
-      "category": "Ability",
-      "gameId": 1526,
-      "componentValues": {
-        "ABIL_1069_COM_1_RADI_FEET": 25,
-        "ABIL_1069_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1070_COM_0_VAL0": 4,
-        "ABIL_1070_COM_0_VAL1": 20
-      },
-      "rawDescription": "Construct a turret with a short range self-firing flamethrower. The turret gains 100% of BS, 10% of WS, and 90% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}%, Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50% but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of upgrades if the turret is destroyed."
+      "category": "Ability"
     },
     {
       "image": "04610",
       "id": 3626,
+      "gameId": 1522,
       "name": "Flashbang Grenade",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -734,17 +579,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You toss a grenade which explodes with a burst of force, dealing 403 Corporeal damage to the target.  The blinding flash interrupts the victim and all enemies within 20 feet of them.",
-      "category": "Ability",
-      "gameId": 1522,
-      "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 403,
-        "COM_1_RADI_FEET": 20
-      },
-      "rawDescription": "You toss a grenade which explodes with a burst of force, dealing {COM_0_VAL0_CORPOREALDAMAGE} to the target.  The blinding flash interrupts the victim and all enemies within {COM_1_RADI_FEET} of them."
+      "category": "Ability"
     },
     {
       "image": "05004",
       "id": 3715,
+      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -755,18 +595,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability",
-      "gameId": 245,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "category": "Ability"
     },
     {
       "image": "04623",
       "id": 3680,
+      "gameId": 1582,
       "name": "Fling Explosives",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -777,18 +611,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You fling packets of explosives all around you for up to 4 seconds, dealing 600 damage each second to all enemies within 30 feet.",
-      "category": "Morale",
-      "gameId": 1582,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 4,
-        "COM_1_VAL0_DAMAGE": 600,
-        "COM_1_RADI_FEET": 30
-      },
-      "rawDescription": "You fling packets of explosives all around you for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} each second to all enemies within {COM_1_RADI_FEET}."
+      "category": "Morale"
     },
     {
       "image": "04527",
       "id": 3635,
+      "gameId": 1528,
       "name": "Focused Fire",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -799,17 +627,12 @@
       "cooldown": "8s cooldown",
       "note": "",
       "description": "You focus all of your shots on your enemy for up to 3 seconds, dealing 306 damage to them every second. This effect will end if you lose your concentration or run out of action points.",
-      "category": "Ability",
-      "gameId": 1528,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_0_VAL0_DAMAGE": 306
-      },
-      "rawDescription": "You focus all of your shots on your enemy for up to {COM_0_DURA_SECONDS}, dealing {COM_0_VAL0_DAMAGE} to them every second. This effect will end if you lose your concentration or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "23153",
       "id": 3654,
+      "gameId": 653,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -820,14 +643,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale",
-      "gameId": 653,
-      "componentValues": {},
-      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
+      "category": "Morale"
     },
     {
       "image": "04656",
       "id": 3616,
+      "gameId": 1513,
       "name": "Friction Burn",
       "type": "Hex",
       "spec": "Path of The Tinkerer",
@@ -837,19 +658,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing 660 Corporeal damage over 9 seconds.<BR>The attack uses the Ranged statistic.",
-      "category": "Ability",
-      "gameId": 1513,
-      "componentValues": {
-        "COM_0_RADI_FEET": 40,
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 660,
-        "COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "A powerful swipe with your spanner which smacks all enemies in front of you up to {COM_0_RADI_FEET} away, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}.<BR>The attack uses the Ranged statistic."
+      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing 699 Corporeal damage over 9 seconds.<BR>The attack uses the Ranged statistic.",
+      "category": "Ability"
     },
     {
       "image": "04460",
       "id": 3716,
+      "gameId": 1508,
       "name": "Gun Blast",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -860,16 +675,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A gun attack which deals 536 damage to your enemy.",
-      "category": "Ability",
-      "gameId": 1508,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 536
-      },
-      "rawDescription": "A gun attack which deals {COM_0_VAL0_DAMAGE} to your enemy."
+      "category": "Ability"
     },
     {
       "image": "04602",
       "id": 3614,
+      "gameId": 1511,
       "name": "Gun Turret",
       "type": "Buff",
       "spec": "Core Ability",
@@ -880,19 +691,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "Construct a turret with a long range self-aiming gun. The turret gains 75% of BS and WS from item bonuses and 50% of your Wounds from item bonuses. While within 25 feet of it you will use it to create an improvised upgrade every 2 seconds, increasing your damage by 4% to a maximum of 20% and increase your range by 5% to a maximum of 25% extra range. You lose 4 stacks of upgrades if the turret is destroyed.",
-      "category": "Ability",
-      "gameId": 1511,
-      "componentValues": {
-        "ABIL_1069_COM_1_RADI_FEET": 25,
-        "ABIL_1069_COM_0_FREQ_SECONDS": 2,
-        "ABIL_1070_COM_0_VAL0": 4,
-        "ABIL_1070_COM_0_VAL1": 20
-      },
-      "rawDescription": "Construct a turret with a long range self-aiming gun. The turret gains 75% of BS and WS from item bonuses and 50% of your Wounds from item bonuses. While within {ABIL_1069_COM_1_RADI_FEET} of it you will use it to create an improvised upgrade every {ABIL_1069_COM_0_FREQ_SECONDS}, increasing your damage by {ABIL_1070_COM_0_VAL0}% to a maximum of {ABIL_1070_COM_0_VAL1}% and increase your range by 5% to a maximum of 25% extra range. You lose 4 stacks of upgrades if the turret is destroyed."
+      "category": "Ability"
     },
     {
       "image": "23164",
       "id": 3656,
+      "gameId": 651,
       "name": "Hail of Doom",
       "type": "Buff",
       "spec": "Core Ability",
@@ -903,19 +707,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
-      "category": "Morale",
-      "gameId": 651,
-      "componentValues": {
-        "COM_1_FREQ_SECONDS": 0.5,
-        "COM_1_DURA_SECONDS": 5,
-        "COM_1_RADI_FEET": 20,
-        "COM_1_VAL0_DAMAGE": 300
-      },
-      "rawDescription": "You focus on a spot on the ground, shooting arrows at that spot every {COM_1_FREQ_SECONDS} for {COM_1_DURA_SECONDS}, hitting all enemies within {COM_1_RADI_FEET} of that area for {COM_1_VAL0_DAMAGE} as long as you maintain your concentration."
+      "category": "Morale"
     },
     {
       "image": "23409",
       "id": 3682,
+      "gameId": 14407,
       "name": "Hamper War Engine",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -926,17 +723,12 @@
       "cooldown": "30s cooldown",
       "note": "Not usable on Siege Rams or Oil",
       "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
-      "category": "Ability",
-      "gameId": 14407,
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Siege Targetted debuff. Increases the cooldown times of that siege engine by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}"
+      "category": "Ability"
     },
     {
       "image": "22697",
       "id": 3637,
+      "gameId": 1550,
       "name": "Hand-Crafted Scope",
       "type": "Buff",
       "spec": "Core Ability",
@@ -947,16 +739,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your autoattack speed by 50% when using a gun.",
-      "category": "CareerTactic",
-      "gameId": 1550,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Increases your autoattack speed by {COM_0_VAL1}% when using a gun."
+      "category": "CareerTactic"
     },
     {
       "image": "04608",
       "id": 3623,
+      "gameId": 1520,
       "name": "Hip Shot",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -967,16 +755,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "A quick shot from the hip which deals 291 damage.  This attack may be used at close range.",
-      "category": "Ability",
-      "gameId": 1520,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 291
-      },
-      "rawDescription": "A quick shot from the hip which deals {COM_0_VAL0_DAMAGE}.  This attack may be used at close range."
+      "category": "Ability"
     },
     {
       "image": "22697",
       "id": 3662,
+      "gameId": 1560,
       "name": "Hollow-Points",
       "type": "Buff",
       "spec": "Path of The Rifleman",
@@ -987,17 +771,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Snipe and Gun Blast will now deal an additional 505 damage over 5 seconds.",
-      "category": "CareerTactic",
-      "gameId": 1560,
-      "componentValues": {
-        "ABIL_3838_COM_0_VAL0_TOD_DAMAGE": 505,
-        "ABIL_3838_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Snipe and Gun Blast will now deal an additional {ABIL_3838_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3838_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "04457",
       "id": 3622,
+      "gameId": 1515,
       "name": "Incendiary Rounds",
       "type": "Hex",
       "spec": "Path of The Rifleman",
@@ -1008,17 +787,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You fire bullets that burst into flame when they strike the enemy, dealing 1190 Corporeal damage over 15 seconds.",
-      "category": "Ability",
-      "gameId": 1515,
-      "componentValues": {
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 1190,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "You fire bullets that burst into flame when they strike the enemy, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "04611",
       "id": 3628,
+      "gameId": 1524,
       "name": "Land Mine",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -1029,19 +803,12 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minutes.  The mine will detonate when an enemy gets too close, dealing 343 damage to all enemies within 30 feet and staggering them for up to 3 seconds, preventing all actions unless they are damaged.",
-      "category": "Ability",
-      "gameId": 1524,
-      "componentValues": {
-        "COM_0_DURA_MINUTES": 1,
-        "ABIL_31_COM_0_VAL0_DAMAGE": 343,
-        "COM_2_RADI_FEET": 30,
-        "ABIL_31_COM_2_VAL0_COM_0_DURA_SECONDS": 3
-      },
-      "rawDescription": "You fling out a land mine which arms itself immediately and persists for up to {COM_0_DURA_MINUTES}.  The mine will detonate when an enemy gets too close, dealing {ABIL_31_COM_0_VAL0_DAMAGE} to all enemies within {COM_2_RADI_FEET} and staggering them for up to {ABIL_31_COM_2_VAL0_COM_0_DURA_SECONDS}, preventing all actions unless they are damaged."
+      "category": "Ability"
     },
     {
       "image": "04655",
       "id": 3675,
+      "gameId": 1543,
       "name": "Lightning Rod",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -1052,19 +819,12 @@
       "cooldown": "20s cooldown",
       "note": "",
       "description": "You deploy a shock rod at your feet which will remain for up to 9 seconds and periodically blast out with waves of power, dealing 329 Corporeal damage every 3 seconds to all enemies within 30 feet of it.",
-      "category": "Ability",
-      "gameId": 1543,
-      "componentValues": {
-        "COM_4_DURA_SECONDS": 9,
-        "COM_2_VAL0_COM_0_VAL0_CORPOREALDAMAGE": 329,
-        "COM_0_FREQ_SECONDS": 3,
-        "COM_2_RADI_FEET": 30
-      },
-      "rawDescription": "You deploy a shock rod at your feet which will remain for up to {COM_4_DURA_SECONDS} and periodically blast out with waves of power, dealing {COM_2_VAL0_COM_0_VAL0_CORPOREALDAMAGE} every {COM_0_FREQ_SECONDS} to all enemies within {COM_2_RADI_FEET} of it."
+      "category": "Ability"
     },
     {
       "image": "22697",
       "id": 3648,
+      "gameId": 542,
       "name": "Masterful Aim",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1075,16 +835,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Ballistic Skill by 160.",
-      "category": "CareerTactic",
-      "gameId": 542,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Increases your Ballistic Skill by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "04653",
       "id": 3672,
+      "gameId": 1537,
       "name": "Napalm Grenade",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -1095,24 +851,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing 88 Corporeal damage during the first 10 seconds, 163 Corporeal damage for the next 10 seconds, and 238 Corporeal damage for the final 10 seconds. <BR> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
-      "category": "Ability",
-      "gameId": 1537,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 30,
-        "COM_2_FREQ_SECONDS": 2,
-        "COM_3_RADI_FEET": 20,
-        "COM_3_VAL0_CORPOREALDAMAGE": 88,
-        "COM_2_DURA_SECONDS": 10,
-        "COM_5_VAL0_CORPOREALDAMAGE": 163,
-        "COM_4_DURA_SECONDS": 10,
-        "COM_7_VAL0_CORPOREALDAMAGE": 238,
-        "COM_6_DURA_SECONDS": 10
-      },
-      "rawDescription": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for {COM_0_DURA_SECONDS}, causing damaging every {COM_2_FREQ_SECONDS} to any enemies who come within {COM_3_RADI_FEET} of that spot. The fires increase in intensity over time, causing {COM_3_VAL0_CORPOREALDAMAGE} during the first {COM_2_DURA_SECONDS}, {COM_5_VAL0_CORPOREALDAMAGE} for the next {COM_4_DURA_SECONDS}, and {COM_7_VAL0_CORPOREALDAMAGE} for the final {COM_6_DURA_SECONDS}. <BR> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage."
+      "category": "Ability"
     },
     {
       "image": "abi_dw_explosion01",
       "id": 3665,
+      "gameId": 1541,
       "name": "Phosphorous Shells",
       "type": "Damaging",
       "spec": "Path of The Grenadier",
@@ -1123,18 +867,12 @@
       "cooldown": "16s cooldown",
       "note": "",
       "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 365 Corporeal damage every 2 seconds to all enemies within 20 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
-      "category": "Ability",
-      "gameId": 1541,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 6,
-        "COM_2_VAL0_CORPOREALDAMAGE": 365,
-        "COM_2_RADI_FEET": 20
-      },
-      "rawDescription": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to {COM_0_DURA_SECONDS}, dealing {COM_2_VAL0_CORPOREALDAMAGE} every 2 seconds to all enemies within {COM_2_RADI_FEET} of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel."
+      "category": "Ability"
     },
     {
       "image": "22709",
       "id": 3650,
+      "gameId": 550,
       "name": "Pierce Defenses",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1145,17 +883,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 550,
-      "componentValues": {
-        "ABIL_3880_COM_0_VAL0": 15,
-        "ABIL_3880_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by {ABIL_3880_COM_0_VAL0}% for {ABIL_3880_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "23165",
       "id": 3651,
+      "gameId": 648,
       "name": "Point-Blank",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1166,16 +899,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A mid-range attack that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
-      "category": "Morale",
-      "gameId": 648,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 600
-      },
-      "rawDescription": "A mid-range attack that deals {COM_0_VAL0_DAMAGE} and knocks the targeted player away. Monsters will be knocked down."
+      "category": "Morale"
     },
     {
       "image": "22694",
       "id": 3641,
+      "gameId": 1553,
       "name": "Proximity Alarm",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1186,17 +915,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the chance for you and your groupmates to detect hidden enemies by 50% while you or your group are within 20 feet feet of your turret.",
-      "category": "CareerTactic",
-      "gameId": 1553,
-      "componentValues": {
-        "COM_1_VAL1": 0,
-        "COM_1_RADI_FEET": 20
-      },
-      "rawDescription": "Increases the chance for you and your groupmates to detect hidden enemies by {COM_1_VAL1}% while you or your group are within {COM_1_RADI_FEET} feet of your turret."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 3664,
+      "gameId": 1559,
       "name": "Quick Reloader",
       "type": "Buff",
       "spec": "Path of The Rifleman",
@@ -1207,16 +931,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "The cast times of all your abilities in the Path of the Rifleman are reduced by 25%.",
-      "category": "CareerTactic",
-      "gameId": 1559,
-      "componentValues": {
-        "COM_0_VAL0": 25
-      },
-      "rawDescription": "The cast times of all your abilities in the Path of the Rifleman are reduced by {COM_0_VAL0}%."
+      "category": "CareerTactic"
     },
     {
       "image": "04652",
       "id": 3630,
+      "gameId": 1532,
       "name": "Redeploy",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1227,14 +947,12 @@
       "cooldown": "20s cooldown",
       "note": "Requires a Turret",
       "description": "You activate your Turret's automatic redeployment mechanism, instantly moving it to your current location.",
-      "category": "Ability",
-      "gameId": 1532,
-      "componentValues": {},
-      "rawDescription": "You activate your Turret's automatic redeployment mechanism, instantly moving it to your current location."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 3636,
+      "gameId": 1548,
       "name": "Reinforced Casing",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1245,16 +963,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Adds 160 Wounds to your turrets.",
-      "category": "CareerTactic",
-      "gameId": 1548,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Adds {COM_0_VAL0} Wounds to your turrets."
+      "category": "CareerTactic"
     },
     {
       "image": "04622",
       "id": 3666,
+      "gameId": 1580,
       "name": "Scattershot",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -1265,18 +979,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You release a string of several gun blasts in a row for up to 4 seconds, dealing 600 damage each second to all enemies in front of you, up to 40 feet away.",
-      "category": "Morale",
-      "gameId": 1580,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 4,
-        "COM_1_VAL0_DAMAGE": 600,
-        "COM_1_RADI_FEET": 40
-      },
-      "rawDescription": "You release a string of several gun blasts in a row for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} each second to all enemies in front of you, up to {COM_1_RADI_FEET} away."
+      "category": "Morale"
     },
     {
       "image": "04612",
       "id": 3631,
+      "gameId": 1525,
       "name": "Self-Destruct",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1287,18 +995,12 @@
       "cooldown": "60s cooldown",
       "note": "Requires a Turret",
       "description": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing 370 Corporeal damage to all enemies within 30 feet of it, knocking them down for 3 seconds.",
-      "category": "Ability",
-      "gameId": 1525,
-      "componentValues": {
-        "COM_1_VAL0_CORPOREALDAMAGE": 370,
-        "COM_1_RADI_FEET": 30,
-        "COM_2_DURA_SECONDS": 3
-      },
-      "rawDescription": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing {COM_1_VAL0_CORPOREALDAMAGE} to all enemies within {COM_1_RADI_FEET} of it, knocking them down for {COM_2_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "04603",
       "id": 3615,
+      "gameId": 1512,
       "name": "Field Repair",
       "type": "Healing",
       "spec": "Core Ability",
@@ -1309,17 +1011,12 @@
       "cooldown": "10s cooldown",
       "note": "Requires a Turret",
       "description": "You focus on repairing your turret for up to 3 seconds, restoring 674 health to it every second and making it briefly immune to damage. This effect will end if you lose your concentration or run out of action points.",
-      "category": "Ability",
-      "gameId": 1512,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_0_VAL0_HEALTH": 674
-      },
-      "rawDescription": "You focus on repairing your turret for up to {COM_0_DURA_SECONDS}, restoring {COM_0_VAL0_HEALTH} to it every second and making it briefly immune to damage. This effect will end if you lose your concentration or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "04609",
       "id": 3633,
+      "gameId": 1521,
       "name": "Signal Flare",
       "type": "Hex",
       "spec": "Path of The Rifleman",
@@ -1330,18 +1027,12 @@
       "cooldown": "20s cooldown",
       "note": "",
       "description": "You mark the enemy with a bright signal flare, dealing 1708 damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
-      "category": "Ability",
-      "gameId": 1521,
-      "componentValues": {
-        "COM_2_VAL0_TOD_DAMAGE": 1708,
-        "COM_2_DURA_SECONDS": 21,
-        "COM_0_VAL0": 5
-      },
-      "rawDescription": "You mark the enemy with a bright signal flare, dealing {COM_2_VAL0_TOD_DAMAGE} over {COM_2_DURA_SECONDS} and reducing their chances to dodge or block attacks by {COM_0_VAL0}%."
+      "category": "Ability"
     },
     {
       "image": "04615",
       "id": 3663,
+      "gameId": 1538,
       "name": "Snipe",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
@@ -1351,17 +1042,13 @@
       "incant": "3.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A slow but powerful gun shot which deals 763 damage to your enemy and cannot be defended against.",
-      "category": "Ability",
-      "gameId": 1538,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 763
-      },
-      "rawDescription": "A slow but powerful gun shot which deals {COM_0_VAL0_DAMAGE} to your enemy and cannot be defended against."
+      "description": "A slow but powerful gun shot which deals 762 damage to your enemy and cannot be defended against.",
+      "category": "Ability"
     },
     {
       "image": "04466",
       "id": 3717,
+      "gameId": 1509,
       "name": "Spanner Swipe",
       "type": "Hex",
       "spec": "Core Ability",
@@ -1371,19 +1058,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You clobber your enemy with your spanner, dealing 228 damage and reducing their run speed by 40% for 10 seconds.<BR>The attack uses the Ranged statistic.",
-      "category": "Ability",
-      "gameId": 1509,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 228,
-        "COM_1_VAL0": 40,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "You clobber your enemy with your spanner, dealing {COM_0_VAL0_DAMAGE} and reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR>The attack uses the Ranged statistic."
+      "description": "You clobber your enemy with your spanner, dealing 253 damage and reducing their run speed by 40% for 10 seconds.<BR>The attack uses the Ranged statistic.",
+      "category": "Ability"
     },
     {
       "image": "04651",
       "id": 3634,
+      "gameId": 1530,
       "name": "Static Discharge",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -1393,18 +1074,13 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing 208 Corporeal damage to all enemies within 30 feet.",
-      "category": "Ability",
-      "gameId": 1530,
-      "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 208,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing {COM_0_VAL0_CORPOREALDAMAGE} to all enemies within {COM_0_RADI_FEET}."
+      "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing 220 Corporeal damage to all enemies within 30 feet.",
+      "category": "Ability"
     },
     {
       "image": "04476",
       "id": 3668,
+      "gameId": 1539,
       "name": "Sticky Bomb",
       "type": "Hex",
       "spec": "Path of The Grenadier",
@@ -1414,20 +1090,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A packet of explosives which sticks to your target and slowly burns, dealing 594 Corporeal damage over 15 seconds.  If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing 266 Corporeal damage to the victim and all enemies within 20 feet of them.",
-      "category": "Ability",
-      "gameId": 1539,
-      "componentValues": {
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 594,
-        "COM_0_DURA_SECONDS": 15,
-        "ABIL_3211_COM_0_VAL0_CORPOREALDAMAGE": 266,
-        "ABIL_3211_COM_1_RADI_FEET": 20
-      },
-      "rawDescription": "A packet of explosives which sticks to your target and slowly burns, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}.  If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing {ABIL_3211_COM_0_VAL0_CORPOREALDAMAGE} to the victim and all enemies within {ABIL_3211_COM_1_RADI_FEET} of them."
+      "description": "A packet of explosives which sticks to your target and slowly burns, dealing 594 Corporeal damage over 15 seconds.  If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing 265 Corporeal damage to the victim and all enemies within 20 feet of them.",
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 3660,
+      "gameId": 1561,
       "name": "Stopping Power",
       "type": "Buff",
       "spec": "Path of The Rifleman",
@@ -1438,14 +1107,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Hip Shot now will knock the victim back a short distance.",
-      "category": "CareerTactic",
-      "gameId": 1561,
-      "componentValues": {},
-      "rawDescription": "Hip Shot now will knock the victim back a short distance."
+      "category": "CareerTactic"
     },
     {
       "image": "22711",
       "id": 3657,
+      "gameId": 713,
       "name": "Stoutness of Stone",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1456,16 +1123,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You recover from Stuns and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
-      "category": "CareerTactic",
-      "gameId": 713,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "You recover from Stuns and Knockdowns {COM_0_VAL1}% quicker. You will still gain immunity based on the original duration."
+      "category": "CareerTactic"
     },
     {
       "image": "04531",
       "id": 3670,
+      "gameId": 1540,
       "name": "Strafing Run",
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
@@ -1476,17 +1139,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You call for air support, signaling for a strafing run which deals 578 damage to all enemies in a line in front of you, up to 65 feet away.  Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
-      "category": "Ability",
-      "gameId": 1540,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 578,
-        "COM_0_RADI_FEET": 65
-      },
-      "rawDescription": "You call for air support, signaling for a strafing run which deals {COM_0_VAL0_DAMAGE} to all enemies in a line in front of you, up to {COM_0_RADI_FEET} away.  Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down."
+      "category": "Ability"
     },
     {
       "image": "22711",
       "id": 3658,
+      "gameId": 714,
       "name": "Stubbornness",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1497,16 +1155,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Corporeal resistance by 252.",
-      "category": "CareerTactic",
-      "gameId": 714,
-      "componentValues": {
-        "COM_0_VAL0": 252
-      },
-      "rawDescription": "Increases your Corporeal resistance by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "22697",
       "id": 3642,
+      "gameId": 1554,
       "name": "Tangling Wire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1517,18 +1171,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "After ending or being removed, Barbed Wire will now Snare targets by 40% and deal 246 damage over 5 seconds.",
-      "category": "CareerTactic",
-      "gameId": 1554,
-      "componentValues": {
-        "ABIL_3468_COM_1_VAL0": 40,
-        "ABIL_3468_COM_0_VAL0_TOD_DAMAGE": 246,
-        "ABIL_3468_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "After ending or being removed, Barbed Wire will now Snare targets by {ABIL_3468_COM_1_VAL0}% and deal {ABIL_3468_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3468_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22697",
       "id": 3669,
+      "gameId": 1564,
       "name": "Throwing Arm",
       "type": "Buff",
       "spec": "Path of The Grenadier",
@@ -1539,16 +1187,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the ranges of all Path of the Grenadier abilities by 25%.",
-      "category": "CareerTactic",
-      "gameId": 1564,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Increases the ranges of all Path of the Grenadier abilities by {COM_0_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22697",
       "id": 3678,
+      "gameId": 1566,
       "name": "Tracer Rounds",
       "type": "Buff",
       "spec": "Path of The Tinkerer",
@@ -1559,16 +1203,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit by 15% as long as you are within 100 feet of your turret.",
-      "category": "CareerTactic",
-      "gameId": 1566,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Increases your chance to critically hit by {COM_0_VAL1}% as long as you are within 100 feet of your turret."
+      "category": "CareerTactic"
     },
     {
       "image": "22698",
       "id": 3676,
+      "gameId": 1567,
       "name": "Trench Fighting",
       "type": "Buff",
       "spec": "Path of The Tinkerer",
@@ -1579,16 +1219,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your damage is increased by 15% when under 45 feet away from your target.",
-      "category": "CareerTactic",
-      "gameId": 1567,
-      "componentValues": {
-        "COM_1_VAL0": 15
-      },
-      "rawDescription": "Your damage is increased by {COM_1_VAL0}% when under 45 feet away from your target."
+      "category": "CareerTactic"
     },
     {
       "image": "22709",
       "id": 3674,
+      "gameId": 1565,
       "name": "Well-Oiled Machine",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1599,10 +1235,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You can now construct your turrets instantly and the cost of Redeploy is reduced to 0 Action Points.",
-      "category": "CareerTactic",
-      "gameId": 1565,
-      "componentValues": {},
-      "rawDescription": "You can now construct your turrets instantly and the cost of Redeploy is reduced to 0 Action Points."
+      "category": "CareerTactic"
     },
     {
       "image": "abi_dw_gun01",
@@ -1618,15 +1251,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You load your rifle with the finest of rounds, your attacks will ignore 25% the victim's armor for the next 12 seconds.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 12
-      },
-      "rawDescription": "You load your rifle with the finest of rounds, your attacks will ignore 25% the victim's armor for the next {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "abi_dw_explosion01",
       "id": 2712,
+      "gameId": 2712,
       "name": "Mortar Round",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1637,13 +1267,7 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You fire a mortar at your target, dealing 300 damage to them and everyone within 20 feet every second for 4 seconds.",
-      "category": "Morale",
-      "gameId": 2712,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 300,
-        "COM_1_RADI_FEET": 20
-      },
-      "rawDescription": "You fire a mortar at your target, dealing {COM_1_VAL0_DAMAGE} to them and everyone within {COM_1_RADI_FEET} every second for 4 seconds."
+      "category": "Morale"
     }
   ]
 }

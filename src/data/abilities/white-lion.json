@@ -74,6 +74,7 @@
     {
       "image": "13417",
       "id": 4331,
+      "gameId": 9158,
       "name": "Axe Toss",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -84,16 +85,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You fling a throwing axe at your target, dealing 81 damage.",
-      "category": "Ability",
-      "gameId": 9158,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 81
-      },
-      "rawDescription": "You fling a throwing axe at your target, dealing {COM_0_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "13425",
       "id": 4238,
+      "gameId": 9166,
       "name": "Baiting Strike",
       "type": "Blessing",
       "spec": "Path of The Guardian",
@@ -104,18 +101,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "An attack which momentarily distracts your enemy, dealing 199 damage to them.  Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
-      "category": "Ability",
-      "gameId": 9166,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 199,
-        "COM_1_VAL0_COM_0_VAL1": 25,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "An attack which momentarily distracts your enemy, dealing {COM_0_VAL0_DAMAGE} to them.  Your targeted groupmate, or your War Lion if you do not have one, will cause {COM_1_VAL0_COM_0_VAL1}% less hatred in all enemy monsters for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22705",
       "id": 4274,
+      "gameId": 819,
       "name": "Bend the Winds",
       "type": "Buff",
       "spec": "Core Ability",
@@ -126,16 +117,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
-      "category": "CareerTactic",
-      "gameId": 819,
-      "componentValues": {
-        "COM_0_VAL0": 252
-      },
-      "rawDescription": "Increases your Elemental resistance by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "13460",
       "id": 4282,
+      "gameId": 9230,
       "name": "Blade And Claw",
       "type": "Damaging",
       "spec": "Path of The Hunter",
@@ -146,17 +133,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage to all enemies within 30 feet of both you and your War Lion.",
-      "category": "Morale",
-      "gameId": 9230,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET} of both you and your War Lion."
+      "category": "Morale"
     },
     {
       "image": "13420",
       "id": 4233,
+      "gameId": 9161,
       "name": "Blindside",
       "type": "Curse",
       "spec": "Path of The Axeman",
@@ -166,19 +148,13 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Must be at your target's side or rear",
-      "description": "You attack your enemy at a vulnerable spot, dealing 179 damage immediately and inflicting them with an Ailment which deals an additional 369 damage over 9 seconds.",
-      "category": "Ability",
-      "gameId": 9161,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 179,
-        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 369,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "You attack your enemy at a vulnerable spot, dealing {COM_0_VAL0_DAMAGE} immediately and inflicting them with an Ailment which deals an additional {COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "description": "You attack your enemy at a vulnerable spot, dealing 179 damage immediately and inflicting them with an Ailment which deals an additional 366 damage over 9 seconds.",
+      "category": "Ability"
     },
     {
       "image": "22703",
       "id": 4283,
+      "gameId": 9212,
       "name": "Blindsided!",
       "type": "Buff",
       "spec": "Path of The Axeman",
@@ -189,17 +165,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Blindside will now also disorient your victim for 10 seconds, causing all of their abilities to take an additional 50% to build up.",
-      "category": "CareerTactic",
-      "gameId": 9212,
-      "componentValues": {
-        "ABIL_9161_COM_1_VAL0_COM_1_DURA_SECONDS": 10,
-        "ABIL_9161_COM_1_VAL0_COM_1_VAL0": 50
-      },
-      "rawDescription": "Blindside will now also disorient your victim for {ABIL_9161_COM_1_VAL0_COM_1_DURA_SECONDS}, causing all of their abilities to take an additional {ABIL_9161_COM_1_VAL0_COM_1_VAL0}% to build up."
+      "category": "CareerTactic"
     },
     {
       "image": "23156",
       "id": 4271,
+      "gameId": 629,
       "name": "Broad Swings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -210,16 +181,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
-      "category": "Morale",
-      "gameId": 629,
-      "componentValues": {
-        "COM_1_RADI_FEET": 25
-      },
-      "rawDescription": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within {COM_1_RADI_FEET} in front of you."
+      "category": "Morale"
     },
     {
       "image": "22701",
       "id": 9198,
+      "gameId": 9198,
       "name": "Pack Synergy",
       "type": "Buff",
       "spec": "Core Ability",
@@ -230,14 +197,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active.",
-      "category": "CareerTactic",
-      "gameId": 9198,
-      "componentValues": {},
-      "rawDescription": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active."
+      "category": "CareerTactic"
     },
     {
       "image": "22701",
       "id": 4264,
+      "gameId": 521,
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
@@ -248,16 +213,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength by 160.",
-      "category": "CareerTactic",
-      "gameId": 521,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Increases your Strength by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "23403",
       "id": 4297,
+      "gameId": 14423,
       "name": "Bypass Defenses",
       "type": "Buff",
       "spec": "Core Ability",
@@ -268,16 +229,12 @@
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
-      "category": "Ability",
-      "gameId": 14423,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You bolster yourself for {COM_0_DURA_SECONDS}, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside."
+      "category": "Ability"
     },
     {
       "image": "13418",
       "id": 4332,
+      "gameId": 9159,
       "name": "Call War Lion",
       "type": "Buff",
       "spec": "Core Ability",
@@ -288,14 +245,12 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "You call your tamed War Lion to come forth and fight with you.<BR>You may only have a single War Lion at a time.<BR>If the War Lion is more than 40ft away from you, its damage will be reduced. The further away the pet is, the more the damage is reduced.",
-      "category": "Ability",
-      "gameId": 9159,
-      "componentValues": {},
-      "rawDescription": "You call your tamed War Lion to come forth and fight with you.<BR>You may only have a single War Lion at a time.<BR>If the War Lion is more than 40ft away from you, its damage will be reduced. The further away the pet is, the more the damage is reduced."
+      "category": "Ability"
     },
     {
       "image": "22705",
       "id": 4273,
+      "gameId": 818,
       "name": "Centuries of Training",
       "type": "Buff",
       "spec": "Core Ability",
@@ -306,17 +261,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 818,
-      "componentValues": {
-        "ABIL_3995_COM_0_VAL0_TOD": 252,
-        "ABIL_3995_COM_0_DURA_SECONDS": 3
-      },
-      "rawDescription": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional {ABIL_3995_COM_0_VAL0_TOD} Spirit damage over {ABIL_3995_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "13429",
       "id": 4242,
+      "gameId": 9184,
       "name": "Charge!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -327,17 +277,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You and your War Lion charge into the thick of battle, increasing your movement speed by 50 for 7 seconds.  If you or your War Lion use any abilities, this effect will immediately end.",
-      "category": "Ability",
-      "gameId": 9184,
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "You and your War Lion charge into the thick of battle, increasing your movement speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  If you or your War Lion use any abilities, this effect will immediately end."
+      "category": "Ability"
     },
     {
       "image": "13430",
       "id": 4243,
+      "gameId": 9170,
       "name": "Cleave Limb",
       "type": "Curse",
       "spec": "Path of The Guardian",
@@ -348,18 +293,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "A sundering blow which deals 199 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
-      "category": "Ability",
-      "gameId": 9170,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 199,
-        "COM_1_VAL0_COM_0_VAL0": 40,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "A sundering blow which deals {COM_0_VAL0_DAMAGE} and inflicts your victim with an Ailment which reduces their movement speed by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22705",
       "id": 4259,
+      "gameId": 9205,
       "name": "Close Bond",
       "type": "Buff",
       "spec": "Core Ability",
@@ -370,18 +309,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You gain an additional 50 Morale every 5 seconds as long as you have an active War Lion.  If your War Lion ever dies, however, you will lose 600 Morale.",
-      "category": "CareerTactic",
-      "gameId": 9205,
-      "componentValues": {
-        "COM_1_VAL0": 50,
-        "COM_0_FREQ_SECONDS": 5,
-        "COM_3_VAL0": 600
-      },
-      "rawDescription": "You gain an additional {COM_1_VAL0} Morale every {COM_0_FREQ_SECONDS} as long as you have an active War Lion.  If your War Lion ever dies, however, you will lose {COM_3_VAL0} Morale."
+      "category": "CareerTactic"
     },
     {
       "image": "23157",
       "id": 4269,
+      "gameId": 631,
       "name": "Confusing Movements",
       "type": "Buff",
       "spec": "Core Ability",
@@ -392,16 +325,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
-      "category": "Morale",
-      "gameId": 631,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "13422",
       "id": 4235,
+      "gameId": 9163,
       "name": "Coordinated Strike",
       "type": "Damaging",
       "spec": "Path of The Hunter",
@@ -412,21 +341,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for 134 damage, and your pet strikes its target for 134 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 134 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 134 damage as well.",
-      "category": "Ability",
-      "gameId": 9163,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 134,
-        "ABIL_3952_COM_0_VAL0_DAMAGE": 134,
-        "COM_2_RADI_FEET": 35,
-        "COM_2_VAL0_DAMAGE": 134,
-        "ABIL_3952_COM_2_RADI_FEET": 35,
-        "ABIL_3952_COM_2_VAL0_DAMAGE": 134
-      },
-      "rawDescription": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for {COM_0_VAL0_DAMAGE}, and your pet strikes its target for {ABIL_3952_COM_0_VAL0_DAMAGE}.  If you are within {COM_2_RADI_FEET} of your pet's target, you will also strike that enemy for {COM_2_VAL0_DAMAGE}, and likewise, if your pet is within {ABIL_3952_COM_2_RADI_FEET} of your target, it will also strike your enemy for {ABIL_3952_COM_2_VAL0_DAMAGE} as well."
+      "category": "Ability"
     },
     {
       "image": "13443",
       "id": 4286,
+      "gameId": 9190,
       "name": "Cull The Weak",
       "type": "Damaging",
       "spec": "Path of The Axeman",
@@ -437,16 +357,12 @@
       "cooldown": "10s cooldown",
       "note": "Target must be below 50% health",
       "description": "A ruthless attack which deals 434 damage and will almost always deal critical damage to a wounded foe.",
-      "category": "Ability",
-      "gameId": 9190,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 434
-      },
-      "rawDescription": "A ruthless attack which deals {COM_0_VAL0_DAMAGE} and will almost always deal critical damage to a wounded foe."
+      "category": "Ability"
     },
     {
       "image": "22705",
       "id": 4275,
+      "gameId": 823,
       "name": "Discerning Offense",
       "type": "Buff",
       "spec": "Core Ability",
@@ -457,16 +373,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your attacks have a 10% reduced chance to be defended against.",
-      "category": "CareerTactic",
-      "gameId": 823,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Your attacks have a {COM_0_VAL1}% reduced chance to be defended against."
+      "category": "CareerTactic"
     },
     {
       "image": "13459",
       "id": 4262,
+      "gameId": 9226,
       "name": "Dominance",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -477,16 +389,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1800 damage to your target, and heals you for 50% of the damage done.",
-      "category": "Morale",
-      "gameId": 9226,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1800
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target, and heals you for 50% of the damage done."
+      "category": "Morale"
     },
     {
       "image": "13440",
       "id": 4291,
+      "gameId": 9187,
       "name": "Echoing Roar",
       "type": "Ailment",
       "spec": "Path of The Hunter",
@@ -497,18 +405,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 15 feet of either one of you and inflicting an Ailment which causes 525 Spirit damage over 15 seconds to all affected enemies.",
-      "category": "Ability",
-      "gameId": 9187,
-      "componentValues": {
-        "COM_0_RADI_FEET": 15,
-        "COM_1_VAL0_TOD_SPIRITDAMAGE": 525,
-        "COM_1_DURA_SECONDS": 15
-      },
-      "rawDescription": "You and your War Lion each unleash a blasting shout, interrupting any enemies within {COM_0_RADI_FEET} of either one of you and inflicting an Ailment which causes {COM_1_VAL0_TOD_SPIRITDAMAGE} over {COM_1_DURA_SECONDS} to all affected enemies."
+      "category": "Ability"
     },
     {
       "image": "13457",
       "id": 4260,
+      "gameId": 9224,
       "name": "Ensnare",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -519,17 +421,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 900 damage to your target, and roots them in place for 5 seconds.",
-      "category": "Morale",
-      "gameId": 9224,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 900,
-        "COM_1_DURA_SECONDS": 5
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target, and roots them in place for {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "13433",
       "id": 4246,
+      "gameId": 9173,
       "name": "Feline Grace",
       "type": "Buff",
       "spec": "Core Ability",
@@ -540,16 +437,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your training and Elven grace allows you to remove all roots and snares from yourself and your War Lion.  For the next 10 seconds, roots and snares will have no effect on you or your War Lion.",
-      "category": "Ability",
-      "gameId": 9173,
-      "componentValues": {
-        "COM_2_DURA_SECONDS": 10
-      },
-      "rawDescription": "Your training and Elven grace allows you to remove all roots and snares from yourself and your War Lion.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you or your War Lion."
+      "category": "Ability"
     },
     {
       "image": "13438",
       "id": 4251,
+      "gameId": 9178,
       "name": "Fetch!",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -560,14 +453,12 @@
       "cooldown": "30s cooldown",
       "note": "Requires an active pet",
       "description": "You command your War Lion to toss its target through the air, knocking them closer to you.",
-      "category": "Ability",
-      "gameId": 9178,
-      "componentValues": {},
-      "rawDescription": "You command your War Lion to toss its target through the air, knocking them closer to you."
+      "category": "Ability"
     },
     {
       "image": "13435",
       "id": 4248,
+      "gameId": 9175,
       "name": "Fey Illusion",
       "type": "Damaging",
       "spec": "Path of The Axeman",
@@ -577,19 +468,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing 209 damage. The enemies attack speed is reduced by 20% for the next 10 seconds.  Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow.",
-      "category": "Ability",
-      "gameId": 9175,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 284,
-        "COM_4_VAL0_COM_0_VAL1": 0,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing {COM_0_VAL0_DAMAGE}. The enemies attack speed is reduced by {COM_4_VAL0_COM_0_VAL1}% for the next {COM_4_VAL0_COM_0_DURA_SECONDS}.  Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow."
+      "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing 284 damage. The enemies attack speed is reduced by 20% for the next 10 seconds.  Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow.",
+      "category": "Ability"
     },
     {
       "image": "22704",
       "id": 4265,
+      "gameId": 523,
       "name": "Flanking",
       "type": "Buff",
       "spec": "Core Ability",
@@ -600,16 +485,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
-      "category": "CareerTactic",
-      "gameId": 523,
-      "componentValues": {
-        "COM_0_VAL0": 15
-      },
-      "rawDescription": "All of your attacks deal {COM_0_VAL0}% more damage when you strike an enemy from the sides or rear."
+      "category": "CareerTactic"
     },
     {
       "image": "22702",
       "id": 4254,
+      "gameId": 9200,
       "name": "Flashing Claws",
       "type": "Buff",
       "spec": "Core Ability",
@@ -620,16 +501,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the chance to parry attacks by 10% for both you and your pet, as long as you have a pet active.",
-      "category": "CareerTactic",
-      "gameId": 9200,
-      "componentValues": {
-        "COM_0_VAL0": 10
-      },
-      "rawDescription": "Increases the chance to parry attacks by {COM_0_VAL0}% for both you and your pet, as long as you have a pet active."
+      "category": "CareerTactic"
     },
     {
       "image": "05004",
       "id": 4334,
+      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -640,18 +517,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability",
-      "gameId": 245,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "category": "Ability"
     },
     {
       "image": "13458",
       "id": 4261,
+      "gameId": 9225,
       "name": "Flying Axe",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -662,18 +533,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage over 9 seconds to all enemies in front of you, up to 65 feet away.",
-      "category": "Morale",
-      "gameId": 9225,
-      "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 1200,
-        "COM_0_DURA_SECONDS": 9,
-        "COM_0_RADI_FEET": 65
-      },
-      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
+      "category": "Morale"
     },
     {
       "image": "23158",
       "id": 4268,
+      "gameId": 628,
       "name": "Force of Will",
       "type": "Buff",
       "spec": "Core Ability",
@@ -684,18 +549,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
-      "category": "Morale",
-      "gameId": 628,
-      "componentValues": {
-        "COM_0_VAL0": 200,
-        "COM_2_VAL0": 160,
-        "COM_2_DURA_SECONDS": 30
-      },
-      "rawDescription": "You stare down your opponent, draining {COM_0_VAL0} of their Action Points into yourself, and reducing their Strength by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "13445",
       "id": 4279,
+      "gameId": 9192,
       "name": "Force Opportunity",
       "type": "Curse",
       "spec": "Path of The Hunter",
@@ -706,18 +565,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You strike at your enemy with a brutal attack which causes 246 damage and can not be defended against. The victim's armor is reduced by 1600 for the next 10 seconds.",
-      "category": "Ability",
-      "gameId": 9192,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 246,
-        "COM_1_VAL0": 1600,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "You strike at your enemy with a brutal attack which causes {COM_0_VAL0_DAMAGE} and can not be defended against. The victim's armor is reduced by {COM_1_VAL0} for the next {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "23159",
       "id": 4272,
+      "gameId": 630,
       "name": "Frenzied Slaughter",
       "type": "Buff",
       "spec": "Core Ability",
@@ -728,14 +581,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
-      "category": "Morale",
-      "gameId": 630,
-      "componentValues": {},
-      "rawDescription": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds."
+      "category": "Morale"
     },
     {
       "image": "22702",
       "id": 4287,
+      "gameId": 9214,
       "name": "Full-Grown",
       "type": "Buff",
       "spec": "Path of The Axeman",
@@ -746,17 +597,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength by 80, and increases your War Lion's Wounds by 160.",
-      "category": "CareerTactic",
-      "gameId": 9214,
-      "componentValues": {
-        "COM_0_VAL0": 80,
-        "COM_1_VAL0": 160
-      },
-      "rawDescription": "Increases your Strength by {COM_0_VAL0}, and increases your War Lion's Wounds by {COM_1_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "13419",
       "id": 4333,
+      "gameId": 9160,
       "name": "Hack",
       "type": "Damaging",
       "spec": "Path of The Hunter",
@@ -767,16 +613,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A brutal chop at your enemy which deals 199 damage.",
-      "category": "Ability",
-      "gameId": 9160,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 199
-      },
-      "rawDescription": "A brutal chop at your enemy which deals {COM_0_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 4263,
+      "gameId": 526,
       "name": "Jagged Edge",
       "type": "Buff",
       "spec": "Core Ability",
@@ -787,17 +629,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 526,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD": 606,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Any time you critically hit an enemy they will begin to bleed, suffering additional {COM_1_VAL0_COM_0_VAL0_TOD} Corporeal damage over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "13461",
       "id": 4289,
+      "gameId": 9231,
       "name": "Joy of the Hunt",
       "type": "Healing",
       "spec": "Path of The Axeman",
@@ -808,16 +645,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your War Lion is fully healed, and all group members within 100 feet instantly gain 250 Action Points.",
-      "category": "Morale",
-      "gameId": 9231,
-      "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 250
-      },
-      "rawDescription": "Your War Lion is fully healed, and all group members within 100 feet instantly gain {COM_1_VAL0_ACTIONPOINTS}."
+      "category": "Morale"
     },
     {
       "image": "13447",
       "id": 4295,
+      "gameId": 9194,
       "name": "Leonine Frenzy",
       "type": "Blessing",
       "spec": "Path of The Guardian",
@@ -828,17 +661,12 @@
       "cooldown": "30s cooldown",
       "note": "Requires an active pet",
       "description": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds.  During this time, your pet will deal an additional 209 damage every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds.",
-      "category": "Ability",
-      "gameId": 9194,
-      "componentValues": {
-        "COM_3_DURA_SECONDS": 10,
-        "COM_5_VAL0_DAMAGE": 209
-      },
-      "rawDescription": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next {COM_3_DURA_SECONDS}.  During this time, your pet will deal an additional {COM_5_VAL0_DAMAGE} every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 4276,
+      "gameId": 9209,
       "name": "Lionheart",
       "type": "Buff",
       "spec": "Path of The Hunter",
@@ -848,18 +676,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals 309 Spirit damage.",
-      "category": "CareerTactic",
-      "gameId": 9209,
-      "componentValues": {
-        "COM_1_VAL1": 0,
-        "ABIL_9167_COM_1_VAL0_SPIRITDAMAGE": 434
-      },
-      "rawDescription": "Lion's Fury no longer requires that the target be Cursed, costs {COM_1_VAL1} fewer action points, and deals {ABIL_9167_COM_1_VAL0_SPIRITDAMAGE}."
+      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals 434 Spirit damage.",
+      "category": "CareerTactic"
     },
     {
       "image": "13426",
       "id": 4239,
+      "gameId": 9167,
       "name": "Lion's Fury",
       "type": "Damaging",
       "spec": "Path of The Hunter",
@@ -870,16 +693,12 @@
       "cooldown": "5s cooldown",
       "note": "Target must be Cursed",
       "description": "You draw upon your mystical Elven heritage and furiously attack your target, dealing 246 Spirit damage.",
-      "category": "Ability",
-      "gameId": 9167,
-      "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 246
-      },
-      "rawDescription": "You draw upon your mystical Elven heritage and furiously attack your target, dealing {COM_0_VAL0_SPIRITDAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "22709",
       "id": 4256,
+      "gameId": 9202,
       "name": "Loner",
       "type": "Buff",
       "spec": "Core Ability",
@@ -890,16 +709,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 25% more damage and the cooldown of Pounce is removed, but you are unable to call forth your War Lion, and it will depart if it has already been summoned.",
-      "category": "CareerTactic",
-      "gameId": 9202,
-      "componentValues": {
-        "COM_0_VAL0": 25
-      },
-      "rawDescription": "You deal {COM_0_VAL0}% more damage and the cooldown of Pounce is removed, but you are unable to call forth your War Lion, and it will depart if it has already been summoned."
+      "category": "CareerTactic"
     },
     {
       "image": "13423",
       "id": 4236,
+      "gameId": 9164,
       "name": "Nature's Bond",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -910,17 +725,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your War Lion regains 785 health over 15 seconds.",
-      "category": "Ability",
-      "gameId": 9164,
-      "componentValues": {
-        "COM_0_VAL0_TOD_HEALTH": 785,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Your War Lion regains {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "13434",
       "id": 4247,
+      "gameId": 9174,
       "name": "Pack Assault",
       "type": "Blessing",
       "spec": "Path of The Guardian",
@@ -931,18 +741,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "A feral attack which deals 209 damage and inspires your groupmates to hunt as a pack.  Within the next 5 seconds, each group member within 100 feet will deal an additional 150 damage with their next attack.",
-      "category": "Ability",
-      "gameId": 9174,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 209,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 5,
-        "COM_1_VAL0_COM_1_VAL0_DAMAGE": 150
-      },
-      "rawDescription": "A feral attack which deals {COM_0_VAL0_DAMAGE} and inspires your groupmates to hunt as a pack.  Within the next {COM_1_VAL0_COM_0_DURA_SECONDS}, each group member within 100 feet will deal an additional {COM_1_VAL0_COM_1_VAL0_DAMAGE} with their next attack."
+      "category": "Ability"
     },
     {
       "image": "22701",
       "id": 4278,
+      "gameId": 9210,
       "name": "Pack Hunting",
       "type": "Buff",
       "spec": "Path of The Hunter",
@@ -953,16 +757,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Trained To Hunt will now also increase your autoattack speed by 50%.",
-      "category": "CareerTactic",
-      "gameId": 9210,
-      "componentValues": {
-        "ABIL_9172_COM_5_VAL0_COM_0_VAL1": 0
-      },
-      "rawDescription": "Trained To Hunt will now also increase your autoattack speed by {ABIL_9172_COM_5_VAL0_COM_0_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22701",
       "id": 4252,
+      "gameId": 9198,
       "name": "Pack Synergy",
       "type": "Buff",
       "spec": "Core Ability",
@@ -973,14 +773,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active.",
-      "category": "CareerTactic",
-      "gameId": 9198,
-      "componentValues": {},
-      "rawDescription": "Increases the additional damage dealt when either you or your pet critically hits by 50%, as long as you have a pet active."
+      "category": "CareerTactic"
     },
     {
       "image": "13439",
       "id": 4277,
+      "gameId": 9186,
       "name": "Pounce",
       "type": "Damaging",
       "spec": "Path of The Guardian",
@@ -991,16 +789,12 @@
       "cooldown": "10s cooldown",
       "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
       "description": "You pounce forwards, leaping towards your target and causing 209 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot critically hit.<BR>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
-      "category": "Ability",
-      "gameId": 9186,
-      "componentValues": {
-        "COM_2_VAL0_DAMAGE": 209
-      },
-      "rawDescription": "You pounce forwards, leaping towards your target and causing {COM_2_VAL0_DAMAGE} when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot critically hit.<BR>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target."
+      "category": "Ability"
     },
     {
       "image": "13442",
       "id": 4284,
+      "gameId": 9189,
       "name": "Primal Fury",
       "type": "Blessing",
       "spec": "Path of The Axeman",
@@ -1011,17 +805,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will deal 25% more damage any time you strike an enemy in the sides or back.",
-      "category": "Ability",
-      "gameId": 9189,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL0": 25
-      },
-      "rawDescription": "For the next {COM_0_DURA_SECONDS}, you will deal {COM_0_VAL0}% more damage any time you strike an enemy in the sides or back."
+      "category": "Ability"
     },
     {
       "image": "13462",
       "id": 4296,
+      "gameId": 9232,
       "name": "Rampage",
       "type": "Buff",
       "spec": "Path of The Guardian",
@@ -1032,16 +821,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, all of your abilities will cool down immediately and not cost any action points.  This will also affect your War Lion as well.",
-      "category": "Morale",
-      "gameId": 9232,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "For the next {COM_0_DURA_SECONDS}, all of your abilities will cool down immediately and not cost any action points.  This will also affect your War Lion as well."
+      "category": "Morale"
     },
     {
       "image": "23160",
       "id": 4270,
+      "gameId": 633,
       "name": "Relentless Assault",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1052,17 +837,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
-      "category": "Morale",
-      "gameId": 633,
-      "componentValues": {
-        "COM_0_VAL0_ACTIONPOINTS": 10,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "A prolonged fervor that grants {COM_0_VAL0_ACTIONPOINTS} a second to everyone in your group within 100 feet of you for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22696",
       "id": 4255,
+      "gameId": 9201,
       "name": "Revenge!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1073,17 +853,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "If your War Lion is killed, you will go into a rage and deal 50% more damage for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9201,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0": 50,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "If your War Lion is killed, you will go into a rage and deal {COM_1_VAL0_COM_0_VAL0}% more damage for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22702",
       "id": 4266,
+      "gameId": 528,
       "name": "Riposte",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1094,16 +869,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 246 damage which they can not prevent.",
-      "category": "CareerTactic",
-      "gameId": 528,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 246
-      },
-      "rawDescription": "Each time you parry an enemy's attack, you will strike them back for {COM_1_VAL0_DAMAGE} which they can not prevent."
+      "category": "CareerTactic"
     },
     {
       "image": "23161",
       "id": 4267,
+      "gameId": 627,
       "name": "Sever Nerve",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1114,16 +885,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
-      "category": "Morale",
-      "gameId": 627,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200
-      },
-      "rawDescription": "A directed strike that inflicts {COM_0_VAL0_DAMAGE} to your target."
+      "category": "Morale"
     },
     {
       "image": "13431",
       "id": 4244,
+      "gameId": 9171,
       "name": "Shattering Blow",
       "type": "Curse",
       "spec": "Path of The Axeman",
@@ -1133,20 +900,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 432 damage over 9 seconds.  If you attack an enemy from the sides or back, then you will also reduce their Strength by 120 for 9 seconds.",
-      "category": "Ability",
-      "gameId": 9171,
-      "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 432,
-        "COM_0_DURA_SECONDS": 9,
-        "COM_1_VAL0": 120,
-        "COM_1_DURA_SECONDS": 9
-      },
-      "rawDescription": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}.  If you attack an enemy from the sides or back, then you will also reduce their Strength by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 429 damage over 9 seconds.  If you attack an enemy from the sides or back, then you will also reduce their Strength by 120 for 9 seconds.",
+      "category": "Ability"
     },
     {
       "image": "13436",
       "id": 4249,
+      "gameId": 9176,
       "name": "Slashing Blade",
       "type": "Damaging",
       "spec": "Path of The Hunter",
@@ -1157,17 +917,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A broad sweep of your axe which deals 184 damage to all enemies in front of you, up to 25 feet away.",
-      "category": "Ability",
-      "gameId": 9176,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 184,
-        "COM_0_RADI_FEET": 25
-      },
-      "rawDescription": "A broad sweep of your axe which deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
+      "category": "Ability"
     },
     {
       "image": "22703",
       "id": 4253,
+      "gameId": 9199,
       "name": "Speed Training",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1178,16 +933,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your War Lion's movement speed by 50%.",
-      "category": "CareerTactic",
-      "gameId": 9199,
-      "componentValues": {
-        "COM_1_VAL0": 50
-      },
-      "rawDescription": "Increases your War Lion's movement speed by {COM_1_VAL0}%."
+      "category": "CareerTactic"
     },
     {
       "image": "13428",
       "id": 4241,
+      "gameId": 9169,
       "name": "Submission",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1198,20 +949,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds.  For the next 5 seconds, you will cause 25% less hate in all enemy monsters. You will also deal 50% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
-      "category": "Ability",
-      "gameId": 9169,
-      "componentValues": {
-        "COM_1_RADI_FEET": 30,
-        "COM_1_VAL0": 50,
-        "COM_1_DURA_SECONDS": 5,
-        "COM_3_DURA_SECONDS": 5,
-        "COM_3_VAL1": 0
-      },
-      "rawDescription": "You cower submissively, causing all enemies within {COM_1_RADI_FEET} to hate you less and deal only {COM_1_VAL0}% damage to you for {COM_1_DURA_SECONDS}.  For the next {COM_3_DURA_SECONDS}, you will cause {COM_3_VAL1}% less hate in all enemy monsters. You will also deal {COM_1_VAL0}% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them."
+      "category": "Ability"
     },
     {
       "image": "13424",
       "id": 4237,
+      "gameId": 9165,
       "name": "Sundering Chop",
       "type": "Damaging",
       "spec": "Path of The Axeman",
@@ -1222,17 +965,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A powerful axe chop which deals 209 damage.  If you are behind the enemy, then this attack will ignore 990 armor.",
-      "category": "Ability",
-      "gameId": 9165,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 209,
-        "COM_2_VAL0": 990
-      },
-      "rawDescription": "A powerful axe chop which deals {COM_0_VAL0_DAMAGE}.  If you are behind the enemy, then this attack will ignore {COM_2_VAL0} armor."
+      "category": "Ability"
     },
     {
       "image": "22701",
       "id": 4258,
+      "gameId": 9204,
       "name": "Tearing Blade",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1243,17 +981,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Slashing Blade and Sundering Chop will now cause an additional 258 damage over 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9204,
-      "componentValues": {
-        "ABIL_3961_COM_0_VAL0_TOD_DAMAGE": 258,
-        "ABIL_3961_COM_0_DURA_SECONDS": 3
-      },
-      "rawDescription": "Slashing Blade and Sundering Chop will now cause an additional {ABIL_3961_COM_0_VAL0_TOD_DAMAGE} over {ABIL_3961_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "13444",
       "id": 4288,
+      "gameId": 9191,
       "name": "Thin The Herd",
       "type": "Curse",
       "spec": "Path of The Axeman",
@@ -1263,19 +996,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Must be at your target's side or rear",
-      "description": "You call forth a small bit of power as you attack your enemy, dealing 184 damage and causing all healing that they use within the next 10 seconds to become 50% as effective.",
-      "category": "Ability",
-      "gameId": 9191,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 246,
-        "COM_1_DURA_SECONDS": 10,
-        "COM_1_VAL1": 0
-      },
-      "rawDescription": "You call forth a small bit of power as you attack your enemy, dealing {COM_0_VAL0_DAMAGE} and causing all healing that they use within the next {COM_1_DURA_SECONDS} to become {COM_1_VAL1}% as effective."
+      "description": "You call forth a small bit of power as you attack your enemy, dealing 246 damage and causing all healing that they use within the next 10 seconds to become 50% as effective.",
+      "category": "Ability"
     },
     {
       "image": "13437",
       "id": 4250,
+      "gameId": 9177,
       "name": "Throat Bite",
       "type": "Damaging",
       "spec": "Path of The Guardian",
@@ -1286,18 +1013,12 @@
       "cooldown": "20s cooldown",
       "note": "Requires an active pet",
       "description": "You command your pet to go for the throat!  Your War Lion's next attack within 20 seconds will deal an additional 209 damage and will Silence its victim, making them unable to use magic for 4 seconds.",
-      "category": "Ability",
-      "gameId": 9177,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 20,
-        "ABIL_3958_COM_0_VAL0_DAMAGE": 209,
-        "ABIL_3958_COM_1_DURA_SECONDS": 4
-      },
-      "rawDescription": "You command your pet to go for the throat!  Your War Lion's next attack within {COM_0_DURA_SECONDS} will deal an additional {ABIL_3958_COM_0_VAL0_DAMAGE} and will Silence its victim, making them unable to use magic for {ABIL_3958_COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "13432",
       "id": 4245,
+      "gameId": 9172,
       "name": "Trained To Hunt",
       "type": "Buff",
       "spec": "Path of The Hunter",
@@ -1308,17 +1029,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items.  Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional 207 damage over 3 seconds.<BR><BR>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds.",
-      "category": "Ability",
-      "gameId": 9172,
-      "componentValues": {
-        "COM_4_VAL0_COM_0_VAL0_TOD_DAMAGE": 207,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 3
-      },
-      "rawDescription": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items.  Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional {COM_4_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_4_VAL0_COM_0_DURA_SECONDS}.<BR><BR>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds."
+      "category": "Ability"
     },
     {
       "image": "13421",
       "id": 4240,
+      "gameId": 9162,
       "name": "Trained To Kill",
       "type": "Buff",
       "spec": "Path of The Guardian",
@@ -1329,16 +1045,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by 80.<BR><BR>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
-      "category": "Ability",
-      "gameId": 9162,
-      "componentValues": {
-        "COM_2_VAL0": 80
-      },
-      "rawDescription": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by {COM_2_VAL0}.<BR><BR>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time."
+      "category": "Ability"
     },
     {
       "image": "13427",
       "id": 4234,
+      "gameId": 9168,
       "name": "Trained To Threaten",
       "type": "Buff",
       "spec": "Path of The Axeman",
@@ -1349,16 +1061,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by 5% as long as you are at your target's sides or back.<BR><BR>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies.",
-      "category": "Ability",
-      "gameId": 9168,
-      "componentValues": {
-        "COM_2_VAL1": 0
-      },
-      "rawDescription": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by {COM_2_VAL1}% as long as you are at your target's sides or back.<BR><BR>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies."
+      "category": "Ability"
     },
     {
       "image": "13441",
       "id": 4281,
+      "gameId": 9188,
       "name": "Whirling Axe",
       "type": "Damaging",
       "spec": "Path of The Hunter",
@@ -1369,18 +1077,12 @@
       "cooldown": "13s cooldown",
       "note": "",
       "description": "You rapidly spin your axe around for up to 3 seconds, dealing 192 damage twice a second to all enemies within 30 feet.  This ability will end if you lose your concentration or run out of action points.",
-      "category": "Ability",
-      "gameId": 9188,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_1_VAL0_DAMAGE": 192,
-        "COM_1_RADI_FEET": 30
-      },
-      "rawDescription": "You rapidly spin your axe around for up to {COM_0_DURA_SECONDS}, dealing {COM_1_VAL0_DAMAGE} twice a second to all enemies within {COM_1_RADI_FEET}.  This ability will end if you lose your concentration or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "13446",
       "id": 4293,
+      "gameId": 9193,
       "name": "Brutal Pounce",
       "type": "Damaging",
       "spec": "Path of The Guardian",
@@ -1391,18 +1093,12 @@
       "cooldown": "20s cooldown",
       "note": "Requires an active pet",
       "description": "You command your pet to attack without mercy!  Your War Lion's next attack within 20 seconds will deal an additional 284 damage and will knock down its victim for 3 seconds.",
-      "category": "Ability",
-      "gameId": 9193,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 20,
-        "ABIL_3959_COM_0_VAL0_DAMAGE": 284,
-        "ABIL_3959_COM_1_DURA_SECONDS": 3
-      },
-      "rawDescription": "You command your pet to attack without mercy!  Your War Lion's next attack within {COM_0_DURA_SECONDS} will deal an additional {ABIL_3959_COM_0_VAL0_DAMAGE} and will knock down its victim for {ABIL_3959_COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 9203,
+      "gameId": 9203,
       "name": "Calming Presence",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1413,14 +1109,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are healed, your War Lion will become healed for 25% of the value as long as it is within 30 feet.",
-      "category": "CareerTactic",
-      "gameId": 9203,
-      "componentValues": {},
-      "rawDescription": "Any time you are healed, your War Lion will become healed for 25% of the value as long as it is within 30 feet."
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 4292,
+      "gameId": 9216,
       "name": "Furious Mending",
       "type": "Healing",
       "spec": "Path of The Guardian",
@@ -1431,17 +1125,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Trained To Kill now restores 120 health to you and your War Lion every 5 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9216,
-      "componentValues": {
-        "ABIL_9162_COM_4_VAL0_HEALTH": 120,
-        "ABIL_9162_COM_4_FREQ_SECONDS": 5
-      },
-      "rawDescription": "Trained To Kill now restores {ABIL_9162_COM_4_VAL0_HEALTH} to you and your War Lion every {ABIL_9162_COM_4_FREQ_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 4290,
+      "gameId": 9215,
       "name": "Stalker",
       "type": "Buff",
       "spec": "Path of The Guardian",
@@ -1452,16 +1141,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your War Lion now causes 75% less hatred in hostile monsters.",
-      "category": "CareerTactic",
-      "gameId": 9215,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Your War Lion now causes {COM_0_VAL1}% less hatred in hostile monsters."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 4298,
+      "gameId": 9215,
       "name": "Stalker",
       "type": "Buff",
       "spec": "Path of The Guardian",
@@ -1472,16 +1157,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your War Lion now causes 75% less hatred in hostile monsters.",
-      "category": "CareerTactic",
-      "gameId": 9215,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Your War Lion now causes {COM_0_VAL1}% less hatred in hostile monsters."
+      "category": "CareerTactic"
     },
     {
       "image": "22708",
       "id": 4280,
+      "gameId": 2929,
       "name": "Hack and Slash",
       "type": "Buff",
       "spec": "Path of The Hunter",
@@ -1492,16 +1173,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents Armor, additionally reduces the action point costs of Slashing Blade and Hack by 50%.",
-      "category": "CareerTactic",
-      "gameId": 2929,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents Armor, additionally reduces the action point costs of Slashing Blade and Hack by {COM_0_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 4285,
+      "gameId": 9213,
       "name": "Threatening Distraction",
       "type": "Buff",
       "spec": "Path of The Axeman",
@@ -1512,16 +1189,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Trained To Threaten will now reduce all hatred that you cause in hostile monsters by 75%.",
-      "category": "CareerTactic",
-      "gameId": 9213,
-      "componentValues": {
-        "ABIL_9168_COM_4_VAL1": 0
-      },
-      "rawDescription": "Trained To Threaten will now reduce all hatred that you cause in hostile monsters by {ABIL_9168_COM_4_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22694",
       "id": 4294,
+      "gameId": 9217,
       "name": "Baited Trap",
       "type": "Buff",
       "spec": "Path of The Guardian",
@@ -1531,11 +1204,8 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "",
-      "category": "CareerTactic",
-      "gameId": 9217,
-      "componentValues": {},
-      "rawDescription": ""
+      "description": "Baiting Strike will now also increase your chance to disrupt spells by 10% for 15 seconds, and increase your armor by 990.",
+      "category": "CareerTactic"
     }
   ]
 }

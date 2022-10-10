@@ -71,6 +71,7 @@
     {
       "image": "22712",
       "id": 907,
+      "gameId": 839,
       "name": "Alignment of Naggaroth",
       "type": "Buff",
       "spec": "Core Ability",
@@ -81,16 +82,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Spiritual resistance increased by 252.",
-      "category": "CareerTactic",
-      "gameId": 839,
-      "componentValues": {
-        "COM_0_VAL0": 252
-      },
-      "rawDescription": "Spiritual resistance increased by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 920,
+      "gameId": 9369,
       "name": "Anger Drives Me",
       "type": "Defensive",
       "spec": "Path of Loathing",
@@ -101,14 +98,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your chance to Parry is increased by 3% per 10 Hatred.",
-      "category": "CareerTactic",
-      "gameId": 9369,
-      "componentValues": {},
-      "rawDescription": "Your chance to Parry is increased by 3% per 10 Hatred."
+      "category": "CareerTactic"
     },
     {
       "image": "11042",
       "id": 895,
+      "gameId": 9382,
       "name": "Armor of Eternal Servitude",
       "type": "Buff",
       "spec": "Core Ability",
@@ -119,18 +114,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "The magic infusing your armor springs to life, further increasing your armor by 990 and restoring 2400 health over 20 seconds.",
-      "category": "Morale",
-      "gameId": 9382,
-      "componentValues": {
-        "COM_0_VAL0": 990,
-        "COM_1_VAL0_TOD_HEALTH": 2400,
-        "COM_1_DURA_SECONDS": 20
-      },
-      "rawDescription": "The magic infusing your armor springs to life, further increasing your armor by {COM_0_VAL0} and restoring {COM_1_VAL0_TOD_HEALTH} over {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "11041",
       "id": 894,
+      "gameId": 9381,
       "name": "Away, Cretins!",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -141,17 +130,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "No longer able to bear looking upon your opponents, you knockback everyone within 30 feet of you for 600 damage. Monsters will be knocked down.",
-      "category": "Morale",
-      "gameId": 9381,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_DAMAGE": 600
-      },
-      "rawDescription": "No longer able to bear looking upon your opponents, you knockback everyone within {COM_0_RADI_FEET} of you for {COM_0_VAL0_DAMAGE}. Monsters will be knocked down."
+      "category": "Morale"
     },
     {
       "image": "11040",
       "id": 893,
+      "gameId": 9380,
       "name": "Banish Weakness",
       "type": "Buff",
       "spec": "Core Ability",
@@ -162,17 +146,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A cry of rage removes all Hexes, Curses, and Ailments from you. You will regain 50 AP and 300 health for each effect removed.",
-      "category": "Morale",
-      "gameId": 9380,
-      "componentValues": {
-        "COM_2_VAL0": 50,
-        "COM_1_VAL0_HEALTH": 300
-      },
-      "rawDescription": "A cry of rage removes all Hexes, Curses, and Ailments from you. You will regain {COM_2_VAL0} AP and {COM_1_VAL0_HEALTH} for each effect removed."
+      "category": "Morale"
     },
     {
       "image": "22712",
       "id": 908,
+      "gameId": 840,
       "name": "Bathing In Blood",
       "type": "Buff",
       "spec": "Core Ability",
@@ -183,17 +162,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 840,
-      "componentValues": {
-        "ABIL_3260_COM_0_VAL0_TOD_HEALTH": 471,
-        "ABIL_3260_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Any time you kill an enemy, you will regain {ABIL_3260_COM_0_VAL0_TOD_HEALTH} over {ABIL_3260_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "abi_de_reapingscythe",
       "id": 910,
+      "gameId": 2888,
       "name": "Malignant Strike!",
       "type": "Hex",
       "spec": "Path of Malice",
@@ -204,17 +178,12 @@
       "cooldown": "20s cooldown",
       "note": "Requires Great Weapon",
       "description": "An overwhelming attack which deals 194 damage and knocks the victim down for 3 seconds.",
-      "category": "Ability",
-      "gameId": 2888,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 194,
-        "COM_1_DURA_SECONDS": 3
-      },
-      "rawDescription": "An overwhelming attack which deals {COM_0_VAL0_DAMAGE} and knocks the victim down for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "11044",
       "id": 915,
+      "gameId": 9387,
       "name": "Blast of Hatred",
       "type": "Damaging",
       "spec": "Path of Malice",
@@ -225,19 +194,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You spread a wave of malicious loathing  towards all the peons 40 feet in front of you. So searing is this hate that those in your path move 40% slower and suffer 2400 damage over 15 seconds.",
-      "category": "Morale",
-      "gameId": 9387,
-      "componentValues": {
-        "COM_0_RADI_FEET": 40,
-        "COM_0_VAL0": 40,
-        "COM_1_VAL0_TOD_DAMAGE": 2400,
-        "COM_1_DURA_SECONDS": 15
-      },
-      "rawDescription": "You spread a wave of malicious loathing  towards all the peons {COM_0_RADI_FEET} in front of you. So searing is this hate that those in your path move {COM_0_VAL0}% slower and suffer {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "11039",
       "id": 928,
+      "gameId": 9350,
       "name": "Bolstering Anger",
       "type": "Healing",
       "spec": "Path of Anguish",
@@ -248,17 +210,12 @@
       "cooldown": "60s cooldown",
       "note": "Costs 10 Hatred every 3 seconds.",
       "description": "You focus your Hatred inward, cursing yourself for your weakness, and force yourself to march on by recovering 415 health every 3 seconds for up to 30 seconds. This effect will end if you run out of Hate.",
-      "category": "Ability",
-      "gameId": 9350,
-      "componentValues": {
-        "COM_3_VAL0_HEALTH": 415,
-        "COM_0_DURA_SECONDS": 30
-      },
-      "rawDescription": "You focus your Hatred inward, cursing yourself for your weakness, and force yourself to march on by recovering {COM_3_VAL0_HEALTH} every 3 seconds for up to {COM_0_DURA_SECONDS}. This effect will end if you run out of Hate."
+      "category": "Ability"
     },
     {
       "image": "11017",
       "id": 871,
+      "gameId": 9324,
       "name": "Brutal Smash",
       "type": "Damaging",
       "spec": "Path of Anguish",
@@ -269,23 +226,12 @@
       "cooldown": "5s cooldown",
       "note": "Improves with Hatred",
       "description": "A vicious blow to the head that deals 194 damage and increases the Strength by 120 and also increasing Willpower based on Hatred for the next 20 seconds.<BR>Your Dark Protector will receive increased Strength and Willpower if they are within 50 feet.  <BR> With 25 Hate: Willpower increased by 120. <BR> With 50 Hate: Willpower increased by 240.<BR> With 75 Hate: Willpower increased by 360.<BR> With 100 Hate: Willpower increased by 480.",
-      "category": "Ability",
-      "gameId": 9324,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 194,
-        "COM_1_VAL0_COM_0_VAL0": 120,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 20,
-        "COM_1_VAL0_COM_4_RADI_FEET": 50,
-        "COM_1_VAL0_COM_1_VAL0": 120,
-        "COM_1_VAL0_COM_2_VAL0": 240,
-        "COM_1_VAL0_COM_3_VAL0": 360,
-        "COM_1_VAL0_COM_4_VAL0": 480
-      },
-      "rawDescription": "A vicious blow to the head that deals {COM_0_VAL0_DAMAGE} and increases the Strength by {COM_1_VAL0_COM_0_VAL0} and also increasing Willpower based on Hatred for the next {COM_1_VAL0_COM_0_DURA_SECONDS}.<BR>Your Dark Protector will receive increased Strength and Willpower if they are within {COM_1_VAL0_COM_4_RADI_FEET}.  <BR> With 25 Hate: Willpower increased by {COM_1_VAL0_COM_1_VAL0}. <BR> With 50 Hate: Willpower increased by {COM_1_VAL0_COM_2_VAL0}.<BR> With 75 Hate: Willpower increased by {COM_1_VAL0_COM_3_VAL0}.<BR> With 100 Hate: Willpower increased by {COM_1_VAL0_COM_4_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "11027",
       "id": 882,
+      "gameId": 9334,
       "name": "Chains of Hatred",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -296,17 +242,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Taken aback by your seething contempt, up to 4 enemies within 30 feet are rooted in place, making them unable to move for 5 seconds.  Rooted targets have a 50% chance to break free when they suffer damage.",
-      "category": "Ability",
-      "gameId": 9334,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Taken aback by your seething contempt, up to 4 enemies within {COM_0_RADI_FEET} are rooted in place, making them unable to move for {COM_0_DURA_SECONDS}.  Rooted targets have a 50% chance to break free when they suffer damage."
+      "category": "Ability"
     },
     {
       "image": "11025",
       "id": 879,
+      "gameId": 9332,
       "name": "Challenge",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -317,17 +258,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You challenge all opponents in front of you, making monsters hate you more. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
-      "category": "Ability",
-      "gameId": 9332,
-      "componentValues": {
-        "COM_5_VAL0": 70,
-        "COM_5_DURA_SECONDS": 15
-      },
-      "rawDescription": "You challenge all opponents in front of you, making monsters hate you more. While challenged, your opponents will deal only {COM_5_VAL0}% damage to everyone other than you. This effect will fade after {COM_5_DURA_SECONDS} or after your opponent has hit you 3 times."
+      "category": "Ability"
     },
     {
       "image": "23174",
       "id": 902,
+      "gameId": 608,
       "name": "Champion's Challenge",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -338,16 +274,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<BR>This effect cannot be dispelled or broken.",
-      "category": "Morale",
-      "gameId": 608,
-      "componentValues": {
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "Both you and your target are held tightly in place for {COM_1_DURA_SECONDS}, and neither one of you can move.<BR>This effect cannot be dispelled or broken."
+      "category": "Morale"
     },
     {
       "image": "22670",
       "id": 946,
+      "gameId": 14162,
       "name": "Chaotic Allegiance",
       "type": "Buff",
       "spec": "Core Ability",
@@ -358,14 +290,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You receive an additional 5% morale gain for every Chaos in your group.",
-      "category": "RvRTactic",
-      "gameId": 14162,
-      "componentValues": {},
-      "rawDescription": "You receive an additional 5% morale gain for every Chaos in your group."
+      "category": "RvRTactic"
     },
     {
       "image": "11038",
       "id": 924,
+      "gameId": 9349,
       "name": "Choking Fury",
       "type": "Hex",
       "spec": "Path of Anguish",
@@ -375,19 +305,13 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Costs 20 Hatred",
-      "description": "A particularly insulting strike that deals 194 damage and causes your target to spend an additional 20 Action Points whenever they activate an ability for the next 10 seconds.",
-      "category": "Ability",
-      "gameId": 9349,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 269,
-        "COM_2_VAL1": 0,
-        "COM_2_DURA_SECONDS": 10
-      },
-      "rawDescription": "A particularly insulting strike that deals {COM_1_VAL0_DAMAGE} and causes your target to spend an additional {COM_2_VAL1} Action Points whenever they activate an ability for the next {COM_2_DURA_SECONDS}."
+      "description": "A particularly insulting strike that deals 269 damage and causes your target to spend an additional 20 Action Points whenever they activate an ability for the next 10 seconds.",
+      "category": "Ability"
     },
     {
       "image": "22657",
       "id": 952,
+      "gameId": 14124,
       "name": "Combat Awareness",
       "type": "Buff",
       "spec": "Core Ability",
@@ -398,14 +322,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "5% Increased EXP in Realm vs. Realm combat",
-      "category": "RvRTactic",
-      "gameId": 14124,
-      "componentValues": {},
-      "rawDescription": "5% Increased EXP in Realm vs. Realm combat"
+      "category": "RvRTactic"
     },
     {
       "image": "11033",
       "id": 914,
+      "gameId": 9344,
       "name": "Crimson Death",
       "type": "Damaging",
       "spec": "Path of Malice",
@@ -415,20 +337,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 30 Hatred<br>Requires Great Weapon",
-      "description": "A great cleave that strikes all targets 40 feet in front of you for 294 damage and making them 10% more likely to be critically hit by others for 10 seconds.",
-      "category": "Ability",
-      "gameId": 9344,
-      "componentValues": {
-        "COM_1_RADI_FEET": 40,
-        "COM_1_VAL0_DAMAGE": 419,
-        "COM_2_VAL1": 0,
-        "COM_2_DURA_SECONDS": 10
-      },
-      "rawDescription": "A great cleave that strikes all targets {COM_1_RADI_FEET} in front of you for {COM_1_VAL0_DAMAGE} and making them {COM_2_VAL1}% more likely to be critically hit by others for {COM_2_DURA_SECONDS}."
+      "description": "A great cleave that strikes all targets 40 feet in front of you for 419 damage and making them 10% more likely to be critically hit by others for 10 seconds.",
+      "category": "Ability"
     },
     {
       "image": "11011",
       "id": 865,
+      "gameId": 9318,
       "name": "Crippling Anger",
       "type": "Hex",
       "spec": "Path of Malice",
@@ -439,18 +354,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "A maiming strike that allows you to further toy with your opponent by reducing their movement speed by 40% and dealing 340 damage over 10 seconds.",
-      "category": "Ability",
-      "gameId": 9318,
-      "componentValues": {
-        "COM_1_VAL0": 40,
-        "COM_0_VAL0_TOD_DAMAGE": 340,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "A maiming strike that allows you to further toy with your opponent by reducing their movement speed by {COM_1_VAL0}% and dealing {COM_0_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "11026",
       "id": 883,
+      "gameId": 9333,
       "name": "Crush The Weak",
       "type": "Hex",
       "spec": "Path of Loathing",
@@ -460,21 +369,13 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Hatred",
-      "description": "A heartless attack that inflicts 137 damage and target's Critical hit chance will be reduced based on your Hate.<BR> With 25 Hate: Critical chance reduced 5%. <BR> With 50 Hate: Critical chance reduced 10%.<BR> With 75 Hate: Critical chance reduced 15%.<BR> With 100 Hate: Critical chance reduced 20%.",
-      "category": "Ability",
-      "gameId": 9333,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 184,
-        "COM_1_VAL1": 0,
-        "COM_2_VAL1": 0,
-        "COM_3_VAL1": 0,
-        "COM_4_VAL1": 0
-      },
-      "rawDescription": "A heartless attack that inflicts {COM_0_VAL0_DAMAGE} and target's Critical hit chance will be reduced based on your Hate.<BR> With 25 Hate: Critical chance reduced {COM_1_VAL1}%. <BR> With 50 Hate: Critical chance reduced {COM_2_VAL1}%.<BR> With 75 Hate: Critical chance reduced {COM_3_VAL1}%.<BR> With 100 Hate: Critical chance reduced {COM_4_VAL1}%."
+      "description": "A heartless attack that inflicts 184 damage and target's Critical hit chance will be reduced based on your Hate.<BR> With 25 Hate: Critical chance reduced 5%. <BR> With 50 Hate: Critical chance reduced 10%.<BR> With 75 Hate: Critical chance reduced 15%.<BR> With 100 Hate: Critical chance reduced 20%.",
+      "category": "Ability"
     },
     {
       "image": "22702",
       "id": 886,
+      "gameId": 9370,
       "name": "Crush Vitality",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -485,17 +386,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Anytime you strike an opponent, you have a 25% chance to lower that opponent' autoattack speed by 20% for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9370,
-      "componentValues": {
-        "ABIL_3376_COM_0_VAL1": 0,
-        "ABIL_3376_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Anytime you strike an opponent, you have a 25% chance to lower that opponent' autoattack speed by {ABIL_3376_COM_0_VAL1}% for {ABIL_3376_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "11020",
       "id": 878,
+      "gameId": 9327,
       "name": "Crushing Anger",
       "type": "Damaging",
       "spec": "Path of Anguish",
@@ -506,19 +402,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "A surge of malevolence slams into your foe dealing 231 damage and interrupting them. Will also reduce your opponent's Action Points based on your Hate.<BR> With 30 Hate: Reduce AP by 10. <BR> With 60 Hate: Reduce AP by 20.<BR> With 90 Hate: Reduce AP by 30.",
-      "category": "Ability",
-      "gameId": 9327,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 231,
-        "COM_2_VAL0": 10,
-        "COM_3_VAL0": 20,
-        "COM_4_VAL0": 30
-      },
-      "rawDescription": "A surge of malevolence slams into your foe dealing {COM_0_VAL0_DAMAGE} and interrupting them. Will also reduce your opponent's Action Points based on your Hate.<BR> With 30 Hate: Reduce AP by {COM_2_VAL0}. <BR> With 60 Hate: Reduce AP by {COM_3_VAL0}.<BR> With 90 Hate: Reduce AP by {COM_4_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "22712",
       "id": 906,
+      "gameId": 841,
       "name": "Dark Blessings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -529,16 +418,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Direct heals cast on you will recover 10% more health.",
-      "category": "CareerTactic",
-      "gameId": 841,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Direct heals cast on you will recover {COM_0_VAL1}% more health."
+      "category": "CareerTactic"
     },
     {
       "image": "22668",
       "id": 947,
+      "gameId": 14164,
       "name": "Dark Elf Lineage",
       "type": "Buff",
       "spec": "Core Ability",
@@ -549,14 +434,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You receive an additional 5% morale gain for every Dark Elf in your group.",
-      "category": "RvRTactic",
-      "gameId": 14164,
-      "componentValues": {},
-      "rawDescription": "You receive an additional 5% morale gain for every Dark Elf in your group."
+      "category": "RvRTactic"
     },
     {
       "image": "11501",
       "id": 987,
+      "gameId": 9338,
       "name": "Dark Protector",
       "type": "Buff",
       "spec": "Core Ability",
@@ -567,16 +450,12 @@
       "cooldown": "1.5s cooldown",
       "note": "",
       "description": "The Witch King has tasked you with watching over one of your pitiful allies. You gain 5 Hatred whenever an enemy dares to attack your protected ally. <BR>This effect can not occur more than once per second.",
-      "category": "Ability",
-      "gameId": 9338,
-      "componentValues": {
-        "ABIL_353_COM_0_VAL0": 5
-      },
-      "rawDescription": "The Witch King has tasked you with watching over one of your pitiful allies. You gain {ABIL_353_COM_0_VAL0} Hatred whenever an enemy dares to attack your protected ally. <BR>This effect can not occur more than once per second."
+      "category": "Ability"
     },
     {
       "image": "23172",
       "id": 900,
+      "gameId": 606,
       "name": "Demolishing Strike",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -587,18 +466,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds.",
-      "category": "Morale",
-      "gameId": 606,
-      "componentValues": {
-        "COM_1_VAL0": 1056,
-        "COM_0_VAL0_TOD_DAMAGE": 900,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "A powerful melee attack that reduces your target's armor by {COM_1_VAL0} and deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "23173",
       "id": 904,
+      "gameId": 610,
       "name": "Distracting Bellow",
       "type": "Buff",
       "spec": "Core Ability",
@@ -609,18 +482,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
-      "category": "Morale",
-      "gameId": 610,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "A loud shout that startles your target and all enemies within {COM_0_RADI_FEET} of them, reducing their damage to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "11012",
       "id": 867,
+      "gameId": 9319,
       "name": "Driven By Hate",
       "type": "Buff",
       "spec": "Core Ability",
@@ -631,16 +498,12 @@
       "cooldown": "20s cooldown",
       "note": "Costs 40 Hatred",
       "description": "Fueled by your hatred, you push yourself ever onward and regain 160 Action Points.",
-      "category": "Ability",
-      "gameId": 9319,
-      "componentValues": {
-        "COM_2_VAL0": 160
-      },
-      "rawDescription": "Fueled by your hatred, you push yourself ever onward and regain {COM_2_VAL0} Action Points."
+      "category": "Ability"
     },
     {
       "image": "22667",
       "id": 933,
+      "gameId": 14166,
       "name": "Dwarf Bane",
       "type": "Buff",
       "spec": "Core Ability",
@@ -651,14 +514,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You inflict 2% more damage against Dwarfs in PvP",
-      "category": "RvRTactic",
-      "gameId": 14166,
-      "componentValues": {},
-      "rawDescription": "You inflict 2% more damage against Dwarfs in PvP"
+      "category": "RvRTactic"
     },
     {
       "image": "22667",
       "id": 939,
+      "gameId": 14103,
       "name": "Dwarfs Fear Me",
       "type": "Buff",
       "spec": "Core Ability",
@@ -669,14 +530,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Killing Dwarfs will reduce the morale of any opponents nearby at death.",
-      "category": "RvRTactic",
-      "gameId": 14103,
-      "componentValues": {},
-      "rawDescription": "Killing Dwarfs will reduce the morale of any opponents nearby at death."
+      "category": "RvRTactic"
     },
     {
       "image": "22702",
       "id": 888,
+      "gameId": 9357,
       "name": "Efficient Slaughter",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -687,14 +546,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Hate spending abilities cost 5 less Hate to use.",
-      "category": "CareerTactic",
-      "gameId": 9357,
-      "componentValues": {},
-      "rawDescription": "Hate spending abilities cost 5 less Hate to use."
+      "category": "CareerTactic"
     },
     {
       "image": "11036",
       "id": 926,
+      "gameId": 9347,
       "name": "Elite Training",
       "type": "Blessing",
       "spec": "Path of Anguish",
@@ -705,19 +562,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "For up to 10 seconds your superior training allows you to easily Parry or Disrupt the next 4 attacks made against you. Your Dark Protector will receive the benefits if they are within 50ft. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <BR> With 30 Hate: Restores 5 AP. <BR> With 60 Hate: Restores 10 AP.<BR> With 90 Hate: Restores 15 AP",
-      "category": "Ability",
-      "gameId": 9347,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_3_VAL0": 5,
-        "COM_4_VAL0": 10,
-        "COM_5_VAL0": 15
-      },
-      "rawDescription": "For up to {COM_0_DURA_SECONDS} your superior training allows you to easily Parry or Disrupt the next 4 attacks made against you. Your Dark Protector will receive the benefits if they are within 50ft. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <BR> With 30 Hate: Restores {COM_3_VAL0} AP. <BR> With 60 Hate: Restores {COM_4_VAL0} AP.<BR> With 90 Hate: Restores {COM_5_VAL0} AP"
+      "category": "Ability"
     },
     {
       "image": "22666",
       "id": 934,
+      "gameId": 14168,
       "name": "Empire Bane",
       "type": "Buff",
       "spec": "Core Ability",
@@ -728,14 +578,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You inflict 2% more damage against Empire in PvP",
-      "category": "RvRTactic",
-      "gameId": 14168,
-      "componentValues": {},
-      "rawDescription": "You inflict 2% more damage against Empire in PvP"
+      "category": "RvRTactic"
     },
     {
       "image": "22702",
       "id": 890,
+      "gameId": 9359,
       "name": "Endless Pursuit",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -746,18 +594,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "When disrupting an enemy spell you gain a 30% speed boost for 5 seconds and gain 40 Action Points.",
-      "category": "CareerTactic",
-      "gameId": 9359,
-      "componentValues": {
-        "ABIL_3484_COM_0_VAL0": 30,
-        "ABIL_3484_COM_0_DURA_SECONDS": 5,
-        "ABIL_3484_COM_1_VAL0": 40
-      },
-      "rawDescription": "When disrupting an enemy spell you gain a {ABIL_3484_COM_0_VAL0}% speed boost for {ABIL_3484_COM_0_DURA_SECONDS} and gain {ABIL_3484_COM_1_VAL0} Action Points."
+      "category": "CareerTactic"
     },
     {
       "image": "11032",
       "id": 912,
+      "gameId": 9343,
       "name": "Enraged Beating",
       "type": "Damaging",
       "spec": "Path of Malice",
@@ -768,17 +610,12 @@
       "cooldown": "8s cooldown",
       "note": "",
       "description": "A flurry of blows that inflicts 137 damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
-      "category": "Ability",
-      "gameId": 9343,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 137,
-        "COM_1_DURA_SECONDS": 3
-      },
-      "rawDescription": "A flurry of blows that inflicts {COM_1_VAL0_DAMAGE} every half second for {COM_1_DURA_SECONDS}. Any of these hits that critical will restore 10 Hate."
+      "category": "Ability"
     },
     {
       "image": "11021",
       "id": 881,
+      "gameId": 9328,
       "name": "Exile",
       "type": "Damaging",
       "spec": "Path of Loathing",
@@ -789,16 +626,12 @@
       "cooldown": "20s cooldown",
       "note": "",
       "description": "An overwhelming blow that deals 269 damage and will knockback your target based on your Hate.<BR> With 30 Hate: Medium Knockback. <BR> With 60 Hate: Long Knockback.<BR> With 90 Hate: Very Long Knockback.",
-      "category": "Ability",
-      "gameId": 9328,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 269
-      },
-      "rawDescription": "An overwhelming blow that deals {COM_0_VAL0_DAMAGE} and will knockback your target based on your Hate.<BR> With 30 Hate: Medium Knockback. <BR> With 60 Hate: Long Knockback.<BR> With 90 Hate: Very Long Knockback."
+      "category": "Ability"
     },
     {
       "image": "22701",
       "id": 918,
+      "gameId": 9368,
       "name": "Feeding On Pain",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -809,18 +642,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduce AP cost of Loathing abilities based on your current Health level.<BR> With 75-51% Health: Reduce cost by 25%. <BR> With 50-26% Health: Reduce cost by 50%.<BR> With 25-0% Health: Reduce cost by 75%.",
-      "category": "CareerTactic",
-      "gameId": 9368,
-      "componentValues": {
-        "COM_2_VAL1": 0,
-        "COM_1_VAL1": 0,
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Reduce AP cost of Loathing abilities based on your current Health level.<BR> With 75-51% Health: Reduce cost by {COM_2_VAL1}%. <BR> With 50-26% Health: Reduce cost by {COM_1_VAL1}%.<BR> With 25-0% Health: Reduce cost by {COM_0_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "11009",
       "id": 866,
+      "gameId": 9316,
       "name": "Feeding On Weakness",
       "type": "Buff",
       "spec": "Path of Loathing",
@@ -831,19 +658,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for 184 damage and increase your Toughness by 120 for 20 seconds and will recover health based on your Hate and damage inflicted.<BR>Your Dark Protector will regain health and receive increased Toughness if they are within 50 feet.  <BR> With 30 Hate: Recovers 25% of damage inflicted.<BR> With 60 Hate: Recovers 50% of damage inflicted. <BR> With 90 Hate: Recovers 75% of damage inflicted.",
-      "category": "Ability",
-      "gameId": 9316,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 184,
-        "COM_1_VAL0": 120,
-        "COM_1_DURA_SECONDS": 20,
-        "COM_5_RADI_FEET": 50
-      },
-      "rawDescription": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for {COM_0_VAL0_DAMAGE} and increase your Toughness by {COM_1_VAL0} for {COM_1_DURA_SECONDS} and will recover health based on your Hate and damage inflicted.<BR>Your Dark Protector will regain health and receive increased Toughness if they are within {COM_5_RADI_FEET}.  <BR> With 30 Hate: Recovers 25% of damage inflicted.<BR> With 60 Hate: Recovers 50% of damage inflicted. <BR> With 90 Hate: Recovers 75% of damage inflicted."
+      "category": "Ability"
     },
     {
       "image": "22702",
       "id": 911,
+      "gameId": 9366,
       "name": "Filled With Fury",
       "type": "Defensive",
       "spec": "Path of Malice",
@@ -854,17 +674,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increase chance to critically hit by 15% for 5 seconds whenever you expend Hate to attack.",
-      "category": "CareerTactic",
-      "gameId": 9366,
-      "componentValues": {
-        "ABIL_3374_COM_0_VAL1": 0,
-        "ABIL_3374_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Increase chance to critically hit by {ABIL_3374_COM_0_VAL1}% for {ABIL_3374_COM_0_DURA_SECONDS} whenever you expend Hate to attack."
+      "category": "CareerTactic"
     },
     {
       "image": "05004",
       "id": 984,
+      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -875,18 +690,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability",
-      "gameId": 245,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "category": "Ability"
     },
     {
       "image": "22701",
       "id": 896,
+      "gameId": 500,
       "name": "Focused Offense",
       "type": "Buff",
       "spec": "Core Ability",
@@ -897,18 +706,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
-      "category": "CareerTactic",
-      "gameId": 500,
-      "componentValues": {
-        "COM_0_VAL0": 15,
-        "COM_2_VAL1": 0,
-        "COM_1_VAL0": 33
-      },
-      "rawDescription": "You deal {COM_0_VAL0}% more damage and all enemy monsters will hate you {COM_2_VAL1}% less than normal, but your armor is reduced by {COM_1_VAL0}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22671",
       "id": 948,
+      "gameId": 14120,
       "name": "For Glory!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -919,14 +722,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "5% Increased Renown earned when fighting players in Scenarios",
-      "category": "RvRTactic",
-      "gameId": 14120,
-      "componentValues": {},
-      "rawDescription": "5% Increased Renown earned when fighting players in Scenarios"
+      "category": "RvRTactic"
     },
     {
       "image": "11035",
       "id": 919,
+      "gameId": 2746,
       "name": "Force of Fury",
       "type": "Blessing",
       "spec": "Path of Loathing",
@@ -936,24 +737,13 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds your Armor is increased by 618 and you will become less likely to be Critically hit depending on your Hatred.<BR>Your Dark Protector will receive the benefits if they are within 50 feet. <BR> With 30 Hate: 15% less likely to be Critically hit. <BR> With 60 Hate: 30% less likely to be Critically hit.<BR> With 90 Hate: 45% less likely to be Critically hit.",
-      "category": "Ability",
-      "gameId": 2746,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL0": 990,
-        "COM_1_VAL1": 0,
-        "COM_4_VAL0": 98,
-        "COM_2_VAL1": 0,
-        "COM_5_VAL0": 96,
-        "COM_3_VAL1": 0,
-        "COM_6_VAL0": 94
-      },
-      "rawDescription": "Your intense fury allows you to shrug off the greatest of hits. For {COM_0_DURA_SECONDS} you and your Dark Protector have their Armor increased by {COM_0_VAL0}, become less likely to be Critically hit and suffer reduced damage depending on your Hatred. <BR> With 30 Hate: {COM_1_VAL1}% less likely to be Critically hit, incoming damage reduced to {COM_4_VAL0}%. <BR> With 60 Hate: {COM_2_VAL1}% less likely to be Critically hit, incoming damage reduced to {COM_5_VAL0}%.<BR> With 90 Hate: {COM_3_VAL1}% less likely to be Critically hit, incoming damage reduced to {COM_6_VAL0}%."
+      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds you and your Dark Protector have their Armor increased by 990, become less likely to be Critically hit and suffer reduced damage depending on your Hatred. <BR> With 30 Hate: 5% less likely to be Critically hit, incoming damage reduced to 98%. <BR> With 60 Hate: 10% less likely to be Critically hit, incoming damage reduced to 96%.<BR> With 90 Hate: 15% less likely to be Critically hit, incoming damage reduced to 94%.",
+      "category": "Ability"
     },
     {
       "image": "11024",
       "id": 884,
+      "gameId": 9331,
       "name": "Furious Howl",
       "type": "Hex",
       "spec": "Path of Anguish",
@@ -964,19 +754,12 @@
       "cooldown": "10s cooldown",
       "note": "Costs 30 Hatred",
       "description": "A bone chilling howl that strikes fear in all opponents 30 feet from you. Those affected suffer 132 damage and their chance to Block and Parry is reduced by 10% for 15 seconds.",
-      "category": "Ability",
-      "gameId": 9331,
-      "componentValues": {
-        "COM_1_RADI_FEET": 30,
-        "COM_1_VAL0_DAMAGE": 132,
-        "COM_2_VAL0": 10,
-        "COM_2_DURA_SECONDS": 15
-      },
-      "rawDescription": "A bone chilling howl that strikes fear in all opponents {COM_1_RADI_FEET} from you. Those affected suffer {COM_1_VAL0_DAMAGE} and their chance to Block and Parry is reduced by {COM_2_VAL0}% for {COM_2_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "11018",
       "id": 872,
+      "gameId": 9325,
       "name": "Guard",
       "type": "Buff",
       "spec": "Core Ability",
@@ -987,16 +770,12 @@
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
       "description": "You defend one of your groupmates and try to take attacks meant for them.  As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.<BR><BR>Damage received from this ability can be blocked or parried, unless the original attack was undefendable.",
-      "category": "Ability",
-      "gameId": 9325,
-      "componentValues": {
-        "COM_1_VAL1": 0
-      },
-      "rawDescription": "You defend one of your groupmates and try to take attacks meant for them.  As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and {COM_1_VAL1}% of all hate that they cause will be redirected to you.<BR><BR>Damage received from this ability can be blocked or parried, unless the original attack was undefendable."
+      "category": "Ability"
     },
     {
       "image": "22702",
       "id": 913,
+      "gameId": 9367,
       "name": "Hastened Doom",
       "type": "Defensive",
       "spec": "Path of Malice",
@@ -1006,20 +785,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically hit a target their Wounds are reduced by 75 for 10 seconds. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by 50% for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9367,
-      "componentValues": {
-        "ABIL_3375_COM_0_VAL0": 120,
-        "ABIL_3375_COM_0_DURA_SECONDS": 10,
-        "ABIL_3148_COM_0_VAL1": 0,
-        "ABIL_3148_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Whenever you critically hit a target their Wounds are reduced by {ABIL_3375_COM_0_VAL0} for {ABIL_3375_COM_0_DURA_SECONDS}. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by {ABIL_3148_COM_0_VAL1}% for {ABIL_3148_COM_0_DURA_SECONDS}."
+      "description": "Whenever you critically hit a target their Wounds are reduced by 120 for 10 seconds. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by 50% for 10 seconds.",
+      "category": "CareerTactic"
     },
     {
       "image": "11008",
       "id": 986,
+      "gameId": 9315,
       "name": "Hateful Strike",
       "type": "Buff",
       "spec": "Path of Loathing",
@@ -1030,16 +802,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A vindictive blow that deals 184 damage and builds double threat.",
-      "category": "Ability",
-      "gameId": 9315,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 184
-      },
-      "rawDescription": "A vindictive blow that deals {COM_0_VAL0_DAMAGE} and builds double threat."
+      "category": "Ability"
     },
     {
       "image": "22661",
       "id": 935,
+      "gameId": 14170,
       "name": "High Elf Bane ",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1050,14 +818,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You inflict 2% more damage against High Elves in PvP",
-      "category": "RvRTactic",
-      "gameId": 14170,
-      "componentValues": {},
-      "rawDescription": "You inflict 2% more damage against High Elves in PvP"
+      "category": "RvRTactic"
     },
     {
       "image": "22661",
       "id": 941,
+      "gameId": 14105,
       "name": "High Elves Fear Me",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1068,14 +834,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Killing High Elves will reduce the morale of any opponents nearby at death.",
-      "category": "RvRTactic",
-      "gameId": 14105,
-      "componentValues": {},
-      "rawDescription": "Killing High Elves will reduce the morale of any opponents nearby at death."
+      "category": "RvRTactic"
     },
     {
       "image": "11019",
       "id": 873,
+      "gameId": 9326,
       "name": "Hold The Line!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1086,19 +850,12 @@
       "cooldown": "No cooldown",
       "note": "Requires Shield",
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<BR>This effect will end if you break your concentration, or run out of action points.",
-      "category": "Ability",
-      "gameId": 9326,
-      "componentValues": {
-        "COM_0_VAL0": 45,
-        "COM_0_DURA_SECONDS": 12,
-        "COM_1_RADI_FEET": 50,
-        "COM_1_VAL0": 15
-      },
-      "rawDescription": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by {COM_0_VAL0}% for {COM_0_DURA_SECONDS}. You will also defend all allies behind you, up to {COM_1_RADI_FEET} away, increasing their chances to dodge and disrupt by {COM_1_VAL0}% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<BR>This effect will end if you break your concentration, or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "11022",
       "id": 874,
+      "gameId": 9329,
       "name": "Horrific Wound",
       "type": "Hex",
       "spec": "Path of Malice",
@@ -1109,20 +866,12 @@
       "cooldown": "5s cooldown",
       "note": "Improves with Hatred",
       "description": "Cuts open a vicious wound, dealing 194 damage and weakens the victim's armor based on Hatred.<BR> With 25 Hate: Armor reduced by 320. <BR> With 50 Hate: Armor reduced by 640.<BR> With 75 Hate: Armor reduced by 960.<BR> With 100 Hate: Armor reduced by 1280.",
-      "category": "Ability",
-      "gameId": 9329,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 194,
-        "COM_1_VAL0": 320,
-        "COM_2_VAL0": 640,
-        "COM_3_VAL0": 960,
-        "COM_4_VAL0": 1280
-      },
-      "rawDescription": "Cuts open a vicious wound, dealing {COM_0_VAL0_DAMAGE} and weakens the victim's armor based on Hatred.<BR> With 25 Hate: Armor reduced by {COM_1_VAL0}. <BR> With 50 Hate: Armor reduced by {COM_2_VAL0}.<BR> With 75 Hate: Armor reduced by {COM_3_VAL0}.<BR> With 100 Hate: Armor reduced by {COM_4_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "23175",
       "id": 905,
+      "gameId": 613,
       "name": "Immaculate Defense",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1133,17 +882,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
-      "category": "Morale",
-      "gameId": 613,
-      "componentValues": {
-        "COM_0_VAL1": 0,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "An impressive display of defense which reduces incoming damage by {COM_0_VAL1}% for both you and all group members within 100 feet of you for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "11045",
       "id": 929,
+      "gameId": 9388,
       "name": "In Malekith's Name!",
       "type": "Damaging",
       "spec": "Path of Anguish",
@@ -1154,18 +898,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A fierce curse in the Witch Kings name brings overwhelming pain to those who hear it. Opponents within 30 feet of you receive 1800 damage and are Silenced for 5 seconds.",
-      "category": "Morale",
-      "gameId": 9388,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_DAMAGE": 1800,
-        "COM_1_DURA_SECONDS": 5
-      },
-      "rawDescription": "A fierce curse in the Witch Kings name brings overwhelming pain to those who hear it. Opponents within {COM_0_RADI_FEET} of you receive {COM_0_VAL0_DAMAGE} and are Silenced for {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22667",
       "id": 942,
+      "gameId": 14146,
       "name": "Invigorating Victory - Dwarf",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1176,14 +914,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Killing Dwarfs will double your AP regen rate 10% of the time.",
-      "category": "RvRTactic",
-      "gameId": 14146,
-      "componentValues": {},
-      "rawDescription": "Killing Dwarfs will double your AP regen rate 10% of the time."
+      "category": "RvRTactic"
     },
     {
       "image": "22666",
       "id": 943,
+      "gameId": 14147,
       "name": "Invigorating Victory - Empire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1194,14 +930,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Killing Empire will double your AP regen rate 10% of the time.",
-      "category": "RvRTactic",
-      "gameId": 14147,
-      "componentValues": {},
-      "rawDescription": "Killing Empire will double your AP regen rate 10% of the time."
+      "category": "RvRTactic"
     },
     {
       "image": "22661",
       "id": 944,
+      "gameId": 14148,
       "name": "Invigorating Victory - High Elf",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1212,14 +946,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Killing High Elves will double your AP regen rate 10% of the time.",
-      "category": "RvRTactic",
-      "gameId": 14148,
-      "componentValues": {},
-      "rawDescription": "Killing High Elves will double your AP regen rate 10% of the time."
+      "category": "RvRTactic"
     },
     {
       "image": "11023",
       "id": 875,
+      "gameId": 9330,
       "name": "Juggernaut",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1230,14 +962,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
-      "category": "Ability",
-      "gameId": 9330,
-      "componentValues": {},
-      "rawDescription": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects."
+      "category": "Ability"
     },
     {
       "image": "11043",
       "id": 922,
+      "gameId": 9386,
       "name": "Khaine's Warding",
       "type": "Buff",
       "spec": "Path of Loathing",
@@ -1248,17 +978,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Khaine's favor shines on those with strength and skill, so for the next 10 seconds anytime anyone in your group blocks an attack, each group member within 100 feet regains 1200 health.",
-      "category": "Morale",
-      "gameId": 9386,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_HEALTH": 1200
-      },
-      "rawDescription": "Khaine's favor shines on those with strength and skill, so for the next {COM_0_DURA_SECONDS} anytime anyone in your group blocks an attack, each group member within 100 feet regains {COM_1_VAL0_HEALTH}."
+      "category": "Morale"
     },
     {
       "image": "22665",
       "id": 949,
+      "gameId": 14121,
       "name": "King of the Hill",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1269,14 +994,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "5% Increased Renown earned when fighting players in Skirmish",
-      "category": "RvRTactic",
-      "gameId": 14121,
-      "componentValues": {},
-      "rawDescription": "5% Increased Renown earned when fighting players in Skirmish"
+      "category": "RvRTactic"
     },
     {
       "image": "22669",
       "id": 954,
+      "gameId": 14127,
       "name": "King Slayer",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1287,14 +1010,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "5% Increased Damage vs. Kings",
-      "category": "RvRTactic",
-      "gameId": 14127,
-      "componentValues": {},
-      "rawDescription": "5% Increased Damage vs. Kings"
+      "category": "RvRTactic"
     },
     {
       "image": "22656",
       "id": 953,
+      "gameId": 14125,
       "name": "Looter",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1305,14 +1026,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "5% Increased Gold in Realm vs. Realm combat",
-      "category": "RvRTactic",
-      "gameId": 14125,
-      "componentValues": {},
-      "rawDescription": "5% Increased Gold in Realm vs. Realm combat"
+      "category": "RvRTactic"
     },
     {
       "image": "22702",
       "id": 889,
+      "gameId": 9358,
       "name": "Malekith's Bulwark",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -1323,17 +1042,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces all magical damage that you take to 75%, but also reduces all healing used on you by 15%.",
-      "category": "CareerTactic",
-      "gameId": 9358,
-      "componentValues": {
-        "COM_0_VAL0": 75,
-        "COM_1_VAL1": 0
-      },
-      "rawDescription": "Reduces all magical damage that you take to {COM_0_VAL0}%, but also reduces all healing used on you by {COM_1_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22709",
       "id": 898,
+      "gameId": 504,
       "name": "Menace",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1344,16 +1058,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
-      "category": "CareerTactic",
-      "gameId": 504,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% more than normal on all attacks."
+      "category": "CareerTactic"
     },
     {
       "image": "11010",
       "id": 864,
+      "gameId": 9317,
       "name": "Mind Killer",
       "type": "Hex",
       "spec": "Path of Anguish",
@@ -1364,18 +1074,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A vile attack that crushes your target's will to live, inflicting 184 damage and lowering their Intelligence and Willpower by 40 for 20 seconds. This effect can be stacked up to 3 times.",
-      "category": "Ability",
-      "gameId": 9317,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 184,
-        "ABIL_3372_COM_1_VAL0": 40,
-        "ABIL_3372_COM_1_DURA_SECONDS": 20
-      },
-      "rawDescription": "A vile attack that crushes your target's will to live, inflicting {COM_0_VAL0_DAMAGE} and lowering their Intelligence and Willpower by {ABIL_3372_COM_1_VAL0} for {ABIL_3372_COM_1_DURA_SECONDS}. This effect can be stacked up to 3 times."
+      "category": "Ability"
     },
     {
       "image": "22651",
       "id": 950,
+      "gameId": 14122,
       "name": "Mission Focused",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1386,14 +1090,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "5% Increased Renown earned when fighting players in Objectives",
-      "category": "RvRTactic",
-      "gameId": 14122,
-      "componentValues": {},
-      "rawDescription": "5% Increased Renown earned when fighting players in Objectives"
+      "category": "RvRTactic"
     },
     {
       "image": "11016",
       "id": 876,
+      "gameId": 9323,
       "name": "Monstrous Rending",
       "type": "Damaging",
       "spec": "Path of Malice",
@@ -1404,17 +1106,12 @@
       "cooldown": "No cooldown",
       "note": "Costs 30 Hatred",
       "description": "A sweeping strike that rakes across targets up to 25 feet in front of you for 250 damage",
-      "category": "Ability",
-      "gameId": 9323,
-      "componentValues": {
-        "COM_1_RADI_FEET": 25,
-        "COM_1_VAL0_DAMAGE": 250
-      },
-      "rawDescription": "A sweeping strike that rakes across targets up to {COM_1_RADI_FEET} in front of you for {COM_1_VAL0_DAMAGE}"
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 909,
+      "gameId": 9365,
       "name": "Monstrous Ruin",
       "type": "Defensive",
       "spec": "Path of Malice",
@@ -1425,14 +1122,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Monstrous Rending cost 10 less Hate to use.",
-      "category": "CareerTactic",
-      "gameId": 9365,
-      "componentValues": {},
-      "rawDescription": "Monstrous Rending cost 10 less Hate to use."
+      "category": "CareerTactic"
     },
     {
       "image": "11013",
       "id": 870,
+      "gameId": 9320,
       "name": "Murderous Wrath",
       "type": "Damaging",
       "spec": "Path of Malice",
@@ -1443,16 +1138,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A piercing blow that deals 194 damage and ignores 25% of your target's armor.",
-      "category": "Ability",
-      "gameId": 9320,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 194
-      },
-      "rawDescription": "A piercing blow that deals {COM_0_VAL0_DAMAGE} and ignores 25% of your target's armor."
+      "category": "Ability"
     },
     {
       "image": "22658",
       "id": 955,
+      "gameId": 14128,
       "name": "Nemesis",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1463,14 +1154,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Receive 5% less damage from Kings",
-      "category": "RvRTactic",
-      "gameId": 14128,
-      "componentValues": {},
-      "rawDescription": "Receive 5% less damage from Kings"
+      "category": "RvRTactic"
     },
     {
       "image": "11034",
       "id": 917,
+      "gameId": 9345,
       "name": "None Shall Pass",
       "type": "Buff",
       "spec": "Path of Loathing",
@@ -1481,19 +1170,12 @@
       "cooldown": "30s cooldown",
       "note": "Requires Shield",
       "description": "You ready your blade and defiantly raise your shield to increase your Block rate by 50% for up to 10 seconds. Any time you block during this time you will lash out at your attacker for 187 damage and gain 5 Hatred.",
-      "category": "Ability",
-      "gameId": 9345,
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_3_VAL0_DAMAGE": 187,
-        "ABIL_296_COM_0_VAL0": 5
-      },
-      "rawDescription": "You ready your blade and defiantly raise your shield to increase your Block rate by {COM_0_VAL0}% for up to {COM_0_DURA_SECONDS}. Any time you block during this time you will lash out at your attacker for {COM_3_VAL0_DAMAGE} and gain {ABIL_296_COM_0_VAL0} Hatred."
+      "category": "Ability"
     },
     {
       "image": "22663",
       "id": 945,
+      "gameId": 14160,
       "name": "Orcish Camaraderie",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1504,14 +1186,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You receive an additional 5% morale gain for every Greenskin in your group.",
-      "category": "RvRTactic",
-      "gameId": 14160,
-      "componentValues": {},
-      "rawDescription": "You receive an additional 5% morale gain for every Greenskin in your group."
+      "category": "RvRTactic"
     },
     {
       "image": "22701",
       "id": 887,
+      "gameId": 9356,
       "name": "Pitiless Feeding",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -1522,14 +1202,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases durations of Pitiless Strike, Mind Killer, and Terrifying Foe by 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9356,
-      "componentValues": {},
-      "rawDescription": "Increases durations of Pitiless Strike, Mind Killer, and Terrifying Foe by 10 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "11028",
       "id": 863,
+      "gameId": 9335,
       "name": "Pitiless Strike",
       "type": "Hex",
       "spec": "Path of Malice",
@@ -1540,18 +1218,12 @@
       "cooldown": "No cooldown",
       "note": "Costs 20 Hatred",
       "description": "A merciless attack that weakens your target, dealing 269 damage and reducing their Toughness by 120 for 20 seconds.",
-      "category": "Ability",
-      "gameId": 9335,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 269,
-        "COM_2_VAL0": 120,
-        "COM_2_DURA_SECONDS": 20
-      },
-      "rawDescription": "A merciless attack that weakens your target, dealing {COM_1_VAL0_DAMAGE} and reducing their Toughness by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "23176",
       "id": 903,
+      "gameId": 607,
       "name": "Raze",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1562,18 +1234,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
-      "category": "Morale",
-      "gameId": 607,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 300,
-        "COM_0_DURA_SECONDS": 3,
-        "COM_1_RADI_FEET": 65
-      },
-      "rawDescription": "You repeatedly attack all enemies in a line in front of you, inflicting {COM_1_VAL0_DAMAGE} every second for {COM_0_DURA_SECONDS}, up to {COM_1_RADI_FEET} away, for as long as you maintain your concentration."
+      "category": "Morale"
     },
     {
       "image": "22667",
       "id": 936,
+      "gameId": 14099,
       "name": "Refreshing Dominance - Dwarf",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1584,14 +1250,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Killing Dwarfs will restore a small amount of health.",
-      "category": "RvRTactic",
-      "gameId": 14099,
-      "componentValues": {},
-      "rawDescription": "Killing Dwarfs will restore a small amount of health."
+      "category": "RvRTactic"
     },
     {
       "image": "22666",
       "id": 937,
+      "gameId": 14100,
       "name": "Refreshing Dominance - Empire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1602,14 +1266,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Killing Empire will restore a small amount of health.",
-      "category": "RvRTactic",
-      "gameId": 14100,
-      "componentValues": {},
-      "rawDescription": "Killing Empire will restore a small amount of health."
+      "category": "RvRTactic"
     },
     {
       "image": "22661",
       "id": 938,
+      "gameId": 14101,
       "name": "Refreshing Dominance - High Elf",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1620,14 +1282,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Killing High Elves will restore a small amount of health.",
-      "category": "RvRTactic",
-      "gameId": 14101,
-      "componentValues": {},
-      "rawDescription": "Killing High Elves will restore a small amount of health."
+      "category": "RvRTactic"
     },
     {
       "image": "22702",
       "id": 897,
+      "gameId": 503,
       "name": "Rugged",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1638,16 +1298,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Toughness by 160.",
-      "category": "CareerTactic",
-      "gameId": 503,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Increases Toughness by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "11030",
       "id": 880,
+      "gameId": 9337,
       "name": "Shatter Enchantment",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1658,16 +1314,12 @@
       "cooldown": "5s cooldown",
       "note": "Target must have an Enchantment",
       "description": "You shatter one Enchantment from your enemy and deal 119 damage.",
-      "category": "Ability",
-      "gameId": 9337,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 119
-      },
-      "rawDescription": "You shatter one Enchantment from your enemy and deal {COM_1_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "11037",
       "id": 868,
+      "gameId": 9336,
       "name": "Shield of Rage",
       "type": "Blessing",
       "spec": "Path of Anguish",
@@ -1677,18 +1329,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 15 Hatred",
-      "description": "Your overwhelming hate shields you from up to 625 damage over 10 seconds. Your Dark Protector will be affected as well if they are within 50ft.",
-      "category": "Ability",
-      "gameId": 9336,
-      "componentValues": {
-        "COM_1_VAL1_DAMAGE": 0,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "Your overwhelming hate shields you from up to {COM_1_VAL1_DAMAGE} over {COM_1_DURA_SECONDS}. Your Dark Protector will be affected as well if they are within 50ft."
+      "description": "Your overwhelming hate shields you from up to 937 damage over 10 seconds. Your Dark Protector will be affected as well if they are within 50ft.",
+      "category": "Ability"
     },
     {
       "image": "23177",
       "id": 901,
+      "gameId": 611,
       "name": "Shield Wall",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1699,16 +1346,12 @@
       "cooldown": "60s cooldown",
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
-      "category": "Morale",
-      "gameId": 611,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "For the next {COM_0_DURA_SECONDS}, your chance to block is almost guaranteed."
+      "category": "Morale"
     },
     {
       "image": "22694",
       "id": 927,
+      "gameId": 9372,
       "name": "Shielding Anger",
       "type": "Defensive",
       "spec": "Path of Anguish",
@@ -1719,14 +1362,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your chance to Disrupt is increased by 3% per 10 Hatred.",
-      "category": "CareerTactic",
-      "gameId": 9372,
-      "componentValues": {},
-      "rawDescription": "Your chance to Disrupt is increased by 3% per 10 Hatred."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 892,
+      "gameId": 9361,
       "name": "Simmering Anger",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -1737,16 +1378,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Gain 10 Hate each time an enemy critically hits you.<BR> This effect can only trigger once every second.",
-      "category": "CareerTactic",
-      "gameId": 9361,
-      "componentValues": {
-        "ABIL_355_COM_0_VAL0": 10
-      },
-      "rawDescription": "Gain {ABIL_355_COM_0_VAL0} Hate each time an enemy critically hits you.<BR> This effect can only trigger once every second."
+      "category": "CareerTactic"
     },
     {
       "image": "22701",
       "id": 925,
+      "gameId": 9373,
       "name": "Soul Killer",
       "type": "Defensive",
       "spec": "Path of Anguish",
@@ -1757,16 +1394,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Mind Killer will now reduce all healing cast by the target to 50%",
-      "category": "CareerTactic",
-      "gameId": 9373,
-      "componentValues": {
-        "ABIL_9317_COM_1_VAL0_COM_2_VAL1": 0
-      },
-      "rawDescription": "Mind Killer will now reduce all healing cast by the target to {ABIL_9317_COM_1_VAL0_COM_2_VAL1}%"
+      "category": "CareerTactic"
     },
     {
       "image": "11014",
       "id": 877,
+      "gameId": 9321,
       "name": "Spiteful Slam",
       "type": "Damaging",
       "spec": "Path of Loathing",
@@ -1777,20 +1410,12 @@
       "cooldown": "20s cooldown",
       "note": "Requires Block",
       "description": "A fierce strike that slams your opponent to the ground, dealing 269 damage and knocking them down for 2 seconds or more based on Hate.  <BR> With 30 Hate: Knocks down for 3 seconds. <BR> With 60 Hate: Knocks down for 4 seconds.<BR> With 90 Hate: Knocks down for 5 seconds.",
-      "category": "Ability",
-      "gameId": 9321,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 269,
-        "ABIL_3482_COM_0_DURA_SECONDS": 2,
-        "ABIL_3482_COM_1_DURA_SECONDS": 3,
-        "ABIL_3482_COM_2_DURA_SECONDS": 4,
-        "ABIL_3482_COM_3_DURA_SECONDS": 5
-      },
-      "rawDescription": "A fierce strike that slams your opponent to the ground, dealing {COM_0_VAL0_DAMAGE} and knocking them down for {ABIL_3482_COM_0_DURA_SECONDS} or more based on Hate.  <BR> With 30 Hate: Knocks down for {ABIL_3482_COM_1_DURA_SECONDS}. <BR> With 60 Hate: Knocks down for {ABIL_3482_COM_2_DURA_SECONDS}.<BR> With 90 Hate: Knocks down for {ABIL_3482_COM_3_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 891,
+      "gameId": 9360,
       "name": "Swift Fury",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -1801,17 +1426,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Attacks that spend Hatred have a 25% chance to increase Action Point regen by 100% for 5 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9360,
-      "componentValues": {
-        "ABIL_3495_COM_0_VAL1": 0,
-        "ABIL_3495_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Attacks that spend Hatred have a 25% chance to increase Action Point regen by {ABIL_3495_COM_0_VAL1}% for {ABIL_3495_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "11015",
       "id": 869,
+      "gameId": 9322,
       "name": "Taunt",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1822,17 +1442,12 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and making monsters hate you more. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
-      "category": "Ability",
-      "gameId": 9322,
-      "componentValues": {
-        "COM_3_VAL0": 30,
-        "COM_2_DURA_SECONDS": 15
-      },
-      "rawDescription": "You enrage your opponent, interrupting any currently building abilities and making monsters hate you more. While taunted your opponent will take {COM_3_VAL0}% more damage from your attacks. This effect will fade after {COM_2_DURA_SECONDS} or after your opponent has hit you 3 times."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 916,
+      "gameId": 9354,
       "name": "Terrifying Foe",
       "type": "Defensive",
       "spec": "Path of Loathing",
@@ -1843,19 +1458,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Hateful Strike will now increase your Toughness for 20 seconds based on your Hate.<BR> With 30 Hate: Increase Toughness by 15%. <BR> With 60 Hate: Increase Toughness by 30%. <BR> With 90 Hate: Increase Toughness by 45%.",
-      "category": "CareerTactic",
-      "gameId": 9354,
-      "componentValues": {
-        "ABIL_9315_COM_1_DURA_SECONDS": 20,
-        "ABIL_9315_COM_1_VAL0": 15,
-        "ABIL_9315_COM_2_VAL0": 30,
-        "ABIL_9315_COM_3_VAL0": 45
-      },
-      "rawDescription": "Hateful Strike will now increase your Toughness for {ABIL_9315_COM_1_DURA_SECONDS} based on your Hate.<BR> With 30 Hate: Increase Toughness by {ABIL_9315_COM_1_VAL0}%. <BR> With 60 Hate: Increase Toughness by {ABIL_9315_COM_2_VAL0}%. <BR> With 90 Hate: Increase Toughness by {ABIL_9315_COM_3_VAL0}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22666",
       "id": 940,
+      "gameId": 14104,
       "name": "The \"Empire\" Fears Me",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1866,14 +1474,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Killing Empire will reduce the morale of any opponents nearby at death.",
-      "category": "RvRTactic",
-      "gameId": 14104,
-      "componentValues": {},
-      "rawDescription": "Killing Empire will reduce the morale of any opponents nearby at death."
+      "category": "RvRTactic"
     },
     {
       "image": "22709",
       "id": 885,
+      "gameId": 9355,
       "name": "Thirst For Death",
       "type": "Defensive",
       "spec": "Core Ability",
@@ -1884,16 +1490,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you critically hit you gain 10 Hatred. This will not occur more than once per second.",
-      "category": "CareerTactic",
-      "gameId": 9355,
-      "componentValues": {
-        "ABIL_3378_COM_0_VAL0": 10
-      },
-      "rawDescription": "Whenever you critically hit you gain {ABIL_3378_COM_0_VAL0} Hatred. This will not occur more than once per second."
+      "category": "CareerTactic"
     },
     {
       "image": "11007",
       "id": 985,
+      "gameId": 9314,
       "name": "Throw Dagger",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1903,18 +1505,13 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts 79 damage. Has a chance to deal 679 damage to a severely wounded target if you are behind them.",
-      "category": "Ability",
-      "gameId": 9314,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 79,
-        "COM_0_VAL0_DAMAGE": 679
-      },
-      "rawDescription": "A basic throwing attack that inflicts {COM_1_VAL0_DAMAGE}. Has a chance to deal {COM_0_VAL0_DAMAGE} to a severely wounded target if you are behind them."
+      "description": "A basic throwing attack that inflicts 79 damage. Has a chance to deal 678 damage to a severely wounded target if you are behind them.",
+      "category": "Ability"
     },
     {
       "image": "22654",
       "id": 951,
+      "gameId": 14123,
       "name": "Town Raider",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1925,14 +1522,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "5% Increased Renown earned when fighting players in Cities",
-      "category": "RvRTactic",
-      "gameId": 14123,
-      "componentValues": {},
-      "rawDescription": "5% Increased Renown earned when fighting players in Cities"
+      "category": "RvRTactic"
     },
     {
       "image": "22704",
       "id": 923,
+      "gameId": 9371,
       "name": "Unstoppable Fury",
       "type": "Defensive",
       "spec": "Path of Anguish",
@@ -1943,14 +1538,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Detaunts are dispelled automatically when applied to you.",
-      "category": "CareerTactic",
-      "gameId": 9371,
-      "componentValues": {},
-      "rawDescription": "Detaunts are dispelled automatically when applied to you."
+      "category": "CareerTactic"
     },
     {
       "image": "22694",
       "id": 899,
+      "gameId": 505,
       "name": "Unstoppable Juggernaut",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1961,14 +1554,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Juggernaut's cooldown is reduced to 20 seconds.",
-      "category": "CareerTactic",
-      "gameId": 505,
-      "componentValues": {},
-      "rawDescription": "Juggernaut's cooldown is reduced to 20 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "11029",
       "id": 921,
+      "gameId": 9348,
       "name": "Wave of Scorn",
       "type": "Hex",
       "spec": "Path of Loathing",
@@ -1979,19 +1570,12 @@
       "cooldown": "20s cooldown",
       "note": "",
       "description": "A great wave spreads 40 feet in front of you, inflicting 322 damage and reducing movement by 40% for 10 seconds.",
-      "category": "Ability",
-      "gameId": 9348,
-      "componentValues": {
-        "COM_0_RADI_FEET": 40,
-        "COM_0_VAL0_DAMAGE": 322,
-        "COM_1_VAL0": 40,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "A great wave spreads {COM_0_RADI_FEET} in front of you, inflicting {COM_0_VAL0_DAMAGE} and reducing movement by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22704",
       "id": 9920,
+      "gameId": 2745,
       "name": "Shielded by Hate",
       "type": "Defensive",
       "spec": "Path of Loathing",
@@ -2002,10 +1586,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your chance to Block is increased by 1% per 10 Hatred.",
-      "category": "CareerTactic",
-      "gameId": 2745,
-      "componentValues": {},
-      "rawDescription": "Your chance to Block is increased by 1% per 10 Hatred."
+      "category": "CareerTactic"
     }
   ]
 }

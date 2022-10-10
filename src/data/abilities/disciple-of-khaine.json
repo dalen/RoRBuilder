@@ -75,6 +75,7 @@
     {
       "image": "22712",
       "id": 4996,
+      "gameId": 839,
       "name": "Alignment of Naggaroth",
       "type": "Buff",
       "spec": "Core Ability",
@@ -85,16 +86,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Spiritual resistance increased by 252.",
-      "category": "CareerTactic",
-      "gameId": 839,
-      "componentValues": {
-        "COM_0_VAL0": 252
-      },
-      "rawDescription": "Spiritual resistance increased by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "23150",
       "id": 4994,
+      "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
       "spec": "Core Ability",
@@ -105,20 +102,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
-      "category": "Morale",
-      "gameId": 697,
-      "componentValues": {
-        "COM_1_RADI_FEET": 30,
-        "ABIL_3884_COM_0_VAL0_TOD": 424,
-        "ABIL_3884_COM_0_DURA_SECONDS": 9,
-        "ABIL_3876_COM_0_VAL0": 20,
-        "ABIL_3876_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Resurrects all groupmates within {COM_1_RADI_FEET}. Anyone who is brought back from the dead will also be healed for {ABIL_3884_COM_0_VAL0_TOD} over {ABIL_3884_COM_0_DURA_SECONDS}, and they will deal {ABIL_3876_COM_0_VAL0}% more damage for {ABIL_3876_COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22712",
       "id": 4997,
+      "gameId": 840,
       "name": "Bathing In Blood",
       "type": "Buff",
       "spec": "Core Ability",
@@ -129,17 +118,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 840,
-      "componentValues": {
-        "ABIL_3260_COM_0_VAL0_TOD_HEALTH": 471,
-        "ABIL_3260_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Any time you kill an enemy, you will regain {ABIL_3260_COM_0_VAL0_TOD_HEALTH} over {ABIL_3260_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22694",
       "id": 5007,
+      "gameId": 9601,
       "name": "Bleed Out",
       "type": "Buff",
       "spec": "Core Ability",
@@ -150,14 +134,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Lacerate, Sanguinary Extension, and Fell Sacrifice's durations by an additional 6 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9601,
-      "componentValues": {},
-      "rawDescription": "Increases Lacerate, Sanguinary Extension, and Fell Sacrifice's durations by an additional 6 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "10949",
       "id": 5057,
+      "gameId": 9561,
       "name": "Blood Offering",
       "type": "Buff",
       "spec": "Core Ability",
@@ -168,17 +150,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "For the next 5 seconds, you will regain 30 Soul Essence every second.  If you run out of action points or break your concentration, this effect will end.",
-      "category": "Ability",
-      "gameId": 9561,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 5,
-        "COM_1_VAL0_COM_0_VAL0": 30
-      },
-      "rawDescription": "For the next {COM_0_DURA_SECONDS}, you will regain {COM_1_VAL0_COM_0_VAL0} Soul Essence every second.  If you run out of action points or break your concentration, this effect will end."
+      "category": "Ability"
     },
     {
       "image": "22709",
       "id": 5005,
+      "gameId": 9598,
       "name": "Bloodthirst",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -189,16 +166,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Covenant Of Celerity will now deal 337 Spirit damage.",
-      "category": "CareerTactic",
-      "gameId": 9598,
-      "componentValues": {
-        "ABIL_9559_COM_5_VAL0_SPIRITDAMAGE": 337
-      },
-      "rawDescription": "Covenant Of Celerity will now deal {ABIL_9559_COM_5_VAL0_SPIRITDAMAGE}."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 4976,
+      "gameId": 9585,
       "name": "Bound by Blood",
       "type": "Buff",
       "spec": "Core Ability",
@@ -209,14 +182,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you directly heal an ally, there is a 25% chance that you will also be healed for 25% of the same amount.",
-      "category": "CareerTactic",
-      "gameId": 9585,
-      "componentValues": {},
-      "rawDescription": "Whenever you directly heal an ally, there is a 25% chance that you will also be healed for 25% of the same amount."
+      "category": "CareerTactic"
     },
     {
       "image": "10967",
       "id": 5018,
+      "gameId": 9618,
       "name": "Chant of Pain",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -227,18 +198,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You call upon the Word of Pain, dealing 300 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Word of Pain.",
-      "category": "Morale",
-      "gameId": 9618,
-      "componentValues": {
-        "ABIL_3048_COM_0_VAL0_DAMAGE": 300,
-        "COM_0_RADI_FEET": 30,
-        "COM_0_DURA_SECONDS": 4
-      },
-      "rawDescription": "You call upon the Word of Pain, dealing {ABIL_3048_COM_0_VAL0_DAMAGE} every second to all enemies in a {COM_0_RADI_FEET} area around you for the next {COM_0_DURA_SECONDS}. Reveling in their agony, you are healed for all damage inflicted by the Word of Pain."
+      "category": "Morale"
     },
     {
       "image": "10939",
       "id": 5054,
+      "gameId": 9552,
       "name": "Cleave Soul",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -249,17 +214,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 30 Soul Essence",
       "description": "A potent attack which deals 202 damage to your enemy. If behind your target, ignores 660 armor.",
-      "category": "Ability",
-      "gameId": 9552,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 202,
-        "COM_2_VAL0": 660
-      },
-      "rawDescription": "A potent attack which deals {COM_0_VAL0_DAMAGE} to your enemy. If behind your target, ignores {COM_2_VAL0} armor."
+      "category": "Ability"
     },
     {
       "image": "05188",
       "id": 4970,
+      "gameId": 9569,
       "name": "Consume Enchantment",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -270,16 +230,12 @@
       "cooldown": "5s cooldown",
       "note": "Builds 30 Soul Essence<br>Target must have an Enchantment",
       "description": "A shattering attack that removes one Enchantment from your enemy and deals 127 damage.",
-      "category": "Ability",
-      "gameId": 9569,
-      "componentValues": {
-        "COM_2_VAL0_DAMAGE": 127
-      },
-      "rawDescription": "A shattering attack that removes one Enchantment from your enemy and deals {COM_2_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "10948",
       "id": 4956,
+      "gameId": 9560,
       "name": "Consume Strength",
       "type": "Curse",
       "spec": "Path of Sacrifice",
@@ -290,19 +246,12 @@
       "cooldown": "5s cooldown",
       "note": "Builds 25 Soul Essence",
       "description": "A Crippling attack which deals 192 damage and reduces your enemy's Strength by 80 for 20 seconds.  Your defensive target's Strength is increased by 80.",
-      "category": "Ability",
-      "gameId": 9560,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 192,
-        "COM_1_VAL0": 80,
-        "COM_1_DURA_SECONDS": 20,
-        "COM_2_VAL0_COM_0_VAL0": 80
-      },
-      "rawDescription": "A Crippling attack which deals {COM_0_VAL0_DAMAGE} and reduces your enemy's Strength by {COM_1_VAL0} for {COM_1_DURA_SECONDS}.  Your defensive target's Strength is increased by {COM_2_VAL0_COM_0_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "10953",
       "id": 4972,
+      "gameId": 9565,
       "name": "Consume Thought",
       "type": "Curse",
       "spec": "Path of Sacrifice",
@@ -313,17 +262,12 @@
       "cooldown": "30s cooldown",
       "note": "Builds 25 Soul Essence",
       "description": "An overwhelming attack which deals 239 damage to your enemy and silences them for 4 seconds, making them unable to use magic.",
-      "category": "Ability",
-      "gameId": 9565,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239,
-        "COM_2_DURA_SECONDS": 4
-      },
-      "rawDescription": "An overwhelming attack which deals {COM_0_VAL0_DAMAGE} to your enemy and silences them for {COM_2_DURA_SECONDS}, making them unable to use magic."
+      "category": "Ability"
     },
     {
       "image": "10947",
       "id": 4968,
+      "gameId": 9559,
       "name": "Covenant of Celerity",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -334,18 +278,12 @@
       "cooldown": "10s cooldown",
       "note": "Only one Covenant may be active at a time.",
       "description": "All group mates within 100 feet of you gain a 20% chance to Cripple anyone that they damage, dealing 187 Spirit damage and reducing the victim's run speed by 20% for 9 seconds.",
-      "category": "Ability",
-      "gameId": 9559,
-      "componentValues": {
-        "COM_3_VAL0_SPIRITDAMAGE": 187,
-        "ABIL_3262_COM_0_VAL0": 20,
-        "ABIL_3262_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "All group mates within 100 feet of you gain a 20% chance to Cripple anyone that they damage, dealing {COM_3_VAL0_SPIRITDAMAGE} and reducing the victim's run speed by {ABIL_3262_COM_0_VAL0}% for {ABIL_3262_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10951",
       "id": 4966,
+      "gameId": 9563,
       "name": "Covenant of Tenacity",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -356,16 +294,12 @@
       "cooldown": "10s cooldown",
       "note": "Only one Covenant may be active at a time.",
       "description": "A pact with Khaine that increases the armor of all groupmates within 100 feet of you by 660.",
-      "category": "Ability",
-      "gameId": 9563,
-      "componentValues": {
-        "COM_1_VAL0": 660
-      },
-      "rawDescription": "A pact with Khaine that increases the armor of all groupmates within 100 feet of you by {COM_1_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "10955",
       "id": 4958,
+      "gameId": 9567,
       "name": "Covenant of Vitality",
       "type": "Buff",
       "spec": "Path of Sacrifice",
@@ -376,16 +310,12 @@
       "cooldown": "10s cooldown",
       "note": "Only one Covenant may be active at a time.",
       "description": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional 187 Spirit damage to their victim, and heal themselves for an equal amount.",
-      "category": "Ability",
-      "gameId": 9567,
-      "componentValues": {
-        "COM_3_VAL0_SPIRITDAMAGE": 187
-      },
-      "rawDescription": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional {COM_3_VAL0_SPIRITDAMAGE} to their victim, and heal themselves for an equal amount."
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 5009,
+      "gameId": 9602,
       "name": "Curse of Khaine",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -396,16 +326,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy with single target damage, all healing used on them for the next 5 seconds will become 50% less effective.",
-      "category": "CareerTactic",
-      "gameId": 9602,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Any time you critically hit an enemy with single target damage, all healing used on them for the next {COM_1_VAL0_COM_0_DURA_SECONDS} will become 50% less effective."
+      "category": "CareerTactic"
     },
     {
       "image": "22712",
       "id": 4995,
+      "gameId": 841,
       "name": "Dark Blessings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -416,16 +342,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Direct heals cast on you will recover 10% more health.",
-      "category": "CareerTactic",
-      "gameId": 841,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Direct heals cast on you will recover {COM_0_VAL1}% more health."
+      "category": "CareerTactic"
     },
     {
       "image": "10958",
       "id": 5015,
+      "gameId": 9578,
       "name": "Devour Essence",
       "type": "Blessing",
       "spec": "Path of Sacrifice",
@@ -435,20 +357,13 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires 25 Soul Essence per second",
-      "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds.  Each second, your ally will deal 127 damage to up to 4 enemies within 10 feet of them, and become healed for 60% of all the damage done.  You will lose 25 Soul Essence each second, and this effect will end if you run out of Soul Essence to power it with.",
-      "category": "Ability",
-      "gameId": 9578,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 5,
-        "ABIL_3367_COM_0_VAL0_DAMAGE": 164,
-        "COM_3_RADI_FEET": 10,
-        "COM_1_VAL1": 0
-      },
-      "rawDescription": "You surround yourself or an ally with a devouring aura for up to {COM_0_DURA_SECONDS}.  Each second, your ally will deal {ABIL_3367_COM_0_VAL0_DAMAGE} to up to 4 enemies within {COM_3_RADI_FEET} of them, and become healed for 60% of all the damage done.  You will lose {COM_1_VAL1} Soul Essence each second, and this effect will end if you run out of Soul Essence to power it with."
+      "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds.  Each second, your ally will deal 164 damage to up to 4 enemies within 10 feet of them, and become healed for 60% of all the damage done.  You will lose 25 Soul Essence each second, and this effect will end if you run out of Soul Essence to power it with.",
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 4986,
+      "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
@@ -459,16 +374,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Willpower by 160.",
-      "category": "CareerTactic",
-      "gameId": 592,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Increases your Willpower by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "23151",
       "id": 4989,
+      "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
       "spec": "Core Ability",
@@ -479,16 +390,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
-      "category": "Morale",
-      "gameId": 694,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 1800
-      },
-      "rawDescription": "A strong heal that will restore {COM_0_VAL0_HEALTH} to your target."
+      "category": "Morale"
     },
     {
       "image": "22703",
       "id": 4985,
+      "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -499,17 +406,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
-      "category": "CareerTactic",
-      "gameId": 585,
-      "componentValues": {
-        "COM_0_VAL0": 25,
-        "COM_1_VAL1": 0
-      },
-      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your casted heals become {COM_1_VAL1}% less effective."
+      "category": "CareerTactic"
     },
     {
       "image": "23152",
       "id": 4993,
+      "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -520,17 +422,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
-      "category": "Morale",
-      "gameId": 696,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Each group member within 100 feet is surrounded by a protective shield for the next {COM_0_DURA_SECONDS} that will absorb up to {COM_0_VAL1_DAMAGE} from melee abilities."
+      "category": "Morale"
     },
     {
       "image": "22708",
       "id": 5002,
+      "gameId": 9597,
       "name": "Efficient Patching",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -541,14 +438,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Patch Wounds will now remove one Ailment or Hex for the entire group.",
-      "category": "CareerTactic",
-      "gameId": 9597,
-      "componentValues": {},
-      "rawDescription": "Patch Wounds will now remove one Ailment or Hex for the entire group."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 5016,
+      "gameId": 2959,
       "name": "Empowered Transfer",
       "type": "Buff",
       "spec": "Path of Sacrifice",
@@ -559,14 +454,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "The healing from lifetaps are increased by 25%.<BR><BR>When wearing a shield Consume Essence will hit up to two additional enemies within 25ft of your target.",
-      "category": "CareerTactic",
-      "gameId": 2959,
-      "componentValues": {},
-      "rawDescription": "The healing from lifetaps are increased by 25%.<BR><BR>When wearing a shield Consume Essence will hit up to two additional enemies within 25ft of your target."
+      "category": "CareerTactic"
     },
     {
       "image": "10954",
       "id": 4965,
+      "gameId": 9566,
       "name": "Essence Lash",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -577,17 +470,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "You lash out at all opponents in front of you up to 50 feet away, dealing 138 damage and regaining 15 Soul Essence for each enemy hit.",
-      "category": "Ability",
-      "gameId": 9566,
-      "componentValues": {
-        "COM_0_RADI_FEET": 50,
-        "COM_0_VAL0_DAMAGE": 138
-      },
-      "rawDescription": "You lash out at all opponents in front of you up to {COM_0_RADI_FEET} away, dealing {COM_0_VAL0_DAMAGE} and regaining 15 Soul Essence for each enemy hit."
+      "category": "Ability"
     },
     {
       "image": "10950",
       "id": 5008,
+      "gameId": 2935,
       "name": "Fell Sacrifice",
       "type": "Curse",
       "spec": "Path of Torture",
@@ -598,18 +486,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 30 Soul Essence<br>Requires Dual Wield",
       "description": "Cripples all targets within 30 feet of you for 840 damage over 12 seconds.",
-      "category": "Ability",
-      "gameId": 2935,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_TOD_DAMAGE": 840,
-        "COM_0_DURA_SECONDS": 12
-      },
-      "rawDescription": "Cripples all targets within {COM_0_RADI_FEET} of you for {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10934",
       "id": 5056,
+      "gameId": 9568,
       "name": "Fist of Khaine",
       "type": "Damaging",
       "spec": "Path of Dark Rites",
@@ -620,16 +502,12 @@
       "cooldown": "No cooldown",
       "note": "Requires 15 Soul Essence",
       "description": "You call forth the wrath of Khaine, dealing 127 Spirit damage to your target.",
-      "category": "Ability",
-      "gameId": 9568,
-      "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 127
-      },
-      "rawDescription": "You call forth the wrath of Khaine, dealing {COM_0_VAL0_SPIRITDAMAGE} to your target."
+      "category": "Ability"
     },
     {
       "image": "10936",
       "id": 4963,
+      "gameId": 9549,
       "name": "Flay",
       "type": "Curse",
       "spec": "Path of Torture",
@@ -640,18 +518,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 30 Soul Essence",
       "description": "You flay your target for 239 damage.  If target is Crippled, they are further Crippled as they become snared, reducing their run speed by 40% for 6 seconds.",
-      "category": "Ability",
-      "gameId": 9549,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239,
-        "COM_1_VAL0": 40,
-        "COM_1_DURA_SECONDS": 6
-      },
-      "rawDescription": "You flay your target for {COM_0_VAL0_DAMAGE}.  If target is Crippled, they are further Crippled as they become snared, reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "05004",
       "id": 5055,
+      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -662,18 +534,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability",
-      "gameId": 245,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "category": "Ability"
     },
     {
       "image": "23153",
       "id": 4992,
+      "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -684,14 +550,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale",
-      "gameId": 695,
-      "componentValues": {},
-      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
+      "category": "Morale"
     },
     {
       "image": "22708",
       "id": 4980,
+      "gameId": 9587,
       "name": "Fueled Actions",
       "type": "Buff",
       "spec": "Core Ability",
@@ -702,16 +566,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 Soul Essence.  Tactic can not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9587,
-      "componentValues": {
-        "ABIL_317_COM_0_VAL0": 35
-      },
-      "rawDescription": "Whenever you are hit by an enemy, you have a 25% chance to gain {ABIL_317_COM_0_VAL0} Soul Essence.  Tactic can not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "22712",
       "id": 5014,
+      "gameId": 9603,
       "name": "Gift of Khaine",
       "type": "Buff",
       "spec": "Path of Sacrifice",
@@ -721,18 +581,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will become surrounded by a protective barrier for up to 10 seconds which will absorb up to 250 damage.  Tactic can not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9603,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will become surrounded by a protective barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS} which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}.  Tactic can not trigger more than once every 3 seconds."
+      "description": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will become surrounded by a protective barrier for up to 10 seconds which will absorb up to 375 damage.  Tactic can not trigger more than once every 3 seconds.",
+      "category": "CareerTactic"
     },
     {
       "image": "22708",
       "id": 5012,
+      "gameId": 9599,
       "name": "Horrifying Offering",
       "type": "Buff",
       "spec": "Path of Sacrifice",
@@ -743,16 +598,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Consume Strength will now also cause the victim to lose 50 Action Points.",
-      "category": "CareerTactic",
-      "gameId": 9599,
-      "componentValues": {
-        "ABIL_9560_COM_4_VAL0_ACTIONPOINTS": 50
-      },
-      "rawDescription": "Consume Strength will now also cause the victim to lose {ABIL_9560_COM_4_VAL0_ACTIONPOINTS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22702",
       "id": 4974,
+      "gameId": 9588,
       "name": "Khaine's Blessing",
       "type": "Buff",
       "spec": "Core Ability",
@@ -763,17 +614,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy, your autoattack speed is increased by 50% for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9588,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL1": 0,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Any time you critically hit an enemy, your autoattack speed is increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22702",
       "id": 4998,
+      "gameId": 9595,
       "name": "Khaine's Bounty",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -783,18 +629,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to 475 damage.",
-      "category": "CareerTactic",
-      "gameId": 9595,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 30,
-        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS} which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}."
+      "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to 712 damage.",
+      "category": "CareerTactic"
     },
     {
       "image": "10945",
       "id": 4969,
+      "gameId": 9557,
       "name": "Khaine's Embrace",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -805,16 +646,12 @@
       "cooldown": "No cooldown",
       "note": "Requires 60 Soul Essence",
       "description": "All of your groupmates within 100 feet of you regain 477 health.",
-      "category": "Ability",
-      "gameId": 9557,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 477
-      },
-      "rawDescription": "All of your groupmates within 100 feet of you regain {COM_0_VAL0_HEALTH}."
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 4975,
+      "gameId": 9584,
       "name": "Khaine's Imbuement",
       "type": "Buff",
       "spec": "Core Ability",
@@ -825,17 +662,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you hit an enemy with a Path of Torture ability, there is a 33% chance that they will suffer an additional 453 Spirit damage over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9584,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE": 453,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Any time you hit an enemy with a Path of Torture ability, there is a 33% chance that they will suffer an additional {COM_1_VAL0_COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "abi_de_blackhorror",
       "id": 4960,
+      "gameId": 9553,
       "name": "Khaine's Invigoration",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -846,16 +678,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "A quick heal that restores 581 health.<BR>Not affected by cooldown modification abilities.",
-      "category": "Ability",
-      "gameId": 9553,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 581
-      },
-      "rawDescription": "A quick heal that restores {COM_0_VAL0_HEALTH}.<BR>Not affected by cooldown modification abilities."
+      "category": "Ability"
     },
     {
       "image": "11002",
       "id": 5003,
+      "gameId": 9579,
       "name": "Khaine's Refreshment",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -865,20 +693,13 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "Requires 20 Soul Essence per second",
-      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds.  Each second, all allies within 30 feet of you will regain 179 health, and you will lose 20 Soul Essence.  This effect will end if you lose your concentration, or run out of Soul Essence to power it with.",
-      "category": "Ability",
-      "gameId": 9579,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_3_RADI_FEET": 30,
-        "COM_3_VAL0_HEALTH": 246,
-        "COM_2_VAL1": 0
-      },
-      "rawDescription": "You throw yourself open to Khaine's influence as power rushes through you for up to {COM_0_DURA_SECONDS}.  Each second, all allies within {COM_3_RADI_FEET} of you will regain {COM_3_VAL0_HEALTH}, and you will lose {COM_2_VAL1} Soul Essence.  This effect will end if you lose your concentration, or run out of Soul Essence to power it with."
+      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds.  Each second, all allies within 30 feet of you will regain 246 health, and you will lose 20 Soul Essence.  This effect will end if you lose your concentration, or run out of Soul Essence to power it with.",
+      "category": "Ability"
     },
     {
       "image": "10956",
       "id": 5001,
+      "gameId": 9573,
       "name": "Khaine's Vigor",
       "type": "Blessing",
       "spec": "Path of Dark Rites",
@@ -889,17 +710,12 @@
       "cooldown": "10s cooldown",
       "note": "Requires 40 Soul Essence",
       "description": "All group mates within 100 feet of you gradually regains 783 health over 9 seconds.",
-      "category": "Ability",
-      "gameId": 9573,
-      "componentValues": {
-        "COM_0_VAL0_TOD_HEALTH": 783,
-        "COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "All group mates within 100 feet of you gradually regains {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10989",
       "id": 4983,
+      "gameId": 9607,
       "name": "Khaine's Withdrawal",
       "type": "Buff",
       "spec": "Core Ability",
@@ -910,14 +726,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Removes all Ailments and Hexes from your group.",
-      "category": "Morale",
-      "gameId": 9607,
-      "componentValues": {},
-      "rawDescription": "Removes all Ailments and Hexes from your group."
+      "category": "Morale"
     },
     {
       "image": "10938",
       "id": 4959,
+      "gameId": 9551,
       "name": "Lacerate",
       "type": "Curse",
       "spec": "Path of Torture",
@@ -928,19 +742,12 @@
       "cooldown": "5s cooldown",
       "note": "Builds 20 Soul Essence",
       "description": "A gory strike that Cripples your enemy, dealing 101 damage initially and another 150 damage over 10 seconds and reducing their Toughness by 120.",
-      "category": "Ability",
-      "gameId": 9551,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 101,
-        "COM_2_VAL0_COM_0_VAL0_TOD_DAMAGE": 150,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 10,
-        "COM_2_VAL0_COM_1_VAL0": 120
-      },
-      "rawDescription": "A gory strike that Cripples your enemy, dealing {COM_0_VAL0_DAMAGE} initially and another {COM_2_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_2_VAL0_COM_0_DURA_SECONDS} and reducing their Toughness by {COM_2_VAL0_COM_1_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "10962",
       "id": 4982,
+      "gameId": 9605,
       "name": "Life's End",
       "type": "Healing",
       "spec": "Core Ability",
@@ -951,14 +758,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For 10 seconds, you allow your group mates within 100 feet (instead of yourself) to feast on the life essence of your victims, healing everyone for 100% of the melee damage you deal.",
-      "category": "Morale",
-      "gameId": 9605,
-      "componentValues": {},
-      "rawDescription": "For 10 seconds, you allow your group mates within 100 feet (instead of yourself) to feast on the life essence of your victims, healing everyone for 100% of the melee damage you deal."
+      "category": "Morale"
     },
     {
       "image": "22704",
       "id": 4977,
+      "gameId": 9586,
       "name": "Murderous Intent",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -969,18 +774,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but reduces the effectiveness of your casted healing abilities by 20%.",
-      "category": "CareerTactic",
-      "gameId": 9586,
-      "componentValues": {
-        "COM_2_VAL1": 0,
-        "COM_1_VAL0": 10,
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Increases your chance to critically hit by {COM_2_VAL1}% and your chance to parry by {COM_1_VAL0}%, but reduces the effectiveness of your casted healing abilities by {COM_0_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "10944",
       "id": 4967,
+      "gameId": 9556,
       "name": "Patch Wounds",
       "type": "Healing",
       "spec": "Core Ability",
@@ -991,14 +790,12 @@
       "cooldown": "5s cooldown",
       "note": "Requires 25 Soul Essence<br>Target must be Hexed or Ailing",
       "description": "You patch an ally's wound and remove one Ailment or Hex.",
-      "category": "Ability",
-      "gameId": 9556,
-      "componentValues": {},
-      "rawDescription": "You patch an ally's wound and remove one Ailment or Hex."
+      "category": "Ability"
     },
     {
       "image": "11004",
       "id": 5017,
+      "gameId": 9581,
       "name": "Pillage Essence",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -1009,17 +806,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 45 Soul Essence",
       "description": "A strike into your target's soul which deals 254 damage and causes them to lose 50 Action Points.  You will gain additional Soul Essence for most of the action points that the enemy lost.",
-      "category": "Ability",
-      "gameId": 9581,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 254,
-        "COM_1_VAL0_ACTIONPOINTS": 50
-      },
-      "rawDescription": "A strike into your target's soul which deals {COM_0_VAL0_DAMAGE} and causes them to lose {COM_1_VAL0_ACTIONPOINTS}.  You will gain additional Soul Essence for most of the action points that the enemy lost."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 4978,
+      "gameId": 9590,
       "name": "Potent Covenants",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1030,14 +822,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the chance for your Covenants to trigger by an additional 15%.",
-      "category": "CareerTactic",
-      "gameId": 9590,
-      "componentValues": {},
-      "rawDescription": "Increases the chance for your Covenants to trigger by an additional 15%."
+      "category": "CareerTactic"
     },
     {
       "image": "23154",
       "id": 4990,
+      "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1048,17 +838,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
-      "category": "Morale",
-      "gameId": 692,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_DAMAGE": 600,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Deals {COM_1_VAL0_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and heals group members within 100 feet for the full amount of the damage dealt."
+      "category": "Morale"
     },
     {
       "image": "10941",
       "id": 4962,
+      "gameId": 9554,
       "name": "Rend Soul",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -1069,17 +854,12 @@
       "cooldown": "8s cooldown",
       "note": "Requires 25 Soul Essence per second",
       "description": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes.  You strike the target up to four times over 3 seconds, dealing 109 Spirit damage per hit.  Each hit heals your defensive target for 350% of the damage that was dealt.<BR>This effect will end if you break your concentration, or run out of Soul Essence.",
-      "category": "Ability",
-      "gameId": 9554,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_2_VAL0_SPIRITDAMAGE": 109
-      },
-      "rawDescription": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes.  You strike the target up to four times over {COM_0_DURA_SECONDS}, dealing {COM_2_VAL0_SPIRITDAMAGE} per hit.  Each hit heals your defensive target for 350% of the damage that was dealt.<BR>This effect will end if you break your concentration, or run out of Soul Essence."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 4988,
+      "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1090,17 +870,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 589,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS": 40,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
-      },
-      "rawDescription": "Any time one of your direct healing effects critically heals an ally, you will regain {COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10935",
       "id": 5053,
+      "gameId": 9548,
       "name": "Restore Essence",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -1111,18 +886,12 @@
       "cooldown": "No cooldown",
       "note": "Requires 45 Soul Essence",
       "description": "Dark forces restore 370 health to an ally immediately, and another 445 over 5 seconds.",
-      "category": "Ability",
-      "gameId": 9548,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 370,
-        "COM_1_VAL0_COM_0_VAL0_TOD": 445,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Dark forces restore {COM_0_VAL0_HEALTH} to an ally immediately, and another {COM_1_VAL0_COM_0_VAL0_TOD} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22709",
       "id": 5000,
+      "gameId": 9596,
       "name": "Restored Motivation",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -1133,16 +902,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you directly heal an ally, there is a 25% chance that they will regain 50 Action Points, but this effect will not work on you.",
-      "category": "CareerTactic",
-      "gameId": 9596,
-      "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 50
-      },
-      "rawDescription": "Whenever you directly heal an ally, there is a 25% chance that they will regain {COM_1_VAL0_ACTIONPOINTS}, but this effect will not work on you."
+      "category": "CareerTactic"
     },
     {
       "image": "11003",
       "id": 5006,
+      "gameId": 9580,
       "name": "Sanguinary Extension",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -1153,18 +918,12 @@
       "cooldown": "5s cooldown",
       "note": "Builds 30 Soul Essence",
       "description": "A slice aimed at fresh wounds which deals 239 damage.  If the enemy was Crippled, then they are further Crippled and take an additional 250 damage over 15 seconds.",
-      "category": "Ability",
-      "gameId": 9580,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239,
-        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 250,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "A slice aimed at fresh wounds which deals {COM_0_VAL0_DAMAGE}.  If the enemy was Crippled, then they are further Crippled and take an additional {COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10937",
       "id": 4957,
+      "gameId": 9550,
       "name": "Soul Infusion",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -1175,17 +934,12 @@
       "cooldown": "No cooldown",
       "note": "Requires 30 Soul Essence",
       "description": "Your target is gradually infused with 1700 health over 15 seconds.",
-      "category": "Ability",
-      "gameId": 9550,
-      "componentValues": {
-        "ABIL_3366_COM_0_VAL0_TOD_HEALTH": 1700,
-        "ABIL_3366_COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Your target is gradually infused with {ABIL_3366_COM_0_VAL0_TOD_HEALTH} over {ABIL_3366_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10957",
       "id": 4999,
+      "gameId": 9574,
       "name": "Soul Shielding",
       "type": "Blessing",
       "spec": "Path of Dark Rites",
@@ -1195,18 +949,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires 40 Soul Essence",
-      "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to 775 damage for each person.",
-      "category": "Ability",
-      "gameId": 9574,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "All group mates within 100 feet becomes surrounded by a magical barrier for {COM_0_DURA_SECONDS}, which will absorb up to {COM_0_VAL1_DAMAGE} for each person."
+      "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to 1162 damage for each person.",
+      "category": "Ability"
     },
     {
       "image": "10946",
       "id": 4964,
+      "gameId": 9558,
       "name": "Stand, Coward!",
       "type": "Healing",
       "spec": "Core Ability",
@@ -1217,14 +966,12 @@
       "cooldown": "6s cooldown",
       "note": "Requires 20 Soul Essence",
       "description": "Life is restored to a dead ally, and 20% of their health is recovered in the hopes they will prove less worthless to you in the future.",
-      "category": "Ability",
-      "gameId": 9558,
-      "componentValues": {},
-      "rawDescription": "Life is restored to a dead ally, and 20% of their health is recovered in the hopes they will prove less worthless to you in the future."
+      "category": "Ability"
     },
     {
       "image": "23155",
       "id": 4991,
+      "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1235,16 +982,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
-      "category": "Morale",
-      "gameId": 690,
-      "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 900
-      },
-      "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
+      "category": "Morale"
     },
     {
       "image": "22709",
       "id": 4987,
+      "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1255,14 +998,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Enemy monsters will hate you 25% less than normal.",
-      "category": "CareerTactic",
-      "gameId": 588,
-      "componentValues": {},
-      "rawDescription": "Enemy monsters will hate you 25% less than normal."
+      "category": "CareerTactic"
     },
     {
       "image": "10942",
       "id": 4961,
+      "gameId": 9555,
       "name": "Terrifying Vision",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1273,19 +1014,12 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only 50% damage against you for 15 seconds. You will also deal 50% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.<BR><BR>If wearing a shield or dual wielding this will also affect all enemies within 30 feet of you for 5 seconds.",
-      "category": "Ability",
-      "gameId": 9555,
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 15,
-        "ABIL_3046_COM_0_RADI_FEET": 30,
-        "ABIL_3046_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only {COM_0_VAL0}% damage against you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.<BR><BR>If wearing a shield or dual wielding this will also affect all enemies within {ABIL_3046_COM_0_RADI_FEET} of you for {ABIL_3046_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10965",
       "id": 5004,
+      "gameId": 9616,
       "name": "Thousand and One Dark Blessings",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -1296,19 +1030,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your group mates within 100 feet have their armor increased by 1320, Block, Parry, Dodge and Disrupt by 25, and all Resists by 504 for the next 10 seconds.",
-      "category": "Morale",
-      "gameId": 9616,
-      "componentValues": {
-        "COM_0_VAL0": 1320,
-        "COM_2_VAL0": 25,
-        "COM_1_VAL0": 504,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "All of your group mates within 100 feet have their armor increased by {COM_0_VAL0}, Block, Parry, Dodge and Disrupt by {COM_2_VAL0}, and all Resists by {COM_1_VAL0} for the next {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "10961",
       "id": 4971,
+      "gameId": 2932,
       "name": "Transfer Essence",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -1319,17 +1046,12 @@
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Builds 35 Soul Essence",
       "description": "An unholy attack which deals 163 damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for 163 points plus 80% of the damage that you dealt.",
-      "category": "Ability",
-      "gameId": 2932,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 163,
-        "COM_0_VAL0": 163
-      },
-      "rawDescription": "An unholy attack which deals {COM_0_VAL0_DAMAGE} to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for {COM_0_VAL0} points plus 80% of the damage that you dealt."
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 4981,
+      "gameId": 9589,
       "name": "Transferred Focus",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1340,17 +1062,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy, your defensive target will receive 20% more incoming healing for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9589,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL1": 0,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Any time you critically hit an enemy, your defensive target will receive {COM_1_VAL0_COM_0_VAL1}% more incoming healing for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10952",
       "id": 4973,
+      "gameId": 9564,
       "name": "Uncaring Dismissal",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1361,14 +1078,12 @@
       "cooldown": "60s cooldown",
       "note": "Builds 40 Soul Essence",
       "description": "A great energy washes over all targets in front of you, blowing back all enemy players within 30 feet and knocking down monsters.",
-      "category": "Ability",
-      "gameId": 9564,
-      "componentValues": {},
-      "rawDescription": "A great energy washes over all targets in front of you, blowing back all enemy players within 30 feet and knocking down monsters."
+      "category": "Ability"
     },
     {
       "image": "10963",
       "id": 4984,
+      "gameId": 9606,
       "name": "Universal Confusion",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1379,18 +1094,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Raw power erupts in a 30 feet area around you, inflicting 1200 damage and Staggering all enemies around you for 6 seconds, preventing all actions unless they're damaged.",
-      "category": "Morale",
-      "gameId": 9606,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_DAMAGE": 1200,
-        "ABIL_3707_COM_1_DURA_SECONDS": 6
-      },
-      "rawDescription": "Raw power erupts in a {COM_0_RADI_FEET} area around you, inflicting {COM_0_VAL0_DAMAGE} and Staggering all enemies around you for {ABIL_3707_COM_1_DURA_SECONDS}, preventing all actions unless they're damaged."
+      "category": "Morale"
     },
     {
       "image": "10966",
       "id": 5011,
+      "gameId": 9617,
       "name": "Vision of Torment",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -1401,17 +1110,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Victim is overcome with seemingly endless visions of their own grisly death. So real are the visions, that the victim suffers 2394 damage over 7 seconds and will not generate any morale for every second of agony.",
-      "category": "Morale",
-      "gameId": 9617,
-      "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 2394,
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "Victim is overcome with seemingly endless visions of their own grisly death. So real are the visions, that the victim suffers {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} and will not generate any morale for every second of agony."
+      "category": "Morale"
     },
     {
       "image": "10960",
       "id": 5013,
+      "gameId": 9577,
       "name": "Warding Strike",
       "type": "Curse",
       "spec": "Path of Sacrifice",
@@ -1422,20 +1126,12 @@
       "cooldown": "5s cooldown",
       "note": "Builds 30 Soul Essence",
       "description": "A cunning strike which deals 202 damage to your enemy and reduces their chance to parry by 10% for 15 seconds.<BR><BR>Additionally, when wearing a shield your chance to block will be increased by 10% for 10 seconds.",
-      "category": "Ability",
-      "gameId": 9577,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 202,
-        "COM_1_VAL0": 10,
-        "COM_1_DURA_SECONDS": 15,
-        "COM_3_VAL0_COM_0_VAL0": 10,
-        "COM_3_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "A cunning strike which deals {COM_0_VAL0_DAMAGE} to your enemy and reduces their chance to parry by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR><BR>Additionally, when wearing a shield your chance to block will be increased by {COM_3_VAL0_COM_0_VAL0}% for {COM_3_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10959",
       "id": 5010,
+      "gameId": 9576,
       "name": "Wracking Agony",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -1446,17 +1142,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 30 Soul Essence",
       "description": "A merciless attack which deals 164 damage to your enemy, or if they are below 50% hit points, instead inflicts 389 damage and will almost always critically hit.",
-      "category": "Ability",
-      "gameId": 9576,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 164,
-        "COM_1_VAL0_DAMAGE": 389
-      },
-      "rawDescription": "A merciless attack which deals {COM_0_VAL0_DAMAGE} to your enemy, or if they are below 50% hit points, instead inflicts {COM_1_VAL0_DAMAGE} and will almost always critically hit."
+      "category": "Ability"
     },
     {
       "image": "abi_de_reapingscythe",
       "id": 2934,
+      "gameId": 2934,
       "name": "Execute",
       "type": "Damaging",
       "spec": "Path of Torture",
@@ -1467,16 +1158,12 @@
       "cooldown": "10s cooldown",
       "note": "Target must be below 50% health<br>Builds 30 Soul Essence<br>Requires Dual Wield",
       "description": "Deals 502 damage and will almost always deal critical damage to a wounded foe.",
-      "category": "Ability",
-      "gameId": 2934,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 502
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} and will almost always deal critical damage to a wounded foe."
+      "category": "Ability"
     },
     {
       "image": "11045",
       "id": 2938,
+      "gameId": 2938,
       "name": "Drowning in Blood",
       "type": "Buff",
       "spec": "Path of Torture",
@@ -1487,16 +1174,12 @@
       "cooldown": "60s cooldown",
       "note": "Requires 60 Soul Essence<br>Requires Dual Wield",
       "description": "Blood lust drives you on, your attacks will ignore 25% the victim's armor and the cooldowns of Path of Torture abilities will be reduced by 5 seconds during the next 20 seconds.",
-      "category": "Ability",
-      "gameId": 2938,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 20
-      },
-      "rawDescription": "Blood lust drives you on, your attacks will ignore 25% the victim's armor and the cooldowns of Path of Torture abilities will be reduced by 5 seconds during the next {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "11043",
       "id": 2952,
+      "gameId": 2952,
       "name": "Soul Ward",
       "type": "Defensive",
       "spec": "Path of Sacrifice",
@@ -1506,18 +1189,13 @@
       "incant": "10s cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield<br>Requires 25 Soul Essence per second",
-      "description": "You channel a Soul Ward making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. Each second your group is surrounded by a protective barrier absorbing up to 170 ranged damage.<BR>This effect will end if you break your concentration, or run out of Soul Essence.",
-      "category": "Ability",
-      "gameId": 2952,
-      "componentValues": {
-        "COM_0_VAL0": 10,
-        "COM_3_VAL1": 0
-      },
-      "rawDescription": "You channel a Soul Ward making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by {COM_0_VAL0}%. Each second your group is surrounded by a protective barrier absorbing up to {COM_3_VAL1} ranged damage.<BR>This effect will end if you break your concentration, or run out of Soul Essence."
+      "description": "You channel a Soul Ward making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. Each second your group is surrounded by a protective barrier absorbing up to 255 ranged damage.<BR>This effect will end if you break your concentration, or run out of Soul Essence.",
+      "category": "Ability"
     },
     {
       "image": "11033",
       "id": 2941,
+      "gameId": 2941,
       "name": "Blood of my Blood",
       "type": "Defensive",
       "spec": "Path of Sacrifice",
@@ -1528,17 +1206,12 @@
       "cooldown": "20s cooldown",
       "note": "Requires Shield<br>Requires 25 Soul Essence per second",
       "description": "To defeat your enemies you need to empower your team, you will suffer 450 damage every second, any groupmates within 100ft will have 787 health restored to them.<BR>This effect will end if you break your concentration, or run out of Soul Essence.",
-      "category": "Ability",
-      "gameId": 2941,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 450,
-        "COM_2_VAL0": 787
-      },
-      "rawDescription": "To defeat your enemies you need to empower your team, you will suffer {COM_1_VAL0_DAMAGE} every second, any groupmates within 100ft will have {COM_2_VAL0} health restored to them.<BR>This effect will end if you break your concentration, or run out of Soul Essence."
+      "category": "Ability"
     },
     {
       "image": "11018",
       "id": 2953,
+      "gameId": 2953,
       "name": "Blood Guard",
       "type": "Blessing",
       "spec": "Path of Sacrifice",
@@ -1549,18 +1222,12 @@
       "cooldown": "10s cooldown",
       "note": "Requires Shield<br>Builds 25 Soul Essence",
       "description": "You attack with your buckler dealing 239 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
-      "category": "Ability",
-      "gameId": 2953,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239,
-        "COM_1_VAL0_COM_0_VAL0": 10,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You attack with your buckler dealing {COM_0_VAL0_DAMAGE} to your enemy, and increases your chance to block by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10940",
       "id": 2051,
+      "gameId": 2933,
       "name": "Consume Essence",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
@@ -1571,17 +1238,12 @@
       "cooldown": "No cooldown",
       "note": "Requires 35 Soul Essence",
       "description": "A quick strike which deals 86 Spirit damage.  Khaine's approval of your actions causes your defensive target and all allies within 20 feet to become healed for 150% of the damage that you dealt.",
-      "category": "Ability",
-      "gameId": 2933,
-      "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 86,
-        "COM_1_RADI_FEET": 20
-      },
-      "rawDescription": "A quick strike which deals {COM_0_VAL0_SPIRITDAMAGE}.  Khaine's approval of your actions causes your defensive target and all allies within {COM_1_RADI_FEET} to become healed for 150% of the damage that you dealt."
+      "category": "Ability"
     },
     {
       "image": "11040",
       "id": 2961,
+      "gameId": 2961,
       "name": "Unyielding Tormentor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1592,16 +1254,12 @@
       "cooldown": "60s cooldown",
       "note": "Requires 45 Soul Essence<br>Requires Dual Wield",
       "description": "You free yourself from all roots and snares.  For the next 10 seconds, roots and snares will have no effect on you.",
-      "category": "Ability",
-      "gameId": 2961,
-      "componentValues": {
-        "COM_2_DURA_SECONDS": 10
-      },
-      "rawDescription": "You free yourself from all roots and snares.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you."
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 9591,
+      "gameId": 9591,
       "name": "Terrifying Aura",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1612,13 +1270,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Terrifying Vision will always also affect all enemies within 30 feet of you for 5 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9591,
-      "componentValues": {
-        "ABIL_3046_COM_0_RADI_FEET": 30,
-        "ABIL_3046_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Terrifying Vision will always also affect all enemies within {ABIL_3046_COM_0_RADI_FEET} of you for {ABIL_3046_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     }
   ]
 }

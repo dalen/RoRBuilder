@@ -71,6 +71,7 @@
     {
       "image": "abi_de_shadowofdeath",
       "id": 9701,
+      "gameId": 9701,
       "name": "Shadow of Death",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -81,16 +82,12 @@
       "cooldown": "20s cooldown",
       "note": "Only usable on Dead Players",
       "description": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be resurrected for the next 30 seconds.",
-      "category": "Ability",
-      "gameId": 9701,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 30
-      },
-      "rawDescription": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be resurrected for the next {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10905",
       "id": 5598,
+      "gameId": 9396,
       "name": "Agile Escape",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -101,16 +98,12 @@
       "cooldown": "30s cooldown",
       "note": "You cannot perform this action while rooted",
       "description": "You leap backwards from your target, causing your target to be Staggered for up to 6 seconds, preventing all actions unless they're damaged.",
-      "category": "Ability",
-      "gameId": 9396,
-      "componentValues": {
-        "ABIL_3032_COM_0_DURA_SECONDS": 6
-      },
-      "rawDescription": "You leap backwards from your target, causing your target to be Staggered for up to {ABIL_3032_COM_0_DURA_SECONDS}, preventing all actions unless they're damaged."
+      "category": "Ability"
     },
     {
       "image": "10979",
       "id": 5582,
+      "gameId": 9408,
       "name": "Agonizing Wound",
       "type": "Damaging",
       "spec": "Path of Treachery",
@@ -121,16 +114,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A cruel attack to your target, which deals 239 damage. If you are behind your target, you ignore your target's armor.",
-      "category": "Ability",
-      "gameId": 9408,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239
-      },
-      "rawDescription": "A cruel attack to your target, which deals {COM_0_VAL0_DAMAGE}. If you are behind your target, you ignore your target's armor."
+      "category": "Ability"
     },
     {
       "image": "22712",
       "id": 5621,
+      "gameId": 839,
       "name": "Alignment of Naggaroth",
       "type": "Buff",
       "spec": "Core Ability",
@@ -141,16 +130,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Spiritual resistance increased by 252.",
-      "category": "CareerTactic",
-      "gameId": 839,
-      "componentValues": {
-        "COM_0_VAL0": 252
-      },
-      "rawDescription": "Spiritual resistance increased by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "22696",
       "id": 6050,
+      "gameId": 6050,
       "name": "Mark of Morathi",
       "type": "Buff",
       "spec": "Core Ability",
@@ -161,14 +146,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You have been blessed by Morathi. Your Autoattack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies.",
-      "category": "CareerTactic",
-      "gameId": 6050,
-      "componentValues": {},
-      "rawDescription": "You have been blessed by Morathi. Your Autoattack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies."
+      "category": "CareerTactic"
     },
     {
       "image": "22708",
       "id": 5600,
+      "gameId": 9433,
       "name": "Baneful Touch",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -179,16 +162,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you attack an enemy from the sides or rear with an action, you will gain 15 Action Points.",
-      "category": "CareerTactic",
-      "gameId": 9433,
-      "componentValues": {
-        "COM_1_VAL0": 15
-      },
-      "rawDescription": "Any time you attack an enemy from the sides or rear with an action, you will gain {COM_1_VAL0} Action Points."
+      "category": "CareerTactic"
     },
     {
       "image": "22712",
       "id": 5622,
+      "gameId": 840,
       "name": "Bathing In Blood",
       "type": "Buff",
       "spec": "Core Ability",
@@ -199,17 +178,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 840,
-      "componentValues": {
-        "ABIL_3260_COM_0_VAL0_TOD_HEALTH": 471,
-        "ABIL_3260_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Any time you kill an enemy, you will regain {ABIL_3260_COM_0_VAL0_TOD_HEALTH} over {ABIL_3260_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10986",
       "id": 5633,
+      "gameId": 9424,
       "name": "Black Lotus Blade",
       "type": "Ailment",
       "spec": "Path of Suffering",
@@ -220,17 +194,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A deadly strike which deals 277 damage to your target and infects them with Black Lotus toxin, causing all healing that they receive for the next 10 seconds to become 50% less effective.",
-      "category": "Ability",
-      "gameId": 9424,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 277,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "A deadly strike which deals {COM_0_VAL0_DAMAGE} to your target and infects them with Black Lotus toxin, causing all healing that they receive for the next {COM_1_DURA_SECONDS} to become 50% less effective."
+      "category": "Ability"
     },
     {
       "image": "10991",
       "id": 5629,
+      "gameId": 9464,
       "name": "Blade Spin",
       "type": "Damaging",
       "spec": "Path of Carnage",
@@ -241,18 +210,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 2400 damage over 5 seconds to all enemies within 30 feet.",
-      "category": "Morale",
-      "gameId": 9464,
-      "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 2400,
-        "COM_0_DURA_SECONDS": 5,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} to all enemies within {COM_0_RADI_FEET}."
+      "category": "Morale"
     },
     {
       "image": "22694",
       "id": 5627,
+      "gameId": 9444,
       "name": "Broad Severing",
       "type": "Buff",
       "spec": "Core Ability",
@@ -263,17 +226,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within 25 feet, but Slice will now do 10% less damage.",
-      "category": "CareerTactic",
-      "gameId": 9444,
-      "componentValues": {
-        "ABIL_9398_COM_2_RADI_FEET": 25,
-        "COM_1_VAL1": 0
-      },
-      "rawDescription": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within {ABIL_9398_COM_2_RADI_FEET}, but Slice will now do {COM_1_VAL1}% less damage."
+      "category": "CareerTactic"
     },
     {
       "image": "23156",
       "id": 5618,
+      "gameId": 629,
       "name": "Broad Swings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -284,16 +242,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
-      "category": "Morale",
-      "gameId": 629,
-      "componentValues": {
-        "COM_1_RADI_FEET": 25
-      },
-      "rawDescription": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within {COM_1_RADI_FEET} in front of you."
+      "category": "Morale"
     },
     {
       "image": "22701",
       "id": 5611,
+      "gameId": 521,
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
@@ -304,16 +258,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength by 160.",
-      "category": "CareerTactic",
-      "gameId": 521,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Increases your Strength by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "23157",
       "id": 5616,
+      "gameId": 631,
       "name": "Confusing Movements",
       "type": "Buff",
       "spec": "Core Ability",
@@ -324,16 +274,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
-      "category": "Morale",
-      "gameId": 631,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "10988",
       "id": 5607,
+      "gameId": 9458,
       "name": "Dance of Doom",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -344,16 +290,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You concentrate on your target, repeatedly dealing 300 damage to them for up to 3 seconds.",
-      "category": "Morale",
-      "gameId": 9458,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 300
-      },
-      "rawDescription": "You concentrate on your target, repeatedly dealing {COM_0_VAL0_DAMAGE} to them for up to 3 seconds."
+      "category": "Morale"
     },
     {
       "image": "22712",
       "id": 5620,
+      "gameId": 841,
       "name": "Dark Blessings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -364,16 +306,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Direct heals cast on you will recover 10% more health.",
-      "category": "CareerTactic",
-      "gameId": 841,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Direct heals cast on you will recover {COM_0_VAL1}% more health."
+      "category": "CareerTactic"
     },
     {
       "image": "10963",
       "id": 5608,
+      "gameId": 9459,
       "name": "Death Reaper",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -384,14 +322,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Increases critical hit chance by 50% for 10 seconds for all group members within 100 feet.",
-      "category": "Morale",
-      "gameId": 9459,
-      "componentValues": {},
-      "rawDescription": "Increases critical hit chance by 50% for 10 seconds for all group members within 100 feet."
+      "category": "Morale"
     },
     {
       "image": "10901",
       "id": 5631,
+      "gameId": 9420,
       "name": "Elixir of Insane Power",
       "type": "Buff",
       "spec": "Path of Carnage",
@@ -402,16 +338,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A vile brew which drives you into a rage for the next 7 seconds.  All of your attacks will ignore 50% of the victim's armor.<BR>You may only use a single Elixir at a time.",
-      "category": "Ability",
-      "gameId": 9420,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "A vile brew which drives you into a rage for the next {COM_0_DURA_SECONDS}.  All of your attacks will ignore 50% of the victim's armor.<BR>You may only use a single Elixir at a time."
+      "category": "Ability"
     },
     {
       "image": "abi_de_blackhorror",
       "id": 5624,
+      "gameId": 2999,
       "name": "Elixir of Shadows",
       "type": "Buff",
       "spec": "Path of Suffering",
@@ -422,17 +354,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 seconds.<BR>You may only use a single Elixir at a time.",
-      "category": "Ability",
-      "gameId": 2999,
-      "componentValues": {
-        "COM_1_VAL0": 50,
-        "COM_1_DURA_SECONDS": 7
-      },
-      "rawDescription": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds and increase your speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR>You may only use a single Elixir at a time."
+      "category": "Ability"
     },
     {
       "image": "10987",
       "id": 5638,
+      "gameId": 9426,
       "name": "Elixir of the Cauldron",
       "type": "Buff",
       "spec": "Path of Treachery",
@@ -443,17 +370,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% and resisting all spell damage for 7 seconds.<BR>You may only use a single Elixir at a time.",
-      "category": "Ability",
-      "gameId": 9426,
-      "componentValues": {
-        "COM_0_VAL0": 100,
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by {COM_0_VAL0}% and resisting all spell damage for {COM_0_DURA_SECONDS}.<BR>You may only use a single Elixir at a time."
+      "category": "Ability"
     },
     {
       "image": "10968",
       "id": 5585,
+      "gameId": 9392,
       "name": "Enchanting Beauty",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -464,18 +386,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "Your unearthly Elven beauty Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability",
-      "gameId": 9392,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Your unearthly Elven beauty Detaunts all enemies within {COM_0_RADI_FEET}, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
+      "category": "Ability"
     },
     {
       "image": "10973",
       "id": 5593,
+      "gameId": 9401,
       "name": "Enfeebling Strike",
       "type": "Ailment",
       "spec": "Path of Suffering",
@@ -485,20 +401,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
-      "description": "You ambush your target from the shadows and strike with a Crippling attack. Your target will take 75 Corporeal damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
-      "category": "Ability",
-      "gameId": 9401,
-      "componentValues": {
-        "COM_1_VAL0_CORPOREALDAMAGE": 112,
-        "COM_0_DURA_SECONDS": 15,
-        "COM_2_VAL0_COM_0_VAL1": 0,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You ambush your target from the shadows and strike with a Crippling attack. Your target will take {COM_1_VAL0_CORPOREALDAMAGE} every time they move for {COM_0_DURA_SECONDS}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Blood Lust."
+      "description": "You ambush your target from the shadows and strike with a Crippling attack. Your target will take 112 Corporeal damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 5634,
+      "gameId": 9448,
       "name": "Enveloping Shadows",
       "type": "Buff",
       "spec": "Path of Suffering",
@@ -508,17 +417,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When leaving Shadow Prowler, you will become protected by a barrier that will absorb up to 475 damage",
-      "category": "CareerTactic",
-      "gameId": 9448,
-      "componentValues": {
-        "ABIL_3004_COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "When leaving Shadow Prowler, you will become protected by a barrier that will absorb up to {ABIL_3004_COM_0_VAL1_DAMAGE}"
+      "description": "When leaving Shadow Prowler, you will become protected by a barrier that will absorb up to 712 damage",
+      "category": "CareerTactic"
     },
     {
       "image": "10975",
       "id": 5580,
+      "gameId": 9403,
       "name": "Envenomed Blade",
       "type": "Ailment",
       "spec": "Path of Suffering",
@@ -529,18 +434,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "You stab your enemy with a poisoned blade, dealing 166 damage.  The victim becomes wracked with pains, suffering an additional 297 Corporeal damage over 9 seconds.  This effect will stack with itself up to three times.",
-      "category": "Ability",
-      "gameId": 9403,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 166,
-        "COM_2_VAL0_COM_1_VAL0_TOD_CORPOREALDAMAGE": 297,
-        "COM_2_VAL0_COM_1_DURA_SECONDS": 9
-      },
-      "rawDescription": "You stab your enemy with a poisoned blade, dealing {COM_0_VAL0_DAMAGE}.  The victim becomes wracked with pains, suffering an additional {COM_2_VAL0_COM_1_VAL0_TOD_CORPOREALDAMAGE} over {COM_2_VAL0_COM_1_DURA_SECONDS}.  This effect will stack with itself up to three times."
+      "category": "Ability"
     },
     {
       "image": "22709",
       "id": 5602,
+      "gameId": 9436,
       "name": "Exotic Venom",
       "type": "Buff",
       "spec": "Core Ability",
@@ -551,14 +450,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the durations of Vehement Blades, Enfeebling Strike, Shadow Leap, and Treacherous Assault by an additional 5 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9436,
-      "componentValues": {},
-      "rawDescription": "Increases the durations of Vehement Blades, Enfeebling Strike, Shadow Leap, and Treacherous Assault by an additional 5 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "05170",
       "id": 5584,
+      "gameId": 9397,
       "name": "Feinted Positioning",
       "type": "Buff",
       "spec": "Core Ability",
@@ -569,16 +466,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your positional attacks can be used without the positional requirement for 10 seconds. Does not affect morale abilities.",
-      "category": "Ability",
-      "gameId": 9397,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Your positional attacks can be used without the positional requirement for {COM_0_DURA_SECONDS}. Does not affect morale abilities."
+      "category": "Ability"
     },
     {
       "image": "22704",
       "id": 5612,
+      "gameId": 523,
       "name": "Flanking",
       "type": "Buff",
       "spec": "Core Ability",
@@ -589,16 +482,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
-      "category": "CareerTactic",
-      "gameId": 523,
-      "componentValues": {
-        "COM_0_VAL0": 15
-      },
-      "rawDescription": "All of your attacks deal {COM_0_VAL0}% more damage when you strike an enemy from the sides or rear."
+      "category": "CareerTactic"
     },
     {
       "image": "05004",
       "id": 5678,
+      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -609,18 +498,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability",
-      "gameId": 245,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "category": "Ability"
     },
     {
       "image": "10970",
       "id": 5592,
+      "gameId": 9395,
       "name": "Fleet-Footed",
       "type": "Buff",
       "spec": "Core Ability",
@@ -631,16 +514,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your swift footwork and quick thinking removes all roots and snares from you.  For the next 10 seconds, roots and snares will have no effect on you.",
-      "category": "Ability",
-      "gameId": 9395,
-      "componentValues": {
-        "COM_2_DURA_SECONDS": 10
-      },
-      "rawDescription": "Your swift footwork and quick thinking removes all roots and snares from you.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you."
+      "category": "Ability"
     },
     {
       "image": "10992",
       "id": 5636,
+      "gameId": 9465,
       "name": "Fling Poison",
       "type": "Damaging",
       "spec": "Path of Suffering",
@@ -651,18 +530,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 2400 damage over 5 seconds to all enemies in front of you, up to 65 feet away.",
-      "category": "Morale",
-      "gameId": 9465,
-      "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 2400,
-        "COM_0_DURA_SECONDS": 5,
-        "COM_0_RADI_FEET": 65
-      },
-      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
+      "category": "Morale"
     },
     {
       "image": "22708",
       "id": 5603,
+      "gameId": 9435,
       "name": "For the Hag Queen!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -673,16 +546,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your Frenzies will now have a 10% chance per point spent to knock the enemy down for 4 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9435,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 4
-      },
-      "rawDescription": "Your Frenzies will now have a 10% chance per point spent to knock the enemy down for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "23158",
       "id": 5615,
+      "gameId": 628,
       "name": "Force of Will",
       "type": "Buff",
       "spec": "Core Ability",
@@ -693,18 +562,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
-      "category": "Morale",
-      "gameId": 628,
-      "componentValues": {
-        "COM_0_VAL0": 200,
-        "COM_2_VAL0": 160,
-        "COM_2_DURA_SECONDS": 30
-      },
-      "rawDescription": "You stare down your opponent, draining {COM_0_VAL0} of their Action Points into yourself, and reducing their Strength by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22704",
       "id": 5601,
+      "gameId": 6033,
       "name": "Frenzied Mayhem",
       "type": "Buff",
       "spec": "Core Ability",
@@ -715,14 +578,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the damage of your Frenzies by 5% for each Blood Lust point you have.",
-      "category": "CareerTactic",
-      "gameId": 6033,
-      "componentValues": {},
-      "rawDescription": "Increases the damage of your Frenzies by 5% for each Blood Lust point you have."
+      "category": "CareerTactic"
     },
     {
       "image": "23159",
       "id": 5619,
+      "gameId": 630,
       "name": "Frenzied Slaughter",
       "type": "Buff",
       "spec": "Core Ability",
@@ -733,14 +594,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
-      "category": "Morale",
-      "gameId": 630,
-      "componentValues": {},
-      "rawDescription": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds."
+      "category": "Morale"
     },
     {
       "image": "10976",
       "id": 5583,
+      "gameId": 9404,
       "name": "Heart Render Toxin",
       "type": "Ailment",
       "spec": "Path of Suffering",
@@ -750,27 +609,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for 10 seconds which reduces their Wounds.<BR>   1 Blood Lust:  119 damage per hit; Wounds reduced by 40.<BR>   2 Blood Lust:  151 damage per hit; Wounds reduced by 53.<BR>   3 Blood Lust:  183 damage per hit; Wounds reduced by 66.<BR>   4 Blood Lust:  213 damage per hit; Wounds reduced by 80.<BR>   5 Blood Lust:  245 damage per hit; Wounds reduced by 93.",
-      "category": "Ability",
-      "gameId": 9404,
-      "componentValues": {
-        "ABIL_3931_COM_2_DURA_SECONDS": 10,
-        "ABIL_3931_COM_0_VAL0_DAMAGE": 119,
-        "ABIL_3931_COM_2_VAL0": 40,
-        "ABIL_3932_COM_0_VAL0_DAMAGE": 151,
-        "ABIL_3932_COM_2_VAL0": 53,
-        "ABIL_3933_COM_0_VAL0_DAMAGE": 183,
-        "ABIL_3933_COM_2_VAL0": 66,
-        "ABIL_3934_COM_0_VAL0_DAMAGE": 213,
-        "ABIL_3934_COM_2_VAL0": 80,
-        "ABIL_3935_COM_0_VAL0_DAMAGE": 245,
-        "ABIL_3935_COM_2_VAL0": 93
-      },
-      "rawDescription": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for {ABIL_3931_COM_2_DURA_SECONDS} which reduces their Wounds.<BR>   1 Blood Lust:  {ABIL_3931_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3931_COM_2_VAL0}.<BR>   2 Blood Lust:  {ABIL_3932_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3932_COM_2_VAL0}.<BR>   3 Blood Lust:  {ABIL_3933_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3933_COM_2_VAL0}.<BR>   4 Blood Lust:  {ABIL_3934_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3934_COM_2_VAL0}.<BR>   5 Blood Lust:  {ABIL_3935_COM_0_VAL0_DAMAGE} per hit; Wounds reduced by {ABIL_3935_COM_2_VAL0}."
+      "description": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for 10 seconds which reduces their Wounds.<BR>   1 Blood Lust:  119 damage per hit; Wounds reduced by 40.<BR>   2 Blood Lust:  151 damage per hit; Wounds reduced by 54.<BR>   3 Blood Lust:  183 damage per hit; Wounds reduced by 67.<BR>   4 Blood Lust:  213 damage per hit; Wounds reduced by 80.<BR>   5 Blood Lust:  244 damage per hit; Wounds reduced by 94.",
+      "category": "Ability"
     },
     {
       "image": "05203",
       "id": 5640,
+      "gameId": 9427,
       "name": "Heart Seeker",
       "type": "Damaging",
       "spec": "Path of Treachery",
@@ -781,17 +626,12 @@
       "cooldown": "20s cooldown",
       "note": "Target must be facing away from you<br>Builds 1 Blood Lust",
       "description": "A shocking strike which deals 389 damage and knocksdown your target for 3 seconds.",
-      "category": "Ability",
-      "gameId": 9427,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 389,
-        "COM_1_DURA_SECONDS": 3
-      },
-      "rawDescription": "A shocking strike which deals {COM_0_VAL0_DAMAGE} and knocksdown your target for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22701",
       "id": 5639,
+      "gameId": 9450,
       "name": "Increased Pain",
       "type": "Buff",
       "spec": "Path of Treachery",
@@ -802,14 +642,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your critical hits will inflict 50% more damage.",
-      "category": "CareerTactic",
-      "gameId": 9450,
-      "componentValues": {},
-      "rawDescription": "Your critical hits will inflict 50% more damage."
+      "category": "CareerTactic"
     },
     {
       "image": "22694",
       "id": 5610,
+      "gameId": 526,
       "name": "Jagged Edge",
       "type": "Buff",
       "spec": "Core Ability",
@@ -820,17 +658,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 526,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD": 606,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Any time you critically hit an enemy they will begin to bleed, suffering additional {COM_1_VAL0_COM_0_VAL0_TOD} Corporeal damage over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10974",
       "id": 5581,
+      "gameId": 9402,
       "name": "Kiss of Agony",
       "type": "Buff",
       "spec": "Path of Carnage",
@@ -841,18 +674,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 150 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 80 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
-      "category": "Ability",
-      "gameId": 9402,
-      "componentValues": {
-        "ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE": 150,
-        "ABIL_3810_COM_0_VAL0": 80,
-        "ABIL_3810_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3810_COM_1_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing them to have their Initiative reduced by {ABIL_3810_COM_0_VAL0} for the next {ABIL_3810_COM_0_DURA_SECONDS}. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."
+      "category": "Ability"
     },
     {
       "image": "10982",
       "id": 5597,
+      "gameId": 9412,
       "name": "Kiss of Betrayal",
       "type": "Buff",
       "spec": "Path of Treachery",
@@ -863,17 +690,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 150 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
-      "category": "Ability",
-      "gameId": 9412,
-      "componentValues": {
-        "ABIL_3812_COM_0_VAL0_CORPOREALDAMAGE": 150,
-        "ABIL_3812_COM_1_VAL0": 20
-      },
-      "rawDescription": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3812_COM_0_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing them to lose {ABIL_3812_COM_1_VAL0} Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."
+      "category": "Ability"
     },
     {
       "image": "11006",
       "id": 5586,
+      "gameId": 9407,
       "name": "Kiss of Death",
       "type": "Buff",
       "spec": "Path of Suffering",
@@ -883,19 +705,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 100 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
-      "category": "Ability",
-      "gameId": 9407,
-      "componentValues": {
-        "ABIL_3811_COM_0_VAL0_CORPOREALDAMAGE": 150,
-        "ABIL_3811_COM_2_VAL1": 0,
-        "ABIL_3811_COM_2_DURA_SECONDS": 5
-      },
-      "rawDescription": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra {ABIL_3811_COM_0_VAL0_CORPOREALDAMAGE}. The concoction seeps into your enemy, causing all healing done by them to be reduced to {ABIL_3811_COM_2_VAL1}% for the next {ABIL_3811_COM_2_DURA_SECONDS}.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect."
+      "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 150 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 5632,
+      "gameId": 9446,
       "name": "Kiss of Doom",
       "type": "Buff",
       "spec": "Path of Suffering",
@@ -906,14 +722,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Kiss of Death will now heal you for 150% of the damage it deals.",
-      "category": "CareerTactic",
-      "gameId": 9446,
-      "componentValues": {},
-      "rawDescription": "Kiss of Death will now heal you for 150% of the damage it deals."
+      "category": "CareerTactic"
     },
     {
       "image": "22701",
       "id": 5641,
+      "gameId": 9451,
       "name": "Masterful Treachery",
       "type": "Buff",
       "spec": "Path of Treachery",
@@ -924,17 +738,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, Enfeebling Strike or Shadow Leap, you will deal 15% more damage for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9451,
-      "componentValues": {
-        "ABIL_9411_COM_6_VAL0_COM_0_VAL0": 15,
-        "ABIL_9411_COM_6_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "After hitting an enemy with Treacherous Assault, Vehement Blades, Enfeebling Strike or Shadow Leap, you will deal {ABIL_9411_COM_6_VAL0_COM_0_VAL0}% more damage for {ABIL_9411_COM_6_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10984",
       "id": 5628,
+      "gameId": 9422,
       "name": "On Your Knees!",
       "type": "Ailment",
       "spec": "Path of Carnage",
@@ -944,27 +753,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Blood Lust:  129 damage per hit, 30 feet radius.<BR>   2 Blood Lust:  167 damage per hit, 35 feet radius.<BR>   3 Blood Lust:  206 damage per hit, 40 feet radius.<BR>   4 Blood Lust:  242 damage per hit, 43 feet radius.<BR>   5 Blood Lust:  280 damage per hit, 48 feet radius.",
-      "category": "Ability",
-      "gameId": 9422,
-      "componentValues": {
-        "ABIL_3581_COM_2_DURA_SECONDS": 3,
-        "ABIL_3581_COM_0_VAL0_DAMAGE": 129,
-        "ABIL_3581_COM_0_RADI_FEET": 30,
-        "ABIL_3582_COM_0_VAL0_DAMAGE": 167,
-        "ABIL_3582_COM_0_RADI_FEET": 35,
-        "ABIL_3583_COM_0_VAL0_DAMAGE": 206,
-        "ABIL_3583_COM_0_RADI_FEET": 40,
-        "ABIL_3584_COM_0_VAL0_DAMAGE": 242,
-        "ABIL_3584_COM_0_RADI_FEET": 43,
-        "ABIL_3585_COM_0_VAL0_DAMAGE": 280,
-        "ABIL_3585_COM_0_RADI_FEET": 48
-      },
-      "rawDescription": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for {ABIL_3581_COM_2_DURA_SECONDS}, and does damage to your target an all enemies around them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Blood Lust:  {ABIL_3581_COM_0_VAL0_DAMAGE} per hit, {ABIL_3581_COM_0_RADI_FEET} radius.<BR>   2 Blood Lust:  {ABIL_3582_COM_0_VAL0_DAMAGE} per hit, {ABIL_3582_COM_0_RADI_FEET} radius.<BR>   3 Blood Lust:  {ABIL_3583_COM_0_VAL0_DAMAGE} per hit, {ABIL_3583_COM_0_RADI_FEET} radius.<BR>   4 Blood Lust:  {ABIL_3584_COM_0_VAL0_DAMAGE} per hit, {ABIL_3584_COM_0_RADI_FEET} radius.<BR>   5 Blood Lust:  {ABIL_3585_COM_0_VAL0_DAMAGE} per hit, {ABIL_3585_COM_0_RADI_FEET} radius."
+      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Blood Lust:  129 damage per hit, 30 feet radius.<BR>   2 Blood Lust:  167 damage per hit, 35 feet radius.<BR>   3 Blood Lust:  206 damage per hit, 40 feet radius.<BR>   4 Blood Lust:  242 damage per hit, 43.333333333333336 feet radius.<BR>   5 Blood Lust:  280 damage per hit, 48.333333333333336 feet radius.",
+      "category": "Ability"
     },
     {
       "image": "10993",
       "id": 5643,
+      "gameId": 9466,
       "name": "Overwhelming Dread",
       "type": "Debuff",
       "spec": "Path of Treachery",
@@ -975,19 +770,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All enemies within 30 feet instantly lose 125 Action Points, and will regain action points 50% more slowly for the next 10 seconds.",
-      "category": "Morale",
-      "gameId": 9466,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_ACTIONPOINTS": 125,
-        "COM_1_VAL0": 50,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "All enemies within {COM_0_RADI_FEET} instantly lose {COM_0_VAL0_ACTIONPOINTS}, and will regain action points {COM_1_VAL0}% more slowly for the next {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "23412",
       "id": 5644,
+      "gameId": 14427,
       "name": "Pick Lock",
       "type": "Buff",
       "spec": "Core Ability",
@@ -998,16 +786,12 @@
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
-      "category": "Ability",
-      "gameId": 14427,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You bolster yourself for {COM_0_DURA_SECONDS}, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside."
+      "category": "Ability"
     },
     {
       "image": "10983",
       "id": 5626,
+      "gameId": 9421,
       "name": "Pierce Armor",
       "type": "Enchantment",
       "spec": "Path of Carnage",
@@ -1018,18 +802,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A powerful stab that slices through the target's defenses, dealing 314 damage to your target and ignoring all of their armor.  If the target suffers from an Ailment, then your Weapon Skill will be increased by 120 for 20 seconds.",
-      "category": "Ability",
-      "gameId": 9421,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 314,
-        "COM_1_VAL0": 120,
-        "COM_1_DURA_SECONDS": 20
-      },
-      "rawDescription": "A powerful stab that slices through the target's defenses, dealing {COM_0_VAL0_DAMAGE} to your target and ignoring all of their armor.  If the target suffers from an Ailment, then your Weapon Skill will be increased by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10980",
       "id": 5579,
+      "gameId": 9410,
       "name": "Puncture",
       "type": "Damaging",
       "spec": "Path of Treachery",
@@ -1039,21 +817,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You quickly stab your target twice, dealing damage based on your Blood Lust.<BR>   1 Blood Lust:  157 damage per hit<BR>   2 Blood Lust:  201 damage per hit<BR>   3 Blood Lust:  246 damage per hit<BR>   4 Blood Lust:  288 damage per hit<BR>   5 Blood Lust:  333 damage per hit",
-      "category": "Ability",
-      "gameId": 9410,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 157,
-        "COM_1_VAL0_DAMAGE": 201,
-        "COM_2_VAL0_DAMAGE": 246,
-        "COM_3_VAL0_DAMAGE": 288,
-        "COM_4_VAL0_DAMAGE": 333
-      },
-      "rawDescription": "You quickly stab your target twice, dealing damage based on your Blood Lust.<BR>   1 Blood Lust:  {COM_0_VAL0_DAMAGE} per hit<BR>   2 Blood Lust:  {COM_1_VAL0_DAMAGE} per hit<BR>   3 Blood Lust:  {COM_2_VAL0_DAMAGE} per hit<BR>   4 Blood Lust:  {COM_3_VAL0_DAMAGE} per hit<BR>   5 Blood Lust:  {COM_4_VAL0_DAMAGE} per hit"
+      "description": "You quickly stab your target twice, dealing damage based on your Blood Lust.<BR>   1 Blood Lust:  157 damage per hit<BR>   2 Blood Lust:  201 damage per hit<BR>   3 Blood Lust:  246 damage per hit<BR>   4 Blood Lust:  288 damage per hit<BR>   5 Blood Lust:  332 damage per hit",
+      "category": "Ability"
     },
     {
       "image": "23160",
       "id": 5617,
+      "gameId": 633,
       "name": "Relentless Assault",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1064,17 +834,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
-      "category": "Morale",
-      "gameId": 633,
-      "componentValues": {
-        "COM_0_VAL0_ACTIONPOINTS": 10,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "A prolonged fervor that grants {COM_0_VAL0_ACTIONPOINTS} a second to everyone in your group within 100 feet of you for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22702",
       "id": 5613,
+      "gameId": 528,
       "name": "Riposte",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1085,16 +850,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 239 damage which they can not prevent.",
-      "category": "CareerTactic",
-      "gameId": 528,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 239
-      },
-      "rawDescription": "Each time you parry an enemy's attack, you will strike them back for {COM_1_VAL0_DAMAGE} which they can not prevent."
+      "category": "CareerTactic"
     },
     {
       "image": "10904",
       "id": 5589,
+      "gameId": 9399,
       "name": "Ruthless Assault",
       "type": "Damaging",
       "spec": "Path of Carnage",
@@ -1105,21 +866,12 @@
       "cooldown": "8s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<BR>   1 Blood Lust:  828 damage.<BR>   2 Blood Lust:   1056 damage.<BR>   3 Blood Lust:   1290 damage.<BR>   4 Blood Lust:   1506 damage.<BR>   5 Blood Lust:   1734 damage.",
-      "category": "Ability",
-      "gameId": 9399,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_0_VAL0_TOD_DAMAGE": 828,
-        "COM_1_VAL0_TOD_DAMAGE": 1056,
-        "COM_2_VAL0_TOD_DAMAGE": 1290,
-        "COM_3_VAL0_TOD_DAMAGE": 1506,
-        "COM_4_VAL0_TOD_DAMAGE": 1734
-      },
-      "rawDescription": "A relentless string of attacks which repeatedly strikes your target up to 6 times over {COM_0_DURA_SECONDS}.<BR>   1 Blood Lust:  {COM_0_VAL0_TOD_DAMAGE}.<BR>   2 Blood Lust:   {COM_1_VAL0_TOD_DAMAGE}.<BR>   3 Blood Lust:   {COM_2_VAL0_TOD_DAMAGE}.<BR>   4 Blood Lust:   {COM_3_VAL0_TOD_DAMAGE}.<BR>   5 Blood Lust:   {COM_4_VAL0_TOD_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "22702",
       "id": 5606,
+      "gameId": 9439,
       "name": "Sacrifices Rewarded",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1130,16 +882,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are critically hit by a direct damage ability, you will become protected by a barrier which will absorb up to 600 damage.<BR>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9439,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Any time you are critically hit by a direct damage ability, you will become protected by a barrier which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}.<BR>This effect will not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "10994",
       "id": 5642,
+      "gameId": 9428,
       "name": "Sacrificial Stab",
       "type": "Damaging",
       "spec": "Path of Treachery",
@@ -1149,21 +897,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<BR>   1 Blood Lust:  119 damage per hit.<BR>   2 Blood Lust:  151 damage per hit.<BR>   3 Blood Lust:  183 damage per hit.<BR>   4 Blood Lust:  213 damage per hit.<BR>   5 Blood Lust:  245 damage per hit.",
-      "category": "Ability",
-      "gameId": 9428,
-      "componentValues": {
-        "ABIL_3988_COM_0_VAL0_DAMAGE": 119,
-        "ABIL_3989_COM_0_VAL0_DAMAGE": 151,
-        "ABIL_3990_COM_0_VAL0_DAMAGE": 183,
-        "ABIL_3991_COM_0_VAL0_DAMAGE": 213,
-        "ABIL_3992_COM_0_VAL0_DAMAGE": 245
-      },
-      "rawDescription": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<BR>   1 Blood Lust:  {ABIL_3988_COM_0_VAL0_DAMAGE} per hit.<BR>   2 Blood Lust:  {ABIL_3989_COM_0_VAL0_DAMAGE} per hit.<BR>   3 Blood Lust:  {ABIL_3990_COM_0_VAL0_DAMAGE} per hit.<BR>   4 Blood Lust:  {ABIL_3991_COM_0_VAL0_DAMAGE} per hit.<BR>   5 Blood Lust:  {ABIL_3992_COM_0_VAL0_DAMAGE} per hit."
+      "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<BR>   1 Blood Lust:  119 damage per hit.<BR>   2 Blood Lust:  151 damage per hit.<BR>   3 Blood Lust:  183 damage per hit.<BR>   4 Blood Lust:  213 damage per hit.<BR>   5 Blood Lust:  244 damage per hit.",
+      "category": "Ability"
     },
     {
       "image": "22701",
       "id": 5630,
+      "gameId": 9447,
       "name": "Septic Blade",
       "type": "Buff",
       "spec": "Path of Suffering",
@@ -1174,16 +914,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Envenomed Blade will now also reduce the victim's chance to critically hit by 25%.",
-      "category": "CareerTactic",
-      "gameId": 9447,
-      "componentValues": {
-        "ABIL_9403_COM_2_VAL0_COM_2_VAL1": 0
-      },
-      "rawDescription": "Envenomed Blade will now also reduce the victim's chance to critically hit by {ABIL_9403_COM_2_VAL0_COM_2_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "02497",
       "id": 5594,
+      "gameId": 9413,
       "name": "Sever Blessing",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1194,16 +930,12 @@
       "cooldown": "5s cooldown",
       "note": "Target must have a Blessing<br>Builds 1 Blood Lust",
       "description": "You sever one Blessing from your enemy and inflict 127 damage.",
-      "category": "Ability",
-      "gameId": 9413,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 127
-      },
-      "rawDescription": "You sever one Blessing from your enemy and inflict {COM_1_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "10972",
       "id": 5590,
+      "gameId": 9400,
       "name": "Sever Limb",
       "type": "Ailment",
       "spec": "Path of Carnage",
@@ -1214,17 +946,12 @@
       "cooldown": "10s cooldown",
       "note": "Requires Parry",
       "description": "A precise Crippling attack that deals 314 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
-      "category": "Ability",
-      "gameId": 9400,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 314,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 4
-      },
-      "rawDescription": "A precise Crippling attack that deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_VAL0_COM_0_DURA_SECONDS}, making them unable to use melee or ranged weapons."
+      "category": "Ability"
     },
     {
       "image": "23161",
       "id": 5614,
+      "gameId": 627,
       "name": "Sever Nerve",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1235,16 +962,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
-      "category": "Morale",
-      "gameId": 627,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200
-      },
-      "rawDescription": "A directed strike that inflicts {COM_0_VAL0_DAMAGE} to your target."
+      "category": "Morale"
     },
     {
       "image": "10969",
       "id": 5587,
+      "gameId": 9393,
       "name": "Shadow Prowler",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1255,14 +978,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You prowl through the shadows, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points.",
-      "category": "Ability",
-      "gameId": 9393,
-      "componentValues": {},
-      "rawDescription": "You prowl through the shadows, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "22698",
       "id": 5623,
+      "gameId": 9443,
       "name": "Sharpened Edge",
       "type": "Buff",
       "spec": "Path of Carnage",
@@ -1273,17 +994,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Anytime an attack you make is blocked or parried, you will automatically do 225 damage to your target.<br>Cannot occur more than once every 2 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9443,
-      "componentValues": {
-        "ABIL_3429_COM_0_VAL0_DAMAGE": 225,
-        "ABIL_3356_COM_0_DURA_SECONDS": 2
-      },
-      "rawDescription": "Anytime an attack you make is blocked or parried, you will automatically do {ABIL_3429_COM_0_VAL0_DAMAGE} to your target.<br>Cannot occur more than once every {ABIL_3356_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10902",
       "id": 5679,
+      "gameId": 9398,
       "name": "Slice",
       "type": "Damaging",
       "spec": "Path of Carnage",
@@ -1294,16 +1010,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A deep stab which deals 314 damage to your target.",
-      "category": "Ability",
-      "gameId": 9398,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 314
-      },
-      "rawDescription": "A deep stab which deals {COM_0_VAL0_DAMAGE} to your target."
+      "category": "Ability"
     },
     {
       "image": "22702",
       "id": 5625,
+      "gameId": 9445,
       "name": "Swift Blades",
       "type": "Buff",
       "spec": "Path of Carnage",
@@ -1314,17 +1026,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to parry attacks by 10%.  Each time you parry an attack, you will regain 20 Action Points.<BR>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9445,
-      "componentValues": {
-        "COM_0_VAL0": 10,
-        "COM_2_VAL0_ACTIONPOINTS": 20
-      },
-      "rawDescription": "Increases your chance to parry attacks by {COM_0_VAL0}%.  Each time you parry an attack, you will regain {COM_2_VAL0_ACTIONPOINTS}.<BR>This effect will not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "22709",
       "id": 5637,
+      "gameId": 9449,
       "name": "Swift Movements",
       "type": "Buff",
       "spec": "Path of Treachery",
@@ -1335,16 +1042,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Feinted Positioning's cooldown time by 40 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9449,
-      "componentValues": {
-        "COM_0_VAL0_SECONDS": 40
-      },
-      "rawDescription": "Reduces Feinted Positioning's cooldown time by {COM_0_VAL0_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22708",
       "id": 5605,
+      "gameId": 9438,
       "name": "Swift Pursuit",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1355,16 +1058,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Fleet-Footed will now also increase your run speed by 25%.",
-      "category": "CareerTactic",
-      "gameId": 9438,
-      "componentValues": {
-        "ABIL_9395_COM_4_VAL0": 25
-      },
-      "rawDescription": "Fleet-Footed will now also increase your run speed by {ABIL_9395_COM_4_VAL0}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22701",
       "id": 5604,
+      "gameId": 9437,
       "name": "Taste of Blood",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1375,17 +1074,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you take damage, there is a 25% chance that you will cause 15% more damage for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9437,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0": 15,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Any time you take damage, there is a 25% chance that you will cause {COM_1_VAL0_COM_0_VAL0}% more damage for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "05166",
       "id": 5591,
+      "gameId": 9409,
       "name": "Throat Slitter",
       "type": "Ailment",
       "spec": "Path of Treachery",
@@ -1396,17 +1090,12 @@
       "cooldown": "20s cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A swift slice that silences your target, making them unable to use magic for 3 seconds. You will also deal 277 damage to your target if you attack them from behind.",
-      "category": "Ability",
-      "gameId": 9409,
-      "componentValues": {
-        "COM_0_VAL0_COM_0_DURA_SECONDS": 3,
-        "COM_1_VAL0_DAMAGE": 277
-      },
-      "rawDescription": "A swift slice that silences your target, making them unable to use magic for {COM_0_VAL0_COM_0_DURA_SECONDS}. You will also deal {COM_1_VAL0_DAMAGE} to your target if you attack them from behind."
+      "category": "Ability"
     },
     {
       "image": "10903",
       "id": 5680,
+      "gameId": 9394,
       "name": "Throwing Dagger",
       "type": "Ailment",
       "spec": "Core Ability",
@@ -1417,18 +1106,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A quick dagger throw which deals 80 damage.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
-      "category": "Ability",
-      "gameId": 9394,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 80,
-        "COM_1_VAL0": 40,
-        "COM_1_DURA_SECONDS": 5
-      },
-      "rawDescription": "A quick dagger throw which deals {COM_0_VAL0_DAMAGE}.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10981",
       "id": 5596,
+      "gameId": 9411,
       "name": "Treacherous Assault",
       "type": "Ailment",
       "spec": "Path of Treachery",
@@ -1438,20 +1121,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
-      "description": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. Your target will take 175 Corporeal damage every time they use a magical ability for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds.",
-      "category": "Ability",
-      "gameId": 9411,
-      "componentValues": {
-        "COM_1_VAL0_CORPOREALDAMAGE": 262,
-        "COM_0_DURA_SECONDS": 15,
-        "COM_2_VAL0_COM_0_VAL1": 0,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. Your target will take {COM_1_VAL0_CORPOREALDAMAGE} every time they use a magical ability for {COM_0_DURA_SECONDS}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}."
+      "description": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. Your target will take 262 Corporeal damage every time they use a magical ability for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds.",
+      "category": "Ability"
     },
     {
       "image": "10978",
       "id": 5588,
+      "gameId": 9406,
       "name": "Vehement Blades",
       "type": "Ailment",
       "spec": "Path of Carnage",
@@ -1461,20 +1137,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
-      "description": "You leap out of the shadows in an insane rage. Each time your target uses a melee ability, your target will take 125 Corporeal damage for each melee ability used over the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
-      "category": "Ability",
-      "gameId": 9406,
-      "componentValues": {
-        "COM_1_VAL0_CORPOREALDAMAGE": 187,
-        "COM_0_DURA_SECONDS": 15,
-        "ABIL_3009_COM_0_VAL1": 0,
-        "ABIL_3009_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You leap out of the shadows in an insane rage. Each time your target uses a melee ability, your target will take {COM_1_VAL0_CORPOREALDAMAGE} for each melee ability used over the next {COM_0_DURA_SECONDS}. Your abilities will cost {ABIL_3009_COM_0_VAL1}% fewer Action Points for {ABIL_3009_COM_0_DURA_SECONDS}. Builds 2 Blood Lust."
+      "description": "You leap out of the shadows in an insane rage. Each time your target uses a melee ability, your target will take 187 Corporeal damage for each melee ability used over the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
+      "category": "Ability"
     },
     {
       "image": "10990",
       "id": 5609,
+      "gameId": 9460,
       "name": "Web of Shadows",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1485,17 +1154,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage to all enemies in front of you, up to 65 feet away.",
-      "category": "Morale",
-      "gameId": 9460,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200,
-        "COM_0_RADI_FEET": 65
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
+      "category": "Morale"
     },
     {
       "image": "22712",
       "id": 5599,
+      "gameId": 9432,
       "name": "Whirling Blades",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1506,14 +1170,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your attacks which build Blood Lust will now have a 33% chance to build one additional Blood Lust.",
-      "category": "CareerTactic",
-      "gameId": 9432,
-      "componentValues": {},
-      "rawDescription": "Your attacks which build Blood Lust will now have a 33% chance to build one additional Blood Lust."
+      "category": "CareerTactic"
     },
     {
       "image": "10900",
       "id": 5635,
+      "gameId": 9425,
       "name": "Witchbrew",
       "type": "Debuff",
       "spec": "Path of Suffering",
@@ -1524,16 +1186,12 @@
       "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
       "description": "You consume a noxious liquid distilled from blood which fills you with power, causing your next several attacks to each deal an additional 450 Corporeal damage to your target.<BR>   1 Blood Lust:  Lasts for 2 attacks.<BR>   2 Blood Lust:  Lasts for 3 attacks.<BR>   3 Blood Lust:  Lasts for 4 attacks.<BR>   4 Blood Lust:  Lasts for 5 attacks.<BR>   5 Blood Lust:  Lasts for 6 attacks.",
-      "category": "Ability",
-      "gameId": 9425,
-      "componentValues": {
-        "ABIL_3621_COM_1_VAL0_CORPOREALDAMAGE": 450
-      },
-      "rawDescription": "You consume a noxious liquid distilled from blood which fills you with power, causing your next several attacks to each deal an additional {ABIL_3621_COM_1_VAL0_CORPOREALDAMAGE} to your target.<BR>   1 Blood Lust:  Lasts for 2 attacks.<BR>   2 Blood Lust:  Lasts for 3 attacks.<BR>   3 Blood Lust:  Lasts for 4 attacks.<BR>   4 Blood Lust:  Lasts for 5 attacks.<BR>   5 Blood Lust:  Lasts for 6 attacks."
+      "category": "Ability"
     },
     {
       "image": "10977",
       "id": 5595,
+      "gameId": 9405,
       "name": "Wracking Pains",
       "type": "Ailment",
       "spec": "Path of Suffering",
@@ -1544,19 +1202,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
       "description": "A brutal attack that deals 1015 Corporeal damage to your target over 21 seconds.  If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 120 for 21 seconds.",
-      "category": "Ability",
-      "gameId": 9405,
-      "componentValues": {
-        "COM_2_VAL0_TOD_CORPOREALDAMAGE": 1015,
-        "COM_2_DURA_SECONDS": 21,
-        "COM_1_VAL0": 120,
-        "COM_1_DURA_SECONDS": 21
-      },
-      "rawDescription": "A brutal attack that deals {COM_2_VAL0_TOD_CORPOREALDAMAGE} to your target over {COM_2_DURA_SECONDS}.  If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22702",
       "id": 6102,
+      "gameId": 522,
       "name": "Close Combat",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1567,16 +1218,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
-      "category": "CareerTactic",
-      "gameId": 522,
-      "componentValues": {
-        "ABIL_3080_COM_0_VAL1": 0
-      },
-      "rawDescription": "Any time you strike an enemy in melee with a direct attack, you will receive {ABIL_3080_COM_0_VAL1}% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities."
+      "category": "CareerTactic"
     },
     {
       "image": "22708",
       "id": 2991,
+      "gameId": 2991,
       "name": "Bleeding Edge",
       "type": "Buff",
       "spec": "Path of Carnage",
@@ -1587,14 +1234,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your Armour Penetration is increased by 50% for 3 seconds after successful use of your Frenzies.",
-      "category": "CareerTactic",
-      "gameId": 2991,
-      "componentValues": {},
-      "rawDescription": "Your Armour Penetration is increased by 50% for 3 seconds after successful use of your Frenzies."
+      "category": "CareerTactic"
     },
     {
       "image": "10936",
       "id": 2715,
+      "gameId": 2715,
       "name": "Bloody Inspiration",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1605,10 +1250,7 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your bloody fury inspires your group. Morale gain is doubled for 15 seconds.",
-      "category": "Morale",
-      "gameId": 2715,
-      "componentValues": {},
-      "rawDescription": "Your bloody fury inspires your group. Morale gain is doubled for 15 seconds."
+      "category": "Morale"
     }
   ]
 }

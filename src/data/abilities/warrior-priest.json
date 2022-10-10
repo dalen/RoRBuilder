@@ -75,6 +75,7 @@
     {
       "image": "08040",
       "id": 4190,
+      "gameId": 2200,
       "name": "Absence of Faith",
       "type": "Curse",
       "spec": "Path of Wrath",
@@ -85,17 +86,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 25 Righteous Fury",
       "description": "You deal 164 damage to your enemy and call upon Sigmar to Curse them for 10 seconds, causing all healing effects used on them to become 50% less effective.",
-      "category": "Ability",
-      "gameId": 2200,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 164,
-        "ABIL_8270_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You deal {COM_0_VAL0_DAMAGE} to your enemy and call upon Sigmar to Curse them for {ABIL_8270_COM_0_DURA_SECONDS}, causing all healing effects used on them to become 50% less effective."
+      "category": "Ability"
     },
     {
       "image": "23150",
       "id": 4169,
+      "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
       "spec": "Core Ability",
@@ -106,20 +102,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
-      "category": "Morale",
-      "gameId": 697,
-      "componentValues": {
-        "COM_1_RADI_FEET": 30,
-        "ABIL_3884_COM_0_VAL0_TOD": 424,
-        "ABIL_3884_COM_0_DURA_SECONDS": 9,
-        "ABIL_3876_COM_0_VAL0": 20,
-        "ABIL_3876_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Resurrects all groupmates within {COM_1_RADI_FEET}. Anyone who is brought back from the dead will also be healed for {ABIL_3884_COM_0_VAL0_TOD} over {ABIL_3884_COM_0_DURA_SECONDS}, and they will deal {ABIL_3876_COM_0_VAL0}% more damage for {ABIL_3876_COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "08043",
       "id": 4193,
+      "gameId": 8309,
       "name": "Avatar of Sigmar",
       "type": "Buff",
       "spec": "Path of Wrath",
@@ -130,17 +118,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Increases the Strength, Willpower, Toughness, Initiative, Weapon Skill, Ballistic Skill, and Intelligence of all group mates withing 100 feet by 80 for 30 seconds.",
-      "category": "Morale",
-      "gameId": 8309,
-      "componentValues": {
-        "COM_0_VAL0": 80,
-        "COM_0_DURA_SECONDS": 30
-      },
-      "rawDescription": "Increases the Strength, Willpower, Toughness, Initiative, Weapon Skill, Ballistic Skill, and Intelligence of all group mates withing 100 feet by {COM_0_VAL0} for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "07959",
       "id": 4232,
+      "gameId": 8240,
       "name": "Bludgeon",
       "type": "Damaging",
       "spec": "Path of Wrath",
@@ -151,17 +134,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "A powerful attack which deals 202 damage to your enemy. If behind your target, ignores 660 armor.",
-      "category": "Ability",
-      "gameId": 8240,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 202,
-        "COM_2_VAL0": 660
-      },
-      "rawDescription": "A powerful attack which deals {COM_0_VAL0_DAMAGE} to your enemy. If behind your target, ignores {COM_2_VAL0} armor."
+      "category": "Ability"
     },
     {
       "image": "07901",
       "id": 4139,
+      "gameId": 8248,
       "name": "Breath of Sigmar",
       "type": "Healing",
       "spec": "Core Ability",
@@ -172,14 +150,12 @@
       "cooldown": "6s cooldown",
       "note": "Requires 20 Righteous Fury",
       "description": "Resurrects a fallen ally with 20% health.",
-      "category": "Ability",
-      "gameId": 8248,
-      "componentValues": {},
-      "rawDescription": "Resurrects a fallen ally with 20% health."
+      "category": "Ability"
     },
     {
       "image": "08001",
       "id": 4134,
+      "gameId": 8257,
       "name": "Castigation",
       "type": "Curse",
       "spec": "Path of Wrath",
@@ -190,19 +166,12 @@
       "cooldown": "5s cooldown",
       "note": "Builds 20 Righteous Fury",
       "description": "A strike that deals 101 damage to your enemy, and an additional 150 damage over 10 seconds, and reduces their Initiative by 80.",
-      "category": "Ability",
-      "gameId": 8257,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 101,
-        "COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE": 150,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_COM_1_VAL0": 80
-      },
-      "rawDescription": "A strike that deals {COM_0_VAL0_DAMAGE} to your enemy, and an additional {COM_1_VAL0_COM_0_VAL0_TOD_DAMAGE} over {COM_1_VAL0_COM_0_DURA_SECONDS}, and reduces their Initiative by {COM_1_VAL0_COM_1_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "22710",
       "id": 4150,
+      "gameId": 8277,
       "name": "Charged Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -213,14 +182,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Attacks which generate Righteous Fury will now generate 10 additional points.",
-      "category": "CareerTactic",
-      "gameId": 8277,
-      "componentValues": {},
-      "rawDescription": "Attacks which generate Righteous Fury will now generate 10 additional points."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 4173,
+      "gameId": 8289,
       "name": "Cleansing Power",
       "type": "Buff",
       "spec": "Path of Salvation",
@@ -231,14 +198,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Purify will also cleanse your entire group. It will not cleanse more than 1 effect per target.",
-      "category": "CareerTactic",
-      "gameId": 8289,
-      "componentValues": {},
-      "rawDescription": "Purify will also cleanse your entire group. It will not cleanse more than 1 effect per target."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 4161,
+      "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
@@ -249,16 +214,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Willpower by 160.",
-      "category": "CareerTactic",
-      "gameId": 592,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Increases your Willpower by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "07949",
       "id": 4157,
+      "gameId": 8302,
       "name": "Divine Aegis",
       "type": "Buff",
       "spec": "Core Ability",
@@ -269,18 +230,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Increases your target's armor by 1320 and all resistances by 504 for 15 seconds.",
-      "category": "Morale",
-      "gameId": 8302,
-      "componentValues": {
-        "COM_1_VAL0": 1320,
-        "COM_0_VAL0": 504,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Increases your target's armor by {COM_1_VAL0} and all resistances by {COM_0_VAL0} for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "07903",
       "id": 4231,
+      "gameId": 8238,
       "name": "Divine Aid",
       "type": "Blessing",
       "spec": "Path of Salvation",
@@ -291,18 +246,12 @@
       "cooldown": "No cooldown",
       "note": "Requires 45 Righteous Fury",
       "description": "Heals an ally for 370 points, and an additional 445 over 5 seconds.",
-      "category": "Ability",
-      "gameId": 8238,
-      "componentValues": {
-        "COM_0_VAL0": 370,
-        "COM_1_VAL0_COM_0_VAL0_TOD": 445,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Heals an ally for {COM_0_VAL0} points, and an additional {COM_1_VAL0_COM_0_VAL0_TOD} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "08044",
       "id": 4186,
+      "gameId": 8310,
       "name": "Divine Amazement",
       "type": "Debuff",
       "spec": "Path of Grace",
@@ -313,18 +262,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You call upon the power of Sigmar, dealing 300 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to you as health.",
-      "category": "Morale",
-      "gameId": 8310,
-      "componentValues": {
-        "ABIL_3049_COM_0_VAL0_DAMAGE": 300,
-        "ABIL_3049_COM_0_RADI_FEET": 30,
-        "COM_0_DURA_SECONDS": 4
-      },
-      "rawDescription": "You call upon the power of Sigmar, dealing {ABIL_3049_COM_0_VAL0_DAMAGE} every second to all enemies in a {ABIL_3049_COM_0_RADI_FEET} area around you for the next {COM_0_DURA_SECONDS}. Sigmar returns all the damage done to your enemies to you as health."
+      "category": "Morale"
     },
     {
       "image": "08031",
       "id": 4137,
+      "gameId": 8244,
       "name": "Divine Assault",
       "type": "Damaging",
       "spec": "Path of Grace",
@@ -335,17 +278,12 @@
       "cooldown": "8s cooldown",
       "note": "Requires 25 Righteous Fury per second",
       "description": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will.  You strike the target up to four times over 3 seconds, dealing 109 Spirit damage per hit.  Each hit heals your defensive target for 350% of the damage that was dealt.<BR>This effect will end if you break your concentration, or run out of Righteous Fury.",
-      "category": "Ability",
-      "gameId": 8244,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_2_VAL0_SPIRITDAMAGE": 109
-      },
-      "rawDescription": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will.  You strike the target up to four times over {COM_0_DURA_SECONDS}, dealing {COM_2_VAL0_SPIRITDAMAGE} per hit.  Each hit heals your defensive target for 350% of the damage that was dealt.<BR>This effect will end if you break your concentration, or run out of Righteous Fury."
+      "category": "Ability"
     },
     {
       "image": "23151",
       "id": 4164,
+      "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
       "spec": "Core Ability",
@@ -356,16 +294,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
-      "category": "Morale",
-      "gameId": 694,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 1800
-      },
-      "rawDescription": "A strong heal that will restore {COM_0_VAL0_HEALTH} to your target."
+      "category": "Morale"
     },
     {
       "image": "22703",
       "id": 4160,
+      "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -376,17 +310,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
-      "category": "CareerTactic",
-      "gameId": 585,
-      "componentValues": {
-        "COM_0_VAL0": 25,
-        "COM_1_VAL1": 0
-      },
-      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your casted heals become {COM_1_VAL1}% less effective."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 5890,
+      "gameId": 8279,
       "name": "Divine Justice",
       "type": "Buff",
       "spec": "Path of Wrath",
@@ -397,16 +326,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Prayer of Righteousness will now deal 375 Spirit damage.",
-      "category": "CareerTactic",
-      "gameId": 8279,
-      "componentValues": {
-        "ABIL_8243_COM_4_VAL0_SPIRITDAMAGE": 375
-      },
-      "rawDescription": "Prayer of Righteousness will now deal {ABIL_8243_COM_4_VAL0_SPIRITDAMAGE}."
+      "category": "CareerTactic"
     },
     {
       "image": "07904",
       "id": 4174,
+      "gameId": 8264,
       "name": "Divine Light",
       "type": "Blessing",
       "spec": "Path of Salvation",
@@ -416,18 +341,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires 40 Righteous Fury",
-      "description": "Your group mates within 100 feet become surrounded by a magical barrier for 10 seconds, which will absorb up to 775 damage for each person.",
-      "category": "Ability",
-      "gameId": 8264,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Your group mates within 100 feet become surrounded by a magical barrier for {COM_0_DURA_SECONDS}, which will absorb up to {COM_0_VAL1_DAMAGE} for each person."
+      "description": "Your group mates within 100 feet become surrounded by a magical barrier for 10 seconds, which will absorb up to 1162 damage for each person.",
+      "category": "Ability"
     },
     {
       "image": "07978",
       "id": 4135,
+      "gameId": 8239,
       "name": "Divine Mend",
       "type": "Healing",
       "spec": "Path of Salvation",
@@ -438,16 +358,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "A quick heal that restores 581 health.<BR>Not affected by cooldown modification abilities.",
-      "category": "Ability",
-      "gameId": 8239,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 581
-      },
-      "rawDescription": "A quick heal that restores {COM_0_VAL0_HEALTH}.<BR>Not affected by cooldown modification abilities."
+      "category": "Ability"
     },
     {
       "image": "22704",
       "id": 4156,
+      "gameId": 8283,
       "name": "Divine Petitioning",
       "type": "Buff",
       "spec": "Core Ability",
@@ -458,16 +374,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Supplication's cost by 15 Action Points.",
-      "category": "CareerTactic",
-      "gameId": 8283,
-      "componentValues": {
-        "COM_0_VAL1_ACTIONPOINTS": 0
-      },
-      "rawDescription": "Reduces Supplication's cost by {COM_0_VAL1_ACTIONPOINTS}."
+      "category": "CareerTactic"
     },
     {
       "image": "23152",
       "id": 4168,
+      "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -478,17 +390,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
-      "category": "Morale",
-      "gameId": 696,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Each group member within 100 feet is surrounded by a protective shield for the next {COM_0_DURA_SECONDS} that will absorb up to {COM_0_VAL1_DAMAGE} from melee abilities."
+      "category": "Morale"
     },
     {
       "image": "07905",
       "id": 4158,
+      "gameId": 8303,
       "name": "Divine Replenishment",
       "type": "Buff",
       "spec": "Core Ability",
@@ -499,17 +406,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your group mates within 100 feet become more driven. For the next 10 seconds, anytime they hit an enemy with a melee attack, they will regain 50 Action Points.",
-      "category": "Morale",
-      "gameId": 8303,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_ACTIONPOINTS": 50
-      },
-      "rawDescription": "Your group mates within 100 feet become more driven. For the next {COM_0_DURA_SECONDS}, anytime they hit an enemy with a melee attack, they will regain {COM_1_VAL0_ACTIONPOINTS}."
+      "category": "Morale"
     },
     {
       "image": "08033",
       "id": 4148,
+      "gameId": 8254,
       "name": "Divine Shock",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -520,16 +422,12 @@
       "cooldown": "60s cooldown",
       "note": "Builds 40 Righteous Fury",
       "description": "The force of Sigmar's displeasure slams into all enemies in front of you, up to 30 feet away, and sends them flying backwards.",
-      "category": "Ability",
-      "gameId": 8254,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "The force of Sigmar's displeasure slams into all enemies in front of you, up to {COM_0_RADI_FEET} away, and sends them flying backwards."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 4177,
+      "gameId": 8288,
       "name": "Divine Warding",
       "type": "Buff",
       "spec": "Path of Salvation",
@@ -539,18 +437,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to 475 damage.",
-      "category": "CareerTactic",
-      "gameId": 8288,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 30,
-        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS} which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}."
+      "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to 712 damage.",
+      "category": "CareerTactic"
     },
     {
       "image": "22710",
       "id": 4170,
+      "gameId": 779,
       "name": "Emperor's Ward",
       "type": "Buff",
       "spec": "Core Ability",
@@ -561,17 +454,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 779,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS}, which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}.<BR>This effect will not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "22696",
       "id": 4187,
+      "gameId": 8294,
       "name": "Endless Guilt",
       "type": "Buff",
       "spec": "Core Ability",
@@ -582,17 +470,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "The snare from Weight Of Guilt will now last for 10 seconds, and affects all enemies within 20 feet of your target.",
-      "category": "CareerTactic",
-      "gameId": 8294,
-      "componentValues": {
-        "ABIL_8255_COM_4_DURA_SECONDS": 10,
-        "ABIL_8255_COM_4_RADI_FEET": 20
-      },
-      "rawDescription": "The snare from Weight Of Guilt will now last for {ABIL_8255_COM_4_DURA_SECONDS}, and affects all enemies within {ABIL_8255_COM_4_RADI_FEET} of your target."
+      "category": "CareerTactic"
     },
     {
       "image": "22702",
       "id": 4153,
+      "gameId": 8280,
       "name": "Exalted Defenses",
       "type": "Buff",
       "spec": "Core Ability",
@@ -603,17 +486,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you defend against an attack, your casted healing abilities will become 20% more effective for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8280,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL1": 0,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Any time you defend against an attack, your casted healing abilities will become {COM_1_VAL0_COM_0_VAL1}% more effective for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22701",
       "id": 4189,
+      "gameId": 8293,
       "name": "Fanaticism",
       "type": "Buff",
       "spec": "Path of Wrath",
@@ -624,18 +502,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but reduces the effectiveness of your casted healing abilities by 20%.",
-      "category": "CareerTactic",
-      "gameId": 8293,
-      "componentValues": {
-        "COM_2_VAL1": 0,
-        "COM_1_VAL0": 10,
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Increases your chance to critically hit by {COM_2_VAL1}% and your chance to parry by {COM_1_VAL0}%, but reduces the effectiveness of your casted healing abilities by {COM_0_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "05004",
       "id": 4228,
+      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -646,18 +518,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability",
-      "gameId": 245,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "category": "Ability"
     },
     {
       "image": "23153",
       "id": 4167,
+      "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -668,14 +534,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale",
-      "gameId": 695,
-      "componentValues": {},
-      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
+      "category": "Morale"
     },
     {
       "image": "22710",
       "id": 4155,
+      "gameId": 8282,
       "name": "Fueled Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -686,16 +550,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 Righteous Fury.  Tactic can not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8282,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0": 35
-      },
-      "rawDescription": "Whenever you are hit by an enemy, you have a 25% chance to gain {COM_1_VAL0_COM_0_VAL0} Righteous Fury.  Tactic can not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "08042",
       "id": 4179,
+      "gameId": 8308,
       "name": "Gift of Life",
       "type": "Buff",
       "spec": "Path of Salvation",
@@ -706,19 +566,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your group mates within 100 feet have their armor increased by 1320, Block, Parry, Dodge and Disrupt by 25, and all Resists by 504 for the next 10 seconds.",
-      "category": "Morale",
-      "gameId": 8308,
-      "componentValues": {
-        "COM_0_VAL0": 1320,
-        "COM_2_VAL0": 25,
-        "COM_1_VAL0": 504,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "All of your group mates within 100 feet have their armor increased by {COM_0_VAL0}, Block, Parry, Dodge and Disrupt by {COM_2_VAL0}, and all Resists by {COM_1_VAL0} for the next {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22703",
       "id": 4184,
+      "gameId": 2958,
       "name": "Grace of Sigmar",
       "type": "Buff",
       "spec": "Path of Grace",
@@ -729,14 +582,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "The healing from lifetaps are increased by 25%.<BR><BR>When wearing a shield Divine Strike will hit up to two additional enemies within 25ft of your target.",
-      "category": "CareerTactic",
-      "gameId": 2958,
-      "componentValues": {},
-      "rawDescription": "The healing from lifetaps are increased by 25%.<BR><BR>When wearing a shield Divine Strike will hit up to two additional enemies within 25ft of your target."
+      "category": "CareerTactic"
     },
     {
       "image": "22703",
       "id": 4180,
+      "gameId": 8291,
       "name": "Greave of Sigmar",
       "type": "Buff",
       "spec": "Path of Grace",
@@ -747,16 +598,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Sigmar's Fist will now also increase your ally's Toughness as well, and will reduce your enemy's Strength and Toughness by 120.",
-      "category": "CareerTactic",
-      "gameId": 8291,
-      "componentValues": {
-        "ABIL_8253_COM_4_VAL0_COM_0_VAL0": 120
-      },
-      "rawDescription": "Sigmar's Fist will now also increase your ally's Toughness as well, and will reduce your enemy's Strength and Toughness by {ABIL_8253_COM_4_VAL0_COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "22709",
       "id": 4191,
+      "gameId": 2963,
       "name": "Guilty Soul",
       "type": "Buff",
       "spec": "Path of Wrath",
@@ -767,17 +614,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional 740 Spirit Damage over 12 seconds and gain a blessing which increases your Path Of Wrath abilities by 5%. The blessing stacks up to 4 times.",
-      "category": "CareerTactic",
-      "gameId": 2963,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD": 740,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 12
-      },
-      "rawDescription": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional {COM_1_VAL0_COM_0_VAL0_TOD} Spirit Damage over {COM_1_VAL0_COM_0_DURA_SECONDS} and gain a blessing which increases your Path Of Wrath abilities by 5%. The blessing stacks up to 4 times."
+      "category": "CareerTactic"
     },
     {
       "image": "07962",
       "id": 4192,
+      "gameId": 2930,
       "name": "Hammer of Sigmar",
       "type": "Damaging",
       "spec": "Path of Wrath",
@@ -788,16 +630,12 @@
       "cooldown": "10s cooldown",
       "note": "Requires Great Weapon<br>Target must be below 50% health<br>Builds 30 Righteous Fury",
       "description": "Deals 502 damage and will almost always deal critical damage to a wounded foe.",
-      "category": "Ability",
-      "gameId": 2930,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 502
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} and will almost always deal critical damage to a wounded foe."
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 4149,
+      "gameId": 8276,
       "name": "Hastened Divinity",
       "type": "Buff",
       "spec": "Core Ability",
@@ -808,17 +646,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy, your autoattack speed will be increased by 50% for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8276,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL1": 0,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Any time you critically hit an enemy, your autoattack speed will be increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "07960",
       "id": 4132,
+      "gameId": 8241,
       "name": "Healing Hand",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -829,17 +662,12 @@
       "cooldown": "No cooldown",
       "note": "Requires 30 Righteous Fury",
       "description": "Heals your target for 1700 points over 15 seconds.",
-      "category": "Ability",
-      "gameId": 8241,
-      "componentValues": {
-        "ABIL_3365_COM_0_VAL0_TOD": 1700,
-        "ABIL_3365_COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Heals your target for {ABIL_3365_COM_0_VAL0_TOD} points over {ABIL_3365_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 4154,
+      "gameId": 8281,
       "name": "Intimidating Repent",
       "type": "Buff",
       "spec": "Core Ability",
@@ -850,17 +678,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Repent will always also affect all enemies within 30 feet of you for 5 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8281,
-      "componentValues": {
-        "ABIL_8245_COM_2_RADI_FEET": 30,
-        "ABIL_8245_COM_2_DURA_SECONDS": 5
-      },
-      "rawDescription": "Repent will always also affect all enemies within {ABIL_8245_COM_2_RADI_FEET} of you for {ABIL_8245_COM_2_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "08029",
       "id": 4229,
+      "gameId": 8236,
       "name": "Judgement",
       "type": "Curse",
       "spec": "Path of Salvation",
@@ -871,18 +694,12 @@
       "cooldown": "No cooldown",
       "note": "Requires 25 Righteous Fury",
       "description": "You call down the holy judgement of Sigmar, dealing 127 Spirit damage to the enemy and reducing their movement speed by 20% for 2 seconds.",
-      "category": "Ability",
-      "gameId": 8236,
-      "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 127,
-        "COM_3_VAL0": 20,
-        "COM_3_DURA_SECONDS": 2
-      },
-      "rawDescription": "You call down the holy judgement of Sigmar, dealing {COM_0_VAL0_SPIRITDAMAGE} to the enemy and reducing their movement speed by {COM_3_VAL0}% for {COM_3_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 4182,
+      "gameId": 8290,
       "name": "Leading the Prayer",
       "type": "Buff",
       "spec": "Path of Grace",
@@ -893,14 +710,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever Prayer Of Devotion heals one of your groupmates, you will also become healed for the same amount.",
-      "category": "CareerTactic",
-      "gameId": 8290,
-      "componentValues": {},
-      "rawDescription": "Whenever Prayer Of Devotion heals one of your groupmates, you will also become healed for the same amount."
+      "category": "CareerTactic"
     },
     {
       "image": "08036",
       "id": 4178,
+      "gameId": 8266,
       "name": "Martyr's Blessing",
       "type": "Healing",
       "spec": "Path of Salvation",
@@ -911,18 +726,12 @@
       "cooldown": "13s cooldown",
       "note": "Requires 20 Righteous Fury per second",
       "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration.  Each second, all allies within 30 feet of you will regain 246 health, and you will consume 20 Righteous Fury.<BR>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
-      "category": "Ability",
-      "gameId": 8266,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_2_RADI_FEET": 30,
-        "COM_2_VAL0_HEALTH": 246
-      },
-      "rawDescription": "You open your soul to Sigmar and become a living force of holy power for up to {COM_0_DURA_SECONDS}, as long as you maintain your concentration.  Each second, all allies within {COM_2_RADI_FEET} of you will regain {COM_2_VAL0_HEALTH}, and you will consume 20 Righteous Fury.<BR>This effect will end if you lose your concentration or if you run out of Righteous Fury."
+      "category": "Ability"
     },
     {
       "image": "07916",
       "id": 4159,
+      "gameId": 8304,
       "name": "Penance",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -933,18 +742,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You attack all targets within 30 feet for 1200 damage and Stagger them for 6 seconds,preventing all actions unless they're damaged.",
-      "category": "Morale",
-      "gameId": 8304,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_DAMAGE": 1200,
-        "ABIL_3035_COM_0_DURA_SECONDS": 6
-      },
-      "rawDescription": "You attack all targets within {COM_0_RADI_FEET} for {COM_0_VAL0_DAMAGE} and Stagger them for {ABIL_3035_COM_0_DURA_SECONDS},preventing all actions unless they're damaged."
+      "category": "Morale"
     },
     {
       "image": "08035",
       "id": 4176,
+      "gameId": 8265,
       "name": "Pious Restoration",
       "type": "Blessing",
       "spec": "Path of Salvation",
@@ -955,13 +758,7 @@
       "cooldown": "10s cooldown",
       "note": "Requires 40 Righteous Fury",
       "description": "You call upon Sigmar to Bless everyone in your group within 100 feet, restoring 783 health over 9 seconds.",
-      "category": "Ability",
-      "gameId": 8265,
-      "componentValues": {
-        "COM_0_VAL0_TOD_HEALTH": 783,
-        "COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "You call upon Sigmar to Bless everyone in your group within 100 feet, restoring {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "07917",
@@ -977,15 +774,12 @@
       "cooldown": "10s cooldown",
       "note": "Only one Prayer may be active at a time.",
       "description": "You chant a bolstering prayer, increasing the armor of group mates who stay within 100 feet of you by 660.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_1_VAL0": 660
-      },
-      "rawDescription": "You chant a bolstering prayer, increasing the armor of group mates who stay within 100 feet of you by {COM_1_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "07943",
       "id": 4133,
+      "gameId": 8249,
       "name": "Prayer of Devotion",
       "type": "Buff",
       "spec": "Path of Grace",
@@ -996,12 +790,7 @@
       "cooldown": "10s cooldown",
       "note": "Only one Prayer may be active at a time.",
       "description": "Any time a groupmate within 100 feet of you attacks an enemy, there is a 20% chance that they will regain 300 health.",
-      "category": "Ability",
-      "gameId": 8249,
-      "componentValues": {
-        "COM_3_VAL0_HEALTH": 300
-      },
-      "rawDescription": "Any time a groupmate within 100 feet of you attacks an enemy, there is a 20% chance that they will regain {COM_3_VAL0_HEALTH}."
+      "category": "Ability"
     },
     {
       "image": "07950",
@@ -1017,15 +806,12 @@
       "cooldown": "10s cooldown",
       "note": "Only one Prayer may be active at a time.",
       "description": "Any time one of your groupmates within 100 feet hits an enemy, there is a 20% chance they will deal an additional 225 Spirit damage.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_3_VAL0_SPIRITDAMAGE": 225
-      },
-      "rawDescription": "Any time one of your groupmates within 100 feet hits an enemy, there is a 20% chance they will deal an additional {COM_3_VAL0_SPIRITDAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "08041",
       "id": 4145,
+      "gameId": 8251,
       "name": "Purge",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1036,12 +822,7 @@
       "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury<br>Target must have an Enchantment",
       "description": "A shattering attack that removes one Enchantment from your enemy and deals 127 damage.",
-      "category": "Ability",
-      "gameId": 8251,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 127
-      },
-      "rawDescription": "A shattering attack that removes one Enchantment from your enemy and deals {COM_1_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "08032",
@@ -1057,9 +838,7 @@
       "cooldown": "5s cooldown",
       "note": "Requires 25 Righteous Fury<br>Target must be Cursed or Hexed",
       "description": "You purify an ally, removing one Curse or Hex.",
-      "category": "Ability",
-      "componentValues": {},
-      "rawDescription": "You purify an ally, removing one Curse or Hex."
+      "category": "Ability"
     },
     {
       "image": "23154",
@@ -1075,12 +854,7 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
-      "category": "Morale",
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_DAMAGE": 600,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Deals {COM_1_VAL0_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and heals group members within 100 feet for the full amount of the damage dealt."
+      "category": "Morale"
     },
     {
       "image": "22708",
@@ -1096,11 +870,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you heal an ally, there is a 25% chance that they will regain 50 Action Points, but this effect will not work on you.",
-      "category": "CareerTactic",
-      "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 50
-      },
-      "rawDescription": "Whenever you heal an ally, there is a 25% chance that they will regain {COM_1_VAL0_ACTIONPOINTS}, but this effect will not work on you."
+      "category": "CareerTactic"
     },
     {
       "image": "08054",
@@ -1116,14 +886,7 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.<BR><BR>If wearing a shield or great weapon this will also affect all enemies within 30 feet of you for 5 seconds.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 15,
-        "ABIL_8245_COM_2_RADI_FEET": 30,
-        "ABIL_8245_COM_2_DURA_SECONDS": 5
-      },
-      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.<BR><BR>If wearing a shield or great weapon this will also affect all enemies within {ABIL_8245_COM_2_RADI_FEET} of you for {ABIL_8245_COM_2_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22694",
@@ -1139,12 +902,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
-      "category": "CareerTactic",
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS": 40,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
-      },
-      "rawDescription": "Any time one of your direct healing effects critically heals an ally, you will regain {COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22702",
@@ -1160,11 +918,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to Disrupt enemy spells by 10%.",
-      "category": "CareerTactic",
-      "componentValues": {
-        "COM_0_VAL0": 10
-      },
-      "rawDescription": "Increases your chance to Disrupt enemy spells by {COM_0_VAL0}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22710",
@@ -1180,11 +934,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional 135 hit points as well.",
-      "category": "CareerTactic",
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0": 135
-      },
-      "rawDescription": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional {COM_1_VAL0_COM_0_VAL0} hit points as well."
+      "category": "CareerTactic"
     },
     {
       "image": "07944",
@@ -1200,13 +950,7 @@
       "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury",
       "description": "A blessed attack which deals 192 damage to your target, and increases your defensive target's Strength by 120 for 20 seconds.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 192,
-        "COM_1_VAL0_COM_0_VAL0": 120,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 20
-      },
-      "rawDescription": "A blessed attack which deals {COM_0_VAL0_DAMAGE} to your target, and increases your defensive target's Strength by {COM_1_VAL0_COM_0_VAL0} for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "08039",
@@ -1222,11 +966,7 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "The might of Sigmar infuses everyone in your group within 80 feet, increasing their Wounds by 80 for 1 hour.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0": 80
-      },
-      "rawDescription": "The might of Sigmar infuses everyone in your group within 80 feet, increasing their Wounds by {COM_0_VAL0} for 1 hour."
+      "category": "Ability"
     },
     {
       "image": "07953",
@@ -1242,12 +982,7 @@
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Builds 35 Righteous Fury",
       "description": "You smash into your enemy, dealing 161 damage to them.  The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for 161 points plus 80% of the damage that you dealt.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 161,
-        "COM_0_VAL0": 161
-      },
-      "rawDescription": "You smash into your enemy, dealing {COM_0_VAL0_DAMAGE} to them.  The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for {COM_0_VAL0} points plus 80% of the damage that you dealt."
+      "category": "Ability"
     },
     {
       "image": "08034",
@@ -1262,15 +997,8 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "You smash your weapon into your enemy, dealing 177 damage to them.  Your defensive target becomes Blessed for up to 10 seconds, and will regain 100 health each time they're attacked.  You will lose 10 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 10,
-        "COM_2_VAL0_COM_2_VAL0_HEALTH": 150,
-        "COM_2_VAL0_COM_1_VAL1": 0
-      },
-      "rawDescription": "You smash your weapon into your enemy, dealing {COM_0_VAL0_DAMAGE} to them.  Your defensive target becomes Blessed for up to {COM_2_VAL0_COM_0_DURA_SECONDS}, and will regain {COM_2_VAL0_COM_2_VAL0_HEALTH} each time they're attacked.  You will lose {COM_2_VAL0_COM_1_VAL1} Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with."
+      "description": "You smash your weapon into your enemy, dealing 239 damage to them.  Your defensive target becomes Blessed for up to 10 seconds, and will regain 150 health each time they're attacked.  You will lose 10 Righteous Fury each time this blessing occurs, and the effect will end if you run out of Righteous Fury to power it with.",
+      "category": "Ability"
     },
     {
       "image": "08038",
@@ -1286,15 +1014,7 @@
       "cooldown": "5s cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "Deals 239 damage to your enemy and Blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.<BR><BR>Additionally, when wearing a shield your chance to block will be increased by 10% for 10 seconds.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 15,
-        "COM_2_VAL0_COM_0_VAL0": 10,
-        "COM_4_VAL0_COM_0_VAL0": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your enemy and Blesses your defensive target for {COM_2_VAL0_COM_0_DURA_SECONDS}, increasing their chance to parry attacks by {COM_2_VAL0_COM_0_VAL0}%.<BR><BR>Additionally, when wearing a shield your chance to block will be increased by {COM_4_VAL0_COM_0_VAL0}% for {COM_4_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "07923",
@@ -1310,13 +1030,7 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "A sweeping blow which deals 138 damage to all enemies in front of you, up to 50 feet away.<BR>Builds an additional 15 Righteous Fury for each enemy that you strike.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 138,
-        "COM_0_RADI_FEET": 50,
-        "COM_1_VAL0_COM_0_VAL0": 15
-      },
-      "rawDescription": "A sweeping blow which deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away.<BR>Builds an additional {COM_1_VAL0_COM_0_VAL0} Righteous Fury for each enemy that you strike."
+      "category": "Ability"
     },
     {
       "image": "07947",
@@ -1332,13 +1046,7 @@
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon<br>Builds 35 Righteous Fury",
       "description": "Deals 555 Spirit damage over 9 seconds to all enemies within 30 feet.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0_TOD_SPIRITDAMAGE": 555,
-        "COM_0_DURA_SECONDS": 9,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Deals {COM_0_VAL0_TOD_SPIRITDAMAGE} over {COM_0_DURA_SECONDS} to all enemies within {COM_0_RADI_FEET}."
+      "category": "Ability"
     },
     {
       "image": "23155",
@@ -1354,11 +1062,7 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
-      "category": "Morale",
-      "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 900
-      },
-      "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
+      "category": "Morale"
     },
     {
       "image": "22709",
@@ -1374,9 +1078,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Enemy monsters will hate you 25% less than normal.",
-      "category": "CareerTactic",
-      "componentValues": {},
-      "rawDescription": "Enemy monsters will hate you 25% less than normal."
+      "category": "CareerTactic"
     },
     {
       "image": "08030",
@@ -1392,12 +1094,7 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "For the next 5 seconds, you will convert 30 action points into 30 Righteous Fury every second.  If you run out of action points or break your concentration, this effect will end.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 5,
-        "COM_1_VAL0_COM_0_VAL0": 30
-      },
-      "rawDescription": "For the next {COM_0_DURA_SECONDS}, you will convert 30 action points into {COM_1_VAL0_COM_0_VAL0} Righteous Fury every second.  If you run out of action points or break your concentration, this effect will end."
+      "category": "Ability"
     },
     {
       "image": "07946",
@@ -1413,11 +1110,7 @@
       "cooldown": "No cooldown",
       "note": "Requires 60 Righteous Fury",
       "description": "Restores 477 health to all group mates within 100 feet of you.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 477
-      },
-      "rawDescription": "Restores {COM_0_VAL0_HEALTH} to all group mates within 100 feet of you."
+      "category": "Ability"
     },
     {
       "image": "22710",
@@ -1433,11 +1126,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
-      "category": "CareerTactic",
-      "componentValues": {
-        "COM_0_VAL0": 252
-      },
-      "rawDescription": "Increases your Spirit resistance by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "08037",
@@ -1453,12 +1142,7 @@
       "cooldown": "30s cooldown",
       "note": "Builds 25 Righteous Fury",
       "description": "A powerful strike which deals 239 damage to your enemy and knocks the wind out of them for 4 seconds, Silencing them and making them unable to use magic.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239,
-        "COM_1_DURA_SECONDS": 4
-      },
-      "rawDescription": "A powerful strike which deals {COM_0_VAL0_DAMAGE} to your enemy and knocks the wind out of them for {COM_1_DURA_SECONDS}, Silencing them and making them unable to use magic."
+      "category": "Ability"
     },
     {
       "image": "07927",
@@ -1474,17 +1158,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "Deals 239 damage to your target.  If they are Cursed, then they will also become snared, reducing their run speed by 40% for 6 seconds.",
-      "category": "Ability",
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239,
-        "COM_1_VAL0": 40,
-        "COM_1_DURA_SECONDS": 6
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target.  If they are Cursed, then they will also become snared, reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "07945",
       "id": 7506,
+      "gameId": 2931,
       "name": "Divine Strike",
       "type": "Damaging",
       "spec": "Path of Grace",
@@ -1495,17 +1174,12 @@
       "cooldown": "No cooldown",
       "note": "Requires 35 Righteous Fury",
       "description": "You crush your enemy, dealing 86 Spirit damage to them.  The divine power of Sigmar heals your defensive target and any allies within 20 feet of them for 150% of the damage that was dealt.",
-      "category": "Ability",
-      "gameId": 2931,
-      "componentValues": {
-        "COM_0_VAL0_SPIRITDAMAGE": 86,
-        "COM_1_RADI_FEET": 20
-      },
-      "rawDescription": "You crush your enemy, dealing {COM_0_VAL0_SPIRITDAMAGE} to them.  The divine power of Sigmar heals your defensive target and any allies within {COM_1_RADI_FEET} of them for 150% of the damage that was dealt."
+      "category": "Ability"
     },
     {
       "image": "07976",
       "id": 7507,
+      "gameId": 2940,
       "name": "Sacrifice",
       "type": "Defensive",
       "spec": "Path of Grace",
@@ -1516,17 +1190,12 @@
       "cooldown": "20s cooldown",
       "note": "Requires Shield<br>Requires 25 Righteous Fury per second",
       "description": "You shield your team with your life force, you will suffer 450 damage every second, any groupmates within 100ft will have 787 health restored to them.<BR>This effect will end if you break your concentration, or run out of Righteous Fury.",
-      "category": "Ability",
-      "gameId": 2940,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 450,
-        "COM_2_VAL0": 787
-      },
-      "rawDescription": "You shield your team with your life force, you will suffer {COM_1_VAL0_DAMAGE} every second, any groupmates within 100ft will have {COM_2_VAL0} health restored to them.<BR>This effect will end if you break your concentration, or run out of Righteous Fury."
+      "category": "Ability"
     },
     {
       "image": "23419",
       "id": 7508,
+      "gameId": 2948,
       "name": "Divine Warden",
       "type": "Blessing",
       "spec": "Path of Grace",
@@ -1537,18 +1206,12 @@
       "cooldown": "10s cooldown",
       "note": "Requires Shield<br>Builds 25 Righteous Fury",
       "description": "You attack with your buckler dealing 239 damage to your enemy, and increases your chance to block by 10% for 10 seconds.",
-      "category": "Ability",
-      "gameId": 2948,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239,
-        "COM_1_VAL0_COM_0_VAL0": 10,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You attack with your buckler dealing {COM_0_VAL0_DAMAGE} to your enemy, and increases your chance to block by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "23420",
       "id": 7509,
+      "gameId": 2947,
       "name": "Shielding Grace",
       "type": "Defensive",
       "spec": "Path of Grace",
@@ -1558,18 +1221,13 @@
       "incant": "10s cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield<br>Requires 25 Righteous Fury per second",
-      "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. Each second your group is surrounded by a protective barrier absorbing up to 170 ranged damage.<BR>This effect will end if you break your concentration, or run out of Righteous Fury.",
-      "category": "Ability",
-      "gameId": 2947,
-      "componentValues": {
-        "COM_0_VAL0": 10,
-        "COM_3_VAL1": 0
-      },
-      "rawDescription": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by {COM_0_VAL0}%. Each second your group is surrounded by a protective barrier absorbing up to {COM_3_VAL1} ranged damage.<BR>This effect will end if you break your concentration, or run out of Righteous Fury."
+      "description": "You channel Sigmar's Shielding Grace making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. Each second your group is surrounded by a protective barrier absorbing up to 255 ranged damage.<BR>This effect will end if you break your concentration, or run out of Righteous Fury.",
+      "category": "Ability"
     },
     {
       "image": "23421",
       "id": 7510,
+      "gameId": 2937,
       "name": "Sigmar's Wrath",
       "type": "Buff",
       "spec": "Path of Wrath",
@@ -1580,16 +1238,12 @@
       "cooldown": "60s cooldown",
       "note": "Requires 60 Righteous Fury<br>Requires Great Weapon",
       "description": "Sigmar's Wrath rises within you, your attacks will ignore 25% the victim's armor and the cooldowns of Path of Wrath abilities will be reduced by 5 seconds during the next 20 seconds.",
-      "category": "Ability",
-      "gameId": 2937,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 20
-      },
-      "rawDescription": "Sigmar's Wrath rises within you, your attacks will ignore 25% the victim's armor and the cooldowns of Path of Wrath abilities will be reduced by 5 seconds during the next {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "08066",
       "id": 2960,
+      "gameId": 2960,
       "name": "Unstoppable Wrath",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1600,12 +1254,7 @@
       "cooldown": "60s cooldown",
       "note": "Requires 45 Righteous Fury<br>Requires Great Weapon",
       "description": "Your wrath removes all roots and snares from you.  For the next 10 seconds, roots and snares will have no effect on you.",
-      "category": "Ability",
-      "gameId": 2960,
-      "componentValues": {
-        "COM_2_DURA_SECONDS": 10
-      },
-      "rawDescription": "Your wrath removes all roots and snares from you.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you."
+      "category": "Ability"
     }
   ]
 }

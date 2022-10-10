@@ -71,6 +71,7 @@
     {
       "image": "10926",
       "id": 5423,
+      "gameId": 9501,
       "name": "Absorb Vitality",
       "type": "Curse",
       "spec": "Path of Calamity",
@@ -81,17 +82,12 @@
       "cooldown": "20s cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A Curse which siphons away your enemy's life, dealing 870 Corporeal damage over 15 seconds and healing you for all of the damage dealt.",
-      "category": "Ability",
-      "gameId": 9501,
-      "componentValues": {
-        "COM_2_VAL0_TOD_CORPOREALDAMAGE": 870,
-        "COM_2_DURA_SECONDS": 15
-      },
-      "rawDescription": "A Curse which siphons away your enemy's life, dealing {COM_2_VAL0_TOD_CORPOREALDAMAGE} over {COM_2_DURA_SECONDS} and healing you for all of the damage dealt."
+      "category": "Ability"
     },
     {
       "image": "22712",
       "id": 5409,
+      "gameId": 839,
       "name": "Alignment of Naggaroth",
       "type": "Buff",
       "spec": "Core Ability",
@@ -102,16 +98,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Spiritual resistance increased by 252.",
-      "category": "CareerTactic",
-      "gameId": 839,
-      "componentValues": {
-        "COM_0_VAL0": 252
-      },
-      "rawDescription": "Spiritual resistance increased by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "10924",
       "id": 5377,
+      "gameId": 9479,
       "name": "Arctic Blast",
       "type": "Damaging",
       "spec": "Path of Agony",
@@ -121,19 +113,13 @@
       "incant": "2.0s cast",
       "cooldown": "10s cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You send a blast of dark energy slamming into your target, dealing 437 Spirit damage.  If the victim is Cursed, then they will also become snared for 5 seconds, reducing their movement speed by 40%.",
-      "category": "Ability",
-      "gameId": 9479,
-      "componentValues": {
-        "COM_2_VAL0_SPIRITDAMAGE": 437,
-        "COM_3_DURA_SECONDS": 5,
-        "COM_3_VAL0": 40
-      },
-      "rawDescription": "You send a blast of dark energy slamming into your target, dealing {COM_2_VAL0_SPIRITDAMAGE}.  If the victim is Cursed, then they will also become snared for {COM_3_DURA_SECONDS}, reducing their movement speed by {COM_3_VAL0}%."
+      "description": "You send a blast of dark energy slamming into your target, dealing 436 Spirit damage.  If the victim is Cursed, then they will also become snared for 5 seconds, reducing their movement speed by 40%.",
+      "category": "Ability"
     },
     {
       "image": "22712",
       "id": 5410,
+      "gameId": 840,
       "name": "Bathing In Blood",
       "type": "Buff",
       "spec": "Core Ability",
@@ -144,17 +130,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 840,
-      "componentValues": {
-        "ABIL_3260_COM_0_VAL0_TOD_HEALTH": 471,
-        "ABIL_3260_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Any time you kill an enemy, you will regain {ABIL_3260_COM_0_VAL0_TOD_HEALTH} over {ABIL_3260_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "11001",
       "id": 5426,
+      "gameId": 9506,
       "name": "Black Horror",
       "type": "Curse",
       "spec": "Path of Destruction",
@@ -164,20 +145,13 @@
       "incant": "3.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You create a maelstrom of evil power which deals 441 Corporeal damage to your target and all other enemies within 20 feet of them, and reduces their Initiative by 80 for 20 seconds.",
-      "category": "Ability",
-      "gameId": 9506,
-      "componentValues": {
-        "COM_2_VAL0_CORPOREALDAMAGE": 441,
-        "COM_2_RADI_FEET": 20,
-        "COM_3_VAL0": 80,
-        "COM_3_DURA_SECONDS": 20
-      },
-      "rawDescription": "You create a maelstrom of evil power which deals {COM_2_VAL0_CORPOREALDAMAGE} to your target and all other enemies within {COM_2_RADI_FEET} of them, and reduces their Initiative by {COM_3_VAL0} for {COM_3_DURA_SECONDS}."
+      "description": "You create a maelstrom of evil power which deals 440 Corporeal damage to your target and all other enemies within 20 feet of them, and reduces their Initiative by 80 for 20 seconds.",
+      "category": "Ability"
     },
     {
       "image": "22704",
       "id": 5422,
+      "gameId": 9528,
       "name": "Chilling Gusts",
       "type": "Buff",
       "spec": "Path of Calamity",
@@ -188,16 +162,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time Chillwind or Ice Spikes damages an enemy, there is a 33% chance that the victim will suffer an additional 216 Corporeal damage as well.",
-      "category": "CareerTactic",
-      "gameId": 9528,
-      "componentValues": {
-        "ABIL_9471_COM_4_VAL0_COM_0_VAL0_CORPOREALDAMAGE": 216
-      },
-      "rawDescription": "Each time Chillwind or Ice Spikes damages an enemy, there is a 33% chance that the victim will suffer an additional {ABIL_9471_COM_4_VAL0_COM_0_VAL0_CORPOREALDAMAGE} as well."
+      "category": "CareerTactic"
     },
     {
       "image": "10996",
       "id": 5467,
+      "gameId": 9471,
       "name": "Chillwind",
       "type": "Curse",
       "spec": "Path of Calamity",
@@ -208,17 +178,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A Curse which deals 615 Corporeal damage to your target over 9 seconds.",
-      "category": "Ability",
-      "gameId": 9471,
-      "componentValues": {
-        "COM_2_VAL0_TOD_CORPOREALDAMAGE": 615,
-        "COM_2_DURA_SECONDS": 9
-      },
-      "rawDescription": "A Curse which deals {COM_2_VAL0_TOD_CORPOREALDAMAGE} to your target over {COM_2_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 5401,
+      "gameId": 569,
       "name": "Close Quarters",
       "type": "Buff",
       "spec": "Core Ability",
@@ -229,16 +194,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
-      "category": "CareerTactic",
-      "gameId": 569,
-      "componentValues": {
-        "COM_0_VAL0": 50
-      },
-      "rawDescription": "Your cast times are reduced to {COM_0_VAL0}% when you are within 20 feet of your target."
+      "category": "CareerTactic"
     },
     {
       "image": "10933",
       "id": 5424,
+      "gameId": 9543,
       "name": "Crippling Terror",
       "type": "Debuff",
       "spec": "Path of Calamity",
@@ -249,17 +210,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them are Silenced and Disarmed for 7 seconds, making them unable to use melee, ranged, or magic abilities. This ability hits max 9 targets.",
-      "category": "Morale",
-      "gameId": 9543,
-      "componentValues": {
-        "COM_0_RADI_FEET": 20,
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "Your target and all other enemies within {COM_0_RADI_FEET} of them are Silenced and Disarmed for {COM_0_DURA_SECONDS}, making them unable to use melee, ranged, or magic abilities. This ability hits max 9 targets."
+      "category": "Morale"
     },
     {
       "image": "11005",
       "id": 5381,
+      "gameId": 9473,
       "name": "Daemonic Chill",
       "type": "Enchantment",
       "spec": "Path of Calamity",
@@ -270,16 +226,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is surrounded by a demonic chill for 1 hour, giving them a 25% chance to deal 187 Corporeal damage back against the attacker when they are struck by a melee attack.",
-      "category": "Ability",
-      "gameId": 9473,
-      "componentValues": {
-        "COM_1_VAL0_CORPOREALDAMAGE": 187
-      },
-      "rawDescription": "Everyone in your group that is within 100 feet of you is surrounded by a demonic chill for 1 hour, giving them a 25% chance to deal {COM_1_VAL0_CORPOREALDAMAGE} back against the attacker when they are struck by a melee attack."
+      "category": "Ability"
     },
     {
       "image": "22712",
       "id": 5408,
+      "gameId": 841,
       "name": "Dark Blessings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -290,16 +242,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Direct heals cast on you will recover 10% more health.",
-      "category": "CareerTactic",
-      "gameId": 841,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Direct heals cast on you will recover {COM_0_VAL1}% more health."
+      "category": "CareerTactic"
     },
     {
       "image": "10931",
       "id": 5397,
+      "gameId": 9538,
       "name": "Darkstar Cloak",
       "type": "Buff",
       "spec": "Core Ability",
@@ -310,16 +258,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "None of your abilities will consume action points for 10 seconds.",
-      "category": "Morale",
-      "gameId": 9538,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "None of your abilities will consume action points for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22704",
       "id": 5398,
+      "gameId": 568,
       "name": "Devour Energy",
       "type": "Buff",
       "spec": "Core Ability",
@@ -330,17 +274,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect cannot occur more than once every 2 seconds.",
-      "category": "CareerTactic",
-      "gameId": 568,
-      "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 30,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 2
-      },
-      "rawDescription": "Whenever one of your spells hits an enemy, you have a 25% chance to regain {COM_1_VAL0_ACTIONPOINTS}. This effect cannot occur more than once every {COM_2_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10962",
       "id": 5469,
+      "gameId": 9490,
       "name": "Dhar Wind",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -351,20 +290,12 @@
       "cooldown": "5s cooldown",
       "note": "Consumes all Dark Magic",
       "description": "You expel all of your build-up Dark Magic in a deadly blast, dealing damage to your target based on the amount of Dark Magic that was consumed.<BR>   1 - 10 Dark Magic:  75 damage.<BR>   11 - 30 Dark Magic:  150 damage.<BR>   31 - 70 Dark Magic:  300 damage.<BR>   71 - 90 Dark Magic:  600 damage.<BR>   91 - 100 Dark Magic:  750 damage.",
-      "category": "Ability",
-      "gameId": 9490,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 75,
-        "COM_1_VAL0_DAMAGE": 150,
-        "COM_2_VAL0_DAMAGE": 300,
-        "COM_3_VAL0_DAMAGE": 600,
-        "COM_4_VAL0_DAMAGE": 750
-      },
-      "rawDescription": "You expel all of your build-up Dark Magic in a deadly blast, dealing damage to your target based on the amount of Dark Magic that was consumed.<BR>   1 - 10 Dark Magic:  {COM_0_VAL0_DAMAGE}.<BR>   11 - 30 Dark Magic:  {COM_1_VAL0_DAMAGE}.<BR>   31 - 70 Dark Magic:  {COM_2_VAL0_DAMAGE}.<BR>   71 - 90 Dark Magic:  {COM_3_VAL0_DAMAGE}.<BR>   91 - 100 Dark Magic:  {COM_4_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "10929",
       "id": 5395,
+      "gameId": 9536,
       "name": "Dire Blast",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -375,18 +306,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to your target immediately, and another 1206 damage over 9 seconds.",
-      "category": "Morale",
-      "gameId": 9536,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 600,
-        "COM_1_VAL0_TOD_DAMAGE": 1206,
-        "COM_1_DURA_SECONDS": 9
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target immediately, and another {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "10928",
       "id": 5428,
+      "gameId": 9503,
       "name": "Disastrous Cascade",
       "type": "Damaging",
       "spec": "Path of Destruction",
@@ -397,18 +322,12 @@
       "cooldown": "8s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You allow dark powers for flow freely through your body for up to 3 seconds, dealing 255 Spirit damage every second to all enemies within 30 feet.  This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability",
-      "gameId": 9503,
-      "componentValues": {
-        "COM_2_DURA_SECONDS": 3,
-        "COM_4_VAL0_SPIRITDAMAGE": 255,
-        "COM_3_RADI_FEET": 30
-      },
-      "rawDescription": "You allow dark powers for flow freely through your body for up to {COM_2_DURA_SECONDS}, dealing {COM_4_VAL0_SPIRITDAMAGE} every second to all enemies within {COM_3_RADI_FEET}.  This effect will end if you break your concentration or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "10995",
       "id": 5466,
+      "gameId": 9470,
       "name": "Doombolt",
       "type": "Damaging",
       "spec": "Path of Agony",
@@ -419,16 +338,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A massive burst of dark power which deals 733 Corporeal damage to your target.",
-      "category": "Ability",
-      "gameId": 9470,
-      "componentValues": {
-        "COM_2_VAL0_CORPOREALDAMAGE": 733
-      },
-      "rawDescription": "A massive burst of dark power which deals {COM_2_VAL0_CORPOREALDAMAGE} to your target."
+      "category": "Ability"
     },
     {
       "image": "10998",
       "id": 5371,
+      "gameId": 9474,
       "name": "Dread Aspect",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -439,17 +354,12 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability",
-      "gameId": 9474,
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "You Detaunt your target, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
+      "category": "Ability"
     },
     {
       "image": "10923",
       "id": 5412,
+      "gameId": 9498,
       "name": "Echo of Power",
       "type": "Damaging",
       "spec": "Path of Agony",
@@ -460,16 +370,12 @@
       "cooldown": "5s cooldown",
       "note": "Only usable after an enemy Disrupts one of your spells<br>Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "An instant blast of magic that deals 403 Corporeal damage to your target and can not be defended against.",
-      "category": "Ability",
-      "gameId": 9498,
-      "componentValues": {
-        "COM_2_VAL0_CORPOREALDAMAGE": 403
-      },
-      "rawDescription": "An instant blast of magic that deals {COM_2_VAL0_CORPOREALDAMAGE} to your target and can not be defended against."
+      "category": "Ability"
     },
     {
       "image": "22712",
       "id": 5389,
+      "gameId": 9510,
       "name": "Empowered Dhar",
       "type": "Buff",
       "spec": "Core Ability",
@@ -480,14 +386,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Dhar Wind will now restore your action points, returning an amount equal to the Dark Magic which was expended.",
-      "category": "CareerTactic",
-      "gameId": 9510,
-      "componentValues": {},
-      "rawDescription": "Dhar Wind will now restore your action points, returning an amount equal to the Dark Magic which was expended."
+      "category": "CareerTactic"
     },
     {
       "image": "22695",
       "id": 5399,
+      "gameId": 563,
       "name": "Endless Knowledge",
       "type": "Buff",
       "spec": "Core Ability",
@@ -498,16 +402,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Intelligence by 160.",
-      "category": "CareerTactic",
-      "gameId": 563,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Increases your Intelligence by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "05004",
       "id": 5468,
+      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -518,18 +418,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability",
-      "gameId": 245,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "category": "Ability"
     },
     {
       "image": "23153",
       "id": 5405,
+      "gameId": 674,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -540,14 +434,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale",
-      "gameId": 674,
-      "componentValues": {},
-      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
+      "category": "Morale"
     },
     {
       "image": "10915",
       "id": 5382,
+      "gameId": 9482,
       "name": "Frostbite",
       "type": "Curse",
       "spec": "Path of Agony",
@@ -558,17 +450,12 @@
       "cooldown": "30s cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You fill your enemy's mind with fear, dealing 291 Corporeal damage and Disarming them for 3 seconds, making them unable to use melee and ranged abilities.",
-      "category": "Ability",
-      "gameId": 9482,
-      "componentValues": {
-        "COM_2_VAL0_CORPOREALDAMAGE": 291,
-        "COM_3_DURA_SECONDS": 3
-      },
-      "rawDescription": "You fill your enemy's mind with fear, dealing {COM_2_VAL0_CORPOREALDAMAGE} and Disarming them for {COM_3_DURA_SECONDS}, making them unable to use melee and ranged abilities."
+      "category": "Ability"
     },
     {
       "image": "22709",
       "id": 5394,
+      "gameId": 9517,
       "name": "Frozen Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -579,14 +466,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Frozen Touch now has a 75% chance to trigger.",
-      "category": "CareerTactic",
-      "gameId": 9517,
-      "componentValues": {},
-      "rawDescription": "Frozen Touch now has a 75% chance to trigger."
+      "category": "CareerTactic"
     },
     {
       "image": "10909",
       "id": 5373,
+      "gameId": 9476,
       "name": "Frozen Touch",
       "type": "Enchantment",
       "spec": "Path of Agony",
@@ -597,16 +482,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional 225 Corporeal damage any time they deal direct damage.",
-      "category": "Ability",
-      "gameId": 9476,
-      "componentValues": {
-        "COM_1_VAL0_CORPOREALDAMAGE": 225
-      },
-      "rawDescription": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional {COM_1_VAL0_CORPOREALDAMAGE} any time they deal direct damage."
+      "category": "Ability"
     },
     {
       "image": "10925",
       "id": 5419,
+      "gameId": 9500,
       "name": "Gloom of Night",
       "type": "Curse",
       "spec": "Path of Calamity",
@@ -617,19 +498,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A cloud of gloom clings to your target for 15 seconds, dealing 219 Spirit damage every 3 seconds to them and all other enemies within 20 feet of them.",
-      "category": "Ability",
-      "gameId": 9500,
-      "componentValues": {
-        "COM_2_DURA_SECONDS": 15,
-        "COM_3_VAL0_SPIRITDAMAGE": 219,
-        "COM_2_FREQ_SECONDS": 3,
-        "COM_3_RADI_FEET": 20
-      },
-      "rawDescription": "A cloud of gloom clings to your target for {COM_2_DURA_SECONDS}, dealing {COM_3_VAL0_SPIRITDAMAGE} every {COM_2_FREQ_SECONDS} to them and all other enemies within {COM_3_RADI_FEET} of them."
+      "category": "Ability"
     },
     {
       "image": "10907",
       "id": 5369,
+      "gameId": 9472,
       "name": "Gloomburst",
       "type": "Damaging",
       "spec": "Path of Agony",
@@ -640,16 +514,12 @@
       "cooldown": "5s cooldown",
       "note": "Builds 25 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A quick-casting spell that deals 403 Spirit damage to your target.",
-      "category": "Ability",
-      "gameId": 9472,
-      "componentValues": {
-        "COM_2_VAL0_SPIRITDAMAGE": 403
-      },
-      "rawDescription": "A quick-casting spell that deals {COM_2_VAL0_SPIRITDAMAGE} to your target."
+      "category": "Ability"
     },
     {
       "image": "22704",
       "id": 5393,
+      "gameId": 9516,
       "name": "Glorious Carnage",
       "type": "Buff",
       "spec": "Core Ability",
@@ -660,16 +530,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy with a direct damage ability, you will gain 75 points of Morale. This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9516,
-      "componentValues": {
-        "COM_1_VAL0": 75
-      },
-      "rawDescription": "Any time you critically hit an enemy with a direct damage ability, you will gain {COM_1_VAL0} points of Morale. This effect will not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 5387,
+      "gameId": 9512,
       "name": "Grasping Darkness",
       "type": "Buff",
       "spec": "Core Ability",
@@ -680,18 +546,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Doombolt and Chillwind will now also cause the victim to lose 20 Action Points, and will reduce their Strength, Intelligence, and Ballistic Skill by 120 for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9512,
-      "componentValues": {
-        "ABIL_3545_COM_1_VAL0_ACTIONPOINTS": 20,
-        "ABIL_3545_COM_0_VAL0": 120,
-        "ABIL_3545_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Doombolt and Chillwind will now also cause the victim to lose {ABIL_3545_COM_1_VAL0_ACTIONPOINTS}, and will reduce their Strength, Intelligence, and Ballistic Skill by {ABIL_3545_COM_0_VAL0} for {ABIL_3545_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10910",
       "id": 5378,
+      "gameId": 9477,
       "name": "Grip of Fear",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -702,17 +562,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "All enemies within 30 feet become Rooted, making them unable to move for 5 seconds.    Rooted targets have a 50% chance to break free when they suffer damage.",
-      "category": "Ability",
-      "gameId": 9477,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "All enemies within {COM_0_RADI_FEET} become Rooted, making them unable to move for {COM_0_DURA_SECONDS}.    Rooted targets have a 50% chance to break free when they suffer damage."
+      "category": "Ability"
     },
     {
       "image": "11000",
       "id": 5421,
+      "gameId": 9505,
       "name": "Hand of Ruin",
       "type": "Damaging",
       "spec": "Path of Calamity",
@@ -723,18 +578,12 @@
       "cooldown": "11s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "Tendrils of dark energy burst forth from your hand and slice into your target for up to 6 seconds, dealing 492 Spirit damage every 2 seconds.  This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability",
-      "gameId": 9505,
-      "componentValues": {
-        "COM_2_DURA_SECONDS": 6,
-        "COM_2_VAL0_SPIRITDAMAGE": 492,
-        "COM_2_FREQ_SECONDS": 2
-      },
-      "rawDescription": "Tendrils of dark energy burst forth from your hand and slice into your target for up to {COM_2_DURA_SECONDS}, dealing {COM_2_VAL0_SPIRITDAMAGE} every {COM_2_FREQ_SECONDS}.  This effect will end if you break your concentration or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "22696",
       "id": 5392,
+      "gameId": 9515,
       "name": "Hastened Fear",
       "type": "Buff",
       "spec": "Core Ability",
@@ -745,16 +594,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces the cooldown times of Dread Aspect and Grip Of Fear by 7 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9515,
-      "componentValues": {
-        "COM_0_VAL0_SECONDS": 7
-      },
-      "rawDescription": "Reduces the cooldown times of Dread Aspect and Grip Of Fear by {COM_0_VAL0_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10919",
       "id": 5379,
+      "gameId": 9486,
       "name": "Ice Spikes",
       "type": "Curse",
       "spec": "Path of Calamity",
@@ -765,18 +610,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You cause dark energy to burst out of the ground, inflicting a Curse upon all enemies in a line in front of you, up to 65 feet away, which deals 815 Corporeal damage over 15 seconds.",
-      "category": "Ability",
-      "gameId": 9486,
-      "componentValues": {
-        "COM_2_RADI_FEET": 65,
-        "COM_2_VAL0_TOD_CORPOREALDAMAGE": 815,
-        "COM_2_DURA_SECONDS": 15
-      },
-      "rawDescription": "You cause dark energy to burst out of the ground, inflicting a Curse upon all enemies in a line in front of you, up to {COM_2_RADI_FEET} away, which deals {COM_2_VAL0_TOD_CORPOREALDAMAGE} over {COM_2_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "10912",
       "id": 5414,
+      "gameId": 9499,
       "name": "Impending Doom",
       "type": "Damaging",
       "spec": "Path of Agony",
@@ -787,16 +626,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 40 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You draw forth a huge amount of Dark Magic and slam your target with a powerful blast of force, dealing 478 Spirit damage.",
-      "category": "Ability",
-      "gameId": 9499,
-      "componentValues": {
-        "COM_2_VAL0_SPIRITDAMAGE": 478
-      },
-      "rawDescription": "You draw forth a huge amount of Dark Magic and slam your target with a powerful blast of force, dealing {COM_2_VAL0_SPIRITDAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 5388,
+      "gameId": 9511,
       "name": "Infernal Gift",
       "type": "Buff",
       "spec": "Core Ability",
@@ -807,17 +642,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever one of your damaging spells hits an enemy, there is a 25% chance that your other groupmates within 100 feet of you will gain an Infernal Gift, increasing all damage that they deal by 10% for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9511,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0": 10,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Whenever one of your damaging spells hits an enemy, there is a 25% chance that your other groupmates within 100 feet of you will gain an Infernal Gift, increasing all damage that they deal by {COM_1_VAL0_COM_0_VAL0}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10921",
       "id": 5380,
+      "gameId": 9488,
       "name": "Infernal Wave",
       "type": "Damaging",
       "spec": "Path of Destruction",
@@ -828,17 +658,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A cone of dark energy bursts forth in front of you, dealing 315 Spirit damage to enemies up to 65 feet away.",
-      "category": "Ability",
-      "gameId": 9488,
-      "componentValues": {
-        "COM_2_VAL0_SPIRITDAMAGE": 315,
-        "COM_2_RADI_FEET": 65
-      },
-      "rawDescription": "A cone of dark energy bursts forth in front of you, dealing {COM_2_VAL0_SPIRITDAMAGE} to enemies up to {COM_2_RADI_FEET} away."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 5427,
+      "gameId": 9526,
       "name": "Lengthening Shadows",
       "type": "Buff",
       "spec": "Path of Destruction",
@@ -849,14 +674,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the radius of Surging Pain and the distance of Infernal Wave by 33%.",
-      "category": "CareerTactic",
-      "gameId": 9526,
-      "componentValues": {},
-      "rawDescription": "Increases the radius of Surging Pain and the distance of Infernal Wave by 33%."
+      "category": "CareerTactic"
     },
     {
       "image": "23167",
       "id": 5402,
+      "gameId": 670,
       "name": "Mage Bolt",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -867,16 +690,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
-      "category": "Morale",
-      "gameId": 670,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 600
-      },
-      "rawDescription": "A focused blast that deals {COM_0_VAL0_DAMAGE} and knocks the targeted player away. Monsters will be knocked down."
+      "category": "Morale"
     },
     {
       "image": "22694",
       "id": 5390,
+      "gameId": 9513,
       "name": "Manic Obsession",
       "type": "Buff",
       "spec": "Core Ability",
@@ -887,16 +706,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Obsessive Focus's cooldown time by 40 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9513,
-      "componentValues": {
-        "COM_0_VAL0_SECONDS": 40
-      },
-      "rawDescription": "Reduces Obsessive Focus's cooldown time by {COM_0_VAL0_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "23168",
       "id": 5404,
+      "gameId": 673,
       "name": "Misdirection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -907,16 +722,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
-      "category": "Morale",
-      "gameId": 673,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You gain a strong counter aura for the next {COM_0_DURA_SECONDS} that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster."
+      "category": "Morale"
     },
     {
       "image": "22704",
       "id": 5429,
+      "gameId": 9529,
       "name": "Neverending Agony",
       "type": "Buff",
       "spec": "Path of Destruction",
@@ -927,17 +738,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Reduces Infernal Wave's cooldown time by 5 seconds, and Pit Of Shades's cooldown time by 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9529,
-      "componentValues": {
-        "COM_0_VAL0_SECONDS": 5,
-        "COM_1_VAL0_SECONDS": 10
-      },
-      "rawDescription": "Reduces Infernal Wave's cooldown time by {COM_0_VAL0_SECONDS}, and Pit Of Shades's cooldown time by {COM_1_VAL0_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "10914",
       "id": 5376,
+      "gameId": 9481,
       "name": "Obsessive Focus",
       "type": "Buff",
       "spec": "Core Ability",
@@ -948,16 +754,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You become obsessed with your target for 20 seconds, dealing 10% more damage to them, but 90% damage to everyone else.  Even if the target dies, your obsession will persist for the full duration.",
-      "category": "Ability",
-      "gameId": 9481,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 20
-      },
-      "rawDescription": "You become obsessed with your target for {COM_0_DURA_SECONDS}, dealing 10% more damage to them, but 90% damage to everyone else.  Even if the target dies, your obsession will persist for the full duration."
+      "category": "Ability"
     },
     {
       "image": "10934",
       "id": 5431,
+      "gameId": 9544,
       "name": "Paralyzing Nightmares",
       "type": "Damaging",
       "spec": "Path of Destruction",
@@ -968,18 +770,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All enemies within 30 feet suffer 1800 damage and become Rooted, making them unable to move for 10 seconds.",
-      "category": "Morale",
-      "gameId": 9544,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_DAMAGE": 1800,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "All enemies within {COM_0_RADI_FEET} suffer {COM_0_VAL0_DAMAGE} and become Rooted, making them unable to move for {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22696",
       "id": 5425,
+      "gameId": 9525,
       "name": "Piercing Shadows",
       "type": "Buff",
       "spec": "Path of Destruction",
@@ -990,16 +786,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time that your Dark Magic causes an Backlash, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
-      "category": "CareerTactic",
-      "gameId": 9525,
-      "componentValues": {
-        "ABIL_291_COM_5_RADI_FEET": 30
-      },
-      "rawDescription": "Any time that your Dark Magic causes an Backlash, the blast will also deal 50% of the damage to all enemies within {ABIL_291_COM_5_RADI_FEET} of you."
+      "category": "CareerTactic"
     },
     {
       "image": "10927",
       "id": 5383,
+      "gameId": 9485,
       "name": "Pit of Shades",
       "type": "Damaging",
       "spec": "Path of Destruction",
@@ -1010,19 +802,12 @@
       "cooldown": "20s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "A 20 feet pit of shadow covers the ground at a point that you select for 9 seconds.  Your enemies will suffer 258 Spirit damage every 1.5 seconds while they are within the area.  This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability",
-      "gameId": 9485,
-      "componentValues": {
-        "COM_3_RADI_FEET": 20,
-        "COM_2_DURA_SECONDS": 9,
-        "COM_4_VAL0_SPIRITDAMAGE": 258,
-        "COM_2_FREQ_SECONDS": 1.5
-      },
-      "rawDescription": "A {COM_3_RADI_FEET} pit of shadow covers the ground at a point that you select for {COM_2_DURA_SECONDS}.  Your enemies will suffer {COM_4_VAL0_SPIRITDAMAGE} every {COM_2_FREQ_SECONDS} while they are within the area.  This effect will end if you break your concentration or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "10920",
       "id": 5384,
+      "gameId": 9487,
       "name": "Reckless Gathering",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1033,16 +818,12 @@
       "cooldown": "20s cooldown",
       "note": "Costs 40 Dark Magic",
       "description": "You instantly regain 160 Action Points.",
-      "category": "Ability",
-      "gameId": 9487,
-      "componentValues": {
-        "COM_0_VAL0_ACTIONPOINTS": 160
-      },
-      "rawDescription": "You instantly regain {COM_0_VAL0_ACTIONPOINTS}."
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 5411,
+      "gameId": 9521,
       "name": "Recover Energy",
       "type": "Buff",
       "spec": "Path of Agony",
@@ -1053,16 +834,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you damage an enemy with a Path Of Agony ability, you have a 25% chance to regain 50 Action Points.<BR>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9521,
-      "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 50
-      },
-      "rawDescription": "Any time you damage an enemy with a Path Of Agony ability, you have a 25% chance to regain {COM_1_VAL0_ACTIONPOINTS}.<BR>This effect will not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "23169",
       "id": 5406,
+      "gameId": 671,
       "name": "Scintillating Energy",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1073,17 +850,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage to your target and staggers them for 9 seconds, preventing all actions until they take damage.",
-      "category": "Morale",
-      "gameId": 671,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200,
-        "ABIL_3168_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to your target and staggers them for {ABIL_3168_COM_0_DURA_SECONDS}, preventing all actions until they take damage."
+      "category": "Morale"
     },
     {
       "image": "10999",
       "id": 5416,
+      "gameId": 9504,
       "name": "Shades of Death",
       "type": "Curse",
       "spec": "Path of Agony",
@@ -1094,17 +866,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "Your target is haunted by spectres of death and doom for up to 10 seconds, causing an additional 150 Spirit damage each time that they suffer direct damage.  This effect will occur up to 5 times before fading.",
-      "category": "Ability",
-      "gameId": 9504,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_SPIRITDAMAGE": 150
-      },
-      "rawDescription": "Your target is haunted by spectres of death and doom for up to {COM_0_DURA_SECONDS}, causing an additional {COM_1_VAL0_SPIRITDAMAGE} each time that they suffer direct damage.  This effect will occur up to 5 times before fading."
+      "category": "Ability"
     },
     {
       "image": "10918",
       "id": 5430,
+      "gameId": 9502,
       "name": "Shadow Knives",
       "type": "Damaging",
       "spec": "Path of Destruction",
@@ -1115,19 +882,12 @@
       "cooldown": "16s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You create a cloud of dark energy for up to 6 seconds, dealing 332 Corporeal damage to your target and all enemies within 20 feet of them every 2 seconds.  This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability",
-      "gameId": 9502,
-      "componentValues": {
-        "COM_2_DURA_SECONDS": 6,
-        "COM_3_VAL0_CORPOREALDAMAGE": 332,
-        "COM_3_RADI_FEET": 20,
-        "COM_2_FREQ_SECONDS": 2
-      },
-      "rawDescription": "You create a cloud of dark energy for up to {COM_2_DURA_SECONDS}, dealing {COM_3_VAL0_CORPOREALDAMAGE} to your target and all enemies within {COM_3_RADI_FEET} of them every {COM_2_FREQ_SECONDS}.  This effect will end if you break your concentration or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "22697",
       "id": 5420,
+      "gameId": 9524,
       "name": "Shadow of Disaster",
       "type": "Buff",
       "spec": "Path of Calamity",
@@ -1137,19 +897,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The cost of Chillwind is reduced by 20 and it will reduce the enemy's Spiritual resistance by 236 for 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 9524,
-      "componentValues": {
-        "COM_1_VAL1": 0,
-        "ABIL_9471_COM_5_VAL0": 378,
-        "ABIL_9471_COM_5_DURA_SECONDS": 9
-      },
-      "rawDescription": "The cost of Chillwind is reduced by {COM_1_VAL1} and it will reduce the enemy's Spiritual resistance by {ABIL_9471_COM_5_VAL0} for {ABIL_9471_COM_5_DURA_SECONDS}."
+      "description": "The cost of Chillwind is reduced by 20 and it will reduce the enemy's Spiritual resistance by 378 for 9 seconds.",
+      "category": "CareerTactic"
     },
     {
       "image": "10913",
       "id": 5375,
+      "gameId": 9480,
       "name": "Shattered Shadows",
       "type": "Damaging",
       "spec": "Path of Destruction",
@@ -1160,17 +914,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You crush your foes underneath a blast of living shadow, dealing 516 Spirit damage to your target and all other enemies within 20 feet of them.",
-      "category": "Ability",
-      "gameId": 9480,
-      "componentValues": {
-        "COM_2_VAL0_SPIRITDAMAGE": 516,
-        "COM_2_RADI_FEET": 20
-      },
-      "rawDescription": "You crush your foes underneath a blast of living shadow, dealing {COM_2_VAL0_SPIRITDAMAGE} to your target and all other enemies within {COM_2_RADI_FEET} of them."
+      "category": "Ability"
     },
     {
       "image": "10917",
       "id": 5370,
+      "gameId": 9484,
       "name": "Shroud of Darkness",
       "type": "Enchantment",
       "spec": "Core Ability",
@@ -1181,17 +930,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You draw the shadows close to you, increasing all of your resistances by 378 for 20 seconds.",
-      "category": "Ability",
-      "gameId": 9484,
-      "componentValues": {
-        "COM_0_VAL0": 378,
-        "COM_0_DURA_SECONDS": 20
-      },
-      "rawDescription": "You draw the shadows close to you, increasing all of your resistances by {COM_0_VAL0} for {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "23170",
       "id": 5403,
+      "gameId": 669,
       "name": "Siphon Power",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1202,16 +946,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
-      "category": "Morale",
-      "gameId": 669,
-      "componentValues": {
-        "COM_2_VAL0": 160
-      },
-      "rawDescription": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by {COM_2_VAL0} for 30 seconds."
+      "category": "Morale"
     },
     {
       "image": "22708",
       "id": 5400,
+      "gameId": 567,
       "name": "Sleight of Hand",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1222,16 +962,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Enemy monsters will hate you 50% less than normal.",
-      "category": "CareerTactic",
-      "gameId": 567,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Enemy monsters will hate you {COM_0_VAL1}% less than normal."
+      "category": "CareerTactic"
     },
     {
       "image": "10932",
       "id": 5417,
+      "gameId": 9542,
       "name": "Soul Stealer",
       "type": "Damaging",
       "spec": "Path of Agony",
@@ -1242,20 +978,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target and all other enemies within 20 feet of them suffer 1200 damage and lose 125 Action Points.  You gain 1200 health and 125 Action Points.",
-      "category": "Morale",
-      "gameId": 9542,
-      "componentValues": {
-        "COM_0_RADI_FEET": 20,
-        "COM_0_VAL0_DAMAGE": 1200,
-        "COM_1_VAL0_ACTIONPOINTS": 125,
-        "COM_2_VAL0_HEALTH": 1200,
-        "COM_3_VAL0_ACTIONPOINTS": 125
-      },
-      "rawDescription": "Your target and all other enemies within {COM_0_RADI_FEET} of them suffer {COM_0_VAL0_DAMAGE} and lose {COM_1_VAL0_ACTIONPOINTS}.  You gain {COM_2_VAL0_HEALTH} and {COM_3_VAL0_ACTIONPOINTS}."
+      "category": "Morale"
     },
     {
       "image": "10922",
       "id": 5386,
+      "gameId": 9489,
       "name": "Stricken Voices",
       "type": "Curse",
       "spec": "Path of Destruction",
@@ -1265,19 +993,13 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "Your enemy becomes overwhelmed with panic, suffering 315 Corporeal damage.  Fear and uncertainty spread rapidly through the enemy ranks, Silencing the target and all other enemies within 20 feet of them for  3 seconds.",
-      "category": "Ability",
-      "gameId": 9489,
-      "componentValues": {
-        "COM_2_VAL0_CORPOREALDAMAGE": 315,
-        "COM_3_RADI_FEET": 20,
-        "COM_3_DURA_SECONDS": 3
-      },
-      "rawDescription": "Your enemy becomes overwhelmed with panic, suffering {COM_2_VAL0_CORPOREALDAMAGE}.  Fear and uncertainty spread rapidly through the enemy ranks, Silencing the target and all other enemies within {COM_3_RADI_FEET} of them for  {COM_3_DURA_SECONDS}."
+      "description": "Your enemy becomes overwhelmed with panic, suffering 314 Corporeal damage.  Fear and uncertainty spread rapidly through the enemy ranks, Silencing the target and all other enemies within 20 feet of them for  3 seconds.",
+      "category": "Ability"
     },
     {
       "image": "10916",
       "id": 5372,
+      "gameId": 9483,
       "name": "Surging Pain",
       "type": "Damaging",
       "spec": "Path of Destruction",
@@ -1288,17 +1010,12 @@
       "cooldown": "No cooldown",
       "note": "Costs 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "Waves of agony roll outwards from you, dealing 231 Corporeal damage to all enemies within 30 feet.",
-      "category": "Ability",
-      "gameId": 9483,
-      "componentValues": {
-        "COM_2_VAL0_CORPOREALDAMAGE": 231,
-        "COM_2_RADI_FEET": 30
-      },
-      "rawDescription": "Waves of agony roll outwards from you, dealing {COM_2_VAL0_CORPOREALDAMAGE} to all enemies within {COM_2_RADI_FEET}."
+      "category": "Ability"
     },
     {
       "image": "22704",
       "id": 5415,
+      "gameId": 9527,
       "name": "Swell of Gloom",
       "type": "Buff",
       "spec": "Path of Agony",
@@ -1309,16 +1026,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Gloomburst will now deal an additional 403 Spirit damage each time it hits, but will also cause a Backlash every time as well.",
-      "category": "CareerTactic",
-      "gameId": 9527,
-      "componentValues": {
-        "ABIL_9472_COM_3_VAL0_COM_0_VAL0_SPIRITDAMAGE": 403
-      },
-      "rawDescription": "Gloomburst will now deal an additional {ABIL_9472_COM_3_VAL0_COM_0_VAL0_SPIRITDAMAGE} each time it hits, but will also cause a Backlash every time as well."
+      "category": "CareerTactic"
     },
     {
       "image": "22702",
       "id": 5413,
+      "gameId": 9522,
       "name": "Tapping The Dark",
       "type": "Buff",
       "spec": "Path of Agony",
@@ -1328,18 +1041,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever your Frozen Touch effect triggers for one of your allies, they will become surrounded by a protective barrier for up to 5 seconds which will absorb up to 250 damage.",
-      "category": "CareerTactic",
-      "gameId": 9522,
-      "componentValues": {
-        "ABIL_9476_COM_2_VAL0_COM_0_DURA_SECONDS": 5,
-        "ABIL_9476_COM_2_VAL0_COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Whenever your Frozen Touch effect triggers for one of your allies, they will become surrounded by a protective barrier for up to {ABIL_9476_COM_2_VAL0_COM_0_DURA_SECONDS} which will absorb up to {ABIL_9476_COM_2_VAL0_COM_0_VAL1_DAMAGE}."
+      "description": "Whenever your Frozen Touch effect triggers for one of your allies, they will become surrounded by a protective barrier for up to 5 seconds which will absorb up to 375 damage.",
+      "category": "CareerTactic"
     },
     {
       "image": "22708",
       "id": 5391,
+      "gameId": 9514,
       "name": "Triumphant Blasting",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1350,14 +1058,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit with a Path Of Destruction ability, the victim will be knocked backwards a moderate distance and mobs will be knocked down.",
-      "category": "CareerTactic",
-      "gameId": 9514,
-      "componentValues": {},
-      "rawDescription": "Any time you critically hit with a Path Of Destruction ability, the victim will be knocked backwards a moderate distance and mobs will be knocked down."
+      "category": "CareerTactic"
     },
     {
       "image": "23171",
       "id": 5407,
+      "gameId": 672,
       "name": "Unleash the Winds",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1368,17 +1074,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
-      "category": "Morale",
-      "gameId": 672,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1800,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and knocks them away from you."
+      "category": "Morale"
     },
     {
       "image": "22706",
       "id": 5418,
+      "gameId": 9523,
       "name": "Vision of Domination",
       "type": "Buff",
       "spec": "Path of Calamity",
@@ -1389,18 +1090,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Word of Pain's Willpower debuff is increased to 360 for 5 seconds and will deal 767 Spirit damage at the end of the debuff duration.",
-      "category": "CareerTactic",
-      "gameId": 9523,
-      "componentValues": {
-        "ABIL_9475_COM_4_VAL0": 360,
-        "ABIL_9475_COM_4_DURA_SECONDS": 5,
-        "ABIL_9475_COM_5_VAL0_SPIRITDAMAGE": 767
-      },
-      "rawDescription": "Word of Pain's Willpower debuff is increased to {ABIL_9475_COM_4_VAL0} for {ABIL_9475_COM_4_DURA_SECONDS} and will deal {ABIL_9475_COM_5_VAL0_SPIRITDAMAGE} at the end of the debuff duration."
+      "category": "CareerTactic"
     },
     {
       "image": "10911",
       "id": 5385,
+      "gameId": 9478,
       "name": "Vision of Torment",
       "type": "Curse",
       "spec": "Path of Calamity",
@@ -1410,19 +1105,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A Curse which causes the enemy to lose 30 Action Points over 5 seconds.  When this effect ends, they will suffer 315 Spirit damage.",
-      "category": "Ability",
-      "gameId": 9478,
-      "componentValues": {
-        "COM_2_VAL0_TOD_ACTIONPOINTS": 30,
-        "COM_2_DURA_SECONDS": 5,
-        "COM_3_VAL0_SPIRITDAMAGE": 315
-      },
-      "rawDescription": "A Curse which causes the enemy to lose {COM_2_VAL0_TOD_ACTIONPOINTS} over {COM_2_DURA_SECONDS}.  When this effect ends, they will suffer {COM_3_VAL0_SPIRITDAMAGE}."
+      "description": "A Curse which causes the enemy to lose 30 Action Points over 5 seconds.  When this effect ends, they will suffer 314 Spirit damage.",
+      "category": "Ability"
     },
     {
       "image": "10930",
       "id": 5396,
+      "gameId": 9537,
       "name": "Wind-Woven Shell",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1433,17 +1122,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Each groupmember within 100 feet takes only 80% damage for 20 seconds.",
-      "category": "Morale",
-      "gameId": 9537,
-      "componentValues": {
-        "COM_0_VAL0": 80,
-        "COM_0_DURA_SECONDS": 20
-      },
-      "rawDescription": "Each groupmember within 100 feet takes only {COM_0_VAL0}% damage for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "10908",
       "id": 5374,
+      "gameId": 9475,
       "name": "Word of Pain",
       "type": "Curse",
       "spec": "Path of Calamity",
@@ -1454,18 +1138,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "Reduces your target's Willpower by 120 for 10 seconds.  When the effect ends, the victim will suffer 514 Spirit damage.",
-      "category": "Ability",
-      "gameId": 9475,
-      "componentValues": {
-        "COM_2_VAL0": 120,
-        "COM_2_DURA_SECONDS": 10,
-        "COM_3_VAL0_SPIRITDAMAGE": 514
-      },
-      "rawDescription": "Reduces your target's Willpower by {COM_2_VAL0} for {COM_2_DURA_SECONDS}.  When the effect ends, the victim will suffer {COM_3_VAL0_SPIRITDAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "10993",
       "id": 2710,
+      "gameId": 2710,
       "name": "Shatter",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1476,13 +1154,7 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1200 damage to all enemies within 30 feet.",
-      "category": "Morale",
-      "gameId": 2710,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}."
+      "category": "Morale"
     }
   ]
 }

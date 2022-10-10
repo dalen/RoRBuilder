@@ -72,6 +72,7 @@
     {
       "image": "05236",
       "id": 5731,
+      "gameId": 8571,
       "name": "Aethyric Shock",
       "type": "Damaging",
       "spec": "Path of Alchemy",
@@ -82,17 +83,12 @@
       "cooldown": "20s cooldown",
       "note": "",
       "description": "Overwhelms your opponent with power, inflicting 396 damage and Staggers the target for up to 6 seconds, preventing all actions unless they're damaged.",
-      "category": "Ability",
-      "gameId": 8571,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 396,
-        "ABIL_3027_COM_0_DURA_SECONDS": 6
-      },
-      "rawDescription": "Overwhelms your opponent with power, inflicting {COM_0_VAL0_DAMAGE} and Staggers the target for up to {ABIL_3027_COM_0_DURA_SECONDS}, preventing all actions unless they're damaged."
+      "category": "Ability"
     },
     {
       "image": "23150",
       "id": 5722,
+      "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
       "spec": "Core Ability",
@@ -103,20 +99,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
-      "category": "Morale",
-      "gameId": 697,
-      "componentValues": {
-        "COM_1_RADI_FEET": 30,
-        "ABIL_3884_COM_0_VAL0_TOD": 424,
-        "ABIL_3884_COM_0_DURA_SECONDS": 9,
-        "ABIL_3876_COM_0_VAL0": 20,
-        "ABIL_3876_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Resurrects all groupmates within {COM_1_RADI_FEET}. Anyone who is brought back from the dead will also be healed for {ABIL_3884_COM_0_VAL0_TOD} over {ABIL_3884_COM_0_DURA_SECONDS}, and they will deal {ABIL_3876_COM_0_VAL0}% more damage for {ABIL_3876_COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22714",
       "id": 5725,
+      "gameId": 800,
       "name": "Backlash",
       "type": "Buff",
       "spec": "Core Ability",
@@ -127,17 +115,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
-      "category": "CareerTactic",
-      "gameId": 800,
-      "componentValues": {
-        "ABIL_3595_COM_0_VAL0_TOD": 250,
-        "ABIL_3595_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Any time you are attacked, there is a 25% chance that you will lash out for {ABIL_3595_COM_0_VAL0_TOD} Elemental damage over {ABIL_3595_COM_0_DURA_SECONDS} to anyone who hits you."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 5705,
+      "gameId": 8590,
       "name": "Blessing of Chaos",
       "type": "Buff",
       "spec": "Core Ability",
@@ -148,16 +131,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Critical heals will Bless your target for 10 seconds, increasing the power of any heals used on them by 25%.",
-      "category": "CareerTactic",
-      "gameId": 8590,
-      "componentValues": {
-        "ABIL_3777_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Critical heals will Bless your target for {ABIL_3777_COM_0_DURA_SECONDS}, increasing the power of any heals used on them by 25%."
+      "category": "CareerTactic"
     },
     {
       "image": "05242",
       "id": 5729,
+      "gameId": 8573,
       "name": "Boon of Tzeentch",
       "type": "Damaging",
       "spec": "Path of Alchemy",
@@ -167,17 +146,13 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Drains 427 health from your target, funneling 150% of the amount drained into your defensive target.",
-      "category": "Ability",
-      "gameId": 8573,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 427
-      },
-      "rawDescription": "Drains {COM_0_VAL0_HEALTH} from your target, funneling 150% of the amount drained into your defensive target."
+      "description": "Drains 426 health from your target, funneling 150% of the amount drained into your defensive target.",
+      "category": "Ability"
     },
     {
       "image": "05237",
       "id": 5698,
+      "gameId": 8559,
       "name": "Breath of Tzeentch",
       "type": "Hex",
       "spec": "Core Ability",
@@ -188,16 +163,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All opponents within 30 feet of you are knocked back, and monsters are knocked down for 3 seconds.",
-      "category": "Ability",
-      "gameId": 8559,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "All opponents within {COM_0_RADI_FEET} of you are knocked back, and monsters are knocked down for 3 seconds."
+      "category": "Ability"
     },
     {
       "image": "22714",
       "id": 5707,
+      "gameId": 8588,
       "name": "By Tzeentch's Will!",
       "type": "Buff",
       "spec": "Core Ability",
@@ -208,16 +179,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Critical direct heals will increase your morale by 75. This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8588,
-      "componentValues": {
-        "COM_1_VAL0": 75
-      },
-      "rawDescription": "Critical direct heals will increase your morale by {COM_1_VAL0}. This effect will not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "22709",
       "id": 5730,
+      "gameId": 8596,
       "name": "Changer's Touch",
       "type": "Healing",
       "spec": "Path of Alchemy",
@@ -228,16 +195,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Critical single target attacks place a debuff on your target that reduces all incoming healing by 50% for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8596,
-      "componentValues": {
-        "ABIL_3075_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Critical single target attacks place a debuff on your target that reduces all incoming healing by 50% for {ABIL_3075_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "05110",
       "id": 5743,
+      "gameId": 8578,
       "name": "Chaotic Agitation",
       "type": "Damaging",
       "spec": "Path of Dark Rites",
@@ -247,19 +210,13 @@
       "incant": "6.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing 308 every 2 seconds for up to 6 seconds.",
-      "category": "Ability",
-      "gameId": 8578,
-      "componentValues": {
-        "COM_1_RADI_FEET": 30,
-        "COM_1_VAL0": 308,
-        "COM_0_DURA_SECONDS": 6
-      },
-      "rawDescription": "You channel dark forces into your target and all targets within {COM_1_RADI_FEET} of them, dealing {COM_1_VAL0} every 2 seconds for up to {COM_0_DURA_SECONDS}."
+      "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing 307 every 2 seconds for up to 6 seconds.",
+      "category": "Ability"
     },
     {
       "image": "05116",
       "id": 5686,
+      "gameId": 8621,
       "name": "Chaotic Blur",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -270,17 +227,12 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "Detaunts targets attack power to 50% for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
-      "category": "Ability",
-      "gameId": 8621,
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Detaunts targets attack power to {COM_0_VAL0}% for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end."
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 5726,
+      "gameId": 8595,
       "name": "Chaotic Force",
       "type": "Buff",
       "spec": "Path of Alchemy",
@@ -291,16 +243,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "The Critical chance on Tzeentch's Cry, Scourge and Flash of Chaos is raised by 15%.",
-      "category": "CareerTactic",
-      "gameId": 8595,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "The Critical chance on Tzeentch's Cry, Scourge and Flash of Chaos is raised by {COM_0_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "05240",
       "id": 5699,
+      "gameId": 8561,
       "name": "Daemonic Fortitude",
       "type": "Blessing",
       "spec": "Path of Alchemy",
@@ -311,17 +259,12 @@
       "cooldown": "3m cooldown",
       "note": "",
       "description": "Increases target's Wounds by 160 for 60 seconds and then heals the recipient for the amount increased.",
-      "category": "Ability",
-      "gameId": 8561,
-      "componentValues": {
-        "COM_0_VAL0": 160,
-        "COM_0_DURA_SECONDS": 60
-      },
-      "rawDescription": "Increases target's Wounds by {COM_0_VAL0} for {COM_0_DURA_SECONDS} and then heals the recipient for the amount increased."
+      "category": "Ability"
     },
     {
       "image": "05113",
       "id": 5690,
+      "gameId": 8549,
       "name": "Dark Medicine",
       "type": "Healing",
       "spec": "Path of Witchcraft",
@@ -332,18 +275,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Restores 370 health to an ally, and then restores an additional 445 health over 5 seconds. This ability will continue to build up even if you move.",
-      "category": "Ability",
-      "gameId": 8549,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 370,
-        "ABIL_3554_COM_0_VAL0_TOD_HEALTH": 445,
-        "ABIL_3554_COM_0_DURA_SECONDS": 5
-      },
-      "rawDescription": "Restores {COM_0_VAL0_HEALTH} to an ally, and then restores an additional {ABIL_3554_COM_0_VAL0_TOD_HEALTH} over {ABIL_3554_COM_0_DURA_SECONDS}. This ability will continue to build up even if you move."
+      "category": "Ability"
     },
     {
       "image": "05158",
       "id": 5695,
+      "gameId": 8563,
       "name": "Demon Spittle",
       "type": "Hex",
       "spec": "Path of Dark Rites",
@@ -354,18 +291,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "Spews a vile mixture over everything 40 feet in front of you, dealing 636 Corporeal damage over 9 seconds to all opponents.",
-      "category": "Ability",
-      "gameId": 8563,
-      "componentValues": {
-        "COM_0_RADI_FEET": 40,
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 636,
-        "COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Spews a vile mixture over everything {COM_0_RADI_FEET} in front of you, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS} to all opponents."
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 5714,
+      "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
       "spec": "Core Ability",
@@ -376,16 +307,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Willpower by 160.",
-      "category": "CareerTactic",
-      "gameId": 592,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Increases your Willpower by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "23151",
       "id": 5717,
+      "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
       "spec": "Core Ability",
@@ -396,16 +323,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
-      "category": "Morale",
-      "gameId": 694,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 1800
-      },
-      "rawDescription": "A strong heal that will restore {COM_0_VAL0_HEALTH} to your target."
+      "category": "Morale"
     },
     {
       "image": "22703",
       "id": 5713,
+      "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -416,17 +339,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
-      "category": "CareerTactic",
-      "gameId": 585,
-      "componentValues": {
-        "COM_0_VAL0": 25,
-        "COM_1_VAL1": 0
-      },
-      "rawDescription": "You deal {COM_0_VAL0}% more damage, but all of your casted heals become {COM_1_VAL1}% less effective."
+      "category": "CareerTactic"
     },
     {
       "image": "23152",
       "id": 5721,
+      "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -437,17 +355,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
-      "category": "Morale",
-      "gameId": 696,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Each group member within 100 feet is surrounded by a protective shield for the next {COM_0_DURA_SECONDS} that will absorb up to {COM_0_VAL1_DAMAGE} from melee abilities."
+      "category": "Morale"
     },
     {
       "image": "22706",
       "id": 5708,
+      "gameId": 8589,
       "name": "Drink Deeply",
       "type": "Healing",
       "spec": "Core Ability",
@@ -458,16 +371,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Tzeentch's Cordial will now heal an additional 220 health after the effect ends.",
-      "category": "CareerTactic",
-      "gameId": 8589,
-      "componentValues": {
-        "ABIL_8558_COM_1_VAL0_HEALTH": 220
-      },
-      "rawDescription": "Tzeentch's Cordial will now heal an additional {ABIL_8558_COM_1_VAL0_HEALTH} after the effect ends."
+      "category": "CareerTactic"
     },
     {
       "image": "05232",
       "id": 5696,
+      "gameId": 8562,
       "name": "Dust of Pandemonium",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -478,16 +387,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "All group members within 100 feet of you are healed for 898.",
-      "category": "Ability",
-      "gameId": 8562,
-      "componentValues": {
-        "COM_0_VAL0": 898
-      },
-      "rawDescription": "All group members within 100 feet of you are healed for {COM_0_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "05103",
       "id": 5688,
+      "gameId": 8566,
       "name": "Elixir Of Dark Blessings",
       "type": "Healing",
       "spec": "Path of Alchemy",
@@ -498,16 +403,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Heals your target for 1258 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
-      "category": "Ability",
-      "gameId": 8566,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 1258
-      },
-      "rawDescription": "Heals your target for {COM_0_VAL0_HEALTH}.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it."
+      "category": "Ability"
     },
     {
       "image": "05260",
       "id": 5697,
+      "gameId": 8622,
       "name": "Embrace the Warp",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -518,18 +419,12 @@
       "cooldown": "3m cooldown",
       "note": "",
       "description": "You embrace the Warp, surrounding yourself with its power. You will take only 50% damage and your abilities will cost 25% fewer Action Points for 10 seconds. During this time you generate almost no threat, and can not be set back while casting.",
-      "category": "Ability",
-      "gameId": 8622,
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_1_VAL1": 0,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You embrace the Warp, surrounding yourself with its power. You will take only {COM_0_VAL0}% damage and your abilities will cost {COM_1_VAL1}% fewer Action Points for {COM_0_DURA_SECONDS}. During this time you generate almost no threat, and can not be set back while casting."
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 5706,
+      "gameId": 8587,
       "name": "Empowered Alteration",
       "type": "Buff",
       "spec": "Core Ability",
@@ -540,17 +435,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Leaping Alteration will also restore 48 Action Points over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8587,
-      "componentValues": {
-        "ABIL_3998_COM_1_VAL0_TOD_ACTIONPOINTS": 48,
-        "ABIL_3998_COM_1_DURA_SECONDS": 9
-      },
-      "rawDescription": "Leaping Alteration will also restore {ABIL_3998_COM_1_VAL0_TOD_ACTIONPOINTS} over {ABIL_3998_COM_1_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22694",
       "id": 5702,
+      "gameId": 8591,
       "name": "Endless Gifts",
       "type": "Buff",
       "spec": "Core Ability",
@@ -561,14 +451,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Cooldown on Glimpse of Chaos is reduced by 5s and the cost increased by 15 Action Points.",
-      "category": "CareerTactic",
-      "gameId": 8591,
-      "componentValues": {},
-      "rawDescription": "Cooldown on Glimpse of Chaos is reduced by 5s and the cost increased by 15 Action Points."
+      "category": "CareerTactic"
     },
     {
       "image": "05134",
       "id": 5711,
+      "gameId": 8606,
       "name": "Eye of Sheerian",
       "type": "Buff",
       "spec": "Core Ability",
@@ -579,18 +467,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Increase the armor of all group mates within 100 feet by 1320 and resists by 504 for 10 seconds.",
-      "category": "Morale",
-      "gameId": 8606,
-      "componentValues": {
-        "COM_0_VAL0": 1320,
-        "COM_1_VAL0": 504,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "Increase the armor of all group mates within 100 feet by {COM_0_VAL0} and resists by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "05154",
       "id": 5784,
+      "gameId": 8569,
       "name": "Flash of Chaos",
       "type": "Healing",
       "spec": "Path of Alchemy",
@@ -601,16 +483,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A burst of chaos that restores 381 health to an ally.",
-      "category": "Ability",
-      "gameId": 8569,
-      "componentValues": {
-        "COM_0_VAL0_HEALTH": 381
-      },
-      "rawDescription": "A burst of chaos that restores {COM_0_VAL0_HEALTH} to an ally."
+      "category": "Ability"
     },
     {
       "image": "05004",
       "id": 5781,
+      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -621,18 +499,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability",
-      "gameId": 245,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "category": "Ability"
     },
     {
       "image": "23153",
       "id": 5720,
+      "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
       "spec": "Core Ability",
@@ -643,14 +515,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
-      "category": "Morale",
-      "gameId": 695,
-      "componentValues": {},
-      "rawDescription": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back."
+      "category": "Morale"
     },
     {
       "image": "05235",
       "id": 5694,
+      "gameId": 8554,
       "name": "Glimpse of Chaos",
       "type": "Healing",
       "spec": "Core Ability",
@@ -661,14 +531,12 @@
       "cooldown": "5s cooldown",
       "note": "Target must be Cursed or Hexed",
       "description": "You call upon the power of chaos, removing one Curse or Hex from your defensive target.",
-      "category": "Ability",
-      "gameId": 8554,
-      "componentValues": {},
-      "rawDescription": "You call upon the power of chaos, removing one Curse or Hex from your defensive target."
+      "category": "Ability"
     },
     {
       "image": "05108",
       "id": 5783,
+      "gameId": 8550,
       "name": "Harbinger of Doom",
       "type": "Buff",
       "spec": "Core Ability",
@@ -679,14 +547,12 @@
       "cooldown": "20s cooldown",
       "note": "",
       "description": "When this ability is toggled on, you are the Harbinger of Doom, converting your Healing Power, Willpower, and Healing Critical Chance bonuses from items into Magic Power, Intelligence, and Magic Critical Chance.<BR><BR>When this ability is toggled off, you are the Harbinger of Change, converting your Magic Power, Intelligence, and Magic Critical Chance bonuses from items into Healing Power, Willpower, and Healing Critical Chance.",
-      "category": "Ability",
-      "gameId": 8550,
-      "componentValues": {},
-      "rawDescription": "When this ability is toggled on, you are the Harbinger of Doom, converting your Healing Power, Willpower, and Healing Critical Chance bonuses from items into Magic Power, Intelligence, and Magic Critical Chance.<BR><BR>When this ability is toggled off, you are the Harbinger of Change, converting your Magic Power, Intelligence, and Magic Critical Chance bonuses from items into Healing Power, Willpower, and Healing Critical Chance."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 5733,
+      "gameId": 8599,
       "name": "Lashing Waves",
       "type": "Buff",
       "spec": "Path of Witchcraft",
@@ -697,16 +563,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Tzeentch's Lash will now strike all opponents within 20 feet of your initial target.",
-      "category": "CareerTactic",
-      "gameId": 8599,
-      "componentValues": {
-        "ABIL_8565_COM_2_RADI_FEET": 20
-      },
-      "rawDescription": "Tzeentch's Lash will now strike all opponents within {ABIL_8565_COM_2_RADI_FEET} of your initial target."
+      "category": "CareerTactic"
     },
     {
       "image": "05250",
       "id": 5693,
+      "gameId": 8557,
       "name": "Leaping Alteration",
       "type": "Blessing",
       "spec": "Path of Dark Rites",
@@ -717,18 +579,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "A bolt of healing energy which instantly leaps to allies within 30 feet of the last affected, restoring 729 health over 9 seconds. This effect will only pass through each target once, and will affect up to 6 allies.",
-      "category": "Ability",
-      "gameId": 8557,
-      "componentValues": {
-        "COM_1_RADI_FEET": 30,
-        "COM_0_VAL0_COM_0_VAL0_TOD_HEALTH": 729,
-        "COM_0_VAL0_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "A bolt of healing energy which instantly leaps to allies within {COM_1_RADI_FEET} of the last affected, restoring {COM_0_VAL0_COM_0_VAL0_TOD_HEALTH} over {COM_0_VAL0_COM_0_DURA_SECONDS}. This effect will only pass through each target once, and will affect up to 6 allies."
+      "category": "Ability"
     },
     {
       "image": "22703",
       "id": 5728,
+      "gameId": 8594,
       "name": "Manipulation",
       "type": "Damaging",
       "spec": "Path of Alchemy",
@@ -739,14 +595,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you directly heal someone, there is a  25% chance your offensive target will take damage equal to 25% of the healed value.",
-      "category": "CareerTactic",
-      "gameId": 8594,
-      "componentValues": {},
-      "rawDescription": "Any time you directly heal someone, there is a  25% chance your offensive target will take damage equal to 25% of the healed value."
+      "category": "CareerTactic"
     },
     {
       "image": "05140",
       "id": 5683,
+      "gameId": 8551,
       "name": "Mark of Daemonic Fury",
       "type": "Blessing",
       "spec": "Path of Alchemy",
@@ -757,17 +611,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by 80.  The bearer of this Mark may also activate it like an ability to inflict 321 Corporeal damage.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
-      "category": "Ability",
-      "gameId": 8551,
-      "componentValues": {
-        "COM_0_VAL0": 80,
-        "ABIL_3611_COM_0_VAL0_CORPOREALDAMAGE": 321
-      },
-      "rawDescription": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by {COM_0_VAL0}.  The bearer of this Mark may also activate it like an ability to inflict {ABIL_3611_COM_0_VAL0_CORPOREALDAMAGE}.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time."
+      "category": "Ability"
     },
     {
       "image": "05239",
       "id": 5701,
+      "gameId": 8567,
       "name": "Mark of Remaking",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -778,16 +627,12 @@
       "cooldown": "10m cooldown",
       "note": "",
       "description": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's Toughness is increased by 80 for 1 hour.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
-      "category": "Ability",
-      "gameId": 8567,
-      "componentValues": {
-        "COM_5_VAL0": 80
-      },
-      "rawDescription": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's Toughness is increased by {COM_5_VAL0} for 1 hour.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time."
+      "category": "Ability"
     },
     {
       "image": "05136",
       "id": 5692,
+      "gameId": 8556,
       "name": "Mark of the Spell Destroyer",
       "type": "Blessing",
       "spec": "Path of Witchcraft",
@@ -798,18 +643,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases a groupmember's Initiative and Willpower by 80.  The bearer of this Mark may activate it like an ability to inflict 768 Corporeal damage over 9 seconds.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
-      "category": "Ability",
-      "gameId": 8556,
-      "componentValues": {
-        "COM_0_VAL0": 80,
-        "ABIL_3612_COM_0_VAL0_TOD_CORPOREALDAMAGE": 768,
-        "ABIL_3612_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Increases a groupmember's Initiative and Willpower by {COM_0_VAL0}.  The bearer of this Mark may activate it like an ability to inflict {ABIL_3612_COM_0_VAL0_TOD_CORPOREALDAMAGE} over {ABIL_3612_COM_0_DURA_SECONDS}.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time."
+      "category": "Ability"
     },
     {
       "image": "05137",
       "id": 5689,
+      "gameId": 8560,
       "name": "Mark of the Vortex",
       "type": "Blessing",
       "spec": "Path of Dark Rites",
@@ -820,19 +659,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases all your groupmember's resistances by 252.  The bearer of this Mark may activate it to inflict 474 Corporeal damage over 9 seconds to all targets within  30 feet. <BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
-      "category": "Ability",
-      "gameId": 8560,
-      "componentValues": {
-        "COM_0_VAL0": 252,
-        "ABIL_3613_COM_0_VAL0_TOD_CORPOREALDAMAGE": 474,
-        "ABIL_3613_COM_0_DURA_SECONDS": 9,
-        "ABIL_3613_COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Increases all your groupmember's resistances by {COM_0_VAL0}.  The bearer of this Mark may activate it to inflict {ABIL_3613_COM_0_VAL0_TOD_CORPOREALDAMAGE} over {ABIL_3613_COM_0_DURA_SECONDS} to all targets within  {ABIL_3613_COM_0_RADI_FEET}. <BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time."
+      "category": "Ability"
     },
     {
       "image": "05137",
       "id": 5738,
+      "gameId": 8575,
       "name": "Mirror of Madness",
       "type": "Hex",
       "spec": "Path of Witchcraft",
@@ -843,17 +675,12 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "Curses your target for 10 seconds so that whenever they receive a direct heal, it inflicts 547 Corporeal damage to them. This ability will continue to build up even if you move.",
-      "category": "Ability",
-      "gameId": 8575,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_CORPOREALDAMAGE": 547
-      },
-      "rawDescription": "Curses your target for {COM_0_DURA_SECONDS} so that whenever they receive a direct heal, it inflicts {COM_1_VAL0_CORPOREALDAMAGE} to them. This ability will continue to build up even if you move."
+      "category": "Ability"
     },
     {
       "image": "23154",
       "id": 5718,
+      "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -864,17 +691,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
-      "category": "Morale",
-      "gameId": 692,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_DAMAGE": 600,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "Deals {COM_1_VAL0_COM_0_VAL0_DAMAGE} to all enemies within {COM_0_RADI_FEET}, and heals group members within 100 feet for the full amount of the damage dealt."
+      "category": "Morale"
     },
     {
       "image": "22694",
       "id": 5716,
+      "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
       "spec": "Core Ability",
@@ -885,17 +707,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 589,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS": 40,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 3
-      },
-      "rawDescription": "Any time one of your direct healing effects critically heals an ally, you will regain {COM_1_VAL0_COM_0_VAL0_TOD_ACTIONPOINTS} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "05231",
       "id": 5687,
+      "gameId": 8552,
       "name": "Rite of Agony",
       "type": "Damaging",
       "spec": "Path of Dark Rites",
@@ -906,17 +723,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "Pains washes over enemies within 30 feet of you, inflicting 264 Corporeal damage.",
-      "category": "Ability",
-      "gameId": 8552,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0_CORPOREALDAMAGE": 264
-      },
-      "rawDescription": "Pains washes over enemies within {COM_0_RADI_FEET} of you, inflicting {COM_0_VAL0_CORPOREALDAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "05241",
       "id": 5727,
+      "gameId": 8572,
       "name": "Ritual of Innervation",
       "type": "Buff",
       "spec": "Path of Alchemy",
@@ -927,18 +739,12 @@
       "cooldown": "30s cooldown",
       "note": "You may only have 1 Ritual active",
       "description": "A frenzied, 30 seconds long ritual that affects all groupmembers within 100 feet, granting them a 20% chance to regain 50 Action Points every time they use an ability.",
-      "category": "Ability",
-      "gameId": 8572,
-      "componentValues": {
-        "COM_1_DURA_SECONDS": 30,
-        "COM_1_RADI_FEET": 100,
-        "COM_2_VAL0_ACTIONPOINTS": 50
-      },
-      "rawDescription": "A frenzied, {COM_1_DURA_SECONDS} long ritual that affects all groupmembers within {COM_1_RADI_FEET}, granting them a 20% chance to regain {COM_2_VAL0_ACTIONPOINTS} every time they use an ability."
+      "category": "Ability"
     },
     {
       "image": "05162",
       "id": 5741,
+      "gameId": 8577,
       "name": "Ritual of Lunacy",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -948,19 +754,13 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 Ritual active",
-      "description": "A dark Ritual lasting 30 seconds that infuses your group with the souls of the fallen,  restoring 216 health every 3 seconds to those within 100 feet of the Ritual.",
-      "category": "Ability",
-      "gameId": 8577,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 30,
-        "COM_1_VAL0_HEALTH": 216,
-        "COM_1_RADI_FEET": 100
-      },
-      "rawDescription": "A dark Ritual lasting {COM_0_DURA_SECONDS} that infuses your group with the souls of the fallen,  restoring {COM_1_VAL0_HEALTH} every 3 seconds to those within {COM_1_RADI_FEET} of the Ritual."
+      "description": "A dark Ritual lasting 30 seconds that infuses your group with the souls of the fallen,  restoring 215 health every 3 seconds to those within 100 feet of the Ritual.",
+      "category": "Ability"
     },
     {
       "image": "05119",
       "id": 5734,
+      "gameId": 8574,
       "name": "Ritual of Superiority",
       "type": "Buff",
       "spec": "Path of Witchcraft",
@@ -970,19 +770,13 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 Ritual active",
-      "description": "A Ritual of dominance that lasts for 30 seconds, granting group members in the radius a 20% chance when taking damage to active a shield that will absorb 325 damage for up to 10 seconds. Will not trigger more than once every 2 seconds.",
-      "category": "Ability",
-      "gameId": 8574,
-      "componentValues": {
-        "COM_1_DURA_SECONDS": 30,
-        "ABIL_3836_COM_0_VAL1_DAMAGE": 0,
-        "ABIL_3836_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "A Ritual of dominance that lasts for {COM_1_DURA_SECONDS}, granting group members in the radius a 20% chance when taking damage to active a shield that will absorb {ABIL_3836_COM_0_VAL1_DAMAGE} for up to {ABIL_3836_COM_0_DURA_SECONDS}. Will not trigger more than once every 2 seconds."
+      "description": "A Ritual of dominance that lasts for 30 seconds, granting group members in the radius a 20% chance when taking damage to active a shield that will absorb 487 damage for up to 10 seconds. Will not trigger more than once every 2 seconds.",
+      "category": "Ability"
     },
     {
       "image": "05144",
       "id": 5782,
+      "gameId": 8548,
       "name": "Scourge",
       "type": "Damaging",
       "spec": "Path of Alchemy",
@@ -993,16 +787,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Power lashes out and inflicts 377 Corporeal damage.",
-      "category": "Ability",
-      "gameId": 8548,
-      "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 377
-      },
-      "rawDescription": "Power lashes out and inflicts {COM_0_VAL0_CORPOREALDAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "22709",
       "id": 5703,
+      "gameId": 8586,
       "name": "Scourged Warping",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1013,14 +803,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Warp Reality will now deals 10% more damage, and every tick of damage has a 20% chance of making the next Scourge cast within 10 seconds instant cast.",
-      "category": "CareerTactic",
-      "gameId": 8586,
-      "componentValues": {},
-      "rawDescription": "Warp Reality will now deals 10% more damage, and every tick of damage has a 20% chance of making the next Scourge cast within 10 seconds instant cast."
+      "category": "CareerTactic"
     },
     {
       "image": "23155",
       "id": 5719,
+      "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1031,16 +819,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
-      "category": "Morale",
-      "gameId": 690,
-      "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 900
-      },
-      "rawDescription": "Your target suffers {COM_0_VAL0_TOD_DAMAGE} over 9 seconds, and you are healed for half of the damage dealt."
+      "category": "Morale"
     },
     {
       "image": "05243",
       "id": 5736,
+      "gameId": 8576,
       "name": "Storm of Ravens",
       "type": "Damaging",
       "spec": "Path of Witchcraft",
@@ -1051,18 +835,12 @@
       "cooldown": "11s cooldown",
       "note": "",
       "description": "You call forth a storm of ravens which claw and peck at your target, dealing 1848 Corporeal damage over 6 seconds and snaring them by 40%. for as long as you maintain your concentration.",
-      "category": "Ability",
-      "gameId": 8576,
-      "componentValues": {
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 1848,
-        "COM_0_DURA_SECONDS": 6,
-        "COM_1_VAL0_COM_0_VAL0": 40
-      },
-      "rawDescription": "You call forth a storm of ravens which claw and peck at your target, dealing {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS} and snaring them by {COM_1_VAL0_COM_0_VAL0}%. for as long as you maintain your concentration."
+      "category": "Ability"
     },
     {
       "image": "22709",
       "id": 5715,
+      "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1073,14 +851,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Enemy monsters will hate you 25% less than normal.",
-      "category": "CareerTactic",
-      "gameId": 588,
-      "componentValues": {},
-      "rawDescription": "Enemy monsters will hate you 25% less than normal."
+      "category": "CareerTactic"
     },
     {
       "image": "05135",
       "id": 5712,
+      "gameId": 8607,
       "name": "Suppressing The Fragile Unbelievers",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1091,18 +867,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You silence disbelievers and inflict 1218 damage over 7 seconds within 30 feet around you.",
-      "category": "Morale",
-      "gameId": 8607,
-      "componentValues": {
-        "COM_1_VAL0_TOD_DAMAGE": 1218,
-        "COM_1_DURA_SECONDS": 7,
-        "COM_0_RADI_FEET": 30
-      },
-      "rawDescription": "You silence disbelievers and inflict {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS} within {COM_0_RADI_FEET} around you."
+      "category": "Morale"
     },
     {
       "image": "22704",
       "id": 5740,
+      "gameId": 8600,
       "name": "Sweeping Disgorgement",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -1113,17 +883,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Demon Spittle grows ever more corrosive and now also reduces Armor by 990 and Corporeal resistance by 378.",
-      "category": "CareerTactic",
-      "gameId": 8600,
-      "componentValues": {
-        "ABIL_8563_COM_3_VAL0": 990,
-        "ABIL_8563_COM_2_VAL0": 378
-      },
-      "rawDescription": "Demon Spittle grows ever more corrosive and now also reduces Armor by {ABIL_8563_COM_3_VAL0} and Corporeal resistance by {ABIL_8563_COM_2_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "22708",
       "id": 5742,
+      "gameId": 8601,
       "name": "Swirling Vortex",
       "type": "Buff",
       "spec": "Path of Dark Rites",
@@ -1134,17 +899,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Mark of the Vortex's granted ability will now hit all enemies within 30 feet of the caster, and will last for 15 seconds",
-      "category": "CareerTactic",
-      "gameId": 8601,
-      "componentValues": {
-        "ABIL_3859_COM_0_RADI_FEET": 30,
-        "ABIL_3859_COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Mark of the Vortex's granted ability will now hit all enemies within {ABIL_3859_COM_0_RADI_FEET} of the caster, and will last for {ABIL_3859_COM_0_DURA_SECONDS}"
+      "category": "CareerTactic"
     },
     {
       "image": "22697",
       "id": 5737,
+      "gameId": 8597,
       "name": "Transference",
       "type": "Damaging",
       "spec": "Path of Witchcraft",
@@ -1155,14 +915,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "While under the effects of your Harbinger of Doom; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
-      "category": "CareerTactic",
-      "gameId": 8597,
-      "componentValues": {},
-      "rawDescription": "While under the effects of your Harbinger of Doom; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt."
+      "category": "CareerTactic"
     },
     {
       "image": "05233",
       "id": 5691,
+      "gameId": 8555,
       "name": "Tzeentch Shall Remake You",
       "type": "Healing",
       "spec": "Core Ability",
@@ -1173,14 +931,12 @@
       "cooldown": "6s cooldown",
       "note": "Only usable on Dead Players",
       "description": "Tzeentch dislikes losing a pawn so soon. Your target is resurrected with 20% health so that Tzeentch may continue his game.",
-      "category": "Ability",
-      "gameId": 8555,
-      "componentValues": {},
-      "rawDescription": "Tzeentch dislikes losing a pawn so soon. Your target is resurrected with 20% health so that Tzeentch may continue his game."
+      "category": "Ability"
     },
     {
       "image": "05142",
       "id": 5682,
+      "gameId": 8558,
       "name": "Tzeentch's Cordial",
       "type": "Blessing",
       "spec": "Core Ability",
@@ -1191,17 +947,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Heals your target for 1700 over 15 seconds.",
-      "category": "Ability",
-      "gameId": 8558,
-      "componentValues": {
-        "COM_0_VAL0_TOD": 1700,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Heals your target for {COM_0_VAL0_TOD} over {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "05160",
       "id": 5684,
+      "gameId": 8568,
       "name": "Tzeentch's Cry",
       "type": "Damaging",
       "spec": "Path of Alchemy",
@@ -1212,16 +963,12 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "A quick bolt of power that deals 321 Corporeal damage.",
-      "category": "Ability",
-      "gameId": 8568,
-      "componentValues": {
-        "COM_0_VAL0_CORPOREALDAMAGE": 321
-      },
-      "rawDescription": "A quick bolt of power that deals {COM_0_VAL0_CORPOREALDAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "22706",
       "id": 5744,
+      "gameId": 8602,
       "name": "Tzeentch's Grip",
       "type": "Healing",
       "spec": "Path of Dark Rites",
@@ -1231,18 +978,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to 475 damage over 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8602,
-      "componentValues": {
-        "ABIL_3076_COM_0_VAL1_DAMAGE": 0,
-        "ABIL_3076_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to {ABIL_3076_COM_0_VAL1_DAMAGE} over {ABIL_3076_COM_0_DURA_SECONDS}."
+      "description": "Direct heals you cast have a 25% chance to create a shield on your target that can absorb up to 712 damage over 10 seconds.",
+      "category": "CareerTactic"
     },
     {
       "image": "05238",
       "id": 5700,
+      "gameId": 8565,
       "name": "Tzeentch's Lash",
       "type": "Hex",
       "spec": "Path of Witchcraft",
@@ -1252,18 +994,13 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Inflicts 530 Corporeal damage over 4 seconds and silences the target, preventing them from using any magic.",
-      "category": "Ability",
-      "gameId": 8565,
-      "componentValues": {
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 530,
-        "COM_0_DURA_SECONDS": 4
-      },
-      "rawDescription": "Inflicts {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS} and silences the target, preventing them from using any magic."
+      "description": "Inflicts 525 Corporeal damage over 4 seconds and silences the target, preventing them from using any magic.",
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 5735,
+      "gameId": 8598,
       "name": "Tzeentch's Refreshment",
       "type": "Buff",
       "spec": "Path of Witchcraft",
@@ -1274,14 +1011,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Direct heals have a 25% chance to grant your target 50 AP, but will not restore AP to yourself.",
-      "category": "CareerTactic",
-      "gameId": 8598,
-      "componentValues": {},
-      "rawDescription": "Direct heals have a 25% chance to grant your target 50 AP, but will not restore AP to yourself."
+      "category": "CareerTactic"
     },
     {
       "image": "05246",
       "id": 5739,
+      "gameId": 8612,
       "name": "Tzeentch's Scream",
       "type": "Damaging",
       "spec": "Path of Witchcraft",
@@ -1292,19 +1027,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All groupmates within 100 feet are healed for 2394 health over 15 seconds and regain 25 Action Points every second for 15 seconds",
-      "category": "Morale",
-      "gameId": 8612,
-      "componentValues": {
-        "COM_0_VAL0_TOD_HEALTH": 2394,
-        "COM_0_DURA_SECONDS": 15,
-        "COM_1_VAL0": 25,
-        "COM_1_DURA_SECONDS": 15
-      },
-      "rawDescription": "All groupmates within 100 feet are healed for {COM_0_VAL0_TOD_HEALTH} over {COM_0_DURA_SECONDS} and regain {COM_1_VAL0} Action Points every second for {COM_1_DURA_SECONDS}"
+      "category": "Morale"
     },
     {
       "image": "05245",
       "id": 5732,
+      "gameId": 8611,
       "name": "Tzeentch’s Shielding",
       "type": "Buff",
       "spec": "Path of Alchemy",
@@ -1314,19 +1042,13 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All group mates within 100 feet are granted 250 Action Points, and for 20 seconds, everyone will absorb up to 3600 damage.",
-      "category": "Morale",
-      "gameId": 8611,
-      "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 250,
-        "COM_0_DURA_SECONDS": 20,
-        "COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "All group mates within 100 feet are granted {COM_1_VAL0_ACTIONPOINTS}, and for {COM_0_DURA_SECONDS}, everyone will absorb up to {COM_0_VAL1_DAMAGE}."
+      "description": "All group mates within 100 feet are granted 250 Action Points, and for 20 seconds, everyone will absorb up to 5400 damage.",
+      "category": "Morale"
     },
     {
       "image": "05118",
       "id": 5710,
+      "gameId": 8605,
       "name": "Tzeentch's Talon",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -1337,18 +1059,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Reduces your target's armor by 1320 and all resistances by 504 for 15 seconds.",
-      "category": "Morale",
-      "gameId": 8605,
-      "componentValues": {
-        "COM_0_VAL0": 1320,
-        "COM_1_VAL0": 504,
-        "COM_1_DURA_SECONDS": 15
-      },
-      "rawDescription": "Reduces your target's armor by {COM_0_VAL0} and all resistances by {COM_1_VAL0} for {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22714",
       "id": 5724,
+      "gameId": 798,
       "name": "Tzeentch's Warding",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1359,16 +1075,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Elemental resistance by 252.",
-      "category": "CareerTactic",
-      "gameId": 798,
-      "componentValues": {
-        "COM_0_VAL0": 252
-      },
-      "rawDescription": "Increases your Elemental resistance by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "05244",
       "id": 5685,
+      "gameId": 8564,
       "name": "Veil of Chaos",
       "type": "Blessing",
       "spec": "Path of Witchcraft",
@@ -1378,19 +1090,13 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, your target will absorb up to 550 damage. When the effect fades they will regain 186 health.",
-      "category": "Ability",
-      "gameId": 8564,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL1_DAMAGE": 0,
-        "COM_1_VAL0_HEALTH": 246
-      },
-      "rawDescription": "For the next {COM_0_DURA_SECONDS}, your target will absorb up to {COM_0_VAL1_DAMAGE}. When the effect fades they will regain {COM_1_VAL0_HEALTH}."
+      "description": "For the next 10 seconds, your target will absorb up to 825 damage. When the effect fades they will regain 246 health.",
+      "category": "Ability"
     },
     {
       "image": "05268",
       "id": 5681,
+      "gameId": 8553,
       "name": "Warp Reality",
       "type": "Hex",
       "spec": "Path of Witchcraft",
@@ -1401,17 +1107,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Inflicts 830 Corporeal damage over 15 seconds.",
-      "category": "Ability",
-      "gameId": 8553,
-      "componentValues": {
-        "COM_0_VAL0_TOD_CORPOREALDAMAGE": 830,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Inflicts {COM_0_VAL0_TOD_CORPOREALDAMAGE} over {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22714",
       "id": 5723,
+      "gameId": 797,
       "name": "Warped Flesh",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1422,16 +1123,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 797,
-      "componentValues": {
-        "ABIL_3996_COM_0_VAL1": 0
-      },
-      "rawDescription": "Any time you are attacked, there is a 25% chance that you will absorb up to {ABIL_3996_COM_0_VAL1} damage.<BR>This effect will not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 5704,
+      "gameId": 8584,
       "name": "Warping The Spirit",
       "type": "Healing",
       "spec": "Core Ability",
@@ -1442,18 +1139,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by 1056 for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
-      "category": "CareerTactic",
-      "gameId": 8584,
-      "componentValues": {
-        "ABIL_3074_COM_0_VAL0": 1056,
-        "ABIL_3074_COM_0_DURA_SECONDS": 10,
-        "ABIL_3074_COM_1_VAL1": 0
-      },
-      "rawDescription": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by {ABIL_3074_COM_0_VAL0} for {ABIL_3074_COM_0_DURA_SECONDS}. Additionally, {ABIL_3074_COM_1_VAL1}% less armor will be bypassed when they are attacked."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 5709,
+      "gameId": 8585,
       "name": "Waves of Chaos",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1463,18 +1154,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rituals will now pulse 150 Corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
-      "category": "CareerTactic",
-      "gameId": 8585,
-      "componentValues": {
-        "ABIL_3337_COM_0_VAL0_CORPOREALDAMAGE": 150,
-        "COM_1_RADI_FEET": 30
-      },
-      "rawDescription": "Rituals will now pulse {ABIL_3337_COM_0_VAL0_CORPOREALDAMAGE} to all targets within {COM_1_RADI_FEET} every 3 seconds based on Mastery level of the Ritual."
+      "description": "Rituals will now pulse 150 Corporeal damage to all targets within {COM_1_RADI_FEET: Component Id 0 not found} every 3 seconds based on Mastery level of the Ritual.",
+      "category": "CareerTactic"
     },
     {
       "image": "05149",
       "id": 5745,
+      "gameId": 8579,
       "name": "Wind of Insanity",
       "type": "Blessing",
       "spec": "Path of Dark Rites",
@@ -1485,18 +1171,12 @@
       "cooldown": "26s cooldown",
       "note": "",
       "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 234 damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<BR>This spell may be toggled off to regain your movement.",
-      "category": "Ability",
-      "gameId": 8579,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 6,
-        "COM_1_VAL0_DAMAGE": 234,
-        "COM_1_RADI_FEET": 30
-      },
-      "rawDescription": "You securely root yourself in place to call fourth ferocious winds for up to {COM_0_DURA_SECONDS} that inflict {COM_1_VAL0_DAMAGE} every second to targets within {COM_1_RADI_FEET} of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<BR>This spell may be toggled off to regain your movement."
+      "category": "Ability"
     },
     {
       "image": "05247",
       "id": 5746,
+      "gameId": 8613,
       "name": "Windblock",
       "type": "Damaging",
       "spec": "Path of Dark Rites",
@@ -1507,14 +1187,7 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Inflicts 1800 damage to all targets within 30 feet of you, making heals 50% less effective on them for 10 seconds. This ability hits max 9 targets.",
-      "category": "Morale",
-      "gameId": 8613,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1800,
-        "COM_0_RADI_FEET": 30,
-        "COM_1_DURA_SECONDS": 10
-      },
-      "rawDescription": "Inflicts {COM_0_VAL0_DAMAGE} to all targets within {COM_0_RADI_FEET} of you, making heals 50% less effective on them for {COM_1_DURA_SECONDS}. This ability hits max 9 targets."
+      "category": "Morale"
     }
   ]
 }

@@ -71,6 +71,7 @@
     {
       "image": "abi_em_purgatory",
       "id": 4323,
+      "gameId": 9700,
       "name": "Purgatory",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -81,16 +82,12 @@
       "cooldown": "20s cooldown",
       "note": "Only usable on Dead Players",
       "description": "You drive your stake through the heretic's heart, invoking Sigmar's name to repel the abomination. They cannot be resurrected for the next 30 seconds.",
-      "category": "Ability",
-      "gameId": 9700,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 30
-      },
-      "rawDescription": "You drive your stake through the heretic's heart, invoking Sigmar's name to repel the abomination. They cannot be resurrected for the next {COM_0_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "08051",
       "id": 4335,
+      "gameId": 8082,
       "name": "Absolution",
       "type": "Damaging",
       "spec": "Path of Judgment",
@@ -100,21 +97,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A precision shot to the enemy's vital organs which deals damage based on combo points.<BR>   1 Accusation:  314 damage. <BR>   2 Accusations:  401 damage.<BR>   3 Accusations:  490 damage.<BR>   4 Accusations:  577 damage.<BR>   5 Accusations:  663 damage.",
-      "category": "Ability",
-      "gameId": 8082,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 314,
-        "COM_1_VAL0_DAMAGE": 401,
-        "COM_2_VAL0_DAMAGE": 490,
-        "COM_3_VAL0_DAMAGE": 577,
-        "COM_4_VAL0_DAMAGE": 663
-      },
-      "rawDescription": "A precision shot to the enemy's vital organs which deals damage based on combo points.<BR>   1 Accusation:  {COM_0_VAL0_DAMAGE}. <BR>   2 Accusations:  {COM_1_VAL0_DAMAGE}.<BR>   3 Accusations:  {COM_2_VAL0_DAMAGE}.<BR>   4 Accusations:  {COM_3_VAL0_DAMAGE}.<BR>   5 Accusations:  {COM_4_VAL0_DAMAGE}."
+      "description": "A precision shot to the enemy's vital organs which deals damage based on combo points.<BR>   1 Accusation:  314 damage. <BR>   2 Accusations:  400 damage.<BR>   3 Accusations:  489 damage.<BR>   4 Accusations:  576 damage.<BR>   5 Accusations:  662 damage.",
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 4393,
+      "gameId": 8138,
       "name": "Atonement",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -125,16 +114,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases Absolution's chance to critically hit by 25%.",
-      "category": "CareerTactic",
-      "gameId": 8138,
-      "componentValues": {
-        "COM_0_VAL1": 0
-      },
-      "rawDescription": "Increases Absolution's chance to critically hit by {COM_0_VAL1}%."
+      "category": "CareerTactic"
     },
     {
       "image": "07974",
       "id": 4353,
+      "gameId": 8089,
       "name": "Blessed Bullets of Cleansing",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -145,18 +130,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 337 Spirit damage to the target.  The victim will lose 20 Action Points, and you will gain 20 Action Points.<BR><BR>This ability may be used while Incognito without breaking the effect.",
-      "category": "Ability",
-      "gameId": 8089,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 337,
-        "COM_1_VAL0_COM_1_VAL0_ACTIONPOINTS": 20,
-        "COM_1_VAL0_COM_2_VAL0_ACTIONPOINTS": 20
-      },
-      "rawDescription": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional {COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE} to the target.  The victim will lose {COM_1_VAL0_COM_1_VAL0_ACTIONPOINTS}, and you will gain {COM_1_VAL0_COM_2_VAL0_ACTIONPOINTS}.<BR><BR>This ability may be used while Incognito without breaking the effect."
+      "category": "Ability"
     },
     {
       "image": "07970",
       "id": 4342,
+      "gameId": 8099,
       "name": "Blessed Bullets of Confession",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -166,19 +145,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional 225 Spirit damage.  Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect.",
-      "category": "Ability",
-      "gameId": 8099,
-      "componentValues": {
-        "ABIL_3002_COM_0_VAL0_SPIRITDAMAGE": 337,
-        "COM_1_VAL0_COM_1_DURA_SECONDS": 5,
-        "COM_1_VAL0_COM_1_VAL1": 0
-      },
-      "rawDescription": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional {ABIL_3002_COM_0_VAL0_SPIRITDAMAGE}.  Any healing abilities that the victim uses over the next {COM_1_VAL0_COM_1_DURA_SECONDS} will become {COM_1_VAL0_COM_1_VAL1}% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect."
+      "description": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional 337 Spirit damage.  Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "category": "Ability"
     },
     {
       "image": "08045",
       "id": 4337,
+      "gameId": 8084,
       "name": "Blessed Bullets of Purity",
       "type": "Buff",
       "spec": "Path of Confession",
@@ -189,19 +162,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 337 Spirit damage.  The victim's Initiative will be reduced by 80 for 10 seconds, and your Initiative will be increased by 80.<BR><BR>This ability may be used while Incognito without breaking the effect.",
-      "category": "Ability",
-      "gameId": 8084,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE": 337,
-        "COM_1_VAL0_COM_1_VAL0": 80,
-        "COM_1_VAL0_COM_1_DURA_SECONDS": 10,
-        "COM_1_VAL0_COM_2_VAL0_COM_0_VAL0": 80
-      },
-      "rawDescription": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional {COM_1_VAL0_COM_0_VAL0_SPIRITDAMAGE}.  The victim's Initiative will be reduced by {COM_1_VAL0_COM_1_VAL0} for {COM_1_VAL0_COM_1_DURA_SECONDS}, and your Initiative will be increased by {COM_1_VAL0_COM_2_VAL0_COM_0_VAL0}.<BR><BR>This ability may be used while Incognito without breaking the effect."
+      "category": "Ability"
     },
     {
       "image": "22696",
       "id": 4362,
+      "gameId": 8126,
       "name": "Blood, Faith, And Fire",
       "type": "Buff",
       "spec": "Core Ability",
@@ -212,16 +178,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you land a killing blow on your enemy, all of your groupmates within 30 feet will regain 75 Action Points.",
-      "category": "CareerTactic",
-      "gameId": 8126,
-      "componentValues": {
-        "COM_1_VAL0_ACTIONPOINTS": 75
-      },
-      "rawDescription": "Any time you land a killing blow on your enemy, all of your groupmates within 30 feet will regain {COM_1_VAL0_ACTIONPOINTS}."
+      "category": "CareerTactic"
     },
     {
       "image": "23156",
       "id": 4374,
+      "gameId": 629,
       "name": "Broad Swings",
       "type": "Buff",
       "spec": "Core Ability",
@@ -232,16 +194,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
-      "category": "Morale",
-      "gameId": 629,
-      "componentValues": {
-        "COM_1_RADI_FEET": 25
-      },
-      "rawDescription": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within {COM_1_RADI_FEET} in front of you."
+      "category": "Morale"
     },
     {
       "image": "22701",
       "id": 4367,
+      "gameId": 521,
       "name": "Brute Force",
       "type": "Buff",
       "spec": "Core Ability",
@@ -252,16 +210,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Strength by 160.",
-      "category": "CareerTactic",
-      "gameId": 521,
-      "componentValues": {
-        "COM_0_VAL0": 160
-      },
-      "rawDescription": "Increases your Strength by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "07971",
       "id": 4344,
+      "gameId": 8091,
       "name": "Burn Armor",
       "type": "Ailment",
       "spec": "Path of Confession",
@@ -271,21 +225,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "A surprise attack that burns all targets 10 feet in front of you, causing them to take 125 Spirit damage and reducing their armor by 618. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
-      "category": "Ability",
-      "gameId": 8091,
-      "componentValues": {
-        "COM_0_RADI_FEET": 10,
-        "COM_1_VAL0_SPIRITDAMAGE": 187,
-        "COM_0_VAL0": 990,
-        "COM_2_VAL0_COM_0_VAL1": 0,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "A surprise attack that burns all targets {COM_0_RADI_FEET} in front of you, causing them to take {COM_1_VAL0_SPIRITDAMAGE} and reducing their armor by {COM_0_VAL0}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
+      "description": "A surprise attack that burns all targets 10 feet in front of you, causing them to take 187 Spirit damage and reducing their armor by 990. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
+      "category": "Ability"
     },
     {
       "image": "08049",
       "id": 4398,
+      "gameId": 8116,
       "name": "Burn Away Lies",
       "type": "Ailment",
       "spec": "Path of Judgment",
@@ -295,27 +241,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  957 damage over time; 482 ending damage.<BR>   2 Accusations:  1236 damage over time; 631 ending damage.<BR>   3 Accusations:  1518 damage over time; 769 ending damage.<BR>   4 Accusations:  1800 damage over time; 911 ending damage.<BR>   5 Accusations:  2082 damage over time; 1056 ending damage.<BR>",
-      "category": "Ability",
-      "gameId": 8116,
-      "componentValues": {
-        "ABIL_3921_COM_0_DURA_SECONDS": 9,
-        "ABIL_3921_COM_0_VAL0_TOD_DAMAGE": 957,
-        "ABIL_3921_COM_1_VAL0": 482,
-        "ABIL_3922_COM_0_VAL0_TOD_DAMAGE": 1236,
-        "ABIL_3922_COM_1_VAL0": 631,
-        "ABIL_3923_COM_0_VAL0_TOD_DAMAGE": 1518,
-        "ABIL_3923_COM_1_VAL0": 769,
-        "ABIL_3924_COM_0_VAL0_TOD_DAMAGE": 1800,
-        "ABIL_3924_COM_1_VAL0": 911,
-        "ABIL_3925_COM_0_VAL0_TOD_DAMAGE": 2082,
-        "ABIL_3925_COM_1_VAL0": 1056
-      },
-      "rawDescription": "A pistol shot that fires bullets filled with fire oil, first dealing damage over {ABIL_3921_COM_0_DURA_SECONDS} and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  {ABIL_3921_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3921_COM_1_VAL0} ending damage.<BR>   2 Accusations:  {ABIL_3922_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3922_COM_1_VAL0} ending damage.<BR>   3 Accusations:  {ABIL_3923_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3923_COM_1_VAL0} ending damage.<BR>   4 Accusations:  {ABIL_3924_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3924_COM_1_VAL0} ending damage.<BR>   5 Accusations:  {ABIL_3925_COM_0_VAL0_TOD_DAMAGE} over time; {ABIL_3925_COM_1_VAL0} ending damage.<BR>"
+      "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  957 damage over time; 482 ending damage.<BR>   2 Accusations:  1236 damage over time; 630 ending damage.<BR>   3 Accusations:  1518 damage over time; 768 ending damage.<BR>   4 Accusations:  1800 damage over time; 910 ending damage.<BR>   5 Accusations:  2082 damage over time; 1055 ending damage.<BR>",
+      "category": "Ability"
     },
     {
       "image": "08046",
       "id": 4339,
+      "gameId": 8093,
       "name": "Burn, Heretic!",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -326,21 +258,12 @@
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<BR>   1 Accusation:  750 damage<BR>   2 Accusations:  954 damage<BR>   3 Accusations:  1182 damage<BR>   4 Accusations:  1380 damage<BR>   5 Accusations:  1608 damage",
-      "category": "Ability",
-      "gameId": 8093,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_VAL0_TOD_DAMAGE": 750,
-        "COM_1_VAL0_TOD_DAMAGE": 954,
-        "COM_2_VAL0_TOD_DAMAGE": 1182,
-        "COM_3_VAL0_TOD_DAMAGE": 1380,
-        "COM_4_VAL0_TOD_DAMAGE": 1608
-      },
-      "rawDescription": "A cleansing shot of flame which deals damage to your target over {COM_0_DURA_SECONDS}.<BR>   1 Accusation:  {COM_0_VAL0_TOD_DAMAGE}<BR>   2 Accusations:  {COM_1_VAL0_TOD_DAMAGE}<BR>   3 Accusations:  {COM_2_VAL0_TOD_DAMAGE}<BR>   4 Accusations:  {COM_3_VAL0_TOD_DAMAGE}<BR>   5 Accusations:  {COM_4_VAL0_TOD_DAMAGE}"
+      "category": "Ability"
     },
     {
       "image": "07976",
       "id": 4346,
+      "gameId": 8086,
       "name": "Confess!",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -351,17 +274,12 @@
       "cooldown": "10s cooldown",
       "note": "Requires Parry",
       "description": "A savage counterattack that deals 314 damage and disarms your target for 4 seconds, making them unable to use their weapons.",
-      "category": "Ability",
-      "gameId": 8086,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 314,
-        "COM_1_DURA_SECONDS": 4
-      },
-      "rawDescription": "A savage counterattack that deals {COM_0_VAL0_DAMAGE} and disarms your target for {COM_1_DURA_SECONDS}, making them unable to use their weapons."
+      "category": "Ability"
     },
     {
       "image": "23157",
       "id": 4372,
+      "gameId": 631,
       "name": "Confusing Movements",
       "type": "Buff",
       "spec": "Core Ability",
@@ -372,16 +290,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
-      "category": "Morale",
-      "gameId": 631,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "07981",
       "id": 4354,
+      "gameId": 8094,
       "name": "Declare Anathema",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -392,16 +306,12 @@
       "cooldown": "30s cooldown",
       "note": "You cannot perform this action while rooted",
       "description": "You leap backwards from your target, causing your target to be Staggered for up to 6 seconds, preventing all actions unless they're damaged.",
-      "category": "Ability",
-      "gameId": 8094,
-      "componentValues": {
-        "ABIL_3033_COM_0_DURA_SECONDS": 6
-      },
-      "rawDescription": "You leap backwards from your target, causing your target to be Staggered for up to {ABIL_3033_COM_0_DURA_SECONDS}, preventing all actions unless they're damaged."
+      "category": "Ability"
     },
     {
       "image": "07980",
       "id": 4385,
+      "gameId": 8152,
       "name": "Divine Blast",
       "type": "Damaging",
       "spec": "Path of Confession",
@@ -412,17 +322,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 2400 damage to all enemies in front of you, up to 65 feet away.",
-      "category": "Morale",
-      "gameId": 8152,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 2400,
-        "COM_0_RADI_FEET": 65
-      },
-      "rawDescription": "Deals {COM_0_VAL0_DAMAGE} to all enemies in front of you, up to {COM_0_RADI_FEET} away."
+      "category": "Morale"
     },
     {
       "image": "08047",
       "id": 4384,
+      "gameId": 8110,
       "name": "Dragon Gun",
       "type": "Damaging",
       "spec": "Path of Confession",
@@ -432,26 +337,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  210 damage, 30 feet radius.<BR>   2 Accusations:  272 damage, 35 feet radius.<BR>   3 Accusations:  336 damage, 40 feet radius.<BR>   4 Accusations:  398 damage, 43 feet radius.<BR>   5 Accusations:  459 damage, 48 feet radius.",
-      "category": "Ability",
-      "gameId": 8110,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 210,
-        "COM_0_RADI_FEET": 30,
-        "COM_1_VAL0_DAMAGE": 272,
-        "COM_1_RADI_FEET": 35,
-        "COM_2_VAL0_DAMAGE": 336,
-        "COM_2_RADI_FEET": 40,
-        "COM_3_VAL0_DAMAGE": 398,
-        "COM_3_RADI_FEET": 43,
-        "COM_4_VAL0_DAMAGE": 459,
-        "COM_4_RADI_FEET": 48
-      },
-      "rawDescription": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  {COM_0_VAL0_DAMAGE}, {COM_0_RADI_FEET} radius.<BR>   2 Accusations:  {COM_1_VAL0_DAMAGE}, {COM_1_RADI_FEET} radius.<BR>   3 Accusations:  {COM_2_VAL0_DAMAGE}, {COM_2_RADI_FEET} radius.<BR>   4 Accusations:  {COM_3_VAL0_DAMAGE}, {COM_3_RADI_FEET} radius.<BR>   5 Accusations:  {COM_4_VAL0_DAMAGE}, {COM_4_RADI_FEET} radius."
+      "description": "A pistol shot that damages and knocks down your primary target and deals damage to all other enemies near them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  210 damage, 30 feet radius.<BR>   2 Accusations:  271 damage, 35 feet radius.<BR>   3 Accusations:  335 damage, 40 feet radius.<BR>   4 Accusations:  397 damage, 43.333333333333336 feet radius.<BR>   5 Accusations:  458 damage, 48.333333333333336 feet radius.",
+      "category": "Ability"
     },
     {
       "image": "22710",
       "id": 4376,
+      "gameId": 779,
       "name": "Emperor's Ward",
       "type": "Buff",
       "spec": "Core Ability",
@@ -462,17 +354,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<BR>This effect will not trigger more than once every 3 seconds.",
-      "category": "CareerTactic",
-      "gameId": 779,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10,
-        "COM_1_VAL0_COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to {COM_1_VAL0_COM_0_DURA_SECONDS}, which will absorb up to {COM_1_VAL0_COM_0_VAL1_DAMAGE}.<BR>This effect will not trigger more than once every 3 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 4361,
+      "gameId": 8136,
       "name": "Encourage Confession",
       "type": "Buff",
       "spec": "Core Ability",
@@ -483,16 +370,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Blessed Bullets of Confession will now also make the target 5% easier to critical hit.",
-      "category": "CareerTactic",
-      "gameId": 8136,
-      "componentValues": {
-        "ABIL_3784_COM_2_VAL1": 0
-      },
-      "rawDescription": "Blessed Bullets of Confession will now also make the target {ABIL_3784_COM_2_VAL1}% easier to critical hit."
+      "category": "CareerTactic"
     },
     {
       "image": "07978",
       "id": 4392,
+      "gameId": 8153,
       "name": "Excommunicate",
       "type": "Damaging",
       "spec": "Path of Inquisition",
@@ -503,19 +386,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 15 seconds, heals will have no effects on your target.  The target and all other enemies within 20 feet of them will suffer 1800 damage over 15 seconds.",
-      "category": "Morale",
-      "gameId": 8153,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 15,
-        "COM_1_RADI_FEET": 20,
-        "COM_1_VAL0_TOD_DAMAGE": 1800,
-        "COM_1_DURA_SECONDS": 15
-      },
-      "rawDescription": "For the next {COM_0_DURA_SECONDS}, heals will have no effects on your target.  The target and all other enemies within {COM_1_RADI_FEET} of them will suffer {COM_1_VAL0_TOD_DAMAGE} over {COM_1_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "07982",
       "id": 4391,
+      "gameId": 8113,
       "name": "Exit Wound",
       "type": "Defensive",
       "spec": "Path of Inquisition",
@@ -526,26 +402,12 @@
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<BR>   1 Accusation:  352 damage; stats reduced by 80.<BR>    2 Accusations:  451 damage; stats reduced by 120.<BR>    3 Accusations:  553 damage; stats reduced by 160.<BR>    4 Accusations:  652 damage; stats reduced by 200.<BR>    5 Accusations:  751 damage; stats reduced by 240.",
-      "category": "Ability",
-      "gameId": 8113,
-      "componentValues": {
-        "ABIL_3983_COM_1_DURA_SECONDS": 10,
-        "ABIL_3983_COM_0_VAL0_DAMAGE": 352,
-        "ABIL_3983_COM_1_VAL0": 80,
-        "ABIL_3984_COM_0_VAL0_DAMAGE": 451,
-        "ABIL_3984_COM_1_VAL0": 120,
-        "ABIL_3985_COM_0_VAL0_DAMAGE": 553,
-        "ABIL_3985_COM_1_VAL0": 160,
-        "ABIL_3986_COM_0_VAL0_DAMAGE": 652,
-        "ABIL_3986_COM_1_VAL0": 200,
-        "ABIL_3987_COM_0_VAL0_DAMAGE": 751,
-        "ABIL_3987_COM_1_VAL0": 240
-      },
-      "rawDescription": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for {ABIL_3983_COM_1_DURA_SECONDS}.<BR>   1 Accusation:  {ABIL_3983_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3983_COM_1_VAL0}.<BR>    2 Accusations:  {ABIL_3984_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3984_COM_1_VAL0}.<BR>    3 Accusations:  {ABIL_3985_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3985_COM_1_VAL0}.<BR>    4 Accusations:  {ABIL_3986_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3986_COM_1_VAL0}.<BR>    5 Accusations:  {ABIL_3987_COM_0_VAL0_DAMAGE}; stats reduced by {ABIL_3987_COM_1_VAL0}."
+      "category": "Ability"
     },
     {
       "image": "07988",
       "id": 4363,
+      "gameId": 8146,
       "name": "Exoneration",
       "type": "Healing",
       "spec": "Core Ability",
@@ -556,18 +418,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You regain 1197 health and 180 Action Points over 9 seconds.",
-      "category": "Morale",
-      "gameId": 8146,
-      "componentValues": {
-        "COM_0_VAL0_TOD_HEALTH": 1197,
-        "COM_1_VAL0_TOD_ACTIONPOINTS": 180,
-        "COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "You regain {COM_0_VAL0_TOD_HEALTH} and {COM_1_VAL0_TOD_ACTIONPOINTS} over {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "07989",
       "id": 4399,
+      "gameId": 8154,
       "name": "Expurgation",
       "type": "Damaging",
       "spec": "Path of Judgment",
@@ -578,19 +434,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 2400 damage over 10 seconds to all enemies within 30 feet and snares them, reducing their run speed by 60%.",
-      "category": "Morale",
-      "gameId": 8154,
-      "componentValues": {
-        "COM_0_VAL0_TOD_DAMAGE": 2400,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_0_RADI_FEET": 30,
-        "COM_1_VAL0": 60
-      },
-      "rawDescription": "Deals {COM_0_VAL0_TOD_DAMAGE} over {COM_0_DURA_SECONDS} to all enemies within {COM_0_RADI_FEET} and snares them, reducing their run speed by {COM_1_VAL0}%."
+      "category": "Morale"
     },
     {
       "image": "22709",
       "id": 4395,
+      "gameId": 8137,
       "name": "Fanatical Cleansing",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -601,14 +450,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your critical hits will inflict 50% more damage.",
-      "category": "CareerTactic",
-      "gameId": 8137,
-      "componentValues": {},
-      "rawDescription": "Your critical hits will inflict 50% more damage."
+      "category": "CareerTactic"
     },
     {
       "image": "07983",
       "id": 4352,
+      "gameId": 8098,
       "name": "Fanatical Zeal",
       "type": "Ailment",
       "spec": "Path of Judgment",
@@ -618,20 +465,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "You leap from the shadows, fueled with righteous anger. Your target will take 175 Spirit damage every time they use a magical ability for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
-      "category": "Ability",
-      "gameId": 8098,
-      "componentValues": {
-        "COM_1_VAL0_SPIRITDAMAGE": 262,
-        "COM_0_DURA_SECONDS": 15,
-        "COM_3_VAL0_COM_0_VAL1": 0,
-        "COM_3_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You leap from the shadows, fueled with righteous anger. Your target will take {COM_1_VAL0_SPIRITDAMAGE} every time they use a magical ability for the next {COM_0_DURA_SECONDS}. Your abilities will cost {COM_3_VAL0_COM_0_VAL1}% fewer Action Points for {COM_3_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
+      "description": "You leap from the shadows, fueled with righteous anger. Your target will take 262 Spirit damage every time they use a magical ability for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
+      "category": "Ability"
     },
     {
       "image": "07972",
       "id": 4340,
+      "gameId": 8092,
       "name": "Feinted Positioning",
       "type": "Buff",
       "spec": "Core Ability",
@@ -642,16 +482,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Your positional attacks can be used without the positional requirement for 10 seconds. Does not affect morale abilities.",
-      "category": "Ability",
-      "gameId": 8092,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Your positional attacks can be used without the positional requirement for {COM_0_DURA_SECONDS}. Does not affect morale abilities."
+      "category": "Ability"
     },
     {
       "image": "08052",
       "id": 4336,
+      "gameId": 8083,
       "name": "Fervor",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -662,18 +498,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
       "description": "A precise incision that deals 166 damage, and an additional 297 Spirit damage over 9 seconds.  This effect can be stacked up to 3 times.",
-      "category": "Ability",
-      "gameId": 8083,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 166,
-        "COM_2_VAL0_COM_1_VAL0_TOD_SPIRITDAMAGE": 297,
-        "COM_2_VAL0_COM_1_DURA_SECONDS": 9
-      },
-      "rawDescription": "A precise incision that deals {COM_0_VAL0_DAMAGE}, and an additional {COM_2_VAL0_COM_1_VAL0_TOD_SPIRITDAMAGE} over {COM_2_VAL0_COM_1_DURA_SECONDS}.  This effect can be stacked up to 3 times."
+      "category": "Ability"
     },
     {
       "image": "22704",
       "id": 4368,
+      "gameId": 523,
       "name": "Flanking",
       "type": "Buff",
       "spec": "Core Ability",
@@ -684,16 +514,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
-      "category": "CareerTactic",
-      "gameId": 523,
-      "componentValues": {
-        "COM_0_VAL0": 15
-      },
-      "rawDescription": "All of your attacks deal {COM_0_VAL0}% more damage when you strike an enemy from the sides or rear."
+      "category": "CareerTactic"
     },
     {
       "image": "05004",
       "id": 4434,
+      "gameId": 245,
       "name": "Flee",
       "type": "Buff",
       "spec": "Core Ability",
@@ -704,18 +530,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
-      "category": "Ability",
-      "gameId": 245,
-      "componentValues": {
-        "COM_0_VAL0": 30,
-        "COM_0_DURA_SECONDS": 10,
-        "COM_4_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You run away from the battle in a mad panic, increasing your run speed by {COM_0_VAL0} for {COM_0_DURA_SECONDS}.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until {COM_4_VAL0_COM_0_DURA_SECONDS} have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration."
+      "category": "Ability"
     },
     {
       "image": "22710",
       "id": 4356,
+      "gameId": 8121,
       "name": "Flowing Accusations",
       "type": "Buff",
       "spec": "Core Ability",
@@ -726,14 +546,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "All of your Executions gain a 50% chance to restore 2 Accusations.",
-      "category": "CareerTactic",
-      "gameId": 8121,
-      "componentValues": {},
-      "rawDescription": "All of your Executions gain a 50% chance to restore 2 Accusations."
+      "category": "CareerTactic"
     },
     {
       "image": "23158",
       "id": 4371,
+      "gameId": 628,
       "name": "Force of Will",
       "type": "Buff",
       "spec": "Core Ability",
@@ -744,18 +562,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
-      "category": "Morale",
-      "gameId": 628,
-      "componentValues": {
-        "COM_0_VAL0": 200,
-        "COM_2_VAL0": 160,
-        "COM_2_DURA_SECONDS": 30
-      },
-      "rawDescription": "You stare down your opponent, draining {COM_0_VAL0} of their Action Points into yourself, and reducing their Strength by {COM_2_VAL0} for {COM_2_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "23159",
       "id": 4375,
+      "gameId": 630,
       "name": "Frenzied Slaughter",
       "type": "Buff",
       "spec": "Core Ability",
@@ -766,14 +578,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
-      "category": "Morale",
-      "gameId": 630,
-      "componentValues": {},
-      "rawDescription": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds."
+      "category": "Morale"
     },
     {
       "image": "22701",
       "id": 4386,
+      "gameId": 8134,
       "name": "Full Confession",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -784,14 +594,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Confess! no longer costs action points, and it will nearly always critically hit.",
-      "category": "CareerTactic",
-      "gameId": 8134,
-      "componentValues": {},
-      "rawDescription": "Confess! no longer costs action points, and it will nearly always critically hit."
+      "category": "CareerTactic"
     },
     {
       "image": "07968",
       "id": 4341,
+      "gameId": 8088,
       "name": "Get Thee Behind Me!",
       "type": "Debuff",
       "spec": "Core Ability",
@@ -802,18 +610,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end.",
-      "category": "Ability",
-      "gameId": 8088,
-      "componentValues": {
-        "COM_0_RADI_FEET": 30,
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 15
-      },
-      "rawDescription": "Detaunts all enemies within {COM_0_RADI_FEET}, making them hate you less and causing them to deal only {COM_0_VAL0}% damage to you for {COM_0_DURA_SECONDS}. You will also deal {COM_0_VAL0}% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end."
+      "category": "Ability"
     },
     {
       "image": "07985",
       "id": 4343,
+      "gameId": 8090,
       "name": "Incognito",
       "type": "Buff",
       "spec": "Core Ability",
@@ -824,14 +626,12 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, or run out of action points.",
-      "category": "Ability",
-      "gameId": 8090,
-      "componentValues": {},
-      "rawDescription": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities, or run out of action points."
+      "category": "Ability"
     },
     {
       "image": "22708",
       "id": 4355,
+      "gameId": 8120,
       "name": "Inquisitor's Fury",
       "type": "Buff",
       "spec": "Core Ability",
@@ -842,17 +642,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you critically hit an enemy, your autoattack speed will be increased by 50% for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8120,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL1": 0,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Each time you critically hit an enemy, your autoattack speed will be increased by {COM_1_VAL0_COM_0_VAL1}% for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22694",
       "id": 4366,
+      "gameId": 526,
       "name": "Jagged Edge",
       "type": "Buff",
       "spec": "Core Ability",
@@ -863,17 +658,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 526,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD": 606,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Any time you critically hit an enemy they will begin to bleed, suffering additional {COM_1_VAL0_COM_0_VAL0_TOD} Corporeal damage over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 4359,
+      "gameId": 8124,
       "name": "Last Rites",
       "type": "Buff",
       "spec": "Core Ability",
@@ -884,17 +674,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you land a killing blow on an enemy, you will regain 576 health over 9 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8124,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0_TOD_HEALTH": 576,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 9
-      },
-      "rawDescription": "Any time you land a killing blow on an enemy, you will regain {COM_1_VAL0_COM_0_VAL0_TOD_HEALTH} over {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22694",
       "id": 4358,
+      "gameId": 8123,
       "name": "Penetrating Barbs",
       "type": "Buff",
       "spec": "Core Ability",
@@ -905,14 +690,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases the durations of Fanatical Zeal, Burn Armor, and Sudden Accusation by an additional 5 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8123,
-      "componentValues": {},
-      "rawDescription": "Increases the durations of Fanatical Zeal, Burn Armor, and Sudden Accusation by an additional 5 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "23412",
       "id": 4400,
+      "gameId": 14427,
       "name": "Pick Lock",
       "type": "Buff",
       "spec": "Core Ability",
@@ -923,16 +706,12 @@
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
-      "category": "Ability",
-      "gameId": 14427,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You bolster yourself for {COM_0_DURA_SECONDS}, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside."
+      "category": "Ability"
     },
     {
       "image": "07984",
       "id": 4396,
+      "gameId": 8115,
       "name": "Pistol Whip",
       "type": "Ailment",
       "spec": "Path of Judgment",
@@ -943,17 +722,12 @@
       "cooldown": "20s cooldown",
       "note": "Requires Pistol<br>Builds 1 Accusation<br>Target must be facing away from you",
       "description": "A quick backhand blow with the butt of your pistol that deals 389 damage and knocks your target down for 3 seconds.",
-      "category": "Ability",
-      "gameId": 8115,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 389,
-        "COM_1_DURA_SECONDS": 3
-      },
-      "rawDescription": "A quick backhand blow with the butt of your pistol that deals {COM_0_VAL0_DAMAGE} and knocks your target down for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 4388,
+      "gameId": 8135,
       "name": "Prolonged Confession",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -964,14 +738,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "All attacks that build Accusations have a 50% chance to build an additional Accusation.",
-      "category": "CareerTactic",
-      "gameId": 8135,
-      "componentValues": {},
-      "rawDescription": "All attacks that build Accusations have a 50% chance to build an additional Accusation."
+      "category": "CareerTactic"
     },
     {
       "image": "22709",
       "id": 4390,
+      "gameId": 8127,
       "name": "Protection from Heresy",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -981,17 +753,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When leaving Incognito, you will become protected by a barrier that will absorb up to 475 damage",
-      "category": "CareerTactic",
-      "gameId": 8127,
-      "componentValues": {
-        "ABIL_3003_COM_0_VAL1_DAMAGE": 0
-      },
-      "rawDescription": "When leaving Incognito, you will become protected by a barrier that will absorb up to {ABIL_3003_COM_0_VAL1_DAMAGE}"
+      "description": "When leaving Incognito, you will become protected by a barrier that will absorb up to 712 damage",
+      "category": "CareerTactic"
     },
     {
       "image": "07977",
       "id": 4389,
+      "gameId": 8112,
       "name": "Punish The False",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -1002,17 +770,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 1 Accusation",
       "description": "A precision blow that deals 277 damage, and causes a lingering wound which reduces the effectiveness of all healing by 50% for 10 seconds.",
-      "category": "Ability",
-      "gameId": 8112,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 277,
-        "COM_2_DURA_SECONDS": 10
-      },
-      "rawDescription": "A precision blow that deals {COM_0_VAL0_DAMAGE}, and causes a lingering wound which reduces the effectiveness of all healing by 50% for {COM_2_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "07965",
       "id": 4436,
+      "gameId": 8081,
       "name": "Razor Strike",
       "type": "Damaging",
       "spec": "Path of Confession",
@@ -1023,16 +786,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
       "description": "A quick precision strike that deals 314 damage.",
-      "category": "Ability",
-      "gameId": 8081,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 314
-      },
-      "rawDescription": "A quick precision strike that deals {COM_0_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "23160",
       "id": 4373,
+      "gameId": 633,
       "name": "Relentless Assault",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1043,17 +802,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
-      "category": "Morale",
-      "gameId": 633,
-      "componentValues": {
-        "COM_0_VAL0_ACTIONPOINTS": 10,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "A prolonged fervor that grants {COM_0_VAL0_ACTIONPOINTS} a second to everyone in your group within 100 feet of you for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "08050",
       "id": 4382,
+      "gameId": 8109,
       "name": "Repel Blasphemy",
       "type": "Blessing",
       "spec": "Path of Confession",
@@ -1064,18 +818,12 @@
       "cooldown": "30s cooldown",
       "note": "Builds 1 Accusation",
       "description": "A melee attack that deals 389 damage.  Your chance to parry attacks is increased by 100% for the next 5 seconds.",
-      "category": "Ability",
-      "gameId": 8109,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 389,
-        "COM_1_VAL0": 100,
-        "COM_1_DURA_SECONDS": 5
-      },
-      "rawDescription": "A melee attack that deals {COM_0_VAL0_DAMAGE}.  Your chance to parry attacks is increased by {COM_1_VAL0}% for the next {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "07987",
       "id": 4364,
+      "gameId": 8147,
       "name": "Reversal of Fortune",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1086,17 +834,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You turn your enemy's luck against them, dealing 1200 damage to all targets in line in front of you, up to 65 feet away from you.",
-      "category": "Morale",
-      "gameId": 8147,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200,
-        "COM_0_RADI_FEET": 65
-      },
-      "rawDescription": "You turn your enemy's luck against them, dealing {COM_0_VAL0_DAMAGE} to all targets in line in front of you, up to {COM_0_RADI_FEET} away from you."
+      "category": "Morale"
     },
     {
       "image": "22702",
       "id": 4357,
+      "gameId": 8122,
       "name": "Righteous Steel",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1107,16 +850,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to parry attacks by 10%.",
-      "category": "CareerTactic",
-      "gameId": 8122,
-      "componentValues": {
-        "COM_0_VAL0": 10
-      },
-      "rawDescription": "Increases your chance to parry attacks by {COM_0_VAL0}%."
+      "category": "CareerTactic"
     },
     {
       "image": "22702",
       "id": 4369,
+      "gameId": 528,
       "name": "Riposte",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1127,16 +866,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you parry an enemy's attack, you will strike them back for 239 damage which they can not prevent.",
-      "category": "CareerTactic",
-      "gameId": 528,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 239
-      },
-      "rawDescription": "Each time you parry an enemy's attack, you will strike them back for {COM_1_VAL0_DAMAGE} which they can not prevent."
+      "category": "CareerTactic"
     },
     {
       "image": "22706",
       "id": 4381,
+      "gameId": 8132,
       "name": "Sanctified Bullets",
       "type": "Buff",
       "spec": "Path of Confession",
@@ -1147,14 +882,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Blessed Bullets of Purity will now heal you for 150% of the damage that they cause.",
-      "category": "CareerTactic",
-      "gameId": 8132,
-      "componentValues": {},
-      "rawDescription": "Blessed Bullets of Purity will now heal you for 150% of the damage that they cause."
+      "category": "CareerTactic"
     },
     {
       "image": "07978",
       "id": 4387,
+      "gameId": 8111,
       "name": "Seal of Destruction",
       "type": "Buff",
       "spec": "Path of Inquisition",
@@ -1165,16 +898,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.<BR>You may only use a single relic at a time.",
-      "category": "Ability",
-      "gameId": 8111,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next {COM_0_DURA_SECONDS}.<BR>You may only use a single relic at a time."
+      "category": "Ability"
     },
     {
       "image": "08053",
       "id": 4351,
+      "gameId": 8097,
       "name": "Seeker's Blade",
       "type": "Ailment",
       "spec": "Path of Confession",
@@ -1185,18 +914,12 @@
       "cooldown": "10s cooldown",
       "note": "Builds 1 Accusation",
       "description": "A melee attack that can not be defended against, and deals 314 damage.  If the target is Ailing, then they will also become Cursed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
-      "category": "Ability",
-      "gameId": 8097,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 314,
-        "COM_2_DURA_SECONDS": 15,
-        "COM_2_VAL0": 5
-      },
-      "rawDescription": "A melee attack that can not be defended against, and deals {COM_0_VAL0_DAMAGE}.  If the target is Ailing, then they will also become Cursed for {COM_2_DURA_SECONDS}, reducing their chances to block, parry, dodge, and disrupt attacks by {COM_2_VAL0}%."
+      "category": "Ability"
     },
     {
       "image": "22701",
       "id": 4379,
+      "gameId": 8131,
       "name": "Seeker's Triumph",
       "type": "Buff",
       "spec": "Path of Confession",
@@ -1207,14 +930,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Seeker's Blade will now ignore 50% of the target's armor, and its cooldown time is reduced by 5 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8131,
-      "componentValues": {},
-      "rawDescription": "Seeker's Blade will now ignore 50% of the target's armor, and its cooldown time is reduced by 5 seconds."
+      "category": "CareerTactic"
     },
     {
       "image": "02497",
       "id": 4350,
+      "gameId": 8101,
       "name": "Sever Blessing",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1225,16 +946,12 @@
       "cooldown": "5s cooldown",
       "note": "Target must have a Blessing<br>Builds 1 Accusation",
       "description": "You sever one Blessing from your enemy and inflict 127 damage.",
-      "category": "Ability",
-      "gameId": 8101,
-      "componentValues": {
-        "COM_1_VAL0_DAMAGE": 127
-      },
-      "rawDescription": "You sever one Blessing from your enemy and inflict {COM_1_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "23161",
       "id": 4370,
+      "gameId": 627,
       "name": "Sever Nerve",
       "type": "Damaging",
       "spec": "Core Ability",
@@ -1245,16 +962,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
-      "category": "Morale",
-      "gameId": 627,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 1200
-      },
-      "rawDescription": "A directed strike that inflicts {COM_0_VAL0_DAMAGE} to your target."
+      "category": "Morale"
     },
     {
       "image": "07973",
       "id": 4380,
+      "gameId": 8108,
       "name": "Shroud of Magnus",
       "type": "Buff",
       "spec": "Path of Confession",
@@ -1265,17 +978,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to Disrupt enemy magic by 100% and make you resist all spell damage for 7 seconds.<BR>You may only use a single relic at a time.",
-      "category": "Ability",
-      "gameId": 8108,
-      "componentValues": {
-        "COM_0_VAL0": 100,
-        "COM_0_DURA_SECONDS": 7
-      },
-      "rawDescription": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to Disrupt enemy magic by {COM_0_VAL0}% and make you resist all spell damage for {COM_0_DURA_SECONDS}.<BR>You may only use a single relic at a time."
+      "category": "Ability"
     },
     {
       "image": "08011",
       "id": 4348,
+      "gameId": 8095,
       "name": "Sigil of Sigmar",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1286,16 +994,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "An artifact of the Temple of Sigmar which removes all roots and snares from you.  For the next 10 seconds, roots and snares will have no effect on you.",
-      "category": "Ability",
-      "gameId": 8095,
-      "componentValues": {
-        "COM_2_DURA_SECONDS": 10
-      },
-      "rawDescription": "An artifact of the Temple of Sigmar which removes all roots and snares from you.  For the next {COM_2_DURA_SECONDS}, roots and snares will have no effect on you."
+      "category": "Ability"
     },
     {
       "image": "22710",
       "id": 4378,
+      "gameId": 776,
       "name": "Sigmar's Favor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1306,16 +1010,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional 135 hit points as well.",
-      "category": "CareerTactic",
-      "gameId": 776,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0": 135
-      },
-      "rawDescription": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional {COM_1_VAL0_COM_0_VAL0} hit points as well."
+      "category": "CareerTactic"
     },
     {
       "image": "07979",
       "id": 4347,
+      "gameId": 8100,
       "name": "Silence The Heretic",
       "type": "Ailment",
       "spec": "Path of Judgment",
@@ -1326,17 +1026,12 @@
       "cooldown": "20s cooldown",
       "note": "Builds 1 Accusation",
       "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds.  If you are behind your target, then you will also deal 277 damage.",
-      "category": "Ability",
-      "gameId": 8100,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_2_VAL0_DAMAGE": 277
-      },
-      "rawDescription": "A punishing blow that silences your target, making them unable to use magic for {COM_0_DURA_SECONDS}.  If you are behind your target, then you will also deal {COM_2_VAL0_DAMAGE}."
+      "category": "Ability"
     },
     {
       "image": "07966",
       "id": 4435,
+      "gameId": 8080,
       "name": "Snap Shot",
       "type": "Ailment",
       "spec": "Core Ability",
@@ -1347,18 +1042,12 @@
       "cooldown": "No cooldown",
       "note": "Requires Pistol",
       "description": "A quick pistol shot that deals 80 damage, and can be used on the run.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
-      "category": "Ability",
-      "gameId": 8080,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 80,
-        "COM_1_VAL0": 40,
-        "COM_1_DURA_SECONDS": 5
-      },
-      "rawDescription": "A quick pistol shot that deals {COM_0_VAL0_DAMAGE}, and can be used on the run.<BR>Your attack will snare the enemy if used behind your target, reducing their run speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}."
+      "category": "Ability"
     },
     {
       "image": "07969",
       "id": 4349,
+      "gameId": 8096,
       "name": "Sudden Accusation",
       "type": "Ailment",
       "spec": "Path of Inquisition",
@@ -1368,20 +1057,13 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "You leap from the shadows and accuse your target of heresy. Your target will take 75 Spirit damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
-      "category": "Ability",
-      "gameId": 8096,
-      "componentValues": {
-        "COM_1_VAL0_SPIRITDAMAGE": 112,
-        "COM_0_DURA_SECONDS": 15,
-        "COM_2_VAL0_COM_0_VAL1": 0,
-        "COM_2_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "You leap from the shadows and accuse your target of heresy. Your target will take {COM_1_VAL0_SPIRITDAMAGE} every time they move for {COM_0_DURA_SECONDS}. Your abilities will cost {COM_2_VAL0_COM_0_VAL1}% fewer Action Points for {COM_2_VAL0_COM_0_DURA_SECONDS}. Builds 2 Accusations."
+      "description": "You leap from the shadows and accuse your target of heresy. Your target will take 112 Spirit damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
+      "category": "Ability"
     },
     {
       "image": "22694",
       "id": 4383,
+      "gameId": 8133,
       "name": "Sweeping Razor",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1392,17 +1074,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Razor Strike will now also hit up to 2 additional enemies within 25 feet of your target, but Razor Strike will now do 10% less damage.",
-      "category": "CareerTactic",
-      "gameId": 8133,
-      "componentValues": {
-        "ABIL_8081_COM_2_RADI_FEET": 25,
-        "COM_1_VAL1": 0
-      },
-      "rawDescription": "Razor Strike will now also hit up to 2 additional enemies within {ABIL_8081_COM_2_RADI_FEET} of your target, but Razor Strike will now do {COM_1_VAL1}% less damage."
+      "category": "CareerTactic"
     },
     {
       "image": "07975",
       "id": 4338,
+      "gameId": 8085,
       "name": "Torment",
       "type": "Damaging",
       "spec": "Path of Judgment",
@@ -1413,16 +1090,12 @@
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
       "description": "A destructive thrust that deals 239 damage to your enemy. If you are behind your target, this attack will ignore armor.",
-      "category": "Ability",
-      "gameId": 8085,
-      "componentValues": {
-        "COM_0_VAL0_DAMAGE": 239
-      },
-      "rawDescription": "A destructive thrust that deals {COM_0_VAL0_DAMAGE} to your enemy. If you are behind your target, this attack will ignore armor."
+      "category": "Ability"
     },
     {
       "image": "07967",
       "id": 4345,
+      "gameId": 8087,
       "name": "Trial By Pain",
       "type": "Damaging",
       "spec": "Path of Confession",
@@ -1433,21 +1106,12 @@
       "cooldown": "8s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<BR>   1 Accusation:  138 damage per shot<BR>   2 Accusations:  176 damage per shot.<BR>   3 Accusations:  215 damage per shot<BR>   4 Accusations:  251 damage per shot<BR>   5 Accusations:  289 damage per shot",
-      "category": "Ability",
-      "gameId": 8087,
-      "componentValues": {
-        "COM_0_DURA_SECONDS": 3,
-        "COM_1_VAL0_DAMAGE": 138,
-        "COM_2_VAL0_DAMAGE": 176,
-        "COM_3_VAL0_DAMAGE": 215,
-        "COM_4_VAL0_DAMAGE": 251,
-        "COM_5_VAL0_DAMAGE": 289
-      },
-      "rawDescription": "A barrage of withering fire that damages your target for up to {COM_0_DURA_SECONDS}, as long as you maintain your concentration.<BR>   1 Accusation:  {COM_1_VAL0_DAMAGE} per shot<BR>   2 Accusations:  {COM_2_VAL0_DAMAGE} per shot.<BR>   3 Accusations:  {COM_3_VAL0_DAMAGE} per shot<BR>   4 Accusations:  {COM_4_VAL0_DAMAGE} per shot<BR>   5 Accusations:  {COM_5_VAL0_DAMAGE} per shot"
+      "category": "Ability"
     },
     {
       "image": "22710",
       "id": 4377,
+      "gameId": 777,
       "name": "Unwavering Faith",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1458,16 +1122,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Spirit resistance by 252.",
-      "category": "CareerTactic",
-      "gameId": 777,
-      "componentValues": {
-        "COM_0_VAL0": 252
-      },
-      "rawDescription": "Increases your Spirit resistance by {COM_0_VAL0}."
+      "category": "CareerTactic"
     },
     {
       "image": "abi_em_distractingburst",
       "id": 4394,
+      "gameId": 2997,
       "name": "Sanctified Oil",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -1478,17 +1138,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You light and drop a flask of sanctified oil at your feet. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 seconds.<BR>You may only use a single relic at a time.",
-      "category": "Ability",
-      "gameId": 2997,
-      "componentValues": {
-        "COM_1_VAL0": 50,
-        "COM_1_DURA_SECONDS": 7
-      },
-      "rawDescription": "You light and drop a flask of sanctified oil at your feet. You will become invisible to enemies for 2 seconds and increase your speed by {COM_1_VAL0}% for {COM_1_DURA_SECONDS}.<BR>You may only use a single relic at a time."
+      "category": "Ability"
     },
     {
       "image": "22703",
       "id": 4360,
+      "gameId": 8125,
       "name": "Vindication",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1499,17 +1154,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Each time you disrupt an enemy's spell, you will deal 35% more damage for 10 seconds.",
-      "category": "CareerTactic",
-      "gameId": 8125,
-      "componentValues": {
-        "COM_1_VAL0_COM_0_VAL0": 35,
-        "COM_1_VAL0_COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Each time you disrupt an enemy's spell, you will deal {COM_1_VAL0_COM_0_VAL0}% more damage for {COM_1_VAL0_COM_0_DURA_SECONDS}."
+      "category": "CareerTactic"
     },
     {
       "image": "22704",
       "id": 4397,
+      "gameId": 8139,
       "name": "Vitriolic Judgement",
       "type": "Buff",
       "spec": "Path of Judgment",
@@ -1520,16 +1170,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you strike an enemy in the back, there is a 25% chance that they will lose 225 points of Morale.",
-      "category": "CareerTactic",
-      "gameId": 8139,
-      "componentValues": {
-        "COM_1_VAL0": 225
-      },
-      "rawDescription": "Any time you strike an enemy in the back, there is a 25% chance that they will lose {COM_1_VAL0} points of Morale."
+      "category": "CareerTactic"
     },
     {
       "image": "07986",
       "id": 4365,
+      "gameId": 8148,
       "name": "Witchfinder's Protection",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1540,17 +1186,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Everyone in your group within 100 feet of you has a 50% increased chance to parry attacks for 10 seconds.",
-      "category": "Morale",
-      "gameId": 8148,
-      "componentValues": {
-        "COM_0_VAL0": 50,
-        "COM_0_DURA_SECONDS": 10
-      },
-      "rawDescription": "Everyone in your group within 100 feet of you has a {COM_0_VAL0}% increased chance to parry attacks for {COM_0_DURA_SECONDS}."
+      "category": "Morale"
     },
     {
       "image": "22702",
       "id": 6102,
+      "gameId": 522,
       "name": "Close Combat",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1561,16 +1202,12 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
-      "category": "CareerTactic",
-      "gameId": 522,
-      "componentValues": {
-        "ABIL_3080_COM_0_VAL1": 0
-      },
-      "rawDescription": "Any time you strike an enemy in melee with a direct attack, you will receive {ABIL_3080_COM_0_VAL1}% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities."
+      "category": "CareerTactic"
     },
     {
       "image": "WH_M2_WitchfindersJudgement",
       "id": 6104,
+      "gameId": 2714,
       "name": "Witchfinders Judgement",
       "type": "Buff",
       "spec": "Core Ability",
@@ -1581,14 +1218,12 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You judge your group and find them worthy. Morale gain is doubled for 15 seconds.",
-      "category": "Morale",
-      "gameId": 2714,
-      "componentValues": {},
-      "rawDescription": "You judge your group and find them worthy. Morale gain is doubled for 15 seconds."
+      "category": "Morale"
     },
     {
       "image": "22708",
       "id": 6103,
+      "gameId": 2993,
       "name": "Blessed Blade",
       "type": "Buff",
       "spec": "Path of Confession",
@@ -1599,10 +1234,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your Armour Penetration is increased by 50% for 3 seconds after successful use of your Executions.",
-      "category": "CareerTactic",
-      "gameId": 2993,
-      "componentValues": {},
-      "rawDescription": "Your Armour Penetration is increased by 50% for 3 seconds after successful use of your Executions."
+      "category": "CareerTactic"
     }
   ]
 }
