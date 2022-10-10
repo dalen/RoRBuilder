@@ -6,20 +6,20 @@
         "primary": "A mastery path focused on immediate damage"
       },
       "optionalAbilities": {
-        "lvl1": 5411,
-        "lvl2": 5412,
-        "lvl3": 5413,
-        "lvl4": 5414,
-        "lvl5": 5415,
-        "lvl6": 5416,
-        "lvl7": 5417
+        "lvl1": 9521,
+        "lvl2": 9498,
+        "lvl3": 9522,
+        "lvl4": 9499,
+        "lvl5": 9527,
+        "lvl6": 9504,
+        "lvl7": 9542
       },
       "coreAbilities": [
-        5369,
-        5373,
-        5382,
-        5466,
-        5377
+        9472,
+        9476,
+        9482,
+        9470,
+        9479
       ]
     },
     "b": {
@@ -28,20 +28,20 @@
         "primary": "A mastery path focused on longer-duration effects"
       },
       "optionalAbilities": {
-        "lvl1": 5418,
-        "lvl2": 5419,
-        "lvl3": 5420,
-        "lvl4": 5421,
-        "lvl5": 5422,
-        "lvl6": 5423,
-        "lvl7": 5424
+        "lvl1": 9523,
+        "lvl2": 9500,
+        "lvl3": 9524,
+        "lvl4": 9505,
+        "lvl5": 9528,
+        "lvl6": 9501,
+        "lvl7": 9543
       },
       "coreAbilities": [
-        5374,
-        5385,
-        5379,
-        5381,
-        5467
+        9475,
+        9478,
+        9486,
+        9473,
+        9471
       ]
     },
     "c": {
@@ -50,27 +50,27 @@
         "primary": "A mastery path focused on wide-area effects"
       },
       "optionalAbilities": {
-        "lvl1": 5425,
-        "lvl2": 5426,
-        "lvl3": 5427,
-        "lvl4": 5428,
-        "lvl5": 5429,
-        "lvl6": 5430,
-        "lvl7": 5431
+        "lvl1": 9525,
+        "lvl2": 9506,
+        "lvl3": 9526,
+        "lvl4": 9503,
+        "lvl5": 9529,
+        "lvl6": 9502,
+        "lvl7": 9544
       },
       "coreAbilities": [
-        5372,
-        5386,
-        5375,
-        5383,
-        5380
+        9483,
+        9489,
+        9480,
+        9485,
+        9488
       ]
     }
   },
   "data": [
     {
       "image": "10926",
-      "id": 5423,
+      "id": 9501,
       "gameId": 9501,
       "name": "Absorb Vitality",
       "type": "Curse",
@@ -86,7 +86,7 @@
     },
     {
       "image": "22712",
-      "id": 5409,
+      "id": 839,
       "gameId": 839,
       "name": "Alignment of Naggaroth",
       "type": "Buff",
@@ -102,7 +102,7 @@
     },
     {
       "image": "10924",
-      "id": 5377,
+      "id": 9479,
       "gameId": 9479,
       "name": "Arctic Blast",
       "type": "Damaging",
@@ -118,7 +118,7 @@
     },
     {
       "image": "22712",
-      "id": 5410,
+      "id": 840,
       "gameId": 840,
       "name": "Bathing In Blood",
       "type": "Buff",
@@ -134,7 +134,7 @@
     },
     {
       "image": "11001",
-      "id": 5426,
+      "id": 9506,
       "gameId": 9506,
       "name": "Black Horror",
       "type": "Curse",
@@ -150,7 +150,7 @@
     },
     {
       "image": "22704",
-      "id": 5422,
+      "id": 9528,
       "gameId": 9528,
       "name": "Chilling Gusts",
       "type": "Buff",
@@ -166,7 +166,7 @@
     },
     {
       "image": "10996",
-      "id": 5467,
+      "id": 9471,
       "gameId": 9471,
       "name": "Chillwind",
       "type": "Curse",
@@ -182,7 +182,7 @@
     },
     {
       "image": "22694",
-      "id": 5401,
+      "id": 569,
       "gameId": 569,
       "name": "Close Quarters",
       "type": "Buff",
@@ -198,7 +198,7 @@
     },
     {
       "image": "10933",
-      "id": 5424,
+      "id": 9543,
       "gameId": 9543,
       "name": "Crippling Terror",
       "type": "Debuff",
@@ -214,7 +214,7 @@
     },
     {
       "image": "11005",
-      "id": 5381,
+      "id": 9473,
       "gameId": 9473,
       "name": "Daemonic Chill",
       "type": "Enchantment",
@@ -230,7 +230,7 @@
     },
     {
       "image": "22712",
-      "id": 5408,
+      "id": 841,
       "gameId": 841,
       "name": "Dark Blessings",
       "type": "Buff",
@@ -246,7 +246,7 @@
     },
     {
       "image": "10931",
-      "id": 5397,
+      "id": 9538,
       "gameId": 9538,
       "name": "Darkstar Cloak",
       "type": "Buff",
@@ -262,7 +262,7 @@
     },
     {
       "image": "22704",
-      "id": 5398,
+      "id": 568,
       "gameId": 568,
       "name": "Devour Energy",
       "type": "Buff",
@@ -278,7 +278,7 @@
     },
     {
       "image": "10962",
-      "id": 5469,
+      "id": 9490,
       "gameId": 9490,
       "name": "Dhar Wind",
       "type": "Damaging",
@@ -294,7 +294,7 @@
     },
     {
       "image": "10929",
-      "id": 5395,
+      "id": 9536,
       "gameId": 9536,
       "name": "Dire Blast",
       "type": "Damaging",
@@ -310,7 +310,7 @@
     },
     {
       "image": "10928",
-      "id": 5428,
+      "id": 9503,
       "gameId": 9503,
       "name": "Disastrous Cascade",
       "type": "Damaging",
@@ -326,7 +326,7 @@
     },
     {
       "image": "10995",
-      "id": 5466,
+      "id": 9470,
       "gameId": 9470,
       "name": "Doombolt",
       "type": "Damaging",
@@ -342,7 +342,7 @@
     },
     {
       "image": "10998",
-      "id": 5371,
+      "id": 9474,
       "gameId": 9474,
       "name": "Dread Aspect",
       "type": "Debuff",
@@ -358,7 +358,7 @@
     },
     {
       "image": "10923",
-      "id": 5412,
+      "id": 9498,
       "gameId": 9498,
       "name": "Echo of Power",
       "type": "Damaging",
@@ -374,7 +374,7 @@
     },
     {
       "image": "22712",
-      "id": 5389,
+      "id": 9510,
       "gameId": 9510,
       "name": "Empowered Dhar",
       "type": "Buff",
@@ -390,7 +390,7 @@
     },
     {
       "image": "22695",
-      "id": 5399,
+      "id": 563,
       "gameId": 563,
       "name": "Endless Knowledge",
       "type": "Buff",
@@ -406,7 +406,7 @@
     },
     {
       "image": "05004",
-      "id": 5468,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -422,7 +422,7 @@
     },
     {
       "image": "23153",
-      "id": 5405,
+      "id": 674,
       "gameId": 674,
       "name": "Focused Mind",
       "type": "Buff",
@@ -438,7 +438,7 @@
     },
     {
       "image": "10915",
-      "id": 5382,
+      "id": 9482,
       "gameId": 9482,
       "name": "Frostbite",
       "type": "Curse",
@@ -454,7 +454,7 @@
     },
     {
       "image": "22709",
-      "id": 5394,
+      "id": 9517,
       "gameId": 9517,
       "name": "Frozen Fury",
       "type": "Buff",
@@ -470,7 +470,7 @@
     },
     {
       "image": "10909",
-      "id": 5373,
+      "id": 9476,
       "gameId": 9476,
       "name": "Frozen Touch",
       "type": "Enchantment",
@@ -486,7 +486,7 @@
     },
     {
       "image": "10925",
-      "id": 5419,
+      "id": 9500,
       "gameId": 9500,
       "name": "Gloom of Night",
       "type": "Curse",
@@ -502,7 +502,7 @@
     },
     {
       "image": "10907",
-      "id": 5369,
+      "id": 9472,
       "gameId": 9472,
       "name": "Gloomburst",
       "type": "Damaging",
@@ -518,7 +518,7 @@
     },
     {
       "image": "22704",
-      "id": 5393,
+      "id": 9516,
       "gameId": 9516,
       "name": "Glorious Carnage",
       "type": "Buff",
@@ -534,7 +534,7 @@
     },
     {
       "image": "22704",
-      "id": 5387,
+      "id": 9512,
       "gameId": 9512,
       "name": "Grasping Darkness",
       "type": "Buff",
@@ -550,7 +550,7 @@
     },
     {
       "image": "10910",
-      "id": 5378,
+      "id": 9477,
       "gameId": 9477,
       "name": "Grip of Fear",
       "type": "Debuff",
@@ -566,7 +566,7 @@
     },
     {
       "image": "11000",
-      "id": 5421,
+      "id": 9505,
       "gameId": 9505,
       "name": "Hand of Ruin",
       "type": "Damaging",
@@ -582,7 +582,7 @@
     },
     {
       "image": "22696",
-      "id": 5392,
+      "id": 9515,
       "gameId": 9515,
       "name": "Hastened Fear",
       "type": "Buff",
@@ -598,7 +598,7 @@
     },
     {
       "image": "10919",
-      "id": 5379,
+      "id": 9486,
       "gameId": 9486,
       "name": "Ice Spikes",
       "type": "Curse",
@@ -614,7 +614,7 @@
     },
     {
       "image": "10912",
-      "id": 5414,
+      "id": 9499,
       "gameId": 9499,
       "name": "Impending Doom",
       "type": "Damaging",
@@ -630,7 +630,7 @@
     },
     {
       "image": "22708",
-      "id": 5388,
+      "id": 9511,
       "gameId": 9511,
       "name": "Infernal Gift",
       "type": "Buff",
@@ -646,7 +646,7 @@
     },
     {
       "image": "10921",
-      "id": 5380,
+      "id": 9488,
       "gameId": 9488,
       "name": "Infernal Wave",
       "type": "Damaging",
@@ -662,7 +662,7 @@
     },
     {
       "image": "22694",
-      "id": 5427,
+      "id": 9526,
       "gameId": 9526,
       "name": "Lengthening Shadows",
       "type": "Buff",
@@ -678,7 +678,7 @@
     },
     {
       "image": "23167",
-      "id": 5402,
+      "id": 670,
       "gameId": 670,
       "name": "Mage Bolt",
       "type": "Damaging",
@@ -694,7 +694,7 @@
     },
     {
       "image": "22694",
-      "id": 5390,
+      "id": 9513,
       "gameId": 9513,
       "name": "Manic Obsession",
       "type": "Buff",
@@ -710,7 +710,7 @@
     },
     {
       "image": "23168",
-      "id": 5404,
+      "id": 673,
       "gameId": 673,
       "name": "Misdirection",
       "type": "Buff",
@@ -726,7 +726,7 @@
     },
     {
       "image": "22704",
-      "id": 5429,
+      "id": 9529,
       "gameId": 9529,
       "name": "Neverending Agony",
       "type": "Buff",
@@ -742,7 +742,7 @@
     },
     {
       "image": "10914",
-      "id": 5376,
+      "id": 9481,
       "gameId": 9481,
       "name": "Obsessive Focus",
       "type": "Buff",
@@ -758,7 +758,7 @@
     },
     {
       "image": "10934",
-      "id": 5431,
+      "id": 9544,
       "gameId": 9544,
       "name": "Paralyzing Nightmares",
       "type": "Damaging",
@@ -774,7 +774,7 @@
     },
     {
       "image": "22696",
-      "id": 5425,
+      "id": 9525,
       "gameId": 9525,
       "name": "Piercing Shadows",
       "type": "Buff",
@@ -790,7 +790,7 @@
     },
     {
       "image": "10927",
-      "id": 5383,
+      "id": 9485,
       "gameId": 9485,
       "name": "Pit of Shades",
       "type": "Damaging",
@@ -806,7 +806,7 @@
     },
     {
       "image": "10920",
-      "id": 5384,
+      "id": 9487,
       "gameId": 9487,
       "name": "Reckless Gathering",
       "type": "Buff",
@@ -822,7 +822,7 @@
     },
     {
       "image": "22708",
-      "id": 5411,
+      "id": 9521,
       "gameId": 9521,
       "name": "Recover Energy",
       "type": "Buff",
@@ -838,7 +838,7 @@
     },
     {
       "image": "23169",
-      "id": 5406,
+      "id": 671,
       "gameId": 671,
       "name": "Scintillating Energy",
       "type": "Damaging",
@@ -854,7 +854,7 @@
     },
     {
       "image": "10999",
-      "id": 5416,
+      "id": 9504,
       "gameId": 9504,
       "name": "Shades of Death",
       "type": "Curse",
@@ -870,7 +870,7 @@
     },
     {
       "image": "10918",
-      "id": 5430,
+      "id": 9502,
       "gameId": 9502,
       "name": "Shadow Knives",
       "type": "Damaging",
@@ -886,7 +886,7 @@
     },
     {
       "image": "22697",
-      "id": 5420,
+      "id": 9524,
       "gameId": 9524,
       "name": "Shadow of Disaster",
       "type": "Buff",
@@ -902,7 +902,7 @@
     },
     {
       "image": "10913",
-      "id": 5375,
+      "id": 9480,
       "gameId": 9480,
       "name": "Shattered Shadows",
       "type": "Damaging",
@@ -918,7 +918,7 @@
     },
     {
       "image": "10917",
-      "id": 5370,
+      "id": 9484,
       "gameId": 9484,
       "name": "Shroud of Darkness",
       "type": "Enchantment",
@@ -934,7 +934,7 @@
     },
     {
       "image": "23170",
-      "id": 5403,
+      "id": 669,
       "gameId": 669,
       "name": "Siphon Power",
       "type": "Buff",
@@ -950,7 +950,7 @@
     },
     {
       "image": "22708",
-      "id": 5400,
+      "id": 567,
       "gameId": 567,
       "name": "Sleight of Hand",
       "type": "Buff",
@@ -966,7 +966,7 @@
     },
     {
       "image": "10932",
-      "id": 5417,
+      "id": 9542,
       "gameId": 9542,
       "name": "Soul Stealer",
       "type": "Damaging",
@@ -982,7 +982,7 @@
     },
     {
       "image": "10922",
-      "id": 5386,
+      "id": 9489,
       "gameId": 9489,
       "name": "Stricken Voices",
       "type": "Curse",
@@ -998,7 +998,7 @@
     },
     {
       "image": "10916",
-      "id": 5372,
+      "id": 9483,
       "gameId": 9483,
       "name": "Surging Pain",
       "type": "Damaging",
@@ -1014,7 +1014,7 @@
     },
     {
       "image": "22704",
-      "id": 5415,
+      "id": 9527,
       "gameId": 9527,
       "name": "Swell of Gloom",
       "type": "Buff",
@@ -1030,7 +1030,7 @@
     },
     {
       "image": "22702",
-      "id": 5413,
+      "id": 9522,
       "gameId": 9522,
       "name": "Tapping The Dark",
       "type": "Buff",
@@ -1046,7 +1046,7 @@
     },
     {
       "image": "22708",
-      "id": 5391,
+      "id": 9514,
       "gameId": 9514,
       "name": "Triumphant Blasting",
       "type": "Buff",
@@ -1062,7 +1062,7 @@
     },
     {
       "image": "23171",
-      "id": 5407,
+      "id": 672,
       "gameId": 672,
       "name": "Unleash the Winds",
       "type": "Debuff",
@@ -1078,7 +1078,7 @@
     },
     {
       "image": "22706",
-      "id": 5418,
+      "id": 9523,
       "gameId": 9523,
       "name": "Vision of Domination",
       "type": "Buff",
@@ -1094,7 +1094,7 @@
     },
     {
       "image": "10911",
-      "id": 5385,
+      "id": 9478,
       "gameId": 9478,
       "name": "Vision of Torment",
       "type": "Curse",
@@ -1110,7 +1110,7 @@
     },
     {
       "image": "10930",
-      "id": 5396,
+      "id": 9537,
       "gameId": 9537,
       "name": "Wind-Woven Shell",
       "type": "Buff",
@@ -1126,7 +1126,7 @@
     },
     {
       "image": "10908",
-      "id": 5374,
+      "id": 9475,
       "gameId": 9475,
       "name": "Word of Pain",
       "type": "Curse",

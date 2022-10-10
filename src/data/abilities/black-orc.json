@@ -6,20 +6,20 @@
         "primary": "A mastery path focused on stabbin' things"
       },
       "optionalAbilities": {
-        "lvl1": 4484,
-        "lvl2": 4485,
-        "lvl3": 4486,
-        "lvl4": 4489,
-        "lvl5": 4488,
-        "lvl6": 7575,
-        "lvl7": 4490
+        "lvl1": 1711,
+        "lvl2": 1687,
+        "lvl3": 1712,
+        "lvl4": 2810,
+        "lvl5": 1713,
+        "lvl6": 2851,
+        "lvl7": 1727
       },
       "coreAbilities": [
-        4449,
-        4437,
-        4438,
-        4451,
-        4444
+        1666,
+        1670,
+        1676,
+        1668,
+        1678
       ]
     },
     "b": {
@@ -28,20 +28,20 @@
         "primary": "A mastery path focused on survivability which means mor' killin' later"
       },
       "optionalAbilities": {
-        "lvl1": 4491,
-        "lvl2": 4494,
-        "lvl3": 4493,
-        "lvl4": 4487,
-        "lvl5": 4495,
-        "lvl6": 4499,
-        "lvl7": 4497
+        "lvl1": 1714,
+        "lvl2": 1692,
+        "lvl3": 1715,
+        "lvl4": 1691,
+        "lvl5": 1716,
+        "lvl6": 2856,
+        "lvl7": 1728
       },
       "coreAbilities": [
-        4440,
-        4442,
-        4445,
-        4492,
-        4540,
+        1673,
+        1669,
+        1682,
+        1690,
+        1664,
         1680
       ]
     },
@@ -51,27 +51,27 @@
         "primary": "A mastery path focused on buffs and group support, cause everyone has some killin' ta do"
       },
       "optionalAbilities": {
-        "lvl1": 4498,
-        "lvl2": 4501,
-        "lvl3": 4500,
-        "lvl4": 4496,
-        "lvl5": 4502,
-        "lvl6": 4503,
-        "lvl7": 4504
+        "lvl1": 1717,
+        "lvl2": 1694,
+        "lvl3": 1718,
+        "lvl4": 1688,
+        "lvl5": 1719,
+        "lvl6": 1695,
+        "lvl7": 1729
       },
       "coreAbilities": [
-        4441,
-        4452,
-        4456,
-        4459,
-        4458
+        1667,
+        1677,
+        1675,
+        1683,
+        1672
       ]
     }
   },
   "data": [
     {
       "image": "02527",
-      "id": 4485,
+      "id": 1687,
       "gameId": 1687,
       "name": "Arm Breaka",
       "type": "Ailment",
@@ -87,7 +87,7 @@
     },
     {
       "image": "22704",
-      "id": 4460,
+      "id": 1700,
       "gameId": 1700,
       "name": "'Ave Another One",
       "type": "Buff",
@@ -103,7 +103,7 @@
     },
     {
       "image": "22701",
-      "id": 4500,
+      "id": 1718,
       "gameId": 1718,
       "name": "Big Brawlin'",
       "type": "Buff",
@@ -119,7 +119,7 @@
     },
     {
       "image": "02562",
-      "id": 4453,
+      "id": 1680,
       "gameId": 1680,
       "name": "Big Slash",
       "type": "Damaging",
@@ -135,7 +135,7 @@
     },
     {
       "image": "02557",
-      "id": 4458,
+      "id": 1672,
       "gameId": 1672,
       "name": "Big Swing",
       "type": "Ailment",
@@ -151,7 +151,7 @@
     },
     {
       "image": "22708",
-      "id": 4465,
+      "id": 1702,
       "gameId": 1702,
       "name": "Bring 'Em On",
       "type": "Buff",
@@ -167,7 +167,7 @@
     },
     {
       "image": "22702",
-      "id": 4467,
+      "id": 1704,
       "gameId": 1704,
       "name": "Can Youz Hear Me Now?",
       "type": "Buff",
@@ -183,7 +183,7 @@
     },
     {
       "image": "02567",
-      "id": 4494,
+      "id": 1692,
       "gameId": 1692,
       "name": "Can't Hit Me!",
       "type": "Blessing",
@@ -199,7 +199,7 @@
     },
     {
       "image": "02573",
-      "id": 4497,
+      "id": 1728,
       "gameId": 1728,
       "name": "Cant' Touch Us",
       "type": "Buff",
@@ -215,7 +215,7 @@
     },
     {
       "image": "02422",
-      "id": 4454,
+      "id": 1679,
       "gameId": 1679,
       "name": "Challenge",
       "type": "Debuff",
@@ -231,7 +231,7 @@
     },
     {
       "image": "23174",
-      "id": 4477,
+      "id": 608,
       "gameId": 608,
       "name": "Champion's Challenge",
       "type": "Debuff",
@@ -247,7 +247,7 @@
     },
     {
       "image": "02445",
-      "id": 4439,
+      "id": 1734,
       "gameId": 1734,
       "name": "Changin' Da Plan",
       "type": "Defensive",
@@ -263,7 +263,7 @@
     },
     {
       "image": "abi_gs_clobber",
-      "id": 4540,
+      "id": 1664,
       "gameId": 1664,
       "name": "Clobber",
       "type": "Damaging",
@@ -279,7 +279,7 @@
     },
     {
       "image": "02561",
-      "id": 4444,
+      "id": 1678,
       "gameId": 1678,
       "name": "Da Big Un'",
       "type": "Damaging",
@@ -295,7 +295,7 @@
     },
     {
       "image": "02554",
-      "id": 4451,
+      "id": 1668,
       "gameId": 1668,
       "name": "Da Biggest!",
       "type": "Defensive",
@@ -311,7 +311,7 @@
     },
     {
       "image": "02559",
-      "id": 4456,
+      "id": 1675,
       "gameId": 1675,
       "name": "Da Greenest",
       "type": "Defensive",
@@ -327,7 +327,7 @@
     },
     {
       "image": "02400",
-      "id": 4440,
+      "id": 1673,
       "gameId": 1673,
       "name": "Da Toughest!",
       "type": "Defensive",
@@ -343,7 +343,7 @@
     },
     {
       "image": "22694",
-      "id": 4463,
+      "id": 1703,
       "gameId": 1703,
       "name": "Dat Was Great!",
       "type": "Buff",
@@ -359,7 +359,7 @@
     },
     {
       "image": "02453",
-      "id": 4470,
+      "id": 1722,
       "gameId": 1722,
       "name": "Deafening Bellow!",
       "type": "Debuff",
@@ -375,7 +375,7 @@
     },
     {
       "image": "23172",
-      "id": 4475,
+      "id": 606,
       "gameId": 606,
       "name": "Demolishing Strike",
       "type": "Damaging",
@@ -391,7 +391,7 @@
     },
     {
       "image": "23173",
-      "id": 4479,
+      "id": 610,
       "gameId": 610,
       "name": "Distracting Bellow",
       "type": "Buff",
@@ -407,7 +407,7 @@
     },
     {
       "image": "22707",
-      "id": 4482,
+      "id": 735,
       "gameId": 735,
       "name": "Don't Bother Me None",
       "type": "Buff",
@@ -423,7 +423,7 @@
     },
     {
       "image": "02528",
-      "id": 4496,
+      "id": 1688,
       "gameId": 1688,
       "name": "Down Ya Go",
       "type": "Damaging",
@@ -439,7 +439,7 @@
     },
     {
       "image": "05004",
-      "id": 4539,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -455,7 +455,7 @@
     },
     {
       "image": "22701",
-      "id": 4471,
+      "id": 500,
       "gameId": 500,
       "name": "Focused Offense",
       "type": "Buff",
@@ -471,7 +471,7 @@
     },
     {
       "image": "02553",
-      "id": 4441,
+      "id": 1667,
       "gameId": 1667,
       "name": "Follow 'me Lead",
       "type": "Blessing",
@@ -487,7 +487,7 @@
     },
     {
       "image": "02529",
-      "id": 4446,
+      "id": 1684,
       "gameId": 1684,
       "name": "Get 'Em",
       "type": "Blessing",
@@ -503,7 +503,7 @@
     },
     {
       "image": "22702",
-      "id": 4462,
+      "id": 1705,
       "gameId": 1705,
       "name": "Good Wif Shield",
       "type": "Buff",
@@ -519,7 +519,7 @@
     },
     {
       "image": "22707",
-      "id": 4486,
+      "id": 1712,
       "gameId": 1712,
       "name": "Gork Smash!",
       "type": "Buff",
@@ -535,7 +535,7 @@
     },
     {
       "image": "22702",
-      "id": 4488,
+      "id": 1713,
       "gameId": 1713,
       "name": "Guud at Big Choppin!",
       "type": "Buff",
@@ -551,7 +551,7 @@
     },
     {
       "image": "02428",
-      "id": 4447,
+      "id": 1685,
       "gameId": 1685,
       "name": "Hold The Line!",
       "type": "Buff",
@@ -567,7 +567,7 @@
     },
     {
       "image": "22707",
-      "id": 4481,
+      "id": 734,
       "gameId": 734,
       "name": "I'm Da Biggest!",
       "type": "Buff",
@@ -583,7 +583,7 @@
     },
     {
       "image": "23175",
-      "id": 4480,
+      "id": 613,
       "gameId": 613,
       "name": "Immaculate Defense",
       "type": "Buff",
@@ -599,7 +599,7 @@
     },
     {
       "image": "02441",
-      "id": 4450,
+      "id": 1740,
       "gameId": 1740,
       "name": "Juggernaut",
       "type": "Buff",
@@ -615,7 +615,7 @@
     },
     {
       "image": "22702",
-      "id": 4484,
+      "id": 1711,
       "gameId": 1711,
       "name": "Keep It Goin'!",
       "type": "Buff",
@@ -631,7 +631,7 @@
     },
     {
       "image": "22702",
-      "id": 4491,
+      "id": 1714,
       "gameId": 1714,
       "name": "Less Stabbin' Me",
       "type": "Buff",
@@ -647,7 +647,7 @@
     },
     {
       "image": "02551",
-      "id": 4541,
+      "id": 1665,
       "gameId": 1665,
       "name": "Lob Choppa",
       "type": "Damaging",
@@ -663,7 +663,7 @@
     },
     {
       "image": "22696",
-      "id": 4461,
+      "id": 1701,
       "gameId": 1701,
       "name": "Lookin' For Opp'tunity",
       "type": "Buff",
@@ -679,7 +679,7 @@
     },
     {
       "image": "22701",
-      "id": 4466,
+      "id": 1706,
       "gameId": 1706,
       "name": "Loudmouth",
       "type": "Buff",
@@ -695,7 +695,7 @@
     },
     {
       "image": "22709",
-      "id": 4473,
+      "id": 504,
       "gameId": 504,
       "name": "Menace",
       "type": "Buff",
@@ -711,7 +711,7 @@
     },
     {
       "image": "22702",
-      "id": 7576,
+      "id": 2866,
       "gameId": 2866,
       "name": "Mor' Choppin' Dem!",
       "type": "Buff",
@@ -727,7 +727,7 @@
     },
     {
       "image": "22708",
-      "id": 4495,
+      "id": 1716,
       "gameId": 1716,
       "name": "Mor' Hardcore",
       "type": "Buff",
@@ -743,7 +743,7 @@
     },
     {
       "image": "22702",
-      "id": 4502,
+      "id": 1719,
       "gameId": 1719,
       "name": "No Choppin' Me",
       "type": "Buff",
@@ -759,7 +759,7 @@
     },
     {
       "image": "02566",
-      "id": 4487,
+      "id": 1691,
       "gameId": 1691,
       "name": "Not in da face!",
       "type": "Ailment",
@@ -775,7 +775,7 @@
     },
     {
       "image": "02572",
-      "id": 4490,
+      "id": 1727,
       "gameId": 1727,
       "name": "Puddle o Muck",
       "type": "Damaging",
@@ -791,7 +791,7 @@
     },
     {
       "image": "02570",
-      "id": 4468,
+      "id": 1721,
       "gameId": 1721,
       "name": "Quit Yer Squabblin'",
       "type": "Buff",
@@ -807,7 +807,7 @@
     },
     {
       "image": "23176",
-      "id": 4478,
+      "id": 607,
       "gameId": 607,
       "name": "Raze",
       "type": "Buff",
@@ -823,7 +823,7 @@
     },
     {
       "image": "02419",
-      "id": 4445,
+      "id": 1682,
       "gameId": 1682,
       "name": "Right in Da Jibblies",
       "type": "Ailment",
@@ -839,7 +839,7 @@
     },
     {
       "image": "02401",
-      "id": 4501,
+      "id": 1694,
       "gameId": 1694,
       "name": "Rock 'Ard",
       "type": "Blessing",
@@ -855,7 +855,7 @@
     },
     {
       "image": "22702",
-      "id": 4472,
+      "id": 503,
       "gameId": 503,
       "name": "Rugged",
       "type": "Buff",
@@ -871,7 +871,7 @@
     },
     {
       "image": "02558",
-      "id": 4448,
+      "id": 1674,
       "gameId": 1674,
       "name": "Save Da Runts",
       "type": "Buff",
@@ -887,7 +887,7 @@
     },
     {
       "image": "02499",
-      "id": 4452,
+      "id": 1677,
       "gameId": 1677,
       "name": "Savin' Me Hide",
       "type": "Blessing",
@@ -903,7 +903,7 @@
     },
     {
       "image": "02497",
-      "id": 4455,
+      "id": 1733,
       "gameId": 1733,
       "name": "Shatter Enchantment",
       "type": "Damaging",
@@ -919,7 +919,7 @@
     },
     {
       "image": "23177",
-      "id": 4476,
+      "id": 611,
       "gameId": 611,
       "name": "Shield Wall",
       "type": "Buff",
@@ -935,7 +935,7 @@
     },
     {
       "image": "02457",
-      "id": 4459,
+      "id": 1683,
       "gameId": 1683,
       "name": "Shut Yer Face",
       "type": "Ailment",
@@ -951,7 +951,7 @@
     },
     {
       "image": "02560",
-      "id": 4438,
+      "id": 1676,
       "gameId": 1676,
       "name": "Skull Thumper",
       "type": "Damaging",
@@ -967,7 +967,7 @@
     },
     {
       "image": "22707",
-      "id": 4483,
+      "id": 739,
       "gameId": 739,
       "name": "Stab You Gooder",
       "type": "Defensive",
@@ -983,7 +983,7 @@
     },
     {
       "image": "22704",
-      "id": 4493,
+      "id": 1715,
       "gameId": 1715,
       "name": "Stop Hittin' Da Runts",
       "type": "Buff",
@@ -999,7 +999,7 @@
     },
     {
       "image": "02556",
-      "id": 4443,
+      "id": 1671,
       "gameId": 1671,
       "name": "Taunt",
       "type": "Debuff",
@@ -1015,7 +1015,7 @@
     },
     {
       "image": "02564",
-      "id": 4489,
+      "id": 2810,
       "gameId": 2810,
       "name": "T'ree Hit Combo",
       "type": "Damaging",
@@ -1031,7 +1031,7 @@
     },
     {
       "image": "02526",
-      "id": 4437,
+      "id": 1670,
       "gameId": 1670,
       "name": "Trip 'Em Up",
       "type": "Ailment",
@@ -1047,7 +1047,7 @@
     },
     {
       "image": "02555",
-      "id": 4442,
+      "id": 1669,
       "gameId": 1669,
       "name": "Tuffer 'n Nails",
       "type": "Blessing",
@@ -1063,7 +1063,7 @@
     },
     {
       "image": "22694",
-      "id": 4474,
+      "id": 505,
       "gameId": 505,
       "name": "Unstoppable Juggernaut",
       "type": "Buff",
@@ -1079,7 +1079,7 @@
     },
     {
       "image": "02569",
-      "id": 4503,
+      "id": 1695,
       "gameId": 1695,
       "name": "WAAAAAAAGH!",
       "type": "Damaging",
@@ -1095,7 +1095,7 @@
     },
     {
       "image": "02571",
-      "id": 4469,
+      "id": 1723,
       "gameId": 1723,
       "name": "Walk it off!",
       "type": "Buff",
@@ -1111,7 +1111,7 @@
     },
     {
       "image": "02568",
-      "id": 4499,
+      "id": 2856,
       "gameId": 2856,
       "name": "We'z Bigger",
       "type": "Blessing",
@@ -1127,7 +1127,7 @@
     },
     {
       "image": "02563",
-      "id": 4457,
+      "id": 1681,
       "gameId": 1681,
       "name": "Where You Going?",
       "type": "Debuff",
@@ -1143,7 +1143,7 @@
     },
     {
       "image": "02552",
-      "id": 4449,
+      "id": 1666,
       "gameId": 1666,
       "name": "Wot armor?",
       "type": "Ailment",
@@ -1159,7 +1159,7 @@
     },
     {
       "image": "02565",
-      "id": 4492,
+      "id": 1690,
       "gameId": 1690,
       "name": "Ya Missed Me",
       "type": "Ailment",
@@ -1175,7 +1175,7 @@
     },
     {
       "image": "02574",
-      "id": 4504,
+      "id": 1729,
       "gameId": 1729,
       "name": "Yer Nothin",
       "type": "Damaging",
@@ -1191,7 +1191,7 @@
     },
     {
       "image": "22706",
-      "id": 4498,
+      "id": 1717,
       "gameId": 1717,
       "name": "You Got Nuffin'",
       "type": "Buff",
@@ -1207,7 +1207,7 @@
     },
     {
       "image": "abi_or_figure01",
-      "id": 7575,
+      "id": 2851,
       "gameId": 2851,
       "name": "You Wot!?!!!",
       "type": "Buff",
@@ -1223,7 +1223,7 @@
     },
     {
       "image": "22702",
-      "id": 4464,
+      "id": 1707,
       "gameId": 1707,
       "name": "Youz see me blok' dat'?!",
       "type": "Buff",

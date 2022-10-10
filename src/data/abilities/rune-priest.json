@@ -6,21 +6,21 @@
         "primary": "A mastery path focused on immediate, direct effects"
       },
       "optionalAbilities": {
-        "lvl1": 3868,
-        "lvl2": 3869,
-        "lvl3": 3870,
-        "lvl4": 3871,
-        "lvl5": 3872,
-        "lvl6": 3873,
-        "lvl7": 3874
+        "lvl1": 1634,
+        "lvl2": 1612,
+        "lvl3": 1632,
+        "lvl4": 1611,
+        "lvl5": 1633,
+        "lvl6": 1613,
+        "lvl7": 1648
       },
       "coreAbilities": [
-        3924,
-        3830,
-        3826,
-        3841,
-        3825,
-        3925
+        1586,
+        1596,
+        1594,
+        1606,
+        1591,
+        1587
       ]
     },
     "b": {
@@ -29,20 +29,20 @@
         "primary": "A mastery path focused on longer-duration effects"
       },
       "optionalAbilities": {
-        "lvl1": 3875,
-        "lvl2": 3876,
-        "lvl3": 3877,
-        "lvl4": 3878,
-        "lvl5": 3879,
-        "lvl6": 3880,
-        "lvl7": 3881
+        "lvl1": 1635,
+        "lvl2": 1615,
+        "lvl3": 1636,
+        "lvl4": 1614,
+        "lvl5": 1637,
+        "lvl6": 1616,
+        "lvl7": 1649
       },
       "coreAbilities": [
-        3842,
-        3827,
-        3833,
-        3823,
-        3834
+        1607,
+        1593,
+        1599,
+        1589,
+        1600
       ]
     },
     "c": {
@@ -51,27 +51,27 @@
         "primary": "A mastery path focused on wide-area effects"
       },
       "optionalAbilities": {
-        "lvl1": 3882,
-        "lvl2": 3883,
-        "lvl3": 3884,
-        "lvl4": 3885,
-        "lvl5": 3886,
-        "lvl6": 3887,
-        "lvl7": 3888
+        "lvl1": 1640,
+        "lvl2": 1618,
+        "lvl3": 1638,
+        "lvl4": 1617,
+        "lvl5": 1639,
+        "lvl6": 1619,
+        "lvl7": 1650
       },
       "coreAbilities": [
-        3835,
-        3829,
-        3837,
-        3831,
-        3838
+        1601,
+        1603,
+        1597,
+        1588,
+        1604
       ]
     }
   },
   "data": [
     {
       "image": "23150",
-      "id": 3864,
+      "id": 697,
       "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
@@ -87,7 +87,7 @@
     },
     {
       "image": "22709",
-      "id": 3870,
+      "id": 1632,
       "gameId": 1632,
       "name": "Ancestor's Blessing",
       "type": "Buff",
@@ -103,7 +103,7 @@
     },
     {
       "image": "22706",
-      "id": 3886,
+      "id": 1639,
       "gameId": 1639,
       "name": "Ancestor's Echo",
       "type": "Buff",
@@ -119,7 +119,7 @@
     },
     {
       "image": "22711",
-      "id": 3867,
+      "id": 716,
       "gameId": 716,
       "name": "Ancestral Inheritance",
       "type": "Buff",
@@ -135,7 +135,7 @@
     },
     {
       "image": "22704",
-      "id": 3847,
+      "id": 1624,
       "gameId": 1624,
       "name": "Blessing of Grungni",
       "type": "Buff",
@@ -151,7 +151,7 @@
     },
     {
       "image": "04489",
-      "id": 3838,
+      "id": 1604,
       "gameId": 1604,
       "name": "Blessing of Valaya",
       "type": "Healing",
@@ -167,7 +167,7 @@
     },
     {
       "image": "23404",
-      "id": 3890,
+      "id": 14415,
       "gameId": 14415,
       "name": "Cleanse War Engine",
       "type": "Buff",
@@ -183,7 +183,7 @@
     },
     {
       "image": "22706",
-      "id": 3845,
+      "id": 1623,
       "gameId": 1623,
       "name": "Cleansing Vitality",
       "type": "Buff",
@@ -199,7 +199,7 @@
     },
     {
       "image": "22709",
-      "id": 3884,
+      "id": 1638,
       "gameId": 1638,
       "name": "Concussive Runes",
       "type": "Buff",
@@ -215,7 +215,7 @@
     },
     {
       "image": "22706",
-      "id": 3856,
+      "id": 592,
       "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
@@ -231,7 +231,7 @@
     },
     {
       "image": "23151",
-      "id": 3859,
+      "id": 694,
       "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
@@ -247,7 +247,7 @@
     },
     {
       "image": "22703",
-      "id": 3855,
+      "id": 585,
       "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
@@ -263,7 +263,7 @@
     },
     {
       "image": "23152",
-      "id": 3863,
+      "id": 696,
       "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
@@ -279,7 +279,7 @@
     },
     {
       "image": "22704",
-      "id": 3877,
+      "id": 1636,
       "gameId": 1636,
       "name": "Earth's Shielding",
       "type": "Buff",
@@ -295,7 +295,7 @@
     },
     {
       "image": "22708",
-      "id": 3879,
+      "id": 1637,
       "gameId": 1637,
       "name": "Efficient Runecarving",
       "type": "Buff",
@@ -311,7 +311,7 @@
     },
     {
       "image": "22694",
-      "id": 3882,
+      "id": 1640,
       "gameId": 1640,
       "name": "Extended Battle",
       "type": "Buff",
@@ -327,7 +327,7 @@
     },
     {
       "image": "05004",
-      "id": 3923,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -343,7 +343,7 @@
     },
     {
       "image": "23153",
-      "id": 3862,
+      "id": 695,
       "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
@@ -359,7 +359,7 @@
     },
     {
       "image": "04557",
-      "id": 3887,
+      "id": 1619,
       "gameId": 1619,
       "name": "Grimnir's Fury",
       "type": "Blessing",
@@ -375,7 +375,7 @@
     },
     {
       "image": "04628",
-      "id": 3839,
+      "id": 1592,
       "gameId": 1592,
       "name": "Grimnir's Shield",
       "type": "Blessing",
@@ -391,7 +391,7 @@
     },
     {
       "image": "04625",
-      "id": 3925,
+      "id": 1587,
       "gameId": 1587,
       "name": "Grungni's Gift",
       "type": "Healing",
@@ -407,7 +407,7 @@
     },
     {
       "image": "22694",
-      "id": 3875,
+      "id": 1635,
       "gameId": 1635,
       "name": "Immolating Grasp",
       "type": "Buff",
@@ -423,7 +423,7 @@
     },
     {
       "image": "04502",
-      "id": 3883,
+      "id": 1618,
       "gameId": 1618,
       "name": "Master Rune of Adamant",
       "type": "Healing",
@@ -439,7 +439,7 @@
     },
     {
       "image": "04637",
-      "id": 3869,
+      "id": 1612,
       "gameId": 1612,
       "name": "Master Rune of Fury",
       "type": "Buff",
@@ -455,7 +455,7 @@
     },
     {
       "image": "04640",
-      "id": 3876,
+      "id": 1615,
       "gameId": 1615,
       "name": "Master Rune of Speed",
       "type": "Buff",
@@ -471,7 +471,7 @@
     },
     {
       "image": "04642",
-      "id": 3853,
+      "id": 1644,
       "gameId": 1644,
       "name": "Mountain Spirit",
       "type": "Buff",
@@ -487,7 +487,7 @@
     },
     {
       "image": "04634",
-      "id": 3834,
+      "id": 1600,
       "gameId": 1600,
       "name": "Oath Rune of Iron",
       "type": "Blessing",
@@ -503,7 +503,7 @@
     },
     {
       "image": "04562",
-      "id": 3825,
+      "id": 1591,
       "gameId": 1591,
       "name": "Oath Rune of Power",
       "type": "Blessing",
@@ -519,7 +519,7 @@
     },
     {
       "image": "04554",
-      "id": 3843,
+      "id": 1608,
       "gameId": 1608,
       "name": "Oath Rune of Sanctuary",
       "type": "Blessing",
@@ -535,7 +535,7 @@
     },
     {
       "image": "04626",
-      "id": 3831,
+      "id": 1588,
       "gameId": 1588,
       "name": "Oath Rune of Warding",
       "type": "Blessing",
@@ -551,7 +551,7 @@
     },
     {
       "image": "22706",
-      "id": 3849,
+      "id": 1627,
       "gameId": 1627,
       "name": "On Your Feet!",
       "type": "Buff",
@@ -567,7 +567,7 @@
     },
     {
       "image": "22694",
-      "id": 3848,
+      "id": 1625,
       "gameId": 1625,
       "name": "Potent Runes",
       "type": "Buff",
@@ -583,7 +583,7 @@
     },
     {
       "image": "04636",
-      "id": 3841,
+      "id": 1606,
       "gameId": 1606,
       "name": "Protection of the Ancestors",
       "type": "Blessing",
@@ -599,7 +599,7 @@
     },
     {
       "image": "23154",
-      "id": 3860,
+      "id": 692,
       "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
@@ -615,7 +615,7 @@
     },
     {
       "image": "22702",
-      "id": 3846,
+      "id": 1622,
       "gameId": 1622,
       "name": "Regenerative Shielding",
       "type": "Buff",
@@ -631,7 +631,7 @@
     },
     {
       "image": "23414",
-      "id": 3889,
+      "id": 14414,
       "gameId": 14414,
       "name": "Reinforce War Engine",
       "type": "Buff",
@@ -647,7 +647,7 @@
     },
     {
       "image": "22694",
-      "id": 3858,
+      "id": 589,
       "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
@@ -663,7 +663,7 @@
     },
     {
       "image": "04641",
-      "id": 3885,
+      "id": 1617,
       "gameId": 1617,
       "name": "Rune of Battle",
       "type": "Blessing",
@@ -679,7 +679,7 @@
     },
     {
       "image": "04638",
-      "id": 3873,
+      "id": 1613,
       "gameId": 1613,
       "name": "Rune of Binding",
       "type": "Damaging",
@@ -695,7 +695,7 @@
     },
     {
       "image": "04100",
-      "id": 3926,
+      "id": 1659,
       "gameId": 1659,
       "name": "Rune of Breaking",
       "type": "Buff",
@@ -711,7 +711,7 @@
     },
     {
       "image": "04639",
-      "id": 3878,
+      "id": 1614,
       "gameId": 1614,
       "name": "Rune of Burning",
       "type": "Damaging",
@@ -727,7 +727,7 @@
     },
     {
       "image": "04507",
-      "id": 3836,
+      "id": 1602,
       "gameId": 1602,
       "name": "Rune of Cleansing",
       "type": "Healing",
@@ -743,7 +743,7 @@
     },
     {
       "image": "04632",
-      "id": 3837,
+      "id": 1597,
       "gameId": 1597,
       "name": "Rune of Cleaving",
       "type": "Ailment",
@@ -759,7 +759,7 @@
     },
     {
       "image": "04643",
-      "id": 3874,
+      "id": 1648,
       "gameId": 1648,
       "name": "Rune of Ending",
       "type": "Damaging",
@@ -775,7 +775,7 @@
     },
     {
       "image": "04500",
-      "id": 3880,
+      "id": 1616,
       "gameId": 1616,
       "name": "Rune of Fate",
       "type": "Ailment",
@@ -791,7 +791,7 @@
     },
     {
       "image": "04630",
-      "id": 3826,
+      "id": 1594,
       "gameId": 1594,
       "name": "Rune of Fire",
       "type": "Damaging",
@@ -807,7 +807,7 @@
     },
     {
       "image": "04559",
-      "id": 3871,
+      "id": 1611,
       "gameId": 1611,
       "name": "Rune of Fortune",
       "type": "Damaging",
@@ -823,7 +823,7 @@
     },
     {
       "image": "04627",
-      "id": 3823,
+      "id": 1589,
       "gameId": 1589,
       "name": "Rune of Immolation",
       "type": "Damaging",
@@ -839,7 +839,7 @@
     },
     {
       "image": "04537",
-      "id": 3852,
+      "id": 1643,
       "gameId": 1643,
       "name": "Rune of Insanity",
       "type": "Damaging",
@@ -855,7 +855,7 @@
     },
     {
       "image": "04633",
-      "id": 3832,
+      "id": 1598,
       "gameId": 1598,
       "name": "Rune of Life",
       "type": "Healing",
@@ -871,7 +871,7 @@
     },
     {
       "image": "04503",
-      "id": 3833,
+      "id": 1599,
       "gameId": 1599,
       "name": "Rune of Mending",
       "type": "Healing",
@@ -887,7 +887,7 @@
     },
     {
       "image": "04558",
-      "id": 3829,
+      "id": 1603,
       "gameId": 1603,
       "name": "Rune of Might",
       "type": "Damaging",
@@ -903,7 +903,7 @@
     },
     {
       "image": "22702",
-      "id": 3872,
+      "id": 1633,
       "gameId": 1633,
       "name": "Rune of Nullification",
       "type": "Buff",
@@ -919,7 +919,7 @@
     },
     {
       "image": "04631",
-      "id": 3828,
+      "id": 1595,
       "gameId": 1595,
       "name": "Rune of Preservation",
       "type": "Debuff",
@@ -935,7 +935,7 @@
     },
     {
       "image": "04535",
-      "id": 3854,
+      "id": 1645,
       "gameId": 1645,
       "name": "Rune of Rebirth",
       "type": "Healing",
@@ -951,7 +951,7 @@
     },
     {
       "image": "04561",
-      "id": 3824,
+      "id": 1590,
       "gameId": 1590,
       "name": "Rune of Regeneration",
       "type": "Blessing",
@@ -967,7 +967,7 @@
     },
     {
       "image": "04563",
-      "id": 3830,
+      "id": 1596,
       "gameId": 1596,
       "name": "Rune of Restoration",
       "type": "Healing",
@@ -983,7 +983,7 @@
     },
     {
       "image": "04635",
-      "id": 3835,
+      "id": 1601,
       "gameId": 1601,
       "name": "Rune of Serenity",
       "type": "Blessing",
@@ -999,7 +999,7 @@
     },
     {
       "image": "04629",
-      "id": 3827,
+      "id": 1593,
       "gameId": 1593,
       "name": "Rune of Shielding",
       "type": "Blessing",
@@ -1015,7 +1015,7 @@
     },
     {
       "image": "04645",
-      "id": 3888,
+      "id": 1650,
       "gameId": 1650,
       "name": "Rune of Skewering",
       "type": "Damaging",
@@ -1031,7 +1031,7 @@
     },
     {
       "image": "04624",
-      "id": 3924,
+      "id": 1586,
       "gameId": 1586,
       "name": "Rune of Striking",
       "type": "Damaging",
@@ -1047,7 +1047,7 @@
     },
     {
       "image": "04564",
-      "id": 3840,
+      "id": 1605,
       "gameId": 1605,
       "name": "Rune of Sundering",
       "type": "Debuff",
@@ -1063,7 +1063,7 @@
     },
     {
       "image": "22703",
-      "id": 3868,
+      "id": 1634,
       "gameId": 1634,
       "name": "Runic Blasting",
       "type": "Buff",
@@ -1079,7 +1079,7 @@
     },
     {
       "image": "23415",
-      "id": 3891,
+      "id": 14416,
       "gameId": 14416,
       "name": "Shield the Skies",
       "type": "Buff",
@@ -1095,7 +1095,7 @@
     },
     {
       "image": "04533",
-      "id": 3842,
+      "id": 1607,
       "gameId": 1607,
       "name": "Spellbinding Rune",
       "type": "Ailment",
@@ -1111,7 +1111,7 @@
     },
     {
       "image": "23155",
-      "id": 3861,
+      "id": 690,
       "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
@@ -1127,7 +1127,7 @@
     },
     {
       "image": "22711",
-      "id": 3865,
+      "id": 713,
       "gameId": 713,
       "name": "Stoutness of Stone",
       "type": "Buff",
@@ -1143,7 +1143,7 @@
     },
     {
       "image": "22711",
-      "id": 3866,
+      "id": 714,
       "gameId": 714,
       "name": "Stubbornness",
       "type": "Buff",
@@ -1159,7 +1159,7 @@
     },
     {
       "image": "22709",
-      "id": 3857,
+      "id": 588,
       "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
@@ -1175,7 +1175,7 @@
     },
     {
       "image": "22703",
-      "id": 3850,
+      "id": 1628,
       "gameId": 1628,
       "name": "Sundered Motion",
       "type": "Buff",
@@ -1191,7 +1191,7 @@
     },
     {
       "image": "22694",
-      "id": 3844,
+      "id": 1626,
       "gameId": 1626,
       "name": "Swift Runes",
       "type": "Buff",
@@ -1207,7 +1207,7 @@
     },
     {
       "image": "22696",
-      "id": 3851,
+      "id": 1629,
       "gameId": 1629,
       "name": "Thick-Skulled",
       "type": "Buff",
@@ -1223,7 +1223,7 @@
     },
     {
       "image": "04644",
-      "id": 3881,
+      "id": 1649,
       "gameId": 1649,
       "name": "Valaya's Shield",
       "type": "Healing",

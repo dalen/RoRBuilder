@@ -6,20 +6,20 @@
         "primary": "A mastery path focused on offence"
       },
       "optionalAbilities": {
-        "lvl1": 909,
-        "lvl2": 912,
-        "lvl3": 911,
-        "lvl4": 910,
-        "lvl5": 913,
-        "lvl6": 914,
-        "lvl7": 915
+        "lvl1": 9365,
+        "lvl2": 9343,
+        "lvl3": 9366,
+        "lvl4": 2888,
+        "lvl5": 9367,
+        "lvl6": 9344,
+        "lvl7": 9387
       },
       "coreAbilities": [
-        863,
-        870,
-        876,
-        874,
-        865
+        9335,
+        9320,
+        9323,
+        9329,
+        9318
       ]
     },
     "b": {
@@ -28,20 +28,20 @@
         "primary": "A mastery path focused on defence and protection"
       },
       "optionalAbilities": {
-        "lvl1": 916,
-        "lvl2": 917,
-        "lvl3": 920,
-        "lvl4": 921,
-        "lvl5": 9920,
-        "lvl6": 919,
-        "lvl7": 922
+        "lvl1": 9354,
+        "lvl2": 9345,
+        "lvl3": 9369,
+        "lvl4": 9348,
+        "lvl5": 2745,
+        "lvl6": 2746,
+        "lvl7": 9386
       },
       "coreAbilities": [
-        877,
-        986,
-        866,
-        881,
-        883
+        9321,
+        9315,
+        9316,
+        9328,
+        9333
       ]
     },
     "c": {
@@ -50,27 +50,27 @@
         "primary": "A mastery path focused on Anti-Magic"
       },
       "optionalAbilities": {
-        "lvl1": 923,
-        "lvl2": 924,
-        "lvl3": 925,
-        "lvl4": 926,
-        "lvl5": 927,
-        "lvl6": 928,
-        "lvl7": 929
+        "lvl1": 9371,
+        "lvl2": 9349,
+        "lvl3": 9373,
+        "lvl4": 9347,
+        "lvl5": 9372,
+        "lvl6": 9350,
+        "lvl7": 9388
       },
       "coreAbilities": [
-        868,
-        864,
-        884,
-        878,
-        871
+        9336,
+        9317,
+        9331,
+        9327,
+        9324
       ]
     }
   },
   "data": [
     {
       "image": "22712",
-      "id": 907,
+      "id": 839,
       "gameId": 839,
       "name": "Alignment of Naggaroth",
       "type": "Buff",
@@ -86,7 +86,7 @@
     },
     {
       "image": "22704",
-      "id": 920,
+      "id": 9369,
       "gameId": 9369,
       "name": "Anger Drives Me",
       "type": "Defensive",
@@ -102,7 +102,7 @@
     },
     {
       "image": "11042",
-      "id": 895,
+      "id": 9382,
       "gameId": 9382,
       "name": "Armor of Eternal Servitude",
       "type": "Buff",
@@ -118,7 +118,7 @@
     },
     {
       "image": "11041",
-      "id": 894,
+      "id": 9381,
       "gameId": 9381,
       "name": "Away, Cretins!",
       "type": "Damaging",
@@ -134,7 +134,7 @@
     },
     {
       "image": "11040",
-      "id": 893,
+      "id": 9380,
       "gameId": 9380,
       "name": "Banish Weakness",
       "type": "Buff",
@@ -150,7 +150,7 @@
     },
     {
       "image": "22712",
-      "id": 908,
+      "id": 840,
       "gameId": 840,
       "name": "Bathing In Blood",
       "type": "Buff",
@@ -166,7 +166,7 @@
     },
     {
       "image": "abi_de_reapingscythe",
-      "id": 910,
+      "id": 2888,
       "gameId": 2888,
       "name": "Malignant Strike!",
       "type": "Hex",
@@ -182,7 +182,7 @@
     },
     {
       "image": "11044",
-      "id": 915,
+      "id": 9387,
       "gameId": 9387,
       "name": "Blast of Hatred",
       "type": "Damaging",
@@ -198,7 +198,7 @@
     },
     {
       "image": "11039",
-      "id": 928,
+      "id": 9350,
       "gameId": 9350,
       "name": "Bolstering Anger",
       "type": "Healing",
@@ -214,7 +214,7 @@
     },
     {
       "image": "11017",
-      "id": 871,
+      "id": 9324,
       "gameId": 9324,
       "name": "Brutal Smash",
       "type": "Damaging",
@@ -230,7 +230,7 @@
     },
     {
       "image": "11027",
-      "id": 882,
+      "id": 9334,
       "gameId": 9334,
       "name": "Chains of Hatred",
       "type": "Debuff",
@@ -246,7 +246,7 @@
     },
     {
       "image": "11025",
-      "id": 879,
+      "id": 9332,
       "gameId": 9332,
       "name": "Challenge",
       "type": "Debuff",
@@ -262,7 +262,7 @@
     },
     {
       "image": "23174",
-      "id": 902,
+      "id": 608,
       "gameId": 608,
       "name": "Champion's Challenge",
       "type": "Debuff",
@@ -278,7 +278,7 @@
     },
     {
       "image": "22670",
-      "id": 946,
+      "id": 14162,
       "gameId": 14162,
       "name": "Chaotic Allegiance",
       "type": "Buff",
@@ -294,7 +294,7 @@
     },
     {
       "image": "11038",
-      "id": 924,
+      "id": 9349,
       "gameId": 9349,
       "name": "Choking Fury",
       "type": "Hex",
@@ -310,7 +310,7 @@
     },
     {
       "image": "22657",
-      "id": 952,
+      "id": 14124,
       "gameId": 14124,
       "name": "Combat Awareness",
       "type": "Buff",
@@ -326,7 +326,7 @@
     },
     {
       "image": "11033",
-      "id": 914,
+      "id": 9344,
       "gameId": 9344,
       "name": "Crimson Death",
       "type": "Damaging",
@@ -342,7 +342,7 @@
     },
     {
       "image": "11011",
-      "id": 865,
+      "id": 9318,
       "gameId": 9318,
       "name": "Crippling Anger",
       "type": "Hex",
@@ -358,7 +358,7 @@
     },
     {
       "image": "11026",
-      "id": 883,
+      "id": 9333,
       "gameId": 9333,
       "name": "Crush The Weak",
       "type": "Hex",
@@ -374,7 +374,7 @@
     },
     {
       "image": "22702",
-      "id": 886,
+      "id": 9370,
       "gameId": 9370,
       "name": "Crush Vitality",
       "type": "Defensive",
@@ -390,7 +390,7 @@
     },
     {
       "image": "11020",
-      "id": 878,
+      "id": 9327,
       "gameId": 9327,
       "name": "Crushing Anger",
       "type": "Damaging",
@@ -406,7 +406,7 @@
     },
     {
       "image": "22712",
-      "id": 906,
+      "id": 841,
       "gameId": 841,
       "name": "Dark Blessings",
       "type": "Buff",
@@ -422,7 +422,7 @@
     },
     {
       "image": "22668",
-      "id": 947,
+      "id": 14164,
       "gameId": 14164,
       "name": "Dark Elf Lineage",
       "type": "Buff",
@@ -438,7 +438,7 @@
     },
     {
       "image": "11501",
-      "id": 987,
+      "id": 9338,
       "gameId": 9338,
       "name": "Dark Protector",
       "type": "Buff",
@@ -454,7 +454,7 @@
     },
     {
       "image": "23172",
-      "id": 900,
+      "id": 606,
       "gameId": 606,
       "name": "Demolishing Strike",
       "type": "Damaging",
@@ -470,7 +470,7 @@
     },
     {
       "image": "23173",
-      "id": 904,
+      "id": 610,
       "gameId": 610,
       "name": "Distracting Bellow",
       "type": "Buff",
@@ -486,7 +486,7 @@
     },
     {
       "image": "11012",
-      "id": 867,
+      "id": 9319,
       "gameId": 9319,
       "name": "Driven By Hate",
       "type": "Buff",
@@ -502,7 +502,7 @@
     },
     {
       "image": "22667",
-      "id": 933,
+      "id": 14166,
       "gameId": 14166,
       "name": "Dwarf Bane",
       "type": "Buff",
@@ -518,7 +518,7 @@
     },
     {
       "image": "22667",
-      "id": 939,
+      "id": 14103,
       "gameId": 14103,
       "name": "Dwarfs Fear Me",
       "type": "Buff",
@@ -534,7 +534,7 @@
     },
     {
       "image": "22702",
-      "id": 888,
+      "id": 9357,
       "gameId": 9357,
       "name": "Efficient Slaughter",
       "type": "Defensive",
@@ -550,7 +550,7 @@
     },
     {
       "image": "11036",
-      "id": 926,
+      "id": 9347,
       "gameId": 9347,
       "name": "Elite Training",
       "type": "Blessing",
@@ -566,7 +566,7 @@
     },
     {
       "image": "22666",
-      "id": 934,
+      "id": 14168,
       "gameId": 14168,
       "name": "Empire Bane",
       "type": "Buff",
@@ -582,7 +582,7 @@
     },
     {
       "image": "22702",
-      "id": 890,
+      "id": 9359,
       "gameId": 9359,
       "name": "Endless Pursuit",
       "type": "Defensive",
@@ -598,7 +598,7 @@
     },
     {
       "image": "11032",
-      "id": 912,
+      "id": 9343,
       "gameId": 9343,
       "name": "Enraged Beating",
       "type": "Damaging",
@@ -614,7 +614,7 @@
     },
     {
       "image": "11021",
-      "id": 881,
+      "id": 9328,
       "gameId": 9328,
       "name": "Exile",
       "type": "Damaging",
@@ -630,7 +630,7 @@
     },
     {
       "image": "22701",
-      "id": 918,
+      "id": 9368,
       "gameId": 9368,
       "name": "Feeding On Pain",
       "type": "Defensive",
@@ -646,7 +646,7 @@
     },
     {
       "image": "11009",
-      "id": 866,
+      "id": 9316,
       "gameId": 9316,
       "name": "Feeding On Weakness",
       "type": "Buff",
@@ -662,7 +662,7 @@
     },
     {
       "image": "22702",
-      "id": 911,
+      "id": 9366,
       "gameId": 9366,
       "name": "Filled With Fury",
       "type": "Defensive",
@@ -678,7 +678,7 @@
     },
     {
       "image": "05004",
-      "id": 984,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -694,7 +694,7 @@
     },
     {
       "image": "22701",
-      "id": 896,
+      "id": 500,
       "gameId": 500,
       "name": "Focused Offense",
       "type": "Buff",
@@ -710,7 +710,7 @@
     },
     {
       "image": "22671",
-      "id": 948,
+      "id": 14120,
       "gameId": 14120,
       "name": "For Glory!",
       "type": "Buff",
@@ -726,7 +726,7 @@
     },
     {
       "image": "11035",
-      "id": 919,
+      "id": 2746,
       "gameId": 2746,
       "name": "Force of Fury",
       "type": "Blessing",
@@ -742,7 +742,7 @@
     },
     {
       "image": "11024",
-      "id": 884,
+      "id": 9331,
       "gameId": 9331,
       "name": "Furious Howl",
       "type": "Hex",
@@ -758,7 +758,7 @@
     },
     {
       "image": "11018",
-      "id": 872,
+      "id": 9325,
       "gameId": 9325,
       "name": "Guard",
       "type": "Buff",
@@ -774,7 +774,7 @@
     },
     {
       "image": "22702",
-      "id": 913,
+      "id": 9367,
       "gameId": 9367,
       "name": "Hastened Doom",
       "type": "Defensive",
@@ -790,7 +790,7 @@
     },
     {
       "image": "11008",
-      "id": 986,
+      "id": 9315,
       "gameId": 9315,
       "name": "Hateful Strike",
       "type": "Buff",
@@ -806,7 +806,7 @@
     },
     {
       "image": "22661",
-      "id": 935,
+      "id": 14170,
       "gameId": 14170,
       "name": "High Elf Bane ",
       "type": "Buff",
@@ -822,7 +822,7 @@
     },
     {
       "image": "22661",
-      "id": 941,
+      "id": 14105,
       "gameId": 14105,
       "name": "High Elves Fear Me",
       "type": "Buff",
@@ -838,7 +838,7 @@
     },
     {
       "image": "11019",
-      "id": 873,
+      "id": 9326,
       "gameId": 9326,
       "name": "Hold The Line!",
       "type": "Buff",
@@ -854,7 +854,7 @@
     },
     {
       "image": "11022",
-      "id": 874,
+      "id": 9329,
       "gameId": 9329,
       "name": "Horrific Wound",
       "type": "Hex",
@@ -870,7 +870,7 @@
     },
     {
       "image": "23175",
-      "id": 905,
+      "id": 613,
       "gameId": 613,
       "name": "Immaculate Defense",
       "type": "Buff",
@@ -886,7 +886,7 @@
     },
     {
       "image": "11045",
-      "id": 929,
+      "id": 9388,
       "gameId": 9388,
       "name": "In Malekith's Name!",
       "type": "Damaging",
@@ -902,7 +902,7 @@
     },
     {
       "image": "22667",
-      "id": 942,
+      "id": 14146,
       "gameId": 14146,
       "name": "Invigorating Victory - Dwarf",
       "type": "Buff",
@@ -918,7 +918,7 @@
     },
     {
       "image": "22666",
-      "id": 943,
+      "id": 14147,
       "gameId": 14147,
       "name": "Invigorating Victory - Empire",
       "type": "Buff",
@@ -934,7 +934,7 @@
     },
     {
       "image": "22661",
-      "id": 944,
+      "id": 14148,
       "gameId": 14148,
       "name": "Invigorating Victory - High Elf",
       "type": "Buff",
@@ -950,7 +950,7 @@
     },
     {
       "image": "11023",
-      "id": 875,
+      "id": 9330,
       "gameId": 9330,
       "name": "Juggernaut",
       "type": "Buff",
@@ -966,7 +966,7 @@
     },
     {
       "image": "11043",
-      "id": 922,
+      "id": 9386,
       "gameId": 9386,
       "name": "Khaine's Warding",
       "type": "Buff",
@@ -982,7 +982,7 @@
     },
     {
       "image": "22665",
-      "id": 949,
+      "id": 14121,
       "gameId": 14121,
       "name": "King of the Hill",
       "type": "Buff",
@@ -998,7 +998,7 @@
     },
     {
       "image": "22669",
-      "id": 954,
+      "id": 14127,
       "gameId": 14127,
       "name": "King Slayer",
       "type": "Buff",
@@ -1014,7 +1014,7 @@
     },
     {
       "image": "22656",
-      "id": 953,
+      "id": 14125,
       "gameId": 14125,
       "name": "Looter",
       "type": "Buff",
@@ -1030,7 +1030,7 @@
     },
     {
       "image": "22702",
-      "id": 889,
+      "id": 9358,
       "gameId": 9358,
       "name": "Malekith's Bulwark",
       "type": "Defensive",
@@ -1046,7 +1046,7 @@
     },
     {
       "image": "22709",
-      "id": 898,
+      "id": 504,
       "gameId": 504,
       "name": "Menace",
       "type": "Buff",
@@ -1062,7 +1062,7 @@
     },
     {
       "image": "11010",
-      "id": 864,
+      "id": 9317,
       "gameId": 9317,
       "name": "Mind Killer",
       "type": "Hex",
@@ -1078,7 +1078,7 @@
     },
     {
       "image": "22651",
-      "id": 950,
+      "id": 14122,
       "gameId": 14122,
       "name": "Mission Focused",
       "type": "Buff",
@@ -1094,7 +1094,7 @@
     },
     {
       "image": "11016",
-      "id": 876,
+      "id": 9323,
       "gameId": 9323,
       "name": "Monstrous Rending",
       "type": "Damaging",
@@ -1110,7 +1110,7 @@
     },
     {
       "image": "22694",
-      "id": 909,
+      "id": 9365,
       "gameId": 9365,
       "name": "Monstrous Ruin",
       "type": "Defensive",
@@ -1126,7 +1126,7 @@
     },
     {
       "image": "11013",
-      "id": 870,
+      "id": 9320,
       "gameId": 9320,
       "name": "Murderous Wrath",
       "type": "Damaging",
@@ -1142,7 +1142,7 @@
     },
     {
       "image": "22658",
-      "id": 955,
+      "id": 14128,
       "gameId": 14128,
       "name": "Nemesis",
       "type": "Buff",
@@ -1158,7 +1158,7 @@
     },
     {
       "image": "11034",
-      "id": 917,
+      "id": 9345,
       "gameId": 9345,
       "name": "None Shall Pass",
       "type": "Buff",
@@ -1174,7 +1174,7 @@
     },
     {
       "image": "22663",
-      "id": 945,
+      "id": 14160,
       "gameId": 14160,
       "name": "Orcish Camaraderie",
       "type": "Buff",
@@ -1190,7 +1190,7 @@
     },
     {
       "image": "22701",
-      "id": 887,
+      "id": 9356,
       "gameId": 9356,
       "name": "Pitiless Feeding",
       "type": "Defensive",
@@ -1206,7 +1206,7 @@
     },
     {
       "image": "11028",
-      "id": 863,
+      "id": 9335,
       "gameId": 9335,
       "name": "Pitiless Strike",
       "type": "Hex",
@@ -1222,7 +1222,7 @@
     },
     {
       "image": "23176",
-      "id": 903,
+      "id": 607,
       "gameId": 607,
       "name": "Raze",
       "type": "Buff",
@@ -1238,7 +1238,7 @@
     },
     {
       "image": "22667",
-      "id": 936,
+      "id": 14099,
       "gameId": 14099,
       "name": "Refreshing Dominance - Dwarf",
       "type": "Buff",
@@ -1254,7 +1254,7 @@
     },
     {
       "image": "22666",
-      "id": 937,
+      "id": 14100,
       "gameId": 14100,
       "name": "Refreshing Dominance - Empire",
       "type": "Buff",
@@ -1270,7 +1270,7 @@
     },
     {
       "image": "22661",
-      "id": 938,
+      "id": 14101,
       "gameId": 14101,
       "name": "Refreshing Dominance - High Elf",
       "type": "Buff",
@@ -1286,7 +1286,7 @@
     },
     {
       "image": "22702",
-      "id": 897,
+      "id": 503,
       "gameId": 503,
       "name": "Rugged",
       "type": "Buff",
@@ -1302,7 +1302,7 @@
     },
     {
       "image": "11030",
-      "id": 880,
+      "id": 9337,
       "gameId": 9337,
       "name": "Shatter Enchantment",
       "type": "Damaging",
@@ -1318,7 +1318,7 @@
     },
     {
       "image": "11037",
-      "id": 868,
+      "id": 9336,
       "gameId": 9336,
       "name": "Shield of Rage",
       "type": "Blessing",
@@ -1334,7 +1334,7 @@
     },
     {
       "image": "23177",
-      "id": 901,
+      "id": 611,
       "gameId": 611,
       "name": "Shield Wall",
       "type": "Buff",
@@ -1350,7 +1350,7 @@
     },
     {
       "image": "22694",
-      "id": 927,
+      "id": 9372,
       "gameId": 9372,
       "name": "Shielding Anger",
       "type": "Defensive",
@@ -1366,7 +1366,7 @@
     },
     {
       "image": "22704",
-      "id": 892,
+      "id": 9361,
       "gameId": 9361,
       "name": "Simmering Anger",
       "type": "Defensive",
@@ -1382,7 +1382,7 @@
     },
     {
       "image": "22701",
-      "id": 925,
+      "id": 9373,
       "gameId": 9373,
       "name": "Soul Killer",
       "type": "Defensive",
@@ -1398,7 +1398,7 @@
     },
     {
       "image": "11014",
-      "id": 877,
+      "id": 9321,
       "gameId": 9321,
       "name": "Spiteful Slam",
       "type": "Damaging",
@@ -1414,7 +1414,7 @@
     },
     {
       "image": "22694",
-      "id": 891,
+      "id": 9360,
       "gameId": 9360,
       "name": "Swift Fury",
       "type": "Defensive",
@@ -1430,7 +1430,7 @@
     },
     {
       "image": "11015",
-      "id": 869,
+      "id": 9322,
       "gameId": 9322,
       "name": "Taunt",
       "type": "Debuff",
@@ -1446,7 +1446,7 @@
     },
     {
       "image": "22694",
-      "id": 916,
+      "id": 9354,
       "gameId": 9354,
       "name": "Terrifying Foe",
       "type": "Defensive",
@@ -1462,7 +1462,7 @@
     },
     {
       "image": "22666",
-      "id": 940,
+      "id": 14104,
       "gameId": 14104,
       "name": "The \"Empire\" Fears Me",
       "type": "Buff",
@@ -1478,7 +1478,7 @@
     },
     {
       "image": "22709",
-      "id": 885,
+      "id": 9355,
       "gameId": 9355,
       "name": "Thirst For Death",
       "type": "Defensive",
@@ -1494,7 +1494,7 @@
     },
     {
       "image": "11007",
-      "id": 985,
+      "id": 9314,
       "gameId": 9314,
       "name": "Throw Dagger",
       "type": "Damaging",
@@ -1510,7 +1510,7 @@
     },
     {
       "image": "22654",
-      "id": 951,
+      "id": 14123,
       "gameId": 14123,
       "name": "Town Raider",
       "type": "Buff",
@@ -1526,7 +1526,7 @@
     },
     {
       "image": "22704",
-      "id": 923,
+      "id": 9371,
       "gameId": 9371,
       "name": "Unstoppable Fury",
       "type": "Defensive",
@@ -1542,7 +1542,7 @@
     },
     {
       "image": "22694",
-      "id": 899,
+      "id": 505,
       "gameId": 505,
       "name": "Unstoppable Juggernaut",
       "type": "Buff",
@@ -1558,7 +1558,7 @@
     },
     {
       "image": "11029",
-      "id": 921,
+      "id": 9348,
       "gameId": 9348,
       "name": "Wave of Scorn",
       "type": "Hex",
@@ -1574,7 +1574,7 @@
     },
     {
       "image": "22704",
-      "id": 9920,
+      "id": 2745,
       "gameId": 2745,
       "name": "Shielded by Hate",
       "type": "Defensive",

@@ -6,20 +6,20 @@
         "primary": "A mastery path focused on healing and restorative powers"
       },
       "optionalAbilities": {
-        "lvl1": 5315,
-        "lvl2": 5314,
-        "lvl3": 5313,
-        "lvl4": 5312,
-        "lvl5": 5311,
-        "lvl6": 5316,
-        "lvl7": 5317
+        "lvl1": 1951,
+        "lvl2": 1928,
+        "lvl3": 1950,
+        "lvl4": 1927,
+        "lvl5": 1958,
+        "lvl6": 1926,
+        "lvl7": 1970
       },
       "coreAbilities": [
-        5273,
-        5280,
-        5367,
-        5282,
-        5275
+        1910,
+        1906,
+        1898,
+        1907,
+        1904
       ]
     },
     "b": {
@@ -28,20 +28,20 @@
         "primary": "A mastery path focused on offensive and damaging powers"
       },
       "optionalAbilities": {
-        "lvl1": 5318,
-        "lvl2": 5319,
-        "lvl3": 5320,
-        "lvl4": 5321,
+        "lvl1": 1957,
+        "lvl2": 1929,
+        "lvl3": 1954,
+        "lvl4": 1905,
         "lvl5": 2749,
-        "lvl6": 5323,
-        "lvl7": 5324
+        "lvl6": 1931,
+        "lvl7": 1971
       },
       "coreAbilities": [
-        5268,
-        5278,
-        5272,
-        5368,
-        5285
+        1900,
+        1902,
+        1903,
+        1899,
+        1913
       ]
     },
     "c": {
@@ -50,20 +50,20 @@
         "primary": "A mastery path focused on hindering and weakening foes"
       },
       "optionalAbilities": {
-        "lvl1": 5327,
-        "lvl2": 5326,
-        "lvl3": 5329,
-        "lvl4": 5328,
-        "lvl5": 5325,
-        "lvl6": 5330,
-        "lvl7": 5331
+        "lvl1": 1956,
+        "lvl2": 1933,
+        "lvl3": 1949,
+        "lvl4": 1917,
+        "lvl5": 2105,
+        "lvl6": 2102,
+        "lvl7": 1972
       },
       "coreAbilities": [
-        5286,
-        5284,
-        5270,
-        5271,
-        5276,
+        1916,
+        1909,
+        2100,
+        1932,
+        1912,
         1934
       ]
     }
@@ -71,7 +71,7 @@
   "data": [
     {
       "image": "22707",
-      "id": 5292,
+      "id": 2751,
       "gameId": 2751,
       "name": "Ain't Done Yet!",
       "type": "Healing",
@@ -87,7 +87,7 @@
     },
     {
       "image": "23150",
-      "id": 5307,
+      "id": 697,
       "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
@@ -103,7 +103,7 @@
     },
     {
       "image": "02498",
-      "id": 5285,
+      "id": 1913,
       "gameId": 1913,
       "name": "Big Waaagh!",
       "type": "Damaging",
@@ -119,7 +119,7 @@
     },
     {
       "image": "02466",
-      "id": 5275,
+      "id": 1904,
       "gameId": 1904,
       "name": "Bigger, Better, An' Greener",
       "type": "Healing",
@@ -135,7 +135,7 @@
     },
     {
       "image": "02582",
-      "id": 5276,
+      "id": 1912,
       "gameId": 1912,
       "name": "Bleed Fer' Me",
       "type": "Ailment",
@@ -151,7 +151,7 @@
     },
     {
       "image": "02459",
-      "id": 5368,
+      "id": 1899,
       "gameId": 1899,
       "name": "Brain Bursta",
       "type": "Damaging",
@@ -167,7 +167,7 @@
     },
     {
       "image": "02462",
-      "id": 5296,
+      "id": 1965,
       "gameId": 1965,
       "name": "Breath of Mork",
       "type": "Healing",
@@ -183,7 +183,7 @@
     },
     {
       "image": "02577",
-      "id": 5272,
+      "id": 1903,
       "gameId": 1903,
       "name": "Bunch o' Waaagh",
       "type": "Damaging",
@@ -199,7 +199,7 @@
     },
     {
       "image": "22707",
-      "id": 5287,
+      "id": 1938,
       "gameId": 1938,
       "name": "Burst O' Waaagh!",
       "type": "Damaging",
@@ -215,7 +215,7 @@
     },
     {
       "image": "02403",
-      "id": 5323,
+      "id": 1931,
       "gameId": 1931,
       "name": "Da Waaagh! Is Coming",
       "type": "Damaging",
@@ -231,7 +231,7 @@
     },
     {
       "image": "22703",
-      "id": 5290,
+      "id": 1941,
       "gameId": 1941,
       "name": "Dat Makes Me Dizzy",
       "type": "Healing",
@@ -247,7 +247,7 @@
     },
     {
       "image": "22706",
-      "id": 5299,
+      "id": 592,
       "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
@@ -263,7 +263,7 @@
     },
     {
       "image": "23151",
-      "id": 5302,
+      "id": 694,
       "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
@@ -279,7 +279,7 @@
     },
     {
       "image": "22703",
-      "id": 5298,
+      "id": 585,
       "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
@@ -295,7 +295,7 @@
     },
     {
       "image": "23152",
-      "id": 5306,
+      "id": 696,
       "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
@@ -311,7 +311,7 @@
     },
     {
       "image": "02501",
-      "id": 5316,
+      "id": 1926,
       "gameId": 1926,
       "name": "Do Sumfin Useful",
       "type": "Enchantment",
@@ -327,7 +327,7 @@
     },
     {
       "image": "02534",
-      "id": 5271,
+      "id": 1932,
       "gameId": 1932,
       "name": "Don' Feel Nuthin",
       "type": "Enchantment",
@@ -343,7 +343,7 @@
     },
     {
       "image": "02583",
-      "id": 5283,
+      "id": 1914,
       "gameId": 1914,
       "name": "Eeeek!",
       "type": "Debuff",
@@ -359,7 +359,7 @@
     },
     {
       "image": "02425",
-      "id": 5278,
+      "id": 1902,
       "gameId": 1902,
       "name": "'Ere We Go!",
       "type": "Buff",
@@ -375,7 +375,7 @@
     },
     {
       "image": "22703",
-      "id": 5318,
+      "id": 1957,
       "gameId": 1957,
       "name": "Ere We Goes Again",
       "type": "Damaging",
@@ -391,7 +391,7 @@
     },
     {
       "image": "22708",
-      "id": 5289,
+      "id": 1940,
       "gameId": 1940,
       "name": "Extra Special Mushrooms",
       "type": "Healing",
@@ -407,7 +407,7 @@
     },
     {
       "image": "02576",
-      "id": 5269,
+      "id": 1901,
       "gameId": 1901,
       "name": "'Ey, Quit Bleedin'",
       "type": "Enchantment",
@@ -423,7 +423,7 @@
     },
     {
       "image": "02586",
-      "id": 5317,
+      "id": 1970,
       "gameId": 1970,
       "name": "Feelz No Pain",
       "type": "Healing",
@@ -439,7 +439,7 @@
     },
     {
       "image": "02545",
-      "id": 5324,
+      "id": 1971,
       "gameId": 1971,
       "name": "Fists of Gork",
       "type": "Damaging",
@@ -455,7 +455,7 @@
     },
     {
       "image": "05004",
-      "id": 5366,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -471,7 +471,7 @@
     },
     {
       "image": "23153",
-      "id": 5305,
+      "id": 695,
       "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
@@ -487,7 +487,7 @@
     },
     {
       "image": "abi_or_face06",
-      "id": 5330,
+      "id": 2102,
       "gameId": 2102,
       "name": "Fury of Da Green",
       "type": "Damaging",
@@ -503,7 +503,7 @@
     },
     {
       "image": "02467",
-      "id": 5282,
+      "id": 1907,
       "gameId": 1907,
       "name": "Gather Round",
       "type": "Healing",
@@ -519,7 +519,7 @@
     },
     {
       "image": "02456",
-      "id": 5319,
+      "id": 1929,
       "gameId": 1929,
       "name": "Geddoff!",
       "type": "Damaging",
@@ -535,7 +535,7 @@
     },
     {
       "image": "02433",
-      "id": 5277,
+      "id": 1908,
       "gameId": 1908,
       "name": "Gedup!",
       "type": "Healing",
@@ -551,7 +551,7 @@
     },
     {
       "image": "22704",
-      "id": 5293,
+      "id": 1944,
       "gameId": 1944,
       "name": "Get Movin'!",
       "type": "Healing",
@@ -567,7 +567,7 @@
     },
     {
       "image": "22694",
-      "id": 5294,
+      "id": 1943,
       "gameId": 1943,
       "name": "Git Outta Here!",
       "type": "Damaging",
@@ -583,7 +583,7 @@
     },
     {
       "image": "22695",
-      "id": 5311,
+      "id": 1958,
       "gameId": 1958,
       "name": "Scrub Ya Gud!",
       "type": "Damaging",
@@ -599,7 +599,7 @@
     },
     {
       "image": "02505",
-      "id": 5295,
+      "id": 1964,
       "gameId": 1964,
       "name": "Gork Sez Stop",
       "type": "Damaging",
@@ -615,7 +615,7 @@
     },
     {
       "image": "02444",
-      "id": 5367,
+      "id": 1898,
       "gameId": 1898,
       "name": "Gork'll Fix It",
       "type": "Enchantment",
@@ -631,7 +631,7 @@
     },
     {
       "image": "02578",
-      "id": 5321,
+      "id": 1905,
       "gameId": 1905,
       "name": "Gork's Barbs'",
       "type": "Ailment",
@@ -647,7 +647,7 @@
     },
     {
       "image": "22706",
-      "id": 5288,
+      "id": 1945,
       "gameId": 1945,
       "name": "Green Cleanin'",
       "type": "Healing",
@@ -663,7 +663,7 @@
     },
     {
       "image": "02579",
-      "id": 5280,
+      "id": 1906,
       "gameId": 1906,
       "name": "Greener 'n Cleaner",
       "type": "Healing",
@@ -695,7 +695,7 @@
     },
     {
       "image": "02464",
-      "id": 5270,
+      "id": 2100,
       "gameId": 2100,
       "name": "I'll Take That!",
       "type": "Damaging",
@@ -711,7 +711,7 @@
     },
     {
       "image": "02575",
-      "id": 5268,
+      "id": 1900,
       "gameId": 1900,
       "name": "Life Leaka",
       "type": "Ailment",
@@ -727,7 +727,7 @@
     },
     {
       "image": "02477",
-      "id": 5274,
+      "id": 1918,
       "gameId": 1918,
       "name": "Look Over There!",
       "type": "Debuff",
@@ -743,7 +743,7 @@
     },
     {
       "image": "22708",
-      "id": 5313,
+      "id": 1950,
       "gameId": 1950,
       "name": "Lookit What I Did!",
       "type": "Healing",
@@ -759,7 +759,7 @@
     },
     {
       "image": "22704",
-      "id": 5291,
+      "id": 1942,
       "gameId": 1942,
       "name": "Mork Is Watchin'",
       "type": "Damaging",
@@ -775,7 +775,7 @@
     },
     {
       "image": "02472",
-      "id": 5273,
+      "id": 1910,
       "gameId": 1910,
       "name": "Mork's Buffer",
       "type": "Enchantment",
@@ -791,7 +791,7 @@
     },
     {
       "image": "22696",
-      "id": 5320,
+      "id": 1954,
       "gameId": 1954,
       "name": "Mork's Touch",
       "type": "Damaging",
@@ -807,7 +807,7 @@
     },
     {
       "image": "22703",
-      "id": 5329,
+      "id": 1949,
       "gameId": 1949,
       "name": "Nuthin' But Da WAAAGH!",
       "type": "Healing",
@@ -823,7 +823,7 @@
     },
     {
       "image": "22706",
-      "id": 5315,
+      "id": 1951,
       "gameId": 1951,
       "name": "Pass It On",
       "type": "Healing",
@@ -839,7 +839,7 @@
     },
     {
       "image": "23154",
-      "id": 5303,
+      "id": 692,
       "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
@@ -855,7 +855,7 @@
     },
     {
       "image": "22694",
-      "id": 5301,
+      "id": 589,
       "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
@@ -871,7 +871,7 @@
     },
     {
       "image": "22707",
-      "id": 5310,
+      "id": 758,
       "gameId": 758,
       "name": "RUN AWAY!",
       "type": "Buff",
@@ -887,7 +887,7 @@
     },
     {
       "image": "02500",
-      "id": 5326,
+      "id": 1933,
       "gameId": 1933,
       "name": "Scuse Me!",
       "type": "Ailment",
@@ -903,7 +903,7 @@
     },
     {
       "image": "02463",
-      "id": 5314,
+      "id": 1928,
       "gameId": 1928,
       "name": "Shrug It Off",
       "type": "Healing",
@@ -919,7 +919,7 @@
     },
     {
       "image": "23155",
-      "id": 5304,
+      "id": 690,
       "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
@@ -935,7 +935,7 @@
     },
     {
       "image": "02588",
-      "id": 5331,
+      "id": 1972,
       "gameId": 1972,
       "name": "Steal Yer Thunder",
       "type": "Debuff",
@@ -951,7 +951,7 @@
     },
     {
       "image": "04543",
-      "id": 5312,
+      "id": 1927,
       "gameId": 1927,
       "name": "Sticky Feetz",
       "type": "Ailment",
@@ -967,7 +967,7 @@
     },
     {
       "image": "02584",
-      "id": 5279,
+      "id": 1915,
       "gameId": 1915,
       "name": "Stop hittin' me!",
       "type": "Enchantment",
@@ -983,7 +983,7 @@
     },
     {
       "image": "22709",
-      "id": 5300,
+      "id": 588,
       "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
@@ -999,7 +999,7 @@
     },
     {
       "image": "22707",
-      "id": 5309,
+      "id": 756,
       "gameId": 756,
       "name": "Too Smart For Dat",
       "type": "Buff",
@@ -1015,7 +1015,7 @@
     },
     {
       "image": "22694",
-      "id": 5325,
+      "id": 2105,
       "gameId": 2105,
       "name": "Waaagh! Frenzy",
       "type": "Buff",
@@ -1031,7 +1031,7 @@
     },
     {
       "image": "22707",
-      "id": 5308,
+      "id": 760,
       "gameId": 760,
       "name": "Whazat Behind You?!",
       "type": "Buff",
@@ -1047,7 +1047,7 @@
     },
     {
       "image": "abi_gs_getsmarter",
-      "id": 5284,
+      "id": 1909,
       "gameId": 1909,
       "name": "Get'n Smarter",
       "type": "Ailment",
@@ -1063,7 +1063,7 @@
     },
     {
       "image": "02581",
-      "id": 5281,
+      "id": 1911,
       "gameId": 1911,
       "name": "Yer Not So Bad",
       "type": "Ailment",
@@ -1079,7 +1079,7 @@
     },
     {
       "image": "02460",
-      "id": 5328,
+      "id": 1917,
       "gameId": 1917,
       "name": "You Got Nuthin!",
       "type": "Ailment",
@@ -1095,7 +1095,7 @@
     },
     {
       "image": "22708",
-      "id": 5327,
+      "id": 1956,
       "gameId": 1956,
       "name": "You Really Got Nuthin",
       "type": "Debuff",
@@ -1111,7 +1111,7 @@
     },
     {
       "image": "02506",
-      "id": 5297,
+      "id": 1966,
       "gameId": 1966,
       "name": "You Weren't Using Dat",
       "type": "Debuff",
@@ -1127,7 +1127,7 @@
     },
     {
       "image": "02585",
-      "id": 5286,
+      "id": 1916,
       "gameId": 1916,
       "name": "You'z Squishy",
       "type": "Ailment",

@@ -7,20 +7,20 @@
         "secondary": "Points in Path of the Axeman grants Strength and Weapon Skill to your lion."
       },
       "optionalAbilities": {
-        "lvl1": 4276,
-        "lvl2": 4291,
-        "lvl3": 4278,
-        "lvl4": 4279,
-        "lvl5": 4280,
-        "lvl6": 4281,
-        "lvl7": 4282
+        "lvl1": 9209,
+        "lvl2": 9187,
+        "lvl3": 9210,
+        "lvl4": 9192,
+        "lvl5": 2929,
+        "lvl6": 9188,
+        "lvl7": 9230
       },
       "coreAbilities": [
-        4235,
-        4333,
-        4245,
-        4249,
-        4239
+        9163,
+        9160,
+        9172,
+        9176,
+        9167
       ]
     },
     "b": {
@@ -30,20 +30,20 @@
         "secondary": "Points in Path of the Axeman grants Toughness and Initiative to your lion."
       },
       "optionalAbilities": {
-        "lvl1": 4283,
-        "lvl2": 4284,
-        "lvl3": 4285,
-        "lvl4": 4286,
-        "lvl5": 4287,
-        "lvl6": 4288,
-        "lvl7": 4289
+        "lvl1": 9212,
+        "lvl2": 9189,
+        "lvl3": 9213,
+        "lvl4": 9190,
+        "lvl5": 9214,
+        "lvl6": 9191,
+        "lvl7": 9231
       },
       "coreAbilities": [
-        4233,
-        4234,
-        4237,
-        4244,
-        4248
+        9161,
+        9168,
+        9165,
+        9171,
+        9175
       ]
     },
     "c": {
@@ -53,27 +53,27 @@
         "secondary": "Points in the Guardian Tree grants Wounds, Toughness, Weapon Skill, Strength and Initiative to your lion."
       },
       "optionalAbilities": {
-        "lvl1": 4298,
-        "lvl2": 4250,
-        "lvl3": 4292,
-        "lvl4": 4293,
-        "lvl5": 4294,
-        "lvl6": 4295,
-        "lvl7": 4296
+        "lvl1": 9215,
+        "lvl2": 9177,
+        "lvl3": 9216,
+        "lvl4": 9193,
+        "lvl5": 9217,
+        "lvl6": 9194,
+        "lvl7": 9232
       },
       "coreAbilities": [
-        4240,
-        4243,
-        4247,
-        4277,
-        4238
+        9162,
+        9170,
+        9174,
+        9186,
+        9166
       ]
     }
   },
   "data": [
     {
       "image": "13417",
-      "id": 4331,
+      "id": 9158,
       "gameId": 9158,
       "name": "Axe Toss",
       "type": "Damaging",
@@ -89,7 +89,7 @@
     },
     {
       "image": "13425",
-      "id": 4238,
+      "id": 9166,
       "gameId": 9166,
       "name": "Baiting Strike",
       "type": "Blessing",
@@ -105,7 +105,7 @@
     },
     {
       "image": "22705",
-      "id": 4274,
+      "id": 819,
       "gameId": 819,
       "name": "Bend the Winds",
       "type": "Buff",
@@ -121,7 +121,7 @@
     },
     {
       "image": "13460",
-      "id": 4282,
+      "id": 9230,
       "gameId": 9230,
       "name": "Blade And Claw",
       "type": "Damaging",
@@ -137,7 +137,7 @@
     },
     {
       "image": "13420",
-      "id": 4233,
+      "id": 9161,
       "gameId": 9161,
       "name": "Blindside",
       "type": "Curse",
@@ -153,7 +153,7 @@
     },
     {
       "image": "22703",
-      "id": 4283,
+      "id": 9212,
       "gameId": 9212,
       "name": "Blindsided!",
       "type": "Buff",
@@ -169,7 +169,7 @@
     },
     {
       "image": "23156",
-      "id": 4271,
+      "id": 629,
       "gameId": 629,
       "name": "Broad Swings",
       "type": "Buff",
@@ -201,7 +201,7 @@
     },
     {
       "image": "22701",
-      "id": 4264,
+      "id": 521,
       "gameId": 521,
       "name": "Brute Force",
       "type": "Buff",
@@ -217,7 +217,7 @@
     },
     {
       "image": "23403",
-      "id": 4297,
+      "id": 14423,
       "gameId": 14423,
       "name": "Bypass Defenses",
       "type": "Buff",
@@ -233,7 +233,7 @@
     },
     {
       "image": "13418",
-      "id": 4332,
+      "id": 9159,
       "gameId": 9159,
       "name": "Call War Lion",
       "type": "Buff",
@@ -249,7 +249,7 @@
     },
     {
       "image": "22705",
-      "id": 4273,
+      "id": 818,
       "gameId": 818,
       "name": "Centuries of Training",
       "type": "Buff",
@@ -265,7 +265,7 @@
     },
     {
       "image": "13429",
-      "id": 4242,
+      "id": 9184,
       "gameId": 9184,
       "name": "Charge!",
       "type": "Buff",
@@ -281,7 +281,7 @@
     },
     {
       "image": "13430",
-      "id": 4243,
+      "id": 9170,
       "gameId": 9170,
       "name": "Cleave Limb",
       "type": "Curse",
@@ -297,7 +297,7 @@
     },
     {
       "image": "22705",
-      "id": 4259,
+      "id": 9205,
       "gameId": 9205,
       "name": "Close Bond",
       "type": "Buff",
@@ -313,7 +313,7 @@
     },
     {
       "image": "23157",
-      "id": 4269,
+      "id": 631,
       "gameId": 631,
       "name": "Confusing Movements",
       "type": "Buff",
@@ -329,7 +329,7 @@
     },
     {
       "image": "13422",
-      "id": 4235,
+      "id": 9163,
       "gameId": 9163,
       "name": "Coordinated Strike",
       "type": "Damaging",
@@ -345,7 +345,7 @@
     },
     {
       "image": "13443",
-      "id": 4286,
+      "id": 9190,
       "gameId": 9190,
       "name": "Cull The Weak",
       "type": "Damaging",
@@ -361,7 +361,7 @@
     },
     {
       "image": "22705",
-      "id": 4275,
+      "id": 823,
       "gameId": 823,
       "name": "Discerning Offense",
       "type": "Buff",
@@ -377,7 +377,7 @@
     },
     {
       "image": "13459",
-      "id": 4262,
+      "id": 9226,
       "gameId": 9226,
       "name": "Dominance",
       "type": "Damaging",
@@ -393,7 +393,7 @@
     },
     {
       "image": "13440",
-      "id": 4291,
+      "id": 9187,
       "gameId": 9187,
       "name": "Echoing Roar",
       "type": "Ailment",
@@ -409,7 +409,7 @@
     },
     {
       "image": "13457",
-      "id": 4260,
+      "id": 9224,
       "gameId": 9224,
       "name": "Ensnare",
       "type": "Damaging",
@@ -425,7 +425,7 @@
     },
     {
       "image": "13433",
-      "id": 4246,
+      "id": 9173,
       "gameId": 9173,
       "name": "Feline Grace",
       "type": "Buff",
@@ -441,7 +441,7 @@
     },
     {
       "image": "13438",
-      "id": 4251,
+      "id": 9178,
       "gameId": 9178,
       "name": "Fetch!",
       "type": "Debuff",
@@ -457,7 +457,7 @@
     },
     {
       "image": "13435",
-      "id": 4248,
+      "id": 9175,
       "gameId": 9175,
       "name": "Fey Illusion",
       "type": "Damaging",
@@ -473,7 +473,7 @@
     },
     {
       "image": "22704",
-      "id": 4265,
+      "id": 523,
       "gameId": 523,
       "name": "Flanking",
       "type": "Buff",
@@ -489,7 +489,7 @@
     },
     {
       "image": "22702",
-      "id": 4254,
+      "id": 9200,
       "gameId": 9200,
       "name": "Flashing Claws",
       "type": "Buff",
@@ -505,7 +505,7 @@
     },
     {
       "image": "05004",
-      "id": 4334,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -521,7 +521,7 @@
     },
     {
       "image": "13458",
-      "id": 4261,
+      "id": 9225,
       "gameId": 9225,
       "name": "Flying Axe",
       "type": "Damaging",
@@ -537,7 +537,7 @@
     },
     {
       "image": "23158",
-      "id": 4268,
+      "id": 628,
       "gameId": 628,
       "name": "Force of Will",
       "type": "Buff",
@@ -553,7 +553,7 @@
     },
     {
       "image": "13445",
-      "id": 4279,
+      "id": 9192,
       "gameId": 9192,
       "name": "Force Opportunity",
       "type": "Curse",
@@ -569,7 +569,7 @@
     },
     {
       "image": "23159",
-      "id": 4272,
+      "id": 630,
       "gameId": 630,
       "name": "Frenzied Slaughter",
       "type": "Buff",
@@ -585,7 +585,7 @@
     },
     {
       "image": "22702",
-      "id": 4287,
+      "id": 9214,
       "gameId": 9214,
       "name": "Full-Grown",
       "type": "Buff",
@@ -601,7 +601,7 @@
     },
     {
       "image": "13419",
-      "id": 4333,
+      "id": 9160,
       "gameId": 9160,
       "name": "Hack",
       "type": "Damaging",
@@ -617,7 +617,7 @@
     },
     {
       "image": "22694",
-      "id": 4263,
+      "id": 526,
       "gameId": 526,
       "name": "Jagged Edge",
       "type": "Buff",
@@ -633,7 +633,7 @@
     },
     {
       "image": "13461",
-      "id": 4289,
+      "id": 9231,
       "gameId": 9231,
       "name": "Joy of the Hunt",
       "type": "Healing",
@@ -649,7 +649,7 @@
     },
     {
       "image": "13447",
-      "id": 4295,
+      "id": 9194,
       "gameId": 9194,
       "name": "Leonine Frenzy",
       "type": "Blessing",
@@ -665,7 +665,7 @@
     },
     {
       "image": "22694",
-      "id": 4276,
+      "id": 9209,
       "gameId": 9209,
       "name": "Lionheart",
       "type": "Buff",
@@ -681,7 +681,7 @@
     },
     {
       "image": "13426",
-      "id": 4239,
+      "id": 9167,
       "gameId": 9167,
       "name": "Lion's Fury",
       "type": "Damaging",
@@ -697,7 +697,7 @@
     },
     {
       "image": "22709",
-      "id": 4256,
+      "id": 9202,
       "gameId": 9202,
       "name": "Loner",
       "type": "Buff",
@@ -713,7 +713,7 @@
     },
     {
       "image": "13423",
-      "id": 4236,
+      "id": 9164,
       "gameId": 9164,
       "name": "Nature's Bond",
       "type": "Blessing",
@@ -729,7 +729,7 @@
     },
     {
       "image": "13434",
-      "id": 4247,
+      "id": 9174,
       "gameId": 9174,
       "name": "Pack Assault",
       "type": "Blessing",
@@ -745,7 +745,7 @@
     },
     {
       "image": "22701",
-      "id": 4278,
+      "id": 9210,
       "gameId": 9210,
       "name": "Pack Hunting",
       "type": "Buff",
@@ -761,7 +761,7 @@
     },
     {
       "image": "22701",
-      "id": 4252,
+      "id": 9198,
       "gameId": 9198,
       "name": "Pack Synergy",
       "type": "Buff",
@@ -777,7 +777,7 @@
     },
     {
       "image": "13439",
-      "id": 4277,
+      "id": 9186,
       "gameId": 9186,
       "name": "Pounce",
       "type": "Damaging",
@@ -793,7 +793,7 @@
     },
     {
       "image": "13442",
-      "id": 4284,
+      "id": 9189,
       "gameId": 9189,
       "name": "Primal Fury",
       "type": "Blessing",
@@ -809,7 +809,7 @@
     },
     {
       "image": "13462",
-      "id": 4296,
+      "id": 9232,
       "gameId": 9232,
       "name": "Rampage",
       "type": "Buff",
@@ -825,7 +825,7 @@
     },
     {
       "image": "23160",
-      "id": 4270,
+      "id": 633,
       "gameId": 633,
       "name": "Relentless Assault",
       "type": "Buff",
@@ -841,7 +841,7 @@
     },
     {
       "image": "22696",
-      "id": 4255,
+      "id": 9201,
       "gameId": 9201,
       "name": "Revenge!",
       "type": "Buff",
@@ -857,7 +857,7 @@
     },
     {
       "image": "22702",
-      "id": 4266,
+      "id": 528,
       "gameId": 528,
       "name": "Riposte",
       "type": "Buff",
@@ -873,7 +873,7 @@
     },
     {
       "image": "23161",
-      "id": 4267,
+      "id": 627,
       "gameId": 627,
       "name": "Sever Nerve",
       "type": "Damaging",
@@ -889,7 +889,7 @@
     },
     {
       "image": "13431",
-      "id": 4244,
+      "id": 9171,
       "gameId": 9171,
       "name": "Shattering Blow",
       "type": "Curse",
@@ -905,7 +905,7 @@
     },
     {
       "image": "13436",
-      "id": 4249,
+      "id": 9176,
       "gameId": 9176,
       "name": "Slashing Blade",
       "type": "Damaging",
@@ -921,7 +921,7 @@
     },
     {
       "image": "22703",
-      "id": 4253,
+      "id": 9199,
       "gameId": 9199,
       "name": "Speed Training",
       "type": "Buff",
@@ -937,7 +937,7 @@
     },
     {
       "image": "13428",
-      "id": 4241,
+      "id": 9169,
       "gameId": 9169,
       "name": "Submission",
       "type": "Debuff",
@@ -953,7 +953,7 @@
     },
     {
       "image": "13424",
-      "id": 4237,
+      "id": 9165,
       "gameId": 9165,
       "name": "Sundering Chop",
       "type": "Damaging",
@@ -969,7 +969,7 @@
     },
     {
       "image": "22701",
-      "id": 4258,
+      "id": 9204,
       "gameId": 9204,
       "name": "Tearing Blade",
       "type": "Damaging",
@@ -985,7 +985,7 @@
     },
     {
       "image": "13444",
-      "id": 4288,
+      "id": 9191,
       "gameId": 9191,
       "name": "Thin The Herd",
       "type": "Curse",
@@ -1001,7 +1001,7 @@
     },
     {
       "image": "13437",
-      "id": 4250,
+      "id": 9177,
       "gameId": 9177,
       "name": "Throat Bite",
       "type": "Damaging",
@@ -1017,7 +1017,7 @@
     },
     {
       "image": "13432",
-      "id": 4245,
+      "id": 9172,
       "gameId": 9172,
       "name": "Trained To Hunt",
       "type": "Buff",
@@ -1033,7 +1033,7 @@
     },
     {
       "image": "13421",
-      "id": 4240,
+      "id": 9162,
       "gameId": 9162,
       "name": "Trained To Kill",
       "type": "Buff",
@@ -1049,7 +1049,7 @@
     },
     {
       "image": "13427",
-      "id": 4234,
+      "id": 9168,
       "gameId": 9168,
       "name": "Trained To Threaten",
       "type": "Buff",
@@ -1065,7 +1065,7 @@
     },
     {
       "image": "13441",
-      "id": 4281,
+      "id": 9188,
       "gameId": 9188,
       "name": "Whirling Axe",
       "type": "Damaging",
@@ -1081,7 +1081,7 @@
     },
     {
       "image": "13446",
-      "id": 4293,
+      "id": 9193,
       "gameId": 9193,
       "name": "Brutal Pounce",
       "type": "Damaging",
@@ -1113,7 +1113,7 @@
     },
     {
       "image": "22706",
-      "id": 4292,
+      "id": 9216,
       "gameId": 9216,
       "name": "Furious Mending",
       "type": "Healing",
@@ -1129,7 +1129,7 @@
     },
     {
       "image": "22706",
-      "id": 4290,
+      "id": 9215,
       "gameId": 9215,
       "name": "Stalker",
       "type": "Buff",
@@ -1145,7 +1145,7 @@
     },
     {
       "image": "22706",
-      "id": 4298,
+      "id": 9215,
       "gameId": 9215,
       "name": "Stalker",
       "type": "Buff",
@@ -1161,7 +1161,7 @@
     },
     {
       "image": "22708",
-      "id": 4280,
+      "id": 2929,
       "gameId": 2929,
       "name": "Hack and Slash",
       "type": "Buff",
@@ -1177,7 +1177,7 @@
     },
     {
       "image": "22706",
-      "id": 4285,
+      "id": 9213,
       "gameId": 9213,
       "name": "Threatening Distraction",
       "type": "Buff",
@@ -1193,7 +1193,7 @@
     },
     {
       "image": "22694",
-      "id": 4294,
+      "id": 9217,
       "gameId": 9217,
       "name": "Baited Trap",
       "type": "Buff",

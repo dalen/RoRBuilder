@@ -6,20 +6,20 @@
         "primary": "A mastery path focused on toe-to-toe combat"
       },
       "optionalAbilities": {
-        "lvl1": 4379,
-        "lvl2": 4380,
-        "lvl3": 4381,
-        "lvl4": 4382,
-        "lvl5": 6103,
-        "lvl6": 4384,
-        "lvl7": 4385
+        "lvl1": 8131,
+        "lvl2": 8108,
+        "lvl3": 8132,
+        "lvl4": 8109,
+        "lvl5": 2993,
+        "lvl6": 8110,
+        "lvl7": 8152
       },
       "coreAbilities": [
-        4345,
-        4351,
-        4436,
-        4344,
-        4337
+        8087,
+        8097,
+        8081,
+        8091,
+        8084
       ]
     },
     "b": {
@@ -28,20 +28,20 @@
         "primary": "A mastery path focused on longer-duration weakening effects"
       },
       "optionalAbilities": {
-        "lvl1": 4386,
-        "lvl2": 4387,
-        "lvl3": 4388,
-        "lvl4": 4389,
-        "lvl5": 4390,
-        "lvl6": 4391,
-        "lvl7": 4392
+        "lvl1": 8134,
+        "lvl2": 8111,
+        "lvl3": 8135,
+        "lvl4": 8112,
+        "lvl5": 8127,
+        "lvl6": 8113,
+        "lvl7": 8153
       },
       "coreAbilities": [
-        4349,
-        4336,
-        4346,
-        4339,
-        4342
+        8096,
+        8083,
+        8086,
+        8093,
+        8099
       ]
     },
     "c": {
@@ -50,27 +50,27 @@
         "primary": "A mastery path focused on surprise attacks and positional combat"
       },
       "optionalAbilities": {
-        "lvl1": 4393,
-        "lvl2": 4394,
-        "lvl3": 4395,
-        "lvl4": 4396,
-        "lvl5": 4397,
-        "lvl6": 4398,
-        "lvl7": 4399
+        "lvl1": 8138,
+        "lvl2": 2997,
+        "lvl3": 8137,
+        "lvl4": 8115,
+        "lvl5": 8139,
+        "lvl6": 8116,
+        "lvl7": 8154
       },
       "coreAbilities": [
-        4338,
-        4347,
-        4352,
-        4353,
-        4335
+        8085,
+        8100,
+        8098,
+        8089,
+        8082
       ]
     }
   },
   "data": [
     {
       "image": "abi_em_purgatory",
-      "id": 4323,
+      "id": 9700,
       "gameId": 9700,
       "name": "Purgatory",
       "type": "Debuff",
@@ -86,7 +86,7 @@
     },
     {
       "image": "08051",
-      "id": 4335,
+      "id": 8082,
       "gameId": 8082,
       "name": "Absolution",
       "type": "Damaging",
@@ -102,7 +102,7 @@
     },
     {
       "image": "22708",
-      "id": 4393,
+      "id": 8138,
       "gameId": 8138,
       "name": "Atonement",
       "type": "Buff",
@@ -118,7 +118,7 @@
     },
     {
       "image": "07974",
-      "id": 4353,
+      "id": 8089,
       "gameId": 8089,
       "name": "Blessed Bullets of Cleansing",
       "type": "Buff",
@@ -134,7 +134,7 @@
     },
     {
       "image": "07970",
-      "id": 4342,
+      "id": 8099,
       "gameId": 8099,
       "name": "Blessed Bullets of Confession",
       "type": "Buff",
@@ -150,7 +150,7 @@
     },
     {
       "image": "08045",
-      "id": 4337,
+      "id": 8084,
       "gameId": 8084,
       "name": "Blessed Bullets of Purity",
       "type": "Buff",
@@ -166,7 +166,7 @@
     },
     {
       "image": "22696",
-      "id": 4362,
+      "id": 8126,
       "gameId": 8126,
       "name": "Blood, Faith, And Fire",
       "type": "Buff",
@@ -182,7 +182,7 @@
     },
     {
       "image": "23156",
-      "id": 4374,
+      "id": 629,
       "gameId": 629,
       "name": "Broad Swings",
       "type": "Buff",
@@ -198,7 +198,7 @@
     },
     {
       "image": "22701",
-      "id": 4367,
+      "id": 521,
       "gameId": 521,
       "name": "Brute Force",
       "type": "Buff",
@@ -214,7 +214,7 @@
     },
     {
       "image": "07971",
-      "id": 4344,
+      "id": 8091,
       "gameId": 8091,
       "name": "Burn Armor",
       "type": "Ailment",
@@ -230,7 +230,7 @@
     },
     {
       "image": "08049",
-      "id": 4398,
+      "id": 8116,
       "gameId": 8116,
       "name": "Burn Away Lies",
       "type": "Ailment",
@@ -246,7 +246,7 @@
     },
     {
       "image": "08046",
-      "id": 4339,
+      "id": 8093,
       "gameId": 8093,
       "name": "Burn, Heretic!",
       "type": "Ailment",
@@ -262,7 +262,7 @@
     },
     {
       "image": "07976",
-      "id": 4346,
+      "id": 8086,
       "gameId": 8086,
       "name": "Confess!",
       "type": "Ailment",
@@ -278,7 +278,7 @@
     },
     {
       "image": "23157",
-      "id": 4372,
+      "id": 631,
       "gameId": 631,
       "name": "Confusing Movements",
       "type": "Buff",
@@ -294,7 +294,7 @@
     },
     {
       "image": "07981",
-      "id": 4354,
+      "id": 8094,
       "gameId": 8094,
       "name": "Declare Anathema",
       "type": "Debuff",
@@ -310,7 +310,7 @@
     },
     {
       "image": "07980",
-      "id": 4385,
+      "id": 8152,
       "gameId": 8152,
       "name": "Divine Blast",
       "type": "Damaging",
@@ -326,7 +326,7 @@
     },
     {
       "image": "08047",
-      "id": 4384,
+      "id": 8110,
       "gameId": 8110,
       "name": "Dragon Gun",
       "type": "Damaging",
@@ -342,7 +342,7 @@
     },
     {
       "image": "22710",
-      "id": 4376,
+      "id": 779,
       "gameId": 779,
       "name": "Emperor's Ward",
       "type": "Buff",
@@ -358,7 +358,7 @@
     },
     {
       "image": "22704",
-      "id": 4361,
+      "id": 8136,
       "gameId": 8136,
       "name": "Encourage Confession",
       "type": "Buff",
@@ -374,7 +374,7 @@
     },
     {
       "image": "07978",
-      "id": 4392,
+      "id": 8153,
       "gameId": 8153,
       "name": "Excommunicate",
       "type": "Damaging",
@@ -390,7 +390,7 @@
     },
     {
       "image": "07982",
-      "id": 4391,
+      "id": 8113,
       "gameId": 8113,
       "name": "Exit Wound",
       "type": "Defensive",
@@ -406,7 +406,7 @@
     },
     {
       "image": "07988",
-      "id": 4363,
+      "id": 8146,
       "gameId": 8146,
       "name": "Exoneration",
       "type": "Healing",
@@ -422,7 +422,7 @@
     },
     {
       "image": "07989",
-      "id": 4399,
+      "id": 8154,
       "gameId": 8154,
       "name": "Expurgation",
       "type": "Damaging",
@@ -438,7 +438,7 @@
     },
     {
       "image": "22709",
-      "id": 4395,
+      "id": 8137,
       "gameId": 8137,
       "name": "Fanatical Cleansing",
       "type": "Buff",
@@ -454,7 +454,7 @@
     },
     {
       "image": "07983",
-      "id": 4352,
+      "id": 8098,
       "gameId": 8098,
       "name": "Fanatical Zeal",
       "type": "Ailment",
@@ -470,7 +470,7 @@
     },
     {
       "image": "07972",
-      "id": 4340,
+      "id": 8092,
       "gameId": 8092,
       "name": "Feinted Positioning",
       "type": "Buff",
@@ -486,7 +486,7 @@
     },
     {
       "image": "08052",
-      "id": 4336,
+      "id": 8083,
       "gameId": 8083,
       "name": "Fervor",
       "type": "Ailment",
@@ -502,7 +502,7 @@
     },
     {
       "image": "22704",
-      "id": 4368,
+      "id": 523,
       "gameId": 523,
       "name": "Flanking",
       "type": "Buff",
@@ -518,7 +518,7 @@
     },
     {
       "image": "05004",
-      "id": 4434,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -534,7 +534,7 @@
     },
     {
       "image": "22710",
-      "id": 4356,
+      "id": 8121,
       "gameId": 8121,
       "name": "Flowing Accusations",
       "type": "Buff",
@@ -550,7 +550,7 @@
     },
     {
       "image": "23158",
-      "id": 4371,
+      "id": 628,
       "gameId": 628,
       "name": "Force of Will",
       "type": "Buff",
@@ -566,7 +566,7 @@
     },
     {
       "image": "23159",
-      "id": 4375,
+      "id": 630,
       "gameId": 630,
       "name": "Frenzied Slaughter",
       "type": "Buff",
@@ -582,7 +582,7 @@
     },
     {
       "image": "22701",
-      "id": 4386,
+      "id": 8134,
       "gameId": 8134,
       "name": "Full Confession",
       "type": "Buff",
@@ -598,7 +598,7 @@
     },
     {
       "image": "07968",
-      "id": 4341,
+      "id": 8088,
       "gameId": 8088,
       "name": "Get Thee Behind Me!",
       "type": "Debuff",
@@ -614,7 +614,7 @@
     },
     {
       "image": "07985",
-      "id": 4343,
+      "id": 8090,
       "gameId": 8090,
       "name": "Incognito",
       "type": "Buff",
@@ -630,7 +630,7 @@
     },
     {
       "image": "22708",
-      "id": 4355,
+      "id": 8120,
       "gameId": 8120,
       "name": "Inquisitor's Fury",
       "type": "Buff",
@@ -646,7 +646,7 @@
     },
     {
       "image": "22694",
-      "id": 4366,
+      "id": 526,
       "gameId": 526,
       "name": "Jagged Edge",
       "type": "Buff",
@@ -662,7 +662,7 @@
     },
     {
       "image": "22706",
-      "id": 4359,
+      "id": 8124,
       "gameId": 8124,
       "name": "Last Rites",
       "type": "Buff",
@@ -678,7 +678,7 @@
     },
     {
       "image": "22694",
-      "id": 4358,
+      "id": 8123,
       "gameId": 8123,
       "name": "Penetrating Barbs",
       "type": "Buff",
@@ -694,7 +694,7 @@
     },
     {
       "image": "23412",
-      "id": 4400,
+      "id": 14427,
       "gameId": 14427,
       "name": "Pick Lock",
       "type": "Buff",
@@ -710,7 +710,7 @@
     },
     {
       "image": "07984",
-      "id": 4396,
+      "id": 8115,
       "gameId": 8115,
       "name": "Pistol Whip",
       "type": "Ailment",
@@ -726,7 +726,7 @@
     },
     {
       "image": "22694",
-      "id": 4388,
+      "id": 8135,
       "gameId": 8135,
       "name": "Prolonged Confession",
       "type": "Buff",
@@ -742,7 +742,7 @@
     },
     {
       "image": "22709",
-      "id": 4390,
+      "id": 8127,
       "gameId": 8127,
       "name": "Protection from Heresy",
       "type": "Buff",
@@ -758,7 +758,7 @@
     },
     {
       "image": "07977",
-      "id": 4389,
+      "id": 8112,
       "gameId": 8112,
       "name": "Punish The False",
       "type": "Ailment",
@@ -774,7 +774,7 @@
     },
     {
       "image": "07965",
-      "id": 4436,
+      "id": 8081,
       "gameId": 8081,
       "name": "Razor Strike",
       "type": "Damaging",
@@ -790,7 +790,7 @@
     },
     {
       "image": "23160",
-      "id": 4373,
+      "id": 633,
       "gameId": 633,
       "name": "Relentless Assault",
       "type": "Buff",
@@ -806,7 +806,7 @@
     },
     {
       "image": "08050",
-      "id": 4382,
+      "id": 8109,
       "gameId": 8109,
       "name": "Repel Blasphemy",
       "type": "Blessing",
@@ -822,7 +822,7 @@
     },
     {
       "image": "07987",
-      "id": 4364,
+      "id": 8147,
       "gameId": 8147,
       "name": "Reversal of Fortune",
       "type": "Damaging",
@@ -838,7 +838,7 @@
     },
     {
       "image": "22702",
-      "id": 4357,
+      "id": 8122,
       "gameId": 8122,
       "name": "Righteous Steel",
       "type": "Buff",
@@ -854,7 +854,7 @@
     },
     {
       "image": "22702",
-      "id": 4369,
+      "id": 528,
       "gameId": 528,
       "name": "Riposte",
       "type": "Buff",
@@ -870,7 +870,7 @@
     },
     {
       "image": "22706",
-      "id": 4381,
+      "id": 8132,
       "gameId": 8132,
       "name": "Sanctified Bullets",
       "type": "Buff",
@@ -886,7 +886,7 @@
     },
     {
       "image": "07978",
-      "id": 4387,
+      "id": 8111,
       "gameId": 8111,
       "name": "Seal of Destruction",
       "type": "Buff",
@@ -902,7 +902,7 @@
     },
     {
       "image": "08053",
-      "id": 4351,
+      "id": 8097,
       "gameId": 8097,
       "name": "Seeker's Blade",
       "type": "Ailment",
@@ -918,7 +918,7 @@
     },
     {
       "image": "22701",
-      "id": 4379,
+      "id": 8131,
       "gameId": 8131,
       "name": "Seeker's Triumph",
       "type": "Buff",
@@ -934,7 +934,7 @@
     },
     {
       "image": "02497",
-      "id": 4350,
+      "id": 8101,
       "gameId": 8101,
       "name": "Sever Blessing",
       "type": "Damaging",
@@ -950,7 +950,7 @@
     },
     {
       "image": "23161",
-      "id": 4370,
+      "id": 627,
       "gameId": 627,
       "name": "Sever Nerve",
       "type": "Damaging",
@@ -966,7 +966,7 @@
     },
     {
       "image": "07973",
-      "id": 4380,
+      "id": 8108,
       "gameId": 8108,
       "name": "Shroud of Magnus",
       "type": "Buff",
@@ -982,7 +982,7 @@
     },
     {
       "image": "08011",
-      "id": 4348,
+      "id": 8095,
       "gameId": 8095,
       "name": "Sigil of Sigmar",
       "type": "Buff",
@@ -998,7 +998,7 @@
     },
     {
       "image": "22710",
-      "id": 4378,
+      "id": 776,
       "gameId": 776,
       "name": "Sigmar's Favor",
       "type": "Buff",
@@ -1014,7 +1014,7 @@
     },
     {
       "image": "07979",
-      "id": 4347,
+      "id": 8100,
       "gameId": 8100,
       "name": "Silence The Heretic",
       "type": "Ailment",
@@ -1030,7 +1030,7 @@
     },
     {
       "image": "07966",
-      "id": 4435,
+      "id": 8080,
       "gameId": 8080,
       "name": "Snap Shot",
       "type": "Ailment",
@@ -1046,7 +1046,7 @@
     },
     {
       "image": "07969",
-      "id": 4349,
+      "id": 8096,
       "gameId": 8096,
       "name": "Sudden Accusation",
       "type": "Ailment",
@@ -1062,7 +1062,7 @@
     },
     {
       "image": "22694",
-      "id": 4383,
+      "id": 8133,
       "gameId": 8133,
       "name": "Sweeping Razor",
       "type": "Buff",
@@ -1078,7 +1078,7 @@
     },
     {
       "image": "07975",
-      "id": 4338,
+      "id": 8085,
       "gameId": 8085,
       "name": "Torment",
       "type": "Damaging",
@@ -1094,7 +1094,7 @@
     },
     {
       "image": "07967",
-      "id": 4345,
+      "id": 8087,
       "gameId": 8087,
       "name": "Trial By Pain",
       "type": "Damaging",
@@ -1110,7 +1110,7 @@
     },
     {
       "image": "22710",
-      "id": 4377,
+      "id": 777,
       "gameId": 777,
       "name": "Unwavering Faith",
       "type": "Buff",
@@ -1126,7 +1126,7 @@
     },
     {
       "image": "abi_em_distractingburst",
-      "id": 4394,
+      "id": 2997,
       "gameId": 2997,
       "name": "Sanctified Oil",
       "type": "Buff",
@@ -1142,7 +1142,7 @@
     },
     {
       "image": "22703",
-      "id": 4360,
+      "id": 8125,
       "gameId": 8125,
       "name": "Vindication",
       "type": "Buff",
@@ -1158,7 +1158,7 @@
     },
     {
       "image": "22704",
-      "id": 4397,
+      "id": 8139,
       "gameId": 8139,
       "name": "Vitriolic Judgement",
       "type": "Buff",
@@ -1174,7 +1174,7 @@
     },
     {
       "image": "07986",
-      "id": 4365,
+      "id": 8148,
       "gameId": 8148,
       "name": "Witchfinder's Protection",
       "type": "Buff",
@@ -1190,7 +1190,7 @@
     },
     {
       "image": "22702",
-      "id": 6102,
+      "id": 522,
       "gameId": 522,
       "name": "Close Combat",
       "type": "Buff",
@@ -1206,7 +1206,7 @@
     },
     {
       "image": "WH_M2_WitchfindersJudgement",
-      "id": 6104,
+      "id": 2714,
       "gameId": 2714,
       "name": "Witchfinders Judgement",
       "type": "Buff",
@@ -1222,7 +1222,7 @@
     },
     {
       "image": "22708",
-      "id": 6103,
+      "id": 2993,
       "gameId": 2993,
       "name": "Blessed Blade",
       "type": "Buff",

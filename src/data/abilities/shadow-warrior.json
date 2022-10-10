@@ -9,17 +9,17 @@
       "optionalAbilities": {
         "lvl1": 9127,
         "lvl2": 9096,
-        "lvl3": 3973,
+        "lvl3": 9126,
         "lvl4": 9085,
-        "lvl5": 3971,
+        "lvl5": 2741,
         "lvl6": 9105,
-        "lvl7": 3977
+        "lvl7": 9142
       },
       "coreAbilities": [
-        3945,
-        3940,
-        4027,
-        3930,
+        9095,
+        9101,
+        9082,
+        9104,
         1556
       ]
     },
@@ -30,21 +30,21 @@
         "secondary": "Sword counts 100% of its dps towards abilities."
       },
       "optionalAbilities": {
-        "lvl1": 3978,
-        "lvl2": 3979,
-        "lvl3": 3980,
+        "lvl1": 9130,
+        "lvl2": 9106,
+        "lvl3": 9131,
         "lvl4": 2972,
-        "lvl5": 3982,
-        "lvl6": 3983,
-        "lvl7": 7530
+        "lvl5": 2974,
+        "lvl6": 9108,
+        "lvl7": 2822
       },
       "coreAbilities": [
-        3943,
-        4029,
-        3936,
-        3981,
-        3944,
-        3931
+        9098,
+        9083,
+        9091,
+        9107,
+        9099,
+        9086
       ]
     },
     "c": {
@@ -54,27 +54,27 @@
         "secondary": "Bow counts 100% of its dps to abilities, sword counts 45%."
       },
       "optionalAbilities": {
-        "lvl1": 3985,
+        "lvl1": 9134,
         "lvl2": 9088,
-        "lvl3": 3987,
+        "lvl3": 9133,
         "lvl4": 9109,
-        "lvl5": 3989,
+        "lvl5": 9132,
         "lvl6": 9111,
-        "lvl7": 3991
+        "lvl7": 9144
       },
       "coreAbilities": [
-        3932,
-        3933,
-        3946,
-        3988,
-        3929
+        9087,
+        9093,
+        9100,
+        9110,
+        9084
       ]
     }
   },
   "data": [
     {
       "image": "13324",
-      "id": 3930,
+      "id": 9104,
       "gameId": 9104,
       "name": "Acid Arrow",
       "type": "Ailment",
@@ -90,7 +90,7 @@
     },
     {
       "image": "13404",
-      "id": 3927,
+      "id": 2975,
       "gameId": 2975,
       "name": "Assault Stance",
       "type": "Buff",
@@ -122,7 +122,7 @@
     },
     {
       "image": "22705",
-      "id": 3969,
+      "id": 819,
       "gameId": 819,
       "name": "Bend the Winds",
       "type": "Buff",
@@ -138,7 +138,7 @@
     },
     {
       "image": "22696",
-      "id": 3954,
+      "id": 9123,
       "gameId": 9123,
       "name": "Blood-Soaked War",
       "type": "Buff",
@@ -154,7 +154,7 @@
     },
     {
       "image": "13309",
-      "id": 3929,
+      "id": 9084,
       "gameId": 9084,
       "name": "Broadhead Arrow",
       "type": "Ailment",
@@ -170,7 +170,7 @@
     },
     {
       "image": "13402",
-      "id": 3931,
+      "id": 9086,
       "gameId": 9086,
       "name": "Brutal Assault",
       "type": "Damaging",
@@ -186,7 +186,7 @@
     },
     {
       "image": "22709",
-      "id": 3951,
+      "id": 9117,
       "gameId": 9117,
       "name": "Bullseye",
       "type": "Buff",
@@ -202,7 +202,7 @@
     },
     {
       "image": "22705",
-      "id": 3968,
+      "id": 818,
       "gameId": 818,
       "name": "Centuries of Training",
       "type": "Buff",
@@ -218,7 +218,7 @@
     },
     {
       "image": "22698",
-      "id": 3960,
+      "id": 549,
       "gameId": 549,
       "name": "Clever Recovery",
       "type": "Buff",
@@ -234,7 +234,7 @@
     },
     {
       "image": "23162",
-      "id": 3964,
+      "id": 652,
       "gameId": 652,
       "name": "Concealment",
       "type": "Buff",
@@ -250,7 +250,7 @@
     },
     {
       "image": "13323",
-      "id": 3944,
+      "id": 9099,
       "gameId": 9099,
       "name": "Counterstrike",
       "type": "Damaging",
@@ -266,7 +266,7 @@
     },
     {
       "image": "22705",
-      "id": 3970,
+      "id": 823,
       "gameId": 823,
       "name": "Discerning Offense",
       "type": "Buff",
@@ -282,7 +282,7 @@
     },
     {
       "image": "22697",
-      "id": 3950,
+      "id": 9122,
       "gameId": 9122,
       "name": "Distracting Rebounds",
       "type": "Buff",
@@ -298,7 +298,7 @@
     },
     {
       "image": "13403",
-      "id": 3934,
+      "id": 9089,
       "gameId": 9089,
       "name": "Distracting Shot",
       "type": "Debuff",
@@ -314,7 +314,7 @@
     },
     {
       "image": "13405",
-      "id": 3936,
+      "id": 9091,
       "gameId": 9091,
       "name": "Draw Blood",
       "type": "Ailment",
@@ -330,7 +330,7 @@
     },
     {
       "image": "13322",
-      "id": 4027,
+      "id": 9082,
       "gameId": 9082,
       "name": "Eagle Eye",
       "type": "Damaging",
@@ -346,7 +346,7 @@
     },
     {
       "image": "22698",
-      "id": 3973,
+      "id": 9126,
       "gameId": 9126,
       "name": "Enchanted Arrows",
       "type": "Buff",
@@ -362,7 +362,7 @@
     },
     {
       "image": "22694",
-      "id": 3958,
+      "id": 544,
       "gameId": 544,
       "name": "Expert Skirmisher",
       "type": "Buff",
@@ -378,7 +378,7 @@
     },
     {
       "image": "13409",
-      "id": 3983,
+      "id": 9108,
       "gameId": 9108,
       "name": "Exploit Weakness",
       "type": "Ailment",
@@ -394,7 +394,7 @@
     },
     {
       "image": "23163",
-      "id": 3966,
+      "id": 650,
       "gameId": 650,
       "name": "Explosive Shots",
       "type": "Buff",
@@ -474,7 +474,7 @@
     },
     {
       "image": "13329",
-      "id": 3988,
+      "id": 9110,
       "gameId": 9110,
       "name": "Flanking Shot",
       "type": "Damaging",
@@ -490,7 +490,7 @@
     },
     {
       "image": "05004",
-      "id": 4028,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -506,7 +506,7 @@
     },
     {
       "image": "23153",
-      "id": 3965,
+      "id": 653,
       "gameId": 653,
       "name": "Focused Mind",
       "type": "Buff",
@@ -538,7 +538,7 @@
     },
     {
       "image": "13400",
-      "id": 4029,
+      "id": 9083,
       "gameId": 9083,
       "name": "Grim Slash",
       "type": "Damaging",
@@ -570,7 +570,7 @@
     },
     {
       "image": "23164",
-      "id": 3967,
+      "id": 651,
       "gameId": 651,
       "name": "Hail of Doom",
       "type": "Buff",
@@ -586,7 +586,7 @@
     },
     {
       "image": "13302",
-      "id": 3935,
+      "id": 9148,
       "gameId": 9148,
       "name": "Hunter's Fervor",
       "type": "Enchantment",
@@ -602,7 +602,7 @@
     },
     {
       "image": "13336",
-      "id": 3957,
+      "id": 9139,
       "gameId": 9139,
       "name": "Instill Fear",
       "type": "Damaging",
@@ -618,7 +618,7 @@
     },
     {
       "image": "22694",
-      "id": 3952,
+      "id": 9121,
       "gameId": 9121,
       "name": "Instinctive Aim",
       "type": "Buff",
@@ -634,7 +634,7 @@
     },
     {
       "image": "22702",
-      "id": 3987,
+      "id": 9133,
       "gameId": 9133,
       "name": "Keen Arrowheads",
       "type": "Buff",
@@ -650,7 +650,7 @@
     },
     {
       "image": "22697",
-      "id": 3953,
+      "id": 9128,
       "gameId": 9128,
       "name": "Leading Shots",
       "type": "Buff",
@@ -666,7 +666,7 @@
     },
     {
       "image": "13307",
-      "id": 3946,
+      "id": 9100,
       "gameId": 9100,
       "name": "Lileath's Arrow",
       "type": "Damaging",
@@ -682,7 +682,7 @@
     },
     {
       "image": "13334",
-      "id": 3955,
+      "id": 9137,
       "gameId": 9137,
       "name": "Lileath's Forgiveness",
       "type": "Buff",
@@ -698,7 +698,7 @@
     },
     {
       "image": "22697",
-      "id": 3959,
+      "id": 542,
       "gameId": 542,
       "name": "Masterful Aim",
       "type": "Buff",
@@ -714,7 +714,7 @@
     },
     {
       "image": "22708",
-      "id": 3982,
+      "id": 2974,
       "gameId": 2974,
       "name": "Merciless Soldier",
       "type": "Buff",
@@ -730,7 +730,7 @@
     },
     {
       "image": "22709",
-      "id": 3971,
+      "id": 2741,
       "gameId": 2741,
       "name": "No Quarter",
       "type": "Buff",
@@ -746,7 +746,7 @@
     },
     {
       "image": "22702",
-      "id": 3980,
+      "id": 9131,
       "gameId": 9131,
       "name": "No Respite",
       "type": "Buff",
@@ -762,7 +762,7 @@
     },
     {
       "image": "13319",
-      "id": 3943,
+      "id": 9098,
       "gameId": 9098,
       "name": "Opportunistic Strike",
       "type": "Ailment",
@@ -778,7 +778,7 @@
     },
     {
       "image": "13335",
-      "id": 3956,
+      "id": 2711,
       "gameId": 2711,
       "name": "Ambush",
       "type": "Damaging",
@@ -794,7 +794,7 @@
     },
     {
       "image": "13339",
-      "id": 3991,
+      "id": 9144,
       "gameId": 9144,
       "name": "Penetrating Arrow",
       "type": "Damaging",
@@ -810,7 +810,7 @@
     },
     {
       "image": "22709",
-      "id": 3961,
+      "id": 550,
       "gameId": 550,
       "name": "Pierce Defenses",
       "type": "Buff",
@@ -826,7 +826,7 @@
     },
     {
       "image": "23165",
-      "id": 3962,
+      "id": 648,
       "gameId": 648,
       "name": "Point-Blank",
       "type": "Debuff",
@@ -842,7 +842,7 @@
     },
     {
       "image": "22697",
-      "id": 3989,
+      "id": 9132,
       "gameId": 9132,
       "name": "Powerful Draw",
       "type": "Buff",
@@ -858,7 +858,7 @@
     },
     {
       "image": "13337",
-      "id": 3977,
+      "id": 9142,
       "gameId": 9142,
       "name": "Rain of Steel",
       "type": "Damaging",
@@ -874,7 +874,7 @@
     },
     {
       "image": "13314",
-      "id": 3940,
+      "id": 9101,
       "gameId": 9101,
       "name": "Rapid Fire",
       "type": "Damaging",
@@ -890,7 +890,7 @@
     },
     {
       "image": "22708",
-      "id": 3947,
+      "id": 9118,
       "gameId": 9118,
       "name": "Replenishing Strikes",
       "type": "Buff",
@@ -906,7 +906,7 @@
     },
     {
       "image": "13398",
-      "id": 4026,
+      "id": 9080,
       "gameId": 9080,
       "name": "Scout Stance",
       "type": "Buff",
@@ -938,7 +938,7 @@
     },
     {
       "image": "abi_he_runningshot",
-      "id": 7530,
+      "id": 2822,
       "gameId": 2822,
       "name": "Shadowstep",
       "type": "Buff",
@@ -954,7 +954,7 @@
     },
     {
       "image": "22698",
-      "id": 3978,
+      "id": 9130,
       "gameId": 9130,
       "name": "Sinister Assault",
       "type": "Buff",
@@ -970,7 +970,7 @@
     },
     {
       "image": "13407",
-      "id": 3928,
+      "id": 9094,
       "gameId": 9094,
       "name": "Skirmish Stance",
       "type": "Buff",
@@ -986,7 +986,7 @@
     },
     {
       "image": "22697",
-      "id": 3949,
+      "id": 9119,
       "gameId": 9119,
       "name": "Smoldering Arrows",
       "type": "Buff",
@@ -1002,7 +1002,7 @@
     },
     {
       "image": "13406",
-      "id": 3933,
+      "id": 9093,
       "gameId": 9093,
       "name": "Spiral-Fletched Arrow",
       "type": "Damaging",
@@ -1018,7 +1018,7 @@
     },
     {
       "image": "22694",
-      "id": 3985,
+      "id": 9134,
       "gameId": 9134,
       "name": "Split Arrows",
       "type": "Buff",
@@ -1034,7 +1034,7 @@
     },
     {
       "image": "13308",
-      "id": 3942,
+      "id": 9097,
       "gameId": 9097,
       "name": "Steady Aim",
       "type": "Enchantment",
@@ -1050,7 +1050,7 @@
     },
     {
       "image": "13331",
-      "id": 3981,
+      "id": 9107,
       "gameId": 9107,
       "name": "Sweeping Slash",
       "type": "Damaging",
@@ -1066,7 +1066,7 @@
     },
     {
       "image": "13330",
-      "id": 3979,
+      "id": 9106,
       "gameId": 9106,
       "name": "Swift Strikes",
       "type": "Damaging",
@@ -1082,7 +1082,7 @@
     },
     {
       "image": "13310",
-      "id": 3932,
+      "id": 9087,
       "gameId": 9087,
       "name": "Takedown",
       "type": "Ailment",
@@ -1098,7 +1098,7 @@
     },
     {
       "image": "13408",
-      "id": 3945,
+      "id": 9095,
       "gameId": 9095,
       "name": "Throat Shot",
       "type": "Ailment",
@@ -1114,7 +1114,7 @@
     },
     {
       "image": "13399",
-      "id": 3937,
+      "id": 9081,
       "gameId": 9081,
       "name": "Vengeance of Nagarythe",
       "type": "Enchantment",
@@ -1130,7 +1130,7 @@
     },
     {
       "image": "13321",
-      "id": 3938,
+      "id": 9092,
       "gameId": 9092,
       "name": "Whirling Pin",
       "type": "Ailment",
@@ -1146,7 +1146,7 @@
     },
     {
       "image": "13338",
-      "id": 3984,
+      "id": 9143,
       "gameId": 9143,
       "name": "Whirling Rage",
       "type": "Damaging",
@@ -1162,7 +1162,7 @@
     },
     {
       "image": "22704",
-      "id": 3948,
+      "id": 9116,
       "gameId": 9116,
       "name": "Wrist Slash",
       "type": "Buff",

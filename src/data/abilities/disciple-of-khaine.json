@@ -6,20 +6,20 @@
         "primary": "A mastery path focused on healing and restorative powers"
       },
       "optionalAbilities": {
-        "lvl1": 4998,
-        "lvl2": 4999,
-        "lvl3": 5002,
-        "lvl4": 5001,
-        "lvl5": 5000,
-        "lvl6": 5003,
-        "lvl7": 5004
+        "lvl1": 9595,
+        "lvl2": 9574,
+        "lvl3": 9597,
+        "lvl4": 9573,
+        "lvl5": 9596,
+        "lvl6": 9579,
+        "lvl7": 9616
       },
       "coreAbilities": [
-        5053,
-        4960,
-        4969,
-        5056,
-        4966
+        9548,
+        9553,
+        9557,
+        9568,
+        9563
       ]
     },
     "b": {
@@ -28,21 +28,21 @@
         "primary": "A mastery path focused on melee combat"
       },
       "optionalAbilities": {
-        "lvl1": 4977,
-        "lvl2": 5006,
-        "lvl3": 5005,
+        "lvl1": 9586,
+        "lvl2": 9580,
+        "lvl3": 9598,
         "lvl4": 2938,
-        "lvl5": 5009,
+        "lvl5": 9602,
         "lvl6": 2934,
-        "lvl7": 5011
+        "lvl7": 9617
       },
       "coreAbilities": [
-        4959,
-        4963,
-        4965,
-        4968,
-        5008,
-        5054
+        9551,
+        9549,
+        9566,
+        9559,
+        2935,
+        9552
       ]
     },
     "c": {
@@ -51,30 +51,30 @@
         "primary": "A mastery path focused on siphoning power from your enemies"
       },
       "optionalAbilities": {
-        "lvl1": 5012,
-        "lvl2": 5017,
-        "lvl3": 5014,
-        "lvl4": 5015,
-        "lvl5": 5016,
+        "lvl1": 9599,
+        "lvl2": 9581,
+        "lvl3": 9603,
+        "lvl4": 9578,
+        "lvl5": 2959,
         "lvl6": 2952,
-        "lvl7": 5018
+        "lvl7": 9618
       },
       "coreAbilities": [
-        4971,
-        4962,
-        4958,
-        4972,
-        4956,
-        5013,
+        2932,
+        9554,
+        9567,
+        9565,
+        9560,
+        9577,
         2941,
-        2051
+        2933
       ]
     }
   },
   "data": [
     {
       "image": "22712",
-      "id": 4996,
+      "id": 839,
       "gameId": 839,
       "name": "Alignment of Naggaroth",
       "type": "Buff",
@@ -90,7 +90,7 @@
     },
     {
       "image": "23150",
-      "id": 4994,
+      "id": 697,
       "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
@@ -106,7 +106,7 @@
     },
     {
       "image": "22712",
-      "id": 4997,
+      "id": 840,
       "gameId": 840,
       "name": "Bathing In Blood",
       "type": "Buff",
@@ -122,7 +122,7 @@
     },
     {
       "image": "22694",
-      "id": 5007,
+      "id": 9601,
       "gameId": 9601,
       "name": "Bleed Out",
       "type": "Buff",
@@ -138,7 +138,7 @@
     },
     {
       "image": "10949",
-      "id": 5057,
+      "id": 9561,
       "gameId": 9561,
       "name": "Blood Offering",
       "type": "Buff",
@@ -154,7 +154,7 @@
     },
     {
       "image": "22709",
-      "id": 5005,
+      "id": 9598,
       "gameId": 9598,
       "name": "Bloodthirst",
       "type": "Buff",
@@ -170,7 +170,7 @@
     },
     {
       "image": "22706",
-      "id": 4976,
+      "id": 9585,
       "gameId": 9585,
       "name": "Bound by Blood",
       "type": "Buff",
@@ -186,7 +186,7 @@
     },
     {
       "image": "10967",
-      "id": 5018,
+      "id": 9618,
       "gameId": 9618,
       "name": "Chant of Pain",
       "type": "Damaging",
@@ -202,7 +202,7 @@
     },
     {
       "image": "10939",
-      "id": 5054,
+      "id": 9552,
       "gameId": 9552,
       "name": "Cleave Soul",
       "type": "Damaging",
@@ -218,7 +218,7 @@
     },
     {
       "image": "05188",
-      "id": 4970,
+      "id": 9569,
       "gameId": 9569,
       "name": "Consume Enchantment",
       "type": "Damaging",
@@ -234,7 +234,7 @@
     },
     {
       "image": "10948",
-      "id": 4956,
+      "id": 9560,
       "gameId": 9560,
       "name": "Consume Strength",
       "type": "Curse",
@@ -250,7 +250,7 @@
     },
     {
       "image": "10953",
-      "id": 4972,
+      "id": 9565,
       "gameId": 9565,
       "name": "Consume Thought",
       "type": "Curse",
@@ -266,7 +266,7 @@
     },
     {
       "image": "10947",
-      "id": 4968,
+      "id": 9559,
       "gameId": 9559,
       "name": "Covenant of Celerity",
       "type": "Buff",
@@ -282,7 +282,7 @@
     },
     {
       "image": "10951",
-      "id": 4966,
+      "id": 9563,
       "gameId": 9563,
       "name": "Covenant of Tenacity",
       "type": "Buff",
@@ -298,7 +298,7 @@
     },
     {
       "image": "10955",
-      "id": 4958,
+      "id": 9567,
       "gameId": 9567,
       "name": "Covenant of Vitality",
       "type": "Buff",
@@ -314,7 +314,7 @@
     },
     {
       "image": "22706",
-      "id": 5009,
+      "id": 9602,
       "gameId": 9602,
       "name": "Curse of Khaine",
       "type": "Buff",
@@ -330,7 +330,7 @@
     },
     {
       "image": "22712",
-      "id": 4995,
+      "id": 841,
       "gameId": 841,
       "name": "Dark Blessings",
       "type": "Buff",
@@ -346,7 +346,7 @@
     },
     {
       "image": "10958",
-      "id": 5015,
+      "id": 9578,
       "gameId": 9578,
       "name": "Devour Essence",
       "type": "Blessing",
@@ -362,7 +362,7 @@
     },
     {
       "image": "22706",
-      "id": 4986,
+      "id": 592,
       "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
@@ -378,7 +378,7 @@
     },
     {
       "image": "23151",
-      "id": 4989,
+      "id": 694,
       "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
@@ -394,7 +394,7 @@
     },
     {
       "image": "22703",
-      "id": 4985,
+      "id": 585,
       "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
@@ -410,7 +410,7 @@
     },
     {
       "image": "23152",
-      "id": 4993,
+      "id": 696,
       "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
@@ -426,7 +426,7 @@
     },
     {
       "image": "22708",
-      "id": 5002,
+      "id": 9597,
       "gameId": 9597,
       "name": "Efficient Patching",
       "type": "Buff",
@@ -442,7 +442,7 @@
     },
     {
       "image": "22706",
-      "id": 5016,
+      "id": 2959,
       "gameId": 2959,
       "name": "Empowered Transfer",
       "type": "Buff",
@@ -458,7 +458,7 @@
     },
     {
       "image": "10954",
-      "id": 4965,
+      "id": 9566,
       "gameId": 9566,
       "name": "Essence Lash",
       "type": "Damaging",
@@ -474,7 +474,7 @@
     },
     {
       "image": "10950",
-      "id": 5008,
+      "id": 2935,
       "gameId": 2935,
       "name": "Fell Sacrifice",
       "type": "Curse",
@@ -490,7 +490,7 @@
     },
     {
       "image": "10934",
-      "id": 5056,
+      "id": 9568,
       "gameId": 9568,
       "name": "Fist of Khaine",
       "type": "Damaging",
@@ -506,7 +506,7 @@
     },
     {
       "image": "10936",
-      "id": 4963,
+      "id": 9549,
       "gameId": 9549,
       "name": "Flay",
       "type": "Curse",
@@ -522,7 +522,7 @@
     },
     {
       "image": "05004",
-      "id": 5055,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -538,7 +538,7 @@
     },
     {
       "image": "23153",
-      "id": 4992,
+      "id": 695,
       "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
@@ -554,7 +554,7 @@
     },
     {
       "image": "22708",
-      "id": 4980,
+      "id": 9587,
       "gameId": 9587,
       "name": "Fueled Actions",
       "type": "Buff",
@@ -570,7 +570,7 @@
     },
     {
       "image": "22712",
-      "id": 5014,
+      "id": 9603,
       "gameId": 9603,
       "name": "Gift of Khaine",
       "type": "Buff",
@@ -586,7 +586,7 @@
     },
     {
       "image": "22708",
-      "id": 5012,
+      "id": 9599,
       "gameId": 9599,
       "name": "Horrifying Offering",
       "type": "Buff",
@@ -602,7 +602,7 @@
     },
     {
       "image": "22702",
-      "id": 4974,
+      "id": 9588,
       "gameId": 9588,
       "name": "Khaine's Blessing",
       "type": "Buff",
@@ -618,7 +618,7 @@
     },
     {
       "image": "22702",
-      "id": 4998,
+      "id": 9595,
       "gameId": 9595,
       "name": "Khaine's Bounty",
       "type": "Buff",
@@ -634,7 +634,7 @@
     },
     {
       "image": "10945",
-      "id": 4969,
+      "id": 9557,
       "gameId": 9557,
       "name": "Khaine's Embrace",
       "type": "Healing",
@@ -650,7 +650,7 @@
     },
     {
       "image": "22708",
-      "id": 4975,
+      "id": 9584,
       "gameId": 9584,
       "name": "Khaine's Imbuement",
       "type": "Buff",
@@ -666,7 +666,7 @@
     },
     {
       "image": "abi_de_blackhorror",
-      "id": 4960,
+      "id": 9553,
       "gameId": 9553,
       "name": "Khaine's Invigoration",
       "type": "Healing",
@@ -682,7 +682,7 @@
     },
     {
       "image": "11002",
-      "id": 5003,
+      "id": 9579,
       "gameId": 9579,
       "name": "Khaine's Refreshment",
       "type": "Healing",
@@ -698,7 +698,7 @@
     },
     {
       "image": "10956",
-      "id": 5001,
+      "id": 9573,
       "gameId": 9573,
       "name": "Khaine's Vigor",
       "type": "Blessing",
@@ -714,7 +714,7 @@
     },
     {
       "image": "10989",
-      "id": 4983,
+      "id": 9607,
       "gameId": 9607,
       "name": "Khaine's Withdrawal",
       "type": "Buff",
@@ -730,7 +730,7 @@
     },
     {
       "image": "10938",
-      "id": 4959,
+      "id": 9551,
       "gameId": 9551,
       "name": "Lacerate",
       "type": "Curse",
@@ -746,7 +746,7 @@
     },
     {
       "image": "10962",
-      "id": 4982,
+      "id": 9605,
       "gameId": 9605,
       "name": "Life's End",
       "type": "Healing",
@@ -762,7 +762,7 @@
     },
     {
       "image": "22704",
-      "id": 4977,
+      "id": 9586,
       "gameId": 9586,
       "name": "Murderous Intent",
       "type": "Buff",
@@ -778,7 +778,7 @@
     },
     {
       "image": "10944",
-      "id": 4967,
+      "id": 9556,
       "gameId": 9556,
       "name": "Patch Wounds",
       "type": "Healing",
@@ -794,7 +794,7 @@
     },
     {
       "image": "11004",
-      "id": 5017,
+      "id": 9581,
       "gameId": 9581,
       "name": "Pillage Essence",
       "type": "Damaging",
@@ -810,7 +810,7 @@
     },
     {
       "image": "22694",
-      "id": 4978,
+      "id": 9590,
       "gameId": 9590,
       "name": "Potent Covenants",
       "type": "Buff",
@@ -826,7 +826,7 @@
     },
     {
       "image": "23154",
-      "id": 4990,
+      "id": 692,
       "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
@@ -842,7 +842,7 @@
     },
     {
       "image": "10941",
-      "id": 4962,
+      "id": 9554,
       "gameId": 9554,
       "name": "Rend Soul",
       "type": "Damaging",
@@ -858,7 +858,7 @@
     },
     {
       "image": "22694",
-      "id": 4988,
+      "id": 589,
       "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
@@ -874,7 +874,7 @@
     },
     {
       "image": "10935",
-      "id": 5053,
+      "id": 9548,
       "gameId": 9548,
       "name": "Restore Essence",
       "type": "Healing",
@@ -890,7 +890,7 @@
     },
     {
       "image": "22709",
-      "id": 5000,
+      "id": 9596,
       "gameId": 9596,
       "name": "Restored Motivation",
       "type": "Buff",
@@ -906,7 +906,7 @@
     },
     {
       "image": "11003",
-      "id": 5006,
+      "id": 9580,
       "gameId": 9580,
       "name": "Sanguinary Extension",
       "type": "Damaging",
@@ -922,7 +922,7 @@
     },
     {
       "image": "10937",
-      "id": 4957,
+      "id": 9550,
       "gameId": 9550,
       "name": "Soul Infusion",
       "type": "Blessing",
@@ -938,7 +938,7 @@
     },
     {
       "image": "10957",
-      "id": 4999,
+      "id": 9574,
       "gameId": 9574,
       "name": "Soul Shielding",
       "type": "Blessing",
@@ -954,7 +954,7 @@
     },
     {
       "image": "10946",
-      "id": 4964,
+      "id": 9558,
       "gameId": 9558,
       "name": "Stand, Coward!",
       "type": "Healing",
@@ -970,7 +970,7 @@
     },
     {
       "image": "23155",
-      "id": 4991,
+      "id": 690,
       "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
@@ -986,7 +986,7 @@
     },
     {
       "image": "22709",
-      "id": 4987,
+      "id": 588,
       "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
@@ -1002,7 +1002,7 @@
     },
     {
       "image": "10942",
-      "id": 4961,
+      "id": 9555,
       "gameId": 9555,
       "name": "Terrifying Vision",
       "type": "Debuff",
@@ -1018,7 +1018,7 @@
     },
     {
       "image": "10965",
-      "id": 5004,
+      "id": 9616,
       "gameId": 9616,
       "name": "Thousand and One Dark Blessings",
       "type": "Buff",
@@ -1034,7 +1034,7 @@
     },
     {
       "image": "10961",
-      "id": 4971,
+      "id": 2932,
       "gameId": 2932,
       "name": "Transfer Essence",
       "type": "Damaging",
@@ -1050,7 +1050,7 @@
     },
     {
       "image": "22706",
-      "id": 4981,
+      "id": 9589,
       "gameId": 9589,
       "name": "Transferred Focus",
       "type": "Buff",
@@ -1066,7 +1066,7 @@
     },
     {
       "image": "10952",
-      "id": 4973,
+      "id": 9564,
       "gameId": 9564,
       "name": "Uncaring Dismissal",
       "type": "Debuff",
@@ -1082,7 +1082,7 @@
     },
     {
       "image": "10963",
-      "id": 4984,
+      "id": 9606,
       "gameId": 9606,
       "name": "Universal Confusion",
       "type": "Damaging",
@@ -1098,7 +1098,7 @@
     },
     {
       "image": "10966",
-      "id": 5011,
+      "id": 9617,
       "gameId": 9617,
       "name": "Vision of Torment",
       "type": "Damaging",
@@ -1114,7 +1114,7 @@
     },
     {
       "image": "10960",
-      "id": 5013,
+      "id": 9577,
       "gameId": 9577,
       "name": "Warding Strike",
       "type": "Curse",
@@ -1130,7 +1130,7 @@
     },
     {
       "image": "10959",
-      "id": 5010,
+      "id": 9576,
       "gameId": 9576,
       "name": "Wracking Agony",
       "type": "Damaging",
@@ -1226,7 +1226,7 @@
     },
     {
       "image": "10940",
-      "id": 2051,
+      "id": 2933,
       "gameId": 2933,
       "name": "Consume Essence",
       "type": "Damaging",

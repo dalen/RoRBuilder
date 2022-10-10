@@ -6,21 +6,21 @@
         "primary": "A mastery path focused on destroying your enemies"
       },
       "optionalAbilities": {
-        "lvl1": 3092,
-        "lvl2": 3093,
-        "lvl3": 3094,
-        "lvl4": 3095,
-        "lvl5": 3096,
-        "lvl6": 3097,
-        "lvl7": 3098
+        "lvl1": 8055,
+        "lvl2": 8030,
+        "lvl3": 8054,
+        "lvl4": 8031,
+        "lvl5": 8053,
+        "lvl6": 8032,
+        "lvl7": 8074
       },
       "coreAbilities": [
-        3060,
-        3045,
-        3046,
-        3053,
-        3067,
-        3064
+        8035,
+        8004,
+        8005,
+        8012,
+        8026,
+        8022
       ]
     },
     "b": {
@@ -29,21 +29,21 @@
         "primary": "A mastery path focused on hindering and crippling your foes"
       },
       "optionalAbilities": {
-        "lvl1": 3099,
-        "lvl2": 3100,
-        "lvl3": 3101,
-        "lvl4": 3102,
-        "lvl5": 3103,
-        "lvl6": 3104,
-        "lvl7": 3105
+        "lvl1": 8056,
+        "lvl2": 8033,
+        "lvl3": 8057,
+        "lvl4": 8018,
+        "lvl5": 8058,
+        "lvl6": 8034,
+        "lvl7": 8075
       },
       "coreAbilities": [
-        3148,
-        3047,
-        3052,
-        3059,
-        3058,
-        3056
+        8002,
+        8006,
+        8011,
+        8017,
+        8016,
+        8015
       ]
     },
     "c": {
@@ -52,28 +52,28 @@
         "primary": "A mastery path focused on supporting and bolstering you and your allies"
       },
       "optionalAbilities": {
-        "lvl1": 3106,
-        "lvl2": 3107,
-        "lvl3": 3108,
-        "lvl4": 3109,
-        "lvl5": 3068,
-        "lvl6": 3111,
-        "lvl7": 3112
+        "lvl1": 8059,
+        "lvl2": 8036,
+        "lvl3": 8060,
+        "lvl4": 8038,
+        "lvl5": 8043,
+        "lvl6": 8037,
+        "lvl7": 8076
       },
       "coreAbilities": [
-        3050,
-        3062,
-        3066,
-        3063,
-        3049,
-        3048
+        8009,
+        8020,
+        8025,
+        8023,
+        8008,
+        8007
       ]
     }
   },
   "data": [
     {
       "image": "07996",
-      "id": 3064,
+      "id": 8022,
       "gameId": 8022,
       "name": "All Out Assault!",
       "type": "Unknown",
@@ -89,7 +89,7 @@
     },
     {
       "image": "08057",
-      "id": 3067,
+      "id": 8026,
       "gameId": 8026,
       "name": "Arcing Swing",
       "type": "Curse",
@@ -105,7 +105,7 @@
     },
     {
       "image": "22703",
-      "id": 3073,
+      "id": 8047,
       "gameId": 8047,
       "name": "Banish Darkness",
       "type": "Buff",
@@ -121,7 +121,7 @@
     },
     {
       "image": "22715",
-      "id": 3074,
+      "id": 8048,
       "gameId": 8048,
       "name": "Bellow Commands",
       "type": "Buff",
@@ -137,7 +137,7 @@
     },
     {
       "image": "22701",
-      "id": 3070,
+      "id": 8044,
       "gameId": 8044,
       "name": "Biting Blade",
       "type": "Curse",
@@ -153,7 +153,7 @@
     },
     {
       "image": "08006",
-      "id": 3048,
+      "id": 8007,
       "gameId": 8007,
       "name": "Blazing Blade",
       "type": "Curse",
@@ -169,7 +169,7 @@
     },
     {
       "image": "08058",
-      "id": 3061,
+      "id": 8021,
       "gameId": 8021,
       "name": "Challenge",
       "type": "Debuff",
@@ -185,7 +185,7 @@
     },
     {
       "image": "23174",
-      "id": 3085,
+      "id": 608,
       "gameId": 608,
       "name": "Champion's Challenge",
       "type": "Debuff",
@@ -201,7 +201,7 @@
     },
     {
       "image": "22706",
-      "id": 3099,
+      "id": 8056,
       "gameId": 8056,
       "name": "Coordination",
       "type": "Buff",
@@ -217,7 +217,7 @@
     },
     {
       "image": "07945",
-      "id": 3053,
+      "id": 8012,
       "gameId": 8012,
       "name": "Crippling Blow",
       "type": "Curse",
@@ -233,7 +233,7 @@
     },
     {
       "image": "23172",
-      "id": 3083,
+      "id": 606,
       "gameId": 606,
       "name": "Demolishing Strike",
       "type": "Damaging",
@@ -249,7 +249,7 @@
     },
     {
       "image": "22704",
-      "id": 3101,
+      "id": 8057,
       "gameId": 8057,
       "name": "Dirty Tricks",
       "type": "Buff",
@@ -265,7 +265,7 @@
     },
     {
       "image": "23173",
-      "id": 3087,
+      "id": 610,
       "gameId": 610,
       "name": "Distracting Bellow",
       "type": "Buff",
@@ -281,7 +281,7 @@
     },
     {
       "image": "22694",
-      "id": 3096,
+      "id": 8053,
       "gameId": 8053,
       "name": "Efficient Swings",
       "type": "Buff",
@@ -297,7 +297,7 @@
     },
     {
       "image": "08011",
-      "id": 3077,
+      "id": 8070,
       "gameId": 8070,
       "name": "Emperor's Champion",
       "type": "Defensive",
@@ -313,7 +313,7 @@
     },
     {
       "image": "22710",
-      "id": 3089,
+      "id": 779,
       "gameId": 779,
       "name": "Emperor's Ward",
       "type": "Buff",
@@ -329,7 +329,7 @@
     },
     {
       "image": "22701",
-      "id": 3094,
+      "id": 8054,
       "gameId": 8054,
       "name": "Overpowering Swing",
       "type": "Buff",
@@ -345,7 +345,7 @@
     },
     {
       "image": "08059",
-      "id": 3105,
+      "id": 8075,
       "gameId": 8075,
       "name": "Flawless Defense",
       "type": "Defensive",
@@ -361,7 +361,7 @@
     },
     {
       "image": "05004",
-      "id": 3147,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -377,7 +377,7 @@
     },
     {
       "image": "22706",
-      "id": 3108,
+      "id": 8060,
       "gameId": 8060,
       "name": "Focused Mending",
       "type": "Defensive",
@@ -393,7 +393,7 @@
     },
     {
       "image": "22701",
-      "id": 3079,
+      "id": 500,
       "gameId": 500,
       "name": "Focused Offense",
       "type": "Buff",
@@ -409,7 +409,7 @@
     },
     {
       "image": "08002",
-      "id": 3049,
+      "id": 8008,
       "gameId": 8008,
       "name": "Gather Your Resolve!",
       "type": "Unknown",
@@ -425,7 +425,7 @@
     },
     {
       "image": "22702",
-      "id": 3069,
+      "id": 8042,
       "gameId": 8042,
       "name": "Gilded Shield",
       "type": "Buff",
@@ -441,7 +441,7 @@
     },
     {
       "image": "08078",
-      "id": 3055,
+      "id": 8013,
       "gameId": 8013,
       "name": "Guard",
       "type": "Defensive",
@@ -457,7 +457,7 @@
     },
     {
       "image": "08060",
-      "id": 3076,
+      "id": 8068,
       "gameId": 8068,
       "name": "Guardian of Light",
       "type": "Defensive",
@@ -473,7 +473,7 @@
     },
     {
       "image": "08061",
-      "id": 3109,
+      "id": 8038,
       "gameId": 8038,
       "name": "Heaven's Fury",
       "type": "Damaging",
@@ -489,7 +489,7 @@
     },
     {
       "image": "07997",
-      "id": 3054,
+      "id": 1378,
       "gameId": 1378,
       "name": "Hold The Line!",
       "type": "Buff",
@@ -505,7 +505,7 @@
     },
     {
       "image": "23175",
-      "id": 3088,
+      "id": 613,
       "gameId": 613,
       "name": "Immaculate Defense",
       "type": "Buff",
@@ -521,7 +521,7 @@
     },
     {
       "image": "08062",
-      "id": 3057,
+      "id": 8019,
       "gameId": 8019,
       "name": "Juggernaut",
       "type": "Defensive",
@@ -537,7 +537,7 @@
     },
     {
       "image": "22713",
-      "id": 3103,
+      "id": 8058,
       "gameId": 8058,
       "name": "Laurels of Victory",
       "type": "Defensive",
@@ -553,7 +553,7 @@
     },
     {
       "image": "22709",
-      "id": 3081,
+      "id": 504,
       "gameId": 504,
       "name": "Menace",
       "type": "Buff",
@@ -569,7 +569,7 @@
     },
     {
       "image": "08063",
-      "id": 3095,
+      "id": 8031,
       "gameId": 8031,
       "name": "Myrmidia's Fury",
       "type": "Damaging",
@@ -585,7 +585,7 @@
     },
     {
       "image": "08064",
-      "id": 3078,
+      "id": 8069,
       "gameId": 8069,
       "name": "No Escape",
       "type": "Debuff",
@@ -601,7 +601,7 @@
     },
     {
       "image": "08065",
-      "id": 3098,
+      "id": 8074,
       "gameId": 8074,
       "name": "Nova Strike",
       "type": "Defensive",
@@ -617,7 +617,7 @@
     },
     {
       "image": "08066",
-      "id": 3107,
+      "id": 8036,
       "gameId": 8036,
       "name": "Now's Our Chance!",
       "type": "Unknown",
@@ -633,7 +633,7 @@
     },
     {
       "image": "07991",
-      "id": 3056,
+      "id": 8015,
       "gameId": 8015,
       "name": "On Your Guard!",
       "type": "Unknown",
@@ -649,7 +649,7 @@
     },
     {
       "image": "08067",
-      "id": 3058,
+      "id": 8016,
       "gameId": 8016,
       "name": "Perseverance",
       "type": "Buff",
@@ -665,7 +665,7 @@
     },
     {
       "image": "08068",
-      "id": 3046,
+      "id": 8005,
       "gameId": 8005,
       "name": "Precision Strike",
       "type": "Damaging",
@@ -681,7 +681,7 @@
     },
     {
       "image": "07995",
-      "id": 3045,
+      "id": 8004,
       "gameId": 8004,
       "name": "Press The Attack!",
       "type": "Unknown",
@@ -697,7 +697,7 @@
     },
     {
       "image": "23176",
-      "id": 3086,
+      "id": 607,
       "gameId": 607,
       "name": "Raze",
       "type": "Buff",
@@ -713,7 +713,7 @@
     },
     {
       "image": "07961",
-      "id": 3059,
+      "id": 8017,
       "gameId": 8017,
       "name": "Repel Darkness",
       "type": "Damaging",
@@ -729,7 +729,7 @@
     },
     {
       "image": "22702",
-      "id": 3080,
+      "id": 503,
       "gameId": 503,
       "name": "Rugged",
       "type": "Buff",
@@ -745,7 +745,7 @@
     },
     {
       "image": "22708",
-      "id": 3068,
+      "id": 8043,
       "gameId": 8043,
       "name": "Runefang",
       "type": "Buff",
@@ -761,7 +761,7 @@
     },
     {
       "image": "08005",
-      "id": 3065,
+      "id": 8024,
       "gameId": 8024,
       "name": "Shackle",
       "type": "Debuff",
@@ -777,7 +777,7 @@
     },
     {
       "image": "08010",
-      "id": 3063,
+      "id": 8023,
       "gameId": 8023,
       "name": "Shatter Confidence",
       "type": "Damaging",
@@ -793,7 +793,7 @@
     },
     {
       "image": "08070",
-      "id": 3066,
+      "id": 8025,
       "gameId": 8025,
       "name": "Shield of the Sun",
       "type": "Blessing",
@@ -809,7 +809,7 @@
     },
     {
       "image": "08009",
-      "id": 3052,
+      "id": 8011,
       "gameId": 8011,
       "name": "Shield Rush",
       "type": "Blessing",
@@ -825,7 +825,7 @@
     },
     {
       "image": "23177",
-      "id": 3084,
+      "id": 611,
       "gameId": 611,
       "name": "Shield Wall",
       "type": "Buff",
@@ -841,7 +841,7 @@
     },
     {
       "image": "08071",
-      "id": 3060,
+      "id": 8035,
       "gameId": 8035,
       "name": "Shining Blade",
       "type": "Blessing",
@@ -857,7 +857,7 @@
     },
     {
       "image": "22710",
-      "id": 3091,
+      "id": 776,
       "gameId": 776,
       "name": "Sigmar's Favor",
       "type": "Buff",
@@ -873,7 +873,7 @@
     },
     {
       "image": "22709",
-      "id": 3092,
+      "id": 8055,
       "gameId": 8055,
       "name": "Slice Through",
       "type": "Buff",
@@ -889,7 +889,7 @@
     },
     {
       "image": "08072",
-      "id": 3102,
+      "id": 8018,
       "gameId": 8018,
       "name": "Smashing Counter",
       "type": "Damaging",
@@ -905,7 +905,7 @@
     },
     {
       "image": "08073",
-      "id": 3112,
+      "id": 8076,
       "gameId": 8076,
       "name": "Solar Flare",
       "type": "Defensive",
@@ -921,7 +921,7 @@
     },
     {
       "image": "08074",
-      "id": 3097,
+      "id": 8032,
       "gameId": 8032,
       "name": "Staggering Impact",
       "type": "Curse",
@@ -937,7 +937,7 @@
     },
     {
       "image": "08075",
-      "id": 3047,
+      "id": 8006,
       "gameId": 8006,
       "name": "Stand Strong!",
       "type": "Unknown",
@@ -953,7 +953,7 @@
     },
     {
       "image": "08003",
-      "id": 3062,
+      "id": 8020,
       "gameId": 8020,
       "name": "Stay Focused!",
       "type": "Unknown",
@@ -969,7 +969,7 @@
     },
     {
       "image": "07990",
-      "id": 3148,
+      "id": 8002,
       "gameId": 8002,
       "name": "Sunder",
       "type": "Damaging",
@@ -985,7 +985,7 @@
     },
     {
       "image": "22702",
-      "id": 3106,
+      "id": 8059,
       "gameId": 8059,
       "name": "Sunfury",
       "type": "Defensive",
@@ -1001,7 +1001,7 @@
     },
     {
       "image": "22709",
-      "id": 3071,
+      "id": 8045,
       "gameId": 8045,
       "name": "Sun's Blessing",
       "type": "Buff",
@@ -1017,7 +1017,7 @@
     },
     {
       "image": "07994",
-      "id": 3051,
+      "id": 8010,
       "gameId": 8010,
       "name": "Taunt",
       "type": "Debuff",
@@ -1033,7 +1033,7 @@
     },
     {
       "image": "07992",
-      "id": 3149,
+      "id": 8003,
       "gameId": 8003,
       "name": "Throw Blade",
       "type": "Damaging",
@@ -1049,7 +1049,7 @@
     },
     {
       "image": "08076",
-      "id": 3093,
+      "id": 8030,
       "gameId": 8030,
       "name": "To Glory!",
       "type": "Unknown",
@@ -1065,7 +1065,7 @@
     },
     {
       "image": "08007",
-      "id": 3100,
+      "id": 8033,
       "gameId": 8033,
       "name": "To Victory!",
       "type": "Unknown",
@@ -1081,7 +1081,7 @@
     },
     {
       "image": "08077",
-      "id": 3111,
+      "id": 8037,
       "gameId": 8037,
       "name": "Unbalancing Attack",
       "type": "Damaging",
@@ -1097,7 +1097,7 @@
     },
     {
       "image": "22694",
-      "id": 3082,
+      "id": 505,
       "gameId": 505,
       "name": "Unstoppable Juggernaut",
       "type": "Buff",
@@ -1113,7 +1113,7 @@
     },
     {
       "image": "22710",
-      "id": 3090,
+      "id": 777,
       "gameId": 777,
       "name": "Unwavering Faith",
       "type": "Buff",
@@ -1129,7 +1129,7 @@
     },
     {
       "image": "07999",
-      "id": 3050,
+      "id": 8009,
       "gameId": 8009,
       "name": "Vicious Slash",
       "type": "Damaging",
@@ -1145,7 +1145,7 @@
     },
     {
       "image": "abi_em_doordie2",
-      "id": 3104,
+      "id": 8034,
       "gameId": 8034,
       "name": "Vigilance",
       "type": "Blessing",
@@ -1161,7 +1161,7 @@
     },
     {
       "image": "22704",
-      "id": 3072,
+      "id": 8046,
       "gameId": 8046,
       "name": "Well-Trained",
       "type": "Buff",

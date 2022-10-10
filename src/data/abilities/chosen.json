@@ -6,21 +6,21 @@
         "primary": "A mastery path focused on offense"
       },
       "optionalAbilities": {
-        "lvl1": 4796,
-        "lvl2": 4797,
-        "lvl3": 4800,
-        "lvl4": 4799,
+        "lvl1": 8361,
+        "lvl2": 8342,
+        "lvl3": 8363,
+        "lvl4": 8343,
         "lvl5": 2832,
-        "lvl6": 4801,
-        "lvl7": 4802
+        "lvl6": 8344,
+        "lvl7": 8377
       },
       "coreAbilities": [
-        4761,
-        4752,
-        4768,
-        4748,
-        4767,
-        4755
+        8328,
+        8317,
+        8335,
+        8316,
+        8334,
+        8319
       ]
     },
     "b": {
@@ -29,21 +29,21 @@
         "primary": "A mastery path focused on counters and defense"
       },
       "optionalAbilities": {
-        "lvl1": 4803,
-        "lvl2": 4804,
+        "lvl1": 8364,
+        "lvl2": 8345,
         "lvl3": 8357,
-        "lvl4": 4806,
+        "lvl4": 8346,
         "lvl5": 8365,
-        "lvl6": 4808,
-        "lvl7": 4809
+        "lvl6": 8347,
+        "lvl7": 8373
       },
       "coreAbilities": [
-        4762,
-        4853,
-        4756,
-        4750,
-        4764,
-        4770
+        8329,
+        8315,
+        8324,
+        8318,
+        8332,
+        8337
       ]
     },
     "c": {
@@ -52,28 +52,28 @@
         "primary": "A mastery path focused on magical attacks and disruption"
       },
       "optionalAbilities": {
-        "lvl1": 4810,
-        "lvl2": 4811,
-        "lvl3": 4812,
-        "lvl4": 4813,
-        "lvl5": 4814,
-        "lvl6": 4815,
-        "lvl7": 4816
+        "lvl1": 8367,
+        "lvl2": 8348,
+        "lvl3": 8368,
+        "lvl4": 8349,
+        "lvl5": 8369,
+        "lvl6": 8350,
+        "lvl7": 8379
       },
       "coreAbilities": [
-        4771,
-        4749,
-        4751,
-        4753,
-        4759,
-        4763
+        8338,
+        8320,
+        8323,
+        8321,
+        8327,
+        8331
       ]
     }
   },
   "data": [
     {
       "image": "22714",
-      "id": 4795,
+      "id": 800,
       "gameId": 800,
       "name": "Backlash",
       "type": "Buff",
@@ -89,7 +89,7 @@
     },
     {
       "image": "05174",
-      "id": 4770,
+      "id": 8337,
       "gameId": 8337,
       "name": "Bane Shield",
       "type": "Enchantment",
@@ -105,7 +105,7 @@
     },
     {
       "image": "05266",
-      "id": 4763,
+      "id": 8331,
       "gameId": 8331,
       "name": "Blast Wave",
       "type": "Curse",
@@ -121,7 +121,7 @@
     },
     {
       "image": "05257",
-      "id": 4765,
+      "id": 8333,
       "gameId": 8333,
       "name": "Challenge",
       "type": "Debuff",
@@ -137,7 +137,7 @@
     },
     {
       "image": "23174",
-      "id": 4789,
+      "id": 608,
       "gameId": 608,
       "name": "Champion's Challenge",
       "type": "Debuff",
@@ -153,7 +153,7 @@
     },
     {
       "image": "22708",
-      "id": 4772,
+      "id": 8352,
       "gameId": 8352,
       "name": "Chaotic Advantage",
       "type": "Buff",
@@ -169,7 +169,7 @@
     },
     {
       "image": "05252",
-      "id": 4755,
+      "id": 8319,
       "gameId": 8319,
       "name": "Cleave",
       "type": "Damaging",
@@ -185,7 +185,7 @@
     },
     {
       "image": "05265",
-      "id": 4804,
+      "id": 8345,
       "gameId": 8345,
       "name": "Corrupting Horror",
       "type": "Unknown",
@@ -201,7 +201,7 @@
     },
     {
       "image": "05178",
-      "id": 4764,
+      "id": 8332,
       "gameId": 8332,
       "name": "Corrupting Retribution",
       "type": "Unknown",
@@ -217,7 +217,7 @@
     },
     {
       "image": "05179",
-      "id": 4750,
+      "id": 8318,
       "gameId": 8318,
       "name": "Corrupting Wrath",
       "type": "Unknown",
@@ -249,7 +249,7 @@
     },
     {
       "image": "23172",
-      "id": 4787,
+      "id": 606,
       "gameId": 606,
       "name": "Demolishing Strike",
       "type": "Damaging",
@@ -265,7 +265,7 @@
     },
     {
       "image": "22702",
-      "id": 4779,
+      "id": 8359,
       "gameId": 8359,
       "name": "Destined For Victory",
       "type": "Buff",
@@ -281,7 +281,7 @@
     },
     {
       "image": "22694",
-      "id": 4803,
+      "id": 8364,
       "gameId": 8364,
       "name": "Dire Shielding",
       "type": "Buff",
@@ -297,7 +297,7 @@
     },
     {
       "image": "05181",
-      "id": 4759,
+      "id": 8327,
       "gameId": 8327,
       "name": "Discordant Fluctuation",
       "type": "Unknown",
@@ -313,7 +313,7 @@
     },
     {
       "image": "05253",
-      "id": 4753,
+      "id": 8321,
       "gameId": 8321,
       "name": "Discordant Instability",
       "type": "Unknown",
@@ -329,7 +329,7 @@
     },
     {
       "image": "05258",
-      "id": 4811,
+      "id": 8348,
       "gameId": 8348,
       "name": "Discordant Turbulence",
       "type": "Unknown",
@@ -345,7 +345,7 @@
     },
     {
       "image": "23173",
-      "id": 4791,
+      "id": 610,
       "gameId": 610,
       "name": "Distracting Bellow",
       "type": "Buff",
@@ -361,7 +361,7 @@
     },
     {
       "image": "05184",
-      "id": 4756,
+      "id": 8324,
       "gameId": 8324,
       "name": "Dizzying Blow",
       "type": "Curse",
@@ -377,7 +377,7 @@
     },
     {
       "image": "05177",
-      "id": 4806,
+      "id": 8346,
       "gameId": 8346,
       "name": "Downfall",
       "type": "Damaging",
@@ -393,7 +393,7 @@
     },
     {
       "image": "05212",
-      "id": 4767,
+      "id": 8334,
       "gameId": 8334,
       "name": "Dreadful Agony",
       "type": "Unknown",
@@ -409,7 +409,7 @@
     },
     {
       "image": "05167",
-      "id": 4748,
+      "id": 8316,
       "gameId": 8316,
       "name": "Dreadful Fear",
       "type": "Unknown",
@@ -425,7 +425,7 @@
     },
     {
       "image": "05263",
-      "id": 4797,
+      "id": 8342,
       "gameId": 8342,
       "name": "Dreadful Terror",
       "type": "Unknown",
@@ -441,7 +441,7 @@
     },
     {
       "image": "22706",
-      "id": 4814,
+      "id": 8369,
       "gameId": 8369,
       "name": "Embrace the Winds",
       "type": "Buff",
@@ -457,7 +457,7 @@
     },
     {
       "image": "05168",
-      "id": 4853,
+      "id": 8315,
       "gameId": 8315,
       "name": "Enraged Blow",
       "type": "Damaging",
@@ -473,7 +473,7 @@
     },
     {
       "image": "22708",
-      "id": 4796,
+      "id": 8361,
       "gameId": 8361,
       "name": "Feed on the Weary",
       "type": "Buff",
@@ -489,7 +489,7 @@
     },
     {
       "image": "22702",
-      "id": 4773,
+      "id": 8353,
       "gameId": 8353,
       "name": "Flawless Armor",
       "type": "Buff",
@@ -505,7 +505,7 @@
     },
     {
       "image": "05004",
-      "id": 4851,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -521,7 +521,7 @@
     },
     {
       "image": "22701",
-      "id": 4783,
+      "id": 500,
       "gameId": 500,
       "name": "Focused Offense",
       "type": "Buff",
@@ -537,7 +537,7 @@
     },
     {
       "image": "05172",
-      "id": 4757,
+      "id": 8325,
       "gameId": 8325,
       "name": "Guard",
       "type": "Buff",
@@ -553,7 +553,7 @@
     },
     {
       "image": "22709",
-      "id": 4777,
+      "id": 8366,
       "gameId": 8366,
       "name": "Hastened Dismissal",
       "type": "Buff",
@@ -569,7 +569,7 @@
     },
     {
       "image": "05143",
-      "id": 4758,
+      "id": 8326,
       "gameId": 8326,
       "name": "Hold The Line!",
       "type": "Buff",
@@ -585,7 +585,7 @@
     },
     {
       "image": "23175",
-      "id": 4792,
+      "id": 613,
       "gameId": 613,
       "name": "Immaculate Defense",
       "type": "Buff",
@@ -601,7 +601,7 @@
     },
     {
       "image": "05261",
-      "id": 4782,
+      "id": 8378,
       "gameId": 8378,
       "name": "Impenetrable Armor",
       "type": "Buff",
@@ -617,7 +617,7 @@
     },
     {
       "image": "05210",
-      "id": 4780,
+      "id": 8371,
       "gameId": 8371,
       "name": "Inevitable Changing",
       "type": "Buff",
@@ -633,7 +633,7 @@
     },
     {
       "image": "05176",
-      "id": 4760,
+      "id": 8330,
       "gameId": 8330,
       "name": "Juggernaut",
       "type": "Buff",
@@ -649,7 +649,7 @@
     },
     {
       "image": "22709",
-      "id": 4785,
+      "id": 504,
       "gameId": 504,
       "name": "Menace",
       "type": "Buff",
@@ -681,7 +681,7 @@
     },
     {
       "image": "22701",
-      "id": 4800,
+      "id": 8363,
       "gameId": 8363,
       "name": "Oppressing Blows",
       "type": "Buff",
@@ -713,7 +713,7 @@
     },
     {
       "image": "05259",
-      "id": 4808,
+      "id": 8347,
       "gameId": 8347,
       "name": "Oppression",
       "type": "Enchantment",
@@ -729,7 +729,7 @@
     },
     {
       "image": "05182",
-      "id": 4769,
+      "id": 8336,
       "gameId": 8336,
       "name": "Petrify",
       "type": "Debuff",
@@ -745,7 +745,7 @@
     },
     {
       "image": "22708",
-      "id": 4776,
+      "id": 8356,
       "gameId": 8356,
       "name": "Piercing Repel",
       "type": "Buff",
@@ -761,7 +761,7 @@
     },
     {
       "image": "22704",
-      "id": 4778,
+      "id": 8358,
       "gameId": 8358,
       "name": "Power from the Gods",
       "type": "Buff",
@@ -777,7 +777,7 @@
     },
     {
       "image": "23417",
-      "id": 4813,
+      "id": 8349,
       "gameId": 8349,
       "name": "Quake",
       "type": "Damaging",
@@ -793,7 +793,7 @@
     },
     {
       "image": "22694",
-      "id": 4774,
+      "id": 8354,
       "gameId": 8354,
       "name": "Quickened Discord",
       "type": "Buff",
@@ -809,7 +809,7 @@
     },
     {
       "image": "05173",
-      "id": 4751,
+      "id": 8323,
       "gameId": 8323,
       "name": "Ravage",
       "type": "Damaging",
@@ -825,7 +825,7 @@
     },
     {
       "image": "23176",
-      "id": 4790,
+      "id": 607,
       "gameId": 607,
       "name": "Raze",
       "type": "Buff",
@@ -841,7 +841,7 @@
     },
     {
       "image": "05264",
-      "id": 4799,
+      "id": 8343,
       "gameId": 8343,
       "name": "Relentless ",
       "type": "Damaging",
@@ -857,7 +857,7 @@
     },
     {
       "image": "05186",
-      "id": 4801,
+      "id": 8344,
       "gameId": 8344,
       "name": "Rending Blade",
       "type": "Damaging",
@@ -873,7 +873,7 @@
     },
     {
       "image": "05256",
-      "id": 4762,
+      "id": 8329,
       "gameId": 8329,
       "name": "Repel",
       "type": "Damaging",
@@ -889,7 +889,7 @@
     },
     {
       "image": "22702",
-      "id": 4784,
+      "id": 503,
       "gameId": 503,
       "name": "Rugged",
       "type": "Buff",
@@ -905,7 +905,7 @@
     },
     {
       "image": "05254",
-      "id": 4749,
+      "id": 8320,
       "gameId": 8320,
       "name": "Seeping Wound",
       "type": "Curse",
@@ -921,7 +921,7 @@
     },
     {
       "image": "02497",
-      "id": 4766,
+      "id": 8339,
       "gameId": 8339,
       "name": "Sever Blessing",
       "type": "Damaging",
@@ -937,7 +937,7 @@
     },
     {
       "image": "05262",
-      "id": 4816,
+      "id": 8379,
       "gameId": 8379,
       "name": "Shatter Faith",
       "type": "Buff",
@@ -953,7 +953,7 @@
     },
     {
       "image": "23177",
-      "id": 4788,
+      "id": 611,
       "gameId": 611,
       "name": "Shield Wall",
       "type": "Buff",
@@ -969,7 +969,7 @@
     },
     {
       "image": "22706",
-      "id": 4810,
+      "id": 8367,
       "gameId": 8367,
       "name": "Siphoned Energy",
       "type": "Buff",
@@ -985,7 +985,7 @@
     },
     {
       "image": "05211",
-      "id": 4809,
+      "id": 8373,
       "gameId": 8373,
       "name": "Sprout Carapace",
       "type": "Buff",
@@ -1001,7 +1001,7 @@
     },
     {
       "image": "05183",
-      "id": 4768,
+      "id": 8335,
       "gameId": 8335,
       "name": "Suppression",
       "type": "Enchantment",
@@ -1017,7 +1017,7 @@
     },
     {
       "image": "22704",
-      "id": 4812,
+      "id": 8368,
       "gameId": 8368,
       "name": "Tainted Wound",
       "type": "Buff",
@@ -1033,7 +1033,7 @@
     },
     {
       "image": "05169",
-      "id": 4754,
+      "id": 8322,
       "gameId": 8322,
       "name": "Taunt",
       "type": "Debuff",
@@ -1049,7 +1049,7 @@
     },
     {
       "image": "05251",
-      "id": 4852,
+      "id": 8314,
       "gameId": 8314,
       "name": "Throwing Axe",
       "type": "Damaging",
@@ -1065,7 +1065,7 @@
     },
     {
       "image": "05175",
-      "id": 4752,
+      "id": 8317,
       "gameId": 8317,
       "name": "Tooth of Tzeentch",
       "type": "Damaging",
@@ -1081,7 +1081,7 @@
     },
     {
       "image": "05217",
-      "id": 4771,
+      "id": 8338,
       "gameId": 8338,
       "name": "Touch of Palsy",
       "type": "Curse",
@@ -1097,7 +1097,7 @@
     },
     {
       "image": "05213",
-      "id": 4781,
+      "id": 8372,
       "gameId": 8372,
       "name": "Tzeentch's Amplification",
       "type": "Buff",
@@ -1113,7 +1113,7 @@
     },
     {
       "image": "05269",
-      "id": 4815,
+      "id": 8350,
       "gameId": 8350,
       "name": "Tzeentch's Reflection",
       "type": "Enchantment",
@@ -1129,7 +1129,7 @@
     },
     {
       "image": "22714",
-      "id": 4794,
+      "id": 798,
       "gameId": 798,
       "name": "Tzeentch's Warding",
       "type": "Buff",
@@ -1145,7 +1145,7 @@
     },
     {
       "image": "22694",
-      "id": 4786,
+      "id": 505,
       "gameId": 505,
       "name": "Unstoppable Juggernaut",
       "type": "Buff",
@@ -1161,7 +1161,7 @@
     },
     {
       "image": "22714",
-      "id": 4793,
+      "id": 797,
       "gameId": 797,
       "name": "Warped Flesh",
       "type": "Buff",
@@ -1177,7 +1177,7 @@
     },
     {
       "image": "05260",
-      "id": 4802,
+      "id": 8377,
       "gameId": 8377,
       "name": "Warping Embrace",
       "type": "Buff",
@@ -1193,7 +1193,7 @@
     },
     {
       "image": "05255",
-      "id": 4761,
+      "id": 8328,
       "gameId": 8328,
       "name": "Withering Blow",
       "type": "Damaging",

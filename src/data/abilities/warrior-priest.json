@@ -6,20 +6,20 @@
         "primary": "A mastery path focused on healing and restorative powers"
       },
       "optionalAbilities": {
-        "lvl1": 4177,
-        "lvl2": 4174,
-        "lvl3": 4173,
-        "lvl4": 4176,
-        "lvl5": 4175,
-        "lvl6": 4178,
-        "lvl7": 4179
+        "lvl1": 8288,
+        "lvl2": 8264,
+        "lvl3": 8289,
+        "lvl4": 8265,
+        "lvl5": 8287,
+        "lvl6": 8266,
+        "lvl7": 8308
       },
       "coreAbilities": [
-        4144,
-        4141,
-        4229,
-        4135,
-        4231
+        8247,
+        8242,
+        8236,
+        8239,
+        8238
       ]
     },
     "b": {
@@ -28,23 +28,23 @@
         "primary": "A mastery path focused on melee attacks and protective effects"
       },
       "optionalAbilities": {
-        "lvl1": 4180,
-        "lvl2": 4183,
-        "lvl3": 4182,
-        "lvl4": 4185,
-        "lvl5": 4184,
-        "lvl6": 7509,
-        "lvl7": 4186
+        "lvl1": 8291,
+        "lvl2": 8267,
+        "lvl3": 8290,
+        "lvl4": 8269,
+        "lvl5": 2958,
+        "lvl6": 2947,
+        "lvl7": 8310
       },
       "coreAbilities": [
-        4147,
-        4146,
-        4131,
-        4133,
-        4137,
-        4181,
-        7506,
-        7507
+        8256,
+        2504,
+        8253,
+        8249,
+        8244,
+        8268,
+        2931,
+        2940
       ]
     },
     "c": {
@@ -53,28 +53,28 @@
         "primary": "A mastery path focused on melee attacks and weakening effects"
       },
       "optionalAbilities": {
-        "lvl1": 4189,
-        "lvl2": 4190,
-        "lvl3": 5890,
-        "lvl4": 7510,
-        "lvl5": 4191,
-        "lvl6": 4192,
-        "lvl7": 4193
+        "lvl1": 8293,
+        "lvl2": 2200,
+        "lvl3": 8279,
+        "lvl4": 2937,
+        "lvl5": 2963,
+        "lvl6": 2930,
+        "lvl7": 8309
       },
       "coreAbilities": [
-        4138,
-        4140,
-        4143,
-        4134,
-        4232,
-        4188
+        8255,
+        8250,
+        8243,
+        8257,
+        8240,
+        2936
       ]
     }
   },
   "data": [
     {
       "image": "08040",
-      "id": 4190,
+      "id": 2200,
       "gameId": 2200,
       "name": "Absence of Faith",
       "type": "Curse",
@@ -90,7 +90,7 @@
     },
     {
       "image": "23150",
-      "id": 4169,
+      "id": 697,
       "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
@@ -106,7 +106,7 @@
     },
     {
       "image": "08043",
-      "id": 4193,
+      "id": 8309,
       "gameId": 8309,
       "name": "Avatar of Sigmar",
       "type": "Buff",
@@ -122,7 +122,7 @@
     },
     {
       "image": "07959",
-      "id": 4232,
+      "id": 8240,
       "gameId": 8240,
       "name": "Bludgeon",
       "type": "Damaging",
@@ -138,7 +138,7 @@
     },
     {
       "image": "07901",
-      "id": 4139,
+      "id": 8248,
       "gameId": 8248,
       "name": "Breath of Sigmar",
       "type": "Healing",
@@ -154,7 +154,7 @@
     },
     {
       "image": "08001",
-      "id": 4134,
+      "id": 8257,
       "gameId": 8257,
       "name": "Castigation",
       "type": "Curse",
@@ -170,7 +170,7 @@
     },
     {
       "image": "22710",
-      "id": 4150,
+      "id": 8277,
       "gameId": 8277,
       "name": "Charged Fury",
       "type": "Buff",
@@ -186,7 +186,7 @@
     },
     {
       "image": "22704",
-      "id": 4173,
+      "id": 8289,
       "gameId": 8289,
       "name": "Cleansing Power",
       "type": "Buff",
@@ -202,7 +202,7 @@
     },
     {
       "image": "22706",
-      "id": 4161,
+      "id": 592,
       "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
@@ -218,7 +218,7 @@
     },
     {
       "image": "07949",
-      "id": 4157,
+      "id": 8302,
       "gameId": 8302,
       "name": "Divine Aegis",
       "type": "Buff",
@@ -234,7 +234,7 @@
     },
     {
       "image": "07903",
-      "id": 4231,
+      "id": 8238,
       "gameId": 8238,
       "name": "Divine Aid",
       "type": "Blessing",
@@ -250,7 +250,7 @@
     },
     {
       "image": "08044",
-      "id": 4186,
+      "id": 8310,
       "gameId": 8310,
       "name": "Divine Amazement",
       "type": "Debuff",
@@ -266,7 +266,7 @@
     },
     {
       "image": "08031",
-      "id": 4137,
+      "id": 8244,
       "gameId": 8244,
       "name": "Divine Assault",
       "type": "Damaging",
@@ -282,7 +282,7 @@
     },
     {
       "image": "23151",
-      "id": 4164,
+      "id": 694,
       "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
@@ -298,7 +298,7 @@
     },
     {
       "image": "22703",
-      "id": 4160,
+      "id": 585,
       "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
@@ -314,7 +314,7 @@
     },
     {
       "image": "22706",
-      "id": 5890,
+      "id": 8279,
       "gameId": 8279,
       "name": "Divine Justice",
       "type": "Buff",
@@ -330,7 +330,7 @@
     },
     {
       "image": "07904",
-      "id": 4174,
+      "id": 8264,
       "gameId": 8264,
       "name": "Divine Light",
       "type": "Blessing",
@@ -346,7 +346,7 @@
     },
     {
       "image": "07978",
-      "id": 4135,
+      "id": 8239,
       "gameId": 8239,
       "name": "Divine Mend",
       "type": "Healing",
@@ -362,7 +362,7 @@
     },
     {
       "image": "22704",
-      "id": 4156,
+      "id": 8283,
       "gameId": 8283,
       "name": "Divine Petitioning",
       "type": "Buff",
@@ -378,7 +378,7 @@
     },
     {
       "image": "23152",
-      "id": 4168,
+      "id": 696,
       "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
@@ -394,7 +394,7 @@
     },
     {
       "image": "07905",
-      "id": 4158,
+      "id": 8303,
       "gameId": 8303,
       "name": "Divine Replenishment",
       "type": "Buff",
@@ -410,7 +410,7 @@
     },
     {
       "image": "08033",
-      "id": 4148,
+      "id": 8254,
       "gameId": 8254,
       "name": "Divine Shock",
       "type": "Debuff",
@@ -426,7 +426,7 @@
     },
     {
       "image": "22694",
-      "id": 4177,
+      "id": 8288,
       "gameId": 8288,
       "name": "Divine Warding",
       "type": "Buff",
@@ -442,7 +442,7 @@
     },
     {
       "image": "22710",
-      "id": 4170,
+      "id": 779,
       "gameId": 779,
       "name": "Emperor's Ward",
       "type": "Buff",
@@ -458,7 +458,7 @@
     },
     {
       "image": "22696",
-      "id": 4187,
+      "id": 8294,
       "gameId": 8294,
       "name": "Endless Guilt",
       "type": "Buff",
@@ -474,7 +474,7 @@
     },
     {
       "image": "22702",
-      "id": 4153,
+      "id": 8280,
       "gameId": 8280,
       "name": "Exalted Defenses",
       "type": "Buff",
@@ -490,7 +490,7 @@
     },
     {
       "image": "22701",
-      "id": 4189,
+      "id": 8293,
       "gameId": 8293,
       "name": "Fanaticism",
       "type": "Buff",
@@ -506,7 +506,7 @@
     },
     {
       "image": "05004",
-      "id": 4228,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -522,7 +522,7 @@
     },
     {
       "image": "23153",
-      "id": 4167,
+      "id": 695,
       "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
@@ -538,7 +538,7 @@
     },
     {
       "image": "22710",
-      "id": 4155,
+      "id": 8282,
       "gameId": 8282,
       "name": "Fueled Fury",
       "type": "Buff",
@@ -554,7 +554,7 @@
     },
     {
       "image": "08042",
-      "id": 4179,
+      "id": 8308,
       "gameId": 8308,
       "name": "Gift of Life",
       "type": "Buff",
@@ -570,7 +570,7 @@
     },
     {
       "image": "22703",
-      "id": 4184,
+      "id": 2958,
       "gameId": 2958,
       "name": "Grace of Sigmar",
       "type": "Buff",
@@ -586,7 +586,7 @@
     },
     {
       "image": "22703",
-      "id": 4180,
+      "id": 8291,
       "gameId": 8291,
       "name": "Greave of Sigmar",
       "type": "Buff",
@@ -602,7 +602,7 @@
     },
     {
       "image": "22709",
-      "id": 4191,
+      "id": 2963,
       "gameId": 2963,
       "name": "Guilty Soul",
       "type": "Buff",
@@ -618,7 +618,7 @@
     },
     {
       "image": "07962",
-      "id": 4192,
+      "id": 2930,
       "gameId": 2930,
       "name": "Hammer of Sigmar",
       "type": "Damaging",
@@ -634,7 +634,7 @@
     },
     {
       "image": "22708",
-      "id": 4149,
+      "id": 8276,
       "gameId": 8276,
       "name": "Hastened Divinity",
       "type": "Buff",
@@ -650,7 +650,7 @@
     },
     {
       "image": "07960",
-      "id": 4132,
+      "id": 8241,
       "gameId": 8241,
       "name": "Healing Hand",
       "type": "Blessing",
@@ -666,7 +666,7 @@
     },
     {
       "image": "22694",
-      "id": 4154,
+      "id": 8281,
       "gameId": 8281,
       "name": "Intimidating Repent",
       "type": "Buff",
@@ -682,7 +682,7 @@
     },
     {
       "image": "08029",
-      "id": 4229,
+      "id": 8236,
       "gameId": 8236,
       "name": "Judgement",
       "type": "Curse",
@@ -698,7 +698,7 @@
     },
     {
       "image": "22706",
-      "id": 4182,
+      "id": 8290,
       "gameId": 8290,
       "name": "Leading the Prayer",
       "type": "Buff",
@@ -714,7 +714,7 @@
     },
     {
       "image": "08036",
-      "id": 4178,
+      "id": 8266,
       "gameId": 8266,
       "name": "Martyr's Blessing",
       "type": "Healing",
@@ -730,7 +730,7 @@
     },
     {
       "image": "07916",
-      "id": 4159,
+      "id": 8304,
       "gameId": 8304,
       "name": "Penance",
       "type": "Damaging",
@@ -746,7 +746,7 @@
     },
     {
       "image": "08035",
-      "id": 4176,
+      "id": 8265,
       "gameId": 8265,
       "name": "Pious Restoration",
       "type": "Blessing",
@@ -762,7 +762,7 @@
     },
     {
       "image": "07917",
-      "id": 4141,
+      "id": 8242,
       "gameId": 8242,
       "name": "Prayer of Absolution",
       "type": "Buff",
@@ -778,7 +778,7 @@
     },
     {
       "image": "07943",
-      "id": 4133,
+      "id": 8249,
       "gameId": 8249,
       "name": "Prayer of Devotion",
       "type": "Buff",
@@ -794,7 +794,7 @@
     },
     {
       "image": "07950",
-      "id": 4143,
+      "id": 8243,
       "gameId": 8243,
       "name": "Prayer of Righteousness",
       "type": "Buff",
@@ -810,7 +810,7 @@
     },
     {
       "image": "08041",
-      "id": 4145,
+      "id": 8251,
       "gameId": 8251,
       "name": "Purge",
       "type": "Damaging",
@@ -826,7 +826,7 @@
     },
     {
       "image": "08032",
-      "id": 4142,
+      "id": 8246,
       "gameId": 8246,
       "name": "Purify",
       "type": "Healing",
@@ -842,7 +842,7 @@
     },
     {
       "image": "23154",
-      "id": 4165,
+      "id": 692,
       "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
@@ -858,7 +858,7 @@
     },
     {
       "image": "22708",
-      "id": 4175,
+      "id": 8287,
       "gameId": 8287,
       "name": "Refreshing Radiance",
       "type": "Buff",
@@ -874,7 +874,7 @@
     },
     {
       "image": "08054",
-      "id": 4136,
+      "id": 8245,
       "gameId": 8245,
       "name": "Repent",
       "type": "Debuff",
@@ -890,7 +890,7 @@
     },
     {
       "image": "22694",
-      "id": 4163,
+      "id": 589,
       "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
@@ -906,7 +906,7 @@
     },
     {
       "image": "22702",
-      "id": 4151,
+      "id": 8278,
       "gameId": 8278,
       "name": "Shield of Faith",
       "type": "Buff",
@@ -922,7 +922,7 @@
     },
     {
       "image": "22710",
-      "id": 4172,
+      "id": 776,
       "gameId": 776,
       "name": "Sigmar's Favor",
       "type": "Buff",
@@ -938,7 +938,7 @@
     },
     {
       "image": "07944",
-      "id": 4131,
+      "id": 8253,
       "gameId": 8253,
       "name": "Sigmar's Fist",
       "type": "Damaging",
@@ -954,7 +954,7 @@
     },
     {
       "image": "08039",
-      "id": 4185,
+      "id": 8269,
       "gameId": 8269,
       "name": "Sigmar's Grace",
       "type": "Blessing",
@@ -970,7 +970,7 @@
     },
     {
       "image": "07953",
-      "id": 4146,
+      "id": 2504,
       "gameId": 2504,
       "name": "Sigmar's Radiance",
       "type": "Damaging",
@@ -986,7 +986,7 @@
     },
     {
       "image": "08034",
-      "id": 4183,
+      "id": 8267,
       "gameId": 8267,
       "name": "Sigmar's Shield",
       "type": "Damaging",
@@ -1002,7 +1002,7 @@
     },
     {
       "image": "08038",
-      "id": 4181,
+      "id": 8268,
       "gameId": 8268,
       "name": "Sigmar's Vision",
       "type": "Damaging",
@@ -1018,7 +1018,7 @@
     },
     {
       "image": "07923",
-      "id": 4140,
+      "id": 8250,
       "gameId": 8250,
       "name": "Smite",
       "type": "Damaging",
@@ -1034,7 +1034,7 @@
     },
     {
       "image": "07947",
-      "id": 4188,
+      "id": 2936,
       "gameId": 2936,
       "name": "Soulfire",
       "type": "Curse",
@@ -1050,7 +1050,7 @@
     },
     {
       "image": "23155",
-      "id": 4166,
+      "id": 690,
       "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
@@ -1066,7 +1066,7 @@
     },
     {
       "image": "22709",
-      "id": 4162,
+      "id": 588,
       "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
@@ -1082,7 +1082,7 @@
     },
     {
       "image": "08030",
-      "id": 4230,
+      "id": 8237,
       "gameId": 8237,
       "name": "Supplication",
       "type": "Buff",
@@ -1098,7 +1098,7 @@
     },
     {
       "image": "07946",
-      "id": 4144,
+      "id": 8247,
       "gameId": 8247,
       "name": "Touch of the Divine",
       "type": "Healing",
@@ -1114,7 +1114,7 @@
     },
     {
       "image": "22710",
-      "id": 4171,
+      "id": 777,
       "gameId": 777,
       "name": "Unwavering Faith",
       "type": "Buff",
@@ -1130,7 +1130,7 @@
     },
     {
       "image": "08037",
-      "id": 4147,
+      "id": 8256,
       "gameId": 8256,
       "name": "Vow of Silence",
       "type": "Curse",
@@ -1146,7 +1146,7 @@
     },
     {
       "image": "07927",
-      "id": 4138,
+      "id": 8255,
       "gameId": 8255,
       "name": "Weight of Guilt",
       "type": "Curse",
@@ -1162,7 +1162,7 @@
     },
     {
       "image": "07945",
-      "id": 7506,
+      "id": 2931,
       "gameId": 2931,
       "name": "Divine Strike",
       "type": "Damaging",
@@ -1178,7 +1178,7 @@
     },
     {
       "image": "07976",
-      "id": 7507,
+      "id": 2940,
       "gameId": 2940,
       "name": "Sacrifice",
       "type": "Defensive",
@@ -1194,7 +1194,7 @@
     },
     {
       "image": "23419",
-      "id": 7508,
+      "id": 2948,
       "gameId": 2948,
       "name": "Divine Warden",
       "type": "Blessing",
@@ -1210,7 +1210,7 @@
     },
     {
       "image": "23420",
-      "id": 7509,
+      "id": 2947,
       "gameId": 2947,
       "name": "Shielding Grace",
       "type": "Defensive",
@@ -1226,7 +1226,7 @@
     },
     {
       "image": "23421",
-      "id": 7510,
+      "id": 2937,
       "gameId": 2937,
       "name": "Sigmar's Wrath",
       "type": "Buff",

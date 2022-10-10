@@ -6,20 +6,20 @@
         "primary": "A mastery path focused on immediate damage"
       },
       "optionalAbilities": {
-        "lvl1": 3554,
-        "lvl2": 3555,
-        "lvl3": 3556,
-        "lvl4": 3557,
-        "lvl5": 3558,
-        "lvl6": 3559,
-        "lvl7": 3560
+        "lvl1": 8205,
+        "lvl2": 8181,
+        "lvl3": 8204,
+        "lvl4": 8182,
+        "lvl5": 8206,
+        "lvl6": 8183,
+        "lvl7": 8220
       },
       "coreAbilities": [
-        3512,
-        3520,
-        3516,
-        3611,
-        3525
+        8160,
+        8169,
+        8164,
+        8159,
+        8173
       ]
     },
     "b": {
@@ -28,20 +28,20 @@
         "primary": "A mastery path focused on longer-duration effects"
       },
       "optionalAbilities": {
-        "lvl1": 3561,
-        "lvl2": 3562,
-        "lvl3": 3563,
-        "lvl4": 3564,
-        "lvl5": 3565,
-        "lvl6": 3566,
-        "lvl7": 3567
+        "lvl1": 8207,
+        "lvl2": 8184,
+        "lvl3": 8209,
+        "lvl4": 8185,
+        "lvl5": 8208,
+        "lvl6": 8186,
+        "lvl7": 8221
       },
       "coreAbilities": [
-        3528,
-        3610,
-        3524,
-        3522,
-        3517
+        8176,
+        8158,
+        8161,
+        8170,
+        8165
       ]
     },
     "c": {
@@ -50,27 +50,27 @@
         "primary": "A mastery path focused on wide-area effects"
       },
       "optionalAbilities": {
-        "lvl1": 3568,
-        "lvl2": 3569,
-        "lvl3": 3570,
-        "lvl4": 3571,
-        "lvl5": 3572,
-        "lvl6": 3573,
-        "lvl7": 3574
+        "lvl1": 8210,
+        "lvl2": 8187,
+        "lvl3": 8212,
+        "lvl4": 8188,
+        "lvl5": 8211,
+        "lvl6": 8189,
+        "lvl7": 8222
       },
       "coreAbilities": [
-        3515,
-        3526,
-        3523,
-        3518,
-        3529
+        8163,
+        8177,
+        8171,
+        8166,
+        8174
       ]
     }
   },
   "data": [
     {
       "image": "07958",
-      "id": 3569,
+      "id": 8187,
       "gameId": 8187,
       "name": "Annihilate",
       "type": "Damaging",
@@ -86,7 +86,7 @@
     },
     {
       "image": "07936",
-      "id": 3573,
+      "id": 8189,
       "gameId": 8189,
       "name": "Backdraft",
       "type": "Hex",
@@ -102,7 +102,7 @@
     },
     {
       "image": "08015",
-      "id": 3517,
+      "id": 8165,
       "gameId": 8165,
       "name": "Boiling Blood",
       "type": "Hex",
@@ -118,7 +118,7 @@
     },
     {
       "image": "22703",
-      "id": 3558,
+      "id": 8206,
       "gameId": 8206,
       "name": "Burn Through",
       "type": "Buff",
@@ -134,7 +134,7 @@
     },
     {
       "image": "08019",
-      "id": 3525,
+      "id": 8173,
       "gameId": 8173,
       "name": "Burning Iron",
       "type": "Damaging",
@@ -150,7 +150,7 @@
     },
     {
       "image": "07957",
-      "id": 3527,
+      "id": 8175,
       "gameId": 8175,
       "name": "Burnout",
       "type": "Buff",
@@ -166,7 +166,7 @@
     },
     {
       "image": "08016",
-      "id": 3519,
+      "id": 8167,
       "gameId": 8167,
       "name": "Cauterize",
       "type": "Healing",
@@ -182,7 +182,7 @@
     },
     {
       "image": "08020",
-      "id": 3529,
+      "id": 8174,
       "gameId": 8174,
       "name": "Choking Smoke",
       "type": "Hex",
@@ -198,7 +198,7 @@
     },
     {
       "image": "22694",
-      "id": 3544,
+      "id": 569,
       "gameId": 569,
       "name": "Close Quarters",
       "type": "Buff",
@@ -214,7 +214,7 @@
     },
     {
       "image": "07942",
-      "id": 3574,
+      "id": 8222,
       "gameId": 8222,
       "name": "Conflagration of Doom",
       "type": "Damaging",
@@ -230,7 +230,7 @@
     },
     {
       "image": "22713",
-      "id": 3537,
+      "id": 8197,
       "gameId": 8197,
       "name": "Crown of Fire",
       "type": "Buff",
@@ -246,7 +246,7 @@
     },
     {
       "image": "07902",
-      "id": 3522,
+      "id": 8170,
       "gameId": 8170,
       "name": "Detonate",
       "type": "Hex",
@@ -262,7 +262,7 @@
     },
     {
       "image": "22704",
-      "id": 3541,
+      "id": 568,
       "gameId": 568,
       "name": "Devour Energy",
       "type": "Buff",
@@ -278,7 +278,7 @@
     },
     {
       "image": "22704",
-      "id": 3535,
+      "id": 8199,
       "gameId": 8199,
       "name": "Distracting Fires",
       "type": "Buff",
@@ -294,7 +294,7 @@
     },
     {
       "image": "22708",
-      "id": 3556,
+      "id": 8204,
       "gameId": 8204,
       "name": "Draining Burn",
       "type": "Buff",
@@ -310,7 +310,7 @@
     },
     {
       "image": "22703",
-      "id": 3536,
+      "id": 8200,
       "gameId": 8200,
       "name": "Embrace The Flames",
       "type": "Buff",
@@ -326,7 +326,7 @@
     },
     {
       "image": "22710",
-      "id": 3551,
+      "id": 779,
       "gameId": 779,
       "name": "Emperor's Ward",
       "type": "Buff",
@@ -342,7 +342,7 @@
     },
     {
       "image": "22695",
-      "id": 3542,
+      "id": 563,
       "gameId": 563,
       "name": "Endless Knowledge",
       "type": "Buff",
@@ -358,7 +358,7 @@
     },
     {
       "image": "22696",
-      "id": 3568,
+      "id": 8210,
       "gameId": 8210,
       "name": "Explosive Force",
       "type": "Buff",
@@ -374,7 +374,7 @@
     },
     {
       "image": "22709",
-      "id": 3534,
+      "id": 8198,
       "gameId": 8198,
       "name": "Fan The Flames",
       "type": "Buff",
@@ -390,7 +390,7 @@
     },
     {
       "image": "07934",
-      "id": 3518,
+      "id": 8166,
       "gameId": 8166,
       "name": "Fiery Blast",
       "type": "Damaging",
@@ -406,7 +406,7 @@
     },
     {
       "image": "22709",
-      "id": 3570,
+      "id": 8212,
       "gameId": 8212,
       "name": "Fiery Reserves",
       "type": "Buff",
@@ -422,7 +422,7 @@
     },
     {
       "image": "07924",
-      "id": 3521,
+      "id": 8168,
       "gameId": 8168,
       "name": "Fire Cage",
       "type": "Hex",
@@ -438,7 +438,7 @@
     },
     {
       "image": "07933",
-      "id": 3611,
+      "id": 8159,
       "gameId": 8159,
       "name": "Fireball",
       "type": "Damaging",
@@ -454,7 +454,7 @@
     },
     {
       "image": "08021",
-      "id": 3559,
+      "id": 8183,
       "gameId": 8183,
       "name": "Fireball Barrage",
       "type": "Damaging",
@@ -470,7 +470,7 @@
     },
     {
       "image": "08018",
-      "id": 3523,
+      "id": 8171,
       "gameId": 8171,
       "name": "Flame Breath",
       "type": "Damaging",
@@ -486,7 +486,7 @@
     },
     {
       "image": "07911",
-      "id": 3524,
+      "id": 8161,
       "gameId": 8161,
       "name": "Flame Shield",
       "type": "Enchantment",
@@ -502,7 +502,7 @@
     },
     {
       "image": "07910",
-      "id": 3516,
+      "id": 8164,
       "gameId": 8164,
       "name": "Flames of Rhuin",
       "type": "Enchantment",
@@ -518,7 +518,7 @@
     },
     {
       "image": "22694",
-      "id": 3533,
+      "id": 8196,
       "gameId": 8196,
       "name": "Flashfire",
       "type": "Buff",
@@ -534,7 +534,7 @@
     },
     {
       "image": "05004",
-      "id": 3609,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -550,7 +550,7 @@
     },
     {
       "image": "23153",
-      "id": 3548,
+      "id": 674,
       "gameId": 674,
       "name": "Focused Mind",
       "type": "Buff",
@@ -566,7 +566,7 @@
     },
     {
       "image": "22694",
-      "id": 3561,
+      "id": 8207,
       "gameId": 8207,
       "name": "Fuel To The Fire",
       "type": "Buff",
@@ -582,7 +582,7 @@
     },
     {
       "image": "22704",
-      "id": 3531,
+      "id": 8201,
       "gameId": 8201,
       "name": "Fueled From Within",
       "type": "Buff",
@@ -598,7 +598,7 @@
     },
     {
       "image": "07919",
-      "id": 3555,
+      "id": 8181,
       "gameId": 8181,
       "name": "Funnel Power",
       "type": "Damaging",
@@ -614,7 +614,7 @@
     },
     {
       "image": "08028",
-      "id": 3540,
+      "id": 8217,
       "gameId": 8217,
       "name": "Heart of Fire",
       "type": "Buff",
@@ -630,7 +630,7 @@
     },
     {
       "image": "07913",
-      "id": 3610,
+      "id": 8158,
       "gameId": 8158,
       "name": "Ignite",
       "type": "Hex",
@@ -646,7 +646,7 @@
     },
     {
       "image": "22704",
-      "id": 3563,
+      "id": 8209,
       "gameId": 8209,
       "name": "Ignition",
       "type": "Buff",
@@ -662,7 +662,7 @@
     },
     {
       "image": "22703",
-      "id": 3530,
+      "id": 8195,
       "gameId": 8195,
       "name": "Lingering Fires",
       "type": "Buff",
@@ -678,7 +678,7 @@
     },
     {
       "image": "23167",
-      "id": 3545,
+      "id": 670,
       "gameId": 670,
       "name": "Mage Bolt",
       "type": "Damaging",
@@ -694,7 +694,7 @@
     },
     {
       "image": "08026",
-      "id": 3538,
+      "id": 8215,
       "gameId": 8215,
       "name": "Magic Dart",
       "type": "Damaging",
@@ -710,7 +710,7 @@
     },
     {
       "image": "04630",
-      "id": 3612,
+      "id": 8179,
       "gameId": 8179,
       "name": "Meltdown",
       "type": "Damaging",
@@ -726,7 +726,7 @@
     },
     {
       "image": "23168",
-      "id": 3547,
+      "id": 673,
       "gameId": 673,
       "name": "Misdirection",
       "type": "Buff",
@@ -742,7 +742,7 @@
     },
     {
       "image": "07936",
-      "id": 3557,
+      "id": 8182,
       "gameId": 8182,
       "name": "Nova",
       "type": "Damaging",
@@ -758,7 +758,7 @@
     },
     {
       "image": "08022",
-      "id": 3562,
+      "id": 8184,
       "gameId": 8184,
       "name": "Playing With Fire",
       "type": "Hex",
@@ -774,7 +774,7 @@
     },
     {
       "image": "22708",
-      "id": 3532,
+      "id": 8194,
       "gameId": 8194,
       "name": "Power From The Ashes",
       "type": "Buff",
@@ -790,7 +790,7 @@
     },
     {
       "image": "08017",
-      "id": 3520,
+      "id": 8169,
       "gameId": 8169,
       "name": "Pyroclastic Surge",
       "type": "Damaging",
@@ -806,7 +806,7 @@
     },
     {
       "image": "07939",
-      "id": 3526,
+      "id": 8177,
       "gameId": 8177,
       "name": "Rain of Fire",
       "type": "Damaging",
@@ -822,7 +822,7 @@
     },
     {
       "image": "08027",
-      "id": 3539,
+      "id": 8216,
       "gameId": 8216,
       "name": "Ruin And Destruction",
       "type": "Damaging",
@@ -838,7 +838,7 @@
     },
     {
       "image": "23169",
-      "id": 3549,
+      "id": 671,
       "gameId": 671,
       "name": "Scintillating Energy",
       "type": "Damaging",
@@ -854,7 +854,7 @@
     },
     {
       "image": "08014",
-      "id": 3515,
+      "id": 8163,
       "gameId": 8163,
       "name": "Scorched Earth",
       "type": "Damaging",
@@ -870,7 +870,7 @@
     },
     {
       "image": "07955",
-      "id": 3512,
+      "id": 8160,
       "gameId": 8160,
       "name": "Sear",
       "type": "Damaging",
@@ -886,7 +886,7 @@
     },
     {
       "image": "22706",
-      "id": 3554,
+      "id": 8205,
       "gameId": 8205,
       "name": "Searing Vitality",
       "type": "Buff",
@@ -902,7 +902,7 @@
     },
     {
       "image": "08012",
-      "id": 3513,
+      "id": 8172,
       "gameId": 8172,
       "name": "Shield of Aqshy",
       "type": "Enchantment",
@@ -918,7 +918,7 @@
     },
     {
       "image": "22710",
-      "id": 3553,
+      "id": 776,
       "gameId": 776,
       "name": "Sigmar's Favor",
       "type": "Buff",
@@ -934,7 +934,7 @@
     },
     {
       "image": "23170",
-      "id": 3546,
+      "id": 669,
       "gameId": 669,
       "name": "Siphon Power",
       "type": "Buff",
@@ -950,7 +950,7 @@
     },
     {
       "image": "22708",
-      "id": 3543,
+      "id": 567,
       "gameId": 567,
       "name": "Sleight of Hand",
       "type": "Buff",
@@ -966,7 +966,7 @@
     },
     {
       "image": "07940",
-      "id": 3528,
+      "id": 8176,
       "gameId": 8176,
       "name": "Slow Boil",
       "type": "Hex",
@@ -982,7 +982,7 @@
     },
     {
       "image": "08013",
-      "id": 3514,
+      "id": 8162,
       "gameId": 8162,
       "name": "Smoke Screen",
       "type": "Debuff",
@@ -998,7 +998,7 @@
     },
     {
       "image": "22704",
-      "id": 3565,
+      "id": 8208,
       "gameId": 8208,
       "name": "Smoldering Embers",
       "type": "Buff",
@@ -1014,7 +1014,7 @@
     },
     {
       "image": "07956",
-      "id": 3571,
+      "id": 8188,
       "gameId": 8188,
       "name": "Spreading Flames",
       "type": "Hex",
@@ -1030,7 +1030,7 @@
     },
     {
       "image": "08024",
-      "id": 3566,
+      "id": 8186,
       "gameId": 8186,
       "name": "Stop, Drop, And Roll",
       "type": "Damaging",
@@ -1046,7 +1046,7 @@
     },
     {
       "image": "07937",
-      "id": 3560,
+      "id": 8220,
       "gameId": 8220,
       "name": "The Burning Head",
       "type": "Damaging",
@@ -1062,7 +1062,7 @@
     },
     {
       "image": "23171",
-      "id": 3550,
+      "id": 672,
       "gameId": 672,
       "name": "Unleash the Winds",
       "type": "Debuff",
@@ -1078,7 +1078,7 @@
     },
     {
       "image": "22710",
-      "id": 3552,
+      "id": 777,
       "gameId": 777,
       "name": "Unwavering Faith",
       "type": "Buff",
@@ -1094,7 +1094,7 @@
     },
     {
       "image": "07941",
-      "id": 3567,
+      "id": 8221,
       "gameId": 8221,
       "name": "Wall of Fire",
       "type": "Damaging",
@@ -1110,7 +1110,7 @@
     },
     {
       "image": "22703",
-      "id": 3572,
+      "id": 8211,
       "gameId": 8211,
       "name": "Wildfire",
       "type": "Buff",
@@ -1126,7 +1126,7 @@
     },
     {
       "image": "08023",
-      "id": 3564,
+      "id": 8185,
       "gameId": 8185,
       "name": "Withering Heat",
       "type": "Damaging",

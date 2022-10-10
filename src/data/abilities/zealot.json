@@ -6,21 +6,21 @@
         "primary": "A mastery path focused on immediate, direct effects"
       },
       "optionalAbilities": {
-        "lvl1": 5726,
-        "lvl2": 5727,
-        "lvl3": 5728,
-        "lvl4": 5729,
-        "lvl5": 5730,
-        "lvl6": 5731,
-        "lvl7": 5732
+        "lvl1": 8595,
+        "lvl2": 8572,
+        "lvl3": 8594,
+        "lvl4": 8573,
+        "lvl5": 8596,
+        "lvl6": 8571,
+        "lvl7": 8611
       },
       "coreAbilities": [
-        5684,
-        5782,
-        5683,
-        5784,
-        5688,
-        5699
+        8568,
+        8548,
+        8551,
+        8569,
+        8566,
+        8561
       ]
     },
     "b": {
@@ -29,20 +29,20 @@
         "primary": "A mastery path focused on longer-duration effects"
       },
       "optionalAbilities": {
-        "lvl1": 5733,
-        "lvl2": 5734,
-        "lvl3": 5735,
-        "lvl4": 5736,
-        "lvl5": 5737,
-        "lvl6": 5738,
-        "lvl7": 5739
+        "lvl1": 8599,
+        "lvl2": 8574,
+        "lvl3": 8598,
+        "lvl4": 8576,
+        "lvl5": 8597,
+        "lvl6": 8575,
+        "lvl7": 8612
       },
       "coreAbilities": [
-        5681,
-        5685,
-        5700,
-        5692,
-        5690
+        8553,
+        8564,
+        8565,
+        8556,
+        8549
       ]
     },
     "c": {
@@ -51,27 +51,27 @@
         "primary": "A mastery path focused on wide-area effects"
       },
       "optionalAbilities": {
-        "lvl1": 5740,
-        "lvl2": 5741,
-        "lvl3": 5742,
-        "lvl4": 5743,
-        "lvl5": 5744,
-        "lvl6": 5745,
-        "lvl7": 5746
+        "lvl1": 8600,
+        "lvl2": 8577,
+        "lvl3": 8601,
+        "lvl4": 8578,
+        "lvl5": 8602,
+        "lvl6": 8579,
+        "lvl7": 8613
       },
       "coreAbilities": [
-        5687,
-        5689,
-        5693,
-        5696,
-        5695
+        8552,
+        8560,
+        8557,
+        8562,
+        8563
       ]
     }
   },
   "data": [
     {
       "image": "05236",
-      "id": 5731,
+      "id": 8571,
       "gameId": 8571,
       "name": "Aethyric Shock",
       "type": "Damaging",
@@ -87,7 +87,7 @@
     },
     {
       "image": "23150",
-      "id": 5722,
+      "id": 697,
       "gameId": 697,
       "name": "Alter Fate",
       "type": "Buff",
@@ -103,7 +103,7 @@
     },
     {
       "image": "22714",
-      "id": 5725,
+      "id": 800,
       "gameId": 800,
       "name": "Backlash",
       "type": "Buff",
@@ -119,7 +119,7 @@
     },
     {
       "image": "22704",
-      "id": 5705,
+      "id": 8590,
       "gameId": 8590,
       "name": "Blessing of Chaos",
       "type": "Buff",
@@ -135,7 +135,7 @@
     },
     {
       "image": "05242",
-      "id": 5729,
+      "id": 8573,
       "gameId": 8573,
       "name": "Boon of Tzeentch",
       "type": "Damaging",
@@ -151,7 +151,7 @@
     },
     {
       "image": "05237",
-      "id": 5698,
+      "id": 8559,
       "gameId": 8559,
       "name": "Breath of Tzeentch",
       "type": "Hex",
@@ -167,7 +167,7 @@
     },
     {
       "image": "22714",
-      "id": 5707,
+      "id": 8588,
       "gameId": 8588,
       "name": "By Tzeentch's Will!",
       "type": "Buff",
@@ -183,7 +183,7 @@
     },
     {
       "image": "22709",
-      "id": 5730,
+      "id": 8596,
       "gameId": 8596,
       "name": "Changer's Touch",
       "type": "Healing",
@@ -199,7 +199,7 @@
     },
     {
       "image": "05110",
-      "id": 5743,
+      "id": 8578,
       "gameId": 8578,
       "name": "Chaotic Agitation",
       "type": "Damaging",
@@ -215,7 +215,7 @@
     },
     {
       "image": "05116",
-      "id": 5686,
+      "id": 8621,
       "gameId": 8621,
       "name": "Chaotic Blur",
       "type": "Debuff",
@@ -231,7 +231,7 @@
     },
     {
       "image": "22708",
-      "id": 5726,
+      "id": 8595,
       "gameId": 8595,
       "name": "Chaotic Force",
       "type": "Buff",
@@ -247,7 +247,7 @@
     },
     {
       "image": "05240",
-      "id": 5699,
+      "id": 8561,
       "gameId": 8561,
       "name": "Daemonic Fortitude",
       "type": "Blessing",
@@ -263,7 +263,7 @@
     },
     {
       "image": "05113",
-      "id": 5690,
+      "id": 8549,
       "gameId": 8549,
       "name": "Dark Medicine",
       "type": "Healing",
@@ -279,7 +279,7 @@
     },
     {
       "image": "05158",
-      "id": 5695,
+      "id": 8563,
       "gameId": 8563,
       "name": "Demon Spittle",
       "type": "Hex",
@@ -295,7 +295,7 @@
     },
     {
       "image": "22706",
-      "id": 5714,
+      "id": 592,
       "gameId": 592,
       "name": "Discipline",
       "type": "Buff",
@@ -311,7 +311,7 @@
     },
     {
       "image": "23151",
-      "id": 5717,
+      "id": 694,
       "gameId": 694,
       "name": "Divine Favor",
       "type": "Healing",
@@ -327,7 +327,7 @@
     },
     {
       "image": "22703",
-      "id": 5713,
+      "id": 585,
       "gameId": 585,
       "name": "Divine Fury",
       "type": "Buff",
@@ -343,7 +343,7 @@
     },
     {
       "image": "23152",
-      "id": 5721,
+      "id": 696,
       "gameId": 696,
       "name": "Divine Protection",
       "type": "Buff",
@@ -359,7 +359,7 @@
     },
     {
       "image": "22706",
-      "id": 5708,
+      "id": 8589,
       "gameId": 8589,
       "name": "Drink Deeply",
       "type": "Healing",
@@ -375,7 +375,7 @@
     },
     {
       "image": "05232",
-      "id": 5696,
+      "id": 8562,
       "gameId": 8562,
       "name": "Dust of Pandemonium",
       "type": "Healing",
@@ -391,7 +391,7 @@
     },
     {
       "image": "05103",
-      "id": 5688,
+      "id": 8566,
       "gameId": 8566,
       "name": "Elixir Of Dark Blessings",
       "type": "Healing",
@@ -407,7 +407,7 @@
     },
     {
       "image": "05260",
-      "id": 5697,
+      "id": 8622,
       "gameId": 8622,
       "name": "Embrace the Warp",
       "type": "Blessing",
@@ -423,7 +423,7 @@
     },
     {
       "image": "22708",
-      "id": 5706,
+      "id": 8587,
       "gameId": 8587,
       "name": "Empowered Alteration",
       "type": "Buff",
@@ -439,7 +439,7 @@
     },
     {
       "image": "22694",
-      "id": 5702,
+      "id": 8591,
       "gameId": 8591,
       "name": "Endless Gifts",
       "type": "Buff",
@@ -455,7 +455,7 @@
     },
     {
       "image": "05134",
-      "id": 5711,
+      "id": 8606,
       "gameId": 8606,
       "name": "Eye of Sheerian",
       "type": "Buff",
@@ -471,7 +471,7 @@
     },
     {
       "image": "05154",
-      "id": 5784,
+      "id": 8569,
       "gameId": 8569,
       "name": "Flash of Chaos",
       "type": "Healing",
@@ -487,7 +487,7 @@
     },
     {
       "image": "05004",
-      "id": 5781,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -503,7 +503,7 @@
     },
     {
       "image": "23153",
-      "id": 5720,
+      "id": 695,
       "gameId": 695,
       "name": "Focused Mind",
       "type": "Buff",
@@ -519,7 +519,7 @@
     },
     {
       "image": "05235",
-      "id": 5694,
+      "id": 8554,
       "gameId": 8554,
       "name": "Glimpse of Chaos",
       "type": "Healing",
@@ -535,7 +535,7 @@
     },
     {
       "image": "05108",
-      "id": 5783,
+      "id": 8550,
       "gameId": 8550,
       "name": "Harbinger of Doom",
       "type": "Buff",
@@ -551,7 +551,7 @@
     },
     {
       "image": "22694",
-      "id": 5733,
+      "id": 8599,
       "gameId": 8599,
       "name": "Lashing Waves",
       "type": "Buff",
@@ -567,7 +567,7 @@
     },
     {
       "image": "05250",
-      "id": 5693,
+      "id": 8557,
       "gameId": 8557,
       "name": "Leaping Alteration",
       "type": "Blessing",
@@ -583,7 +583,7 @@
     },
     {
       "image": "22703",
-      "id": 5728,
+      "id": 8594,
       "gameId": 8594,
       "name": "Manipulation",
       "type": "Damaging",
@@ -599,7 +599,7 @@
     },
     {
       "image": "05140",
-      "id": 5683,
+      "id": 8551,
       "gameId": 8551,
       "name": "Mark of Daemonic Fury",
       "type": "Blessing",
@@ -615,7 +615,7 @@
     },
     {
       "image": "05239",
-      "id": 5701,
+      "id": 8567,
       "gameId": 8567,
       "name": "Mark of Remaking",
       "type": "Blessing",
@@ -631,7 +631,7 @@
     },
     {
       "image": "05136",
-      "id": 5692,
+      "id": 8556,
       "gameId": 8556,
       "name": "Mark of the Spell Destroyer",
       "type": "Blessing",
@@ -647,7 +647,7 @@
     },
     {
       "image": "05137",
-      "id": 5689,
+      "id": 8560,
       "gameId": 8560,
       "name": "Mark of the Vortex",
       "type": "Blessing",
@@ -663,7 +663,7 @@
     },
     {
       "image": "05137",
-      "id": 5738,
+      "id": 8575,
       "gameId": 8575,
       "name": "Mirror of Madness",
       "type": "Hex",
@@ -679,7 +679,7 @@
     },
     {
       "image": "23154",
-      "id": 5718,
+      "id": 692,
       "gameId": 692,
       "name": "Rampaging Siphon",
       "type": "Damaging",
@@ -695,7 +695,7 @@
     },
     {
       "image": "22694",
-      "id": 5716,
+      "id": 589,
       "gameId": 589,
       "name": "Restorative Burst",
       "type": "Buff",
@@ -711,7 +711,7 @@
     },
     {
       "image": "05231",
-      "id": 5687,
+      "id": 8552,
       "gameId": 8552,
       "name": "Rite of Agony",
       "type": "Damaging",
@@ -727,7 +727,7 @@
     },
     {
       "image": "05241",
-      "id": 5727,
+      "id": 8572,
       "gameId": 8572,
       "name": "Ritual of Innervation",
       "type": "Buff",
@@ -743,7 +743,7 @@
     },
     {
       "image": "05162",
-      "id": 5741,
+      "id": 8577,
       "gameId": 8577,
       "name": "Ritual of Lunacy",
       "type": "Buff",
@@ -759,7 +759,7 @@
     },
     {
       "image": "05119",
-      "id": 5734,
+      "id": 8574,
       "gameId": 8574,
       "name": "Ritual of Superiority",
       "type": "Buff",
@@ -775,7 +775,7 @@
     },
     {
       "image": "05144",
-      "id": 5782,
+      "id": 8548,
       "gameId": 8548,
       "name": "Scourge",
       "type": "Damaging",
@@ -791,7 +791,7 @@
     },
     {
       "image": "22709",
-      "id": 5703,
+      "id": 8586,
       "gameId": 8586,
       "name": "Scourged Warping",
       "type": "Buff",
@@ -807,7 +807,7 @@
     },
     {
       "image": "23155",
-      "id": 5719,
+      "id": 690,
       "gameId": 690,
       "name": "Steal Life",
       "type": "Damaging",
@@ -823,7 +823,7 @@
     },
     {
       "image": "05243",
-      "id": 5736,
+      "id": 8576,
       "gameId": 8576,
       "name": "Storm of Ravens",
       "type": "Damaging",
@@ -839,7 +839,7 @@
     },
     {
       "image": "22709",
-      "id": 5715,
+      "id": 588,
       "gameId": 588,
       "name": "Subtlety",
       "type": "Buff",
@@ -855,7 +855,7 @@
     },
     {
       "image": "05135",
-      "id": 5712,
+      "id": 8607,
       "gameId": 8607,
       "name": "Suppressing The Fragile Unbelievers",
       "type": "Damaging",
@@ -871,7 +871,7 @@
     },
     {
       "image": "22704",
-      "id": 5740,
+      "id": 8600,
       "gameId": 8600,
       "name": "Sweeping Disgorgement",
       "type": "Buff",
@@ -887,7 +887,7 @@
     },
     {
       "image": "22708",
-      "id": 5742,
+      "id": 8601,
       "gameId": 8601,
       "name": "Swirling Vortex",
       "type": "Buff",
@@ -903,7 +903,7 @@
     },
     {
       "image": "22697",
-      "id": 5737,
+      "id": 8597,
       "gameId": 8597,
       "name": "Transference",
       "type": "Damaging",
@@ -919,7 +919,7 @@
     },
     {
       "image": "05233",
-      "id": 5691,
+      "id": 8555,
       "gameId": 8555,
       "name": "Tzeentch Shall Remake You",
       "type": "Healing",
@@ -935,7 +935,7 @@
     },
     {
       "image": "05142",
-      "id": 5682,
+      "id": 8558,
       "gameId": 8558,
       "name": "Tzeentch's Cordial",
       "type": "Blessing",
@@ -951,7 +951,7 @@
     },
     {
       "image": "05160",
-      "id": 5684,
+      "id": 8568,
       "gameId": 8568,
       "name": "Tzeentch's Cry",
       "type": "Damaging",
@@ -967,7 +967,7 @@
     },
     {
       "image": "22706",
-      "id": 5744,
+      "id": 8602,
       "gameId": 8602,
       "name": "Tzeentch's Grip",
       "type": "Healing",
@@ -983,7 +983,7 @@
     },
     {
       "image": "05238",
-      "id": 5700,
+      "id": 8565,
       "gameId": 8565,
       "name": "Tzeentch's Lash",
       "type": "Hex",
@@ -999,7 +999,7 @@
     },
     {
       "image": "22708",
-      "id": 5735,
+      "id": 8598,
       "gameId": 8598,
       "name": "Tzeentch's Refreshment",
       "type": "Buff",
@@ -1015,7 +1015,7 @@
     },
     {
       "image": "05246",
-      "id": 5739,
+      "id": 8612,
       "gameId": 8612,
       "name": "Tzeentch's Scream",
       "type": "Damaging",
@@ -1031,7 +1031,7 @@
     },
     {
       "image": "05245",
-      "id": 5732,
+      "id": 8611,
       "gameId": 8611,
       "name": "Tzeentch’s Shielding",
       "type": "Buff",
@@ -1047,7 +1047,7 @@
     },
     {
       "image": "05118",
-      "id": 5710,
+      "id": 8605,
       "gameId": 8605,
       "name": "Tzeentch's Talon",
       "type": "Debuff",
@@ -1063,7 +1063,7 @@
     },
     {
       "image": "22714",
-      "id": 5724,
+      "id": 798,
       "gameId": 798,
       "name": "Tzeentch's Warding",
       "type": "Buff",
@@ -1079,7 +1079,7 @@
     },
     {
       "image": "05244",
-      "id": 5685,
+      "id": 8564,
       "gameId": 8564,
       "name": "Veil of Chaos",
       "type": "Blessing",
@@ -1095,7 +1095,7 @@
     },
     {
       "image": "05268",
-      "id": 5681,
+      "id": 8553,
       "gameId": 8553,
       "name": "Warp Reality",
       "type": "Hex",
@@ -1111,7 +1111,7 @@
     },
     {
       "image": "22714",
-      "id": 5723,
+      "id": 797,
       "gameId": 797,
       "name": "Warped Flesh",
       "type": "Buff",
@@ -1127,7 +1127,7 @@
     },
     {
       "image": "22706",
-      "id": 5704,
+      "id": 8584,
       "gameId": 8584,
       "name": "Warping The Spirit",
       "type": "Healing",
@@ -1143,7 +1143,7 @@
     },
     {
       "image": "22704",
-      "id": 5709,
+      "id": 8585,
       "gameId": 8585,
       "name": "Waves of Chaos",
       "type": "Damaging",
@@ -1159,7 +1159,7 @@
     },
     {
       "image": "05149",
-      "id": 5745,
+      "id": 8579,
       "gameId": 8579,
       "name": "Wind of Insanity",
       "type": "Blessing",
@@ -1175,7 +1175,7 @@
     },
     {
       "image": "05247",
-      "id": 5746,
+      "id": 8613,
       "gameId": 8613,
       "name": "Windblock",
       "type": "Damaging",

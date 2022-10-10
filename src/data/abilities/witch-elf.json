@@ -6,20 +6,20 @@
         "primary": "A mastery path focused on toe-to-toe combat"
       },
       "optionalAbilities": {
-        "lvl1": 5623,
-        "lvl2": 5631,
-        "lvl3": 5625,
-        "lvl4": 5626,
+        "lvl1": 9443,
+        "lvl2": 9420,
+        "lvl3": 9445,
+        "lvl4": 9421,
         "lvl5": 2991,
-        "lvl6": 5628,
-        "lvl7": 5629
+        "lvl6": 9422,
+        "lvl7": 9464
       },
       "coreAbilities": [
-        5588,
-        5679,
-        5590,
-        5589,
-        5581
+        9406,
+        9398,
+        9400,
+        9399,
+        9402
       ]
     },
     "b": {
@@ -28,20 +28,20 @@
         "primary": "A mastery path focused on poisons and weakening effects"
       },
       "optionalAbilities": {
-        "lvl1": 5630,
-        "lvl2": 5624,
-        "lvl3": 5632,
-        "lvl4": 5633,
-        "lvl5": 5634,
-        "lvl6": 5635,
-        "lvl7": 5636
+        "lvl1": 9447,
+        "lvl2": 2999,
+        "lvl3": 9446,
+        "lvl4": 9424,
+        "lvl5": 9448,
+        "lvl6": 9425,
+        "lvl7": 9465
       },
       "coreAbilities": [
-        5595,
-        5586,
-        5583,
-        5580,
-        5593
+        9405,
+        9407,
+        9404,
+        9403,
+        9401
       ]
     },
     "c": {
@@ -50,20 +50,20 @@
         "primary": "A mastery path focused on surprise attacks and positional combat"
       },
       "optionalAbilities": {
-        "lvl1": 5637,
-        "lvl2": 5638,
-        "lvl3": 5639,
-        "lvl4": 5640,
-        "lvl5": 5641,
-        "lvl6": 5642,
-        "lvl7": 5643
+        "lvl1": 9449,
+        "lvl2": 9426,
+        "lvl3": 9450,
+        "lvl4": 9427,
+        "lvl5": 9451,
+        "lvl6": 9428,
+        "lvl7": 9466
       },
       "coreAbilities": [
-        5596,
-        5591,
-        5579,
-        5597,
-        5582
+        9411,
+        9409,
+        9410,
+        9412,
+        9408
       ]
     }
   },
@@ -86,7 +86,7 @@
     },
     {
       "image": "10905",
-      "id": 5598,
+      "id": 9396,
       "gameId": 9396,
       "name": "Agile Escape",
       "type": "Debuff",
@@ -102,7 +102,7 @@
     },
     {
       "image": "10979",
-      "id": 5582,
+      "id": 9408,
       "gameId": 9408,
       "name": "Agonizing Wound",
       "type": "Damaging",
@@ -118,7 +118,7 @@
     },
     {
       "image": "22712",
-      "id": 5621,
+      "id": 839,
       "gameId": 839,
       "name": "Alignment of Naggaroth",
       "type": "Buff",
@@ -150,7 +150,7 @@
     },
     {
       "image": "22708",
-      "id": 5600,
+      "id": 9433,
       "gameId": 9433,
       "name": "Baneful Touch",
       "type": "Damaging",
@@ -166,7 +166,7 @@
     },
     {
       "image": "22712",
-      "id": 5622,
+      "id": 840,
       "gameId": 840,
       "name": "Bathing In Blood",
       "type": "Buff",
@@ -182,7 +182,7 @@
     },
     {
       "image": "10986",
-      "id": 5633,
+      "id": 9424,
       "gameId": 9424,
       "name": "Black Lotus Blade",
       "type": "Ailment",
@@ -198,7 +198,7 @@
     },
     {
       "image": "10991",
-      "id": 5629,
+      "id": 9464,
       "gameId": 9464,
       "name": "Blade Spin",
       "type": "Damaging",
@@ -214,7 +214,7 @@
     },
     {
       "image": "22694",
-      "id": 5627,
+      "id": 9444,
       "gameId": 9444,
       "name": "Broad Severing",
       "type": "Buff",
@@ -230,7 +230,7 @@
     },
     {
       "image": "23156",
-      "id": 5618,
+      "id": 629,
       "gameId": 629,
       "name": "Broad Swings",
       "type": "Buff",
@@ -246,7 +246,7 @@
     },
     {
       "image": "22701",
-      "id": 5611,
+      "id": 521,
       "gameId": 521,
       "name": "Brute Force",
       "type": "Buff",
@@ -262,7 +262,7 @@
     },
     {
       "image": "23157",
-      "id": 5616,
+      "id": 631,
       "gameId": 631,
       "name": "Confusing Movements",
       "type": "Buff",
@@ -278,7 +278,7 @@
     },
     {
       "image": "10988",
-      "id": 5607,
+      "id": 9458,
       "gameId": 9458,
       "name": "Dance of Doom",
       "type": "Damaging",
@@ -294,7 +294,7 @@
     },
     {
       "image": "22712",
-      "id": 5620,
+      "id": 841,
       "gameId": 841,
       "name": "Dark Blessings",
       "type": "Buff",
@@ -310,7 +310,7 @@
     },
     {
       "image": "10963",
-      "id": 5608,
+      "id": 9459,
       "gameId": 9459,
       "name": "Death Reaper",
       "type": "Damaging",
@@ -326,7 +326,7 @@
     },
     {
       "image": "10901",
-      "id": 5631,
+      "id": 9420,
       "gameId": 9420,
       "name": "Elixir of Insane Power",
       "type": "Buff",
@@ -342,7 +342,7 @@
     },
     {
       "image": "abi_de_blackhorror",
-      "id": 5624,
+      "id": 2999,
       "gameId": 2999,
       "name": "Elixir of Shadows",
       "type": "Buff",
@@ -358,7 +358,7 @@
     },
     {
       "image": "10987",
-      "id": 5638,
+      "id": 9426,
       "gameId": 9426,
       "name": "Elixir of the Cauldron",
       "type": "Buff",
@@ -374,7 +374,7 @@
     },
     {
       "image": "10968",
-      "id": 5585,
+      "id": 9392,
       "gameId": 9392,
       "name": "Enchanting Beauty",
       "type": "Debuff",
@@ -390,7 +390,7 @@
     },
     {
       "image": "10973",
-      "id": 5593,
+      "id": 9401,
       "gameId": 9401,
       "name": "Enfeebling Strike",
       "type": "Ailment",
@@ -406,7 +406,7 @@
     },
     {
       "image": "22706",
-      "id": 5634,
+      "id": 9448,
       "gameId": 9448,
       "name": "Enveloping Shadows",
       "type": "Buff",
@@ -422,7 +422,7 @@
     },
     {
       "image": "10975",
-      "id": 5580,
+      "id": 9403,
       "gameId": 9403,
       "name": "Envenomed Blade",
       "type": "Ailment",
@@ -438,7 +438,7 @@
     },
     {
       "image": "22709",
-      "id": 5602,
+      "id": 9436,
       "gameId": 9436,
       "name": "Exotic Venom",
       "type": "Buff",
@@ -454,7 +454,7 @@
     },
     {
       "image": "05170",
-      "id": 5584,
+      "id": 9397,
       "gameId": 9397,
       "name": "Feinted Positioning",
       "type": "Buff",
@@ -470,7 +470,7 @@
     },
     {
       "image": "22704",
-      "id": 5612,
+      "id": 523,
       "gameId": 523,
       "name": "Flanking",
       "type": "Buff",
@@ -486,7 +486,7 @@
     },
     {
       "image": "05004",
-      "id": 5678,
+      "id": 245,
       "gameId": 245,
       "name": "Flee",
       "type": "Buff",
@@ -502,7 +502,7 @@
     },
     {
       "image": "10970",
-      "id": 5592,
+      "id": 9395,
       "gameId": 9395,
       "name": "Fleet-Footed",
       "type": "Buff",
@@ -518,7 +518,7 @@
     },
     {
       "image": "10992",
-      "id": 5636,
+      "id": 9465,
       "gameId": 9465,
       "name": "Fling Poison",
       "type": "Damaging",
@@ -534,7 +534,7 @@
     },
     {
       "image": "22708",
-      "id": 5603,
+      "id": 9435,
       "gameId": 9435,
       "name": "For the Hag Queen!",
       "type": "Buff",
@@ -550,7 +550,7 @@
     },
     {
       "image": "23158",
-      "id": 5615,
+      "id": 628,
       "gameId": 628,
       "name": "Force of Will",
       "type": "Buff",
@@ -566,7 +566,7 @@
     },
     {
       "image": "22704",
-      "id": 5601,
+      "id": 6033,
       "gameId": 6033,
       "name": "Frenzied Mayhem",
       "type": "Buff",
@@ -582,7 +582,7 @@
     },
     {
       "image": "23159",
-      "id": 5619,
+      "id": 630,
       "gameId": 630,
       "name": "Frenzied Slaughter",
       "type": "Buff",
@@ -598,7 +598,7 @@
     },
     {
       "image": "10976",
-      "id": 5583,
+      "id": 9404,
       "gameId": 9404,
       "name": "Heart Render Toxin",
       "type": "Ailment",
@@ -614,7 +614,7 @@
     },
     {
       "image": "05203",
-      "id": 5640,
+      "id": 9427,
       "gameId": 9427,
       "name": "Heart Seeker",
       "type": "Damaging",
@@ -630,7 +630,7 @@
     },
     {
       "image": "22701",
-      "id": 5639,
+      "id": 9450,
       "gameId": 9450,
       "name": "Increased Pain",
       "type": "Buff",
@@ -646,7 +646,7 @@
     },
     {
       "image": "22694",
-      "id": 5610,
+      "id": 526,
       "gameId": 526,
       "name": "Jagged Edge",
       "type": "Buff",
@@ -662,7 +662,7 @@
     },
     {
       "image": "10974",
-      "id": 5581,
+      "id": 9402,
       "gameId": 9402,
       "name": "Kiss of Agony",
       "type": "Buff",
@@ -678,7 +678,7 @@
     },
     {
       "image": "10982",
-      "id": 5597,
+      "id": 9412,
       "gameId": 9412,
       "name": "Kiss of Betrayal",
       "type": "Buff",
@@ -694,7 +694,7 @@
     },
     {
       "image": "11006",
-      "id": 5586,
+      "id": 9407,
       "gameId": 9407,
       "name": "Kiss of Death",
       "type": "Buff",
@@ -710,7 +710,7 @@
     },
     {
       "image": "22694",
-      "id": 5632,
+      "id": 9446,
       "gameId": 9446,
       "name": "Kiss of Doom",
       "type": "Buff",
@@ -726,7 +726,7 @@
     },
     {
       "image": "22701",
-      "id": 5641,
+      "id": 9451,
       "gameId": 9451,
       "name": "Masterful Treachery",
       "type": "Buff",
@@ -742,7 +742,7 @@
     },
     {
       "image": "10984",
-      "id": 5628,
+      "id": 9422,
       "gameId": 9422,
       "name": "On Your Knees!",
       "type": "Ailment",
@@ -758,7 +758,7 @@
     },
     {
       "image": "10993",
-      "id": 5643,
+      "id": 9466,
       "gameId": 9466,
       "name": "Overwhelming Dread",
       "type": "Debuff",
@@ -774,7 +774,7 @@
     },
     {
       "image": "23412",
-      "id": 5644,
+      "id": 14427,
       "gameId": 14427,
       "name": "Pick Lock",
       "type": "Buff",
@@ -790,7 +790,7 @@
     },
     {
       "image": "10983",
-      "id": 5626,
+      "id": 9421,
       "gameId": 9421,
       "name": "Pierce Armor",
       "type": "Enchantment",
@@ -806,7 +806,7 @@
     },
     {
       "image": "10980",
-      "id": 5579,
+      "id": 9410,
       "gameId": 9410,
       "name": "Puncture",
       "type": "Damaging",
@@ -822,7 +822,7 @@
     },
     {
       "image": "23160",
-      "id": 5617,
+      "id": 633,
       "gameId": 633,
       "name": "Relentless Assault",
       "type": "Buff",
@@ -838,7 +838,7 @@
     },
     {
       "image": "22702",
-      "id": 5613,
+      "id": 528,
       "gameId": 528,
       "name": "Riposte",
       "type": "Buff",
@@ -854,7 +854,7 @@
     },
     {
       "image": "10904",
-      "id": 5589,
+      "id": 9399,
       "gameId": 9399,
       "name": "Ruthless Assault",
       "type": "Damaging",
@@ -870,7 +870,7 @@
     },
     {
       "image": "22702",
-      "id": 5606,
+      "id": 9439,
       "gameId": 9439,
       "name": "Sacrifices Rewarded",
       "type": "Buff",
@@ -886,7 +886,7 @@
     },
     {
       "image": "10994",
-      "id": 5642,
+      "id": 9428,
       "gameId": 9428,
       "name": "Sacrificial Stab",
       "type": "Damaging",
@@ -902,7 +902,7 @@
     },
     {
       "image": "22701",
-      "id": 5630,
+      "id": 9447,
       "gameId": 9447,
       "name": "Septic Blade",
       "type": "Buff",
@@ -918,7 +918,7 @@
     },
     {
       "image": "02497",
-      "id": 5594,
+      "id": 9413,
       "gameId": 9413,
       "name": "Sever Blessing",
       "type": "Damaging",
@@ -934,7 +934,7 @@
     },
     {
       "image": "10972",
-      "id": 5590,
+      "id": 9400,
       "gameId": 9400,
       "name": "Sever Limb",
       "type": "Ailment",
@@ -950,7 +950,7 @@
     },
     {
       "image": "23161",
-      "id": 5614,
+      "id": 627,
       "gameId": 627,
       "name": "Sever Nerve",
       "type": "Damaging",
@@ -966,7 +966,7 @@
     },
     {
       "image": "10969",
-      "id": 5587,
+      "id": 9393,
       "gameId": 9393,
       "name": "Shadow Prowler",
       "type": "Buff",
@@ -982,7 +982,7 @@
     },
     {
       "image": "22698",
-      "id": 5623,
+      "id": 9443,
       "gameId": 9443,
       "name": "Sharpened Edge",
       "type": "Buff",
@@ -998,7 +998,7 @@
     },
     {
       "image": "10902",
-      "id": 5679,
+      "id": 9398,
       "gameId": 9398,
       "name": "Slice",
       "type": "Damaging",
@@ -1014,7 +1014,7 @@
     },
     {
       "image": "22702",
-      "id": 5625,
+      "id": 9445,
       "gameId": 9445,
       "name": "Swift Blades",
       "type": "Buff",
@@ -1030,7 +1030,7 @@
     },
     {
       "image": "22709",
-      "id": 5637,
+      "id": 9449,
       "gameId": 9449,
       "name": "Swift Movements",
       "type": "Buff",
@@ -1046,7 +1046,7 @@
     },
     {
       "image": "22708",
-      "id": 5605,
+      "id": 9438,
       "gameId": 9438,
       "name": "Swift Pursuit",
       "type": "Buff",
@@ -1062,7 +1062,7 @@
     },
     {
       "image": "22701",
-      "id": 5604,
+      "id": 9437,
       "gameId": 9437,
       "name": "Taste of Blood",
       "type": "Buff",
@@ -1078,7 +1078,7 @@
     },
     {
       "image": "05166",
-      "id": 5591,
+      "id": 9409,
       "gameId": 9409,
       "name": "Throat Slitter",
       "type": "Ailment",
@@ -1094,7 +1094,7 @@
     },
     {
       "image": "10903",
-      "id": 5680,
+      "id": 9394,
       "gameId": 9394,
       "name": "Throwing Dagger",
       "type": "Ailment",
@@ -1110,7 +1110,7 @@
     },
     {
       "image": "10981",
-      "id": 5596,
+      "id": 9411,
       "gameId": 9411,
       "name": "Treacherous Assault",
       "type": "Ailment",
@@ -1126,7 +1126,7 @@
     },
     {
       "image": "10978",
-      "id": 5588,
+      "id": 9406,
       "gameId": 9406,
       "name": "Vehement Blades",
       "type": "Ailment",
@@ -1142,7 +1142,7 @@
     },
     {
       "image": "10990",
-      "id": 5609,
+      "id": 9460,
       "gameId": 9460,
       "name": "Web of Shadows",
       "type": "Buff",
@@ -1158,7 +1158,7 @@
     },
     {
       "image": "22712",
-      "id": 5599,
+      "id": 9432,
       "gameId": 9432,
       "name": "Whirling Blades",
       "type": "Buff",
@@ -1174,7 +1174,7 @@
     },
     {
       "image": "10900",
-      "id": 5635,
+      "id": 9425,
       "gameId": 9425,
       "name": "Witchbrew",
       "type": "Debuff",
@@ -1190,7 +1190,7 @@
     },
     {
       "image": "10977",
-      "id": 5595,
+      "id": 9405,
       "gameId": 9405,
       "name": "Wracking Pains",
       "type": "Ailment",
@@ -1206,7 +1206,7 @@
     },
     {
       "image": "22702",
-      "id": 6102,
+      "id": 522,
       "gameId": 522,
       "name": "Close Combat",
       "type": "Buff",
