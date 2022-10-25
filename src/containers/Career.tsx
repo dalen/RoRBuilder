@@ -71,6 +71,7 @@ import Mastery from './Mastery';
 import ActionButtons from './ActionButtons';
 
 import { State } from '../reducers';
+import { getAbilityIdsFromLegacy } from '../helpers/abilities';
 
 function mapStateToProps({
   sidebar,
@@ -130,6 +131,11 @@ const mapDispatchToProps = {
 type Props = ReturnType<typeof mapStateToProps> &
   typeof mapDispatchToProps &
   RouteComponentProps<{ slug?: string; careerSaved?: string }>;
+
+export function getAbilityIdsFromQuery(query: string): number[] {
+  const abilityIds: number[] = query.split(',').map((a) => Number(a));
+  return getAbilityIdsFromLegacy(abilityIds);
+}
 
 class Career extends Component<Props> {
   componentDidMount() {
@@ -211,13 +217,13 @@ class Career extends Component<Props> {
       this.props.setPathMeterC(pC);
     }
     if (ma) {
-      this.props.setMasteryAbilities(ma.split(',').map((a) => Number(a)));
+      this.props.setMasteryAbilities(getAbilityIdsFromQuery(ma));
     }
     if (mm) {
-      this.props.setMasteryMorales(mm.split(',').map((a) => Number(a)));
+      this.props.setMasteryMorales(getAbilityIdsFromQuery(mm));
     }
     if (mt) {
-      this.props.setMasteryTactics(mt.split(',').map((a) => Number(a)));
+      this.props.setMasteryTactics(getAbilityIdsFromQuery(mt));
     }
     if (m1) {
       this.props.selectMorale1(m1);
@@ -232,7 +238,7 @@ class Career extends Component<Props> {
       this.props.selectMorale4(m4);
     }
     if (t) {
-      this.props.setSelectedTactics(t.split(',').map((a) => Number(a)));
+      this.props.setSelectedTactics(getAbilityIdsFromQuery(t));
     }
   }
 

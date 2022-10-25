@@ -1,3 +1,5 @@
+import legacyAbilitiesData from '../data/abilities/legacy/data.json';
+
 export type Mastery = {
   name: string;
   popover: {
@@ -54,6 +56,36 @@ export type Ability = {
   category: string;
   abilityType?: AbilityType;
 };
+
+export type LegacyData = {
+  abilities: LegacyAbility[];
+};
+
+export type LegacyAbility = {
+  name: string;
+  legacyId: number;
+  id: number;
+};
+
+const legacyData: LegacyData = { abilities: legacyAbilitiesData.abilities };
+
+const legacyAbilitiesToNewAbilities: Map<number, number> =
+  legacyData.abilities.reduce(
+    (map, obj) => map.set(obj.legacyId, obj.id),
+    new Map(),
+  );
+
+export function getAbilityIdsFromLegacy(legacyIds: number[]): number[] {
+  const translatedIds: number[] = legacyIds;
+  for (let i = 0; i < legacyIds.length; i += 1) {
+    const abilityId = legacyIds[i];
+    const matchingAbilityId = legacyAbilitiesToNewAbilities.get(abilityId);
+    if (matchingAbilityId !== undefined) {
+      translatedIds[i] = matchingAbilityId;
+    }
+  }
+  return translatedIds;
+}
 
 export const arrayContains = <T>(
   array: T[],

@@ -1,0 +1,8664 @@
+{
+  "abilities": [
+    {
+      "name": "Alignment of Naggaroth",
+      "legacyId": 4996,
+      "id": 839
+    },
+    {
+      "name": "Alter Fate",
+      "legacyId": 4994,
+      "id": 697
+    },
+    {
+      "name": "Bathing In Blood",
+      "legacyId": 4997,
+      "id": 840
+    },
+    {
+      "name": "Bleed Out",
+      "legacyId": 5007,
+      "id": 9601
+    },
+    {
+      "name": "Blood Offering",
+      "legacyId": 5057,
+      "id": 9561
+    },
+    {
+      "name": "Bloodthirst",
+      "legacyId": 5005,
+      "id": 9598
+    },
+    {
+      "name": "Bound by Blood",
+      "legacyId": 4976,
+      "id": 9585
+    },
+    {
+      "name": "Chant of Pain",
+      "legacyId": 5018,
+      "id": 9618
+    },
+    {
+      "name": "Cleave Soul",
+      "legacyId": 5054,
+      "id": 9552
+    },
+    {
+      "name": "Consume Enchantment",
+      "legacyId": 4970,
+      "id": 9569
+    },
+    {
+      "name": "Consume Strength",
+      "legacyId": 4956,
+      "id": 9560
+    },
+    {
+      "name": "Consume Thought",
+      "legacyId": 4972,
+      "id": 9565
+    },
+    {
+      "name": "Covenant of Celerity",
+      "legacyId": 4968,
+      "id": 9559
+    },
+    {
+      "name": "Covenant of Tenacity",
+      "legacyId": 4966,
+      "id": 9563
+    },
+    {
+      "name": "Covenant of Vitality",
+      "legacyId": 4958,
+      "id": 9567
+    },
+    {
+      "name": "Curse of Khaine",
+      "legacyId": 5009,
+      "id": 9602
+    },
+    {
+      "name": "Dark Blessings",
+      "legacyId": 4995,
+      "id": 841
+    },
+    {
+      "name": "Devour Essence",
+      "legacyId": 5015,
+      "id": 9578
+    },
+    {
+      "name": "Discipline",
+      "legacyId": 4986,
+      "id": 592
+    },
+    {
+      "name": "Divine Favor",
+      "legacyId": 4989,
+      "id": 694
+    },
+    {
+      "name": "Divine Fury",
+      "legacyId": 4985,
+      "id": 585
+    },
+    {
+      "name": "Divine Protection",
+      "legacyId": 4993,
+      "id": 696
+    },
+    {
+      "name": "Efficient Patching",
+      "legacyId": 5002,
+      "id": 9597
+    },
+    {
+      "name": "Empowered Transfer",
+      "legacyId": 5016,
+      "id": 2959
+    },
+    {
+      "name": "Essence Lash",
+      "legacyId": 4965,
+      "id": 9566
+    },
+    {
+      "name": "Fell Sacrifice",
+      "legacyId": 5008,
+      "id": 2935
+    },
+    {
+      "name": "Fist of Khaine",
+      "legacyId": 5056,
+      "id": 9568
+    },
+    {
+      "name": "Flay",
+      "legacyId": 4963,
+      "id": 9549
+    },
+    {
+      "name": "Flee",
+      "legacyId": 5055,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 4992,
+      "id": 695
+    },
+    {
+      "name": "Fueled Actions",
+      "legacyId": 4980,
+      "id": 9587
+    },
+    {
+      "name": "Gift of Khaine",
+      "legacyId": 5014,
+      "id": 9603
+    },
+    {
+      "name": "Horrifying Offering",
+      "legacyId": 5012,
+      "id": 9599
+    },
+    {
+      "name": "Khaine's Blessing",
+      "legacyId": 4974,
+      "id": 9588
+    },
+    {
+      "name": "Khaine's Bounty",
+      "legacyId": 4998,
+      "id": 9595
+    },
+    {
+      "name": "Khaine's Embrace",
+      "legacyId": 4969,
+      "id": 9557
+    },
+    {
+      "name": "Khaine's Imbuement",
+      "legacyId": 4975,
+      "id": 9584
+    },
+    {
+      "name": "Khaine's Invigoration",
+      "legacyId": 4960,
+      "id": 9553
+    },
+    {
+      "name": "Khaine's Refreshment",
+      "legacyId": 5003,
+      "id": 9579
+    },
+    {
+      "name": "Khaine's Vigor",
+      "legacyId": 5001,
+      "id": 9573
+    },
+    {
+      "name": "Khaine's Withdrawal",
+      "legacyId": 4983,
+      "id": 9607
+    },
+    {
+      "name": "Lacerate",
+      "legacyId": 4959,
+      "id": 9551
+    },
+    {
+      "name": "Life's End",
+      "legacyId": 4982,
+      "id": 9605
+    },
+    {
+      "name": "Murderous Intent",
+      "legacyId": 4977,
+      "id": 9586
+    },
+    {
+      "name": "Patch Wounds",
+      "legacyId": 4967,
+      "id": 9556
+    },
+    {
+      "name": "Pillage Essence",
+      "legacyId": 5017,
+      "id": 9581
+    },
+    {
+      "name": "Potent Covenants",
+      "legacyId": 4978,
+      "id": 9590
+    },
+    {
+      "name": "Rampaging Siphon",
+      "legacyId": 4990,
+      "id": 692
+    },
+    {
+      "name": "Rend Soul",
+      "legacyId": 4962,
+      "id": 9554
+    },
+    {
+      "name": "Restorative Burst",
+      "legacyId": 4988,
+      "id": 589
+    },
+    {
+      "name": "Restore Essence",
+      "legacyId": 5053,
+      "id": 9548
+    },
+    {
+      "name": "Restored Motivation",
+      "legacyId": 5000,
+      "id": 9596
+    },
+    {
+      "name": "Sanguinary Extension",
+      "legacyId": 5006,
+      "id": 9580
+    },
+    {
+      "name": "Soul Infusion",
+      "legacyId": 4957,
+      "id": 9550
+    },
+    {
+      "name": "Soul Shielding",
+      "legacyId": 4999,
+      "id": 9574
+    },
+    {
+      "name": "Stand, Coward!",
+      "legacyId": 4964,
+      "id": 9558
+    },
+    {
+      "name": "Steal Life",
+      "legacyId": 4991,
+      "id": 690
+    },
+    {
+      "name": "Subtlety",
+      "legacyId": 4987,
+      "id": 588
+    },
+    {
+      "name": "Terrifying Vision",
+      "legacyId": 4961,
+      "id": 9555
+    },
+    {
+      "name": "Thousand and One Dark Blessings",
+      "legacyId": 5004,
+      "id": 9616
+    },
+    {
+      "name": "Transfer Essence",
+      "legacyId": 4971,
+      "id": 2932
+    },
+    {
+      "name": "Transferred Focus",
+      "legacyId": 4981,
+      "id": 9589
+    },
+    {
+      "name": "Uncaring Dismissal",
+      "legacyId": 4973,
+      "id": 9564
+    },
+    {
+      "name": "Universal Confusion",
+      "legacyId": 4984,
+      "id": 9606
+    },
+    {
+      "name": "Vision of Torment",
+      "legacyId": 5011,
+      "id": 9617
+    },
+    {
+      "name": "Warding Strike",
+      "legacyId": 5013,
+      "id": 9577
+    },
+    {
+      "name": "Wracking Agony",
+      "legacyId": 5010,
+      "id": 9576
+    },
+    {
+      "name": "Execute",
+      "legacyId": 2934,
+      "id": 2934
+    },
+    {
+      "name": "Drowning in Blood",
+      "legacyId": 2938,
+      "id": 2938
+    },
+    {
+      "name": "Soul Ward",
+      "legacyId": 2952,
+      "id": 2952
+    },
+    {
+      "name": "Blood of my Blood",
+      "legacyId": 2941,
+      "id": 2941
+    },
+    {
+      "name": "Blood Guard",
+      "legacyId": 2953,
+      "id": 2953
+    },
+    {
+      "name": "Consume Essence",
+      "legacyId": 2051,
+      "id": 2933
+    },
+    {
+      "name": "Unyielding Tormentor",
+      "legacyId": 2961,
+      "id": 2961
+    },
+    {
+      "name": "Terrifying Aura",
+      "legacyId": 9591,
+      "id": 9591
+    },
+    {
+      "name": "Adept Movements",
+      "legacyId": 2869,
+      "id": 9053
+    },
+    {
+      "name": "Aethyric Grasp",
+      "legacyId": 2859,
+      "id": 9018
+    },
+    {
+      "name": "Balanced Accuracy",
+      "legacyId": 2888,
+      "id": 9062
+    },
+    {
+      "name": "Bend the Winds",
+      "legacyId": 2884,
+      "id": 819
+    },
+    {
+      "name": "Bladeshield",
+      "legacyId": 2872,
+      "id": 9058
+    },
+    {
+      "name": "Blessing of Heaven",
+      "legacyId": 2904,
+      "id": 2884
+    },
+    {
+      "name": "Blurring Shock",
+      "legacyId": 2841,
+      "id": 9022
+    },
+    {
+      "name": "Bolstering Enchantments",
+      "legacyId": 2900,
+      "id": 9066
+    },
+    {
+      "name": "Calming Winds",
+      "legacyId": 2902,
+      "id": 9070
+    },
+    {
+      "name": "Centuries of Training",
+      "legacyId": 2883,
+      "id": 818
+    },
+    {
+      "name": "Challenge",
+      "legacyId": 2856,
+      "id": 9013
+    },
+    {
+      "name": "Champion's Challenge",
+      "legacyId": 2879,
+      "id": 608
+    },
+    {
+      "name": "Crashing Wave",
+      "legacyId": 2898,
+      "id": 9028
+    },
+    {
+      "name": "Crushing Advance",
+      "legacyId": 2896,
+      "id": 9027
+    },
+    {
+      "name": "Dazzling Strike",
+      "legacyId": 2852,
+      "id": 9019
+    },
+    {
+      "name": "Deep Incision",
+      "legacyId": 2886,
+      "id": 9068
+    },
+    {
+      "name": "Demolishing Strike",
+      "legacyId": 2877,
+      "id": 606
+    },
+    {
+      "name": "Discerning Offense",
+      "legacyId": 2885,
+      "id": 823
+    },
+    {
+      "name": "Distracting Bellow",
+      "legacyId": 2881,
+      "id": 610
+    },
+    {
+      "name": "Dragon's Talon",
+      "legacyId": 2855,
+      "id": 9006
+    },
+    {
+      "name": "Eagle's Flight",
+      "legacyId": 2843,
+      "id": 9007
+    },
+    {
+      "name": "Ensorcelled Agony",
+      "legacyId": 2862,
+      "id": 9045
+    },
+    {
+      "name": "Ensorcelled Blow",
+      "legacyId": 2942,
+      "id": 9010
+    },
+    {
+      "name": "Ether Dance",
+      "legacyId": 2891,
+      "id": 9026
+    },
+    {
+      "name": "Flee",
+      "legacyId": 2941,
+      "id": 245
+    },
+    {
+      "name": "Focused Offense",
+      "legacyId": 2873,
+      "id": 500
+    },
+    {
+      "name": "Graceful Strike",
+      "legacyId": 2845,
+      "id": 9002
+    },
+    {
+      "name": "Great Weapon Mastery",
+      "legacyId": 2890,
+      "id": 9063
+    },
+    {
+      "name": "Gryphon's Lash",
+      "legacyId": 2847,
+      "id": 9031
+    },
+    {
+      "name": "Guard",
+      "legacyId": 2850,
+      "id": 9008
+    },
+    {
+      "name": "Guard of Steel",
+      "legacyId": 2870,
+      "id": 9056
+    },
+    {
+      "name": "Gusting Wind",
+      "legacyId": 2854,
+      "id": 9012
+    },
+    {
+      "name": "Heaven's Blade",
+      "legacyId": 2858,
+      "id": 9015
+    },
+    {
+      "name": "Hold The Line!",
+      "legacyId": 2849,
+      "id": 9023
+    },
+    {
+      "name": "Immaculate Defense",
+      "legacyId": 2882,
+      "id": 613
+    },
+    {
+      "name": "Impeccable Reactions",
+      "legacyId": 2868,
+      "id": 9050
+    },
+    {
+      "name": "Intimidating Blow",
+      "legacyId": 2860,
+      "id": 9011
+    },
+    {
+      "name": "Isha's Protection",
+      "legacyId": 2864,
+      "id": 9043
+    },
+    {
+      "name": "Juggernaut",
+      "legacyId": 2851,
+      "id": 9016
+    },
+    {
+      "name": "Lingering Intimidation",
+      "legacyId": 2895,
+      "id": 9065
+    },
+    {
+      "name": "Menace",
+      "legacyId": 2875,
+      "id": 504
+    },
+    {
+      "name": "Nature's Blade",
+      "legacyId": 2848,
+      "id": 9009
+    },
+    {
+      "name": "Perfect Defenses",
+      "legacyId": 2893,
+      "id": 9064
+    },
+    {
+      "name": "Phantom's Blade",
+      "legacyId": 2844,
+      "id": 9020
+    },
+    {
+      "name": "Phoenix's Wing",
+      "legacyId": 2889,
+      "id": 9025
+    },
+    {
+      "name": "Poised Attacks",
+      "legacyId": 2866,
+      "id": 9052
+    },
+    {
+      "name": "Potent Enchantments",
+      "legacyId": 2865,
+      "id": 9047
+    },
+    {
+      "name": "Protection of Hoeth",
+      "legacyId": 2903,
+      "id": 9029
+    },
+    {
+      "name": "Quick Incision",
+      "legacyId": 2840,
+      "id": 9004
+    },
+    {
+      "name": "Raze",
+      "legacyId": 2880,
+      "id": 607
+    },
+    {
+      "name": "Redirected Force",
+      "legacyId": 2894,
+      "id": 9032
+    },
+    {
+      "name": "Rugged",
+      "legacyId": 2874,
+      "id": 503
+    },
+    {
+      "name": "Sapping Strike",
+      "legacyId": 2887,
+      "id": 9014
+    },
+    {
+      "name": "Shadow Blades",
+      "legacyId": 2906,
+      "id": 9076
+    },
+    {
+      "name": "Shatter Enchantment",
+      "legacyId": 2857,
+      "id": 9034
+    },
+    {
+      "name": "Shield of Valor",
+      "legacyId": 2899,
+      "id": 9075
+    },
+    {
+      "name": "Shield Wall",
+      "legacyId": 2878,
+      "id": 611
+    },
+    {
+      "name": "Sudden Shift",
+      "legacyId": 2842,
+      "id": 9035
+    },
+    {
+      "name": "Taunt",
+      "legacyId": 2846,
+      "id": 9005
+    },
+    {
+      "name": "Throw",
+      "legacyId": 2943,
+      "id": 9003
+    },
+    {
+      "name": "Unstoppable Juggernaut",
+      "legacyId": 2876,
+      "id": 505
+    },
+    {
+      "name": "Vaul's Buffer",
+      "legacyId": 2897,
+      "id": 9069
+    },
+    {
+      "name": "Wall of Darting Steel",
+      "legacyId": 2861,
+      "id": 9021
+    },
+    {
+      "name": "Whirling Geyser",
+      "legacyId": 2892,
+      "id": 9074
+    },
+    {
+      "name": "Whispering Wind",
+      "legacyId": 2905,
+      "id": 9030
+    },
+    {
+      "name": "Wings of Heaven",
+      "legacyId": 2871,
+      "id": 9057
+    },
+    {
+      "name": "Wrath of Hoeth",
+      "legacyId": 2853,
+      "id": 9017
+    },
+    {
+      "name": "Raking Talons",
+      "legacyId": 7500,
+      "id": 9049
+    },
+    {
+      "name": "Vaul's Tempering",
+      "legacyId": 7501,
+      "id": 9033
+    },
+    {
+      "name": "Blinding Strike",
+      "legacyId": 7502,
+      "id": 9044
+    },
+    {
+      "name": "Purgatory",
+      "legacyId": 4323,
+      "id": 9700
+    },
+    {
+      "name": "Absolution",
+      "legacyId": 4335,
+      "id": 8082
+    },
+    {
+      "name": "Atonement",
+      "legacyId": 4393,
+      "id": 8138
+    },
+    {
+      "name": "Blessed Bullets of Cleansing",
+      "legacyId": 4353,
+      "id": 8089
+    },
+    {
+      "name": "Blessed Bullets of Confession",
+      "legacyId": 4342,
+      "id": 8099
+    },
+    {
+      "name": "Blessed Bullets of Purity",
+      "legacyId": 4337,
+      "id": 8084
+    },
+    {
+      "name": "Blood, Faith, And Fire",
+      "legacyId": 4362,
+      "id": 8126
+    },
+    {
+      "name": "Broad Swings",
+      "legacyId": 4374,
+      "id": 629
+    },
+    {
+      "name": "Brute Force",
+      "legacyId": 4367,
+      "id": 521
+    },
+    {
+      "name": "Burn Armor",
+      "legacyId": 4344,
+      "id": 8091
+    },
+    {
+      "name": "Burn Away Lies",
+      "legacyId": 4398,
+      "id": 8116
+    },
+    {
+      "name": "Burn, Heretic!",
+      "legacyId": 4339,
+      "id": 8093
+    },
+    {
+      "name": "Confess!",
+      "legacyId": 4346,
+      "id": 8086
+    },
+    {
+      "name": "Confusing Movements",
+      "legacyId": 4372,
+      "id": 631
+    },
+    {
+      "name": "Declare Anathema",
+      "legacyId": 4354,
+      "id": 8094
+    },
+    {
+      "name": "Divine Blast",
+      "legacyId": 4385,
+      "id": 8152
+    },
+    {
+      "name": "Dragon Gun",
+      "legacyId": 4384,
+      "id": 8110
+    },
+    {
+      "name": "Emperor's Ward",
+      "legacyId": 4376,
+      "id": 779
+    },
+    {
+      "name": "Encourage Confession",
+      "legacyId": 4361,
+      "id": 8136
+    },
+    {
+      "name": "Excommunicate",
+      "legacyId": 4392,
+      "id": 8153
+    },
+    {
+      "name": "Exit Wound",
+      "legacyId": 4391,
+      "id": 8113
+    },
+    {
+      "name": "Exoneration",
+      "legacyId": 4363,
+      "id": 8146
+    },
+    {
+      "name": "Expurgation",
+      "legacyId": 4399,
+      "id": 8154
+    },
+    {
+      "name": "Fanatical Cleansing",
+      "legacyId": 4395,
+      "id": 8137
+    },
+    {
+      "name": "Fanatical Zeal",
+      "legacyId": 4352,
+      "id": 8098
+    },
+    {
+      "name": "Feinted Positioning",
+      "legacyId": 4340,
+      "id": 8092
+    },
+    {
+      "name": "Fervor",
+      "legacyId": 4336,
+      "id": 8083
+    },
+    {
+      "name": "Flanking",
+      "legacyId": 4368,
+      "id": 523
+    },
+    {
+      "name": "Flee",
+      "legacyId": 4434,
+      "id": 245
+    },
+    {
+      "name": "Flowing Accusations",
+      "legacyId": 4356,
+      "id": 8121
+    },
+    {
+      "name": "Force of Will",
+      "legacyId": 4371,
+      "id": 628
+    },
+    {
+      "name": "Frenzied Slaughter",
+      "legacyId": 4375,
+      "id": 630
+    },
+    {
+      "name": "Full Confession",
+      "legacyId": 4386,
+      "id": 8134
+    },
+    {
+      "name": "Get Thee Behind Me!",
+      "legacyId": 4341,
+      "id": 8088
+    },
+    {
+      "name": "Incognito",
+      "legacyId": 4343,
+      "id": 8090
+    },
+    {
+      "name": "Inquisitor's Fury",
+      "legacyId": 4355,
+      "id": 8120
+    },
+    {
+      "name": "Jagged Edge",
+      "legacyId": 4366,
+      "id": 526
+    },
+    {
+      "name": "Last Rites",
+      "legacyId": 4359,
+      "id": 8124
+    },
+    {
+      "name": "Penetrating Barbs",
+      "legacyId": 4358,
+      "id": 8123
+    },
+    {
+      "name": "Pick Lock",
+      "legacyId": 4400,
+      "id": 14427
+    },
+    {
+      "name": "Pistol Whip",
+      "legacyId": 4396,
+      "id": 8115
+    },
+    {
+      "name": "Prolonged Confession",
+      "legacyId": 4388,
+      "id": 8135
+    },
+    {
+      "name": "Protection from Heresy",
+      "legacyId": 4390,
+      "id": 8127
+    },
+    {
+      "name": "Punish The False",
+      "legacyId": 4389,
+      "id": 8112
+    },
+    {
+      "name": "Razor Strike",
+      "legacyId": 4436,
+      "id": 8081
+    },
+    {
+      "name": "Relentless Assault",
+      "legacyId": 4373,
+      "id": 633
+    },
+    {
+      "name": "Repel Blasphemy",
+      "legacyId": 4382,
+      "id": 8109
+    },
+    {
+      "name": "Reversal of Fortune",
+      "legacyId": 4364,
+      "id": 8147
+    },
+    {
+      "name": "Righteous Steel",
+      "legacyId": 4357,
+      "id": 8122
+    },
+    {
+      "name": "Riposte",
+      "legacyId": 4369,
+      "id": 528
+    },
+    {
+      "name": "Sanctified Bullets",
+      "legacyId": 4381,
+      "id": 8132
+    },
+    {
+      "name": "Seal of Destruction",
+      "legacyId": 4387,
+      "id": 8111
+    },
+    {
+      "name": "Seeker's Blade",
+      "legacyId": 4351,
+      "id": 8097
+    },
+    {
+      "name": "Seeker's Triumph",
+      "legacyId": 4379,
+      "id": 8131
+    },
+    {
+      "name": "Sever Blessing",
+      "legacyId": 4350,
+      "id": 8101
+    },
+    {
+      "name": "Sever Nerve",
+      "legacyId": 4370,
+      "id": 627
+    },
+    {
+      "name": "Shroud of Magnus",
+      "legacyId": 4380,
+      "id": 8108
+    },
+    {
+      "name": "Sigil of Sigmar",
+      "legacyId": 4348,
+      "id": 8095
+    },
+    {
+      "name": "Sigmar's Favor",
+      "legacyId": 4378,
+      "id": 776
+    },
+    {
+      "name": "Silence The Heretic",
+      "legacyId": 4347,
+      "id": 8100
+    },
+    {
+      "name": "Snap Shot",
+      "legacyId": 4435,
+      "id": 8080
+    },
+    {
+      "name": "Sudden Accusation",
+      "legacyId": 4349,
+      "id": 8096
+    },
+    {
+      "name": "Sweeping Razor",
+      "legacyId": 4383,
+      "id": 8133
+    },
+    {
+      "name": "Torment",
+      "legacyId": 4338,
+      "id": 8085
+    },
+    {
+      "name": "Trial By Pain",
+      "legacyId": 4345,
+      "id": 8087
+    },
+    {
+      "name": "Unwavering Faith",
+      "legacyId": 4377,
+      "id": 777
+    },
+    {
+      "name": "Sanctified Oil",
+      "legacyId": 4394,
+      "id": 2997
+    },
+    {
+      "name": "Vindication",
+      "legacyId": 4360,
+      "id": 8125
+    },
+    {
+      "name": "Vitriolic Judgement",
+      "legacyId": 4397,
+      "id": 8139
+    },
+    {
+      "name": "Witchfinder's Protection",
+      "legacyId": 4365,
+      "id": 8148
+    },
+    {
+      "name": "Close Combat",
+      "legacyId": 6102,
+      "id": 522
+    },
+    {
+      "name": "Witchfinders Judgement",
+      "legacyId": 6104,
+      "id": 2714
+    },
+    {
+      "name": "Blessed Blade",
+      "legacyId": 6103,
+      "id": 2993
+    },
+    {
+      "name": "Annihilate",
+      "legacyId": 3569,
+      "id": 8187
+    },
+    {
+      "name": "Backdraft",
+      "legacyId": 3573,
+      "id": 8189
+    },
+    {
+      "name": "Boiling Blood",
+      "legacyId": 3517,
+      "id": 8165
+    },
+    {
+      "name": "Burn Through",
+      "legacyId": 3558,
+      "id": 8206
+    },
+    {
+      "name": "Burning Iron",
+      "legacyId": 3525,
+      "id": 8173
+    },
+    {
+      "name": "Burnout",
+      "legacyId": 3527,
+      "id": 8175
+    },
+    {
+      "name": "Cauterize",
+      "legacyId": 3519,
+      "id": 8167
+    },
+    {
+      "name": "Choking Smoke",
+      "legacyId": 3529,
+      "id": 8174
+    },
+    {
+      "name": "Close Quarters",
+      "legacyId": 3544,
+      "id": 569
+    },
+    {
+      "name": "Conflagration of Doom",
+      "legacyId": 3574,
+      "id": 8222
+    },
+    {
+      "name": "Crown of Fire",
+      "legacyId": 3537,
+      "id": 8197
+    },
+    {
+      "name": "Detonate",
+      "legacyId": 3522,
+      "id": 8170
+    },
+    {
+      "name": "Devour Energy",
+      "legacyId": 3541,
+      "id": 568
+    },
+    {
+      "name": "Distracting Fires",
+      "legacyId": 3535,
+      "id": 8199
+    },
+    {
+      "name": "Draining Burn",
+      "legacyId": 3556,
+      "id": 8204
+    },
+    {
+      "name": "Embrace The Flames",
+      "legacyId": 3536,
+      "id": 8200
+    },
+    {
+      "name": "Emperor's Ward",
+      "legacyId": 3551,
+      "id": 779
+    },
+    {
+      "name": "Endless Knowledge",
+      "legacyId": 3542,
+      "id": 563
+    },
+    {
+      "name": "Explosive Force",
+      "legacyId": 3568,
+      "id": 8210
+    },
+    {
+      "name": "Fan The Flames",
+      "legacyId": 3534,
+      "id": 8198
+    },
+    {
+      "name": "Fiery Blast",
+      "legacyId": 3518,
+      "id": 8166
+    },
+    {
+      "name": "Fiery Reserves",
+      "legacyId": 3570,
+      "id": 8212
+    },
+    {
+      "name": "Fire Cage",
+      "legacyId": 3521,
+      "id": 8168
+    },
+    {
+      "name": "Fireball",
+      "legacyId": 3611,
+      "id": 8159
+    },
+    {
+      "name": "Fireball Barrage",
+      "legacyId": 3559,
+      "id": 8183
+    },
+    {
+      "name": "Flame Breath",
+      "legacyId": 3523,
+      "id": 8171
+    },
+    {
+      "name": "Flame Shield",
+      "legacyId": 3524,
+      "id": 8161
+    },
+    {
+      "name": "Flames of Rhuin",
+      "legacyId": 3516,
+      "id": 8164
+    },
+    {
+      "name": "Flashfire",
+      "legacyId": 3533,
+      "id": 8196
+    },
+    {
+      "name": "Flee",
+      "legacyId": 3609,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 3548,
+      "id": 674
+    },
+    {
+      "name": "Fuel To The Fire",
+      "legacyId": 3561,
+      "id": 8207
+    },
+    {
+      "name": "Fueled From Within",
+      "legacyId": 3531,
+      "id": 8201
+    },
+    {
+      "name": "Funnel Power",
+      "legacyId": 3555,
+      "id": 8181
+    },
+    {
+      "name": "Heart of Fire",
+      "legacyId": 3540,
+      "id": 8217
+    },
+    {
+      "name": "Ignite",
+      "legacyId": 3610,
+      "id": 8158
+    },
+    {
+      "name": "Ignition",
+      "legacyId": 3563,
+      "id": 8209
+    },
+    {
+      "name": "Lingering Fires",
+      "legacyId": 3530,
+      "id": 8195
+    },
+    {
+      "name": "Mage Bolt",
+      "legacyId": 3545,
+      "id": 670
+    },
+    {
+      "name": "Magic Dart",
+      "legacyId": 3538,
+      "id": 8215
+    },
+    {
+      "name": "Meltdown",
+      "legacyId": 3612,
+      "id": 8179
+    },
+    {
+      "name": "Misdirection",
+      "legacyId": 3547,
+      "id": 673
+    },
+    {
+      "name": "Nova",
+      "legacyId": 3557,
+      "id": 8182
+    },
+    {
+      "name": "Playing With Fire",
+      "legacyId": 3562,
+      "id": 8184
+    },
+    {
+      "name": "Power From The Ashes",
+      "legacyId": 3532,
+      "id": 8194
+    },
+    {
+      "name": "Pyroclastic Surge",
+      "legacyId": 3520,
+      "id": 8169
+    },
+    {
+      "name": "Rain of Fire",
+      "legacyId": 3526,
+      "id": 8177
+    },
+    {
+      "name": "Ruin And Destruction",
+      "legacyId": 3539,
+      "id": 8216
+    },
+    {
+      "name": "Scintillating Energy",
+      "legacyId": 3549,
+      "id": 671
+    },
+    {
+      "name": "Scorched Earth",
+      "legacyId": 3515,
+      "id": 8163
+    },
+    {
+      "name": "Sear",
+      "legacyId": 3512,
+      "id": 8160
+    },
+    {
+      "name": "Searing Vitality",
+      "legacyId": 3554,
+      "id": 8205
+    },
+    {
+      "name": "Shield of Aqshy",
+      "legacyId": 3513,
+      "id": 8172
+    },
+    {
+      "name": "Sigmar's Favor",
+      "legacyId": 3553,
+      "id": 776
+    },
+    {
+      "name": "Siphon Power",
+      "legacyId": 3546,
+      "id": 669
+    },
+    {
+      "name": "Sleight of Hand",
+      "legacyId": 3543,
+      "id": 567
+    },
+    {
+      "name": "Slow Boil",
+      "legacyId": 3528,
+      "id": 8176
+    },
+    {
+      "name": "Smoke Screen",
+      "legacyId": 3514,
+      "id": 8162
+    },
+    {
+      "name": "Smoldering Embers",
+      "legacyId": 3565,
+      "id": 8208
+    },
+    {
+      "name": "Spreading Flames",
+      "legacyId": 3571,
+      "id": 8188
+    },
+    {
+      "name": "Stop, Drop, And Roll",
+      "legacyId": 3566,
+      "id": 8186
+    },
+    {
+      "name": "The Burning Head",
+      "legacyId": 3560,
+      "id": 8220
+    },
+    {
+      "name": "Unleash the Winds",
+      "legacyId": 3550,
+      "id": 672
+    },
+    {
+      "name": "Unwavering Faith",
+      "legacyId": 3552,
+      "id": 777
+    },
+    {
+      "name": "Wall of Fire",
+      "legacyId": 3567,
+      "id": 8221
+    },
+    {
+      "name": "Wildfire",
+      "legacyId": 3572,
+      "id": 8211
+    },
+    {
+      "name": "Withering Heat",
+      "legacyId": 3564,
+      "id": 8185
+    },
+    {
+      "name": "Fragmentation Grenade",
+      "legacyId": 2887,
+      "id": 2887
+    },
+    {
+      "name": "Acid Bomb",
+      "legacyId": 3617,
+      "id": 1514
+    },
+    {
+      "name": "Addling Shot",
+      "legacyId": 3620,
+      "id": 1516
+    },
+    {
+      "name": "Ancestral Inheritance",
+      "legacyId": 3659,
+      "id": 716
+    },
+    {
+      "name": "Armored Plating",
+      "legacyId": 3645,
+      "id": 1575
+    },
+    {
+      "name": "Artillery Barrage",
+      "legacyId": 3673,
+      "id": 1581
+    },
+    {
+      "name": "Autoloader",
+      "legacyId": 3644,
+      "id": 1574
+    },
+    {
+      "name": "Dazzling Flash",
+      "legacyId": 3671,
+      "id": 1562
+    },
+    {
+      "name": "Barbed Wire",
+      "legacyId": 3625,
+      "id": 1519
+    },
+    {
+      "name": "Blunderbuss Blast",
+      "legacyId": 3618,
+      "id": 1517
+    },
+    {
+      "name": "Bolster War Engine",
+      "legacyId": 3681,
+      "id": 14406
+    },
+    {
+      "name": "Bombardment Turret",
+      "legacyId": 3621,
+      "id": 1518
+    },
+    {
+      "name": "Bugman's Best",
+      "legacyId": 3677,
+      "id": 1544
+    },
+    {
+      "name": "Burn Salve",
+      "legacyId": 3632,
+      "id": 1529
+    },
+    {
+      "name": "Cannon Smash",
+      "legacyId": 3646,
+      "id": 1576
+    },
+    {
+      "name": "Clever Recovery",
+      "legacyId": 3649,
+      "id": 549
+    },
+    {
+      "name": "Concealment",
+      "legacyId": 3653,
+      "id": 652
+    },
+    {
+      "name": "Concussion Grenade",
+      "legacyId": 3629,
+      "id": 1531
+    },
+    {
+      "name": "Magnetic Repair",
+      "legacyId": 3638,
+      "id": 1549
+    },
+    {
+      "name": "Coordinated Fire",
+      "legacyId": 3643,
+      "id": 1555
+    },
+    {
+      "name": "Crack Shot",
+      "legacyId": 3661,
+      "id": 1536
+    },
+    {
+      "name": "Diminish War Engine",
+      "legacyId": 3683,
+      "id": 14408
+    },
+    {
+      "name": "Electromagnet",
+      "legacyId": 3679,
+      "id": 1542
+    },
+    {
+      "name": "Expert Skirmisher",
+      "legacyId": 3647,
+      "id": 544
+    },
+    {
+      "name": "Explosive Shots",
+      "legacyId": 3655,
+      "id": 650
+    },
+    {
+      "name": "Extra Ammo",
+      "legacyId": 3639,
+      "id": 1551
+    },
+    {
+      "name": "Extra Powder",
+      "legacyId": 3667,
+      "id": 1563
+    },
+    {
+      "name": "Fightin' Chance",
+      "legacyId": 3640,
+      "id": 1552
+    },
+    {
+      "name": "Firebomb",
+      "legacyId": 3613,
+      "id": 1523
+    },
+    {
+      "name": "Flak Jacket",
+      "legacyId": 3624,
+      "id": 1527
+    },
+    {
+      "name": "Flame Turret",
+      "legacyId": 3619,
+      "id": 1526
+    },
+    {
+      "name": "Flashbang Grenade",
+      "legacyId": 3626,
+      "id": 1522
+    },
+    {
+      "name": "Flee",
+      "legacyId": 3715,
+      "id": 245
+    },
+    {
+      "name": "Fling Explosives",
+      "legacyId": 3680,
+      "id": 1582
+    },
+    {
+      "name": "Focused Fire",
+      "legacyId": 3635,
+      "id": 1528
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 3654,
+      "id": 653
+    },
+    {
+      "name": "Friction Burn",
+      "legacyId": 3616,
+      "id": 1513
+    },
+    {
+      "name": "Gun Blast",
+      "legacyId": 3716,
+      "id": 1508
+    },
+    {
+      "name": "Gun Turret",
+      "legacyId": 3614,
+      "id": 1511
+    },
+    {
+      "name": "Hail of Doom",
+      "legacyId": 3656,
+      "id": 651
+    },
+    {
+      "name": "Hamper War Engine",
+      "legacyId": 3682,
+      "id": 14407
+    },
+    {
+      "name": "Hand-Crafted Scope",
+      "legacyId": 3637,
+      "id": 1550
+    },
+    {
+      "name": "Hip Shot",
+      "legacyId": 3623,
+      "id": 1520
+    },
+    {
+      "name": "Hollow-Points",
+      "legacyId": 3662,
+      "id": 1560
+    },
+    {
+      "name": "Incendiary Rounds",
+      "legacyId": 3622,
+      "id": 1515
+    },
+    {
+      "name": "Land Mine",
+      "legacyId": 3628,
+      "id": 1524
+    },
+    {
+      "name": "Lightning Rod",
+      "legacyId": 3675,
+      "id": 1543
+    },
+    {
+      "name": "Masterful Aim",
+      "legacyId": 3648,
+      "id": 542
+    },
+    {
+      "name": "Napalm Grenade",
+      "legacyId": 3672,
+      "id": 1537
+    },
+    {
+      "name": "Phosphorous Shells",
+      "legacyId": 3665,
+      "id": 1541
+    },
+    {
+      "name": "Pierce Defenses",
+      "legacyId": 3650,
+      "id": 550
+    },
+    {
+      "name": "Point-Blank",
+      "legacyId": 3651,
+      "id": 648
+    },
+    {
+      "name": "Proximity Alarm",
+      "legacyId": 3641,
+      "id": 1553
+    },
+    {
+      "name": "Quick Reloader",
+      "legacyId": 3664,
+      "id": 1559
+    },
+    {
+      "name": "Redeploy",
+      "legacyId": 3630,
+      "id": 1532
+    },
+    {
+      "name": "Reinforced Casing",
+      "legacyId": 3636,
+      "id": 1548
+    },
+    {
+      "name": "Scattershot",
+      "legacyId": 3666,
+      "id": 1580
+    },
+    {
+      "name": "Self-Destruct",
+      "legacyId": 3631,
+      "id": 1525
+    },
+    {
+      "name": "Field Repair",
+      "legacyId": 3615,
+      "id": 1512
+    },
+    {
+      "name": "Signal Flare",
+      "legacyId": 3633,
+      "id": 1521
+    },
+    {
+      "name": "Snipe",
+      "legacyId": 3663,
+      "id": 1538
+    },
+    {
+      "name": "Spanner Swipe",
+      "legacyId": 3717,
+      "id": 1509
+    },
+    {
+      "name": "Static Discharge",
+      "legacyId": 3634,
+      "id": 1530
+    },
+    {
+      "name": "Sticky Bomb",
+      "legacyId": 3668,
+      "id": 1539
+    },
+    {
+      "name": "Stopping Power",
+      "legacyId": 3660,
+      "id": 1561
+    },
+    {
+      "name": "Stoutness of Stone",
+      "legacyId": 3657,
+      "id": 713
+    },
+    {
+      "name": "Strafing Run",
+      "legacyId": 3670,
+      "id": 1540
+    },
+    {
+      "name": "Stubbornness",
+      "legacyId": 3658,
+      "id": 714
+    },
+    {
+      "name": "Tangling Wire",
+      "legacyId": 3642,
+      "id": 1554
+    },
+    {
+      "name": "Throwing Arm",
+      "legacyId": 3669,
+      "id": 1564
+    },
+    {
+      "name": "Tracer Rounds",
+      "legacyId": 3678,
+      "id": 1566
+    },
+    {
+      "name": "Trench Fighting",
+      "legacyId": 3676,
+      "id": 1567
+    },
+    {
+      "name": "Well-Oiled Machine",
+      "legacyId": 3674,
+      "id": 1565
+    },
+    {
+      "name": "Armor-piercing Rounds",
+      "legacyId": 7510,
+      "id": 2870
+    },
+    {
+      "name": "Mortar Round",
+      "legacyId": 2712,
+      "id": 2712
+    },
+    {
+      "name": "Ancestor's Fury",
+      "legacyId": 3765,
+      "id": 1383
+    },
+    {
+      "name": "Ancestral Inheritance",
+      "legacyId": 3763,
+      "id": 716
+    },
+    {
+      "name": "Avalanche",
+      "legacyId": 3778,
+      "id": 1409
+    },
+    {
+      "name": "Avenging the Debt",
+      "legacyId": 3774,
+      "id": 1381
+    },
+    {
+      "name": "Away With Ye",
+      "legacyId": 3731,
+      "id": 1365
+    },
+    {
+      "name": "Axe Slam",
+      "legacyId": 3770,
+      "id": 1425
+    },
+    {
+      "name": "Axe Toss",
+      "legacyId": 3820,
+      "id": 1352
+    },
+    {
+      "name": "Binding Grudge",
+      "legacyId": 3720,
+      "id": 1358
+    },
+    {
+      "name": "Cave-In",
+      "legacyId": 3767,
+      "id": 1384
+    },
+    {
+      "name": "Challenge",
+      "legacyId": 3734,
+      "id": 1368
+    },
+    {
+      "name": "Champion's Challenge",
+      "legacyId": 3757,
+      "id": 608
+    },
+    {
+      "name": "Demolishing Strike",
+      "legacyId": 3755,
+      "id": 606
+    },
+    {
+      "name": "Distracting Bellow",
+      "legacyId": 3759,
+      "id": 610
+    },
+    {
+      "name": "Dwarven Riposte",
+      "legacyId": 3745,
+      "id": 1397
+    },
+    {
+      "name": "Earthen Renewal",
+      "legacyId": 3784,
+      "id": 1426
+    },
+    {
+      "name": "Earthshatter",
+      "legacyId": 3781,
+      "id": 1387
+    },
+    {
+      "name": "Flee",
+      "legacyId": 3819,
+      "id": 245
+    },
+    {
+      "name": "Focused Offense",
+      "legacyId": 3751,
+      "id": 500
+    },
+    {
+      "name": "Furious Reprisal",
+      "legacyId": 3771,
+      "id": 1403
+    },
+    {
+      "name": "Greataxe Mastery",
+      "legacyId": 3768,
+      "id": 1408
+    },
+    {
+      "name": "Grip of Stone",
+      "legacyId": 3737,
+      "id": 1370
+    },
+    {
+      "name": "Gromril Plating",
+      "legacyId": 3750,
+      "id": 1420
+    },
+    {
+      "name": "Grudge Unleashed",
+      "legacyId": 3722,
+      "id": 1373
+    },
+    {
+      "name": "Grudge-Born Fury",
+      "legacyId": 3769,
+      "id": 1385
+    },
+    {
+      "name": "Grudging Blow",
+      "legacyId": 3822,
+      "id": 1355
+    },
+    {
+      "name": "Grumble An' Mutter",
+      "legacyId": 3783,
+      "id": 1388
+    },
+    {
+      "name": "Guard",
+      "legacyId": 3727,
+      "id": 1363
+    },
+    {
+      "name": "Guarded Attack",
+      "legacyId": 3719,
+      "id": 1356
+    },
+    {
+      "name": "Heavy Blow",
+      "legacyId": 3721,
+      "id": 1354
+    },
+    {
+      "name": "Hold The Line!",
+      "legacyId": 3728,
+      "id": 1378
+    },
+    {
+      "name": "Immaculate Defense",
+      "legacyId": 3760,
+      "id": 613
+    },
+    {
+      "name": "Inspiring Attack",
+      "legacyId": 3726,
+      "id": 1364
+    },
+    {
+      "name": "Juggernaut",
+      "legacyId": 3730,
+      "id": 1377
+    },
+    {
+      "name": "Kneecapper",
+      "legacyId": 3738,
+      "id": 1362
+    },
+    {
+      "name": "Long Reach",
+      "legacyId": 3747,
+      "id": 1399
+    },
+    {
+      "name": "Long-Held Grudge",
+      "legacyId": 3741,
+      "id": 1393
+    },
+    {
+      "name": "Menace",
+      "legacyId": 3753,
+      "id": 504
+    },
+    {
+      "name": "Oath Friend",
+      "legacyId": 3821,
+      "id": 1353
+    },
+    {
+      "name": "Oath of Vengeance",
+      "legacyId": 3773,
+      "id": 1404
+    },
+    {
+      "name": "Oathbound",
+      "legacyId": 3772,
+      "id": 1380
+    },
+    {
+      "name": "Oathstone",
+      "legacyId": 3776,
+      "id": 1382
+    },
+    {
+      "name": "Overprotective",
+      "legacyId": 3764,
+      "id": 1406
+    },
+    {
+      "name": "Powered Etchings",
+      "legacyId": 3766,
+      "id": 1407
+    },
+    {
+      "name": "Punishing Blow",
+      "legacyId": 3739,
+      "id": 1359
+    },
+    {
+      "name": "Punishing Knock",
+      "legacyId": 3780,
+      "id": 1410
+    },
+    {
+      "name": "Raze",
+      "legacyId": 3758,
+      "id": 607
+    },
+    {
+      "name": "Relentless Training",
+      "legacyId": 3746,
+      "id": 1398
+    },
+    {
+      "name": "Rising Anger",
+      "legacyId": 3740,
+      "id": 1392
+    },
+    {
+      "name": "Rock Clutch",
+      "legacyId": 3748,
+      "id": 1418
+    },
+    {
+      "name": "Rugged",
+      "legacyId": 3752,
+      "id": 503
+    },
+    {
+      "name": "Rune-Etched Axe",
+      "legacyId": 3732,
+      "id": 1366
+    },
+    {
+      "name": "Runic Shield",
+      "legacyId": 3779,
+      "id": 1386
+    },
+    {
+      "name": "Seasoned Veteran",
+      "legacyId": 3743,
+      "id": 1395
+    },
+    {
+      "name": "Seen It All Before",
+      "legacyId": 3744,
+      "id": 1396
+    },
+    {
+      "name": "Sever Blessing",
+      "legacyId": 3735,
+      "id": 1374
+    },
+    {
+      "name": "Shield Mastery",
+      "legacyId": 3775,
+      "id": 1405
+    },
+    {
+      "name": "Shield of Reprisal",
+      "legacyId": 3723,
+      "id": 1369
+    },
+    {
+      "name": "Shield Sweep",
+      "legacyId": 3725,
+      "id": 1361
+    },
+    {
+      "name": "Shield Wall",
+      "legacyId": 3756,
+      "id": 611
+    },
+    {
+      "name": "Skin of Iron",
+      "legacyId": 3749,
+      "id": 1419
+    },
+    {
+      "name": "Stone Breaker",
+      "legacyId": 3729,
+      "id": 1371
+    },
+    {
+      "name": "Stoutness of Stone",
+      "legacyId": 3761,
+      "id": 713
+    },
+    {
+      "name": "Strength In Numbers",
+      "legacyId": 3777,
+      "id": 1424
+    },
+    {
+      "name": "Stubborn As Stone",
+      "legacyId": 3733,
+      "id": 1367
+    },
+    {
+      "name": "Stubbornness",
+      "legacyId": 3762,
+      "id": 714
+    },
+    {
+      "name": "Sweet Revenge",
+      "legacyId": 3742,
+      "id": 1394
+    },
+    {
+      "name": "Taunt",
+      "legacyId": 3724,
+      "id": 1360
+    },
+    {
+      "name": "Told Ya So!",
+      "legacyId": 3782,
+      "id": 1411
+    },
+    {
+      "name": "Unstoppable Juggernaut",
+      "legacyId": 3754,
+      "id": 505
+    },
+    {
+      "name": "Vengeful Strike",
+      "legacyId": 3718,
+      "id": 1357
+    },
+    {
+      "name": "Watch An' Learn",
+      "legacyId": 3736,
+      "id": 1372
+    },
+    {
+      "name": "Alignment of Naggaroth",
+      "legacyId": 907,
+      "id": 839
+    },
+    {
+      "name": "Anger Drives Me",
+      "legacyId": 920,
+      "id": 9369
+    },
+    {
+      "name": "Armor of Eternal Servitude",
+      "legacyId": 895,
+      "id": 9382
+    },
+    {
+      "name": "Away, Cretins!",
+      "legacyId": 894,
+      "id": 9381
+    },
+    {
+      "name": "Banish Weakness",
+      "legacyId": 893,
+      "id": 9380
+    },
+    {
+      "name": "Bathing In Blood",
+      "legacyId": 908,
+      "id": 840
+    },
+    {
+      "name": "Malignant Strike!",
+      "legacyId": 910,
+      "id": 2888
+    },
+    {
+      "name": "Blast of Hatred",
+      "legacyId": 915,
+      "id": 9387
+    },
+    {
+      "name": "Bolstering Anger",
+      "legacyId": 928,
+      "id": 9350
+    },
+    {
+      "name": "Brutal Smash",
+      "legacyId": 871,
+      "id": 9324
+    },
+    {
+      "name": "Chains of Hatred",
+      "legacyId": 882,
+      "id": 9334
+    },
+    {
+      "name": "Challenge",
+      "legacyId": 879,
+      "id": 9332
+    },
+    {
+      "name": "Champion's Challenge",
+      "legacyId": 902,
+      "id": 608
+    },
+    {
+      "name": "Chaotic Allegiance",
+      "legacyId": 946,
+      "id": 14162
+    },
+    {
+      "name": "Choking Fury",
+      "legacyId": 924,
+      "id": 9349
+    },
+    {
+      "name": "Combat Awareness",
+      "legacyId": 952,
+      "id": 14124
+    },
+    {
+      "name": "Crimson Death",
+      "legacyId": 914,
+      "id": 9344
+    },
+    {
+      "name": "Crippling Anger",
+      "legacyId": 865,
+      "id": 9318
+    },
+    {
+      "name": "Crush The Weak",
+      "legacyId": 883,
+      "id": 9333
+    },
+    {
+      "name": "Crush Vitality",
+      "legacyId": 886,
+      "id": 9370
+    },
+    {
+      "name": "Crushing Anger",
+      "legacyId": 878,
+      "id": 9327
+    },
+    {
+      "name": "Dark Blessings",
+      "legacyId": 906,
+      "id": 841
+    },
+    {
+      "name": "Dark Elf Lineage",
+      "legacyId": 947,
+      "id": 14164
+    },
+    {
+      "name": "Dark Protector",
+      "legacyId": 987,
+      "id": 9338
+    },
+    {
+      "name": "Demolishing Strike",
+      "legacyId": 900,
+      "id": 606
+    },
+    {
+      "name": "Distracting Bellow",
+      "legacyId": 904,
+      "id": 610
+    },
+    {
+      "name": "Driven By Hate",
+      "legacyId": 867,
+      "id": 9319
+    },
+    {
+      "name": "Dwarf Bane",
+      "legacyId": 933,
+      "id": 14166
+    },
+    {
+      "name": "Dwarfs Fear Me",
+      "legacyId": 939,
+      "id": 14103
+    },
+    {
+      "name": "Efficient Slaughter",
+      "legacyId": 888,
+      "id": 9357
+    },
+    {
+      "name": "Elite Training",
+      "legacyId": 926,
+      "id": 9347
+    },
+    {
+      "name": "Empire Bane",
+      "legacyId": 934,
+      "id": 14168
+    },
+    {
+      "name": "Endless Pursuit",
+      "legacyId": 890,
+      "id": 9359
+    },
+    {
+      "name": "Enraged Beating",
+      "legacyId": 912,
+      "id": 9343
+    },
+    {
+      "name": "Exile",
+      "legacyId": 881,
+      "id": 9328
+    },
+    {
+      "name": "Feeding On Pain",
+      "legacyId": 918,
+      "id": 9368
+    },
+    {
+      "name": "Feeding On Weakness",
+      "legacyId": 866,
+      "id": 9316
+    },
+    {
+      "name": "Filled With Fury",
+      "legacyId": 911,
+      "id": 9366
+    },
+    {
+      "name": "Flee",
+      "legacyId": 984,
+      "id": 245
+    },
+    {
+      "name": "Focused Offense",
+      "legacyId": 896,
+      "id": 500
+    },
+    {
+      "name": "For Glory!",
+      "legacyId": 948,
+      "id": 14120
+    },
+    {
+      "name": "Force of Fury",
+      "legacyId": 919,
+      "id": 2746
+    },
+    {
+      "name": "Furious Howl",
+      "legacyId": 884,
+      "id": 9331
+    },
+    {
+      "name": "Guard",
+      "legacyId": 872,
+      "id": 9325
+    },
+    {
+      "name": "Hastened Doom",
+      "legacyId": 913,
+      "id": 9367
+    },
+    {
+      "name": "Hateful Strike",
+      "legacyId": 986,
+      "id": 9315
+    },
+    {
+      "name": "High Elf Bane ",
+      "legacyId": 935,
+      "id": 14170
+    },
+    {
+      "name": "High Elves Fear Me",
+      "legacyId": 941,
+      "id": 14105
+    },
+    {
+      "name": "Hold The Line!",
+      "legacyId": 873,
+      "id": 9326
+    },
+    {
+      "name": "Horrific Wound",
+      "legacyId": 874,
+      "id": 9329
+    },
+    {
+      "name": "Immaculate Defense",
+      "legacyId": 905,
+      "id": 613
+    },
+    {
+      "name": "In Malekith's Name!",
+      "legacyId": 929,
+      "id": 9388
+    },
+    {
+      "name": "Invigorating Victory - Dwarf",
+      "legacyId": 942,
+      "id": 14146
+    },
+    {
+      "name": "Invigorating Victory - Empire",
+      "legacyId": 943,
+      "id": 14147
+    },
+    {
+      "name": "Invigorating Victory - High Elf",
+      "legacyId": 944,
+      "id": 14148
+    },
+    {
+      "name": "Juggernaut",
+      "legacyId": 875,
+      "id": 9330
+    },
+    {
+      "name": "Khaine's Warding",
+      "legacyId": 922,
+      "id": 9386
+    },
+    {
+      "name": "King of the Hill",
+      "legacyId": 949,
+      "id": 14121
+    },
+    {
+      "name": "King Slayer",
+      "legacyId": 954,
+      "id": 14127
+    },
+    {
+      "name": "Looter",
+      "legacyId": 953,
+      "id": 14125
+    },
+    {
+      "name": "Malekith's Bulwark",
+      "legacyId": 889,
+      "id": 9358
+    },
+    {
+      "name": "Menace",
+      "legacyId": 898,
+      "id": 504
+    },
+    {
+      "name": "Mind Killer",
+      "legacyId": 864,
+      "id": 9317
+    },
+    {
+      "name": "Mission Focused",
+      "legacyId": 950,
+      "id": 14122
+    },
+    {
+      "name": "Monstrous Rending",
+      "legacyId": 876,
+      "id": 9323
+    },
+    {
+      "name": "Monstrous Ruin",
+      "legacyId": 909,
+      "id": 9365
+    },
+    {
+      "name": "Murderous Wrath",
+      "legacyId": 870,
+      "id": 9320
+    },
+    {
+      "name": "Nemesis",
+      "legacyId": 955,
+      "id": 14128
+    },
+    {
+      "name": "None Shall Pass",
+      "legacyId": 917,
+      "id": 9345
+    },
+    {
+      "name": "Orcish Camaraderie",
+      "legacyId": 945,
+      "id": 14160
+    },
+    {
+      "name": "Pitiless Feeding",
+      "legacyId": 887,
+      "id": 9356
+    },
+    {
+      "name": "Pitiless Strike",
+      "legacyId": 863,
+      "id": 9335
+    },
+    {
+      "name": "Raze",
+      "legacyId": 903,
+      "id": 607
+    },
+    {
+      "name": "Refreshing Dominance - Dwarf",
+      "legacyId": 936,
+      "id": 14099
+    },
+    {
+      "name": "Refreshing Dominance - Empire",
+      "legacyId": 937,
+      "id": 14100
+    },
+    {
+      "name": "Refreshing Dominance - High Elf",
+      "legacyId": 938,
+      "id": 14101
+    },
+    {
+      "name": "Rugged",
+      "legacyId": 897,
+      "id": 503
+    },
+    {
+      "name": "Shatter Enchantment",
+      "legacyId": 880,
+      "id": 9337
+    },
+    {
+      "name": "Shield of Rage",
+      "legacyId": 868,
+      "id": 9336
+    },
+    {
+      "name": "Shield Wall",
+      "legacyId": 901,
+      "id": 611
+    },
+    {
+      "name": "Shielding Anger",
+      "legacyId": 927,
+      "id": 9372
+    },
+    {
+      "name": "Simmering Anger",
+      "legacyId": 892,
+      "id": 9361
+    },
+    {
+      "name": "Soul Killer",
+      "legacyId": 925,
+      "id": 9373
+    },
+    {
+      "name": "Spiteful Slam",
+      "legacyId": 877,
+      "id": 9321
+    },
+    {
+      "name": "Swift Fury",
+      "legacyId": 891,
+      "id": 9360
+    },
+    {
+      "name": "Taunt",
+      "legacyId": 869,
+      "id": 9322
+    },
+    {
+      "name": "Terrifying Foe",
+      "legacyId": 916,
+      "id": 9354
+    },
+    {
+      "name": "The \"Empire\" Fears Me",
+      "legacyId": 940,
+      "id": 14104
+    },
+    {
+      "name": "Thirst For Death",
+      "legacyId": 885,
+      "id": 9355
+    },
+    {
+      "name": "Throw Dagger",
+      "legacyId": 985,
+      "id": 9314
+    },
+    {
+      "name": "Town Raider",
+      "legacyId": 951,
+      "id": 14123
+    },
+    {
+      "name": "Unstoppable Fury",
+      "legacyId": 923,
+      "id": 9371
+    },
+    {
+      "name": "Unstoppable Juggernaut",
+      "legacyId": 899,
+      "id": 505
+    },
+    {
+      "name": "Wave of Scorn",
+      "legacyId": 921,
+      "id": 9348
+    },
+    {
+      "name": "Shielded by Hate",
+      "legacyId": 9920,
+      "id": 2745
+    },
+    {
+      "name": "Absorb Vitality",
+      "legacyId": 5423,
+      "id": 9501
+    },
+    {
+      "name": "Alignment of Naggaroth",
+      "legacyId": 5409,
+      "id": 839
+    },
+    {
+      "name": "Arctic Blast",
+      "legacyId": 5377,
+      "id": 9479
+    },
+    {
+      "name": "Bathing In Blood",
+      "legacyId": 5410,
+      "id": 840
+    },
+    {
+      "name": "Black Horror",
+      "legacyId": 5426,
+      "id": 9506
+    },
+    {
+      "name": "Chilling Gusts",
+      "legacyId": 5422,
+      "id": 9528
+    },
+    {
+      "name": "Chillwind",
+      "legacyId": 5467,
+      "id": 9471
+    },
+    {
+      "name": "Close Quarters",
+      "legacyId": 5401,
+      "id": 569
+    },
+    {
+      "name": "Crippling Terror",
+      "legacyId": 5424,
+      "id": 9543
+    },
+    {
+      "name": "Daemonic Chill",
+      "legacyId": 5381,
+      "id": 9473
+    },
+    {
+      "name": "Dark Blessings",
+      "legacyId": 5408,
+      "id": 841
+    },
+    {
+      "name": "Darkstar Cloak",
+      "legacyId": 5397,
+      "id": 9538
+    },
+    {
+      "name": "Devour Energy",
+      "legacyId": 5398,
+      "id": 568
+    },
+    {
+      "name": "Dhar Wind",
+      "legacyId": 5469,
+      "id": 9490
+    },
+    {
+      "name": "Dire Blast",
+      "legacyId": 5395,
+      "id": 9536
+    },
+    {
+      "name": "Disastrous Cascade",
+      "legacyId": 5428,
+      "id": 9503
+    },
+    {
+      "name": "Doombolt",
+      "legacyId": 5466,
+      "id": 9470
+    },
+    {
+      "name": "Dread Aspect",
+      "legacyId": 5371,
+      "id": 9474
+    },
+    {
+      "name": "Echo of Power",
+      "legacyId": 5412,
+      "id": 9498
+    },
+    {
+      "name": "Empowered Dhar",
+      "legacyId": 5389,
+      "id": 9510
+    },
+    {
+      "name": "Endless Knowledge",
+      "legacyId": 5399,
+      "id": 563
+    },
+    {
+      "name": "Flee",
+      "legacyId": 5468,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 5405,
+      "id": 674
+    },
+    {
+      "name": "Frostbite",
+      "legacyId": 5382,
+      "id": 9482
+    },
+    {
+      "name": "Frozen Fury",
+      "legacyId": 5394,
+      "id": 9517
+    },
+    {
+      "name": "Frozen Touch",
+      "legacyId": 5373,
+      "id": 9476
+    },
+    {
+      "name": "Gloom of Night",
+      "legacyId": 5419,
+      "id": 9500
+    },
+    {
+      "name": "Gloomburst",
+      "legacyId": 5369,
+      "id": 9472
+    },
+    {
+      "name": "Glorious Carnage",
+      "legacyId": 5393,
+      "id": 9516
+    },
+    {
+      "name": "Grasping Darkness",
+      "legacyId": 5387,
+      "id": 9512
+    },
+    {
+      "name": "Grip of Fear",
+      "legacyId": 5378,
+      "id": 9477
+    },
+    {
+      "name": "Hand of Ruin",
+      "legacyId": 5421,
+      "id": 9505
+    },
+    {
+      "name": "Hastened Fear",
+      "legacyId": 5392,
+      "id": 9515
+    },
+    {
+      "name": "Ice Spikes",
+      "legacyId": 5379,
+      "id": 9486
+    },
+    {
+      "name": "Impending Doom",
+      "legacyId": 5414,
+      "id": 9499
+    },
+    {
+      "name": "Infernal Gift",
+      "legacyId": 5388,
+      "id": 9511
+    },
+    {
+      "name": "Infernal Wave",
+      "legacyId": 5380,
+      "id": 9488
+    },
+    {
+      "name": "Lengthening Shadows",
+      "legacyId": 5427,
+      "id": 9526
+    },
+    {
+      "name": "Mage Bolt",
+      "legacyId": 5402,
+      "id": 670
+    },
+    {
+      "name": "Manic Obsession",
+      "legacyId": 5390,
+      "id": 9513
+    },
+    {
+      "name": "Misdirection",
+      "legacyId": 5404,
+      "id": 673
+    },
+    {
+      "name": "Neverending Agony",
+      "legacyId": 5429,
+      "id": 9529
+    },
+    {
+      "name": "Obsessive Focus",
+      "legacyId": 5376,
+      "id": 9481
+    },
+    {
+      "name": "Paralyzing Nightmares",
+      "legacyId": 5431,
+      "id": 9544
+    },
+    {
+      "name": "Piercing Shadows",
+      "legacyId": 5425,
+      "id": 9525
+    },
+    {
+      "name": "Pit of Shades",
+      "legacyId": 5383,
+      "id": 9485
+    },
+    {
+      "name": "Reckless Gathering",
+      "legacyId": 5384,
+      "id": 9487
+    },
+    {
+      "name": "Recover Energy",
+      "legacyId": 5411,
+      "id": 9521
+    },
+    {
+      "name": "Scintillating Energy",
+      "legacyId": 5406,
+      "id": 671
+    },
+    {
+      "name": "Shades of Death",
+      "legacyId": 5416,
+      "id": 9504
+    },
+    {
+      "name": "Shadow Knives",
+      "legacyId": 5430,
+      "id": 9502
+    },
+    {
+      "name": "Shadow of Disaster",
+      "legacyId": 5420,
+      "id": 9524
+    },
+    {
+      "name": "Shattered Shadows",
+      "legacyId": 5375,
+      "id": 9480
+    },
+    {
+      "name": "Shroud of Darkness",
+      "legacyId": 5370,
+      "id": 9484
+    },
+    {
+      "name": "Siphon Power",
+      "legacyId": 5403,
+      "id": 669
+    },
+    {
+      "name": "Sleight of Hand",
+      "legacyId": 5400,
+      "id": 567
+    },
+    {
+      "name": "Soul Stealer",
+      "legacyId": 5417,
+      "id": 9542
+    },
+    {
+      "name": "Stricken Voices",
+      "legacyId": 5386,
+      "id": 9489
+    },
+    {
+      "name": "Surging Pain",
+      "legacyId": 5372,
+      "id": 9483
+    },
+    {
+      "name": "Swell of Gloom",
+      "legacyId": 5415,
+      "id": 9527
+    },
+    {
+      "name": "Tapping The Dark",
+      "legacyId": 5413,
+      "id": 9522
+    },
+    {
+      "name": "Triumphant Blasting",
+      "legacyId": 5391,
+      "id": 9514
+    },
+    {
+      "name": "Unleash the Winds",
+      "legacyId": 5407,
+      "id": 672
+    },
+    {
+      "name": "Vision of Domination",
+      "legacyId": 5418,
+      "id": 9523
+    },
+    {
+      "name": "Vision of Torment",
+      "legacyId": 5385,
+      "id": 9478
+    },
+    {
+      "name": "Wind-Woven Shell",
+      "legacyId": 5396,
+      "id": 9537
+    },
+    {
+      "name": "Word of Pain",
+      "legacyId": 5374,
+      "id": 9475
+    },
+    {
+      "name": "Shatter",
+      "legacyId": 2710,
+      "id": 2710
+    },
+    {
+      "name": "Aimin' Quickly",
+      "legacyId": 2742,
+      "id": 2742
+    },
+    {
+      "name": "Extra Toxic Coating",
+      "legacyId": 2743,
+      "id": 2743
+    },
+    {
+      "name": "All By Meself",
+      "legacyId": 5500,
+      "id": 1860
+    },
+    {
+      "name": "Ard Noggin",
+      "legacyId": 1,
+      "id": 1
+    },
+    {
+      "name": "Arrer O' Mork",
+      "legacyId": 1885,
+      "id": 1885
+    },
+    {
+      "name": "Squig Leap",
+      "legacyId": 2800,
+      "id": 2800
+    },
+    {
+      "name": "Behind Ya!",
+      "legacyId": 1854,
+      "id": 1854
+    },
+    {
+      "name": "Tastes Like Stuntie",
+      "legacyId": 2804,
+      "id": 2804
+    },
+    {
+      "name": "Big Bouncin!",
+      "legacyId": 1851,
+      "id": 1851
+    },
+    {
+      "name": "Big Claw",
+      "legacyId": 2,
+      "id": 2
+    },
+    {
+      "name": "Bounce",
+      "legacyId": 3,
+      "id": 3
+    },
+    {
+      "name": "Choking Arrer",
+      "legacyId": 1839,
+      "id": 1839
+    },
+    {
+      "name": "Clever Recovery",
+      "legacyId": 5509,
+      "id": 549
+    },
+    {
+      "name": "Scramblin' Quick-Like",
+      "legacyId": 5524,
+      "id": 1869
+    },
+    {
+      "name": "Sneaky Git",
+      "legacyId": 1872,
+      "id": 1872
+    },
+    {
+      "name": "Concealment",
+      "legacyId": 5513,
+      "id": 652
+    },
+    {
+      "name": "Cut Ya!",
+      "legacyId": 1829,
+      "id": 1829
+    },
+    {
+      "name": "Da Smell Don't Bother Me",
+      "legacyId": 5503,
+      "id": 1863
+    },
+    {
+      "name": "Da Waaagh Iz Strong",
+      "legacyId": 1874,
+      "id": 1874
+    },
+    {
+      "name": "Don't Eat Me",
+      "legacyId": 5475,
+      "id": 1827
+    },
+    {
+      "name": "Red Tipped Arrer!",
+      "legacyId": 1838,
+      "id": 1838
+    },
+    {
+      "name": "Drop That!!",
+      "legacyId": 1837,
+      "id": 1837
+    },
+    {
+      "name": "'Ere, Squiggy!",
+      "legacyId": 5527,
+      "id": 1870
+    },
+    {
+      "name": "Expert Skirmisher",
+      "legacyId": 5507,
+      "id": 544
+    },
+    {
+      "name": "Explodin' Arrer",
+      "legacyId": 1833,
+      "id": 1833
+    },
+    {
+      "name": "Explosive Shots",
+      "legacyId": 5515,
+      "id": 650
+    },
+    {
+      "name": "Farty Squig",
+      "legacyId": 5476,
+      "id": 1828
+    },
+    {
+      "name": "Finish 'em Off",
+      "legacyId": 1848,
+      "id": 1848
+    },
+    {
+      "name": "Flee",
+      "legacyId": 5575,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 5514,
+      "id": 653
+    },
+    {
+      "name": "Gas Squig",
+      "legacyId": 1843,
+      "id": 1843
+    },
+    {
+      "name": "Git Em!",
+      "legacyId": 1824,
+      "id": 1824
+    },
+    {
+      "name": "Hail of Doom",
+      "legacyId": 5516,
+      "id": 651
+    },
+    {
+      "name": "He's A Biggun'",
+      "legacyId": 5497,
+      "id": 1859
+    },
+    {
+      "name": "Horned Squig",
+      "legacyId": 1842,
+      "id": 1842
+    },
+    {
+      "name": "I Feelz Yer Pain",
+      "legacyId": 5522,
+      "id": 1868
+    },
+    {
+      "name": "I Got Lots",
+      "legacyId": 5502,
+      "id": 1862
+    },
+    {
+      "name": "Indigestion",
+      "legacyId": 2814,
+      "id": 2814
+    },
+    {
+      "name": "KABOOM!",
+      "legacyId": 5,
+      "id": 5
+    },
+    {
+      "name": "Lots o' Arrers",
+      "legacyId": 1834,
+      "id": 1834
+    },
+    {
+      "name": "Lots Of Shootin'",
+      "legacyId": 1883,
+      "id": 1883
+    },
+    {
+      "name": "Masterful Aim",
+      "legacyId": 5508,
+      "id": 542
+    },
+    {
+      "name": "Not So Fast!",
+      "legacyId": 1835,
+      "id": 1835
+    },
+    {
+      "name": "Pick On Yer Own Size",
+      "legacyId": 5499,
+      "id": 1857
+    },
+    {
+      "name": "Pierce Defenses",
+      "legacyId": 5510,
+      "id": 550
+    },
+    {
+      "name": "Plink",
+      "legacyId": 1821,
+      "id": 1821
+    },
+    {
+      "name": "Point-Blank",
+      "legacyId": 5511,
+      "id": 648
+    },
+    {
+      "name": "Poison Arrer",
+      "legacyId": 1847,
+      "id": 1847
+    },
+    {
+      "name": "Bad Gas!",
+      "legacyId": 7566,
+      "id": 2813
+    },
+    {
+      "name": "Rotten Arrer",
+      "legacyId": 1853,
+      "id": 1853
+    },
+    {
+      "name": "Run Away!",
+      "legacyId": 1852,
+      "id": 1852
+    },
+    {
+      "name": "RUN AWAY!",
+      "legacyId": 5519,
+      "id": 758
+    },
+    {
+      "name": "Run 'n Shoot",
+      "legacyId": 1826,
+      "id": 1826
+    },
+    {
+      "name": "Sharp Toofs",
+      "legacyId": 1858,
+      "id": 1858
+    },
+    {
+      "name": "Sharpened Arrers",
+      "legacyId": 1861,
+      "id": 1861
+    },
+    {
+      "name": "Sneaky Strike",
+      "legacyId": 7567,
+      "id": 2805
+    },
+    {
+      "name": "Shoot Thru Ya",
+      "legacyId": 1840,
+      "id": 1840
+    },
+    {
+      "name": "Shootin' Wif Da Wind",
+      "legacyId": 1875,
+      "id": 1875
+    },
+    {
+      "name": "Shrapnel Arrer",
+      "legacyId": 1846,
+      "id": 1846
+    },
+    {
+      "name": "Sneaky Bouncin'",
+      "legacyId": 1871,
+      "id": 1871
+    },
+    {
+      "name": "Spiked Squig",
+      "legacyId": 5483,
+      "id": 1844
+    },
+    {
+      "name": "Shootin' Quicka",
+      "legacyId": 1873,
+      "id": 1873
+    },
+    {
+      "name": "Squig Armor",
+      "legacyId": 1830,
+      "id": 1830
+    },
+    {
+      "name": "Squig Frenzy",
+      "legacyId": 1832,
+      "id": 1832
+    },
+    {
+      "name": "Squig Goo",
+      "legacyId": 5505,
+      "id": 1878
+    },
+    {
+      "name": "Squigbeast",
+      "legacyId": 5506,
+      "id": 1879
+    },
+    {
+      "name": "Outta My Way!",
+      "legacyId": 2801,
+      "id": 2801
+    },
+    {
+      "name": "Sticky Squigz",
+      "legacyId": 5484,
+      "id": 1831
+    },
+    {
+      "name": "Stop Runnin!",
+      "legacyId": 1825,
+      "id": 1825
+    },
+    {
+      "name": "Strength In Numbas",
+      "legacyId": 5498,
+      "id": 1856
+    },
+    {
+      "name": "Summon Squig",
+      "legacyId": 5578,
+      "id": 1841
+    },
+    {
+      "name": "Tastes Like Chicken",
+      "legacyId": 5488,
+      "id": 1836
+    },
+    {
+      "name": "Too Smart For Dat",
+      "legacyId": 5518,
+      "id": 756
+    },
+    {
+      "name": "What Blocka?",
+      "legacyId": 1823,
+      "id": 1823
+    },
+    {
+      "name": "Whazat Behind You?!",
+      "legacyId": 5517,
+      "id": 760
+    },
+    {
+      "name": "Wind Up Da Waaagh",
+      "legacyId": 5533,
+      "id": 1884
+    },
+    {
+      "name": "Yer Bleedin'!",
+      "legacyId": 1822,
+      "id": 1822
+    },
+    {
+      "name": "Backlash",
+      "legacyId": 5207,
+      "id": 800
+    },
+    {
+      "name": "Broad Swings",
+      "legacyId": 5203,
+      "id": 629
+    },
+    {
+      "name": "Brush Off",
+      "legacyId": 5185,
+      "id": 8429
+    },
+    {
+      "name": "Brute Force",
+      "legacyId": 5196,
+      "id": 521
+    },
+    {
+      "name": "Bypass Defenses",
+      "legacyId": 5229,
+      "id": 14423
+    },
+    {
+      "name": "Charge!",
+      "legacyId": 5173,
+      "id": 240
+    },
+    {
+      "name": "Close Combat",
+      "legacyId": 522,
+      "id": 522
+    },
+    {
+      "name": "Concussive Jolt",
+      "legacyId": 5225,
+      "id": 8423
+    },
+    {
+      "name": "Confusing Movements",
+      "legacyId": 5201,
+      "id": 631
+    },
+    {
+      "name": "Convulsive Slashing",
+      "legacyId": 5168,
+      "id": 8406
+    },
+    {
+      "name": "Corrupted Edge",
+      "legacyId": 5215,
+      "id": 8441
+    },
+    {
+      "name": "Corruption",
+      "legacyId": 5166,
+      "id": 8400
+    },
+    {
+      "name": "Crushing Blows",
+      "legacyId": 5226,
+      "id": 8446
+    },
+    {
+      "name": "Cutting Claw",
+      "legacyId": 5211,
+      "id": 8418
+    },
+    {
+      "name": "Deadly Clutch",
+      "legacyId": 5212,
+      "id": 8440
+    },
+    {
+      "name": "Death Grip",
+      "legacyId": 5177,
+      "id": 8405
+    },
+    {
+      "name": "Debilitate",
+      "legacyId": 5164,
+      "id": 8396
+    },
+    {
+      "name": "Deeply Impaled",
+      "legacyId": 5187,
+      "id": 8431
+    },
+    {
+      "name": "Demolition",
+      "legacyId": 5170,
+      "id": 8409
+    },
+    {
+      "name": "Draining Swipe",
+      "legacyId": 5213,
+      "id": 8419
+    },
+    {
+      "name": "Energy Ripple",
+      "legacyId": 5228,
+      "id": 8456
+    },
+    {
+      "name": "Exhaustive Strikes",
+      "legacyId": 5210,
+      "id": 8439
+    },
+    {
+      "name": "Feeding On Fear",
+      "legacyId": 5188,
+      "id": 8432
+    },
+    {
+      "name": "Ferocious Assault",
+      "legacyId": 5179,
+      "id": 8411
+    },
+    {
+      "name": "Flail",
+      "legacyId": 5264,
+      "id": 8392
+    },
+    {
+      "name": "Flames of Fate",
+      "legacyId": 5192,
+      "id": 8449
+    },
+    {
+      "name": "Flanking",
+      "legacyId": 5197,
+      "id": 523
+    },
+    {
+      "name": "Flee",
+      "legacyId": 5263,
+      "id": 245
+    },
+    {
+      "name": "Force of Will",
+      "legacyId": 5200,
+      "id": 628
+    },
+    {
+      "name": "Forked Aggression",
+      "legacyId": 5221,
+      "id": 8455
+    },
+    {
+      "name": "Frenzied Slaughter",
+      "legacyId": 5204,
+      "id": 630
+    },
+    {
+      "name": "Gift of Brutality",
+      "legacyId": 5165,
+      "id": 8398
+    },
+    {
+      "name": "Gift of Monstrosity",
+      "legacyId": 5169,
+      "id": 8403
+    },
+    {
+      "name": "Gift of Release",
+      "legacyId": 5267,
+      "id": 8415
+    },
+    {
+      "name": "Gift of Savagery",
+      "legacyId": 5266,
+      "id": 8394
+    },
+    {
+      "name": "Great Fang",
+      "legacyId": 5193,
+      "id": 8450
+    },
+    {
+      "name": "Growing Instability",
+      "legacyId": 5217,
+      "id": 8442
+    },
+    {
+      "name": "Guillotine",
+      "legacyId": 5216,
+      "id": 8420
+    },
+    {
+      "name": "Gut Ripper",
+      "legacyId": 5181,
+      "id": 8414
+    },
+    {
+      "name": "Hulking Brute",
+      "legacyId": 5222,
+      "id": 8444
+    },
+    {
+      "name": "Impale",
+      "legacyId": 5167,
+      "id": 8399
+    },
+    {
+      "name": "Insane Whispers",
+      "legacyId": 5224,
+      "id": 8445
+    },
+    {
+      "name": "Jagged Edge",
+      "legacyId": 5195,
+      "id": 526
+    },
+    {
+      "name": "Lashing Power",
+      "legacyId": 5214,
+      "id": 8454
+    },
+    {
+      "name": "Mouth of Tzeentch",
+      "legacyId": 5171,
+      "id": 8397
+    },
+    {
+      "name": "Mutated Aggressor",
+      "legacyId": 5218,
+      "id": 8421
+    },
+    {
+      "name": "Mutated Energy",
+      "legacyId": 5182,
+      "id": 8412
+    },
+    {
+      "name": "Mutating Release",
+      "legacyId": 5178,
+      "id": 8408
+    },
+    {
+      "name": "Piercing Bite",
+      "legacyId": 5191,
+      "id": 8435
+    },
+    {
+      "name": "Pulverize",
+      "legacyId": 5180,
+      "id": 8413
+    },
+    {
+      "name": "Relentless Assault",
+      "legacyId": 5202,
+      "id": 633
+    },
+    {
+      "name": "Rend",
+      "legacyId": 5163,
+      "id": 8395
+    },
+    {
+      "name": "Rend Asunder",
+      "legacyId": 5186,
+      "id": 8430
+    },
+    {
+      "name": "Riposte",
+      "legacyId": 5198,
+      "id": 528
+    },
+    {
+      "name": "Scything Talons",
+      "legacyId": 5208,
+      "id": 8438
+    },
+    {
+      "name": "Sever Nerve",
+      "legacyId": 5199,
+      "id": 627
+    },
+    {
+      "name": "Subvert Strength",
+      "legacyId": 5184,
+      "id": 8428
+    },
+    {
+      "name": "Tainted Claw",
+      "legacyId": 5175,
+      "id": 8401
+    },
+    {
+      "name": "Terrible Embrace",
+      "legacyId": 5183,
+      "id": 8410
+    },
+    {
+      "name": "Throw Axe",
+      "legacyId": 5265,
+      "id": 8393
+    },
+    {
+      "name": "Thunderous Blow",
+      "legacyId": 5209,
+      "id": 8424
+    },
+    {
+      "name": "Touch of Instability",
+      "legacyId": 5176,
+      "id": 8407
+    },
+    {
+      "name": "Touch of Rot",
+      "legacyId": 5172,
+      "id": 8404
+    },
+    {
+      "name": "Tzeentch's Reversal",
+      "legacyId": 5194,
+      "id": 8451
+    },
+    {
+      "name": "Tzeentch's Warding",
+      "legacyId": 5206,
+      "id": 798
+    },
+    {
+      "name": "Unending Horror",
+      "legacyId": 5189,
+      "id": 8433
+    },
+    {
+      "name": "Unstable Convulsions",
+      "legacyId": 5219,
+      "id": 8443
+    },
+    {
+      "name": "Warped Flesh",
+      "legacyId": 5205,
+      "id": 797
+    },
+    {
+      "name": "Wave of Horror",
+      "legacyId": 5174,
+      "id": 8402
+    },
+    {
+      "name": "Wave of Mutilation",
+      "legacyId": 5223,
+      "id": 8417
+    },
+    {
+      "name": "Wave of Terror",
+      "legacyId": 5220,
+      "id": 8422
+    },
+    {
+      "name": "Widespread Demolition",
+      "legacyId": 5190,
+      "id": 8434
+    },
+    {
+      "name": "Wrecking Ball",
+      "legacyId": 5227,
+      "id": 8425
+    },
+    {
+      "name": "Shadow of Death",
+      "legacyId": 9701,
+      "id": 9701
+    },
+    {
+      "name": "Agile Escape",
+      "legacyId": 5598,
+      "id": 9396
+    },
+    {
+      "name": "Agonizing Wound",
+      "legacyId": 5582,
+      "id": 9408
+    },
+    {
+      "name": "Alignment of Naggaroth",
+      "legacyId": 5621,
+      "id": 839
+    },
+    {
+      "name": "Mark of Morathi",
+      "legacyId": 6050,
+      "id": 6050
+    },
+    {
+      "name": "Baneful Touch",
+      "legacyId": 5600,
+      "id": 9433
+    },
+    {
+      "name": "Bathing In Blood",
+      "legacyId": 5622,
+      "id": 840
+    },
+    {
+      "name": "Black Lotus Blade",
+      "legacyId": 5633,
+      "id": 9424
+    },
+    {
+      "name": "Blade Spin",
+      "legacyId": 5629,
+      "id": 9464
+    },
+    {
+      "name": "Broad Severing",
+      "legacyId": 5627,
+      "id": 9444
+    },
+    {
+      "name": "Broad Swings",
+      "legacyId": 5618,
+      "id": 629
+    },
+    {
+      "name": "Brute Force",
+      "legacyId": 5611,
+      "id": 521
+    },
+    {
+      "name": "Confusing Movements",
+      "legacyId": 5616,
+      "id": 631
+    },
+    {
+      "name": "Dance of Doom",
+      "legacyId": 5607,
+      "id": 9458
+    },
+    {
+      "name": "Dark Blessings",
+      "legacyId": 5620,
+      "id": 841
+    },
+    {
+      "name": "Death Reaper",
+      "legacyId": 5608,
+      "id": 9459
+    },
+    {
+      "name": "Elixir of Insane Power",
+      "legacyId": 5631,
+      "id": 9420
+    },
+    {
+      "name": "Elixir of Shadows",
+      "legacyId": 5624,
+      "id": 2999
+    },
+    {
+      "name": "Elixir of the Cauldron",
+      "legacyId": 5638,
+      "id": 9426
+    },
+    {
+      "name": "Enchanting Beauty",
+      "legacyId": 5585,
+      "id": 9392
+    },
+    {
+      "name": "Enfeebling Strike",
+      "legacyId": 5593,
+      "id": 9401
+    },
+    {
+      "name": "Enveloping Shadows",
+      "legacyId": 5634,
+      "id": 9448
+    },
+    {
+      "name": "Envenomed Blade",
+      "legacyId": 5580,
+      "id": 9403
+    },
+    {
+      "name": "Exotic Venom",
+      "legacyId": 5602,
+      "id": 9436
+    },
+    {
+      "name": "Feinted Positioning",
+      "legacyId": 5584,
+      "id": 9397
+    },
+    {
+      "name": "Flanking",
+      "legacyId": 5612,
+      "id": 523
+    },
+    {
+      "name": "Flee",
+      "legacyId": 5678,
+      "id": 245
+    },
+    {
+      "name": "Fleet-Footed",
+      "legacyId": 5592,
+      "id": 9395
+    },
+    {
+      "name": "Fling Poison",
+      "legacyId": 5636,
+      "id": 9465
+    },
+    {
+      "name": "For the Hag Queen!",
+      "legacyId": 5603,
+      "id": 9435
+    },
+    {
+      "name": "Force of Will",
+      "legacyId": 5615,
+      "id": 628
+    },
+    {
+      "name": "Frenzied Mayhem",
+      "legacyId": 5601,
+      "id": 6033
+    },
+    {
+      "name": "Frenzied Slaughter",
+      "legacyId": 5619,
+      "id": 630
+    },
+    {
+      "name": "Heart Render Toxin",
+      "legacyId": 5583,
+      "id": 9404
+    },
+    {
+      "name": "Heart Seeker",
+      "legacyId": 5640,
+      "id": 9427
+    },
+    {
+      "name": "Increased Pain",
+      "legacyId": 5639,
+      "id": 9450
+    },
+    {
+      "name": "Jagged Edge",
+      "legacyId": 5610,
+      "id": 526
+    },
+    {
+      "name": "Kiss of Agony",
+      "legacyId": 5581,
+      "id": 9402
+    },
+    {
+      "name": "Kiss of Betrayal",
+      "legacyId": 5597,
+      "id": 9412
+    },
+    {
+      "name": "Kiss of Death",
+      "legacyId": 5586,
+      "id": 9407
+    },
+    {
+      "name": "Kiss of Doom",
+      "legacyId": 5632,
+      "id": 9446
+    },
+    {
+      "name": "Masterful Treachery",
+      "legacyId": 5641,
+      "id": 9451
+    },
+    {
+      "name": "On Your Knees!",
+      "legacyId": 5628,
+      "id": 9422
+    },
+    {
+      "name": "Overwhelming Dread",
+      "legacyId": 5643,
+      "id": 9466
+    },
+    {
+      "name": "Pick Lock",
+      "legacyId": 5644,
+      "id": 14427
+    },
+    {
+      "name": "Pierce Armor",
+      "legacyId": 5626,
+      "id": 9421
+    },
+    {
+      "name": "Puncture",
+      "legacyId": 5579,
+      "id": 9410
+    },
+    {
+      "name": "Relentless Assault",
+      "legacyId": 5617,
+      "id": 633
+    },
+    {
+      "name": "Riposte",
+      "legacyId": 5613,
+      "id": 528
+    },
+    {
+      "name": "Ruthless Assault",
+      "legacyId": 5589,
+      "id": 9399
+    },
+    {
+      "name": "Sacrifices Rewarded",
+      "legacyId": 5606,
+      "id": 9439
+    },
+    {
+      "name": "Sacrificial Stab",
+      "legacyId": 5642,
+      "id": 9428
+    },
+    {
+      "name": "Septic Blade",
+      "legacyId": 5630,
+      "id": 9447
+    },
+    {
+      "name": "Sever Blessing",
+      "legacyId": 5594,
+      "id": 9413
+    },
+    {
+      "name": "Sever Limb",
+      "legacyId": 5590,
+      "id": 9400
+    },
+    {
+      "name": "Sever Nerve",
+      "legacyId": 5614,
+      "id": 627
+    },
+    {
+      "name": "Shadow Prowler",
+      "legacyId": 5587,
+      "id": 9393
+    },
+    {
+      "name": "Sharpened Edge",
+      "legacyId": 5623,
+      "id": 9443
+    },
+    {
+      "name": "Slice",
+      "legacyId": 5679,
+      "id": 9398
+    },
+    {
+      "name": "Swift Blades",
+      "legacyId": 5625,
+      "id": 9445
+    },
+    {
+      "name": "Swift Movements",
+      "legacyId": 5637,
+      "id": 9449
+    },
+    {
+      "name": "Swift Pursuit",
+      "legacyId": 5605,
+      "id": 9438
+    },
+    {
+      "name": "Taste of Blood",
+      "legacyId": 5604,
+      "id": 9437
+    },
+    {
+      "name": "Throat Slitter",
+      "legacyId": 5591,
+      "id": 9409
+    },
+    {
+      "name": "Throwing Dagger",
+      "legacyId": 5680,
+      "id": 9394
+    },
+    {
+      "name": "Treacherous Assault",
+      "legacyId": 5596,
+      "id": 9411
+    },
+    {
+      "name": "Vehement Blades",
+      "legacyId": 5588,
+      "id": 9406
+    },
+    {
+      "name": "Web of Shadows",
+      "legacyId": 5609,
+      "id": 9460
+    },
+    {
+      "name": "Whirling Blades",
+      "legacyId": 5599,
+      "id": 9432
+    },
+    {
+      "name": "Witchbrew",
+      "legacyId": 5635,
+      "id": 9425
+    },
+    {
+      "name": "Wracking Pains",
+      "legacyId": 5595,
+      "id": 9405
+    },
+    {
+      "name": "Close Combat",
+      "legacyId": 6102,
+      "id": 522
+    },
+    {
+      "name": "Bleeding Edge",
+      "legacyId": 2991,
+      "id": 2991
+    },
+    {
+      "name": "Bloody Inspiration",
+      "legacyId": 2715,
+      "id": 2715
+    },
+    {
+      "name": "Bleed Em Out",
+      "legacyId": 4698,
+      "id": 1771
+    },
+    {
+      "name": "Bloodlust",
+      "legacyId": 4668,
+      "id": 1780
+    },
+    {
+      "name": "Bring Da Pain!",
+      "legacyId": 4653,
+      "id": 1769
+    },
+    {
+      "name": "Bring It On",
+      "legacyId": 4665,
+      "id": 1762
+    },
+    {
+      "name": "Broad Swings",
+      "legacyId": 4685,
+      "id": 629
+    },
+    {
+      "name": "Brute Force",
+      "legacyId": 4678,
+      "id": 521
+    },
+    {
+      "name": "Bypass Defenses",
+      "legacyId": 4711,
+      "id": 14423
+    },
+    {
+      "name": "Can't Stop Da Chop",
+      "legacyId": 4693,
+      "id": 1746
+    },
+    {
+      "name": "Charge!",
+      "legacyId": 4655,
+      "id": 1752
+    },
+    {
+      "name": "Chop Fasta!",
+      "legacyId": 4707,
+      "id": 1775
+    },
+    {
+      "name": "Chop Til You Drop",
+      "legacyId": 4672,
+      "id": 1784
+    },
+    {
+      "name": "Come and Git It!",
+      "legacyId": 4661,
+      "id": 1758
+    },
+    {
+      "name": "Confusing Movements",
+      "legacyId": 4683,
+      "id": 631
+    },
+    {
+      "name": "Dat Tickles!",
+      "legacyId": 4674,
+      "id": 1799
+    },
+    {
+      "name": "Don't Bother Me None",
+      "legacyId": 4688,
+      "id": 735
+    },
+    {
+      "name": "Don't Go Nowhere",
+      "legacyId": 4648,
+      "id": 1744
+    },
+    {
+      "name": "Don't Hate Da Choppa",
+      "legacyId": 4666,
+      "id": 1782
+    },
+    {
+      "name": "Don't Wanna Live Foreva",
+      "legacyId": 4670,
+      "id": 1778
+    },
+    {
+      "name": "Drop Da Basha",
+      "legacyId": 4659,
+      "id": 1756
+    },
+    {
+      "name": "Easy Killin'",
+      "legacyId": 4671,
+      "id": 1783
+    },
+    {
+      "name": "Extra Choppin'",
+      "legacyId": 4706,
+      "id": 1796
+    },
+    {
+      "name": "Finish 'Em Faster",
+      "legacyId": 4667,
+      "id": 1779
+    },
+    {
+      "name": "Flanking",
+      "legacyId": 4679,
+      "id": 523
+    },
+    {
+      "name": "Flee",
+      "legacyId": 4745,
+      "id": 245
+    },
+    {
+      "name": "Fling Choppa",
+      "legacyId": 4747,
+      "id": 1743
+    },
+    {
+      "name": "Force of Will",
+      "legacyId": 4682,
+      "id": 628
+    },
+    {
+      "name": "Frenzied Slaughter",
+      "legacyId": 4686,
+      "id": 630
+    },
+    {
+      "name": "Furious Choppin'",
+      "legacyId": 4695,
+      "id": 1768
+    },
+    {
+      "name": "Git Stuck In",
+      "legacyId": 4657,
+      "id": 1754
+    },
+    {
+      "name": "Git To Da Choppa",
+      "legacyId": 4709,
+      "id": 1776
+    },
+    {
+      "name": "Go For Da Soft Spot",
+      "legacyId": 4652,
+      "id": 1749
+    },
+    {
+      "name": "Hurtin' Time",
+      "legacyId": 4658,
+      "id": 1760
+    },
+    {
+      "name": "I'm Da Biggest!",
+      "legacyId": 4687,
+      "id": 734
+    },
+    {
+      "name": "I'm Still Here",
+      "legacyId": 4669,
+      "id": 1781
+    },
+    {
+      "name": "Jagged Edge",
+      "legacyId": 4677,
+      "id": 526
+    },
+    {
+      "name": "Keep It Comin'",
+      "legacyId": 4708,
+      "id": 1795
+    },
+    {
+      "name": "Keep On Choppin'",
+      "legacyId": 4691,
+      "id": 1770
+    },
+    {
+      "name": "Long Lasta",
+      "legacyId": 4697,
+      "id": 1791
+    },
+    {
+      "name": "Longer and Stronger",
+      "legacyId": 4704,
+      "id": 1794
+    },
+    {
+      "name": "Lotsa Choppin",
+      "legacyId": 4649,
+      "id": 1747
+    },
+    {
+      "name": "No More Helpin'",
+      "legacyId": 4702,
+      "id": 1773
+    },
+    {
+      "name": "Outta My Face!",
+      "legacyId": 4656,
+      "id": 1753
+    },
+    {
+      "name": "Reckless Blow",
+      "legacyId": 4647,
+      "id": 1761
+    },
+    {
+      "name": "Red goes faster!",
+      "legacyId": 4694,
+      "id": 1790
+    },
+    {
+      "name": "Relentless Assault",
+      "legacyId": 4684,
+      "id": 633
+    },
+    {
+      "name": "Riposte",
+      "legacyId": 4680,
+      "id": 528
+    },
+    {
+      "name": "Sever Nerve",
+      "legacyId": 4681,
+      "id": 627
+    },
+    {
+      "name": "Shrug It Off",
+      "legacyId": 4660,
+      "id": 1757
+    },
+    {
+      "name": "Sit Down!",
+      "legacyId": 4663,
+      "id": 1755
+    },
+    {
+      "name": "Slasha",
+      "legacyId": 4746,
+      "id": 1745
+    },
+    {
+      "name": "Stab You Gooder",
+      "legacyId": 4689,
+      "id": 739
+    },
+    {
+      "name": "Stomp Da Yard",
+      "legacyId": 4710,
+      "id": 1804
+    },
+    {
+      "name": "Strong Finish",
+      "legacyId": 4701,
+      "id": 1793
+    },
+    {
+      "name": "Supa Chop",
+      "legacyId": 4676,
+      "id": 1801
+    },
+    {
+      "name": "Tantrum",
+      "legacyId": 4675,
+      "id": 2860
+    },
+    {
+      "name": "Throat Slasha",
+      "legacyId": 4650,
+      "id": 1742
+    },
+    {
+      "name": "Tired Already?",
+      "legacyId": 4700,
+      "id": 1772
+    },
+    {
+      "name": "Try An' Hurt Me",
+      "legacyId": 4664,
+      "id": 1750
+    },
+    {
+      "name": "Was Dat Yer Finger?",
+      "legacyId": 4673,
+      "id": 1785
+    },
+    {
+      "name": "Weaklin' Killa",
+      "legacyId": 4654,
+      "id": 1751
+    },
+    {
+      "name": "Pent Up Rage",
+      "legacyId": 4699,
+      "id": 1792
+    },
+    {
+      "name": "We'z Fightin' Betta",
+      "legacyId": 4696,
+      "id": 1802
+    },
+    {
+      "name": "Wild Choppin'",
+      "legacyId": 4651,
+      "id": 1759
+    },
+    {
+      "name": "Wot Rules?",
+      "legacyId": 4690,
+      "id": 1788
+    },
+    {
+      "name": "Wot's Da Rush?",
+      "legacyId": 4705,
+      "id": 1774
+    },
+    {
+      "name": "Yer All Bleedin' Now",
+      "legacyId": 4662,
+      "id": 1748
+    },
+    {
+      "name": "Yer Gettin' Soft",
+      "legacyId": 4692,
+      "id": 1789
+    },
+    {
+      "name": "Yer Goin Down!",
+      "legacyId": 4703,
+      "id": 1803
+    },
+    {
+      "name": "Acid Arrow",
+      "legacyId": 3930,
+      "id": 9104
+    },
+    {
+      "name": "Assault Stance",
+      "legacyId": 3927,
+      "id": 2975
+    },
+    {
+      "name": "Barrage",
+      "legacyId": 9111,
+      "id": 9111
+    },
+    {
+      "name": "Bend the Winds",
+      "legacyId": 3969,
+      "id": 819
+    },
+    {
+      "name": "Blood-Soaked War",
+      "legacyId": 3954,
+      "id": 9123
+    },
+    {
+      "name": "Broadhead Arrow",
+      "legacyId": 3929,
+      "id": 9084
+    },
+    {
+      "name": "Brutal Assault",
+      "legacyId": 3931,
+      "id": 9086
+    },
+    {
+      "name": "Bullseye",
+      "legacyId": 3951,
+      "id": 9117
+    },
+    {
+      "name": "Centuries of Training",
+      "legacyId": 3968,
+      "id": 818
+    },
+    {
+      "name": "Clever Recovery",
+      "legacyId": 3960,
+      "id": 549
+    },
+    {
+      "name": "Concealment",
+      "legacyId": 3964,
+      "id": 652
+    },
+    {
+      "name": "Counterstrike",
+      "legacyId": 3944,
+      "id": 9099
+    },
+    {
+      "name": "Discerning Offense",
+      "legacyId": 3970,
+      "id": 823
+    },
+    {
+      "name": "Distracting Rebounds",
+      "legacyId": 3950,
+      "id": 9122
+    },
+    {
+      "name": "Distracting Shot",
+      "legacyId": 3934,
+      "id": 9089
+    },
+    {
+      "name": "Draw Blood",
+      "legacyId": 3936,
+      "id": 9091
+    },
+    {
+      "name": "Eagle Eye",
+      "legacyId": 4027,
+      "id": 9082
+    },
+    {
+      "name": "Enchanted Arrows",
+      "legacyId": 3973,
+      "id": 9126
+    },
+    {
+      "name": "Expert Skirmisher",
+      "legacyId": 3958,
+      "id": 544
+    },
+    {
+      "name": "Exploit Weakness",
+      "legacyId": 3983,
+      "id": 9108
+    },
+    {
+      "name": "Explosive Shots",
+      "legacyId": 3966,
+      "id": 650
+    },
+    {
+      "name": "Eye Shot",
+      "legacyId": 9096,
+      "id": 9096
+    },
+    {
+      "name": "Fell The Weak",
+      "legacyId": 9105,
+      "id": 9105
+    },
+    {
+      "name": "Festering Arrow",
+      "legacyId": 9085,
+      "id": 9085
+    },
+    {
+      "name": "Flame Arrow",
+      "legacyId": 9088,
+      "id": 9088
+    },
+    {
+      "name": "Flanking Shot",
+      "legacyId": 3988,
+      "id": 9110
+    },
+    {
+      "name": "Flee",
+      "legacyId": 4028,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 3965,
+      "id": 653
+    },
+    {
+      "name": "Glass Arrow",
+      "legacyId": 1556,
+      "id": 1556
+    },
+    {
+      "name": "Grim Slash",
+      "legacyId": 4029,
+      "id": 9083
+    },
+    {
+      "name": "Guerrilla Training",
+      "legacyId": 9127,
+      "id": 9127
+    },
+    {
+      "name": "Hail of Doom",
+      "legacyId": 3967,
+      "id": 651
+    },
+    {
+      "name": "Hunter's Fervor",
+      "legacyId": 3935,
+      "id": 9148
+    },
+    {
+      "name": "Instill Fear",
+      "legacyId": 3957,
+      "id": 9139
+    },
+    {
+      "name": "Instinctive Aim",
+      "legacyId": 3952,
+      "id": 9121
+    },
+    {
+      "name": "Keen Arrowheads",
+      "legacyId": 3987,
+      "id": 9133
+    },
+    {
+      "name": "Leading Shots",
+      "legacyId": 3953,
+      "id": 9128
+    },
+    {
+      "name": "Lileath's Arrow",
+      "legacyId": 3946,
+      "id": 9100
+    },
+    {
+      "name": "Lileath's Forgiveness",
+      "legacyId": 3955,
+      "id": 9137
+    },
+    {
+      "name": "Masterful Aim",
+      "legacyId": 3959,
+      "id": 542
+    },
+    {
+      "name": "Merciless Soldier",
+      "legacyId": 3982,
+      "id": 2974
+    },
+    {
+      "name": "No Quarter",
+      "legacyId": 3971,
+      "id": 2741
+    },
+    {
+      "name": "No Respite",
+      "legacyId": 3980,
+      "id": 9131
+    },
+    {
+      "name": "Opportunistic Strike",
+      "legacyId": 3943,
+      "id": 9098
+    },
+    {
+      "name": "Ambush",
+      "legacyId": 3956,
+      "id": 2711
+    },
+    {
+      "name": "Penetrating Arrow",
+      "legacyId": 3991,
+      "id": 9144
+    },
+    {
+      "name": "Pierce Defenses",
+      "legacyId": 3961,
+      "id": 550
+    },
+    {
+      "name": "Point-Blank",
+      "legacyId": 3962,
+      "id": 648
+    },
+    {
+      "name": "Powerful Draw",
+      "legacyId": 3989,
+      "id": 9132
+    },
+    {
+      "name": "Rain of Steel",
+      "legacyId": 3977,
+      "id": 9142
+    },
+    {
+      "name": "Rapid Fire",
+      "legacyId": 3940,
+      "id": 9101
+    },
+    {
+      "name": "Replenishing Strikes",
+      "legacyId": 3947,
+      "id": 9118
+    },
+    {
+      "name": "Scout Stance",
+      "legacyId": 4026,
+      "id": 9080
+    },
+    {
+      "name": "Shadow Sting",
+      "legacyId": 9109,
+      "id": 9109
+    },
+    {
+      "name": "Shadowstep",
+      "legacyId": 7530,
+      "id": 2822
+    },
+    {
+      "name": "Sinister Assault",
+      "legacyId": 3978,
+      "id": 9130
+    },
+    {
+      "name": "Skirmish Stance",
+      "legacyId": 3928,
+      "id": 9094
+    },
+    {
+      "name": "Smoldering Arrows",
+      "legacyId": 3949,
+      "id": 9119
+    },
+    {
+      "name": "Spiral-Fletched Arrow",
+      "legacyId": 3933,
+      "id": 9093
+    },
+    {
+      "name": "Split Arrows",
+      "legacyId": 3985,
+      "id": 9134
+    },
+    {
+      "name": "Steady Aim",
+      "legacyId": 3942,
+      "id": 9097
+    },
+    {
+      "name": "Sweeping Slash",
+      "legacyId": 3981,
+      "id": 9107
+    },
+    {
+      "name": "Swift Strikes",
+      "legacyId": 3979,
+      "id": 9106
+    },
+    {
+      "name": "Takedown",
+      "legacyId": 3932,
+      "id": 9087
+    },
+    {
+      "name": "Throat Shot",
+      "legacyId": 3945,
+      "id": 9095
+    },
+    {
+      "name": "Vengeance of Nagarythe",
+      "legacyId": 3937,
+      "id": 9081
+    },
+    {
+      "name": "Whirling Pin",
+      "legacyId": 3938,
+      "id": 9092
+    },
+    {
+      "name": "Whirling Rage",
+      "legacyId": 3984,
+      "id": 9143
+    },
+    {
+      "name": "Wrist Slash",
+      "legacyId": 3948,
+      "id": 9116
+    },
+    {
+      "name": "Crosscut",
+      "legacyId": 2972,
+      "id": 2972
+    },
+    {
+      "name": "Accuracy",
+      "legacyId": 4089,
+      "id": 1490
+    },
+    {
+      "name": "Ancestral Inheritance",
+      "legacyId": 4072,
+      "id": 716
+    },
+    {
+      "name": "Break Loose",
+      "legacyId": 4043,
+      "id": 1445
+    },
+    {
+      "name": "Breaking Point",
+      "legacyId": 4084,
+      "id": 1487
+    },
+    {
+      "name": "Broad Swings",
+      "legacyId": 4068,
+      "id": 629
+    },
+    {
+      "name": "Brute Force",
+      "legacyId": 4061,
+      "id": 521
+    },
+    {
+      "name": "Bypass Defenses",
+      "legacyId": 4094,
+      "id": 14423
+    },
+    {
+      "name": "Charge!",
+      "legacyId": 4038,
+      "id": 1440
+    },
+    {
+      "name": "Cleft In Twain",
+      "legacyId": 4081,
+      "id": 1460
+    },
+    {
+      "name": "Confusing Movements",
+      "legacyId": 4066,
+      "id": 631
+    },
+    {
+      "name": "Deadly Determination",
+      "legacyId": 4058,
+      "id": 1500
+    },
+    {
+      "name": "Deathblow",
+      "legacyId": 4037,
+      "id": 1439
+    },
+    {
+      "name": "Deep Wound",
+      "legacyId": 4076,
+      "id": 1434
+    },
+    {
+      "name": "Determination",
+      "legacyId": 4080,
+      "id": 1485
+    },
+    {
+      "name": "Devastate",
+      "legacyId": 4083,
+      "id": 1461
+    },
+    {
+      "name": "Distracting Roar",
+      "legacyId": 4039,
+      "id": 1441
+    },
+    {
+      "name": "Doom Seeker",
+      "legacyId": 4093,
+      "id": 1494
+    },
+    {
+      "name": "Embrace the Pain",
+      "legacyId": 4056,
+      "id": 1479
+    },
+    {
+      "name": "Enervating Blow",
+      "legacyId": 4047,
+      "id": 1438
+    },
+    {
+      "name": "Even the Odds",
+      "legacyId": 4044,
+      "id": 1446
+    },
+    {
+      "name": "Fierce Might",
+      "legacyId": 4075,
+      "id": 1483
+    },
+    {
+      "name": "Fierceness",
+      "legacyId": 4036,
+      "id": 1458
+    },
+    {
+      "name": "Flanking",
+      "legacyId": 4062,
+      "id": 523
+    },
+    {
+      "name": "Flee",
+      "legacyId": 4128,
+      "id": 245
+    },
+    {
+      "name": "Flurry",
+      "legacyId": 4032,
+      "id": 1435
+    },
+    {
+      "name": "Force of Will",
+      "legacyId": 4065,
+      "id": 628
+    },
+    {
+      "name": "Frenzied Slaughter",
+      "legacyId": 4069,
+      "id": 630
+    },
+    {
+      "name": "Got No Time For You",
+      "legacyId": 4053,
+      "id": 1476
+    },
+    {
+      "name": "Grievous Harm",
+      "legacyId": 4059,
+      "id": 1495
+    },
+    {
+      "name": "Gudrun's Warcry",
+      "legacyId": 4040,
+      "id": 1442
+    },
+    {
+      "name": "Hastened Punishment",
+      "legacyId": 4050,
+      "id": 1473
+    },
+    {
+      "name": "Honor Restored",
+      "legacyId": 4051,
+      "id": 1474
+    },
+    {
+      "name": "Incapacitate",
+      "legacyId": 4046,
+      "id": 1443
+    },
+    {
+      "name": "Inevitable Doom",
+      "legacyId": 4092,
+      "id": 1465
+    },
+    {
+      "name": "Jagged Edge",
+      "legacyId": 4060,
+      "id": 526
+    },
+    {
+      "name": "Looks Like a Challenge",
+      "legacyId": 4086,
+      "id": 1501
+    },
+    {
+      "name": "No Escape",
+      "legacyId": 4088,
+      "id": 1463
+    },
+    {
+      "name": "Numbing Strike",
+      "legacyId": 4042,
+      "id": 1444
+    },
+    {
+      "name": "Onslaught",
+      "legacyId": 4045,
+      "id": 1436
+    },
+    {
+      "name": "Power Through",
+      "legacyId": 4073,
+      "id": 1482
+    },
+    {
+      "name": "Precarious Assault",
+      "legacyId": 4030,
+      "id": 1449
+    },
+    {
+      "name": "Pulverizing Strike",
+      "legacyId": 4130,
+      "id": 1433
+    },
+    {
+      "name": "Push For More",
+      "legacyId": 4054,
+      "id": 1477
+    },
+    {
+      "name": "Rampage",
+      "legacyId": 4074,
+      "id": 1459
+    },
+    {
+      "name": "Reckless Gamble",
+      "legacyId": 4041,
+      "id": 1448
+    },
+    {
+      "name": "Relentless Assault",
+      "legacyId": 4067,
+      "id": 633
+    },
+    {
+      "name": "Relentless Strike",
+      "legacyId": 4033,
+      "id": 1431
+    },
+    {
+      "name": "Retribution",
+      "legacyId": 4048,
+      "id": 1450
+    },
+    {
+      "name": "Riposte",
+      "legacyId": 4063,
+      "id": 528
+    },
+    {
+      "name": "Rune of Absorption",
+      "legacyId": 4078,
+      "id": 1457
+    },
+    {
+      "name": "Runic Blessings",
+      "legacyId": 4091,
+      "id": 1489
+    },
+    {
+      "name": "Sever Nerve",
+      "legacyId": 4064,
+      "id": 627
+    },
+    {
+      "name": "Shatter Limbs",
+      "legacyId": 4090,
+      "id": 1464
+    },
+    {
+      "name": "Short Temper",
+      "legacyId": 4077,
+      "id": 1484
+    },
+    {
+      "name": "Slaughter",
+      "legacyId": 4052,
+      "id": 1475
+    },
+    {
+      "name": "Slow Down",
+      "legacyId": 4031,
+      "id": 1432
+    },
+    {
+      "name": "Spellbreaker",
+      "legacyId": 4085,
+      "id": 2747
+    },
+    {
+      "name": "Spine Crusher",
+      "legacyId": 4035,
+      "id": 1437
+    },
+    {
+      "name": "Stoutness of Stone",
+      "legacyId": 4070,
+      "id": 713
+    },
+    {
+      "name": "Stubbornness",
+      "legacyId": 4071,
+      "id": 714
+    },
+    {
+      "name": "Takin' Chances",
+      "legacyId": 4087,
+      "id": 1488
+    },
+    {
+      "name": "The Bigger They Are...",
+      "legacyId": 4055,
+      "id": 1478
+    },
+    {
+      "name": "Throw Axe",
+      "legacyId": 4129,
+      "id": 1430
+    },
+    {
+      "name": "Unleashed Power",
+      "legacyId": 4079,
+      "id": 1499
+    },
+    {
+      "name": "Untouchable",
+      "legacyId": 4057,
+      "id": 1493
+    },
+    {
+      "name": "Holding Grudges",
+      "legacyId": 4082,
+      "id": 1486
+    },
+    {
+      "name": "Wild Gambit",
+      "legacyId": 4049,
+      "id": 1472
+    },
+    {
+      "name": "Wild Swing",
+      "legacyId": 4034,
+      "id": 1447
+    },
+    {
+      "name": "Aethyric Shock",
+      "legacyId": 5731,
+      "id": 8571
+    },
+    {
+      "name": "Alter Fate",
+      "legacyId": 5722,
+      "id": 697
+    },
+    {
+      "name": "Backlash",
+      "legacyId": 5725,
+      "id": 800
+    },
+    {
+      "name": "Blessing of Chaos",
+      "legacyId": 5705,
+      "id": 8590
+    },
+    {
+      "name": "Boon of Tzeentch",
+      "legacyId": 5729,
+      "id": 8573
+    },
+    {
+      "name": "Breath of Tzeentch",
+      "legacyId": 5698,
+      "id": 8559
+    },
+    {
+      "name": "By Tzeentch's Will!",
+      "legacyId": 5707,
+      "id": 8588
+    },
+    {
+      "name": "Changer's Touch",
+      "legacyId": 5730,
+      "id": 8596
+    },
+    {
+      "name": "Chaotic Agitation",
+      "legacyId": 5743,
+      "id": 8578
+    },
+    {
+      "name": "Chaotic Blur",
+      "legacyId": 5686,
+      "id": 8621
+    },
+    {
+      "name": "Chaotic Force",
+      "legacyId": 5726,
+      "id": 8595
+    },
+    {
+      "name": "Daemonic Fortitude",
+      "legacyId": 5699,
+      "id": 8561
+    },
+    {
+      "name": "Dark Medicine",
+      "legacyId": 5690,
+      "id": 8549
+    },
+    {
+      "name": "Demon Spittle",
+      "legacyId": 5695,
+      "id": 8563
+    },
+    {
+      "name": "Discipline",
+      "legacyId": 5714,
+      "id": 592
+    },
+    {
+      "name": "Divine Favor",
+      "legacyId": 5717,
+      "id": 694
+    },
+    {
+      "name": "Divine Fury",
+      "legacyId": 5713,
+      "id": 585
+    },
+    {
+      "name": "Divine Protection",
+      "legacyId": 5721,
+      "id": 696
+    },
+    {
+      "name": "Drink Deeply",
+      "legacyId": 5708,
+      "id": 8589
+    },
+    {
+      "name": "Dust of Pandemonium",
+      "legacyId": 5696,
+      "id": 8562
+    },
+    {
+      "name": "Elixir Of Dark Blessings",
+      "legacyId": 5688,
+      "id": 8566
+    },
+    {
+      "name": "Embrace the Warp",
+      "legacyId": 5697,
+      "id": 8622
+    },
+    {
+      "name": "Empowered Alteration",
+      "legacyId": 5706,
+      "id": 8587
+    },
+    {
+      "name": "Endless Gifts",
+      "legacyId": 5702,
+      "id": 8591
+    },
+    {
+      "name": "Eye of Sheerian",
+      "legacyId": 5711,
+      "id": 8606
+    },
+    {
+      "name": "Flash of Chaos",
+      "legacyId": 5784,
+      "id": 8569
+    },
+    {
+      "name": "Flee",
+      "legacyId": 5781,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 5720,
+      "id": 695
+    },
+    {
+      "name": "Glimpse of Chaos",
+      "legacyId": 5694,
+      "id": 8554
+    },
+    {
+      "name": "Harbinger of Doom",
+      "legacyId": 5783,
+      "id": 8550
+    },
+    {
+      "name": "Lashing Waves",
+      "legacyId": 5733,
+      "id": 8599
+    },
+    {
+      "name": "Leaping Alteration",
+      "legacyId": 5693,
+      "id": 8557
+    },
+    {
+      "name": "Manipulation",
+      "legacyId": 5728,
+      "id": 8594
+    },
+    {
+      "name": "Mark of Daemonic Fury",
+      "legacyId": 5683,
+      "id": 8551
+    },
+    {
+      "name": "Mark of Remaking",
+      "legacyId": 5701,
+      "id": 8567
+    },
+    {
+      "name": "Mark of the Spell Destroyer",
+      "legacyId": 5692,
+      "id": 8556
+    },
+    {
+      "name": "Mark of the Vortex",
+      "legacyId": 5689,
+      "id": 8560
+    },
+    {
+      "name": "Mirror of Madness",
+      "legacyId": 5738,
+      "id": 8575
+    },
+    {
+      "name": "Rampaging Siphon",
+      "legacyId": 5718,
+      "id": 692
+    },
+    {
+      "name": "Restorative Burst",
+      "legacyId": 5716,
+      "id": 589
+    },
+    {
+      "name": "Rite of Agony",
+      "legacyId": 5687,
+      "id": 8552
+    },
+    {
+      "name": "Ritual of Innervation",
+      "legacyId": 5727,
+      "id": 8572
+    },
+    {
+      "name": "Ritual of Lunacy",
+      "legacyId": 5741,
+      "id": 8577
+    },
+    {
+      "name": "Ritual of Superiority",
+      "legacyId": 5734,
+      "id": 8574
+    },
+    {
+      "name": "Scourge",
+      "legacyId": 5782,
+      "id": 8548
+    },
+    {
+      "name": "Scourged Warping",
+      "legacyId": 5703,
+      "id": 8586
+    },
+    {
+      "name": "Steal Life",
+      "legacyId": 5719,
+      "id": 690
+    },
+    {
+      "name": "Storm of Ravens",
+      "legacyId": 5736,
+      "id": 8576
+    },
+    {
+      "name": "Subtlety",
+      "legacyId": 5715,
+      "id": 588
+    },
+    {
+      "name": "Suppressing The Fragile Unbelievers",
+      "legacyId": 5712,
+      "id": 8607
+    },
+    {
+      "name": "Sweeping Disgorgement",
+      "legacyId": 5740,
+      "id": 8600
+    },
+    {
+      "name": "Swirling Vortex",
+      "legacyId": 5742,
+      "id": 8601
+    },
+    {
+      "name": "Transference",
+      "legacyId": 5737,
+      "id": 8597
+    },
+    {
+      "name": "Tzeentch Shall Remake You",
+      "legacyId": 5691,
+      "id": 8555
+    },
+    {
+      "name": "Tzeentch's Cordial",
+      "legacyId": 5682,
+      "id": 8558
+    },
+    {
+      "name": "Tzeentch's Cry",
+      "legacyId": 5684,
+      "id": 8568
+    },
+    {
+      "name": "Tzeentch's Grip",
+      "legacyId": 5744,
+      "id": 8602
+    },
+    {
+      "name": "Tzeentch's Lash",
+      "legacyId": 5700,
+      "id": 8565
+    },
+    {
+      "name": "Tzeentch's Refreshment",
+      "legacyId": 5735,
+      "id": 8598
+    },
+    {
+      "name": "Tzeentch's Scream",
+      "legacyId": 5739,
+      "id": 8612
+    },
+    {
+      "name": "Tzeentch\u2019s Shielding",
+      "legacyId": 5732,
+      "id": 8611
+    },
+    {
+      "name": "Tzeentch's Talon",
+      "legacyId": 5710,
+      "id": 8605
+    },
+    {
+      "name": "Tzeentch's Warding",
+      "legacyId": 5724,
+      "id": 798
+    },
+    {
+      "name": "Veil of Chaos",
+      "legacyId": 5685,
+      "id": 8564
+    },
+    {
+      "name": "Warp Reality",
+      "legacyId": 5681,
+      "id": 8553
+    },
+    {
+      "name": "Warped Flesh",
+      "legacyId": 5723,
+      "id": 797
+    },
+    {
+      "name": "Warping The Spirit",
+      "legacyId": 5704,
+      "id": 8584
+    },
+    {
+      "name": "Waves of Chaos",
+      "legacyId": 5709,
+      "id": 8585
+    },
+    {
+      "name": "Wind of Insanity",
+      "legacyId": 5745,
+      "id": 8579
+    },
+    {
+      "name": "Windblock",
+      "legacyId": 5746,
+      "id": 8613
+    },
+    {
+      "name": "Alter Fate",
+      "legacyId": 3450,
+      "id": 697
+    },
+    {
+      "name": "Arcane Suppression",
+      "legacyId": 3440,
+      "id": 9304
+    },
+    {
+      "name": "Arcing Power",
+      "legacyId": 3470,
+      "id": 9295
+    },
+    {
+      "name": "Balance Essence",
+      "legacyId": 3413,
+      "id": 2300
+    },
+    {
+      "name": "Bend the Winds",
+      "legacyId": 3452,
+      "id": 819
+    },
+    {
+      "name": "Blessing of Isha",
+      "legacyId": 3425,
+      "id": 9245
+    },
+    {
+      "name": "Blinding Light",
+      "legacyId": 3439,
+      "id": 9303
+    },
+    {
+      "name": "Bolstering Boon",
+      "legacyId": 3456,
+      "id": 9288
+    },
+    {
+      "name": "Boon of Hysh",
+      "legacyId": 3418,
+      "id": 9242
+    },
+    {
+      "name": "Centuries of Training",
+      "legacyId": 3451,
+      "id": 818
+    },
+    {
+      "name": "Cleansing Flare",
+      "legacyId": 3462,
+      "id": 9266
+    },
+    {
+      "name": "Cleansing Light",
+      "legacyId": 3423,
+      "id": 9244
+    },
+    {
+      "name": "Desperation",
+      "legacyId": 3437,
+      "id": 2750
+    },
+    {
+      "name": "Discerning Offense",
+      "legacyId": 3453,
+      "id": 823
+    },
+    {
+      "name": "Discipline",
+      "legacyId": 3442,
+      "id": 592
+    },
+    {
+      "name": "Dispel Magic",
+      "legacyId": 3463,
+      "id": 9290
+    },
+    {
+      "name": "Dissipating Energies",
+      "legacyId": 3466,
+      "id": 9271
+    },
+    {
+      "name": "Dissipating Hatred",
+      "legacyId": 3417,
+      "id": 9256
+    },
+    {
+      "name": "Divine Favor",
+      "legacyId": 3445,
+      "id": 694
+    },
+    {
+      "name": "Divine Fury",
+      "legacyId": 3441,
+      "id": 585
+    },
+    {
+      "name": "Divine Protection",
+      "legacyId": 3449,
+      "id": 696
+    },
+    {
+      "name": "Drain Magic",
+      "legacyId": 3424,
+      "id": 9249
+    },
+    {
+      "name": "Empowered Lores",
+      "legacyId": 3430,
+      "id": 9276
+    },
+    {
+      "name": "Energy of Vaul",
+      "legacyId": 3473,
+      "id": 2302
+    },
+    {
+      "name": "Flames of the Phoenix",
+      "legacyId": 3467,
+      "id": 9309
+    },
+    {
+      "name": "Flee",
+      "legacyId": 3511,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 3448,
+      "id": 695
+    },
+    {
+      "name": "Radiant Burst",
+      "legacyId": 3461,
+      "id": 9289
+    },
+    {
+      "name": "Funnel Energy",
+      "legacyId": 3474,
+      "id": 9310
+    },
+    {
+      "name": "Funnel Essence",
+      "legacyId": 3459,
+      "id": 9258
+    },
+    {
+      "name": "Fury of Asuryan",
+      "legacyId": 3428,
+      "id": 9267
+    },
+    {
+      "name": "Gift of Life",
+      "legacyId": 3420,
+      "id": 9246
+    },
+    {
+      "name": "Golden Aura",
+      "legacyId": 3472,
+      "id": 9292
+    },
+    {
+      "name": "Healing Energy",
+      "legacyId": 3509,
+      "id": 9236
+    },
+    {
+      "name": "Hurried Restore",
+      "legacyId": 3433,
+      "id": 9279
+    },
+    {
+      "name": "Isha's Encouragement",
+      "legacyId": 3431,
+      "id": 9277
+    },
+    {
+      "name": "Isha's Ward",
+      "legacyId": 3438,
+      "id": 2858
+    },
+    {
+      "name": "Lambent Aura",
+      "legacyId": 3412,
+      "id": 9238
+    },
+    {
+      "name": "Law of Age",
+      "legacyId": 3429,
+      "id": 9252
+    },
+    {
+      "name": "Law of Conductivity",
+      "legacyId": 3411,
+      "id": 9239
+    },
+    {
+      "name": "Law of Gold",
+      "legacyId": 3471,
+      "id": 9253
+    },
+    {
+      "name": "Magical Infusion",
+      "legacyId": 3457,
+      "id": 9272
+    },
+    {
+      "name": "Master of Force",
+      "legacyId": 3434,
+      "id": 9280
+    },
+    {
+      "name": "Master of Tranquility",
+      "legacyId": 3432,
+      "id": 9278
+    },
+    {
+      "name": "Mistress of The Marsh",
+      "legacyId": 3455,
+      "id": 9251
+    },
+    {
+      "name": "Prismatic Shield",
+      "legacyId": 3416,
+      "id": 9248
+    },
+    {
+      "name": "Radiant Gaze",
+      "legacyId": 3421,
+      "id": 9264
+    },
+    {
+      "name": "Radiant Lance",
+      "legacyId": 3510,
+      "id": 9237
+    },
+    {
+      "name": "Rain Lord",
+      "legacyId": 3427,
+      "id": 9240
+    },
+    {
+      "name": "Rampaging Siphon",
+      "legacyId": 3446,
+      "id": 692
+    },
+    {
+      "name": "Restorative Burst",
+      "legacyId": 3444,
+      "id": 589
+    },
+    {
+      "name": "Run Between Worlds",
+      "legacyId": 3436,
+      "id": 9282
+    },
+    {
+      "name": "Scatter The Winds",
+      "legacyId": 3464,
+      "id": 9247
+    },
+    {
+      "name": "Searing Touch",
+      "legacyId": 3415,
+      "id": 9250
+    },
+    {
+      "name": "Shield of Saphery",
+      "legacyId": 3414,
+      "id": 9268
+    },
+    {
+      "name": "Steal Life",
+      "legacyId": 3447,
+      "id": 690
+    },
+    {
+      "name": "Storm of Cronos",
+      "legacyId": 3469,
+      "id": 9269
+    },
+    {
+      "name": "Subtlety",
+      "legacyId": 3443,
+      "id": 588
+    },
+    {
+      "name": "Transfer Force",
+      "legacyId": 3419,
+      "id": 9241
+    },
+    {
+      "name": "Transfer Magic",
+      "legacyId": 3435,
+      "id": 9281
+    },
+    {
+      "name": "Walk Between Worlds",
+      "legacyId": 3422,
+      "id": 9265
+    },
+    {
+      "name": "Wild Healing",
+      "legacyId": 3458,
+      "id": 9293
+    },
+    {
+      "name": "Wind Blast",
+      "legacyId": 3426,
+      "id": 9255
+    },
+    {
+      "name": "Winds' Protection",
+      "legacyId": 3460,
+      "id": 9308
+    },
+    {
+      "name": "Apotheosis",
+      "legacyId": 6103,
+      "id": 9297
+    },
+    {
+      "name": "Penetrating Siphon",
+      "legacyId": 6104,
+      "id": 2305
+    },
+    {
+      "name": "Khaine's Touch",
+      "legacyId": 2748,
+      "id": 2748
+    },
+    {
+      "name": "Absence of Faith",
+      "legacyId": 4190,
+      "id": 2200
+    },
+    {
+      "name": "Alter Fate",
+      "legacyId": 4169,
+      "id": 697
+    },
+    {
+      "name": "Avatar of Sigmar",
+      "legacyId": 4193,
+      "id": 8309
+    },
+    {
+      "name": "Bludgeon",
+      "legacyId": 4232,
+      "id": 8240
+    },
+    {
+      "name": "Breath of Sigmar",
+      "legacyId": 4139,
+      "id": 8248
+    },
+    {
+      "name": "Castigation",
+      "legacyId": 4134,
+      "id": 8257
+    },
+    {
+      "name": "Charged Fury",
+      "legacyId": 4150,
+      "id": 8277
+    },
+    {
+      "name": "Cleansing Power",
+      "legacyId": 4173,
+      "id": 8289
+    },
+    {
+      "name": "Discipline",
+      "legacyId": 4161,
+      "id": 592
+    },
+    {
+      "name": "Divine Aegis",
+      "legacyId": 4157,
+      "id": 8302
+    },
+    {
+      "name": "Divine Aid",
+      "legacyId": 4231,
+      "id": 8238
+    },
+    {
+      "name": "Divine Amazement",
+      "legacyId": 4186,
+      "id": 8310
+    },
+    {
+      "name": "Divine Assault",
+      "legacyId": 4137,
+      "id": 8244
+    },
+    {
+      "name": "Divine Favor",
+      "legacyId": 4164,
+      "id": 694
+    },
+    {
+      "name": "Divine Fury",
+      "legacyId": 4160,
+      "id": 585
+    },
+    {
+      "name": "Divine Justice",
+      "legacyId": 5890,
+      "id": 8279
+    },
+    {
+      "name": "Divine Light",
+      "legacyId": 4174,
+      "id": 8264
+    },
+    {
+      "name": "Divine Mend",
+      "legacyId": 4135,
+      "id": 8239
+    },
+    {
+      "name": "Divine Petitioning",
+      "legacyId": 4156,
+      "id": 8283
+    },
+    {
+      "name": "Divine Protection",
+      "legacyId": 4168,
+      "id": 696
+    },
+    {
+      "name": "Divine Replenishment",
+      "legacyId": 4158,
+      "id": 8303
+    },
+    {
+      "name": "Divine Shock",
+      "legacyId": 4148,
+      "id": 8254
+    },
+    {
+      "name": "Divine Warding",
+      "legacyId": 4177,
+      "id": 8288
+    },
+    {
+      "name": "Emperor's Ward",
+      "legacyId": 4170,
+      "id": 779
+    },
+    {
+      "name": "Endless Guilt",
+      "legacyId": 4187,
+      "id": 8294
+    },
+    {
+      "name": "Exalted Defenses",
+      "legacyId": 4153,
+      "id": 8280
+    },
+    {
+      "name": "Fanaticism",
+      "legacyId": 4189,
+      "id": 8293
+    },
+    {
+      "name": "Flee",
+      "legacyId": 4228,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 4167,
+      "id": 695
+    },
+    {
+      "name": "Fueled Fury",
+      "legacyId": 4155,
+      "id": 8282
+    },
+    {
+      "name": "Gift of Life",
+      "legacyId": 4179,
+      "id": 8308
+    },
+    {
+      "name": "Grace of Sigmar",
+      "legacyId": 4184,
+      "id": 2958
+    },
+    {
+      "name": "Greave of Sigmar",
+      "legacyId": 4180,
+      "id": 8291
+    },
+    {
+      "name": "Guilty Soul",
+      "legacyId": 4191,
+      "id": 2963
+    },
+    {
+      "name": "Hammer of Sigmar",
+      "legacyId": 4192,
+      "id": 2930
+    },
+    {
+      "name": "Hastened Divinity",
+      "legacyId": 4149,
+      "id": 8276
+    },
+    {
+      "name": "Healing Hand",
+      "legacyId": 4132,
+      "id": 8241
+    },
+    {
+      "name": "Intimidating Repent",
+      "legacyId": 4154,
+      "id": 8281
+    },
+    {
+      "name": "Judgement",
+      "legacyId": 4229,
+      "id": 8236
+    },
+    {
+      "name": "Leading the Prayer",
+      "legacyId": 4182,
+      "id": 8290
+    },
+    {
+      "name": "Martyr's Blessing",
+      "legacyId": 4178,
+      "id": 8266
+    },
+    {
+      "name": "Penance",
+      "legacyId": 4159,
+      "id": 8304
+    },
+    {
+      "name": "Pious Restoration",
+      "legacyId": 4176,
+      "id": 8265
+    },
+    {
+      "name": "Prayer of Absolution",
+      "legacyId": 4141,
+      "id": 8242
+    },
+    {
+      "name": "Prayer of Devotion",
+      "legacyId": 4133,
+      "id": 8249
+    },
+    {
+      "name": "Prayer of Righteousness",
+      "legacyId": 4143,
+      "id": 8243
+    },
+    {
+      "name": "Purge",
+      "legacyId": 4145,
+      "id": 8251
+    },
+    {
+      "name": "Purify",
+      "legacyId": 4142,
+      "id": 8246
+    },
+    {
+      "name": "Rampaging Siphon",
+      "legacyId": 4165,
+      "id": 692
+    },
+    {
+      "name": "Refreshing Radiance",
+      "legacyId": 4175,
+      "id": 8287
+    },
+    {
+      "name": "Repent",
+      "legacyId": 4136,
+      "id": 8245
+    },
+    {
+      "name": "Restorative Burst",
+      "legacyId": 4163,
+      "id": 589
+    },
+    {
+      "name": "Shield of Faith",
+      "legacyId": 4151,
+      "id": 8278
+    },
+    {
+      "name": "Sigmar's Favor",
+      "legacyId": 4172,
+      "id": 776
+    },
+    {
+      "name": "Sigmar's Fist",
+      "legacyId": 4131,
+      "id": 8253
+    },
+    {
+      "name": "Sigmar's Grace",
+      "legacyId": 4185,
+      "id": 8269
+    },
+    {
+      "name": "Sigmar's Radiance",
+      "legacyId": 4146,
+      "id": 2504
+    },
+    {
+      "name": "Sigmar's Shield",
+      "legacyId": 4183,
+      "id": 8267
+    },
+    {
+      "name": "Sigmar's Vision",
+      "legacyId": 4181,
+      "id": 8268
+    },
+    {
+      "name": "Smite",
+      "legacyId": 4140,
+      "id": 8250
+    },
+    {
+      "name": "Soulfire",
+      "legacyId": 4188,
+      "id": 2936
+    },
+    {
+      "name": "Steal Life",
+      "legacyId": 4166,
+      "id": 690
+    },
+    {
+      "name": "Subtlety",
+      "legacyId": 4162,
+      "id": 588
+    },
+    {
+      "name": "Supplication",
+      "legacyId": 4230,
+      "id": 8237
+    },
+    {
+      "name": "Touch of the Divine",
+      "legacyId": 4144,
+      "id": 8247
+    },
+    {
+      "name": "Unwavering Faith",
+      "legacyId": 4171,
+      "id": 777
+    },
+    {
+      "name": "Vow of Silence",
+      "legacyId": 4147,
+      "id": 8256
+    },
+    {
+      "name": "Weight of Guilt",
+      "legacyId": 4138,
+      "id": 8255
+    },
+    {
+      "name": "Divine Strike",
+      "legacyId": 7506,
+      "id": 2931
+    },
+    {
+      "name": "Sacrifice",
+      "legacyId": 7507,
+      "id": 2940
+    },
+    {
+      "name": "Divine Warden",
+      "legacyId": 7508,
+      "id": 2948
+    },
+    {
+      "name": "Shielding Grace",
+      "legacyId": 7509,
+      "id": 2947
+    },
+    {
+      "name": "Sigmar's Wrath",
+      "legacyId": 7510,
+      "id": 2937
+    },
+    {
+      "name": "Unstoppable Wrath",
+      "legacyId": 2960,
+      "id": 2960
+    },
+    {
+      "name": "Alter Fate",
+      "legacyId": 3864,
+      "id": 697
+    },
+    {
+      "name": "Ancestor's Blessing",
+      "legacyId": 3870,
+      "id": 1632
+    },
+    {
+      "name": "Ancestor's Echo",
+      "legacyId": 3886,
+      "id": 1639
+    },
+    {
+      "name": "Ancestral Inheritance",
+      "legacyId": 3867,
+      "id": 716
+    },
+    {
+      "name": "Blessing of Grungni",
+      "legacyId": 3847,
+      "id": 1624
+    },
+    {
+      "name": "Blessing of Valaya",
+      "legacyId": 3838,
+      "id": 1604
+    },
+    {
+      "name": "Cleanse War Engine",
+      "legacyId": 3890,
+      "id": 14415
+    },
+    {
+      "name": "Cleansing Vitality",
+      "legacyId": 3845,
+      "id": 1623
+    },
+    {
+      "name": "Concussive Runes",
+      "legacyId": 3884,
+      "id": 1638
+    },
+    {
+      "name": "Discipline",
+      "legacyId": 3856,
+      "id": 592
+    },
+    {
+      "name": "Divine Favor",
+      "legacyId": 3859,
+      "id": 694
+    },
+    {
+      "name": "Divine Fury",
+      "legacyId": 3855,
+      "id": 585
+    },
+    {
+      "name": "Divine Protection",
+      "legacyId": 3863,
+      "id": 696
+    },
+    {
+      "name": "Earth's Shielding",
+      "legacyId": 3877,
+      "id": 1636
+    },
+    {
+      "name": "Efficient Runecarving",
+      "legacyId": 3879,
+      "id": 1637
+    },
+    {
+      "name": "Extended Battle",
+      "legacyId": 3882,
+      "id": 1640
+    },
+    {
+      "name": "Flee",
+      "legacyId": 3923,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 3862,
+      "id": 695
+    },
+    {
+      "name": "Grimnir's Fury",
+      "legacyId": 3887,
+      "id": 1619
+    },
+    {
+      "name": "Grimnir's Shield",
+      "legacyId": 3839,
+      "id": 1592
+    },
+    {
+      "name": "Grungni's Gift",
+      "legacyId": 3925,
+      "id": 1587
+    },
+    {
+      "name": "Immolating Grasp",
+      "legacyId": 3875,
+      "id": 1635
+    },
+    {
+      "name": "Master Rune of Adamant",
+      "legacyId": 3883,
+      "id": 1618
+    },
+    {
+      "name": "Master Rune of Fury",
+      "legacyId": 3869,
+      "id": 1612
+    },
+    {
+      "name": "Master Rune of Speed",
+      "legacyId": 3876,
+      "id": 1615
+    },
+    {
+      "name": "Mountain Spirit",
+      "legacyId": 3853,
+      "id": 1644
+    },
+    {
+      "name": "Oath Rune of Iron",
+      "legacyId": 3834,
+      "id": 1600
+    },
+    {
+      "name": "Oath Rune of Power",
+      "legacyId": 3825,
+      "id": 1591
+    },
+    {
+      "name": "Oath Rune of Sanctuary",
+      "legacyId": 3843,
+      "id": 1608
+    },
+    {
+      "name": "Oath Rune of Warding",
+      "legacyId": 3831,
+      "id": 1588
+    },
+    {
+      "name": "On Your Feet!",
+      "legacyId": 3849,
+      "id": 1627
+    },
+    {
+      "name": "Potent Runes",
+      "legacyId": 3848,
+      "id": 1625
+    },
+    {
+      "name": "Protection of the Ancestors",
+      "legacyId": 3841,
+      "id": 1606
+    },
+    {
+      "name": "Rampaging Siphon",
+      "legacyId": 3860,
+      "id": 692
+    },
+    {
+      "name": "Regenerative Shielding",
+      "legacyId": 3846,
+      "id": 1622
+    },
+    {
+      "name": "Reinforce War Engine",
+      "legacyId": 3889,
+      "id": 14414
+    },
+    {
+      "name": "Restorative Burst",
+      "legacyId": 3858,
+      "id": 589
+    },
+    {
+      "name": "Rune of Battle",
+      "legacyId": 3885,
+      "id": 1617
+    },
+    {
+      "name": "Rune of Binding",
+      "legacyId": 3873,
+      "id": 1613
+    },
+    {
+      "name": "Rune of Breaking",
+      "legacyId": 3926,
+      "id": 1659
+    },
+    {
+      "name": "Rune of Burning",
+      "legacyId": 3878,
+      "id": 1614
+    },
+    {
+      "name": "Rune of Cleansing",
+      "legacyId": 3836,
+      "id": 1602
+    },
+    {
+      "name": "Rune of Cleaving",
+      "legacyId": 3837,
+      "id": 1597
+    },
+    {
+      "name": "Rune of Ending",
+      "legacyId": 3874,
+      "id": 1648
+    },
+    {
+      "name": "Rune of Fate",
+      "legacyId": 3880,
+      "id": 1616
+    },
+    {
+      "name": "Rune of Fire",
+      "legacyId": 3826,
+      "id": 1594
+    },
+    {
+      "name": "Rune of Fortune",
+      "legacyId": 3871,
+      "id": 1611
+    },
+    {
+      "name": "Rune of Immolation",
+      "legacyId": 3823,
+      "id": 1589
+    },
+    {
+      "name": "Rune of Insanity",
+      "legacyId": 3852,
+      "id": 1643
+    },
+    {
+      "name": "Rune of Life",
+      "legacyId": 3832,
+      "id": 1598
+    },
+    {
+      "name": "Rune of Mending",
+      "legacyId": 3833,
+      "id": 1599
+    },
+    {
+      "name": "Rune of Might",
+      "legacyId": 3829,
+      "id": 1603
+    },
+    {
+      "name": "Rune of Nullification",
+      "legacyId": 3872,
+      "id": 1633
+    },
+    {
+      "name": "Rune of Preservation",
+      "legacyId": 3828,
+      "id": 1595
+    },
+    {
+      "name": "Rune of Rebirth",
+      "legacyId": 3854,
+      "id": 1645
+    },
+    {
+      "name": "Rune of Regeneration",
+      "legacyId": 3824,
+      "id": 1590
+    },
+    {
+      "name": "Rune of Restoration",
+      "legacyId": 3830,
+      "id": 1596
+    },
+    {
+      "name": "Rune of Serenity",
+      "legacyId": 3835,
+      "id": 1601
+    },
+    {
+      "name": "Rune of Shielding",
+      "legacyId": 3827,
+      "id": 1593
+    },
+    {
+      "name": "Rune of Skewering",
+      "legacyId": 3888,
+      "id": 1650
+    },
+    {
+      "name": "Rune of Striking",
+      "legacyId": 3924,
+      "id": 1586
+    },
+    {
+      "name": "Rune of Sundering",
+      "legacyId": 3840,
+      "id": 1605
+    },
+    {
+      "name": "Runic Blasting",
+      "legacyId": 3868,
+      "id": 1634
+    },
+    {
+      "name": "Shield the Skies",
+      "legacyId": 3891,
+      "id": 14416
+    },
+    {
+      "name": "Spellbinding Rune",
+      "legacyId": 3842,
+      "id": 1607
+    },
+    {
+      "name": "Steal Life",
+      "legacyId": 3861,
+      "id": 690
+    },
+    {
+      "name": "Stoutness of Stone",
+      "legacyId": 3865,
+      "id": 713
+    },
+    {
+      "name": "Stubbornness",
+      "legacyId": 3866,
+      "id": 714
+    },
+    {
+      "name": "Subtlety",
+      "legacyId": 3857,
+      "id": 588
+    },
+    {
+      "name": "Sundered Motion",
+      "legacyId": 3850,
+      "id": 1628
+    },
+    {
+      "name": "Swift Runes",
+      "legacyId": 3844,
+      "id": 1626
+    },
+    {
+      "name": "Thick-Skulled",
+      "legacyId": 3851,
+      "id": 1629
+    },
+    {
+      "name": "Valaya's Shield",
+      "legacyId": 3881,
+      "id": 1649
+    },
+    {
+      "name": "Backlash",
+      "legacyId": 4795,
+      "id": 800
+    },
+    {
+      "name": "Bane Shield",
+      "legacyId": 4770,
+      "id": 8337
+    },
+    {
+      "name": "Blast Wave",
+      "legacyId": 4763,
+      "id": 8331
+    },
+    {
+      "name": "Challenge",
+      "legacyId": 4765,
+      "id": 8333
+    },
+    {
+      "name": "Champion's Challenge",
+      "legacyId": 4789,
+      "id": 608
+    },
+    {
+      "name": "Chaotic Advantage",
+      "legacyId": 4772,
+      "id": 8352
+    },
+    {
+      "name": "Cleave",
+      "legacyId": 4755,
+      "id": 8319
+    },
+    {
+      "name": "Corrupting Horror",
+      "legacyId": 4804,
+      "id": 8345
+    },
+    {
+      "name": "Corrupting Retribution",
+      "legacyId": 4764,
+      "id": 8332
+    },
+    {
+      "name": "Corrupting Wrath",
+      "legacyId": 4750,
+      "id": 8318
+    },
+    {
+      "name": "Corruptive Power",
+      "legacyId": 8357,
+      "id": 8357
+    },
+    {
+      "name": "Demolishing Strike",
+      "legacyId": 4787,
+      "id": 606
+    },
+    {
+      "name": "Destined For Victory",
+      "legacyId": 4779,
+      "id": 8359
+    },
+    {
+      "name": "Dire Shielding",
+      "legacyId": 4803,
+      "id": 8364
+    },
+    {
+      "name": "Discordant Fluctuation",
+      "legacyId": 4759,
+      "id": 8327
+    },
+    {
+      "name": "Discordant Instability",
+      "legacyId": 4753,
+      "id": 8321
+    },
+    {
+      "name": "Discordant Turbulence",
+      "legacyId": 4811,
+      "id": 8348
+    },
+    {
+      "name": "Distracting Bellow",
+      "legacyId": 4791,
+      "id": 610
+    },
+    {
+      "name": "Dizzying Blow",
+      "legacyId": 4756,
+      "id": 8324
+    },
+    {
+      "name": "Downfall",
+      "legacyId": 4806,
+      "id": 8346
+    },
+    {
+      "name": "Dreadful Agony",
+      "legacyId": 4767,
+      "id": 8334
+    },
+    {
+      "name": "Dreadful Fear",
+      "legacyId": 4748,
+      "id": 8316
+    },
+    {
+      "name": "Dreadful Terror",
+      "legacyId": 4797,
+      "id": 8342
+    },
+    {
+      "name": "Embrace the Winds",
+      "legacyId": 4814,
+      "id": 8369
+    },
+    {
+      "name": "Enraged Blow",
+      "legacyId": 4853,
+      "id": 8315
+    },
+    {
+      "name": "Feed on the Weary",
+      "legacyId": 4796,
+      "id": 8361
+    },
+    {
+      "name": "Flawless Armor",
+      "legacyId": 4773,
+      "id": 8353
+    },
+    {
+      "name": "Flee",
+      "legacyId": 4851,
+      "id": 245
+    },
+    {
+      "name": "Focused Offense",
+      "legacyId": 4783,
+      "id": 500
+    },
+    {
+      "name": "Guard",
+      "legacyId": 4757,
+      "id": 8325
+    },
+    {
+      "name": "Hastened Dismissal",
+      "legacyId": 4777,
+      "id": 8366
+    },
+    {
+      "name": "Hold The Line!",
+      "legacyId": 4758,
+      "id": 8326
+    },
+    {
+      "name": "Immaculate Defense",
+      "legacyId": 4792,
+      "id": 613
+    },
+    {
+      "name": "Impenetrable Armor",
+      "legacyId": 4782,
+      "id": 8378
+    },
+    {
+      "name": "Inevitable Changing",
+      "legacyId": 4780,
+      "id": 8371
+    },
+    {
+      "name": "Juggernaut",
+      "legacyId": 4760,
+      "id": 8330
+    },
+    {
+      "name": "Menace",
+      "legacyId": 4785,
+      "id": 504
+    },
+    {
+      "name": "Mixed Defenses",
+      "legacyId": 8365,
+      "id": 8365
+    },
+    {
+      "name": "Oppressing Blows",
+      "legacyId": 4800,
+      "id": 8363
+    },
+    {
+      "name": "Daemonclaw",
+      "legacyId": 2832,
+      "id": 2832
+    },
+    {
+      "name": "Oppression",
+      "legacyId": 4808,
+      "id": 8347
+    },
+    {
+      "name": "Petrify",
+      "legacyId": 4769,
+      "id": 8336
+    },
+    {
+      "name": "Piercing Repel",
+      "legacyId": 4776,
+      "id": 8356
+    },
+    {
+      "name": "Power from the Gods",
+      "legacyId": 4778,
+      "id": 8358
+    },
+    {
+      "name": "Quake",
+      "legacyId": 4813,
+      "id": 8349
+    },
+    {
+      "name": "Quickened Discord",
+      "legacyId": 4774,
+      "id": 8354
+    },
+    {
+      "name": "Ravage",
+      "legacyId": 4751,
+      "id": 8323
+    },
+    {
+      "name": "Raze",
+      "legacyId": 4790,
+      "id": 607
+    },
+    {
+      "name": "Relentless ",
+      "legacyId": 4799,
+      "id": 8343
+    },
+    {
+      "name": "Rending Blade",
+      "legacyId": 4801,
+      "id": 8344
+    },
+    {
+      "name": "Repel",
+      "legacyId": 4762,
+      "id": 8329
+    },
+    {
+      "name": "Rugged",
+      "legacyId": 4784,
+      "id": 503
+    },
+    {
+      "name": "Seeping Wound",
+      "legacyId": 4749,
+      "id": 8320
+    },
+    {
+      "name": "Sever Blessing",
+      "legacyId": 4766,
+      "id": 8339
+    },
+    {
+      "name": "Shatter Faith",
+      "legacyId": 4816,
+      "id": 8379
+    },
+    {
+      "name": "Shield Wall",
+      "legacyId": 4788,
+      "id": 611
+    },
+    {
+      "name": "Siphoned Energy",
+      "legacyId": 4810,
+      "id": 8367
+    },
+    {
+      "name": "Sprout Carapace",
+      "legacyId": 4809,
+      "id": 8373
+    },
+    {
+      "name": "Suppression",
+      "legacyId": 4768,
+      "id": 8335
+    },
+    {
+      "name": "Tainted Wound",
+      "legacyId": 4812,
+      "id": 8368
+    },
+    {
+      "name": "Taunt",
+      "legacyId": 4754,
+      "id": 8322
+    },
+    {
+      "name": "Throwing Axe",
+      "legacyId": 4852,
+      "id": 8314
+    },
+    {
+      "name": "Tooth of Tzeentch",
+      "legacyId": 4752,
+      "id": 8317
+    },
+    {
+      "name": "Touch of Palsy",
+      "legacyId": 4771,
+      "id": 8338
+    },
+    {
+      "name": "Tzeentch's Amplification",
+      "legacyId": 4781,
+      "id": 8372
+    },
+    {
+      "name": "Tzeentch's Reflection",
+      "legacyId": 4815,
+      "id": 8350
+    },
+    {
+      "name": "Tzeentch's Warding",
+      "legacyId": 4794,
+      "id": 798
+    },
+    {
+      "name": "Unstoppable Juggernaut",
+      "legacyId": 4786,
+      "id": 505
+    },
+    {
+      "name": "Warped Flesh",
+      "legacyId": 4793,
+      "id": 797
+    },
+    {
+      "name": "Warping Embrace",
+      "legacyId": 4802,
+      "id": 8377
+    },
+    {
+      "name": "Withering Blow",
+      "legacyId": 4761,
+      "id": 8328
+    },
+    {
+      "name": "Ain't Done Yet!",
+      "legacyId": 5292,
+      "id": 2751
+    },
+    {
+      "name": "Alter Fate",
+      "legacyId": 5307,
+      "id": 697
+    },
+    {
+      "name": "Big Waaagh!",
+      "legacyId": 5285,
+      "id": 1913
+    },
+    {
+      "name": "Bigger, Better, An' Greener",
+      "legacyId": 5275,
+      "id": 1904
+    },
+    {
+      "name": "Bleed Fer' Me",
+      "legacyId": 5276,
+      "id": 1912
+    },
+    {
+      "name": "Brain Bursta",
+      "legacyId": 5368,
+      "id": 1899
+    },
+    {
+      "name": "Breath of Mork",
+      "legacyId": 5296,
+      "id": 1965
+    },
+    {
+      "name": "Bunch o' Waaagh",
+      "legacyId": 5272,
+      "id": 1903
+    },
+    {
+      "name": "Burst O' Waaagh!",
+      "legacyId": 5287,
+      "id": 1938
+    },
+    {
+      "name": "Da Waaagh! Is Coming",
+      "legacyId": 5323,
+      "id": 1931
+    },
+    {
+      "name": "Dat Makes Me Dizzy",
+      "legacyId": 5290,
+      "id": 1941
+    },
+    {
+      "name": "Discipline",
+      "legacyId": 5299,
+      "id": 592
+    },
+    {
+      "name": "Divine Favor",
+      "legacyId": 5302,
+      "id": 694
+    },
+    {
+      "name": "Divine Fury",
+      "legacyId": 5298,
+      "id": 585
+    },
+    {
+      "name": "Divine Protection",
+      "legacyId": 5306,
+      "id": 696
+    },
+    {
+      "name": "Do Sumfin Useful",
+      "legacyId": 5316,
+      "id": 1926
+    },
+    {
+      "name": "Don' Feel Nuthin",
+      "legacyId": 5271,
+      "id": 1932
+    },
+    {
+      "name": "Eeeek!",
+      "legacyId": 5283,
+      "id": 1914
+    },
+    {
+      "name": "'Ere We Go!",
+      "legacyId": 5278,
+      "id": 1902
+    },
+    {
+      "name": "Ere We Goes Again",
+      "legacyId": 5318,
+      "id": 1957
+    },
+    {
+      "name": "Extra Special Mushrooms",
+      "legacyId": 5289,
+      "id": 1940
+    },
+    {
+      "name": "'Ey, Quit Bleedin'",
+      "legacyId": 5269,
+      "id": 1901
+    },
+    {
+      "name": "Feelz No Pain",
+      "legacyId": 5317,
+      "id": 1970
+    },
+    {
+      "name": "Fists of Gork",
+      "legacyId": 5324,
+      "id": 1971
+    },
+    {
+      "name": "Flee",
+      "legacyId": 5366,
+      "id": 245
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 5305,
+      "id": 695
+    },
+    {
+      "name": "Fury of Da Green",
+      "legacyId": 5330,
+      "id": 2102
+    },
+    {
+      "name": "Gather Round",
+      "legacyId": 5282,
+      "id": 1907
+    },
+    {
+      "name": "Geddoff!",
+      "legacyId": 5319,
+      "id": 1929
+    },
+    {
+      "name": "Gedup!",
+      "legacyId": 5277,
+      "id": 1908
+    },
+    {
+      "name": "Get Movin'!",
+      "legacyId": 5293,
+      "id": 1944
+    },
+    {
+      "name": "Git Outta Here!",
+      "legacyId": 5294,
+      "id": 1943
+    },
+    {
+      "name": "Scrub Ya Gud!",
+      "legacyId": 5311,
+      "id": 1958
+    },
+    {
+      "name": "Gork Sez Stop",
+      "legacyId": 5295,
+      "id": 1964
+    },
+    {
+      "name": "Gork'll Fix It",
+      "legacyId": 5367,
+      "id": 1898
+    },
+    {
+      "name": "Gork's Barbs'",
+      "legacyId": 5321,
+      "id": 1905
+    },
+    {
+      "name": "Green Cleanin'",
+      "legacyId": 5288,
+      "id": 1945
+    },
+    {
+      "name": "Greener 'n Cleaner",
+      "legacyId": 5280,
+      "id": 1906
+    },
+    {
+      "name": "Touch of Gork",
+      "legacyId": 2749,
+      "id": 2749
+    },
+    {
+      "name": "I'll Take That!",
+      "legacyId": 5270,
+      "id": 2100
+    },
+    {
+      "name": "Life Leaka",
+      "legacyId": 5268,
+      "id": 1900
+    },
+    {
+      "name": "Look Over There!",
+      "legacyId": 5274,
+      "id": 1918
+    },
+    {
+      "name": "Lookit What I Did!",
+      "legacyId": 5313,
+      "id": 1950
+    },
+    {
+      "name": "Mork Is Watchin'",
+      "legacyId": 5291,
+      "id": 1942
+    },
+    {
+      "name": "Mork's Buffer",
+      "legacyId": 5273,
+      "id": 1910
+    },
+    {
+      "name": "Mork's Touch",
+      "legacyId": 5320,
+      "id": 1954
+    },
+    {
+      "name": "Nuthin' But Da WAAAGH!",
+      "legacyId": 5329,
+      "id": 1949
+    },
+    {
+      "name": "Pass It On",
+      "legacyId": 5315,
+      "id": 1951
+    },
+    {
+      "name": "Rampaging Siphon",
+      "legacyId": 5303,
+      "id": 692
+    },
+    {
+      "name": "Restorative Burst",
+      "legacyId": 5301,
+      "id": 589
+    },
+    {
+      "name": "RUN AWAY!",
+      "legacyId": 5310,
+      "id": 758
+    },
+    {
+      "name": "Scuse Me!",
+      "legacyId": 5326,
+      "id": 1933
+    },
+    {
+      "name": "Shrug It Off",
+      "legacyId": 5314,
+      "id": 1928
+    },
+    {
+      "name": "Steal Life",
+      "legacyId": 5304,
+      "id": 690
+    },
+    {
+      "name": "Steal Yer Thunder",
+      "legacyId": 5331,
+      "id": 1972
+    },
+    {
+      "name": "Sticky Feetz",
+      "legacyId": 5312,
+      "id": 1927
+    },
+    {
+      "name": "Stop hittin' me!",
+      "legacyId": 5279,
+      "id": 1915
+    },
+    {
+      "name": "Subtlety",
+      "legacyId": 5300,
+      "id": 588
+    },
+    {
+      "name": "Too Smart For Dat",
+      "legacyId": 5309,
+      "id": 756
+    },
+    {
+      "name": "Waaagh! Frenzy",
+      "legacyId": 5325,
+      "id": 2105
+    },
+    {
+      "name": "Whazat Behind You?!",
+      "legacyId": 5308,
+      "id": 760
+    },
+    {
+      "name": "Get'n Smarter",
+      "legacyId": 5284,
+      "id": 1909
+    },
+    {
+      "name": "Yer Not So Bad",
+      "legacyId": 5281,
+      "id": 1911
+    },
+    {
+      "name": "You Got Nuthin!",
+      "legacyId": 5328,
+      "id": 1917
+    },
+    {
+      "name": "You Really Got Nuthin",
+      "legacyId": 5327,
+      "id": 1956
+    },
+    {
+      "name": "You Weren't Using Dat",
+      "legacyId": 5297,
+      "id": 1966
+    },
+    {
+      "name": "You'z Squishy",
+      "legacyId": 5286,
+      "id": 1916
+    },
+    {
+      "name": "Yer A Weaklin'",
+      "legacyId": 1934,
+      "id": 1934
+    },
+    {
+      "name": "Arm Breaka",
+      "legacyId": 4485,
+      "id": 1687
+    },
+    {
+      "name": "'Ave Another One",
+      "legacyId": 4460,
+      "id": 1700
+    },
+    {
+      "name": "Big Brawlin'",
+      "legacyId": 4500,
+      "id": 1718
+    },
+    {
+      "name": "Big Slash",
+      "legacyId": 4453,
+      "id": 1680
+    },
+    {
+      "name": "Big Swing",
+      "legacyId": 4458,
+      "id": 1672
+    },
+    {
+      "name": "Bring 'Em On",
+      "legacyId": 4465,
+      "id": 1702
+    },
+    {
+      "name": "Can Youz Hear Me Now?",
+      "legacyId": 4467,
+      "id": 1704
+    },
+    {
+      "name": "Can't Hit Me!",
+      "legacyId": 4494,
+      "id": 1692
+    },
+    {
+      "name": "Cant' Touch Us",
+      "legacyId": 4497,
+      "id": 1728
+    },
+    {
+      "name": "Challenge",
+      "legacyId": 4454,
+      "id": 1679
+    },
+    {
+      "name": "Champion's Challenge",
+      "legacyId": 4477,
+      "id": 608
+    },
+    {
+      "name": "Changin' Da Plan",
+      "legacyId": 4439,
+      "id": 1734
+    },
+    {
+      "name": "Clobber",
+      "legacyId": 4540,
+      "id": 1664
+    },
+    {
+      "name": "Da Big Un'",
+      "legacyId": 4444,
+      "id": 1678
+    },
+    {
+      "name": "Da Biggest!",
+      "legacyId": 4451,
+      "id": 1668
+    },
+    {
+      "name": "Da Greenest",
+      "legacyId": 4456,
+      "id": 1675
+    },
+    {
+      "name": "Da Toughest!",
+      "legacyId": 4440,
+      "id": 1673
+    },
+    {
+      "name": "Dat Was Great!",
+      "legacyId": 4463,
+      "id": 1703
+    },
+    {
+      "name": "Deafening Bellow!",
+      "legacyId": 4470,
+      "id": 1722
+    },
+    {
+      "name": "Demolishing Strike",
+      "legacyId": 4475,
+      "id": 606
+    },
+    {
+      "name": "Distracting Bellow",
+      "legacyId": 4479,
+      "id": 610
+    },
+    {
+      "name": "Don't Bother Me None",
+      "legacyId": 4482,
+      "id": 735
+    },
+    {
+      "name": "Down Ya Go",
+      "legacyId": 4496,
+      "id": 1688
+    },
+    {
+      "name": "Flee",
+      "legacyId": 4539,
+      "id": 245
+    },
+    {
+      "name": "Focused Offense",
+      "legacyId": 4471,
+      "id": 500
+    },
+    {
+      "name": "Follow 'me Lead",
+      "legacyId": 4441,
+      "id": 1667
+    },
+    {
+      "name": "Get 'Em",
+      "legacyId": 4446,
+      "id": 1684
+    },
+    {
+      "name": "Good Wif Shield",
+      "legacyId": 4462,
+      "id": 1705
+    },
+    {
+      "name": "Gork Smash!",
+      "legacyId": 4486,
+      "id": 1712
+    },
+    {
+      "name": "Guud at Big Choppin!",
+      "legacyId": 4488,
+      "id": 1713
+    },
+    {
+      "name": "Hold The Line!",
+      "legacyId": 4447,
+      "id": 1685
+    },
+    {
+      "name": "I'm Da Biggest!",
+      "legacyId": 4481,
+      "id": 734
+    },
+    {
+      "name": "Immaculate Defense",
+      "legacyId": 4480,
+      "id": 613
+    },
+    {
+      "name": "Juggernaut",
+      "legacyId": 4450,
+      "id": 1740
+    },
+    {
+      "name": "Keep It Goin'!",
+      "legacyId": 4484,
+      "id": 1711
+    },
+    {
+      "name": "Less Stabbin' Me",
+      "legacyId": 4491,
+      "id": 1714
+    },
+    {
+      "name": "Lob Choppa",
+      "legacyId": 4541,
+      "id": 1665
+    },
+    {
+      "name": "Lookin' For Opp'tunity",
+      "legacyId": 4461,
+      "id": 1701
+    },
+    {
+      "name": "Loudmouth",
+      "legacyId": 4466,
+      "id": 1706
+    },
+    {
+      "name": "Menace",
+      "legacyId": 4473,
+      "id": 504
+    },
+    {
+      "name": "Mor' Choppin' Dem!",
+      "legacyId": 7576,
+      "id": 2866
+    },
+    {
+      "name": "Mor' Hardcore",
+      "legacyId": 4495,
+      "id": 1716
+    },
+    {
+      "name": "No Choppin' Me",
+      "legacyId": 4502,
+      "id": 1719
+    },
+    {
+      "name": "Not in da face!",
+      "legacyId": 4487,
+      "id": 1691
+    },
+    {
+      "name": "Puddle o Muck",
+      "legacyId": 4490,
+      "id": 1727
+    },
+    {
+      "name": "Quit Yer Squabblin'",
+      "legacyId": 4468,
+      "id": 1721
+    },
+    {
+      "name": "Raze",
+      "legacyId": 4478,
+      "id": 607
+    },
+    {
+      "name": "Right in Da Jibblies",
+      "legacyId": 4445,
+      "id": 1682
+    },
+    {
+      "name": "Rock 'Ard",
+      "legacyId": 4501,
+      "id": 1694
+    },
+    {
+      "name": "Rugged",
+      "legacyId": 4472,
+      "id": 503
+    },
+    {
+      "name": "Save Da Runts",
+      "legacyId": 4448,
+      "id": 1674
+    },
+    {
+      "name": "Savin' Me Hide",
+      "legacyId": 4452,
+      "id": 1677
+    },
+    {
+      "name": "Shatter Enchantment",
+      "legacyId": 4455,
+      "id": 1733
+    },
+    {
+      "name": "Shield Wall",
+      "legacyId": 4476,
+      "id": 611
+    },
+    {
+      "name": "Shut Yer Face",
+      "legacyId": 4459,
+      "id": 1683
+    },
+    {
+      "name": "Skull Thumper",
+      "legacyId": 4438,
+      "id": 1676
+    },
+    {
+      "name": "Stab You Gooder",
+      "legacyId": 4483,
+      "id": 739
+    },
+    {
+      "name": "Stop Hittin' Da Runts",
+      "legacyId": 4493,
+      "id": 1715
+    },
+    {
+      "name": "Taunt",
+      "legacyId": 4443,
+      "id": 1671
+    },
+    {
+      "name": "T'ree Hit Combo",
+      "legacyId": 4489,
+      "id": 2810
+    },
+    {
+      "name": "Trip 'Em Up",
+      "legacyId": 4437,
+      "id": 1670
+    },
+    {
+      "name": "Tuffer 'n Nails",
+      "legacyId": 4442,
+      "id": 1669
+    },
+    {
+      "name": "Unstoppable Juggernaut",
+      "legacyId": 4474,
+      "id": 505
+    },
+    {
+      "name": "WAAAAAAAGH!",
+      "legacyId": 4503,
+      "id": 1695
+    },
+    {
+      "name": "Walk it off!",
+      "legacyId": 4469,
+      "id": 1723
+    },
+    {
+      "name": "We'z Bigger",
+      "legacyId": 4499,
+      "id": 2856
+    },
+    {
+      "name": "Where You Going?",
+      "legacyId": 4457,
+      "id": 1681
+    },
+    {
+      "name": "Wot armor?",
+      "legacyId": 4449,
+      "id": 1666
+    },
+    {
+      "name": "Ya Missed Me",
+      "legacyId": 4492,
+      "id": 1690
+    },
+    {
+      "name": "Yer Nothin",
+      "legacyId": 4504,
+      "id": 1729
+    },
+    {
+      "name": "You Got Nuffin'",
+      "legacyId": 4498,
+      "id": 1717
+    },
+    {
+      "name": "You Wot!?!!!",
+      "legacyId": 7575,
+      "id": 2851
+    },
+    {
+      "name": "Youz see me blok' dat'?!",
+      "legacyId": 4464,
+      "id": 1707
+    },
+    {
+      "name": "Big Slash",
+      "legacyId": 1680,
+      "id": 1680
+    },
+    {
+      "name": "Aegis of Orange Fire",
+      "legacyId": 5122,
+      "id": 8501
+    },
+    {
+      "name": "Agonizing Torrent",
+      "legacyId": 5120,
+      "id": 8500
+    },
+    {
+      "name": "Backlash",
+      "legacyId": 5104,
+      "id": 800
+    },
+    {
+      "name": "Baleful Transmogrification",
+      "legacyId": 5067,
+      "id": 8488
+    },
+    {
+      "name": "Bolt of Change",
+      "legacyId": 5108,
+      "id": 8496
+    },
+    {
+      "name": "Changer's Blessing",
+      "legacyId": 5107,
+      "id": 8516
+    },
+    {
+      "name": "Chaos Unleashed",
+      "legacyId": 5109,
+      "id": 8518
+    },
+    {
+      "name": "Chaotic Attunement ",
+      "legacyId": 5119,
+      "id": 8522
+    },
+    {
+      "name": "Chaotic Rift",
+      "legacyId": 5124,
+      "id": 8499
+    },
+    {
+      "name": "Close Quarters",
+      "legacyId": 5095,
+      "id": 569
+    },
+    {
+      "name": "Conduit of Chaos",
+      "legacyId": 5091,
+      "id": 8529
+    },
+    {
+      "name": "Daemonic Armor",
+      "legacyId": 5069,
+      "id": 8492
+    },
+    {
+      "name": "Daemonic Contract",
+      "legacyId": 5121,
+      "id": 8524
+    },
+    {
+      "name": "Daemonic Infestation",
+      "legacyId": 5073,
+      "id": 8541
+    },
+    {
+      "name": "Daemonic Lash",
+      "legacyId": 5063,
+      "id": 8472
+    },
+    {
+      "name": "Daemonic Maw",
+      "legacyId": 5162,
+      "id": 8484
+    },
+    {
+      "name": "Daemonic Pact",
+      "legacyId": 5123,
+      "id": 8523
+    },
+    {
+      "name": "Daemonic Reach",
+      "legacyId": 5114,
+      "id": 8520
+    },
+    {
+      "name": "Daemonic Resistance",
+      "legacyId": 5077,
+      "id": 8490
+    },
+    {
+      "name": "Daemonic Scream",
+      "legacyId": 5118,
+      "id": 8534
+    },
+    {
+      "name": "Daemonic Withering",
+      "legacyId": 5088,
+      "id": 8513
+    },
+    {
+      "name": "Devour Energy",
+      "legacyId": 5092,
+      "id": 568
+    },
+    {
+      "name": "Dissolving Mist",
+      "legacyId": 5117,
+      "id": 8494
+    },
+    {
+      "name": "Endless Knowledge",
+      "legacyId": 5093,
+      "id": 563
+    },
+    {
+      "name": "Endless Pandemonium",
+      "legacyId": 5112,
+      "id": 8519
+    },
+    {
+      "name": "Fiery Winds",
+      "legacyId": 5105,
+      "id": 8517
+    },
+    {
+      "name": "Firewyrm of Tzeentch",
+      "legacyId": 5125,
+      "id": 8535
+    },
+    {
+      "name": "Flame's Kiss",
+      "legacyId": 5083,
+      "id": 8507
+    },
+    {
+      "name": "Flee",
+      "legacyId": 5160,
+      "id": 245
+    },
+    {
+      "name": "Flickering Red Fire",
+      "legacyId": 5161,
+      "id": 8470
+    },
+    {
+      "name": "Focused Mind",
+      "legacyId": 5099,
+      "id": 674
+    },
+    {
+      "name": "Glean Magic",
+      "legacyId": 5062,
+      "id": 8482
+    },
+    {
+      "name": "Grasping Darkness",
+      "legacyId": 5089,
+      "id": 8527
+    },
+    {
+      "name": "Horrifying Visions",
+      "legacyId": 5065,
+      "id": 8477
+    },
+    {
+      "name": "Indigo Fire of Change",
+      "legacyId": 5115,
+      "id": 8502
+    },
+    {
+      "name": "Infernal Blast",
+      "legacyId": 5061,
+      "id": 8487
+    },
+    {
+      "name": "Infernal Flesh",
+      "legacyId": 5081,
+      "id": 8512
+    },
+    {
+      "name": "Infernal Pain",
+      "legacyId": 5085,
+      "id": 8510
+    },
+    {
+      "name": "Instability ",
+      "legacyId": 5076,
+      "id": 8481
+    },
+    {
+      "name": "Lasting Chaos",
+      "legacyId": 5084,
+      "id": 8509
+    },
+    {
+      "name": "Mage Bolt",
+      "legacyId": 5096,
+      "id": 670
+    },
+    {
+      "name": "Misdirection",
+      "legacyId": 5098,
+      "id": 673
+    },
+    {
+      "name": "Mutating Blue Fire",
+      "legacyId": 5079,
+      "id": 8486
+    },
+    {
+      "name": "Pandemonium",
+      "legacyId": 5072,
+      "id": 8489
+    },
+    {
+      "name": "Perils of The Warp",
+      "legacyId": 5106,
+      "id": 8495
+    },
+    {
+      "name": "Rend Winds",
+      "legacyId": 5058,
+      "id": 8471
+    },
+    {
+      "name": "Resummon",
+      "legacyId": 5075,
+      "id": 8542
+    },
+    {
+      "name": "Roiling Winds",
+      "legacyId": 5090,
+      "id": 8528
+    },
+    {
+      "name": "Scintillating Energy",
+      "legacyId": 5100,
+      "id": 671
+    },
+    {
+      "name": "Seed of Chaos",
+      "legacyId": 5113,
+      "id": 8497
+    },
+    {
+      "name": "Strengthen Thrall",
+      "legacyId": 5059,
+      "id": 8473
+    },
+    {
+      "name": "Siphon Power",
+      "legacyId": 5097,
+      "id": 669
+    },
+    {
+      "name": "Sleight of Hand",
+      "legacyId": 5094,
+      "id": 567
+    },
+    {
+      "name": "Soul Leak",
+      "legacyId": 5111,
+      "id": 8533
+    },
+    {
+      "name": "Summon Blue Horror",
+      "legacyId": 5064,
+      "id": 8476
+    },
+    {
+      "name": "Summon Flamer",
+      "legacyId": 5066,
+      "id": 8478
+    },
+    {
+      "name": "Summon Pink Horror",
+      "legacyId": 5060,
+      "id": 8474
+    },
+    {
+      "name": "Surge of Insanity ",
+      "legacyId": 5071,
+      "id": 8475
+    },
+    {
+      "name": "Surging Power",
+      "legacyId": 5086,
+      "id": 8511
+    },
+    {
+      "name": "Surging Violet Fire",
+      "legacyId": 5068,
+      "id": 8479
+    },
+    {
+      "name": "Swift Flames",
+      "legacyId": 5087,
+      "id": 8508
+    },
+    {
+      "name": "Tzeentch's Firestorm",
+      "legacyId": 5110,
+      "id": 8498
+    },
+    {
+      "name": "Tzeentch's Grasp",
+      "legacyId": 5070,
+      "id": 8480
+    },
+    {
+      "name": "Tzeentch's Warding",
+      "legacyId": 5103,
+      "id": 798
+    },
+    {
+      "name": "Unearthly Shriek",
+      "legacyId": 5082,
+      "id": 8506
+    },
+    {
+      "name": "Unleash the Winds",
+      "legacyId": 5101,
+      "id": 672
+    },
+    {
+      "name": "Warped Flesh",
+      "legacyId": 5102,
+      "id": 797
+    },
+    {
+      "name": "Warpfire",
+      "legacyId": 5080,
+      "id": 8485
+    },
+    {
+      "name": "Warping Blast",
+      "legacyId": 5074,
+      "id": 8483
+    },
+    {
+      "name": "Wild Changing",
+      "legacyId": 5116,
+      "id": 8521
+    },
+    {
+      "name": "Withered Soul",
+      "legacyId": 5078,
+      "id": 8491
+    },
+    {
+      "name": "Axe Toss",
+      "legacyId": 4331,
+      "id": 9158
+    },
+    {
+      "name": "Baiting Strike",
+      "legacyId": 4238,
+      "id": 9166
+    },
+    {
+      "name": "Bend the Winds",
+      "legacyId": 4274,
+      "id": 819
+    },
+    {
+      "name": "Blade And Claw",
+      "legacyId": 4282,
+      "id": 9230
+    },
+    {
+      "name": "Blindside",
+      "legacyId": 4233,
+      "id": 9161
+    },
+    {
+      "name": "Blindsided!",
+      "legacyId": 4283,
+      "id": 9212
+    },
+    {
+      "name": "Broad Swings",
+      "legacyId": 4271,
+      "id": 629
+    },
+    {
+      "name": "Pack Synergy",
+      "legacyId": 9198,
+      "id": 9198
+    },
+    {
+      "name": "Brute Force",
+      "legacyId": 4264,
+      "id": 521
+    },
+    {
+      "name": "Bypass Defenses",
+      "legacyId": 4297,
+      "id": 14423
+    },
+    {
+      "name": "Call War Lion",
+      "legacyId": 4332,
+      "id": 9159
+    },
+    {
+      "name": "Centuries of Training",
+      "legacyId": 4273,
+      "id": 818
+    },
+    {
+      "name": "Charge!",
+      "legacyId": 4242,
+      "id": 9184
+    },
+    {
+      "name": "Cleave Limb",
+      "legacyId": 4243,
+      "id": 9170
+    },
+    {
+      "name": "Close Bond",
+      "legacyId": 4259,
+      "id": 9205
+    },
+    {
+      "name": "Confusing Movements",
+      "legacyId": 4269,
+      "id": 631
+    },
+    {
+      "name": "Coordinated Strike",
+      "legacyId": 4235,
+      "id": 9163
+    },
+    {
+      "name": "Cull The Weak",
+      "legacyId": 4286,
+      "id": 9190
+    },
+    {
+      "name": "Discerning Offense",
+      "legacyId": 4275,
+      "id": 823
+    },
+    {
+      "name": "Dominance",
+      "legacyId": 4262,
+      "id": 9226
+    },
+    {
+      "name": "Echoing Roar",
+      "legacyId": 4291,
+      "id": 9187
+    },
+    {
+      "name": "Ensnare",
+      "legacyId": 4260,
+      "id": 9224
+    },
+    {
+      "name": "Feline Grace",
+      "legacyId": 4246,
+      "id": 9173
+    },
+    {
+      "name": "Fetch!",
+      "legacyId": 4251,
+      "id": 9178
+    },
+    {
+      "name": "Fey Illusion",
+      "legacyId": 4248,
+      "id": 9175
+    },
+    {
+      "name": "Flanking",
+      "legacyId": 4265,
+      "id": 523
+    },
+    {
+      "name": "Flashing Claws",
+      "legacyId": 4254,
+      "id": 9200
+    },
+    {
+      "name": "Flee",
+      "legacyId": 4334,
+      "id": 245
+    },
+    {
+      "name": "Flying Axe",
+      "legacyId": 4261,
+      "id": 9225
+    },
+    {
+      "name": "Force of Will",
+      "legacyId": 4268,
+      "id": 628
+    },
+    {
+      "name": "Force Opportunity",
+      "legacyId": 4279,
+      "id": 9192
+    },
+    {
+      "name": "Frenzied Slaughter",
+      "legacyId": 4272,
+      "id": 630
+    },
+    {
+      "name": "Full-Grown",
+      "legacyId": 4287,
+      "id": 9214
+    },
+    {
+      "name": "Hack",
+      "legacyId": 4333,
+      "id": 9160
+    },
+    {
+      "name": "Jagged Edge",
+      "legacyId": 4263,
+      "id": 526
+    },
+    {
+      "name": "Joy of the Hunt",
+      "legacyId": 4289,
+      "id": 9231
+    },
+    {
+      "name": "Leonine Frenzy",
+      "legacyId": 4295,
+      "id": 9194
+    },
+    {
+      "name": "Lionheart",
+      "legacyId": 4276,
+      "id": 9209
+    },
+    {
+      "name": "Lion's Fury",
+      "legacyId": 4239,
+      "id": 9167
+    },
+    {
+      "name": "Loner",
+      "legacyId": 4256,
+      "id": 9202
+    },
+    {
+      "name": "Nature's Bond",
+      "legacyId": 4236,
+      "id": 9164
+    },
+    {
+      "name": "Pack Assault",
+      "legacyId": 4247,
+      "id": 9174
+    },
+    {
+      "name": "Pack Hunting",
+      "legacyId": 4278,
+      "id": 9210
+    },
+    {
+      "name": "Pack Synergy",
+      "legacyId": 4252,
+      "id": 9198
+    },
+    {
+      "name": "Pounce",
+      "legacyId": 4277,
+      "id": 9186
+    },
+    {
+      "name": "Primal Fury",
+      "legacyId": 4284,
+      "id": 9189
+    },
+    {
+      "name": "Rampage",
+      "legacyId": 4296,
+      "id": 9232
+    },
+    {
+      "name": "Relentless Assault",
+      "legacyId": 4270,
+      "id": 633
+    },
+    {
+      "name": "Revenge!",
+      "legacyId": 4255,
+      "id": 9201
+    },
+    {
+      "name": "Riposte",
+      "legacyId": 4266,
+      "id": 528
+    },
+    {
+      "name": "Sever Nerve",
+      "legacyId": 4267,
+      "id": 627
+    },
+    {
+      "name": "Shattering Blow",
+      "legacyId": 4244,
+      "id": 9171
+    },
+    {
+      "name": "Slashing Blade",
+      "legacyId": 4249,
+      "id": 9176
+    },
+    {
+      "name": "Speed Training",
+      "legacyId": 4253,
+      "id": 9199
+    },
+    {
+      "name": "Submission",
+      "legacyId": 4241,
+      "id": 9169
+    },
+    {
+      "name": "Sundering Chop",
+      "legacyId": 4237,
+      "id": 9165
+    },
+    {
+      "name": "Tearing Blade",
+      "legacyId": 4258,
+      "id": 9204
+    },
+    {
+      "name": "Thin The Herd",
+      "legacyId": 4288,
+      "id": 9191
+    },
+    {
+      "name": "Throat Bite",
+      "legacyId": 4250,
+      "id": 9177
+    },
+    {
+      "name": "Trained To Hunt",
+      "legacyId": 4245,
+      "id": 9172
+    },
+    {
+      "name": "Trained To Kill",
+      "legacyId": 4240,
+      "id": 9162
+    },
+    {
+      "name": "Trained To Threaten",
+      "legacyId": 4234,
+      "id": 9168
+    },
+    {
+      "name": "Whirling Axe",
+      "legacyId": 4281,
+      "id": 9188
+    },
+    {
+      "name": "Brutal Pounce",
+      "legacyId": 4293,
+      "id": 9193
+    },
+    {
+      "name": "Calming Presence",
+      "legacyId": 9203,
+      "id": 9203
+    },
+    {
+      "name": "Furious Mending",
+      "legacyId": 4292,
+      "id": 9216
+    },
+    {
+      "name": "Stalker",
+      "legacyId": 4290,
+      "id": 9215
+    },
+    {
+      "name": "Stalker",
+      "legacyId": 4298,
+      "id": 9215
+    },
+    {
+      "name": "Hack and Slash",
+      "legacyId": 4280,
+      "id": 2929
+    },
+    {
+      "name": "Threatening Distraction",
+      "legacyId": 4285,
+      "id": 9213
+    },
+    {
+      "name": "Baited Trap",
+      "legacyId": 4294,
+      "id": 9217
+    },
+    {
+      "name": "All Out Assault!",
+      "legacyId": 3064,
+      "id": 8022
+    },
+    {
+      "name": "Arcing Swing",
+      "legacyId": 3067,
+      "id": 8026
+    },
+    {
+      "name": "Banish Darkness",
+      "legacyId": 3073,
+      "id": 8047
+    },
+    {
+      "name": "Bellow Commands",
+      "legacyId": 3074,
+      "id": 8048
+    },
+    {
+      "name": "Biting Blade",
+      "legacyId": 3070,
+      "id": 8044
+    },
+    {
+      "name": "Blazing Blade",
+      "legacyId": 3048,
+      "id": 8007
+    },
+    {
+      "name": "Challenge",
+      "legacyId": 3061,
+      "id": 8021
+    },
+    {
+      "name": "Champion's Challenge",
+      "legacyId": 3085,
+      "id": 608
+    },
+    {
+      "name": "Coordination",
+      "legacyId": 3099,
+      "id": 8056
+    },
+    {
+      "name": "Crippling Blow",
+      "legacyId": 3053,
+      "id": 8012
+    },
+    {
+      "name": "Demolishing Strike",
+      "legacyId": 3083,
+      "id": 606
+    },
+    {
+      "name": "Dirty Tricks",
+      "legacyId": 3101,
+      "id": 8057
+    },
+    {
+      "name": "Distracting Bellow",
+      "legacyId": 3087,
+      "id": 610
+    },
+    {
+      "name": "Efficient Swings",
+      "legacyId": 3096,
+      "id": 8053
+    },
+    {
+      "name": "Emperor's Champion",
+      "legacyId": 3077,
+      "id": 8070
+    },
+    {
+      "name": "Emperor's Ward",
+      "legacyId": 3089,
+      "id": 779
+    },
+    {
+      "name": "Overpowering Swing",
+      "legacyId": 3094,
+      "id": 8054
+    },
+    {
+      "name": "Flawless Defense",
+      "legacyId": 3105,
+      "id": 8075
+    },
+    {
+      "name": "Flee",
+      "legacyId": 3147,
+      "id": 245
+    },
+    {
+      "name": "Focused Mending",
+      "legacyId": 3108,
+      "id": 8060
+    },
+    {
+      "name": "Focused Offense",
+      "legacyId": 3079,
+      "id": 500
+    },
+    {
+      "name": "Gather Your Resolve!",
+      "legacyId": 3049,
+      "id": 8008
+    },
+    {
+      "name": "Gilded Shield",
+      "legacyId": 3069,
+      "id": 8042
+    },
+    {
+      "name": "Guard",
+      "legacyId": 3055,
+      "id": 8013
+    },
+    {
+      "name": "Guardian of Light",
+      "legacyId": 3076,
+      "id": 8068
+    },
+    {
+      "name": "Heaven's Fury",
+      "legacyId": 3109,
+      "id": 8038
+    },
+    {
+      "name": "Hold The Line!",
+      "legacyId": 3054,
+      "id": 1378
+    },
+    {
+      "name": "Immaculate Defense",
+      "legacyId": 3088,
+      "id": 613
+    },
+    {
+      "name": "Juggernaut",
+      "legacyId": 3057,
+      "id": 8019
+    },
+    {
+      "name": "Laurels of Victory",
+      "legacyId": 3103,
+      "id": 8058
+    },
+    {
+      "name": "Menace",
+      "legacyId": 3081,
+      "id": 504
+    },
+    {
+      "name": "Myrmidia's Fury",
+      "legacyId": 3095,
+      "id": 8031
+    },
+    {
+      "name": "No Escape",
+      "legacyId": 3078,
+      "id": 8069
+    },
+    {
+      "name": "Nova Strike",
+      "legacyId": 3098,
+      "id": 8074
+    },
+    {
+      "name": "Now's Our Chance!",
+      "legacyId": 3107,
+      "id": 8036
+    },
+    {
+      "name": "On Your Guard!",
+      "legacyId": 3056,
+      "id": 8015
+    },
+    {
+      "name": "Perseverance",
+      "legacyId": 3058,
+      "id": 8016
+    },
+    {
+      "name": "Precision Strike",
+      "legacyId": 3046,
+      "id": 8005
+    },
+    {
+      "name": "Press The Attack!",
+      "legacyId": 3045,
+      "id": 8004
+    },
+    {
+      "name": "Raze",
+      "legacyId": 3086,
+      "id": 607
+    },
+    {
+      "name": "Repel Darkness",
+      "legacyId": 3059,
+      "id": 8017
+    },
+    {
+      "name": "Rugged",
+      "legacyId": 3080,
+      "id": 503
+    },
+    {
+      "name": "Runefang",
+      "legacyId": 3068,
+      "id": 8043
+    },
+    {
+      "name": "Shackle",
+      "legacyId": 3065,
+      "id": 8024
+    },
+    {
+      "name": "Shatter Confidence",
+      "legacyId": 3063,
+      "id": 8023
+    },
+    {
+      "name": "Shield of the Sun",
+      "legacyId": 3066,
+      "id": 8025
+    },
+    {
+      "name": "Shield Rush",
+      "legacyId": 3052,
+      "id": 8011
+    },
+    {
+      "name": "Shield Wall",
+      "legacyId": 3084,
+      "id": 611
+    },
+    {
+      "name": "Shining Blade",
+      "legacyId": 3060,
+      "id": 8035
+    },
+    {
+      "name": "Sigmar's Favor",
+      "legacyId": 3091,
+      "id": 776
+    },
+    {
+      "name": "Slice Through",
+      "legacyId": 3092,
+      "id": 8055
+    },
+    {
+      "name": "Smashing Counter",
+      "legacyId": 3102,
+      "id": 8018
+    },
+    {
+      "name": "Solar Flare",
+      "legacyId": 3112,
+      "id": 8076
+    },
+    {
+      "name": "Staggering Impact",
+      "legacyId": 3097,
+      "id": 8032
+    },
+    {
+      "name": "Stand Strong!",
+      "legacyId": 3047,
+      "id": 8006
+    },
+    {
+      "name": "Stay Focused!",
+      "legacyId": 3062,
+      "id": 8020
+    },
+    {
+      "name": "Sunder",
+      "legacyId": 3148,
+      "id": 8002
+    },
+    {
+      "name": "Sunfury",
+      "legacyId": 3106,
+      "id": 8059
+    },
+    {
+      "name": "Sun's Blessing",
+      "legacyId": 3071,
+      "id": 8045
+    },
+    {
+      "name": "Taunt",
+      "legacyId": 3051,
+      "id": 8010
+    },
+    {
+      "name": "Throw Blade",
+      "legacyId": 3149,
+      "id": 8003
+    },
+    {
+      "name": "To Glory!",
+      "legacyId": 3093,
+      "id": 8030
+    },
+    {
+      "name": "To Victory!",
+      "legacyId": 3100,
+      "id": 8033
+    },
+    {
+      "name": "Unbalancing Attack",
+      "legacyId": 3111,
+      "id": 8037
+    },
+    {
+      "name": "Unstoppable Juggernaut",
+      "legacyId": 3082,
+      "id": 505
+    },
+    {
+      "name": "Unwavering Faith",
+      "legacyId": 3090,
+      "id": 777
+    },
+    {
+      "name": "Vicious Slash",
+      "legacyId": 3050,
+      "id": 8009
+    },
+    {
+      "name": "Vigilance",
+      "legacyId": 3104,
+      "id": 8034
+    },
+    {
+      "name": "Well-Trained",
+      "legacyId": 3072,
+      "id": 8046
+    }
+  ]
+}
