@@ -69,20 +69,20 @@ export type LegacyAbility = {
 
 const legacyData: LegacyData = { abilities: legacyAbilitiesData.abilities };
 
-const legacyAbilitiesToNewAbilities: Map<number, number> =
-  legacyData.abilities.reduce(
-    (map, obj) => map.set(obj.legacyId, obj.id),
-    new Map(),
-  );
+const legacyAbilitiesToNewAbilities = new Map(
+  legacyData.abilities.map((object) => {
+    return [object.legacyId, object.id];
+  }),
+);
 
-export function getAbilityIdsFromLegacy(legacyIds: number[]): number[] {
-  const translatedIds: number[] = legacyIds;
-  for (let i = 0; i < legacyIds.length; i += 1) {
-    const abilityId = legacyIds[i];
-    const matchingAbilityId = legacyAbilitiesToNewAbilities.get(abilityId);
-    if (matchingAbilityId !== undefined) {
-      translatedIds[i] = matchingAbilityId;
-    }
+export function getAbilityIdFromLegacy(id: number): number {
+  return legacyAbilitiesToNewAbilities.get(id) ?? id;
+}
+
+export function getAbilityIdsFromLegacy(ids: number[]): number[] {
+  const translatedIds: number[] = [];
+  for (let i = 0; i < ids.length; i += 1) {
+    translatedIds.push(getAbilityIdFromLegacy(ids[i]));
   }
   return translatedIds;
 }

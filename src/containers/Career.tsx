@@ -71,7 +71,10 @@ import Mastery from './Mastery';
 import ActionButtons from './ActionButtons';
 
 import { State } from '../reducers';
-import { getAbilityIdsFromLegacy } from '../helpers/abilities';
+import {
+  getAbilityIdFromLegacy,
+  getAbilityIdsFromLegacy,
+} from '../helpers/abilities';
 
 function mapStateToProps({
   sidebar,
@@ -226,16 +229,16 @@ class Career extends Component<Props> {
       this.props.setMasteryTactics(getAbilityIdsFromQuery(mt));
     }
     if (m1) {
-      this.props.selectMorale1(m1);
+      this.props.selectMorale1(getAbilityIdFromLegacy(m1));
     }
     if (m2) {
-      this.props.selectMorale2(m2);
+      this.props.selectMorale2(getAbilityIdFromLegacy(m2));
     }
     if (m3) {
-      this.props.selectMorale3(m3);
+      this.props.selectMorale3(getAbilityIdFromLegacy(m3));
     }
     if (m4) {
-      this.props.selectMorale4(m4);
+      this.props.selectMorale4(getAbilityIdFromLegacy(m4));
     }
     if (t) {
       this.props.setSelectedTactics(getAbilityIdsFromQuery(t));
