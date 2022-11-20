@@ -1,4 +1,4 @@
-#Return of Reckoning (RoR) Career Builder
+# Return of Reckoning (RoR) Career Builder
 
 Repository for the RoR Career Builder web app. An online resource for players of the independently run reboot of Warhammer: Age of Reckoning, now known as [Return of Reckoning](https://www.returnofreckoning.com/).
 
@@ -14,7 +14,7 @@ Other assets utilised are:
 
 You can see the the RoR Career Builder in action at: [http://ror.builders](http://ror.builders)
 
-##Instructions
+## Instructions
 
 - Clone the repository to a destination of your choice.
 - At the destination folder, install the assets using npm:
