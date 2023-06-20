@@ -351,7 +351,7 @@ class AbilityMastery extends Component<
         this.state.selected && this.props.data.abilityType === 'tactic',
     });
 
-    const imgSrc = `../../images/abilities/${this.props.data.image}.png`;
+    const imgSrc = this.props.data.image;
     const popoverContent = (
       <PopoverAbility data={this.props.data} imgSrc={imgSrc} />
     );

@@ -44,7 +44,7 @@ const Ability = ({
     [css.image]: status,
     [css.imageInactive]: !status,
   });
-  const imgSrc = `../../images/abilities/${data.image}.png`;
+  const imgSrc = data.image;
   const popoverContent = <PopoverAbility data={data} imgSrc={imgSrc} />;
   return (
     <div className={abilityClass}>

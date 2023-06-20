@@ -102,7 +102,7 @@ class AbilityTactic extends Component<
       [css.image]: this.state.status,
       [css.imageInactive]: !this.state.status,
     });
-    const imgSrc = `../../images/abilities/${this.props.data.image}.png`;
+    const imgSrc = this.props.data.image;
     const popoverContent = (
       <PopoverAbility data={this.props.data} imgSrc={imgSrc} />
     );
