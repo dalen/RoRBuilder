@@ -19,6 +19,7 @@ export type Mastery = {
 };
 
 export type Career = {
+  coreAbilities: number[];
   mastery: {
     a: Mastery;
     b: Mastery;

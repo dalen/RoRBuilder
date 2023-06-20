@@ -13,7 +13,7 @@ function indexedAbilities(abilities: Ability[]) {
   return _.mapKeys(abilities, 'id');
 }
 
-function structureAbilities(abilities: Ability[]) {
+function structureAbilities(abilities: Ability[], coreAbilities: number[]) {
   const obj: {
     coreAbilities: number[];
     coreMorales1: number[];
@@ -35,7 +35,7 @@ function structureAbilities(abilities: Ability[]) {
   for (let i = 0; i < abilities.length; i += 1) {
     const ability = abilities[i];
     ability.abilityType = getAbilityType(ability.category);
-    if (ability.spec === 'Core Ability') {
+    if (coreAbilities.includes(ability.id)) {
       switch (ability.abilityType) {
         case 'standard':
           obj.coreAbilities.push(ability.id);
@@ -113,7 +113,10 @@ function formatData(originalObject: Career) {
 
   return {
     mastery: originalObject.mastery,
-    structured: structureAbilities(originalObject.data),
+    structured: structureAbilities(
+      originalObject.data,
+      originalObject.coreAbilities,
+    ),
     indexed,
   };
 }
