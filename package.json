@@ -102,8 +102,8 @@
       "react/function-component-definition": [
         "error",
         {
-            "namedComponents": "arrow-function",
-            "unnamedComponents": "arrow-function"
+          "namedComponents": "arrow-function",
+          "unnamedComponents": "arrow-function"
         }
       ]
     },
@@ -113,7 +113,7 @@
           "./src/reducers/**/*.ts"
         ],
         "rules": {
-          "default-param-last" : "off"
+          "default-param-last": "off"
         }
       }
     ],
