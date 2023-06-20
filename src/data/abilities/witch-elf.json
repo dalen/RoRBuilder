@@ -21,18 +21,17 @@
     633,
     9414,
     9433,
-    2715,
     9413,
-    6050,
+    9440,
     840,
     629,
     523,
-    6033,
+    530,
+    9434,
     9458,
     528,
     9436,
     9459,
-    522,
     9435,
     9701,
     9437,
@@ -53,7 +52,7 @@
         "lvl2": 9420,
         "lvl3": 9445,
         "lvl4": 9421,
-        "lvl5": 2991,
+        "lvl5": 9441,
         "lvl6": 9422,
         "lvl7": 9464
       },
@@ -72,7 +71,7 @@
       },
       "optionalAbilities": {
         "lvl1": 9447,
-        "lvl2": 2999,
+        "lvl2": 9429,
         "lvl3": 9446,
         "lvl4": 9424,
         "lvl5": 9448,
@@ -98,7 +97,7 @@
         "lvl3": 9450,
         "lvl4": 9427,
         "lvl5": 9451,
-        "lvl6": 2990,
+        "lvl6": 9428,
         "lvl7": 9466
       },
       "coreAbilities": [
@@ -213,7 +212,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Your unearthly Elven beauty Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "Your unearthly Elven beauty Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.  You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
     {
@@ -257,8 +256,8 @@
       "range": "Self",
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
-      "note": "",
-      "description": "You prowl through the shadows, making it less likely that hostile monsters will notice you but slowly draining away your action points.  This effect will end if you use any abilities or run out of action points.",
+      "note": "Grants Prowling",
+      "description": "You prowl through the shadows, making it less likely that hostile monsters will notice you but draining away 5 action points each second.  This effect will end if you use any abilities or run out of action points.",
       "category": "Ability"
     },
     {
@@ -407,8 +406,8 @@
       "range": "30ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Requires Prowling",
-      "description": "You pounce forwards, leaping out of the shadows towards your target stabbing them with your daggers. Your target movement speed will be reduced by 40% for 5 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.<BR><BR>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
+      "note": "Requires Prowling<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned",
+      "description": "You pounce forwards, leaping out of the shadows towards your target stabbing them with your daggers. Your target's movement speed will be reduced by 40% for 5 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
       "category": "Ability"
     },
     {
@@ -427,21 +426,6 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2715,
-      "image": "https://armory.returnofreckoning.com/icon/10936",
-      "name": "Bloody Inspiration",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "21",
-      "cost": "Rank 2 morale",
-      "range": "Self",
-      "incant": "Instant cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "Your bloody fury inspires your group. Morale gain is doubled for 15 seconds.",
-      "category": "Morale"
-    },
-    {
       "id": 9413,
       "image": "https://armory.returnofreckoning.com/icon/2497",
       "name": "Sever Blessing",
@@ -453,13 +437,13 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Target must have a Blessing<br>Builds 1 Blood Lust",
-      "description": "You sever one Blessing from your enemy and inflict 127 damage.",
+      "description": "You sever one Blessing from your enemy and do 127 damage",
       "category": "Ability"
     },
     {
-      "id": 6050,
-      "image": "https://armory.returnofreckoning.com/icon/22696",
-      "name": "Mark of Morathi",
+      "id": 9440,
+      "image": "https://armory.returnofreckoning.com/icon/22701",
+      "name": "Mark of Hellebron",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "23",
@@ -468,7 +452,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You have been blessed by Morathi. Your Autoattack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies.",
+      "description": "You have been blessed by Hellebron. Your auto attack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies.",
       "category": "CareerTactic"
     },
     {
@@ -517,8 +501,23 @@
       "category": "CareerTactic"
     },
     {
-      "id": 6033,
-      "image": "https://armory.returnofreckoning.com/icon/22709",
+      "id": 530,
+      "image": "https://armory.returnofreckoning.com/icon/22702",
+      "name": "Close Combat",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "25",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "category": "CareerTactic"
+    },
+    {
+      "id": 9434,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
       "name": "Frenzied Mayhem",
       "type": "Buff",
       "spec": "Core Ability",
@@ -573,7 +572,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the durations of Vehement Blades, Enfeebling Strike, Shadow Leap, and Treacherous Assault by an additional 5 seconds.",
+      "description": "Increases the durations of Vehement Blades, Enfeebling Strike, and Treacherous Assault by an additional 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -590,21 +589,6 @@
       "note": "",
       "description": "Increases critical hit chance by 50% for 10 seconds for all group members within 100 feet.",
       "category": "Morale"
-    },
-    {
-      "id": 522,
-      "image": "https://armory.returnofreckoning.com/icon/22702",
-      "name": "Close Combat",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "32",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
-      "category": "CareerTactic"
     },
     {
       "id": 9435,
@@ -749,7 +733,7 @@
       "spec": "Path of Carnage",
       "minrank": "4",
       "cost": "20 Action Points",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
@@ -783,14 +767,14 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<BR>   1 Blood Lust:  828 damage.<BR>   2 Blood Lust:   1056 damage.<BR>   3 Blood Lust:   1290 damage.<BR>   4 Blood Lust:   1506 damage.<BR>   5 Blood Lust:   1734 damage.",
+      "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<BR>   1 Blood Lust:  774 damage.<BR>   2 Blood Lust:   1002 damage.<BR>   3 Blood Lust:   1236 damage.<BR>   4 Blood Lust:   1452 damage.<BR>   5 Blood Lust:   1680 damage.",
       "category": "Ability"
     },
     {
       "id": 9400,
       "image": "https://armory.returnofreckoning.com/icon/10972",
       "name": "Sever Limb",
-      "type": "Ailment",
+      "type": "Damaging",
       "spec": "Path of Carnage",
       "minrank": "14",
       "cost": "35 Action Points",
@@ -862,7 +846,7 @@
       "category": "Ability"
     },
     {
-      "id": 2991,
+      "id": 9441,
       "image": "https://armory.returnofreckoning.com/icon/22708",
       "name": "Bleeding Edge",
       "type": "Buff",
@@ -873,7 +857,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Armour Penetration is increased by 50% for 3 seconds after successful use of your Frenzies.",
+      "description": "Your Armor Penetration is increased by 25% for 3 seconds after successful use of your Frenzies.",
       "category": "CareerTactic"
     },
     {
@@ -918,7 +902,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "You stab your enemy with a poisoned blade, dealing 166 damage.  The victim becomes wracked with pains, suffering an additional 297 Corporeal damage over 9 seconds.  This effect will stack with itself up to three times.",
+      "description": "You stab your enemy with a poisoned blade, dealing 138 damage.  The victim becomes wracked with pains, suffering an additional 297 Corporeal damage over 9 seconds.  This effect will stack with itself up to three times.",
       "category": "Ability"
     },
     {
@@ -944,7 +928,7 @@
       "spec": "Path of Suffering",
       "minrank": "9",
       "cost": "20 Action Points",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
@@ -997,7 +981,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2999,
+      "id": 9429,
       "image": "https://armory.returnofreckoning.com/icon/11001",
       "name": "Elixir of Shadows",
       "type": "Buff",
@@ -1008,7 +992,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds and increase your speed by 50% for 7 seconds.<BR>You may only use a single Elixir at a time.",
+      "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds seconds and increase your speed by 50% for 7 seconds.<BR>You may only use a single Elixir at a time.",
       "category": "Ability"
     },
     {
@@ -1023,7 +1007,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Kiss of Death will now heal you for 150% of the damage it deals.",
+      "description": "Kiss of Death will now heal you for the damage it deals.",
       "category": "CareerTactic"
     },
     {
@@ -1053,7 +1037,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When leaving Shadow Prowler, you will become protected by a barrier that will absorb up to 712 damage",
+      "description": "When leaving Shadow Prowler, you will become protected by a barrier that will absorb up to 712 damage for up to 15 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1120,7 +1104,7 @@
       "id": 9409,
       "image": "https://armory.returnofreckoning.com/icon/5166",
       "name": "Throat Slitter",
-      "type": "Ailment",
+      "type": "Damaging",
       "spec": "Path of Treachery",
       "minrank": "16",
       "cost": "25 Action Points",
@@ -1154,7 +1138,7 @@
       "spec": "Path of Treachery",
       "minrank": "35",
       "cost": "20 Action Points",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
@@ -1237,7 +1221,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2990,
+      "id": 9428,
       "image": "https://armory.returnofreckoning.com/icon/10994",
       "name": "Sacrificial Stab",
       "type": "Damaging",
@@ -1247,8 +1231,8 @@
       "range": "30ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. For the next 10 seconds your autoattack damage will be increased by 10% for each resource point spent on the attack.<BR>   1 Blood Lust:  119 damage per hit.<BR>   2 Blood Lust:  151 damage per hit.<BR>   3 Blood Lust:  183 damage per hit.<BR>   4 Blood Lust:  213 damage per hit.<BR>   5 Blood Lust:  244 damage per hit.",
+      "note": "Target must be facing away from you<br>Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
+      "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt.<BR>   1 Blood Lust:  157 damage per hit.<BR>   2 Blood Lust:  201 damage per hit.<BR>   3 Blood Lust:  246 damage per hit.<BR>   4 Blood Lust:  288 damage per hit.<BR>   5 Blood Lust:  332 damage per hit.",
       "category": "Ability"
     },
     {

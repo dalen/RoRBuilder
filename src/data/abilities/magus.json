@@ -10,25 +10,26 @@
     8476,
     8477,
     8478,
-    648,
+    670,
     797,
     8492,
     8480,
-    544,
+    669,
+    568,
     8512,
-    542,
-    652,
+    563,
+    673,
     798,
-    653,
+    674,
     8506,
     8473,
     800,
-    650,
+    671,
     8481,
-    549,
+    567,
     8507,
     8527,
-    550,
+    569,
     8522,
     8528,
     8510,
@@ -36,7 +37,7 @@
     8529,
     8508,
     8513,
-    651
+    672
   ],
   "mastery": {
     "a": {
@@ -55,8 +56,10 @@
       },
       "coreAbilities": [
         8470,
+        366,
         8488,
         8479,
+        367,
         8491,
         8486
       ]
@@ -78,6 +81,8 @@
       "coreAbilities": [
         8471,
         8482,
+        370,
+        371,
         8475,
         8489,
         8483
@@ -100,6 +105,8 @@
       "coreAbilities": [
         8487,
         8472,
+        368,
+        369,
         8541,
         8490,
         8485
@@ -194,7 +201,7 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion with long range Elemental attacks.The daemonic minion gains 100% of Int and 50% of your Wounds from item bonuses. While within 25 feet of the minion you will be empowered by unholy energy every 2 seconds, increasing your damage by 4% to a maximum of 20% and range by 5% to a maximum of 25% extra range. You will lose 4 stacks of this effect if daemon is slain.",
+      "description": "Summons a daemonic minion who specializes in long range Elemental based attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 100% of your Intelligence from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the minion you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -224,7 +231,7 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion with short range area of effect attacks. The minion gains 50% of Int and 100% of your Wounds from item bonuses. While within 25 feet of the minion you will be empowered by unholy energy every 2 seconds, increasing your damage by 4% to a maximum of 20%, your Dodge and Disrupt by 4% to a maximum of 32%, the radius of your AoE abilities by 6.25% to a maximum of 50%, but reduce your cast range by 5% to a minimum of 60%. You lose 4 stacks of this effect if the daemon is slain.",
+      "description": "Summons a daemonic minion who specializes in short range Spiritual and Elemental area of effect attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 50% of your Intelligence from item bonuses and 100% of your Wounds from item bonuses. While you are within 25 feet of the minion you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -239,7 +246,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds. You will also deal 50% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
+      "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds.  You will also deal 50% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability"
     },
     {
@@ -254,14 +261,14 @@
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion with moderate range Spiritual attacks. The minion gains 75% of Int and 75% of your Wounds from item bonuses. While within 25 feet of the minion you will be empowered by unholy energy every 2 seconds, increasing your damage by 4% to a maximum of 20%, shortening the duration and tick interval of Path of Changing and Path of Daemonology DoTs by 4% to a maximum of 35% and allow Changing skills to be cast while moving. You lose 4 stacks of this effect if the daemon is slain.",
+      "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 75% of your Intelligence from item bonuses and 75% of your Wounds from item bonuses. While you are within 25 feet of the minion you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
-      "id": 648,
-      "image": "https://armory.returnofreckoning.com/icon/23165",
-      "name": "Point-Blank",
-      "type": "Debuff",
+      "id": 670,
+      "image": "https://armory.returnofreckoning.com/icon/23167",
+      "name": "Mage Bolt",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "8",
       "cost": "Rank 1 morale",
@@ -269,7 +276,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A mid-range attack that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
+      "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale"
     },
     {
@@ -306,7 +313,7 @@
       "id": 8480,
       "image": "https://armory.returnofreckoning.com/icon/5284",
       "name": "Tzeentch's Grasp",
-      "type": "Hex",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "25 Action Points",
@@ -318,9 +325,24 @@
       "category": "Ability"
     },
     {
-      "id": 544,
-      "image": "https://armory.returnofreckoning.com/icon/22694",
-      "name": "Expert Skirmisher",
+      "id": 669,
+      "image": "https://armory.returnofreckoning.com/icon/23170",
+      "name": "Siphon Power",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "12",
+      "cost": "Rank 2 morale",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
+      "category": "Morale"
+    },
+    {
+      "id": 568,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Devour Energy",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "13",
@@ -329,7 +351,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
+      "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect cannot occur more than once every 2 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -348,9 +370,9 @@
       "category": "CareerTactic"
     },
     {
-      "id": 542,
-      "image": "https://armory.returnofreckoning.com/icon/22697",
-      "name": "Masterful Aim",
+      "id": 563,
+      "image": "https://armory.returnofreckoning.com/icon/22695",
+      "name": "Endless Knowledge",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "16",
@@ -359,13 +381,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Ballistic Skill by 160.",
+      "description": "Increases your Intelligence by 160.",
       "category": "CareerTactic"
     },
     {
-      "id": 652,
-      "image": "https://armory.returnofreckoning.com/icon/23162",
-      "name": "Concealment",
+      "id": 673,
+      "image": "https://armory.returnofreckoning.com/icon/23168",
+      "name": "Misdirection",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "16",
@@ -374,7 +396,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
+      "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
       "category": "Morale"
     },
     {
@@ -393,7 +415,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 653,
+      "id": 674,
       "image": "https://armory.returnofreckoning.com/icon/23153",
       "name": "Focused Mind",
       "type": "Buff",
@@ -404,7 +426,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and you cannot be set back.",
       "category": "Morale"
     },
     {
@@ -425,16 +447,16 @@
     {
       "id": 8473,
       "image": "https://armory.returnofreckoning.com/icon/5271",
-      "name": "Strengthen Thrall",
-      "type": "Healing",
+      "name": "Shocking Jolt",
+      "type": "Defensive",
       "spec": "Core Ability",
       "minrank": "22",
-      "cost": "5 Action Points / Sec",
-      "range": "20ft range",
+      "cost": "No AP Cost",
+      "range": "65ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "Requires a summoned minion.",
-      "description": "Stabilizes your daemonic minion, restoring 689 health every second for 3 seconds and making it briefly immune to damage.",
+      "cooldown": "20s cooldown",
+      "note": "",
+      "description": "You remove stagger effects from an ally and five other allies within 25 feet.",
       "category": "Ability"
     },
     {
@@ -453,24 +475,24 @@
       "category": "CareerTactic"
     },
     {
-      "id": 650,
-      "image": "https://armory.returnofreckoning.com/icon/23163",
-      "name": "Explosive Shots",
-      "type": "Buff",
+      "id": 671,
+      "image": "https://armory.returnofreckoning.com/icon/23169",
+      "name": "Scintillating Energy",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "Self",
+      "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<BR>This effect will not trigger more than once every second.",
+      "description": "Deals 1200 damage to your target and staggers them for 9 seconds, preventing all actions until they take damage.",
       "category": "Morale"
     },
     {
       "id": 8481,
       "image": "https://armory.returnofreckoning.com/icon/5299",
-      "name": "Instability",
+      "name": "Instability ",
       "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "25",
@@ -483,9 +505,9 @@
       "category": "Ability"
     },
     {
-      "id": 549,
-      "image": "https://armory.returnofreckoning.com/icon/22698",
-      "name": "Clever Recovery",
+      "id": 567,
+      "image": "https://armory.returnofreckoning.com/icon/22708",
+      "name": "Sleight of Hand",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "25",
@@ -494,7 +516,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<BR>This effect will not trigger more than once every 3 seconds.",
+      "description": "Enemy monsters will hate you 50% less than normal.",
       "category": "CareerTactic"
     },
     {
@@ -528,9 +550,9 @@
       "category": "Morale"
     },
     {
-      "id": 550,
-      "image": "https://armory.returnofreckoning.com/icon/22709",
-      "name": "Pierce Defenses",
+      "id": 569,
+      "image": "https://armory.returnofreckoning.com/icon/22694",
+      "name": "Close Quarters",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "29",
@@ -539,13 +561,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
+      "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic"
     },
     {
       "id": 8522,
       "image": "https://armory.returnofreckoning.com/icon/22713",
-      "name": "Chaotic Attunement",
+      "name": "Chaotic Attunement ",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "31",
@@ -648,18 +670,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 651,
-      "image": "https://armory.returnofreckoning.com/icon/23164",
-      "name": "Hail of Doom",
-      "type": "Buff",
+      "id": 672,
+      "image": "https://armory.returnofreckoning.com/icon/23171",
+      "name": "Unleash the Winds",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "100ft range",
-      "incant": "5.0s cast",
+      "range": "5ft range",
+      "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
+      "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
       "category": "Morale"
     },
     {
@@ -675,6 +697,21 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict 436 Elemental damage.",
+      "category": "Ability"
+    },
+    {
+      "id": 366,
+      "image": "https://armory.returnofreckoning.com/icon/5273",
+      "name": "Daemonic Fire",
+      "type": "Damaging",
+      "spec": "Path of Havoc",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Pink Horror flings daemonic fire at it's target, burning them for 291 Elemental damage and reducing Elemental Resistance by 378 for the next 20 seconds.",
       "category": "Ability"
     },
     {
@@ -708,6 +745,21 @@
       "category": "Ability"
     },
     {
+      "id": 367,
+      "image": "https://armory.returnofreckoning.com/icon/5274",
+      "name": "Daemonic Consumption",
+      "type": "Damaging",
+      "spec": "Path of Havoc",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Pink Horror forces daemonic power into it's target, lowering the target's chance to critically hit by 5% and dealing 276 Elemental damage over 10 seconds.",
+      "category": "Ability"
+    },
+    {
       "id": 8491,
       "image": "https://armory.returnofreckoning.com/icon/5308",
       "name": "Withered Soul",
@@ -734,7 +786,7 @@
       "incant": "2.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A column of blue flame washes over your target, dealing 740 Elemental damage and then dealing an additional 576 Elemental damage over 9 seconds.",
+      "description": "A column of blue flame washes over your target, dealing 718 Elemental damage and then dealing an additional 576 Elemental damage over 9 seconds.",
       "category": "Ability"
     },
     {
@@ -764,7 +816,7 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You open a rift surrounding your target, dealing 387 Elemental damage and weakening the fabric of reality around them, disarming them for 3 seconds.",
+      "description": "You open a rift dealing 365 Elemental damage and weakens the fabric of reality surrounding your target, disarming them for 3 seconds.",
       "category": "Ability"
     },
     {
@@ -794,7 +846,7 @@
       "incant": "3.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "An undefendable bolt of far-traveling force that inflicts 883 Elemental damage.",
+      "description": "An undefendable bolt of far traveling force that inflicts 883 Elemental damage.",
       "category": "Ability"
     },
     {
@@ -873,9 +925,39 @@
       "category": "Ability"
     },
     {
+      "id": 370,
+      "image": "https://armory.returnofreckoning.com/icon/5281",
+      "name": "Flame of Tzeentch",
+      "type": "Damaging",
+      "spec": "Path of Changing",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Flamer focuses two gouts of flame on it's target dealing 117 Spirit damage every 1 seconds for 2 seconds.",
+      "category": "Ability"
+    },
+    {
+      "id": 371,
+      "image": "https://armory.returnofreckoning.com/icon/5282",
+      "name": "Flames of Change",
+      "type": "Damaging",
+      "spec": "Path of Changing",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Flamer hurls a gout of daemonic fire that will strike it's target and those 20 feet around them, dealing 296 Spirit damage over 6 seconds.",
+      "category": "Ability"
+    },
+    {
       "id": 8475,
       "image": "https://armory.returnofreckoning.com/icon/5275",
-      "name": "Surge of Insanity",
+      "name": "Surge of Insanity ",
       "type": "Damaging",
       "spec": "Path of Changing",
       "minrank": "14",
@@ -974,7 +1056,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "Creates a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 20 feet of the area, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
+      "description": "Creates a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 20 feet of the area for 6 seconds, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
       "category": "Ability"
     },
     {
@@ -989,7 +1071,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the critical hit rate of all Path of Changing spells by 15%.",
+      "description": "Increases critical chance for all Path Of Changing spells by 15%",
       "category": "CareerTactic"
     },
     {
@@ -1004,7 +1086,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Summons a cloud of caustic mist that deals 88 Spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds  the cloud doubles in strength, dealing 163 Spirit damage and 10 seconds later will double in strength again, dealing 238 Spirit damage.<BR> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
+      "description": "Summons a cloud of caustic mist that deals 112 Spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds  the cloud doubles in strength, dealing 212 Spirit damage and 10 seconds later will double in strength again, dealing 312 Spirit damage.<BR> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
       "category": "Ability"
     },
     {
@@ -1053,6 +1135,36 @@
       "category": "Ability"
     },
     {
+      "id": 368,
+      "image": "https://armory.returnofreckoning.com/icon/5277",
+      "name": "Warping Energy",
+      "type": "Damaging",
+      "spec": "Path of Daemonology",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Blue Horror spews out a cone of daemonic energy that inflicts 214 Spirit damage to targets up to 40 feet in front of Horror.",
+      "category": "Ability"
+    },
+    {
+      "id": 369,
+      "image": "https://armory.returnofreckoning.com/icon/5278",
+      "name": "Coruscating Energy",
+      "type": "Damaging",
+      "spec": "Path of Daemonology",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Blue Horror releases a field of energy dealing 141 Elemental damage every second to all targets within 30 feet for 3 seconds.",
+      "category": "Ability"
+    },
+    {
       "id": 8541,
       "image": "https://armory.returnofreckoning.com/icon/5310",
       "name": "Daemonic Infestation",
@@ -1079,7 +1191,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your group members' Corporeal resistance by 252 for 60 minutes if they are within 100 feet of you.",
+      "description": "Increases your groupmember's Corporeal resistance by 252 for 60 minutes if they are within 100 feet of you.",
       "category": "Ability"
     },
     {
@@ -1109,7 +1221,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you summon a daemon, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
+      "description": "When you summon a Daemon, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
       "category": "CareerTactic"
     },
     {

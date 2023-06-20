@@ -49,9 +49,9 @@
         "lvl1": 1711,
         "lvl2": 1687,
         "lvl3": 1712,
-        "lvl4": 2810,
+        "lvl4": 1689,
         "lvl5": 1713,
-        "lvl6": 2851,
+        "lvl6": 1697,
         "lvl7": 1727
       },
       "coreAbilities": [
@@ -73,7 +73,7 @@
         "lvl3": 1715,
         "lvl4": 1691,
         "lvl5": 1716,
-        "lvl6": 2856,
+        "lvl6": 1696,
         "lvl7": 1728
       },
       "coreAbilities": [
@@ -92,7 +92,7 @@
       },
       "optionalAbilities": {
         "lvl1": 1717,
-        "lvl2": 2744,
+        "lvl2": 1694,
         "lvl3": 1718,
         "lvl4": 1688,
         "lvl5": 1719,
@@ -118,10 +118,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "Self",
-      "incant": "Instant cast",
+      "incant": "15s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "25% reduction in damage taken by Oil siege engines. You will also protect other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
+      "description": "25% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
     {
@@ -151,7 +151,7 @@
       "incant": "15s cast",
       "cooldown": "5m cooldown",
       "note": "Only usable on Doors",
-      "description": "Repairs a friendly keep door for 5% of its total health over 15 seconds.",
+      "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -211,7 +211,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and making monsters hate you more. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
     {
@@ -226,7 +226,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds.",
+      "description": "A powerful melee attack that reduces  your target's armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale"
     },
     {
@@ -256,7 +256,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "An encouraging bellow that causes group members within 100 feet to regenerate Action Points 20% faster for 15 seconds.",
+      "description": "An encouraging bellow that causes group members within 100 feet to regenerate 5 Action Points every second for 9 seconds.",
       "category": "Ability"
     },
     {
@@ -406,7 +406,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You challenge all opponents in front of you, making monsters hate you more. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
     {
@@ -421,7 +421,7 @@
       "incant": "3.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
+      "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second  for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale"
     },
     {
@@ -601,7 +601,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you Block an attack you gain 75 points of Morale. This effect will not trigger more than once every 3 seconds.",
+      "description": "Whenever you Block an attack you gain 75 points worth of Morale. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -691,7 +691,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You \"trip\" your opponent by hacking at their legs for 192 damage, reducing their movement speed by 40% for 10 seconds.",
+      "description": "You \"trip\" your opponent by hacking at their legs for 164 damage, reducing their movement speed by 40% for 10 seconds.",
       "category": "Ability"
     },
     {
@@ -721,7 +721,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "A mighty leaping strike with your axe which deals 251 damage to all targets 25 feet in front of you.",
+      "description": "A mighty strike which deals 251 damage to all targets 25 feet in front of you.",
       "category": "Ability"
     },
     {
@@ -780,8 +780,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Leads to da' Gud Plan!",
-      "description": "Deals 192 damage. Removes 50 Action Points over 5 seconds.",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "Deals 164 damage. Removes 50 Action Points over 5 seconds.",
       "category": "Ability"
     },
     {
@@ -800,7 +800,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2810,
+      "id": 1689,
       "image": "https://armory.returnofreckoning.com/icon/2564",
       "name": "T'ree Hit Combo",
       "type": "Damaging",
@@ -810,7 +810,7 @@
       "range": "5ft range",
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
-      "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!<br>Requires Great Weapon",
       "description": "You swing your weapon lots, dealing 307 damage every 0.75 seconds for 3 seconds. As Da' Big Boss would say, \"Countin' is for Stuntiez.\"",
       "category": "Ability"
     },
@@ -830,7 +830,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2851,
+      "id": 1697,
       "image": "https://armory.returnofreckoning.com/icon/2406",
       "name": "You Wot!?!!!",
       "type": "Buff",
@@ -886,7 +886,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "War Bellow",
-      "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to increase your group's wounds by 48 for 10 seconds. Anyone affected will be healed by the amount increased.<BR><BR>You may only have 1 War Bellow active at a time.",
+      "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to increase your group's wounds by 48 for 10 seconds.  Anyone affected will be healed by the amount increased.<BR><BR>You may only have 1 War Bellow active at a time.",
       "category": "Ability"
     },
     {
@@ -916,7 +916,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You knee your target in a vital spot, inflicting 239 damage and reducing their Weapon Skill by 120 for 20 seconds.",
+      "description": "You kick your target in a vital spot, inflicting 239 damage and reducing their Weapon Skill by 120 for 20 seconds. The power of your kick causes the target to be knocked away a small distance and interrupts them. This effect does not apply Immovable.",
       "category": "Ability"
     },
     {
@@ -956,7 +956,7 @@
       "type": "Buff",
       "spec": "Path of Da’ Toughest",
       "minrank": "17",
-      "cost": "1 Action Points",
+      "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
@@ -1025,18 +1025,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2856,
+      "id": 1696,
       "image": "https://armory.returnofreckoning.com/icon/2568",
       "name": "We'z Bigger",
       "type": "Blessing",
       "spec": "Path of Da’ Toughest",
       "minrank": "29",
-      "cost": "No AP Cost",
+      "cost": "45 Action Points",
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "You proclaim your size to Mork, rendering yourself and any of your groupmates within 30 feet of you immune to crowd control effects for 3 seconds and reducing the damage your group receives by 10%.",
+      "description": "You proclaim your size to Mork, rendering yourself and any of your groupmates within 30 feet of you immune to crowd control effects for 4 seconds and reducing the damage your group receives by 10%.",
       "category": "Ability"
     },
     {
@@ -1066,7 +1066,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "You batter your target to show the runts how it's done. You deal 192 damage and increase your own and your defensive target's Weapon Skill by 120 for 20 seconds.",
+      "description": "You batter your target to show the runts how it's done. You deal 164 damage and increase your own and your defensive target's Weapon Skill by 120 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1118,7 +1118,7 @@
       "id": 1683,
       "image": "https://armory.returnofreckoning.com/icon/2457",
       "name": "Shut Yer Face",
-      "type": "Ailment",
+      "type": "Damaging",
       "spec": "Path of Da’ Boss",
       "minrank": "40",
       "cost": "No AP Cost",
@@ -1145,18 +1145,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2744,
+      "id": 1694,
       "image": "https://armory.returnofreckoning.com/icon/2401",
       "name": "Rock 'Ard",
       "type": "Blessing",
       "spec": "Path of Da’ Boss",
-      "minrank": "21",
+      "minrank": "25",
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Leads to da' Gud Plan!",
-      "description": "Activates a protective shield for your Group within 80 feet that absorbs up to 600 over 5 seconds.",
+      "description": "Activates a protective shield for your Group within 80 feet that absorbs up to 600 damage over 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1171,7 +1171,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Big Swing now snares for 20% for 5 seconds and disorients, increasing build times by 20%.",
+      "description": "Big Swing now Snares for 20% for 5 seconds and Disorients, increasing build times by 20%.",
       "category": "CareerTactic"
     },
     {
@@ -1194,14 +1194,14 @@
       "image": "https://armory.returnofreckoning.com/icon/22702",
       "name": "No Choppin' Me",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Da’ Boss",
       "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Follow 'me Lead will also buff all groupmates within 100 feet of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect all group members within 100 feet of you.",
+      "description": "Follow 'me Lead will also buff all groupmates within 30 feet of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect all group members within 100 feet of you.",
       "category": "CareerTactic"
     },
     {
@@ -1231,7 +1231,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1800 damage over 12 seconds to all targets within 30 feet in of you.  Affected targets lose 30 seconds of Morale over 12 seconds. This ability hits max 9 targets.",
+      "description": "Deals 1800 damage over 12 seconds to all targets within 25 feet in of you.  Affected targets lose 1800 Morale over 12 seconds.",
       "category": "Morale"
     }
   ]

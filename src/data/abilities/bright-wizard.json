@@ -206,7 +206,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.  You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
     {
@@ -258,7 +258,7 @@
       "id": 8168,
       "image": "https://armory.returnofreckoning.com/icon/7924",
       "name": "Fire Cage",
-      "type": "Hex",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "12",
       "cost": "25 Action Points",
@@ -266,7 +266,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet are Rooted as they become trapped within a cage of searing flames, making them unable to move for 5 seconds.  Rooted targets have a 50% chance to break free when they suffer damage.",
+      "description": "Up to 4 enemies within 30 feet are Rooted as they become trapped within a cage of searing flames, making them unable to move for 5 seconds.  Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
     {
@@ -371,7 +371,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and you cannot be set back.",
       "category": "Morale"
     },
     {
@@ -506,7 +506,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds which would normally have a buildup time will cast instantly instead.<BR>This effect will not trigger more than once every 6 seconds.",
+      "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds which would normally have a buildup time will cast instantly instead.<BR>This effect will not trigger more than once every  6 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1038,7 +1038,7 @@
       "id": 8174,
       "image": "https://armory.returnofreckoning.com/icon/8020",
       "name": "Choking Smoke",
-      "type": "Hex",
+      "type": "Damaging",
       "spec": "Path of Conflagration",
       "minrank": "40",
       "cost": "25 Action Points",
@@ -1046,7 +1046,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "A Hex which turns the air into unbreathable smoke and ash, dealing 314 Corporeal damage to your target.  The target and all other enemies within 20 feet become silenced for 3 seconds, making them unable to use magic.",
+      "description": "Turn the air into unbreathable smoke and ash, dealing 314 Corporeal damage to your target.  The target and all other enemies within 20 feet become silenced for 3 seconds, making them unable to use magic.",
       "category": "Ability"
     },
     {

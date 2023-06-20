@@ -15,6 +15,7 @@
     1938,
     592,
     690,
+    1952,
     756,
     1911,
     695,
@@ -32,7 +33,7 @@
     1943,
     1966,
     1944,
-    2751,
+    1939,
     697
   ],
   "mastery": {
@@ -68,7 +69,7 @@
         "lvl2": 1929,
         "lvl3": 1954,
         "lvl4": 1905,
-        "lvl5": 2749,
+        "lvl5": 1953,
         "lvl6": 1931,
         "lvl7": 1971
       },
@@ -76,8 +77,8 @@
         1899,
         1900,
         1903,
-        1913,
-        1902
+        1902,
+        1913
       ]
     },
     "c": {
@@ -86,20 +87,20 @@
         "primary": "A mastery path focused on hindering and weakening foes"
       },
       "optionalAbilities": {
-        "lvl1": 1956,
+        "lvl1": 1955,
         "lvl2": 1933,
-        "lvl3": 1949,
+        "lvl3": 1956,
         "lvl4": 1917,
-        "lvl5": 2105,
-        "lvl6": 2102,
+        "lvl5": 1949,
+        "lvl6": 1935,
         "lvl7": 1972
       },
       "coreAbilities": [
         1930,
         1932,
         1912,
-        1909,
         1934,
+        1909,
         1916
       ]
     }
@@ -216,7 +217,7 @@
       "name": "Whazat Behind You?!",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "8",
+      "minrank": "11",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -331,6 +332,21 @@
       "category": "Morale"
     },
     {
+      "id": 1952,
+      "image": "https://armory.returnofreckoning.com/icon/22695",
+      "name": "Gork Fix'd It",
+      "type": "Damaging",
+      "spec": "Core Ability",
+      "minrank": "17",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Gork'll Fix It becomes 35% better on allies, but 15% less effective on you.",
+      "category": "CareerTactic"
+    },
+    {
       "id": 756,
       "image": "https://armory.returnofreckoning.com/icon/22707",
       "name": "Too Smart For Dat",
@@ -352,10 +368,10 @@
       "type": "Ailment",
       "spec": "Core Ability",
       "minrank": "18",
-      "cost": "30 Action Points",
+      "cost": "50 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "15s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "Steals 140 Action Points from your target over 7 seconds.",
       "category": "Ability"
@@ -432,7 +448,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You blast back all enemies within 20 feet of you, knocking them back a medium distance and snaring them by 20% for 10 seconds. Monsters will be knocked down by the blast.",
+      "description": "You blast back all enemies within 20 feet of you, knocking them back a medium distance and snaring them by 50000% for 0 seconds. Monsters will be knocked down by the blast.",
       "category": "Ability"
     },
     {
@@ -586,7 +602,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2751,
+      "id": 1939,
       "image": "https://armory.returnofreckoning.com/icon/22707",
       "name": "Ain't Done Yet!",
       "type": "Healing",
@@ -626,8 +642,8 @@
       "range": "150ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time.",
-      "description": "Your target regains 370 health immediately, then continues to gain another 445 health over 5 seconds. This ability will continue to build up even if you move.",
+      "note": "Mork's Waaagh! reduces cast time and cost.",
+      "description": "Your target regains 370 health immediately then continues to gain another 445 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -656,7 +672,7 @@
       "range": "150ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time.",
+      "note": "Mork's Waaagh! reduces cast time and cost.",
       "description": "Heals your target for 1258 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
       "category": "Ability"
     },
@@ -686,7 +702,7 @@
       "range": "Self",
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time.",
+      "note": "Mork's Waaagh! reduces cast time and cost.",
       "description": "Heals group members within 100 feet for 898 health.",
       "category": "Ability"
     },
@@ -696,7 +712,7 @@
       "name": "Pass It On",
       "type": "Healing",
       "spec": "Path of Mork",
-      "minrank": "27",
+      "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -741,7 +757,7 @@
       "name": "Sticky Feetz",
       "type": "Ailment",
       "spec": "Path of Mork",
-      "minrank": "21",
+      "minrank": "25",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -754,7 +770,7 @@
       "id": 1958,
       "image": "https://armory.returnofreckoning.com/icon/22706",
       "name": "Scrub Ya Gud!",
-      "type": "Damaging",
+      "type": "Healing",
       "spec": "Path of Mork",
       "minrank": "27",
       "cost": "Tactic",
@@ -776,7 +792,7 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "",
+      "note": "Mork's Waaagh! increases effectiveness.",
       "description": "Your target's Toughness is increased by 240 and they regain 1360 health over 10 seconds.",
       "category": "Ability"
     },
@@ -806,7 +822,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Gork's Waaagh! reduces cast time.",
+      "note": "Gork's Waaagh! reduces cast time and cost.",
       "description": "Deals 477 Elemental damage to your target.",
       "category": "Ability"
     },
@@ -841,21 +857,6 @@
       "category": "Ability"
     },
     {
-      "id": 1913,
-      "image": "https://armory.returnofreckoning.com/icon/2498",
-      "name": "Big Waaagh!",
-      "type": "Damaging",
-      "spec": "Path of Gork",
-      "minrank": "9",
-      "cost": "35 Action Points",
-      "range": "100ft range",
-      "incant": "1.0s cast",
-      "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time.",
-      "description": "Deals 434 Elemental damage.",
-      "category": "Ability"
-    },
-    {
       "id": 1902,
       "image": "https://armory.returnofreckoning.com/icon/2425",
       "name": "'Ere We Go!",
@@ -868,6 +869,21 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "Everyone in your group within 100 feet will do an additional 187 Elemental damage on their next attack within 10 seconds.",
+      "category": "Ability"
+    },
+    {
+      "id": 1913,
+      "image": "https://armory.returnofreckoning.com/icon/2498",
+      "name": "Big Waaagh!",
+      "type": "Damaging",
+      "spec": "Path of Gork",
+      "minrank": "9",
+      "cost": "35 Action Points",
+      "range": "100ft range",
+      "incant": "1.0s cast",
+      "cooldown": "5s cooldown",
+      "note": "Gork's Waaagh! reduces cast time and cost.",
+      "description": "Deals 434 Elemental damage.",
       "category": "Ability"
     },
     {
@@ -896,7 +912,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20s cooldown",
-      "note": "Gork's Waaagh! reduces cast time.",
+      "note": "Gork's Waaagh! reduces cast time and cost.",
       "description": "Deals 287 Elemental damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
       "category": "Ability"
     },
@@ -926,14 +942,14 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Gork's Waaagh! reduces cast time.",
+      "note": "Gork's Waaagh! reduces cast time and cost.",
       "description": "Gork takes interest in your target, reducing all incoming heals by 50% for 10 seconds, and will deal 498 Elemental damage to anyone healing his new toy.",
       "category": "Ability"
     },
     {
-      "id": 2749,
-      "image": "https://armory.returnofreckoning.com/icon/22696",
-      "name": "Touch of Gork",
+      "id": 1953,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Hurts, Don't It?",
       "type": "Damaging",
       "spec": "Path of Gork",
       "minrank": "27",
@@ -942,7 +958,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Brain Bursta will now also reduce the victim's Toughness by 240 for 20 seconds and reduces the duration and tick interval of Bunch o' Waaagh by 50%. Gorks power however will reduce the effectiveness of your healing abilities by 20% and increases the cooldown of Bunch o' Waaagh by 50%.",
+      "description": "Brain Bursta will now also reduce the victim's Toughness by 240 for 20 seconds, and they will lose 150 points of Morale as well.",
       "category": "CareerTactic"
     },
     {
@@ -956,7 +972,7 @@
       "range": "80ft range",
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time.",
+      "note": "Gork's Waaagh! reduces cast time and cost.",
       "description": "Deals 487 Elemental damage to your target, and will then damage another target within 20 feet of the last, damaging up to 9 different targets total. Targets can not be hit more than once by the ability.",
       "category": "Ability"
     },
@@ -986,7 +1002,7 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Gork's Waaagh! reduces cast time.",
+      "note": "Gork's Waaagh! reduces cast time and cost.",
       "description": "Deals 377 Elemental damage to your target, and heals your defensive target for 150% of the damage done.",
       "category": "Ability"
     },
@@ -1021,21 +1037,6 @@
       "category": "Ability"
     },
     {
-      "id": 1909,
-      "image": "https://armory.returnofreckoning.com/icon/2580",
-      "name": "Get'n Smarter",
-      "type": "Ailment",
-      "spec": "Path of Da Green",
-      "minrank": "29",
-      "cost": "30 Action Points",
-      "range": "100ft range",
-      "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "",
-      "description": "Steals 120 Intelligence from your target while dealing 950 Elemental damage over 15 seconds.",
-      "category": "Ability"
-    },
-    {
       "id": 1934,
       "image": "https://armory.returnofreckoning.com/icon/2504",
       "name": "Yer A Weaklin'",
@@ -1048,6 +1049,21 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "Everyone within 20 feet of your target will have their Strength, Intelligence and Ballistic Skill reduced by 120 for 20 seconds.",
+      "category": "Ability"
+    },
+    {
+      "id": 1909,
+      "image": "https://armory.returnofreckoning.com/icon/2580",
+      "name": "Get'n Smarter",
+      "type": "Ailment",
+      "spec": "Path of Da Green",
+      "minrank": "29",
+      "cost": "30 Action Points",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Gork's Waaagh! increases effectiveness.",
+      "description": "Steals 120 Intelligence from your target while dealing 950 Elemental damage over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -1066,10 +1082,10 @@
       "category": "Ability"
     },
     {
-      "id": 1956,
-      "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "You Really Got Nuthin",
-      "type": "Debuff",
+      "id": 1955,
+      "image": "https://armory.returnofreckoning.com/icon/22694",
+      "name": "Waaagh! Frenzy",
+      "type": "Healing",
       "spec": "Path of Da Green",
       "minrank": "17",
       "cost": "Tactic",
@@ -1077,7 +1093,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces You Got Nuthin's cooldown time by 10 seconds.",
+      "description": "Reduces the build time of I'll Take That! by 0.5 seconds but increases the cost by 10 Action Points",
       "category": "CareerTactic"
     },
     {
@@ -1096,12 +1112,42 @@
       "category": "Ability"
     },
     {
+      "id": 1956,
+      "image": "https://armory.returnofreckoning.com/icon/22708",
+      "name": "You Really Got Nuthin",
+      "type": "Debuff",
+      "spec": "Path of Da Green",
+      "minrank": "23",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Reduces You Got Nuthin's cooldown time by 10 seconds.",
+      "category": "CareerTactic"
+    },
+    {
+      "id": 1917,
+      "image": "https://armory.returnofreckoning.com/icon/2460",
+      "name": "You Got Nuthin!",
+      "type": "Damaging",
+      "spec": "Path of Da Green",
+      "minrank": "25",
+      "cost": "25 Action Points",
+      "range": "100ft range",
+      "incant": "1.0s cast",
+      "cooldown": "30s cooldown",
+      "note": "Gork's Waaagh! reduces cast time and cost.",
+      "description": "Deals 396 Elemental damage and silences your target, making them unable to use magic for 5 seconds.",
+      "category": "Ability"
+    },
+    {
       "id": 1949,
       "image": "https://armory.returnofreckoning.com/icon/22703",
       "name": "Nuthin' But Da WAAAGH!",
       "type": "Healing",
       "spec": "Path of Da Green",
-      "minrank": "23",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1111,37 +1157,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1917,
-      "image": "https://armory.returnofreckoning.com/icon/2460",
-      "name": "You Got Nuthin!",
-      "type": "Ailment",
-      "spec": "Path of Da Green",
-      "minrank": "25",
-      "cost": "25 Action Points",
-      "range": "100ft range",
-      "incant": "1.0s cast",
-      "cooldown": "30s cooldown",
-      "note": "Gork's Waaagh! reduces cast time.",
-      "description": "Deals 396 Elemental damage and silences your target, making them unable to use magic for 5 seconds.",
-      "category": "Ability"
-    },
-    {
-      "id": 2105,
-      "image": "https://armory.returnofreckoning.com/icon/22707",
-      "name": "Waaagh! Frenzy",
-      "type": "Buff",
-      "spec": "Path of Da Green",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "I'll Take That! and Fury of Da Green will now inflict 458 Elemental damage, but no longer receive a base healing value, instead healing for only 50% of the damage dealt.",
-      "category": "CareerTactic"
-    },
-    {
-      "id": 2102,
+      "id": 1935,
       "image": "https://armory.returnofreckoning.com/icon/2429",
       "name": "Fury of Da Green",
       "type": "Damaging",
@@ -1151,8 +1167,8 @@
       "range": "80ft range",
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time.",
-      "description": "A surge of Waaagh! explodes from your target, inflicting 377 Elemental damage upon them and up to 4 other enemies within 25 feet of them, and healing your defensive target and allies within 20 feet of them for 238 health, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
+      "note": "Gork's Waaagh! reduces cast time and cost.",
+      "description": "A surge of Waaaagh explodes from your target and damages up to 4 enemies within 20 feet of them, dealing 377 Elemental damage to each, and  healing your defensive target and allies within 20 feet of them for 1125 health, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
       "category": "Ability"
     },
     {
