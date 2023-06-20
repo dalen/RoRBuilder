@@ -1,24 +1,38 @@
 {
   "coreAbilities": [
+    9287,
     14414,
     14415,
     14416,
+    9236,
+    9237,
     245,
+    9239,
     9238,
+    9257,
+    9268,
+    9250,
+    9248,
     9256,
+    9242,
     694,
     818,
+    9267,
     9246,
+    9264,
     692,
     585,
     9265,
     9276,
+    9244,
     592,
     690,
     819,
     9249,
+    9245,
     695,
     9277,
+    9241,
     823,
     696,
     9255,
@@ -26,6 +40,7 @@
     9278,
     2858,
     589,
+    9240,
     9279,
     9303,
     9280,
@@ -33,6 +48,7 @@
     9304,
     9282,
     2750,
+    9252,
     697
   ],
   "mastery": {
@@ -105,6 +121,21 @@
   },
   "data": [
     {
+      "id": 9287,
+      "image": "https://armory.returnofreckoning.com/icon/22706",
+      "name": "Balanced Mending",
+      "type": "Buff",
+      "spec": "Path of Isha",
+      "minrank": "17",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Healing Energy is 35% more effective on other people, but 15% less effective on you.",
+      "category": "CareerTactic"
+    },
+    {
       "id": 14414,
       "image": "https://armory.returnofreckoning.com/icon/23414",
       "name": "Reinforce War Engine",
@@ -150,6 +181,36 @@
       "category": "Ability"
     },
     {
+      "id": 9236,
+      "image": "https://armory.returnofreckoning.com/icon/13340",
+      "name": "Healing Energy",
+      "type": "Enchantment",
+      "spec": "Path of Isha",
+      "minrank": "1",
+      "cost": "45 Action Points",
+      "range": "150ft range",
+      "incant": "1.0s cast",
+      "cooldown": "No cooldown",
+      "note": "Force reduces cast time.<br>Builds Tranquility",
+      "description": "Your target regains 370 health immediately, then continues to gain another 445 health over 5 seconds. If you have Force this ability will continue to build up even if you move.",
+      "category": "Ability"
+    },
+    {
+      "id": 9237,
+      "image": "https://armory.returnofreckoning.com/icon/13341",
+      "name": "Radiant Lance",
+      "type": "Damaging",
+      "spec": "Path of Asuryan",
+      "minrank": "1",
+      "cost": "30 Action Points",
+      "range": "100ft range",
+      "incant": "2.0s cast",
+      "cooldown": "No cooldown",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
+      "description": "A lance of brilliant energy erupts from your staff, dealing 477 Spirit damage to your target.",
+      "category": "Ability"
+    },
+    {
       "id": 245,
       "image": "https://armory.returnofreckoning.com/icon/5004",
       "name": "Flee",
@@ -162,6 +223,21 @@
       "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "category": "Ability"
+    },
+    {
+      "id": 9239,
+      "image": "https://armory.returnofreckoning.com/icon/13343",
+      "name": "Law of Conductivity",
+      "type": "Hex",
+      "spec": "Path of Asuryan",
+      "minrank": "2",
+      "cost": "30 Action Points",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Tranquility increases effectiveness.<br>Builds Force",
+      "description": "Deals 980 Spirit damage to your target over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -180,6 +256,66 @@
       "category": "Ability"
     },
     {
+      "id": 9257,
+      "image": "https://armory.returnofreckoning.com/icon/13463",
+      "name": "Balance Essence",
+      "type": "Damaging",
+      "spec": "Path of Vaul",
+      "minrank": "4",
+      "cost": "30 Action Points",
+      "range": "100ft range",
+      "incant": "2.0s cast",
+      "cooldown": "No cooldown",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
+      "description": "Deals 377 damage to your target, and heals your defensive target for 150% of the damage done.",
+      "category": "Ability"
+    },
+    {
+      "id": 9268,
+      "image": "https://armory.returnofreckoning.com/icon/13364",
+      "name": "Shield of Saphery",
+      "type": "Enchantment",
+      "spec": "Path of Vaul",
+      "minrank": "5",
+      "cost": "35 Action Points",
+      "range": "150ft range",
+      "incant": "Instant cast",
+      "cooldown": "20s cooldown",
+      "note": "Force increases effectiveness.<br>Builds Tranquility<br>Target must be in your group or warband.",
+      "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to 1387 damage.",
+      "category": "Ability"
+    },
+    {
+      "id": 9250,
+      "image": "https://armory.returnofreckoning.com/icon/13354",
+      "name": "Searing Touch",
+      "type": "Damaging",
+      "spec": "Path of Asuryan",
+      "minrank": "6",
+      "cost": "13 Action Points / Sec",
+      "range": "100ft range",
+      "incant": "6.0s cast",
+      "cooldown": "11s cooldown",
+      "note": "Tranquility increases effectiveness.<br>Builds Force",
+      "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing  477 Spirit damage to them as long as you maintain your concentration.",
+      "category": "Ability"
+    },
+    {
+      "id": 9248,
+      "image": "https://armory.returnofreckoning.com/icon/13352",
+      "name": "Prismatic Shield",
+      "type": "Enchantment",
+      "spec": "Path of Isha",
+      "minrank": "7",
+      "cost": "55 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Increases all resistances of everyone in your group within 100 feet by 252 for 1 hour.",
+      "category": "Ability"
+    },
+    {
       "id": 9256,
       "image": "https://armory.returnofreckoning.com/icon/13358",
       "name": "Dissipating Hatred",
@@ -192,6 +328,21 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "You Detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "category": "Ability"
+    },
+    {
+      "id": 9242,
+      "image": "https://armory.returnofreckoning.com/icon/13346",
+      "name": "Boon of Hysh",
+      "type": "Healing",
+      "spec": "Path of Isha",
+      "minrank": "8",
+      "cost": "45 Action Points",
+      "range": "150ft range",
+      "incant": "2.0s cast",
+      "cooldown": "No cooldown",
+      "note": "Force reduces cast time.<br>Builds Tranquility",
+      "description": "Heals your target for 1258 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
       "category": "Ability"
     },
     {
@@ -225,6 +376,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 9267,
+      "image": "https://armory.returnofreckoning.com/icon/13363",
+      "name": "Fury of Asuryan",
+      "type": "Damaging",
+      "spec": "Path of Asuryan",
+      "minrank": "9",
+      "cost": "35 Action Points",
+      "range": "100ft range",
+      "incant": "1.0s cast",
+      "cooldown": "5s cooldown",
+      "note": "Tranquility reduces cast time.<br>Builds Force",
+      "description": "Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing 434 Spirit damage to your target.",
+      "category": "Ability"
+    },
+    {
       "id": 9246,
       "image": "https://armory.returnofreckoning.com/icon/13350",
       "name": "Gift of Life",
@@ -237,6 +403,21 @@
       "cooldown": "6s cooldown",
       "note": "Force reduces cast time.<br>Only usable on Dead Players",
       "description": "Resurrects your target with 20% health.",
+      "category": "Ability"
+    },
+    {
+      "id": 9264,
+      "image": "https://armory.returnofreckoning.com/icon/13360",
+      "name": "Radiant Gaze",
+      "type": "Hex",
+      "spec": "Path of Asuryan",
+      "minrank": "12",
+      "cost": "40 Action Points",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "5s cooldown",
+      "note": "Tranquility increases effectiveness.<br>Builds Force",
+      "description": "Deals 768 Spirit damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.",
       "category": "Ability"
     },
     {
@@ -300,6 +481,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 9244,
+      "image": "https://armory.returnofreckoning.com/icon/13348",
+      "name": "Cleansing Light",
+      "type": "Healing",
+      "spec": "Path of Isha",
+      "minrank": "16",
+      "cost": "35 Action Points",
+      "range": "150ft range",
+      "incant": "Instant cast",
+      "cooldown": "5s cooldown",
+      "note": "Target must be Hexed or Ailing<br>Force reduces cooldown.<br>Builds Tranquility",
+      "description": "You cleanse an ally's wound and remove one Ailment or Hex. If an effect is removed, your ally will absorb up to 262 damage over 10 seconds.",
+      "category": "Ability"
+    },
+    {
       "id": 592,
       "image": "https://armory.returnofreckoning.com/icon/22706",
       "name": "Discipline",
@@ -360,6 +556,21 @@
       "category": "Ability"
     },
     {
+      "id": 9245,
+      "image": "https://armory.returnofreckoning.com/icon/13349",
+      "name": "Blessing of Isha",
+      "type": "Healing",
+      "spec": "Path of Isha",
+      "minrank": "20",
+      "cost": "65 Action Points",
+      "range": "Self",
+      "incant": "2.5s cast",
+      "cooldown": "No cooldown",
+      "note": "Force reduces cast time.<br>Builds Tranquility",
+      "description": "Heals your entire group for 898 health.",
+      "category": "Ability"
+    },
+    {
       "id": 695,
       "image": "https://armory.returnofreckoning.com/icon/23153",
       "name": "Focused Mind",
@@ -388,6 +599,21 @@
       "note": "",
       "description": "If Cleansing Light successfully removes an effect from an ally, then they will also regain 534 health over 9 seconds.",
       "category": "CareerTactic"
+    },
+    {
+      "id": 9241,
+      "image": "https://armory.returnofreckoning.com/icon/13345",
+      "name": "Transfer Force",
+      "type": "Hex",
+      "spec": "Path of Vaul",
+      "minrank": "22",
+      "cost": "40 Action Points",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Tranquility increases effectiveness.<br>Builds Force",
+      "description": "Deals 1488 Spirit damage to your target over 24 seconds and heals your defensive target for 150% of the damage done on each tick.",
+      "category": "Ability"
     },
     {
       "id": 823,
@@ -495,6 +721,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 9240,
+      "image": "https://armory.returnofreckoning.com/icon/13344",
+      "name": "Rain Lord",
+      "type": "Hex",
+      "spec": "Path of Vaul",
+      "minrank": "30",
+      "cost": "30 Action Points",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "Your target and all other enemies within 20 feet of them have their Intelligence, Strength and Ballistic Skill reduced by 120 for 20 seconds.",
+      "category": "Ability"
+    },
+    {
       "id": 9279,
       "image": "https://armory.returnofreckoning.com/icon/22703",
       "name": "Hurried Restore",
@@ -598,6 +839,21 @@
       "note": "",
       "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Magical Infusion will make its target 25% more receptive to incoming heals.",
       "category": "CareerTactic"
+    },
+    {
+      "id": 9252,
+      "image": "https://armory.returnofreckoning.com/icon/13356",
+      "name": "Law of Age",
+      "type": "Hex",
+      "spec": "Path of Vaul",
+      "minrank": "40",
+      "cost": "20 Action Points",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 120 for 20 seconds.",
+      "category": "Ability"
     },
     {
       "id": 697,

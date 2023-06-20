@@ -1,31 +1,44 @@
 {
   "coreAbilities": [
-    1719,
     14418,
     14419,
     14420,
     245,
+    1664,
     1665,
+    1670,
+    1676,
     1734,
+    1673,
+    1667,
+    1669,
     1671,
+    1678,
     606,
     734,
+    1682,
     1684,
     1685,
     1674,
+    1666,
     1740,
     611,
     500,
+    1668,
     1700,
+    1677,
     503,
     608,
     735,
+    1680,
     1679,
     607,
+    1690,
     1701,
     1733,
     739,
     610,
+    1675,
     504,
     1705,
     1721,
@@ -34,10 +47,12 @@
     1703,
     1723,
     1707,
+    1672,
     1702,
     1722,
     1706,
     1704,
+    1683,
     613
   ],
   "mastery": {
@@ -111,21 +126,6 @@
   },
   "data": [
     {
-      "id": 1719,
-      "image": "https://armory.returnofreckoning.com/icon/22702",
-      "name": "No Choppin' Me",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "27",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Follow 'me Lead will also buff all groupmates within 100 feet of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect all group members within 100 feet of you.",
-      "category": "CareerTactic"
-    },
-    {
       "id": 14418,
       "image": "https://armory.returnofreckoning.com/icon/23405",
       "name": "Deflect Oil",
@@ -186,6 +186,21 @@
       "category": "Ability"
     },
     {
+      "id": 1664,
+      "image": "https://armory.returnofreckoning.com/icon/2666",
+      "name": "Clobber",
+      "type": "Damaging",
+      "spec": "Path of Da’ Toughest",
+      "minrank": "1",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Leads to da' Gud Plan!",
+      "description": "Slashes for 202 damage, and generates extra hate against monsters.",
+      "category": "Ability"
+    },
+    {
       "id": 1665,
       "image": "https://armory.returnofreckoning.com/icon/2551",
       "name": "Lob Choppa",
@@ -198,6 +213,36 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "A basic throwing attack that inflicts 80 damage. Has a chance to deal 679 damage to a severely wounded target if you are behind them.",
+      "category": "Ability"
+    },
+    {
+      "id": 1670,
+      "image": "https://armory.returnofreckoning.com/icon/2526",
+      "name": "Trip 'Em Up",
+      "type": "Ailment",
+      "spec": "Path of Da’ Brawler",
+      "minrank": "2",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "You \"trip\" your opponent by hacking at their legs for 192 damage, reducing their movement speed by 40% for 10 seconds.",
+      "category": "Ability"
+    },
+    {
+      "id": 1676,
+      "image": "https://armory.returnofreckoning.com/icon/2560",
+      "name": "Skull Thumper",
+      "type": "Damaging",
+      "spec": "Path of Da’ Brawler",
+      "minrank": "3",
+      "cost": "No AP Cost",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
+      "description": "A pounding blow to your opponent's skull that deals 239 damage and for the next 10 seconds their head will ring for 112 Corporeal damage whenever they are Critically hit.",
       "category": "Ability"
     },
     {
@@ -216,6 +261,51 @@
       "category": "Ability"
     },
     {
+      "id": 1673,
+      "image": "https://armory.returnofreckoning.com/icon/2400",
+      "name": "Da Toughest!",
+      "type": "Defensive",
+      "spec": "Path of Da’ Toughest",
+      "minrank": "4",
+      "cost": "55 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "War Bellow",
+      "description": "A grand war cry to proclaim yourself da toughest! All your attacks gain a 25% chance to increase your group's wounds by 48 for 10 seconds. Anyone affected will be healed by the amount increased.<BR><BR>You may only have 1 War Bellow active at a time.",
+      "category": "Ability"
+    },
+    {
+      "id": 1667,
+      "image": "https://armory.returnofreckoning.com/icon/2553",
+      "name": "Follow 'me Lead",
+      "type": "Blessing",
+      "spec": "Path of Da’ Boss",
+      "minrank": "5",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Leads to da' Gud Plan!",
+      "description": "You batter your target to show the runts how it's done. You deal 192 damage and increase your own and your defensive target's Weapon Skill by 120 for 20 seconds.",
+      "category": "Ability"
+    },
+    {
+      "id": 1669,
+      "image": "https://armory.returnofreckoning.com/icon/2555",
+      "name": "Tuffer 'n Nails",
+      "type": "Blessing",
+      "spec": "Path of Da’ Toughest",
+      "minrank": "6",
+      "cost": "30 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Requires Shield<br>Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "You slam your shield into your enemy, dealing 202 damage and increasing your armor by 990 for 20 seconds.",
+      "category": "Ability"
+    },
+    {
       "id": 1671,
       "image": "https://armory.returnofreckoning.com/icon/2556",
       "name": "Taunt",
@@ -228,6 +318,21 @@
       "cooldown": "15s cooldown",
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and making monsters hate you more. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "category": "Ability"
+    },
+    {
+      "id": 1678,
+      "image": "https://armory.returnofreckoning.com/icon/2561",
+      "name": "Da Big Un'",
+      "type": "Damaging",
+      "spec": "Path of Da’ Brawler",
+      "minrank": "8",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
+      "description": "A mighty leaping strike with your axe which deals 251 damage to all targets 25 feet in front of you.",
       "category": "Ability"
     },
     {
@@ -259,6 +364,21 @@
       "note": "",
       "description": "Increases your Wounds by 160.",
       "category": "CareerTactic"
+    },
+    {
+      "id": 1682,
+      "image": "https://armory.returnofreckoning.com/icon/2419",
+      "name": "Right in Da Jibblies",
+      "type": "Ailment",
+      "spec": "Path of Da’ Toughest",
+      "minrank": "9",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "You knee your target in a vital spot, inflicting 239 damage and reducing their Weapon Skill by 120 for 20 seconds.",
+      "category": "Ability"
     },
     {
       "id": 1684,
@@ -303,6 +423,21 @@
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
       "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer and all hate that they cause will be split evenly between the two of you.",
+      "category": "Ability"
+    },
+    {
+      "id": 1666,
+      "image": "https://armory.returnofreckoning.com/icon/2552",
+      "name": "Wot armor?",
+      "type": "Ailment",
+      "spec": "Path of Da’ Brawler",
+      "minrank": "12",
+      "cost": "30 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Leads to da' Gud Plan!",
+      "description": "You smash your weapon into your target, dealing 127 damage and reducing their armor by 990 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -351,6 +486,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 1668,
+      "image": "https://armory.returnofreckoning.com/icon/2554",
+      "name": "Da Biggest!",
+      "type": "Defensive",
+      "spec": "Path of Da’ Brawler",
+      "minrank": "14",
+      "cost": "55 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "War Bellow",
+      "description": "A mighty war cry that weakens your foes and gives you their strengths. All your melee attacks gain a 25% chance to randomly steal 120 stat points from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<BR><BR>You may only have 1 War Bellow active at a time.",
+      "category": "Ability"
+    },
+    {
       "id": 1700,
       "image": "https://armory.returnofreckoning.com/icon/22704",
       "name": "'Ave Another One",
@@ -364,6 +514,21 @@
       "note": "",
       "description": "Follow 'me Lead will deal an additional 375 damage over 5 seconds.",
       "category": "CareerTactic"
+    },
+    {
+      "id": 1677,
+      "image": "https://armory.returnofreckoning.com/icon/2499",
+      "name": "Savin' Me Hide",
+      "type": "Blessing",
+      "spec": "Path of Da’ Boss",
+      "minrank": "16",
+      "cost": "No AP Cost",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
+      "description": "Deals 277 damage. Increases your Toughness by 120 for 20 seconds. Group members within 100 feet will take only 80% incoming magic damage for the next 4 seconds.",
+      "category": "Ability"
     },
     {
       "id": 503,
@@ -411,6 +576,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 1680,
+      "image": "https://armory.returnofreckoning.com/icon/2562",
+      "name": "Big Slash",
+      "type": "Damaging",
+      "spec": "Path of Da’ Toughest",
+      "minrank": "18",
+      "cost": "40 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "Deals 105 damage to targets 25 feet from you, and knocks them back.",
+      "category": "Ability"
+    },
+    {
       "id": 1679,
       "image": "https://armory.returnofreckoning.com/icon/2422",
       "name": "Challenge",
@@ -439,6 +619,21 @@
       "note": "",
       "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale"
+    },
+    {
+      "id": 1690,
+      "image": "https://armory.returnofreckoning.com/icon/2565",
+      "name": "Ya Missed Me",
+      "type": "Ailment",
+      "spec": "Path of Da’ Toughest",
+      "minrank": "21",
+      "cost": "25 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "20s cooldown",
+      "note": "Requires Block<br>Leads to da' Gud Plan!",
+      "description": "Deals 164 undefendable damage. Target's physical damage done is reduced to 80% for 10 seconds.",
+      "category": "Ability"
     },
     {
       "id": 1701,
@@ -499,6 +694,21 @@
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
+    },
+    {
+      "id": 1675,
+      "image": "https://armory.returnofreckoning.com/icon/2559",
+      "name": "Da Greenest",
+      "type": "Defensive",
+      "spec": "Path of Da’ Boss",
+      "minrank": "25",
+      "cost": "55 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "War Bellow",
+      "description": "A Waaaghy bellow that raises resistances when hit. Incoming attacks have a 25% chance to increase resistance against that type of damage by 378 for 10 seconds on all group members within 100 feet. Physical damage will increase armor by 990 for 10 seconds for all group members within 100 feet.<BR><BR>You may only have 1 War Bellow active at a time.",
+      "category": "Ability"
     },
     {
       "id": 504,
@@ -621,6 +831,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 1672,
+      "image": "https://armory.returnofreckoning.com/icon/2557",
+      "name": "Big Swing",
+      "type": "Ailment",
+      "spec": "Path of Da’ Boss",
+      "minrank": "35",
+      "cost": "50 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "You furiously swing your weapon in a wide circle, dealing 98 damage to targets within 30 feet and reducing their Strength by 120 for 20 seconds.",
+      "category": "Ability"
+    },
+    {
       "id": 1702,
       "image": "https://armory.returnofreckoning.com/icon/22708",
       "name": "Bring 'Em On",
@@ -679,6 +904,21 @@
       "note": "",
       "description": "Cooldown on Shut Yer Face is reduced by 5 seconds and damage is increased to 614",
       "category": "CareerTactic"
+    },
+    {
+      "id": 1683,
+      "image": "https://armory.returnofreckoning.com/icon/2457",
+      "name": "Shut Yer Face",
+      "type": "Ailment",
+      "spec": "Path of Da’ Boss",
+      "minrank": "40",
+      "cost": "No AP Cost",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "20s cooldown",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
+      "description": "You ruthlessly smack your target in the face, dealing 427 damage and silencing them for 4 seconds.",
+      "category": "Ability"
     },
     {
       "id": 613,
