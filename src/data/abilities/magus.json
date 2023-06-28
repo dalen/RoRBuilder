@@ -10,25 +10,26 @@
     8476,
     8477,
     8478,
-    648,
+    670,
     797,
     8492,
     8480,
-    544,
+    669,
+    568,
     8512,
-    542,
-    652,
+    563,
+    673,
     798,
-    653,
+    674,
     8506,
     8473,
     800,
-    650,
+    671,
     8481,
-    549,
+    567,
     8507,
     8527,
-    550,
+    569,
     8522,
     8528,
     8510,
@@ -36,7 +37,7 @@
     8529,
     8508,
     8513,
-    651
+    672
   ],
   "mastery": {
     "a": {
@@ -258,10 +259,10 @@
       "category": "Ability"
     },
     {
-      "id": 648,
-      "image": "https://armory.returnofreckoning.com/icon/23165",
-      "name": "Point-Blank",
-      "type": "Debuff",
+      "id": 670,
+      "image": "https://armory.returnofreckoning.com/icon/23167",
+      "name": "Mage Bolt",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "8",
       "cost": "Rank 1 morale",
@@ -269,7 +270,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A mid-range attack that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
+      "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale"
     },
     {
@@ -318,9 +319,24 @@
       "category": "Ability"
     },
     {
-      "id": 544,
-      "image": "https://armory.returnofreckoning.com/icon/22694",
-      "name": "Expert Skirmisher",
+      "id": 669,
+      "image": "https://armory.returnofreckoning.com/icon/23170",
+      "name": "Siphon Power",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "12",
+      "cost": "Rank 2 morale",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
+      "category": "Morale"
+    },
+    {
+      "id": 568,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Devour Energy",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "13",
@@ -329,7 +345,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
+      "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect cannot occur more than once every 2 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -348,9 +364,9 @@
       "category": "CareerTactic"
     },
     {
-      "id": 542,
-      "image": "https://armory.returnofreckoning.com/icon/22697",
-      "name": "Masterful Aim",
+      "id": 563,
+      "image": "https://armory.returnofreckoning.com/icon/22695",
+      "name": "Endless Knowledge",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "16",
@@ -359,13 +375,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Ballistic Skill by 160.",
+      "description": "Increases your Intelligence by 160.",
       "category": "CareerTactic"
     },
     {
-      "id": 652,
-      "image": "https://armory.returnofreckoning.com/icon/23162",
-      "name": "Concealment",
+      "id": 673,
+      "image": "https://armory.returnofreckoning.com/icon/23168",
+      "name": "Misdirection",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "16",
@@ -374,7 +390,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
+      "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
       "category": "Morale"
     },
     {
@@ -393,7 +409,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 653,
+      "id": 674,
       "image": "https://armory.returnofreckoning.com/icon/23153",
       "name": "Focused Mind",
       "type": "Buff",
@@ -453,18 +469,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 650,
-      "image": "https://armory.returnofreckoning.com/icon/23163",
-      "name": "Explosive Shots",
-      "type": "Buff",
+      "id": 671,
+      "image": "https://armory.returnofreckoning.com/icon/23169",
+      "name": "Scintillating Energy",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "Self",
+      "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<BR>This effect will not trigger more than once every second.",
+      "description": "Deals 1200 damage to your target and staggers them for 9 seconds, preventing all actions until they take damage.",
       "category": "Morale"
     },
     {
@@ -483,9 +499,9 @@
       "category": "Ability"
     },
     {
-      "id": 549,
-      "image": "https://armory.returnofreckoning.com/icon/22698",
-      "name": "Clever Recovery",
+      "id": 567,
+      "image": "https://armory.returnofreckoning.com/icon/22708",
+      "name": "Sleight of Hand",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "25",
@@ -494,7 +510,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<BR>This effect will not trigger more than once every 3 seconds.",
+      "description": "Enemy monsters will hate you 50% less than normal.",
       "category": "CareerTactic"
     },
     {
@@ -528,9 +544,9 @@
       "category": "Morale"
     },
     {
-      "id": 550,
-      "image": "https://armory.returnofreckoning.com/icon/22709",
-      "name": "Pierce Defenses",
+      "id": 569,
+      "image": "https://armory.returnofreckoning.com/icon/22694",
+      "name": "Close Quarters",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "29",
@@ -539,7 +555,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
+      "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic"
     },
     {
@@ -648,18 +664,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 651,
-      "image": "https://armory.returnofreckoning.com/icon/23164",
-      "name": "Hail of Doom",
-      "type": "Buff",
+      "id": 672,
+      "image": "https://armory.returnofreckoning.com/icon/23171",
+      "name": "Unleash the Winds",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "100ft range",
-      "incant": "5.0s cast",
+      "range": "5ft range",
+      "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
+      "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
       "category": "Morale"
     },
     {
