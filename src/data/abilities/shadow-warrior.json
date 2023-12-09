@@ -5,7 +5,7 @@
     14408,
     9080,
     245,
-    2975,
+    9090,
     9094,
     9089,
     9148,
@@ -18,7 +18,7 @@
     542,
     652,
     819,
-    9151,
+    9097,
     653,
     9116,
     823,
@@ -28,7 +28,7 @@
     9137,
     550,
     9122,
-    2711,
+    9145,
     9121,
     9117,
     9139,
@@ -48,7 +48,7 @@
         "lvl2": 9096,
         "lvl3": 9126,
         "lvl4": 9085,
-        "lvl5": 2741,
+        "lvl5": 9120,
         "lvl6": 9105,
         "lvl7": 9142
       },
@@ -68,10 +68,10 @@
       },
       "optionalAbilities": {
         "lvl1": 9130,
-        "lvl2": 2822,
+        "lvl2": 9113,
         "lvl3": 9131,
-        "lvl4": 2972,
-        "lvl5": 2974,
+        "lvl4": 9112,
+        "lvl5": 9129,
         "lvl6": 9108,
         "lvl7": 9143
       },
@@ -186,7 +186,7 @@
       "category": "Ability"
     },
     {
-      "id": 2975,
+      "id": 9090,
       "image": "https://armory.returnofreckoning.com/icon/13404",
       "name": "Assault Stance",
       "type": "Buff",
@@ -197,7 +197,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Assault Stance",
-      "description": "A close-combat stance which increases your Strength and Weapon Skill by 120, and increases your Armor by the same amount that you receive from items.<BR><BR>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Autoattack damage is increased by 65%. Additionally you have a 25% chance on melee attacks to increase your Autoattack speed by 33%.<BR><BR>You may only use a single Stance at a time.",
+      "description": "A close-combat stance which increases your Strength and Weapon Skill by 120, and increases your Armor by the same amount that you receive from items.<BR><BR>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Auto Attack speed is increased by 35%.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability"
     },
     {
@@ -242,7 +242,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "An inspired fervor fills your group, giving 5 AP every second for 9 seconds to all groupmates within 100 feet of you.",
+      "description": "An inspired ferver fills your group, giving 5 Action Points every second for 9 seconds to all groupmates within 100 feet of you.",
       "category": "Ability"
     },
     {
@@ -286,8 +286,8 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "",
-      "description": "You are filled with a desire for vengeance, increasing all damage you deal by 25% for 10 seconds.",
+      "note": "Grants Vengeful",
+      "description": "You are filled with a desire for vengeance, increasing all damage you deal by 25% for 10 seconds. During this time some of your abilities will gain additional effects.",
       "category": "Ability"
     },
     {
@@ -347,7 +347,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Ballistic Skill by 160.",
+      "description": "Increases your Ballistic Skill by 160",
       "category": "CareerTactic"
     },
     {
@@ -381,10 +381,10 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9151,
+      "id": 9097,
       "image": "https://armory.returnofreckoning.com/icon/13308",
       "name": "Steady Aim",
-      "type": "Unknown",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "20",
       "cost": "25 Action Points",
@@ -407,7 +407,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and you cannot be set back.",
       "category": "Morale"
     },
     {
@@ -531,7 +531,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2711,
+      "id": 9145,
       "image": "https://armory.returnofreckoning.com/icon/13335",
       "name": "Ambush",
       "type": "Damaging",
@@ -661,8 +661,8 @@
       "range": "100ft range",
       "incant": "1.5s cast",
       "cooldown": "5s cooldown",
-      "note": "",
-      "description": "An attack which deals 459 damage and reduces your target's armor by 990 and reduces their chance to block by 10% for 10 seconds.",
+      "note": "Requires Scout or Skirmish Stance",
+      "description": "An attack which deals 328 damage and reduces your target's armor by 990 and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
     {
@@ -677,7 +677,7 @@
       "incant": "3.0s cast",
       "cooldown": "7s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "You move with blinding speed as you quickly fire several shots at your target, dealing 143 damage to the enemy twice per second for up to 3 seconds.  This effect will end if you break your concentration, or run out of action points.<BR>If you are Vengeful, then the shots will deal 10% more damage.",
+      "description": "You move with blinding speed as you quickly fire several shots at your target, dealing 134 damage to the enemy twice per second for up to 3 seconds.  This effect will end if you break your concentration, or run out of action points.<BR>If you are Vengeful, then the shots will deal 10% more damage.",
       "category": "Ability"
     },
     {
@@ -686,7 +686,7 @@
       "name": "Glass Arrow",
       "type": "Ailment",
       "spec": "Path of The Scout",
-      "minrank": "21",
+      "minrank": "18",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -707,7 +707,7 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "Requires Scout Stance",
-      "description": "A Crippling shot that deals 465 damage and silences your target for 4 seconds, making them unable to use magic.",
+      "description": "A Crippling shot that deals 366 damage and silences your target for 4 seconds, making them unable to use magic.",
       "category": "Ability"
     },
     {
@@ -716,7 +716,7 @@
       "name": "Guerrilla Training",
       "type": "Buff",
       "spec": "Path of The Scout",
-      "minrank": "17",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -731,13 +731,13 @@
       "name": "Eye Shot",
       "type": "Ailment",
       "spec": "Path of The Scout",
-      "minrank": "21",
+      "minrank": "18",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A Crippling shot that deals 141 damage,  reduces your target's Initiative by 80 for 20 seconds, and knocks the target down for 3 seconds.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
+      "description": "A Crippling shot that deals 141 damage,  reduces your target's Initiative by 80 for 20 seconds, and knocks the target down for 2 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -767,11 +767,11 @@
       "incant": "3.0s cast",
       "cooldown": "5s cooldown",
       "note": "Requires Scout Stance",
-      "description": "Deals 1033 Corporeal damage to your target.<BR>If you are Vengeful, then this attack is undefendable.",
+      "description": "Deals 1033 Corporeal damage to your target.",
       "category": "Ability"
     },
     {
-      "id": 2741,
+      "id": 9120,
       "image": "https://armory.returnofreckoning.com/icon/22709",
       "name": "No Quarter",
       "type": "Buff",
@@ -789,7 +789,7 @@
       "id": 9105,
       "image": "https://armory.returnofreckoning.com/icon/13313",
       "name": "Fell The Weak",
-      "type": "Ailment",
+      "type": "Damaging",
       "spec": "Path of The Scout",
       "minrank": "29",
       "cost": "35 Action Points",
@@ -797,7 +797,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Scout Stance",
-      "description": "Deals 928 damage if your target is below 30% hit points, or 465 damage otherwise.<BR>If you are Vengeful, then this attack deals spirit damage.",
+      "description": "Deals 928 damage if your target is below 30% hit points, or 366 damage otherwise.",
       "category": "Ability"
     },
     {
@@ -841,7 +841,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Target must be facing away from you<br>Requires Assault or Skirmish Stance",
+      "note": "Target must be facing away from you<br>Requires Assault Stance",
       "description": "Deals 427 damage to your target, and makes monsters hate you less than normal.  Only usable when you are behind the target.<BR>If you are Vengeful, then this attack may be used from any position.",
       "category": "Ability"
     },
@@ -869,17 +869,17 @@
       "minrank": "21",
       "cost": "20 Action Points / Sec",
       "range": "5ft range",
-      "incant": "3.0s cast",
+      "incant": "5.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing 110 damage per hit.  If the target is building up an ability, then your strikes will deal 204 damage instead.  This ability will end if you break your concentration or run out of action points.<BR>If you are Vengeful, then duration is incraesed to 5 seconds.",
+      "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing 110 damage per hit.  If the target is building up an ability, then your strikes will deal 204 damage instead.  This ability will end if you break your concentration or run out of action points.<BR>If you are Vengeful, then duration is increased to 5 seconds.",
       "category": "Ability"
     },
     {
       "id": 9098,
       "image": "https://armory.returnofreckoning.com/icon/13319",
       "name": "Opportunistic Strike",
-      "type": "Ailment",
+      "type": "Damaging",
       "spec": "Path of Assault",
       "minrank": "25",
       "cost": "20 Action Points",
@@ -901,7 +901,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Requires Assault or Skirmish Stance",
+      "note": "Requires Assault Stance",
       "description": "Deals 296 damage to all enemies in an arc in front of you, up to 25 feet away.",
       "category": "Ability"
     },
@@ -917,7 +917,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Assault Stance",
-      "description": "A quick strike which deals 192 damage to your target and interrupts any ability that they were building up.",
+      "description": "A quick strike which deals 164 damage to your target and interrupts any ability that they were building up.",
       "category": "Ability"
     },
     {
@@ -936,7 +936,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2822,
+      "id": 9113,
       "image": "https://armory.returnofreckoning.com/icon/13327",
       "name": "Shadowstep",
       "type": "Buff",
@@ -946,7 +946,7 @@
       "range": "45ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Requires Assault Stance",
+      "note": "Requires Assault Stance<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned",
       "description": "You merge with the shadows and appear on your target within the blink of an eye. For the next 10 seconds your defences will be increased by 15%. Cant be used if there is a too big height difference between you and your target or if you are airborne.",
       "category": "Ability"
     },
@@ -966,7 +966,7 @@
       "category": "CareerTactic"
     },
     {
-      "id": 2972,
+      "id": 9112,
       "image": "https://armory.returnofreckoning.com/icon/13301",
       "name": "Crosscut",
       "type": "Damaging",
@@ -981,7 +981,7 @@
       "category": "Ability"
     },
     {
-      "id": 2974,
+      "id": 9129,
       "image": "https://armory.returnofreckoning.com/icon/22708",
       "name": "Merciless Soldier",
       "type": "Buff",
@@ -999,7 +999,7 @@
       "id": 9108,
       "image": "https://armory.returnofreckoning.com/icon/13409",
       "name": "Exploit Weakness",
-      "type": "Ailment",
+      "type": "Damaging",
       "spec": "Path of Assault",
       "minrank": "29",
       "cost": "25 Action Points",
@@ -1007,7 +1007,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Assault Stance",
-      "description": "A Crippling attack which deals 352 damage and knocks down your target for 3 seconds.<BR>If you are Vengeful, then cooldown is decreased by 10 seconds.",
+      "description": "A Crippling attack which deals 352 damage and knocks down your target for 3 seconds.",
       "category": "Ability"
     },
     {
@@ -1082,7 +1082,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Skirmish Stance<br>Target must be facing away from you",
-      "description": "Deals 441 damage to your target.  This ability will continue to build up even if you move.  Only usable from behind the target.<BR>The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
+      "description": "Deals 441 damage to your target.",
       "category": "Ability"
     },
     {
@@ -1112,7 +1112,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Spiral-Fletched Arrow and Broadhead Arrows now hit all enemies within 20 feet of your initial target, their range is reduced to 65 feet.",
+      "description": "Spiral-Fletched Arrow and Broadhead Arrows now hit all enemies within 20 feet of your initial target, but their range is reduced to 65ft.",
       "category": "CareerTactic"
     },
     {
@@ -1127,7 +1127,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Skirmish Stance",
-      "description": "An Ailment which deals 240 Elemental damage to your target and then explodes, dealing an additional 369 Elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.<BR>If you are Vengeful, the radius is increased by 10 feet.",
+      "description": "An Ailment which deals 231 Elemental damage to your target and then explodes, dealing an additional 369 Elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.<BR>If you are Vengeful, the radius is increased by 10 feet.",
       "category": "Ability"
     },
     {
@@ -1157,7 +1157,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Target must be Ailing",
-      "description": "An Ailment which deals 681 damage to your target over 9 seconds and causes all healing effects used on them to become 50% weaker.  Only usable on a target that is already Ailing.<BR>If you are Vengeful, this attack is undefendable.",
+      "description": "An Ailment which deals 681 damage to your target over 9 seconds and causes all healing effects used on them to become 50% weaker.  Only usable on a target that is already Ailing.",
       "category": "Ability"
     },
     {
@@ -1172,7 +1172,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the armor penetration of all Path Of The Skirmisher attacks by 25%.",
+      "description": "Increases the armor penetration of all Path Of The Skirmisher attacks by 15%.",
       "category": "CareerTactic"
     },
     {

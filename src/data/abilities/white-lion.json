@@ -23,13 +23,12 @@
     823,
     629,
     523,
+    530,
     9200,
     9224,
     528,
     9201,
     9225,
-    2713,
-    522,
     9202,
     9226,
     9204,
@@ -48,7 +47,7 @@
         "lvl2": 9187,
         "lvl3": 9210,
         "lvl4": 9192,
-        "lvl5": 2929,
+        "lvl5": 9211,
         "lvl6": 9188,
         "lvl7": 9230
       },
@@ -90,7 +89,7 @@
         "secondary": "Points in the Guardian Tree grants Wounds, Toughness, Weapon Skill, Strength and Initiative to your lion."
       },
       "optionalAbilities": {
-        "lvl1": 9218,
+        "lvl1": 9205,
         "lvl2": 9177,
         "lvl3": 9216,
         "lvl4": 9193,
@@ -180,7 +179,7 @@
       "incant": "1.0s cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You call your tamed War Lion to come forth and fight with you.<BR>You may only have a single War Lion at a time.<BR>If the War Lion is more than 40ft away from you, its damage will be reduced. The further away the pet is, the more the damage is reduced.",
+      "description": "You call your tamed War Lion to come forth and fight with you.<BR>You may only have a single War Lion at a time.",
       "category": "Ability"
     },
     {
@@ -454,6 +453,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 530,
+      "image": "https://armory.returnofreckoning.com/icon/22702",
+      "name": "Close Combat",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "25",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "category": "CareerTactic"
+    },
+    {
       "id": 9200,
       "image": "https://armory.returnofreckoning.com/icon/22702",
       "name": "Flashing Claws",
@@ -529,36 +543,6 @@
       "category": "Morale"
     },
     {
-      "id": 2713,
-      "image": "https://armory.returnofreckoning.com/icon/13436",
-      "name": "Cleaver",
-      "type": "Damaging",
-      "spec": "Core Ability",
-      "minrank": "32",
-      "cost": "Rank 2 morale",
-      "range": "Self",
-      "incant": "Instant cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "A mighty swing attack that inflicts 1200 damage to all targets 40 feet in front of you.",
-      "category": "Morale"
-    },
-    {
-      "id": 522,
-      "image": "https://armory.returnofreckoning.com/icon/22702",
-      "name": "Close Combat",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "32",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
-      "category": "CareerTactic"
-    },
-    {
       "id": 9202,
       "image": "https://armory.returnofreckoning.com/icon/22709",
       "name": "Loner",
@@ -570,7 +554,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage and the cooldown of Pounce is removed, but you are unable to call forth your War Lion, and it will depart if it has already been summoned.",
+      "description": "You deal 25% more damage, but you are unable to call forth your War Lion, and it will depart if it has already been summoned.",
       "category": "CareerTactic"
     },
     {
@@ -640,12 +624,12 @@
       "type": "Damaging",
       "spec": "Path of The Hunter",
       "minrank": "1",
-      "cost": "30 Action Points",
+      "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A brutal chop at your enemy which deals 199 damage.",
+      "description": "A brutal chop at your enemy which deals 246 damage.",
       "category": "Ability"
     },
     {
@@ -700,7 +684,7 @@
       "type": "Damaging",
       "spec": "Path of The Hunter",
       "minrank": "30",
-      "cost": "35 Action Points",
+      "cost": "50 Action Points",
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
@@ -727,7 +711,7 @@
       "id": 9187,
       "image": "https://armory.returnofreckoning.com/icon/13440",
       "name": "Echoing Roar",
-      "type": "Ailment",
+      "type": "Curse",
       "spec": "Path of The Hunter",
       "minrank": "21",
       "cost": "35 Action Points",
@@ -735,7 +719,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 15 feet of either one of you and inflicting an Ailment which causes 525 Spirit damage over 15 seconds to all affected enemies.",
+      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 30 feet of either one of you and inflicting an Ailment which causes 525 Spirit damage over 15 seconds to all affected enemies.",
       "category": "Ability"
     },
     {
@@ -769,9 +753,9 @@
       "category": "Ability"
     },
     {
-      "id": 2929,
+      "id": 9211,
       "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "Hack and Slash",
+      "name": "Hack And Slash",
       "type": "Buff",
       "spec": "Path of The Hunter",
       "minrank": "27",
@@ -780,7 +764,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whirling Axe and Slashing Blade will now ignore 50% of your opponents Armor, additionally reduces the action point costs of Slashing Blade and Hack by 50%.",
+      "description": "Reduces the action point costs of Slashing Blade and Hack by 15 AP, and increases the armor penetration of Slashing Blade and Whirling Axe by 25%.",
       "category": "CareerTactic"
     },
     {
@@ -825,7 +809,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Must be at your target's side or rear",
-      "description": "You attack your enemy at a vulnerable spot, dealing 179 damage immediately and inflicting them with an Ailment which deals an additional 366 damage over 9 seconds.",
+      "description": "You attack your enemy at a vulnerable spot, dealing 141 damage immediately and inflicting them with an Ailment which deals an additional 366 damage over 9 seconds.",
       "category": "Ability"
     },
     {
@@ -855,7 +839,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful axe chop which deals 209 damage.  If you are behind the enemy, then this attack will ignore 990 armor.",
+      "description": "A powerful axe chop which deals 209 damage. If behind your target, ignores 15% of the victim's armor.",
       "category": "Ability"
     },
     {
@@ -870,7 +854,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 429 damage over 9 seconds.  If you attack an enemy from the sides or back, then you will also reduce their Strength by 120 for 9 seconds.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals 558 damage over 9 seconds.  If you attack an enemy from the sides or back, then you will also reduce their Strength by 120 for 9 seconds.",
       "category": "Ability"
     },
     {
@@ -909,7 +893,7 @@
       "name": "Primal Fury",
       "type": "Blessing",
       "spec": "Path of The Axeman",
-      "minrank": "25",
+      "minrank": "21",
       "cost": "45 Action Points",
       "range": "Self",
       "incant": "Instant cast",
@@ -939,7 +923,7 @@
       "name": "Cull The Weak",
       "type": "Damaging",
       "spec": "Path of The Axeman",
-      "minrank": "21",
+      "minrank": "25",
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
@@ -1003,9 +987,9 @@
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "An attack which momentarily distracts your enemy, dealing 199 damage to them.  Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
+      "description": "An attack which momentarily distracts your enemy, dealing 171 damage to them.  Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1033,9 +1017,9 @@
       "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
-      "description": "A sundering blow which deals 199 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
+      "description": "A sundering blow which deals 171 damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1065,11 +1049,11 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
-      "description": "You pounce forwards, leaping towards your target and causing 209 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.<BR><BR>This ability cannot critically hit.<BR>This ability cannot be used while you are in the air. Cant be used if there is a too big height difference between you and your target.",
+      "description": "You pounce forwards, leaping towards your target and causing 171 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.",
       "category": "Ability"
     },
     {
-      "id": 9218,
+      "id": 9205,
       "image": "https://armory.returnofreckoning.com/icon/22705",
       "name": "Bonded Pack",
       "type": "Buff",
@@ -1120,7 +1104,7 @@
       "type": "Damaging",
       "spec": "Path of The Guardian",
       "minrank": "25",
-      "cost": "15 Action Points",
+      "cost": "25 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
@@ -1155,7 +1139,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Requires an active pet",
-      "description": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds.  During this time, your pet will deal an additional 209 damage every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds.",
+      "description": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds.  During this time, your pet will deal an additional 209 damage every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds and cannot crit.",
       "category": "Ability"
     },
     {

@@ -306,7 +306,7 @@
       "id": 8554,
       "image": "https://armory.returnofreckoning.com/icon/5235",
       "name": "Glimpse of Chaos",
-      "type": "Healing",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "16",
       "cost": "25 Action Points",
@@ -441,7 +441,7 @@
       "id": 8559,
       "image": "https://armory.returnofreckoning.com/icon/5237",
       "name": "Breath of Tzeentch",
-      "type": "Hex",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "40 Action Points",
@@ -614,7 +614,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rituals will now pulse 150 Corporeal damage to all targets within {COM_1_RADI_FEET: Component Num 1 not found} every 3 seconds based on Mastery level of the Ritual.",
+      "description": "Rituals will now pulse 150 Corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
       "category": "CareerTactic"
     },
     {
@@ -764,7 +764,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 Ritual active",
-      "description": "A frenzied, 30 seconds long ritual that affects all groupmembers within 100 feet, granting them a 20% chance to regain 50 Action Points every time they use an ability.",
+      "description": "A frenzied, 30 seconds long ritual that affects all group members within 100 feet, granting them a 20% chance to regain 50 Action Points every attack.",
       "category": "Ability"
     },
     {
@@ -779,7 +779,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you directly heal someone, there is a  25% chance your offensive target will take damage equal to 25% of the healed value.",
+      "description": "Any time you directly heal someone, there is a  25% chance your offensive target will take corporeal damage equal to 25% of the healed value.",
       "category": "CareerTactic"
     },
     {
@@ -809,7 +809,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Critical single target attacks place a debuff on your target that reduces all incoming healing by 50% for 10 seconds.",
+      "description": "Critical direct damage hits place a debuff on your target that reduces all incoming healing by 30% for 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -824,7 +824,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Overwhelms your opponent with power, inflicting 396 damage and Staggers the target for up to 6 seconds, preventing all actions unless they're damaged.",
+      "description": "Overwhelms your opponent with power, inflicting 396 Corporeal damage and Staggers the target for up to 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
     {
@@ -906,7 +906,7 @@
       "id": 8565,
       "image": "https://armory.returnofreckoning.com/icon/5238",
       "name": "Tzeentch's Lash",
-      "type": "Hex",
+      "type": "Damaging",
       "spec": "Path of Witchcraft",
       "minrank": "35",
       "cost": "20 Action Points",
@@ -974,7 +974,7 @@
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
       "note": "",
-      "description": "You call forth a storm of ravens which claw and peck at your target, dealing 1848 Corporeal damage over 6 seconds and snaring them by 40%. for as long as you maintain your concentration.",
+      "description": "Channeled. Deals 1848 Corporeal damage over 6 seconds and snaring them by 40%. 100% chance to be setback while casting.",
       "category": "Ability"
     },
     {
@@ -1004,14 +1004,14 @@
       "incant": "2.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Curses your target for 10 seconds so that whenever they receive a direct heal, it inflicts 547 Corporeal damage to them. This ability will continue to build up even if you move.",
+      "description": "Curses your target for 10 seconds so that whenever they cast a direct heal, it inflicts 547 Corporeal damage to them. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
       "id": 8612,
       "image": "https://armory.returnofreckoning.com/icon/5246",
       "name": "Tzeentch's Scream",
-      "type": "Damaging",
+      "type": "Healing",
       "spec": "Path of Witchcraft",
       "minrank": "31",
       "cost": "Rank 4 morale",
@@ -1039,7 +1039,7 @@
     },
     {
       "id": 8560,
-      "image": "https://armory.returnofreckoning.com/icon/5137",
+      "image": "https://armory.returnofreckoning.com/icon/5123",
       "name": "Mark of the Vortex",
       "type": "Blessing",
       "spec": "Path of Dark Rites",
@@ -1154,7 +1154,7 @@
       "incant": "6.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing 307 every 2 seconds for up to 6 seconds.",
+      "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing 307 Corporeal damage every 2 seconds for up to 6 seconds.",
       "category": "Ability"
     },
     {
@@ -1184,7 +1184,7 @@
       "incant": "Instant cast",
       "cooldown": "26s cooldown",
       "note": "",
-      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 234 damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<BR>This spell may be toggled off to regain your movement.",
+      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 234 Corporeal damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<BR>This spell may be toggled off to regain your movement.",
       "category": "Ability"
     },
     {
@@ -1199,7 +1199,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Inflicts 1800 damage to all targets within 30 feet of you, making heals 50% less effective on them for 10 seconds. This ability hits max 9 targets.",
+      "description": "Inflicts 1200 damage to all targets within 25 feet of you, making heals 50% less effective on them for 10 seconds.",
       "category": "Morale"
     }
   ]

@@ -28,7 +28,7 @@
     9487,
     9513,
     9537,
-    2710,
+    9539,
     9514,
     9515,
     9538,
@@ -267,7 +267,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet become Rooted, making them unable to move for 5 seconds.    Rooted targets have a 50% chance to break free when they suffer damage.",
+      "description": "Up to 4 enemies within 30 feet become Rooted, making them unable to move for 5 seconds.    Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
     {
@@ -372,7 +372,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and you cannot be set back.",
       "category": "Morale"
     },
     {
@@ -526,7 +526,7 @@
       "category": "Morale"
     },
     {
-      "id": 2710,
+      "id": 9539,
       "image": "https://armory.returnofreckoning.com/icon/10993",
       "name": "Shatter",
       "type": "Damaging",
@@ -694,7 +694,7 @@
       "id": 9482,
       "image": "https://armory.returnofreckoning.com/icon/10915",
       "name": "Frostbite",
-      "type": "Curse",
+      "type": "Damaging",
       "spec": "Path of Agony",
       "minrank": "20",
       "cost": "20 Action Points",
@@ -987,7 +987,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target and all other enemies within 20 feet of them are Silenced and Disarmed for 7 seconds, making them unable to use melee, ranged, or magic abilities. This ability hits max 9 targets.",
+      "description": "Your target and all other enemies within 15 feet of them are Silenced and Disarmed for 7 seconds, making them unable to use melee, ranged, or magic abilities.",
       "category": "Morale"
     },
     {
@@ -1137,7 +1137,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces Infernal Wave's cooldown time by 5 seconds, and Pit Of Shades's cooldown time by 10 seconds. The effect on Infernal Wave does not stack with other cooldown reducing abilities.",
+      "description": "Reduces Infernal Wave's cooldown time by 5 seconds, and Pit Of Shades's cooldown time by 10 seconds.",
       "category": "CareerTactic"
     },
     {
