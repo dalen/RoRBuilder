@@ -569,7 +569,7 @@
       "range": "65ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
-      "note": "",
+      "note": "You cannot perform this action while rooted",
       "description": "You magically leap through the air towards your target.  When you land, all enemies within 25 feet around you will become snared for 10 seconds, reducing their run speed by 30%.",
       "category": "Morale"
     },
