@@ -312,7 +312,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires Target to have Parried or Blocked",
-      "description": "Your attacks become more precise, your target's chance to block or parry is reduced by 50% for 10 seconds.",
+      "description": "Your attacks become more precise, your target's chance to block or parry is reduced by 50% for 10 seconds. This attack cannot be defended against.",
       "category": "Ability"
     },
     {

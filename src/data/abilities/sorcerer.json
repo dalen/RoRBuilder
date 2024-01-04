@@ -612,7 +612,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Frozen Touch now has a 75% chance to trigger.",
+      "description": "Frozen Touch now has a 45% chance to trigger.",
       "category": "CareerTactic"
     },
     {
@@ -670,7 +670,7 @@
       "cost": "30 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional 225 Corporeal damage any time they deal direct damage.",
       "category": "Ability"
@@ -865,7 +865,7 @@
       "cost": "30 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is surrounded by a demonic chill for 1 hour, giving them a 25% chance to deal 187 Corporeal damage back against the attacker when they are struck by a melee attack.",
       "category": "Ability"

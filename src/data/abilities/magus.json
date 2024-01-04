@@ -1293,10 +1293,10 @@
       "minrank": "29",
       "cost": "20 Action Points",
       "range": "65ft range",
-      "incant": "1.0s cast",
+      "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 75 feet of the vortex towards its center and then snaring everyone within 30 feet a second later by 40% for 4 seconds. Monsters will be knocked down by the initial pull.",
+      "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 65 feet of the vortex towards its center and then snaring everyone within 30 feet a second later by 40% for 4 seconds. Monsters will be knocked down by the initial pull.",
       "category": "Ability"
     },
     {
