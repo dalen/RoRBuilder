@@ -198,10 +198,10 @@
       "minrank": "3",
       "cost": "55 Action Points",
       "range": "Self",
-      "incant": "2.0s cast",
+      "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in long range Elemental based attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 100% of your Intelligence from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the minion you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": "Summons a daemonic minion who specializes in long range Elemental based attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 100% of your Intelligence from item bonuses and 50% of your Wounds from item bonuses. While you are within 30 feet of the minion you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -228,10 +228,10 @@
       "minrank": "6",
       "cost": "55 Action Points",
       "range": "Self",
-      "incant": "2.0s cast",
+      "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in short range Spiritual and Elemental area of effect attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 50% of your Intelligence from item bonuses and 100% of your Wounds from item bonuses. While you are within 25 feet of the minion you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": "Summons a daemonic minion who specializes in short range Spiritual and Elemental area of effect attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 50% of your Intelligence from item bonuses and 100% of your Wounds from item bonuses. While you are within 30 feet of the minion you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -258,10 +258,10 @@
       "minrank": "8",
       "cost": "55 Action Points",
       "range": "Self",
-      "incant": "2.0s cast",
+      "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 75% of your Intelligence from item bonuses and 75% of your Wounds from item bonuses. While you are within 25 feet of the minion you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 75% of your Intelligence from item bonuses and 75% of your Wounds from item bonuses. While you are within 30 feet of the minion you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -673,15 +673,15 @@
       "id": 672,
       "image": "https://armory.returnofreckoning.com/icon/23171",
       "name": "Unleash the Winds",
-      "type": "Debuff",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
+      "description": "Deals 1800 damage to all enemies within 30 feet, and for the next 10 seconds your abilities will build 50% faster, cost 25% less Action Points and you cannot be set back during this time.",
       "category": "Morale"
     },
     {
@@ -816,7 +816,7 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You open a rift dealing 365 Elemental damage and weakens the fabric of reality surrounding your target, disarming them for 3 seconds.",
+      "description": "You open a rift dealing 365 Elemental damage and weakens the fabric of reality surrounding your target, disarming them for 4 seconds.",
       "category": "Ability"
     },
     {
@@ -906,7 +906,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Tears at your foe with fierce winds, hitting them three times for a total of 363 Spirit damage.",
+      "description": "Tears at your foe with fierce winds, hitting them three times for a total of 363 Spirit damage. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -966,7 +966,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A surge of chaotic bliss overcomes your target, dealing 403 Spirit damage.  The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
+      "description": "A surge of chaotic bliss overcomes your target, dealing 403 Spirit damage.  The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -981,7 +981,7 @@
       "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Chaotic swirls of power inflict 1055 Spirit damage over 15 seconds to your target and those within 20 feet of them.",
+      "description": "Chaotic swirls of power inflict 1055 Spirit damage over 15 seconds to your target and those within 20 feet of them. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -996,7 +996,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Energy spirals towards your foe, dealing 403 Spirit damage and knocking them back a short distance. Monsters will be knocked down.",
+      "description": "Energy spirals towards your foe, dealing 403 Spirit damage and knocking them back a short distance. Monsters will be knocked down. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {

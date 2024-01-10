@@ -323,8 +323,8 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "",
-      "description": "All enemies within 30 feet become snared, reducing movement speed by 40% for the next 10 seconds. You are knocked back away from your enemies.",
+      "note": "You cannot perform this action while airborne",
+      "description": "All enemies within 30 feet become snared, reducing movement speed by 30% for the next 5 seconds. You are knocked back away from your enemies.",
       "category": "Ability"
     },
     {
@@ -519,7 +519,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
+      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to dodge and parry will be reduced by 10% and their ability to block reduced by 5% for 10 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -545,11 +545,11 @@
       "spec": "Core Ability",
       "minrank": "32",
       "cost": "Rank 2 morale",
-      "range": "100ft range",
+      "range": "65ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Targeted  area-effect attack that deals 900 over 9 seconds to all enemies within 30 feet, and snares the targets by 60%.",
+      "description": "Targeted  area-effect attack that deals 900 over 3 seconds to all enemies within 20 feet, and snares the targets by 60%.",
       "category": "Morale"
     },
     {
@@ -1073,7 +1073,7 @@
       "range": "45ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Requires Squig Armor<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned",
+      "note": "Requires Squig Armor<br>You cannot perform this action while rooted<br>You cannot perform this action while airborne",
       "description": "You pounce forwards, leaping towards your target. You will inflict 156 damage to them when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.",
       "category": "Ability"
     },

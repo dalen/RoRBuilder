@@ -659,7 +659,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "You cannot perform this action while rooted",
+      "note": "You cannot perform this action while rooted<br>You cannot perform this action while airborne",
       "description": "You leap backwards from your target, causing your target to be Staggered for up to 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
@@ -1080,7 +1080,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds.  If you are behind your target, then you will also deal 277 damage.",
+      "description": "A punishing blow that silences your target, making them unable to use magic for 4 seconds.  If you are behind your target, then you will also deal 277 damage.",
       "category": "Ability"
     },
     {
@@ -1215,7 +1215,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 2400 damage over 10 seconds to all enemies within 30 feet and snares them, reducing their run speed by 60%.",
+      "description": "Deals 2400 damage over 10 seconds to all enemies within 25 feet and snares them, reducing their run speed by 30%.",
       "category": "Morale"
     }
   ]

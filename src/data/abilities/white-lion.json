@@ -1048,7 +1048,7 @@
       "range": "45ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
+      "note": "You cannot perform this action while rooted<br>You cannot perform this action while airborne",
       "description": "You pounce forwards, leaping towards your target and causing 171 damage when you land. Your movement speed will subsequently be increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability.",
       "category": "Ability"
     },

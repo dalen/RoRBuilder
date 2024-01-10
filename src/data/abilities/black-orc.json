@@ -256,7 +256,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "An encouraging bellow that causes group members within 100 feet to regenerate 5 Action Points every second for 9 seconds.",
+      "description": "An encouraging bellow that causes group members within 100 feet to regenerate 5 Action Points every second for 15 seconds.",
       "category": "Ability"
     },
     {
@@ -301,7 +301,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
+      "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects. For the next 5 seconds, roots and snares will have no effect on you.",
       "category": "Ability"
     },
     {
@@ -541,7 +541,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Juggernaut's cooldown is reduced to 20 seconds.",
+      "description": "Juggernaut's cooldown is reduced to 40 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -631,7 +631,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All targets within 30 feet of you take 1200 damage and are Silenced, unable to use Magic for 5 seconds.",
+      "description": "All targets within 25 feet of you take 1200 damage and are Silenced, unable to use Magic for 5 seconds.",
       "category": "Morale"
     },
     {
@@ -856,7 +856,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1800 damage over 15 seconds to all targets 40 feet in front of you. Affected targets are snared by 40% for 15 seconds.",
+      "description": "Deals 1800 damage over 15 seconds to all targets 40 feet in front of you. Affected targets are snared by 30% for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -1171,7 +1171,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Big Swing now Snares for 20% for 5 seconds and Disorients, increasing build times by 20%.",
+      "description": "Big Swing now Snares for 30% for 5 seconds and Disorients, increasing build times by 20%. But the cooldown is Increased to 20 seconds.",
       "category": "CareerTactic"
     },
     {

@@ -207,7 +207,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You recover from Stuns, Staggers and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
+      "description": "You recover from Stuns, Staggers and Knockdowns 1 seconds quicker. You will still gain immunity based on the original duration.",
       "category": "CareerTactic"
     },
     {
@@ -1092,7 +1092,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
-      "description": "A crippling blow, dealing 142 damage to all enemies within 30 feet. The victims will all become snared, reducing their run speed anywhere from 10% and 40% for 10 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "A crippling blow, dealing 142 damage to all enemies within 30 feet. The victims will all become snared, reducing their run speed by 30% for 5 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
     {

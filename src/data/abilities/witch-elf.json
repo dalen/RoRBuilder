@@ -406,7 +406,7 @@
       "range": "30ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Requires Prowling<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned",
+      "note": "Requires Prowling<br>You cannot perform this action while rooted<br>You cannot perform this action while airborne",
       "description": "You pounce forwards, leaping out of the shadows towards your target stabbing them with your daggers. Your target's movement speed will be reduced by 40% for 5 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
       "category": "Ability"
     },
@@ -691,7 +691,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "You cannot perform this action while rooted",
+      "note": "You cannot perform this action while rooted<br>You cannot perform this action while airborne",
       "description": "You leap backwards from your target, causing your target to be Staggered for up to 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
@@ -1112,7 +1112,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "A swift slice that silences your target, making them unable to use magic for 3 seconds. You will also deal 277 damage to your target if you attack them from behind.",
+      "description": "A swift slice that silences your target, making them unable to use magic for 4 seconds. You will also deal 277 damage to your target if you attack them from behind.",
       "category": "Ability"
     },
     {

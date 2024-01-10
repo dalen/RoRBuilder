@@ -240,7 +240,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You recover from Stuns, Staggers and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
+      "description": "You recover from Stuns, Staggers and Knockdowns 1 seconds quicker. You will still gain immunity based on the original duration.",
       "category": "CareerTactic"
     },
     {
@@ -615,7 +615,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rune of Sundering's cooldown is reduced to 20 seconds, and it will now apply a 40% movement reduction for 10 seconds to all those hit.",
+      "description": "Rune of Sundering's cooldown is reduced to 20 seconds, and it will now apply a 30% movement reduction for 10 seconds to all those hit.",
       "category": "CareerTactic"
     },
     {
@@ -945,7 +945,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each tick of Rune of Immolation has a 25% chance to drain 30 Action Points from the target and snare them by 40% for 5 seconds.",
+      "description": "Each tick of Rune of Immolation has a 25% chance to drain 30 Action Points from the target and snare them by 30% for 5 seconds.",
       "category": "CareerTactic"
     },
     {

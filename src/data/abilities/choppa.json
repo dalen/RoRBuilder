@@ -1092,7 +1092,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
-      "description": "You lash out at all enemies within 30 feet, inflicting 142 damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You lash out at all enemies within 30 feet, inflicting 142 damage. All of the victims will also become snared, reducing their run speed by 30% for 5 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
     {

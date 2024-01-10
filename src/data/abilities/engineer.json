@@ -18,6 +18,7 @@
     1548,
     542,
     652,
+    1561,
     714,
     653,
     1550,
@@ -45,11 +46,11 @@
         "primary": "A mastery path focused on long range attacks with your gun"
       },
       "optionalAbilities": {
-        "lvl1": 1561,
+        "lvl1": 1560,
         "lvl2": 1536,
-        "lvl3": 1560,
+        "lvl3": 1559,
         "lvl4": 1538,
-        "lvl5": 1559,
+        "lvl5": 1568,
         "lvl6": 1545,
         "lvl7": 1580
       },
@@ -198,10 +199,10 @@
       "minrank": "3",
       "cost": "55 Action Points",
       "range": "Self",
-      "incant": "2.0s cast",
+      "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You construct a turret with a self-aiming gun which will fire at distant enemies. The turret gains 75% of your Ballistic Skill and Weapon Skill from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": "You construct a turret with a self-aiming gun which will fire at distant enemies. The turret gains 75% of your Ballistic Skill and Weapon Skill from item bonuses and 50% of your Wounds from item bonuses. While you are within 30 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -228,10 +229,10 @@
       "minrank": "6",
       "cost": "55 Action Points",
       "range": "Self",
-      "incant": "2.0s cast",
+      "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You construct a turret with a self-firing flamethrower which will attack enemies at close range.  The turret gains 100% of your Ballistic Skill, 10% of your Weapon Skill, and 90% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": "You construct a turret with a self-firing flamethrower which will attack enemies at close range.  The turret gains 100% of your Ballistic Skill, 10% of your Weapon Skill, and 90% of your Wounds from item bonuses. While you are within 30 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -258,10 +259,10 @@
       "minrank": "8",
       "cost": "55 Action Points",
       "range": "Self",
-      "incant": "2.0s cast",
+      "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You construct a turret with an auto-firing grenade launcher which will attack enemies at a moderate range.  The turret gains 100% of your Ballistic Skill, 30% of your Weapon Skill, and 70% of your Wounds from item bonuses. While you are within 25 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
+      "description": "You construct a turret with an auto-firing grenade launcher which will attack enemies at a moderate range.  The turret gains 100% of your Ballistic Skill, 30% of your Weapon Skill, and 70% of your Wounds from item bonuses. While you are within 30 feet of the turret you will scavenge extra parts from the turret to create improvised upgrades for your weapons, increasing your damage by 4% every 2 seconds to a maximum of 20%.",
       "category": "Ability"
     },
     {
@@ -291,7 +292,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You recover from Stuns, Staggers and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
+      "description": "You recover from Stuns, Staggers and Knockdowns 1 seconds quicker. You will still gain immunity based on the original duration.",
       "category": "CareerTactic"
     },
     {
@@ -383,6 +384,21 @@
       "note": "",
       "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
       "category": "Morale"
+    },
+    {
+      "id": 1561,
+      "image": "https://armory.returnofreckoning.com/icon/22708",
+      "name": "Stopping Power",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "17",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Hip Shot now will knock the victim back a short distance.",
+      "category": "CareerTactic"
     },
     {
       "id": 714,
@@ -531,7 +547,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
+      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to dodge and parry will be reduced by 10% and their ability to block reduced by 5% for 10 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -636,7 +652,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "After ending or being removed, Barbed Wire will now Snare targets by 40% and deal 246 damage over 5 seconds.",
+      "description": "After ending or being removed, Barbed Wire will now Snare targets by 30% and deal 246 damage over 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -775,9 +791,9 @@
       "category": "Ability"
     },
     {
-      "id": 1561,
-      "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "Stopping Power",
+      "id": 1560,
+      "image": "https://armory.returnofreckoning.com/icon/22745",
+      "name": "Hollow-Points",
       "type": "Buff",
       "spec": "Path of The Rifleman",
       "minrank": "17",
@@ -786,7 +802,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Hip Shot now will knock the victim back a short distance.",
+      "description": "Snipe and Gun Blast will now deal an additional 505 damage over 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -801,13 +817,13 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A well-aimed shot which deals 314 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
+      "description": "A well-aimed shot which deals 314 damage and disarms your target for 4 seconds, making them unable to use their weapons.",
       "category": "Ability"
     },
     {
-      "id": 1560,
-      "image": "https://armory.returnofreckoning.com/icon/22697",
-      "name": "Hollow-Points",
+      "id": 1559,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Quick Reloader",
       "type": "Buff",
       "spec": "Path of The Rifleman",
       "minrank": "23",
@@ -816,7 +832,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Snipe and Gun Blast will now deal an additional 505 damage over 5 seconds.",
+      "description": "The cast times of all your abilities in the Path of the Rifleman are reduced by 25%.",
       "category": "CareerTactic"
     },
     {
@@ -835,9 +851,9 @@
       "category": "Ability"
     },
     {
-      "id": 1559,
-      "image": "https://armory.returnofreckoning.com/icon/22704",
-      "name": "Quick Reloader",
+      "id": 1568,
+      "image": "https://armory.returnofreckoning.com/icon/22739",
+      "name": "Thunderer",
       "type": "Buff",
       "spec": "Path of The Rifleman",
       "minrank": "27",
@@ -846,7 +862,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The cast times of all your abilities in the Path of the Rifleman are reduced by 25%.",
+      "description": "Grants 10% armor penetration to all rifle attacks and allows auto attacks to fire on the move.",
       "category": "CareerTactic"
     },
     {
@@ -891,7 +907,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You toss a grenade filled with flaming pitch which deals 366 Corporeal damage to your target.",
+      "description": "You toss a grenade filled with flaming pitch which deals 366 Corporeal damage to your target. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -951,7 +967,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You toss a grenade which explodes with a burst of force, dealing 403 Corporeal damage to the target.  The blinding flash interrupts the victim and all enemies within 20 feet of them.",
+      "description": "You toss a grenade which explodes with a burst of force, dealing 403 Corporeal damage to the target.  The blinding flash interrupts the victim and all enemies within 20 feet of them. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -966,7 +982,7 @@
       "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You lob a grenade which shatters when it hits your enemy, dealing 1035 Corporeal damage over 15 seconds to the target and all other enemies within 20 feet of them.",
+      "description": "You lob a grenade which shatters when it hits your enemy, dealing 1035 Corporeal damage over 15 seconds to the target and all other enemies within 20 feet of them. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -981,7 +997,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing 403 Corporeal damage to your target and knocking them back a short distance.  Monsters will be knocked down instead.",
+      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing 403 Corporeal damage to your target and knocking them back a short distance.  Monsters will be knocked down instead. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -1016,7 +1032,7 @@
     },
     {
       "id": 1564,
-      "image": "https://armory.returnofreckoning.com/icon/22697",
+      "image": "https://armory.returnofreckoning.com/icon/22742",
       "name": "Throwing Arm",
       "type": "Buff",
       "spec": "Path of The Grenadier",
