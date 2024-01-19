@@ -25,7 +25,6 @@ import { resetPathMeterC } from '../actions/actionPathMeterC';
 import Masthead from './Masthead';
 import Sidebar from './Sidebar';
 import Overlay from './Overlay';
-import News from '../components/News';
 
 type Props = typeof mapDispatchToProps;
 
@@ -60,7 +59,7 @@ class Home extends React.Component<Props> {
       'marginTop@mobile': true,
       'marginTop--medium': true,
       marginRight: true,
-      'marginLeft@mobile': true,
+      marginLeft: true,
     });
     const githubUrl = 'https://github.com/dalen/RoRBuilder';
     const githubUrlIssues = `${githubUrl}/issues`;
@@ -69,70 +68,41 @@ class Home extends React.Component<Props> {
         <div className={css.wrapper}>
           <div className={css.container}>
             <Masthead />
-            <div className="grid">
-              <div className="grid-col-1-3 grid-col-1@mobile">
-                <div className="marginTop--medium marginTop@mobile marginLeft--medium marginLeft@mobile marginRight--medium marginRight@mobile marginBottom--medium marginBottom--none@mobile">
-                  <News />
-                </div>
-              </div>
-              <div className="grid-col-2-3 grid-col-1@mobile">
-                <div className={copyClass}>
-                  <p className={css.copyText}>
-                    Warhammer Online: Age of Reckoning has returned. Resurrected
-                    by volunteers on a private server, we now have{' '}
-                    <a
-                      className={css.copyLink}
-                      href="http://www.returnofreckoning.com"
-                      target="blank"
-                    >
-                      Return of Reckoning
-                    </a>
-                    . Inspired by the work of these developers comes RoR Career
-                    Builder.
-                  </p>
-                  <p className={css.copyText}>
-                    Stat buffs/debuffs will have attributes. Ability
-                    bonus/penalty do not stack with other ability
-                    bonuses/penalties. Morale bonus/penalty do not stack with
-                    other morale bonuses/penalties. Unique bonus/penalty stack
-                    with everything.
-                  </p>
-                  <p className={css.copyText}>
-                    This web app aims to replace and improve upon the great work
-                    done by{' '}
-                    <a
-                      className={css.copyLink}
-                      href="http://waronlinebuilder.org"
-                      target="blank"
-                    >
-                      Warhammer Online Career Builder
-                    </a>{' '}
-                    back in 2013.
-                  </p>
-                  <p className={css.copyText}>
-                    Details of updates will appear on this page.
-                  </p>
-                  <p className={css.copyText}>
-                    All code is available on{' '}
-                    <a href={githubUrl} className={css.copyLink} target="blank">
-                      Github
-                    </a>
-                    . Feel free to fork, contribute,{' '}
-                    <a
-                      href={githubUrlIssues}
-                      className={css.copyLink}
-                      target="blank"
-                    >
-                      raise bugs and make suggestions
-                    </a>
-                    .
-                  </p>
-                  <p className={css.copyText}>
-                    Many thanks to the original creator Matt Richards and to
-                    Ramasee who updated it before handing it to the RoR team.
-                  </p>
-                </div>
-              </div>
+            <div className={copyClass}>
+              <p className={css.copyText}>
+                Warhammer Online: Age of Reckoning has returned. Resurrected by
+                volunteers on a private server, we now have{' '}
+                <a
+                  className={css.copyLink}
+                  href="http://www.returnofreckoning.com"
+                  target="blank"
+                >
+                  Return of Reckoning
+                </a>
+                . Inspired by the work of these developers comes RoR Career
+                Builder.
+              </p>
+              <p className={css.copyText}>
+                Stat buffs/debuffs will have attributes. Ability bonus/penalty
+                do not stack with other ability bonuses/penalties. Morale
+                bonus/penalty do not stack with other morale bonuses/penalties.
+                Unique bonus/penalty stack with everything.
+              </p>
+              <p className={css.copyText}>
+                All code is available on{' '}
+                <a href={githubUrl} className={css.copyLink} target="blank">
+                  Github
+                </a>
+                . Feel free to fork, contribute,{' '}
+                <a
+                  href={githubUrlIssues}
+                  className={css.copyLink}
+                  target="blank"
+                >
+                  raise bugs and make suggestions
+                </a>
+                .
+              </p>
             </div>
           </div>
         </div>
