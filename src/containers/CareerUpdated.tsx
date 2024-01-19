@@ -12,9 +12,7 @@ const CareerUpdated = ({
   const career = careers[slug];
   return (
     <div className="row row--v-center">
-      <p className={css.note}>
-        Verified up to date as of patch {career.updated}
-      </p>
+      <p className={css.note}>Updated to patch {career.updated}</p>
     </div>
   );
 };
