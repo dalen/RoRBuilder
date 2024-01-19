@@ -255,7 +255,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You recover from Stuns, Staggers and Knockdowns 1 seconds quicker. You will still gain immunity based on the original duration.",
+      "description": "Increases Toughness by 80. You also recover from Stuns, Staggers and Knockdowns 1 seconds quicker. You will still gain immunity based on the original duration.",
       "category": "CareerTactic"
     },
     {
@@ -345,7 +345,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you hit an enemy, you gain 5 Grudge. This effect will not trigger more than once per second.",
+      "description": "Each time you hit an enemy, you gain 5 Grudge. This effect will not trigger more than once per 0.5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -778,9 +778,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Costs 15 Grudge",
-      "description": "The memory of your ancestors bolsters your resolve, increasing Strength by 120 and chance to critically hit by 10% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
+      "cooldown": "10s cooldown",
+      "note": "Costs 25 Grudge",
+      "description": "The memory of your ancestors bolsters your resolve, increasing Strength by 120 and chance to critically hit by 10% for 20 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
     {
@@ -840,7 +840,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Improves with Grudge<br>Requires Great Weapon",
-      "description": "You constantly pummel your target with brutal attacks, dealing up to 705 damage over 3 seconds. Your attacks will end if you lose your concentration.<BR><BR> At 25 Grudge: Chance to Critically hit is increased by 5%.<BR> At 50 Grudge: Chance to Critically hit is increased by 10%.<BR> At 75 Grudge: Chance to Critically hit is increased by 15%.<BR> At 100 Grudge: Chance to Critically hit is increased by 20%.",
+      "description": "You constantly pummel your target with brutal attacks, dealing up to 1210 damage over 3 seconds. Your attacks will end if you lose your concentration.<BR><BR> At 25 Grudge: Chance to Critically hit is increased by 5%.<BR> At 50 Grudge: Chance to Critically hit is increased by 10%.<BR> At 75 Grudge: Chance to Critically hit is increased by 15%.<BR> At 100 Grudge: Chance to Critically hit is increased by 20% and armor penetration is increased by 10%.",
       "category": "Ability"
     },
     {
@@ -958,9 +958,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Costs 15 Grudge",
-      "description": "Strengthens the ties between you and your Oath Friend, increasing Initiative by 80 and chance to parry by 25% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
+      "cooldown": "10s cooldown",
+      "note": "Costs 25 Grudge",
+      "description": "Strengthens the ties between you and your Oath Friend, increasing Initiative by 80 and chance to parry by 20% for 20 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
     {

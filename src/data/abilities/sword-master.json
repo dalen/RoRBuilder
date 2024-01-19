@@ -80,6 +80,7 @@
         9007,
         9020,
         9002,
+        9024,
         9006,
         9011
       ]
@@ -606,7 +607,7 @@
     {
       "id": 9049,
       "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "Forceful Shock",
+      "name": "Hoeth's Tempest",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "35",
@@ -615,7 +616,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blurring Shock now knocks back players and knocks down monsters.",
+      "description": "Mighty Gale will now send the target to fly even further away from you. If wielding a Great Weapon, the cooldown of Mighty Gale and Gusting Wind is reduced by 10 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -748,7 +749,7 @@
       "cost": "20 Action Points / Sec",
       "range": "Self",
       "incant": "20s cast",
-      "cooldown": "No cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires Great Weapon",
       "description": "You spin your greatsword with astounding speed, forming a wall of steel between you and your opponent. Your chances to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back 150 Spirit damage.",
       "category": "Ability"
@@ -840,7 +841,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Great Weapon",
-      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing 274 Spirit damage with each hit.",
+      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing 258 Spirit damage with each hit.",
       "category": "Ability"
     },
     {
@@ -870,7 +871,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A guarded strike that deals 194 damage and improves your chance to parry by 25% for 5 seconds.",
+      "description": "A guarded strike that deals 194 damage and improves your chance to parry by 20% for 10 seconds.",
       "category": "Ability"
     },
     {
@@ -901,6 +902,21 @@
       "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
       "description": "A swift attack that deals 97 damage and an additional 185 damage over 5 seconds. Monsters struck with this technique will hate you more.",
+      "category": "Ability"
+    },
+    {
+      "id": 9024,
+      "image": "https://armory.returnofreckoning.com/icon/13410",
+      "name": "Mighty Gale",
+      "type": "Damaging",
+      "spec": "Path of Vaul",
+      "minrank": "4",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "20s cooldown",
+      "note": "Requires Improved Balance<br>Leads to Perfect Balance",
+      "description": "A strong blow dealing 156 damage to your enemy and knocking back players and knocking down monsters. Shares cooldown with Gusting Wind.",
       "category": "Ability"
     },
     {
@@ -1018,9 +1034,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "An enchantment which calls upon the power of Vaul, rendering yourself and any of your groupmates within 30 feet of you immune to crowd control effects for 4 seconds and reducing incoming damage by 10%.",
+      "description": "An enchantment which calls upon the power of Vaul, rendering yourself and any of your groupmates within 30 feet of you immune to crowd control effects for 6 seconds and reducing incoming damage by 10%.",
       "category": "Ability"
     },
     {
@@ -1093,7 +1109,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
       "description": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals 95 Spirit damage to all opponents within 30 feet of you, knocking back enemy players and knocking down monsters.",
       "category": "Ability"
@@ -1198,7 +1214,7 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
       "description": "You release a single swift blow damaging enemies 30 feet in front of you for 39 Spirit damage. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
       "category": "Ability"

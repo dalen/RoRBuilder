@@ -292,7 +292,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You recover from Stuns, Staggers and Knockdowns 1 seconds quicker. You will still gain immunity based on the original duration.",
+      "description": "Increases Toughness by 80. You also recover from Stuns, Staggers and Knockdowns 1 seconds quicker. You will still gain immunity based on the original duration.",
       "category": "CareerTactic"
     },
     {
@@ -637,7 +637,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A massive cannonball smashes into your target, dealing 2400 damage  and reducing their armor by 1400 for 30 seconds.",
+      "description": "A massive cannonball smashes into your target, dealing 1800 damage  and reducing their armor by 1400 for 15 seconds.",
       "category": "Morale"
     },
     {
@@ -1312,7 +1312,7 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within 65 feet inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within 30 feet, reducing their movement speed by 40% for 4 seconds.<BR>The attack uses the Ranged statistic.",
+      "description": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within 65 feet inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within 30 feet, reducing their movement speed by 30% for 5 seconds.<BR>The attack uses the Ranged statistic.",
       "category": "Ability"
     },
     {

@@ -796,7 +796,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "A flurry of blows that inflicts 137 damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
+      "description": "A flurry of blows that inflicts 176 damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
       "category": "Ability"
     },
     {
@@ -974,7 +974,7 @@
       "cost": "20 Action Points / Sec",
       "range": "Self",
       "incant": "10s cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Shield",
       "description": "You ready your blade and defiantly raise your shield to increase your Block rate by 50% for up to 10 seconds. Any time you block during this time you will lash out at your attacker for 187 damage and gain 5 Hatred.",
       "category": "Ability"
@@ -991,7 +991,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your chance to Parry is increased by 3% per 10 Hatred.",
+      "description": "Your chance to Parry is increased by 5%, and 2% per 10 Hatred.",
       "category": "CareerTactic"
     },
     {
@@ -1021,7 +1021,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your chance to Block is increased by 1% per 10 Hatred.",
+      "description": "Your chance to Block is increased by 5%, and 1% per 10 Hatred.",
       "category": "CareerTactic"
     },
     {
@@ -1201,7 +1201,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your chance to Disrupt is increased by 3% per 10 Hatred.",
+      "description": "Your chance to Disrupt is increased by 5%, and 2% per 10 Hatred.",
       "category": "CareerTactic"
     },
     {

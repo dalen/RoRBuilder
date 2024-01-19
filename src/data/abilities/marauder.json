@@ -226,7 +226,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Gift of Brutality",
-      "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<BR><BR>While mutated, your attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%.",
+      "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<BR><BR>While mutated, your attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%. In addition the armor penetration of your auto attacks is increased by 25%.",
       "category": "Ability"
     },
     {
@@ -241,7 +241,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Gift of Monstrosity",
-      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health and letting you shrug off your enemy's armor penetration.",
+      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<BR><BR>While mutated, your attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health, letting you shrug off 20% of your enemy's armor penetration, and increasing the healing you receive by 10%.",
       "category": "Ability"
     },
     {
@@ -631,7 +631,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Melee attack that deals 1200 damage and returns all of that damage as health.",
+      "description": "Melee attack that deals 1200 damage and returns all of that damage as health to all group members within 100ft.",
       "category": "Morale"
     },
     {
@@ -765,7 +765,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Requires Parry<br>Requires Gift of Savagery",
+      "note": "Requires Parry<br>Requires Gift of Savagery or Brutality",
       "description": "A savage attack that guts your opponent for 253 damage, and makes your next damaging ability within 5 seconds automatically critical.",
       "category": "Ability"
     },
@@ -854,7 +854,7 @@
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Savagery or Brutality",
       "description": "A particularly nasty blow that inflicts 328 damage to your target and decreases their Wounds by 120 for the next 20 seconds.",
       "category": "Ability"
@@ -944,9 +944,9 @@
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
-      "description": "Inflicts 328 damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.",
+      "description": "Inflicts 328 damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 10 seconds.",
       "category": "Ability"
     },
     {
@@ -1155,7 +1155,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "",
+      "note": "Requires Gift of Monstrosity or Savagery",
       "description": "A wave of horror spreads forth from you, dealing 770 damage over 21 seconds to all enemies within 30 feet and reducing their Weapon Skill by 120 and Initiative by 80.",
       "category": "Ability"
     },
@@ -1185,7 +1185,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "",
+      "note": "Requires Gift of Monstrosity",
       "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting 150 damage.",
       "category": "Ability"
     },
@@ -1211,7 +1211,7 @@
       "type": "Damaging",
       "spec": "Path of Monstrosity",
       "minrank": "29",
-      "cost": "30 Action Points / Sec",
+      "cost": "25 Action Points / Sec",
       "range": "Self",
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",

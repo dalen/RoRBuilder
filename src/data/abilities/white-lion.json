@@ -539,7 +539,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage over 9 seconds to all enemies in front of you, up to 65 feet away.",
+      "description": "Deals 1200 damage to all enemies in a line in front of you, up to 65 feet away.",
       "category": "Morale"
     },
     {
@@ -672,7 +672,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items.  Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional 207 damage over 3 seconds.<BR><BR>Your War Lion will gain the ability to bite its enemies, the ability to claw at multiple foes, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability"
@@ -684,7 +684,7 @@
       "type": "Damaging",
       "spec": "Path of The Hunter",
       "minrank": "30",
-      "cost": "50 Action Points",
+      "cost": "45 Action Points",
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
@@ -774,7 +774,7 @@
       "type": "Damaging",
       "spec": "Path of The Hunter",
       "minrank": "29",
-      "cost": "35 Action Points / Sec",
+      "cost": "25 Action Points / Sec",
       "range": "Self",
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
@@ -822,7 +822,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "You train your pet to behave menacingly, increasing its Toughness and Wounds by your Toughness and Wounds gained from items and increasing your chance to critically hit by 5% as long as you are at your target's sides or back.<BR><BR>Your War Lion will gain the ability to threaten its enemies, the ability to reduce a foe's armor, and the ability to snare its enemies.",
       "category": "Ability"
@@ -899,7 +899,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will deal 25% more damage any time you strike an enemy in the sides or back.",
+      "description": "For the next 10 seconds, you will deal 25% more damage.",
       "category": "Ability"
     },
     {
@@ -1002,7 +1002,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "You train your pet to fight ferociously, increasing its Strength and Weapon Skill by your Strength and Weapon Skill gained from items and increasing your Toughness by 80.<BR><BR>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability"

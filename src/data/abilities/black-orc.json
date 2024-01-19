@@ -34,6 +34,7 @@
     1723,
     1707,
     1702,
+    1741,
     1722,
     1706,
     1704,
@@ -72,7 +73,7 @@
         "lvl2": 1692,
         "lvl3": 1715,
         "lvl4": 1691,
-        "lvl5": 1716,
+        "lvl5": 1720,
         "lvl6": 1696,
         "lvl7": 1728
       },
@@ -81,6 +82,7 @@
         1673,
         1669,
         1682,
+        1686,
         1680,
         1690
       ]
@@ -586,7 +588,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Each group member within 100 feet gains 160 Toughness for 30 seconds.",
+      "description": "Each group member within 100 feet gains 160 Toughness and 10% incoming armor penetration reduction for 15 seconds.",
       "category": "Morale"
     },
     {
@@ -617,6 +619,21 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever you Parry, you immediately put your \"Best Plan\" in motion.",
+      "category": "CareerTactic"
+    },
+    {
+      "id": 1741,
+      "image": "https://armory.returnofreckoning.com/icon/22708",
+      "name": "Git Out Fer Gud",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "27",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Git Out! will now cause the target to be knocked back by propa distance. If wielding a Great Weapon, the cooldown of Git Out! and Fly Gits! is reduced by 10 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -811,7 +828,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!<br>Requires Great Weapon",
-      "description": "You swing your weapon lots, dealing 307 damage every 0.75 seconds for 3 seconds. As Da' Big Boss would say, \"Countin' is for Stuntiez.\"",
+      "description": "You swing your weapon lots, dealing 290 damage every 0.75 seconds for 3 seconds. As Da' Big Boss would say, \"Countin' is for Stuntiez.\"",
       "category": "Ability"
     },
     {
@@ -920,16 +937,31 @@
       "category": "Ability"
     },
     {
+      "id": 1686,
+      "image": "https://armory.returnofreckoning.com/icon/2494",
+      "name": "Git Out!",
+      "type": "Damaging",
+      "spec": "Path of Da’ Toughest",
+      "minrank": "17",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "20s cooldown",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "A strong kick dealing 164 damage to your enemy and knocking back players and knocking down monsters. Shares cooldown with Fly Gits!.",
+      "category": "Ability"
+    },
+    {
       "id": 1680,
       "image": "https://armory.returnofreckoning.com/icon/2562",
-      "name": "Big Slash",
+      "name": "Fly Gits!",
       "type": "Damaging",
       "spec": "Path of Da’ Toughest",
       "minrank": "18",
       "cost": "40 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
       "description": "Deals 105 damage to targets 25 feet from you, and knocks them back.",
       "category": "Ability"
@@ -974,7 +1006,7 @@
       "cost": "20 Action Points / Sec",
       "range": "Self",
       "incant": "20s cast",
-      "cooldown": "No cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires Shield",
       "description": "Increase Block Chance by 50%. While you are channeling, you can move at 60% movement speed. After you block, the attacker takes 262 damage.",
       "category": "Ability"
@@ -1010,9 +1042,9 @@
       "category": "Ability"
     },
     {
-      "id": 1716,
+      "id": 1720,
       "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "Mor' Hardcore",
+      "name": "Linecracka!",
       "type": "Buff",
       "spec": "Path of Da’ Toughest",
       "minrank": "27",
@@ -1021,7 +1053,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Right in Da Jibblies and Ya Missed Me will now knock targets back a medium distance.",
+      "description": "We’z Bigger now additionally grants 30% movement speed while active.",
       "category": "CareerTactic"
     },
     {
@@ -1031,12 +1063,12 @@
       "type": "Blessing",
       "spec": "Path of Da’ Toughest",
       "minrank": "29",
-      "cost": "45 Action Points",
+      "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "You proclaim your size to Mork, rendering yourself and any of your groupmates within 30 feet of you immune to crowd control effects for 4 seconds and reducing the damage your group receives by 10%.",
+      "description": "You proclaim your size to Mork, rendering yourself and any of your groupmates within 30 feet of you immune to crowd control effects for 6 seconds and reducing the damage your group receives by 10%.",
       "category": "Ability"
     },
     {

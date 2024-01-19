@@ -736,7 +736,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A quick blow that causes 171 damage and improves your defensive position, increasing your chance to parry by  25% for 15 seconds.",
+      "description": "A quick blow that causes 171 damage and improves your defensive position, increasing your chance to parry by  20% for 15 seconds.",
       "category": "Ability"
     },
     {
@@ -796,7 +796,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing 159 damage with each hit.  This effect will end if you break your concentration or run out of action points.",
+      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing 208 damage with each hit.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
     {
@@ -1216,7 +1216,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You are surrounded by a magical barrier, increasing your willpower by 120 and disrupt chance by 25% for 10 seconds. During this time, any spell you disrupt will silence it's caster for 3 seconds.",
+      "description": "You are surrounded by a magical barrier, increasing your willpower by 120, initiative by 80 and disrupt chance by 25% for 10 seconds. During this time, any spell you disrupt will silence it's caster for 3 seconds.",
       "category": "Ability"
     },
     {
