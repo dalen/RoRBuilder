@@ -13,7 +13,6 @@
     1602,
     692,
     585,
-    585,
     1626,
     592,
     690,
@@ -287,21 +286,6 @@
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
-    },
-    {
-      "id": 585,
-      "image": "https://armory.returnofreckoning.com/icon/22703",
-      "name": "Divine Fury",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "13",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
-      "category": "CareerTactic"
     },
     {
       "id": 585,
