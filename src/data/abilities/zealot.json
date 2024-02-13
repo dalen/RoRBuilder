@@ -5,15 +5,15 @@
     14416,
     245,
     8550,
+    8555,
     8558,
     8621,
     694,
     797,
-    8555,
+    8554,
     692,
     585,
     8591,
-    8554,
     592,
     690,
     798,
@@ -101,8 +101,8 @@
         8552,
         8560,
         8557,
-        8563,
-        8562
+        8562,
+        8563
       ]
     }
   },
@@ -183,6 +183,21 @@
       "category": "Ability"
     },
     {
+      "id": 8555,
+      "image": "https://armory.returnofreckoning.com/icon/5233",
+      "name": "Tzeentch Shall Remake You",
+      "type": "Healing",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "20 Action Points",
+      "range": "100ft range",
+      "incant": "3.0s cast",
+      "cooldown": "6s cooldown",
+      "note": "Only usable on Dead Players",
+      "description": "Tzeentch dislikes losing a pawn so soon. Your target is resurrected with 20% health so that Tzeentch may continue his game.",
+      "category": "Ability"
+    },
+    {
       "id": 8558,
       "image": "https://armory.returnofreckoning.com/icon/5142",
       "name": "Tzeentch's Cordial",
@@ -203,7 +218,7 @@
       "name": "Chaotic Blur",
       "type": "Debuff",
       "spec": "Core Ability",
-      "minrank": "7",
+      "minrank": "6",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -243,18 +258,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 8555,
-      "image": "https://armory.returnofreckoning.com/icon/5233",
-      "name": "Tzeentch Shall Remake You",
-      "type": "Healing",
+      "id": 8554,
+      "image": "https://armory.returnofreckoning.com/icon/5235",
+      "name": "Glimpse of Chaos",
+      "type": "Defensive",
       "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "20 Action Points",
-      "range": "100ft range",
-      "incant": "3.0s cast",
-      "cooldown": "6s cooldown",
-      "note": "Only usable on Dead Players",
-      "description": "Tzeentch dislikes losing a pawn so soon. Your target is resurrected with 20% health so that Tzeentch may continue his game.",
+      "minrank": "9",
+      "cost": "25 Action Points",
+      "range": "150ft range",
+      "incant": "Instant cast",
+      "cooldown": "5s cooldown",
+      "note": "Target must be Cursed or Hexed",
+      "description": "You call upon the power of chaos, removing one Curse or Hex from your defensive target.",
       "category": "Ability"
     },
     {
@@ -301,21 +316,6 @@
       "note": "",
       "description": "Cooldown on Glimpse of Chaos is reduced by 5s and the cost increased by 15 Action Points.",
       "category": "CareerTactic"
-    },
-    {
-      "id": 8554,
-      "image": "https://armory.returnofreckoning.com/icon/5235",
-      "name": "Glimpse of Chaos",
-      "type": "Defensive",
-      "spec": "Core Ability",
-      "minrank": "16",
-      "cost": "25 Action Points",
-      "range": "150ft range",
-      "incant": "Instant cast",
-      "cooldown": "5s cooldown",
-      "note": "Target must be Cursed or Hexed",
-      "description": "You call upon the power of chaos, removing one Curse or Hex from your defensive target.",
-      "category": "Ability"
     },
     {
       "id": 592,
@@ -1068,6 +1068,21 @@
       "category": "Ability"
     },
     {
+      "id": 8562,
+      "image": "https://armory.returnofreckoning.com/icon/5232",
+      "name": "Dust of Pandemonium",
+      "type": "Healing",
+      "spec": "Path of Dark Rites",
+      "minrank": "17",
+      "cost": "65 Action Points",
+      "range": "Self",
+      "incant": "2.5s cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "All group members within 100 feet of you are healed for 898.",
+      "category": "Ability"
+    },
+    {
       "id": 8563,
       "image": "https://armory.returnofreckoning.com/icon/5158",
       "name": "Demon Spittle",
@@ -1080,21 +1095,6 @@
       "cooldown": "5s cooldown",
       "note": "",
       "description": "Spews a vile mixture over everything 40 feet in front of you, dealing 636 Corporeal damage over 9 seconds to all opponents.",
-      "category": "Ability"
-    },
-    {
-      "id": 8562,
-      "image": "https://armory.returnofreckoning.com/icon/5232",
-      "name": "Dust of Pandemonium",
-      "type": "Healing",
-      "spec": "Path of Dark Rites",
-      "minrank": "20",
-      "cost": "65 Action Points",
-      "range": "Self",
-      "incant": "2.5s cast",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "All group members within 100 feet of you are healed for 898.",
       "category": "Ability"
     },
     {

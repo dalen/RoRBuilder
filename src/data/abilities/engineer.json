@@ -12,8 +12,8 @@
     1518,
     648,
     713,
-    1527,
     1519,
+    1527,
     544,
     1548,
     542,
@@ -241,7 +241,7 @@
       "name": "Addling Shot",
       "type": "Debuff",
       "spec": "Core Ability",
-      "minrank": "7",
+      "minrank": "6",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -296,6 +296,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 1519,
+      "image": "https://armory.returnofreckoning.com/icon/4566",
+      "name": "Barbed Wire",
+      "type": "Debuff",
+      "spec": "Core Ability",
+      "minrank": "9",
+      "cost": "25 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "30s cooldown",
+      "note": "",
+      "description": "You fling coils of barbed wire all around you, rooting all enemies within 30 feet in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
+      "category": "Ability"
+    },
+    {
       "id": 1527,
       "image": "https://armory.returnofreckoning.com/icon/4620",
       "name": "Flak Jacket",
@@ -308,21 +323,6 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You don an experimental suit of protective gear, increasing your Armor by 560 for up to 1 hours.",
-      "category": "Ability"
-    },
-    {
-      "id": 1519,
-      "image": "https://armory.returnofreckoning.com/icon/4566",
-      "name": "Barbed Wire",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "12",
-      "cost": "25 Action Points",
-      "range": "Self",
-      "incant": "Instant cast",
-      "cooldown": "30s cooldown",
-      "note": "",
-      "description": "You fling coils of barbed wire all around you, rooting all enemies within 30 feet in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
     },
     {
@@ -1057,7 +1057,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 365 Corporeal damage every 2 seconds to all enemies within 20 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
+      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 365 Corporeal damage every 2 seconds to all enemies within 10 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
       "category": "Ability"
     },
     {

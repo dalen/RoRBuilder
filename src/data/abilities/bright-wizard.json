@@ -200,7 +200,7 @@
       "name": "Smoke Screen",
       "type": "Debuff",
       "spec": "Core Ability",
-      "minrank": "4",
+      "minrank": "6",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -260,7 +260,7 @@
       "name": "Fire Cage",
       "type": "Debuff",
       "spec": "Core Ability",
-      "minrank": "12",
+      "minrank": "9",
       "cost": "25 Action Points",
       "range": "Self",
       "incant": "Instant cast",
@@ -506,7 +506,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds which would normally have a buildup time will cast instantly instead.<BR>This effect will not trigger more than once every  6 seconds.",
+      "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds which would normally have a buildup time will cast instantly instead.<BR>This effect will not trigger more than once every  {COM_2_VAL0_COM_0_DURA_SECONDS: Component Id 9538 not found}.",
       "category": "CareerTactic"
     },
     {

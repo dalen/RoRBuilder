@@ -12,8 +12,8 @@
     8478,
     670,
     797,
-    8492,
     8480,
+    8492,
     669,
     568,
     8512,
@@ -240,7 +240,7 @@
       "name": "Horrifying Visions",
       "type": "Debuff",
       "spec": "Core Ability",
-      "minrank": "7",
+      "minrank": "6",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -295,6 +295,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 8480,
+      "image": "https://armory.returnofreckoning.com/icon/5284",
+      "name": "Tzeentch's Grasp",
+      "type": "Debuff",
+      "spec": "Core Ability",
+      "minrank": "9",
+      "cost": "25 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "30s cooldown",
+      "note": "",
+      "description": "A summoning wave passes over those within 30 feet of you, calling fourth tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
+      "category": "Ability"
+    },
+    {
       "id": 8492,
       "image": "https://armory.returnofreckoning.com/icon/5309",
       "name": "Daemonic Armor",
@@ -307,21 +322,6 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You surround yourself with daemonic protection, increasing your Armor by 560 for up to 1 hours.",
-      "category": "Ability"
-    },
-    {
-      "id": 8480,
-      "image": "https://armory.returnofreckoning.com/icon/5284",
-      "name": "Tzeentch's Grasp",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "12",
-      "cost": "25 Action Points",
-      "range": "Self",
-      "incant": "Instant cast",
-      "cooldown": "30s cooldown",
-      "note": "",
-      "description": "A summoning wave passes over those within 30 feet of you, calling fourth tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
     },
     {
@@ -1056,7 +1056,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "Creates a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 20 feet of the area for 6 seconds, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
+      "description": "Creates a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 10 feet of the area for 6 seconds, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
       "category": "Ability"
     },
     {

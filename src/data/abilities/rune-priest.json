@@ -5,16 +5,16 @@
     14416,
     245,
     1659,
+    1598,
     1590,
     1595,
     694,
     713,
-    1598,
+    1602,
     692,
     585,
     585,
     1626,
-    1602,
     592,
     690,
     714,
@@ -102,8 +102,8 @@
         1603,
         1588,
         1601,
-        1597,
-        1604
+        1604,
+        1597
       ]
     }
   },
@@ -184,6 +184,21 @@
       "category": "Ability"
     },
     {
+      "id": 1598,
+      "image": "https://armory.returnofreckoning.com/icon/4633",
+      "name": "Rune of Life",
+      "type": "Healing",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "20 Action Points",
+      "range": "100ft range",
+      "incant": "3.0s cast",
+      "cooldown": "6s cooldown",
+      "note": "Only usable on Dead Players",
+      "description": "Restores life to a slain ally, reviving them with 20% of their health.",
+      "category": "Ability"
+    },
+    {
       "id": 1590,
       "image": "https://armory.returnofreckoning.com/icon/4561",
       "name": "Rune of Regeneration",
@@ -204,7 +219,7 @@
       "name": "Rune of Preservation",
       "type": "Debuff",
       "spec": "Core Ability",
-      "minrank": "7",
+      "minrank": "6",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -244,18 +259,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1598,
-      "image": "https://armory.returnofreckoning.com/icon/4633",
-      "name": "Rune of Life",
+      "id": 1602,
+      "image": "https://armory.returnofreckoning.com/icon/4507",
+      "name": "Rune of Cleansing",
       "type": "Healing",
       "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "20 Action Points",
-      "range": "100ft range",
-      "incant": "3.0s cast",
-      "cooldown": "6s cooldown",
-      "note": "Only usable on Dead Players",
-      "description": "Restores life to a slain ally, reviving them with 20% of their health.",
+      "minrank": "9",
+      "cost": "25 Action Points",
+      "range": "150ft range",
+      "incant": "Instant cast",
+      "cooldown": "5s cooldown",
+      "note": "Target must be Cursed or Ailing",
+      "description": "Your rune cleanses an ally, removing one Curse or Ailment.",
       "category": "Ability"
     },
     {
@@ -317,21 +332,6 @@
       "note": "",
       "description": "Removes the cooldown of Rune of Cleansing, but increases the cost to 40 Action Points.",
       "category": "CareerTactic"
-    },
-    {
-      "id": 1602,
-      "image": "https://armory.returnofreckoning.com/icon/4507",
-      "name": "Rune of Cleansing",
-      "type": "Healing",
-      "spec": "Core Ability",
-      "minrank": "16",
-      "cost": "25 Action Points",
-      "range": "150ft range",
-      "incant": "Instant cast",
-      "cooldown": "5s cooldown",
-      "note": "Target must be Cursed or Ailing",
-      "description": "Your rune cleanses an ally, removing one Curse or Ailment.",
-      "category": "Ability"
     },
     {
       "id": 592,
@@ -1084,6 +1084,21 @@
       "category": "Ability"
     },
     {
+      "id": 1604,
+      "image": "https://armory.returnofreckoning.com/icon/4489",
+      "name": "Blessing of Valaya",
+      "type": "Healing",
+      "spec": "Path of Grimnir",
+      "minrank": "17",
+      "cost": "65 Action Points",
+      "range": "Self",
+      "incant": "2.5s cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Heals all group members within 100 feet for 898 health.",
+      "category": "Ability"
+    },
+    {
       "id": 1597,
       "image": "https://armory.returnofreckoning.com/icon/4632",
       "name": "Rune of Cleaving",
@@ -1096,21 +1111,6 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "A burst of force erupts from your rune, dealing 732 Elemental damage over 9 seconds to targets 40 feet in front of you.",
-      "category": "Ability"
-    },
-    {
-      "id": 1604,
-      "image": "https://armory.returnofreckoning.com/icon/4489",
-      "name": "Blessing of Valaya",
-      "type": "Healing",
-      "spec": "Path of Grimnir",
-      "minrank": "20",
-      "cost": "65 Action Points",
-      "range": "Self",
-      "incant": "2.5s cast",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Heals all group members within 100 feet for 898 health.",
       "category": "Ability"
     },
     {

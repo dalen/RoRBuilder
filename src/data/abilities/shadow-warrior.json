@@ -11,8 +11,8 @@
     9148,
     648,
     818,
-    9081,
     9092,
+    9081,
     544,
     9118,
     542,
@@ -221,7 +221,7 @@
       "name": "Distracting Shot",
       "type": "Debuff",
       "spec": "Core Ability",
-      "minrank": "7",
+      "minrank": "6",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -276,6 +276,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 9092,
+      "image": "https://armory.returnofreckoning.com/icon/13321",
+      "name": "Whirling Pin",
+      "type": "Ailment",
+      "spec": "Core Ability",
+      "minrank": "9",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "30s cooldown",
+      "note": "You cannot perform this action while airborne",
+      "description": "All enemies within 30 feet become snared, reducing movement speed by 30% for the next 5 seconds. You are knocked back away from your enemies.",
+      "category": "Ability"
+    },
+    {
       "id": 9081,
       "image": "https://armory.returnofreckoning.com/icon/13399",
       "name": "Vengeance of Nagarythe",
@@ -288,21 +303,6 @@
       "cooldown": "30s cooldown",
       "note": "Grants Vengeful",
       "description": "You are filled with a desire for vengeance, increasing all damage you deal by 25% for 10 seconds. During this time some of your abilities will gain additional effects.",
-      "category": "Ability"
-    },
-    {
-      "id": 9092,
-      "image": "https://armory.returnofreckoning.com/icon/13321",
-      "name": "Whirling Pin",
-      "type": "Ailment",
-      "spec": "Core Ability",
-      "minrank": "12",
-      "cost": "No AP Cost",
-      "range": "Self",
-      "incant": "Instant cast",
-      "cooldown": "30s cooldown",
-      "note": "You cannot perform this action while airborne",
-      "description": "All enemies within 30 feet become snared, reducing movement speed by 30% for the next 5 seconds. You are knocked back away from your enemies.",
       "category": "Ability"
     },
     {
@@ -422,7 +422,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grim Slash will now reduce your enemy's Weaponskill by 120 and Initiative by 80 for 20 seconds, and increase your Weaponskill and Initiative by the same amount.",
+      "description": "Grim Slash will now reduce your enemy's Weaponskill by 120 and Initiative by 120 for 20 seconds, and increase your Weaponskill and Initiative by the same amount.",
       "category": "CareerTactic"
     },
     {
@@ -737,7 +737,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A Crippling shot that deals 141 damage,  reduces your target's Initiative by 80 for 10 seconds. This ability will continue to build up even if you move.",
+      "description": "A Crippling shot that deals 141 damage,  reduces your target's Initiative by 120 for 10 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {

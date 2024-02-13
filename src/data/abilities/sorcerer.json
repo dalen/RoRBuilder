@@ -201,7 +201,7 @@
       "name": "Dread Aspect",
       "type": "Debuff",
       "spec": "Core Ability",
-      "minrank": "4",
+      "minrank": "6",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -261,7 +261,7 @@
       "name": "Grip of Fear",
       "type": "Debuff",
       "spec": "Core Ability",
-      "minrank": "12",
+      "minrank": "9",
       "cost": "25 Action Points",
       "range": "Self",
       "incant": "Instant cast",
@@ -1092,7 +1092,7 @@
       "incant": "3.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You create a maelstrom of evil power which deals 440 Corporeal damage to your target and all other enemies within 20 feet of them, and reduces their Initiative by 80 for 20 seconds.",
+      "description": "You create a maelstrom of evil power which deals 440 Corporeal damage to your target and all other enemies within 20 feet of them, and reduces their Initiative by 120 for 20 seconds.",
       "category": "Ability"
     },
     {
