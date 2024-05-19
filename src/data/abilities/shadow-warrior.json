@@ -272,7 +272,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
+      "description": "Upon striking a target with direct damage there is a 25% chance to inflict an additional 303 Spirit damage over 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -287,7 +287,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "You cannot perform this action while airborne",
-      "description": "All enemies within 30 feet become snared, reducing movement speed by 30% for the next 5 seconds. You are knocked back away from your enemies.",
+      "description": "All enemies within 25 feet become snared, reducing movement speed by 30% for the next 5 seconds. You are knocked back away from your enemies.",
       "category": "Ability"
     },
     {
@@ -302,7 +302,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Grants Vengeful",
-      "description": "You are filled with a desire for vengeance, increasing all damage you deal by 25% for 10 seconds. During this time some of your abilities will gain additional effects.",
+      "description": "You are filled with a desire for vengeance, increasing all damage you deal by 25% for 10 seconds. During this time some of your abilities will gain additional effects.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -587,7 +587,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You deal 1200 damage to all enemies within 30 feet and staggers the target for up to 6 seconds, preventing all actions unless they are damaged.",
+      "description": "You deal 1200 damage to all enemies within 25 feet and staggers the target for up to 6 seconds, preventing all actions unless they are damaged.",
       "category": "Morale"
     },
     {
@@ -962,7 +962,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your damage is increased by 15% when under 45 feet away from your target.",
+      "description": "Your damage is increased by 15% when under 45 feet away from your target.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -1022,7 +1022,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 2400 damage to all enemies within 30 feet.",
+      "description": "Deals 2400 damage to all enemies within 25 feet.",
       "category": "Morale"
     },
     {

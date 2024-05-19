@@ -285,7 +285,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
+      "description": "Deals 600 damage to all enemies within 25 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -300,7 +300,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
+      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -315,7 +315,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
+      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -465,7 +465,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A rune which ruptures the ground underfoot, knocking back targets within 30 feet of you. Monsters will be knocked down.",
+      "description": "A rune which ruptures the ground underfoot, knocking back targets within 25 feet of you. Monsters will be knocked down.",
       "category": "Ability"
     },
     {
@@ -855,7 +855,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all enemies within 30 feet and then heals all group members within 100 feet for all damage dealt.",
+      "description": "Deals 1200 damage to all enemies within 25 feet and then heals all group members within 100 feet for all damage dealt.",
       "category": "Morale"
     },
     {
@@ -1050,7 +1050,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Your rune transmits a surge of power through the ground, dealing 270 Elemental damage to all targets within 30 feet of you.",
+      "description": "Your rune transmits a surge of power through the ground, dealing 270 Elemental damage to all targets within 25 feet of you.",
       "category": "Ability"
     },
     {
@@ -1065,7 +1065,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all of the targeted group member's resistances by 252 for 1 hour. The rune holder may activate it to inflict 488 Elemental damage over 9 seconds to all targets within 30 feet.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases all of the targeted group member's resistances by 252 for 1 hour. The rune holder may activate it to inflict 488 Elemental damage over 9 seconds to all targets within 25 feet.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -1170,7 +1170,7 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Buffs you or a friendly player with a pulsing area of effect that deals 375 Elemental damage every 3 seconds to all enemies within to 30 feet for 15 seconds.",
+      "description": "Buffs you or a friendly player with a pulsing area of effect that deals 375 Elemental damage every 3 seconds to all enemies within to 25 feet for 15 seconds.",
       "category": "Ability"
     },
     {

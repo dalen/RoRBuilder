@@ -240,7 +240,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -330,7 +330,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
+      "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -435,7 +435,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You shatter the ground for 30 feet around you, rooting up to four enemies in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
+      "description": "You shatter the ground for 25 feet around you, rooting up to four enemies in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
     },
     {
@@ -495,7 +495,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "A loud shout that startles your target and all enemies within 25 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -705,7 +705,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You strike a crushing blow for 172 damage.<BR><BR> With 25 Grudges: Deals 165 damage over 3 seconds.<BR> With 50 Grudges: Deals 213 damage over 3 seconds.<BR> With 75 Grudges: Deals 264 damage over 3 seconds.<BR> With 100 Grudges: Deals 312 damage over 3 seconds.",
+      "description": "You strike a crushing blow for 179 damage.<BR><BR> With 25 Grudges: Deals 120 damage over 3 seconds.<BR> With 50 Grudges: Deals 192 damage over 3 seconds.<BR> With 75 Grudges: Deals 264 damage over 3 seconds.<BR> With 100 Grudges: Deals 333 damage over 3 seconds.",
       "category": "Ability"
     },
     {
@@ -825,7 +825,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you are wielding a great weapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.",
+      "description": "When you are wielding a great weapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -990,7 +990,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Costs 20 Grudge",
-      "description": "Upon spotting a hated foe your rage boils over. You remove all movement impairing effects. For each effect removed, you will regain 427 health. Your Oath Friend will be affected as well if they're within 50 feet of you.",
+      "description": "Upon spotting a hated foe your rage boils over. You remove all movement impairing effects. For each effect removed, you will regain 427 health. You will be immune to snares and roots for the next 3 seconds. Your Oath Friend will be affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
     {
@@ -1170,7 +1170,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Improves with Grudge",
-      "description": "The ground around you cracks and shatters and snares all enemies within 30 feet, reducing their run speed by 30% for 5 seconds.<BR><BR> At 25 Grudge: Deals 207 damage to each enemy hit by the effect.<BR> At 50 Grudge: Deals 357 damage to each enemy hit by the effect.<BR> At 75 Grudge: Deals 507 damage to each enemy hit by the effect.<BR> At 100 Grudge: Deals 657 damage to each enemy hit by the effect.",
+      "description": "The ground around you cracks and shatters and snares all enemies within 25 feet, reducing their run speed by 30% for 5 seconds.<BR><BR> At 25 Grudge: Deals 207 damage to each enemy hit by the effect.<BR> At 50 Grudge: Deals 357 damage to each enemy hit by the effect.<BR> At 75 Grudge: Deals 507 damage to each enemy hit by the effect.<BR> At 100 Grudge: Deals 657 damage to each enemy hit by the effect.",
       "category": "Ability"
     },
     {
@@ -1200,7 +1200,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 30 Grudge",
-      "description": "Deals 245 damage to all targets within 30 feet. Increases your auto attack damage by 25% for 20 seconds. Your Oath Friend and all group members within 50 feet of you will also gain 25% auto attack damage for 20 seconds.",
+      "description": "Deals 245 damage to all targets within 25 feet. Increases your auto attack damage by 25% for 20 seconds. Your Oath Friend and all group members within 50 feet of you will also gain 25% auto attack damage for 20 seconds.",
       "category": "Ability"
     },
     {

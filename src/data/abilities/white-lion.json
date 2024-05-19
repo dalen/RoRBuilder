@@ -269,7 +269,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
+      "description": "Upon striking a target with direct damage there is a 25% chance to inflict an additional 303 Spirit damage over 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -314,7 +314,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
+      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 507 Corporeal damage over 9 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -449,7 +449,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.",
+      "description": "All of your attacks deal 15% more damage when you strike an enemy from the sides or rear.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -524,7 +524,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If your War Lion is killed, you will go into a rage and deal 50% more damage for 10 seconds.",
+      "description": "If your War Lion is killed, you will go into a rage and deal 50% more damage for 10 seconds.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -554,7 +554,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but you are unable to call forth your War Lion, and it will depart if it has already been summoned.",
+      "description": "You deal 25% more damage, but you are unable to call forth your War Lion, and it will depart if it has already been summoned.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -719,7 +719,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 30 feet of either one of you and inflicting an Ailment which causes 525 Spirit damage over 15 seconds to all affected enemies.",
+      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 25 feet of either one of you and inflicting an Ailment which causes 525 Spirit damage over 15 seconds to all affected enemies.",
       "category": "Ability"
     },
     {
@@ -779,7 +779,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You rapidly spin your axe around for up to 3 seconds, dealing 192 damage twice a second to all enemies within 30 feet.  This ability will end if you lose your concentration or run out of action points.",
+      "description": "You rapidly spin your axe around for up to 3 seconds, dealing 192 damage twice a second to all enemies within 25 feet.  This ability will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
     {
@@ -794,7 +794,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all enemies within 30 feet of both you and your War Lion.",
+      "description": "Deals 1200 damage to all enemies within 25 feet of both you and your War Lion.",
       "category": "Morale"
     },
     {
@@ -899,7 +899,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will deal 25% more damage.",
+      "description": "For the next 10 seconds, you will deal 25% more damage.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {

@@ -266,7 +266,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Up to 4 enemies within 30 feet are Rooted as they become trapped within a cage of searing flames, making them unable to move for 5 seconds.  Rooted targets have a 50% chance to break free when they suffer damage.",
+      "description": "Up to 4 enemies within 25 feet are Rooted as they become trapped within a cage of searing flames, making them unable to move for 5 seconds.  Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
     {
@@ -311,7 +311,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Pyroclastic Surge and Scorched Earth gain a 25% chance to cause an additional 350 Elemental damage over 5 seconds to each target hit.",
+      "description": "Pyroclastic Surge and Scorched Earth gain a 25% chance to cause an additional 470 Elemental damage over 5 seconds to each target hit.",
       "category": "CareerTactic"
     },
     {
@@ -611,7 +611,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1800 damage to all enemies within 30 feet, and for the next 10 seconds your abilities will build 50% faster, cost 25% less Action Points and you cannot be set back during this time.",
+      "description": "Deals 1800 damage to all enemies within 25 feet, and for the next 10 seconds your abilities will build 50% faster, cost 25% less Action Points and you cannot be set back during this time.",
       "category": "Morale"
     },
     {
@@ -896,7 +896,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A Hex which surrounds the target with hungry flames, causing all healing used on them for the next 10 seconds to become 50% less effective.  Each time someone attempts to use a direct heal on them, the flames will lash out, and healer will suffer 375 Elemental damage.",
+      "description": "A Hex which surrounds the target with hungry flames, causing all healing used on them for the next 10 seconds to become 50% less effective.  Each time someone attempts to use a direct heal on them, the flames will lash out, and healer will suffer 498 Elemental damage.",
       "category": "Ability"
     },
     {
@@ -986,7 +986,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Costs 20 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You send a blast of heat into the ground around you, dealing 231 Corporeal damage to all enemies within 30 feet.",
+      "description": "You send a blast of heat into the ground around you, dealing 231 Corporeal damage to all enemies within 25 feet.",
       "category": "Ability"
     },
     {
@@ -1061,7 +1061,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time that your Combustion causes an Explosion, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
+      "description": "Any time that your Combustion causes an Explosion, the blast will also deal 50% of the damage to all enemies within 25 feet of you.",
       "category": "CareerTactic"
     },
     {
@@ -1076,7 +1076,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You concentrate on your magical powers for up to 3 seconds, opening your body to serve as a vessel for the raw power of the Red Wind.  The unleashed power will deal 217 Corporeal damage each second to all enemies within 30 feet. This effect will end if you break your concentration, or run out of action points.",
+      "description": "You concentrate on your magical powers for up to 3 seconds, opening your body to serve as a vessel for the raw power of the Red Wind.  The unleashed power will deal 217 Corporeal damage each second to all enemies within 25 feet. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
     {
@@ -1136,7 +1136,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing 995 Corporeal damage over 15 seconds to all enemies within 30 feet.  The force of the blast will send enemy players flying away from you, while monsters will be knocked down.",
+      "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing 995 Corporeal damage over 15 seconds to all enemies within 25 feet.  The force of the blast will send enemy players flying away from you, while monsters will be knocked down.",
       "category": "Ability"
     },
     {

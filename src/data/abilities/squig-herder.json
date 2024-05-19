@@ -219,7 +219,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires an active pet",
-      "description": "You cause your pet to explode, dealing 419 damage to enemies within 30 feet.  For the next 10 seconds, the next different squig other than the one that just exploded will be summoned instantly.",
+      "description": "You cause your pet to explode, dealing 419 damage to enemies within 25 feet.  For the next 10 seconds, the next different squig other than the one that just exploded will be summoned instantly.",
       "category": "Ability"
     },
     {
@@ -294,7 +294,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "You cannot perform this action while airborne",
-      "description": "All enemies within 30 feet become snared, reducing movement speed by 30% for the next 5 seconds. You are knocked back away from your enemies.",
+      "description": "All enemies within 25 feet become snared, reducing movement speed by 30% for the next 5 seconds. You are knocked back away from your enemies.",
       "category": "Ability"
     },
     {
@@ -534,7 +534,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage when you have no pets present.",
+      "description": "You deal 25% more damage when you have no pets present.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -639,7 +639,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 2400 damage to all targets within 30 feet of you.",
+      "description": "Deals 2400 damage to all targets within 25 feet of you.",
       "category": "Morale"
     },
     {
@@ -744,7 +744,7 @@
       "incant": "2.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Your Squig expels noxious spores towards an enemy, briefly sickening the victim and all other enemies within 30 feet of them, dealing 314 damage. Any of your Squigs, including your Battle Squig, within the radius will be healed for 178 health. While Frenzied, any ally within the radius will be healed by the damage dealt.",
+      "description": "Your Squig expels noxious spores towards an enemy, briefly sickening the victim and all other enemies within 25 feet of them, dealing 314 damage. Any of your Squigs, including your Battle Squig, within the radius will be healed for 178 health. While Frenzied, any ally within the radius will be healed by the damage dealt.",
       "category": "Ability"
     },
     {
@@ -1029,7 +1029,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Requires Squig Armor",
-      "description": "You force your Battle Squig to bounce in the air for up to 3 seconds, repeatedly dealing 156 damage to all enemies within 30 feet.",
+      "description": "You force your Battle Squig to bounce in the air for up to 3 seconds, repeatedly dealing 156 damage to all enemies within 25 feet.",
       "category": "Ability"
     },
     {
@@ -1089,7 +1089,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your damage is increased by 15% when under 45 feet away from your target.",
+      "description": "Your damage is increased by 15% when under 45 feet away from your target.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -1104,7 +1104,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "You expel noxious fumes, increasing the cooldowns of enemies within 30 feet by 3 seconds for 10 seconds and dealing 95 Corporeal damage to all affected enemies.",
+      "description": "You expel noxious fumes, increasing the cooldowns of enemies within 25 feet by 3 seconds for 10 seconds and dealing 95 Corporeal damage to all affected enemies.",
       "category": "Ability"
     },
     {

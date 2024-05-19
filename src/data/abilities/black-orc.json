@@ -52,7 +52,7 @@
         "lvl3": 1712,
         "lvl4": 1689,
         "lvl5": 1713,
-        "lvl6": 1697,
+        "lvl6": 1698,
         "lvl7": 1727
       },
       "coreAbilities": [
@@ -228,7 +228,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -333,7 +333,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
+      "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -438,7 +438,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You root four enemies within 30 feet of you, preventing them fom moving for 5 seconds. There is a 50% chance of the root breaking with every hit.",
+      "description": "You root four enemies within 25 feet of you, preventing them fom moving for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
     },
     {
@@ -498,7 +498,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "A loud shout that startles your target and all enemies within 25 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -663,7 +663,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "War Bellows (Da Biggest, Da Toughest, Da Greenest) now also deal 225 damage to your offensive target.",
+      "description": "War Bellows (Da Biggest, Da Toughest, Da Greenest) now also deal 189 damage to your offensive target.",
       "category": "CareerTactic"
     },
     {
@@ -797,8 +797,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "Deals 164 damage. Removes 50 Action Points over 5 seconds.",
+      "note": "Leads to da' Gud Plan!",
+      "description": "Deals 202 damage. Steals 50 Action Points over 5 seconds to your friendly target.",
       "category": "Ability"
     },
     {
@@ -843,22 +843,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you are wielding a great weapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.",
+      "description": "When you are wielding a great weapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
-      "id": 1697,
-      "image": "https://armory.returnofreckoning.com/icon/2406",
-      "name": "You Wot!?!!!",
-      "type": "Buff",
+      "id": 1698,
+      "image": "https://armory.returnofreckoning.com/icon/2667",
+      "name": "Chop Fasta!",
+      "type": "Blessing",
       "spec": "Path of Da’ Brawler",
       "minrank": "29",
-      "cost": "20 Action Points",
-      "range": "30ft range",
+      "cost": "35 Action Points",
+      "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
-      "note": "Leads to da' Gud Plan!",
-      "description": "You think you heard someone say something about the size of your weapon. You fly into a rage for 20 seconds, dealing 10% more damage. Your armor and resistances increase by 30%, defences by 15% but when your rage subsides your moping means you will move at only 80% of your normal speed for 10 seconds.",
+      "cooldown": "No cooldown",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!<br>Requires Great Weapon",
+      "description": "You hit your target for 277 damage and increase your auto attack speed by 50% for 10 seconds. If you are behind the target, you will almost always deal critical damage.",
       "category": "Ability"
     },
     {
@@ -947,7 +947,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "Deals 105 damage to targets 25 feet from you, and knocks them back.",
       "category": "Ability"
     },
@@ -977,7 +977,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "A strong kick dealing 164 damage to your enemy and knocking back players and knocking down monsters. Shares cooldown with Fly Gits!.",
       "category": "Ability"
     },
@@ -993,7 +993,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Block and Parry by 5% when you have a Gud' Plan, and 10% while you have Da' Best Plan.",
+      "description": "Increases Parry by 10% when you have No Plan, 15% when you have a Gud' Plan, and 20% while you have Da' Best Plan.",
       "category": "CareerTactic"
     },
     {
@@ -1143,7 +1143,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You furiously swing your weapon in a wide circle, dealing 98 damage to targets within 30 feet and reducing their Strength by 120 for 20 seconds.",
+      "description": "You furiously swing your weapon in a wide circle, dealing 98 damage to targets within 25 feet and reducing their Strength by 120 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1217,7 +1217,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
       "description": "Deals 502 damage and knocks target down for 3 seconds.",
       "category": "Ability"
     },
@@ -1248,7 +1248,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals 248 Corporeal damage to all targets within 30 feet. Also reduces target's Corporeal resistance by 378 for 20 seconds. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds.",
+      "description": "Deals 248 Corporeal damage to all targets within 25 feet. Also reduces target's Corporeal resistance by 378 for 20 seconds. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds.",
       "category": "Ability"
     },
     {

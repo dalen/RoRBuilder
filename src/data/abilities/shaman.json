@@ -253,7 +253,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
+      "description": "Deals 600 damage to all enemies within 25 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -268,7 +268,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
+      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -283,7 +283,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Your chance to disrupt attacks is increased by 5%, and you Detaunt all enemies within 30 feet for 10 seconds, making them hate you less and causing them to deal 50% damage to you. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "Your chance to disrupt attacks is increased by 5%, and you Detaunt all enemies within 25 feet for 10 seconds, making them hate you less and causing them to deal 50% damage to you. You will also deal 50% damage to them until the effect is broken. If you attack anyone that you have Detaunted, the effect will immediately end.",
       "category": "Ability"
     },
     {
@@ -538,7 +538,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Heals your target for 567 health every 3 seconds over 9 seconds. Each pulse also heals those around the target within 30 feet.",
+      "description": "Heals your target for 567 health every 3 seconds over 9 seconds. Each pulse also heals those around the target within 25 feet.",
       "category": "Morale"
     },
     {
@@ -583,7 +583,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Removes 100 AP from each enemy within 30 feet, and gives 50% of the stolen AP to you.",
+      "description": "Removes 100 AP from each enemy within 25 feet, and gives 50% of the stolen AP to you.",
       "category": "Morale"
     },
     {
@@ -928,7 +928,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional 225 Elemental damage as well.",
+      "description": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional 247 Elemental damage as well.",
       "category": "CareerTactic"
     },
     {
@@ -1153,7 +1153,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Don' Feel Nuthin will also cause your target to deal 15% more damage as long as the barrier is protecting them.",
+      "description": "Don' Feel Nuthin will also cause your target to deal 15% more damage as long as the barrier is protecting them.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -1183,7 +1183,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Reduces the stats of all enemies within 30 feet of your target by 40 (except wounds), and increases all your groupmember's stats by 40 (except wounds) for 15 seconds",
+      "description": "Reduces the stats of all enemies within 25 feet of your target by 40 (except wounds), and increases all your groupmember's stats by 40 (except wounds) for 15 seconds",
       "category": "Morale"
     }
   ]

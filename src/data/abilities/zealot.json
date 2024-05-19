@@ -284,7 +284,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
+      "description": "Deals 600 damage to all enemies within 25 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -299,7 +299,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
+      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -419,7 +419,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
+      "description": "Any time you are attacked, there is a 25% chance that you will lash out for 370 Elemental damage over 5 seconds to anyone who hits you.",
       "category": "CareerTactic"
     },
     {
@@ -449,7 +449,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All opponents within 30 feet of you are knocked back, and monsters are knocked down for 3 seconds.",
+      "description": "All opponents within 25 feet of you are knocked back, and monsters are knocked down for 3 seconds.",
       "category": "Ability"
     },
     {
@@ -584,7 +584,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You silence disbelievers and inflict 1215 damage over 5 seconds within 30 feet around you.",
+      "description": "You silence disbelievers and inflict 1215 damage over 5 seconds within 25 feet around you.",
       "category": "Morale"
     },
     {
@@ -614,7 +614,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rituals will now pulse 150 Corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
+      "description": "Rituals will now pulse 179 Corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
       "category": "CareerTactic"
     },
     {
@@ -1034,7 +1034,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Pains washes over enemies within 30 feet of you, inflicting 264 Corporeal damage.",
+      "description": "Pains washes over enemies within 25 feet of you, inflicting 264 Corporeal damage.",
       "category": "Ability"
     },
     {
@@ -1049,7 +1049,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all your groupmember's resistances by 252.  The bearer of this Mark may activate it to inflict 474 Corporeal damage over 9 seconds to all targets within  30 feet. <BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases all your groupmember's resistances by 252.  The bearer of this Mark may activate it to inflict 474 Corporeal damage over 9 seconds to all targets within  25 feet. <BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -1154,7 +1154,7 @@
       "incant": "6.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You channel dark forces into your target and all targets within 30 feet of them, dealing 307 Corporeal damage every 2 seconds for up to 6 seconds.",
+      "description": "You channel dark forces into your target and all targets within 25 feet of them, dealing 307 Corporeal damage every 2 seconds for up to 6 seconds.",
       "category": "Ability"
     },
     {
@@ -1184,7 +1184,7 @@
       "incant": "Instant cast",
       "cooldown": "26s cooldown",
       "note": "",
-      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 234 Corporeal damage every second to targets within 30 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<BR>This spell may be toggled off to regain your movement.",
+      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 234 Corporeal damage every second to targets within 25 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<BR>This spell may be toggled off to regain your movement.",
       "category": "Ability"
     },
     {

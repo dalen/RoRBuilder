@@ -23,7 +23,7 @@
     839,
     9334,
     607,
-    9370,
+    9361,
     9368,
     840,
     610,
@@ -37,7 +37,7 @@
     9359,
     9382,
     9360,
-    9361,
+    9370,
     613
   ],
   "mastery": {
@@ -241,7 +241,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -331,7 +331,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
+      "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -436,7 +436,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Taken aback by your seething contempt, up to 4 enemies within 30 feet are rooted in place, making them unable to move for 5 seconds.  Rooted targets have a 50% chance to break free when they suffer damage.",
+      "description": "Taken aback by your seething contempt, up to 4 enemies within 25 feet are rooted in place, making them unable to move for 5 seconds.  Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
     {
@@ -455,9 +455,9 @@
       "category": "Morale"
     },
     {
-      "id": 9370,
-      "image": "https://armory.returnofreckoning.com/icon/22702",
-      "name": "Crush Vitality",
+      "id": 9361,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Simmering Anger",
       "type": "Defensive",
       "spec": "Core Ability",
       "minrank": "21",
@@ -466,7 +466,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Anytime you strike an opponent, you have a 25% chance to lower that opponent' autoattack speed by 20% for 10 seconds.",
+      "description": "Gain 10 Hate each time an enemy critically hits you.<BR> This effect can only trigger once every second.",
       "category": "CareerTactic"
     },
     {
@@ -481,7 +481,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduce AP cost of Loathing abilities based on your current Health level.<BR> With 75-51% Health: Reduce cost by 25%. <BR> With 50-26% Health: Reduce cost by 50%.<BR> With 25-0% Health: Reduce cost by 75%.",
+      "description": "Reduce AP cost of Loathing abilities based on your current Health level.<BR> With 100-76% Health: Reduce cost by 5. <BR> With 75-51% Health: Reduce cost by 10. <BR> With 50-26% Health: Reduce cost by 15.<BR> With 25-0% Health: Reduce cost by 20.",
       "category": "CareerTactic"
     },
     {
@@ -511,7 +511,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "A loud shout that startles your target and all enemies within 25 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -665,9 +665,9 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9361,
-      "image": "https://armory.returnofreckoning.com/icon/22704",
-      "name": "Simmering Anger",
+      "id": 9370,
+      "image": "https://armory.returnofreckoning.com/icon/22702",
+      "name": "Crush Vitality",
       "type": "Defensive",
       "spec": "Core Ability",
       "minrank": "39",
@@ -676,7 +676,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain 10 Hate each time an enemy critically hits you.<BR> This effect can only trigger once every second.",
+      "description": "Crush the Weak now additionally lowers the target’s auto attack speed by 35% for 10 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1126,7 +1126,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 30 Hatred",
-      "description": "A bone chilling howl that strikes fear in all opponents 30 feet from you. Those affected suffer 132 damage and their chance to Block and Parry is reduced by 10% for 15 seconds.",
+      "description": "A bone chilling howl that strikes fear in all opponents 25 feet from you. Those affected suffer 132 damage and their chance to Block and Parry is reduced by 10% for 15 seconds.",
       "category": "Ability"
     },
     {

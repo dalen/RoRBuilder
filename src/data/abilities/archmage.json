@@ -237,7 +237,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
+      "description": "Upon striking a target with direct damage there is a 25% chance to inflict an additional 303 Spirit damage over 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -252,7 +252,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
+      "description": "Deals 600 damage to all enemies within 25 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -267,7 +267,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.",
+      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -927,7 +927,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your damaging spells gain a 25% chance to remove 1 Blessing from the victim.  Whenever this happens, they will also suffer an additional 225 Spirit damage.",
+      "description": "All of your damaging spells gain a 25% chance to remove 1 Blessing from the victim.  Whenever this happens, they will also suffer an additional 247 Spirit damage.",
       "category": "CareerTactic"
     },
     {
@@ -972,7 +972,7 @@
       "incant": "2.0s cast",
       "cooldown": "20s cooldown",
       "note": "Tranquility reduces cast time and cost.<br>Builds Force",
-      "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds.  Every 1 seconds, all enemies within 30 feet of them will suffer 212 Spirit damage.",
+      "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds.  Every 1 seconds, all enemies within 25 feet of them will suffer 212 Spirit damage.",
       "category": "Ability"
     },
     {
@@ -1167,7 +1167,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet have their action point costs increased by 50% for 15 seconds, and all allies in the area have their action point costs reduced by 50% for 15 seconds.",
+      "description": "All enemies within 25 feet have their action point costs increased by 50% for 15 seconds, and all allies in the area have their action point costs reduced by 50% for 15 seconds.",
       "category": "Morale"
     }
   ]

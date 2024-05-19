@@ -306,7 +306,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A summoning wave passes over those within 30 feet of you, calling fourth tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
+      "description": "A summoning wave passes over those within 25 feet of you, calling fourth tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
     },
     {
@@ -441,7 +441,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Pink Horrors, Blue Horrors and Flamers of Tzeentch now have a 15% chance to taunt their targets with every attack. This enrages the target, interrupting any building actions and forces monsters to target your pet for 5 seconds. Taunted targets receive  20% more damage from your daemon. If your daemon is struck 3 times by their taunted target, taunt will be broken.",
+      "description": "Pink Horrors, Blue Horrors and Flamers of Tzeentch now have a 15% chance to taunt their targets with every attack. This enrages the target, interrupting any building actions and forces monsters to target your pet for 5 seconds. Taunted targets receive  20% more damage from your daemon. If your daemon is struck 3 times by their taunted target, taunt will be broken.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -471,7 +471,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
+      "description": "Any time you are attacked, there is a 25% chance that you will lash out for 370 Elemental damage over 5 seconds to anyone who hits you.",
       "category": "CareerTactic"
     },
     {
@@ -501,7 +501,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires a summoned minion.",
-      "description": "You force so much power into your daemon that it explodes from within, dealing 370 Spirit damage to all targets within 30 feet, knocking them down for 3 seconds.",
+      "description": "You force so much power into your daemon that it explodes from within, dealing 370 Spirit damage to all targets within 25 feet, knocking them down for 3 seconds.",
       "category": "Ability"
     },
     {
@@ -606,7 +606,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Surge of Insanity will now cause an additional 345 damage over 6 seconds to all targets hit.",
+      "description": "Surge of Insanity will now cause an additional 396 Spirit damage over 6 seconds to all targets hit.",
       "category": "CareerTactic"
     },
     {
@@ -666,7 +666,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Withered Soul will now also cause the victim to suffer 15% more damage from all sources.",
+      "description": "Withered Soul will now also cause the victim to suffer 15% more damage from all sources.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -681,7 +681,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1800 damage to all enemies within 30 feet, and for the next 10 seconds your abilities will build 50% faster, cost 25% less Action Points and you cannot be set back during this time.",
+      "description": "Deals 1800 damage to all enemies within 25 feet, and for the next 10 seconds your abilities will build 50% faster, cost 25% less Action Points and you cannot be set back during this time.",
       "category": "Morale"
     },
     {
@@ -1161,7 +1161,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Blue Horror releases a field of energy dealing 141 Elemental damage every second to all targets within 30 feet for 3 seconds.",
+      "description": "Your Blue Horror releases a field of energy dealing 141 Elemental damage every second to all targets within 25 feet for 3 seconds.",
       "category": "Ability"
     },
     {
@@ -1206,7 +1206,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You channel warping flame through your disk, dealing 217 Elemental damage to all targets within 30 feet of you every second for 3 seconds.",
+      "description": "You channel warping flame through your disk, dealing 217 Elemental damage to all targets within 25 feet of you every second for 3 seconds.",
       "category": "Ability"
     },
     {
@@ -1221,7 +1221,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you summon a Daemon, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
+      "description": "When you summon a Daemon, it will restore 20 Action Points to everyone within 25 feet every 2 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1251,7 +1251,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your damage is increased by 15% when under 45 feet away from your target.",
+      "description": "Your damage is increased by 15% when under 45 feet away from your target.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -1296,7 +1296,7 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 65 feet of the vortex towards its center and then snaring everyone within 30 feet a second later by 30% for 5 seconds. Monsters will be knocked down by the initial pull.",
+      "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 65 feet of the vortex towards its center and then snaring everyone within 25 feet a second later by 30% for 5 seconds. Monsters will be knocked down by the initial pull.",
       "category": "Ability"
     },
     {

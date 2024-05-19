@@ -47,11 +47,11 @@
       },
       "optionalAbilities": {
         "lvl1": 9068,
-        "lvl2": 9014,
+        "lvl2": 9025,
         "lvl3": 9062,
-        "lvl4": 9025,
+        "lvl4": 9026,
         "lvl5": 9063,
-        "lvl6": 9026,
+        "lvl6": 9014,
         "lvl7": 9074
       },
       "coreAbilities": [
@@ -226,7 +226,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -256,7 +256,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
+      "description": "Upon striking a target with direct damage there is a 25% chance to inflict an additional 303 Spirit damage over 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -316,7 +316,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
+      "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -421,7 +421,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Roots up to 4 enemies within 30 feet of you, making them unable to move for 5 seconds. Root has a 50% chance to break whenever hit.",
+      "description": "Roots up to 4 enemies within 25 feet of you, making them unable to move for 5 seconds. Root has a 50% chance to break whenever hit.",
       "category": "Ability"
     },
     {
@@ -481,7 +481,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "A loud shout that startles your target and all enemies within 25 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -556,7 +556,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blade Enchantments will also deal 540 Spirit damage over 9 seconds whenever they trigger.",
+      "description": "Blade Enchantments will also deal 392 Spirit damage over 9 seconds whenever they trigger.",
       "category": "CareerTactic"
     },
     {
@@ -751,7 +751,7 @@
       "incant": "20s cast",
       "cooldown": "5s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You spin your greatsword with astounding speed, forming a wall of steel between you and your opponent. Your chances to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back 150 Spirit damage.",
+      "description": "You spin your greatsword with astounding speed, forming a wall of steel between you and your opponent. Your chances to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back 187 Spirit damage.",
       "category": "Ability"
     },
     {
@@ -770,18 +770,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9014,
-      "image": "https://armory.returnofreckoning.com/icon/13300",
-      "name": "Sapping Strike",
-      "type": "Hex",
+      "id": 9025,
+      "image": "https://armory.returnofreckoning.com/icon/13303",
+      "name": "Phoenix's Wing",
+      "type": "Damaging",
       "spec": "Path of Khaine",
       "minrank": "21",
-      "cost": "25 Action Points",
-      "range": "5ft range",
+      "cost": "40 Action Points",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5s cooldown",
-      "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A targeted strike that saps the energy from your target dealing 156 damage and reducing your opponent's AP by 10 every second for 5 seconds.",
+      "cooldown": "No cooldown",
+      "note": "Leads to Improved Balance",
+      "description": "A broad slash that hits all opponents 25 feet in front of you for 175 Spirit damage.",
       "category": "Ability"
     },
     {
@@ -800,18 +800,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9025,
-      "image": "https://armory.returnofreckoning.com/icon/13303",
-      "name": "Phoenix's Wing",
+      "id": 9026,
+      "image": "https://armory.returnofreckoning.com/icon/13384",
+      "name": "Ether Dance",
       "type": "Damaging",
       "spec": "Path of Khaine",
       "minrank": "25",
-      "cost": "30 Action Points",
-      "range": "Self",
-      "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Great Weapon",
-      "description": "A broad slash that hits all opponents in front of you for 175 Spirit damage.",
+      "cost": "No AP Cost",
+      "range": "5ft range",
+      "incant": "3.0s cast",
+      "cooldown": "8s cooldown",
+      "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Great Weapon",
+      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing 258 Spirit damage with each hit.",
       "category": "Ability"
     },
     {
@@ -826,22 +826,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you are wielding a great weapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.",
+      "description": "When you are wielding a great weapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
-      "id": 9026,
-      "image": "https://armory.returnofreckoning.com/icon/13384",
-      "name": "Ether Dance",
-      "type": "Damaging",
+      "id": 9014,
+      "image": "https://armory.returnofreckoning.com/icon/13300",
+      "name": "Sapping Strike",
+      "type": "Hex",
       "spec": "Path of Khaine",
       "minrank": "29",
-      "cost": "No AP Cost",
+      "cost": "35 Action Points",
       "range": "5ft range",
-      "incant": "3.0s cast",
-      "cooldown": "8s cooldown",
-      "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Great Weapon",
-      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing 258 Spirit damage with each hit.",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Great Weapon",
+      "description": "A targeted strike that saps the energy from your target, dealing 655 Spirit damage over 10 seconds and increases your chance to critically hit by 10% second for 10 seconds. If you strike your target from behind you instantly deal an additional 231 Spirit damage.",
       "category": "Ability"
     },
     {
@@ -930,7 +930,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Requires Improved Balance<br>Leads to Perfect Balance",
+      "note": "Requires Perfect Balance<br>Leads to Normal Balance",
       "description": "A strong blow dealing 156 damage to your enemy and knocking back players and knocking down monsters. Shares cooldown with Gusting Wind.",
       "category": "Ability"
     },
@@ -961,7 +961,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increase Block and Parry chances by 5% when in Improved Balance, and 10% when in Perfect balance.",
+      "description": "Increase Block chance by 5% when in Normal Balance, 10% when in Improved Balance, and 15% when in Perfect balance.",
       "category": "CareerTactic"
     },
     {
@@ -972,11 +972,11 @@
       "spec": "Path of Vaul",
       "minrank": "21",
       "cost": "25 Action Points",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Block, Disrupt, Dodge, or Parry.",
-      "description": "Redirects the force of a blocked blow into a devastating attack dealing 231 damage and generating a large amount of additional hate from monsters.",
+      "description": "Redirects the force of a defended blow into a devastating attack dealing 170 damage to all enemies within 20 feet in front of you, interrupting any spells they are casting and generating a large amount of additional hate from monsters.",
       "category": "Ability"
     },
     {
@@ -1006,7 +1006,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance<br>Requires Shield",
-      "description": "A calculated shield maneuver that inflicts 194 damage to all enemies 15 feet in front of you and interrupts any spells they are casting. Additionally, for the next 20 seconds, your block rate is increased by 5% and your armor will be increased by 990 points.",
+      "description": "A calculated shield maneuver that inflicts 194 damage to all enemies 15 feet in front of you. Additionally, for the next 20 seconds, your block rate is increased by 10% and your armor will be increased by 990 points.",
       "category": "Ability"
     },
     {
@@ -1096,7 +1096,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "The magic from your blade is released in a staggering explosion that deals 170 Spirit damage to all opponents within 30 feet. In addition your opponent's Spiritual resistance will be reduced by 378 for 20 seconds.",
+      "description": "The magic from your blade is released in a staggering explosion that deals 170 Spirit damage to all opponents within 25 feet. In addition your opponent's Spiritual resistance will be reduced by 378 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1111,7 +1111,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals 95 Spirit damage to all opponents within 30 feet of you, knocking back enemy players and knocking down monsters.",
+      "description": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals 95 Spirit damage to all opponents within 25 feet of you, knocking back enemy players and knocking down monsters.",
       "category": "Ability"
     },
     {
@@ -1141,7 +1141,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increase Disrupt chance by 10% when in Improved Balance, and 20% when in Perfect balance.",
+      "description": "Increase Disrupt chance by 10% when in Normal Balance,  15% when in Improved Balance, and 20% when in Perfect balance.",
       "category": "CareerTactic"
     },
     {
@@ -1185,7 +1185,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Requires Perfect Balance<br>Leads to Normal Balance",
+      "note": "Requires Improved Balance<br>Leads to Perfect Balance",
       "description": "You launch two powerful blows dealing a total of 350 Spirit damage and knocking your opponent down for 3 seconds.",
       "category": "Ability"
     },
