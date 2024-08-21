@@ -160,9 +160,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -754,7 +754,7 @@
       "id": 9251,
       "image": "https://armory.returnofreckoning.com/icon/13355",
       "name": "Mistress of The Marsh",
-      "type": "Hex",
+      "type": "Defensive",
       "spec": "Path of Isha",
       "minrank": "25",
       "cost": "20 Action Points",

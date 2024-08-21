@@ -165,9 +165,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -527,7 +527,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Repent will now affect all enemies within 25 feet of your target for 5 seconds.",
+      "description": "Repent will now also affect all enemies within 25 feet for 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1127,7 +1127,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Only one Prayer may be active at a time",
-      "description": "Any time one of your groupmates within 100 feet hits an enemy, there is a 20% chance they will deal an additional 225 Spirit damage.",
+      "description": "Any time one of your groupmates within 100 feet hits an enemy, there is a 20% chance they will deal an additional 202 Spirit damage.",
       "category": "Ability"
     },
     {
@@ -1187,7 +1187,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Prayer of Righteousness will now deal 375 Spirit damage.",
+      "description": "Prayer of Righteousness will now deal 318 Spirit damage.",
       "category": "CareerTactic"
     },
     {

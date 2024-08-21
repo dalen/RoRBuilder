@@ -169,9 +169,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -808,7 +808,7 @@
       "id": 8495,
       "image": "https://armory.returnofreckoning.com/icon/5293",
       "name": "Perils of The Warp",
-      "type": "Hex",
+      "type": "Damaging",
       "spec": "Path of Havoc",
       "minrank": "21",
       "cost": "35 Action Points",
@@ -1056,7 +1056,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "Creates a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 10 feet of the area for 6 seconds, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
+      "description": "Creates a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 10 feet of the area for 6 seconds, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit. If there are multiple Tzeentch's Firestorms in the same area only the highest level one will deal damage.",
       "category": "Ability"
     },
     {

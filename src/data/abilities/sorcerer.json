@@ -160,9 +160,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -612,7 +612,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Frozen Touch now has a 45% chance to trigger.",
+      "description": "Frozen Touch now has a 40% chance to trigger.",
       "category": "CareerTactic"
     },
     {
@@ -747,7 +747,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever your Frozen Touch effect triggers for one of your allies, they will become surrounded by a protective barrier for up to 5 seconds which will absorb up to 375 damage.",
+      "description": "Whenever your Frozen Touch effect triggers for one of your allies, they will become surrounded by a protective barrier for up to 5 seconds which will absorb up to 375 damage. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1032,7 +1032,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A cone of dark energy bursts forth in front of you, dealing 315 Spirit damage to enemies up to 65 feet away.",
+      "description": "A line of dark energy bursts forth in front of you, dealing 315 Spirit damage to enemies up to 65 feet away.",
       "category": "Ability"
     },
     {
@@ -1047,7 +1047,7 @@
       "incant": "10s cast",
       "cooldown": "20s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A 20 feet pit of shadow covers the ground at a point that you select for 9 seconds.  Your enemies will suffer 258 Spirit damage every 1.5 seconds while they are within the area.  This effect will end if you break your concentration or run out of action points.",
+      "description": "A 20 feet pit of shadow covers the ground at a point that you select for 9 seconds.  Your enemies will suffer 258 Spirit damage every 1.5 seconds while they are within the area.  This effect will end if you break your concentration or run out of action points. If there are multiple Pit of Shades in the same area only the highest level one will deal damage.",
       "category": "Ability"
     },
     {

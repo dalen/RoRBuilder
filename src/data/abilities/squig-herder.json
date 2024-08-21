@@ -98,11 +98,11 @@
       },
       "optionalAbilities": {
         "lvl1": 1876,
-        "lvl2": 1852,
+        "lvl2": 1838,
         "lvl3": 1874,
         "lvl4": 1853,
         "lvl5": 1875,
-        "lvl6": 1838,
+        "lvl6": 1852,
         "lvl7": 1885
       },
       "coreAbilities": [
@@ -172,9 +172,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -279,14 +279,14 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<BR>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<BR>Your range is increased by 15 feet as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a Gas squig pet which you can order around. This pet attacks from range, but is very weak to attacks.<BR>This pet receives a bonus to Ballistic Skill and Weapon Skill equal to your bonus from items.<BR>Your range attacks are increased by 15 feet as long as this squig is alive.<BR>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability"
     },
     {
       "id": 1831,
       "image": "https://armory.returnofreckoning.com/icon/2592",
       "name": "Sticky Squigz",
-      "type": "Hex",
+      "type": "Ailment",
       "spec": "Core Ability",
       "minrank": "9",
       "cost": "No AP Cost",
@@ -874,12 +874,12 @@
       "type": "Buff",
       "spec": "Path of Bouncin'",
       "minrank": "1",
-      "cost": "55 Action Points",
+      "cost": "35 Action Points",
       "range": "Self",
-      "incant": "Instant cast",
+      "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Summons a massive battle squig which will promptly eat you.  From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor your armor is increased by the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance.",
+      "description": "Summons a massive battle squig which will promptly eat you. From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor your Strength, Toughness and Wounds are increased by 120. Your armor is increased by half the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -1042,7 +1042,7 @@
       "cost": "35 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Squig Armor",
       "description": "Your Battle Squig explodes, causing you to be launched upward out of your Squiggy armor. All enemies within 10 feet take 441 damage and are knocked back.",
       "category": "Ability"
@@ -1089,7 +1089,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your damage is increased by 15% when under 45 feet away from your target.<BR>Does not affect damage procs.",
+      "description": "Your Squig Armor grants an additional 50% of armor from items, and your damage is increased by 15% when under 45 feet away from your target.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -1130,7 +1130,7 @@
       "spec": "Path of Bouncin'",
       "minrank": "29",
       "cost": "15 Action Points / Sec",
-      "range": "5ft range",
+      "range": "4.583333333333333ft range",
       "incant": "5.0s cast",
       "cooldown": "25s cooldown",
       "note": "Requires Squig Armor",
@@ -1273,18 +1273,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1852,
-      "image": "https://armory.returnofreckoning.com/icon/2618",
-      "name": "Run Away!",
-      "type": "Buff",
+      "id": 1838,
+      "image": "https://armory.returnofreckoning.com/icon/2430",
+      "name": "Red Tipped Arrer",
+      "type": "Damaging",
       "spec": "Path of Quick Shootin'",
       "minrank": "21",
-      "cost": "45 Action Points",
-      "range": "100ft range",
+      "cost": "30 Action Points",
+      "range": "65ft range",
       "incant": "Instant cast",
-      "cooldown": "45s cooldown",
-      "note": "Requires an active pet",
-      "description": "You command your Squig to Taunt all enemies within 30 feet and increases your movement speed by 30 % for 10 seconds. If you use any abilities, this effect will immediately end.",
+      "cooldown": "15s cooldown",
+      "note": "",
+      "description": "You fire a quick arrow at your target, dealing 178 damage and interrupting any ability that they are building up. If an ability was interrupted it will deal 465 damage instead.",
       "category": "Ability"
     },
     {
@@ -1333,18 +1333,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1838,
-      "image": "https://armory.returnofreckoning.com/icon/2430",
-      "name": "Red Tipped Arrer",
-      "type": "Damaging",
+      "id": 1852,
+      "image": "https://armory.returnofreckoning.com/icon/2618",
+      "name": "Run Away!",
+      "type": "Buff",
       "spec": "Path of Quick Shootin'",
       "minrank": "29",
-      "cost": "30 Action Points",
-      "range": "65ft range",
+      "cost": "45 Action Points",
+      "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "",
-      "description": "You fire a quick arrow at your target, dealing 253 damage, interrupting any ability that they are building up and will remove one damage absorbing effect from the target. Any damage absorbing effect removed from the target will inflict an additional 150 damage.",
+      "cooldown": "45s cooldown",
+      "note": "Requires an active pet<br>Not usable while inside your Squig Armor",
+      "description": "You command your Squig to Taunt all enemies within 30 feet and increases your movement speed by 30 % for 10 seconds. If you use any abilities, this effect will immediately end.",
       "category": "Ability"
     },
     {

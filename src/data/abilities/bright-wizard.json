@@ -159,9 +159,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -386,7 +386,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flames Of Rhuin will now deal 337 damage, and Flame Shield will now deal 300 damage.",
+      "description": "Flames Of Rhuin will now deal 300 damage, and Flame Shield will now deal 300 damage.",
       "category": "CareerTactic"
     },
     {
@@ -506,7 +506,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds which would normally have a buildup time will cast instantly instead.<BR>This effect will not trigger more than once every  {COM_2_VAL0_COM_0_DURA_SECONDS: Component Id 9538 not found}.",
+      "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds which would normally have a buildup time will cast instantly instead.<BR>This effect will not trigger more than once every 6 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -521,7 +521,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all enemies within 30 feet.",
+      "description": "Deals 1200 damage to all enemies within 25 feet.",
       "category": "Morale"
     },
     {
@@ -596,7 +596,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flames of Rhuin now has a 45% chance to trigger.",
+      "description": "Flames of Rhuin now has a 40% chance to trigger.",
       "category": "CareerTactic"
     },
     {
@@ -971,7 +971,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A wall of fire shoots outwards from you and remains on the ground for 8 seconds, dealing 300 damage each second to all enemies in a line in front of you up to 65 feet away from you.",
+      "description": "A wall of fire shoots outward from you toward your target, remaining on the ground for 8 seconds. It deals 300 damage per second to all enemies in a line up to 65 feet away from you.",
       "category": "Morale"
     },
     {
@@ -1031,7 +1031,7 @@
       "incant": "10s cast",
       "cooldown": "20s cooldown",
       "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 9 seconds, falling upon a spot you select and repeatedly dealing 258 damage to all enemies within 20 feet of that spot.",
+      "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 9 seconds, falling upon a spot you select and repeatedly dealing 258 damage to all enemies within 20 feet of that spot. If there are multiple Rain of Fires in the same area only the highest level one will deal damage.",
       "category": "Ability"
     },
     {

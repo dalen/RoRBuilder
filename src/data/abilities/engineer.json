@@ -170,9 +170,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -1057,7 +1057,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 365 Corporeal damage every 2 seconds to all enemies within 10 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel.",
+      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 365 Corporeal damage every 2 seconds to all enemies within 10 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel. If there are multiple Phosphorous Shells in the same area only the highest level one will deal damage.",
       "category": "Ability"
     },
     {
@@ -1308,11 +1308,11 @@
       "spec": "Path of The Tinkerer",
       "minrank": "29",
       "cost": "20 Action Points",
-      "range": "Self",
+      "range": "65ft range",
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within 65 feet inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within 25 feet, reducing their movement speed by 30% for 5 seconds.<BR>The attack uses the Ranged statistic.",
+      "description": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within 65 feet inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within 25 feet, reducing their movement speed by 30% for 5 seconds.<BR>The attack uses the Ranged statistic. Monsters will be knocked down by the initial pull.",
       "category": "Ability"
     },
     {

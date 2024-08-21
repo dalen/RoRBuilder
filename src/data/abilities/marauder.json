@@ -164,9 +164,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -481,7 +481,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
+      "description": "For the next 10 seconds, your attacks will cleave through up to 2 additional enemies within 25 feet in front of you, dealing unmitigable damage of 300 per strike.",
       "category": "Morale"
     },
     {
@@ -766,7 +766,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Parry<br>Requires Gift of Savagery or Brutality",
-      "description": "A savage attack that guts your opponent for 253 damage, and makes your next damaging ability within 5 seconds automatically critical.",
+      "description": "A savage attack that guts your opponent, dealing 253 damage. Your next, consequently-cast, damaging ability instance within 5 seconds will automatically critical hit.",
       "category": "Ability"
     },
     {
@@ -1094,7 +1094,7 @@
       "cost": "30 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "15s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
       "description": "Tzeentch's dark words pour from your mouth, interrupting any spells being cast 40 feet in front of you, and inflicting 183 damage to all in range.",
       "category": "Ability"
@@ -1216,7 +1216,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "Spinning in a circle with club arm extended, aimlessly inflicting 193 damage every half second to all targets within 30 feet in front of you for up to 3 seconds.  This effect will end if you break your concentration or run out of action points.",
+      "description": "Spinning in a circle with club arm extended, aimlessly inflicting 339 damage every half second to all targets within 30 feet in front of you for up to 3 seconds.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
     {

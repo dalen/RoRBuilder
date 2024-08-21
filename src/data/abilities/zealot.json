@@ -27,13 +27,13 @@
     8584,
     8605,
     589,
+    8561,
     8590,
     8606,
-    8587,
     8588,
     8607,
     8589,
-    8585,
+    8587,
     8567,
     697
   ],
@@ -57,8 +57,7 @@
         8569,
         8551,
         8568,
-        8566,
-        8561
+        8566
       ]
     },
     "b": {
@@ -91,7 +90,7 @@
       "optionalAbilities": {
         "lvl1": 8600,
         "lvl2": 8577,
-        "lvl3": 8601,
+        "lvl3": 8585,
         "lvl4": 8578,
         "lvl5": 8602,
         "lvl6": 8579,
@@ -162,9 +161,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -513,6 +512,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 8561,
+      "image": "https://armory.returnofreckoning.com/icon/5240",
+      "name": "Daemonic Fortitude",
+      "type": "Blessing",
+      "spec": "Core Ability",
+      "minrank": "30",
+      "cost": "35 Action Points",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "3m cooldown",
+      "note": "",
+      "description": "Increases target's Wounds by 160 for 60 seconds and then heals the recipient for the amount increased.",
+      "category": "Ability"
+    },
+    {
       "id": 8590,
       "image": "https://armory.returnofreckoning.com/icon/22704",
       "name": "Blessing of Chaos",
@@ -541,21 +555,6 @@
       "note": "",
       "description": "Increase the armor of all group mates within 100 feet by 1320 and resists by 504 for 10 seconds.",
       "category": "Morale"
-    },
-    {
-      "id": 8587,
-      "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "Empowered Alteration",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "33",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Leaping Alteration will also restore 48 Action Points over 9 seconds.",
-      "category": "CareerTactic"
     },
     {
       "id": 8588,
@@ -603,10 +602,10 @@
       "category": "CareerTactic"
     },
     {
-      "id": 8585,
-      "image": "https://armory.returnofreckoning.com/icon/22704",
-      "name": "Waves of Chaos",
-      "type": "Damaging",
+      "id": 8587,
+      "image": "https://armory.returnofreckoning.com/icon/22708",
+      "name": "Empowered Alteration",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "39",
       "cost": "Tactic",
@@ -614,7 +613,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rituals will now pulse 179 Corporeal damage to all targets within 30 feet every 3 seconds based on Mastery level of the Ritual.",
+      "description": "Leaping Alteration will deal 25% more healing and will also restore 48 Action Points over 9 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -659,7 +658,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Power lashes out and inflicts 377 Corporeal damage.",
+      "description": "Power lashes out and inflicts 477 Corporeal damage.",
       "category": "Ability"
     },
     {
@@ -669,7 +668,7 @@
       "type": "Healing",
       "spec": "Path of Alchemy",
       "minrank": "1",
-      "cost": "15 Action Points",
+      "cost": "25 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
@@ -689,7 +688,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by 80.  The bearer of this Mark may also activate it like an ability to inflict 321 Corporeal damage.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by 80.  The bearer of this Mark may also activate it like an ability to deal an additional 187 Corporeal damage on their next 5 attacks within 10 seconds. This effect cannot trigger more than once per second.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -720,21 +719,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Heals your target for 1258 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
-      "category": "Ability"
-    },
-    {
-      "id": 8561,
-      "image": "https://armory.returnofreckoning.com/icon/5240",
-      "name": "Daemonic Fortitude",
-      "type": "Blessing",
-      "spec": "Path of Alchemy",
-      "minrank": "30",
-      "cost": "35 Action Points",
-      "range": "100ft range",
-      "incant": "Instant cast",
-      "cooldown": "3m cooldown",
-      "note": "",
-      "description": "Increases target's Wounds by 160 for 60 seconds and then heals the recipient for the amount increased.",
       "category": "Ability"
     },
     {
@@ -792,7 +776,7 @@
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "No cooldown",
       "note": "",
       "description": "Drains 426 health from your target, funneling 150% of the amount drained into your defensive target.",
       "category": "Ability"
@@ -809,7 +793,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Critical direct damage hits place a debuff on your target that reduces all incoming healing by 30% for 5 seconds.",
+      "description": "Critical direct damage hits place a debuff on your target that reduces all incoming healing by 35% for 7 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -854,7 +838,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Inflicts 830 Corporeal damage over 15 seconds.",
+      "description": "Inflicts 985 Corporeal damage over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -876,7 +860,7 @@
       "id": 8549,
       "image": "https://armory.returnofreckoning.com/icon/5113",
       "name": "Dark Medicine",
-      "type": "Healing",
+      "type": "Blessing",
       "spec": "Path of Witchcraft",
       "minrank": "10",
       "cost": "45 Action Points",
@@ -899,7 +883,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases a groupmember's Initiative and Willpower by 80.  The bearer of this Mark may activate it like an ability to inflict 768 Corporeal damage over 9 seconds.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases a groupmember's Initiative and Willpower by 80.  The bearer of this Mark may activate it like an ability to cleanse one Curse, one Hex and one Ailment from themselves.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -989,7 +973,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While under the effects of your Harbinger of Doom; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
+      "description": "While under the effects of your Harbinger of Doom; you gain 10% disrupt strikethrough and each time you deal direct damage, your defensive target is healed for 50% of the damage dealt.",
       "category": "CareerTactic"
     },
     {
@@ -999,12 +983,12 @@
       "type": "Hex",
       "spec": "Path of Witchcraft",
       "minrank": "29",
-      "cost": "40 Action Points",
+      "cost": "35 Action Points",
       "range": "100ft range",
-      "incant": "2.0s cast",
+      "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Curses your target for 10 seconds so that whenever they cast a direct heal, it inflicts 547 Corporeal damage to them. This ability will continue to build up even if you move.",
+      "description": "You deal 1165 Corporeal damage to your target over 15 seconds and your defensive target is healed for 150% of the damage done.",
       "category": "Ability"
     },
     {
@@ -1029,12 +1013,12 @@
       "type": "Damaging",
       "spec": "Path of Dark Rites",
       "minrank": "7",
-      "cost": "40 Action Points",
+      "cost": "35 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "No cooldown",
       "note": "",
-      "description": "Pains washes over enemies within 25 feet of you, inflicting 264 Corporeal damage.",
+      "description": "Pains washes over enemies within 25 feet of you, inflicting 226 Corporeal damage.",
       "category": "Ability"
     },
     {
@@ -1049,7 +1033,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all your groupmember's resistances by 252.  The bearer of this Mark may activate it to inflict 474 Corporeal damage over 9 seconds to all targets within  25 feet. <BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases all your groupmember's resistances by 252.  The bearer of this Mark may activate it to absorb up to 1387 damage from ranged attacks for 10 seconds. This does not stack with Detaunt.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -1089,7 +1073,7 @@
       "type": "Hex",
       "spec": "Path of Dark Rites",
       "minrank": "18",
-      "cost": "45 Action Points",
+      "cost": "30 Action Points",
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
@@ -1128,18 +1112,18 @@
       "category": "Ability"
     },
     {
-      "id": 8601,
-      "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "Swirling Vortex",
-      "type": "Buff",
-      "spec": "Path of Dark Rites",
+      "id": 8585,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Waves of Chaos",
+      "type": "Damaging",
+      "spec": "Core Ability",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Mark of the Vortex's granted ability will now hit all enemies within 30 feet of the caster, and will last for 15 seconds",
+      "description": "Rituals will now pulse 179 Corporeal damage to all targets within 25 feet every 3 seconds based on Mastery level of the Ritual.",
       "category": "CareerTactic"
     },
     {
@@ -1181,10 +1165,10 @@
       "minrank": "29",
       "cost": "20 Action Points / Sec",
       "range": "Self",
-      "incant": "Instant cast",
+      "incant": "6.0s cast",
       "cooldown": "26s cooldown",
       "note": "",
-      "description": "You securely root yourself in place to call fourth ferocious winds for up to 6 seconds that inflict 234 Corporeal damage every second to targets within 25 feet of you. The fierce winds will knock back players a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds.<BR>This spell may be toggled off to regain your movement.",
+      "description": "You call forth ferocious winds for up to 6 seconds, knocking back players within 25 feet of you a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds. If under Harbinger of Change, all group members within 50ft will be healed for 169 health per second. If under Harbinger of Doom, you will inflict 234 Corporeal damage per second to all enemies affected by the winds.",
       "category": "Ability"
     },
     {

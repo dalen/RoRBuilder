@@ -164,9 +164,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -781,7 +781,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Monstrous Rending both cost 10 less Hate to use.",
+      "description": "Blade of Ruin and Monstrous Rending both cost 10 less Hate to use.",
       "category": "CareerTactic"
     },
     {
@@ -1066,7 +1066,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A vile attack that crushes your target's will to live, inflicting 156 damage and lowering their Intelligence and Willpower by 40 for 20 seconds. This effect can be stacked up to 3 times.",
+      "description": "A vile attack that crushes your target's will to live, inflicting 156 damage and lowering their Intelligence and Willpower by 120 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1208,7 +1208,7 @@
       "id": 9352,
       "image": "https://armory.returnofreckoning.com/icon/11046",
       "name": "For The Witch King!",
-      "type": "Hex",
+      "type": "Blessing",
       "spec": "Path of Anguish",
       "minrank": "29",
       "cost": "No AP Cost",
@@ -1216,7 +1216,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Costs 30 Hatred",
-      "description": "You deal  30 feet to all enemies in front of you for 153 damage, then you bless group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
+      "description": "You deal 153 damage to all enemies within 30 feet in front of you. Additionally, you bless group members within 100 feet for the next 10 seconds, reducing the cooldown of their abilities by 5 seconds.",
       "category": "Ability"
     },
     {

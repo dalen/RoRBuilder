@@ -192,9 +192,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -434,7 +434,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
+      "description": "For the next 10 seconds, your attacks will cleave through up to 2 additional enemies within 25 feet in front of you, dealing unmitigable damage of 300 per strike.",
       "category": "Morale"
     },
     {
@@ -717,7 +717,7 @@
       "cost": "35 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 25 feet of either one of you and inflicting an Ailment which causes 525 Spirit damage over 15 seconds to all affected enemies.",
       "category": "Ability"
@@ -779,7 +779,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You rapidly spin your axe around for up to 3 seconds, dealing 192 damage twice a second to all enemies within 25 feet.  This ability will end if you lose your concentration or run out of action points.",
+      "description": "You rapidly spin your axe around for up to 3 seconds, dealing 337 damage twice a second to all enemies within 25 feet.  This ability will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
     {

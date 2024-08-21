@@ -164,9 +164,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -931,7 +931,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A baneful aura surrounds you for 10 seconds, lashing out for 150 Spirit damage at any enemies who hit you.",
+      "description": "A baneful aura surrounds you for 10 seconds, lashing out for 150 Spirit damage at any enemies who hit you. Targets can only be damaged once every two seconds.",
       "category": "Ability"
     },
     {
@@ -1096,7 +1096,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 348 Spirit damage.",
+      "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 348 Spirit damage. Targets can only be damaged once every two seconds.",
       "category": "Ability"
     },
     {

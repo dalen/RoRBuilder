@@ -28,6 +28,7 @@
     1622,
     1643,
     589,
+    1606,
     1624,
     1644,
     1625,
@@ -58,8 +59,7 @@
         1587,
         1591,
         1594,
-        1596,
-        1606
+        1596
       ]
     },
     "b": {
@@ -90,9 +90,9 @@
         "primary": "A mastery path focused on wide-area effects"
       },
       "optionalAbilities": {
-        "lvl1": 1640,
+        "lvl1": 1638,
         "lvl2": 1618,
-        "lvl3": 1638,
+        "lvl3": 1640,
         "lvl4": 1617,
         "lvl5": 1639,
         "lvl6": 1619,
@@ -163,9 +163,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -420,7 +420,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rune of Cleansing will now heal the defensive target for 387 over 9 seconds if an effect was successfully removed.",
+      "description": "Rune of Cleansing will now heal the defensive target for 537 over 9 seconds if an effect was successfully removed.",
       "category": "CareerTactic"
     },
     {
@@ -529,6 +529,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 1606,
+      "image": "https://armory.returnofreckoning.com/icon/4636",
+      "name": "Protection of the Ancestors",
+      "type": "Blessing",
+      "spec": "Core Ability",
+      "minrank": "30",
+      "cost": "35 Action Points",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "3m cooldown",
+      "note": "",
+      "description": "Increases the target group member's Wounds by 160 for 60 seconds, healing them for the value of the additional HP gained.",
+      "category": "Ability"
+    },
+    {
       "id": 1624,
       "image": "https://armory.returnofreckoning.com/icon/22704",
       "name": "Blessing of Grungni",
@@ -570,7 +585,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rune of Striking and Rune of Immolation are now undefendable.",
+      "description": "Reduce the cooldown of your Oath Runes granted abilities by 30 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -585,7 +600,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rune of Life, Rune of Sanctuary and Grimnir's Fury will heal the target for 114 health over 5 seconds and will restore 70 Action Points when the target is resurrected.",
+      "description": "Rune of Life and Rune of Sanctuary will resurrect players with 50% of their maximum health.",
       "category": "CareerTactic"
     },
     {
@@ -615,7 +630,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rune of Sundering's cooldown is reduced to 20 seconds, and it will now apply a 30% movement reduction for 10 seconds to all those hit.",
+      "description": "Rune of Sundering's cooldown is reduced to 20 seconds, and it will now apply a 30% movement reduction for 5 seconds to all those hit.",
       "category": "CareerTactic"
     },
     {
@@ -630,7 +645,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rune of Mending and Rune of Serenity can no longer be set back when casting.",
+      "description": "Rune of Mending, Rune of Restoration and Rune of Serenity can no longer be set back when casting.",
       "category": "CareerTactic"
     },
     {
@@ -675,7 +690,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your rune calls down a bolt of electricity, dealing 389 Elemental damage to your target.",
+      "description": "Your rune calls down a bolt of electricity, dealing 489 Elemental damage to your target.",
       "category": "Ability"
     },
     {
@@ -685,7 +700,7 @@
       "type": "Healing",
       "spec": "Path of Grungni",
       "minrank": "1",
-      "cost": "15 Action Points",
+      "cost": "25 Action Points",
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
@@ -705,7 +720,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by 80 for 1 hour. The rune holder may activate to inflict 330 Elemental damage to a target.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by 80 for 1 hour. The rune holder may activate to on their next attack deal an additional 620 Elemental damage over 5 seconds and reduce the victim’s run speed by 20%.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -736,21 +751,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your rune infuses the target with vitality, restoring 1258 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
-      "category": "Ability"
-    },
-    {
-      "id": 1606,
-      "image": "https://armory.returnofreckoning.com/icon/4636",
-      "name": "Protection of the Ancestors",
-      "type": "Blessing",
-      "spec": "Path of Grungni",
-      "minrank": "30",
-      "cost": "35 Action Points",
-      "range": "100ft range",
-      "incant": "Instant cast",
-      "cooldown": "3m cooldown",
-      "note": "",
-      "description": "Increases the target group member's Wounds by 160 for 60 seconds, healing them for the value of the additional HP gained.",
       "category": "Ability"
     },
     {
@@ -825,7 +825,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Critical direct damage hits place a debuff on your target that reduces all incoming healing by 30% for 5 seconds.",
+      "description": "Critical direct damage hits place a debuff on your target that reduces all incoming healing by 35% for 7 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -840,7 +840,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Wounds your target for 360 Elemental damage and Staggers the target for 6 seconds, preventing all actions unless they're damaged.",
+      "description": "Wounds your target for 405 Elemental damage and Staggers the target for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
     {
@@ -870,7 +870,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You set your target ablaze, burning them for 860 Elemental damage over 15 seconds.",
+      "description": "You set your target ablaze, burning them for 1015 Elemental damage over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -915,7 +915,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the targeted group member's Initiative and Willpower by 80 for 1 hour. The rune holder may activate it to inflict 712 Elemental damage over 9 seconds.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the targeted group member's Initiative and Willpower by 80 for 1 hour. The rune holder may activate it to cleanse one Curse, one Hex and one Ailment from themselves.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -1018,9 +1018,9 @@
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
-      "description": "Deals 1659 Elemental damage over 24 seconds and heals your defensive target for 150% of the damage dealt.",
+      "description": "Deals 1896 Elemental damage over 24 seconds and heals your defensive target for 150% of the damage dealt.",
       "category": "Ability"
     },
     {
@@ -1045,12 +1045,12 @@
       "type": "Damaging",
       "spec": "Path of Grimnir",
       "minrank": "7",
-      "cost": "40 Action Points",
+      "cost": "35 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "No cooldown",
       "note": "",
-      "description": "Your rune transmits a surge of power through the ground, dealing 270 Elemental damage to all targets within 25 feet of you.",
+      "description": "Your rune transmits a surge of power through the ground, dealing 232 Elemental damage to all targets within 25 feet of you.",
       "category": "Ability"
     },
     {
@@ -1065,7 +1065,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all of the targeted group member's resistances by 252 for 1 hour. The rune holder may activate it to inflict 488 Elemental damage over 9 seconds to all targets within 25 feet.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases all of the targeted group member's resistances by 252 for 1 hour. The rune holder may activate it to shield themself, absorbing 1162 damage over 10 seconds.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -1108,15 +1108,15 @@
       "cost": "30 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
-      "description": "A burst of force erupts from your rune, dealing 732 Elemental damage over 9 seconds to targets 40 feet in front of you.",
+      "description": "A burst of force erupts from your rune, dealing 660 Elemental damage over 9 seconds to targets 40 feet in front of you.",
       "category": "Ability"
     },
     {
-      "id": 1640,
-      "image": "https://armory.returnofreckoning.com/icon/22694",
-      "name": "Extended Battle",
+      "id": 1638,
+      "image": "https://armory.returnofreckoning.com/icon/22709",
+      "name": "Concussive Runes",
       "type": "Buff",
       "spec": "Path of Grimnir",
       "minrank": "17",
@@ -1125,7 +1125,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the area of effect of Rune of Cleaving and Rune of Battle by 50%.",
+      "description": "Rune of Cleaving grows ever more potent and now also reduces Armor by 990 and Elemental resistance by 378.",
       "category": "CareerTactic"
     },
     {
@@ -1144,9 +1144,9 @@
       "category": "Ability"
     },
     {
-      "id": 1638,
-      "image": "https://armory.returnofreckoning.com/icon/22709",
-      "name": "Concussive Runes",
+      "id": 1640,
+      "image": "https://armory.returnofreckoning.com/icon/22694",
+      "name": "Extended Battle",
       "type": "Buff",
       "spec": "Path of Grimnir",
       "minrank": "23",
@@ -1155,7 +1155,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rune of Cleaving grows ever more potent and now also reduces Armor by 990.",
+      "description": "Increases the duration of Rune of Cleaving and Rune of Battle by 6 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1192,15 +1192,15 @@
       "id": 1619,
       "image": "https://armory.returnofreckoning.com/icon/4557",
       "name": "Grimnir's Fury",
-      "type": "Blessing",
+      "type": "Damaging",
       "spec": "Path of Grimnir",
       "minrank": "29",
-      "cost": "35 Action Points",
+      "cost": "40 Action Points",
       "range": "Self",
-      "incant": "5.0s cast",
-      "cooldown": "3m cooldown",
+      "incant": "1.0s cast",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "Resurrects all fallen groupmembers within 30 feet, and does not cause Resurrection Sickness.  Anyone resurrected by this effect will regain 50% of their hit points.",
+      "description": "Using the fury of Grimnir you strike all enemies within 25 feet for 238 Elemental damage followed by another 238 Elemental damage after 3 seconds on the same location.\t",
       "category": "Ability"
     },
     {

@@ -162,9 +162,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -764,7 +764,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "You slam into your target without remorse, dealing up to 1248 damage over 3 seconds.  This effect will end if you break your concentration or run out of action points.",
+      "description": "You slam into your target without remorse, dealing 208 damage every half second for 3 seconds.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
     {
@@ -1079,7 +1079,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Battle Commands at a time",
-      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 132 health over 3 seconds any time they defend themselves against an attack.",
+      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 180 health over 3 seconds any time they defend themselves against an attack.",
       "category": "Ability"
     },
     {
@@ -1094,7 +1094,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing 150 Elemental damage back to anyone that attacks you.",
+      "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing 150 Elemental damage back to anyone that attacks you. Targets can only be damaged once every two seconds.",
       "category": "Ability"
     },
     {

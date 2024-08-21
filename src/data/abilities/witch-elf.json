@@ -165,9 +165,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -399,7 +399,7 @@
       "id": 9414,
       "image": "https://armory.returnofreckoning.com/icon/10988",
       "name": "Shadow Leap",
-      "type": "Ailment",
+      "type": "Defensive",
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "No AP Cost",
@@ -482,7 +482,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
+      "description": "For the next 10 seconds, your attacks will cleave through up to 2 additional enemies within 25 feet in front of you, dealing unmitigable damage of 300 per strike.",
       "category": "Morale"
     },
     {
@@ -872,7 +872,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target an all enemies around them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Blood Lust:  129 damage per hit, 25 feet radius.<BR>   2 Blood Lust:  167 damage per hit, 30 feet radius.<BR>   3 Blood Lust:  206 damage per hit, 35 feet radius.<BR>   4 Blood Lust:  242 damage per hit, 40 feet radius.<BR>   5 Blood Lust:  280 damage per hit, 45 feet radius.",
+      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target and all enemies around them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Blood Lust:  129 damage per hit, 25 feet radius.<BR>   2 Blood Lust:  167 damage per hit, 30 feet radius.<BR>   3 Blood Lust:  206 damage per hit, 35 feet radius.<BR>   4 Blood Lust:  242 damage per hit, 40 feet radius.<BR>   5 Blood Lust:  280 damage per hit, 45 feet radius.",
       "category": "Ability"
     },
     {
@@ -991,7 +991,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
-      "note": "",
+      "note": "Grants Prowling",
       "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds seconds and increase your speed by 50% for 7 seconds.<BR>You may only use a single Elixir at a time.",
       "category": "Ability"
     },

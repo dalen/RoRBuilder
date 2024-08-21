@@ -160,9 +160,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -432,7 +432,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
+      "description": "For the next 10 seconds, your attacks will cleave through up to 2 additional enemies within 25 feet in front of you, dealing unmitigable damage of 300 per strike.",
       "category": "Morale"
     },
     {
@@ -717,7 +717,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Exhaustive Blows will no longer remove your Rage.",
+      "description": "Exhaustive Blows or Distracting Roar will no longer remove your Rage.",
       "category": "CareerTactic"
     },
     {
@@ -1062,7 +1062,7 @@
       "incant": "5.0s cast",
       "cooldown": "30s cooldown",
       "note": "Requires Dual Wield",
-      "description": "For the next 5 seconds you strike out at all enemies 25 feet in front of you, inflicting 231 damage every second. During this time, each time you are hit with an attack you will do 269 damage back to the attacker. This effect can only be triggered once every second.",
+      "description": "For the next 5 seconds you strike out at all enemies 25 feet in front of you, inflicting 231 damage every second.",
       "category": "Ability"
     },
     {
@@ -1107,7 +1107,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flurry will now hit up to 24 targets within 30 feet in front of you, but the base damage is reduced by 20%.",
+      "description": "Flurry will now hit up to 24 targets within 30 feet in front of you, but the base damage is reduced by 20%. Retribution additionally deals 269 damage back to the attacker each time you are hit with an attack, this effect can only be triggered once every second. The cooldown of Inevitable Doom is reduced by 10 seconds. Auto attack damage reduced by 20%.",
       "category": "CareerTactic"
     },
     {
@@ -1150,7 +1150,7 @@
       "cost": "45 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "15s cooldown",
       "note": "Requires Dual Wield",
       "description": "You deal 145 damage to your target and force them to share your doomed fate, inflicting a dark rune on them.  The rune will explode every 2 seconds and will keep exploding for anywhere between  4 seconds to 8 seconds, dealing 6023 damage to all enemies within 10 feet of them.",
       "category": "Ability"

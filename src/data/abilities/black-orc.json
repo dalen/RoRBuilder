@@ -69,7 +69,7 @@
         "primary": "A mastery path focused on survivability which means mor' killin' later"
       },
       "optionalAbilities": {
-        "lvl1": 1714,
+        "lvl1": 1717,
         "lvl2": 1692,
         "lvl3": 1715,
         "lvl4": 1691,
@@ -93,7 +93,7 @@
         "primary": "A mastery path focused on buffs and group support, cause everyone has some killin' ta do"
       },
       "optionalAbilities": {
-        "lvl1": 1717,
+        "lvl1": 1714,
         "lvl2": 1694,
         "lvl3": 1718,
         "lvl4": 1688,
@@ -166,9 +166,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -212,7 +212,7 @@
       "range": "250ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "",
+      "note": "Not Affected by Cooldown Reduction",
       "description": "You suddenly realize that you could smash things better with a different plan.<BR><BR>   No Plan:  You gain Da Good Plan.<BR>   Da Good Plan:  You gain Da Best Plan.<BR>   Da Best Plan:  You gain Da Good Plan.",
       "category": "Ability"
     },
@@ -857,8 +857,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!<br>Requires Great Weapon",
-      "description": "You hit your target for 277 damage and increase your auto attack speed by 50% for 10 seconds. If you are behind the target, you will almost always deal critical damage.",
+      "note": "Requires Great Weapon<br>Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "You hit your target for 277 damage and increase your auto attack speed by 50% for 20 seconds. If you are behind the target, you will almost always deal critical damage.",
       "category": "Ability"
     },
     {
@@ -943,7 +943,7 @@
       "type": "Damaging",
       "spec": "Path of Da’ Toughest",
       "minrank": "18",
-      "cost": "40 Action Points",
+      "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
@@ -973,7 +973,7 @@
       "type": "Damaging",
       "spec": "Path of Da’ Toughest",
       "minrank": "23",
-      "cost": "35 Action Points",
+      "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
@@ -982,9 +982,9 @@
       "category": "Ability"
     },
     {
-      "id": 1714,
-      "image": "https://armory.returnofreckoning.com/icon/22702",
-      "name": "Less Stabbin' Me",
+      "id": 1717,
+      "image": "https://armory.returnofreckoning.com/icon/22706",
+      "name": "You Got Nuffin'",
       "type": "Buff",
       "spec": "Path of Da’ Toughest",
       "minrank": "17",
@@ -993,7 +993,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Parry by 10% when you have No Plan, 15% when you have a Gud' Plan, and 20% while you have Da' Best Plan.",
+      "description": "When War Bellows trigger they will now restore 405 health over 10 seconds to your group members within 100 feet of you.",
       "category": "CareerTactic"
     },
     {
@@ -1162,9 +1162,9 @@
       "category": "Ability"
     },
     {
-      "id": 1717,
-      "image": "https://armory.returnofreckoning.com/icon/22706",
-      "name": "You Got Nuffin'",
+      "id": 1714,
+      "image": "https://armory.returnofreckoning.com/icon/22702",
+      "name": "Less Stabbin' Me",
       "type": "Buff",
       "spec": "Path of Da’ Boss",
       "minrank": "17",
@@ -1173,7 +1173,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When War Bellows trigger they will now restore 405 health over 10 seconds to your group members within 100 feet of you.",
+      "description": "Increases Parry by 10% when you have No Plan, 15% when you have a Gud' Plan, and 20% while you have Da' Best Plan.",
       "category": "CareerTactic"
     },
     {
@@ -1183,7 +1183,7 @@
       "type": "Blessing",
       "spec": "Path of Da’ Boss",
       "minrank": "21",
-      "cost": "35 Action Points",
+      "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
@@ -1213,7 +1213,7 @@
       "type": "Damaging",
       "spec": "Path of Da’ Boss",
       "minrank": "25",
-      "cost": "No AP Cost",
+      "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",

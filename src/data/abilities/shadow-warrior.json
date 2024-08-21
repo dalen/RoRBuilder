@@ -180,9 +180,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -197,7 +197,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Assault Stance",
-      "description": "A close-combat stance which increases your Strength and Weapon Skill by 120, and increases your Armor by the same amount that you receive from items.<BR><BR>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Auto Attack speed is increased by 35%.<BR><BR>You may only use a single Stance at a time.",
+      "description": "A close-combat stance which increases your Strength and Weapon Skill by 120, and increases your Armor by the same amount that you receive from items.<BR><BR>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 86%, Auto Attack speed is increased by 0%.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability"
     },
     {

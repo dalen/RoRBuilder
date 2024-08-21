@@ -160,9 +160,9 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<BR><BR>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds.  You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.",
       "category": "Ability"
     },
     {
@@ -432,7 +432,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
+      "description": "For the next 10 seconds, your attacks will cleave through up to 2 additional enemies within 25 feet in front of you, dealing unmitigable damage of 300 per strike.",
       "category": "Morale"
     },
     {
@@ -717,7 +717,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Exhaustive Blows will no longer remove your Rage.",
+      "description": "Exhaustive Blows or Outta My Face will no longer remove your Rage.",
       "category": "CareerTactic"
     },
     {
@@ -1017,7 +1017,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You strike enemies within 30 feet, dealing anywhere from 105 damage to 255 damage. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You strike enemies within 25 feet, dealing anywhere from 165 damage to 195 damage. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
     {
@@ -1062,7 +1062,7 @@
       "incant": "5.0s cast",
       "cooldown": "30s cooldown",
       "note": "Requires Dual Wield",
-      "description": "For the next 5 seconds you strike out at all enemies 25 feet in front of you, inflicting 231 damage every second. During this time, each time you are hit with an attack you will do 269 damage back to the attacker. This effect can only be triggered once every second.",
+      "description": "For the next 5 seconds you strike out at all enemies 25 feet in front of you, inflicting 231 damage every second.",
       "category": "Ability"
     },
     {
@@ -1107,7 +1107,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Lotsa Choppin' will affect 24 targets within 30 feet and reduces the base damage by 20%.",
+      "description": "Lotsa Choppin' will affect 24 targets within 30 feet and reduces the base damage by 20%. Bring It On additionally deals 269 damage back to the attacker each time you are hit with an attack, this effect can only be triggered once every second The cooldown of Furious Stompin' is reduced by 10 seconds. Auto attack damage reduced by 20%.",
       "category": "CareerTactic"
     },
     {
@@ -1120,9 +1120,9 @@
       "cost": "45 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
-      "description": "For the following 0 seconds, you stomp the ground every 0 seconds dealing {COM_2_VAL0_DAMAGE: Component Num 2 not found} to all targets within {COM_2_RADI_FEET: Component Num 2 not found}.",
+      "description": "You stomp the ground below, dealing 194 damage to all targets within 25 feet. For the following 6 seconds, you continue stomping the ground every 2 seconds dealing 130 damage to all targets within 25 feet.",
       "category": "Ability"
     },
     {
