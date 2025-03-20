@@ -264,7 +264,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds. You will also deal 75% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end.",
+      "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 80% damage to you for 5 seconds. You will also deal 80% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end.",
       "category": "CareerTactic"
     },
     {
@@ -399,7 +399,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires an active pet",
-      "description": "You eat your squig, increasing your wounds by 160 for 10 seconds and healing you for the amount increased. For the next 10 seconds, the next different squig other than the one that was just eaten will be summoned instantly.",
+      "description": "You eat your squig, increasing your wounds by 160 for 10 seconds and healing you for the amount increased. For the next 0 seconds, the next different squig other than the one that was just eaten will be summoned instantly.",
       "category": "Ability"
     },
     {
@@ -414,7 +414,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and you cannot be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale"
     },
     {
@@ -879,7 +879,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Summons a massive battle squig which will promptly eat you. From within the battle squig, you can poke and prod it to move it around and make it attack.<BR>While in your Squig Armor your Strength, Toughness and Wounds are increased by 120. Your armor is increased by half the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance. This ability will continue to build up even if you move.",
+      "description": "Summons a massive battle squig which will promptly eat you. While in your Squig Armor your Strength, Toughness and Wounds are increased by 120. Your armor is increased by half the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -984,7 +984,7 @@
       "incant": "Passive",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "Your squig slams it's head into it's target, dealing 156 damage and reduces their armor by 990 for 20 seconds. While frenzied, this ability will hit an additional time.",
+      "description": "Your squig slams its head into its target, dealing 156 damage and reducing their armor by 990 for 20 seconds. While frenzied, this ability will hit an additional time.",
       "category": "Ability"
     },
     {
@@ -1043,8 +1043,8 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
-      "note": "Requires Squig Armor",
-      "description": "Your Battle Squig explodes, causing you to be launched upward out of your Squiggy armor. All enemies within 10 feet take 441 damage and are knocked back.",
+      "note": "Requires Squig Armor<br>You cannot perform this action while airborne",
+      "description": "Your Battle Squig explodes, causing you to be launched upward out of your Squig Armor. All enemies within 10 feet take 441 damage and are knocked back.",
       "category": "Ability"
     },
     {
@@ -1130,7 +1130,7 @@
       "spec": "Path of Bouncin'",
       "minrank": "29",
       "cost": "15 Action Points / Sec",
-      "range": "4.583333333333333ft range",
+      "range": "5ft range",
       "incant": "5.0s cast",
       "cooldown": "25s cooldown",
       "note": "Requires Squig Armor",
@@ -1209,7 +1209,7 @@
       "incant": "Passive",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Your Squig injects a deadly poison in to it's target, dealing 300 damage over 5 seconds and reducing their chance to critically hit by  10% for 5 seconds. While frenzied, deadly spikes growing from your squig deal 132 damage to its attacker whenever it is attacked.",
+      "description": "Your Squig injects a deadly poison into its target, dealing 300 damage over 5 seconds and reducing their chance to critically hit by  10% for 5 seconds. While frenzied, deadly spikes growing from your squig deal 132 damage to its attacker whenever it is attacked.",
       "category": "Ability"
     },
     {
@@ -1224,7 +1224,7 @@
       "incant": "Passive",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "Your Squig flings deadly spines at it's target, dealing 178 damage every second for 3 seconds. While frenzied, the tick interval are shortened by 50%.",
+      "description": "Your Squig flings deadly spines at its target, dealing 178 damage every second for 3 seconds. While frenzied, the tick interval and duration is shortened by 50%.",
       "category": "Ability"
     },
     {
@@ -1343,7 +1343,7 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "45s cooldown",
-      "note": "Requires an active pet<br>Not usable while inside your Squig Armor",
+      "note": "Requires an active pet<br>Not usable while inside your Squig Armor<br>This effect will not stack with other abilities or tactics that increase movement speed.",
       "description": "You command your Squig to Taunt all enemies within 30 feet and increases your movement speed by 30 % for 10 seconds. If you use any abilities, this effect will immediately end.",
       "category": "Ability"
     },

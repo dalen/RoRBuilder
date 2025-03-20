@@ -779,7 +779,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You rapidly spin your axe around for up to 3 seconds, dealing 337 damage twice a second to all enemies within 25 feet.  This ability will end if you lose your concentration or run out of action points.",
+      "description": "You rapidly spin your axe around for up to 3 seconds, dealing 337 damage every second to all enemies within 25 feet.  This ability will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
     {
@@ -1139,7 +1139,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Requires an active pet",
-      "description": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds.  During this time, your pet will deal an additional 209 damage every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds and cannot crit.",
+      "description": "At your command, your War Lion goes berserk with a killing frenzy!  All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds.  During this time, your pet will deal an additional 31 damage every time it strikes an enemy.<BR>Damage can only trigger once every 0.5 seconds and cannot crit.",
       "category": "Ability"
     },
     {

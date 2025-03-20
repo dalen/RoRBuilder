@@ -13,21 +13,24 @@
     9556,
     692,
     585,
+    32117,
     9588,
     592,
     690,
     839,
     9570,
+    32125,
     695,
     9584,
     840,
     696,
     9569,
-    588,
+    32070,
+    32118,
     9585,
     9605,
     589,
-    9591,
+    32114,
     9607,
     9590,
     9601,
@@ -45,7 +48,7 @@
       },
       "optionalAbilities": {
         "lvl1": 9595,
-        "lvl2": 9574,
+        "lvl2": 32120,
         "lvl3": 9597,
         "lvl4": 9573,
         "lvl5": 9596,
@@ -54,10 +57,10 @@
       },
       "coreAbilities": [
         9548,
-        9568,
         9553,
         9563,
-        9557
+        9557,
+        9574
       ]
     },
     "b": {
@@ -69,17 +72,19 @@
         "lvl1": 9586,
         "lvl2": 9580,
         "lvl3": 9598,
-        "lvl4": 9582,
+        "lvl4": 9576,
         "lvl5": 9602,
-        "lvl6": 9576,
+        "lvl6": 32122,
         "lvl7": 9617
       },
       "coreAbilities": [
         9552,
+        9568,
         9551,
         9549,
         9566,
         9559,
+        9582,
         9575
       ]
     },
@@ -92,9 +97,9 @@
         "lvl1": 9599,
         "lvl2": 9581,
         "lvl3": 9603,
-        "lvl4": 9578,
+        "lvl4": 32183,
         "lvl5": 9600,
-        "lvl6": 9583,
+        "lvl6": 32163,
         "lvl7": 9618
       },
       "coreAbilities": [
@@ -103,8 +108,8 @@
         9567,
         9554,
         9577,
+        32160,
         9562,
-        9571,
         9565
       ]
     }
@@ -196,7 +201,7 @@
       "range": "100ft range",
       "incant": "3.0s cast",
       "cooldown": "6s cooldown",
-      "note": "Requires 20 Soul Essence",
+      "note": "Requires 20 Soul Essence<br>Only usable on Dead Players",
       "description": "Life is restored to a dead ally, and 20% of their health is recovered in the hopes they will prove less worthless to you in the future.",
       "category": "Ability"
     },
@@ -212,7 +217,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires 30 Soul Essence",
-      "description": "Your target is gradually infused with 1700 health over 15 seconds.",
+      "description": "Your target is gradually infused with 1520 health over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -227,7 +232,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only 50% damage against you for 15 seconds.  You will also deal 50% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.<BR><BR>If wearing a shield or dual wielding this will also affect all enemies within 25 feet of you for 5 seconds.",
+      "description": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only 50% damage against you for 15 seconds.  You will also deal 50% damage to them until the effect is broken. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability"
     },
     {
@@ -302,8 +307,23 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
+      "description": "You deal 25% more damage, but your healing output is reduced by 20%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
+    },
+    {
+      "id": 32117,
+      "image": "https://armory.returnofreckoning.com/icon/11051",
+      "name": "Terrifying Aura",
+      "type": "Debuff",
+      "spec": "Core Ability",
+      "minrank": "14",
+      "cost": "50 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "15s cooldown",
+      "note": "",
+      "description": "All enemies within 30 feet hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters. You will also deal 50% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
+      "category": "Ability"
     },
     {
       "id": 9588,
@@ -347,7 +367,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
+      "description": "Your target suffers 1200 damage over 9 seconds, and you are healed for half of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -375,10 +395,25 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "60s cooldown",
-      "note": "Requires 45 Soul Essence<br>Requires Dual Wield",
-      "description": "You free yourself from all roots and snares.  For the next 10 seconds, roots and snares will have no effect on you.",
+      "cooldown": "40s cooldown",
+      "note": "Requires 45 Soul Essence<br>Requires Dual Wield or Shield",
+      "description": "You free yourself from all roots and snares. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability"
+    },
+    {
+      "id": 32125,
+      "image": "https://armory.returnofreckoning.com/icon/22696",
+      "name": "Essence Shatter",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Removes the cooldown of Essence Lash. Essence Lash no longer gives Soul Essence per enemy hit, instead it builds 30 Soul Essence if it hits any target. Action Point cost of Essence Lash reduced by 10. Range reduced by 10 feet.",
+      "category": "CareerTactic"
     },
     {
       "id": 695,
@@ -407,7 +442,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you hit an enemy with a Path of Torture ability, there is a 33% chance that they will suffer an additional 453 Spirit damage over 9 seconds.",
+      "description": "Any time you hit an enemy with a direct damaging ability, there is a 33% chance that they will suffer an additional 370 damage over 5 seconds. Whenever this tactic is triggered, your chance to critically hit with attacks is increased by 5% for 10 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -456,9 +491,9 @@
       "category": "Ability"
     },
     {
-      "id": 588,
+      "id": 32070,
       "image": "https://armory.returnofreckoning.com/icon/22709",
-      "name": "Subtlety",
+      "name": "Sacrificial Renewal",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "25",
@@ -467,7 +502,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Enemy monsters will hate you 25% less than normal.",
+      "description": "Whenever you critically heal an ally, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
+      "category": "CareerTactic"
+    },
+    {
+      "id": 32118,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Transfusion",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "26",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Increases the healing of Soul Infusion by 25%.",
       "category": "CareerTactic"
     },
     {
@@ -482,7 +532,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you directly heal an ally, there is a 25% chance that you will also be healed for 25% of the same amount.",
+      "description": "Increase your Critical Healing by 25%. The Soul Essence cost of Restore Essence is reduced by 10.",
       "category": "CareerTactic"
     },
     {
@@ -516,9 +566,9 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9591,
-      "image": "https://armory.returnofreckoning.com/icon/22706",
-      "name": "Terrifying Aura",
+      "id": 32114,
+      "image": "https://armory.returnofreckoning.com/icon/22708",
+      "name": "Khaine's Vivification",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "31",
@@ -527,7 +577,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Terrifying Vision will now also affect all enemies within 25 feet for 5 seconds.",
+      "description": "Covenant give group members within 100 ft of you a 20% chance on hit to increase the power of heals used on them by 25% for 5 seconds.<BR>Does not stack with Blessing of Chaos.",
       "category": "CareerTactic"
     },
     {
@@ -572,7 +622,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Lacerate, Sanguinary Extension, and Fell Sacrifice's durations by an additional 6 seconds.",
+      "description": "Increases Lacerate and Fell Sacrifice's durations by an additional 6 seconds. Increases the damage of Sanguinary Extension by 25%.",
       "category": "CareerTactic"
     },
     {
@@ -602,7 +652,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 40 Soul Essence.  Tactic can not trigger more than once every 3 seconds.",
+      "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 Soul Essence.  Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -617,7 +667,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy, your defensive target will receive 20% more incoming healing for 10 seconds.",
+      "description": "Consume Essence and Transfer Essence are now undefendable.",
       "category": "CareerTactic"
     },
     {
@@ -639,7 +689,7 @@
       "id": 697,
       "image": "https://armory.returnofreckoning.com/icon/23150",
       "name": "Alter Fate",
-      "type": "Buff",
+      "type": "Healing",
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
@@ -647,14 +697,14 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Restores 1800 health to all group members within 100 feet and increases your outgoing healing by 35% for 10 seconds.",
       "category": "Morale"
     },
     {
       "id": 9548,
       "image": "https://armory.returnofreckoning.com/icon/10935",
       "name": "Restore Essence",
-      "type": "Healing",
+      "type": "Blessing",
       "spec": "Path of Dark Rites",
       "minrank": "1",
       "cost": "No AP Cost",
@@ -662,22 +712,7 @@
       "incant": "0.5s cast",
       "cooldown": "No cooldown",
       "note": "Requires 45 Soul Essence",
-      "description": "Dark forces restore 370 health to an ally immediately, and another 445 over 5 seconds.",
-      "category": "Ability"
-    },
-    {
-      "id": 9568,
-      "image": "https://armory.returnofreckoning.com/icon/10934",
-      "name": "Fist of Khaine",
-      "type": "Damaging",
-      "spec": "Path of Dark Rites",
-      "minrank": "1",
-      "cost": "15 Action Points",
-      "range": "65ft range",
-      "incant": "1.0s cast",
-      "cooldown": "No cooldown",
-      "note": "Requires 15 Soul Essence",
-      "description": "You call forth the wrath of Khaine, dealing 127 Spirit damage to your target.",
+      "description": "Dark forces restore 309 health to an ally immediately, and another 370 over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -691,8 +726,8 @@
       "range": "150ft range",
       "incant": "0.5s cast",
       "cooldown": "5s cooldown",
-      "note": "",
-      "description": "A quick heal that restores 581 health.<BR>Not affected by cooldown modification abilities.",
+      "note": "Requires Chalice",
+      "description": "A quick heal that restores 781 health.<BR>Not affected by cooldown modification abilities.",
       "category": "Ability"
     },
     {
@@ -707,7 +742,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Only one Covenant may be active at a time",
-      "description": "A pact with Khaine that increases the armor of all groupmates within 100 feet of you by 660.",
+      "description": "You make a pact with Khaine. Any time a groupmate within 100 feet hits an enemy, they have a 20% chance to regain 250 health over 5 seconds while reducing the amount of their armor being bypassed by 5%.",
       "category": "Ability"
     },
     {
@@ -726,6 +761,21 @@
       "category": "Ability"
     },
     {
+      "id": 9574,
+      "image": "https://armory.returnofreckoning.com/icon/10957",
+      "name": "Soul Shielding",
+      "type": "Blessing",
+      "spec": "Path of Dark Rites",
+      "minrank": "19",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "40s cooldown",
+      "note": "Requires 40 Soul Essence",
+      "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to 1162 damage for each person.",
+      "category": "Ability"
+    },
+    {
       "id": 9595,
       "image": "https://armory.returnofreckoning.com/icon/22702",
       "name": "Khaine's Bounty",
@@ -737,22 +787,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to 712 damage.",
+      "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to 712 damage. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
     {
-      "id": 9574,
-      "image": "https://armory.returnofreckoning.com/icon/10957",
-      "name": "Soul Shielding",
-      "type": "Blessing",
+      "id": 32120,
+      "image": "https://armory.returnofreckoning.com/icon/11050",
+      "name": "Soul Energy",
+      "type": "Buff",
       "spec": "Path of Dark Rites",
       "minrank": "21",
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
-      "note": "Requires 40 Soul Essence",
-      "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to 1162 damage for each person.",
+      "note": "Requires 60 Soul Essence",
+      "description": "Over the next 10 seconds, your direct heals will heal their target for an additional 225 health. This effect will not trigger more than once every 1.5 seconds.",
       "category": "Ability"
     },
     {
@@ -841,8 +891,23 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Builds 30 Soul Essence",
-      "description": "A potent attack which deals 202 damage to your enemy. If behind your target, ignores 15% of the victim's armor.",
+      "note": "Builds 35 Soul Essence",
+      "description": "A potent attack which deals 164 damage to your enemy. If you are behind your target or when Drowning in Blood, you deal an additional 138 damage.",
+      "category": "Ability"
+    },
+    {
+      "id": 9568,
+      "image": "https://armory.returnofreckoning.com/icon/10934",
+      "name": "Fist of Khaine",
+      "type": "Damaging",
+      "spec": "Path of Torture",
+      "minrank": "1",
+      "cost": "20 Action Points",
+      "range": "65ft range",
+      "incant": "1.0s cast",
+      "cooldown": "No cooldown",
+      "note": "Builds 15 Soul Essence",
+      "description": "You call forth the wrath of Khaine, dealing 127 Spirit damage to your target.",
       "category": "Ability"
     },
     {
@@ -856,7 +921,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Builds 20 Soul Essence",
+      "note": "Builds 30 Soul Essence",
       "description": "A gory strike that Curses your enemy, dealing 101 damage initially and another 150 damage over 10 seconds and reducing their Toughness by 120.",
       "category": "Ability"
     },
@@ -872,7 +937,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "You flay your target for 239 damage.  If target is Cursed, they are further Cursed as they become snared, reducing their run speed by 40% for 6 seconds.",
+      "description": "You flay your target for 239 damage and snaring them, reducing their run speed by 40% for 3 seconds. If they are Cursed, the snare duration is increased to 6 seconds.",
       "category": "Ability"
     },
     {
@@ -906,6 +971,21 @@
       "category": "Ability"
     },
     {
+      "id": 9582,
+      "image": "https://armory.returnofreckoning.com/icon/11045",
+      "name": "Drowning in Blood",
+      "type": "Buff",
+      "spec": "Path of Torture",
+      "minrank": "20",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "5s cooldown",
+      "note": "Requires 20 Soul Essence per second<br>Requires Dual Wield",
+      "description": "Increases your critical damage by 25% for 5 seconds or until you run out of Soul Essence. While Drowning in Blood you cannot gain Soul Essence.",
+      "category": "Ability"
+    },
+    {
       "id": 9575,
       "image": "https://armory.returnofreckoning.com/icon/10950",
       "name": "Fell Sacrifice",
@@ -916,8 +996,8 @@
       "range": "Self",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
-      "note": "Requires 35 Soul Essence<br>Requires Dual Wield",
-      "description": "Curses all targets within 25 feet of you for 555 Spirit damage over 9 seconds.",
+      "note": "Requires 25 Soul Essence<br>Requires Dual Wield",
+      "description": "Curses all targets within 25 feet of you for 444 over 9 seconds.",
       "category": "Ability"
     },
     {
@@ -932,7 +1012,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but reduces the effectiveness of your casted healing abilities by 20%.",
+      "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but your healing output is reduced by 20%.",
       "category": "CareerTactic"
     },
     {
@@ -942,12 +1022,12 @@
       "type": "Curse",
       "spec": "Path of Torture",
       "minrank": "21",
-      "cost": "30 Action Points",
+      "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A slice aimed at fresh wounds which deals 239 damage.  If the enemy was Cursed, then they are further Cursed and take an additional 250 damage over 15 seconds.",
+      "description": "You strike your enemy for 164 damage. If you strike your target from the rear, you reduce their movement speed by 60% for 3 seconds. If you are currently Drowning in Blood, you curse your enemy dealing 225 damage over 3 seconds.",
       "category": "Ability"
     },
     {
@@ -966,18 +1046,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9582,
-      "image": "https://armory.returnofreckoning.com/icon/11045",
-      "name": "Drowning in Blood",
-      "type": "Buff",
+      "id": 9576,
+      "image": "https://armory.returnofreckoning.com/icon/10959",
+      "name": "Wracking Agony",
+      "type": "Damaging",
       "spec": "Path of Torture",
-      "minrank": "25",
+      "minrank": "29",
       "cost": "No AP Cost",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "60s cooldown",
-      "note": "Requires 60 Soul Essence<br>Requires Dual Wield",
-      "description": "Blood lust drives you on, your attacks will ignore 25% the victim's armor and the cooldowns of Path of Torture abilities will be reduced by 5 seconds during the next 20 seconds.",
+      "cooldown": "10s cooldown",
+      "note": "Requires 40 Soul Essence<br>Target must be below 50% health<br>Requires Dual Wield",
+      "description": "Deals 502 damage and to a wounded foe. If you are Drowning in Blood, you will almost always deal critical damage. If this ability lands a killing blow on your enemy, you gain 50% increased movement speed for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -992,22 +1072,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Sanguinary Extension will also curse the target and make healing on them 50% less effective.",
+      "description": "Lacerate will also curse the target and make healing on them 50% less effective. Sanguinary Extension now deals an additional 201 damage when the damage over time effect ends.",
       "category": "CareerTactic"
     },
     {
-      "id": 9576,
-      "image": "https://armory.returnofreckoning.com/icon/10959",
-      "name": "Wracking Agony",
-      "type": "Damaging",
+      "id": 32122,
+      "image": "https://armory.returnofreckoning.com/icon/11047",
+      "name": "Serrated Blade",
+      "type": "Curse",
       "spec": "Path of Torture",
       "minrank": "29",
       "cost": "40 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Builds 40 Soul Essence<br>Target must be below 50% health<br>Requires Dual Wield",
-      "description": "Deals 502 damage and will almost always deal critical damage to a wounded foe.",
+      "note": "Builds 30 Soul Essence<br>Requires Dual Wield",
+      "description": "You drive your blade into your target, dealing 276 damage and reducing their armor by 1600 for 10 seconds.",
       "category": "Ability"
     },
     {
@@ -1022,7 +1102,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Victim is overcome with seemingly endless visions of their own grisly death. So real are the visions, that the victim suffers 2394 damage over 7 seconds and will not generate any morale for every second of agony.",
+      "description": "Victim is overcome with seemingly endless visions of their own grisly death. So real are the visions, that the victim suffers 2394 damage over 7 seconds and will lose 600 Morale for every second of agony.",
       "category": "Morale"
     },
     {
@@ -1032,12 +1112,12 @@
       "type": "Damaging",
       "spec": "Path of Sacrifice",
       "minrank": "2",
-      "cost": "No AP Cost",
+      "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Requires 35 Soul Essence",
-      "description": "A quick strike which deals 146 Spirit damage.  Khaine's approval of your actions causes your defensive target and all allies within 20 feet to become healed for 150% of the damage that you dealt.",
+      "note": "Builds 40 Soul Essence",
+      "description": "You strike your enemy dealing 202 damage to them. Using the force of Khaine, you heal your friendly target for 251 health plus 75% of the damage that you dealt.",
       "category": "Ability"
     },
     {
@@ -1052,7 +1132,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 25 Soul Essence",
-      "description": "A Crippling attack which deals 164 damage and reduces your enemy's Strength by 80 for 20 seconds.  Your defensive target's Strength is increased by 80.",
+      "description": "A Crippling attack which deals 164 damage and reduces your enemy's Strength by 80 for 20 seconds. Your defensive target's Strength is increased by 80.",
       "category": "Ability"
     },
     {
@@ -1067,7 +1147,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Only one Covenant may be active at a time",
-      "description": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional 187 Spirit damage to their victim, and heal themselves for an equal amount. This effect will not trigger more than once every 2 seconds.",
+      "description": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional 187 Spirit damage to their victim, and heal themselves for 150% of the damage dealt. This effect will not trigger more than once every 2 seconds.",
       "category": "Ability"
     },
     {
@@ -1101,33 +1181,33 @@
       "category": "Ability"
     },
     {
+      "id": 32160,
+      "image": "https://armory.returnofreckoning.com/icon/11049",
+      "name": "Khaine's Force",
+      "type": "Damaging",
+      "spec": "Path of Sacrifice",
+      "minrank": "17",
+      "cost": "No AP Cost",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Requires Shield<br>Requires 80 Soul Essence",
+      "description": "You slash your enemy dealing 239 damage to them. Through Khaine, you heal your group mates within 100 feet for 389 health plus 100% of the damage dealt.",
+      "category": "Ability"
+    },
+    {
       "id": 9562,
       "image": "https://armory.returnofreckoning.com/icon/10961",
       "name": "Transfer Essence",
       "type": "Damaging",
       "spec": "Path of Sacrifice",
       "minrank": "30",
-      "cost": "35 Action Points",
+      "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Requires Shield<br>Builds 35 Soul Essence",
-      "description": "An unholy attack which deals 202 damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for 202 points plus 80% of the damage that you dealt.",
-      "category": "Ability"
-    },
-    {
-      "id": 9571,
-      "image": "https://armory.returnofreckoning.com/icon/11033",
-      "name": "Blood of my Blood",
-      "type": "Defensive",
-      "spec": "Path of Sacrifice",
-      "minrank": "32",
-      "cost": "No AP Cost",
-      "range": "Self",
-      "incant": "10s cast",
-      "cooldown": "20s cooldown",
-      "note": "Requires Shield<br>Requires 25 Soul Essence per second",
-      "description": "To defeat your enemies you need to empower your team, you will suffer 450 damage every second, any groupmates within 100ft will have 787 health restored to them.<BR>This effect will end if you break your concentration, or run out of Soul Essence.",
+      "note": "Requires Shield or Chalice<br>Builds 30 Soul Essence",
+      "description": "An unholy attack which deals 164 damage to your target and spills out a portion of their soul, healing group mates within 100 feet for 148 health plus 75% of the damage that you dealt.",
       "category": "Ability"
     },
     {
@@ -1171,8 +1251,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Builds 45 Soul Essence",
-      "description": "A strike into your target's soul which deals 239 damage and causes them to lose 50 Action Points.  You will gain additional Soul Essence for most of the action points that the enemy lost.",
+      "note": "Builds 35 Soul Essence",
+      "description": "A strike into your target's soul which deals 239 damage and interrupting any ability that they are building up. If an ability was interrupted, it will cause them to lose 50 Action Points and you will gain 50 Soul Essence.",
       "category": "Ability"
     },
     {
@@ -1187,22 +1267,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will become surrounded by a protective barrier for up to 10 seconds which will absorb up to 375 damage.  Tactic can not trigger more than once every 3 seconds.",
+      "description": "Khaine’s Force now additionally heals all group members within 100 feet for 231 health over 3 seconds.",
       "category": "CareerTactic"
     },
     {
-      "id": 9578,
+      "id": 32183,
       "image": "https://armory.returnofreckoning.com/icon/10958",
       "name": "Devour Essence",
-      "type": "Damaging",
+      "type": "Curse",
       "spec": "Path of Sacrifice",
       "minrank": "25",
       "cost": "No AP Cost",
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Requires 25 Soul Essence per second",
-      "description": "You envelop yourself or an ally in a devouring aura for up to 5 seconds. Each second, your ally will deal 138 damage to up to 4 enemies within a 20 feet radius and receive a blessing that heals them for 60% of all the damage dealt. You will lose 25 Soul Essence per second, and this effect will end if you run out of Soul Essence to sustain it.",
+      "note": "Requires 75 Soul Essence",
+      "description": "You envelop yourself or an ally in a devouring aura, they will deal 414 damage over 5 seconds to up to 4 enemies within 20 feet and receive a blessing that heals them for 150% of all the damage dealt.",
       "category": "Ability"
     },
     {
@@ -1217,22 +1297,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The healing from lifetaps are increased by 25%.<BR><BR>When wearing a shield Consume Essence will hit up to two additional enemies within 25ft of your target.",
+      "description": "Increases the base heal of Transfer Essence, Consume Essence, Khaine’s Force and Khaine’s Encouragement by 50%. Increases the lifetap healing from Rend Soul by 30%",
       "category": "CareerTactic"
     },
     {
-      "id": 9583,
-      "image": "https://armory.returnofreckoning.com/icon/11043",
-      "name": "Soul Ward",
-      "type": "Defensive",
+      "id": 32163,
+      "image": "https://armory.returnofreckoning.com/icon/11048",
+      "name": "Khaine's Encouragement",
+      "type": "Damaging",
       "spec": "Path of Sacrifice",
       "minrank": "29",
-      "cost": "No AP Cost",
-      "range": "Self",
-      "incant": "10s cast",
-      "cooldown": "60s cooldown",
-      "note": "Requires Shield<br>Requires 25 Soul Essence per second",
-      "description": "You channel a Soul Ward making you immune from any roots or snare effects and increasing Parry, Dodge and Disrupt of you and your Group by 10%. Each second your group is surrounded by a protective barrier absorbing up to 255 ranged damage.<BR>This effect will end if you break your concentration, or run out of Soul Essence.",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Builds 20 Soul Essence",
+      "description": "You strike your enemy for 164 damage and heal your friendly target for 148 health. This attack buffs your next casted healing ability by 35% for 15 seconds.",
       "category": "Ability"
     },
     {
@@ -1247,7 +1327,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You call upon the Word of Pain, dealing 300 damage every second to all enemies in a 25 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Word of Pain.",
+      "description": "You call upon the Word of Pain, dealing 300 damage every second to all enemies in a 25 feet area around you for the next 4 seconds. Reveling in their agony, your group members within 100 feet are healed for all damage inflicted by the Word of Pain.",
       "category": "Morale"
     }
   ]

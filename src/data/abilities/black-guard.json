@@ -151,7 +151,7 @@
       "incant": "15s cast",
       "cooldown": "5m cooldown",
       "note": "Only usable on Doors",
-      "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
+      "description": "Repairs a friendly keep door for 5% of its total health over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -241,7 +241,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and increasing their hate towards you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -781,7 +781,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blade of Ruin and Monstrous Rending both cost 10 less Hate to use.",
+      "description": "Monstrous Rending costs 10 less Hate to use.",
       "category": "CareerTactic"
     },
     {
@@ -856,7 +856,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Costs 30 Hatred<br>Requires Great Weapon",
-      "description": "A great cleave that strikes all targets 40 feet in front of you for 419 damage and making them 10% more likely to be critically hit by others for 10 seconds.",
+      "description": "Deliver a devastating cleave, striking all enemies within  40 feet in front of you for 419 damage. The sheer ferocity of the blow leaves your foes exposed, increasing their chance to be critically hit by others by 10% for 10 seconds.",
       "category": "Ability"
     },
     {

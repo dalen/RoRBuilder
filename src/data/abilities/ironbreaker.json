@@ -150,7 +150,7 @@
       "incant": "15s cast",
       "cooldown": "5m cooldown",
       "note": "Only usable on Doors",
-      "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
+      "description": "Repairs a friendly keep door for 5% of its total health over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -240,7 +240,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and increasing their hate towards you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -750,7 +750,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "A painful strike to the enemy's leg that deals 156 damage.<BR><BR>   At 25 Grudges:  Also reduces the target's chance to critically hit by 5%.<BR>   At 50 Grudges:  Also reduces the target's chance to critically hit by 10%.<BR>   At 75 Grudges:  Also reduces the target's chance to critically hit by 15%.<BR>   At 100 Grudges:  Also reduces the target's chance to critically hit by 20%.<BR>",
+      "description": "A painful strike to the enemy's leg that deals 156 damage.<BR><BR>   At 25 Grudges:  Also reduces the target's chance to critically hit by 5% for 10 seconds.<BR>   At 50 Grudges:  Also reduces the target's chance to critically hit by 10% for 10 seconds.<BR>   At 75 Grudges:  Also reduces the target's chance to critically hit by 15% for 10 seconds.<BR>   At 100 Grudges:  Also reduces the target's chance to critically hit by 20% for 10 seconds.<BR>",
       "category": "Ability"
     },
     {
@@ -1020,7 +1020,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Improves with Grudge<br>Requires Shield",
-      "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal 150 damage back to the attacker each time you block.<BR><BR> With 25 Grudges: Deals 300 damage back to the attacker.<BR> With 50 Grudges: Deals 450 damage back to the attacker.<BR> With 75 Grudges: Deals 600 damage back to the attacker.<BR> With 100 Grudges: Deals 750 damage back to the attacker.<BR>You gain Immovable for 6 seconds, also grants Immovable your Oath Friend's if they are within 50 feet.",
+      "description": "You declare that this is where you're making your stand, and nothing will change your mind. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal 150 damage back to the attacker each time you block.<BR><BR> With 25 Grudges: Deals 300 damage.<BR> With 50 Grudges: Deals 450 damage.<BR> With 75 Grudges: Deals 600 damage.<BR> With 100 Grudges: Deals 750 damage.<BR><BR>You gain Immovable for 6 seconds, also grants Immovable to your Oath Friend if they are within 50 feet.",
       "category": "Ability"
     },
     {

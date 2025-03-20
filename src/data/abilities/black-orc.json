@@ -80,8 +80,8 @@
       "coreAbilities": [
         1664,
         1673,
-        1669,
         1682,
+        1677,
         1680,
         1690,
         1686
@@ -103,7 +103,7 @@
       },
       "coreAbilities": [
         1667,
-        1677,
+        1669,
         1675,
         1672,
         1683
@@ -153,7 +153,7 @@
       "incant": "15s cast",
       "cooldown": "5m cooldown",
       "note": "Only usable on Doors",
-      "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
+      "description": "Repairs a friendly keep door for 5% of its total health over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -228,7 +228,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and increasing their hate towards you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -663,7 +663,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "War Bellows (Da Biggest, Da Toughest, Da Greenest) now also deal 189 damage to your offensive target.",
+      "description": "War Bellows (Da Biggest, Da Toughest, Da Greenest) now also deal 189 Corporeal damage to your offensive target.",
       "category": "CareerTactic"
     },
     {
@@ -907,21 +907,6 @@
       "category": "Ability"
     },
     {
-      "id": 1669,
-      "image": "https://armory.returnofreckoning.com/icon/2555",
-      "name": "Tuffer 'n Nails",
-      "type": "Blessing",
-      "spec": "Path of Da’ Toughest",
-      "minrank": "6",
-      "cost": "30 Action Points",
-      "range": "5ft range",
-      "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Requires Shield<br>Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You slam your shield into your enemy, dealing 202 damage and increasing your armor by 990 for 20 seconds.",
-      "category": "Ability"
-    },
-    {
       "id": 1682,
       "image": "https://armory.returnofreckoning.com/icon/2419",
       "name": "Right in Da Jibblies",
@@ -934,6 +919,21 @@
       "cooldown": "10s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
       "description": "You kick your target in a vital spot, inflicting 239 damage and reducing their Weapon Skill by 120 for 20 seconds. The power of your kick causes the target to be knocked away a small distance and interrupts them. This effect does not apply Immovable.",
+      "category": "Ability"
+    },
+    {
+      "id": 1677,
+      "image": "https://armory.returnofreckoning.com/icon/2499",
+      "name": "Savin' Me Hide",
+      "type": "Blessing",
+      "spec": "Path of Da’ Toughest",
+      "minrank": "16",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Requires Shield<br>Needs da' Best Plan!!<br>No Plan after dis!",
+      "description": "Deals 180 damage to all targets within 25 feet. Increases your Toughness by 120 for 20 seconds. Group members within 100 feet will take only 80% incoming magic damage for the next 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1102,18 +1102,18 @@
       "category": "Ability"
     },
     {
-      "id": 1677,
-      "image": "https://armory.returnofreckoning.com/icon/2499",
-      "name": "Savin' Me Hide",
+      "id": 1669,
+      "image": "https://armory.returnofreckoning.com/icon/2555",
+      "name": "Tuffer 'n Nails",
       "type": "Blessing",
       "spec": "Path of Da’ Boss",
-      "minrank": "16",
-      "cost": "No AP Cost",
+      "minrank": "6",
+      "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "Deals 277 damage. Increases your Toughness by 120 for 20 seconds. Group members within 100 feet will take only 80% incoming magic damage for the next 4 seconds.",
+      "cooldown": "10s cooldown",
+      "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
+      "description": "You slam into your enemy, dealing 202 damage and increasing your defensive targets parry by 10% for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1233,7 +1233,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Follow 'me Lead will also buff all groupmates within 30 feet of the defensive target. Additionally the Toughness buff on Savin' Me Hide will also affect all group members within 100 feet of you.",
+      "description": "Follow 'me Lead will also buff all groupmates within 30 feet of the defensive target. Additionally the Parry buff on Tuffer 'n Nails will also affect all group members within 30 feet of your defensive target.",
       "category": "CareerTactic"
     },
     {
@@ -1263,7 +1263,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1800 damage over 12 seconds to all targets within 25 feet in of you.  Affected targets lose 1800 Morale over 12 seconds.",
+      "description": "Dealing 1800 damage over 12 seconds to all enemies within 25 feet. Targets also lose 1800 Morale over the duration.",
       "category": "Morale"
     }
   ]

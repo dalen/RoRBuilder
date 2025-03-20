@@ -600,7 +600,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you disrupt an enemy's spell, you will deal 35% more damage for 10 seconds.",
+      "description": "Each time you disrupt an enemy's spell, you will deal 35% more damage for 10 seconds.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -630,7 +630,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blessed Bullets of Confession will now also make the target 5% easier to critical hit.",
+      "description": "Blessed Bullets of Confession will now also increase the target's chance to be critically hit by 5%.",
       "category": "CareerTactic"
     },
     {
@@ -720,7 +720,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 375 Spirit damage.  The victim's Initiative will be reduced by 120 for 10 seconds, and your Initiative will be increased by 120.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets of purest silver. Whenever you hit an enemy with your Executions, you deal an additional 375 Spirit damage.  The victim's Initiative will be reduced by 120 for 10 seconds, and your Initiative will be increased by 120.<BR><BR>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability"
     },
     {
@@ -840,7 +840,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that damages and knocks down your primary target for 3 seconds and deals damage to all other enemies near them, reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  204 damage, 25 feet radius.<BR>   2 Accusations:  265 damage, 30 feet radius.<BR>   3 Accusations:  329 damage, 35 feet radius.<BR>   4 Accusations:  391 damage, 40 feet radius.<BR>   5 Accusations:  452 damage, 45 feet radius.",
+      "description": "A pistol shot that damages and knocks down your primary target for 0 seconds and deals damage to all other enemies near them, reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  204 damage, 10 feet radius.<BR>   2 Accusations:  265 damage, 10 feet radius.<BR>   3 Accusations:  329 damage, 10 feet radius.<BR>   4 Accusations:  391 damage, 10 feet radius.<BR>   5 Accusations:  452 damage, 10 feet radius.",
       "category": "Ability"
     },
     {
@@ -885,7 +885,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<BR>   1 Accusation:  750 damage<BR>   2 Accusations:  954 damage<BR>   3 Accusations:  1182 damage<BR>   4 Accusations:  1380 damage<BR>   5 Accusations:  1608 damage",
+      "description": "Unleash a purifying blaze from your torch, searing your target with holy fire for 10 seconds.<BR>   1 Accusation:  750 damage<BR>   2 Accusations:  954 damage<BR>   3 Accusations:  1182 damage<BR>   4 Accusations:  1380 damage<BR>   5 Accusations:  1608 damage",
       "category": "Ability"
     },
     {
@@ -900,7 +900,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional 375 Spirit damage.  Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets doused in holy water. Whenever you hit an enemy with your Executions, you deal an additional 375 Spirit damage.  Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.<BR><BR>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability"
     },
     {
@@ -990,7 +990,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A precision blow that deals 277 damage, and causes a lingering wound which reduces the effectiveness of all healing by 50% for 10 seconds.",
+      "description": "A precision blow that deals 277 damage, and causes a lingering wound which reduces the effectiveness of incoming healing by 50% for 10 seconds.",
       "category": "Ability"
     },
     {
@@ -1110,7 +1110,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 375 Spirit damage to the target.  The victim will lose 20 Action Points, and you will gain 20 Action Points.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets designed to fragment on impact. Whenever you hit an enemy with your Executions, you deal an additional 375 Spirit damage to the target.  The victim will lose 20 Action Points, and you will gain 20 Action Points.<BR><BR>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability"
     },
     {
@@ -1200,7 +1200,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<BR>   1 Accusation:  957 damage over time; 482 ending damage.<BR>   2 Accusations:  1236 damage over time; 630 ending damage.<BR>   3 Accusations:  1518 damage over time; 768 ending damage.<BR>   4 Accusations:  1800 damage over time; 910 ending damage.<BR>   5 Accusations:  2082 damage over time; 1055 ending damage.<BR>",
+      "description": "Harness the purifying flames of your torch to unleash judgment upon your target. The fire scorches them over 9 seconds before erupting in a final, wrathful blaze that sears their very soul for additional damage.<BR>   1 Accusation:  957 damage over time; 482 ending damage.<BR>   2 Accusations:  1236 damage over time; 630 ending damage.<BR>   3 Accusations:  1518 damage over time; 768 ending damage.<BR>   4 Accusations:  1800 damage over time; 910 ending damage.<BR>   5 Accusations:  2082 damage over time; 1055 ending damage.<BR>",
       "category": "Ability"
     },
     {

@@ -737,7 +737,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
-      "description": "You leap out of the shadows in an insane rage. Each time your target uses a melee ability, your target will take 277 Corporeal damage for each melee ability used over the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
+      "description": "You leap from the shadows, infusing your target's weapons with corrupted blood for 15 seconds. Each time they use a melee ability, the corruption surges through their body, dealing 277 Corporeal damage. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
       "category": "Ability"
     },
     {
@@ -752,7 +752,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 120 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
+      "description": "You cover your blades with a toxic concoction. Anytime you hit an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 120 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
       "category": "Ability"
     },
     {
@@ -872,7 +872,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target and all enemies around them reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Blood Lust:  129 damage per hit, 25 feet radius.<BR>   2 Blood Lust:  167 damage per hit, 30 feet radius.<BR>   3 Blood Lust:  206 damage per hit, 35 feet radius.<BR>   4 Blood Lust:  242 damage per hit, 40 feet radius.<BR>   5 Blood Lust:  280 damage per hit, 45 feet radius.",
+      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 0 seconds, and does damage to your target and all enemies around them reducing their Morale by 0, inspired, your group gains 125 Morale.<BR>   1 Blood Lust:  129 damage per hit, 10 feet radius.<BR>   2 Blood Lust:  167 damage per hit, 10 feet radius.<BR>   3 Blood Lust:  206 damage per hit, 10 feet radius.<BR>   4 Blood Lust:  242 damage per hit, 10 feet radius.<BR>   5 Blood Lust:  280 damage per hit, 10 feet radius.",
       "category": "Ability"
     },
     {
@@ -932,7 +932,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
+      "description": "You cover your blades with a toxic concoction. Anytime you hit an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
       "category": "Ability"
     },
     {
@@ -1022,7 +1022,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "A deadly strike which deals 277 damage to your target and infects them with Black Lotus toxin, causing all healing that they receive for the next 10 seconds to become 50% less effective.",
+      "description": "A deadly strike which deals 277 damage to your target and infects them with Black Lotus toxin, causing incoming healing for the next 10 seconds to become 50% less effective.",
       "category": "Ability"
     },
     {
@@ -1142,7 +1142,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
+      "description": "You cover your blades with a toxic concoction. Anytime you hit an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
       "category": "Ability"
     },
     {

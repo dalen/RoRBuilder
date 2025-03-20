@@ -427,7 +427,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and you cannot be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50%, and you cannot be set back.",
       "category": "Morale"
     },
     {
@@ -622,7 +622,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the chance for you and your groupmates to detect hidden enemies by 50% while you or your group are within 20 feet feet of your turret.",
+      "description": "Increases the chance to detect hidden enemies by 50% for yourself and group members within 20 feet of your turret. This effect only applies to players who are in range.",
       "category": "CareerTactic"
     },
     {

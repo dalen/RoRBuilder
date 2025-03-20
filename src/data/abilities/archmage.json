@@ -18,12 +18,14 @@
     9287,
     819,
     9249,
+    9272,
     695,
     9277,
     823,
     696,
     9255,
-    588,
+    32070,
+    32079,
     9278,
     9302,
     589,
@@ -44,11 +46,11 @@
       },
       "optionalAbilities": {
         "lvl1": 9288,
-        "lvl2": 9272,
-        "lvl3": 9293,
-        "lvl4": 9251,
-        "lvl5": 9297,
-        "lvl6": 9258,
+        "lvl2": 9251,
+        "lvl3": 9297,
+        "lvl4": 9258,
+        "lvl5": 9293,
+        "lvl6": 32083,
         "lvl7": 9308
       },
       "coreAbilities": [
@@ -176,8 +178,8 @@
       "range": "100ft range",
       "incant": "3.0s cast",
       "cooldown": "6s cooldown",
-      "note": "Force reduces cast time and cost.<br>Only usable on Dead Players",
-      "description": "Resurrects your target with 20% health.",
+      "note": "Only usable on Dead Players<br>Builds Force & Tranquility increases effectiveness.",
+      "description": "Resurrects your target with 20% health.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: 50% Cast Time reduction and resurrects your target with 50% health.",
       "category": "Ability"
     },
     {
@@ -191,8 +193,8 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Force increases effectiveness.<br>Builds Tranquility",
-      "description": "Heals your target and two additional allies within 15 feet for 1700 health over 15 seconds.",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Heals your target for 1520 health over 15 seconds.<BR><BR>1-4 Force: Healing increased by 15%.<BR>5 Force: Healing increased 45%.",
       "category": "Ability"
     },
     {
@@ -267,7 +269,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
+      "description": "You deal 25% more damage, but your healing output is reduced by 20%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -297,7 +299,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically hit with an ability that builds either Force or Tranquility, you will gain one additional point. Tactic can not trigger more than once every 3 seconds.",
+      "description": "When casting your first spell after reaching 5 Tranquillity, your Critical Damage and Critical Healing is increased by 50% for 5 seconds. When casting your first spell after reaching 5 Force, your Intelligence and Willpower is increased by 240 for 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -327,7 +329,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
+      "description": "Your target suffers 1200 damage over 9 seconds, and you are healed for half of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -342,7 +344,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Healing Energy is 35% more effective on other people, but 15% less effective on you.",
+      "description": "Your Healing Energy is 15% more effective and will now restore 25 Action Points to the target.",
       "category": "CareerTactic"
     },
     {
@@ -371,8 +373,23 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
-      "note": "",
-      "description": "You siphon magic from your target, draining 140 Action Points over 7 seconds into yourself.",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "You siphon magic from your target, draining 140 Action Points over 7 seconds into yourself.<BR><BR>1-4 Force: Additionally gives Action Points to your defensive target.<BR>5 Force: Additionally gives Action Points to group members within 100 feet.",
+      "category": "Ability"
+    },
+    {
+      "id": 9272,
+      "image": "https://armory.returnofreckoning.com/icon/13413",
+      "name": "Magical Infusion",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "20",
+      "cost": "15 Action Points",
+      "range": "150ft range",
+      "incant": "Instant cast",
+      "cooldown": "15s cooldown",
+      "note": "Only usable on other players",
+      "description": "Bind yourself to one ally for 30 seconds, increasing your healing proficiency to them. All your healing abilities are 15% more effective on them.<BR>This effect stacks with other sources that increase healing on the target.",
       "category": "Ability"
     },
     {
@@ -451,9 +468,9 @@
       "category": "Ability"
     },
     {
-      "id": 588,
+      "id": 32070,
       "image": "https://armory.returnofreckoning.com/icon/22709",
-      "name": "Subtlety",
+      "name": "Sacrificial Renewal",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "25",
@@ -462,7 +479,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Enemy monsters will hate you 25% less than normal.",
+      "description": "Whenever you critically heal an ally, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
+      "category": "CareerTactic"
+    },
+    {
+      "id": 32079,
+      "image": "https://armory.returnofreckoning.com/icon/22705",
+      "name": "Light of Isha",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "26",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Lambent Aura now heals two additional allies within 15 feet of your target.",
       "category": "CareerTactic"
     },
     {
@@ -522,7 +554,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift Of Life now resurrects allies instantly, but stuns you for 3 seconds.",
+      "description": "Gift Of Life now resurrects allies instantly, but stuns you for 0 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -567,22 +599,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Drain Magic will now siphon energy from an area 20 feet around your initial target, but will only drain 70 Action Points over 7 seconds from each target.",
+      "description": "Drain Magic will now siphon energy from an area 10 feet around your initial target, but will only drain 70 Action Points over 7 seconds from each target.",
       "category": "CareerTactic"
     },
     {
       "id": 9304,
       "image": "https://armory.returnofreckoning.com/icon/13368",
       "name": "Arcane Suppression",
-      "type": "Debuff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "Self",
+      "range": "80ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Knocks back all enemies within 20 feet and Silences them, making them unable to use magic for 3 seconds.",
+      "description": "Deals 900 damage and Silences all enemies within 20 feet of your target for 3 seconds, making them unable to use magic.",
       "category": "Morale"
     },
     {
@@ -612,14 +644,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Magical Infusion will make its target 25% more receptive to incoming heals.",
+      "description": "Your healing abilities become 40% more effective when the target is below 30% hit points.",
       "category": "CareerTactic"
     },
     {
       "id": 697,
       "image": "https://armory.returnofreckoning.com/icon/23150",
       "name": "Alter Fate",
-      "type": "Buff",
+      "type": "Healing",
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
@@ -627,7 +659,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Restores 1800 health to all group members within 100 feet and increases your outgoing healing by 35% for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -641,8 +673,8 @@
       "range": "150ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
-      "note": "Force reduces cast time and cost.<br>Builds Tranquility",
-      "description": "Your target regains 370 health immediately, then continues to gain another 445 health over 5 seconds. This ability will continue to build up even if you move.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "Your target regains 309 health immediately, then continues to gain another 370 health over 5 seconds. This ability will continue to build up even if you move.<BR><BR>1-4 Tranquility: Healing increased by 15%.<BR>5 Tranquility: Healing increased by 45%.",
       "category": "Ability"
     },
     {
@@ -671,8 +703,8 @@
       "range": "150ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Force reduces cast time and cost.<br>Builds Tranquility",
-      "description": "Heals your target for 1258 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "Heals your target for 1125 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: Instant Cast.",
       "category": "Ability"
     },
     {
@@ -686,8 +718,8 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Target must be Hexed or Ailing<br>Force reduces cooldown.<br>Builds Tranquility",
-      "description": "You cleanse an ally's wound and remove one Ailment or Hex. If an effect is removed, your ally will absorb up to 262 damage over 10 seconds.",
+      "note": "Target must be Hexed or Ailing<br>Builds Tranquility<br>Force increases effectiveness.",
+      "description": "You cleanse an ally's wound and remove one Ailment or Hex. If an effect is removed, your ally will absorb up to 262 damage over 10 seconds. <BR><BR>1-4 Force: Reduces cooldown by 2 seconds.<BR>5 Force: Reduces cooldown by 2 seconds and cleanse an additional Ailment or Hex.",
       "category": "Ability"
     },
     {
@@ -701,8 +733,8 @@
       "range": "Self",
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
-      "note": "Force reduces cast time and cost.<br>Builds Tranquility",
-      "description": "Heals your entire group for 898 health.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "Heals your entire group for 898 health.<BR><BR>1-4 Tranquility: 25% Cast Time reduciton.<BR>5 Tranquility: 50% Cast Time reduction and heals for an additional 441 health over 3 seconds.",
       "category": "Ability"
     },
     {
@@ -721,40 +753,10 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9272,
-      "image": "https://armory.returnofreckoning.com/icon/13413",
-      "name": "Magical Infusion",
-      "type": "Healing",
-      "spec": "Path of Isha",
-      "minrank": "21",
-      "cost": "55 Action Points",
-      "range": "100ft range",
-      "incant": "Instant cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near fatal wounds.If the allies health is reduced below 20%, this effect will immediately dispel itself to restore 1033 health if they are still alive. A player may only be affected by a single Magical Infusion at a time.",
-      "category": "Ability"
-    },
-    {
-      "id": 9293,
-      "image": "https://armory.returnofreckoning.com/icon/22706",
-      "name": "Wild Healing",
-      "type": "Buff",
-      "spec": "Path of Isha",
-      "minrank": "23",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Whenever you critically heal someone, your healing abilities will cost 35% less action points for 10 seconds.",
-      "category": "CareerTactic"
-    },
-    {
       "id": 9251,
       "image": "https://armory.returnofreckoning.com/icon/13355",
       "name": "Mistress of The Marsh",
-      "type": "Defensive",
+      "type": "Debuff",
       "spec": "Path of Isha",
       "minrank": "25",
       "cost": "20 Action Points",
@@ -791,8 +793,38 @@
       "range": "150ft range",
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
-      "note": "Force increases effectiveness.<br>Builds Tranquility",
-      "description": "You focus your powers on your defensive target, restoring up to 1796 health to them over 3 seconds.  This effect will end if you break your concentration, or if you run out of action points.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "You focus your powers on your defensive target, restoring up to 1524 health to them over 3 seconds. If used on an ally affected by Magical Infusion, their chance to be critically hit is reduced by 10% for the duration of the channel. This effect will end if you break your concentration, or if you run out of action points.<BR><BR>1-4 Tranquility: Healing increased by 15%.<BR>5 Tranquility: Healing increased by 30% and castable on the move.",
+      "category": "Ability"
+    },
+    {
+      "id": 9293,
+      "image": "https://armory.returnofreckoning.com/icon/22706",
+      "name": "Wild Healing",
+      "type": "Buff",
+      "spec": "Path of Isha",
+      "minrank": "23",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Increase your Critical Healing by 25%. Reduce the Action Point cost of Boon of Hysh and Blessing of Isha by 10.",
+      "category": "CareerTactic"
+    },
+    {
+      "id": 32083,
+      "image": "https://armory.returnofreckoning.com/icon/13466",
+      "name": "Phoenix's Rejuvenation",
+      "type": "Enchantment",
+      "spec": "Path of Isha",
+      "minrank": "29",
+      "cost": "55 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "15s cooldown",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Heals all group members within 100 feet for 735 health over 5 seconds.<BR><BR>1-4 Force: Healing increased by 15%.<BR>5 Force: Healing increased by 30% and duration increased by 2 seconds.",
       "category": "Ability"
     },
     {
@@ -807,7 +839,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All group mates within 100 feet regain 1530 health over 15 seconds, and become surrounded by a magical barrier which will absorb 3600 damage.",
+      "description": "All group mates within 100 feet regain 2400 health over 15 seconds, and become surrounded by a magical barrier which will absorb 3600 damage.",
       "category": "Morale"
     },
     {
@@ -821,8 +853,8 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Tranquility reduces cast time and cost.<br>Builds Force",
-      "description": "A lance of brilliant energy erupts from your staff, dealing 477 Spirit damage to your target.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "A lance of brilliant energy erupts from your staff, dealing 477 Spirit damage to your target.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: 50% Cast Time reduction and 2 seconds after hitting the target, they get hit an additional time for 50% of the original damage.",
       "category": "Ability"
     },
     {
@@ -836,8 +868,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Tranquility increases effectiveness.<br>Builds Force",
-      "description": "Deals 980 Spirit damage to your target over 15 seconds.",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Deals 980 Spirit damage to your target over 15 seconds.<BR><BR>1-4 Force: Damage increased by 15%.<BR>5 Force: Damage increased by 30% and target receives 5% more damage.",
       "category": "Ability"
     },
     {
@@ -851,8 +883,8 @@
       "range": "100ft range",
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
-      "note": "Tranquility increases effectiveness.<br>Builds Force",
-      "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing  477 Spirit damage to them as long as you maintain your concentration.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing  477 Spirit damage to them as long as you maintain your concentration.<BR><BR>1-4 Tranquility: Strikethrough increased by 10%.<BR>5 Tranquility: Strikethrough increased by 10% and additionally slow the target by 40% for as long as you are channeling.",
       "category": "Ability"
     },
     {
@@ -866,8 +898,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Tranquility increases effectiveness.<br>Builds Force",
-      "description": "Deals 768 Spirit damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Deals 768 Spirit damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.<BR><BR>1-4 Force: Damage increased by 15%.<BR>5 Force: Damage increased by 30% and debuff increased by 5%.",
       "category": "Ability"
     },
     {
@@ -881,8 +913,8 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "5s cooldown",
-      "note": "Tranquility reduces cast time and cost.<br>Builds Force",
-      "description": " Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing 434 Spirit damage to your target.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": " Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing 434 Spirit damage to your target.<BR><BR>1-4 Tranquility: Damage increased by 15%.<BR>5 Tranquility: Damage increased by 30%. Your outgoing damage is increased by 10% for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -897,7 +929,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Radiant Lance will now affect all enemies within 15 feet feet of your target.",
+      "description": "Radiant Lance and Radiant Gaze will now affect all enemies within 20 feet of your target, but their range is reduced to 80 feet and they do 30% less damage. ",
       "category": "CareerTactic"
     },
     {
@@ -911,8 +943,8 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20s cooldown",
-      "note": "Tranquility reduces cast time and cost.<br>Builds Force",
-      "description": "Deals 287 Spirit damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "Deals 287 Spirit damage to your target and all other enemies within 20 feet of them, and knocks them backwards.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: 50% Cast Time reduction and knockback distance increased.",
       "category": "Ability"
     },
     {
@@ -927,7 +959,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your damaging spells gain a 25% chance to remove 1 Blessing from the victim.  Whenever this happens, they will also suffer an additional 247 Spirit damage.",
+      "description": "All of your damaging spells gain a 25% chance to remove 1 Blessing from the victim.  Whenever this happens, they will also suffer an additional 247 Spirit damage. Your healing output is reduced by 10%.",
       "category": "CareerTactic"
     },
     {
@@ -941,8 +973,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Tranquility increases effectiveness.<br>Builds Force",
-      "description": "Deals 768 Spirit damage to your target over 9 seconds, and causes all heals that they receive to become 50% less effective.",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Deals 768 Spirit damage to your target over 9 seconds, and causes all heals that they receive to become 50% less effective.<BR><BR>1-4 Force: Strikethrough increased by 10%.<BR>5 Force: Strikethrough increased by 20% and duration increased by 6 seconds.",
       "category": "Ability"
     },
     {
@@ -957,7 +989,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Path of Asuryan abilities are now 15% harder to Block or Disrupt.",
+      "description": "Searing Touch now deals damage every second, but has its duration reduced by 3 seconds and its damage reduced by 25%. Your healing output is reduced by 10%.",
       "category": "CareerTactic"
     },
     {
@@ -971,8 +1003,8 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20s cooldown",
-      "note": "Tranquility reduces cast time and cost.<br>Builds Force",
-      "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds.  Every 1 seconds, all enemies within 25 feet of them will suffer 212 Spirit damage.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds.  Every 1 seconds, all enemies within 25 feet of them will suffer 212 Spirit damage.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: 50% Cast Time reduction and radius increased by 50%.",
       "category": "Ability"
     },
     {
@@ -1001,8 +1033,8 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Tranquility reduces cast time and cost.<br>Builds Force",
-      "description": "Deals 377 Spirit damage to your target, and heals your defensive target for 150% of the damage done.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "Deals 377 Spirit damage to your target, and heals your defensive target for 150% of the damage done.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: 50% Cast Time reduction and your outgoing healing is increased by 20% for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1016,8 +1048,8 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Force increases effectiveness.<br>Builds Tranquility<br>Target must be in your group or warband.",
-      "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to 1387 damage.",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to 1387 damage.<BR><BR>1-4 Force: Absorb increased by 15%.<BR>5 Force: Absorb increased by 30% and cooldown reduced by 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1031,8 +1063,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Tranquility increases effectiveness.<br>Builds Force",
-      "description": "Deals 1488 Spirit damage to your target over 24 seconds and heals your defensive target for 150% of the damage done on each tick.",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Deals 1488 Spirit damage to your target over 24 seconds and heals your defensive target for 150% of the damage done on each tick.<BR><BR>1-4 Force: Strikethrough increased by 10%.<BR>5 Force: Becomes undefendable.",
       "category": "Ability"
     },
     {
@@ -1046,8 +1078,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "",
-      "description": "Your target and all other enemies within 20 feet of them have their Intelligence, Strength and Ballistic Skill reduced by 120 for 20 seconds.",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Your target and all other enemies within 20 feet of them have their Intelligence, Strength and Ballistic Skill reduced by 120 for 20 seconds.<BR><BR>1-4 Force: Strikethrough increased by 10%.<BR>5 Force: Strikethrough increased by 20% and increase the Strength, Ballistic Skill and Intelligence of group members within 100 feet by 120 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1061,8 +1093,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "",
-      "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 120 for 20 seconds.",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 120 for 20 seconds.<BR><BR>1-4 Force: Strikethrough increased by 10%.<BR>5 Force: Strikethrough increased by 20% and radius increased by 50%.",
       "category": "Ability"
     },
     {
@@ -1077,7 +1109,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces the build time of Balance Essence by 0.5 seconds but increases the cost by 10 Action Points",
+      "description": "Balance Essence now has a Base heal of 656 health and Transfer Force has a Base heal of 138 health every 3 seconds. Balance Essence can be cast while moving, but the damage output from Balance Essence and Transfer Force is reduced by 50%.",
       "category": "CareerTactic"
     },
     {
@@ -1090,9 +1122,9 @@
       "cost": "45 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
-      "note": "Builds Force",
-      "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 475 Spirit damage and reducing their Spirit resistance by 378 for 20 seconds.",
+      "cooldown": "10s cooldown",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 409 Spirit damage and reducing their Spirit resistance by 378 for 20 seconds.<BR><BR>1-4 Tranquility: Damage increased by 15%.<BR>5 Tranquility: Damage increased by 30% and Strikethrough increased by 10%.",
       "category": "Ability"
     },
     {
@@ -1107,7 +1139,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever one of your damaging spells hits an enemy, your defensive target will become healed for 25% of the damage that you dealt.",
+      "description": "Whenever one of your damaging spells hits an enemy, your defensive target will become healed for 33% of the damage that you dealt. Balance Essence and Tranfer Force have a 10% reduced chance to be defended against. ",
       "category": "CareerTactic"
     },
     {
@@ -1121,8 +1153,8 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
-      "note": "Tranquility reduces cast time and cost.<br>Builds Force",
-      "description": "Deals 396 Spirit damage and silences your target, making them unable to use magic for 5 seconds.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "Deals 396 Spirit damage and silences your target, making them unable to use magic for 5 seconds.<BR><BR>1-4 Tranquility: Strikethrough increased by 10%.<BR>5 Tranquility: Becomes undefendable.",
       "category": "Ability"
     },
     {
@@ -1137,7 +1169,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shield of Saphery will now grant immunity to Stun and Knockdown effects while active.",
+      "description": "Shield of Saphery will now grant immunity to Stun and Knockdown effects while active. This effect will linger for 3 seconds after the shield is removed.",
       "category": "CareerTactic"
     },
     {
@@ -1151,23 +1183,23 @@
       "range": "80ft range",
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
-      "note": "Tranquility reduces cast time and cost.<br>Builds Force",
-      "description": "A wash of power leeches the breath from your target and up to four other enemies within 20 feet of them, dealing 351 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 1125 health, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.",
+      "description": "A wash of power leeches the breath from your target and up to four other enemies within 20 feet of them, dealing 274 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 886 health, plus 50% of the total inflicted damage. When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: Instant cast.",
       "category": "Ability"
     },
     {
       "id": 9310,
       "image": "https://armory.returnofreckoning.com/icon/13459",
       "name": "Funnel Energy",
-      "type": "Buff",
+      "type": "Debuff",
       "spec": "Path of Vaul",
       "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "Self",
+      "range": "80ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All enemies within 25 feet have their action point costs increased by 50% for 15 seconds, and all allies in the area have their action point costs reduced by 50% for 15 seconds.",
+      "description": "All enemies within 20 feet of your target have their action point costs increased by 50% for 15 seconds, and all allies within 20 feet of your defensive target have their action point costs reduced by 50% for 15 seconds.",
       "category": "Morale"
     }
   ]

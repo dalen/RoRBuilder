@@ -18,18 +18,20 @@
     1952,
     756,
     1911,
+    1928,
     695,
     1945,
     758,
     696,
     1914,
-    588,
+    32070,
     1940,
     1964,
     589,
     1941,
     1965,
     1942,
+    32088,
     1943,
     1966,
     1944,
@@ -44,10 +46,10 @@
       },
       "optionalAbilities": {
         "lvl1": 1951,
-        "lvl2": 1928,
-        "lvl3": 1950,
-        "lvl4": 1927,
-        "lvl5": 1958,
+        "lvl2": 1927,
+        "lvl3": 1958,
+        "lvl4": 32077,
+        "lvl5": 32080,
         "lvl6": 1926,
         "lvl7": 1970
       },
@@ -93,7 +95,7 @@
         "lvl4": 1917,
         "lvl5": 1949,
         "lvl6": 1935,
-        "lvl7": 1972
+        "lvl7": 32086
       },
       "coreAbilities": [
         1930,
@@ -177,8 +179,8 @@
       "range": "100ft range",
       "incant": "3.0s cast",
       "cooldown": "6s cooldown",
-      "note": "Only usable on Dead Players",
-      "description": "Resurrects your target with 20% health.",
+      "note": "Only usable on Dead Players<br>Builds Mork's Waaagh! & Gork's Waaagh! increases effectiveness.",
+      "description": "Resurrects your target with 20% health.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and resurrects your target with 50% health.",
       "category": "Ability"
     },
     {
@@ -192,8 +194,8 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! increases effectiveness.",
-      "description": "Heals your target and two additional allies within 15 feet for 1700 health over 15 seconds.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "Heals your target for 1520 health over 15 seconds.<BR><BR>1-4 Mork's Waaagh!: Healing increased by 15%.<BR>5 Mork's Waaagh!: Healing increased 45%.",
       "category": "Ability"
     },
     {
@@ -238,7 +240,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds. You will also deal 75% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end.",
+      "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 80% damage to you for 5 seconds. You will also deal 80% damage to them until the effect is broken.<BR>If you hit anyone that you have Detaunted, the effect will end.",
       "category": "CareerTactic"
     },
     {
@@ -268,7 +270,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
+      "description": "You deal 25% more damage, but your healing output is reduced by 20%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -298,7 +300,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit with a spell that grants Waaagh!, an additional Waaagh! will be granted as well.  Tactic can not trigger more than once every 3 seconds.",
+      "description": "When casting your first spell after reaching 5 Gork's Waaagh!, your Critical Damage and Critical Healing is increased by 50% for 5 seconds. When casting your first spell after reaching 5 Mork's Waaagh!, your Intelligence and Willpower is increased by 240 for 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -328,7 +330,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
+      "description": "Your target suffers 1200 damage over 9 seconds, and you are healed for half of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -343,7 +345,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gork'll Fix It becomes 35% better on allies, but 15% less effective on you.",
+      "description": "Your Gork'll Fix It is 15% more effective and will now restore 25 Action Points to the target.",
       "category": "CareerTactic"
     },
     {
@@ -372,8 +374,23 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
-      "note": "",
-      "description": "Steals 140 Action Points from your target over 7 seconds.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "Steals 140 Action Points from your target over 7 seconds.<BR><BR>1-4 Mork's Waaagh!: Additionally gives Action Points to your defensive target.<BR>5 Mork's Waaagh!: Additionally gives Action Points to group members within 100 feet.",
+      "category": "Ability"
+    },
+    {
+      "id": 1928,
+      "image": "https://armory.returnofreckoning.com/icon/2463",
+      "name": "Shrug It Off",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "20",
+      "cost": "15 Action Points",
+      "range": "150ft range",
+      "incant": "Instant cast",
+      "cooldown": "15s cooldown",
+      "note": "Only usable on other players",
+      "description": "Bind yourself to one ally for 30 seconds, increasing your healing proficiency to them. All your healing abilities are 15% more effective on them.<BR>This effect stacks with other sources that increase healing on the target.",
       "category": "Ability"
     },
     {
@@ -440,7 +457,7 @@
       "id": 1914,
       "image": "https://armory.returnofreckoning.com/icon/2583",
       "name": "Eeeek!",
-      "type": "Debuff",
+      "type": "Ailment",
       "spec": "Core Ability",
       "minrank": "25",
       "cost": "40 Action Points",
@@ -452,9 +469,9 @@
       "category": "Ability"
     },
     {
-      "id": 588,
+      "id": 32070,
       "image": "https://armory.returnofreckoning.com/icon/22709",
-      "name": "Subtlety",
+      "name": "Sacrificial Renewal",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "25",
@@ -463,7 +480,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Enemy monsters will hate you 25% less than normal.",
+      "description": "Whenever you critically heal an ally, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
       "category": "CareerTactic"
     },
     {
@@ -538,7 +555,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Heals your target for 567 health every 3 seconds over 9 seconds. Each pulse also heals those around the target within 25 feet.",
+      "description": "Heals your target for 801 health every 3 seconds over 9 seconds. Each pulse also heals those around the target within 25 feet.",
       "category": "Morale"
     },
     {
@@ -554,6 +571,21 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your chance to critically hit enemies by 10%.",
+      "category": "CareerTactic"
+    },
+    {
+      "id": 32088,
+      "image": "https://armory.returnofreckoning.com/icon/22703",
+      "name": "Look At Dem!",
+      "type": "Defensive",
+      "spec": "Core Ability",
+      "minrank": "34",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Yer' a Weaklin now deals 796 Elemental damage over 10 seconds to affected targets, but has its duration decreased by 10 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -575,15 +607,15 @@
       "id": 1966,
       "image": "https://armory.returnofreckoning.com/icon/2506",
       "name": "You Weren't Using Dat",
-      "type": "Debuff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "36",
       "cost": "Rank 3 morale",
-      "range": "Self",
+      "range": "80ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Removes 100 AP from each enemy within 25 feet, and gives 50% of the stolen AP to you.",
+      "description": "Deals 900 damage and removes 100 Action Points from all enemies within 20 feet of your target, and gives 50% of the stolen Action Points to group mates within 100 feet.",
       "category": "Morale"
     },
     {
@@ -613,14 +645,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 40% more effective when the target is below 25% hit points and Shrug It Off will make its target 25% more receptive to incoming heals.",
+      "description": "Your healing abilities become 40% more effective when the target is below 30% hit points.",
       "category": "CareerTactic"
     },
     {
       "id": 697,
       "image": "https://armory.returnofreckoning.com/icon/23150",
       "name": "Alter Fate",
-      "type": "Buff",
+      "type": "Healing",
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
@@ -628,7 +660,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Restores 1800 health to all group members within 100 feet and increases your outgoing healing by 35% for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -642,8 +674,8 @@
       "range": "150ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time and cost.",
-      "description": "Your target regains 370 health immediately then continues to gain another 445 health over 5 seconds. This ability will continue to build up even if you move.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "Your target regains 309 health immediately then continues to gain another 370 health over 5 seconds. This ability will continue to build up even if you move.<BR><BR>1-4 Gork's Waaagh!: Healing increased by 15%.<BR>5 Gork's Waaagh!: Healing increased by 45%.",
       "category": "Ability"
     },
     {
@@ -672,8 +704,8 @@
       "range": "150ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time and cost.",
-      "description": "Heals your target for 1258 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "Heals your target for 1125 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: Instant Cast.",
       "category": "Ability"
     },
     {
@@ -687,8 +719,8 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Target must be Cursed or Ailing<br>Mork's Waaagh! reduces cooldown.<br>Builds Gork's Waaagh!",
-      "description": "You cleanse an ally, removing one Curse or Ailment.  If an effect is removed, your ally will absorb up to 262 damage over 10 seconds.",
+      "note": "Target must be Cursed or Ailing<br>Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "You cleanse an ally, removing one Curse or Ailment.  If an effect is removed, your ally will absorb up to 262 damage over 10 seconds.<BR><BR>1-4 Mork's Waaagh!: Reduces cooldown by 2 seconds.<BR>5 Mork's Waaagh!: Reduces cooldown by 2 seconds and cleanse an additional Curse or Ailment.",
       "category": "Ability"
     },
     {
@@ -702,8 +734,8 @@
       "range": "Self",
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time and cost.",
-      "description": "Heals group members within 100 feet for 898 health.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "Heals group members within 100 feet for 898 health.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduciton.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and heals for an additional 441 health over 3 seconds.",
       "category": "Ability"
     },
     {
@@ -718,44 +750,14 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you heal an ally with a Path of Mork ability, there is a 25% chance that another ally within 30 feet of them will also gain 223 health as well.",
-      "category": "CareerTactic"
-    },
-    {
-      "id": 1928,
-      "image": "https://armory.returnofreckoning.com/icon/2463",
-      "name": "Shrug It Off",
-      "type": "Healing",
-      "spec": "Path of Mork",
-      "minrank": "21",
-      "cost": "55 Action Points",
-      "range": "100ft range",
-      "incant": "Instant cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. If the allies health is reduced below 25%, this effect will immediately dispel itself to restore 1033 health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
-      "category": "Ability"
-    },
-    {
-      "id": 1950,
-      "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "Lookit What I Did!",
-      "type": "Healing",
-      "spec": "Path of Mork",
-      "minrank": "23",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Gork'll Fix It will now also restore 40 Action Points to the target.",
+      "description": "Any time you directly heal an ally affected by your Shrug It Off, you have a 33% chance to heal all allies within 25 feet for 370 health.",
       "category": "CareerTactic"
     },
     {
       "id": 1927,
       "image": "https://armory.returnofreckoning.com/icon/4543",
       "name": "Sticky Feetz",
-      "type": "Defensive",
+      "type": "Debuff",
       "spec": "Path of Mork",
       "minrank": "25",
       "cost": "20 Action Points",
@@ -782,6 +784,36 @@
       "category": "CareerTactic"
     },
     {
+      "id": 32077,
+      "image": "https://armory.returnofreckoning.com/icon/2547",
+      "name": "Mork's Gift",
+      "type": "Healing",
+      "spec": "Path of Mork",
+      "minrank": "25",
+      "cost": "30 Action Points",
+      "range": "150ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "Heals your target for 684 health.<BR><BR>1-4 Gork's Waaagh!: Healing increased by 15%.<BR>5 Gork's Waaagh!: Healing increased by 30% and heals the target for an additional 341 health.",
+      "category": "Ability"
+    },
+    {
+      "id": 32080,
+      "image": "https://armory.returnofreckoning.com/icon/22707",
+      "name": "Mork Favors Me!",
+      "type": "Buff",
+      "spec": "Path of Mork",
+      "minrank": "27",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Mork's Gift additionally heals up to two group members within 25 feet of your target for 50% of the original value.",
+      "category": "CareerTactic"
+    },
+    {
       "id": 1926,
       "image": "https://armory.returnofreckoning.com/icon/2501",
       "name": "Do Sumfin Useful",
@@ -792,8 +824,8 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! increases effectiveness.",
-      "description": "Your target's Toughness is increased by 240 and they regain 1360 health over 10 seconds.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "Your target's Toughness is increased by 240 and they regain 1200 health over 10 seconds.<BR><BR>1-4 Mork's Waaagh!: Healing increased by 15%. <BR>5 Mork's Waaagh!: Healing increased by 30% and duration increased by 5 seconds.",
       "category": "Ability"
     },
     {
@@ -808,7 +840,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Heals all of your group mates within 100 feet for 1530 health over 10 seconds and decreases damage against them  to 75% for 10 seconds",
+      "description": "Heals all of your group mates within 100 feet for 2400 health over 10 seconds and decreases damage against them  to 75% for 10 seconds",
       "category": "Morale"
     },
     {
@@ -822,8 +854,8 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Gork's Waaagh! reduces cast time and cost.",
-      "description": "Deals 477 Elemental damage to your target.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "Deals 477 Elemental damage to your target.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and 2 seconds after hitting the target, they get hit an additional time for 50% of the original damage.",
       "category": "Ability"
     },
     {
@@ -837,8 +869,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "You deal 980 Elemental damage to your target over 15 seconds.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "You deal 980 Elemental damage to your target over 15 seconds.<BR><BR>1-4 Mork's Waaagh!: Damage increased by 15%.<BR>5 Mork's Waaagh!: Damage increased by 30% and target receives 5% more damage.",
       "category": "Ability"
     },
     {
@@ -852,8 +884,8 @@
       "range": "100ft range",
       "incant": "6.0s cast",
       "cooldown": "11s cooldown",
-      "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing 477 Elemental damage to them as long as you maintain your concentration.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "You concentrate on your target for up to 6 seconds, repeatedly dealing 477 Elemental damage to them as long as you maintain your concentration.<BR><BR>1-4 Gork's Waaagh!: Strikethrough increased by 10%.<BR>5 Gork's Waaagh!: Strikethrough increased by 10% and additionally slow the target by 40% for as long as you are channeling.",
       "category": "Ability"
     },
     {
@@ -882,8 +914,8 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time and cost.",
-      "description": "Deals 434 Elemental damage.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "Deals 434 Elemental damage.<BR><BR>1-4 Gork's Waaagh!: Damage increased by 15%.<BR>5 Gork's Waaagh!: Damage increased by 30%. Your outgoing damage is increased by 10% for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -912,8 +944,8 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20s cooldown",
-      "note": "Gork's Waaagh! reduces cast time and cost.",
-      "description": "Deals 287 Elemental damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "Deals 287 Elemental damage to your target and all other enemies within 20 feet of them, and knocks them backwards.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and knockback distance increased.",
       "category": "Ability"
     },
     {
@@ -928,7 +960,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional 247 Elemental damage as well.",
+      "description": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional 247 Elemental damage as well. Your healing output is reduced by 10%.",
       "category": "CareerTactic"
     },
     {
@@ -942,8 +974,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Gork's Waaagh! reduces cast time and cost.",
-      "description": "Gork takes interest in your target, reducing all incoming heals by 50% for 10 seconds, and will deal 498 Elemental damage to anyone healing his new toy.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "Gork takes interest in your target, reducing all incoming heals by 50% for 10 seconds, and will deal 498 Elemental damage to anyone healing his new toy.<BR><BR>1-4 Mork's Waaagh!: Strikethrough increased by 10%.<BR>5 Mork's Waaagh!: Strikethrough increased by 20% and additionally deals damage to the target every time they are healed. Can only be damage once every second.",
       "category": "Ability"
     },
     {
@@ -958,22 +990,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Brain Bursta will now also reduce the victim's Toughness by 240 for 20 seconds, and they will lose 150 points of Morale as well.",
+      "description": "Brain Bursta will now also reduce the victim's Toughness by 240 for 20 seconds, and they will lose 150 points of Morale as well. Your healing output is reduced by 10%.",
       "category": "CareerTactic"
     },
     {
       "id": 1931,
       "image": "https://armory.returnofreckoning.com/icon/2403",
       "name": "Da Waaagh! Is Coming",
-      "type": "Damaging",
+      "type": "Ailment",
       "spec": "Path of Gork",
       "minrank": "29",
-      "cost": "55 Action Points",
+      "cost": "35 Action Points",
       "range": "80ft range",
-      "incant": "2.0s cast",
-      "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time and cost.",
-      "description": "Deals 487 Elemental damage to your target, and will then damage another target within 20 feet of the last, damaging up to 9 different targets total. Targets can not be hit more than once by the ability.",
+      "incant": "1.5s cast",
+      "cooldown": "No cooldown",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "You deal 338 Elemental damage to your target and all enemies within 20 feet of them. You apply an Ailment to them, reducing their chance to disrupt attacks by 5% for 10 seconds. This effect can stack up to 2 times.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and radius increased by 50%.",
       "category": "Ability"
     },
     {
@@ -984,11 +1016,11 @@
       "spec": "Path of Gork",
       "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "100ft range",
+      "range": "80ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1800 damage and knocks back all enemy targets within 20 feet of your target.",
+      "description": "Deals 1800 damage and knocks down all enemy targets within 20 feet of your target for 2 seconds.",
       "category": "Morale"
     },
     {
@@ -1002,8 +1034,8 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Gork's Waaagh! reduces cast time and cost.",
-      "description": "Deals 377 Elemental damage to your target, and heals your defensive target for 150% of the damage done.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "Deals 377 Elemental damage to your target, and heals your defensive target for 150% of the damage done.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and your outgoing healing is increased by 20% for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1017,8 +1049,8 @@
       "range": "150ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Mork's Waaagh! increases effectiveness.<br>Target must be in your group or warband.",
-      "description": "Surrounds an ally with a magical barrier that absorbs up to 1387 damage for up to 9 seconds.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "Surrounds an ally with a magical barrier that absorbs up to 1387 damage for up to 9 seconds.<BR><BR>1-4 Mork's Waaagh!: Absorb increased by 15%.<BR>5 Mork's Waaagh!: Absorb increased by 30% and cooldown reduced by 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1028,12 +1060,12 @@
       "type": "Ailment",
       "spec": "Path of Da Green",
       "minrank": "9",
-      "cost": "35 Action Points",
+      "cost": "40 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "You deal 1488 Elemental damage to your target over 24 seconds and your defensive target is healed for 150% of the damage done.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "You deal 1488 Elemental damage to your target over 24 seconds and your defensive target is healed for 150% of the damage done.<BR><BR>1-4 Mork's Waaagh!: Strikethrough increased by 10%.<BR>5 Mork's Waaagh!: Becomes undefendable.",
       "category": "Ability"
     },
     {
@@ -1047,8 +1079,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "",
-      "description": "Everyone within 20 feet of your target will have their Strength, Intelligence and Ballistic Skill reduced by 120 for 20 seconds.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "Everyone within 20 feet of your target will have their Strength, Intelligence and Ballistic Skill reduced by 120 for 20 seconds.<BR><BR>1-4 Mork's Waaagh!: Strikethrough increased by 10%.<BR>5 Mork's Waaagh!: Strikethrough increased by 20% and increase the Strength, Ballistic Skill and Intelligence of group members within 100 feet by 120 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1062,8 +1094,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "Steals 120 Intelligence from your target while dealing 950 Elemental damage over 15 seconds.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "Steals 120 Intelligence from your target while dealing 950 Elemental damage over 15 seconds.<BR><BR>1-4 Mork's Waaagh!: Damage increased by 15%.<BR>5 Mork's Waaagh!: Damage increased by 30% and additionally steals 120 Willpower.",
       "category": "Ability"
     },
     {
@@ -1077,8 +1109,8 @@
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "",
-      "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 120 for 20 seconds.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 120 for 20 seconds.<BR><BR>1-4 Mork's Waaagh!: Strikethrough increased by 10%.<BR>5 Mork's Waaagh!: Strikethrough increased by 20% and radius increased by 50%.",
       "category": "Ability"
     },
     {
@@ -1093,7 +1125,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces the build time of I'll Take That! by 0.5 seconds but increases the cost by 10 Action Points",
+      "description": "I'll Take That! now has a Base heal of 656 health and Bleed Fer' Me has a Base heal of 138 health every 3 seconds. I'll Take That! can be cast while moving, but the damage output from I'll Take That! and Bleed Fer' Me is reduced by 50%.",
       "category": "CareerTactic"
     },
     {
@@ -1106,9 +1138,9 @@
       "cost": "45 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
-      "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "A cone of energy strikes enemies in front of you, up to 40 feet away, dealing 475 Elemental damage and reducing their Elemental resistance by 378 for 20 seconds.",
+      "cooldown": "10s cooldown",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 409 Elemental damage and reducing their Elemental resistance by 378 for 20 seconds.<BR><BR>1-4 Gork' Waaagh!: Damage increased by 15%.<BR>5 Gork's Waaagh!: Damage increased by 30% and Strikethrough increased by 10%.",
       "category": "Ability"
     },
     {
@@ -1123,7 +1155,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces You Got Nuthin's cooldown time by 10 seconds.",
+      "description": "Reduces You Got Nuthin's cooldown time by 10 seconds and deals an additional 390 Elemental damage over 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1137,8 +1169,8 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
-      "note": "Gork's Waaagh! reduces cast time and cost.",
-      "description": "Deals 396 Elemental damage and silences your target, making them unable to use magic for 5 seconds.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "Deals 396 Elemental damage and silences your target, making them unable to use magic for 5 seconds.<BR><BR>1-4 Gork's Waaagh!: Strikethrough increased by 10%.<BR>5 Gork's Waaagh!: Becomes undefendable.",
       "category": "Ability"
     },
     {
@@ -1153,7 +1185,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Don' Feel Nuthin will also cause your target to deal 15% more damage as long as the barrier is protecting them.<BR>Does not affect damage procs.",
+      "description": "Don' Feel Nuthin will also cause your target to deal 15% more damage as long as the barrier is protecting them. This effect will linger for 5 seconds after the barrier is removed.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -1167,23 +1199,23 @@
       "range": "80ft range",
       "incant": "2.0s cast",
       "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time and cost.",
-      "description": "A surge of Waaaagh explodes from your target and damages up to 4 enemies within 20 feet of them, dealing 377 Elemental damage to each, and  healing your defensive target and allies within 20 feet of them for 1125 health, plus 50% of the total inflicted damage.<BR><BR>When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.",
+      "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
+      "description": "A surge of Waaaagh explodes from your target and damages up to 4 enemies within 20 feet of them, dealing 274 Elemental damage to each, and  healing your defensive target and allies within 20 feet of them for 886 health, plus 50% of the total inflicted damage. When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: Instant cast.",
       "category": "Ability"
     },
     {
-      "id": 1972,
-      "image": "https://armory.returnofreckoning.com/icon/2588",
-      "name": "Steal Yer Thunder",
-      "type": "Debuff",
+      "id": 32086,
+      "image": "https://armory.returnofreckoning.com/icon/2408",
+      "name": "Revenge of Da Green",
+      "type": "Healing",
       "spec": "Path of Da Green",
       "minrank": "31",
       "cost": "Rank 4 morale",
-      "range": "100ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Reduces the stats of all enemies within 25 feet of your target by 40 (except wounds), and increases all your groupmember's stats by 40 (except wounds) for 15 seconds",
+      "description": "For the next 10 seconds anytime any group member within 100 feet is attacked, they are healed for 300 health and the attacker loses 300 morale. This effect can only occur once per second per ally. Enemies can only lose morale once every second.",
       "category": "Morale"
     }
   ]

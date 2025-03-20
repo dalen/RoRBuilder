@@ -149,7 +149,7 @@
       "incant": "15s cast",
       "cooldown": "5m cooldown",
       "note": "Only usable on Doors",
-      "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
+      "description": "Repairs a friendly keep door for 5% of its total health over 15 seconds.",
       "category": "Ability"
     },
     {
@@ -209,7 +209,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
+      "description": "You enrage your opponent, interrupting any currently building abilities and increasing their hate towards you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -524,7 +524,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shield Of The Sun and Perseverance will now cool down 50% faster.",
+      "description": "Shield Of The Sun and Perseverance will have their cooldown time reduced by 50%.",
       "category": "CareerTactic"
     },
     {
@@ -704,7 +704,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You sweep your blade out in a wide arc, dealing 109 damage to all enemies 25 feet in front of you, and reducing their Wounds by 120.",
+      "description": "You sweep your blade out in a wide arc, dealing 109 damage to all enemies 25 feet in front of you, and reducing their Wounds by 120 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -749,7 +749,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Arcing Swing will now additionally make enemies 10% more likely to be critically hit.",
+      "description": "Arcing Swing will now additionally increase the target's chance to be critically hit by 10%.",
       "category": "CareerTactic"
     },
     {
@@ -914,7 +914,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shield Rush will now also increase your chance to parry by 15%.",
+      "description": "Shield Rush and Sunder will now also increase your chance to parry by 20% for 20 seconds.",
       "category": "CareerTactic"
     },
     {

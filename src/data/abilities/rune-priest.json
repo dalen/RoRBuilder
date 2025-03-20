@@ -18,13 +18,15 @@
     592,
     690,
     714,
+    32073,
+    32584,
     695,
     1592,
     1623,
     716,
     696,
     1605,
-    588,
+    32070,
     1622,
     1643,
     589,
@@ -49,7 +51,7 @@
         "lvl1": 1634,
         "lvl2": 1612,
         "lvl3": 1632,
-        "lvl4": 1611,
+        "lvl4": 1614,
         "lvl5": 1633,
         "lvl6": 1613,
         "lvl7": 1648
@@ -59,7 +61,8 @@
         1587,
         1591,
         1594,
-        1596
+        1596,
+        1611
       ]
     },
     "b": {
@@ -71,9 +74,9 @@
         "lvl1": 1635,
         "lvl2": 1615,
         "lvl3": 1636,
-        "lvl4": 1614,
+        "lvl4": 1616,
         "lvl5": 1637,
-        "lvl6": 1616,
+        "lvl6": 32066,
         "lvl7": 1649
       },
       "coreAbilities": [
@@ -210,7 +213,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You call upon a regenerative rune, restoring 1700 health over 15 seconds to your target.",
+      "description": "You call upon a regenerative rune, restoring 1520 health over 15 seconds to your target.",
       "category": "Ability"
     },
     {
@@ -300,7 +303,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
+      "description": "You deal 25% more damage, but your healing output is reduced by 20%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -315,7 +318,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your casted heals become 20% less effective.<BR>Does not affect damage procs.",
+      "description": "You deal 25% more damage, but your healing output is reduced by 20%.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
@@ -360,7 +363,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for half of the damage dealt.",
+      "description": "Your target suffers 1200 damage over 9 seconds, and you are healed for half of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -376,6 +379,36 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Increases your Corporeal resistance by 252.",
+      "category": "CareerTactic"
+    },
+    {
+      "id": 32073,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Blazing Runes",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "20",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "When casting Rune of Fire you, prepare for your next blazing rune within 10 seconds, increasing the damage of your next Rune of Immolation, Rune of Fire, or Rune of Burning by 25%.",
+      "category": "CareerTactic"
+    },
+    {
+      "id": 32584,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Rune of Wrath and Ruin",
+      "type": "Damaging",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Your Ancestor Rune no longer heals group members, instead it causes the earth to crack, venting forth fire and sulphur, dealing (150 + 0.75*DB) Elemental damage every 3 seconds to all enemies with 25 feet.",
       "category": "CareerTactic"
     },
     {
@@ -469,9 +502,9 @@
       "category": "Ability"
     },
     {
-      "id": 588,
+      "id": 32070,
       "image": "https://armory.returnofreckoning.com/icon/22709",
-      "name": "Subtlety",
+      "name": "Sacrificial Renewal",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "25",
@@ -480,7 +513,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Enemy monsters will hate you 25% less than normal.",
+      "description": "Whenever you critically heal an ally, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
       "category": "CareerTactic"
     },
     {
@@ -510,7 +543,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Inflicts 600 damage to the target and reduces their Action Points by 200.",
+      "description": "Inflicts 600 damage to the target and they will take an additional 1 second to build up all abilities for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -538,9 +571,9 @@
       "cost": "35 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "3m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increases the target group member's Wounds by 160 for 60 seconds, healing them for the value of the additional HP gained.",
+      "description": "Increases target's Wounds by 160 for 30 seconds, healing them for the value of the additional HP gained.",
       "category": "Ability"
     },
     {
@@ -605,8 +638,8 @@
     },
     {
       "id": 1645,
-      "image": "https://armory.returnofreckoning.com/icon/4535",
-      "name": "Rune of Rebirth",
+      "image": "https://armory.returnofreckoning.com/icon/4644",
+      "name": "Valaya's Shield",
       "type": "Healing",
       "spec": "Core Ability",
       "minrank": "36",
@@ -615,7 +648,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Self Heal for 1200 then an additional 2403 health over 9 seconds.",
+      "description": "You gain a shield that absorbs 3600 damage over 15 seconds. Each group member within 100 feet will be healed for 1800 health over 9 seconds.",
       "category": "Morale"
     },
     {
@@ -667,7 +700,7 @@
       "id": 697,
       "image": "https://armory.returnofreckoning.com/icon/23150",
       "name": "Alter Fate",
-      "type": "Buff",
+      "type": "Healing",
       "spec": "Core Ability",
       "minrank": "40",
       "cost": "Rank 4 morale",
@@ -675,7 +708,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 428 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Restores 1800 health to all group members within 100 feet and increases your outgoing healing by 35% for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -750,7 +783,22 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your rune infuses the target with vitality, restoring 1258 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
+      "description": "Your rune infuses the target with vitality, restoring 1126 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
+      "category": "Ability"
+    },
+    {
+      "id": 1611,
+      "image": "https://armory.returnofreckoning.com/icon/4559",
+      "name": "Rune of Fortune",
+      "type": "Damaging",
+      "spec": "Path of Grungni",
+      "minrank": "25",
+      "cost": "30 Action Points",
+      "range": "100ft range",
+      "incant": "2.0s cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Deals 388 Elemental damage to your target and heals your defensive target for 150% of the damage dealt.",
       "category": "Ability"
     },
     {
@@ -799,18 +847,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1611,
-      "image": "https://armory.returnofreckoning.com/icon/4559",
-      "name": "Rune of Fortune",
+      "id": 1614,
+      "image": "https://armory.returnofreckoning.com/icon/4639",
+      "name": "Rune of Burning",
       "type": "Damaging",
       "spec": "Path of Grungni",
       "minrank": "25",
-      "cost": "30 Action Points",
+      "cost": "13 Action Points / Sec",
       "range": "100ft range",
-      "incant": "2.0s cast",
-      "cooldown": "No cooldown",
+      "incant": "6.0s cast",
+      "cooldown": "11s cooldown",
       "note": "",
-      "description": "Deals 438 Elemental damage to your target and heals your defensive target for 150% of the damage dealt.",
+      "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1890 Elemental damage over 6 seconds and snaring them by 40% for as long as you maintain your concentration.",
       "category": "Ability"
     },
     {
@@ -892,7 +940,7 @@
       "id": 1599,
       "image": "https://armory.returnofreckoning.com/icon/4503",
       "name": "Rune of Mending",
-      "type": "Healing",
+      "type": "Blessing",
       "spec": "Path of Valaya",
       "minrank": "10",
       "cost": "45 Action Points",
@@ -900,7 +948,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Restores 370 health, then continues to restore 445 health over 5 seconds. This ability will continue to build up even if you move.",
+      "description": "Restores 309 health, then continues to restore 375 health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -979,18 +1027,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1614,
-      "image": "https://armory.returnofreckoning.com/icon/4639",
-      "name": "Rune of Burning",
-      "type": "Damaging",
+      "id": 1616,
+      "image": "https://armory.returnofreckoning.com/icon/4500",
+      "name": "Rune of Fate",
+      "type": "Ailment",
       "spec": "Path of Valaya",
-      "minrank": "25",
-      "cost": "13 Action Points / Sec",
+      "minrank": "29",
+      "cost": "30 Action Points",
       "range": "100ft range",
-      "incant": "6.0s cast",
-      "cooldown": "11s cooldown",
+      "incant": "Instant cast",
+      "cooldown": "15s cooldown",
       "note": "",
-      "description": "You channel a powerful series of runes around your target which project searing flame into them, dealing 1890 Elemental damage over 6 seconds and snaring them by 40% for as long as you maintain your concentration.",
+      "description": "Deals 1896 Elemental damage over 24 seconds and heals your defensive target for 150% of the damage dealt.",
       "category": "Ability"
     },
     {
@@ -1009,24 +1057,24 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1616,
-      "image": "https://armory.returnofreckoning.com/icon/4500",
-      "name": "Rune of Fate",
+      "id": 32066,
+      "image": "https://armory.returnofreckoning.com/icon/4695",
+      "name": "Rune of Fulmination",
       "type": "Ailment",
       "spec": "Path of Valaya",
       "minrank": "29",
-      "cost": "30 Action Points",
+      "cost": "45 Action Points",
       "range": "100ft range",
-      "incant": "Instant cast",
+      "incant": "2.5s cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "Deals 1896 Elemental damage over 24 seconds and heals your defensive target for 150% of the damage dealt.",
+      "description": "You deal 461 Elemental damage to your target and an additional 970 Elemental damage over 5 seconds. If your target is affected by Rune of Immolation, they will have their Elemental Resistance reduced by 378 for 5 seconds.",
       "category": "Ability"
     },
     {
       "id": 1649,
-      "image": "https://armory.returnofreckoning.com/icon/4644",
-      "name": "Valaya's Shield",
+      "image": "https://armory.returnofreckoning.com/icon/4535",
+      "name": "Rune of Rebirth",
       "type": "Healing",
       "spec": "Path of Valaya",
       "minrank": "31",
@@ -1035,7 +1083,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Heals your groupmates within 100 feet 2394 health over 15 seconds and gives 375 Action Points over 15 seconds",
+      "description": "Heals your groupmates within 100 feet 3600 health over 15 seconds and gives 375 Action Points over 15 seconds",
       "category": "Morale"
     },
     {
@@ -1080,7 +1128,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Heals your target for 729 health over 9 seconds, and will then bounce to and heal other allies within 30 feet of the previous target. This effect will not apply itself to the same target more than once, and will heal up to 6 people.",
+      "description": "Heals your target for 783 health over 9 seconds, and will then bounce to and heal other allies within 30 feet of the previous target. This effect will not apply itself to the same target more than once, and will heal up to 6 people.",
       "category": "Ability"
     },
     {
@@ -1110,7 +1158,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "A burst of force erupts from your rune, dealing 660 Elemental damage over 9 seconds to targets 40 feet in front of you.",
+      "description": "A burst of force erupts from your rune, dealing 648 Elemental damage over 9 seconds to targets 40 feet in front of you.",
       "category": "Ability"
     },
     {
