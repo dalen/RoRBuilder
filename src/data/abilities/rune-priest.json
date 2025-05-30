@@ -18,6 +18,8 @@
     592,
     690,
     714,
+    32583,
+    35586,
     32073,
     32584,
     695,
@@ -49,7 +51,7 @@
       },
       "optionalAbilities": {
         "lvl1": 1634,
-        "lvl2": 1612,
+        "lvl2": 35588,
         "lvl3": 1632,
         "lvl4": 1614,
         "lvl5": 1633,
@@ -72,7 +74,7 @@
       },
       "optionalAbilities": {
         "lvl1": 1635,
-        "lvl2": 1615,
+        "lvl2": 35587,
         "lvl3": 1636,
         "lvl4": 1616,
         "lvl5": 1637,
@@ -94,7 +96,7 @@
       },
       "optionalAbilities": {
         "lvl1": 1638,
-        "lvl2": 1618,
+        "lvl2": 35589,
         "lvl3": 1640,
         "lvl4": 1617,
         "lvl5": 1639,
@@ -382,6 +384,36 @@
       "category": "CareerTactic"
     },
     {
+      "id": 32583,
+      "image": "https://armory.returnofreckoning.com/icon/4560",
+      "name": "Runic Conduit",
+      "type": "Defensive",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "15 Action Points",
+      "range": "80ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "You inscribe a Runic Conduit into the ground that infuses your group, restoring 152 health health every 3 seconds to those within 50 feet of the Runic Conduit. To maintain your Runic Conduit, you have to remain within 150 feet and your Action Point regeneration is reduced by 5.",
+      "category": "Ability"
+    },
+    {
+      "id": 35586,
+      "image": "https://armory.returnofreckoning.com/icon/4697",
+      "name": "Cancel Runic Conduit",
+      "type": "Defensive",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Requires an active Runic Conduit",
+      "description": "Cancel your current Runic Conduit.",
+      "category": "Ability"
+    },
+    {
       "id": 32073,
       "image": "https://armory.returnofreckoning.com/icon/22704",
       "name": "Blazing Runes",
@@ -408,7 +440,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Ancestor Rune no longer heals group members, instead it causes the earth to crack, venting forth fire and sulphur, dealing (150 + 0.75*DB) Elemental damage every 3 seconds to all enemies with 25 feet.",
+      "description": "Your Runic Conduit no longer heals group members, instead it causes the earth to crack, venting forth fire and sulphur, dealing 184 Elemental damage every 3 seconds to all enemies within 25 feet.",
       "category": "CareerTactic"
     },
     {
@@ -513,7 +545,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically heal an ally, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
+      "description": "Whenever you critically heal an ally with a direct healing ability, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
       "category": "CareerTactic"
     },
     {
@@ -792,7 +824,7 @@
       "name": "Rune of Fortune",
       "type": "Damaging",
       "spec": "Path of Grungni",
-      "minrank": "25",
+      "minrank": "9",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "2.0s cast",
@@ -817,18 +849,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1612,
+      "id": 35588,
       "image": "https://armory.returnofreckoning.com/icon/4637",
       "name": "Master Rune of Fury",
       "type": "Buff",
       "spec": "Path of Grungni",
       "minrank": "21",
       "cost": "35 Action Points",
-      "range": "80ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "You may only have 1 Master Rune active",
-      "description": "Inscribes a Master rune into the ground for 30 seconds. Groupmates within the 100 feet of the Rune of Fury have a 20% chance to gain 50 AP whenever they activate an ability.",
+      "note": "Requires an active Runic Conduit<br>You may only have 1 Master Rune active",
+      "description": "You bind the Master Rune of Fury to your Runic Conduit. Group members within 50 feet of your Runic Conduit gain 50 Action Points and the Action Point cost of their abilities is reduced by 25% for 10 seconds if they remain within 50 feet of the Runic Conduit.",
       "category": "Ability"
     },
     {
@@ -997,18 +1029,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1615,
-      "image": "https://armory.returnofreckoning.com/icon/4640",
-      "name": "Master Rune of Speed",
+      "id": 35587,
+      "image": "https://armory.returnofreckoning.com/icon/4539",
+      "name": "Master Rune of Stability",
       "type": "Buff",
       "spec": "Path of Valaya",
       "minrank": "21",
       "cost": "35 Action Points",
-      "range": "80ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "You may only have 1 Master Rune active",
-      "description": "Inscribes a Master rune into the ground for 30 seconds. Groupmates within 100 feet of the Rune of Speed have their buildup times reduced by 0.25 seconds.",
+      "note": "Requires an active Runic Conduit<br>You may only have 1 Master Rune active",
+      "description": "You bind the Master Rune of Stability to your Runic Conduit. Group members within 50 feet of your Runic Conduit will instantly be freed from any snaring effects and for the next 10 seconds, group members within 50 feet of your Runic Conduit have their Toughness increased by 240.\n",
       "category": "Ability"
     },
     {
@@ -1032,7 +1064,7 @@
       "name": "Rune of Fate",
       "type": "Ailment",
       "spec": "Path of Valaya",
-      "minrank": "29",
+      "minrank": "25",
       "cost": "30 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -1177,18 +1209,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1618,
+      "id": 35589,
       "image": "https://armory.returnofreckoning.com/icon/4502",
-      "name": "Master Rune of Adamant",
+      "name": "Master Rune of Adament",
       "type": "Healing",
       "spec": "Path of Grimnir",
       "minrank": "21",
       "cost": "35 Action Points",
-      "range": "80ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "You may only have 1 Master Rune active",
-      "description": "Inscribes a Master rune into the ground for 30 seconds. Heals Groupmates within 100 feet of the Rune of Adamant for 213 health every 3 seconds while the Master rune is active.",
+      "note": "Requires an active Runic Conduit<br>You may only have 1 Master Rune active",
+      "description": "You bind the Master Rune of Adamant to your Runic Conduit. All allies within 25 feet of your Master Rune gain 512 health. For the next 10 seconds, group members within 50 feet of your Master Rune of Grungni will be periodically cleansed, removing up to one Curse or Ailment every 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1217,7 +1249,7 @@
       "range": "150ft range",
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
-      "note": "",
+      "note": "Only usable on a non-stealthed player<br>Target can only be affected by one Rune of Battle",
       "description": "Buffs you or a friendly player with a pulsing area of effect that deals 375 Elemental damage every 3 seconds to all enemies within to 25 feet for 15 seconds.",
       "category": "Ability"
     },

@@ -840,7 +840,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that damages and knocks down your primary target for 0 seconds and deals damage to all other enemies near them, reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  204 damage, 10 feet radius.<BR>   2 Accusations:  265 damage, 10 feet radius.<BR>   3 Accusations:  329 damage, 10 feet radius.<BR>   4 Accusations:  391 damage, 10 feet radius.<BR>   5 Accusations:  452 damage, 10 feet radius.",
+      "description": "A pistol shot that damages and knocks down your primary target for 3 seconds and deals damage to all other enemies near them, reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  204 damage, 25 feet radius.<BR>   2 Accusations:  265 damage, 30 feet radius.<BR>   3 Accusations:  329 damage, 35 feet radius.<BR>   4 Accusations:  391 damage, 40 feet radius.<BR>   5 Accusations:  452 damage, 45 feet radius.",
       "category": "Ability"
     },
     {

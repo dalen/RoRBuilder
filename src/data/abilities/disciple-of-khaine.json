@@ -502,7 +502,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically heal an ally, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
+      "description": "Whenever you critically heal an ally with a direct healing ability, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
       "category": "CareerTactic"
     },
     {
@@ -997,7 +997,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires 25 Soul Essence<br>Requires Dual Wield",
-      "description": "Curses all targets within 25 feet of you for 444 over 9 seconds.",
+      "description": "Curses all targets within 25 feet of you for 444 over 9 seconds. Increases your chance to critically hit affected enemies with Essence Lash by 10%.",
       "category": "Ability"
     },
     {
@@ -1051,13 +1051,13 @@
       "name": "Wracking Agony",
       "type": "Damaging",
       "spec": "Path of Torture",
-      "minrank": "29",
+      "minrank": "25",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires 40 Soul Essence<br>Target must be below 50% health<br>Requires Dual Wield",
-      "description": "Deals 502 damage and to a wounded foe. If you are Drowning in Blood, you will almost always deal critical damage. If this ability lands a killing blow on your enemy, you gain 50% increased movement speed for 5 seconds.",
+      "description": "Deals 502 damage and to a wounded foe. If you are Drowning in Blood, you will almost always deal critical damage and won't require any Soul Essence. If this ability lands a killing blow on your enemy, you gain 50% increased movement speed for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1282,7 +1282,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires 75 Soul Essence",
-      "description": "You envelop yourself or an ally in a devouring aura, they will deal 414 damage over 5 seconds to up to 4 enemies within 20 feet and receive a blessing that heals them for 150% of all the damage dealt.",
+      "description": "You envelop yourself or an ally in a devouring aura, up to 4 enemies within 20 feet take 69 damage each second for 5 seconds. Your ally is healed 150% of all the damage dealt.",
       "category": "Ability"
     },
     {
@@ -1297,7 +1297,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the base heal of Transfer Essence, Consume Essence, Khaine’s Force and Khaine’s Encouragement by 50%. Increases the lifetap healing from Rend Soul by 30%",
+      "description": "Increases the base heal of Transfer Essence, Consume Essence and Khaine’s Force by 50%. Rend Soul will now heal your allied target for 186 health every tick.",
       "category": "CareerTactic"
     },
     {
@@ -1311,8 +1311,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Builds 20 Soul Essence",
-      "description": "You strike your enemy for 164 damage and heal your friendly target for 148 health. This attack buffs your next casted healing ability by 35% for 15 seconds.",
+      "note": "Builds 35 Soul Essence",
+      "description": "You strike your enemy for 164 damage and surround your ally by a barrier, absorbing up to 1387 damage over 10 seconds. This attack buffs your next casted healing ability by 35% for 15 seconds.",
       "category": "Ability"
     },
     {

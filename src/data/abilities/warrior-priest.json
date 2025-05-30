@@ -503,7 +503,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically heal an ally, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
+      "description": "Whenever you critically heal an ally with a direct healing ability, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
       "category": "CareerTactic"
     },
     {
@@ -782,7 +782,7 @@
       "name": "Divine Light",
       "type": "Blessing",
       "spec": "Path of Salvation",
-      "minrank": "21",
+      "minrank": "19",
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
@@ -1088,7 +1088,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the base heal of Sigmar's Radiance, Divine Strike, Sigmar's Will and Benediction by 50%. Increases the lifetap healing from Divine Assault by 30%. ",
+      "description": "Increases the base heal of Sigmar's Radiance, Divine Strike and Sigmar's Will by 50%. Divine Assault will now heal your allied target for 186 health every tick.",
       "category": "CareerTactic"
     },
     {
@@ -1102,8 +1102,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Builds 20 Righteous Fury",
-      "description": "You strike your enemy for 164 damage and heal your friendly target for 148 health. This attack buffs your next casted healing ability by 35% for 15 seconds.",
+      "note": "Builds 35 Righteous Fury",
+      "description": "You strike your enemy for 164 damage and surround your ally with a barrier, absorbing up to 1387 damage over 10 seconds. This attack buffs your next casted healing ability by 35% for 15 seconds.",
       "category": "Ability"
     },
     {
@@ -1217,13 +1217,13 @@
       "name": "Soulfire",
       "type": "Curse",
       "spec": "Path of Wrath",
-      "minrank": "21",
+      "minrank": "20",
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon<br>Requires 25 Righteous Fury",
-      "description": "Deals 555 Spirit damage over 9 seconds to all enemies within 25 feet.",
+      "description": "Deals 555 Spirit damage over 9 seconds to all enemies within 25 feet. Increases your chance to critically hit affected enemies with Smite by 10%.",
       "category": "Ability"
     },
     {
@@ -1294,11 +1294,11 @@
       "spec": "Path of Wrath",
       "minrank": "25",
       "cost": "No AP Cost",
-      "range": "5ft range",
+      "range": "15ft range",
       "incant": "2.0s cast",
       "cooldown": "10s cooldown",
       "note": "Requires Great Weapon<br>Requires 40 Righteous Fury",
-      "description": "A devastating attack which deals 519 Spirit damage and reduces the targets ability to parry or block by 10% for 10 seconds. You cannot be set back.",
+      "description": "A devastating undefendable attack which deals 519 Spirit damage and reduces the targets ability to parry or block by 10% for 10 seconds. You cannot be set back.",
       "category": "Ability"
     },
     {

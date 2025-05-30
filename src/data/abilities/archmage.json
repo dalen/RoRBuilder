@@ -101,8 +101,8 @@
         9257,
         9268,
         9241,
-        9240,
-        9252
+        9252,
+        9240
       ]
     }
   },
@@ -299,7 +299,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When casting your first spell after reaching 5 Tranquillity, your Critical Damage and Critical Healing is increased by 50% for 5 seconds. When casting your first spell after reaching 5 Force, your Intelligence and Willpower is increased by 240 for 5 seconds.",
+      "description": "When consuming 5 Tranquillity points, your Critical Damage and Critical Healing is increased by 50% for 5 seconds. When consuming 5 Force points, your Intelligence and Willpower is increased by 240 for 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -479,7 +479,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically heal an ally, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
+      "description": "Whenever you critically heal an ally with a direct healing ability, you increase the power of your heals by 15% for 5 seconds, but you also take 10% more damage from all sources.",
       "category": "CareerTactic"
     },
     {
@@ -554,7 +554,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift Of Life now resurrects allies instantly, but stuns you for 0 seconds.",
+      "description": "Gift Of Life now resurrects allies instantly, but stuns you for 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -758,7 +758,7 @@
       "name": "Mistress of The Marsh",
       "type": "Debuff",
       "spec": "Path of Isha",
-      "minrank": "25",
+      "minrank": "21",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
@@ -773,7 +773,7 @@
       "name": "Apotheosis",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "27",
+      "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -788,7 +788,7 @@
       "name": "Funnel Essence",
       "type": "Healing",
       "spec": "Path of Isha",
-      "minrank": "29",
+      "minrank": "25",
       "cost": "20 Action Points / Sec",
       "range": "150ft range",
       "incant": "3.0s cast",
@@ -803,7 +803,7 @@
       "name": "Wild Healing",
       "type": "Buff",
       "spec": "Path of Isha",
-      "minrank": "23",
+      "minrank": "27",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
@@ -1003,8 +1003,8 @@
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "20s cooldown",
-      "note": "Builds Force<br>Tranquility increases effectiveness.",
-      "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds.  Every 1 seconds, all enemies within 25 feet of them will suffer 212 Spirit damage.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: 50% Cast Time reduction and radius increased by 50%.",
+      "note": "Builds Force<br>Tranquility increases effectiveness.<br>Only usable on a non-stealthed player<br>Target can only be affected by one Dissipating Energies",
+      "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds.  Every 1 seconds, all enemies within 25 feet of them will suffer 212 Spirit damage.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: 50% Cast Time reduction and duration increased by 2 seconds.",
       "category": "Ability"
     },
     {
@@ -1068,33 +1068,33 @@
       "category": "Ability"
     },
     {
-      "id": 9240,
-      "image": "https://armory.returnofreckoning.com/icon/13344",
-      "name": "Rain Lord",
-      "type": "Hex",
-      "spec": "Path of Vaul",
-      "minrank": "30",
-      "cost": "30 Action Points",
-      "range": "100ft range",
-      "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "Builds Tranquility<br>Force increases effectiveness.",
-      "description": "Your target and all other enemies within 20 feet of them have their Intelligence, Strength and Ballistic Skill reduced by 120 for 20 seconds.<BR><BR>1-4 Force: Strikethrough increased by 10%.<BR>5 Force: Strikethrough increased by 20% and increase the Strength, Ballistic Skill and Intelligence of group members within 100 feet by 120 for 20 seconds.",
-      "category": "Ability"
-    },
-    {
       "id": 9252,
       "image": "https://armory.returnofreckoning.com/icon/13356",
       "name": "Law of Age",
       "type": "Hex",
       "spec": "Path of Vaul",
-      "minrank": "40",
+      "minrank": "30",
       "cost": "20 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds Tranquility<br>Force increases effectiveness.",
       "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 120 for 20 seconds.<BR><BR>1-4 Force: Strikethrough increased by 10%.<BR>5 Force: Strikethrough increased by 20% and radius increased by 50%.",
+      "category": "Ability"
+    },
+    {
+      "id": 9240,
+      "image": "https://armory.returnofreckoning.com/icon/13344",
+      "name": "Rain Lord",
+      "type": "Hex",
+      "spec": "Path of Vaul",
+      "minrank": "39",
+      "cost": "30 Action Points",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Builds Tranquility<br>Force increases effectiveness.",
+      "description": "Your target and all other enemies within 20 feet of them have their Intelligence, Strength and Ballistic Skill reduced by 120 for 20 seconds.<BR><BR>1-4 Force: Strikethrough increased by 10%.<BR>5 Force: Strikethrough increased by 20% and increase the Strength, Ballistic Skill and Intelligence of group members within 100 feet by 120 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1109,7 +1109,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Balance Essence now has a Base heal of 656 health and Transfer Force has a Base heal of 138 health every 3 seconds. Balance Essence can be cast while moving, but the damage output from Balance Essence and Transfer Force is reduced by 50%.",
+      "description": "Balance Essence now has a Base heal of 656 health and Transfer Force heals your friendly target for  1242 health over 24 seconds. Balance Essence can be cast while moving, but the damage output from Balance Essence and Transfer Force is reduced by 50%.",
       "category": "CareerTactic"
     },
     {
@@ -1139,7 +1139,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever one of your damaging spells hits an enemy, your defensive target will become healed for 33% of the damage that you dealt. Balance Essence and Tranfer Force have a 10% reduced chance to be defended against. ",
+      "description": "Whenever one of your damaging spells hits an enemy, your defensive target will become healed for 33% of the damage that you dealt. Balance Essence and Transfer Force have a 10% reduced chance to be defended against. ",
       "category": "CareerTactic"
     },
     {
@@ -1181,10 +1181,10 @@
       "minrank": "29",
       "cost": "50 Action Points",
       "range": "80ft range",
-      "incant": "2.0s cast",
+      "incant": "1.5s cast",
       "cooldown": "5s cooldown",
       "note": "Builds Force<br>Tranquility increases effectiveness.",
-      "description": "A wash of power leeches the breath from your target and up to four other enemies within 20 feet of them, dealing 274 Spirit damage to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for 886 health, plus 50% of the total inflicted damage. When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: Instant cast.",
+      "description": "A wash of power leeches the breath from your target and up to four other enemies within 20 feet of them, dealing 274 Spirit damage to each. Then healing your defensive target and allies within 20 feet of them for 886 health, plus 50% of the total inflicted damage. When casting this ability, you will focus your power into ensuring a hit rather than for maximum damage, causing it to be 20% less likely to be Blocked or Disrupted.<BR><BR>1-4 Tranquility: 25% Cast Time reduction.<BR>5 Tranquility: Instant cast.",
       "category": "Ability"
     },
     {
