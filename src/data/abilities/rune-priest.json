@@ -560,7 +560,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each tick of Rune of Regeneration has a 25% chance to increase the target's armor by 1056 for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
+      "description": "Each tick of Rune of Regeneration has a 25% chance to increase the target's armor by 594 for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
       "category": "CareerTactic"
     },
     {
@@ -605,7 +605,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increases target's Wounds by 160 for 30 seconds, healing them for the value of the additional HP gained.",
+      "description": "Increases target's Wounds by 150 for 30 seconds, healing them for the value of the additional HP gained.",
       "category": "Ability"
     },
     {
@@ -635,7 +635,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increases the armor of all group mates within 100 feet by 1320 and resists by 504 for 10 seconds.",
+      "description": "Increases the armor of all group mates within 100 feet by 1320 and resists by 480 for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -725,7 +725,7 @@
       "incant": "Instant cast",
       "cooldown": "10m cooldown",
       "note": "",
-      "description": "Increases the targeted group member's Toughness by 80 for 1 hour. The rune holder will then be able to resurrect themselves with 20% health if killed within the next 10 minutes. Doing so will remove the Oath Rune.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the targeted group member's Toughness by 100 for 1 hour. The rune holder will then be able to resurrect themselves with 20% health if killed within the next 10 minutes. Doing so will remove the Oath Rune.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -785,7 +785,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by 80 for 1 hour. The rune holder may activate to on their next attack deal an additional 620 Elemental damage over 5 seconds and reduce the victim’s run speed by 20%.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the target group member's Strength, Ballistic Skill, and Intelligence by 100 for 1 hour. The rune holder may activate to on their next attack deal an additional 620 Elemental damage over 5 seconds and reduce the victim’s run speed by 20%.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -995,7 +995,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the targeted group member's Initiative and Willpower by 80 for 1 hour. The rune holder may activate it to cleanse one Curse, one Hex and one Ailment from themselves.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases the targeted group member's Initiative and Willpower by 100 for 1 hour. The rune holder may activate it to cleanse one Curse, one Hex and one Ailment from themselves.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -1040,7 +1040,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Requires an active Runic Conduit<br>You may only have 1 Master Rune active",
-      "description": "You bind the Master Rune of Stability to your Runic Conduit. Group members within 50 feet of your Runic Conduit will instantly be freed from any snaring effects and for the next 10 seconds, group members within 50 feet of your Runic Conduit have their Toughness increased by 240.\n",
+      "description": "You bind the Master Rune of Stability to your Runic Conduit. Group members within 50 feet of your Runic Conduit will instantly be freed from any snaring effects and for the next 10 seconds, group members within 50 feet of your Runic Conduit have their Toughness increased by 250.\n",
       "category": "Ability"
     },
     {
@@ -1055,7 +1055,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by 120 for 10 seconds.",
+      "description": "Each attack against an active Rune of Shielding will randomly debuff one of the attacker's stats by 100 for 10 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1065,12 +1065,12 @@
       "type": "Ailment",
       "spec": "Path of Valaya",
       "minrank": "25",
-      "cost": "30 Action Points",
+      "cost": "35 Action Points",
       "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "15s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "Deals 1896 Elemental damage over 24 seconds and heals your defensive target for 150% of the damage dealt.",
+      "description": "Deals 1195 Elemental damage over 15 seconds and heals your defensive target for 150% of the damage dealt.",
       "category": "Ability"
     },
     {
@@ -1098,9 +1098,9 @@
       "cost": "45 Action Points",
       "range": "100ft range",
       "incant": "2.5s cast",
-      "cooldown": "15s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "You deal 461 Elemental damage to your target and an additional 970 Elemental damage over 5 seconds. If your target is affected by Rune of Immolation, they will have their Elemental Resistance reduced by 378 for 5 seconds.",
+      "description": "You deal 461 Elemental damage to your target and an additional 970 Elemental damage over 5 seconds. If your target is affected by Rune of Immolation, they will have their Elemental Resistance reduced by 360 for 5 seconds.",
       "category": "Ability"
     },
     {
@@ -1145,7 +1145,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all of the targeted group member's resistances by 252 for 1 hour. The rune holder may activate it to shield themself, absorbing 1162 damage over 10 seconds.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Increases all of the targeted group member's resistances by 240 for 1 hour. The rune holder may activate it to shield themself, absorbing 1162 damage over 10 seconds.<BR>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -1205,7 +1205,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rune of Cleaving grows ever more potent and now also reduces Armor by 990 and Elemental resistance by 378.",
+      "description": "Rune of Cleaving grows ever more potent and now also reduces Armor by 660 and Elemental resistance by 240.",
       "category": "CareerTactic"
     },
     {

@@ -338,7 +338,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increase your Auto Attack damage by 25% and increase the base damage of Bludgeon by 25%.",
+      "description": "Increase your Auto Attack damage by 25% and increase the damage of Bludgeon by 15%",
       "category": "CareerTactic"
     },
     {
@@ -548,7 +548,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increases your target's armor by 1320 and all resistances by 504 for 15 seconds.",
+      "description": "Increases your target's armor by 1320 and all resistances by 480 for 15 seconds.",
       "category": "Morale"
     },
     {
@@ -893,7 +893,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your group mates within 100 feet have their armor increased by 1320, Block, Parry, Dodge and Disrupt by 25, and all Resists by 504 for the next 10 seconds.",
+      "description": "All of your group mates within 100 feet have their armor increased by 1320, Block, Parry, Dodge and Disrupt by 25, and all Resists by 480 for the next 10 seconds.",
       "category": "Morale"
     },
     {
@@ -908,7 +908,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 40 Righteous Fury",
-      "description": "You strike your enemy dealing 202 damage to them. The divine power of Sigmar heals your friendly target for 251 health plus 75% of the damage that you dealt.",
+      "description": "You strike your enemy dealing 202 damage to them. The divine power of Sigmar heals your friendly target for 291 health plus 75% of the damage that you dealt.",
       "category": "Ability"
     },
     {
@@ -923,7 +923,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "A blessed attack which deals 164 damage to your target, and increases your defensive target's Strength by 120 for 20 seconds.",
+      "description": "A blessed attack which deals 164 damage to your target, and increases your defensive target's Strength by 150 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -983,7 +983,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Requires 80 Righteous Fury",
-      "description": "You slam your enemy dealing 239 damage to them. The will of Sigmar allows you to heal your group mates within 100 feet for 389 health plus 100% of the damage dealt.",
+      "description": "You slam your enemy dealing 239 damage to them. The will of Sigmar allows you to heal all allies within 20 feet of your friendly target for 389 health plus 100% of the damage dealt.",
       "category": "Ability"
     },
     {
@@ -998,7 +998,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield or Tome<br>Builds 30 Righteous Fury",
-      "description": "You smash into your enemy dealing 164 damage to them. The power of Sigmar erupts from your weapon, healing group mates within 100 feet for 148 health plus 75% of the damage that you dealt.",
+      "description": "You smash into your enemy dealing 164 damage to them. The power of Sigmar erupts from your weapon, healing group mates within 100 feet for 177 health plus 75% of the damage that you dealt.",
       "category": "Ability"
     },
     {
@@ -1028,7 +1028,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Sigmar's Fist will now also increase your ally's Toughness as well, and will reduce your enemy's Strength and Toughness by 120.",
+      "description": "Sigmar's Fist will now also increase your ally's Toughness as well, and will reduce your enemy's Strength and Toughness by 150.",
       "category": "CareerTactic"
     },
     {
@@ -1073,7 +1073,7 @@
       "incant": "2.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "The might of Sigmar infuses everyone in your group within 80 feet, increasing their Wounds by 80 for 1 hour.",
+      "description": "The might of Sigmar infuses everyone in your group within 100 feet, increasing their Wounds by 50 for 1 hour.",
       "category": "Ability"
     },
     {
@@ -1163,7 +1163,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "A strike that deals 101 damage to your enemy, and an additional 225 damage over 15 seconds, and reduces their Initiative by 120.",
+      "description": "A strike that deals 101 damage to your enemy, and an additional 225 damage over 15 seconds, and reduces their Initiative by 150.",
       "category": "Ability"
     },
     {
@@ -1343,7 +1343,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increases the Strength, Willpower, Toughness, Initiative, Weapon Skill, Ballistic Skill, Intelligence and Wounds of all group mates withing 100 feet by 80 for 30 seconds.",
+      "description": "Increases the Strength, Willpower, Toughness, Initiative, Weapon Skill, Ballistic Skill, Intelligence and Wounds of all group mates withing 100 feet by 100 for 30 seconds.",
       "category": "Morale"
     }
   ]

@@ -167,7 +167,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Scout Stance",
-      "description": "A long-distance bow stance that increases your Ballistic Skill and Initiative by 80 and the range of your bow attacks by 10%.<BR><BR>You may only use a single Stance at a time.",
+      "description": "A long-distance bow stance that increases your Ballistic Skill and Initiative by 100 and the range of your bow attacks by 10%.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability"
     },
     {
@@ -197,7 +197,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Assault Stance",
-      "description": "A close-combat stance which increases your Strength and Weapon Skill by 120, and increases your Armor by the same amount that you receive from items.<BR><BR>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Auto Attack speed is increased by 35%.<BR><BR>You may only use a single Stance at a time.",
+      "description": "A close-combat stance which increases your Strength and Weapon Skill by 100, and increases your Armor by the same amount that you receive from items.<BR><BR>While in Assault Stance your ranged prowess item stats will count towards your melee prowess in a 1 to 1 conversion respectively. Parry chance is increased by 10%, Auto Attack speed is increased by 35%.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability"
     },
     {
@@ -212,7 +212,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Skirmish Stance",
-      "description": "A close-range bow stance that increases your Toughness by 80 and the chance that your bow attacks will critically hit by 5%. You gain the ability to autoattack while moving while in this stance.<BR><BR>You may only use a single Stance at a time.",
+      "description": "A close-range bow stance that increases your Toughness by 100 and the chance that your bow attacks will critically hit by 5%. You gain the ability to autoattack while moving while in this stance.<BR><BR>You may only use a single Stance at a time.",
       "category": "Ability"
     },
     {
@@ -422,7 +422,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grim Slash will now reduce your enemy's Weaponskill by 120 and Initiative by 120 for 20 seconds, and increase your Weaponskill and Initiative by the same amount.",
+      "description": "Grim Slash will now reduce your enemy's Weaponskill by 150 and Initiative by 150 for 20 seconds, and increase your Weaponskill and Initiative by the same amount.",
       "category": "CareerTactic"
     },
     {
@@ -737,7 +737,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A Crippling shot that deals 141 damage,  reduces your target's Initiative by 120 for 10 seconds. This ability will continue to build up even if you move.",
+      "description": "A Crippling shot that deals 141 damage,  reduces your target's Initiative by 150 for 10 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -1112,7 +1112,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Spiral-Fletched Arrow and Broadhead Arrows now hit all enemies within 20 feet of your initial target, but their range is reduced to 65ft and they do 20% less damage..",
+      "description": "Spiral-Fletched Arrow and Broadhead Arrows now hit all enemies within 20 feet of your initial target, but their range is reduced to 65ft and they do 20% less damage.",
       "category": "CareerTactic"
     },
     {

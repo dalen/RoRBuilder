@@ -462,7 +462,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not guard or detaunt abilities.",
       "category": "CareerTactic"
     },
     {
@@ -687,7 +687,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, group member's within 100 feet will have their Weaponskill increased by 40 each time that you hit an enemy with direct damage, and your Initiative will be reduced by 40. This effect can be stacked up to three times.",
+      "description": "For the next 10 seconds, group member's within 100 feet will have their Weaponskill increased by 33 each time that you hit an enemy with direct damage, and your Initiative will be reduced by 33. This effect can be stacked up to three times.",
       "category": "Ability"
     },
     {
@@ -822,7 +822,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A furious slash that deals 253 damage and reduces your target's Toughness by 40 for 9 seconds. This effect is stackable up to three times.",
+      "description": "A furious slash that deals 253 damage and reduces your target's Toughness by 50 for 9 seconds. This effect is stackable up to three times.",
       "category": "Ability"
     },
     {
@@ -942,7 +942,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You devastate your target, dealing 253 damage and reducing your target's Wounds by 160 for 10 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You devastate your target, dealing 253 damage and reducing your target's Wounds by 150 for 10 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
     {
@@ -1032,7 +1032,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your Toughness is increased by 40 for each enemy within 25 feet, up to a maximum of 9 enemies. This effect will fade after 10 seconds.",
+      "description": "Your Toughness is increased by 50 for each enemy within 25 feet, up to a maximum of 9 enemies. This effect will fade after 10 seconds.",
       "category": "Ability"
     },
     {

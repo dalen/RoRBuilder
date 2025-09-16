@@ -877,7 +877,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your group mates within 100 feet have their armor increased by 1320, Block, Parry, Dodge and Disrupt by 25, and all Resists by 504 for the next 10 seconds.",
+      "description": "All of your group mates within 100 feet have their armor increased by 1320, Block, Parry, Dodge and Disrupt by 25, and all Resists by 480 for the next 10 seconds.",
       "category": "Morale"
     },
     {
@@ -922,7 +922,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A gory strike that Curses your enemy, dealing 101 damage initially and another 150 damage over 10 seconds and reducing their Toughness by 120.",
+      "description": "A gory strike that Curses your enemy, dealing 101 damage initially and another 150 damage over 10 seconds and reducing their Toughness by 150.",
       "category": "Ability"
     },
     {
@@ -1117,7 +1117,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds 40 Soul Essence",
-      "description": "You strike your enemy dealing 202 damage to them. Using the force of Khaine, you heal your friendly target for 251 health plus 75% of the damage that you dealt.",
+      "description": "You strike your enemy dealing 202 damage to them. Using the force of Khaine, you heal your friendly target for 291 health plus 75% of the damage that you dealt.",
       "category": "Ability"
     },
     {
@@ -1132,7 +1132,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Builds 25 Soul Essence",
-      "description": "A Crippling attack which deals 164 damage and reduces your enemy's Strength by 80 for 20 seconds. Your defensive target's Strength is increased by 80.",
+      "description": "A Crippling attack which deals 164 damage and reduces your enemy's Strength by 100 for 20 seconds. Your defensive target's Strength is increased by 100. If the target is Cursed, your buff and debuff value is increased to 150 Strength.",
       "category": "Ability"
     },
     {
@@ -1192,7 +1192,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Requires 80 Soul Essence",
-      "description": "You slash your enemy dealing 239 damage to them. Through Khaine, you heal your group mates within 100 feet for 389 health plus 100% of the damage dealt.",
+      "description": "You slash your enemy dealing 239 damage to them. Through Khaine, you heal all allies within 20 feet of your friendly target for 389 health plus 100% of the damage dealt.",
       "category": "Ability"
     },
     {
@@ -1207,7 +1207,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield or Chalice<br>Builds 30 Soul Essence",
-      "description": "An unholy attack which deals 164 damage to your target and spills out a portion of their soul, healing group mates within 100 feet for 148 health plus 75% of the damage that you dealt.",
+      "description": "An unholy attack which deals 164 damage to your target and spills out a portion of their soul, healing group mates within 100 feet for 177 health plus 75% of the damage that you dealt.",
       "category": "Ability"
     },
     {
@@ -1267,7 +1267,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Khaine’s Force now additionally heals all group members within 100 feet for 231 health over 3 seconds.",
+      "description": "Khaine’s Force now additionally heals allies for 231 health over 3 seconds.",
       "category": "CareerTactic"
     },
     {

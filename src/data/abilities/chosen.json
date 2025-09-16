@@ -14,7 +14,6 @@
     611,
     500,
     8339,
-    8352,
     503,
     608,
     8333,
@@ -44,7 +43,7 @@
         "primary": "A mastery path focused on offense"
       },
       "optionalAbilities": {
-        "lvl1": 8361,
+        "lvl1": 8352,
         "lvl2": 8342,
         "lvl3": 8363,
         "lvl4": 8343,
@@ -54,9 +53,9 @@
       },
       "coreAbilities": [
         8316,
+        8324,
         8317,
         8319,
-        8328,
         8334,
         8335
       ]
@@ -77,8 +76,8 @@
       },
       "coreAbilities": [
         8315,
-        8324,
         8318,
+        8328,
         8332,
         8329,
         8337
@@ -320,21 +319,6 @@
       "category": "Ability"
     },
     {
-      "id": 8352,
-      "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "Chaotic Advantage",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "15",
-      "cost": "Tactic",
-      "range": "Self",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time you parry an attack, you will regain 75 Action Points. Tactic can not trigger more than once every 3 seconds.",
-      "category": "CareerTactic"
-    },
-    {
       "id": 503,
       "image": "https://armory.returnofreckoning.com/icon/22702",
       "name": "Rugged",
@@ -376,7 +360,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you for 7 seconds.",
       "category": "Ability"
     },
     {
@@ -466,7 +450,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 25 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "A loud shout that startles your target and all enemies within 25 feet of them, reducing their damage to 60% for 7 seconds.",
       "category": "Morale"
     },
     {
@@ -586,7 +570,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Repel will send the victim flying even further away from you.<BR>If using a Great Weapon Repel's cooldown time is reduced by 50%.",
+      "description": "Reduces the cooldown of Repel by 50%. If wielding a Great Weapon, Repel additionally snares the target by 40% for 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -661,7 +645,22 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 25 feet of you, reducing their Strength by 120. During this time, the Strength of any groupmates within 100 feet is increased by 120.",
+      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 25 feet of you, reducing their Strength by 100. During this time, the Strength of any groupmates within 100 feet is increased by 100.",
+      "category": "Ability"
+    },
+    {
+      "id": 8324,
+      "image": "https://armory.returnofreckoning.com/icon/5255",
+      "name": "Withering Blow",
+      "type": "Curse",
+      "spec": "Path of Dread",
+      "minrank": "3",
+      "cost": "30 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "5s cooldown",
+      "note": "",
+      "description": "You release chaotic energies through your blade, withering your opponent's limbs causing 171 damage and snares your target, reducing their movement speed by 40% for 10 seconds. If you have an active Aura of Dread, you deal an additional 228 Spirit damage over 10 seconds.",
       "category": "Ability"
     },
     {
@@ -695,21 +694,6 @@
       "category": "Ability"
     },
     {
-      "id": 8328,
-      "image": "https://armory.returnofreckoning.com/icon/5255",
-      "name": "Withering Blow",
-      "type": "Damaging",
-      "spec": "Path of Dread",
-      "minrank": "14",
-      "cost": "35 Action Points",
-      "range": "5ft range",
-      "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "",
-      "description": "You release chaotic energies through your blade, withering your opponent's limbs causing 171 damage and removing 30 Action Points.",
-      "category": "Ability"
-    },
-    {
       "id": 8334,
       "image": "https://armory.returnofreckoning.com/icon/5212",
       "name": "Dreadful Agony",
@@ -740,18 +724,18 @@
       "category": "Ability"
     },
     {
-      "id": 8361,
+      "id": 8352,
       "image": "https://armory.returnofreckoning.com/icon/22708",
-      "name": "Feed on the Weary",
+      "name": "Chaotic Advantage",
       "type": "Buff",
-      "spec": "Path of Dread",
+      "spec": "Core Ability",
       "minrank": "17",
       "cost": "Tactic",
       "range": "Self",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Withering Blow will now drain 40 Action Points, and you will gain as many action points as the victim lost.",
+      "description": "Any time you parry an attack, you will regain 75 Action Points. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -796,7 +780,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing 208 damage with each hit.  This effect will end if you break your concentration or run out of action points.",
+      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing 208 damage with each hit.  This effect will end if you break your concentration or run out of action points. The final strike deals 25% more damage for each active Aura of Dread.",
       "category": "Ability"
     },
     {
@@ -826,7 +810,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires Great Weapon",
-      "description": "Your Demonic blade overpowers your enemy's defense causing 184 Spirit damage to all enemies within 25 feet in front of you. This attack is undefendable.",
+      "description": "Your Demonic blade overpowers your enemy's defense causing 184 Spirit damage to all enemies within 25 feet in front of you. This attack is undefendable. The cooldown of Rending Blade is reduced by 1 second for each Active Aura of Dread.",
       "category": "Ability"
     },
     {
@@ -860,21 +844,6 @@
       "category": "Ability"
     },
     {
-      "id": 8324,
-      "image": "https://armory.returnofreckoning.com/icon/5184",
-      "name": "Dizzying Blow",
-      "type": "Curse",
-      "spec": "Path of Corruption",
-      "minrank": "3",
-      "cost": "30 Action Points",
-      "range": "5ft range",
-      "incant": "Instant cast",
-      "cooldown": "5s cooldown",
-      "note": "",
-      "description": "A blow to the head which inflicts 171 damage and snares your target, reducing their movement speed by 40% for 10 seconds.",
-      "category": "Ability"
-    },
-    {
       "id": 8318,
       "image": "https://armory.returnofreckoning.com/icon/5179",
       "name": "Corrupting Wrath",
@@ -886,7 +855,22 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the toughness of all enemies within 25 feet by 120. During this time, group members within 100 feet are emboldened, increasing their toughness by 120.",
+      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the Toughness of all enemies within 25 feet by 100. During this time, group members within 100 feet are emboldened, increasing their Toughness by 100.",
+      "category": "Ability"
+    },
+    {
+      "id": 8328,
+      "image": "https://armory.returnofreckoning.com/icon/5184",
+      "name": "Dizzying Blow",
+      "type": "Damaging",
+      "spec": "Path of Corruption",
+      "minrank": "14",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "A blow to the head which inflicts 171 damage and removes 30 Action Points.",
       "category": "Ability"
     },
     {
@@ -908,7 +892,7 @@
       "id": 8329,
       "image": "https://armory.returnofreckoning.com/icon/5256",
       "name": "Repel",
-      "type": "Damaging",
+      "type": "Curse",
       "spec": "Path of Corruption",
       "minrank": "23",
       "cost": "35 Action Points",
@@ -931,7 +915,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A baneful aura surrounds you for 10 seconds, lashing out for 150 Spirit damage at any enemies who hit you. Targets can only be damaged once every two seconds.",
+      "description": "A baneful aura surrounds you for 10 seconds, lashing out for 150 Spirit damage at any enemies who hit you. Targets can only be damaged once every two seconds. If you have an active Aura of Corruption, you surround group members within 50 feet with a barrier, absorbing up to 937 damage over 10 seconds.",
       "category": "Ability"
     },
     {
@@ -991,7 +975,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "A fierce blow that knocks down your opponent for 3 seconds and inflicts 209 damage.",
+      "description": "A fierce blow that knocks down your opponent for 3 seconds and inflicts 209 damage. The chance of Downfall being defended by the enemy is reduced by 10% for each active Aura of Corruption.",
       "category": "Ability"
     },
     {
@@ -1021,7 +1005,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Block or Parry<br>Requires Shield",
-      "description": "A thunderous shield slam that inflicts  246 damage, increases your armor by 990 for 20 seconds and reduces your damage taken by 15% for 10 seconds. Additionally reduces damage taken by group members within 100ft by 15% for 5 seconds.",
+      "description": "A thunderous shield slam that inflicts  246 damage, increases your armor by 594 for 20 seconds and reduces your damage taken by 15% for 10 seconds. Additionally reduces damage taken by group members within 100ft by 15% for 5 seconds. Durations are increased by 2 seconds for each active Aura of Corruption.",
       "category": "Ability"
     },
     {
@@ -1036,7 +1020,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "In a chaotic surge of growth, everyone in the group's skin hardens, increasing Armor by 1320 and all Resists by 504 for 30 seconds. Everyone receives 100 AP as well.",
+      "description": "In a chaotic surge of growth, everyone in the group's skin hardens, increasing Armor by 1320 and all Resists by 480 for 30 seconds. Everyone receives 100 AP as well.",
       "category": "Morale"
     },
     {
@@ -1081,7 +1065,7 @@
       "incant": "Instant cast",
       "cooldown": "4.5s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 25 feet will have all their resistances reduced by 189. During this time, groupmates within 100 feet have all their resistances increased by 378.",
+      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 25 feet will have all their resistances reduced by 120. During this time, groupmates within 100 feet have all their resistances increased by 240.",
       "category": "Ability"
     },
     {
@@ -1111,7 +1095,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "A great burst of corrupted winds tears at all targets within 20 feet, inflicting 101 damage. If under the effect of a Discordant Aura, Wounds are lowered by 120 for 20 seconds.",
+      "description": "A great burst of corrupted winds tears at all targets within 20 feet, inflicting 495 Spirit damage over 15 seconds . If you have an active Aura of Discord, lower the Wounds of affected enemies by 100 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1186,7 +1170,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "You shake the very earth, dealing 217 Spirit damage to all opponents within 40 feet in front of you, staggering everyone for up to 5 seconds, preventing all actions unless they are damaged.",
+      "description": "You shake the very earth, dealing 217 Spirit damage to all opponents within 40 feet in front of you, staggering everyone for up to 4 seconds, preventing all actions unless they are damaged. The duration of Quake is increased by 0.5 seconds for each active Aura of Discord.",
       "category": "Ability"
     },
     {
@@ -1216,7 +1200,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You increase your disrupt chance by 25% for 10 seconds. During this time, any spell you disrupt will silence its caster for 3 seconds.<BR>Group members within 100 feet become surrounded by a magical barrier absorbing 1162 damage from magic abilities for 10 seconds.",
+      "description": "You increase your disrupt chance by 25% for 10 seconds. During this time, any spell you disrupt will silence its caster for 3 seconds.<BR>Group members within 100 feet become surrounded by a magical barrier absorbing 1162 damage from magic abilities for 10 seconds. When the barrier fades, allies are healed for 337 health for each active Aura of Discord.",
       "category": "Ability"
     },
     {

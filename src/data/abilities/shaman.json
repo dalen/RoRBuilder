@@ -690,7 +690,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all resistances of your group mates within 100 feet by 252 for 1 hour.",
+      "description": "Increases all resistances of your group mates within 100 feet by 240 for 1 hour.",
       "category": "Ability"
     },
     {
@@ -705,7 +705,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
-      "description": "Heals your target for 1125 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: Instant Cast.",
+      "description": "Heals your target for 1125 health.<BR>This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and your ally will deal an additional 112 Elemental damage each time they critically hit for the next 10 seconds.",
       "category": "Ability"
     },
     {
@@ -735,7 +735,7 @@
       "incant": "2.5s cast",
       "cooldown": "No cooldown",
       "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
-      "description": "Heals group members within 100 feet for 898 health.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduciton.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and heals for an additional 441 health over 3 seconds.",
+      "description": "Heals group members within 100 feet for 898 health.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduciton.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and heals for an additional 624 health over 6 seconds.",
       "category": "Ability"
     },
     {
@@ -765,7 +765,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "For 10 seconds, all enemies within 15 feet of a spot that you select will have their Elemental resistance reduced by 378 and become snared, reducing their run speed by 60%.",
+      "description": "For 10 seconds, all enemies within 15 feet of a spot that you select will have their Elemental resistance reduced by 240 and become snared, reducing their run speed by 60%.",
       "category": "Ability"
     },
     {
@@ -825,7 +825,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
-      "description": "Your target's Toughness is increased by 240 and they regain 1200 health over 10 seconds.<BR><BR>1-4 Mork's Waaagh!: Healing increased by 15%. <BR>5 Mork's Waaagh!: Healing increased by 30% and duration increased by 5 seconds.",
+      "description": "Your target's Toughness is increased by 250 and they regain 1200 health over 10 seconds.<BR><BR>1-4 Mork's Waaagh!: Healing increased by 15%. <BR>5 Mork's Waaagh!: Healing increased by 30% and duration increased by 5 seconds.",
       "category": "Ability"
     },
     {
@@ -899,8 +899,8 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "",
-      "description": "Everyone in your group within 100 feet will do an additional 187 Elemental damage on their next attack within 10 seconds.",
+      "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
+      "description": "Everyone in your group within 100 feet will do an additional 187 Elemental damage on their next attack within 10 seconds.<BR><BR>1-4 Mork's Waaagh!: Reduces active cooldowns of group members by 2 seconds. <BR>5 Mork's Waaagh!: Reduces active cooldowns of group members by 5 seconds. Cooldowns can only be reduced once every 5 seconds.",
       "category": "Ability"
     },
     {
@@ -990,7 +990,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Brain Bursta will now also reduce the victim's Toughness by 240 for 20 seconds, and they will lose 150 points of Morale as well. Your healing output is reduced by 10%.",
+      "description": "Brain Bursta will now also reduce the victim's Toughness by 250 for 20 seconds, and they will lose 150 points of Morale as well. Your healing output is reduced by 10%.",
       "category": "CareerTactic"
     },
     {
@@ -1035,7 +1035,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
-      "description": "Deals 377 Elemental damage to your target, and heals your defensive target for 150% of the damage done.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and your outgoing healing is increased by 20% for 5 seconds.",
+      "description": "Deals 377 Elemental damage to your target, and heals your defensive target for 150% of the damage done.<BR><BR>1-4 Gork's Waaagh!: 25% Cast Time reduction.<BR>5 Gork's Waaagh!: 50% Cast Time reduction and your outgoing healing is increased by 20% for 6 seconds.",
       "category": "Ability"
     },
     {
@@ -1080,7 +1080,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
-      "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 120 for 20 seconds.<BR><BR>1-4 Mork's Waaagh!: Strikethrough increased by 10%.<BR>5 Mork's Waaagh!: Strikethrough increased by 20% and radius increased by 50%.",
+      "description": "Your target and all other enemies within 20 feet of them have their Toughness reduced by 100 for 20 seconds.<BR><BR>1-4 Mork's Waaagh!: Strikethrough increased by 10%.<BR>5 Mork's Waaagh!: Strikethrough increased by 20% and radius increased by 50%.",
       "category": "Ability"
     },
     {
@@ -1095,7 +1095,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
-      "description": "Steals 120 Intelligence from your target while dealing 950 Elemental damage over 15 seconds.<BR><BR>1-4 Mork's Waaagh!: Damage increased by 15%.<BR>5 Mork's Waaagh!: Damage increased by 30% and additionally steals 120 Willpower.",
+      "description": "Steals 150 Intelligence from your target while dealing 950 Elemental damage over 15 seconds.<BR><BR>1-4 Mork's Waaagh!: Damage increased by 15%.<BR>5 Mork's Waaagh!: Damage increased by 30% and additionally steals 150 Willpower.",
       "category": "Ability"
     },
     {
@@ -1110,7 +1110,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds Gork's Waaagh!<br>Mork's Waaagh! increases effectiveness.",
-      "description": "Everyone within 20 feet of your target will have their Strength, Intelligence and Ballistic Skill reduced by 120 for 20 seconds.<BR><BR>1-4 Mork's Waaagh!: Strikethrough increased by 10%.<BR>5 Mork's Waaagh!: Strikethrough increased by 20% and increase the Strength, Ballistic Skill and Intelligence of group members within 100 feet by 120 for 20 seconds.",
+      "description": "Everyone within 20 feet of your target will have their Strength, Intelligence and Ballistic Skill reduced by 100 for 20 seconds.<BR><BR>1-4 Mork's Waaagh!: Strikethrough increased by 10%.<BR>5 Mork's Waaagh!: Strikethrough increased by 20% and increase the Strength, Ballistic Skill and Intelligence of group members within 100 feet by 100 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1140,7 +1140,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds Mork's Waaagh!<br>Gork's Waaagh! increases effectiveness.",
-      "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 409 Elemental damage and reducing their Elemental resistance by 378 for 20 seconds.<BR><BR>1-4 Gork' Waaagh!: Damage increased by 15%.<BR>5 Gork's Waaagh!: Damage increased by 30% and Strikethrough increased by 10%.",
+      "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing 409 Elemental damage and reducing their Elemental resistance by 240 for 20 seconds.<BR><BR>1-4 Gork' Waaagh!: Damage increased by 15%.<BR>5 Gork's Waaagh!: Damage increased by 30% and Strikethrough increased by 10%.",
       "category": "Ability"
     },
     {

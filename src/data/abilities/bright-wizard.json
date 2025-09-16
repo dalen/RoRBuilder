@@ -191,7 +191,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "An Enchantment which calls upon the power of the Red Wind to increase your armor by 990 for 10 seconds, and makes it 50% less likely that you will be set back while building up abilities.",
+      "description": "An Enchantment which calls upon the power of the Red Wind to increase your armor by 594 for 10 seconds, and makes it 50% less likely that you will be set back while building up abilities.",
       "category": "Ability"
     },
     {
@@ -281,7 +281,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
+      "description": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 150 for 30 seconds.",
       "category": "Morale"
     },
     {
@@ -483,7 +483,7 @@
       "id": 8175,
       "image": "https://armory.returnofreckoning.com/icon/7957",
       "name": "Burnout",
-      "type": "Buff",
+      "type": "Healing",
       "spec": "Core Ability",
       "minrank": "30",
       "cost": "No AP Cost",
@@ -821,7 +821,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Builds 5 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Reduces your target's Willpower by 120 for 10 seconds.  When the effect ends, the victim will suffer 514 Corporeal damage.",
+      "description": "Reduces your target's Willpower by 150 for 10 seconds.  When the effect ends, the victim will suffer 514 Corporeal damage.",
       "category": "Ability"
     },
     {
@@ -881,7 +881,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Boiling Blood's Willpower debuff is increased to 360 for 5 seconds and will deal 767 Corporeal damage at the end of the debuff duration.",
+      "description": "Boiling Blood's Willpower debuff is increased to 350 for 5 seconds and will deal 767 Corporeal damage at the end of the debuff duration.",
       "category": "CareerTactic"
     },
     {
@@ -911,7 +911,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The cost of Ignite is reduced by 20 and it will reduce the enemy's Corporeal resistance by 378 for 9 seconds.",
+      "description": "The cost of Ignite is reduced by 20 and it will reduce the enemy's Corporeal resistance by 360 for 9 seconds.",
       "category": "CareerTactic"
     },
     {

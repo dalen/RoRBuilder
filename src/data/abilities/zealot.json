@@ -469,7 +469,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Warp Reality will now deal 10% more damage per consecutive tick, and every tick of damage has a 20% chance of making the next Scourge bypass all of your victim's resistances.",
+      "description": "Warp Reality will now deal 10% more damage per consecutive tick, and every tick of damage has a 20% chance of making the next Scourge or Tzeentch's Cry bypass all of your victim's resistances.",
       "category": "CareerTactic"
     },
     {
@@ -544,7 +544,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by 1056 for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
+      "description": "Each tick of Tzeentch's Cordial has 25% chance to increase target's armor by 594 for 10 seconds. Additionally, 10% less armor will be bypassed when they are attacked.",
       "category": "CareerTactic"
     },
     {
@@ -559,7 +559,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Reduces your target's armor by 1320 and all resistances by 504 for 15 seconds.",
+      "description": "Reduces your target's armor by 1320 and all resistances by 480 for 15 seconds.",
       "category": "Morale"
     },
     {
@@ -589,7 +589,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increases target's Wounds by 160 for 30 seconds and then heals the recipient for the amount increased.",
+      "description": "Increases target's Wounds by 150 for 30 seconds and then heals the recipient for the amount increased.",
       "category": "Ability"
     },
     {
@@ -619,7 +619,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increase the armor of all group mates within 100 feet by 1320 and resists by 504 for 10 seconds.",
+      "description": "Increase the armor of all group mates within 100 feet by 1320 and resists by 480 for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -709,7 +709,7 @@
       "incant": "Instant cast",
       "cooldown": "10m cooldown",
       "note": "",
-      "description": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's Toughness is increased by 80 for 1 hour.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "The groupmember bearing this Mark can resurrect themselves if killed in the next 10 minutes. In addition, the bearer's Toughness is increased by 100 for 1 hour.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -769,7 +769,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by 80.  The bearer of this Mark may also activate it like an ability to deal an additional 187 Corporeal damage on their next 5 attacks within 10 seconds. This effect cannot trigger more than once per second.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases a groupmember's Strength, Ballistic Skill, and Intelligence by 100.  The bearer of this Mark may also activate it like an ability to deal an additional 187 Corporeal damage on their next 5 attacks within 10 seconds. This effect cannot trigger more than once per second.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -852,7 +852,7 @@
       "image": "https://armory.returnofreckoning.com/icon/22703",
       "name": "Burst of Chaos",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Alchemy",
       "minrank": "34",
       "cost": "Tactic",
       "range": "Self",
@@ -867,7 +867,7 @@
       "image": "https://armory.returnofreckoning.com/icon/5243",
       "name": "Storm of Ravens",
       "type": "Damaging",
-      "spec": "Path of Witchcraft",
+      "spec": "Path of Alchemy",
       "minrank": "25",
       "cost": "13 Action Points / Sec",
       "range": "100ft range",
@@ -979,7 +979,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases a groupmember's Initiative and Willpower by 80.  The bearer of this Mark may activate it like an ability to cleanse one Curse, one Hex and one Ailment from themselves.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases a groupmember's Initiative and Willpower by 100.  The bearer of this Mark may activate it like an ability to cleanse one Curse, one Hex and one Ailment from themselves.<BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -1129,7 +1129,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases all your groupmember's resistances by 252.  The bearer of this Mark may activate it to absorb up to 1387 damage from ranged and magic attacks for 10 seconds. <BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
+      "description": "Increases all your groupmember's resistances by 240.  The bearer of this Mark may activate it to absorb up to 1387 damage from ranged and magic attacks for 10 seconds. <BR>You may only give a player one Mark, but players may bear multiple Marks of different types at the same time.",
       "category": "Ability"
     },
     {
@@ -1189,7 +1189,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Demon Spittle grows ever more corrosive and now also reduces Armor by 990 and Corporeal resistance by 378.",
+      "description": "Demon Spittle grows ever more corrosive and now also reduces Armor by 660 and Corporeal resistance by 240.",
       "category": "CareerTactic"
     },
     {
@@ -1212,7 +1212,7 @@
       "image": "https://armory.returnofreckoning.com/icon/22703",
       "name": "Manipulation",
       "type": "Damaging",
-      "spec": "Path of Alchemy",
+      "spec": "Path of Dark Rites",
       "minrank": "23",
       "cost": "Tactic",
       "range": "Self",
@@ -1256,7 +1256,7 @@
       "id": 8579,
       "image": "https://armory.returnofreckoning.com/icon/5149",
       "name": "Wind of Insanity",
-      "type": "Blessing",
+      "type": "Debuff",
       "spec": "Path of Dark Rites",
       "minrank": "29",
       "cost": "20 Action Points / Sec",

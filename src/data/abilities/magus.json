@@ -306,7 +306,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A summoning wave passes over those within 25 feet of you, calling fourth tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
+      "description": "A summoning wave passes over enemies within 25 feet of you, calling forth horrific tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
     },
     {
@@ -316,12 +316,12 @@
       "type": "Enchantment",
       "spec": "Core Ability",
       "minrank": "11",
-      "cost": "35 Action Points",
+      "cost": "55 Action Points",
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You surround yourself with daemonic protection, increasing your Armor by 560 for up to 1 hours.",
+      "description": "You surround group members within 100 ft with daemonic protection, increasing their Armor by 396 for 60 minutes, while increasing your Armor by 792 for 60 minutes.",
       "category": "Ability"
     },
     {
@@ -336,7 +336,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 160 for 30 seconds.",
+      "description": "You drain power from your target, stealing up to 200 action points from your target and giving them to you. Your target's Intelligence will also be reduced by 150 for 30 seconds.",
       "category": "Morale"
     },
     {
@@ -711,7 +711,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Pink Horror flings daemonic fire at its target, burning them for 291 Elemental damage and reducing their Elemental Resistance by 378 for the next 20 seconds.",
+      "description": "Your Pink Horror flings daemonic fire at its target, burning them for 291 Elemental damage and reducing their Elemental Resistance by 360 for the next 20 seconds.",
       "category": "Ability"
     },
     {
@@ -816,7 +816,7 @@
       "incant": "1.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You open a rift dealing 365 Elemental damage and weakens the fabric of reality surrounding your target, disarming them for 4 seconds.",
+      "description": "You open a rift dealing 365 Elemental damage and weakening the fabric of reality surrounding your target, disarming them for 4 seconds.",
       "category": "Ability"
     },
     {
@@ -906,7 +906,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Tears at your foe with fierce winds, hitting them three times for a total of 363 Spirit damage. This ability will continue to build up even if you move.",
+      "description": "Tears at your foe with fierce winds, hitting them three times for a total of 121 Spirit damage. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -921,7 +921,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You strip away the Spiritual protections of everyone 20 feet from your target, reducing their Spirit resistance by 378 and dealing 560 Spirit damage over 20 seconds.",
+      "description": "You strip away the Spiritual protections of everyone 20 feet from your target, reducing their Spirit resistance by 240 and dealing 560 Spirit damage over 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1131,7 +1131,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ethereal tentacle swipes the target in front of you for 278 Spirit damage.",
+      "description": "An ethereal tentacle swipes all enemies 40 feet in front of you for 278 Spirit damage.",
       "category": "Ability"
     },
     {
@@ -1186,12 +1186,12 @@
       "type": "Enchantment",
       "spec": "Path of Daemonology",
       "minrank": "28",
-      "cost": "55 Action Points",
-      "range": "Self",
+      "cost": "35 Action Points",
+      "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your groupmember's Corporeal resistance by 252 for 60 minutes if they are within 100 feet of you.",
+      "cooldown": "10s cooldown",
+      "note": "Only usable on group mates",
+      "description": "You surround a single group member with daemonic resistance, increasing their Resistances by 360 for 60 minutes.",
       "category": "Ability"
     },
     {
@@ -1266,7 +1266,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You summon and absorb orange flames to increase your Wounds by 240, increasing your total life for 20 seconds. During this time, any enemies striking you has a 25% chance to receive 348 Elemental damage from your flames.",
+      "description": "You summon and absorb orange flames to increase your Wounds by 250, increasing your total life for 20 seconds. During this time, any enemies striking you has a 25% chance to receive 348 Elemental damage from your flames.",
       "category": "Ability"
     },
     {

@@ -480,7 +480,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not guard or detaunt abilities.",
       "category": "CareerTactic"
     },
     {
@@ -705,7 +705,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "A surprise attack that burns all targets 40 feet in front of you, causing them to take 187 Spirit damage  and reducing their armor by 990 for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
+      "description": "A surprise attack that burns all targets 40 feet in front of you, causing them to take 187 Spirit damage  and reducing their armor by 660 for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
       "category": "Ability"
     },
     {
@@ -720,7 +720,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You load your pistol with bullets of purest silver. Whenever you hit an enemy with your Executions, you deal an additional 375 Spirit damage.  The victim's Initiative will be reduced by 120 for 10 seconds, and your Initiative will be increased by 120.<BR><BR>This ability may be used while Incognito without breaking the effect.",
+      "description": "You load your pistol with bullets of purest silver. Whenever you hit an enemy with your Executions, you deal an additional 375 Spirit damage.  The victim's Initiative will be reduced by 100 for 10 seconds, and your Initiative will be increased by 100.<BR><BR>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability"
     },
     {
@@ -840,7 +840,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that damages and knocks down your primary target for 3 seconds and deals damage to all other enemies near them, reducing their Morale by 125, inspired, your group gains 125 Morale.<BR>   1 Accusation:  204 damage, 25 feet radius.<BR>   2 Accusations:  265 damage, 30 feet radius.<BR>   3 Accusations:  329 damage, 35 feet radius.<BR>   4 Accusations:  391 damage, 40 feet radius.<BR>   5 Accusations:  452 damage, 45 feet radius.",
+      "description": "A pistol shot that damages and knocks down your primary target for 3 seconds and deals damage to all other enemies near them, reducing their Morale by 125. Inspired, your group gains 125 Morale.<BR>   1 Accusation:  204 damage, 25 feet radius.<BR>   2 Accusations:  265 damage, 30 feet radius.<BR>   3 Accusations:  329 damage, 35 feet radius.<BR>   4 Accusations:  391 damage, 40 feet radius.<BR>   5 Accusations:  452 damage, 45 feet radius.",
       "category": "Ability"
     },
     {
@@ -1020,7 +1020,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<BR>   1 Accusation:  352 damage; stats reduced by 80.<BR>    2 Accusations:  451 damage; stats reduced by 120.<BR>    3 Accusations:  553 damage; stats reduced by 160.<BR>    4 Accusations:  652 damage; stats reduced by 200.<BR>    5 Accusations:  751 damage; stats reduced by 240.",
+      "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<BR>   1 Accusation:  352 damage; stats reduced by 100.<BR>    2 Accusations:  451 damage; stats reduced by 138.<BR>    3 Accusations:  553 damage; stats reduced by 175.<BR>    4 Accusations:  652 damage; stats reduced by 213.<BR>    5 Accusations:  751 damage; stats reduced by 250.",
       "category": "Ability"
     },
     {

@@ -317,12 +317,12 @@
       "type": "Enchantment",
       "spec": "Core Ability",
       "minrank": "11",
-      "cost": "35 Action Points",
+      "cost": "55 Action Points",
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You don an experimental suit of protective gear, increasing your Armor by 560 for up to 1 hours.",
+      "description": "You don an experimental suit of protective gear, increasing the Armor of group members within 100 ft by 396 for 60 minutes, while increasing your Armor by 792 for 60 minutes.",
       "category": "Ability"
     },
     {
@@ -637,7 +637,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A massive cannonball smashes into your target, dealing 1800 damage  and reducing their armor by 1400 for 15 seconds.",
+      "description": "A massive cannonball smashes into your target, dealing 1800 damage  and reducing their armor by 1320 for 15 seconds.",
       "category": "Morale"
     },
     {
@@ -652,7 +652,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "After ending or being removed, Barbed Wire will now Snare targets by 30% and deal 264 damage over 5 seconds.",
+      "description": "After ending or being removed, Barbed Wire will now Snare targets by 30% and deal 330 damage over 5 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -922,7 +922,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 378 and suffer 581 Corporeal damage over 21 seconds.",
+      "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 240 and suffer 581 Corporeal damage over 21 seconds.",
       "category": "Ability"
     },
     {
@@ -1187,12 +1187,12 @@
       "type": "Enchantment",
       "spec": "Path of The Tinkerer",
       "minrank": "28",
-      "cost": "55 Action Points",
-      "range": "Self",
+      "cost": "35 Action Points",
+      "range": "100ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 252 for 60 minutes.",
+      "cooldown": "10s cooldown",
+      "note": "Only usable on group mates",
+      "description": "You distribute burn salve to a single group member, increasing their Resistances by 360 for 60 minutes.",
       "category": "Ability"
     },
     {

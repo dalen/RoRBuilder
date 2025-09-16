@@ -86,7 +86,7 @@
         3,
         388,
         1849,
-        1837,
+        35691,
         1851,
         5
       ]
@@ -399,7 +399,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires an active pet",
-      "description": "You eat your squig, increasing your wounds by 160 for 10 seconds and healing you for the amount increased. For the next 0 seconds, the next different squig other than the one that was just eaten will be summoned instantly.",
+      "description": "You eat your squig, increasing your wounds by 150 for 10 seconds and healing you for the amount increased. For the next 10 seconds, the next different squig other than the one that was just eaten will be summoned instantly.",
       "category": "Ability"
     },
     {
@@ -699,7 +699,7 @@
       "incant": "2.0s cast",
       "cooldown": "4s cooldown",
       "note": "",
-      "description": "Your Squig sprays out corrosive slime towards an enemy, dealing 265 damage to all targets within 20 feet of the victim. While frenzied, this ability will reduce the enemy's Corporeal resistance by 378 for 9 seconds.",
+      "description": "Your Squig sprays out corrosive slime towards an enemy, dealing 265 damage to all targets within 20 feet of the victim. While frenzied, this ability will reduce the enemy's Corporeal resistance by 240 for 9 seconds.",
       "category": "Ability"
     },
     {
@@ -879,7 +879,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Summons a massive battle squig which will promptly eat you. While in your Squig Armor your Strength, Toughness and Wounds are increased by 120. Your armor is increased by half the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance. This ability will continue to build up even if you move.",
+      "description": "Summons a massive battle squig which will promptly eat you. While in your Squig Armor your Strength, Toughness and Wounds are increased by 100. Your armor is increased by half the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -1003,7 +1003,7 @@
       "category": "Ability"
     },
     {
-      "id": 1837,
+      "id": 35691,
       "image": "https://armory.returnofreckoning.com/icon/2598",
       "name": "Drop That!!",
       "type": "Damaging",
@@ -1014,7 +1014,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires an active pet",
-      "description": "On the Squig's next attack, it will deal an additional 269 damage and disarm your target for 4 seconds, making them unable to use melee or ranged weapons.",
+      "description": "On the Squig's next attack within 5 seconds, it will deal an additional 291 damage and disarm your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability"
     },
     {
@@ -1239,7 +1239,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A Crippling shot that deals 253 damage and reduces your target's Initiative by 120 for 10 seconds.  This ability will continue to build up even if you move.",
+      "description": "A Crippling shot that deals 253 damage and reduces your target's Initiative by 150 for 10 seconds.  This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {

@@ -511,7 +511,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
+      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 seconds. This effect will not guard or detaunt abilities.",
       "category": "CareerTactic"
     },
     {
@@ -721,7 +721,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Corruption spreads to your target, reducing their toughness by 120 for 20 seconds and inflicting 178 damage.",
+      "description": "Corruption spreads to your target, reducing their toughness by 150 for 20 seconds and inflicting 178 damage.",
       "category": "Ability"
     },
     {
@@ -751,7 +751,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "An Ailing attack inflicting 216 damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
+      "description": "You rake the enemy with your tainted claw, dealing 216 damage and applying an Ailment that reduces incoming healing by 25% for 5 seconds, or 10 seconds if the target is already Ailing.",
       "category": "Ability"
     },
     {
@@ -856,7 +856,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Gift of Savagery or Brutality",
-      "description": "A particularly nasty blow that inflicts 328 damage to your target and decreases their Wounds by 120 for the next 20 seconds.",
+      "description": "A particularly nasty blow that inflicts 328 damage to your target and decreases their Wounds by 150 for the next 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1111,7 +1111,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
-      "description": "Chaotic winds and daemonic fury combine to increase your Strength and Toughness by 200 for 20 seconds.",
+      "description": "Chaotic winds and daemonic fury combine to increase your Strength and Toughness by 250 for 20 seconds.",
       "category": "Ability"
     },
     {
@@ -1156,7 +1156,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
-      "description": "A wave of horror spreads forth from you, dealing 770 damage over 21 seconds to all enemies within 25 feet and reducing their Weapon Skill by 120 and Initiative by 120.",
+      "description": "A wave of horror spreads forth from you, dealing 770 damage over 21 seconds to all enemies within 25 feet and reducing their Weapon Skill by 100 and Initiative by 100.",
       "category": "Ability"
     },
     {
