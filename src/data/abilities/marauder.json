@@ -24,18 +24,18 @@
     633,
     8429,
     800,
-    629,
+    35710,
     523,
     530,
-    8430,
+    35786,
     8449,
     528,
-    8431,
+    35788,
     8450,
     8432,
     8433,
     8451,
-    8434,
+    35789,
     8435,
     8410,
     630
@@ -47,12 +47,12 @@
         "primary": "A mastery path focused on lingering effects and weakening foes"
       },
       "optionalAbilities": {
-        "lvl1": 8438,
-        "lvl2": 8419,
+        "lvl1": 8430,
+        "lvl2": 8424,
         "lvl3": 8439,
         "lvl4": 8418,
         "lvl5": 8440,
-        "lvl6": 8424,
+        "lvl6": 8419,
         "lvl7": 8454
       },
       "coreAbilities": [
@@ -60,7 +60,7 @@
         8400,
         8404,
         8401,
-        8414
+        8407
       ]
     },
     "b": {
@@ -69,19 +69,19 @@
         "primary": "A mastery path focused on inflicting heavy damage to a single opponent"
       },
       "optionalAbilities": {
-        "lvl1": 8441,
-        "lvl2": 8420,
+        "lvl1": 8431,
+        "lvl2": 8421,
         "lvl3": 8442,
-        "lvl4": 8421,
+        "lvl4": 8420,
         "lvl5": 8443,
-        "lvl6": 8422,
+        "lvl6": 8414,
         "lvl7": 8455
       },
       "coreAbilities": [
+        8392,
         8396,
         8399,
         8406,
-        8407,
         8413
       ]
     },
@@ -91,7 +91,7 @@
         "primary": "A mastery path focused on fightihg multiple opponents at once"
       },
       "optionalAbilities": {
-        "lvl1": 8444,
+        "lvl1": 8434,
         "lvl2": 8417,
         "lvl3": 8445,
         "lvl4": 8423,
@@ -100,10 +100,10 @@
         "lvl7": 8456
       },
       "coreAbilities": [
-        8392,
         8409,
         8397,
         8411,
+        8422,
         8412
       ]
     }
@@ -241,7 +241,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Grants Gift of Brutality",
-      "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<BR><BR>While mutated, your attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%. In addition the armor penetration of your auto attacks is increased by 25%.",
+      "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<BR><BR>While mutated, your attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%. ",
       "category": "Ability"
     },
     {
@@ -376,7 +376,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires Parry",
-      "description": "Disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
+      "description": "Deals 141 damage to your target and disarms them for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability"
     },
     {
@@ -451,7 +451,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to Disrupt enemy magic by 10%.",
+      "description": "Increases your chance to Disrupt enemy magic by 10%. Each time you disrupt an ability, you will remove one Hex, Curse or Ailment from yourself. This cannot happen more than once every 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -470,18 +470,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 629,
+      "id": 35710,
       "image": "https://armory.returnofreckoning.com/icon/23156",
-      "name": "Broad Swings",
-      "type": "Buff",
+      "name": "Overpowering Blow",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, your attacks will cleave through up to 2 additional enemies within 25 feet in front of you, dealing unmitigable damage of 300 per strike.",
+      "description": "You strike your opponent with surprising force, dealing 1200 damage and knocking them down for 4 seconds.",
       "category": "Morale"
     },
     {
@@ -515,9 +515,9 @@
       "category": "CareerTactic"
     },
     {
-      "id": 8430,
-      "image": "https://armory.returnofreckoning.com/icon/22694",
-      "name": "Rend Asunder",
+      "id": 35786,
+      "image": "https://armory.returnofreckoning.com/icon/22701",
+      "name": "Changer's Gift",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "27",
@@ -526,7 +526,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Rend's duration by an additional 6 seconds.",
+      "description": "You gain additional stats based on the Gift you are currently imbued with:<BR>  Gift of Savagery: +80 Strength and Initiative<BR>  Gift of Brutality: +80 Strength and Weapon Skill<BR>  Gift of Monstrosity: +80 Toughness and Initiative.<BR><BR>These bonuses are increased to 120 for 3 secondswhenever you swap Gift.",
       "category": "CareerTactic"
     },
     {
@@ -560,9 +560,9 @@
       "category": "CareerTactic"
     },
     {
-      "id": 8431,
-      "image": "https://armory.returnofreckoning.com/icon/22701",
-      "name": "Deeply Impaled",
+      "id": 35788,
+      "image": "https://armory.returnofreckoning.com/icon/22709",
+      "name": "Lasting Mutation",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "31",
@@ -571,7 +571,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you Impale an enemy, they will become 10% more susceptible to being critically hit for 15 seconds.",
+      "description": "Your effects from your Gifts will last an additional 2 seconds and will linger when changing to a different Gift.",
       "category": "CareerTactic"
     },
     {
@@ -635,10 +635,10 @@
       "category": "Morale"
     },
     {
-      "id": 8434,
-      "image": "https://armory.returnofreckoning.com/icon/22704",
-      "name": "Widespread Demolition",
-      "type": "Buff",
+      "id": 35789,
+      "image": "https://armory.returnofreckoning.com/icon/22708",
+      "name": "Mutating Corruption",
+      "type": "Defensive",
       "spec": "Core Ability",
       "minrank": "37",
       "cost": "Tactic",
@@ -646,7 +646,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increased Demolition's radius to 30 feet.",
+      "description": "Corruption now applies the following effects based on your current mutation:<BR>  Savagery: The target takes 10% more damage from damage over time abilities for the duration of Corruption.<BR>  Brutality: Increase your Weapon Skill by 150 for 10 seconds.<BR>  Monstrosity: All enemies within 25 feet have their Toughness reduced by 100 for 20 seconds.\n",
       "category": "CareerTactic"
     },
     {
@@ -661,7 +661,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your abilities which require a Mutation will now have armor penetration increased by 25% .",
+      "description": "All of your abilities which require a Mutation will now have armor penetration increased by 15% .",
       "category": "CareerTactic"
     },
     {
@@ -736,7 +736,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
-      "description": "Spreads an agonizing rot to your opponent for 10 seconds, inflicting 352 Corporeal damage whenever they use a melee ability.",
+      "description": "Spreads an agonizing rot to your opponent for 15 seconds, inflicting 352 Corporeal damage whenever they use a melee ability.",
       "category": "Ability"
     },
     {
@@ -755,24 +755,24 @@
       "category": "Ability"
     },
     {
-      "id": 8414,
-      "image": "https://armory.returnofreckoning.com/icon/5219",
-      "name": "Gut Ripper",
-      "type": "Damaging",
+      "id": 8407,
+      "image": "https://armory.returnofreckoning.com/icon/5202",
+      "name": "Touch of Instability",
+      "type": "Ailment",
       "spec": "Path of Savagery",
-      "minrank": "30",
-      "cost": "40 Action Points",
+      "minrank": "14",
+      "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "Requires Parry<br>Requires Gift of Savagery or Brutality",
-      "description": "A savage attack that guts your opponent, dealing 253 damage. Your next, consequently-cast, damaging ability instance within 5 seconds will automatically critical hit.",
+      "cooldown": "20s cooldown",
+      "note": "Requires Gift of Savagery or Brutality",
+      "description": "Target loses control over their magic, and for 10 seconds will inflict 390 Corporeal damage to themselves whenever they use magic.",
       "category": "Ability"
     },
     {
-      "id": 8438,
-      "image": "https://armory.returnofreckoning.com/icon/22701",
-      "name": "Scything Talons",
+      "id": 8430,
+      "image": "https://armory.returnofreckoning.com/icon/22694",
+      "name": "Rend Asunder",
       "type": "Buff",
       "spec": "Path of Savagery",
       "minrank": "17",
@@ -781,22 +781,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Savagery further increases your Weapon Skill and Initiative by 160.",
+      "description": "Increases Rend's duration by an additional 6 seconds.",
       "category": "CareerTactic"
     },
     {
-      "id": 8419,
-      "image": "https://armory.returnofreckoning.com/icon/5222",
-      "name": "Draining Swipe",
+      "id": 8424,
+      "image": "https://armory.returnofreckoning.com/icon/5226",
+      "name": "Thunderous Blow",
       "type": "Ailment",
       "spec": "Path of Savagery",
       "minrank": "21",
-      "cost": "30 Action Points",
+      "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
-      "note": "Requires Gift of Savagery",
-      "description": "You quickly rake your target twice, dealing 145 damage with each hit.  The victim will regain action points 50% more slowly for 10 seconds.",
+      "cooldown": "10s cooldown",
+      "note": "Requires Gift of Savagery or Brutality",
+      "description": "A particularly nasty blow that inflicts 291 damage to your target and decreases their Wounds by 150 for the next 20 seconds.",
       "category": "Ability"
     },
     {
@@ -845,18 +845,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 8424,
-      "image": "https://armory.returnofreckoning.com/icon/5226",
-      "name": "Thunderous Blow",
+      "id": 8419,
+      "image": "https://armory.returnofreckoning.com/icon/5222",
+      "name": "Draining Swipe",
       "type": "Ailment",
       "spec": "Path of Savagery",
       "minrank": "29",
-      "cost": "35 Action Points",
+      "cost": "30 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "Requires Gift of Savagery or Brutality",
-      "description": "A particularly nasty blow that inflicts 328 damage to your target and decreases their Wounds by 150 for the next 20 seconds.",
+      "cooldown": "20s cooldown",
+      "note": "Requires Gift of Savagery",
+      "description": "You quickly rake your target twice, dealing 145 damage with each hit and applying full stacks of Rend to your target. The victim will regain action points 50% more slowly for 10 seconds. ",
       "category": "Ability"
     },
     {
@@ -873,6 +873,21 @@
       "note": "",
       "description": "For 20 seconds, each time you are hit, there is a 33% chance that the same amount of damage will be done to an enemy within 40 feet, and you will be healed for that amount.",
       "category": "Morale"
+    },
+    {
+      "id": 8392,
+      "image": "https://armory.returnofreckoning.com/icon/5187",
+      "name": "Flail",
+      "type": "Damaging",
+      "spec": "Path of Brutality",
+      "minrank": "1",
+      "cost": "30 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Swipes opponent for 183 damage. If Mutated, will hit an additional time for 145 damage.",
+      "category": "Ability"
     },
     {
       "id": 8396,
@@ -899,9 +914,9 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "Stabs into your opponents vital areas for 216 damage. If behind your target, ignores 15% of the victim's armor.",
+      "description": "Stabs into your opponents vital areas for 291 damage. If behind your target, ignores all of the victim's armor.",
       "category": "Ability"
     },
     {
@@ -920,21 +935,6 @@
       "category": "Ability"
     },
     {
-      "id": 8407,
-      "image": "https://armory.returnofreckoning.com/icon/5202",
-      "name": "Touch of Instability",
-      "type": "Ailment",
-      "spec": "Path of Brutality",
-      "minrank": "14",
-      "cost": "25 Action Points",
-      "range": "5ft range",
-      "incant": "Instant cast",
-      "cooldown": "20s cooldown",
-      "note": "Requires Gift of Savagery or Brutality",
-      "description": "Target loses control over their magic, and for 10 seconds will inflict 390 Corporeal damage to themselves whenever they use magic.",
-      "category": "Ability"
-    },
-    {
       "id": 8413,
       "image": "https://armory.returnofreckoning.com/icon/5218",
       "name": "Pulverize",
@@ -950,9 +950,9 @@
       "category": "Ability"
     },
     {
-      "id": 8441,
+      "id": 8431,
       "image": "https://armory.returnofreckoning.com/icon/22701",
-      "name": "Corrupted Edge",
+      "name": "Deeply Impaled",
       "type": "Buff",
       "spec": "Path of Brutality",
       "minrank": "17",
@@ -961,22 +961,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Brutality further increases your Strength and Initiative by 160.",
+      "description": "Any time you Impale an enemy, they will become 10% more susceptible to being critically hit for 15 seconds.",
       "category": "CareerTactic"
     },
     {
-      "id": 8420,
-      "image": "https://armory.returnofreckoning.com/icon/5223",
-      "name": "Guillotine",
-      "type": "Damaging",
+      "id": 8421,
+      "image": "https://armory.returnofreckoning.com/icon/5224",
+      "name": "Mutated Aggressor",
+      "type": "Blessing",
       "spec": "Path of Brutality",
       "minrank": "21",
-      "cost": "35 Action Points",
-      "range": "5ft range",
+      "cost": "40 Action Points",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "Requires Gift of Brutality",
-      "description": "Requires target to be below 50% health<BR>A powerful blow inflicting 441 damage and will almost always deal critical damage to a weakened target.",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "Chaotic energy surges through you, increasing all the damage you inflict by 25% for 10 seconds.<BR>Does not affect damage procs.",
       "category": "Ability"
     },
     {
@@ -995,18 +995,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 8421,
-      "image": "https://armory.returnofreckoning.com/icon/5224",
-      "name": "Mutated Aggressor",
-      "type": "Blessing",
+      "id": 8420,
+      "image": "https://armory.returnofreckoning.com/icon/5223",
+      "name": "Guillotine",
+      "type": "Damaging",
       "spec": "Path of Brutality",
       "minrank": "25",
-      "cost": "40 Action Points",
-      "range": "Self",
+      "cost": "35 Action Points",
+      "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "Chaotic energy surges through you, increasing all the damage you inflict by 25% for 10 seconds.<BR>Does not affect damage procs.",
+      "cooldown": "10s cooldown",
+      "note": "Requires Gift of Brutality",
+      "description": "Requires target to be below 50% health<BR>A powerful blow inflicting 463 damage and will almost always deal critical damage to a weakened target. If this ability lands a killing blow, Guillotine and your stances will have their cooldowns reset.",
       "category": "Ability"
     },
     {
@@ -1025,18 +1025,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 8422,
-      "image": "https://armory.returnofreckoning.com/icon/5225",
-      "name": "Wave of Terror",
+      "id": 8414,
+      "image": "https://armory.returnofreckoning.com/icon/5219",
+      "name": "Gut Ripper",
       "type": "Damaging",
       "spec": "Path of Brutality",
       "minrank": "29",
-      "cost": "45 Action Points",
-      "range": "Self",
+      "cost": "40 Action Points",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "Wildly lashes out at all targets directly in front of you up to 40 feet away, dealing 258 damage and preventing all who are hit from generating Morale for 5 seconds.",
+      "description": "A savage attack that guts your opponent, dealing 328 damage. Your next two, consequently-cast, damaging abilities within 5 seconds will automatically critical hit.",
       "category": "Ability"
     },
     {
@@ -1053,21 +1053,6 @@
       "note": "",
       "description": "For 20 seconds, all damage dealt to you is mirrored back to the attacker with a 50% boost.",
       "category": "Morale"
-    },
-    {
-      "id": 8392,
-      "image": "https://armory.returnofreckoning.com/icon/5187",
-      "name": "Flail",
-      "type": "Damaging",
-      "spec": "Path of Monstrosity",
-      "minrank": "1",
-      "cost": "30 Action Points",
-      "range": "5ft range",
-      "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Swipes opponent for 183 damage. If Mutated, will hit an additional time for 145 damage.",
-      "category": "Ability"
     },
     {
       "id": 8409,
@@ -1115,6 +1100,21 @@
       "category": "Ability"
     },
     {
+      "id": 8422,
+      "image": "https://armory.returnofreckoning.com/icon/5225",
+      "name": "Wave of Terror",
+      "type": "Damaging",
+      "spec": "Path of Monstrosity",
+      "minrank": "30",
+      "cost": "45 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Requires Gift of Monstrosity or Savagery",
+      "description": "Wildly lashes out at all targets directly in front of you up to 25 feet away, dealing 258 damage and reducing their Morale gain by 50% for 5 seconds.",
+      "category": "Ability"
+    },
+    {
       "id": 8412,
       "image": "https://armory.returnofreckoning.com/icon/5220",
       "name": "Mutated Energy",
@@ -1130,9 +1130,9 @@
       "category": "Ability"
     },
     {
-      "id": 8444,
-      "image": "https://armory.returnofreckoning.com/icon/22702",
-      "name": "Hulking Brute",
+      "id": 8434,
+      "image": "https://armory.returnofreckoning.com/icon/22704",
+      "name": "Widespread Demolition",
       "type": "Buff",
       "spec": "Path of Monstrosity",
       "minrank": "17",
@@ -1141,7 +1141,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Monstrosity further increases your Toughness and Initiative by 160.",
+      "description": "Increased Demolition's radius to 30 feet. If the target is Ailing, Demolition will deal an additional 264 damage over 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1216,7 +1216,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "Spinning in a circle with your club arm extended, you aimlessly deal 339 damage every second to all targets within 30 feet in front of you for up to 3 seconds.  This effect will end if you break your concentration or run out of action points.",
+      "description": "Spinning in a circle with your club arm extended, you aimlessly deal 188 damage every second to all targets within 30 feet in front of you for up to 3 seconds.  This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
     {

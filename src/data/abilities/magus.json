@@ -1056,7 +1056,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "Creates a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 10 feet of the area for 6 seconds, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit. If there are multiple Tzeentch's Firestorms in the same area only the highest level one will deal damage.",
+      "description": "Summons a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 20 feet of the area for 6 seconds, and snares them by 20%. If there are multiple Tzeentch's Firestorms targeting the same area, only the highest level one will deal damage.",
       "category": "Ability"
     },
     {
@@ -1176,7 +1176,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close, dealing 343 damage to all enemies within 30 feet and staggering them for 3 seconds, preventing all actions until they take damage.",
+      "description": "You call forth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close, dealing 343 damage to all enemies within 30 feet and staggering them for 3 seconds, preventing all actions until they take damage.",
       "category": "Ability"
     },
     {

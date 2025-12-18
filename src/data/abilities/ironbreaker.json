@@ -120,7 +120,7 @@
       "incant": "15s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "25% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
+      "description": "50% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
     {
@@ -585,7 +585,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All damage you take is reduced to 1 for 5 seconds.",
+      "description": "All damage you take is reduced by 100% for 5 seconds.",
       "category": "Morale"
     },
     {

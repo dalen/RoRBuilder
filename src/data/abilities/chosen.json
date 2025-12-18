@@ -120,7 +120,7 @@
       "incant": "15s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "25% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
+      "description": "50% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
     {
@@ -643,7 +643,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
       "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 25 feet of you, reducing their Strength by 100. During this time, the Strength of any groupmates within 100 feet is increased by 100.",
       "category": "Ability"
@@ -660,7 +660,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You release chaotic energies through your blade, withering your opponent's limbs causing 171 damage and snares your target, reducing their movement speed by 40% for 10 seconds. If you have an active Aura of Dread, you deal an additional 228 Spirit damage over 10 seconds.",
+      "description": "You release chaotic energies through your blade, withering your opponent's limbs causing 171 damage and snares your target, reducing their movement speed by 40% for 10 seconds. If you have an active Aura of Dread, you deal an additional 228 damage over 10 seconds.",
       "category": "Ability"
     },
     {
@@ -703,7 +703,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
       "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 25 feet will take 148 Spirit damage every 3 seconds.",
       "category": "Ability"
@@ -748,7 +748,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
       "description": "The power of the Warp encases you in a terrifying visage. All enemies within 25 feet will lose 20 Action Points every 5 seconds. All groupmates within 100 feet will regain 20 Action Points every 5 seconds.",
       "category": "Ability"
@@ -810,7 +810,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires Great Weapon",
-      "description": "Your Demonic blade overpowers your enemy's defense causing 184 Spirit damage to all enemies within 25 feet in front of you. This attack is undefendable. The cooldown of Rending Blade is reduced by 1 second for each Active Aura of Dread.",
+      "description": "Your Demonic blade overpowers your enemy's defense causing 184 Spirit damage to all enemies within 25 feet in front of you. This attack is undefendable. The cooldown of Rending Blade is reduced by 1 second for each active Aura of Dread.",
       "category": "Ability"
     },
     {
@@ -853,7 +853,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
       "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the Toughness of all enemies within 25 feet by 100. During this time, group members within 100 feet are emboldened, increasing their Toughness by 100.",
       "category": "Ability"
@@ -883,7 +883,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
       "description": "You instill the power of the warp in your groupmates within 100 feet, causing their corrupted power to regenerate flesh and bone, healing them for 180 health over 3 seconds every time they defend an attack.",
       "category": "Ability"
@@ -943,7 +943,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
       "description": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within 25 feet, causing their spells to build up 25% slower.",
       "category": "Ability"
@@ -1005,7 +1005,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "Requires Block or Parry<br>Requires Shield",
-      "description": "A thunderous shield slam that inflicts  246 damage, increases your armor by 594 for 20 seconds and reduces your damage taken by 15% for 10 seconds. Additionally reduces damage taken by group members within 100ft by 15% for 5 seconds. Durations are increased by 2 seconds for each active Aura of Corruption.",
+      "description": "A thunderous shield slam that inflicts 246 damage, increases your armor by 594 for 20 seconds and reduces your damage taken by 15% for 10 seconds. Additionally reduces damage taken by group members within 100ft by 15% for 5 seconds. Durations are increased by 2 seconds for each active Aura of Corruption.",
       "category": "Ability"
     },
     {
@@ -1063,7 +1063,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
       "description": "You tear at the fabric of reality, warping the world around you. Enemies within 25 feet will have all their resistances reduced by 120. During this time, groupmates within 100 feet have all their resistances increased by 240.",
       "category": "Ability"
@@ -1078,7 +1078,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
       "description": "The power of the Warp fluctuates violently around you and your allies within 100 feet. Enemies that dare to use offensive magical abilities against a groupmate in this radius will be hit with a magical backlash, causing them 348 Spirit damage. Targets can only be damaged once every two seconds.",
       "category": "Ability"
@@ -1138,7 +1138,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
       "description": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within 25 feet to be 25% less effective.",
       "category": "Ability"

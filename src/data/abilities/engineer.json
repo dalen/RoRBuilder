@@ -1057,7 +1057,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 365 Corporeal damage every 2 seconds to all enemies within 10 feet of that spot, and snares them by 20%.  This requires careful aim, and if hit you'll lose .5 seconds from the channel. If there are multiple Phosphorous Shells in the same area only the highest level one will deal damage.",
+      "description": "A barrage of mortar attacks which continuously fire at a spot on the ground that you select for up to 6 seconds, dealing 365 Corporeal damage every 2 seconds to all enemies within 20 feet of that spot, and snaring them by 20%. If there are multiple Phosphorous Shells targeting the same, area only the highest level one will deal damage.",
       "category": "Ability"
     },
     {

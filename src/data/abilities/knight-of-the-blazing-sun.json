@@ -119,7 +119,7 @@
       "incant": "15s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "25% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
+      "description": "50% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
     {
@@ -627,7 +627,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Battle Commands at a time",
       "description": "You order your group to strike fiercely, increasing Strength by 100 for all groupmates within 100 feet.  All enemies within 25 feet will be frightened, reducing their Strength by 100.",
       "category": "Ability"
@@ -674,7 +674,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Your Shining Blade slices into your opponent for 209 damage.  For the next 5 seconds, Shining Blade will cause an additional 150 Elemental damage on the next damaging attack made by everyone in your group within 100 feet of you. If you are issuing a Battle Command of Conquest, for 5 seconds, you abilities will continu to deal an additional 75 Elemental damage.",
+      "description": "Your Shining Blade slices into your opponent for 209 damage.  For the next 5 seconds, Shining Blade will cause an additional 150 Elemental damage on the next damaging attack made by everyone in your group within 100 feet of you. If you are issuing a Battle Command of Conquest, for 5 seconds, your abilities will continue to deal an additional 75 Elemental damage.",
       "category": "Ability"
     },
     {
@@ -687,7 +687,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Battle Commands at a time",
       "description": "You become filled with the endless power of Myrmidia, dealing 148 Elemental damage every 3 seconds to all enemies within 25 feet.",
       "category": "Ability"
@@ -732,7 +732,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Battle Commands at a time",
       "description": "You fill your group with purpose, causing all of your groupmates within 100 feet to regain 20 Action Points every 5 seconds. All enemies within 25 feet will lose 20 Action Points every 5 seconds.",
       "category": "Ability"
@@ -837,7 +837,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Battle Commands at a time",
       "description": "You order your group to hold their positions, increasing Toughness by 100 for all groupmates within 100 feet.  All enemies within 25 feet will be frightened, reducing their Toughness by 100.",
       "category": "Ability"
@@ -867,7 +867,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Battle Commands at a time",
       "description": "You order your group to ready their defenses, causing 225 damage back against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds.",
       "category": "Ability"
@@ -927,7 +927,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Battle Commands at a time",
       "description": "You order your group to steady themselves, increasing the armor of your groupmates within 100 feet by 396.",
       "category": "Ability"
@@ -1032,7 +1032,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Battle Commands at a time",
       "description": "You order your group to steady their thoughts, increasing all resistances by 240 for all groupmates within 100 feet.  All enemies within 25 feet will be frightened, reducing their resistances by 120.",
       "category": "Ability"
@@ -1077,7 +1077,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Battle Commands at a time",
       "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 180 health over 3 seconds any time they defend themselves against an attack.",
       "category": "Ability"
@@ -1122,7 +1122,7 @@
       "cost": "No AP Cost",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "May only use three Battle Commands at a time",
       "description": "You fill your enemies with fear and doubt, causing all healing abilities to become 75% as effective when used by any enemies within 25 feet of you.",
       "category": "Ability"
@@ -1184,7 +1184,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A powerful strike which knocks your enemy off-balance, dealing 209 damage and causing the victim to lose 40 Action Points. All members of your group within 50 feett gain 20 Action Points. Allies gain an additional 10 Action Points for each active Battle Command of Glory.",
+      "description": "A powerful strike which knocks your enemy off-balance, dealing 209 damage and causing the victim to lose 40 Action Points. All members of your group within 50 feet gain 20 Action Points. Allies gain an additional 10 Action Points for each active Battle Command of Glory.",
       "category": "Ability"
     },
     {

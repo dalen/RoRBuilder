@@ -879,7 +879,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Summons a massive battle squig which will promptly eat you. While in your Squig Armor your Strength, Toughness and Wounds are increased by 100. Your armor is increased by half the amount of armor gained from items, your Ballistic Skill from items also counts as Strength, your Ranged Power from items also counts as Melee Power, and your Ranged Critical chance from items also counts as Melee Critical chance. This ability will continue to build up even if you move.",
+      "description": "Summons a massive battle squig that eats you. While in Squig Armor, Strength, Toughness, and Wounds increase by 100. Armor is increased by half the amount gained from items. Ballistic Skill from items counts as Strength, Ranged Power as Melee Power, Dodge Strikethrough as Parry Strikethrough, and Ranged Crit as Melee Crit. This ability builds up even while moving.",
       "category": "Ability"
     },
     {
@@ -908,7 +908,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "",
+      "note": "Usable in Squig Armor",
       "description": "You and your Squig attack together on each others target. You strike your target for 119 damage, and your pet strikes its target for 119 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 119 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 119 damage as well.",
       "category": "Ability"
     },

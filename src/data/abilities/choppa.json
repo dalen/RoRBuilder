@@ -21,13 +21,13 @@
     633,
     1779,
     739,
-    629,
+    35710,
     523,
     530,
     1780,
     1799,
     528,
-    1781,
+    35767,
     1800,
     1782,
     1783,
@@ -44,7 +44,7 @@
       },
       "optionalAbilities": {
         "lvl1": 1788,
-        "lvl2": 1770,
+        "lvl2": 1772,
         "lvl3": 1789,
         "lvl4": 1746,
         "lvl5": 1790,
@@ -66,11 +66,11 @@
       },
       "optionalAbilities": {
         "lvl1": 1791,
-        "lvl2": 1771,
+        "lvl2": 35782,
         "lvl3": 1792,
-        "lvl4": 1772,
+        "lvl4": 35799,
         "lvl5": 1793,
-        "lvl6": 1773,
+        "lvl6": 1770,
         "lvl7": 1803
       },
       "coreAbilities": [
@@ -421,18 +421,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 629,
+      "id": 35710,
       "image": "https://armory.returnofreckoning.com/icon/23156",
-      "name": "Broad Swings",
-      "type": "Buff",
+      "name": "Overpowering Blow",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, your attacks will cleave through up to 2 additional enemies within 25 feet in front of you, dealing unmitigable damage of 300 per strike.",
+      "description": "You strike your opponent with surprising force, dealing 1200 damage and knocking them down for 4 seconds.",
       "category": "Morale"
     },
     {
@@ -477,7 +477,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All your Exhaustive Blows have a 50% chance to restore 225 hit points.",
+      "description": "Whenever you exhaust Rage with an attack, you are healed for 15 health per point of Rage exhausted.",
       "category": "CareerTactic"
     },
     {
@@ -511,9 +511,9 @@
       "category": "CareerTactic"
     },
     {
-      "id": 1781,
-      "image": "https://armory.returnofreckoning.com/icon/22707",
-      "name": "I'm Still Here",
+      "id": 35767,
+      "image": "https://armory.returnofreckoning.com/icon/22702",
+      "name": "Can't Stop Da Chop",
       "type": "Defensive",
       "spec": "Core Ability",
       "minrank": "31",
@@ -522,7 +522,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the duration of Come An' Git It and Try An' Hurt Me by 5 seconds.",
+      "description": "Your Exhaustive Abilities now remove one movement impairing effect from yourself. You gain 40 Action Points each time an effect is removed. This cannot happen more than once every 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -552,7 +552,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All attacks will generate 25% less hate.",
+      "description": "All Taunts and Detaunts are 25% less effective against you.",
       "category": "CareerTactic"
     },
     {
@@ -597,7 +597,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Get Stuck In's cooldown timer is lowered by 10 seconds.",
+      "description": "Get Stuck In's cooldown timer is lowered by 30 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -672,7 +672,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Target must be facing away from you",
-      "description": "You deal 291 damage to your enemy.",
+      "description": "You deal 253 damage to your enemy.",
       "category": "Ability"
     },
     {
@@ -685,9 +685,9 @@
       "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "40s cooldown",
       "note": "",
-      "description": "Each time that you attack an enemy within the next 10 seconds, Any group member within 100 feet will have their Weapon Skill increased by 33, but your Initiative will also be reduced by 33 for the next 10 seconds. This effect can be stacked up to three times.",
+      "description": "Each time that you attack an enemy within the next 10 seconds, Any group member within 100 feet will have their Weapon Skill increased by 33, but your Toughness will also be reduced by 33 for the next 10 seconds. This effect can be stacked up to three times.",
       "category": "Ability"
     },
     {
@@ -701,7 +701,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage",
+      "note": "Must be Furious or Berserk<br>Exhausts up to 100 Rage",
       "description": "An exhaustive blow that deals 178 damage and reduces your target's chance to critically hit by 100% for 10 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
@@ -717,22 +717,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Exhaustive Blows or Outta My Face will no longer remove your Rage.",
+      "description": "Exhaustive Blows will no longer remove your Rage, but being Furious no longer grants Exhaustive Blows any additional effects.",
       "category": "CareerTactic"
     },
     {
-      "id": 1770,
-      "image": "https://armory.returnofreckoning.com/icon/2653",
-      "name": "Keep On Choppin'",
-      "type": "Enchantment",
-      "spec": "Path of Da' Savage",
-      "minrank": "21",
-      "cost": "25 Action Points",
+      "id": 1772,
+      "image": "https://armory.returnofreckoning.com/icon/2655",
+      "name": "Tired Already?",
+      "type": "Curse",
+      "spec": "Path of Da' Hitta",
+      "minrank": "25",
+      "cost": "15 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You chop deeply into your enemy, dealing 253 damage. Your love of battle fills you with energy, restoring 100 Action Points.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts up to 50 Rage",
+      "description": "You chop your target in a vital organ, dealing 216 damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
     {
@@ -753,7 +753,7 @@
     {
       "id": 1746,
       "image": "https://armory.returnofreckoning.com/icon/2634",
-      "name": "Can't Stop Da Chop",
+      "name": "No More Helpin'",
       "type": "Curse",
       "spec": "Path of Da' Savage",
       "minrank": "25",
@@ -777,7 +777,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While Berserk, all cooldowns are reduced by 5 seconds.",
+      "description": "While Berserk, hitting an enemy with a Path of Da' Savage ability reduces all your active cooldowns by 1 second.",
       "category": "CareerTactic"
     },
     {
@@ -790,7 +790,7 @@
       "cost": "15 Action Points / Sec",
       "range": "5ft range",
       "incant": "5.0s cast",
-      "cooldown": "25s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "A merciless strike of attacks that repeatedly hits your target for up to 5 seconds, dealing up to 269 damage. You will be healed for all damage this ability deals.",
       "category": "Ability"
@@ -822,7 +822,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A furious slash that deals 253 damage and reduces your target's Toughness by 50 for 9 seconds. This effect is stackable up to three times.",
+      "description": "A furious slash that deals 216 damage and reduces your target's Toughness by 50 for 9 seconds. This effect is stackable up to three times.",
       "category": "Ability"
     },
     {
@@ -836,8 +836,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "A wild swing which deals 291 damage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be Furious or Berserk<br>Exhausts up to 35 Rage",
+      "description": "A wild swing which deals 291 damage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus and deal 337 damage to yourself.",
       "category": "Ability"
     },
     {
@@ -851,8 +851,8 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "You unleash a powerful blow, dealing 403 damage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts up to 100 Rage",
+      "description": "You unleash a powerful blow, dealing 441 damage. This ability exhausts 10% less Rage for each 10% health that the target is missing.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
     {
@@ -881,7 +881,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
-      "note": "Must be Berserk<br>Exhausts your Rage",
+      "note": "Must be Berserk<br>Exhausts up to 100 Rage",
       "description": "Deals 216 damage and knocks down the target for 3 seconds. The attack is undefendable.",
       "category": "Ability"
     },
@@ -897,11 +897,11 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time your Exhaustive Blow gets defended, for the next 6 seconds all attacks will cost 0 action points.",
+      "description": "Your Exhaustive blows now exhaust 15 Rage less when used while Furious.",
       "category": "CareerTactic"
     },
     {
-      "id": 1771,
+      "id": 35782,
       "image": "https://armory.returnofreckoning.com/icon/2654",
       "name": "Bleed Em Out",
       "type": "Curse",
@@ -910,9 +910,9 @@
       "cost": "45 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "Your target suffers 750 damage over the next 10 seconds. The damage will start low, and increase as the effect continues.",
+      "description": "Your target suffers 695 damage over 8 seconds. The damage is increased by 10% for every 10% health the target is missing. If wielding a Great Weapon: When the effect ends or the target dies while affected by this ability, you instantly gain 20 Rage.",
       "category": "Ability"
     },
     {
@@ -927,22 +927,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Exhaustive Blows have a 50% chance of returning 25% of your Rage.",
+      "description": "Your Exhaustive Blows increase your autoattack damage by 25% for  5 seconds.",
       "category": "CareerTactic"
     },
     {
-      "id": 1772,
-      "image": "https://armory.returnofreckoning.com/icon/2655",
-      "name": "Tired Already?",
+      "id": 35799,
+      "image": "https://armory.returnofreckoning.com/icon/2411",
+      "name": "Big Bad Combo",
       "type": "Curse",
       "spec": "Path of Da' Hitta",
-      "minrank": "25",
-      "cost": "15 Action Points",
+      "minrank": "29",
+      "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "20s cooldown",
-      "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You chop your target in a vital organ, dealing 216 damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "cooldown": "10s cooldown",
+      "note": "Requires Great Weapon<br>Must be Berserk<br>Exhausts up to 35 Rage",
+      "description": "You unleash a frenzied combo of attacks, dealing 194 damage twice. Your chance to critically hit the target is increased by 10% for 10s. This effect stacks with other sources. Countin' is for stuntiez.",
       "category": "Ability"
     },
     {
@@ -957,22 +957,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the chance to critically hit with Path of Da' Big Hitta abilities by 15%, but if you are dual wielding, increases the chance that you'll be critically hit by 10%.",
+      "description": "Weakling Killa, Bleed Em Out and Big Bad Combo will almost always critically hit if the target's health is below 30%.",
       "category": "CareerTactic"
     },
     {
-      "id": 1773,
-      "image": "https://armory.returnofreckoning.com/icon/2656",
-      "name": "No More Helpin'",
-      "type": "Curse",
+      "id": 1770,
+      "image": "https://armory.returnofreckoning.com/icon/2653",
+      "name": "Keep On Choppin'",
+      "type": "Damaging",
       "spec": "Path of Da' Hitta",
-      "minrank": "29",
-      "cost": "15 Action Points",
+      "minrank": "21",
+      "cost": "25 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "A brutal attack which deals 441 damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts up to 50 Rage",
+      "description": "You chop deeply into your enemy, dealing 291 damage. Your love of battle fills you with energy, preventing your next Exhaustive attack within 10 seconds from expending any Rage.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
     {
@@ -1002,7 +1002,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You wildly swing at enemies in front of you within 25 feet, dealing 165 damage. May only hit up to three targets.",
+      "description": "You wildly swing at enemies in front of you within 30 feet, dealing 165 damage. May only hit up to three targets.",
       "category": "Ability"
     },
     {
@@ -1016,8 +1016,8 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You strike enemies within 25 feet, dealing anywhere from 165 damage to 195 damage. <BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be Furious or Berserk<br>Exhausts up to 100 Rage",
+      "description": "You strike enemies within 25 feet, dealing  231 damage. You gain 5 Rage for each enemy hit, up to a maximum of 9 targets.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
     {
@@ -1032,7 +1032,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Increases your Toughness by 50 for each enemy within 20 feet, up to a maximum of 9 enemies, for 10 seconds.",
+      "description": "For the next 5 seconds, you cannot deal or receive critical damage.",
       "category": "Ability"
     },
     {
@@ -1062,7 +1062,7 @@
       "incant": "5.0s cast",
       "cooldown": "30s cooldown",
       "note": "Requires Dual Wield",
-      "description": "For the next 5 seconds you strike out at all enemies 25 feet in front of you, inflicting 231 damage every second.",
+      "description": "For the next 5 seconds you strike out at all enemies 25 feet in front of you, inflicting 231 damage every second. While Berserk, Bring It On additionally deals 269 damage back to the attacker each time you are hit with an attack, this effect can only be triggered once every second. ",
       "category": "Ability"
     },
     {
@@ -1091,7 +1091,7 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
+      "note": "Requires Dual Wield<br>Must be Furious or Berserk<br>Exhausts up to 50 Rage",
       "description": "You lash out at all enemies within 25 feet, inflicting 142 damage. All of the victims will also become snared, reducing their run speed by 30% for 5 seconds.<BR><BR>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
@@ -1107,7 +1107,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Lotsa Choppin' will affect 24 targets within 30 feet and reduces the base damage by 20%. Bring It On additionally deals 269 damage back to the attacker each time you are hit with an attack, this effect can only be triggered once every second The cooldown of Furious Stompin' is reduced by 10 seconds. Auto attack damage reduced by 20%.",
+      "description": "Lotsa Choppin' will now hit up to 24 targets within 30 feet in front of you, but its damage is reduced by 15%.",
       "category": "CareerTactic"
     },
     {
@@ -1120,9 +1120,9 @@
       "cost": "45 Action Points",
       "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "30s cooldown",
-      "note": "",
-      "description": "You stomp the ground below, dealing 194 damage to all targets within 25 feet. For the following 6 seconds, you continue stomping the ground every 2 seconds dealing 130 damage to all targets within 25 feet.",
+      "cooldown": "20s cooldown",
+      "note": "Must be Berserk",
+      "description": "You stomp the ground below, dealing 194 damage to all targets within 25 feet. For the following 6 seconds, you continue stomping the ground every 2 seconds dealing 130 damage to all targets within 25 feet. This ability is cancelled when you are no longer Berserk.",
       "category": "Ability"
     },
     {
@@ -1137,7 +1137,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you die, you have a 25% chance of resurrecting at 25% health and unleashing a blow to all enemies within 40 feet and dealing 375 damage.",
+      "description": "When you die, Mork grants you a second chance, temporarily resurrecting you with 25% health and resetting all your cooldowns. If you manage to kill an enemy within 10 seconds, Mork lets you keep your new life. If not, you will die once again. You cannot be resurrected by this effect more than once every 60 seconds.",
       "category": "CareerTactic"
     },
     {

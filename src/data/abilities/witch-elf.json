@@ -13,6 +13,7 @@
     9395,
     628,
     526,
+    9400,
     9432,
     521,
     631,
@@ -22,23 +23,24 @@
     9414,
     9433,
     9413,
-    9440,
+    9450,
     840,
-    629,
+    35710,
     523,
     530,
     9434,
     9458,
+    9440,
     528,
     9436,
     9459,
     9435,
-    9701,
+    9396,
     9437,
     9460,
     9438,
     9439,
-    9396,
+    9701,
     630
   ],
   "mastery": {
@@ -57,11 +59,11 @@
         "lvl7": 9464
       },
       "coreAbilities": [
-        9398,
         9406,
-        9402,
+        9398,
         9399,
-        9400
+        35758,
+        9412
       ]
     },
     "b": {
@@ -71,7 +73,7 @@
       },
       "optionalAbilities": {
         "lvl1": 9447,
-        "lvl2": 9429,
+        "lvl2": 9426,
         "lvl3": 9446,
         "lvl4": 9424,
         "lvl5": 9448,
@@ -80,10 +82,10 @@
       },
       "coreAbilities": [
         9403,
-        9404,
         9407,
+        9405,
         9401,
-        9405
+        9404
       ]
     },
     "c": {
@@ -93,19 +95,19 @@
       },
       "optionalAbilities": {
         "lvl1": 9449,
-        "lvl2": 9426,
-        "lvl3": 9450,
+        "lvl2": 9429,
+        "lvl3": 35752,
         "lvl4": 9427,
         "lvl5": 9451,
         "lvl6": 9428,
         "lvl7": 9466
       },
       "coreAbilities": [
-        9410,
         9408,
+        9410,
+        9402,
         9409,
-        9411,
-        9412
+        9411
       ]
     }
   },
@@ -223,7 +225,7 @@
       "spec": "Core Ability",
       "minrank": "7",
       "cost": "25 Action Points",
-      "range": "65ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
@@ -306,6 +308,21 @@
       "category": "CareerTactic"
     },
     {
+      "id": 9400,
+      "image": "https://armory.returnofreckoning.com/icon/10972",
+      "name": "Sever Limb",
+      "type": "Damaging",
+      "spec": "Core Ability",
+      "minrank": "14",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Requires Parry",
+      "description": "A precise Crippling attack that deals 314 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
+      "category": "Ability"
+    },
+    {
       "id": 9432,
       "image": "https://armory.returnofreckoning.com/icon/22712",
       "name": "Whirling Blades",
@@ -362,7 +379,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Slice will now sweep out in an arc in front of you, striking up to an additional two enemies within 25 feet, but Slice will now do 10% less damage.",
+      "description": "Slice will now hit all targets in front of you within 25 feet.",
       "category": "CareerTactic"
     },
     {
@@ -399,15 +416,15 @@
       "id": 9414,
       "image": "https://armory.returnofreckoning.com/icon/10988",
       "name": "Shadow Leap",
-      "type": "Defensive",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "21",
-      "cost": "No AP Cost",
-      "range": "30ft range",
+      "cost": "30 Action Points",
+      "range": "45ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Requires Prowling<br>You cannot perform this action while rooted<br>You cannot perform this action while airborne",
-      "description": "You pounce forwards, leaping out of the shadows towards your target stabbing them with your daggers. Your target's movement speed will be reduced by 40% for 5 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
+      "cooldown": "30s cooldown",
+      "note": "You cannot perform this action while rooted<br>You cannot perform this action while airborne",
+      "description": "You pounce forwards towards your target, stabbing them with your daggers to deal 164 damage. Your target's movement speed will be reduced by 40% for 3 seconds. Whenever you enter stealth, the cooldown of Shadow Leap is reset.",
       "category": "Ability"
     },
     {
@@ -441,9 +458,9 @@
       "category": "Ability"
     },
     {
-      "id": 9440,
+      "id": 9450,
       "image": "https://armory.returnofreckoning.com/icon/22701",
-      "name": "Mark of Hellebron",
+      "name": "Increased Pain",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "23",
@@ -452,7 +469,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You have been blessed by Hellebron. Your auto attack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies.",
+      "description": "Your critical hits will inflict 50% more damage.",
       "category": "CareerTactic"
     },
     {
@@ -471,18 +488,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 629,
+      "id": 35710,
       "image": "https://armory.returnofreckoning.com/icon/23156",
-      "name": "Broad Swings",
-      "type": "Buff",
+      "name": "Overpowering Blow",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
-      "range": "Self",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, your attacks will cleave through up to 2 additional enemies within 25 feet in front of you, dealing unmitigable damage of 300 per strike.",
+      "description": "You strike your opponent with surprising force, dealing 1200 damage and knocking them down for 4 seconds.",
       "category": "Morale"
     },
     {
@@ -534,16 +551,31 @@
       "id": 9458,
       "image": "https://armory.returnofreckoning.com/icon/10988",
       "name": "Dance of Doom",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Rank 1 morale",
-      "range": "5ft range",
-      "incant": "3.0s cast",
+      "range": "Self",
+      "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You concentrate on your target, repeatedly dealing 300 damage to them for up to 3 seconds.",
+      "description": "Remove all roots and snares from you. You gain 1 Blood Lust every 1 seconds for 5 seconds.",
       "category": "Morale"
+    },
+    {
+      "id": 9440,
+      "image": "https://armory.returnofreckoning.com/icon/22701",
+      "name": "Mark of Hellebron",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "29",
+      "cost": "Tactic",
+      "range": "Self",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "You have been blessed by Hellebron. Your auto attack speed is increased by 50% for 10 seconds after the successful use of any one of your Frenzies.",
+      "category": "CareerTactic"
     },
     {
       "id": 528,
@@ -606,18 +638,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9701,
-      "image": "https://armory.returnofreckoning.com/icon/10997",
-      "name": "Shadow of Death",
+      "id": 9396,
+      "image": "https://armory.returnofreckoning.com/icon/10905",
+      "name": "Agile Escape",
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "34",
-      "cost": "30 Action Points",
+      "cost": "No AP Cost",
       "range": "5ft range",
-      "incant": "2.0s cast",
-      "cooldown": "20s cooldown",
-      "note": "Only usable on Dead Players",
-      "description": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be resurrected for the next 30 seconds.",
+      "incant": "Instant cast",
+      "cooldown": "30s cooldown",
+      "note": "You cannot perform this action while rooted<br>You cannot perform this action while airborne",
+      "description": "You leap backwards from your target, causing your target to be Staggered for up to 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
     {
@@ -681,18 +713,18 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9396,
-      "image": "https://armory.returnofreckoning.com/icon/10905",
-      "name": "Agile Escape",
+      "id": 9701,
+      "image": "https://armory.returnofreckoning.com/icon/10997",
+      "name": "Shadow of Death",
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "40",
-      "cost": "No AP Cost",
+      "cost": "30 Action Points",
       "range": "5ft range",
-      "incant": "Instant cast",
-      "cooldown": "30s cooldown",
-      "note": "You cannot perform this action while rooted<br>You cannot perform this action while airborne",
-      "description": "You leap backwards from your target, causing your target to be Staggered for up to 6 seconds, preventing all actions unless they're damaged.",
+      "incant": "2.0s cast",
+      "cooldown": "20s cooldown",
+      "note": "Only usable on Dead Players",
+      "description": "With a swift motion of your blades, you carve the symbol of Khaine into your victim's flesh. They cannot be resurrected for the next 30 seconds.",
       "category": "Ability"
     },
     {
@@ -711,21 +743,6 @@
       "category": "Morale"
     },
     {
-      "id": 9398,
-      "image": "https://armory.returnofreckoning.com/icon/10902",
-      "name": "Slice",
-      "type": "Damaging",
-      "spec": "Path of Carnage",
-      "minrank": "1",
-      "cost": "40 Action Points",
-      "range": "5ft range",
-      "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Builds 1 Blood Lust",
-      "description": "A deep stab which deals 314 damage to your target.",
-      "category": "Ability"
-    },
-    {
       "id": 9406,
       "image": "https://armory.returnofreckoning.com/icon/10978",
       "name": "Vehement Blades",
@@ -737,22 +754,22 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
-      "description": "You leap from the shadows, infusing your target's weapons with corrupted blood for 15 seconds. Each time they use a melee ability, the corruption surges through their body, dealing 277 Corporeal damage. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
+      "description": "You leap from the shadows, infusing your target's weapons with corrupted blood for 15 seconds. Each time they use a melee ability, the corruption surges through their body, dealing 262 Corporeal damage. Their chance to be critically hit is increased by 10% when they are hit from the rear. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
       "category": "Ability"
     },
     {
-      "id": 9402,
-      "image": "https://armory.returnofreckoning.com/icon/10974",
-      "name": "Kiss of Agony",
-      "type": "Buff",
+      "id": 9398,
+      "image": "https://armory.returnofreckoning.com/icon/10902",
+      "name": "Slice",
+      "type": "Damaging",
       "spec": "Path of Carnage",
-      "minrank": "4",
-      "cost": "20 Action Points",
-      "range": "5ft range",
+      "minrank": "5",
+      "cost": "40 Action Points",
+      "range": "Self",
       "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "",
-      "description": "You cover your blades with a toxic concoction. Anytime you hit an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 100 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
+      "cooldown": "No cooldown",
+      "note": "Builds 1 Blood Lust",
+      "description": "You strike up to three enemies in front of you within 15 feet for 180 damage.",
       "category": "Ability"
     },
     {
@@ -761,28 +778,43 @@
       "name": "Ruthless Assault",
       "type": "Damaging",
       "spec": "Path of Carnage",
-      "minrank": "12",
+      "minrank": "6",
       "cost": "15 Action Points / Sec",
-      "range": "30ft range",
+      "range": "5ft range",
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<BR>   1 Blood Lust:  774 damage.<BR>   2 Blood Lust:   1002 damage.<BR>   3 Blood Lust:   1236 damage.<BR>   4 Blood Lust:   1452 damage.<BR>   5 Blood Lust:   1680 damage.",
+      "description": "A relentless string of attacks which repeatedly strikes your target up to 6 times over 3 seconds.<BR>   1 Blood Lust:   1002 damage.<BR>   2 Blood Lust:   1224 damage.<BR>   3 Blood Lust:   1452 damage.<BR>   4 Blood Lust:   1674 damage.<BR>   5 Blood Lust:   1902 damage.",
       "category": "Ability"
     },
     {
-      "id": 9400,
-      "image": "https://armory.returnofreckoning.com/icon/10972",
-      "name": "Sever Limb",
+      "id": 35758,
+      "image": "https://armory.returnofreckoning.com/icon/11052",
+      "name": "Blade Spin",
       "type": "Damaging",
       "spec": "Path of Carnage",
-      "minrank": "14",
-      "cost": "35 Action Points",
+      "minrank": "12",
+      "cost": "45 Action Points",
+      "range": "Self",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
+      "description": "You spin your daggers, creating a dagger storm dealing damage twice to all enemies within 25 feet based on your Blood Lust. Your chance to critically hit is increased by 10% against enemies below 50% health and by 20% against enemies below 25% health.<BR>   1 Bloodlust: 148 damage per hit.<BR>   2 Bloodlust: 185 damage per hit.<BR>   3 Bloodlust: 223 damage per hit.<BR>   4 Bloodlust: 260 damage per hit.<BR>   5 Bloodlust: 298 damage per hit.",
+      "category": "Ability"
+    },
+    {
+      "id": 9412,
+      "image": "https://armory.returnofreckoning.com/icon/10982",
+      "name": "Kiss of Betrayal",
+      "type": "Buff",
+      "spec": "Path of Carnage",
+      "minrank": "35",
+      "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
-      "note": "Requires Parry",
-      "description": "A precise Crippling attack that deals 314 damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
+      "note": "",
+      "description": "You cover your blades with a toxic concoction. Anytime you hit an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
       "category": "Ability"
     },
     {
@@ -797,7 +829,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Anytime an attack you make is blocked or parried, you will automatically do 225 damage to your target.<br>Cannot occur more than once every 2 seconds.",
+      "description": "Anytime an attack you make is blocked or parried, you will automatically do 262 damage to your target.<BR>Cannot occur more than once every second.",
       "category": "CareerTactic"
     },
     {
@@ -812,7 +844,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A vile brew which drives you into a rage for the next 7 seconds.  All of your attacks will ignore 50% of the victim's armor.<BR>You may only use a single Elixir at a time.",
+      "description": "A vile brew which drives you into a rage for the next 7 seconds.  All of your attacks will ignore 25% of the victim's armor and increases your run speed by 50% for 7 seconds. If you use any abilities, the movement speed increase will immediately end.<BR>You may only use a single Elixir at a time.",
       "category": "Ability"
     },
     {
@@ -857,7 +889,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Armor Penetration is increased by 25% for 3 seconds after successful use of your Frenzies.",
+      "description": "Your Armor Penetration is increased by 25% for 3 seconds whenever you use of your Frenzies.",
       "category": "CareerTactic"
     },
     {
@@ -872,13 +904,13 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target and all enemies around them reducing their Morale by 125. Inspired, your group gains 125 Morale.<BR>   1 Blood Lust:  129 damage per hit, 25 feet radius.<BR>   2 Blood Lust:  167 damage per hit, 30 feet radius.<BR>   3 Blood Lust:  206 damage per hit, 35 feet radius.<BR>   4 Blood Lust:  242 damage per hit, 40 feet radius.<BR>   5 Blood Lust:  280 damage per hit, 45 feet radius.",
+      "description": "You spin around and strike your target with a pair of quick, punishing attacks that knocks them down for 3 seconds, and does damage to your target and all enemies around them reducing their Morale by 125. Inspired, your group gains 125 Morale.<BR>   1 Blood Lust:  92 damage per hit, 25 feet radius.<BR>   2 Blood Lust:  129 damage per hit, 30 feet radius.<BR>   3 Blood Lust:  167 damage per hit, 35 feet radius.<BR>   4 Blood Lust:  204 damage per hit, 40 feet radius.<BR>   5 Blood Lust:  242 damage per hit, 45 feet radius.",
       "category": "Ability"
     },
     {
       "id": 9464,
       "image": "https://armory.returnofreckoning.com/icon/10991",
-      "name": "Blade Spin",
+      "name": "Dagger Storm",
       "type": "Damaging",
       "spec": "Path of Carnage",
       "minrank": "31",
@@ -887,7 +919,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 2400 damage over 5 seconds to all enemies within 25 feet.",
+      "description": "Deals 2400 damage to all enemies within 25 feet.",
       "category": "Morale"
     },
     {
@@ -906,21 +938,6 @@
       "category": "Ability"
     },
     {
-      "id": 9404,
-      "image": "https://armory.returnofreckoning.com/icon/10976",
-      "name": "Heart Render Toxin",
-      "type": "Ailment",
-      "spec": "Path of Suffering",
-      "minrank": "6",
-      "cost": "35 Action Points",
-      "range": "30ft range",
-      "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You quickly strike your target two times, dealing damage and inflicting an Ailment on them for 10 seconds which reduces their Wounds.<BR>   1 Blood Lust:  119 damage per hit; Wounds reduced by 30.<BR>   2 Blood Lust:  151 damage per hit; Wounds reduced by 60.<BR>   3 Blood Lust:  183 damage per hit; Wounds reduced by 90.<BR>   4 Blood Lust:  213 damage per hit; Wounds reduced by 120.<BR>   5 Blood Lust:  244 damage per hit; Wounds reduced by 150.",
-      "category": "Ability"
-    },
-    {
       "id": 9407,
       "image": "https://armory.returnofreckoning.com/icon/11006",
       "name": "Kiss of Death",
@@ -933,6 +950,21 @@
       "cooldown": "10s cooldown",
       "note": "",
       "description": "You cover your blades with a toxic concoction. Anytime you hit an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
+      "category": "Ability"
+    },
+    {
+      "id": 9405,
+      "image": "https://armory.returnofreckoning.com/icon/10977",
+      "name": "Wracking Pains",
+      "type": "Ailment",
+      "spec": "Path of Suffering",
+      "minrank": "10",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Builds 1 Blood Lust",
+      "description": "A brutal attack that deals 1015 Corporeal damage to your target over 21 seconds.  If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 150 for 21 seconds.",
       "category": "Ability"
     },
     {
@@ -951,18 +983,18 @@
       "category": "Ability"
     },
     {
-      "id": 9405,
-      "image": "https://armory.returnofreckoning.com/icon/10977",
-      "name": "Wracking Pains",
+      "id": 9404,
+      "image": "https://armory.returnofreckoning.com/icon/10976",
+      "name": "Heart Render Toxin",
       "type": "Ailment",
       "spec": "Path of Suffering",
       "minrank": "25",
       "cost": "35 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 1 Blood Lust",
-      "description": "A brutal attack that deals 1015 Corporeal damage to your target over 21 seconds.  If the target is Ailing, then their Toughness and Weapon Skill will also be reduced by 150 for 21 seconds.",
+      "description": "You quickly strike your target with your toxic dagger for 164 damage and apply an ailment to them, reducing their Wounds by 150 for 15 seconds.",
       "category": "Ability"
     },
     {
@@ -981,9 +1013,9 @@
       "category": "CareerTactic"
     },
     {
-      "id": 9429,
-      "image": "https://armory.returnofreckoning.com/icon/11001",
-      "name": "Elixir of Shadows",
+      "id": 9426,
+      "image": "https://armory.returnofreckoning.com/icon/10987",
+      "name": "Elixir of the Cauldron",
       "type": "Buff",
       "spec": "Path of Suffering",
       "minrank": "21",
@@ -991,8 +1023,8 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
-      "note": "Grants Prowling",
-      "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 2 seconds seconds and increase your speed by 50% for 7 seconds.<BR>You may only use a single Elixir at a time.",
+      "note": "",
+      "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% and reduces all magical damage taken by 100% for 7 seconds.<BR>You may only use a single Elixir at a time.",
       "category": "Ability"
     },
     {
@@ -1007,7 +1039,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Kiss of Death will now heal you for the damage it deals.",
+      "description": "Your Kisses will now heal you for the damage they deal.",
       "category": "CareerTactic"
     },
     {
@@ -1029,7 +1061,7 @@
       "id": 9448,
       "image": "https://armory.returnofreckoning.com/icon/22706",
       "name": "Enveloping Shadows",
-      "type": "Buff",
+      "type": "Healing",
       "spec": "Path of Suffering",
       "minrank": "27",
       "cost": "Tactic",
@@ -1037,7 +1069,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When leaving Shadow Prowler, you will become protected by a barrier that will absorb up to 712 damage for up to 15 seconds.",
+      "description": "While Shadow Prowling, your movement speed is increased by 20% and you regain 160 health every 3 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1052,7 +1084,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You consume a noxious liquid distilled from blood which fills you with power, causing your next several attacks to each deal an additional 276 Corporeal damage to your target.<BR>   1 Blood Lust:  Lasts for 2 attacks.<BR>   2 Blood Lust:  Lasts for 3 attacks.<BR>   3 Blood Lust:  Lasts for 4 attacks.<BR>   4 Blood Lust:  Lasts for 5 attacks.<BR>   5 Blood Lust:  Lasts for 6 attacks.",
+      "description": "You consume a noxious liquid distilled from blood which fills you with power, causing your next several attacks to each deal an additional 276 Corporeal damage to your target. <BR>   1 Blood Lust:  Lasts for 2 attacks.<BR>   2 Blood Lust:  Lasts for 3 attacks.<BR>   3 Blood Lust:  Lasts for 4 attacks.<BR>   4 Blood Lust:  Lasts for 5 attacks.<BR>   5 Blood Lust:  Lasts for 6 attacks.<BR><BR>You may consume Witchbrew while Shadow Prowling without dismissing the effect.",
       "category": "Ability"
     },
     {
@@ -1067,8 +1099,23 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 2400 damage over 5 seconds to all enemies in front of you, up to 65 feet away.",
+      "description": "Deals 1200 damage over 10 seconds to all enemies in front of you, up to 65 feet away, also reducing their Strength, Intelligence, Ballistic Skill and Willpower by 250.",
       "category": "Morale"
+    },
+    {
+      "id": 9408,
+      "image": "https://armory.returnofreckoning.com/icon/10979",
+      "name": "Agonizing Wound",
+      "type": "Damaging",
+      "spec": "Path of Treachery",
+      "minrank": "1",
+      "cost": "35 Action Points",
+      "range": "5ft range",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Builds 1 Blood Lust",
+      "description": "A cruel attack to your target, which deals 239 damage. If you are behind your target, you ignore your target's armor.",
+      "category": "Ability"
     },
     {
       "id": 9410,
@@ -1078,7 +1125,7 @@
       "spec": "Path of Treachery",
       "minrank": "2",
       "cost": "35 Action Points",
-      "range": "30ft range",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
@@ -1086,18 +1133,18 @@
       "category": "Ability"
     },
     {
-      "id": 9408,
-      "image": "https://armory.returnofreckoning.com/icon/10979",
-      "name": "Agonizing Wound",
-      "type": "Damaging",
+      "id": 9402,
+      "image": "https://armory.returnofreckoning.com/icon/10974",
+      "name": "Kiss of Agony",
+      "type": "Buff",
       "spec": "Path of Treachery",
-      "minrank": "5",
-      "cost": "35 Action Points",
+      "minrank": "4",
+      "cost": "20 Action Points",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
-      "note": "Builds 1 Blood Lust",
-      "description": "A cruel attack to your target, which deals 239 damage. If you are behind your target, you ignore your target's armor.",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "You cover your blades with a toxic concoction. Anytime you hit an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing them to have their Initiative reduced by 100 for the next 10 seconds. You capitalize on their momentary weakness, causing your Initiative to be increased for the same amount during this time.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
       "category": "Ability"
     },
     {
@@ -1123,26 +1170,11 @@
       "spec": "Path of Treachery",
       "minrank": "30",
       "cost": "No AP Cost",
-      "range": "5ft range",
+      "range": "Self",
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "Requires Prowling",
-      "description": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. Your target will take 352 Corporeal damage every time they use a magical ability for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds.",
-      "category": "Ability"
-    },
-    {
-      "id": 9412,
-      "image": "https://armory.returnofreckoning.com/icon/10982",
-      "name": "Kiss of Betrayal",
-      "type": "Buff",
-      "spec": "Path of Treachery",
-      "minrank": "35",
-      "cost": "20 Action Points",
-      "range": "5ft range",
-      "incant": "Instant cast",
-      "cooldown": "10s cooldown",
-      "note": "",
-      "description": "You cover your blades with a toxic concoction. Anytime you hit an enemy there is a 25% chance that your target will take an extra 180 Corporeal damage. The concoction seeps into your enemy, causing them to lose 20 Action Points. Seeing your enemy suffer causes you to gain as many Action Points as they have lost.<br>You may only have one Kiss active at a time.<BR><BR>You may apply Kisses while Shadow Prowling without dismissing the effect.",
+      "description": "You leap out at your target in a maddened battle craze, immediately gaining 2 Blood Lust. All enemies within 25 feet will take 262 Corporeal damage every time they use a magical ability for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds.",
       "category": "Ability"
     },
     {
@@ -1157,13 +1189,13 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces Feinted Positioning's cooldown time by 40 seconds.",
+      "description": "Reduces Feinted Positioning's cooldown time by 40 seconds. Feinted Positioning now additionally grants 150 Initiative and Weapon Skill.",
       "category": "CareerTactic"
     },
     {
-      "id": 9426,
-      "image": "https://armory.returnofreckoning.com/icon/10987",
-      "name": "Elixir of the Cauldron",
+      "id": 9429,
+      "image": "https://armory.returnofreckoning.com/icon/11001",
+      "name": "Elixir of Shadows",
       "type": "Buff",
       "spec": "Path of Treachery",
       "minrank": "21",
@@ -1171,14 +1203,14 @@
       "range": "Self",
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
-      "note": "",
-      "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% and resisting all spell damage for 7 seconds.<BR>You may only use a single Elixir at a time.",
+      "note": "Grants Prowling",
+      "description": "You throw poison around you and the vapors blind your enemies. You will become invisible to enemies for 3 seconds.<BR>You may only use a single Elixir at a time.",
       "category": "Ability"
     },
     {
-      "id": 9450,
-      "image": "https://armory.returnofreckoning.com/icon/22701",
-      "name": "Increased Pain",
+      "id": 35752,
+      "image": "https://armory.returnofreckoning.com/icon/22708",
+      "name": "Rite of Unmaking",
       "type": "Buff",
       "spec": "Path of Treachery",
       "minrank": "23",
@@ -1187,7 +1219,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your critical hits will inflict 50% more damage.",
+      "description": "Sever Blessing builds another Blood Lust and if you are behind the target, it will deal 25% more damage.",
       "category": "CareerTactic"
     },
     {
@@ -1217,22 +1249,22 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, Enfeebling Strike or Shadow Leap, you will deal 15% more damage for 10 seconds.<BR>Does not affect damage procs.",
+      "description": "After hitting an enemy with Treacherous Assault, Vehement Blades or Enfeebling Strike, you will deal 15% more damage for 10 seconds.<BR>Does not affect damage procs.",
       "category": "CareerTactic"
     },
     {
       "id": 9428,
       "image": "https://armory.returnofreckoning.com/icon/10994",
       "name": "Sacrificial Stab",
-      "type": "Damaging",
+      "type": "Ailment",
       "spec": "Path of Treachery",
       "minrank": "29",
       "cost": "35 Action Points",
-      "range": "30ft range",
+      "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "Target must be facing away from you<br>Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-      "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt.<BR>   1 Blood Lust:  157 damage per hit.<BR>   2 Blood Lust:  201 damage per hit.<BR>   3 Blood Lust:  246 damage per hit.<BR>   4 Blood Lust:  288 damage per hit.<BR>   5 Blood Lust:  332 damage per hit.",
+      "description": "You offer up your target as a sacrifice, stabbing them twice, ignoring all of their armor and snaring them by 40%.<BR>   1 Blood Lust:  157 damage per hit, snare for 2 seconds.<BR>   2 Blood Lust:  201 damage per hit, snare for 4 seconds.<BR>   3 Blood Lust:  246 damage per hit, snare for 6 seconds.<BR>   4 Blood Lust:  288 damage per hit, snare for 8 seconds.<BR>   5 Blood Lust:  332 damage per hit, snare for 10 seconds.",
       "category": "Ability"
     },
     {
@@ -1247,7 +1279,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet instantly lose 125 Action Points, and will regain action points 50% more slowly for the next 10 seconds.",
+      "description": "All enemies within 25 feet instantly take 1200 damage and lose 125 Action Points, they will regain action points 50% more slowly for the next 10 seconds.",
       "category": "Morale"
     }
   ]
