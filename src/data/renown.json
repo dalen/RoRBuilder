@@ -264,87 +264,30 @@
         }
       ]
     },
-
     "Opportunist": {
       "name": "Opportunist",
-      "description": "Increases Melee critical chance",
+      "description": "Increases Offensive critical chance",
       "short_name": "Melee Crit",
       "icon": "statbuff_opportunist",
       "levels": [
         {
           "name": "Opportunist I",
-          "note": "Increases Melee critical chance by 2%",
+          "note": "Increases Offensive critical chance by 2%",
           "cost": 5
         },
         {
           "name": "Opportunist II",
-          "note": "Increases Melee critical chance by 3% (Total increase of 5%)",
+          "note": "Increases Offensive critical chance by 3% (Total increase of 5%)",
           "cost": 10
         },
         {
           "name": "Opportunist III",
-          "note": "Increases Melee critical chance by 4% (Total increase of 9%)",
+          "note": "Increases Offensive critical chance by 4% (Total increase of 9%)",
           "cost": 15
         },
         {
           "name": "Opportunist IV",
-          "note": "Increases Melee critical chance by 5% (Total increase of 14%)",
-          "cost": 15
-        }
-      ]
-    },
-    "Sure Shot": {
-      "name": "Sure Shot",
-      "description": "Increases Ranged critical chance",
-      "short_name": "Ranged Crit",
-      "icon": "statbuff_sureshot",
-      "levels": [
-        {
-          "name": "Sure Shot I",
-          "note": "Increases Ranged critical chance by 2%",
-          "cost": 5
-        },
-        {
-          "name": "Sure Shot II",
-          "note": "Increases Ranged critical chance by 3% (Total increase of 5%)",
-          "cost": 10
-        },
-        {
-          "name": "Sure Shot III",
-          "note": "Increases Ranged critical chance by 4% (Total increase of 9%)",
-          "cost": 15
-        },
-        {
-          "name": "Sure Shot IV",
-          "note": "Increases Ranged critical chance by 5% (Total increase of 14%)",
-          "cost": 15
-        }
-      ]
-    },
-    "Focused Power": {
-      "name": "Focused Power",
-      "description": "Increases Magic critical chance",
-      "short_name": "Magic Crit",
-      "icon": "statbuff_focusedpower",
-      "levels": [
-        {
-          "name": "Focused Power I",
-          "note": "Increases Magic critical chance by 2%",
-          "cost": 5
-        },
-        {
-          "name": "Focused Power II",
-          "note": "Increases Magic critical chance by 3% (Total increase of 5%)",
-          "cost": 10
-        },
-        {
-          "name": "Focused Power III",
-          "note": "Increases Magic critical chance by 4% (Total increase of 9%)",
-          "cost": 15
-        },
-        {
-          "name": "Focused Power IV",
-          "note": "Increases Magic critical chance by 5% (Total increase of 14%)",
+          "note": "Increases Offensive critical chance by 5% (Total increase of 14%)",
           "cost": 15
         }
       ]
@@ -377,7 +320,6 @@
         }
       ]
     },
-
     "Futile Strikes": {
       "name": "Futile Strikes",
       "description": "Reduces the chance to receive critical damage",
@@ -434,7 +376,6 @@
         }
       ]
     },
-
     "Regeneration": {
       "name": "Regeneration",
       "description": "Increases your natural health regeneration",
