@@ -36,8 +36,6 @@ const initialState = {
   Vigor: 0,
 
   Opportunist: 0,
-  'Sure Shot': 0,
-  'Focused Power': 0,
   'Spiritual Refinement': 0,
   'Quick Escape': 0,
   'Improved Flee': 0,
@@ -188,8 +186,6 @@ const Renown = ({
                   {(
                     [
                       'Opportunist',
-                      'Sure Shot',
-                      'Focused Power',
                       'Spiritual Refinement',
                       'Quick Escape',
                       'Improved Flee',
