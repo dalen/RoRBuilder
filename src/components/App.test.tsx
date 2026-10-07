@@ -5,6 +5,8 @@ import { createStore } from 'redux';
 import App from './App';
 import rootReducer from '../reducers';
 
+jest.mock('./UnifiedPlanner', () => () => <div>Unified planner</div>);
+
 it('renders without crashing', () => {
   // Create store, apply middlewares etc
   const store = createStore(rootReducer);
