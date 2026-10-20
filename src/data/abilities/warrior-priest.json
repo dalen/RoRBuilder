@@ -158,7 +158,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 50 feet. Only one effect of this type may be on a player at a time.",
+      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 40 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
     {
@@ -293,7 +293,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 600 damage to all enemies within 35 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
+      "description": "Deals 600 damage to all enemies within 25 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -323,7 +323,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "All enemies within 40 feet hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters. You will also deal 50% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
+      "description": "All enemies within 30 feet hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters. You will also deal 50% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
       "category": "Ability"
     },
     {
@@ -638,7 +638,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The snare from Weight Of Guilt will now slow down enemies for 30%, and affects all enemies within 30 feet of your target.",
+      "description": "The snare from Weight Of Guilt will now slow down enemies for 30%, and affects all enemies within 20 feet of your target.",
       "category": "CareerTactic"
     },
     {
@@ -653,7 +653,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You attack all targets within 35 feet for 1200 damage and Stagger them for 6 seconds, preventing all actions unless they're damaged.",
+      "description": "You attack all targets within 25 feet for 1200 damage and Stagger them for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Morale"
     },
     {
@@ -698,7 +698,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Builds 40 Righteous Fury",
-      "description": "The force of Sigmar's displeasure slams into all enemies in front of you, up to 40 feet away, and sends them flying backwards.",
+      "description": "The force of Sigmar's displeasure slams into all enemies in front of you, up to 30 feet away, and sends them flying backwards.",
       "category": "Ability"
     },
     {
@@ -878,7 +878,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "Requires 20 Righteous Fury per second",
-      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration.  Each second, all allies within 35 feet of you will regain 246 health, and you will consume 20 Righteous Fury.<BR>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
+      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration.  Each second, all allies within 25 feet of you will regain 246 health, and you will consume 20 Righteous Fury.<BR>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
       "category": "Ability"
     },
     {
@@ -1118,7 +1118,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You call upon the power of Sigmar, dealing 300 damage every second to all enemies in a 35 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to all group members within 100 feet as health.",
+      "description": "You call upon the power of Sigmar, dealing 300 damage every second to all enemies in a 25 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to all group members within 100 feet as health.",
       "category": "Morale"
     },
     {
@@ -1193,7 +1193,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "A sweeping blow which deals 138 damage to all enemies in front of you, up to 60 feet away.<BR>Builds an additional 15 Righteous Fury for each enemy that you strike.",
+      "description": "A sweeping blow which deals 138 damage to all enemies in front of you, up to 50 feet away.<BR>Builds an additional 15 Righteous Fury for each enemy that you strike.",
       "category": "Ability"
     },
     {
@@ -1223,7 +1223,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon<br>Requires 25 Righteous Fury",
-      "description": "Deals 555 Spirit damage over 9 seconds to all enemies within 35 feet. Increases your chance to critically hit affected enemies with Smite by 10%.",
+      "description": "Deals 555 Spirit damage over 9 seconds to all enemies within 25 feet. Increases your chance to critically hit affected enemies with Smite by 10%.",
       "category": "Ability"
     },
     {

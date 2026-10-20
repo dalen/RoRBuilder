@@ -239,7 +239,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You cower submissively, causing all enemies within 40 feet to hate you less and deal only 50% damage to you for 5 seconds.  For the next 5 seconds, you will cause 25% less hate in all enemy monsters. You will also deal 50% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
+      "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds.  For the next 5 seconds, you will cause 25% less hate in all enemy monsters. You will also deal 50% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
       "category": "Ability"
     },
     {
@@ -539,7 +539,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all enemies in a line in front of you, up to 75 feet away.",
+      "description": "Deals 1200 damage to all enemies in a line in front of you, up to 65 feet away.",
       "category": "Morale"
     },
     {
@@ -629,7 +629,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for 134 damage, and your pet strikes its target for 134 damage.  If you are within 45 feet of your pet's target, you will also strike that enemy for 134 damage, and likewise, if your pet is within 45 feet of your target, it will also strike your enemy for 134 damage as well.",
+      "description": "You and your War Lion attack as a pack, ravaging your enemies.  You strike your target for 134 damage, and your pet strikes its target for 134 damage.  If you are within 35 feet of your pet's target, you will also strike that enemy for 134 damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for 134 damage as well.",
       "category": "Ability"
     },
     {
@@ -689,7 +689,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A broad sweep of your axe which deals 184 damage to all enemies in front of you, up to 35 feet away.",
+      "description": "A broad sweep of your axe which deals 184 damage to all enemies in front of you, up to 25 feet away.",
       "category": "Ability"
     },
     {
@@ -719,7 +719,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 35 feet of either one of you and inflicting an Ailment which causes 525 Spirit damage over 15 seconds to all affected enemies.",
+      "description": "You and your War Lion each unleash a blasting shout, interrupting any enemies within 25 feet of either one of you and inflicting an Ailment which causes 525 Spirit damage over 15 seconds to all affected enemies.",
       "category": "Ability"
     },
     {
@@ -779,7 +779,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You rapidly spin your axe around for up to 3 seconds, dealing 184 damage every second to all enemies within 35 feet.  This ability will end if you lose your concentration or run out of action points.",
+      "description": "You rapidly spin your axe around for up to 3 seconds, dealing 184 damage every second to all enemies within 25 feet.  This ability will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
     {
@@ -794,7 +794,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage to all enemies within 35 feet of both you and your War Lion.",
+      "description": "Deals 1200 damage to all enemies within 25 feet of both you and your War Lion.",
       "category": "Morale"
     },
     {

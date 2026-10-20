@@ -154,7 +154,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 50 feet. Only one effect of this type may be on a player at a time.",
+      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 40 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
     {
@@ -289,7 +289,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 600 damage to all enemies within 35 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
+      "description": "Deals 600 damage to all enemies within 25 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -424,7 +424,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Ritual Nexus no longer heals group members, instead it spreads Waves of Chaos, dealing 179 Corporeal damage every 3 seconds to all enemies with 35 feet.",
+      "description": "Your Ritual Nexus no longer heals group members, instead it spreads Waves of Chaos, dealing 179 Corporeal damage every 3 seconds to all enemies with 25 feet.",
       "category": "CareerTactic"
     },
     {
@@ -514,7 +514,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All opponents within 35 feet of you are knocked back, and monsters are knocked down for 3 seconds.",
+      "description": "All opponents within 25 feet of you are knocked back, and monsters are knocked down for 3 seconds.",
       "category": "Ability"
     },
     {
@@ -664,7 +664,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You silence disbelievers and inflict 1215 damage over 5 seconds within 35 feet around you.",
+      "description": "You silence disbelievers and inflict 1215 damage over 5 seconds within 25 feet around you.",
       "category": "Morale"
     },
     {
@@ -844,7 +844,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Requires an active Ritual Nexus<br>You may only have 1 Ritual active",
-      "description": "You infuse your Ritual Nexus with the Ritual of Innervation. Group members within 60 feet of your Nexus gain 50 Action Points and the Action Point cost of their abilities is reduced by 25% for 10 seconds if they remain within 60 feet of the Nexus.",
+      "description": "You infuse your Ritual Nexus with the Ritual of Innervation. Group members within 50 feet of your Nexus gain 50 Action Points and the Action Point cost of their abilities is reduced by 25% for 10 seconds if they remain within 50 feet of the Nexus.",
       "category": "Ability"
     },
     {
@@ -1009,7 +1009,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Tzeentch's Lash will now strike all opponents within 30 feet of your initial target.",
+      "description": "Tzeentch's Lash will now strike all opponents within 20 feet of your initial target.",
       "category": "CareerTactic"
     },
     {
@@ -1024,7 +1024,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Requires an active Ritual Nexus<br>You may only have 1 Ritual active",
-      "description": "You infuse your Ritual Nexus with the Ritual of Superiority. All allies within 35 feet of the Ritual Nexus receive a shield that wil absorb up to 825 damage for up to 10 seconds. Then all group members within 60 feet of the Nexus gain a shield every 2.5 seconds, absorbing up to 375 damage for up to 10 seconds.",
+      "description": "You infuse your Ritual Nexus with the Ritual of Superiority. All allies within 25 feet of the Ritual Nexus receive a shield that wil absorb up to 825 damage for up to 10 seconds. Then all group members within 50 feet of the Nexus gain a shield every 2.5 seconds, absorbing up to 375 damage for up to 10 seconds.",
       "category": "Ability"
     },
     {
@@ -1114,7 +1114,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Pains washes over enemies within 35 feet of you, inflicting 226 Corporeal damage.",
+      "description": "Pains washes over enemies within 25 feet of you, inflicting 226 Corporeal damage.",
       "category": "Ability"
     },
     {
@@ -1144,7 +1144,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A bolt of healing energy which instantly leaps to allies within 40 feet of the last affected, restoring 783 health over 9 seconds. This effect will only pass through each target once, and will affect up to 6 allies.",
+      "description": "A bolt of healing energy which instantly leaps to allies within 30 feet of the last affected, restoring 783 health over 9 seconds. This effect will only pass through each target once, and will affect up to 6 allies.",
       "category": "Ability"
     },
     {
@@ -1174,7 +1174,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Spews a vile mixture over everything 50 feet in front of you, dealing 636 Corporeal damage over 9 seconds to all opponents.",
+      "description": "Spews a vile mixture over everything 40 feet in front of you, dealing 636 Corporeal damage over 9 seconds to all opponents.",
       "category": "Ability"
     },
     {
@@ -1204,7 +1204,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "Requires an active Ritual Nexus<br>You may only have 1 Ritual active",
-      "description": "You infuse your Ritual Nexus with the Ritual of Lunacy. For the next 10 seconds, group members within 60 feet of your Nexus have their chance to critically hit increased by 10% and their next attack within 10 seconds will deal an additional 209 Corporeal damage.",
+      "description": "You infuse your Ritual Nexus with the Ritual of Lunacy. For the next 10 seconds, group members within 50 feet of your Nexus have their chance to critically hit increased by 10% and their next attack within 10 seconds will deal an additional 209 Corporeal damage.",
       "category": "Ability"
     },
     {
@@ -1234,7 +1234,7 @@
       "incant": "6.0s cast",
       "cooldown": "13s cooldown",
       "note": "",
-      "description": "You channel dark forces into your target and all targets within 35 feet of them, dealing 307 Corporeal damage every 2 seconds for up to 6 seconds. This damage is increased by 25% when hitting targets within 60 feet of your Ritual Nexus.",
+      "description": "You channel dark forces into your target and all targets within 25 feet of them, dealing 307 Corporeal damage every 2 seconds for up to 6 seconds. This damage is increased by 25% when hitting targets within 50 feet of your Ritual Nexus.",
       "category": "Ability"
     },
     {
@@ -1264,7 +1264,7 @@
       "incant": "6.0s cast",
       "cooldown": "26s cooldown",
       "note": "",
-      "description": "You call forth ferocious winds for up to 6 seconds, knocking back players within 35 feet of you a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds. If under Harbinger of Change, all group members within 50ft will be healed for 169 health per second. If under Harbinger of Doom, you will inflict 234 Corporeal damage per second to all enemies affected by the winds.",
+      "description": "You call forth ferocious winds for up to 6 seconds, knocking back players within 25 feet of you a short distance without granting them immunity, and will knock down monsters for 3 seconds. Targets cannot be knocked back more than once every 1.5 seconds. If under Harbinger of Change, all group members within 50ft will be healed for 169 health per second. If under Harbinger of Doom, you will inflict 234 Corporeal damage per second to all enemies affected by the winds.",
       "category": "Ability"
     },
     {
@@ -1279,7 +1279,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Inflicts 1200 damage to all targets within 35 feet of you, making heals 50% less effective on them for 10 seconds.",
+      "description": "Inflicts 1200 damage to all targets within 25 feet of you, making heals 50% less effective on them for 10 seconds.",
       "category": "Morale"
     }
   ]

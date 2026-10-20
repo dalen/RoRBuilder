@@ -307,7 +307,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A summoning wave passes over enemies within 35 feet of you, calling forth horrific tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
+      "description": "A summoning wave passes over enemies within 25 feet of you, calling forth horrific tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
     },
     {
@@ -412,7 +412,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You call forth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close, dealing 343 damage to all enemies within 40 feet and staggering them for 3 seconds, preventing all actions until they take damage.",
+      "description": "You call forth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close, dealing 343 damage to all enemies within 30 feet and staggering them for 3 seconds, preventing all actions until they take damage.",
       "category": "Ability"
     },
     {
@@ -457,7 +457,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You remove stagger effects from an ally and five other allies within 35 feet and additionally granting them 3 seconds of Unstoppable..",
+      "description": "You remove stagger effects from an ally and five other allies within 25 feet and additionally granting them 3 seconds of Unstoppable..",
       "category": "Ability"
     },
     {
@@ -502,7 +502,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "Requires a summoned minion.",
-      "description": "You force so much power into your daemon that it explodes from within, dealing 370 Spirit damage to all targets within 35 feet, knocking them down for 3 seconds.",
+      "description": "You force so much power into your daemon that it explodes from within, dealing 370 Spirit damage to all targets within 25 feet, knocking them down for 3 seconds.",
       "category": "Ability"
     },
     {
@@ -592,7 +592,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Winds tear out from your target, dealing 300 damage to them and everyone within 30 feet every second for 4 seconds.",
+      "description": "Winds tear out from your target, dealing 300 damage to them and everyone within 20 feet every second for 4 seconds.",
       "category": "Morale"
     },
     {
@@ -682,7 +682,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1800 damage to all enemies within 35 feet, and for the next 10 seconds your cast times are reduced by 50%, cost 25% less Action Points and you cannot be set back during this time.",
+      "description": "Deals 1800 damage to all enemies within 25 feet, and for the next 10 seconds your cast times are reduced by 50%, cost 25% less Action Points and you cannot be set back during this time.",
       "category": "Morale"
     },
     {
@@ -922,7 +922,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You strip away the Spiritual protections of everyone 30 feet from your target, reducing their Spirit resistance by 240 and dealing 560 Spirit damage over 20 seconds.",
+      "description": "You strip away the Spiritual protections of everyone 20 feet from your target, reducing their Spirit resistance by 240 and dealing 560 Spirit damage over 20 seconds.",
       "category": "Ability"
     },
     {
@@ -952,7 +952,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Flamer hurls a gout of daemonic fire that will strike its target and those 30 feet around them, dealing 296 Spirit damage over 4 seconds.",
+      "description": "Your Flamer hurls a gout of daemonic fire that will strike its target and those 20 feet around them, dealing 296 Spirit damage over 4 seconds.",
       "category": "Ability"
     },
     {
@@ -967,7 +967,7 @@
       "incant": "1.0s cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A surge of chaotic bliss overcomes your target, dealing 403 Spirit damage.  The victim and any other enemies within 30 feet of them are also interrupted, cancelling any abilities that they are building up. This ability will continue to build up even if you move.",
+      "description": "A surge of chaotic bliss overcomes your target, dealing 403 Spirit damage.  The victim and any other enemies within 20 feet of them are also interrupted, cancelling any abilities that they are building up. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -982,7 +982,7 @@
       "incant": "1.0s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "Chaotic swirls of power inflict 1055 Spirit damage over 15 seconds to your target and those within 30 feet of them. This ability will continue to build up even if you move.",
+      "description": "Chaotic swirls of power inflict 1055 Spirit damage over 15 seconds to your target and those within 20 feet of them. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
     {
@@ -1027,7 +1027,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Grows a seed inside your target dealing 375 Spirit damage over 5 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal 255 Spirit damage to all targets within 30 feet.",
+      "description": "Grows a seed inside your target dealing 375 Spirit damage over 5 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal 255 Spirit damage to all targets within 20 feet.",
       "category": "Ability"
     },
     {
@@ -1057,7 +1057,7 @@
       "incant": "6.0s cast",
       "cooldown": "16s cooldown",
       "note": "",
-      "description": "Summons a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 30 feet of the area for 6 seconds, and snares them by 20%. If there are multiple Tzeentch's Firestorms targeting the same area, only the highest level one will deal damage.",
+      "description": "Summons a great column of wind and flame that deals 365 Spirit damage every 2 seconds to all targets within 20 feet of the area for 6 seconds, and snares them by 20%. If there are multiple Tzeentch's Firestorms targeting the same area, only the highest level one will deal damage.",
       "category": "Ability"
     },
     {
@@ -1087,7 +1087,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Summons a cloud of caustic mist that deals 112 Spirit damage every 2 seconds to targets within 30 feet of the summoning point. After 10 seconds  the cloud doubles in strength, dealing 226 Spirit damage and 10 seconds later will double in strength again, dealing 339 Spirit damage.<BR> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
+      "description": "Summons a cloud of caustic mist that deals 112 Spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds  the cloud doubles in strength, dealing 226 Spirit damage and 10 seconds later will double in strength again, dealing 339 Spirit damage.<BR> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
       "category": "Ability"
     },
     {
@@ -1102,7 +1102,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 2400 damage to all targets in a line in front of you up to 75 feet away.",
+      "description": "Deals 2400 damage to all targets in a line in front of you up to 65 feet away.",
       "category": "Morale"
     },
     {
@@ -1117,7 +1117,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "A daemonic wave that warps the air in front of you dealing 812 Spirit damage over 9 seconds to all targets 50 feet in front of you.",
+      "description": "A daemonic wave that warps the air in front of you dealing 812 Spirit damage over 9 seconds to all targets 40 feet in front of you.",
       "category": "Ability"
     },
     {
@@ -1132,7 +1132,7 @@
       "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ethereal tentacle swipes all enemies 50 feet in front of you for 278 Spirit damage.",
+      "description": "An ethereal tentacle swipes all enemies 40 feet in front of you for 278 Spirit damage.",
       "category": "Ability"
     },
     {
@@ -1147,7 +1147,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Blue Horror spews out a cone of daemonic energy that inflicts 214 Spirit damage to targets up to 50 feet in front of Horror.",
+      "description": "Your Blue Horror spews out a cone of daemonic energy that inflicts 214 Spirit damage to targets up to 40 feet in front of Horror.",
       "category": "Ability"
     },
     {
@@ -1177,7 +1177,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Blue Horror releases a field of energy dealing 194 Elemental damage every second to all targets within 35 feet for 3 seconds.",
+      "description": "Your Blue Horror releases a field of energy dealing 194 Elemental damage every second to all targets within 25 feet for 3 seconds.",
       "category": "Ability"
     },
     {
@@ -1207,7 +1207,7 @@
       "incant": "3.0s cast",
       "cooldown": "8s cooldown",
       "note": "",
-      "description": "You channel warping flame through your disk, dealing 231 Elemental damage to all targets within 35 feet of you every second for 3 seconds. Each pulse reduces your minion's cooldowns by 1 second if they are within range.",
+      "description": "You channel warping flame through your disk, dealing 231 Elemental damage to all targets within 25 feet of you every second for 3 seconds. Each pulse reduces your minion's cooldowns by 1 second if they are within range.",
       "category": "Ability"
     },
     {
@@ -1237,7 +1237,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you summon a Daemon, it will restore 20 Action Points to everyone within 35 feet every 2 seconds.",
+      "description": "When you summon a Daemon, it will restore 20 Action Points to everyone within 25 feet every 2 seconds.",
       "category": "CareerTactic"
     },
     {
@@ -1312,7 +1312,7 @@
       "incant": "2.0s cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 75 feet of the vortex towards its center and then snaring everyone within 35 feet a second later by 30% for 5 seconds. Monsters will be knocked down by the initial pull.",
+      "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 65 feet of the vortex towards its center and then snaring everyone within 25 feet a second later by 30% for 5 seconds. Monsters will be knocked down by the initial pull.",
       "category": "Ability"
     },
     {

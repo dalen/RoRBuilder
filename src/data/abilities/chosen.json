@@ -255,7 +255,7 @@
       "incant": "12s cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
-      "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds.  You will also defend all allies behind you, up to 60 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back.  Allies may have this effect stacked on them up to 3 times.<BR>This effect will end if you break your concentration, or run out of action points.",
+      "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds.  You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back.  Allies may have this effect stacked on them up to 3 times.<BR>This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
     {
@@ -405,7 +405,7 @@
       "incant": "3.0s cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second  for 3 seconds, up to 75 feet away, for as long as you maintain your concentration.",
+      "description": "You repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second  for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale"
     },
     {
@@ -450,7 +450,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 35 feet of them, reducing their damage to 60% for 7 seconds.",
+      "description": "A loud shout that startles your target and all enemies within 25 feet of them, reducing their damage to 60% for 7 seconds.",
       "category": "Morale"
     },
     {
@@ -645,7 +645,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 35 feet of you, reducing their Strength by 100. During this time, the Strength of any groupmates within 100 feet is increased by 100.",
+      "description": "You call upon the power of the warp to instill a bone chilling fear in your opponents within 25 feet of you, reducing their Strength by 100. During this time, the Strength of any groupmates within 100 feet is increased by 100.",
       "category": "Ability"
     },
     {
@@ -705,7 +705,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 35 feet will take 148 Spirit damage every 3 seconds.",
+      "description": "You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 25 feet will take 148 Spirit damage every 3 seconds.",
       "category": "Ability"
     },
     {
@@ -750,7 +750,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "The power of the Warp encases you in a terrifying visage. All enemies within 35 feet will lose 20 Action Points every 5 seconds. All groupmates within 110 feet will regain 20 Action Points every 5 seconds.",
+      "description": "The power of the Warp encases you in a terrifying visage. All enemies within 25 feet will lose 20 Action Points every 5 seconds. All groupmates within 100 feet will regain 20 Action Points every 5 seconds.",
       "category": "Ability"
     },
     {
@@ -810,7 +810,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires Great Weapon",
-      "description": "Your Demonic blade overpowers your enemy's defense causing 184 Spirit damage to all enemies within 35 feet in front of you. This attack is undefendable. The cooldown of Rending Blade is reduced by 1 second for each active Aura of Dread.",
+      "description": "Your Demonic blade overpowers your enemy's defense causing 184 Spirit damage to all enemies within 25 feet in front of you. This attack is undefendable. The cooldown of Rending Blade is reduced by 1 second for each active Aura of Dread.",
       "category": "Ability"
     },
     {
@@ -825,7 +825,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A surge of chaotic energy ripples forward inflicting 1800 damage over 10 seconds to everyone 50 feet in front of you. The surge of power clings to its victims, snaring them by 30% for 10 seconds.",
+      "description": "A surge of chaotic energy ripples forward inflicting 1800 damage over 10 seconds to everyone 40 feet in front of you. The surge of power clings to its victims, snaring them by 30% for 10 seconds.",
       "category": "Morale"
     },
     {
@@ -855,7 +855,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the Toughness of all enemies within 35 feet by 100. During this time, group members within 100 feet are emboldened, increasing their Toughness by 100.",
+      "description": "You call upon the power of the warp to wither your opponents' mind and muscles, reducing the Toughness of all enemies within 25 feet by 100. During this time, group members within 100 feet are emboldened, increasing their Toughness by 100.",
       "category": "Ability"
     },
     {
@@ -930,7 +930,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Bane Shield will now also protect any of your groupmates within 40 feet and last 7 seconds longer.",
+      "description": "Bane Shield will now also protect any of your groupmates within 30 feet and last 7 seconds longer.",
       "category": "CareerTactic"
     },
     {
@@ -945,7 +945,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within 35 feet, causing their spells to build up 25% slower.",
+      "description": "The power of the Warp radiates out from you, placing horrifying visions inside the heads of all foes within 25 feet, causing their spells to build up 25% slower.",
       "category": "Ability"
     },
     {
@@ -1065,7 +1065,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 35 feet will have all their resistances reduced by 120. During this time, groupmates within 100 feet have all their resistances increased by 240.",
+      "description": "You tear at the fabric of reality, warping the world around you. Enemies within 25 feet will have all their resistances reduced by 120. During this time, groupmates within 100 feet have all their resistances increased by 240.",
       "category": "Ability"
     },
     {
@@ -1140,7 +1140,7 @@
       "incant": "Instant cast",
       "cooldown": "10s cooldown",
       "note": "May only use three Chaotic Auras at a time",
-      "description": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within 35 feet to be 25% less effective.",
+      "description": "The power of the Warp melds with the mind of your enemies, causing healing on any foes within 25 feet to be 25% less effective.",
       "category": "Ability"
     },
     {
@@ -1170,7 +1170,7 @@
       "incant": "Instant cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "You shake the very earth, dealing 217 Spirit damage to all opponents within 50 feet in front of you, staggering everyone for up to 4 seconds, preventing all actions unless they are damaged. The duration of Quake is increased by 0.5 seconds for each active Aura of Discord.",
+      "description": "You shake the very earth, dealing 217 Spirit damage to all opponents within 40 feet in front of you, staggering everyone for up to 4 seconds, preventing all actions unless they are damaged. The duration of Quake is increased by 0.5 seconds for each active Aura of Discord.",
       "category": "Ability"
     },
     {
@@ -1215,7 +1215,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A thunderous curse shatters the air, inflicting 1800 damage to all targets within 35 feet and dispelling a blessing.",
+      "description": "A thunderous curse shatters the air, inflicting 1800 damage to all targets within 25 feet and dispelling a blessing.",
       "category": "Morale"
     }
   ]

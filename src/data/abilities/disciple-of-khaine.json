@@ -157,7 +157,7 @@
       "incant": "Instant cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 50 feet. Only one effect of this type may be on a player at a time.",
+      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 40 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
     {
@@ -292,7 +292,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 600 damage to all enemies within 35 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
+      "description": "Deals 600 damage to all enemies within 25 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
     {
@@ -322,7 +322,7 @@
       "incant": "Instant cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "All enemies within 40 feet hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters. You will also deal 50% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
+      "description": "All enemies within 30 feet hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters. You will also deal 50% damage to them until the effect is broken.<BR>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
       "category": "Ability"
     },
     {
@@ -637,7 +637,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Raw power erupts in a 35 feet area around you, inflicting 1200 damage and Staggering all enemies around you for 6 seconds, preventing all actions unless they're damaged.",
+      "description": "Raw power erupts in a 25 feet area around you, inflicting 1200 damage and Staggering all enemies around you for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Morale"
     },
     {
@@ -862,7 +862,7 @@
       "incant": "3.0s cast",
       "cooldown": "13s cooldown",
       "note": "Requires 20 Soul Essence per second",
-      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds.  Each second, all allies within 35 feet of you will regain 246 health, and you will lose 20 Soul Essence.  This effect will end if you lose your concentration, or run out of Soul Essence to power it with.",
+      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds.  Each second, all allies within 25 feet of you will regain 246 health, and you will lose 20 Soul Essence.  This effect will end if you lose your concentration, or run out of Soul Essence to power it with.",
       "category": "Ability"
     },
     {
@@ -952,7 +952,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You lash out at all opponents in front of you up to 60 feet away, dealing 138 damage and regaining 15 Soul Essence for each enemy hit.",
+      "description": "You lash out at all opponents in front of you up to 50 feet away, dealing 138 damage and regaining 15 Soul Essence for each enemy hit.",
       "category": "Ability"
     },
     {
@@ -997,7 +997,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires 25 Soul Essence<br>Requires Dual Wield",
-      "description": "Curses all targets within 35 feet of you for 444 damage over 9 seconds. Increases your chance to critically hit affected enemies with Essence Lash by 10%.",
+      "description": "Curses all targets within 25 feet of you for 444 damage over 9 seconds. Increases your chance to critically hit affected enemies with Essence Lash by 10%.",
       "category": "Ability"
     },
     {
@@ -1327,7 +1327,7 @@
       "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You call upon the Word of Pain, dealing 300 damage every second to all enemies in a 35 feet area around you for the next 4 seconds. Reveling in their agony, your group members within 100 feet are healed for all damage inflicted by the Word of Pain.",
+      "description": "You call upon the Word of Pain, dealing 300 damage every second to all enemies in a 25 feet area around you for the next 4 seconds. Reveling in their agony, your group members within 100 feet are healed for all damage inflicted by the Word of Pain.",
       "category": "Morale"
     }
   ]
